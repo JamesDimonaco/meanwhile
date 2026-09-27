@@ -1,0 +1,308 @@
+{
+  "id": "inca",
+  "region": "south-america",
+  "wikidataId": "Q28573",
+  "name": {
+    "en": "Inca Empire",
+    "es": "Imperio inca",
+    "zh": "印加帝国"
+  },
+  "nativeName": {
+    "text": "Tawantinsuyu",
+    "lang": "qu"
+  },
+  "aliases": [
+    "Inca",
+    "Inka",
+    "Incas",
+    "Tahuantinsuyo",
+    "Tawantinsuyu",
+    "印加"
+  ],
+  "description": {
+    "en": "The largest state in the Americas before European contact. From Cusco, the Inca ruled millions of people along the Andes, from Ecuador to central Chile, holding the empire together with roads, storehouses and a labour tax instead of money or writing.",
+    "es": "El mayor estado de América antes del contacto europeo. Desde Cusco, los incas gobernaron a millones de personas a lo largo de los Andes, de Ecuador al centro de Chile, y mantuvieron unido el imperio con caminos, depósitos y un tributo en trabajo, sin moneda ni escritura.",
+    "zh": "欧洲人到来之前美洲最大的国家。印加人以库斯科为中心，统治着安第斯山脉沿线从厄瓜多尔到智利中部的数百万人口，靠道路、仓储和劳役税而非货币或文字维系帝国。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "empire",
+      "earliestStart": 1400,
+      "latestStart": 1438,
+      "earliestEnd": 1532,
+      "latestEnd": 1572,
+      "sources": [
+        {
+          "citation": "Rowe, John H. (1945). \"Absolute Chronology in the Andean Area.\" American Antiquity 10(3): 265–284.",
+          "url": "https://doi.org/10.2307/275130"
+        },
+        {
+          "citation": "Burger, Richard L., Lucy C. Salazar, Jason Nesbitt, Eden Washburn & Lars Fehren-Schmitz (2021). \"New AMS dates for Machu Picchu: results and implications.\" Antiquity 95(383): 1265–1279.",
+          "url": "https://doi.org/10.15184/aqy.2021.99"
+        },
+        {
+          "citation": "Hemming, John (1970). The Conquest of the Incas. Macmillan."
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The 1438 start comes from Rowe's reading of colonial chronicles; radiocarbon dates suggest expansion began decades earlier. Spain toppled the empire in 1532–33, but an Inca state held out at Vilcabamba until 1572.",
+        "es": "El inicio en 1438 procede de la lectura de las crónicas coloniales por Rowe; las dataciones por radiocarbono sugieren que la expansión empezó décadas antes. España derrocó el imperio en 1532–33, pero un estado inca resistió en Vilcabamba hasta 1572.",
+        "zh": "1438年这一起点来自罗(Rowe)对殖民时期编年史的解读；放射性碳测年显示扩张可能早了数十年。西班牙在1532—1533年推翻了帝国，但印加政权在比尔卡班巴一直坚持到1572年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "machu-picchu",
+      "start": 1420,
+      "type": "founding",
+      "title": {
+        "en": "Machu Picchu is built and occupied as a royal estate",
+        "es": "Se construye y ocupa Machu Picchu como finca real",
+        "zh": "马丘比丘作为王室庄园建成并投入使用"
+      },
+      "sources": [
+        {
+          "citation": "Burger, Richard L., Lucy C. Salazar, Jason Nesbitt, Eden Washburn & Lars Fehren-Schmitz (2021). \"New AMS dates for Machu Picchu: results and implications.\" Antiquity 95(383): 1265–1279.",
+          "url": "https://doi.org/10.15184/aqy.2021.99"
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Historic Sanctuary of Machu Picchu\" (inscribed 1983).",
+          "url": "https://whc.unesco.org/en/list/274"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Radiocarbon dating puts the first occupation around 1420, about two decades before the chronicle-based date.",
+        "es": "La datación por radiocarbono sitúa la primera ocupación hacia 1420, unas dos décadas antes que la fecha basada en las crónicas.",
+        "zh": "放射性碳测年显示最早的使用约在1420年，比依据编年史的年份早约二十年。"
+      },
+      "place": {
+        "name": {
+          "en": "Machu Picchu",
+          "es": "Machu Picchu",
+          "zh": "马丘比丘"
+        },
+        "lat": -13.1631,
+        "lon": -72.545
+      }
+    },
+    {
+      "id": "pachacuti",
+      "start": 1438,
+      "type": "ruler",
+      "title": {
+        "en": "Pachacuti defeats the Chanka and becomes Sapa Inca, beginning the empire's expansion",
+        "es": "Pachacútec derrota a los chancas y se convierte en Sapa Inca, iniciando la expansión del imperio",
+        "zh": "帕查库特克击败昌卡人成为萨帕印加，开启帝国扩张"
+      },
+      "sources": [
+        {
+          "citation": "Rowe, John H. (1945). \"Absolute Chronology in the Andean Area.\" American Antiquity 10(3): 265–284.",
+          "url": "https://doi.org/10.2307/275130"
+        },
+        {
+          "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Date from Rowe (1945); radiocarbon evidence suggests an earlier start.",
+        "es": "Fecha según Rowe (1945); el radiocarbono sugiere un inicio anterior.",
+        "zh": "年份据罗(1945)；放射性碳证据显示起点可能更早。"
+      }
+    },
+    {
+      "id": "qhapaq-nan",
+      "start": 1438,
+      "end": 1532,
+      "type": "invention",
+      "title": {
+        "en": "The Qhapaq Ñan road network grows to link the empire over some 30,000 km",
+        "es": "La red de caminos Qhapaq Ñan crece hasta unir el imperio a lo largo de unos 30 000 km",
+        "zh": "印加路网（Qhapaq Ñan）扩展至约三万公里，贯通整个帝国"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Qhapaq Ñan, Andean Road System\" (inscribed 2014).",
+          "url": "https://whc.unesco.org/en/list/1459"
+        },
+        {
+          "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
+        }
+      ]
+    },
+    {
+      "id": "topa-inca",
+      "start": 1471,
+      "type": "ruler",
+      "title": {
+        "en": "Topa Inca Yupanqui becomes Sapa Inca and pushes the empire into Chile and Ecuador",
+        "es": "Túpac Inca Yupanqui se convierte en Sapa Inca y extiende el imperio hacia Chile y Ecuador",
+        "zh": "图帕克·印卡·尤潘基成为萨帕印加，将帝国扩展至智利和厄瓜多尔"
+      },
+      "sources": [
+        {
+          "citation": "Rowe, John H. (1945). \"Absolute Chronology in the Andean Area.\" American Antiquity 10(3): 265–284.",
+          "url": "https://doi.org/10.2307/275130"
+        },
+        {
+          "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Reign dates follow Rowe's chronology.",
+        "es": "Las fechas del reinado siguen la cronología de Rowe.",
+        "zh": "在位年份依据罗的年表。"
+      }
+    },
+    {
+      "id": "civil-war",
+      "start": 1529,
+      "end": 1532,
+      "type": "conflict",
+      "title": {
+        "en": "Civil war between the brothers Huáscar and Atahualpa",
+        "es": "Guerra civil entre los hermanos Huáscar y Atahualpa",
+        "zh": "瓦斯卡尔与阿塔瓦尔帕兄弟内战"
+      },
+      "sources": [
+        {
+          "citation": "Hemming, John (1970). The Conquest of the Incas. Macmillan."
+        },
+        {
+          "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Chronicles disagree on when the war began.",
+        "es": "Las crónicas no coinciden en cuándo empezó la guerra.",
+        "zh": "各编年史对内战开始的年份说法不一。"
+      }
+    },
+    {
+      "id": "cajamarca",
+      "start": 1532,
+      "type": "conflict",
+      "title": {
+        "en": "Spanish forces under Francisco Pizarro capture Atahualpa at Cajamarca",
+        "es": "Las fuerzas españolas de Francisco Pizarro capturan a Atahualpa en Cajamarca",
+        "zh": "弗朗西斯科·皮萨罗率领的西班牙军队在卡哈马卡俘虏阿塔瓦尔帕"
+      },
+      "sources": [
+        {
+          "citation": "Hemming, John (1970). The Conquest of the Incas. Macmillan."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Inca.\"",
+          "url": "https://www.britannica.com/topic/Inca"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Cajamarca",
+          "es": "Cajamarca",
+          "zh": "卡哈马卡"
+        },
+        "lat": -7.1617,
+        "lon": -78.5128
+      }
+    },
+    {
+      "id": "fall-of-cusco",
+      "start": 1533,
+      "type": "collapse",
+      "title": {
+        "en": "Atahualpa is executed and Spanish forces enter Cusco",
+        "es": "Atahualpa es ejecutado y las fuerzas españolas entran en Cusco",
+        "zh": "阿塔瓦尔帕被处决，西班牙军队进入库斯科"
+      },
+      "sources": [
+        {
+          "citation": "Hemming, John (1970). The Conquest of the Incas. Macmillan."
+        },
+        {
+          "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
+        }
+      ]
+    },
+    {
+      "id": "vilcabamba",
+      "start": 1572,
+      "type": "collapse",
+      "title": {
+        "en": "Spanish troops take Vilcabamba and execute Túpac Amaru, the last Inca ruler",
+        "es": "Las tropas españolas toman Vilcabamba y ejecutan a Túpac Amaru, el último soberano inca",
+        "zh": "西班牙军队攻占比尔卡班巴，处决最后一位印加君主图帕克·阿马鲁"
+      },
+      "sources": [
+        {
+          "citation": "Hemming, John (1970). The Conquest of the Incas. Macmillan."
+        },
+        {
+          "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "khipu",
+      "start": 1438,
+      "end": 1532,
+      "text": {
+        "en": "Inca officials kept census and tribute records on khipus: bundles of knotted cords, with no written script.",
+        "es": "Los funcionarios incas llevaban censos y registros de tributo en quipus: manojos de cuerdas anudadas, sin escritura.",
+        "zh": "印加官员用奇普——成束的打结绳子——记录人口和贡赋，而没有文字。"
+      },
+      "sources": [
+        {
+          "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
+        }
+      ]
+    },
+    {
+      "id": "chaski-runners",
+      "start": 1438,
+      "end": 1532,
+      "text": {
+        "en": "Relay runners called chaskis carried messages along the roads, handing them on at waystations.",
+        "es": "Corredores de relevos llamados chasquis llevaban mensajes por los caminos y los pasaban en las postas.",
+        "zh": "被称为“查斯基”的接力信使沿路传递消息，在驿站交接。"
+      },
+      "sources": [
+        {
+          "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Qhapaq Ñan, Andean Road System\" (inscribed 2014).",
+          "url": "https://whc.unesco.org/en/list/1459"
+        }
+      ]
+    },
+    {
+      "id": "royal-estate",
+      "start": 1420,
+      "end": 1532,
+      "text": {
+        "en": "Machu Picchu was a country estate for the emperor Pachacuti and his court.",
+        "es": "Machu Picchu era una finca de campo del emperador Pachacútec y su corte.",
+        "zh": "马丘比丘是帕查库特克皇帝及其宫廷的乡间庄园。"
+      },
+      "sources": [
+        {
+          "citation": "Burger, Richard L., Lucy C. Salazar, Jason Nesbitt, Eden Washburn & Lars Fehren-Schmitz (2021). \"New AMS dates for Machu Picchu: results and implications.\" Antiquity 95(383): 1265–1279.",
+          "url": "https://doi.org/10.15184/aqy.2021.99"
+        }
+      ]
+    }
+  ]
+}

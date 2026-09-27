@@ -1,0 +1,277 @@
+{
+  "id": "shang",
+  "region": "china",
+  "wikidataId": "Q128938",
+  "name": {
+    "en": "Shang dynasty",
+    "es": "Dinastía Shang",
+    "zh": "商朝"
+  },
+  "nativeName": {
+    "text": "商",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Shang",
+    "Yin",
+    "殷",
+    "商",
+    "Shang chao",
+    "shāng"
+  ],
+  "description": {
+    "en": "China's first dynasty confirmed by its own writing. Shang kings ruled the middle Yellow River valley from a series of capitals. The last, Yin, near modern Anyang, has given archaeologists royal tombs, bronze foundries and over 100,000 inscribed oracle bones.",
+    "es": "La primera dinastía china confirmada por su propia escritura. Los reyes Shang gobernaron el valle medio del río Amarillo desde varias capitales. La última, Yin, cerca de la actual Anyang, ha dado a los arqueólogos tumbas reales, talleres de bronce y más de 100 000 huesos oraculares inscritos.",
+    "zh": "第一个由自身文字证实的中国王朝。商王先后在黄河中游多地建都。最后的都城殷位于今安阳附近，考古学家在那里发现了王陵、青铜作坊和十万余片刻字甲骨。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -1599,
+      "latestStart": -1499,
+      "earliestEnd": -1049,
+      "latestEnd": -1045,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Shang dynasty\" (c. 1500 – c. 1050 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h9sf6"
+        },
+        {
+          "citation": "Berman, Merrick Lex (ed.) (2015). CHGIS: Major Chinese Periods Chronology, \"Shang Dynasty\" (1600–1046 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0fp7wvqcws"
+        }
+      ],
+      "periodoId": "p08m57h9sf6",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "No Shang date is fixed by contemporary records. The British Museum gives c. 1500 – c. 1050 BCE; the Xia–Shang–Zhou Chronology Project (2000) proposed 1600–1046 BCE, and other scholars place the fall anywhere from 1122 to 1027 BCE.",
+        "es": "Ninguna fecha Shang está fijada por registros de la época. El Museo Británico da c. 1500 – c. 1050 a. e. c.; el Proyecto de Cronología Xia–Shang–Zhou (2000) propuso 1600–1046 a. e. c., y otros especialistas sitúan la caída entre 1122 y 1027 a. e. c.",
+        "zh": "商代没有任何年份由同时代记录确定。大英博物馆定为约公元前1500年至约公元前1050年；夏商周断代工程（2000年）提出公元前1600年至公元前1046年，另有学者将商亡定在公元前1122年至公元前1027年之间。"
+      }
+    },
+    {
+      "id": "traditional",
+      "label": {
+        "en": "Traditional chronology",
+        "es": "Cronología tradicional",
+        "zh": "传统纪年"
+      },
+      "earliestStart": -1765,
+      "latestStart": -1765,
+      "earliestEnd": -1121,
+      "latestEnd": -1121,
+      "sources": [
+        {
+          "citation": "Library of Congress Subject Headings, \"China--History--Shang dynasty, 1766-1122 B.C.\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3zxjn"
+        }
+      ],
+      "periodoId": "p06c6g3zxjn",
+      "default": false,
+      "disputed": true
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": -1599,
+      "type": "founding",
+      "title": {
+        "en": "Tang overthrows the Xia and founds the Shang dynasty",
+        "es": "Tang derroca a los Xia y funda la dinastía Shang",
+        "zh": "商汤灭夏，建立商朝"
+      },
+      "sources": [
+        {
+          "citation": "Li Xueqin (2002). \"The Xia-Shang-Zhou Chronology Project: Methodology and Results.\" Journal of East Asian Archaeology 4: 321–333.",
+          "url": "https://doi.org/10.1163/156852302322454585"
+        },
+        {
+          "citation": "Lee, Yun Kuen (2002). \"Building the Chronology of Early Chinese History.\" Asian Perspectives 41(1): 15–42.",
+          "url": "https://doi.org/10.1353/asi.2002.0006"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Date proposed by the Xia–Shang–Zhou Chronology Project; traditional accounts say 1766 BCE.",
+        "es": "Fecha propuesta por el Proyecto de Cronología Xia–Shang–Zhou; los relatos tradicionales dicen 1766 a. e. c.",
+        "zh": "年份为夏商周断代工程所定；传统说法为公元前1766年。"
+      }
+    },
+    {
+      "id": "capital-at-yin",
+      "start": -1299,
+      "type": "founding",
+      "title": {
+        "en": "King Pan Geng moves the capital to Yin, near today's Anyang",
+        "es": "El rey Pan Geng traslada la capital a Yin, cerca de la actual Anyang",
+        "zh": "盘庚迁都于殷（今安阳附近）"
+      },
+      "sources": [
+        {
+          "citation": "Keightley, David N. (1999). \"The Shang: China's First Historical Dynasty.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 232–291. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.006"
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Yin Xu\" (inscribed 2006).",
+          "url": "https://whc.unesco.org/en/list/1114"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The move is recorded in later texts; most remains excavated at Yinxu date from Wu Ding's reign onward.",
+        "es": "El traslado consta en textos posteriores; la mayoría de los restos excavados en Yinxu datan del reinado de Wu Ding en adelante.",
+        "zh": "迁都见于后世文献；殷墟出土的遗存大多属于武丁及以后时期。"
+      }
+    },
+    {
+      "id": "wu-ding",
+      "start": -1249,
+      "end": -1191,
+      "type": "ruler",
+      "title": {
+        "en": "Reign of Wu Ding, the best-recorded Shang king",
+        "es": "Reinado de Wu Ding, el rey Shang mejor documentado",
+        "zh": "武丁在位，是记载最丰富的商王"
+      },
+      "sources": [
+        {
+          "citation": "Keightley, David N. (1999). \"The Shang: China's First Historical Dynasty.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 232–291. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.006"
+        },
+        {
+          "citation": "Li Xueqin (2002). \"The Xia-Shang-Zhou Chronology Project: Methodology and Results.\" Journal of East Asian Archaeology 4: 321–333.",
+          "url": "https://doi.org/10.1163/156852302322454585"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Reign dates from the Xia–Shang–Zhou Chronology Project.",
+        "es": "Fechas del reinado según el Proyecto de Cronología Xia–Shang–Zhou.",
+        "zh": "在位年份据夏商周断代工程。"
+      }
+    },
+    {
+      "id": "oracle-bones",
+      "start": -1249,
+      "end": -1045,
+      "type": "invention",
+      "title": {
+        "en": "Diviners carve questions and answers on oracle bones, the earliest large body of Chinese writing",
+        "es": "Los adivinos graban preguntas y respuestas en huesos oraculares, el primer gran corpus de escritura china",
+        "zh": "占卜者在甲骨上刻写卜辞，这是现存最早的大量汉字文献"
+      },
+      "sources": [
+        {
+          "citation": "Keightley, David N. (1999). \"The Shang: China's First Historical Dynasty.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 232–291. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.006"
+        },
+        {
+          "citation": "Bagley, Robert (1999). \"Shang Archaeology.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 124–231. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.005"
+        }
+      ]
+    },
+    {
+      "id": "chariots",
+      "start": -1199,
+      "type": "invention",
+      "title": {
+        "en": "Horse-drawn chariots appear in China, buried with their horses at Anyang",
+        "es": "Aparecen en China los carros tirados por caballos, enterrados con sus caballos en Anyang",
+        "zh": "马拉战车出现在中国，与马一同葬于安阳"
+      },
+      "sources": [
+        {
+          "citation": "Shaughnessy, Edward L. (1988). \"Historical Perspectives on the Introduction of the Chariot into China.\" Harvard Journal of Asiatic Studies 48(1): 189–237.",
+          "url": "https://doi.org/10.2307/2719276"
+        },
+        {
+          "citation": "Bagley, Robert (1999). \"Shang Archaeology.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 124–231. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.005"
+        }
+      ]
+    },
+    {
+      "id": "battle-of-muye",
+      "start": -1045,
+      "type": "collapse",
+      "title": {
+        "en": "Zhou armies defeat the last Shang king, Di Xin, at Muye",
+        "es": "Los ejércitos Zhou derrotan al último rey Shang, Di Xin, en Muye",
+        "zh": "周军在牧野击败商朝末代君主帝辛"
+      },
+      "sources": [
+        {
+          "citation": "Shaughnessy, Edward L. (1999). \"Western Zhou History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 292–351. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.007"
+        },
+        {
+          "citation": "Li Xueqin (2002). \"The Xia-Shang-Zhou Chronology Project: Methodology and Results.\" Journal of East Asian Archaeology 4: 321–333.",
+          "url": "https://doi.org/10.1163/156852302322454585"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "1046 BCE is the Chronology Project's date; proposals range from 1122 to 1027 BCE.",
+        "es": "1046 a. e. c. es la fecha del Proyecto de Cronología; las propuestas van de 1122 a 1027 a. e. c.",
+        "zh": "公元前1046年为断代工程的结论；各家说法从公元前1122年到公元前1027年不等。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "bone-divination",
+      "start": -1249,
+      "end": -1045,
+      "text": {
+        "en": "Shang kings asked their ancestors questions by heating ox bones and turtle shells until they cracked, then carved the answer into the bone.",
+        "es": "Los reyes Shang consultaban a sus antepasados calentando huesos de buey y caparazones de tortuga hasta que se agrietaban, y luego grababan la respuesta en el hueso.",
+        "zh": "商王通过灼烧牛骨和龟甲使其开裂来向祖先问卜，再把结果刻在甲骨上。"
+      },
+      "sources": [
+        {
+          "citation": "Keightley, David N. (1999). \"The Shang: China's First Historical Dynasty.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 232–291. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.006"
+        }
+      ]
+    },
+    {
+      "id": "giant-bronzes",
+      "start": -1249,
+      "end": -1045,
+      "text": {
+        "en": "Foundries at Anyang cast ritual bronzes in clay moulds; the largest surviving vessel weighs over 800 kg.",
+        "es": "Los talleres de Anyang fundían bronces rituales en moldes de arcilla; la mayor vasija conservada pesa más de 800 kg.",
+        "zh": "安阳的作坊用陶范铸造礼器青铜，现存最大的一件重逾800公斤。"
+      },
+      "sources": [
+        {
+          "citation": "Bagley, Robert (1999). \"Shang Archaeology.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 124–231. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.005"
+        }
+      ]
+    },
+    {
+      "id": "rammed-earth-walls",
+      "start": -1599,
+      "end": -1300,
+      "text": {
+        "en": "Builders at Zhengzhou raised city walls of pounded earth, layer by layer; stretches still stand in the modern city.",
+        "es": "Los constructores de Zhengzhou levantaron murallas de tierra apisonada, capa a capa; aún quedan tramos en pie en la ciudad moderna.",
+        "zh": "郑州的工匠用夯土一层层筑起城墙，部分墙段至今仍矗立在现代城市中。"
+      },
+      "sources": [
+        {
+          "citation": "Bagley, Robert (1999). \"Shang Archaeology.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 124–231. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.005"
+        }
+      ]
+    }
+  ]
+}
