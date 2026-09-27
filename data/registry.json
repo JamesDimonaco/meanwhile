@@ -1,0 +1,214 @@
+{
+  "cultures": [
+    {
+      "id": "erlitou",
+      "region": "china",
+      "label": "Erlitou"
+    },
+    {
+      "id": "shang",
+      "region": "china",
+      "label": "Shang dynasty"
+    },
+    {
+      "id": "western-zhou",
+      "region": "china",
+      "label": "Western Zhou"
+    },
+    {
+      "id": "spring-and-autumn",
+      "region": "china",
+      "label": "Spring and Autumn period"
+    },
+    {
+      "id": "warring-states",
+      "region": "china",
+      "label": "Warring States period"
+    },
+    {
+      "id": "qin",
+      "region": "china",
+      "label": "Qin dynasty"
+    },
+    {
+      "id": "han",
+      "region": "china",
+      "label": "Han dynasty"
+    },
+    {
+      "id": "three-kingdoms",
+      "region": "china",
+      "label": "Three Kingdoms"
+    },
+    {
+      "id": "sui",
+      "region": "china",
+      "label": "Sui dynasty"
+    },
+    {
+      "id": "tang",
+      "region": "china",
+      "label": "Tang dynasty"
+    },
+    {
+      "id": "song",
+      "region": "china",
+      "label": "Song dynasty"
+    },
+    {
+      "id": "yuan",
+      "region": "china",
+      "label": "Yuan dynasty"
+    },
+    {
+      "id": "ming",
+      "region": "china",
+      "label": "Ming dynasty"
+    },
+    {
+      "id": "qing",
+      "region": "china",
+      "label": "Qing dynasty"
+    },
+    {
+      "id": "valdivia",
+      "region": "south-america",
+      "label": "Valdivia"
+    },
+    {
+      "id": "caral-supe",
+      "region": "south-america",
+      "label": "Caral–Supe (Norte Chico)"
+    },
+    {
+      "id": "chavin",
+      "region": "south-america",
+      "label": "Chavín"
+    },
+    {
+      "id": "paracas",
+      "region": "south-america",
+      "label": "Paracas"
+    },
+    {
+      "id": "nazca",
+      "region": "south-america",
+      "label": "Nazca"
+    },
+    {
+      "id": "moche",
+      "region": "south-america",
+      "label": "Moche"
+    },
+    {
+      "id": "tiwanaku",
+      "region": "south-america",
+      "label": "Tiwanaku"
+    },
+    {
+      "id": "wari",
+      "region": "south-america",
+      "label": "Wari"
+    },
+    {
+      "id": "chimu",
+      "region": "south-america",
+      "label": "Chimú"
+    },
+    {
+      "id": "muisca",
+      "region": "south-america",
+      "label": "Muisca"
+    },
+    {
+      "id": "inca",
+      "region": "south-america",
+      "label": "Inca Empire (Tawantinsuyu)"
+    },
+    {
+      "id": "olmec",
+      "region": "mesoamerica",
+      "label": "Olmec"
+    },
+    {
+      "id": "zapotec",
+      "region": "mesoamerica",
+      "label": "Zapotec (Monte Albán)"
+    },
+    {
+      "id": "maya",
+      "region": "mesoamerica",
+      "label": "Maya: one culture, phases preclassic / classic / postclassic"
+    },
+    {
+      "id": "teotihuacan",
+      "region": "mesoamerica",
+      "label": "Teotihuacan"
+    },
+    {
+      "id": "toltec",
+      "region": "mesoamerica",
+      "label": "Toltec"
+    },
+    {
+      "id": "mixtec",
+      "region": "mesoamerica",
+      "label": "Mixtec"
+    },
+    {
+      "id": "aztec",
+      "region": "mesoamerica",
+      "label": "Aztec (Mexica)"
+    },
+    {
+      "id": "neolithic-britain",
+      "region": "europe",
+      "label": "Neolithic Britain (Stonehenge)"
+    },
+    {
+      "id": "minoan",
+      "region": "europe",
+      "label": "Minoan"
+    },
+    {
+      "id": "mycenaean",
+      "region": "europe",
+      "label": "Mycenaean"
+    },
+    {
+      "id": "etruscan",
+      "region": "europe",
+      "label": "Etruscan"
+    },
+    {
+      "id": "ancient-greece",
+      "region": "europe",
+      "label": "Ancient Greece"
+    },
+    {
+      "id": "celtic-iron-age",
+      "region": "europe",
+      "label": "Celtic Iron Age"
+    },
+    {
+      "id": "rome",
+      "region": "europe",
+      "label": "Rome: one culture, phases kingdom / republic / empire / eastern (Byzantine)"
+    },
+    {
+      "id": "vikings",
+      "region": "europe",
+      "label": "Vikings"
+    },
+    {
+      "id": "carolingian-empire",
+      "region": "europe",
+      "label": "Carolingian Empire"
+    },
+    {
+      "id": "holy-roman-empire",
+      "region": "europe",
+      "label": "Holy Roman Empire"
+    }
+  ]
+}
