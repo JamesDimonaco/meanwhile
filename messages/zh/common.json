@@ -1,0 +1,24 @@
+{
+  "appName": "Meanwhile",
+  "tagline": "同一时间，世界上还发生着什么？",
+  "nav": {
+    "home": "搜索",
+    "timeline": "时间线",
+    "credits": "资料来源与致谢"
+  },
+  "language": "语言",
+  "explainerTrigger": "“公元前”和“公元”是什么意思？",
+  "disputed": "有争议",
+  "machineTranslated": "机器翻译，尚未经母语者审校。",
+  "yearsAgo": "约{count, number}年前",
+  "showYearsAgo": "显示距今年数",
+  "eraStyle": "纪年标注",
+  "eraStyleCe": "公元前 / 公元",
+  "eraStyleAd": "公元前 / 公元",
+  "regions": {
+    "china": "中国",
+    "south-america": "南美洲",
+    "mesoamerica": "中美洲",
+    "europe": "欧洲"
+  }
+}

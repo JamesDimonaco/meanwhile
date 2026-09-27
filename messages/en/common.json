@@ -1,0 +1,24 @@
+{
+  "appName": "Meanwhile",
+  "tagline": "What else was happening in the world at the same time?",
+  "nav": {
+    "home": "Search",
+    "timeline": "Timeline",
+    "credits": "Sources and credits"
+  },
+  "language": "Language",
+  "explainerTrigger": "What do BCE and CE mean?",
+  "disputed": "Disputed",
+  "machineTranslated": "Machine-translated, not yet checked by a native speaker.",
+  "yearsAgo": "{count, plural, one {about # year ago} other {about # years ago}}",
+  "showYearsAgo": "Show years ago",
+  "eraStyle": "Era labels",
+  "eraStyleCe": "BCE / CE",
+  "eraStyleAd": "BC / AD",
+  "regions": {
+    "china": "China",
+    "south-america": "South America",
+    "mesoamerica": "Mesoamerica",
+    "europe": "Europe"
+  }
+}

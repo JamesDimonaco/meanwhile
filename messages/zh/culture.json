@@ -1,0 +1,13 @@
+{
+  "keyEvents": "重要事件",
+  "sources": "资料来源",
+  "otherDefinitions": "其他年代界定",
+  "alsoHappening": "{year}前后世界上还发生着",
+  "eventTypes": {
+    "founding": "建立",
+    "ruler": "统治者",
+    "invention": "发明",
+    "conflict": "冲突",
+    "collapse": "衰亡"
+  }
+}

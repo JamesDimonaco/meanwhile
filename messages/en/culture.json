@@ -1,0 +1,13 @@
+{
+  "keyEvents": "Key events",
+  "sources": "Sources",
+  "otherDefinitions": "Other date definitions",
+  "alsoHappening": "Also happening around {year}",
+  "eventTypes": {
+    "founding": "Founding",
+    "ruler": "Ruler",
+    "invention": "Invention",
+    "conflict": "Conflict",
+    "collapse": "Collapse"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "keyEvents": "Acontecimientos clave",
+  "sources": "Fuentes",
+  "otherDefinitions": "Otras definiciones de fechas",
+  "alsoHappening": "También ocurría hacia {year}",
+  "eventTypes": {
+    "founding": "Fundación",
+    "ruler": "Gobernante",
+    "invention": "Invención",
+    "conflict": "Conflicto",
+    "collapse": "Caída"
+  }
+}

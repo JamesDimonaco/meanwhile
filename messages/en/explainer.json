@@ -1,0 +1,12 @@
+{
+  "title": "What do BCE and CE mean?",
+  "intro": "CE means Common Era. BCE means Before Common Era. They use the same numbers as BC and AD. 1200 BCE is the same year as 1200 BC, and 2026 CE is 2026 AD.",
+  "why": "Historians and museums use CE and BCE because they don't refer to any one religion.",
+  "countingTitle": "Counting backwards",
+  "counting": "BCE years count down towards year 1. So 1600 BCE is earlier than 1200 BCE.",
+  "noZeroTitle": "No year zero",
+  "noZero": "1 BCE is followed directly by 1 CE.",
+  "howLongTitle": "How long ago?",
+  "howLong": "{year} was about {count, number} years ago.",
+  "close": "Close"
+}

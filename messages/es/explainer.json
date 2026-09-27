@@ -1,0 +1,12 @@
+{
+  "title": "¿Qué significan a. e. c. y e. c.?",
+  "intro": "e. c. significa «era común» y a. e. c., «antes de la era común». Usan los mismos números que a. C. y d. C.: 1200 a. e. c. es el mismo año que 1200 a. C., y 2026 e. c. es 2026 d. C.",
+  "why": "Historiadores y museos usan a. e. c. y e. c. porque no remiten a ninguna religión.",
+  "countingTitle": "Contar hacia atrás",
+  "counting": "Los años a. e. c. descienden hacia el año 1. Por eso 1600 a. e. c. es anterior a 1200 a. e. c.",
+  "noZeroTitle": "No hay año cero",
+  "noZero": "Al año 1 a. e. c. le sigue directamente el 1 e. c.",
+  "howLongTitle": "¿Hace cuánto?",
+  "howLong": "{year} fue hace unos {count, number} años.",
+  "close": "Cerrar"
+}

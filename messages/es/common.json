@@ -1,0 +1,24 @@
+{
+  "appName": "Meanwhile",
+  "tagline": "¿Qué más pasaba en el mundo al mismo tiempo?",
+  "nav": {
+    "home": "Buscar",
+    "timeline": "Cronología",
+    "credits": "Fuentes y créditos"
+  },
+  "language": "Idioma",
+  "explainerTrigger": "¿Qué significan a. e. c. y e. c.?",
+  "disputed": "En discusión",
+  "machineTranslated": "Traducción automática, aún no revisada por un hablante nativo.",
+  "yearsAgo": "{count, plural, one {hace unos # año} other {hace unos # años}}",
+  "showYearsAgo": "Mostrar hace cuántos años",
+  "eraStyle": "Etiquetas de era",
+  "eraStyleCe": "a. e. c. / e. c.",
+  "eraStyleAd": "a. C. / d. C.",
+  "regions": {
+    "china": "China",
+    "south-america": "Sudamérica",
+    "mesoamerica": "Mesoamérica",
+    "europe": "Europa"
+  }
+}

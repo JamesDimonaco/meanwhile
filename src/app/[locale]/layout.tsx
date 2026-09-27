@@ -1,0 +1,49 @@
+import type { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import { ExplainerProvider } from "@/components/explainer/explainer-provider";
+import { ExplainerTrigger } from "@/components/explainer/explainer-trigger";
+import { LanguageSwitcher } from "@/components/settings/language-switcher";
+import { HTML_LANG } from "@/i18n/locales";
+import { Link } from "@/i18n/navigation";
+import { pageLocale } from "@/i18n/page-locale";
+import { routing } from "@/i18n/routing";
+import "../globals.css";
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Promise<Metadata> {
+  const locale = await pageLocale(params);
+  const t = await getTranslations({ locale, namespace: "common" });
+  return { title: { default: t("appName"), template: `%s · ${t("appName")}` }, description: t("tagline") };
+}
+
+export default async function LocaleLayout({ children, params }: LayoutProps<"/[locale]">) {
+  const locale = await pageLocale(params);
+  const t = await getTranslations("common");
+
+  return (
+    <html lang={HTML_LANG[locale]} dir="ltr">
+      <body className="flex min-h-dvh flex-col">
+        <NextIntlClientProvider>
+          <ExplainerProvider>
+            <header className="flex items-center justify-between gap-3 px-4 py-3">
+              <Link href="/" className="font-semibold">
+                {t("appName")}
+              </Link>
+              <div className="flex items-center gap-3">
+                <ExplainerTrigger />
+                <LanguageSwitcher />
+              </div>
+            </header>
+            <main className="flex-1 px-4 pb-8">{children}</main>
+          </ExplainerProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}
