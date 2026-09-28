@@ -8,10 +8,10 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 const ORIGIN = "https://meanwhile.test";
 const source = fs.readFileSync(path.join(process.cwd(), "public/sw.js"), "utf8");
 
-type FetchEventLike = {
+type ExtendableEventLike = { waitUntil: (promise: Promise<unknown>) => void };
+type FetchEventLike = ExtendableEventLike & {
   request: Request;
   respondWith: (response: Promise<Response>) => void;
-  waitUntil: (promise: Promise<unknown>) => void;
 };
 function urlOf(key: Request | string): string {
   return typeof key === "string" ? new URL(key, ORIGIN).href : key.url;
@@ -26,6 +26,10 @@ function setup() {
       entries.set(urlOf(key), response);
     },
     match: async (key: Request | string) => entries.get(urlOf(key))?.clone(),
+    add: async (url: string) => {
+      const request = new Request(new URL(url, ORIGIN));
+      entries.set(request.url, await fetch(request));
+    },
   };
   const caches = {
     open: async () => cache,
@@ -34,10 +38,10 @@ function setup() {
     delete: async () => true,
   };
 
-  const listeners = new Map<string, (event: FetchEventLike) => void>();
+  const listeners = new Map<string, (event: ExtendableEventLike) => void>();
   const self = {
     location: { origin: ORIGIN },
-    addEventListener: (type: string, listener: (event: FetchEventLike) => void) => listeners.set(type, listener),
+    addEventListener: (type: string, listener: (event: ExtendableEventLike) => void) => listeners.set(type, listener),
     skipWaiting: () => undefined,
     clients: { claim: async () => undefined },
   };
@@ -47,11 +51,12 @@ function setup() {
   function dispatch(url: string) {
     let response: Promise<Response> | undefined;
     const waits: Promise<unknown>[] = [];
-    listeners.get("fetch")?.({
+    const event: FetchEventLike = {
       request: new Request(new URL(url, ORIGIN)),
       respondWith: (r) => (response = r),
       waitUntil: (p) => waits.push(p),
-    });
+    };
+    listeners.get("fetch")?.(event);
     if (!response) throw new Error("service worker did not respond");
     return { response, waits };
   }
@@ -64,8 +69,15 @@ function setup() {
     await Promise.all(waits);
   }
 
+  async function install() {
+    const waits: Promise<unknown>[] = [];
+    listeners.get("install")?.({ waitUntil: (p) => waits.push(p) });
+    await Promise.all(waits);
+  }
+
   return {
     entries,
+    install,
     fetch,
     dispatch,
     visit,
@@ -152,5 +164,15 @@ describe("service worker", () => {
     sw.fetch.mockResolvedValueOnce(new Response("new home"));
     const { response } = sw.dispatch("/en/");
     expect(await (await response).text()).toBe("new home");
+  });
+
+  it("caches / on install, so the installed app can launch offline before / was ever visited", async () => {
+    const sw = setup();
+    sw.fetch.mockResolvedValueOnce(new Response("locale redirect"));
+    await sw.install();
+
+    sw.fetch.mockReset().mockRejectedValue(new TypeError("offline"));
+    const { response } = sw.dispatch("/");
+    expect(await (await response).text()).toBe("locale redirect");
   });
 });
