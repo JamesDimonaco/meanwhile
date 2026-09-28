@@ -1,0 +1,192 @@
+{
+  "id": "moche",
+  "region": "south-america",
+  "wikidataId": "Q208188",
+  "name": {
+    "en": "Moche culture",
+    "es": "Cultura Moche",
+    "zh": "莫切文化"
+  },
+  "aliases": [
+    "Mochica"
+  ],
+  "nativeName": {
+    "text": "Muchik",
+    "lang": "omc"
+  },
+  "description": {
+    "en": "A cluster of related lords ruling northern Peru's coastal valleys, who raised the largest adobe pyramid in Peru and painted their ceramics with scenes of hunting, sacrifice and daily life.",
+    "es": "Un conjunto de señoríos emparentados que gobernaban los valles costeros del norte del Perú, que levantaron la mayor pirámide de adobe de Perú y pintaron sus cerámicas con escenas de caza, sacrificio y vida cotidiana.",
+    "zh": "秘鲁北部沿海河谷中一群互有关联的领主，他们建造了秘鲁最大的土坯金字塔，并在陶器上绘制狩猎、献祭与日常生活的场景。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "moche-period",
+      "earliestStart": -99,
+      "latestStart": -99,
+      "earliestEnd": 699,
+      "latestEnd": 799,
+      "sources": [
+        {
+          "citation": "British Museum. Materials and Cultures Thesaurus: \"Moche\".",
+          "url": "http://collection.britishmuseum.org/id/thesauri/matcult"
+        },
+        {
+          "citation": "Bawden, Garth (1996). The Moche. Blackwell."
+        }
+      ],
+      "periodoId": "p08m57hrvh6",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": -99,
+      "type": "founding",
+      "title": {
+        "en": "Early Moche polities emerge on Peru's north coast, following the earlier Salinar and Cupisnique traditions",
+        "es": "Surgen los primeros señoríos moche en la costa norte del Perú, tras las tradiciones anteriores salinar y cupisnique",
+        "zh": "秘鲁北部沿海出现早期莫切政体，承接此前的萨利纳尔和库皮斯尼克传统"
+      },
+      "sources": [
+        {
+          "citation": "Bawden, Garth (1996). The Moche. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Moche.\"",
+          "url": "https://www.britannica.com/topic/Moche"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "huaca-del-sol",
+      "start": 99,
+      "type": "invention",
+      "title": {
+        "en": "Builders raise the Huaca del Sol on the Moche river, the largest adobe-brick structure in ancient Peru",
+        "es": "Los constructores levantan la Huaca del Sol junto al río Moche, la mayor estructura de adobe del Perú antiguo",
+        "zh": "建造者在莫切河畔修建太阳神庙（Huaca del Sol），是古代秘鲁最大的土坯建筑"
+      },
+      "sources": [
+        {
+          "citation": "Bawden, Garth (1996). The Moche. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Moche.\"",
+          "url": "https://www.britannica.com/topic/Moche"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "irrigation-expansion",
+      "start": 299,
+      "type": "invention",
+      "title": {
+        "en": "Moche engineers expand river-fed irrigation canals to farm the coastal desert valleys",
+        "es": "Los ingenieros moche amplían los canales de riego alimentados por ríos para cultivar los valles desérticos costeros",
+        "zh": "莫切工程师扩建由河流供水的灌溉渠道，用以耕作沿海沙漠河谷"
+      },
+      "sources": [
+        {
+          "citation": "Bawden, Garth (1996). The Moche. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Moche.\"",
+          "url": "https://www.britannica.com/topic/Moche"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "sacrifice-ceremony",
+      "start": 399,
+      "type": "conflict",
+      "title": {
+        "en": "Moche lords stage ritual combat between warriors, ending in the sacrifice of the defeated",
+        "es": "Los señores moche escenifican combates rituales entre guerreros, que terminan en el sacrificio del vencido",
+        "zh": "莫切领主举行武士间的仪式性战斗，战败者最终被献祭"
+      },
+      "sources": [
+        {
+          "citation": "Bawden, Garth (1996). The Moche. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Moche.\"",
+          "url": "https://www.britannica.com/topic/Moche"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "el-nino-crisis",
+      "start": 549,
+      "type": "collapse",
+      "title": {
+        "en": "Severe El Niño flooding and drought strike the Moche valleys, straining Southern Moche cities",
+        "es": "Fuertes inundaciones y sequías por El Niño golpean los valles moche, tensionando las ciudades del sur moche",
+        "zh": "严重的厄尔尼诺洪水与干旱袭击莫切河谷，令南部莫切城市承受巨大压力"
+      },
+      "sources": [
+        {
+          "citation": "Bawden, Garth (1996). The Moche. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Moche.\"",
+          "url": "https://www.britannica.com/topic/Moche"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Scholars debate how much climate stress, versus internal conflict, drove Moche decline.",
+        "es": "Los académicos debaten cuánto del declive moche se debió al estrés climático frente al conflicto interno.",
+        "zh": "学界对气候压力与内部冲突各自在莫切衰落中所占的比重仍有争论。"
+      }
+    },
+    {
+      "id": "decline",
+      "start": 699,
+      "end": 799,
+      "type": "collapse",
+      "title": {
+        "en": "Moche cities are abandoned or reorganised as new coastal powers, including the later Chimú, take shape",
+        "es": "Las ciudades moche son abandonadas o reorganizadas conforme surgen nuevos poderes costeros, incluidos los posteriores chimú",
+        "zh": "莫切城市被废弃或重组，新的沿海势力（包括后来的奇穆）逐渐成形"
+      },
+      "sources": [
+        {
+          "citation": "Bawden, Garth (1996). The Moche. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Moche.\"",
+          "url": "https://www.britannica.com/topic/Moche"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "portrait-vessels",
+      "start": 99,
+      "end": 699,
+      "text": {
+        "en": "Moche potters modelled ceramic portrait vessels so lifelike that individual faces can be recognised across different vessels.",
+        "es": "Los alfareros moche modelaron vasijas retrato tan realistas que se puede reconocer un mismo rostro en distintas piezas.",
+        "zh": "莫切陶工塑造的人像陶瓶极为逼真，同一张面孔可在不同器物上被辨认出来。"
+      },
+      "sources": [
+        {
+          "citation": "Bawden, Garth (1996). The Moche. Blackwell."
+        }
+      ]
+    }
+  ]
+}
