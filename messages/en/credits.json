@@ -1,4 +1,38 @@
 {
   "title": "Sources and credits",
-  "dataLicence": "Data: CC BY 4.0. Code: MIT."
+  "intro": "Meanwhile pulls dates, names and places from open historical datasets, and never copies a source's wording — facts on the app are written fresh and checked against sources.",
+  "dataLicence": "Data on this site: CC BY 4.0. Code: MIT.",
+  "sources": {
+    "periodo": {
+      "name": "PeriodO",
+      "licence": "Public domain",
+      "used": "Period date ranges, linked by id where a definition exists.",
+      "changes": "Ranges are copied as published; nothing else is derived from PeriodO."
+    },
+    "wikidata": {
+      "name": "Wikidata",
+      "licence": "CC0",
+      "used": "Civilisation names in many languages, and identifiers linking to further reading.",
+      "changes": "Names are copied as published; some are additionally machine-translated where Wikidata has no entry in a language yet."
+    },
+    "cliopatria": {
+      "name": "Cliopatria",
+      "licence": "CC BY 4.0",
+      "used": "Historical border polygons for the Rome territory map.",
+      "changes": "Polygons are simplified for a small, fast map and republished under the same licence with attribution. Published separately from, and under a different licence to, Seshat's own dataset (see below)."
+    },
+    "pleiades": {
+      "name": "Pleiades",
+      "licence": "CC BY",
+      "used": "Ancient place identifiers and coordinates for event map pins.",
+      "changes": "Coordinates are copied as published."
+    },
+    "dare": {
+      "name": "DARE (Digital Atlas of the Roman Empire)",
+      "licence": "CC BY",
+      "used": "Roman-era place names and locations.",
+      "changes": "Coordinates are copied as published."
+    }
+  },
+  "neverUsed": "Never used: the Seshat Global History Databank's own dataset, which is non-commercial only."
 }

@@ -1,4 +1,38 @@
 {
   "title": "资料来源与致谢",
-  "dataLicence": "数据：CC BY 4.0。代码：MIT。"
+  "intro": "Meanwhile 的年代、名称和地点均取自开放的历史数据集，且从不照搬原文措辞——应用中的简短说明均为重新撰写，并对照原始资料核实。",
+  "dataLicence": "本站数据：CC BY 4.0。代码：MIT。",
+  "sources": {
+    "periodo": {
+      "name": "PeriodO",
+      "licence": "公共领域",
+      "used": "各时期的年代范围，如有对应定义则以 id 关联。",
+      "changes": "年代范围按原样引用；未从 PeriodO 派生其他内容。"
+    },
+    "wikidata": {
+      "name": "Wikidata",
+      "licence": "CC0",
+      "used": "各文明的多语言名称，以及指向延伸阅读的标识符。",
+      "changes": "名称按原样引用；若 Wikidata 尚无某语言的词条，另行以机器翻译补充。"
+    },
+    "cliopatria": {
+      "name": "Cliopatria",
+      "licence": "CC BY 4.0",
+      "used": "罗马疆域地图所用的历史边界多边形。",
+      "changes": "为保持地图轻量快速，多边形已作简化处理，并在标注来源的前提下以相同许可再发布。其发布与 Seshat 自身数据集分开，许可条款也不同（见下文）。"
+    },
+    "pleiades": {
+      "name": "Pleiades",
+      "licence": "CC BY",
+      "used": "事件地图标记所用的古代地点标识符与坐标。",
+      "changes": "坐标按原样引用。"
+    },
+    "dare": {
+      "name": "DARE（罗马帝国数字地图集）",
+      "licence": "CC BY",
+      "used": "罗马时代的地名与位置。",
+      "changes": "坐标按原样引用。"
+    }
+  },
+  "neverUsed": "未使用：Seshat Global History Databank 自身的数据集，其许可仅限非商业用途。"
 }
