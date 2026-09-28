@@ -64,7 +64,8 @@
           "citation": "Cadogan, G. (2011). \"The Minoan Palaces.\" In The Oxford Handbook of the Bronze Age Aegean, 106-117. Oxford University Press."
         },
         {
-          "citation": "Metropolitan Museum of Art. \"Minoan Crete.\" Heilbrunn Timeline of Art History."
+          "citation": "Metropolitan Museum of Art. \"Minoan Crete.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/mino/hd_mino.htm"
         }
       ],
       "disputed": false
@@ -84,7 +85,7 @@
           "citation": "Younger, J.G. & Rehak, P. (2008). \"Minoan Culture: Religion, Burial Customs, and Administration.\" In The Cambridge Companion to the Aegean Bronze Age, 165-185. Cambridge University Press."
         },
         {
-          "citation": "Ashmolean Museum. \"Cracking the Code: Linear A and Linear B.\" Exhibition notes."
+          "citation": "Chadwick, John (1987). Linear B and Related Scripts. British Museum Press."
         }
       ],
       "disputed": false
@@ -104,14 +105,15 @@
           "citation": "Cadogan, G. (2011). \"The Minoan Palaces.\" In The Oxford Handbook of the Bronze Age Aegean, 106-117. Oxford University Press."
         },
         {
-          "citation": "Metropolitan Museum of Art. \"Minoan Crete.\" Heilbrunn Timeline of Art History."
+          "citation": "Metropolitan Museum of Art. \"Minoan Crete.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/mino/hd_mino.htm"
         }
       ],
       "disputed": false
     },
     {
       "id": "thera-eruption",
-      "start": -1600,
+      "start": -1599,
       "type": "conflict",
       "title": {
         "en": "The volcano on Thera (Santorini) erupts, one of the largest eruptions of the last 10,000 years, burying the Minoan-influenced town of Akrotiri",
@@ -124,7 +126,7 @@
           "url": "https://doi.org/10.1126/science.1125087"
         },
         {
-          "citation": "Metropolitan Museum of Art. \"Akrotiri, Thera.\" Heilbrunn Timeline of Art History."
+          "citation": "Doumas, Christos (1983). Thera: Pompeii of the Ancient Aegean. Thames & Hudson."
         }
       ],
       "disputed": true,
@@ -160,8 +162,8 @@
     },
     {
       "id": "final-destruction",
-      "start": -1375,
-      "end": -1325,
+      "start": -1374,
+      "end": -1324,
       "type": "collapse",
       "title": {
         "en": "Knossos, the last major Minoan palace, is destroyed by fire and not rebuilt",

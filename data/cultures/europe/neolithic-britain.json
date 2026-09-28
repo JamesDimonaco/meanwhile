@@ -24,9 +24,9 @@
   "periods": [
     {
       "id": "conventional",
-      "earliestStart": -4000,
+      "earliestStart": -4099,
       "latestStart": -3999,
-      "earliestEnd": -2500,
+      "earliestEnd": -2499,
       "latestEnd": -2199,
       "sources": [
         {
@@ -36,6 +36,9 @@
         {
           "citation": "Pleiades gazetteer period definitions, \"Neolithic Period (British Isles; 4,000-2,500 BC)\", via PeriodO.",
           "url": "http://n2t.net/ark:/99152/p03wskdpj3d"
+        },
+        {
+          "citation": "Whittle, Alasdair, Healy, Frances & Bayliss, Alex (2011). Gathering Time: Dating the Early Neolithic Enclosures of Southern Britain and Ireland. Oxbow Books."
         }
       ],
       "periodoId": "p03wskdpj3d",
@@ -51,7 +54,7 @@
   "events": [
     {
       "id": "first-farmers",
-      "start": -4000,
+      "start": -3999,
       "type": "founding",
       "title": {
         "en": "Farming, livestock and pottery reach Britain from continental Europe",
@@ -70,8 +73,8 @@
     },
     {
       "id": "causewayed-enclosures",
-      "start": -3700,
-      "end": -3400,
+      "start": -3699,
+      "end": -3399,
       "type": "invention",
       "title": {
         "en": "Communities build Britain's first large monuments, causewayed enclosures of banks and ditches",
@@ -90,7 +93,7 @@
     },
     {
       "id": "stonehenge-earthwork",
-      "start": -3000,
+      "start": -2999,
       "type": "founding",
       "title": {
         "en": "The first Stonehenge is built: a circular ditch and bank enclosing an inner ring of Welsh bluestones",
@@ -114,8 +117,8 @@
     },
     {
       "id": "sarsens-raised",
-      "start": -2500,
-      "end": -2000,
+      "start": -2499,
+      "end": -1999,
       "type": "invention",
       "title": {
         "en": "The massive sarsen stones and trilithons are raised at Stonehenge",
@@ -134,7 +137,7 @@
     },
     {
       "id": "bluestone-transport",
-      "start": -3000,
+      "start": -2999,
       "type": "invention",
       "title": {
         "en": "Bluestones are moved roughly 200 km from the Preseli Hills in Wales to Salisbury Plain",
@@ -158,7 +161,7 @@
     },
     {
       "id": "amesbury-archer",
-      "start": -2300,
+      "start": -2299,
       "type": "invention",
       "title": {
         "en": "The \"Amesbury Archer\" is buried near Stonehenge with some of Britain's earliest metal and gold objects",
@@ -170,15 +173,15 @@
           "citation": "Fitzpatrick, A.P. (2011). The Amesbury Archer and the Boscombe Bowmen. Wessex Archaeology."
         },
         {
-          "citation": "Historic England. \"The Amesbury Archer.\" Research records."
+          "citation": "Fitzpatrick, Andrew P. (2002). \"The Amesbury Archer: a well-furnished Early Bronze Age burial in southern England.\" Antiquity 76(293): 629–630."
         }
       ],
       "disputed": false
     },
     {
       "id": "beaker-arrival",
-      "start": -2500,
-      "end": -2200,
+      "start": -2499,
+      "end": -2199,
       "type": "collapse",
       "title": {
         "en": "Bell Beaker migrants from continental Europe bring metalworking, replacing most of the existing Neolithic population",
@@ -205,8 +208,8 @@
   "facts": [
     {
       "id": "sarsen-weight",
-      "start": -2500,
-      "end": -2000,
+      "start": -2499,
+      "end": -1999,
       "text": {
         "en": "Some sarsen stones at Stonehenge weigh over 25 tonnes and were dragged around 30 km from the Marlborough Downs without wheels or draft animals.",
         "es": "Algunas piedras de sarsen de Stonehenge pesan más de 25 toneladas y fueron arrastradas unos 30 km desde las colinas de Marlborough sin ruedas ni animales de tiro.",
@@ -221,8 +224,8 @@
     },
     {
       "id": "bluestone-journey",
-      "start": -3000,
-      "end": -2500,
+      "start": -2999,
+      "end": -2499,
       "text": {
         "en": "The bluestones travelled further than the stones of any other prehistoric monument in Europe, roughly 200 km from Wales to Salisbury Plain.",
         "es": "Las piedras azuladas viajaron más lejos que las de cualquier otro monumento prehistórico de Europa, unos 200 km desde Gales hasta la llanura de Salisbury.",

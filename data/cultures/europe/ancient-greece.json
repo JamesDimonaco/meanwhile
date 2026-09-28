@@ -8,7 +8,7 @@
     "zh": "古希腊"
   },
   "nativeName": {
-    "text": "Hellas",
+    "text": "Ἑλλάς",
     "lang": "grc"
   },
   "aliases": [
@@ -31,8 +31,8 @@
       "id": "conventional",
       "earliestStart": -899,
       "latestStart": -699,
-      "earliestEnd": -146,
-      "latestEnd": -30,
+      "earliestEnd": -145,
+      "latestEnd": -29,
       "sources": [
         {
           "citation": "British Museum collection thesaurus, \"Archaic Greek\" (c. 700 - c. 480 BC), via PeriodO.",
@@ -47,9 +47,8 @@
           "url": "http://n2t.net/ark:/99152/p08m57hj2vt"
         }
       ],
-      "periodoId": "p08m57hdsg5",
       "default": true,
-      "disputed": false,
+      "disputed": true,
       "note": {
         "en": "\"Ancient Greece\" has no single agreed end date. Mainland Greek independence effectively ended in 146 BCE, when Rome sacked Corinth, while the last major Greek kingdom, Ptolemaic Egypt, fell to Rome only in 30 BCE.",
         "es": "\"Antigua Grecia\" no tiene una fecha de finalización única y acordada. La independencia de la Grecia continental terminó de hecho en el 146 a. e. c., cuando Roma saqueó Corinto, mientras que el último gran reino griego, el Egipto ptolemaico, cayó ante Roma solo en el 30 a. e. c.",
@@ -60,7 +59,7 @@
   "events": [
     {
       "id": "first-olympics",
-      "start": -776,
+      "start": -775,
       "type": "founding",
       "title": {
         "en": "The first Olympic Games are held at Olympia, traditionally used to mark the start of recorded Greek history",
@@ -72,7 +71,7 @@
           "citation": "Spivey, N. (2004). The Ancient Olympics. Oxford University Press."
         },
         {
-          "citation": "British Museum. \"The Ancient Olympic Games.\" Collection notes."
+          "citation": "Miller, Stephen G. (2004). Ancient Greek Athletics. Yale University Press."
         }
       ],
       "disputed": true,
@@ -84,7 +83,7 @@
     },
     {
       "id": "cleisthenes-democracy",
-      "start": -508,
+      "start": -507,
       "type": "founding",
       "title": {
         "en": "Cleisthenes' reforms in Athens create the world's first known democracy, with citizens voting directly on laws",
@@ -103,7 +102,7 @@
     },
     {
       "id": "battle-of-marathon",
-      "start": -490,
+      "start": -489,
       "type": "conflict",
       "title": {
         "en": "Athens defeats a Persian invasion force at Marathon",
@@ -122,8 +121,8 @@
     },
     {
       "id": "parthenon-built",
-      "start": -447,
-      "end": -432,
+      "start": -446,
+      "end": -431,
       "type": "invention",
       "title": {
         "en": "Athens builds the Parthenon on the Acropolis under the statesman Pericles",
@@ -132,7 +131,7 @@
       },
       "sources": [
         {
-          "citation": "British Museum. \"The Parthenon Sculptures.\" Collection notes."
+          "citation": "Beard, Mary (2002). The Parthenon. Profile Books."
         },
         {
           "citation": "Hurwit, J.M. (1999). The Athenian Acropolis: History, Mythology, and Archaeology from the Neolithic Era to the Present. Cambridge University Press."
@@ -142,8 +141,8 @@
     },
     {
       "id": "peloponnesian-war",
-      "start": -431,
-      "end": -404,
+      "start": -430,
+      "end": -403,
       "type": "conflict",
       "title": {
         "en": "Athens and Sparta fight the Peloponnesian War, which ends with Athens's defeat",
@@ -162,8 +161,8 @@
     },
     {
       "id": "alexander-conquests",
-      "start": -336,
-      "end": -323,
+      "start": -335,
+      "end": -322,
       "type": "conflict",
       "title": {
         "en": "Alexander the Great conquers the Persian Empire, spreading Greek language and culture from Egypt to India",
@@ -182,7 +181,7 @@
     },
     {
       "id": "corinth-sacked",
-      "start": -146,
+      "start": -145,
       "type": "collapse",
       "title": {
         "en": "Rome destroys Corinth and dissolves the last Greek confederacy, ending mainland Greek political independence",
@@ -203,8 +202,8 @@
   "facts": [
     {
       "id": "many-poleis",
-      "start": -700,
-      "end": -300,
+      "start": -699,
+      "end": -299,
       "text": {
         "en": "There were over a thousand Greek city-states, most no bigger than a small town, each with its own laws, coins and calendar.",
         "es": "Hubo más de mil ciudades-estado griegas, la mayoría no más grandes que una pequeña población, cada una con sus propias leyes, monedas y calendario.",
@@ -219,8 +218,8 @@
     },
     {
       "id": "athenian-jury-pay",
-      "start": -450,
-      "end": -320,
+      "start": -449,
+      "end": -319,
       "text": {
         "en": "Athens paid ordinary citizens to serve on juries of up to 500 people, so poorer men could afford to take part in justice.",
         "es": "Atenas pagaba a ciudadanos comunes por servir en jurados de hasta 500 personas, para que también los hombres más pobres pudieran permitirse participar en la justicia.",

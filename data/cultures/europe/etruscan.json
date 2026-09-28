@@ -75,8 +75,8 @@
     },
     {
       "id": "city-states-emerge",
-      "start": -720,
-      "end": -650,
+      "start": -719,
+      "end": -649,
       "type": "founding",
       "title": {
         "en": "Twelve major Etruscan cities, including Veii, Tarquinia and Cerveteri, emerge as wealthy, walled centres",
@@ -88,14 +88,15 @@
           "citation": "Barker, G. & Rasmussen, T. (1998). The Etruscans. Blackwell."
         },
         {
-          "citation": "Metropolitan Museum of Art. \"Etruscan Art.\" Heilbrunn Timeline of Art History."
+          "citation": "Metropolitan Museum of Art. \"Etruscan Art.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/etru/hd_etru.htm"
         }
       ],
       "disputed": false
     },
     {
       "id": "etruscan-alphabet",
-      "start": -700,
+      "start": -699,
       "type": "invention",
       "title": {
         "en": "Etruscans adapt the Greek alphabet, then pass a version of it on to Rome",
@@ -114,8 +115,8 @@
     },
     {
       "id": "etruscan-kings-of-rome",
-      "start": -616,
-      "end": -509,
+      "start": -615,
+      "end": -508,
       "type": "ruler",
       "title": {
         "en": "Etruscan kings, including Tarquinius Priscus and Tarquinius Superbus, rule Rome before its founding as a republic",
@@ -139,7 +140,7 @@
     },
     {
       "id": "veii-falls",
-      "start": -396,
+      "start": -395,
       "type": "conflict",
       "title": {
         "en": "Rome captures Veii after a long siege, its first major conquest of an Etruscan city",
@@ -158,8 +159,8 @@
     },
     {
       "id": "social-war-citizenship",
-      "start": -90,
-      "end": -89,
+      "start": -89,
+      "end": -88,
       "type": "conflict",
       "title": {
         "en": "After the Social War, Etruscan cities are granted Roman citizenship, ending their formal political independence",
@@ -178,7 +179,7 @@
     },
     {
       "id": "language-fades",
-      "start": -89,
+      "start": -88,
       "end": 200,
       "type": "collapse",
       "title": {
@@ -191,7 +192,7 @@
           "citation": "Bonfante, G. & Bonfante, L. (2002). The Etruscan Language: An Introduction. Manchester University Press."
         },
         {
-          "citation": "Emperor Claudius is recorded by Suetonius as one of the last fluent readers of Etruscan texts; Suetonius, The Twelve Caesars, \"Claudius\"."
+          "citation": "Suetonius. The Twelve Caesars, \"Claudius\" 42 (Claudius wrote a history of the Etruscans)."
         }
       ],
       "disputed": false
@@ -200,8 +201,8 @@
   "facts": [
     {
       "id": "liver-model",
-      "start": -300,
-      "end": -100,
+      "start": -299,
+      "end": -99,
       "text": {
         "en": "Etruscan priests read the future in the shape of a sacrificed sheep's liver, using a bronze model, the Liver of Piacenza, marked out like a map of the heavens.",
         "es": "Los sacerdotes etruscos leían el futuro en la forma del hígado de una oveja sacrificada, con ayuda de un modelo de bronce, el Hígado de Placencia, dividido como un mapa del cielo.",
@@ -216,8 +217,8 @@
     },
     {
       "id": "women-at-banquet",
-      "start": -600,
-      "end": -400,
+      "start": -599,
+      "end": -399,
       "text": {
         "en": "Tomb paintings show Etruscan women reclining beside men at banquets, a mixed-sex scene that scandalised Greek visitors used to keeping women separate.",
         "es": "Las pinturas funerarias muestran a mujeres etruscas reclinadas junto a los hombres en los banquetes, una escena mixta que escandalizaba a los visitantes griegos, acostumbrados a mantener a las mujeres aparte.",

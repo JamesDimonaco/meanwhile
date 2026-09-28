@@ -25,54 +25,56 @@
   "periods": [
     {
       "id": "conventional",
-      "earliestStart": -1199,
-      "latestStart": -1124,
-      "earliestEnd": -50,
+      "earliestStart": -799,
+      "latestStart": -749,
+      "earliestEnd": -49,
       "latestEnd": 43,
       "sources": [
         {
-          "citation": "British Museum collection thesaurus, \"Hallstatt A\" (c. 1200 - c. 1125 BC), via PeriodO.",
-          "url": "http://n2t.net/ark:/99152/p08m57hbngn"
+          "citation": "Cunliffe, Barry (1997). The Ancient Celts. Oxford University Press."
         },
         {
-          "citation": "British Museum collection thesaurus, \"La Tène III\" (c. 125 BC - c. AD 43), via PeriodO.",
+          "citation": "Atlas of the Celts, period definitions \"Hallstatt C\" (750–600 BC) and \"La Tène Iron Age\" (480–50 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0ff3dtzkrr"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"La Tène III\" (c. 125 BC – c. AD 43), via PeriodO.",
           "url": "http://n2t.net/ark:/99152/p08m57h88gc"
         }
       ],
-      "periodoId": "p08m57hbngn",
       "default": true,
       "disputed": true,
       "note": {
-        "en": "\"Celtic Iron Age\" ends at very different times in different places: Gaul was conquered by Julius Caesar by 50 BCE, while Celtic-speaking Britain remained independent until the Roman conquest of AD 43, and Ireland was never conquered by Rome at all.",
-        "es": "La \"Edad del Hierro celta\" termina en momentos muy distintos según el lugar: la Galia fue conquistada por Julio César hacia el 50 a. e. c., mientras que la Britania de habla celta siguió siendo independiente hasta la conquista romana del 43 d. e. c., e Irlanda nunca llegó a ser conquistada por Roma.",
-        "zh": "「凯尔特铁器时代」在不同地区的终结时间相差极大：高卢在公元前50年左右被恺撒征服，而说凯尔特语的不列颠则一直独立到公元43年才被罗马征服，爱尔兰则从未被罗马征服过。"
+        "en": "The Iron Age in Celtic-speaking Europe opens with the Hallstatt C phase, dated 800 or 750 BCE depending on the scheme. It ends at very different times in different places: Gaul was conquered by Julius Caesar by 50 BCE, Britain remained independent until the Roman conquest of 43 CE, and Ireland was never conquered by Rome at all.",
+        "es": "La Edad del Hierro en la Europa de habla celta se abre con la fase Hallstatt C, fechada en 800 o 750 a. e. c. según el esquema. Termina en momentos muy distintos según el lugar: la Galia fue conquistada por Julio César hacia el 50 a. e. c., Britania siguió siendo independiente hasta la conquista romana del 43 e. c., e Irlanda nunca llegó a ser conquistada por Roma.",
+        "zh": "凯尔特语地区的铁器时代始于哈尔施塔特C期，依不同分期方案定在公元前800年或前750年。其终结时间因地而异：高卢在公元前50年左右被恺撒征服，不列颠一直独立到公元43年才被罗马征服，爱尔兰则从未被罗马征服过。"
       }
     }
   ],
   "events": [
     {
       "id": "hallstatt-salt",
-      "start": -1199,
-      "end": -799,
+      "start": -799,
+      "end": -399,
       "type": "founding",
       "title": {
-        "en": "Iron-working communities around Hallstatt in Austria grow wealthy from salt mining and trade",
-        "es": "Las comunidades del hierro en torno a Hallstatt, en Austria, se enriquecen gracias a la minería de sal y el comercio",
-        "zh": "奥地利哈尔施塔特周边的冶铁社群，依靠盐矿开采与贸易积累起财富"
+        "en": "Communities around Hallstatt in Austria grow rich from salt mining; their cemetery of over a thousand graves gives the early Iron Age its name",
+        "es": "Las comunidades en torno a Hallstatt, en Austria, se enriquecen con la minería de sal; su cementerio de más de mil tumbas da nombre a la primera Edad del Hierro",
+        "zh": "奥地利哈尔施塔特周边的社群靠盐矿致富；那里千余座墓葬的墓地成为早期铁器时代的命名之源"
       },
       "sources": [
         {
           "citation": "Cunliffe, B. (1997). The Ancient Celts. Oxford University Press."
         },
         {
-          "citation": "Natural History Museum Vienna. \"Hallstatt Culture.\" Prehistoric collection notes."
+          "citation": "Kern, Anton, Kowarik, Kerstin, Rausch, Andreas W. & Reschreiter, Hans (eds) (2009). Kingdom of Salt: 7000 Years of Hallstatt. Natural History Museum Vienna."
         }
       ],
       "disputed": false
     },
     {
       "id": "la-tene-style",
-      "start": -450,
+      "start": -449,
       "type": "invention",
       "title": {
         "en": "The distinctive curving, plant-like La Tène art style appears on weapons, jewellery and mirrors across Celtic Europe",
@@ -84,14 +86,14 @@
           "citation": "Megaw, R. & Megaw, V. (2001). Celtic Art: From its Beginnings to the Book of Kells. Thames & Hudson."
         },
         {
-          "citation": "British Museum. \"Celtic Art.\" Collection notes."
+          "citation": "Farley, Julia & Hunter, Fraser (eds) (2015). Celts: Art and Identity. British Museum Press."
         }
       ],
       "disputed": false
     },
     {
       "id": "sack-of-rome",
-      "start": -390,
+      "start": -389,
       "type": "conflict",
       "title": {
         "en": "Celtic warriors under Brennus defeat a Roman army and sack the city of Rome itself",
@@ -115,7 +117,7 @@
     },
     {
       "id": "delphi-raid",
-      "start": -279,
+      "start": -278,
       "type": "conflict",
       "title": {
         "en": "Celtic warbands raid deep into Greece and attack the sanctuary at Delphi",
@@ -134,8 +136,8 @@
     },
     {
       "id": "caesar-conquers-gaul",
-      "start": -58,
-      "end": -50,
+      "start": -57,
+      "end": -49,
       "type": "conflict",
       "title": {
         "en": "Julius Caesar conquers Gaul over eight years of campaigning, ending Celtic independence there",
@@ -167,7 +169,7 @@
           "citation": "Tacitus. Annals, Book 14."
         },
         {
-          "citation": "Historic England. \"The Boudican Revolt.\" Research records."
+          "citation": "Hingley, Richard & Unwin, Christina (2005). Boudica: Iron Age Warrior Queen. Hambledon Continuum."
         }
       ],
       "disputed": false
@@ -186,7 +188,7 @@
           "citation": "Suetonius. The Twelve Caesars, \"Claudius\"."
         },
         {
-          "citation": "Historic England. \"The Roman Conquest of Britain.\" Research records."
+          "citation": "Mattingly, David (2006). An Imperial Possession: Britain in the Roman Empire, 54 BC – AD 409. Allen Lane."
         }
       ],
       "disputed": false
@@ -195,7 +197,7 @@
   "facts": [
     {
       "id": "no-writing-system",
-      "start": -700,
+      "start": -699,
       "end": 43,
       "text": {
         "en": "Celtic peoples left almost no writing of their own; nearly everything known about their beliefs comes from Greek and Roman authors who saw them as enemies.",
@@ -211,7 +213,7 @@
     },
     {
       "id": "torc-jewellery",
-      "start": -300,
+      "start": -299,
       "end": 100,
       "text": {
         "en": "Celtic nobles wore heavy neck rings of twisted gold or bronze called torcs, sometimes buried in hoards weighing several kilograms.",
@@ -220,7 +222,7 @@
       },
       "sources": [
         {
-          "citation": "British Museum. \"The Snettisham Hoard.\" Collection notes."
+          "citation": "Stead, Ian M. (1991). \"The Snettisham Treasure: excavations in 1990.\" Antiquity 65(248): 447–465."
         }
       ],
       "disputed": false
