@@ -1,5 +1,7 @@
 "use client";
 
+import { Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LOCALES, LOCALE_STORAGE_KEY, type Locale } from "@/i18n/locales";
@@ -12,8 +14,26 @@ function remember(locale: Locale) {
   }
 }
 
-/** One tap to switch — reachable everywhere, no menu to open on weak signal. */
+/**
+ * One tap to switch — reachable everywhere, no menu to open on weak signal.
+ * Keeps the query string, so the timeline stays on its ?year=.
+ */
 export function LanguageSwitcher() {
+  // useSearchParams needs a Suspense boundary in a static export. The static
+  // HTML gets the same links without the query until hydration fills it in.
+  return (
+    <Suspense fallback={<LanguageLinks search="" />}>
+      <LanguageLinksWithSearch />
+    </Suspense>
+  );
+}
+
+function LanguageLinksWithSearch() {
+  const query = useSearchParams().toString();
+  return <LanguageLinks search={query ? `?${query}` : ""} />;
+}
+
+function LanguageLinks({ search }: { search: string }) {
   const t = useTranslations("common");
   const current = useLocale();
   const pathname = usePathname();
@@ -23,7 +43,7 @@ export function LanguageSwitcher() {
         <span key={locale} className="flex items-center gap-1">
           {i > 0 && <span aria-hidden className="text-muted-foreground">·</span>}
           <Link
-            href={pathname}
+            href={`${pathname}${search}`}
             locale={locale}
             lang={locale}
             aria-current={locale === current ? "true" : undefined}
