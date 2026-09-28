@@ -77,6 +77,11 @@ function readYear(year: ModelAnswer["year"]): ScanResult["reading"]["year"] {
   return start !== null && end !== null && start <= end ? { start, end } : null;
 }
 
+/** Where the timeline opens for a range read off a placard: its middle ("2nd century CE" -> 150). */
+export function timelineYear(range: { start: number; end: number }): number {
+  return Math.floor((range.start + range.end) / 2);
+}
+
 export function decideScan(answer: ModelAnswer, cultureIds: ReadonlySet<string>): ScanResult {
   const reading = {
     text: answer.text.replace(/[\p{Cc}\s]+/gu, " ").trim().slice(0, MAX_TEXT),
@@ -88,7 +93,7 @@ export function decideScan(answer: ModelAnswer, cultureIds: ReadonlySet<string>)
   let destination: ScanDestination = { kind: "none" };
   if (answer.confidence !== "low") {
     if (cultureId) destination = { kind: "culture", id: cultureId };
-    else if (reading.year) destination = { kind: "year", year: Math.floor((reading.year.start + reading.year.end) / 2) };
+    else if (reading.year) destination = { kind: "year", year: timelineYear(reading.year) };
   }
   return { destination, reading };
 }

@@ -1,13 +1,16 @@
+import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
 import { SearchBox } from "@/components/search/search-box";
+import { SearchFromUrl } from "@/components/search/search-from-url";
+import { ScanButton } from "@/components/scan/scan-button";
 import { Link } from "@/i18n/navigation";
 import { loadCultures, loadPopular } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { toSearchEntry } from "@/components/search/search-index";
 import { YearRangeText } from "@/components/settings/year-text";
 
-/** Home: one search box, popular starting points underneath. Owned by ui-core. */
+/** Home: scan a placard or search, popular starting points underneath. Owned by ui-core. */
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const locale = await pageLocale(params);
   const t = await getTranslations("home");
@@ -23,7 +26,12 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         <p className="text-sm text-muted-foreground">{tCommon("tagline")}</p>
       </header>
 
-      <SearchBox entries={entries} />
+      <ScanButton variant="home" />
+
+      {/* ?q= comes from a scan with no match; the page itself is prerendered. */}
+      <Suspense fallback={<SearchBox entries={entries} />}>
+        <SearchFromUrl entries={entries} />
+      </Suspense>
 
       <section className="flex flex-col gap-3">
         <h2 className="text-sm font-medium text-muted-foreground">{t("popular")}</h2>

@@ -7,11 +7,11 @@ import { localize } from "@/lib/data/localize";
 import { search, type SearchEntry } from "./search-index";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 
-export function SearchBox({ entries }: { entries: SearchEntry[] }) {
+export function SearchBox({ entries, initialQuery = "" }: { entries: SearchEntry[]; initialQuery?: string }) {
   const t = useTranslations("home");
   const tCommon = useTranslations("common");
   const locale = useLocale();
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(initialQuery);
   const listId = useId();
 
   const results = useMemo(() => search(query, entries), [query, entries]);

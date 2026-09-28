@@ -65,7 +65,7 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 
 ## i18n and UI rules
 
-- No hard-coded user-facing text in UI or data. UI text lives in `messages/<locale>/<namespace>.json`; namespaces are `common, home, meanwhile, culture, timeline, explainer, map, credits` (`src/i18n/namespaces.ts`). The English file defines the keys and their types; add a key to all three locales. ICU syntax for plurals and numbers.
+- No hard-coded user-facing text in UI or data. UI text lives in `messages/<locale>/<namespace>.json`; namespaces are `common, home, meanwhile, culture, timeline, explainer, map, credits, scan` (`src/i18n/namespaces.ts`). The English file defines the keys and their types; add a key to all three locales. ICU syntax for plurals and numbers.
 - Every page, layout and `generateMetadata` under `[locale]` starts with `const locale = await pageLocale(params)`. Link with `Link` from `@/i18n/navigation`, not `next/link`.
 - Numbers and years through `Intl` / `src/lib/years.ts`. Show native names beside translated ones with the `lang` attribute set.
 - Logical CSS only: `ms-/me-/ps-/pe-/start-/end-/text-start/border-s/rounded-s`. Lint rejects left/right Tailwind classes.

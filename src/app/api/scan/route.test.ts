@@ -12,7 +12,7 @@ import { POST } from "./route";
 
 const JPEG = new Uint8Array([0xff, 0xd8, 0xff, 0xe0, 1, 2, 3, 4]);
 
-function scan(body: Uint8Array, type = "image/jpeg", ip = "203.0.113.7") {
+function scan(body: Uint8Array<ArrayBuffer>, type = "image/jpeg", ip = "203.0.113.7") {
   return POST(
     new Request("http://127.0.0.1/api/scan/", {
       method: "POST",

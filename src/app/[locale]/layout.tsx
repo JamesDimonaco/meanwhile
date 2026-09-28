@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { ExplainerProvider } from "@/components/explainer/explainer-provider";
 import { ExplainerTrigger } from "@/components/explainer/explainer-trigger";
 import { RegisterServiceWorker } from "@/components/pwa/register-service-worker";
+import { ScanButton } from "@/components/scan/scan-button";
 import { LanguageSwitcher } from "@/components/settings/language-switcher";
 import { HTML_LANG } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
@@ -42,6 +43,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
                 {t("appName")}
               </Link>
               <div className="flex items-center gap-3">
+                <ScanButton variant="header" />
                 <ExplainerTrigger />
                 <LanguageSwitcher />
               </div>
