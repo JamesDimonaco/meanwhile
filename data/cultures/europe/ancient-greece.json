@@ -1,0 +1,237 @@
+{
+  "id": "ancient-greece",
+  "region": "europe",
+  "wikidataId": "Q11772",
+  "name": {
+    "en": "Ancient Greece",
+    "es": "Antigua Grecia",
+    "zh": "古希腊"
+  },
+  "nativeName": {
+    "text": "Hellas",
+    "lang": "grc"
+  },
+  "aliases": [
+    "Hellas",
+    "Classical Greece",
+    "Archaic Greece",
+    "Hellenistic period"
+  ],
+  "description": {
+    "en": "A world of rival city-states, above all Athens and Sparta, that shared one language and one set of gods while rarely agreeing on anything else. Greek philosophy, theatre, mathematics and democratic government spread across the Mediterranean and beyond after Alexander the Great's conquests, until Rome absorbed the last independent Greek kingdoms.",
+    "es": "Un mundo de ciudades-estado rivales, sobre todo Atenas y Esparta, que compartían una misma lengua y un mismo panteón, aunque rara vez estaban de acuerdo en algo más. La filosofía, el teatro, las matemáticas y el gobierno democrático griegos se difundieron por el Mediterráneo y más allá tras las conquistas de Alejandro Magno, hasta que Roma absorbió los últimos reinos griegos independientes.",
+    "zh": "由雅典和斯巴达等相互竞争的城邦组成的世界，他们共用一种语言与一套神祇体系，却几乎在其他一切事情上都难以达成一致。希腊的哲学、戏剧、数学与民主政体，在亚历山大大帝的征服之后传遍地中海乃至更远之地，直到罗马吞并最后独立的希腊化王国。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -899,
+      "latestStart": -699,
+      "earliestEnd": -146,
+      "latestEnd": -30,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Archaic Greek\" (c. 700 - c. 480 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hdsg5"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Hellenistic\" (c. 320 - c. 30 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h7bzs"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Geometric Greek\" (c. 900 - c. 700 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hj2vt"
+        }
+      ],
+      "periodoId": "p08m57hdsg5",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "\"Ancient Greece\" has no single agreed end date. Mainland Greek independence effectively ended in 146 BCE, when Rome sacked Corinth, while the last major Greek kingdom, Ptolemaic Egypt, fell to Rome only in 30 BCE.",
+        "es": "\"Antigua Grecia\" no tiene una fecha de finalización única y acordada. La independencia de la Grecia continental terminó de hecho en el 146 a. e. c., cuando Roma saqueó Corinto, mientras que el último gran reino griego, el Egipto ptolemaico, cayó ante Roma solo en el 30 a. e. c.",
+        "zh": "「古希腊」并没有一个公认的统一终止年份。希腊本土的独立实际上终于公元前146年罗马洗劫科林斯之时，而最后一个重要的希腊化王国——托勒密埃及，直到公元前30年才被罗马吞并。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "first-olympics",
+      "start": -776,
+      "type": "founding",
+      "title": {
+        "en": "The first Olympic Games are held at Olympia, traditionally used to mark the start of recorded Greek history",
+        "es": "Se celebran los primeros Juegos Olímpicos en Olimpia, usados tradicionalmente para marcar el inicio de la historia griega registrada",
+        "zh": "首届奥林匹克运动会在奥林匹亚举行，传统上以此作为希腊有记载历史的开端"
+      },
+      "sources": [
+        {
+          "citation": "Spivey, N. (2004). The Ancient Olympics. Oxford University Press."
+        },
+        {
+          "citation": "British Museum. \"The Ancient Olympic Games.\" Collection notes."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "776 BCE is the traditional founding date recorded by later Greek chronographers; it is a convention, not an archaeologically fixed date.",
+        "es": "El 776 a. e. c. es la fecha de fundación tradicional registrada por cronógrafos griegos posteriores; es una convención, no una fecha fijada arqueológicamente.",
+        "zh": "公元前776年是后世希腊编年学者所记载的传统建立年份，属于一种惯例说法，并非考古学确证的年代。"
+      }
+    },
+    {
+      "id": "cleisthenes-democracy",
+      "start": -508,
+      "type": "founding",
+      "title": {
+        "en": "Cleisthenes' reforms in Athens create the world's first known democracy, with citizens voting directly on laws",
+        "es": "Las reformas de Clístenes en Atenas crean la primera democracia conocida del mundo, con ciudadanos que votan directamente las leyes",
+        "zh": "克利斯提尼在雅典推行改革，创立了世界上已知最早的民主政体，公民可直接就法律进行表决"
+      },
+      "sources": [
+        {
+          "citation": "Ober, J. (2008). Democracy and Knowledge: Innovation and Learning in Classical Athens. Princeton University Press."
+        },
+        {
+          "citation": "Hansen, M.H. (1991). The Athenian Democracy in the Age of Demosthenes. Blackwell."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "battle-of-marathon",
+      "start": -490,
+      "type": "conflict",
+      "title": {
+        "en": "Athens defeats a Persian invasion force at Marathon",
+        "es": "Atenas derrota a una fuerza de invasión persa en Maratón",
+        "zh": "雅典在马拉松击败波斯入侵军队"
+      },
+      "sources": [
+        {
+          "citation": "Herodotus. Histories, Book 6."
+        },
+        {
+          "citation": "Krentz, P. (2010). The Battle of Marathon. Yale University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "parthenon-built",
+      "start": -447,
+      "end": -432,
+      "type": "invention",
+      "title": {
+        "en": "Athens builds the Parthenon on the Acropolis under the statesman Pericles",
+        "es": "Atenas construye el Partenón en la Acrópolis bajo el estadista Pericles",
+        "zh": "在政治家伯里克利治下，雅典在卫城建起帕特农神庙"
+      },
+      "sources": [
+        {
+          "citation": "British Museum. \"The Parthenon Sculptures.\" Collection notes."
+        },
+        {
+          "citation": "Hurwit, J.M. (1999). The Athenian Acropolis: History, Mythology, and Archaeology from the Neolithic Era to the Present. Cambridge University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "peloponnesian-war",
+      "start": -431,
+      "end": -404,
+      "type": "conflict",
+      "title": {
+        "en": "Athens and Sparta fight the Peloponnesian War, which ends with Athens's defeat",
+        "es": "Atenas y Esparta libran la Guerra del Peloponeso, que termina con la derrota de Atenas",
+        "zh": "雅典与斯巴达爆发伯罗奔尼撒战争，最终以雅典战败告终"
+      },
+      "sources": [
+        {
+          "citation": "Thucydides. History of the Peloponnesian War."
+        },
+        {
+          "citation": "Kagan, D. (2003). The Peloponnesian War. Viking."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "alexander-conquests",
+      "start": -336,
+      "end": -323,
+      "type": "conflict",
+      "title": {
+        "en": "Alexander the Great conquers the Persian Empire, spreading Greek language and culture from Egypt to India",
+        "es": "Alejandro Magno conquista el Imperio persa, difundiendo la lengua y la cultura griegas desde Egipto hasta la India",
+        "zh": "亚历山大大帝征服波斯帝国，将希腊语言与文化传播至从埃及到印度的广大地区"
+      },
+      "sources": [
+        {
+          "citation": "Bosworth, A.B. (1988). Conquest and Empire: The Reign of Alexander the Great. Cambridge University Press."
+        },
+        {
+          "citation": "Arrian. Anabasis of Alexander."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "corinth-sacked",
+      "start": -146,
+      "type": "collapse",
+      "title": {
+        "en": "Rome destroys Corinth and dissolves the last Greek confederacy, ending mainland Greek political independence",
+        "es": "Roma destruye Corinto y disuelve la última confederación griega, poniendo fin a la independencia política de la Grecia continental",
+        "zh": "罗马摧毁科林斯，解散最后的希腊同盟，希腊本土的政治独立自此终结"
+      },
+      "sources": [
+        {
+          "citation": "Gruen, E.S. (1984). The Hellenistic World and the Coming of Rome. University of California Press."
+        },
+        {
+          "citation": "Pausanias. Description of Greece, Book 7."
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "many-poleis",
+      "start": -700,
+      "end": -300,
+      "text": {
+        "en": "There were over a thousand Greek city-states, most no bigger than a small town, each with its own laws, coins and calendar.",
+        "es": "Hubo más de mil ciudades-estado griegas, la mayoría no más grandes que una pequeña población, cada una con sus propias leyes, monedas y calendario.",
+        "zh": "古希腊城邦超过一千个，多数规模不过是一座小镇，却各自拥有独立的法律、货币和历法。"
+      },
+      "sources": [
+        {
+          "citation": "Hansen, M.H. & Nielsen, T.H. (eds) (2004). An Inventory of Archaic and Classical Poleis. Oxford University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "athenian-jury-pay",
+      "start": -450,
+      "end": -320,
+      "text": {
+        "en": "Athens paid ordinary citizens to serve on juries of up to 500 people, so poorer men could afford to take part in justice.",
+        "es": "Atenas pagaba a ciudadanos comunes por servir en jurados de hasta 500 personas, para que también los hombres más pobres pudieran permitirse participar en la justicia.",
+        "zh": "雅典向普通公民支付报酬，让他们得以参与多达五百人的陪审团，使贫困者也能负担得起参与司法的成本。"
+      },
+      "sources": [
+        {
+          "citation": "Hansen, M.H. (1991). The Athenian Democracy in the Age of Demosthenes. Blackwell."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

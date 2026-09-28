@@ -1,0 +1,229 @@
+{
+  "id": "celtic-iron-age",
+  "region": "europe",
+  "wikidataId": "Q35966",
+  "name": {
+    "en": "Celtic Iron Age",
+    "es": "Edad del Hierro celta",
+    "zh": "凯尔特铁器时代"
+  },
+  "aliases": [
+    "Ancient Celts",
+    "Hallstatt culture",
+    "La Tène culture",
+    "Iron Age Europe"
+  ],
+  "description": {
+    "en": "A family of related languages, art styles and burial customs spread across much of Iron Age Europe, from Ireland to Anatolia, without ever forming one state. Celtic-speaking peoples worked iron, minted coins and traded across the continent, until Rome conquered most of them from Gaul to Britain.",
+    "es": "Una familia de lenguas, estilos artísticos y costumbres funerarias emparentadas, extendida por buena parte de la Europa de la Edad del Hierro, desde Irlanda hasta Anatolia, sin llegar nunca a formar un solo Estado. Los pueblos de habla celta trabajaban el hierro, acuñaban monedas y comerciaban por todo el continente, hasta que Roma conquistó a la mayoría, desde la Galia hasta Britania.",
+    "zh": "一个由相近的语言、艺术风格与丧葬习俗组成的族群，散布在铁器时代欧洲大部分地区，从爱尔兰一直延伸到安纳托利亚，却从未形成统一的国家。说凯尔特语的各族群冶炼铁器、铸造钱币，在整个大陆上开展贸易，直到罗马从高卢到不列颠逐一将其大部分征服。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -1199,
+      "latestStart": -1124,
+      "earliestEnd": -50,
+      "latestEnd": 43,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Hallstatt A\" (c. 1200 - c. 1125 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hbngn"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"La Tène III\" (c. 125 BC - c. AD 43), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h88gc"
+        }
+      ],
+      "periodoId": "p08m57hbngn",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "\"Celtic Iron Age\" ends at very different times in different places: Gaul was conquered by Julius Caesar by 50 BCE, while Celtic-speaking Britain remained independent until the Roman conquest of AD 43, and Ireland was never conquered by Rome at all.",
+        "es": "La \"Edad del Hierro celta\" termina en momentos muy distintos según el lugar: la Galia fue conquistada por Julio César hacia el 50 a. e. c., mientras que la Britania de habla celta siguió siendo independiente hasta la conquista romana del 43 d. e. c., e Irlanda nunca llegó a ser conquistada por Roma.",
+        "zh": "「凯尔特铁器时代」在不同地区的终结时间相差极大：高卢在公元前50年左右被恺撒征服，而说凯尔特语的不列颠则一直独立到公元43年才被罗马征服，爱尔兰则从未被罗马征服过。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "hallstatt-salt",
+      "start": -1199,
+      "end": -799,
+      "type": "founding",
+      "title": {
+        "en": "Iron-working communities around Hallstatt in Austria grow wealthy from salt mining and trade",
+        "es": "Las comunidades del hierro en torno a Hallstatt, en Austria, se enriquecen gracias a la minería de sal y el comercio",
+        "zh": "奥地利哈尔施塔特周边的冶铁社群，依靠盐矿开采与贸易积累起财富"
+      },
+      "sources": [
+        {
+          "citation": "Cunliffe, B. (1997). The Ancient Celts. Oxford University Press."
+        },
+        {
+          "citation": "Natural History Museum Vienna. \"Hallstatt Culture.\" Prehistoric collection notes."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "la-tene-style",
+      "start": -450,
+      "type": "invention",
+      "title": {
+        "en": "The distinctive curving, plant-like La Tène art style appears on weapons, jewellery and mirrors across Celtic Europe",
+        "es": "El característico estilo artístico curvilíneo y vegetal de La Tène aparece en armas, joyas y espejos por toda la Europa celta",
+        "zh": "带有独特曲线与植物纹样的拉坦诺艺术风格，出现在整个凯尔特欧洲的武器、首饰与镜具上"
+      },
+      "sources": [
+        {
+          "citation": "Megaw, R. & Megaw, V. (2001). Celtic Art: From its Beginnings to the Book of Kells. Thames & Hudson."
+        },
+        {
+          "citation": "British Museum. \"Celtic Art.\" Collection notes."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "sack-of-rome",
+      "start": -390,
+      "type": "conflict",
+      "title": {
+        "en": "Celtic warriors under Brennus defeat a Roman army and sack the city of Rome itself",
+        "es": "Guerreros celtas bajo el mando de Breno derrotan a un ejército romano y saquean la propia ciudad de Roma",
+        "zh": "布伦努斯率领的凯尔特战士击败罗马军队，并洗劫了罗马城本身"
+      },
+      "sources": [
+        {
+          "citation": "Livy. Ab Urbe Condita, Book 5."
+        },
+        {
+          "citation": "Cornell, T.J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars. Routledge."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The traditional date of 390 BCE comes from later Roman annalists; some modern scholars place it a few years later, around 387 BCE.",
+        "es": "La fecha tradicional del 390 a. e. c. procede de anales romanos posteriores; algunos estudiosos modernos la sitúan unos años después, hacia el 387 a. e. c.",
+        "zh": "公元前390年这一传统年份出自后世罗马编年史家；部分现代学者将其定得稍晚，约在公元前387年。"
+      }
+    },
+    {
+      "id": "delphi-raid",
+      "start": -279,
+      "type": "conflict",
+      "title": {
+        "en": "Celtic warbands raid deep into Greece and attack the sanctuary at Delphi",
+        "es": "Bandas guerreras celtas penetran hasta lo más profundo de Grecia y atacan el santuario de Delfos",
+        "zh": "凯尔特武装队深入希腊腹地，袭击了德尔斐的圣所"
+      },
+      "sources": [
+        {
+          "citation": "Pausanias. Description of Greece, Book 10."
+        },
+        {
+          "citation": "Cunliffe, B. (1997). The Ancient Celts. Oxford University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "caesar-conquers-gaul",
+      "start": -58,
+      "end": -50,
+      "type": "conflict",
+      "title": {
+        "en": "Julius Caesar conquers Gaul over eight years of campaigning, ending Celtic independence there",
+        "es": "Julio César conquista la Galia tras ocho años de campaña, poniendo fin a la independencia celta en ese territorio",
+        "zh": "尤利乌斯·恺撒经过八年征战征服高卢，凯尔特人在此地的独立就此终结"
+      },
+      "sources": [
+        {
+          "citation": "Caesar. Commentarii de Bello Gallico."
+        },
+        {
+          "citation": "Goldsworthy, A. (2006). Caesar: Life of a Colossus. Yale University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "boudicas-revolt",
+      "start": 60,
+      "end": 61,
+      "type": "conflict",
+      "title": {
+        "en": "Queen Boudica leads the Iceni and allied Britons in a revolt that burns Londinium before Rome crushes it",
+        "es": "La reina Boudica dirige a los icenos y a britanos aliados en una revuelta que incendia Londinium antes de que Roma la aplaste",
+        "zh": "布狄卡女王率领伊西尼人及不列颠盟部起义，一度焚毁伦蒂尼恩，最终被罗马镇压"
+      },
+      "sources": [
+        {
+          "citation": "Tacitus. Annals, Book 14."
+        },
+        {
+          "citation": "Historic England. \"The Boudican Revolt.\" Research records."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "roman-conquest-britain",
+      "start": 43,
+      "type": "collapse",
+      "title": {
+        "en": "Emperor Claudius launches the Roman conquest of Britain, ending Celtic Iron Age independence in the south",
+        "es": "El emperador Claudio lanza la conquista romana de Britania, poniendo fin a la independencia celta de la Edad del Hierro en el sur",
+        "zh": "克劳狄乌斯皇帝发起对不列颠的罗马征服，南部凯尔特铁器时代的独立自此终结"
+      },
+      "sources": [
+        {
+          "citation": "Suetonius. The Twelve Caesars, \"Claudius\"."
+        },
+        {
+          "citation": "Historic England. \"The Roman Conquest of Britain.\" Research records."
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "no-writing-system",
+      "start": -700,
+      "end": 43,
+      "text": {
+        "en": "Celtic peoples left almost no writing of their own; nearly everything known about their beliefs comes from Greek and Roman authors who saw them as enemies.",
+        "es": "Los pueblos celtas apenas dejaron escritura propia; casi todo lo que se sabe de sus creencias procede de autores griegos y romanos, que los veían como enemigos.",
+        "zh": "凯尔特各族几乎没有留下自己的文字；今人对其信仰的了解几乎全部来自将他们视为敌人的希腊、罗马作者的记述。"
+      },
+      "sources": [
+        {
+          "citation": "Cunliffe, B. (1997). The Ancient Celts. Oxford University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "torc-jewellery",
+      "start": -300,
+      "end": 100,
+      "text": {
+        "en": "Celtic nobles wore heavy neck rings of twisted gold or bronze called torcs, sometimes buried in hoards weighing several kilograms.",
+        "es": "Los nobles celtas llevaban pesados aros para el cuello de oro o bronce retorcido llamados torques, a veces enterrados en tesoros de varios kilos de peso.",
+        "zh": "凯尔特贵族佩戴以金或青铜扭制而成的沉重项圈——托克项圈，有时以成套窖藏形式埋藏，重达数公斤。"
+      },
+      "sources": [
+        {
+          "citation": "British Museum. \"The Snettisham Hoard.\" Collection notes."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
