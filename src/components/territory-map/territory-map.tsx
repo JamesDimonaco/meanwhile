@@ -2,6 +2,7 @@
 
 import { geoAzimuthalEqualArea, geoBounds, geoPath } from "d3-geo";
 import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { useEffect, useId, useMemo, useState } from "react";
 import { YearText } from "@/components/settings/year-text";
 import { localize } from "@/lib/data/localize";
@@ -145,9 +146,10 @@ function MapSvg({ land, borders, year, pin }: { land: Geometry; borders: Borders
             {t("rivals", { names: new Intl.ListFormat(locale).format(rivals.map((r) => localize(r.label, locale))) })}
           </span>
         )}
-        <span>
-          {borders.sources.map((s) => s.citation).join(" · ")} · {t("landCredit")}
-        </span>
+        {/* Full citations and the changes made are on the credits page. */}
+        <Link href="/credits" className="underline-offset-2 hover:underline">
+          {t("credit")}
+        </Link>
       </figcaption>
     </figure>
   );

@@ -12,6 +12,9 @@ import type { ActiveCulture } from "@/lib/data/queries";
 import type { CultureEvent } from "@/lib/data/schema";
 import { MapFrame } from "./map-frame";
 
+/** How far below the sticky map an event's top must pass to take over the map. */
+const LINE_BELOW_MAP = 48;
+
 const TerritoryMap = dynamic(() => import("./territory-map").then((m) => m.TerritoryMap), {
   ssr: false,
   loading: () => <MapFrame />,
@@ -57,12 +60,15 @@ export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
     let frame = 0;
     const update = () => {
       frame = 0;
-      const line = window.innerHeight * 0.6;
+      const line = (mapSlot.current?.getBoundingClientRect().bottom ?? 0) + LINE_BELOW_MAP;
       let id = items[0].dataset.eventId;
       for (const item of items) {
         if (item.getBoundingClientRect().top > line) break;
         id = item.dataset.eventId;
       }
+      // At the foot of the page the last events can't scroll up to the line.
+      const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+      if (atBottom) id = items[items.length - 1].dataset.eventId;
       if (id) setActiveId(id);
     };
     const onScroll = () => {
@@ -81,7 +87,7 @@ export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
     <section className="flex flex-col gap-4">
       <div ref={mapSlot} className="sticky top-0 z-10 bg-background py-2">
         {mapWanted ? (
-          <TerritoryMap cultureId={culture.id} year={active.start} pin={active.place ?? null} />
+          <TerritoryMap cultureId={culture.id} year={active.end ?? active.start} pin={active.place ?? null} />
         ) : (
           <MapFrame />
         )}

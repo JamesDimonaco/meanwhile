@@ -5,7 +5,7 @@
   "beforeBorders": "No hay fronteras cartografiadas antes de <year></year>",
   "loading": "Cargando mapa…",
   "unavailable": "El mapa no se puede cargar ahora. Comprueba tu conexión.",
-  "landCredit": "Tierra: Natural Earth",
+  "credit": "Fronteras: Cliopatria (CC BY 4.0) · Tierras: Natural Earth",
   "elsewhere": "Mientras tanto, en otros lugares en <year></year>",
   "nothingElsewhere": "Ninguna de las otras culturas de la lista existía entonces.",
   "fuzzyDates": "fechas inciertas",
