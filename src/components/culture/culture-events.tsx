@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { EventWorld } from "@/lib/data/queries";
-import type { Culture, CultureEvent, EventType } from "@/lib/data/schema";
+import type { Culture, CultureEvent, EventType, Source } from "@/lib/data/schema";
 import { YearText } from "@/components/settings/year-text";
 import { useSettings } from "@/components/settings/use-settings";
 import { formatYear } from "@/lib/years";
@@ -79,24 +79,7 @@ function EventItem({
         <div className="flex flex-col gap-3 border-t border-border p-3 text-sm">
           {event.note && <p className="text-muted-foreground italic">{localize(event.note, locale)}</p>}
 
-          <div>
-            <h4 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
-              {t("sources")}
-            </h4>
-            <ul className="mt-1 flex flex-col gap-0.5">
-              {event.sources.map((source, i) => (
-                <li key={i} className="text-muted-foreground">
-                  {source.url ? (
-                    <a href={source.url} target="_blank" rel="noreferrer" className="underline underline-offset-2">
-                      {source.citation}
-                    </a>
-                  ) : (
-                    source.citation
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
+          <SourceList sources={event.sources} />
 
           <div>
             <h4 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
@@ -123,5 +106,28 @@ function EventItem({
         </div>
       </details>
     </li>
+  );
+}
+
+/** An event's sources, shared by the plain events list and the Rome story. */
+export function SourceList({ sources }: { sources: Source[] }) {
+  const t = useTranslations("culture");
+  return (
+    <div>
+      <h4 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">{t("sources")}</h4>
+      <ul className="mt-1 flex flex-col gap-0.5">
+        {sources.map((source, i) => (
+          <li key={i} className="text-muted-foreground">
+            {source.url ? (
+              <a href={source.url} target="_blank" rel="noreferrer" className="underline underline-offset-2">
+                {source.citation}
+              </a>
+            ) : (
+              source.citation
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }

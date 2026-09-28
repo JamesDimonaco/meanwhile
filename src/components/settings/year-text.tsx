@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, type MouseEvent } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { claimFirstBCEAutoOpen, useExplainer } from "@/components/explainer/explainer-provider";
 import { currentYear, formatYear, formatYearRange, roundYearsAgo, toDisplayYear, yearsAgo } from "@/lib/years";
@@ -15,6 +15,16 @@ function useFirstBCEAutoOpen(year: number) {
   useEffect(() => {
     if (toDisplayYear(year).era === "BCE" && claimFirstBCEAutoOpen()) open(year);
   }, [year, open]);
+}
+
+/**
+ * Dates sit inside card and search-result links: tapping the date opens the
+ * explainer without also following the link.
+ */
+function openFromDate(e: MouseEvent<HTMLButtonElement>, open: (year: number) => void, year: number) {
+  e.preventDefault();
+  e.stopPropagation();
+  open(year);
 }
 
 function YearsAgo({ year }: { year: number }) {
@@ -41,7 +51,7 @@ export function YearText({ year }: { year: number }) {
     <time className="whitespace-nowrap">
       <button
         type="button"
-        onClick={() => open(year)}
+        onClick={(e) => openFromDate(e, open, year)}
         className="rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
       >
         {formatYear(year, locale, eraStyle)}
@@ -62,7 +72,7 @@ export function YearRangeText({ start, end }: { start: number; end: number }) {
     <span className="whitespace-nowrap">
       <button
         type="button"
-        onClick={() => open(start)}
+        onClick={(e) => openFromDate(e, open, start)}
         className="rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
       >
         {formatYearRange(start, end, locale, eraStyle)}

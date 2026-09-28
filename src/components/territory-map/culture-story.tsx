@@ -4,7 +4,7 @@ import { MapPin } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
-import type { CultureEventsProps } from "@/components/culture/culture-events";
+import { SourceList, type CultureEventsProps } from "@/components/culture/culture-events";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
@@ -124,16 +124,17 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
       data-event-id={event.id}
       className={`rounded-lg border-s-4 bg-card transition-colors ${active ? "border-red-700 dark:border-red-400" : "border-transparent"}`}
     >
+      {/* The date sits outside the toggle: it is its own button (the explainer). */}
+      <p className="px-3 pt-3 text-sm text-muted-foreground">
+        {event.end === undefined ? <YearText year={event.start} /> : <YearRangeText start={event.start} end={event.end} />}
+      </p>
       <button
         type="button"
         onClick={onToggle}
         aria-expanded={open}
         aria-controls={panelId}
-        className="flex w-full flex-col items-start gap-0.5 px-3 py-3 text-start"
+        className="flex w-full flex-col items-start gap-0.5 px-3 pt-0.5 pb-3 text-start"
       >
-        <span className="text-sm text-muted-foreground">
-          {event.end === undefined ? <YearText year={event.start} /> : <YearRangeText start={event.start} end={event.end} />}
-        </span>
         <span className="font-medium">{localize(event.title, locale)}</span>
         {event.place && (
           <span className="flex items-center gap-1 text-sm text-muted-foreground">
@@ -166,6 +167,7 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
           ) : (
             <p className="text-muted-foreground">{t("nothingElsewhere")}</p>
           )}
+          <SourceList sources={event.sources} />
           <Link
             href={{ pathname: "/timeline", query: { year: String(event.start) } }}
             className="underline underline-offset-2"
