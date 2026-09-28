@@ -1,0 +1,221 @@
+{
+  "id": "minoan",
+  "region": "europe",
+  "wikidataId": "Q134178",
+  "name": {
+    "en": "Minoan civilization",
+    "es": "Civilización minoica",
+    "zh": "米诺斯文明"
+  },
+  "aliases": [
+    "Minoan",
+    "Crete",
+    "Cretan Bronze Age",
+    "Knossos"
+  ],
+  "description": {
+    "en": "Europe's first literate civilization, centred on palaces such as Knossos on the island of Crete. Minoan traders and artists reached across the Aegean, but their own name for themselves is unknown, and their earliest script, Linear A, has never been deciphered.",
+    "es": "La primera civilización letrada de Europa, centrada en palacios como el de Cnosos, en la isla de Creta. Comerciantes y artistas minoicos llegaron por todo el Egeo, pero se desconoce el nombre que ellos mismos usaban, y su escritura más antigua, el lineal A, nunca ha sido descifrada.",
+    "zh": "欧洲最早拥有文字的文明，以克里特岛克诺索斯等宫殿为中心。米诺斯的商人与工匠的足迹遍及爱琴海，但他们自称何名已不可考，其最早的线形文字A至今仍未被破译。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -3199,
+      "latestStart": -3099,
+      "earliestEnd": -1099,
+      "latestEnd": -1059,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Early Minoan\" (c. 3200 – c. 2000 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hg6nn"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Sub-Minoan\" (c. 1059 – c. 999 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h3qxg"
+        }
+      ],
+      "periodoId": "p08m57hg6nn",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Absolute dates for Minoan Crete depend on the \"high\" versus \"low\" Aegean chronology debate, which turns on when the volcano at Thera (Santorini) erupted; the two positions differ by up to a century for the mid-second-millennium phases.",
+        "es": "Las fechas absolutas de la Creta minoica dependen del debate entre la cronología egea \"alta\" y \"baja\", que gira en torno a cuándo entró en erupción el volcán de Tera (Santorini); ambas posturas difieren hasta en un siglo para las fases de mediados del segundo milenio.",
+        "zh": "米诺斯克里特的绝对年代取决于爱琴海\"高\"、\"低\"两种年代学之争，其焦点在于锡拉岛（圣托里尼）火山喷发的具体年份；两种方案在公元前二千纪中期各阶段上相差可达一个世纪。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "first-palaces",
+      "start": -1899,
+      "type": "founding",
+      "title": {
+        "en": "The first palace complexes are built at Knossos, Phaistos and Malia",
+        "es": "Se construyen los primeros complejos palaciales en Cnosos, Festo y Malia",
+        "zh": "克诺索斯、费斯托斯和马利亚建起最早的宫殿建筑群"
+      },
+      "sources": [
+        {
+          "citation": "Cadogan, G. (2011). \"The Minoan Palaces.\" In The Oxford Handbook of the Bronze Age Aegean, 106-117. Oxford University Press."
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Minoan Crete.\" Heilbrunn Timeline of Art History."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "linear-a",
+      "start": -1799,
+      "end": -1449,
+      "type": "invention",
+      "title": {
+        "en": "Palace scribes develop Linear A, Europe's first known script, still undeciphered",
+        "es": "Los escribas palaciegos desarrollan el lineal A, la primera escritura conocida de Europa, aún sin descifrar",
+        "zh": "宫廷书吏创制线形文字A，这是欧洲已知最早的文字，至今未被破译"
+      },
+      "sources": [
+        {
+          "citation": "Younger, J.G. & Rehak, P. (2008). \"Minoan Culture: Religion, Burial Customs, and Administration.\" In The Cambridge Companion to the Aegean Bronze Age, 165-185. Cambridge University Press."
+        },
+        {
+          "citation": "Ashmolean Museum. \"Cracking the Code: Linear A and Linear B.\" Exhibition notes."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "new-palace-period",
+      "start": -1699,
+      "end": -1449,
+      "type": "invention",
+      "title": {
+        "en": "Knossos is rebuilt on a grander scale after earthquake damage, beginning Crete's most prosperous period",
+        "es": "Cnosos se reconstruye a mayor escala tras los daños de un terremoto, dando inicio al período más próspero de Creta",
+        "zh": "克诺索斯在地震损毁后以更大规模重建，克里特由此进入最繁荣的时期"
+      },
+      "sources": [
+        {
+          "citation": "Cadogan, G. (2011). \"The Minoan Palaces.\" In The Oxford Handbook of the Bronze Age Aegean, 106-117. Oxford University Press."
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Minoan Crete.\" Heilbrunn Timeline of Art History."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "thera-eruption",
+      "start": -1600,
+      "type": "conflict",
+      "title": {
+        "en": "The volcano on Thera (Santorini) erupts, one of the largest eruptions of the last 10,000 years, burying the Minoan-influenced town of Akrotiri",
+        "es": "El volcán de Tera (Santorini) entra en erupción, una de las mayores erupciones de los últimos 10 000 años, sepultando la ciudad de Akrotiri, de influencia minoica",
+        "zh": "锡拉岛（圣托里尼）火山喷发，是近一万年来最猛烈的火山喷发之一，掩埋了受米诺斯文化影响的阿克罗蒂里城"
+      },
+      "sources": [
+        {
+          "citation": "Friedrich, W.L. et al. (2006). \"Santorini Eruption Radiocarbon Dated to 1627-1600 B.C.\" Science 312(5773): 548.",
+          "url": "https://doi.org/10.1126/science.1125087"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Akrotiri, Thera.\" Heilbrunn Timeline of Art History."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The radiocarbon date of c. 1600 BCE and the archaeological/historical date of c. 1500 BCE differ by roughly a century; this is the core of the high/low Aegean chronology dispute.",
+        "es": "La fecha por radiocarbono, hacia el 1600 a. e. c., y la fecha arqueológica/histórica, hacia el 1500 a. e. c., difieren en aproximadamente un siglo; este es el núcleo del debate sobre la cronología egea alta/baja.",
+        "zh": "放射性碳定年给出的约公元前1600年与考古/历史学定年给出的约公元前1500年相差近一个世纪，这正是爱琴海高、低年代学之争的核心。"
+      }
+    },
+    {
+      "id": "mycenaean-takeover",
+      "start": -1449,
+      "type": "conflict",
+      "title": {
+        "en": "Knossos comes under Mycenaean Greek control, and Linear B, an early form of Greek, appears in the palace archives",
+        "es": "Cnosos queda bajo control de los griegos micénicos, y el lineal B, una forma temprana del griego, aparece en los archivos del palacio",
+        "zh": "克诺索斯落入迈锡尼希腊人控制，宫廷档案中开始出现早期希腊语文字——线形文字B"
+      },
+      "sources": [
+        {
+          "citation": "Driessen, J. (2011). \"Chronology of the Linear B Texts.\" In A Companion to Linear B: Mycenaean Greek Texts and their World, vol. 2. Peeters."
+        },
+        {
+          "citation": "Younger, J.G. & Rehak, P. (2008). \"Minoan Culture: Religion, Burial Customs, and Administration.\" In The Cambridge Companion to the Aegean Bronze Age, 165-185. Cambridge University Press."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Whether Mycenaeans took over Knossos before or after the Thera eruption, and by conquest or gradual influence, remains debated.",
+        "es": "Si los micénicos tomaron Cnosos antes o después de la erupción de Tera, y si fue por conquista o por influencia gradual, sigue siendo objeto de debate.",
+        "zh": "迈锡尼人是在锡拉火山喷发之前还是之后接管克诺索斯，以及是通过征服还是渐进影响，学界仍无定论。"
+      }
+    },
+    {
+      "id": "final-destruction",
+      "start": -1375,
+      "end": -1325,
+      "type": "collapse",
+      "title": {
+        "en": "Knossos, the last major Minoan palace, is destroyed by fire and not rebuilt",
+        "es": "Cnosos, el último gran palacio minoico, es destruido por un incendio y no se reconstruye",
+        "zh": "克诺索斯——最后一座主要的米诺斯宫殿——毁于大火，此后未再重建"
+      },
+      "sources": [
+        {
+          "citation": "Driessen, J. (2011). \"Chronology of the Linear B Texts.\" In A Companion to Linear B: Mycenaean Greek Texts and their World, vol. 2. Peeters."
+        },
+        {
+          "citation": "Cadogan, G. (2011). \"The Minoan Palaces.\" In The Oxford Handbook of the Bronze Age Aegean, 106-117. Oxford University Press."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date of Knossos's final destruction is argued over by decades and tied to the same chronology dispute as the Thera eruption.",
+        "es": "La fecha de la destrucción final de Cnosos se discute con un margen de décadas y está ligada al mismo debate cronológico que la erupción de Tera.",
+        "zh": "克诺索斯最终毁灭的具体年份争议可达数十年，与锡拉火山喷发的年代之争紧密相关。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "flushing-toilets",
+      "start": -1699,
+      "end": -1449,
+      "text": {
+        "en": "The palace at Knossos had a drainage system with what may be the oldest flushing latrine in Europe, fed by terracotta pipes.",
+        "es": "El palacio de Cnosos tenía un sistema de desagüe con lo que podría ser la letrina de cisterna más antigua de Europa, alimentada por tuberías de terracota.",
+        "zh": "克诺索斯宫殿设有排水系统，其中可能包括欧洲现存最早的冲水式厕所，由陶土管道供水。"
+      },
+      "sources": [
+        {
+          "citation": "Angelakis, A.N. & Spyridakis, S.V. (2010). \"Water supply and wastewater management aspects in ancient Greece.\" Water Science & Technology: Water Supply 10(4): 618-628."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "bull-leaping",
+      "start": -1699,
+      "end": -1449,
+      "text": {
+        "en": "Frescoes at Knossos show acrobats vaulting over the horns and backs of charging bulls, a ritual sport with no clear parallel elsewhere.",
+        "es": "Los frescos de Cnosos muestran acróbatas saltando sobre los cuernos y el lomo de toros embistiendo, un deporte ritual sin un paralelo claro en ningún otro lugar.",
+        "zh": "克诺索斯的壁画描绘了杂技者在奔牛的牛角与背脊上翻越腾跃，这种仪式性的运动在别处未见明确类比。"
+      },
+      "sources": [
+        {
+          "citation": "Younger, J.G. (1995). \"Bronze Age Representations of Aegean Bull-Games, III.\" In Politeia: Society and State in the Aegean Bronze Age, 507-546. Université de Liège."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

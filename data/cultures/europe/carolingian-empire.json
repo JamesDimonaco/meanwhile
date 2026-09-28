@@ -1,0 +1,231 @@
+{
+  "id": "carolingian-empire",
+  "region": "europe",
+  "wikidataId": "Q31929",
+  "name": {
+    "en": "Carolingian Empire",
+    "es": "Imperio carolingio",
+    "zh": "加洛林帝国"
+  },
+  "nativeName": {
+    "text": "Imperium Francorum",
+    "lang": "la"
+  },
+  "aliases": [
+    "Carolingian dynasty",
+    "Frankish Empire",
+    "Empire of Charlemagne"
+  ],
+  "description": {
+    "en": "A Frankish empire built by conquest under Charlemagne, who was crowned Roman Emperor in Rome on Christmas Day 800, reviving the idea of a Western empire more than three centuries after Rome's last western emperor. It sponsored a revival of Latin learning and book production, then split among Charlemagne's grandsons within a single generation of his death.",
+    "es": "Un imperio franco construido por conquista bajo Carlomagno, coronado emperador romano en Roma el día de Navidad del año 800, resucitando la idea de un imperio occidental más de tres siglos después del último emperador occidental de Roma. Impulsó un renacimiento del saber latino y de la producción de libros, y luego se dividió entre los nietos de Carlomagno en el plazo de una sola generación tras su muerte.",
+    "zh": "由查理曼通过征服建立的法兰克帝国，公元800年圣诞节他在罗马被加冕为罗马皇帝，在西罗马末代皇帝退位三百多年后重新复兴了西方帝国的理念。该帝国推动了拉丁学术与书籍制作的复兴，但在查理曼去世后不到一代人的时间里便分裂给了他的孙辈们。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 751,
+      "latestStart": 800,
+      "earliestEnd": 843,
+      "latestEnd": 887,
+      "sources": [
+        {
+          "citation": "PeriodO period definition, \"Carolingian Empire\" (768-887), from an art-history chronology.",
+          "url": "http://n2t.net/ark:/99152/p0z5nvht7jr"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Carolingian rule, 774-887\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g38qpt"
+        }
+      ],
+      "periodoId": "p0z5nvht7jr",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Start dates vary by what is counted: 751, when Pepin the Short deposed the last Merovingian king; 768, when Charlemagne became king of the Franks; or 800, his imperial coronation. The end is given as either 843, when the empire was permanently divided at the Treaty of Verdun, or 887, when the last ruler of a briefly reunited empire, Charles the Fat, was deposed.",
+        "es": "Las fechas de inicio varían según lo que se cuente: el 751, cuando Pipino el Breve depuso al último rey merovingio; el 768, cuando Carlomagno se convirtió en rey de los francos; o el 800, su coronación imperial. El final se sitúa en el 843, cuando el imperio se dividió de forma permanente en el Tratado de Verdún, o en el 887, cuando fue depuesto Carlos el Gordo, el último gobernante de un imperio brevemente reunificado.",
+        "zh": "起始年份因计算方式而异：或为751年（矮子丕平废黜末代墨洛温国王）、或为768年（查理曼成为法兰克国王）、或为800年（其加冕为皇帝）。终止年份则或为843年（《凡尔登条约》使帝国永久分裂）、或为887年（短暂重新统一帝国的末代统治者胖子查理被废黜）。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "pepin-deposes-merovingians",
+      "start": 751,
+      "type": "founding",
+      "title": {
+        "en": "Pepin the Short deposes the last Merovingian king and is crowned king of the Franks with papal backing",
+        "es": "Pipino el Breve depone al último rey merovingio y es coronado rey de los francos con el respaldo papal",
+        "zh": "矮子丕平废黜末代墨洛温国王，在教皇支持下加冕为法兰克国王"
+      },
+      "sources": [
+        {
+          "citation": "McKitterick, R. (2008). Charlemagne: The Formation of a European Identity. Cambridge University Press."
+        },
+        {
+          "citation": "Royal Frankish Annals, entry for 751."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "charlemagne-sole-king",
+      "start": 771,
+      "type": "ruler",
+      "title": {
+        "en": "Charlemagne becomes sole king of the Franks after the death of his brother Carloman",
+        "es": "Carlomagno se convierte en único rey de los francos tras la muerte de su hermano Carlomán",
+        "zh": "其兄卡洛曼去世后，查理曼成为法兰克唯一的国王"
+      },
+      "sources": [
+        {
+          "citation": "McKitterick, R. (2008). Charlemagne: The Formation of a European Identity. Cambridge University Press."
+        },
+        {
+          "citation": "Royal Frankish Annals, entry for 771."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "saxon-wars",
+      "start": 772,
+      "end": 804,
+      "type": "conflict",
+      "title": {
+        "en": "Charlemagne wages three decades of war to conquer and forcibly convert the pagan Saxons",
+        "es": "Carlomagno libra tres décadas de guerra para conquistar y convertir por la fuerza a los sajones paganos",
+        "zh": "查理曼历时三十年征战，以武力征服并强制皈依异教的萨克森人"
+      },
+      "sources": [
+        {
+          "citation": "Royal Frankish Annals, entries 772-804."
+        },
+        {
+          "citation": "Collins, R. (1998). Charlemagne. Macmillan."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "imperial-coronation",
+      "start": 800,
+      "type": "founding",
+      "title": {
+        "en": "Pope Leo III crowns Charlemagne Roman Emperor in St Peter's Basilica on Christmas Day",
+        "es": "El papa León III corona a Carlomagno emperador romano en la basílica de San Pedro el día de Navidad",
+        "zh": "教皇利奥三世于圣诞节在圣彼得大教堂为查理曼加冕为罗马皇帝"
+      },
+      "sources": [
+        {
+          "citation": "Royal Frankish Annals, entry for 800."
+        },
+        {
+          "citation": "Einhard. Vita Karoli Magni (Life of Charlemagne)."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Einhard's biography claims Charlemagne was taken by surprise by the coronation; most modern historians doubt this and think it was pre-arranged.",
+        "es": "La biografía de Eginardo afirma que Carlomagno fue tomado por sorpresa con la coronación; la mayoría de los historiadores modernos lo dudan y piensan que fue acordada de antemano.",
+        "zh": "艾因哈德的传记声称查理曼对这次加冕毫无准备，但现代史家大多对此存疑，认为此事实为事先安排。"
+      }
+    },
+    {
+      "id": "carolingian-renaissance",
+      "start": 780,
+      "end": 850,
+      "type": "invention",
+      "title": {
+        "en": "Monastic scriptoria copy classical Latin texts in the new, more legible Carolingian minuscule script, preserving many works otherwise lost",
+        "es": "Los escritorios monásticos copian textos latinos clásicos en la nueva y más legible minúscula carolingia, preservando muchas obras que de otro modo se habrían perdido",
+        "zh": "修道院抄写室以新创的、更易辨读的加洛林小写体抄录古典拉丁文本，使许多原本可能失传的著作得以保存"
+      },
+      "sources": [
+        {
+          "citation": "Bischoff, B. (1990). Latin Palaeography: Antiquity and the Middle Ages. Cambridge University Press."
+        },
+        {
+          "citation": "McKitterick, R. (1989). The Carolingians and the Written Word. Cambridge University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "treaty-of-verdun",
+      "start": 843,
+      "type": "collapse",
+      "title": {
+        "en": "Charlemagne's three grandsons divide the empire at the Treaty of Verdun, creating the outlines of future France and Germany",
+        "es": "Los tres nietos de Carlomagno dividen el imperio en el Tratado de Verdún, trazando los contornos de la futura Francia y Alemania",
+        "zh": "查理曼的三位孙辈在《凡尔登条约》中瓜分帝国，勾勒出后来法国与德国的雏形"
+      },
+      "sources": [
+        {
+          "citation": "Nithard. Historiarum Libri IIII (Histories)."
+        },
+        {
+          "citation": "Ganshof, F.L. (1971). The Carolingians and the Frankish Monarchy. Longman."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "charles-the-fat-deposed",
+      "start": 887,
+      "type": "collapse",
+      "title": {
+        "en": "Charles the Fat, the last ruler of a briefly reunited empire, is deposed, and the Carolingian lands split permanently",
+        "es": "Carlos el Gordo, el último gobernante de un imperio brevemente reunificado, es depuesto, y los territorios carolingios se dividen de forma permanente",
+        "zh": "短暂重新统一帝国的末代统治者胖子查理被废黜，加洛林领地就此永久分裂"
+      },
+      "sources": [
+        {
+          "citation": "Annals of Fulda, entry for 887."
+        },
+        {
+          "citation": "MacLean, S. (2003). Kingship and Politics in the Late Ninth Century: Charles the Fat and the End of the Carolingian Empire. Cambridge University Press."
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "charlemagne-height",
+      "start": 768,
+      "end": 814,
+      "text": {
+        "en": "Charlemagne's tomb and skeletal remains suggest he stood roughly 1.84 metres tall, unusually tall for his time.",
+        "es": "La tumba y los restos óseos de Carlomagno sugieren que medía alrededor de 1,84 metros, una estatura inusualmente alta para su época.",
+        "zh": "查理曼的墓葬与骨骼遗存显示他身高约1.84米，在当时属于异常高大。"
+      },
+      "sources": [
+        {
+          "citation": "Rühli, F. et al. (2010). \"Charlemagne was very tall, but not robust.\" Economics & Human Biology 8(2): 289-290."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "no-crown-successor",
+      "start": 813,
+      "end": 813,
+      "text": {
+        "en": "In 813, an aging Charlemagne crowned his own son Louis co-emperor himself, without the pope, to make sure the succession would not be disputed.",
+        "es": "En el 813, un Carlomagno ya anciano coronó él mismo a su hijo Luis como coemperador, sin el papa, para asegurarse de que la sucesión no fuera disputada.",
+        "zh": "813年，年迈的查理曼亲自为儿子路易加冕为共治皇帝，未借助教皇之手，以确保继承不会引发争议。"
+      },
+      "sources": [
+        {
+          "citation": "Thegan. Gesta Hludowici Imperatoris (Deeds of Emperor Louis)."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

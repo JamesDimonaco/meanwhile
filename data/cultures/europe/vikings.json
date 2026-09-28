@@ -1,0 +1,232 @@
+{
+  "id": "vikings",
+  "region": "europe",
+  "wikidataId": "Q12567",
+  "name": {
+    "en": "Vikings",
+    "es": "Vikingos",
+    "zh": "维京人"
+  },
+  "nativeName": {
+    "text": "Víkingar",
+    "lang": "non"
+  },
+  "aliases": [
+    "Norse",
+    "Viking Age",
+    "Norsemen",
+    "Rus"
+  ],
+  "description": {
+    "en": "Scandinavian farmers, traders and raiders whose fast, shallow-drafted longships carried them from Newfoundland to Baghdad. At home they were mostly settled farmers with their own law-courts and sagas; abroad, for a few violent centuries, they raided monasteries, founded towns and even sat on the thrones of England and Kyiv.",
+    "es": "Agricultores, comerciantes y saqueadores escandinavos cuyos rápidos drakkares de poco calado los llevaron desde Terranova hasta Bagdad. En su tierra eran sobre todo agricultores asentados, con sus propios tribunales y sagas; fuera de ella, durante unos siglos de violencia, saquearon monasterios, fundaron ciudades e incluso ocuparon los tronos de Inglaterra y Kiev.",
+    "zh": "斯堪的纳维亚的农民、商人与劫掠者，他们乘坐吃水浅、速度快的长船，足迹远至纽芬兰与巴格达。在本土，他们大多是安分的农人，拥有自己的法庭与萨迦文学传统；在海外，在数百年的暴力岁月里，他们劫掠修道院、建立城镇，甚至曾登上英格兰和基辅的王座。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 793,
+      "latestStart": 800,
+      "earliestEnd": 1050,
+      "latestEnd": 1066,
+      "sources": [
+        {
+          "citation": "Historic England Periods thesaurus, \"Viking\" (AD 800 - 1050), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0kh9dswcc2"
+        },
+        {
+          "citation": "Sawyer, P. (ed.) (1997). The Oxford Illustrated History of the Vikings. Oxford University Press."
+        }
+      ],
+      "periodoId": "p0kh9dswcc2",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The Viking Age is conventionally dated from the raid on the monastery at Lindisfarne in 793 CE to either the Battle of Stamford Bridge or the Norman conquest of England in 1066; the two conquests are usually treated as the closing act.",
+        "es": "La Edad Vikinga se fecha por convención desde el saqueo del monasterio de Lindisfarne en el 793 e. c. hasta la batalla de Stamford Bridge o la conquista normanda de Inglaterra en 1066; ambas conquistas suelen tratarse como el acto final.",
+        "zh": "维京时代通常以公元793年林迪斯法恩修道院遭袭为起点，以斯坦福桥战役或1066年诺曼征服英格兰为终点，这两场征服往往被视为其收尾的标志性事件。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "lindisfarne-raid",
+      "start": 793,
+      "type": "conflict",
+      "title": {
+        "en": "Norse raiders attack the monastery at Lindisfarne, the first recorded Viking raid on Britain",
+        "es": "Guerreros nórdicos atacan el monasterio de Lindisfarne, el primer asalto vikingo registrado en Britania",
+        "zh": "北欧武装袭击林迪斯法恩修道院，这是不列颠历史上首次有记载的维京劫掠"
+      },
+      "sources": [
+        {
+          "citation": "Anglo-Saxon Chronicle, entry for 793."
+        },
+        {
+          "citation": "British Museum. \"The Vikings.\" Collection notes."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "founding-of-dublin",
+      "start": 841,
+      "type": "founding",
+      "title": {
+        "en": "Norse settlers establish a longphort, a ship fortress, that grows into the town of Dublin",
+        "es": "Colonos nórdicos establecen un longphort, una fortaleza naval, que crece hasta convertirse en la ciudad de Dublín",
+        "zh": "北欧移民建立起一座船坞要塞（longphort），日后发展成为都柏林城"
+      },
+      "sources": [
+        {
+          "citation": "National Museum of Ireland. \"Viking Dublin.\" Archaeology collection notes."
+        },
+        {
+          "citation": "Clarke, H.B. et al. (eds) (1998). Ireland and Scandinavia in the Early Viking Age. Four Courts Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "great-heathen-army",
+      "start": 865,
+      "end": 878,
+      "type": "conflict",
+      "title": {
+        "en": "The Great Heathen Army invades England, conquering three of its four kingdoms before Alfred the Great halts it",
+        "es": "El Gran Ejército Pagano invade Inglaterra, conquistando tres de sus cuatro reinos antes de que Alfredo el Grande lo detenga",
+        "zh": "「异教徒大军」入侵英格兰，攻陷四个王国中的三个，直到阿尔弗雷德大帝将其阻止"
+      },
+      "sources": [
+        {
+          "citation": "Anglo-Saxon Chronicle, entries 865-878."
+        },
+        {
+          "citation": "Downham, C. (2007). Viking Kings of Britain and Ireland: The Dynasty of Ívarr to A.D. 1014. Dunedin Academic Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "founding-of-kyivan-rus",
+      "start": 862,
+      "type": "founding",
+      "title": {
+        "en": "Rus traders and warriors, of Scandinavian origin, establish princely rule over Slavic towns along the river routes to Byzantium",
+        "es": "Comerciantes y guerreros rus, de origen escandinavo, establecen un dominio principesco sobre ciudades eslavas a lo largo de las rutas fluviales hacia Bizancio",
+        "zh": "源自斯堪的纳维亚的罗斯商人与战士，在通往拜占庭的河道沿线斯拉夫城镇建立起王公统治"
+      },
+      "sources": [
+        {
+          "citation": "Franklin, S. & Shepard, J. (1996). The Emergence of Rus 750-1200. Longman."
+        },
+        {
+          "citation": "Primary Chronicle (Russian Primary Chronicle), entry for 862."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The \"Normanist\" account of Scandinavian founders is drawn from the Russian Primary Chronicle, written over two centuries later, and the extent of Norse versus Slavic contribution to Kyivan Rus is still argued.",
+        "es": "El relato \"normanista\" sobre fundadores escandinavos procede de la Crónica de Néstor, escrita más de dos siglos después, y el peso relativo de la aportación nórdica frente a la eslava en la Rus de Kiev sigue siendo objeto de debate.",
+        "zh": "关于斯堪的纳维亚建国者的\"诺曼说\"源自两个多世纪后写成的《往年纪事》，北欧人与斯拉夫人各自在基辅罗斯建立过程中的作用大小，学界至今仍有争论。"
+      }
+    },
+    {
+      "id": "vinland-settlement",
+      "start": 1000,
+      "type": "founding",
+      "title": {
+        "en": "Norse voyagers led by Leif Erikson reach North America and briefly settle at L'Anse aux Meadows, Newfoundland",
+        "es": "Navegantes nórdicos liderados por Leif Erikson llegan a América del Norte y se asientan brevemente en L'Anse aux Meadows, Terranova",
+        "zh": "由莱夫·埃里克松率领的北欧航海者抵达北美，并在纽芬兰的兰塞奥兹牧草地短暂定居"
+      },
+      "sources": [
+        {
+          "citation": "Wallace, B.L. (2003). \"The Norse in Newfoundland: L'Anse aux Meadows and Vinland.\" Newfoundland and Labrador Studies 19(1): 5-43."
+        },
+        {
+          "citation": "Kuitems, M. et al. (2021). \"Evidence for European presence in the Americas in AD 1021.\" Nature 601: 388-391.",
+          "url": "https://doi.org/10.1038/s41586-021-03972-8"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "canute-north-sea-empire",
+      "start": 1016,
+      "end": 1035,
+      "type": "ruler",
+      "title": {
+        "en": "Cnut the Great rules England, Denmark and Norway together as a single North Sea empire",
+        "es": "Canuto el Grande gobierna conjuntamente Inglaterra, Dinamarca y Noruega como un solo imperio del mar del Norte",
+        "zh": "克努特大帝统一治理英格兰、丹麦与挪威，形成统一的北海帝国"
+      },
+      "sources": [
+        {
+          "citation": "Lawson, M.K. (2004). Cnut: England's Viking King. Tempus."
+        },
+        {
+          "citation": "Anglo-Saxon Chronicle, entries 1016-1035."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "stamford-bridge-hastings",
+      "start": 1066,
+      "type": "collapse",
+      "title": {
+        "en": "England defeats a Norwegian invasion at Stamford Bridge, then falls to the Normans at Hastings weeks later, conventionally closing the Viking Age",
+        "es": "Inglaterra derrota una invasión noruega en Stamford Bridge y, semanas después, cae ante los normandos en Hastings, cerrando por convención la Edad Vikinga",
+        "zh": "英格兰在斯坦福桥击败挪威入侵，数周后又败于黑斯廷斯之战的诺曼人之手，传统上以此作为维京时代的终结"
+      },
+      "sources": [
+        {
+          "citation": "Anglo-Saxon Chronicle, entries for 1066."
+        },
+        {
+          "citation": "DeVries, K. (1999). The Norwegian Invasion of England in 1066. Boydell Press."
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "longship-speed",
+      "start": 800,
+      "end": 1050,
+      "text": {
+        "en": "A Viking longship could be rowed or sailed in under a metre of water, letting raiders strike far up rivers that seagoing ships could never reach.",
+        "es": "Un drakkar vikingo podía remarse o navegarse en menos de un metro de agua, lo que permitía a los guerreros atacar muy adentro en ríos a los que las naves de altura nunca podrían llegar.",
+        "zh": "维京长船吃水不足一米，靠划桨或扬帆便能航行，使劫掠者得以深入远洋船只无法到达的河流上游"
+      },
+      "sources": [
+        {
+          "citation": "Roskilde Viking Ship Museum. \"Viking Ships.\" Collection notes."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "viking-women-rights",
+      "start": 800,
+      "end": 1050,
+      "text": {
+        "en": "Norse women could own property, request divorce and be buried with the same ship-burial honours as men, rights unusual for the period.",
+        "es": "Las mujeres nórdicas podían poseer propiedades, solicitar el divorcio y recibir el mismo honor del enterramiento en barco que los hombres, derechos poco comunes para la época.",
+        "zh": "北欧女性可以拥有财产、提出离婚，也能享有与男性同等的船葬礼遇，这在当时是相当罕见的权利。"
+      },
+      "sources": [
+        {
+          "citation": "Jesch, J. (1991). Women in the Viking Age. Boydell Press."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
