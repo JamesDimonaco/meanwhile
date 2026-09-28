@@ -1,0 +1,210 @@
+{
+  "id": "qin",
+  "region": "china",
+  "wikidataId": "Q7183",
+  "name": {
+    "en": "Qin dynasty",
+    "es": "Dinastía Qin",
+    "zh": "秦朝"
+  },
+  "nativeName": {
+    "text": "秦",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Ch'in",
+    "Qin",
+    "秦",
+    "Chin dynasty"
+  ],
+  "description": {
+    "en": "The short, brutal dynasty that first unified China, standardising script, coinage, weights and axle widths across a continent-sized state. Its first emperor is buried under a hill near Xi'an guarded by an army of life-size terracotta soldiers, but his empire barely outlived him by four years.",
+    "es": "La dinastía breve y brutal que unificó por primera vez China, estandarizando la escritura, la moneda, los pesos y el ancho de los ejes de carro en un estado del tamaño de un continente. Su primer emperador está enterrado bajo una colina cerca de Xi'an, custodiado por un ejército de soldados de terracota a tamaño real, pero su imperio apenas le sobrevivió cuatro años.",
+    "zh": "秦朝短暂而严酷，却是首个统一中国的王朝，在这片幅员辽阔的国土上统一了文字、货币、度量衡和车轨宽度。其始皇帝葬于西安附近的一座山丘之下，由真人大小的兵马俑军团守护，但他的帝国在他去世后仅仅维持了四年。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "phases": [],
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -220,
+      "latestStart": -220,
+      "earliestEnd": -206,
+      "latestEnd": -205,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Qin dynasty\" (221-206 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hsg49"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ],
+      "periodoId": "p08m57hsg49",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "221 BCE marks Qin's unification of the last rival state. The dynasty's exact end is a one-year quibble: Xiang Yu deposed the child emperor Ziying in 207 BCE, but Liu Bang, founder of the Han, accepted Ziying's formal surrender in 206 BCE.",
+        "es": "221 a. e. c. marca la unificación de Qin al derrotar al último estado rival. El final exacto de la dinastía es una discrepancia de un año: Xiang Yu depuso al joven emperador Ziying en 207 a. e. c., pero Liu Bang, fundador de los Han, aceptó la rendición formal de Ziying en 206 a. e. c.",
+        "zh": "公元前221年秦灭最后一个对手国，完成统一。王朝的确切终结年份存在一年之差：项羽于公元前207年废黜幼帝子婴，而汉朝的建立者刘邦则在公元前206年接受子婴的正式投降。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "unification",
+      "start": -220,
+      "type": "founding",
+      "title": {
+        "en": "King Zheng of Qin conquers the last rival state and takes the new title First Emperor",
+        "es": "El rey Zheng de Qin conquista el último estado rival y adopta el nuevo título de Primer Emperador",
+        "zh": "秦王嬴政灭掉最后一个对手国，采用“皇帝”这一新称号，成为始皇帝"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        },
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+        }
+      ]
+    },
+    {
+      "id": "standardisation",
+      "start": -220,
+      "end": -209,
+      "type": "invention",
+      "title": {
+        "en": "The new empire standardises its script, coinage, weights, measures and cart-axle width across every former rival state",
+        "es": "El nuevo imperio estandariza la escritura, la moneda, los pesos, las medidas y el ancho de los ejes de carro en todos los antiguos estados rivales",
+        "zh": "新帝国在所有旧对手国范围内统一了文字、货币、度量衡和车轨宽度"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        },
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "great-wall-joined",
+      "start": -213,
+      "type": "invention",
+      "title": {
+        "en": "General Meng Tian links older frontier walls into a single defence line against the Xiongnu to the north",
+        "es": "El general Meng Tian une antiguas murallas fronterizas en una única línea de defensa contra los Xiongnu del norte",
+        "zh": "将军蒙恬将旧有的边境城墙连接为一道防线，以抵御北方的匈奴"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        },
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "terracotta-army",
+      "start": -245,
+      "end": -207,
+      "type": "invention",
+      "title": {
+        "en": "Workers cast and fire an underground army of thousands of individually detailed terracotta soldiers to guard the First Emperor's tomb",
+        "es": "Los trabajadores moldean y cuecen un ejército subterráneo de miles de soldados de terracota, cada uno con detalles distintos, para custodiar la tumba del Primer Emperador",
+        "zh": "工匠们烧制出数千件形态各异的兵马俑组成地下军团，守卫始皇帝的陵墓"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Mausoleum of the First Qin Emperor\" (inscribed 1987).",
+          "url": "https://whc.unesco.org/en/list/441"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "burning-of-books",
+      "start": -212,
+      "type": "conflict",
+      "disputed": true,
+      "title": {
+        "en": "On the chancellor Li Si's advice, the court orders the burning of rival philosophical texts and later buries scholars alive",
+        "es": "Por consejo del canciller Li Si, la corte ordena quemar textos filosóficos rivales y más tarde entierra vivos a eruditos",
+        "zh": "在丞相李斯的建议下，朝廷下令焚烧诸子百家的典籍，后又坑杀方士儒生"
+      },
+      "note": {
+        "en": "The scale of the burning and the burying of scholars is debated; the episode is recorded mainly in the later, hostile Han-era history Records of the Grand Historian.",
+        "es": "El alcance de la quema y el entierro de eruditos se debate; el episodio se registra principalmente en la posterior y hostil historia de la era Han, los Registros del Gran Historiador.",
+        "zh": "焚书坑儒的规模至今仍有争议；此事主要记载于后世汉代、立场并不友好的《史记》。"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        },
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "dazexiang-uprising",
+      "start": -208,
+      "end": -205,
+      "type": "collapse",
+      "title": {
+        "en": "Conscripted labourers led by Chen Sheng revolt against Qin's harsh corvée laws, triggering the rebellions that end the dynasty",
+        "es": "Trabajadores reclutados a la fuerza, liderados por Chen Sheng, se rebelan contra las duras leyes de trabajo forzado de Qin, desencadenando las rebeliones que acaban con la dinastía",
+        "zh": "陈胜领导的被征发民夫因不满秦朝严苛的徭役律法而起义，引发了终结这个王朝的一系列叛乱"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        },
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "no-two-alike",
+      "start": -245,
+      "end": -207,
+      "text": {
+        "en": "No two faces among the thousands of terracotta soldiers guarding the First Emperor's tomb are exactly alike.",
+        "es": "Ningún rostro entre los miles de soldados de terracota que custodian la tumba del Primer Emperador es exactamente igual a otro.",
+        "zh": "守卫始皇帝陵墓的数千兵马俑，没有两张面孔完全相同。"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Mausoleum of the First Qin Emperor\" (inscribed 1987).",
+          "url": "https://whc.unesco.org/en/list/441"
+        }
+      ]
+    },
+    {
+      "id": "cart-axles",
+      "start": -220,
+      "end": -209,
+      "text": {
+        "en": "Qin law fixed the width of cart axles across the empire, so every wheel-rut on every road matched.",
+        "es": "La ley Qin fijó el ancho de los ejes de carro en todo el imperio, de modo que cada rodada de cada camino coincidía.",
+        "zh": "秦法统一了全国车轨的宽度，使每条道路上的车辙都彼此吻合。"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    }
+  ]
+}

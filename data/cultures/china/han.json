@@ -1,0 +1,225 @@
+{
+  "id": "han",
+  "region": "china",
+  "wikidataId": "Q7209",
+  "name": {
+    "en": "Han dynasty",
+    "es": "Dinastía Han",
+    "zh": "汉朝"
+  },
+  "nativeName": {
+    "text": "汉",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Han",
+    "汉",
+    "Western Han",
+    "Eastern Han",
+    "Liu dynasty"
+  ],
+  "description": {
+    "en": "Four centuries of rule, broken only by a usurper's brief interregnum, that gave China's majority ethnicity its name. Han armies pushed the frontier into Central Asia and opened the Silk Road, while officials chosen partly by examination administered an empire that stretched from Korea to Vietnam.",
+    "es": "Cuatro siglos de gobierno, interrumpidos solo por el breve interregno de un usurpador, que dieron nombre a la etnia mayoritaria de China. Los ejércitos Han empujaron la frontera hacia Asia Central y abrieron la Ruta de la Seda, mientras funcionarios elegidos en parte por examen administraban un imperio que se extendía desde Corea hasta Vietnam.",
+    "zh": "长达四个世纪的统治，仅被一位篡位者的短暂政权打断，也正是这一王朝为中国的主体民族命名。汉朝军队将疆域推进至中亚，开辟了丝绸之路，而部分经由考试选拔的官员则治理着这个从朝鲜延伸到越南的庞大帝国。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "phases": [],
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -205,
+      "latestStart": -201,
+      "earliestEnd": 220,
+      "latestEnd": 220,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Han dynasty\" (206 BC – AD 220), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hjtdp"
+        },
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        }
+      ],
+      "periodoId": "p08m57hjtdp",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Liu Bang was enfeoffed as King of Han in 206 BCE but only proclaimed emperor in 202 BCE after defeating his rival Xiang Yu; both dates appear in the literature as the dynasty's start. The dynasty ends in 220 CE, when Cao Pi forced the last Han emperor to abdicate, though a rival usurper, Wang Mang, had already interrupted it from 9 to 23 CE.",
+        "es": "Liu Bang fue investido rey de Han en 206 a. e. c., pero no se proclamó emperador hasta 202 a. e. c., tras derrotar a su rival Xiang Yu; ambas fechas aparecen en la bibliografía como inicio de la dinastía. La dinastía termina en 220 d. e. c., cuando Cao Pi forzó la abdicación del último emperador Han, aunque un usurpador rival, Wang Mang, ya la había interrumpido entre el 9 y el 23 d. e. c.",
+        "zh": "公元前206年刘邦被封为汉王，但直到公元前202年击败对手项羽后才称帝；文献中这两个年份均被视为王朝起点。王朝于公元220年结束，曹丕迫使末代汉帝退位，尽管此前篡位者王莽已在公元9年至23年间一度中断了汉室统治。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "liu-bang-founds-han",
+      "start": -201,
+      "type": "founding",
+      "title": {
+        "en": "Liu Bang, a former village official, defeats Xiang Yu and proclaims himself the first Han emperor",
+        "es": "Liu Bang, antiguo funcionario de aldea, derrota a Xiang Yu y se proclama primer emperador Han",
+        "zh": "曾任乡村小吏的刘邦击败项羽，自立为汉朝首位皇帝"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "zhang-qian-silk-road",
+      "start": -137,
+      "end": -125,
+      "type": "invention",
+      "title": {
+        "en": "The envoy Zhang Qian returns from Central Asia with reports that open the overland routes later called the Silk Road",
+        "es": "El enviado Zhang Qian regresa de Asia Central con informes que abren las rutas terrestres que más tarde se llamarán la Ruta de la Seda",
+        "zh": "使者张骞出使中亚归来，其见闻开启了后世所称“丝绸之路”的陆上通道"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        },
+        {
+          "citation": "Loewe, Michael (1994). Divination, Mythology and Monarchy in Han China. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "wang-mang-usurpation",
+      "start": 9,
+      "end": 23,
+      "type": "collapse",
+      "title": {
+        "en": "The regent Wang Mang deposes the Han and declares his own Xin dynasty, an interregnum ended by rebellion after fifteen years",
+        "es": "El regente Wang Mang depone a los Han y proclama su propia dinastía Xin, un interregno que una rebelión termina quince años después",
+        "zh": "摄政王莽废汉自立，建立新朝，这一插曲在十五年后因叛乱而结束"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        },
+        {
+          "citation": "Loewe, Michael (1994). Divination, Mythology and Monarchy in Han China. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "guangwu-restoration",
+      "start": 25,
+      "type": "founding",
+      "title": {
+        "en": "Liu Xiu, a Han descendant, restores the dynasty as Emperor Guangwu and moves the capital east to Luoyang",
+        "es": "Liu Xiu, descendiente de los Han, restaura la dinastía como el emperador Guangwu y traslada la capital al este, a Luoyang",
+        "zh": "汉室后裔刘秀复兴汉朝，是为光武帝，并将都城东迁至洛阳"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        },
+        {
+          "citation": "de Crespigny, Rafe (2007). A Biographical Dictionary of Later Han to the Three Kingdoms (23–220 AD). Brill."
+        }
+      ]
+    },
+    {
+      "id": "invention-of-paper",
+      "start": 105,
+      "type": "invention",
+      "title": {
+        "en": "The court official Cai Lun is credited with refining a papermaking process using bark, hemp and rags",
+        "es": "El funcionario cortesano Cai Lun es reconocido por perfeccionar un proceso de fabricación de papel a partir de corteza, cáñamo y trapos",
+        "zh": "宫廷官员蔡伦因改进以树皮、麻和破布造纸的工艺而闻名"
+      },
+      "disputed": true,
+      "note": {
+        "en": "Archaeological finds show paper existed before Cai Lun; he is credited with improving and standardising the process.",
+        "es": "Hallazgos arqueológicos muestran que el papel existía antes de Cai Lun; se le atribuye la mejora y estandarización del proceso.",
+        "zh": "考古发现表明纸张在蔡伦之前已经存在；他的贡献在于改进和推广这一工艺。"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        },
+        {
+          "citation": "Loewe, Michael (1994). Divination, Mythology and Monarchy in Han China. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "yellow-turban-rebellion",
+      "start": 184,
+      "type": "conflict",
+      "title": {
+        "en": "The Yellow Turban Rebellion, led by a millenarian Daoist sect, shatters central authority and empowers regional warlords",
+        "es": "La Rebelión de los Turbantes Amarillos, dirigida por una secta taoísta milenarista, quiebra la autoridad central y da poder a caudillos regionales",
+        "zh": "由千禧年道教教派领导的黄巾起义摧毁了中央权威，令地方军阀坐大"
+      },
+      "sources": [
+        {
+          "citation": "de Crespigny, Rafe (2007). A Biographical Dictionary of Later Han to the Three Kingdoms (23–220 AD). Brill."
+        },
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "han-abdication",
+      "start": 220,
+      "type": "collapse",
+      "title": {
+        "en": "The warlord Cao Pi forces the last Han emperor, Xian, to abdicate and founds the state of Wei",
+        "es": "El caudillo Cao Pi obliga al último emperador Han, Xian, a abdicar y funda el estado de Wei",
+        "zh": "军阀曹丕迫使末代汉帝献帝退位，建立魏国"
+      },
+      "sources": [
+        {
+          "citation": "de Crespigny, Rafe (2007). A Biographical Dictionary of Later Han to the Three Kingdoms (23–220 AD). Brill."
+        },
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "civil-service-exam",
+      "start": -123,
+      "end": 220,
+      "text": {
+        "en": "Han emperors began selecting officials partly through a classical curriculum taught at an imperial academy, an early ancestor of China's civil-service exams.",
+        "es": "Los emperadores Han comenzaron a seleccionar funcionarios en parte mediante un currículo clásico enseñado en una academia imperial, un antecedente temprano de los exámenes de la función pública china.",
+        "zh": "汉代皇帝开始部分依据太学所授的儒家经典课程选拔官员，这是中国科举制度的早期雏形。"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "han-name",
+      "start": -201,
+      "end": 220,
+      "text": {
+        "en": "China's majority ethnic group still calls itself \"Han people\" today, after this dynasty.",
+        "es": "El grupo étnico mayoritario de China todavía se llama a sí mismo \"pueblo han\" hoy en día, en honor a esta dinastía.",
+        "zh": "中国的主体民族至今仍自称“汉族”，其名即源自这个王朝。"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
+        }
+      ]
+    }
+  ]
+}

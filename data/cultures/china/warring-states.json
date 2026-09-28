@@ -1,0 +1,212 @@
+{
+  "id": "warring-states",
+  "region": "china",
+  "wikidataId": "Q185063",
+  "name": {
+    "en": "Warring States period",
+    "es": "Periodo de los Reinos Combatientes",
+    "zh": "战国时期"
+  },
+  "nativeName": {
+    "text": "战国",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Zhanguo",
+    "Zhan Guo",
+    "战国"
+  ],
+  "description": {
+    "en": "Seven major states, each with its own currency, script variants and standing army, fought for supremacy after the old Zhou order collapsed. Philosophers like Mencius and Han Feizi debated how to rule, while engineers built canals and crossbows, until Qin swallowed every rival state in turn.",
+    "es": "Siete grandes estados, cada uno con su propia moneda, variantes de escritura y ejército permanente, lucharon por la supremacía tras el colapso del antiguo orden Zhou. Filósofos como Mencio y Han Feizi debatían cómo gobernar, mientras ingenieros construían canales y ballestas, hasta que Qin engulló uno a uno a todos sus rivales.",
+    "zh": "在旧有的周朝秩序瓦解后，七个大国各自拥有货币、异体文字和常备军，彼此争夺霸权。孟子、韩非子等思想家就为政之道展开辩论，工匠们兴修运河、制造弩机，直到秦国最终逐一吞并所有对手。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -480,
+      "latestStart": -474,
+      "earliestEnd": -220,
+      "latestEnd": -220,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Warring States period\" (c. 480 – c. 220 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h886z"
+        },
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+        }
+      ],
+      "periodoId": "p08m57h886z",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Historians differ on the start year (481, 475 or 403 BCE all appear in the literature); the end, 221 BCE, when Qin destroyed the last rival state, is not in dispute.",
+        "es": "Los historiadores difieren en el año de inicio (en la bibliografía aparecen 481, 475 o 403 a. e. c.); el final, 221 a. e. c., cuando Qin destruyó el último estado rival, no se discute.",
+        "zh": "史家对起始年份看法不一（文献中出现公元前481年、475年或403年）；而结束年份——公元前221年秦灭最后一个对手国——则无争议。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "partition-of-jin",
+      "start": -402,
+      "type": "founding",
+      "title": {
+        "en": "The Zhou king formally recognises the three-way partition of Jin into Han, Zhao and Wei",
+        "es": "El rey Zhou reconoce formalmente la partición tripartita de Jin en Han, Zhao y Wei",
+        "zh": "周天子正式承认晋国三分为韩、赵、魏"
+      },
+      "sources": [
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "shang-yang-reforms",
+      "start": -355,
+      "end": -337,
+      "type": "invention",
+      "title": {
+        "en": "Shang Yang's legalist reforms in Qin reward farming and fighting with rank, and break the power of the old aristocracy",
+        "es": "Las reformas legistas de Shang Yang en Qin premian con rango la agricultura y el combate, y quiebran el poder de la vieja aristocracia",
+        "zh": "商鞅在秦国推行法家变法，以军功和农耕授爵，削弱旧贵族的权力"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        },
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+        }
+      ]
+    },
+    {
+      "id": "hundred-schools-debate",
+      "start": -369,
+      "end": -220,
+      "type": "invention",
+      "title": {
+        "en": "Mencius, Zhuangzi, Han Feizi and other philosophers debate human nature, government and war in rival schools of thought",
+        "es": "Mencio, Zhuangzi, Han Feizi y otros filósofos debaten sobre la naturaleza humana, el gobierno y la guerra en escuelas de pensamiento rivales",
+        "zh": "孟子、庄子、韩非子等思想家分立门户，就人性、治国与战争展开辩论"
+      },
+      "sources": [
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "changping",
+      "start": -259,
+      "type": "conflict",
+      "title": {
+        "en": "Qin crushes the army of Zhao at the Battle of Changping, reportedly burying tens of thousands of prisoners",
+        "es": "Qin aplasta al ejército de Zhao en la batalla de Changping, y según los relatos entierra a decenas de miles de prisioneros",
+        "zh": "秦军在长平之战中大败赵军，据称坑杀数十万降卒"
+      },
+      "disputed": true,
+      "note": {
+        "en": "Casualty figures come from later histories and are widely regarded as exaggerated.",
+        "es": "Las cifras de bajas proceden de historias posteriores y se consideran ampliamente exageradas.",
+        "zh": "伤亡数字出自后世史书，普遍被认为有所夸大。"
+      },
+      "sources": [
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "dujiangyan",
+      "start": -255,
+      "type": "invention",
+      "title": {
+        "en": "Engineers complete the Dujiangyan irrigation system in Sichuan, still watering farmland today without a dam",
+        "es": "Los ingenieros terminan el sistema de riego de Dujiangyan en Sichuan, que aún hoy riega tierras de cultivo sin necesidad de presa",
+        "zh": "都江堰水利工程在四川建成，至今无需水坝仍能灌溉农田"
+      },
+      "sources": [
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+        },
+        {
+          "citation": "Mote, Frederick W. (2003). Imperial China 900–1800. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "qin-unification",
+      "start": -220,
+      "type": "collapse",
+      "title": {
+        "en": "Qin conquers the state of Qi, the last of its rivals, and unifies the Warring States under a single emperor",
+        "es": "Qin conquista el estado de Qi, el último de sus rivales, y unifica los Reinos Combatientes bajo un único emperador",
+        "zh": "秦灭齐国，这是其最后一个对手，战国七雄自此统一于一位皇帝之下"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        },
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "crossbows",
+      "start": -399,
+      "end": -220,
+      "text": {
+        "en": "Mass-produced bronze crossbow triggers let Warring States armies field peasant conscripts who could kill an armoured noble at a distance.",
+        "es": "Los gatillos de bronce de ballesta, producidos en masa, permitían a los ejércitos de los Reinos Combatientes desplegar reclutas campesinos capaces de matar a un noble acorazado a distancia.",
+        "zh": "大规模生产的青铜弩机使战国军队能够以征募的农民士兵在远距离击杀身披甲胄的贵族。"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "seven-scripts",
+      "start": -474,
+      "end": -220,
+      "text": {
+        "en": "Each of the seven major states wrote Chinese characters with its own regional variants, until Qin forced a single standard script on all of them.",
+        "es": "Cada uno de los siete grandes estados escribía los caracteres chinos con sus propias variantes regionales, hasta que Qin impuso a todos un único guion estandarizado.",
+        "zh": "七个大国各自使用带有地域特色的汉字异体，直到秦国将其统一为单一标准字体。"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    }
+  ],
+  "phases": []
+}
