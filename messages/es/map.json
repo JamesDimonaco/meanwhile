@@ -1,4 +1,13 @@
 {
   "title": "Territorio",
-  "rival": "Potencia rival"
+  "rivals": "Potencias rivales: {names}",
+  "bordersAround": "Fronteras hacia <year></year>",
+  "beforeBorders": "No hay fronteras cartografiadas antes de <year></year>",
+  "loading": "Cargando mapa…",
+  "unavailable": "El mapa no se puede cargar ahora. Comprueba tu conexión.",
+  "landCredit": "Tierra: Natural Earth",
+  "elsewhere": "Mientras tanto, en otros lugares en <year></year>",
+  "nothingElsewhere": "Ninguna de las otras culturas de la lista existía entonces.",
+  "fuzzyDates": "fechas inciertas",
+  "onTimeline": "Ver este año en la línea de tiempo mundial"
 }

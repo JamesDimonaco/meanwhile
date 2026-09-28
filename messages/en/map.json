@@ -1,4 +1,13 @@
 {
   "title": "Territory",
-  "rival": "Rival power"
+  "rivals": "Rival powers: {names}",
+  "bordersAround": "Borders around <year></year>",
+  "beforeBorders": "No borders mapped before <year></year>",
+  "loading": "Loading map…",
+  "unavailable": "The map can't load right now. Check your connection.",
+  "landCredit": "Land: Natural Earth",
+  "elsewhere": "Meanwhile, elsewhere in <year></year>",
+  "nothingElsewhere": "None of the other cultures here were around then.",
+  "fuzzyDates": "dates uncertain",
+  "onTimeline": "See this year on the world timeline"
 }
