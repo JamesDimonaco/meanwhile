@@ -1,0 +1,239 @@
+{
+  "id": "neolithic-britain",
+  "region": "europe",
+  "wikidataId": "Q6993183",
+  "name": {
+    "en": "Neolithic Britain",
+    "es": "Britania neolítica",
+    "zh": "新石器时代不列颠"
+  },
+  "aliases": [
+    "Stonehenge",
+    "Neolithic British Isles",
+    "New Stone Age Britain"
+  ],
+  "description": {
+    "en": "Britain's first farmers cleared woodland, built causewayed enclosures and long barrows, and raised the great stone and timber monuments of Wessex, chief among them Stonehenge. They left no writing, so everything known about them comes from what they buried, built and left in the ground.",
+    "es": "Los primeros agricultores de Britania talaron bosques, construyeron recintos con calzadas y túmulos alargados, y levantaron los grandes monumentos de piedra y madera de Wessex, entre ellos Stonehenge. No dejaron escritura, así que todo lo que se sabe de ellos procede de lo que enterraron, construyeron y dejaron en la tierra.",
+    "zh": "不列颠最早的农人砍伐林地，修建了带壕沟的围地和长形墓冢，并在威塞克斯竖立起巨大的石造与木造遗迹，其中最著名的是巨石阵。他们没有留下文字，今天所知的一切都来自考古发掘所得。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -4000,
+      "latestStart": -3999,
+      "earliestEnd": -2500,
+      "latestEnd": -2199,
+      "sources": [
+        {
+          "citation": "Historic England Periods thesaurus, \"Neolithic\" / \"New Stone Age\" (c. 4000 – c. 2200 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0kh9dsbz2g"
+        },
+        {
+          "citation": "Pleiades gazetteer period definitions, \"Neolithic Period (British Isles; 4,000-2,500 BC)\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p03wskdpj3d"
+        }
+      ],
+      "periodoId": "p03wskdpj3d",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Stonehenge itself was built and rebuilt in stages within this span: an earthwork enclosure around 3000 BCE, bluestones raised soon after, and the sarsen circle and trilithons around 2500 BCE.",
+        "es": "El propio Stonehenge se construyó y reconstruyó por etapas dentro de este período: un recinto de tierra hacia el 3000 a. e. c., las piedras azuladas poco después, y el círculo de sarsen y los trilitos hacia el 2500 a. e. c.",
+        "zh": "巨石阵本身即在此期间分阶段建成并多次改建：约公元前3000年建起土围，随后不久竖立蓝砂岩石，约公元前2500年立起砂岩巨石环和三石塔。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "first-farmers",
+      "start": -4000,
+      "type": "founding",
+      "title": {
+        "en": "Farming, livestock and pottery reach Britain from continental Europe",
+        "es": "La agricultura, el ganado y la cerámica llegan a Britania desde la Europa continental",
+        "zh": "农耕、畜牧与制陶技术从欧洲大陆传入不列颠"
+      },
+      "sources": [
+        {
+          "citation": "Whittle, A., Healy, F. & Bayliss, A. (2011). Gathering Time: Dating the Early Neolithic Enclosures of Southern Britain and Ireland. Oxbow Books."
+        },
+        {
+          "citation": "Historic England (2018). Introductions to Heritage Assets: Neolithic Enclosures."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "causewayed-enclosures",
+      "start": -3700,
+      "end": -3400,
+      "type": "invention",
+      "title": {
+        "en": "Communities build Britain's first large monuments, causewayed enclosures of banks and ditches",
+        "es": "Las comunidades construyen los primeros grandes monumentos de Britania, recintos con calzadas de terraplenes y fosos",
+        "zh": "各社群建起不列颠最早的大型建筑——带壕沟与土堤的围地"
+      },
+      "sources": [
+        {
+          "citation": "Whittle, A., Healy, F. & Bayliss, A. (2011). Gathering Time: Dating the Early Neolithic Enclosures of Southern Britain and Ireland. Oxbow Books."
+        },
+        {
+          "citation": "Oswald, A., Dyer, C. & Barber, M. (2001). The Creation of Monuments: Neolithic Causewayed Enclosures in the British Isles. English Heritage."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "stonehenge-earthwork",
+      "start": -3000,
+      "type": "founding",
+      "title": {
+        "en": "The first Stonehenge is built: a circular ditch and bank enclosing an inner ring of Welsh bluestones",
+        "es": "Se construye el primer Stonehenge: un foso y terraplén circulares que encierran un anillo interior de piedras azuladas galesas",
+        "zh": "最早的巨石阵建成：一圈环形壕沟与土堤，内环竖立着来自威尔士的蓝砂岩石"
+      },
+      "sources": [
+        {
+          "citation": "Parker Pearson, M. (2012). Stonehenge: Exploring the Greatest Stone Age Mystery. Simon & Schuster."
+        },
+        {
+          "citation": "Darvill, T. (2006). Stonehenge: The Biography of a Landscape. Tempus."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Excavation phasing at Stonehenge has been revised several times; the ditch-and-bank enclosure and the first bluestone setting are usually placed within a century or two of 3000 BCE.",
+        "es": "La fase de excavación de Stonehenge se ha revisado varias veces; el recinto de foso y terraplén y la primera disposición de piedras azuladas suelen situarse en torno al 3000 a. e. c., con un margen de uno o dos siglos.",
+        "zh": "巨石阵的发掘分期被多次修订；壕沟土堤围地与最早的蓝砂岩石布局通常定在公元前3000年前后一两个世纪之内。"
+      }
+    },
+    {
+      "id": "sarsens-raised",
+      "start": -2500,
+      "end": -2000,
+      "type": "invention",
+      "title": {
+        "en": "The massive sarsen stones and trilithons are raised at Stonehenge",
+        "es": "Se levantan en Stonehenge las enormes piedras de sarsen y los trilitos",
+        "zh": "巨石阵竖起巨大的砂岩石与三石塔"
+      },
+      "sources": [
+        {
+          "citation": "Parker Pearson, M. (2012). Stonehenge: Exploring the Greatest Stone Age Mystery. Simon & Schuster."
+        },
+        {
+          "citation": "Darvill, T. (2006). Stonehenge: The Biography of a Landscape. Tempus."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "bluestone-transport",
+      "start": -3000,
+      "type": "invention",
+      "title": {
+        "en": "Bluestones are moved roughly 200 km from the Preseli Hills in Wales to Salisbury Plain",
+        "es": "Las piedras azuladas se trasladan unos 200 km desde las colinas de Preseli, en Gales, hasta la llanura de Salisbury",
+        "zh": "蓝砂岩石从威尔士普雷塞利丘陵运送约200公里至索尔兹伯里平原"
+      },
+      "sources": [
+        {
+          "citation": "Bevins, R.E. et al. (2021). \"Identifying the source of Stonehenge's bluestones.\" Antiquity 95(381)."
+        },
+        {
+          "citation": "Parker Pearson, M. (2012). Stonehenge: Exploring the Greatest Stone Age Mystery. Simon & Schuster."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Geological sourcing to specific Preseli outcrops is well supported; whether the stones were moved by human effort or partly by glacial action is still argued.",
+        "es": "El origen geológico en afloramientos concretos de Preseli está bien fundamentado; si las piedras se trasladaron por esfuerzo humano o en parte por acción glaciar sigue siendo objeto de debate.",
+        "zh": "石料来自普雷塞利特定露头这一点证据充分；但石块是靠人力搬运还是部分借助冰川作用，学界仍有争论。"
+      }
+    },
+    {
+      "id": "amesbury-archer",
+      "start": -2300,
+      "type": "invention",
+      "title": {
+        "en": "The \"Amesbury Archer\" is buried near Stonehenge with some of Britain's earliest metal and gold objects",
+        "es": "El \"Arquero de Amesbury\" es enterrado cerca de Stonehenge con algunos de los primeros objetos de metal y oro de Britania",
+        "zh": "\"埃姆斯伯里弓箭手\"葬于巨石阵附近，随葬品中有不列颠最早的一批金属与黄金器物"
+      },
+      "sources": [
+        {
+          "citation": "Fitzpatrick, A.P. (2011). The Amesbury Archer and the Boscombe Bowmen. Wessex Archaeology."
+        },
+        {
+          "citation": "Historic England. \"The Amesbury Archer.\" Research records."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "beaker-arrival",
+      "start": -2500,
+      "end": -2200,
+      "type": "collapse",
+      "title": {
+        "en": "Bell Beaker migrants from continental Europe bring metalworking, replacing most of the existing Neolithic population",
+        "es": "Migrantes campaniformes procedentes de la Europa continental traen la metalurgia y sustituyen a la mayor parte de la población neolítica existente",
+        "zh": "来自欧洲大陆的钟形杯文化移民带来冶金技术，取代了当地大部分原有的新石器时代人口"
+      },
+      "sources": [
+        {
+          "citation": "Olalde, I. et al. (2018). \"The Beaker phenomenon and the genomic transformation of northwest Europe.\" Nature 555: 190-196.",
+          "url": "https://doi.org/10.1038/nature25738"
+        },
+        {
+          "citation": "Parker Pearson, M. (2012). Stonehenge: Exploring the Greatest Stone Age Mystery. Simon & Schuster."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Ancient-DNA studies published in 2018 found large-scale population replacement rather than gradual cultural change; how the two happened together is still debated.",
+        "es": "Los estudios de ADN antiguo publicados en 2018 hallaron un reemplazo poblacional a gran escala más que un cambio cultural gradual; cómo se combinaron ambos procesos sigue en debate.",
+        "zh": "2018年发表的古DNA研究显示这是大规模的人口替代，而非渐进的文化演变；两者具体如何交织仍存争议。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "sarsen-weight",
+      "start": -2500,
+      "end": -2000,
+      "text": {
+        "en": "Some sarsen stones at Stonehenge weigh over 25 tonnes and were dragged around 30 km from the Marlborough Downs without wheels or draft animals.",
+        "es": "Algunas piedras de sarsen de Stonehenge pesan más de 25 toneladas y fueron arrastradas unos 30 km desde las colinas de Marlborough sin ruedas ni animales de tiro.",
+        "zh": "巨石阵的部分砂岩石重逾25吨，是在没有轮子和役畜的情况下，从约30公里外的马尔伯勒丘陵拖运而来。"
+      },
+      "sources": [
+        {
+          "citation": "Parker Pearson, M. (2012). Stonehenge: Exploring the Greatest Stone Age Mystery. Simon & Schuster."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "bluestone-journey",
+      "start": -3000,
+      "end": -2500,
+      "text": {
+        "en": "The bluestones travelled further than the stones of any other prehistoric monument in Europe, roughly 200 km from Wales to Salisbury Plain.",
+        "es": "Las piedras azuladas viajaron más lejos que las de cualquier otro monumento prehistórico de Europa, unos 200 km desde Gales hasta la llanura de Salisbury.",
+        "zh": "蓝砂岩石的运输距离超过欧洲其他任何史前遗迹所用的石材，从威尔士到索尔兹伯里平原约达200公里。"
+      },
+      "sources": [
+        {
+          "citation": "Bevins, R.E. et al. (2021). \"Identifying the source of Stonehenge's bluestones.\" Antiquity 95(381)."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
