@@ -29,7 +29,7 @@
     {
       "id": "conventional",
       "earliestStart": -480,
-      "latestStart": -474,
+      "latestStart": -402,
       "earliestEnd": -220,
       "latestEnd": -220,
       "sources": [
@@ -38,8 +38,8 @@
           "url": "http://n2t.net/ark:/99152/p08m57h886z"
         },
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
         }
       ],
       "periodoId": "p08m57h886z",
@@ -64,8 +64,8 @@
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
         },
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
@@ -87,8 +87,8 @@
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
         },
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
         }
       ]
     },
@@ -104,8 +104,8 @@
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
         },
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
@@ -117,20 +117,20 @@
       "start": -259,
       "type": "conflict",
       "title": {
-        "en": "Qin crushes the army of Zhao at the Battle of Changping, reportedly burying tens of thousands of prisoners",
-        "es": "Qin aplasta al ejército de Zhao en la batalla de Changping, y según los relatos entierra a decenas de miles de prisioneros",
-        "zh": "秦军在长平之战中大败赵军，据称坑杀数十万降卒"
+        "en": "Qin crushes the army of Zhao at the Battle of Changping and, by later accounts, buries the surrendered soldiers alive",
+        "es": "Qin aplasta al ejército de Zhao en la batalla de Changping y, según relatos posteriores, entierra vivos a los soldados que se rindieron",
+        "zh": "秦军在长平之战中大败赵军，据后世记载将降卒坑杀"
       },
       "disputed": true,
       "note": {
-        "en": "Casualty figures come from later histories and are widely regarded as exaggerated.",
-        "es": "Las cifras de bajas proceden de historias posteriores y se consideran ampliamente exageradas.",
-        "zh": "伤亡数字出自后世史书，普遍被认为有所夸大。"
+        "en": "The Records of the Grand Historian puts the dead at 400,000; the figure comes from a later history and is widely regarded as exaggerated.",
+        "es": "Los Registros del Gran Historiador cifran los muertos en 400 000; la cifra procede de una historia posterior y se considera ampliamente exagerada.",
+        "zh": "《史记》记载死者四十万；此数字出自后世史书，普遍被认为有所夸大。"
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
         },
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
@@ -148,11 +148,12 @@
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+          "citation": "UNESCO World Heritage Centre. \"Mount Qingcheng and the Dujiangyan Irrigation System\" (inscribed 2000).",
+          "url": "https://whc.unesco.org/en/list/1001"
         },
         {
-          "citation": "Mote, Frederick W. (2003). Imperial China 900–1800. Harvard University Press."
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
         }
       ]
     },
@@ -170,8 +171,8 @@
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
         },
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
         }
       ]
     }

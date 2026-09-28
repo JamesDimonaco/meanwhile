@@ -8,7 +8,7 @@
     "zh": "宋朝"
   },
   "nativeName": {
-    "text": "宋朝",
+    "text": "宋",
     "lang": "zh-Hans"
   },
   "aliases": [
@@ -36,7 +36,8 @@
       "latestEnd": 1279,
       "sources": [
         {
-          "citation": "\"Song dynasty.\" British Museum."
+          "citation": "British Museum collection thesaurus, \"Song dynasty\" (960–1279), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hpd9k"
         },
         {
           "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."

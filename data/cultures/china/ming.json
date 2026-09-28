@@ -8,7 +8,7 @@
     "zh": "明朝"
   },
   "nativeName": {
-    "text": "明朝",
+    "text": "明",
     "lang": "zh-Hans"
   },
   "aliases": [
@@ -17,9 +17,9 @@
     "Míng cháo"
   ],
   "description": {
-    "en": "A former peasant and Buddhist novice, Zhu Yuanzhang, drove out the Mongols and built the Forbidden City and the brick Great Wall most visitors picture today, while his admiral Zheng He sailed treasure fleets as far as East Africa decades before Europe's own age of exploration. Later Ming emperors turned the empire inward, and peasant rebellion, not foreign conquest, first broke it open in 1644.",
-    "es": "Un antiguo campesino y novicio budista, Zhu Yuanzhang, expulsó a los mongoles y construyó la Ciudad Prohibida y la Gran Muralla de ladrillo que la mayoría de los visitantes imagina hoy, mientras su almirante Zheng He llevaba flotas del tesoro hasta el este de África décadas antes de la propia era de exploración europea. Emperadores Ming posteriores volvieron el imperio hacia dentro, y fue la rebelión campesina, no la conquista extranjera, la que primero lo quebró en 1644.",
-    "zh": "曾为农民与佛门沙弥的朱元璋驱逐蒙古人，建造了紫禁城以及今日大多数游客所见的砖石长城，其麾下的郑和更率领宝船远航至东非，比欧洲自身的大航海时代早了数十年。此后的明朝皇帝逐渐转向内向治理，1644年最先撕开帝国裂口的并非外敌入侵，而是农民起义。"
+    "en": "A former peasant and Buddhist novice, Zhu Yuanzhang, drove out the Mongols and founded a dynasty that built the Forbidden City and the brick Great Wall most visitors picture today, and sent Zheng He's treasure fleets as far as East Africa decades before Europe's age of exploration. Later Ming emperors turned the empire inward, and peasant rebellion, not foreign conquest, first broke it open in 1644.",
+    "es": "Un antiguo campesino y novicio budista, Zhu Yuanzhang, expulsó a los mongoles y fundó una dinastía que construyó la Ciudad Prohibida y la Gran Muralla de ladrillo que la mayoría de los visitantes imagina hoy, y envió las flotas del tesoro de Zheng He hasta el este de África décadas antes de la era de exploración europea. Emperadores Ming posteriores volvieron el imperio hacia dentro, y fue la rebelión campesina, no la conquista extranjera, la que primero lo quebró en 1644.",
+    "zh": "曾为农民与佛门沙弥的朱元璋驱逐蒙古人，所建立的王朝营造了紫禁城和今日大多数游客所见的砖石长城，并派郑和的宝船远航至东非，比欧洲的大航海时代早了数十年。此后的明朝皇帝转向内向治理，1644年最先撕开帝国裂口的并非外敌入侵，而是农民起义。"
   },
   "reviewed": {
     "es": false,
@@ -34,7 +34,12 @@
       "latestEnd": 1662,
       "sources": [
         {
-          "citation": "\"Ming dynasty.\" British Museum."
+          "citation": "British Museum collection thesaurus, \"Ming dynasty\" (1368–1644), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h684x"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Southern Ming dynasty, 1644-1662\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g36k22"
         },
         {
           "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
@@ -44,9 +49,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The Ming court in Beijing fell in 1644, but Southern Ming loyalist regimes held parts of the south for another 18 years, ending only when the Yongli claimant was executed in Burma in 1662.",
-        "es": "La corte Ming en Beijing cayó en 1644, pero regímenes leales de los Ming del Sur mantuvieron partes del sur durante 18 años más, terminando solo cuando el pretendiente Yongli fue ejecutado en Birmania en 1662.",
-        "zh": "北京的明朝宫廷于1644年陷落，但南明的效忠政权在南方又坚持了十八年，直到1662年永历帝在缅甸被处决方才彻底终结。"
+        "en": "The Ming court in Beijing fell in 1644, but Southern Ming loyalist regimes held parts of the south for another 18 years, ending when the Yongli claimant, handed over by the king of Burma, was executed at Kunming in 1662.",
+        "es": "La corte Ming en Beijing cayó en 1644, pero regímenes leales de los Ming del Sur mantuvieron partes del sur durante 18 años más, hasta que el pretendiente Yongli, entregado por el rey de Birmania, fue ejecutado en Kunming en 1662.",
+        "zh": "北京的明朝宫廷于1644年陷落，但南明的效忠政权在南方又坚持了十八年，直到1662年永历帝被缅甸国王交出、在昆明被处决方才终结。"
       }
     }
   ],
@@ -174,9 +179,9 @@
       "start": 1662,
       "type": "collapse",
       "title": {
-        "en": "Qing forces capture and execute the last Southern Ming claimant in Burma, ending organised Ming resistance",
-        "es": "Las fuerzas Qing capturan y ejecutan al último pretendiente de los Ming del Sur en Birmania, poniendo fin a la resistencia Ming organizada",
-        "zh": "清军在缅甸擒获并处决最后的南明皇位继承者，明朝有组织的抵抗至此终结"
+        "en": "Qing forces take the last Southern Ming claimant from the king of Burma and execute him at Kunming, ending organised Ming resistance",
+        "es": "Las fuerzas Qing reciben del rey de Birmania al último pretendiente de los Ming del Sur y lo ejecutan en Kunming, poniendo fin a la resistencia Ming organizada",
+        "zh": "清军从缅甸国王手中接过最后的南明皇帝并在昆明将其处决，明朝有组织的抵抗至此终结"
       },
       "sources": [
         {
@@ -195,15 +200,16 @@
       "start": 1405,
       "end": 1433,
       "text": {
-        "en": "Zheng He's flagship treasure ships are said to have stretched well over 100 metres, dwarfing the tiny caravels Columbus would sail nearly a century later.",
-        "es": "Se dice que los buques del tesoro insignia de Zheng He medían bien más de 100 metros, empequeñeciendo a las diminutas carabelas que Colón navegaría casi un siglo después.",
-        "zh": "据记载，郑和的旗舰宝船长逾百米，令近一个世纪后哥伦布所乘的小型帆船相形见绌。"
+        "en": "Ming records say Zheng He's largest treasure ships were well over 100 metres long, which would dwarf the caravels Columbus sailed nearly a century later; many naval historians think the figures are exaggerated.",
+        "es": "Los registros Ming dicen que los mayores buques del tesoro de Zheng He medían bien más de 100 metros, lo que empequeñecería a las carabelas que Colón navegó casi un siglo después; muchos historiadores navales creen que las cifras son exageradas.",
+        "zh": "明代文献称郑和最大的宝船长逾百米，远超近一个世纪后哥伦布所乘的帆船；不过许多海军史学者认为这些数字有所夸大。"
       },
       "sources": [
         {
           "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
         }
-      ]
+      ],
+      "disputed": true
     },
     {
       "id": "great-wall-is-ming",

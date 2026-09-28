@@ -19,9 +19,9 @@
     "Wei-Shu-Wu"
   ],
   "description": {
-    "en": "After the Han empire collapsed into warlordism, three rival states — Wei in the north, Shu-Han in the southwest, Wu in the south — fought for the Mandate of Heaven for six decades. The wars nearly halved China's registered population before one general's heir reunited the country under a new dynasty, Jin.",
-    "es": "Tras el colapso del imperio Han en el caudillismo, tres estados rivales — Wei en el norte, Shu-Han en el suroeste y Wu en el sur — lucharon durante seis décadas por el Mandato del Cielo. Las guerras redujeron casi a la mitad la población registrada de China, hasta que el heredero de uno de los generales reunificó el país bajo una nueva dinastía, la Jin.",
-    "zh": "汉帝国在军阀混战中瓦解后，北方的魏、西南的蜀汉与南方的吴三国鼎立，争夺天命长达六十余年。战乱使中国的登记人口几乎减半，直到一位将领的继承人建立新朝——晋，才重新统一天下。"
+    "en": "After the Han empire collapsed into warlordism, three rival states, Wei in the north, Shu-Han in the south-west and Wu in the south, fought for the Mandate of Heaven for six decades. War, famine and flight from the tax rolls left the registered population at a fraction of Han levels before one general's heir reunited the country under a new dynasty, Jin.",
+    "es": "Tras el colapso del imperio Han en el caudillismo, tres estados rivales, Wei en el norte, Shu-Han en el suroeste y Wu en el sur, lucharon durante seis décadas por el Mandato del Cielo. La guerra, el hambre y la huida de los registros fiscales dejaron la población registrada en una fracción de los niveles Han, hasta que el heredero de un general reunificó el país bajo una nueva dinastía, la Jin.",
+    "zh": "汉帝国在军阀混战中瓦解后，北方的魏、西南的蜀汉与南方的吴三国鼎立，争夺天命长达六十年。战乱、饥荒与逃避赋税使登记人口只剩汉代的一小部分，直到一位将领的继承人建立新朝——晋，才重新统一天下。"
   },
   "reviewed": {
     "es": false,
@@ -36,11 +36,15 @@
       "latestEnd": 280,
       "sources": [
         {
-          "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
-          "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
+          "citation": "Berman, Merrick Lex (ed.) (2015). CHGIS: Major Chinese Periods Chronology, \"Three Kingdoms Period\" (220–280), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0fp7wv72wc"
         },
         {
-          "citation": "de Crespigny, Rafe (2007). Fire over Luoyang: A History of the Later Han Dynasty. Brill."
+          "citation": "British Museum collection thesaurus, \"Three Kingdoms China\" (221–280), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hw3q5"
+        },
+        {
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
         }
       ],
       "default": true,
@@ -49,7 +53,8 @@
         "en": "The three states did not all declare themselves at once: Wei in 220, Shu-Han in 221, Wu in 222. The period ends when Jin conquers the last of them, Wu, in 280.",
         "es": "Los tres estados no se proclamaron a la vez: Wei en 220, Shu-Han en 221, Wu en 222. El período termina cuando Jin conquista el último de ellos, Wu, en 280.",
         "zh": "三国并非同时立国：魏建于220年，蜀汉建于221年，吴建于222年。这一时期在晋于280年灭掉最后一国吴时结束。"
-      }
+      },
+      "periodoId": "p0fp7wv72wc"
     }
   ],
   "events": [
@@ -64,7 +69,7 @@
       },
       "sources": [
         {
-          "citation": "de Crespigny, Rafe (2007). Fire over Luoyang: A History of the Later Han Dynasty. Brill."
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
         },
         {
           "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
@@ -87,7 +92,7 @@
           "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
         },
         {
-          "citation": "de Crespigny, Rafe (2007). Fire over Luoyang: A History of the Later Han Dynasty. Brill."
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
         }
       ]
     },
@@ -106,7 +111,7 @@
           "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
         },
         {
-          "citation": "de Crespigny, Rafe (2007). Fire over Luoyang: A History of the Later Han Dynasty. Brill."
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
         }
       ]
     },
@@ -122,7 +127,7 @@
       },
       "sources": [
         {
-          "citation": "de Crespigny, Rafe (2007). Fire over Luoyang: A History of the Later Han Dynasty. Brill."
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
         },
         {
           "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
@@ -145,7 +150,7 @@
           "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
         },
         {
-          "citation": "de Crespigny, Rafe (2007). Fire over Luoyang: A History of the Later Han Dynasty. Brill."
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
         }
       ]
     },
@@ -164,7 +169,7 @@
           "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
         },
         {
-          "citation": "de Crespigny, Rafe (2007). Fire over Luoyang: A History of the Later Han Dynasty. Brill."
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
         }
       ]
     },
@@ -183,7 +188,7 @@
           "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
         },
         {
-          "citation": "de Crespigny, Rafe (2007). Fire over Luoyang: A History of the Later Han Dynasty. Brill."
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
         }
       ]
     }
@@ -200,7 +205,7 @@
       },
       "sources": [
         {
-          "citation": "de Crespigny, Rafe (2007). Fire over Luoyang: A History of the Later Han Dynasty. Brill."
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
         }
       ]
     },

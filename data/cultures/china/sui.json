@@ -8,7 +8,7 @@
     "zh": "隋朝"
   },
   "nativeName": {
-    "text": "隋朝",
+    "text": "隋",
     "lang": "zh-Hans"
   },
   "aliases": [
@@ -34,7 +34,8 @@
       "latestEnd": 618,
       "sources": [
         {
-          "citation": "Zhou, Weizhou (2007). \"Sui Dynasty.\" CHGIS: Major Chinese Periods Chronology. Harvard University / Fudan University."
+          "citation": "Berman, Merrick Lex (ed.) (2015). CHGIS: Major Chinese Periods Chronology, \"Sui Dynasty\" (581–618), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0fp7wv9h4n"
         },
         {
           "citation": "Wright, Arthur F. (1978). The Sui Dynasty: The Unification of China, A.D. 581-617. Alfred A. Knopf."
@@ -174,14 +175,14 @@
       "start": 605,
       "end": 618,
       "text": {
-        "en": "The Grand Canal the Sui built and joined together ran for well over 1,000 kilometres, and sections of it are still navigable today, making it the oldest working canal system in the world.",
-        "es": "El Gran Canal que los Sui construyeron y unieron se extendía por más de 1.000 kilómetros, y algunos tramos siguen siendo navegables hoy, lo que lo convierte en el sistema de canales en funcionamiento más antiguo del mundo.",
-        "zh": "隋朝开凿并贯通的大运河全长超过一千公里，部分河段至今仍可通航，是世界上仍在使用的最古老的运河系统。"
+        "en": "The canals the Sui dug and joined ran for well over 1,000 kilometres, and much of the route is still in use today as part of the longest man-made waterway on Earth.",
+        "es": "Los canales que los Sui excavaron y unieron se extendían por más de 1.000 kilómetros, y buena parte del trazado sigue en uso hoy como parte de la vía navegable artificial más larga del mundo.",
+        "zh": "隋朝开凿并贯通的运河全长超过一千公里，其大部分河道至今仍在使用，是世界上最长的人工水道的一部分。"
       },
       "sources": [
         {
-          "citation": "\"History of China - The Sui dynasty.\" Encyclopaedia Britannica.",
-          "url": "https://www.britannica.com/topic/history-of-China/The-Sui-dynasty"
+          "citation": "UNESCO World Heritage Centre. \"The Grand Canal\" (inscribed 2014).",
+          "url": "https://whc.unesco.org/en/list/1443"
         }
       ]
     },

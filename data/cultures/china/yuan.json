@@ -8,7 +8,7 @@
     "zh": "元朝"
   },
   "nativeName": {
-    "text": "元朝",
+    "text": "元",
     "lang": "zh-Hans"
   },
   "aliases": [
@@ -19,9 +19,9 @@
     "Dai Ön Ulus"
   ],
   "description": {
-    "en": "Kublai Khan, grandson of Genghis Khan, made China the wealthiest province of the Mongol world empire, giving it a Chinese dynastic name while linking it by relay road and canal to trade routes running to Persia and Europe. Marco Polo's account of the court astonished a Europe that could barely picture the scale of it, but plague, inflation and famine broke Mongol rule within a century.",
-    "es": "Kublai Kan, nieto de Gengis Kan, convirtió a China en la provincia más rica del imperio mundial mongol, dándole un nombre dinástico chino mientras la conectaba mediante postas y canales con rutas comerciales hacia Persia y Europa. El relato de Marco Polo sobre la corte asombró a una Europa que apenas podía imaginar su escala, pero la peste, la inflación y el hambre acabaron con el dominio mongol en menos de un siglo.",
-    "zh": "成吉思汗之孙忽必烈将中国变为蒙古世界帝国最富庶的行省，为其冠以汉式国号，并以驿道与运河将其与通往波斯及欧洲的商路相连。马可·波罗对宫廷的描述令几乎无法想象其规模的欧洲为之震惊，但瘟疫、通货膨胀与饥荒使蒙古的统治不到一个世纪便告终结。"
+    "en": "Kublai Khan, grandson of Genghis Khan, made China the richest province of the Mongol world empire, giving it a Chinese dynastic name while linking it by relay road and canal to trade routes running to Persia and Europe. Marco Polo's account of the court astonished readers in Europe, but floods, famine and runaway paper-money inflation broke Mongol rule within a century.",
+    "es": "Kublai Kan, nieto de Gengis Kan, convirtió a China en la provincia más rica del imperio mundial mongol, dándole un nombre dinástico chino mientras la conectaba mediante postas y canales con rutas comerciales hacia Persia y Europa. El relato de Marco Polo sobre la corte asombró a los lectores europeos, pero las inundaciones, el hambre y la inflación desbocada del papel moneda acabaron con el dominio mongol en menos de un siglo.",
+    "zh": "成吉思汗之孙忽必烈将中国变为蒙古世界帝国最富庶的行省，为其冠以汉式国号，并以驿道与运河将其与通往波斯及欧洲的商路相连。马可·波罗对宫廷的描述令欧洲读者惊叹，但水患、饥荒与纸钞恶性通胀使蒙古的统治不到一个世纪便告终结。"
   },
   "reviewed": {
     "es": false,
@@ -31,12 +31,17 @@
     {
       "id": "conventional",
       "earliestStart": 1260,
-      "latestStart": 1271,
+      "latestStart": 1279,
       "earliestEnd": 1368,
       "latestEnd": 1368,
       "sources": [
         {
-          "citation": "Library of Congress Subject Headings. \"Yuan dynasty, 1260-1368.\""
+          "citation": "Library of Congress Subject Headings, \"Yuan dynasty, 1260-1368\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3vk9b"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Yuan dynasty\" (1279–1368), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hvmgq"
         },
         {
           "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
@@ -46,9 +51,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Some scholars date the Yuan from Kublai Khan's election as Great Khan in 1260; others from 1271, when he formally adopted the Chinese dynastic name Da Yuan. The conquest of Song China was not complete until 1279.",
-        "es": "Algunos estudiosos fechan el inicio de los Yuan desde la elección de Kublai Kan como Gran Kan en 1260; otros desde 1271, cuando adoptó formalmente el nombre dinástico chino Da Yuan. La conquista de la China Song no se completó hasta 1279.",
-        "zh": "一些学者将元朝的起始定为1260年忽必烈被推举为大汗之时；另一些则定为1271年他正式采用汉式国号\"大元\"之时。对南宋的征服直到1279年才最终完成。"
+        "en": "Some scholars date the Yuan from Kublai Khan's election as Great Khan in 1260; others from 1271, when he adopted the Chinese dynastic name Da Yuan; the British Museum counts only from 1279, when the conquest of Song China was complete.",
+        "es": "Algunos estudiosos fechan el inicio de los Yuan desde la elección de Kublai Kan como Gran Kan en 1260; otros desde 1271, cuando adoptó el nombre dinástico chino Da Yuan; el Museo Británico cuenta solo desde 1279, cuando se completó la conquista de la China Song.",
+        "zh": "一些学者将元朝的起始定为1260年忽必烈被推举为大汗之时；另一些定为1271年他采用汉式国号“大元”之时；大英博物馆则从1279年灭宋、征服完成之时起算。"
       }
     }
   ],
@@ -77,9 +82,9 @@
       "start": 1271,
       "type": "founding",
       "title": {
-        "en": "Kublai formally proclaims his realm the Yuan dynasty, the first fully foreign dynasty to claim the Chinese throne",
-        "es": "Kublai proclama formalmente su reino como la dinastía Yuan, la primera dinastía totalmente extranjera en reclamar el trono chino",
-        "zh": "忽必烈正式建国号为\"大元\"，成为第一个完全由外族建立而称帝中国的王朝"
+        "en": "Kublai formally proclaims his realm the Yuan dynasty, the first foreign dynasty to rule all of China",
+        "es": "Kublai proclama formalmente su reino como la dinastía Yuan, la primera dinastía extranjera en gobernar toda China",
+        "zh": "忽必烈正式建国号为“大元”，成为第一个统治全中国的外族王朝"
       },
       "sources": [
         {

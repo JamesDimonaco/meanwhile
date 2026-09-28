@@ -8,20 +8,21 @@
     "zh": "清朝"
   },
   "nativeName": {
-    "text": "Daicing Gurun",
-    "lang": "mnc"
+    "text": "清",
+    "lang": "zh-Hans"
   },
   "aliases": [
     "Qing",
     "清",
     "Manchu dynasty",
     "Great Qing",
-    "Daicing Gurun"
+    "Daicing Gurun",
+    "大清"
   ],
   "description": {
-    "en": "Manchu clans from beyond the Great Wall took Beijing amid a Chinese civil war and built the largest, most populous empire China had ever had, roughly tripling its territory under a run of long-lived, capable emperors. Unable to answer industrialised Western and Japanese power in the 19th century, the dynasty spent its last decades losing wars and territory before a six-year-old emperor's abdication ended over two thousand years of imperial rule.",
-    "es": "Clanes manchúes de más allá de la Gran Muralla tomaron Beijing en medio de una guerra civil china y construyeron el imperio más grande y poblado que China había tenido jamás, triplicando aproximadamente su territorio bajo una sucesión de emperadores longevos y capaces. Incapaz de responder al poder industrializado de Occidente y Japón en el siglo XIX, la dinastía pasó sus últimas décadas perdiendo guerras y territorio antes de que la abdicación de un emperador de seis años pusiera fin a más de dos mil años de gobierno imperial.",
-    "zh": "长城以外的满族部落在中国内战之际攻占北京，建立起中国历史上疆域最广、人口最多的帝国，在数位在位长久且颇具才干的皇帝治理下，版图几乎扩大了三倍。面对十九世纪工业化的西方与日本势力，清朝已无力应对，末代数十年间不断丧师失地，最终一位六岁皇帝的退位，为长达两千余年的帝制画上句号。"
+    "en": "Manchu clans from beyond the Great Wall took Beijing amid a Chinese civil war and built the largest, most populous empire China had ever had, roughly doubling its territory under a run of long-lived, capable emperors. Unable to answer industrialised Western and Japanese power in the 19th century, the dynasty spent its last decades losing wars and territory before a six-year-old emperor's abdication ended over two thousand years of imperial rule.",
+    "es": "Clanes manchúes de más allá de la Gran Muralla tomaron Beijing en medio de una guerra civil china y construyeron el imperio más grande y poblado que China había tenido jamás, duplicando aproximadamente su territorio bajo una sucesión de emperadores longevos y capaces. Incapaz de responder al poder industrializado de Occidente y Japón en el siglo XIX, la dinastía pasó sus últimas décadas perdiendo guerras y territorio antes de que la abdicación de un emperador de seis años pusiera fin a más de dos mil años de gobierno imperial.",
+    "zh": "长城以外的满族部落在中国内战之际攻占北京，建立起中国历史上疆域最广、人口最多的帝国，在数位在位长久且颇具才干的皇帝治理下，版图几乎扩大了一倍。面对十九世纪工业化的西方与日本势力，清朝已无力应对，末代数十年间不断丧师失地，最终一位六岁皇帝的退位，为长达两千余年的帝制画上句号。"
   },
   "reviewed": {
     "es": false,
@@ -36,7 +37,8 @@
       "latestEnd": 1912,
       "sources": [
         {
-          "citation": "Library of Congress Subject Headings. \"Qing dynasty, 1644-1912.\""
+          "citation": "Library of Congress Subject Headings, \"Qing dynasty, 1644-1912\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3dwcc"
         },
         {
           "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
@@ -116,9 +118,9 @@
       "end": 1722,
       "type": "ruler",
       "title": {
-        "en": "The Kangxi Emperor's six-decade reign roughly doubles Qing territory through campaigns in Mongolia, Tibet and Central Asia",
-        "es": "El reinado de seis décadas del emperador Kangxi duplica aproximadamente el territorio Qing mediante campañas en Mongolia, Tíbet y Asia Central",
-        "zh": "康熙帝在位六十余年，通过对蒙古、西藏及中亚的用兵，使清朝疆域大致扩增一倍"
+        "en": "The Kangxi Emperor's six-decade reign brings Taiwan, Outer Mongolia and Tibet under Qing control",
+        "es": "El reinado de seis décadas del emperador Kangxi somete Taiwán, Mongolia Exterior y el Tíbet al control Qing",
+        "zh": "康熙帝在位六十余年，将台湾、外蒙古与西藏纳入清朝控制之下"
       },
       "sources": [
         {

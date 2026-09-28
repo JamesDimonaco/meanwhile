@@ -35,15 +35,15 @@
       "latestEnd": -475,
       "sources": [
         {
-          "citation": "Library of Congress Subject Headings, \"Spring and Autumn period, 722-481 B.C.\", via PeriodO.",
-          "url": "http://n2t.net/ark:/99152/p06c6g35w6b"
-        },
-        {
           "citation": "Berman, Merrick Lex (ed.) (2015). CHGIS: Major Chinese Periods Chronology, \"Spring and Autumn Period\" (770–476 BC), via PeriodO.",
           "url": "http://n2t.net/ark:/99152/p0fp7wvxnn5"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Spring and Autumn period, 722-481 B.C.\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g35w6b"
         }
       ],
-      "periodoId": "p06c6g35w6b",
+      "periodoId": "p0fp7wvxnn5",
       "default": true,
       "disputed": true,
       "note": {
@@ -65,8 +65,8 @@
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.008"
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
         },
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
@@ -84,8 +84,8 @@
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.008"
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
         },
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
@@ -104,8 +104,8 @@
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.008"
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
         },
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
@@ -124,11 +124,12 @@
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.008"
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
         },
         {
-          "citation": "de Crespigny, Rafe (2007). A Biographical Dictionary of Later Han to the Three Kingdoms (23–220 AD). Brill."
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
         }
       ]
     },
@@ -144,8 +145,8 @@
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.008"
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
         },
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
@@ -170,8 +171,8 @@
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Warring States Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
         },
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
@@ -191,8 +192,8 @@
       },
       "sources": [
         {
-          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.008"
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
         }
       ]
     },
@@ -207,7 +208,8 @@
       },
       "sources": [
         {
-          "citation": "de Crespigny, Rafe (2007). A Biographical Dictionary of Later Han to the Three Kingdoms (23–220 AD). Brill."
+          "citation": "von Falkenhausen, Lothar (1999). \"The Waning of the Bronze Age: Material Culture and Social Developments, 770–481 B.C..\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 450–544. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
         }
       ]
     }
