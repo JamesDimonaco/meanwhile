@@ -47,9 +47,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The start, 770 BCE, matches the move of the Zhou court east. The end is a matter of convention: Confucius's chronicle the Chunqiu itself ends in 481 BCE, textbooks often say 476 BCE, and some historians run the period to 403 BCE, when the state of Jin formally split in three.",
-        "es": "El inicio, 770 a. e. c., coincide con el traslado de la corte Zhou al este. El final es cuestión de convención: la propia crónica Chunqiu de Confucio termina en 481 a. e. c., los libros de texto suelen decir 476 a. e. c., y algunos historiadores extienden el periodo hasta 403 a. e. c., cuando el estado de Jin se dividió formalmente en tres.",
-        "zh": "起始年份公元前770年与周室东迁相符。结束年份则因惯例而异：孔子所作《春秋》本身记事止于公元前481年，教科书常用公元前476年，而部分史家则将此期延至公元前403年，即晋国正式一分为三之时。"
+        "en": "The start, 770 BCE, matches the move of the Zhou court east. The end is a matter of convention: the Chunqiu chronicle, traditionally attributed to Confucius, ends in 481 BCE, textbooks often say 476 BCE, and some historians run the period to 403 BCE, when the state of Jin formally split in three.",
+        "es": "El inicio, 770 a. e. c., coincide con el traslado de la corte Zhou al este. El final es cuestión de convención: la crónica Chunqiu, atribuida tradicionalmente a Confucio, termina en 481 a. e. c., los libros de texto suelen decir 476 a. e. c., y algunos historiadores extienden el periodo hasta 403 a. e. c., cuando el estado de Jin se dividió formalmente en tres.",
+        "zh": "起始年份公元前770年与周室东迁相符。结束年份则因惯例而异：相传为孔子所修的《春秋》记事止于公元前481年，教科书常用公元前476年，而部分史家则将此期延至公元前403年，即晋国正式一分为三之时。"
       }
     }
   ],
@@ -202,14 +202,18 @@
       "start": -599,
       "end": -475,
       "text": {
-        "en": "Southern states such as Wu and Yue became famous for bronze swords folded and tempered so finely that some still take an edge today.",
-        "es": "Estados meridionales como Wu y Yue se hicieron famosos por espadas de bronce plegadas y templadas con tal finura que algunas aún conservan filo hoy.",
-        "zh": "吴、越等南方国家以精工折叠淬炼的青铜剑闻名，部分至今仍锋利如初。"
+        "en": "Southern states such as Wu and Yue cast bronze swords of such quality that one made for King Goujian of Yue, buried for over two thousand years, was dug up in 1965 with its edge still sharp.",
+        "es": "Estados meridionales como Wu y Yue fundían espadas de bronce de tal calidad que una hecha para el rey Goujian de Yue, enterrada durante más de dos mil años, se desenterró en 1965 con el filo aún afilado.",
+        "zh": "吴、越等南方国家铸造的青铜剑品质极高：一把为越王勾践所铸的剑在地下埋藏两千余年，1965年出土时刃口依然锋利。"
       },
       "sources": [
         {
           "citation": "von Falkenhausen, Lothar (1999). \"The Waning of the Bronze Age: Material Culture and Social Developments, 770–481 B.C..\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 450–544. Cambridge University Press.",
           "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+        },
+        {
+          "citation": "Hubei Provincial Museum, \"Sword of Goujian\" (excavated at Wangshan, Jiangling, 1965).",
+          "url": "https://www.hbww.org.cn/"
         }
       ]
     }
