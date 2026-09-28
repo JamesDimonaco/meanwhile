@@ -1,13 +1,15 @@
 import type { z } from "zod";
-import { Borders, Culture, Registry, duplicates } from "./schema";
+import { Borders, Culture, Popular, Registry, duplicates } from "./schema";
 
 export type DataFile = { path: string; data: unknown };
-export type DatasetInput = { registry: unknown; cultureFiles: DataFile[]; borderFiles: DataFile[] };
+export type DatasetInput = { registry: unknown; cultureFiles: DataFile[]; borderFiles: DataFile[]; popular: unknown };
 export type DatasetResult = {
   errors: string[];
   warnings: string[];
   cultures: Culture[];
   borders: Borders[];
+  /** Home page starting points, in data/popular.json order. */
+  popular: Culture[];
 };
 
 function issues(path: string, error: z.ZodError): string[] {
@@ -21,7 +23,7 @@ export function validateDataset(input: DatasetInput): DatasetResult {
 
   const registry = Registry.safeParse(input.registry);
   if (!registry.success) {
-    return { errors: issues("data/registry.json", registry.error), warnings, cultures: [], borders: [] };
+    return { errors: issues("data/registry.json", registry.error), warnings, cultures: [], borders: [], popular: [] };
   }
   const regions = new Map(registry.data.cultures.map((c) => [c.id, c.region]));
   for (const dup of duplicates(registry.data.cultures.map((c) => c.id))) {
@@ -70,8 +72,22 @@ export function validateDataset(input: DatasetInput): DatasetResult {
     borders.push(b);
   }
 
+  const popular: Culture[] = [];
+  const popularList = Popular.safeParse(input.popular);
+  if (!popularList.success) {
+    errors.push(...issues("data/popular.json", popularList.error));
+  } else {
+    for (const dup of duplicates(popularList.data.cultures)) errors.push(`data/popular.json: duplicate id "${dup}"`);
+    for (const id of popularList.data.cultures) {
+      const culture = cultures.find((c) => c.id === id);
+      if (culture) popular.push(culture);
+      else if (!regions.has(id)) errors.push(notRegistered("data/popular.json", id));
+      else errors.push(`data/popular.json: "${id}" has no culture file yet, so the home page can't show it`);
+    }
+  }
+
   cultures.sort((a, b) => (a.id < b.id ? -1 : 1));
-  return { errors, warnings, cultures, borders };
+  return { errors, warnings, cultures, borders, popular };
 }
 
 /** Counts LocalizedText objects (anything with a string "en") lacking a locale. */

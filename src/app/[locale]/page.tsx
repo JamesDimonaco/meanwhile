@@ -2,11 +2,10 @@ import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
 import { SearchBox } from "@/components/search/search-box";
 import { Link } from "@/i18n/navigation";
-import { loadCultures } from "@/lib/data/load";
+import { loadCultures, loadPopular } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { toSearchEntry } from "@/components/search/search-index";
 import { YearRangeText } from "@/components/settings/year-text";
-import { popularStartingPoints } from "@/components/search/popular";
 
 /** Home: one search box, popular starting points underneath. Owned by ui-core. */
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
@@ -15,7 +14,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const tCommon = await getTranslations("common");
   const cultures = loadCultures();
   const entries = cultures.map(toSearchEntry);
-  const popular = popularStartingPoints(cultures);
+  const popular = loadPopular().map(toSearchEntry);
 
   return (
     <div className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-6">
