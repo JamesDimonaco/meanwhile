@@ -41,8 +41,10 @@ describe("search", () => {
   });
 
   it("matches an accented pinyin alias without the accent", () => {
-    // "shāng" in data; someone typing on a phone won't have the macron.
-    expect(search("shang", entries)).toEqual([{ type: "culture", entry: shang }]);
+    // Only the accented spelling is in the data, and the id doesn't contain
+    // the query, so this can only match once the macron is stripped.
+    const zhou = entry({ id: "c1", name: { en: "Zhōu" }, nativeName: undefined, aliases: ["Zhōu"] });
+    expect(search("zhou", [zhou])).toEqual([{ type: "culture", entry: zhou }]);
   });
 
   it("matches a Spanish localized name", () => {
