@@ -2,6 +2,38 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+/*
+ * Self-hosted, subset fonts (never Google): Inter for Latin script, a Han
+ * subset of Noto Sans SC for the characters actually used in messages/zh
+ * and data (regenerate with `pnpm subset-cjk-font` after new zh content
+ * lands). unicode-range lets the browser skip a face with no matching
+ * glyph instead of requesting it. See public/fonts/*-LICENSE.txt (OFL).
+ */
+@font-face {
+  font-family: "Meanwhile Sans";
+  src: url("/fonts/inter-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-024F, U+02B0-02FF, U+2000-206F, U+20A0-20CF, U+2100-214F;
+}
+@font-face {
+  font-family: "Meanwhile Sans";
+  src: url("/fonts/inter-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-024F, U+02B0-02FF, U+2000-206F, U+20A0-20CF, U+2100-214F;
+}
+@font-face {
+  font-family: "Meanwhile Sans CJK";
+  src: url("/fonts/noto-sans-sc-subset.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+3000-303F, U+3400-4DBF, U+4E00-9FFF, U+FF00-FFEF;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -49,9 +81,11 @@
 }
 
 :root {
-  /* System fonts until self-hosted, subset fonts land. Never load fonts from Google. */
-  --app-font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC",
-    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  /* Self-hosted, subset fonts (never Google); system CJK fonts as a fallback
+     for any character the subset hasn't caught up to yet. */
+  --app-font-sans: "Meanwhile Sans", "Meanwhile Sans CJK", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC",
+    sans-serif;
   --app-font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);

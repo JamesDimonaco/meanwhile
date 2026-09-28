@@ -1,4 +1,38 @@
 {
   "title": "Fuentes y créditos",
-  "dataLicence": "Datos: CC BY 4.0. Código: MIT."
+  "intro": "Meanwhile toma fechas, nombres y lugares de conjuntos de datos históricos abiertos, y nunca copia las palabras de una fuente: los datos breves de la app se redactan de nuevo y se contrastan con las fuentes.",
+  "dataLicence": "Datos de este sitio: CC BY 4.0. Código: MIT.",
+  "sources": {
+    "periodo": {
+      "name": "PeriodO",
+      "licence": "Dominio público",
+      "used": "Rangos de fechas de los periodos, enlazados por id donde existe una definición.",
+      "changes": "Los rangos se copian tal como se publicaron; no se deriva nada más de PeriodO."
+    },
+    "wikidata": {
+      "name": "Wikidata",
+      "licence": "CC0",
+      "used": "Nombres de civilizaciones en varios idiomas, e identificadores que enlazan a más información.",
+      "changes": "Los nombres se copian tal como se publicaron; algunos además se traducen automáticamente cuando Wikidata aún no tiene una entrada en ese idioma."
+    },
+    "cliopatria": {
+      "name": "Cliopatria",
+      "licence": "CC BY 4.0",
+      "used": "Polígonos de fronteras históricas para el mapa de territorio de Roma.",
+      "changes": "Los polígonos se simplifican para un mapa pequeño y rápido, y se republican bajo la misma licencia con atribución. Se publica por separado, y bajo una licencia distinta, del propio conjunto de datos de Seshat (véase abajo)."
+    },
+    "pleiades": {
+      "name": "Pleiades",
+      "licence": "CC BY",
+      "used": "Identificadores y coordenadas de lugares antiguos para los marcadores de eventos en el mapa.",
+      "changes": "Las coordenadas se copian tal como se publicaron."
+    },
+    "dare": {
+      "name": "DARE (Atlas Digital del Imperio Romano)",
+      "licence": "CC BY",
+      "used": "Nombres y ubicaciones de lugares de época romana.",
+      "changes": "Las coordenadas se copian tal como se publicaron."
+    }
+  },
+  "neverUsed": "Nunca usado: el propio conjunto de datos del Seshat Global History Databank, que es solo de uso no comercial."
 }

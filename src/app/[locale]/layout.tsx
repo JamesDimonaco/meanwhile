@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { ExplainerProvider } from "@/components/explainer/explainer-provider";
 import { ExplainerTrigger } from "@/components/explainer/explainer-trigger";
+import { RegisterServiceWorker } from "@/components/pwa/register-service-worker";
 import { LanguageSwitcher } from "@/components/settings/language-switcher";
 import { HTML_LANG } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
@@ -19,7 +20,11 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Promise<Metadata> {
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "common" });
-  return { title: { default: t("appName"), template: `%s · ${t("appName")}` }, description: t("tagline") };
+  return {
+    title: { default: t("appName"), template: `%s · ${t("appName")}` },
+    description: t("tagline"),
+    appleWebApp: { capable: true, statusBarStyle: "default", title: t("appName") },
+  };
 }
 
 export default async function LocaleLayout({ children, params }: LayoutProps<"/[locale]">) {
@@ -29,6 +34,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
   return (
     <html lang={HTML_LANG[locale]} dir="ltr">
       <body className="flex min-h-dvh flex-col">
+        <RegisterServiceWorker />
         <NextIntlClientProvider>
           <ExplainerProvider>
             <header className="flex items-center justify-between gap-3 px-4 py-3">

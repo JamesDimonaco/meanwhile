@@ -3,6 +3,7 @@
   "sources": "Fuentes",
   "otherDefinitions": "Otras definiciones de fechas",
   "alsoHappening": "También ocurría hacia {year}",
+  "uncertainOverlap": "coincidencia incierta",
   "eventTypes": {
     "founding": "Fundación",
     "ruler": "Gobernante",

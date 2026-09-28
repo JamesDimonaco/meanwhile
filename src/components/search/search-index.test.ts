@@ -1,0 +1,81 @@
+import { describe, expect, it } from "vitest";
+import { search, type SearchEntry } from "./search-index";
+
+function entry(overrides: Partial<SearchEntry>): SearchEntry {
+  return {
+    id: "shang",
+    region: "china",
+    name: { en: "Shang dynasty", es: "Dinastía Shang", zh: "商朝" },
+    nativeName: { text: "商", lang: "zh-Hans" },
+    aliases: ["Shang", "Yin", "殷", "商", "shāng"],
+    period: { earliestStart: -1600, latestStart: -1500, earliestEnd: -1050, latestEnd: -1045 },
+    ...overrides,
+  };
+}
+
+const inca = entry({
+  id: "inca",
+  region: "south-america",
+  name: { en: "Inca Empire", es: "Imperio inca" },
+  nativeName: { text: "Tawantinsuyu", lang: "qu" },
+  aliases: ["Inca", "Inka", "Incas", "Tahuantinsuyo", "Tawantinsuyu", "印加"],
+  period: { earliestStart: 1400, latestStart: 1438, earliestEnd: 1533, latestEnd: 1572 },
+});
+
+const shang = entry({});
+const entries = [shang, inca];
+
+describe("search", () => {
+  it("returns nothing for a blank query", () => {
+    expect(search("", entries)).toEqual([]);
+    expect(search("   ", entries)).toEqual([]);
+  });
+
+  it("matches an English name", () => {
+    const results = search("shang", entries);
+    expect(results).toEqual([{ type: "culture", entry: shang }]);
+  });
+
+  it("matches native-script characters directly", () => {
+    expect(search("商", entries)).toEqual([{ type: "culture", entry: shang }]);
+  });
+
+  it("matches an accented pinyin alias without the accent", () => {
+    // "shāng" in data; someone typing on a phone won't have the macron.
+    expect(search("shang", entries)).toEqual([{ type: "culture", entry: shang }]);
+  });
+
+  it("matches a Spanish localized name", () => {
+    expect(search("imperio inca", entries)).toEqual([{ type: "culture", entry: inca }]);
+  });
+
+  it("matches a non-English native name", () => {
+    expect(search("tawantinsuyu", entries)).toEqual([{ type: "culture", entry: inca }]);
+  });
+
+  it("ranks an exact alias match above a mere substring match", () => {
+    // "vinca" only contains "inca" as a substring (score 2); the Inca entry's
+    // own alias "Inca" is an exact match (score 0) once case is folded, so it
+    // must sort first even though "vinca" would otherwise win by id order.
+    const vinca = entry({ id: "vinca", name: { en: "Vinca culture" }, aliases: ["Vinca"], nativeName: undefined });
+    const results = search("inca", [vinca, inca]);
+    expect(results).toEqual([
+      { type: "culture", entry: inca },
+      { type: "culture", entry: vinca },
+    ]);
+  });
+
+  it("recognises a typed year and returns it ahead of name matches", () => {
+    const results = search("1200 BCE", entries);
+    expect(results[0]).toEqual({ type: "year", year: -1199 });
+  });
+
+  it("does not treat a plain word as a year", () => {
+    expect(search("shang", entries).some((r) => r.type === "year")).toBe(false);
+  });
+
+  it("caps results at the given limit", () => {
+    const many: SearchEntry[] = Array.from({ length: 20 }, (_, i) => entry({ id: `culture-${i}` }));
+    expect(search("shang", many, 3)).toHaveLength(3);
+  });
+});

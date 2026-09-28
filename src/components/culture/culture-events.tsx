@@ -1,21 +1,127 @@
-import { useLocale } from "next-intl";
+"use client";
+
+import { ChevronDown, Crown, Flag, Lightbulb, Skull, Swords, type LucideIcon } from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { EventWorld } from "@/lib/data/queries";
-import type { Culture } from "@/lib/data/schema";
+import type { Culture, CultureEvent, EventType } from "@/lib/data/schema";
 import { YearText } from "@/components/settings/year-text";
+import { useSettings } from "@/components/settings/use-settings";
+import { formatYear } from "@/lib/years";
+import { DisputedBadge } from "./disputed-badge";
 
 export type CultureEventsProps = { culture: Culture; eventWorld: EventWorld };
 
-/** Stub: ui-core builds the key-events timeline and the "what else that year" view. */
-export function CultureEvents({ culture }: CultureEventsProps) {
-  const locale = useLocale();
+const EVENT_ICONS: Record<EventType, LucideIcon> = {
+  founding: Flag,
+  ruler: Crown,
+  invention: Lightbulb,
+  conflict: Swords,
+  collapse: Skull,
+};
+
+/** The key-events timeline: tapping an event shows what else was happening worldwide that year. */
+export function CultureEvents({ culture, eventWorld }: CultureEventsProps) {
+  const events = [...culture.events].sort((a, b) => a.start - b.start);
   return (
-    <ol className="flex flex-col gap-2">
-      {culture.events.map((event) => (
-        <li key={event.id}>
-          <YearText year={event.start} /> {localize(event.title, locale)}
-        </li>
-      ))}
-    </ol>
+    <section className="flex flex-col gap-3">
+      <ol className="flex flex-col gap-2">
+        {events.map((event) => (
+          <EventItem key={event.id} event={event} world={eventWorld[event.id] ?? []} />
+        ))}
+      </ol>
+    </section>
+  );
+}
+
+function EventItem({
+  event,
+  world,
+}: {
+  event: CultureEvent;
+  world: EventWorld[string];
+}) {
+  const locale = useLocale();
+  const t = useTranslations("culture");
+  const tCommon = useTranslations("common");
+  const { eraStyle } = useSettings();
+  const Icon = EVENT_ICONS[event.type];
+
+  return (
+    <li>
+      <details className="group rounded-lg border border-border open:bg-muted/30">
+        <summary className="flex cursor-pointer list-none items-start justify-between gap-3 p-3 [&::-webkit-details-marker]:hidden">
+          <span className="flex items-start gap-2.5">
+            <Icon aria-hidden className="mt-0.5 size-4 shrink-0 text-muted-foreground" />
+            <span className="flex flex-col gap-0.5">
+              <span className="text-sm text-muted-foreground">
+                <YearText year={event.start} />
+                {event.end !== undefined && event.end !== event.start && (
+                  <>
+                    {" – "}
+                    <YearText year={event.end} />
+                  </>
+                )}
+              </span>
+              <span className="flex flex-wrap items-center gap-1.5 font-medium">
+                {localize(event.title, locale)}
+                {event.disputed && <DisputedBadge note={event.note && localize(event.note, locale)} />}
+              </span>
+            </span>
+          </span>
+          <ChevronDown
+            aria-hidden
+            className="mt-1 size-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
+          />
+        </summary>
+
+        <div className="flex flex-col gap-3 border-t border-border p-3 text-sm">
+          {event.note && <p className="text-muted-foreground italic">{localize(event.note, locale)}</p>}
+
+          <div>
+            <h4 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
+              {t("sources")}
+            </h4>
+            <ul className="mt-1 flex flex-col gap-0.5">
+              {event.sources.map((source, i) => (
+                <li key={i} className="text-muted-foreground">
+                  {source.url ? (
+                    <a href={source.url} target="_blank" rel="noreferrer" className="underline underline-offset-2">
+                      {source.citation}
+                    </a>
+                  ) : (
+                    source.citation
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
+              {t("alsoHappening", { year: formatYear(event.start, locale, eraStyle) })}
+            </h4>
+            {world.length === 0 ? (
+              <p className="mt-1 text-muted-foreground">—</p>
+            ) : (
+              <ul className="mt-1 flex flex-col gap-1">
+                {world.map(({ culture: ref, certain }) => (
+                  <li key={ref.id}>
+                    <Link href={`/c/${ref.id}`} className="flex items-baseline gap-1.5 hover:underline">
+                      <span className="font-medium text-foreground">{localize(ref.name, locale)}</span>
+                      <span className="text-muted-foreground">
+                        {tCommon(`regions.${ref.region}`)}
+                        {!certain && ` (${t("uncertainOverlap")})`}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </div>
+      </details>
+    </li>
   );
 }
