@@ -2,5 +2,7 @@
   "searchLabel": "搜索文明、朝代或年份",
   "searchPlaceholder": "商、Shang、公元前1200年…",
   "popular": "热门起点",
-  "noResults": "未找到“{query}”的结果"
+  "noResults": "未找到“{query}”的结果",
+  "seeOnTimeline": "在时间线上查看这一年",
+  "resultsLabel": "搜索结果"
 }
