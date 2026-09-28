@@ -10,6 +10,7 @@
     "test": "vitest run",
     "lint": "eslint",
     "validate-data": "tsx scripts/validate-data.ts",
+    "borders": "tsx scripts/build-borders.ts",
     "subset-cjk-font": "tsx scripts/subset-cjk-font.ts",
     "subset-latin-font": "tsx scripts/subset-latin-font.ts",
     "generate-icons": "tsx scripts/generate-icons.tsx"
