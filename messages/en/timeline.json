@@ -1,4 +1,17 @@
 {
   "title": "World timeline",
-  "yearLine": "Drag to change the year"
+  "yearLine": "Drag to change the year",
+  "zoomIn": "Zoom in",
+  "zoomOut": "Zoom out",
+  "activeIn": "Active around {year}",
+  "noneActive": "Nothing recorded for this year yet",
+  "alsoHappening": "Also happening around {year}",
+  "close": "Close",
+  "eventTypes": {
+    "founding": "Founding",
+    "ruler": "Ruler",
+    "invention": "Invention",
+    "conflict": "Conflict",
+    "collapse": "Collapse"
+  }
 }
