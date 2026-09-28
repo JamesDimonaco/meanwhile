@@ -1,0 +1,169 @@
+{
+  "id": "chimu",
+  "region": "south-america",
+  "wikidataId": "Q901198",
+  "name": {
+    "en": "Chimú culture",
+    "es": "Cultura Chimú",
+    "zh": "奇穆文化"
+  },
+  "aliases": [
+    "Chimor",
+    "Chimu"
+  ],
+  "description": {
+    "en": "Successors to the Moche on Peru's north coast, the Chimú built Chan Chan, the largest adobe city in the pre-Columbian Americas, before falling to Inca conquest around 1470.",
+    "es": "Sucesores de los moche en la costa norte del Perú, los chimú construyeron Chan Chan, la mayor ciudad de adobe de la América precolombina, antes de caer ante la conquista inca hacia 1470.",
+    "zh": "作为秘鲁北部海岸莫切文化的继承者，奇穆人建造了昌昌——前哥伦布时期美洲最大的土坯城市，最终在约1470年被印加征服。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "chimu-period",
+      "earliestStart": 899,
+      "latestStart": 899,
+      "earliestEnd": 1469,
+      "latestEnd": 1470,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Chimu\" (AD 900 – AD 1470), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hqfw4"
+        },
+        {
+          "citation": "Moseley, Michael E. & Cordy-Collins, Alana (eds.) (1990). The Northern Dynasties: Kingship and Statecraft in Chimor. Dumbarton Oaks."
+        }
+      ],
+      "periodoId": "p08m57hqfw4",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 899,
+      "type": "founding",
+      "title": {
+        "en": "Chimor's founding legend holds that Taycanamo arrived by raft at the Moche valley from the sea",
+        "es": "La leyenda fundacional de Chimor sostiene que Taycanamo llegó en balsa desde el mar al valle de Moche",
+        "zh": "关于奇穆王国建立的传说称，塔伊卡纳莫乘木筏从海上抵达莫切河谷"
+      },
+      "sources": [
+        {
+          "citation": "Moseley, Michael E. & Cordy-Collins, Alana (1990). The Northern Dynasties. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chimu.\"",
+          "url": "https://www.britannica.com/topic/Chimu"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "This account comes from Chimú oral history recorded after the Spanish conquest and mixes legend with history.",
+        "es": "Este relato proviene de la historia oral chimú registrada tras la conquista española y mezcla leyenda con historia.",
+        "zh": "该说法来自西班牙征服后记录的奇穆口述历史，掺杂了传说与史实。"
+      }
+    },
+    {
+      "id": "chan-chan",
+      "start": 999,
+      "type": "invention",
+      "title": {
+        "en": "Chan Chan grows into a vast adobe capital of walled compounds on the coast near Trujillo",
+        "es": "Chan Chan crece hasta convertirse en una vasta capital de adobe con recintos amurallados en la costa cerca de Trujillo",
+        "zh": "昌昌发展为一座庞大的土坯都城，沿海岸分布着围墙环绕的宫殿区，靠近特鲁希略"
+      },
+      "sources": [
+        {
+          "citation": "Moseley, Michael E. & Cordy-Collins, Alana (1990). The Northern Dynasties. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chan Chan.\"",
+          "url": "https://www.britannica.com/place/Chan-Chan"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "expansion",
+      "start": 1370,
+      "type": "conflict",
+      "title": {
+        "en": "Chimor expands north and south along 1,000 kilometres of coastline, absorbing the Sicán realm",
+        "es": "Chimor se expande al norte y al sur a lo largo de 1000 kilómetros de litoral, absorbiendo el reino sicán",
+        "zh": "奇穆王国沿海岸线向南北扩张一千公里，吞并了西坎王国"
+      },
+      "sources": [
+        {
+          "citation": "Moseley, Michael E. & Cordy-Collins, Alana (1990). The Northern Dynasties. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chimu.\"",
+          "url": "https://www.britannica.com/topic/Chimu"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "spondylus-trade",
+      "start": 1000,
+      "end": 1470,
+      "type": "invention",
+      "title": {
+        "en": "Chimú traders bring Spondylus shell from warm Ecuadorian waters for offerings and metalwork",
+        "es": "Los comerciantes chimú traen conchas de Spondylus de las cálidas aguas ecuatorianas para ofrendas y orfebrería",
+        "zh": "奇穆商人从厄瓜多尔温暖海域运来棘刺牡蛎壳，用于祭祀供品与金属工艺"
+      },
+      "sources": [
+        {
+          "citation": "Moseley, Michael E. & Cordy-Collins, Alana (1990). The Northern Dynasties. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chimu.\"",
+          "url": "https://www.britannica.com/topic/Chimu"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "inca-conquest",
+      "start": 1470,
+      "type": "collapse",
+      "title": {
+        "en": "The Inca emperor Topa Inca Yupanqui defeats Minchançaman and absorbs Chimor into the growing Inca state",
+        "es": "El emperador inca Túpac Inca Yupanqui derrota a Minchançaman e incorpora Chimor al creciente estado inca",
+        "zh": "印加皇帝图帕克·印卡·尤潘基击败明昌萨曼，将奇穆并入日益扩张的印加国家"
+      },
+      "sources": [
+        {
+          "citation": "Moseley, Michael E. & Cordy-Collins, Alana (1990). The Northern Dynasties. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chimu.\"",
+          "url": "https://www.britannica.com/topic/Chimu"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "moon-worship",
+      "start": 999,
+      "end": 1470,
+      "text": {
+        "en": "The Chimú honoured the Moon above the Sun, unlike the Inca who later conquered them.",
+        "es": "Los chimú honraban a la Luna por encima del Sol, a diferencia de los incas que después los conquistaron.",
+        "zh": "奇穆人尊崇月亮胜过太阳，这与后来征服他们的印加人不同。"
+      },
+      "sources": [
+        {
+          "citation": "Moseley, Michael E. & Cordy-Collins, Alana (1990). The Northern Dynasties. Dumbarton Oaks."
+        }
+      ]
+    }
+  ]
+}

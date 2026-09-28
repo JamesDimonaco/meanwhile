@@ -1,0 +1,228 @@
+{
+  "id": "yuan",
+  "region": "china",
+  "wikidataId": "Q7313",
+  "name": {
+    "en": "Yuan dynasty",
+    "es": "Dinastía Yuan",
+    "zh": "元朝"
+  },
+  "nativeName": {
+    "text": "元",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Yuan",
+    "元",
+    "Yuán cháo",
+    "Mongol Yuan dynasty",
+    "Dai Ön Ulus"
+  ],
+  "description": {
+    "en": "Kublai Khan, grandson of Genghis Khan, made China the richest province of the Mongol world empire, giving it a Chinese dynastic name while linking it by relay road and canal to trade routes running to Persia and Europe. Marco Polo's account of the court astonished readers in Europe, but floods, famine and runaway paper-money inflation broke Mongol rule within a century.",
+    "es": "Kublai Kan, nieto de Gengis Kan, convirtió a China en la provincia más rica del imperio mundial mongol, dándole un nombre dinástico chino mientras la conectaba mediante postas y canales con rutas comerciales hacia Persia y Europa. El relato de Marco Polo sobre la corte asombró a los lectores europeos, pero las inundaciones, el hambre y la inflación desbocada del papel moneda acabaron con el dominio mongol en menos de un siglo.",
+    "zh": "成吉思汗之孙忽必烈将中国变为蒙古世界帝国最富庶的行省，为其冠以汉式国号，并以驿道与运河将其与通往波斯及欧洲的商路相连。马可·波罗对宫廷的描述令欧洲读者惊叹，但水患、饥荒与纸钞恶性通胀使蒙古的统治不到一个世纪便告终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 1260,
+      "latestStart": 1279,
+      "earliestEnd": 1368,
+      "latestEnd": 1368,
+      "sources": [
+        {
+          "citation": "Library of Congress Subject Headings, \"Yuan dynasty, 1260-1368\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3vk9b"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Yuan dynasty\" (1279–1368), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hvmgq"
+        },
+        {
+          "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
+        }
+      ],
+      "periodoId": "p06c6g3vk9b",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Some scholars date the Yuan from Kublai Khan's election as Great Khan in 1260; others from 1271, when he adopted the Chinese dynastic name Da Yuan; the British Museum counts only from 1279, when the conquest of Song China was complete.",
+        "es": "Algunos estudiosos fechan el inicio de los Yuan desde la elección de Kublai Kan como Gran Kan en 1260; otros desde 1271, cuando adoptó el nombre dinástico chino Da Yuan; el Museo Británico cuenta solo desde 1279, cuando se completó la conquista de la China Song.",
+        "zh": "一些学者将元朝的起始定为1260年忽必烈被推举为大汗之时；另一些定为1271年他采用汉式国号“大元”之时；大英博物馆则从1279年灭宋、征服完成之时起算。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "kublai-great-khan",
+      "start": 1260,
+      "type": "ruler",
+      "title": {
+        "en": "Kublai Khan is elected Great Khan of the Mongol Empire, adopting Chinese-style institutions of government",
+        "es": "Kublai Kan es elegido Gran Kan del Imperio mongol, adoptando instituciones de gobierno de estilo chino",
+        "zh": "忽必烈被推举为蒙古帝国大汗，采用中国式的政府制度"
+      },
+      "sources": [
+        {
+          "citation": "\"Kublai Khan.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/biography/Kublai-Khan"
+        },
+        {
+          "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
+        }
+      ]
+    },
+    {
+      "id": "yuan-proclaimed",
+      "start": 1271,
+      "type": "founding",
+      "title": {
+        "en": "Kublai formally proclaims his realm the Yuan dynasty, the first foreign dynasty to rule all of China",
+        "es": "Kublai proclama formalmente su reino como la dinastía Yuan, la primera dinastía extranjera en gobernar toda China",
+        "zh": "忽必烈正式建国号为“大元”，成为第一个统治全中国的外族王朝"
+      },
+      "sources": [
+        {
+          "citation": "\"Yuan dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Yuan-dynasty"
+        },
+        {
+          "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
+        }
+      ]
+    },
+    {
+      "id": "song-conquest-complete",
+      "start": 1279,
+      "type": "conflict",
+      "title": {
+        "en": "Yuan forces destroy the last Song loyalist fleet, completing the Mongol conquest of all China",
+        "es": "Las fuerzas Yuan destruyen la última flota leal a los Song, completando la conquista mongola de toda China",
+        "zh": "元军歼灭最后的宋朝忠臣舰队，蒙古对全中国的征服至此完成"
+      },
+      "sources": [
+        {
+          "citation": "\"Kublai Khan.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/biography/Kublai-Khan"
+        },
+        {
+          "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
+        }
+      ]
+    },
+    {
+      "id": "paper-currency",
+      "start": 1260,
+      "type": "invention",
+      "title": {
+        "en": "The Yuan makes paper notes backed by silver reserves the empire's sole legal currency, a system Marco Polo later described in wonder",
+        "es": "Los Yuan convierten en la única moneda legal del imperio billetes de papel respaldados por reservas de plata, un sistema que Marco Polo describiría después con asombro",
+        "zh": "元朝以白银为准备金发行纸钞，作为全国唯一法定货币，此制度后来令马可·波罗惊叹不已"
+      },
+      "sources": [
+        {
+          "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
+        },
+        {
+          "citation": "\"Yuan dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Yuan-dynasty"
+        }
+      ]
+    },
+    {
+      "id": "japan-invasions",
+      "start": 1274,
+      "end": 1281,
+      "type": "conflict",
+      "title": {
+        "en": "Two huge seaborne invasions of Japan are wrecked by typhoons the Japanese would later call kamikaze, or divine wind",
+        "es": "Dos enormes invasiones marítimas de Japón son destruidas por tifones que los japoneses llamarían más tarde kamikaze, o viento divino",
+        "zh": "两次大规模渡海攻日均遭台风摧毁，日本人后来称此为“神风”"
+      },
+      "sources": [
+        {
+          "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
+        },
+        {
+          "citation": "\"Kublai Khan.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/biography/Kublai-Khan"
+        }
+      ]
+    },
+    {
+      "id": "red-turban-rebellion",
+      "start": 1351,
+      "type": "conflict",
+      "title": {
+        "en": "Famine, flooding and runaway inflation of paper money spark the Red Turban Rebellion against Yuan rule",
+        "es": "El hambre, las inundaciones y la inflación descontrolada del papel moneda desencadenan la Rebelión del Turbante Rojo contra el gobierno Yuan",
+        "zh": "饥荒、水患与纸钞恶性通胀引发红巾军起义，反抗元朝统治"
+      },
+      "sources": [
+        {
+          "citation": "\"Yuan dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Yuan-dynasty"
+        },
+        {
+          "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
+        }
+      ]
+    },
+    {
+      "id": "yuan-collapse",
+      "start": 1368,
+      "type": "collapse",
+      "title": {
+        "en": "Rebel leader Zhu Yuanzhang captures the Yuan capital Dadu; the Mongol court flees north and Yuan rule of China ends",
+        "es": "El líder rebelde Zhu Yuanzhang captura Dadu, capital de los Yuan; la corte mongola huye al norte y termina el gobierno Yuan de China",
+        "zh": "起义领袖朱元璋攻占元大都，蒙古朝廷北逃，元朝对中国的统治宣告结束"
+      },
+      "sources": [
+        {
+          "citation": "\"Yuan dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Yuan-dynasty"
+        },
+        {
+          "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "marco-polo",
+      "start": 1275,
+      "end": 1292,
+      "text": {
+        "en": "Marco Polo spent nearly two decades at Kublai Khan's court, and when he described its paper money, coal-burning stoves and postal relay system back in Venice, many readers assumed he was exaggerating.",
+        "es": "Marco Polo pasó casi dos décadas en la corte de Kublai Kan, y cuando describió en Venecia su papel moneda, sus estufas de carbón y su sistema de postas, muchos lectores supusieron que exageraba.",
+        "zh": "马可·波罗在忽必烈的宫廷中生活了近二十年，当他回到威尼斯讲述那里的纸币、烧煤炉具与驿站系统时，许多人都以为他在夸大其词。"
+      },
+      "sources": [
+        {
+          "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
+        }
+      ]
+    },
+    {
+      "id": "postal-relay",
+      "start": 1271,
+      "end": 1368,
+      "text": {
+        "en": "The Yuan ran a relay-station postal network of well over a thousand stops across the empire, letting messengers change horses and cover huge distances in days rather than months.",
+        "es": "Los Yuan mantenían una red postal de postas con más de mil paradas por todo el imperio, lo que permitía a los mensajeros cambiar de caballo y recorrer enormes distancias en días en lugar de meses.",
+        "zh": "元朝在全国设有一千多处驿站，构成庞大的驿传网络，信使可沿途换马，将原本需数月的路程缩短至数日。"
+      },
+      "sources": [
+        {
+          "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
+        }
+      ]
+    }
+  ]
+}

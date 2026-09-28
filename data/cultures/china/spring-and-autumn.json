@@ -1,0 +1,222 @@
+{
+  "id": "spring-and-autumn",
+  "region": "china",
+  "wikidataId": "Q185047",
+  "name": {
+    "en": "Spring and Autumn period",
+    "es": "Periodo de las Primaveras y los Otoños",
+    "zh": "春秋时期"
+  },
+  "nativeName": {
+    "text": "春秋",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Chunqiu",
+    "Chun Qiu",
+    "春秋",
+    "Eastern Zhou (early)"
+  ],
+  "description": {
+    "en": "Named after a terse chronicle of the state of Lu, this is the first three centuries after the Zhou court fled east: nominal Zhou kings kept a religious authority while real power passed to rival regional lords. Warfare between a shifting handful of great states, and the rise of a wandering teacher named Confucius, defined the age.",
+    "es": "Con nombre tomado de una escueta crónica del estado de Lu, son los tres primeros siglos tras la huida de la corte Zhou hacia el este: los reyes Zhou nominales conservaron una autoridad religiosa mientras el poder real pasaba a señores regionales rivales. La guerra entre un puñado cambiante de grandes estados, y el auge de un maestro itinerante llamado Confucio, definieron la época.",
+    "zh": "此名取自鲁国简略的编年史《春秋》，指周室东迁后的最初三个世纪：名义上的周天子仍保有宗教权威，实权却落入互相争斗的地方诸侯手中。少数几个大国之间此消彼长的战争，以及周游列国的教师孔子的兴起，共同定义了这个时代。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -769,
+      "latestStart": -769,
+      "earliestEnd": -480,
+      "latestEnd": -475,
+      "sources": [
+        {
+          "citation": "Berman, Merrick Lex (ed.) (2015). CHGIS: Major Chinese Periods Chronology, \"Spring and Autumn Period\" (770–476 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0fp7wvxnn5"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Spring and Autumn period, 722-481 B.C.\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g35w6b"
+        }
+      ],
+      "periodoId": "p0fp7wvxnn5",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start, 770 BCE, matches the move of the Zhou court east. The end is a matter of convention: the Chunqiu chronicle, traditionally attributed to Confucius, ends in 481 BCE, textbooks often say 476 BCE, and some historians run the period to 403 BCE, when the state of Jin formally split in three.",
+        "es": "El inicio, 770 a. e. c., coincide con el traslado de la corte Zhou al este. El final es cuestión de convención: la crónica Chunqiu, atribuida tradicionalmente a Confucio, termina en 481 a. e. c., los libros de texto suelen decir 476 a. e. c., y algunos historiadores extienden el periodo hasta 403 a. e. c., cuando el estado de Jin se dividió formalmente en tres.",
+        "zh": "起始年份公元前770年与周室东迁相符。结束年份则因惯例而异：相传为孔子所修的《春秋》记事止于公元前481年，教科书常用公元前476年，而部分史家则将此期延至公元前403年，即晋国正式一分为三之时。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "move-to-luoyi",
+      "start": -769,
+      "type": "founding",
+      "title": {
+        "en": "The Zhou court, driven from Haojing, resettles at Luoyi and never again commands its lords directly",
+        "es": "La corte Zhou, expulsada de Haojing, se reasienta en Luoyi y ya nunca vuelve a mandar directamente sobre sus señores",
+        "zh": "被逐出镐京的周室迁居洛邑，此后再未能直接号令诸侯"
+      },
+      "sources": [
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "duke-huan-hegemon",
+      "start": -678,
+      "type": "ruler",
+      "title": {
+        "en": "Duke Huan of Qi is recognised as the first hegemon, leading alliances of states in the Zhou king's name",
+        "es": "El duque Huan de Qi es reconocido como el primer hegemón, liderando alianzas de estados en nombre del rey Zhou",
+        "zh": "齐桓公被公认为首位霸主，以周天子之名号令诸侯会盟"
+      },
+      "sources": [
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "confucius",
+      "start": -550,
+      "end": -478,
+      "type": "invention",
+      "title": {
+        "en": "Confucius teaches a philosophy of ritual, duty and benevolent rule that later dynasties adopt as state orthodoxy",
+        "es": "Confucio enseña una filosofía de ritual, deber y gobierno benevolente que dinastías posteriores adoptarán como ortodoxia de estado",
+        "zh": "孔子传授礼、义与仁政的学说，后世王朝将其奉为官方正统思想"
+      },
+      "sources": [
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "wu-yue-wars",
+      "start": -509,
+      "end": -472,
+      "type": "conflict",
+      "title": {
+        "en": "The southern states of Wu and Yue fight a generation-long war, ending with Yue's conquest of Wu",
+        "es": "Los estados meridionales de Wu y Yue libran una guerra de una generación, que termina con la conquista de Wu por Yue",
+        "zh": "南方的吴、越两国爆发长达一代人的战争，最终以越灭吴告终"
+      },
+      "sources": [
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
+        },
+        {
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
+        }
+      ]
+    },
+    {
+      "id": "iron-tools-spread",
+      "start": -599,
+      "end": -475,
+      "type": "invention",
+      "title": {
+        "en": "Cast-iron tools and ox-drawn ploughs spread across the Yellow and Yangzi valleys, lifting farm output",
+        "es": "Las herramientas de hierro fundido y los arados tirados por bueyes se extienden por los valles del Amarillo y el Yangtsé, elevando la producción agrícola",
+        "zh": "铸铁农具和牛耕在黄河与长江流域推广，提高了农业产量"
+      },
+      "sources": [
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "partition-of-jin",
+      "start": -452,
+      "end": -402,
+      "type": "collapse",
+      "title": {
+        "en": "The great state of Jin fractures into Han, Zhao and Wei, a split the Zhou king formally recognises in 403 BCE",
+        "es": "El gran estado de Jin se fractura en Han, Zhao y Wei, división que el rey Zhou reconoce formalmente en 403 a. e. c.",
+        "zh": "强大的晋国分裂为韩、赵、魏三家，周天子于公元前403年正式承认这一分裂"
+      },
+      "disputed": true,
+      "note": {
+        "en": "Many historians treat this partition as the true start of the Warring States period.",
+        "es": "Muchos historiadores consideran esta partición como el verdadero inicio del periodo de los Reinos Combatientes.",
+        "zh": "许多史家将这次分裂视为战国时代真正的起点。"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.011"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "hundred-schools",
+      "start": -550,
+      "end": -475,
+      "text": {
+        "en": "Wandering teachers, Confucius among them, travelled from court to court offering rival ideas about how a ruler should govern.",
+        "es": "Maestros itinerantes, entre ellos Confucio, viajaban de corte en corte ofreciendo ideas rivales sobre cómo debía gobernar un soberano.",
+        "zh": "以孔子为代表的游士往来于各国宫廷之间，提出各自对为政之道的见解。"
+      },
+      "sources": [
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
+        }
+      ]
+    },
+    {
+      "id": "bronze-swords",
+      "start": -599,
+      "end": -475,
+      "text": {
+        "en": "Southern states such as Wu and Yue cast bronze swords of such quality that one made for King Goujian of Yue, buried for over two thousand years, was dug up in 1965 with its edge still sharp.",
+        "es": "Estados meridionales como Wu y Yue fundían espadas de bronce de tal calidad que una hecha para el rey Goujian de Yue, enterrada durante más de dos mil años, se desenterró en 1965 con el filo aún afilado.",
+        "zh": "吴、越等南方国家铸造的青铜剑品质极高：一把为越王勾践所铸的剑在地下埋藏两千余年，1965年出土时刃口依然锋利。"
+      },
+      "sources": [
+        {
+          "citation": "von Falkenhausen, Lothar (1999). \"The Waning of the Bronze Age: Material Culture and Social Developments, 770–481 B.C..\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 450–544. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.009"
+        },
+        {
+          "citation": "Hubei Provincial Museum, \"Sword of Goujian\" (excavated at Wangshan, Jiangling, 1965).",
+          "url": "https://www.hbww.org.cn/"
+        }
+      ]
+    }
+  ],
+  "phases": []
+}

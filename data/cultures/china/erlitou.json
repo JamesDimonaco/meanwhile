@@ -1,0 +1,193 @@
+{
+  "id": "erlitou",
+  "region": "china",
+  "wikidataId": "Q1051663",
+  "name": {
+    "en": "Erlitou culture",
+    "es": "Cultura de Erlitou",
+    "zh": "二里头文化"
+  },
+  "nativeName": {
+    "text": "二里头",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Erlitou",
+    "二里头",
+    "er li tou",
+    "possible Xia capital"
+  ],
+  "description": {
+    "en": "A Bronze Age settlement in the Yellow River valley that grew into the largest city of its time in East Asia, with a walled palace precinct, planned roads and bronze foundries. Some scholars identify it with the legendary Xia dynasty; others see it as an early, unnamed state that fed directly into the Shang.",
+    "es": "Un asentamiento de la Edad del Bronce en el valle del río Amarillo que se convirtió en la ciudad más grande de su época en el este de Asia, con un recinto palaciego amurallado, calles planificadas y fundiciones de bronce. Algunos estudiosos lo identifican con la legendaria dinastía Xia; otros lo ven como un primer estado sin nombre que dio paso directamente a los Shang.",
+    "zh": "黄河流域的一处青铜时代聚落，发展为当时东亚规模最大的城市，拥有带围墙的宫殿区、规划整齐的道路和青铜铸造作坊。部分学者将其等同于传说中的夏朝，另一些人则认为它是一个尚无确切名称、直接演变为商朝的早期政权。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -1899,
+      "latestStart": -1749,
+      "earliestEnd": -1599,
+      "latestEnd": -1499,
+      "sources": [
+        {
+          "citation": "Liu, Li & Xu, Hong (2007). \"Rethinking Erlitou: legend, history and Chinese archaeology.\" Antiquity 81(314): 886–901.",
+          "url": "https://doi.org/10.1017/S0003598X00095983"
+        },
+        {
+          "citation": "Thorp, Robert L. (2006). China in the Early Bronze Age: Shang Civilization. University of Pennsylvania Press."
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Absolute dates rest on radiocarbon ranges, not written records. Whether Erlitou was the capital of the Xia dynasty named in much later texts, or an unrelated, unnamed early state, is unresolved among archaeologists.",
+        "es": "Las fechas absolutas se basan en dataciones por radiocarbono, no en registros escritos. Si Erlitou fue la capital de la dinastía Xia mencionada en textos mucho más tardíos, o un estado temprano y sin nombre no relacionado con ella, sigue sin resolverse entre los arqueólogos.",
+        "zh": "绝对年代依据放射性碳测年而非文字记录。二里头是否为后世文献中夏朝的都城，还是一个与之无关、尚无名称的早期政权，考古学界尚无定论。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "walled-palace-precinct",
+      "start": -1699,
+      "type": "founding",
+      "title": {
+        "en": "Erlitou grows into a planned city with a walled palace precinct at its centre",
+        "es": "Erlitou se convierte en una ciudad planificada con un recinto palaciego amurallado en su centro",
+        "zh": "二里头发展为规划有序的城市，中心建有带围墙的宫殿区"
+      },
+      "sources": [
+        {
+          "citation": "Liu, Li & Xu, Hong (2007). \"Rethinking Erlitou: legend, history and Chinese archaeology.\" Antiquity 81(314): 886–901.",
+          "url": "https://doi.org/10.1017/S0003598X00095983"
+        },
+        {
+          "citation": "Thorp, Robert L. (2006). China in the Early Bronze Age: Shang Civilization. University of Pennsylvania Press."
+        }
+      ]
+    },
+    {
+      "id": "grid-roads",
+      "start": -1699,
+      "type": "invention",
+      "title": {
+        "en": "Builders lay out a grid of wide roads through the settlement, the earliest known planned road network in China",
+        "es": "Los constructores trazan una cuadrícula de amplias calles en el asentamiento, la red de calles planificada más antigua conocida en China",
+        "zh": "建造者在聚落中规划出宽阔的方格状道路，是中国已知最早的规划道路网"
+      },
+      "sources": [
+        {
+          "citation": "Liu, Li & Xu, Hong (2007). \"Rethinking Erlitou: legend, history and Chinese archaeology.\" Antiquity 81(314): 886–901.",
+          "url": "https://doi.org/10.1017/S0003598X00095983"
+        },
+        {
+          "citation": "Thorp, Robert L. (2006). China in the Early Bronze Age: Shang Civilization. University of Pennsylvania Press."
+        }
+      ]
+    },
+    {
+      "id": "bronze-casting",
+      "start": -1599,
+      "type": "invention",
+      "title": {
+        "en": "Foundries at Erlitou cast China's earliest known bronze ritual vessels using ceramic piece-moulds",
+        "es": "Las fundiciones de Erlitou funden los vasos rituales de bronce más antiguos conocidos de China mediante moldes cerámicos de piezas",
+        "zh": "二里头的作坊用陶范法铸造出中国已知最早的青铜礼器"
+      },
+      "sources": [
+        {
+          "citation": "Bagley, Robert (1999). \"Shang Archaeology.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 124–231. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.005"
+        },
+        {
+          "citation": "Liu, Li & Xu, Hong (2007). \"Rethinking Erlitou: legend, history and Chinese archaeology.\" Antiquity 81(314): 886–901.",
+          "url": "https://doi.org/10.1017/S0003598X00095983"
+        }
+      ]
+    },
+    {
+      "id": "xia-legend",
+      "start": -1899,
+      "type": "ruler",
+      "disputed": true,
+      "title": {
+        "en": "Later texts credit the legendary Xia dynasty founders Yu and Qi with ruling from this region, though no writing found at Erlitou confirms it",
+        "es": "Textos posteriores atribuyen a los legendarios fundadores de la dinastía Xia, Yu y Qi, el gobierno de esta región, aunque ningún escrito hallado en Erlitou lo confirma",
+        "zh": "后世文献称传说中夏朝的创立者禹与启曾统治此地，但二里头出土的遗物中未发现任何文字可以证实这一说法"
+      },
+      "note": {
+        "en": "No writing of any kind has been recovered from Erlitou; the Xia is known only from texts compiled many centuries later.",
+        "es": "En Erlitou no se ha hallado ningún tipo de escritura; la dinastía Xia solo se conoce por textos compilados muchos siglos después.",
+        "zh": "二里头未出土任何文字；夏朝仅见于数百年后编纂的文献。"
+      },
+      "sources": [
+        {
+          "citation": "Li Xueqin (2002). \"The Xia-Shang-Zhou Chronology Project: Methodology and Results.\" Journal of East Asian Archaeology 4: 321–333.",
+          "url": "https://doi.org/10.1163/156852302322454585"
+        },
+        {
+          "citation": "Lee, Yun Kuen (2002). \"Building the Chronology of Early Chinese History.\" Asian Perspectives 41(1): 15–42.",
+          "url": "https://doi.org/10.1353/asi.2002.0006"
+        }
+      ]
+    },
+    {
+      "id": "decline",
+      "start": -1499,
+      "type": "collapse",
+      "title": {
+        "en": "Erlitou's palace centre is abandoned as political power shifts to new walled cities at Yanshi and Zhengzhou",
+        "es": "El centro palaciego de Erlitou es abandonado mientras el poder político se traslada a las nuevas ciudades amuralladas de Yanshi y Zhengzhou",
+        "zh": "随着政治权力转移至偃师、郑州等新建的城垣都邑，二里头的宫殿中心被废弃"
+      },
+      "sources": [
+        {
+          "citation": "Liu, Li & Xu, Hong (2007). \"Rethinking Erlitou: legend, history and Chinese archaeology.\" Antiquity 81(314): 886–901.",
+          "url": "https://doi.org/10.1017/S0003598X00095983"
+        },
+        {
+          "citation": "Thorp, Robert L. (2006). China in the Early Bronze Age: Shang Civilization. University of Pennsylvania Press."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "turquoise-plaques",
+      "start": -1699,
+      "end": -1499,
+      "text": {
+        "en": "Craftworkers set hundreds of tiny turquoise tiles into small bronze plaques shaped like masked faces, some found resting on the chests of the dead.",
+        "es": "Los artesanos incrustaron cientos de diminutas piezas de turquesa en pequeñas placas de bronce con forma de rostros enmascarados, algunas halladas sobre el pecho de los difuntos.",
+        "zh": "工匠将数百片细小的绿松石镶嵌进兽面纹青铜牌饰中，部分出土时正置于逝者的胸口。"
+      },
+      "sources": [
+        {
+          "citation": "Liu, Li & Xu, Hong (2007). \"Rethinking Erlitou: legend, history and Chinese archaeology.\" Antiquity 81(314): 886–901.",
+          "url": "https://doi.org/10.1017/S0003598X00095983"
+        }
+      ]
+    },
+    {
+      "id": "no-writing-found",
+      "start": -1899,
+      "end": -1499,
+      "text": {
+        "en": "No writing has ever been found at Erlitou itself; the site is known only through what was built and buried there, never through its own words.",
+        "es": "En Erlitou nunca se ha encontrado escritura alguna; el sitio solo se conoce por lo que allí se construyó y enterró, nunca por sus propias palabras.",
+        "zh": "二里头遗址至今未发现任何文字；人们只能通过那里的建筑与埋藏之物来认识它，而非它自己留下的文字。"
+      },
+      "sources": [
+        {
+          "citation": "Liu, Li & Xu, Hong (2007). \"Rethinking Erlitou: legend, history and Chinese archaeology.\" Antiquity 81(314): 886–901.",
+          "url": "https://doi.org/10.1017/S0003598X00095983"
+        }
+      ]
+    }
+  ]
+}

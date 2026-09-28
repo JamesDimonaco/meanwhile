@@ -1,0 +1,232 @@
+{
+  "id": "three-kingdoms",
+  "region": "china",
+  "wikidataId": "Q185043",
+  "name": {
+    "en": "Three Kingdoms",
+    "es": "Tres Reinos",
+    "zh": "三国"
+  },
+  "nativeName": {
+    "text": "三国",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Sanguo",
+    "San Guo",
+    "三国",
+    "Wei Shu Wu",
+    "Wei-Shu-Wu"
+  ],
+  "description": {
+    "en": "After the Han empire collapsed into warlordism, three rival states, Wei in the north, Shu-Han in the south-west and Wu in the south, fought for the Mandate of Heaven for six decades. War, famine and flight from the tax rolls left the registered population at a fraction of Han levels before one general's heir reunited the country under a new dynasty, Jin.",
+    "es": "Tras el colapso del imperio Han en el caudillismo, tres estados rivales, Wei en el norte, Shu-Han en el suroeste y Wu en el sur, lucharon durante seis décadas por el Mandato del Cielo. La guerra, el hambre y la huida de los registros fiscales dejaron la población registrada en una fracción de los niveles Han, hasta que el heredero de un general reunificó el país bajo una nueva dinastía, la Jin.",
+    "zh": "汉帝国在军阀混战中瓦解后，北方的魏、西南的蜀汉与南方的吴三国鼎立，争夺天命长达六十年。战乱、饥荒与逃避赋税使登记人口只剩汉代的一小部分，直到一位将领的继承人建立新朝——晋，才重新统一天下。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 220,
+      "latestStart": 222,
+      "earliestEnd": 280,
+      "latestEnd": 280,
+      "sources": [
+        {
+          "citation": "Berman, Merrick Lex (ed.) (2015). CHGIS: Major Chinese Periods Chronology, \"Three Kingdoms Period\" (220–280), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0fp7wv72wc"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Three Kingdoms China\" (221–280), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hw3q5"
+        },
+        {
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The three states did not all declare themselves at once: Wei in 220, Shu-Han in 221, Wu in 222. The period ends when Jin conquers the last of them, Wu, in 280.",
+        "es": "Los tres estados no se proclamaron a la vez: Wei en 220, Shu-Han en 221, Wu en 222. El período termina cuando Jin conquista el último de ellos, Wu, en 280.",
+        "zh": "三国并非同时立国：魏建于220年，蜀汉建于221年，吴建于222年。这一时期在晋于280年灭掉最后一国吴时结束。"
+      },
+      "periodoId": "p0fp7wv72wc"
+    }
+  ],
+  "events": [
+    {
+      "id": "red-cliffs",
+      "start": 208,
+      "type": "conflict",
+      "title": {
+        "en": "Cao Cao's fleet is burned at the Battle of Red Cliffs, blocking his conquest of the south and setting up the three-way split",
+        "es": "La flota de Cao Cao es incendiada en la batalla de los Acantilados Rojos, lo que frena su conquista del sur y prepara la división tripartita",
+        "zh": "赤壁之战中曹操的舰队被焚毁，南征受阻，为三分天下埋下伏笔"
+      },
+      "sources": [
+        {
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
+        },
+        {
+          "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
+        }
+      ]
+    },
+    {
+      "id": "wei-founded",
+      "start": 220,
+      "type": "founding",
+      "title": {
+        "en": "The last Han emperor cedes the throne to Cao Pi, who founds Wei in the north",
+        "es": "El último emperador Han cede el trono a Cao Pi, quien funda Wei en el norte",
+        "zh": "末代汉帝禅位于曹丕，曹丕在北方建立魏国"
+      },
+      "sources": [
+        {
+          "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
+        },
+        {
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
+        }
+      ]
+    },
+    {
+      "id": "shu-han-founded",
+      "start": 221,
+      "type": "founding",
+      "title": {
+        "en": "Liu Bei proclaims Shu-Han in Sichuan, styling himself the legitimate heir to the Han",
+        "es": "Liu Bei proclama Shu-Han en Sichuan, presentándose como el heredero legítimo de los Han",
+        "zh": "刘备在四川称帝，建立蜀汉，自称汉室正统继承人"
+      },
+      "sources": [
+        {
+          "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2009). China between Empires: The Northern and Southern Dynasties. Belknap Press of Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "northern-expeditions",
+      "start": 228,
+      "end": 234,
+      "type": "conflict",
+      "title": {
+        "en": "Shu-Han chancellor Zhuge Liang leads repeated, ultimately unsuccessful campaigns north against Wei",
+        "es": "El canciller de Shu-Han, Zhuge Liang, lidera repetidas campañas hacia el norte contra Wei, sin éxito definitivo",
+        "zh": "蜀汉丞相诸葛亮多次北伐曹魏，终未能取得决定性胜利"
+      },
+      "sources": [
+        {
+          "citation": "Lewis, Mark Edward (2009). China between Empires: The Northern and Southern Dynasties. Belknap Press of Harvard University Press."
+        },
+        {
+          "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
+        }
+      ]
+    },
+    {
+      "id": "wei-conquers-shu",
+      "start": 263,
+      "type": "collapse",
+      "title": {
+        "en": "Wei armies conquer Shu-Han, ending the first of the three kingdoms",
+        "es": "Los ejércitos de Wei conquistan Shu-Han, poniendo fin al primero de los tres reinos",
+        "zh": "魏军攻灭蜀汉，三国中第一个政权覆灭"
+      },
+      "sources": [
+        {
+          "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2009). China between Empires: The Northern and Southern Dynasties. Belknap Press of Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "jin-usurps-wei",
+      "start": 266,
+      "type": "collapse",
+      "title": {
+        "en": "Wei general Sima Yan forces the Wei emperor to abdicate and proclaims the Jin dynasty",
+        "es": "El general de Wei, Sima Yan, obliga a abdicar al emperador de Wei y proclama la dinastía Jin",
+        "zh": "魏国将领司马炎逼迫魏帝禅位，建立晋朝"
+      },
+      "sources": [
+        {
+          "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2009). China between Empires: The Northern and Southern Dynasties. Belknap Press of Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "jin-conquers-wu",
+      "start": 280,
+      "type": "collapse",
+      "title": {
+        "en": "Jin forces conquer Wu, the last of the three kingdoms, reuniting China",
+        "es": "Las fuerzas Jin conquistan Wu, el último de los tres reinos, reunificando China",
+        "zh": "晋军攻灭吴国，三国中最后一国覆灭，中国重归统一"
+      },
+      "sources": [
+        {
+          "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2009). China between Empires: The Northern and Southern Dynasties. Belknap Press of Harvard University Press."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "population-collapse",
+      "start": 220,
+      "end": 280,
+      "text": {
+        "en": "Han census registers had once counted around 50 million people; Three Kingdoms-era registers counted only a few million, a sign of how deeply war, famine and flight from taxation hollowed out the countryside.",
+        "es": "Los censos Han habían llegado a contar unos 50 millones de personas; los registros de la época de los Tres Reinos apenas contaban unos pocos millones, señal de cuánto vaciaron el campo la guerra, el hambre y la huida de los impuestos.",
+        "zh": "汉代户籍曾登记约五千万人口，而三国时期的户籍只剩数百万，反映出战乱、饥荒与逃避赋税使乡野人口大量流失。"
+      },
+      "sources": [
+        {
+          "citation": "de Crespigny, Rafe (2016). Fire over Luoyang: A History of the Later Han Dynasty, 23–220 AD. Brill."
+        },
+        {
+          "citation": "Lewis, Mark Edward (2009). China between Empires: The Northern and Southern Dynasties. Belknap Press of Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "romance-novel",
+      "start": 220,
+      "end": 280,
+      "text": {
+        "en": "This 60-year civil war became the subject of one of China's Four Great Classical Novels, and its characters' names and oaths of brotherhood are still quoted in everyday Chinese speech.",
+        "es": "Esta guerra civil de 60 años se convirtió en el tema de una de las Cuatro Grandes Novelas Clásicas de China, y los nombres de sus personajes y sus juramentos de hermandad todavía se citan en el habla cotidiana china.",
+        "zh": "这场长达六十年的内战成为中国四大古典名著之一的题材，其中人物的名字与结义誓言至今仍常见于日常中文表达。"
+      },
+      "sources": [
+        {
+          "citation": "\"Three Kingdoms.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/event/Three-Kingdoms-ancient-kingdoms-China"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "paracas",
+  "region": "south-america",
+  "wikidataId": "Q1127723",
+  "name": {
+    "en": "Paracas culture",
+    "es": "Cultura Paracas",
+    "zh": "帕拉卡斯文化"
+  },
+  "aliases": [
+    "Paracas"
+  ],
+  "description": {
+    "en": "A society on Peru's southern desert coast known for burying its dead in tightly wrapped bundles, dressed in some of the finest embroidered textiles ever made in the ancient Andes.",
+    "es": "Una sociedad de la costa desértica sur del Perú, conocida por enterrar a sus muertos en fardos ceñidos, vestidos con algunos de los textiles bordados más finos jamás hechos en los Andes antiguos.",
+    "zh": "秘鲁南部沙漠海岸的一个社会，以将死者裹成紧实的裹尸包而闻名，包内死者身着古代安第斯地区最精美的刺绣织物。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "paracas-period",
+      "earliestStart": -799,
+      "latestStart": -799,
+      "earliestEnd": -99,
+      "latestEnd": -99,
+      "sources": [
+        {
+          "citation": "Paul, Anne (1990). Paracas Ritual Attire: Symbols of Authority in Ancient Peru. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Paracas.\"",
+          "url": "https://www.britannica.com/place/Paracas-Peru"
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Burials at the Wari Kayan necropolis continued for a few centuries after Paracas culture proper ended, overlapping the early Nazca style.",
+        "es": "Los entierros en la necrópolis de Wari Kayan continuaron algunos siglos después de que terminara la cultura paracas propiamente dicha, solapándose con el estilo nazca temprano.",
+        "zh": "帕拉卡斯文化本身结束后，瓦里卡扬墓地的埋葬活动又持续了几个世纪，与早期纳斯卡风格有所重叠。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": -799,
+      "type": "founding",
+      "title": {
+        "en": "Communities on the Paracas peninsula begin the shaft-tomb burials known as the Paracas Cavernas",
+        "es": "Las comunidades de la península de Paracas comienzan los entierros en tumbas de pozo conocidos como Paracas Cavernas",
+        "zh": "帕拉卡斯半岛上的社群开始了被称为“帕拉卡斯洞穴”的竖穴墓葬"
+      },
+      "sources": [
+        {
+          "citation": "Paul, Anne (1990). Paracas Ritual Attire. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Paracas.\"",
+          "url": "https://www.britannica.com/place/Paracas-Peru"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "irrigation",
+      "start": -699,
+      "type": "invention",
+      "title": {
+        "en": "Paracas farmers build irrigation canals to work the desert valleys around Ica",
+        "es": "Los agricultores paracas construyen canales de riego para trabajar los valles desérticos alrededor de Ica",
+        "zh": "帕拉卡斯农民修建灌溉渠道，耕作伊卡周边的沙漠河谷"
+      },
+      "sources": [
+        {
+          "citation": "Paul, Anne (1990). Paracas Ritual Attire. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Paracas.\"",
+          "url": "https://www.britannica.com/place/Paracas-Peru"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "necropolis",
+      "start": -299,
+      "type": "invention",
+      "title": {
+        "en": "Wari Kayan becomes a necropolis of hundreds of mummy bundles wrapped in embroidered cloth",
+        "es": "Wari Kayan se convierte en una necrópolis de cientos de fardos funerarios envueltos en tela bordada",
+        "zh": "瓦里卡扬成为一处墓地，安放着数百个包裹在刺绣布料中的木乃伊包"
+      },
+      "sources": [
+        {
+          "citation": "Paul, Anne (1990). Paracas Ritual Attire. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Paracas.\"",
+          "url": "https://www.britannica.com/place/Paracas-Peru"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "trepanation",
+      "start": -499,
+      "type": "invention",
+      "title": {
+        "en": "Paracas surgeons perform cranial trepanation, cutting openings in the skull that some patients survived",
+        "es": "Los cirujanos paracas practican trepanaciones craneales, abriendo el cráneo, cirugía que algunos pacientes sobrevivieron",
+        "zh": "帕拉卡斯的医者施行开颅术，在头骨上开孔，部分病人得以存活"
+      },
+      "sources": [
+        {
+          "citation": "Paul, Anne (1990). Paracas Ritual Attire. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Paracas.\"",
+          "url": "https://www.britannica.com/place/Paracas-Peru"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "decline",
+      "start": -99,
+      "type": "collapse",
+      "title": {
+        "en": "Paracas textile traditions give way to the Topará style and the emerging Nazca culture",
+        "es": "Las tradiciones textiles paracas dan paso al estilo Topará y a la naciente cultura nazca",
+        "zh": "帕拉卡斯的织物传统让位于托帕拉风格及新兴的纳斯卡文化"
+      },
+      "sources": [
+        {
+          "citation": "Paul, Anne (1990). Paracas Ritual Attire. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Paracas.\"",
+          "url": "https://www.britannica.com/place/Paracas-Peru"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "textiles",
+      "start": -299,
+      "end": -99,
+      "text": {
+        "en": "The richest Paracas mummy bundles wrapped a single body in layer upon layer of cloth, sometimes more than a hundred separate textiles.",
+        "es": "Los fardos funerarios paracas más ricos envolvían un solo cuerpo en capa tras capa de tela, a veces más de cien textiles distintos.",
+        "zh": "最豪华的帕拉卡斯木乃伊包用一层又一层的布料裹住一具遗体，有时多达一百余件织物。"
+      },
+      "sources": [
+        {
+          "citation": "Paul, Anne (1990). Paracas Ritual Attire. University of Oklahoma Press."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "id": "caral-supe",
+  "region": "south-america",
+  "wikidataId": "Q153836",
+  "name": {
+    "en": "Caral–Supe civilization",
+    "es": "Civilización Caral-Supe",
+    "zh": "小北文明"
+  },
+  "aliases": [
+    "Norte Chico",
+    "Caral",
+    "Norte Chico civilization"
+  ],
+  "description": {
+    "en": "The oldest known urban civilization in the Americas, built on Peru's arid north-central coast without pottery or a writing system. Its city of Caral raised stepped pyramids while Egypt's Old Kingdom pyramids were newly built.",
+    "es": "La civilización urbana más antigua conocida de América, levantada en la árida costa centro-norte de Perú sin cerámica ni escritura. Su ciudad, Caral, construyó pirámides escalonadas mientras se erigían las pirámides del Reino Antiguo egipcio.",
+    "zh": "美洲已知最古老的城市文明，建立于秘鲁中北部干旱海岸，没有陶器也没有文字。其都城卡拉尔修建了阶梯金字塔，与埃及古王国金字塔的建造时期相近。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "norte-chico-period",
+      "earliestStart": -3499,
+      "latestStart": -2999,
+      "earliestEnd": -1999,
+      "latestEnd": -1799,
+      "sources": [
+        {
+          "citation": "Shady Solís, Ruth (2006). \"America's First City? The Case of Late Archaic Caral.\" In Andean Archaeology III, Isbell & Silverman (eds.), Springer."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Caral.\"",
+          "url": "https://www.britannica.com/place/Caral"
+        },
+        {
+          "citation": "Haas, Jonathan, Creamer, Winifred & Ruiz, Alvaro (2004). \"Dating the Late Archaic occupation of the Norte Chico region in Peru.\" Nature 432: 1020–1023.",
+          "url": "https://doi.org/10.1038/nature03146"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Dates vary by site: the wider Norte Chico region has settlement from about 3500 BCE, while the city of Caral itself is most firmly dated to roughly 2600–2000 BCE.",
+        "es": "Las fechas varían según el sitio: la región de Norte Chico más amplia tiene asentamientos desde cerca de 3500 a. e. c., mientras que la ciudad de Caral se data con más firmeza entre aproximadamente 2600 y 2000 a. e. c.",
+        "zh": "各遗址年代不一：整个小北地区的聚落最早可追溯到约公元前3500年，而卡拉尔城本身的年代则更确定地定在约公元前2600年至前2000年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "aspero-founding",
+      "start": -2999,
+      "type": "founding",
+      "title": {
+        "en": "Áspero, a fishing settlement on the coast near Supe, is among the first Norte Chico sites to be occupied",
+        "es": "Áspero, un asentamiento pesquero en la costa cerca de Supe, está entre los primeros sitios ocupados de Norte Chico",
+        "zh": "位于苏佩附近海岸的渔业聚落阿斯佩罗，是小北地区最早有人定居的遗址之一"
+      },
+      "sources": [
+        {
+          "citation": "Shady Solís, Ruth (2006). \"America's First City?\" Springer."
+        },
+        {
+          "citation": "Haas, Jonathan, Creamer, Winifred & Ruiz, Alvaro (2004). \"Dating the Late Archaic occupation of the Norte Chico region in Peru.\" Nature 432: 1020–1023.",
+          "url": "https://doi.org/10.1038/nature03146"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "caral-founding",
+      "start": -2599,
+      "type": "founding",
+      "title": {
+        "en": "The inland city of Caral is built, with six stepped pyramid platforms around a sunken circular plaza",
+        "es": "Se construye la ciudad de Caral, tierra adentro, con seis plataformas piramidales escalonadas alrededor de una plaza circular hundida",
+        "zh": "内陆城市卡拉尔建成，六座阶梯金字塔平台环绕着一座下沉式圆形广场"
+      },
+      "sources": [
+        {
+          "citation": "Shady Solís, Ruth (2006). \"America's First City?\" Springer."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Caral.\"",
+          "url": "https://www.britannica.com/place/Caral"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "cotton-fish-trade",
+      "start": -2499,
+      "type": "invention",
+      "title": {
+        "en": "Caral trades cotton grown inland for dried fish from the coast, tying farmers and fishers into one economy",
+        "es": "Caral intercambia algodón cultivado tierra adentro por pescado seco de la costa, uniendo a agricultores y pescadores en una sola economía",
+        "zh": "卡拉尔以内陆种植的棉花交换沿海的干鱼，将农民与渔民联结为同一个经济体"
+      },
+      "sources": [
+        {
+          "citation": "Shady Solís, Ruth (2006). \"America's First City?\" Springer."
+        },
+        {
+          "citation": "Mann, Charles C. (2005). 1491: New Revelations of the Americas Before Columbus. Knopf."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "quipu-evidence",
+      "start": -2499,
+      "type": "invention",
+      "title": {
+        "en": "A knotted cord found at Caral is among the oldest known examples of a khipu-like recording device",
+        "es": "Una cuerda anudada hallada en Caral está entre los ejemplos más antiguos conocidos de un dispositivo de registro similar al quipu",
+        "zh": "在卡拉尔发现的一根打结绳索，是已知最早的类奇普记录装置之一"
+      },
+      "sources": [
+        {
+          "citation": "Shady Solís, Ruth (2006). \"America's First City?\" Springer."
+        },
+        {
+          "citation": "Mann, Charles C. (2005). 1491. Knopf."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Whether this cord functioned as a record-keeping device like the later Inca khipu is debated.",
+        "es": "Se debate si esta cuerda funcionaba como dispositivo de registro similar al quipu inca posterior.",
+        "zh": "这根绳索是否像后来印加的奇普一样起记录作用，学界尚有争议。"
+      }
+    },
+    {
+      "id": "decline",
+      "start": -1999,
+      "type": "collapse",
+      "title": {
+        "en": "Caral is abandoned as the Norte Chico settlements decline, likely under drought and earthquake stress",
+        "es": "Caral es abandonada al declinar los asentamientos de Norte Chico, probablemente por sequía y terremotos",
+        "zh": "随着小北地区聚落衰落，卡拉尔被废弃，可能与干旱和地震压力有关"
+      },
+      "sources": [
+        {
+          "citation": "Shady Solís, Ruth (2006). \"America's First City?\" Springer."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Caral.\"",
+          "url": "https://www.britannica.com/place/Caral"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The exact cause of decline is not settled; drought, earthquakes and shifting rivers have all been proposed.",
+        "es": "La causa exacta del declive no está establecida; se han propuesto sequías, terremotos y cambios en los ríos.",
+        "zh": "衰落的确切原因尚无定论；干旱、地震和河流改道都曾被提出作为解释。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "no-pottery",
+      "start": -2599,
+      "end": -1999,
+      "text": {
+        "en": "Caral built pyramids and a sunken amphitheatre without ever making pottery.",
+        "es": "Caral construyó pirámides y un anfiteatro hundido sin llegar nunca a fabricar cerámica.",
+        "zh": "卡拉尔建造了金字塔和下沉式圆形剧场，却始终没有制作过陶器。"
+      },
+      "sources": [
+        {
+          "citation": "Shady Solís, Ruth (2006). \"America's First City?\" Springer."
+        }
+      ]
+    }
+  ]
+}

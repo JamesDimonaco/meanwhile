@@ -1,0 +1,196 @@
+{
+  "id": "zapotec",
+  "region": "mesoamerica",
+  "wikidataId": "Q844750",
+  "name": {
+    "en": "Zapotec civilization",
+    "es": "Civilización zapoteca",
+    "zh": "萨波特克文明"
+  },
+  "aliases": [
+    "Monte Albán",
+    "Be'ena'a"
+  ],
+  "nativeName": {
+    "text": "Be'ena'a",
+    "lang": "zap"
+  },
+  "description": {
+    "en": "Builders of Monte Albán, a mountaintop capital overlooking Oaxaca's three valleys, the Zapotec developed one of Mesoamerica's earliest writing systems and calendars.",
+    "es": "Constructores de Monte Albán, una capital en la cima de una montaña que domina los tres valles de Oaxaca, los zapotecas desarrollaron uno de los primeros sistemas de escritura y calendario de Mesoamérica.",
+    "zh": "萨波特克人建造了蒙特阿尔班——一座俯瞰瓦哈卡三条河谷的山顶都城，并发展出中美洲最早的文字与历法系统之一。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "zapotec-period",
+      "earliestStart": -699,
+      "latestStart": -699,
+      "earliestEnd": 1521,
+      "latestEnd": 1521,
+      "sources": [
+        {
+          "citation": "Marcus, Joyce & Flannery, Kent V. (1996). Zapotec Civilization: How Urban Society Evolved in Mexico's Oaxaca Valley. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Zapotec.\"",
+          "url": "https://www.britannica.com/topic/Zapotec"
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The civilization's political centre and power shifted over nearly two millennia; Monte Albán itself was largely abandoned by around 800 CE, well before the Spanish conquest date given here for the wider culture.",
+        "es": "El centro político y el poder de la civilización cambiaron a lo largo de casi dos milenios; Monte Albán en sí fue abandonada en gran parte hacia 800 e. c., bastante antes de la fecha de la conquista española dada aquí para la cultura en su conjunto.",
+        "zh": "近两千年间，该文明的政治中心与权力几经转移；蒙特阿尔班本身在约公元800年已大部分被废弃，远早于此处为整个文化所标注的西班牙征服年份。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "san-jose-mogote",
+      "start": -699,
+      "type": "founding",
+      "title": {
+        "en": "San José Mogote is the largest settlement of the Oaxaca valley before Monte Albán is built",
+        "es": "San José Mogote es el mayor asentamiento del valle de Oaxaca antes de que se construya Monte Albán",
+        "zh": "在蒙特阿尔班建立之前，圣何塞莫戈特是瓦哈卡河谷最大的聚落"
+      },
+      "sources": [
+        {
+          "citation": "Marcus, Joyce & Flannery, Kent V. (1996). Zapotec Civilization. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Zapotec.\"",
+          "url": "https://www.britannica.com/topic/Zapotec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "monte-alban-founding",
+      "start": -499,
+      "type": "founding",
+      "title": {
+        "en": "Monte Albán is founded on a defensible mountaintop overlooking all three arms of the Oaxaca valley",
+        "es": "Monte Albán es fundada en la cima defendible de una montaña que domina los tres brazos del valle de Oaxaca",
+        "zh": "蒙特阿尔班建于一座易守难攻的山顶，俯瞰瓦哈卡河谷的三条支脉"
+      },
+      "sources": [
+        {
+          "citation": "Marcus, Joyce & Flannery, Kent V. (1996). Zapotec Civilization. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Monte Albán.\"",
+          "url": "https://www.britannica.com/place/Monte-Alban"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "writing-calendar",
+      "start": -399,
+      "type": "invention",
+      "title": {
+        "en": "Zapotec carvers at Monte Albán use one of Mesoamerica's earliest hieroglyphic scripts and calendars",
+        "es": "Los talladores zapotecas de Monte Albán usan uno de los primeros sistemas de escritura y calendario jeroglíficos de Mesoamérica",
+        "zh": "蒙特阿尔班的萨波特克石刻工匠使用了中美洲最早的象形文字与历法系统之一"
+      },
+      "sources": [
+        {
+          "citation": "Marcus, Joyce & Flannery, Kent V. (1996). Zapotec Civilization. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Zapotec.\"",
+          "url": "https://www.britannica.com/topic/Zapotec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "danzantes",
+      "start": -499,
+      "type": "conflict",
+      "title": {
+        "en": "Carved \"Danzantes\" slabs at Monte Albán, showing captives, mark early military conquest",
+        "es": "Las losas talladas de los \"Danzantes\" en Monte Albán, que muestran cautivos, marcan una conquista militar temprana",
+        "zh": "蒙特阿尔班雕刻的“舞者”石板描绘着俘虏形象，标志着早期的军事征服"
+      },
+      "sources": [
+        {
+          "citation": "Marcus, Joyce & Flannery, Kent V. (1996). Zapotec Civilization. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Monte Albán.\"",
+          "url": "https://www.britannica.com/place/Monte-Alban"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Older interpretations read the figures as dancers; most scholars now read them as sacrificed or humiliated captives.",
+        "es": "Interpretaciones antiguas leían las figuras como bailarines; la mayoría de los académicos ahora las leen como cautivos sacrificados o humillados.",
+        "zh": "早期的解读认为这些图像是舞者；如今大多数学者认为它们描绘的是被献祭或受辱的俘虏。"
+      }
+    },
+    {
+      "id": "monte-alban-abandonment",
+      "start": 799,
+      "type": "collapse",
+      "title": {
+        "en": "Monte Albán is largely abandoned as its political power fragments among smaller Oaxaca city-states",
+        "es": "Monte Albán es abandonada en gran parte al fragmentarse su poder político entre ciudades-estado más pequeñas de Oaxaca",
+        "zh": "随着政治权力分散到瓦哈卡地区更小的城邦，蒙特阿尔班大部分被废弃"
+      },
+      "sources": [
+        {
+          "citation": "Marcus, Joyce & Flannery, Kent V. (1996). Zapotec Civilization. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Monte Albán.\"",
+          "url": "https://www.britannica.com/place/Monte-Alban"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "spanish-conquest",
+      "start": 1521,
+      "type": "collapse",
+      "title": {
+        "en": "Zapotec city-states in the Oaxaca valley come under Spanish control following the fall of Tenochtitlan",
+        "es": "Las ciudades-estado zapotecas del valle de Oaxaca quedan bajo control español tras la caída de Tenochtitlan",
+        "zh": "特诺奇蒂特兰陷落后，瓦哈卡河谷的萨波特克城邦落入西班牙人控制"
+      },
+      "sources": [
+        {
+          "citation": "Marcus, Joyce & Flannery, Kent V. (1996). Zapotec Civilization. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Zapotec.\"",
+          "url": "https://www.britannica.com/topic/Zapotec"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "tombs",
+      "start": -499,
+      "end": 799,
+      "text": {
+        "en": "Zapotec nobles were buried in stone tombs beneath their own houses, later reopened and reused for centuries.",
+        "es": "Los nobles zapotecas eran enterrados en tumbas de piedra bajo sus propias casas, reabiertas y reutilizadas durante siglos.",
+        "zh": "萨波特克贵族被安葬在自家住宅下方的石室墓中，这些墓室在此后数百年间被反复开启和使用。"
+      },
+      "sources": [
+        {
+          "citation": "Marcus, Joyce & Flannery, Kent V. (1996). Zapotec Civilization. Thames & Hudson."
+        }
+      ]
+    }
+  ]
+}

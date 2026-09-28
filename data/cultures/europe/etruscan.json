@@ -1,0 +1,235 @@
+{
+  "id": "etruscan",
+  "region": "europe",
+  "wikidataId": "Q17161",
+  "name": {
+    "en": "Etruscan civilization",
+    "es": "Civilización etrusca",
+    "zh": "伊特鲁里亚文明"
+  },
+  "nativeName": {
+    "text": "Rasna",
+    "lang": "ett"
+  },
+  "aliases": [
+    "Etruscans",
+    "Etruria",
+    "Tyrrhenians",
+    "Rasenna"
+  ],
+  "description": {
+    "en": "A confederation of city-states in what is now Tuscany, whose wealth came from metal ore, trade and skilled metalwork. Rome's kings, its alphabet and much of its religious ritual all came from Etruscan neighbours before Rome absorbed Etruria city by city.",
+    "es": "Una confederación de ciudades-estado en lo que hoy es la Toscana, cuya riqueza provenía del mineral metálico, el comercio y una metalurgia refinada. Los reyes de Roma, su alfabeto y buena parte de su ritual religioso procedían de sus vecinos etruscos, antes de que Roma absorbiera Etruria ciudad por ciudad.",
+    "zh": "位于今托斯卡纳一带的城邦联盟，其财富来自金属矿石、贸易与精湛的金属工艺。罗马的国王、字母乃至大部分宗教仪式都源自这些伊特鲁里亚邻邦，此后罗马才逐一吞并伊特鲁里亚的各座城市。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -899,
+      "latestStart": -719,
+      "earliestEnd": -89,
+      "latestEnd": -26,
+      "sources": [
+        {
+          "citation": "Report 1.2, \"Modello dati, applicativo web e servizi erogabili\", period definition \"Etruscan Civilization\" (c. 720-90 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p03dzfbsj3d"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Proto-Etruscan\" (c. 1000 - c. 780 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hj8vd"
+        }
+      ],
+      "periodoId": "p03dzfbsj3d",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Both the origin and the end of Etruscan civilization are argued over. Herodotus said the Etruscans migrated from Lydia in Anatolia; most modern archaeologists instead see continuous local development from the earlier Villanovan culture. The end is dated either to 90-89 BCE, when Etruscan cities gained Roman citizenship after the Social War, or to 27 BCE, when Augustus folded Etruria fully into the Roman state.",
+        "es": "Tanto el origen como el final de la civilización etrusca son objeto de debate. Heródoto sostuvo que los etruscos emigraron desde Lidia, en Anatolia; la mayoría de los arqueólogos actuales ven en cambio un desarrollo local continuo a partir de la anterior cultura villanoviana. El final se fecha bien en el 90-89 a. e. c., cuando las ciudades etruscas obtuvieron la ciudadanía romana tras la Guerra Social, bien en el 27 a. e. c., cuando Augusto integró por completo Etruria en el Estado romano.",
+        "zh": "伊特鲁里亚文明的起源与终结均存在争议。希罗多德称伊特鲁里亚人是从安纳托利亚的吕底亚迁来；但现代考古学家大多认为这是当地维兰诺瓦文化的连续发展。其终结或定在公元前90–89年（同盟战争后伊特鲁里亚各城获罗马公民权），或定在公元前27年（奥古斯都将伊特鲁里亚彻底并入罗马国家）。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "villanovan-roots",
+      "start": -899,
+      "type": "founding",
+      "title": {
+        "en": "Villanovan Iron Age communities in Tuscany begin cremating their dead in distinctive biconical urns",
+        "es": "Las comunidades villanovianas de la Edad del Hierro en la Toscana empiezan a incinerar a sus muertos en urnas bicónicas características",
+        "zh": "托斯卡纳地区的维兰诺瓦铁器时代社群开始以独特的双锥形骨灰瓮火葬死者"
+      },
+      "sources": [
+        {
+          "citation": "Barker, G. & Rasmussen, T. (1998). The Etruscans. Blackwell."
+        },
+        {
+          "citation": "Turfa, J.M. (ed.) (2013). The Etruscan World. Routledge."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "city-states-emerge",
+      "start": -719,
+      "end": -649,
+      "type": "founding",
+      "title": {
+        "en": "Twelve major Etruscan cities, including Veii, Tarquinia and Cerveteri, emerge as wealthy, walled centres",
+        "es": "Doce grandes ciudades etruscas, entre ellas Veyes, Tarquinia y Cerveteri, surgen como ricos centros amurallados",
+        "zh": "包括维伊、塔尔奎尼亚和切尔韦泰里在内的十二座主要伊特鲁里亚城市，作为富庶的设防中心相继兴起"
+      },
+      "sources": [
+        {
+          "citation": "Barker, G. & Rasmussen, T. (1998). The Etruscans. Blackwell."
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Etruscan Art.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/etru/hd_etru.htm"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "etruscan-alphabet",
+      "start": -699,
+      "type": "invention",
+      "title": {
+        "en": "Etruscans adapt the Greek alphabet, then pass a version of it on to Rome",
+        "es": "Los etruscos adaptan el alfabeto griego y transmiten después una versión de este a Roma",
+        "zh": "伊特鲁里亚人改造希腊字母，随后将其一种变体传给了罗马"
+      },
+      "sources": [
+        {
+          "citation": "Bonfante, G. & Bonfante, L. (2002). The Etruscan Language: An Introduction. Manchester University Press."
+        },
+        {
+          "citation": "Turfa, J.M. (ed.) (2013). The Etruscan World. Routledge."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "etruscan-kings-of-rome",
+      "start": -615,
+      "end": -508,
+      "type": "ruler",
+      "title": {
+        "en": "Etruscan kings, including Tarquinius Priscus and Tarquinius Superbus, rule Rome before its founding as a republic",
+        "es": "Reyes etruscos, entre ellos Tarquinio Prisco y Tarquinio el Soberbio, gobiernan Roma antes de su fundación como república",
+        "zh": "包括老塔克文和“傲王”塔克文在内的伊特鲁里亚国王统治着罗马，随后罗马才建立共和国"
+      },
+      "sources": [
+        {
+          "citation": "Cornell, T.J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars. Routledge."
+        },
+        {
+          "citation": "Turfa, J.M. (ed.) (2013). The Etruscan World. Routledge."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Roman king-list and its dates come from later Roman historians writing centuries afterward, so names and reign lengths are not independently confirmed.",
+        "es": "La lista de reyes romanos y sus fechas proceden de historiadores romanos posteriores, que escribieron siglos después, por lo que los nombres y la duración de los reinados no están confirmados de forma independiente.",
+        "zh": "罗马王表及其年代出自数百年后的罗马史家之手，因此具体人名与在位年限均缺乏独立史料印证。"
+      }
+    },
+    {
+      "id": "veii-falls",
+      "start": -395,
+      "type": "conflict",
+      "title": {
+        "en": "Rome captures Veii after a long siege, its first major conquest of an Etruscan city",
+        "es": "Roma toma Veyes tras un largo asedio, su primera gran conquista de una ciudad etrusca",
+        "zh": "罗马经长期围攻攻陷维伊，这是罗马对伊特鲁里亚城市的首次重大征服"
+      },
+      "sources": [
+        {
+          "citation": "Cornell, T.J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars. Routledge."
+        },
+        {
+          "citation": "Livy. Ab Urbe Condita, Book 5."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "social-war-citizenship",
+      "start": -89,
+      "end": -88,
+      "type": "conflict",
+      "title": {
+        "en": "After the Social War, Etruscan cities are granted Roman citizenship, ending their formal political independence",
+        "es": "Tras la Guerra Social, las ciudades etruscas reciben la ciudadanía romana, poniendo fin a su independencia política formal",
+        "zh": "同盟战争之后，伊特鲁里亚各城获得罗马公民权，其正式的政治独立随之终结"
+      },
+      "sources": [
+        {
+          "citation": "Barker, G. & Rasmussen, T. (1998). The Etruscans. Blackwell."
+        },
+        {
+          "citation": "Keaveney, A. (1987). Rome and the Unification of Italy. Croom Helm."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "language-fades",
+      "start": -88,
+      "end": 200,
+      "type": "collapse",
+      "title": {
+        "en": "The Etruscan language falls out of everyday use, surviving only in religious ritual by the early Roman Empire",
+        "es": "La lengua etrusca deja de usarse en la vida cotidiana y sobrevive solo en el ritual religioso durante los primeros tiempos del Imperio romano",
+        "zh": "伊特鲁里亚语逐渐退出日常使用，到罗马帝国初期只在宗教仪式中留存"
+      },
+      "sources": [
+        {
+          "citation": "Bonfante, G. & Bonfante, L. (2002). The Etruscan Language: An Introduction. Manchester University Press."
+        },
+        {
+          "citation": "Suetonius. The Twelve Caesars, \"Claudius\" 42 (Claudius wrote a history of the Etruscans)."
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "liver-model",
+      "start": -299,
+      "end": -99,
+      "text": {
+        "en": "Etruscan priests read the future in the shape of a sacrificed sheep's liver, using a bronze model, the Liver of Piacenza, marked out like a map of the heavens.",
+        "es": "Los sacerdotes etruscos leían el futuro en la forma del hígado de una oveja sacrificada, con ayuda de un modelo de bronce, el Hígado de Placencia, dividido como un mapa del cielo.",
+        "zh": "伊特鲁里亚祭司通过献祭绵羊的肝脏形状来占卜未来，并借助一件如天空地图般刻划分区的青铜模型——皮亚琴察肝脏来解读。"
+      },
+      "sources": [
+        {
+          "citation": "Turfa, J.M. (2012). Divining the Etruscan World: The Brontoscopic Calendar and Religious Practice. Cambridge University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "women-at-banquet",
+      "start": -599,
+      "end": -399,
+      "text": {
+        "en": "Tomb paintings show Etruscan women reclining beside men at banquets, a mixed-sex scene that scandalised Greek visitors used to keeping women separate.",
+        "es": "Las pinturas funerarias muestran a mujeres etruscas reclinadas junto a los hombres en los banquetes, una escena mixta que escandalizaba a los visitantes griegos, acostumbrados a mantener a las mujeres aparte.",
+        "zh": "墓室壁画描绘伊特鲁里亚女性与男子一同斜倚宴饮，这种男女同席的场景让惯于将女性隔离的希腊访客大为震惊。"
+      },
+      "sources": [
+        {
+          "citation": "Bonfante, L. (ed.) (1986). Etruscan Life and Afterlife: A Handbook of Etruscan Studies. Wayne State University Press."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

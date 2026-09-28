@@ -1,0 +1,178 @@
+{
+  "id": "muisca",
+  "region": "south-america",
+  "wikidataId": "Q828578",
+  "name": {
+    "en": "Muisca",
+    "es": "Muiscas",
+    "zh": "穆伊斯卡文化"
+  },
+  "aliases": [
+    "Chibcha"
+  ],
+  "nativeName": {
+    "text": "Muysca",
+    "lang": "chb"
+  },
+  "description": {
+    "en": "Farming chiefdoms of the high plains around modern Bogotá, whose gold-working and a ceremonial raft offering gave rise to the legend of El Dorado.",
+    "es": "Cacicazgos agrícolas del altiplano alrededor de la actual Bogotá, cuya orfebrería en oro y una ofrenda ritual en balsa dieron origen a la leyenda de El Dorado.",
+    "zh": "位于今波哥大周边高原上的农耕酋邦，其黄金工艺与一次仪式性木筏献祭，催生了“黄金国”（埃尔多拉多）的传说。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "muisca-period",
+      "earliestStart": 599,
+      "latestStart": 599,
+      "earliestEnd": 1537,
+      "latestEnd": 1599,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Muisca\" (AD 600 – AD 1600), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hzq74"
+        },
+        {
+          "citation": "Broadbent, Sylvia M. (1964). Los Chibchas: Organización sociopolítica. Universidad Nacional de Colombia."
+        }
+      ],
+      "periodoId": "p08m57hzq74",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The Muisca were a set of chiefdoms without a single founding date; the end date marks Spanish conquest in 1537, not the disappearance of the people, whose descendants remain in Colombia today.",
+        "es": "Los muiscas eran un conjunto de cacicazgos sin una fecha fundacional única; la fecha final marca la conquista española en 1537, no la desaparición del pueblo, cuyos descendientes siguen en Colombia hoy.",
+        "zh": "穆伊斯卡人是一系列酋邦的集合，并无单一的建立年份；结束年份标志着1537年西班牙的征服，而非该民族的消亡——其后裔至今仍生活在哥伦比亚。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "chiefdoms-form",
+      "start": 599,
+      "type": "founding",
+      "title": {
+        "en": "Farming chiefdoms take shape on the Bogotá altiplano, led by the zipa, zaque and iraca lords",
+        "es": "Se forman cacicazgos agrícolas en el altiplano de Bogotá, liderados por los señores zipa, zaque e iraca",
+        "zh": "波哥大高原上形成了农耕酋邦，由西帕、萨克和伊拉卡等首领统治"
+      },
+      "sources": [
+        {
+          "citation": "Broadbent, Sylvia M. (1964). Los Chibchas. Universidad Nacional de Colombia."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Muisca.\"",
+          "url": "https://www.britannica.com/topic/Muisca"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "salt-mining",
+      "start": 899,
+      "type": "invention",
+      "title": {
+        "en": "Muisca communities mine and trade salt from Zipaquirá, a valuable resource across the northern Andes",
+        "es": "Las comunidades muiscas extraen y comercian sal de Zipaquirá, un recurso valioso en el norte de los Andes",
+        "zh": "穆伊斯卡社群在锡帕基拉开采并交易食盐，这在安第斯北部是一种珍贵资源"
+      },
+      "sources": [
+        {
+          "citation": "Broadbent, Sylvia M. (1964). Los Chibchas. Universidad Nacional de Colombia."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Muisca.\"",
+          "url": "https://www.britannica.com/topic/Muisca"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "el-dorado-rite",
+      "start": 1200,
+      "type": "invention",
+      "title": {
+        "en": "At Lake Guatavita, a new zipa is anointed in gold dust and offerings are cast into the water, the origin of the El Dorado legend",
+        "es": "En la laguna de Guatavita, un nuevo zipa es ungido con polvo de oro y se arrojan ofrendas al agua, origen de la leyenda de El Dorado",
+        "zh": "在瓜塔维塔湖，新任西帕全身涂满金粉，随后将供品投入湖中，这正是“黄金国”传说的由来"
+      },
+      "sources": [
+        {
+          "citation": "Broadbent, Sylvia M. (1964). Los Chibchas. Universidad Nacional de Colombia."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"El Dorado.\"",
+          "url": "https://www.britannica.com/place/El-Dorado-legendary-place"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The ceremony cannot be dated; Spanish chroniclers described it after the conquest as an old custom, and the Muisca had no script of their own to record it.",
+        "es": "La ceremonia no puede fecharse; los cronistas españoles la describieron tras la conquista como una costumbre antigua, y los muiscas no tenían escritura propia para registrarla.",
+        "zh": "这一仪式无法确定年代；西班牙编年史作者在征服之后将其描述为一项古老习俗，而穆伊斯卡人没有自己的文字来记录它。"
+      },
+      "end": 1537
+    },
+    {
+      "id": "zipa-zaque-rivalry",
+      "start": 1450,
+      "type": "conflict",
+      "title": {
+        "en": "The zipa of Bacatá and the zaque of Hunza fight for supremacy over the Muisca confederation",
+        "es": "El zipa de Bacatá y el zaque de Hunza luchan por la supremacía sobre la confederación muisca",
+        "zh": "巴卡塔的西帕与洪萨的萨克为争夺穆伊斯卡联盟的主导权而交战"
+      },
+      "sources": [
+        {
+          "citation": "Broadbent, Sylvia M. (1964). Los Chibchas. Universidad Nacional de Colombia."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Muisca.\"",
+          "url": "https://www.britannica.com/topic/Muisca"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "spanish-conquest",
+      "start": 1537,
+      "type": "collapse",
+      "title": {
+        "en": "Gonzalo Jiménez de Quesada leads Spanish forces into Muisca territory, beginning the conquest of the New Kingdom of Granada",
+        "es": "Gonzalo Jiménez de Quesada dirige a las fuerzas españolas hacia el territorio muisca, iniciando la conquista del Nuevo Reino de Granada",
+        "zh": "贡萨洛·希门内斯·德克萨达率领西班牙军队进入穆伊斯卡领地，开启了对新格拉纳达王国的征服"
+      },
+      "sources": [
+        {
+          "citation": "Broadbent, Sylvia M. (1964). Los Chibchas. Universidad Nacional de Colombia."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Muisca.\"",
+          "url": "https://www.britannica.com/topic/Muisca"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "muisca-raft",
+      "start": 1200,
+      "end": 1537,
+      "text": {
+        "en": "A small gold raft found near Bogotá, showing figures around a chief, is thought to depict the Guatavita gold-dust ceremony.",
+        "es": "Una pequeña balsa de oro hallada cerca de Bogotá, con figuras alrededor de un cacique, se cree que representa la ceremonia del polvo de oro de Guatavita.",
+        "zh": "在波哥大附近发现的一件小型黄金木筏，上面刻有环绕首领的人像，据信描绘的正是瓜塔维塔的金粉仪式。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"El Dorado.\"",
+          "url": "https://www.britannica.com/place/El-Dorado-legendary-place"
+        }
+      ]
+    }
+  ]
+}

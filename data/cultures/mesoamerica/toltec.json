@@ -1,0 +1,183 @@
+{
+  "id": "toltec",
+  "region": "mesoamerica",
+  "wikidataId": "Q187897",
+  "name": {
+    "en": "Toltec civilization",
+    "es": "Civilización tolteca",
+    "zh": "托尔特克文明"
+  },
+  "aliases": [
+    "Tolteca",
+    "Tula"
+  ],
+  "description": {
+    "en": "Rulers of Tula in central Mexico, whom the later Aztecs revered as the source of civilised arts and crafts, even as historians now separate Toltec legend from Toltec archaeology.",
+    "es": "Gobernantes de Tula, en el centro de México, a quienes los posteriores aztecas veneraban como la fuente de las artes y oficios civilizados, aunque los historiadores hoy separan la leyenda tolteca de la arqueología tolteca.",
+    "zh": "墨西哥中部图拉的统治者，后来的阿兹特克人将其奉为文明技艺的源头，尽管如今历史学家已将托尔特克的传说与考古学发现区分开来。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "toltec-period",
+      "earliestStart": 649,
+      "latestStart": 949,
+      "earliestEnd": 1149,
+      "latestEnd": 1149,
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (1983). Tula: The Toltec Capital of Ancient Mexico. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Toltec.\"",
+          "url": "https://www.britannica.com/topic/Toltec"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Tula's earliest settlements date to around 650 CE, but the Toltec state proper is usually dated from about 950 CE, when it reached prominence.",
+        "es": "Los primeros asentamientos de Tula datan de hacia 650 e. c., pero el estado tolteca propiamente dicho se suele datar desde cerca de 950 e. c., cuando alcanzó su apogeo.",
+        "zh": "图拉最早的聚落可追溯至约公元650年，但托尔特克国家本身通常被认为始于约公元950年，即其兴盛之时。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "tula-settlement",
+      "start": 649,
+      "type": "founding",
+      "title": {
+        "en": "Settlers linked to Teotihuacan's decline build early towns in the Tula region",
+        "es": "Colonos vinculados al declive de Teotihuacán construyen los primeros poblados en la región de Tula",
+        "zh": "与特奥蒂瓦坎衰落相关的移民在图拉地区建立了早期城镇"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (1983). Tula. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Toltec.\"",
+          "url": "https://www.britannica.com/topic/Toltec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "tula-rise",
+      "start": 949,
+      "type": "ruler",
+      "title": {
+        "en": "Tula grows into the Toltec capital, reaching prominence under rulers later remembered as Topiltzin Quetzalcóatl",
+        "es": "Tula crece hasta convertirse en la capital tolteca, alcanzando prominencia bajo gobernantes recordados después como Topiltzin Quetzalcóatl",
+        "zh": "图拉发展为托尔特克的都城，在后来被追忆为托皮尔钦·奎察尔科亚特尔的统治者治下达到鼎盛"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (1983). Tula. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Toltec.\"",
+          "url": "https://www.britannica.com/topic/Toltec"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Aztec accounts of the ruler Topiltzin Quetzalcóatl mix history with legend; his historicity is debated.",
+        "es": "Los relatos aztecas del gobernante Topiltzin Quetzalcóatl mezclan historia con leyenda; su historicidad se debate.",
+        "zh": "阿兹特克人关于统治者托皮尔钦·奎察尔科亚特尔的记载将历史与传说混为一谈；其真实性尚有争议。"
+      }
+    },
+    {
+      "id": "atlantes",
+      "start": 999,
+      "type": "invention",
+      "title": {
+        "en": "Toltec sculptors carve the great basalt Atlantean warrior columns atop Tula's main pyramid",
+        "es": "Los escultores toltecas tallan las grandes columnas atlantes de basalto en lo alto de la pirámide principal de Tula",
+        "zh": "托尔特克雕刻家在图拉主金字塔顶端雕刻出巨大的玄武岩武士柱（阿特兰特石柱）"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (1983). Tula. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Toltec.\"",
+          "url": "https://www.britannica.com/topic/Toltec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "chichen-itza-link",
+      "start": 999,
+      "type": "invention",
+      "title": {
+        "en": "Architecture and imagery at Tula and at the Maya city of Chichén Itzá closely echo one another",
+        "es": "La arquitectura y la iconografía de Tula y de la ciudad maya de Chichén Itzá se hacen eco mutuamente",
+        "zh": "图拉与玛雅城市奇琴伊察的建筑与图像风格彼此高度相似"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (1983). Tula. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chichén Itzá.\"",
+          "url": "https://www.britannica.com/place/Chichen-Itza"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Scholars disagree on the direction of influence between the two sites, or whether both drew on a shared third source.",
+        "es": "Los académicos discrepan sobre la dirección de la influencia entre ambos sitios, o si ambos se basaron en una tercera fuente compartida.",
+        "zh": "学者们对这两座城市之间影响的方向意见不一，也有人认为二者可能同时借鉴了某个共同的第三方来源。"
+      }
+    },
+    {
+      "id": "tula-fall",
+      "start": 1149,
+      "type": "collapse",
+      "title": {
+        "en": "Tula is burned and abandoned amid internal conflict and pressure from northern migrants",
+        "es": "Tula es incendiada y abandonada en medio de conflictos internos y presión de migrantes del norte",
+        "zh": "在内部冲突与来自北方移民的压力下，图拉被焚毁并遭废弃"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (1983). Tula. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Toltec.\"",
+          "url": "https://www.britannica.com/topic/Toltec"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The exact sequence of Tula's fall is known mainly from later, partly legendary Aztec accounts.",
+        "es": "La secuencia exacta de la caída de Tula se conoce principalmente por relatos aztecas posteriores, en parte legendarios.",
+        "zh": "图拉衰亡的具体经过主要来自后来带有传说色彩的阿兹特克记载。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "aztec-reverence",
+      "start": 949,
+      "end": 1149,
+      "text": {
+        "en": "Centuries later, the Aztecs called any especially fine craftsman a \"toltecatl\", using the name as a byword for skill.",
+        "es": "Siglos después, los aztecas llamaban \"toltecatl\" a cualquier artesano especialmente hábil, usando el nombre como sinónimo de destreza.",
+        "zh": "数百年后，阿兹特克人将任何技艺特别精湛的工匠称为“托尔特卡特尔”，以此作为技艺高超的代名词。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Toltec.\"",
+          "url": "https://www.britannica.com/topic/Toltec"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "id": "nazca",
+  "region": "south-america",
+  "wikidataId": "Q210570",
+  "name": {
+    "en": "Nazca culture",
+    "es": "Cultura Nazca",
+    "zh": "纳斯卡文化"
+  },
+  "aliases": [
+    "Nasca"
+  ],
+  "description": {
+    "en": "Heirs to the Paracas textile tradition, the Nazca carved hundreds of huge lines and figures into Peru's coastal desert and dug underground aqueducts that still carry water today.",
+    "es": "Herederos de la tradición textil paracas, los nazca trazaron cientos de enormes líneas y figuras en el desierto costero del Perú y excavaron acueductos subterráneos que todavía llevan agua hoy.",
+    "zh": "作为帕拉卡斯织物传统的继承者，纳斯卡人在秘鲁沿海沙漠中刻画出数百条巨型线条与图案，并开凿了至今仍在输水的地下水渠。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "nazca-period",
+      "earliestStart": -99,
+      "latestStart": -99,
+      "earliestEnd": 599,
+      "latestEnd": 749,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Nasca\" (100 BC – AD 600), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hjvht"
+        },
+        {
+          "citation": "Silverman, Helaine & Proulx, Donald A. (2002). The Nasca. Blackwell."
+        }
+      ],
+      "periodoId": "p08m57hjvht",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Museum classification runs Nazca to about 600 CE; archaeologists trace the culture's final decline to about 750 CE.",
+        "es": "La clasificación museística sitúa a Nazca hasta cerca de 600 e. c.; los arqueólogos ubican el declive final de la cultura hacia 750 e. c.",
+        "zh": "博物馆分类将纳斯卡文化定至约公元600年；考古学家则将该文化的最终衰落定在约公元750年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": -99,
+      "type": "founding",
+      "title": {
+        "en": "The Proto-Nazca phase begins on the Rio Grande de Nazca drainage, developing out of Paracas traditions",
+        "es": "Comienza la fase proto-nazca en la cuenca del Río Grande de Nazca, a partir de tradiciones paracas",
+        "zh": "原纳斯卡阶段在纳斯卡河谷开始，脱胎于帕拉卡斯的传统"
+      },
+      "sources": [
+        {
+          "citation": "Silverman, Helaine & Proulx, Donald A. (2002). The Nasca. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Nazca.\"",
+          "url": "https://www.britannica.com/topic/Nazca-people"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "cahuachi",
+      "start": 1,
+      "type": "founding",
+      "title": {
+        "en": "Cahuachi rises as a ceremonial centre of earthwork mounds and plazas, without permanent large-scale residence",
+        "es": "Cahuachi surge como centro ceremonial de montículos de tierra y plazas, sin residencia permanente a gran escala",
+        "zh": "卡瓦奇兴起为一处由土丘和广场组成的礼仪中心，并非长期大规模居住地"
+      },
+      "sources": [
+        {
+          "citation": "Silverman, Helaine & Proulx, Donald A. (2002). The Nasca. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Nazca.\"",
+          "url": "https://www.britannica.com/topic/Nazca-people"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "nazca-lines",
+      "start": 1,
+      "end": 649,
+      "type": "invention",
+      "title": {
+        "en": "The Nazca scrape hundreds of lines and animal figures into the desert plain, purpose still debated",
+        "es": "Los nazca trazan cientos de líneas y figuras de animales en la llanura desértica, cuyo propósito aún se debate",
+        "zh": "纳斯卡人在沙漠平原上刻画出数百条线条和动物图案，其用途至今仍有争议"
+      },
+      "sources": [
+        {
+          "citation": "Silverman, Helaine & Proulx, Donald A. (2002). The Nasca. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Nazca Lines.\"",
+          "url": "https://www.britannica.com/topic/Nazca-Lines"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Proposed purposes range from astronomical calendars to ritual paths for water and fertility rites; no single explanation is agreed.",
+        "es": "Las hipótesis van desde calendarios astronómicos hasta caminos rituales para ceremonias del agua y la fertilidad; no hay una explicación única aceptada.",
+        "zh": "关于其用途的推测从天文历法到水与丰饶仪式的祭祀路径不等，尚无统一定论。"
+      }
+    },
+    {
+      "id": "puquios",
+      "start": 499,
+      "type": "invention",
+      "title": {
+        "en": "Nazca engineers dig puquios, spiral underground aqueducts that still supply water in dry seasons",
+        "es": "Los ingenieros nazca excavan puquios, acueductos subterráneos en espiral que aún abastecen de agua en las estaciones secas",
+        "zh": "纳斯卡工程师开凿普基奥斯——螺旋状地下水渠，至今仍在旱季供水"
+      },
+      "sources": [
+        {
+          "citation": "Silverman, Helaine & Proulx, Donald A. (2002). The Nasca. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Nazca.\"",
+          "url": "https://www.britannica.com/topic/Nazca-people"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The puquios cannot be dated directly; most archaeologists place their construction around 500–600 CE, though earlier dates have been argued.",
+        "es": "Los puquios no pueden fecharse directamente; la mayoría de los arqueólogos sitúan su construcción hacia 500–600 e. c., aunque se han defendido fechas anteriores.",
+        "zh": "普基奥斯无法直接测年；多数考古学家将其建造定在约公元500—600年，但也有人主张更早的年代。"
+      }
+    },
+    {
+      "id": "decline",
+      "start": 499,
+      "end": 749,
+      "type": "collapse",
+      "title": {
+        "en": "Nazca society declines after El Niño flooding, worsened by the clearing of huarango trees for farmland",
+        "es": "La sociedad nazca declina tras inundaciones provocadas por El Niño, agravadas por la tala de huarangos para tierras de cultivo",
+        "zh": "纳斯卡社会在厄尔尼诺洪水冲击下衰落，因清除瓦兰戈树开垦农田而加剧"
+      },
+      "sources": [
+        {
+          "citation": "Silverman, Helaine & Proulx, Donald A. (2002). The Nasca. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Nazca.\"",
+          "url": "https://www.britannica.com/topic/Nazca-people"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "hummingbird",
+      "start": 1,
+      "end": 649,
+      "text": {
+        "en": "One Nazca line forms a hummingbird nearly 100 metres long, visible only from the air.",
+        "es": "Una de las líneas nazca forma un colibrí de casi 100 metros de largo, visible solo desde el aire.",
+        "zh": "其中一条纳斯卡线勾勒出一只近100米长的蜂鸟图案，只有从空中才能看清全貌。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Nazca Lines.\"",
+          "url": "https://www.britannica.com/topic/Nazca-Lines"
+        }
+      ]
+    }
+  ]
+}

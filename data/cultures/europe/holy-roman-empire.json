@@ -1,0 +1,228 @@
+{
+  "id": "holy-roman-empire",
+  "region": "europe",
+  "wikidataId": "Q12548",
+  "name": {
+    "en": "Holy Roman Empire",
+    "es": "Sacro Imperio Romano Germánico",
+    "zh": "神圣罗马帝国"
+  },
+  "nativeName": {
+    "text": "Heiliges Römisches Reich",
+    "lang": "de"
+  },
+  "aliases": [
+    "Sacrum Romanum Imperium",
+    "First Reich",
+    "Holy Roman Empire of the German Nation"
+  ],
+  "description": {
+    "en": "A loose federation of hundreds of kingdoms, duchies, prince-bishoprics and free cities in Central Europe, held together by an elected emperor and the memory of Rome rather than a central government. Voltaire's joke that it was \"neither holy, nor Roman, nor an empire\" captured how little real power its emperors usually held over their own princes.",
+    "es": "Una laxa federación de cientos de reinos, ducados, principados eclesiásticos y ciudades libres en Europa Central, mantenida unida por un emperador electo y el recuerdo de Roma más que por un gobierno central. La broma de Voltaire de que no era \"ni sacro, ni romano, ni imperio\" reflejaba lo poco poder real que sus emperadores solían tener sobre sus propios príncipes.",
+    "zh": "由中欧数以百计的王国、公国、采邑主教区和自由城市组成的松散联邦，维系其统一的是一位选举产生的皇帝以及对罗马的记忆，而非一个中央政府。伏尔泰那句“既非神圣，也非罗马，更非帝国”的戏言，恰恰道出了皇帝对治下诸侯往往缺乏真正实权的现实。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 800,
+      "latestStart": 962,
+      "earliestEnd": 1806,
+      "latestEnd": 1806,
+      "sources": [
+        {
+          "citation": "Wikidata, \"Holy Roman Empire\" (Q12548): \"multi-ethnic complex of territories in Western and Central Europe (800/962-1806)\"."
+        },
+        {
+          "citation": "Wilson, P.H. (2016). Heart of Europe: A History of the Holy Roman Empire. Harvard University Press."
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Historians disagree whether the empire began with Charlemagne's coronation in 800 or with Otto I's coronation in 962, which is when the imperial title became continuously attached to the German kingdom. The end, Francis II's abdication on 6 August 1806 under pressure from Napoleon, is not disputed.",
+        "es": "Los historiadores discrepan sobre si el imperio comenzó con la coronación de Carlomagno en el 800 o con la de Otón I en el 962, momento en que el título imperial quedó ligado de forma continua al reino germánico. El final, la abdicación de Francisco II el 6 de agosto de 1806 bajo la presión de Napoleón, no se discute.",
+        "zh": "史学界对帝国的起点存在分歧：或以查理曼800年加冕为起点，或以奥托一世962年加冕为起点——正是从后者开始，皇帝头衔才与德意志王国持续挂钩。而帝国的终点，即弗朗茨二世在拿破仑压力下于1806年8月6日退位，则并无争议。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "otto-crowned",
+      "start": 962,
+      "type": "founding",
+      "title": {
+        "en": "Pope John XII crowns Otto I emperor in Rome, beginning the line of emperors historians usually call the Holy Roman Empire",
+        "es": "El papa Juan XII corona a Otón I emperador en Roma, dando inicio a la línea de emperadores que los historiadores suelen llamar el Sacro Imperio Romano Germánico",
+        "zh": "教皇约翰十二世在罗马为奥托一世加冕为皇帝，开启了史学界通常称为神圣罗马帝国的皇帝世系"
+      },
+      "sources": [
+        {
+          "citation": "Wilson, P.H. (2016). Heart of Europe: A History of the Holy Roman Empire. Harvard University Press."
+        },
+        {
+          "citation": "Reuter, T. (1991). Germany in the Early Middle Ages c. 800-1056. Longman."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "investiture-controversy",
+      "start": 1075,
+      "end": 1122,
+      "type": "conflict",
+      "title": {
+        "en": "Emperor Henry IV and the papacy fight over who has the right to appoint bishops, including Henry's barefoot penance at Canossa",
+        "es": "El emperador Enrique IV y el papado se enfrentan por el derecho a nombrar obispos, incluyendo la penitencia descalza de Enrique en Canossa",
+        "zh": "皇帝亨利四世与教廷就主教任命权展开激烈争斗，其间亨利曾赤足在卡诺莎向教皇请罪"
+      },
+      "sources": [
+        {
+          "citation": "Blumenthal, U.-R. (1988). The Investiture Controversy: Church and Monarchy from the Ninth to the Twelfth Century. University of Pennsylvania Press."
+        },
+        {
+          "citation": "Robinson, I.S. (1999). Henry IV of Germany 1056-1106. Cambridge University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "golden-bull",
+      "start": 1356,
+      "type": "invention",
+      "title": {
+        "en": "Emperor Charles IV issues the Golden Bull, fixing the rules for electing future emperors among seven prince-electors",
+        "es": "El emperador Carlos IV promulga la Bula de Oro, que fija las reglas para elegir a los futuros emperadores entre siete príncipes electores",
+        "zh": "皇帝查理四世颁布《金玺诏书》，确立由七位选帝侯选举未来皇帝的规则"
+      },
+      "sources": [
+        {
+          "citation": "Wilson, P.H. (2016). Heart of Europe: A History of the Holy Roman Empire. Harvard University Press."
+        },
+        {
+          "citation": "Boockmann, H. (1994). Die Goldene Bulle Kaiser Karls IV vom Jahre 1356. Deutscher Kunstverlag."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "luther-diet-of-worms",
+      "start": 1521,
+      "type": "conflict",
+      "title": {
+        "en": "Martin Luther refuses to recant before the imperial Diet of Worms, splitting the empire's religious unity",
+        "es": "Martín Lutero se niega a retractarse ante la Dieta imperial de Worms, quebrando la unidad religiosa del imperio",
+        "zh": "马丁·路德在沃尔姆斯帝国议会上拒绝撤回其主张，帝国的宗教统一由此破裂"
+      },
+      "sources": [
+        {
+          "citation": "Roper, L. (2016). Martin Luther: Renegade and Prophet. Bodley Head."
+        },
+        {
+          "citation": "Brady, T.A. (2009). German Histories in the Age of Reformations, 1400-1650. Cambridge University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "thirty-years-war",
+      "start": 1618,
+      "end": 1648,
+      "type": "conflict",
+      "title": {
+        "en": "The Thirty Years' War, fought largely on imperial soil over religion and power, kills an estimated fifth of the German population",
+        "es": "La Guerra de los Treinta Años, librada en gran parte en suelo imperial por motivos religiosos y de poder, causa la muerte de una quinta parte estimada de la población alemana",
+        "zh": "三十年战争主要在帝国境内爆发，起因于宗教与权力之争，据估计造成德意志人口约五分之一的死亡"
+      },
+      "sources": [
+        {
+          "citation": "Wilson, P.H. (2009). Europe's Tragedy: A History of the Thirty Years War. Allen Lane."
+        },
+        {
+          "citation": "Parker, G. (ed.) (1997). The Thirty Years' War. Routledge."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Population loss estimates vary widely by region and source, from around 15 to 30 percent of the empire's population.",
+        "es": "Las estimaciones de pérdida de población varían mucho según la región y la fuente, entre alrededor del 15 y el 30 por ciento de la población del imperio.",
+        "zh": "人口损失的估算因地区与史料不同而差异颇大，帝国总人口的损失比例约在15%到30%之间。"
+      }
+    },
+    {
+      "id": "peace-of-westphalia",
+      "start": 1648,
+      "type": "collapse",
+      "title": {
+        "en": "The Peace of Westphalia confirms the near-total independence of the empire's constituent princes, leaving the emperor mostly ceremonial",
+        "es": "La Paz de Westfalia confirma la casi total independencia de los príncipes constituyentes del imperio, dejando al emperador con un papel en gran parte ceremonial",
+        "zh": "《威斯特伐利亚和约》确认帝国各诸侯几乎完全独立，皇帝的角色由此大体上沦为礼仪性质"
+      },
+      "sources": [
+        {
+          "citation": "Croxton, D. (2013). Westphalia: The Last Christian Peace. Palgrave Macmillan."
+        },
+        {
+          "citation": "Wilson, P.H. (2009). Europe's Tragedy: A History of the Thirty Years War. Allen Lane."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "dissolution",
+      "start": 1806,
+      "type": "collapse",
+      "title": {
+        "en": "Emperor Francis II abdicates the imperial throne under pressure from Napoleon, formally dissolving the Holy Roman Empire",
+        "es": "El emperador Francisco II abdica del trono imperial bajo presión de Napoleón, disolviendo formalmente el Sacro Imperio Romano Germánico",
+        "zh": "在拿破仑的压力下，皇帝弗朗茨二世退位，神圣罗马帝国正式解体"
+      },
+      "sources": [
+        {
+          "citation": "Wilson, P.H. (2016). Heart of Europe: A History of the Holy Roman Empire. Harvard University Press."
+        },
+        {
+          "citation": "Rady, M. (2020). The Habsburgs: To Rule the World. Basic Books."
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "voltaire-joke",
+      "start": 1756,
+      "end": 1756,
+      "text": {
+        "en": "Voltaire quipped that the empire was \"neither Holy, nor Roman, nor an Empire\", a line still quoted more than any fact about its actual government.",
+        "es": "Voltaire bromeó diciendo que el imperio no era \"ni Sacro, ni Romano, ni Imperio\", una frase que aún se cita más que cualquier dato sobre su gobierno real.",
+        "zh": "伏尔泰曾戏言该帝国“既非神圣，也非罗马，更非帝国”，这句话如今被引用的次数远超过任何关于其实际治理方式的史实。"
+      },
+      "sources": [
+        {
+          "citation": "Voltaire (1756). Essai sur les moeurs et l'esprit des nations, ch. 70."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "hundreds-of-territories",
+      "start": 1648,
+      "end": 1789,
+      "text": {
+        "en": "By the 18th century the empire held over 1,800 separate territories, some no larger than a single village.",
+        "es": "Para el siglo XVIII, el imperio contenía más de 1800 territorios distintos, algunos no más grandes que una simple aldea.",
+        "zh": "到18世纪时，帝国境内竟有一千八百多个独立领地，其中一些甚至还不及一个村庄大。"
+      },
+      "sources": [
+        {
+          "citation": "Wilson, P.H. (2016). Heart of Europe: A History of the Holy Roman Empire. Harvard University Press."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

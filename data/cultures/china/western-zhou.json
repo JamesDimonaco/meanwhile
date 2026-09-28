@@ -1,0 +1,214 @@
+{
+  "id": "western-zhou",
+  "region": "china",
+  "wikidataId": "Q1069609",
+  "name": {
+    "en": "Western Zhou",
+    "es": "Zhou Occidental",
+    "zh": "西周"
+  },
+  "nativeName": {
+    "text": "西周",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Western Zhou dynasty",
+    "Xi Zhou",
+    "西周",
+    "Zhou"
+  ],
+  "description": {
+    "en": "The Zhou overthrew the Shang and ruled from Hao, near modern Xi'an, developing the idea that Heaven grants and withdraws a ruler's mandate for just cause. Zhou kings parcelled out land to relatives and allies, planting the regional lords whose rivalries would shape China for the next eight centuries.",
+    "es": "Los Zhou derrocaron a los Shang y gobernaron desde Hao, cerca de la actual Xi'an, desarrollando la idea de que el Cielo concede y retira el mandato de un gobernante por causa justa. Los reyes Zhou repartieron tierras entre parientes y aliados, sembrando los señores regionales cuyas rivalidades marcarían China durante los ocho siglos siguientes.",
+    "zh": "周人推翻商朝，定都于今西安附近的镐京，提出上天因正当理由授予并可收回统治者“天命”的观念。周王将土地分封给宗亲和盟友，由此形成的地方诸侯的纷争将左右此后八个世纪的中国历史。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -1121,
+      "latestStart": -1045,
+      "earliestEnd": -770,
+      "latestEnd": -769,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Western Zhou dynasty\" (c. 1050 – c. 770 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hts6f"
+        },
+        {
+          "citation": "Berman, Merrick Lex (ed.) (2015). CHGIS: Major Chinese Periods Chronology, \"Western Zhou Period\" (1046–771 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0fp7wv4q5d"
+        }
+      ],
+      "periodoId": "p08m57hts6f",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The Zhou conquest of Shang has no fixed date: the Xia–Shang–Zhou Chronology Project (2000) proposed 1046 BCE, and other reconstructions place it as early as 1122 BCE. The end is fixed more firmly: King You was killed and the capital Haojing sacked in 771 BCE, with the court moving east the following year.",
+        "es": "La conquista Zhou de los Shang no tiene fecha fija: el Proyecto de Cronología Xia–Shang–Zhou (2000) propuso 1046 a. e. c., y otras reconstrucciones la sitúan ya en 1122 a. e. c. El final está mejor establecido: el rey You fue asesinado y la capital Haojing saqueada en 771 a. e. c., y la corte se trasladó al este al año siguiente.",
+        "zh": "周灭商没有确定的年份：夏商周断代工程（2000年）提出公元前1046年，另有学者将其推至公元前1122年。周朝西段的结束则较为确定：公元前771年周幽王被杀，都城镐京被攻破，次年周室东迁。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "conquest-of-shang",
+      "start": -1045,
+      "type": "founding",
+      "disputed": true,
+      "title": {
+        "en": "Zhou armies under King Wu defeat the last Shang king at the Battle of Muye, founding the Zhou dynasty",
+        "es": "Los ejércitos Zhou al mando del rey Wu derrotan al último rey Shang en la batalla de Muye, fundando la dinastía Zhou",
+        "zh": "周武王率军在牧野之战中击败商朝末代君主，建立周朝"
+      },
+      "note": {
+        "en": "1046 BCE is the Chronology Project's date; other proposals range from 1127 to 1018 BCE.",
+        "es": "1046 a. e. c. es la fecha del Proyecto de Cronología; otras propuestas van de 1127 a 1018 a. e. c.",
+        "zh": "公元前1046年为断代工程所定；其他推算从公元前1127年到公元前1018年不等。"
+      },
+      "sources": [
+        {
+          "citation": "Shaughnessy, Edward L. (1999). \"Western Zhou History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 292–351. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.007"
+        },
+        {
+          "citation": "Li Xueqin (2002). \"The Xia-Shang-Zhou Chronology Project: Methodology and Results.\" Journal of East Asian Archaeology 4: 321–333.",
+          "url": "https://doi.org/10.1163/156852302322454585"
+        }
+      ]
+    },
+    {
+      "id": "mandate-of-heaven",
+      "start": -1045,
+      "type": "founding",
+      "title": {
+        "en": "Zhou rulers justify their conquest with the doctrine of the Mandate of Heaven: a king's right to rule depends on just conduct, not birth alone",
+        "es": "Los gobernantes Zhou justifican su conquista con la doctrina del Mandato del Cielo: el derecho de un rey a gobernar depende de una conducta justa, no solo del linaje",
+        "zh": "周人以“天命”学说为其征服正名：君王的统治权取决于德行是否正当，而非仅凭血统"
+      },
+      "sources": [
+        {
+          "citation": "Shaughnessy, Edward L. (1999). \"Western Zhou History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 292–351. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.007"
+        },
+        {
+          "citation": "Li Feng (2006). Landscape and Power in Early China: The Crisis and Fall of the Western Zhou. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "enfeoffment",
+      "start": -1045,
+      "end": -770,
+      "type": "founding",
+      "title": {
+        "en": "Zhou kings grant land to dozens of relatives and allies as hereditary lords, planting the regional states of later centuries",
+        "es": "Los reyes Zhou conceden tierras a docenas de parientes y aliados como señores hereditarios, sembrando los estados regionales de siglos posteriores",
+        "zh": "周王将土地分封给数十位宗亲和盟友，使其成为世袭诸侯，为后世的地方诸国奠定基础"
+      },
+      "sources": [
+        {
+          "citation": "Shaughnessy, Edward L. (1999). \"Western Zhou History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 292–351. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.007"
+        },
+        {
+          "citation": "Li Feng (2006). Landscape and Power in Early China: The Crisis and Fall of the Western Zhou. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "gonghe-regency",
+      "start": -840,
+      "type": "ruler",
+      "title": {
+        "en": "The Gonghe Regency begins after King Li is driven into exile: the first year in Chinese history with a securely dated, unbroken yearly record",
+        "es": "Comienza la Regencia de Gonghe tras el exilio del rey Li: el primer año de la historia china con un registro anual seguro e ininterrumpido",
+        "zh": "厉王被逐后共和行政开始：这是中国历史上第一个有确切、连续纪年记录的年份"
+      },
+      "sources": [
+        {
+          "citation": "Shaughnessy, Edward L. (1999). \"Western Zhou History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 292–351. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.007"
+        },
+        {
+          "citation": "Li Feng (2006). Landscape and Power in Early China: The Crisis and Fall of the Western Zhou. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "sack-of-haojing",
+      "start": -770,
+      "type": "collapse",
+      "title": {
+        "en": "Quanrong raiders, allied with a rival marquis, kill King You and sack the capital Haojing",
+        "es": "Guerreros Quanrong, aliados con un marqués rival, matan al rey You y saquean la capital Haojing",
+        "zh": "犬戎联合反叛的诸侯杀死周幽王，攻破都城镐京"
+      },
+      "sources": [
+        {
+          "citation": "Shaughnessy, Edward L. (1999). \"Western Zhou History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 292–351. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.007"
+        },
+        {
+          "citation": "Li Feng (2006). Landscape and Power in Early China: The Crisis and Fall of the Western Zhou. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "move-to-luoyi",
+      "start": -769,
+      "type": "collapse",
+      "title": {
+        "en": "The Zhou court moves its capital east to Luoyi, near modern Luoyang, beginning the Eastern Zhou period",
+        "es": "La corte Zhou traslada su capital al este, a Luoyi, cerca de la actual Luoyang, dando inicio al periodo Zhou Oriental",
+        "zh": "周室东迁至今洛阳附近的洛邑，东周时代由此开始"
+      },
+      "sources": [
+        {
+          "citation": "Shaughnessy, Edward L. (1999). \"Western Zhou History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 292–351. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.007"
+        },
+        {
+          "citation": "Li Feng (2006). Landscape and Power in Early China: The Crisis and Fall of the Western Zhou. Cambridge University Press."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "bronze-inscriptions",
+      "start": -1045,
+      "end": -770,
+      "text": {
+        "en": "Zhou nobles cast long inscriptions inside bronze ritual vessels, recording grants of land, titles and even chariots handed down by the king.",
+        "es": "Los nobles Zhou grababan largas inscripciones dentro de vasos rituales de bronce, registrando concesiones de tierras, títulos e incluso carros otorgados por el rey.",
+        "zh": "周代贵族在青铜礼器内壁铸刻长篇铭文，记录周王赐予的土地、爵位乃至车马。"
+      },
+      "sources": [
+        {
+          "citation": "Shaughnessy, Edward L. (1999). \"Western Zhou History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 292–351. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.007"
+        }
+      ]
+    },
+    {
+      "id": "unbroken-count",
+      "start": -840,
+      "end": -769,
+      "text": {
+        "en": "Chinese historians have counted years continuously, without a single confirmed gap, since the Gonghe Regency began in 841 BCE.",
+        "es": "Los historiadores chinos han contado los años de forma continua, sin una sola laguna confirmada, desde que comenzó la Regencia de Gonghe en 841 a. e. c.",
+        "zh": "自公元前841年共和行政开始，中国的纪年便连续不断，至今未发现确证的缺失。"
+      },
+      "sources": [
+        {
+          "citation": "Shaughnessy, Edward L. (1999). \"Western Zhou History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 292–351. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.007"
+        }
+      ]
+    }
+  ]
+}

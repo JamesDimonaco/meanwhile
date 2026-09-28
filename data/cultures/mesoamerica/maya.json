@@ -1,0 +1,281 @@
+{
+  "id": "maya",
+  "region": "mesoamerica",
+  "wikidataId": "Q28567",
+  "name": {
+    "en": "Maya civilization",
+    "es": "Civilización maya",
+    "zh": "玛雅文明"
+  },
+  "aliases": [
+    "Maya",
+    "Mayan"
+  ],
+  "description": {
+    "en": "A network of rival city-states across the Yucatán Peninsula, the Petén lowlands and the Guatemalan highlands, sharing the most fully developed writing system and calendar of the pre-Columbian Americas. Tikal and Calakmul fought for supremacy for centuries before a 9th-century collapse in the south.",
+    "es": "Una red de ciudades-estado rivales en la península de Yucatán, las tierras bajas del Petén y las tierras altas de Guatemala, que compartían el sistema de escritura y calendario más desarrollado de la América precolombina. Tikal y Calakmul lucharon por la supremacía durante siglos antes de un colapso en el sur en el siglo IX.",
+    "zh": "尤卡坦半岛、佩滕低地与危地马拉高地上一系列相互竞争的城邦网络，共享着前哥伦布时期美洲最为发达的文字与历法系统。蒂卡尔与卡拉克穆尔为争夺霸权争斗数百年，直至9世纪南部地区发生崩溃。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "maya-period",
+      "earliestStart": -1999,
+      "latestStart": -1999,
+      "earliestEnd": 1697,
+      "latestEnd": 1697,
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya, 9th edition. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Maya.\"",
+          "url": "https://www.britannica.com/topic/Maya-people"
+        }
+      ],
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "phases": [
+    {
+      "id": "preclassic",
+      "name": {
+        "en": "Preclassic",
+        "es": "Preclásico",
+        "zh": "前古典期"
+      },
+      "start": -1999,
+      "end": 249,
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        }
+      ]
+    },
+    {
+      "id": "classic",
+      "name": {
+        "en": "Classic",
+        "es": "Clásico",
+        "zh": "古典期"
+      },
+      "start": 250,
+      "end": 899,
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        }
+      ]
+    },
+    {
+      "id": "postclassic",
+      "name": {
+        "en": "Postclassic",
+        "es": "Posclásico",
+        "zh": "后古典期"
+      },
+      "start": 900,
+      "end": 1697,
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "first-cities",
+      "start": -749,
+      "type": "founding",
+      "title": {
+        "en": "The first Maya cities develop in the Petén Basin as farming villages grow into ceremonial centres",
+        "es": "Las primeras ciudades mayas se desarrollan en la cuenca del Petén al crecer las aldeas agrícolas hasta convertirse en centros ceremoniales",
+        "zh": "佩滕盆地出现最早的玛雅城市，农耕村落逐渐发展为礼仪中心"
+      },
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Maya.\"",
+          "url": "https://www.britannica.com/topic/Maya-people"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "writing",
+      "start": -249,
+      "type": "invention",
+      "title": {
+        "en": "Hieroglyphic writing is in use across the Maya region, the most fully developed script in the pre-Columbian Americas",
+        "es": "La escritura jeroglífica está en uso en toda la región maya, el sistema de escritura más desarrollado de la América precolombina",
+        "zh": "象形文字已在整个玛雅地区使用，是前哥伦布时期美洲最为发达的文字系统"
+      },
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Maya.\"",
+          "url": "https://www.britannica.com/topic/Maya-people"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "classic-rise",
+      "start": 250,
+      "type": "ruler",
+      "title": {
+        "en": "The Classic period begins as divine kings raise sculpted stone monuments dated by the Long Count calendar",
+        "es": "Comienza el periodo Clásico cuando reyes divinos erigen monumentos de piedra esculpida fechados con el calendario de Cuenta Larga",
+        "zh": "古典期开启，神圣君王竖立起以长纪历纪年的雕刻石碑"
+      },
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Maya.\"",
+          "url": "https://www.britannica.com/topic/Maya-people"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "teotihuacan-intervention",
+      "start": 378,
+      "type": "conflict",
+      "title": {
+        "en": "Warriors linked to Teotihuacan intervene at Tikal, installing a new royal dynasty",
+        "es": "Guerreros vinculados a Teotihuacan intervienen en Tikal, instaurando una nueva dinastía real",
+        "zh": "与特奥蒂瓦坎有关的武士介入蒂卡尔事务，扶植了一个新的王朝"
+      },
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Tikal.\"",
+          "url": "https://www.britannica.com/place/Tikal"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Whether this was a conquest, a dynastic marriage, or a more indirect political intervention is debated among Mayanists.",
+        "es": "Se debate entre los mayistas si esto fue una conquista, un matrimonio dinástico o una intervención política más indirecta.",
+        "zh": "这究竟是一次征服、一场王朝联姻，还是一种更为间接的政治干预，玛雅学者对此仍有争论。"
+      }
+    },
+    {
+      "id": "tikal-calakmul-war",
+      "start": 562,
+      "end": 695,
+      "type": "conflict",
+      "title": {
+        "en": "Tikal and Calakmul fight for supremacy over the central lowlands for over a century",
+        "es": "Tikal y Calakmul luchan por la supremacía sobre las tierras bajas centrales durante más de un siglo",
+        "zh": "蒂卡尔与卡拉克穆尔为争夺中部低地的霸权，交战超过一个世纪"
+      },
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Tikal.\"",
+          "url": "https://www.britannica.com/place/Tikal"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "classic-collapse",
+      "start": 799,
+      "end": 899,
+      "type": "collapse",
+      "title": {
+        "en": "Southern lowland cities fall into civil war and are abandoned within a few generations",
+        "es": "Las ciudades de las tierras bajas del sur caen en guerra civil y son abandonadas en pocas generaciones",
+        "zh": "南部低地城市陷入内战，数代人之内相继被废弃"
+      },
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Maya.\"",
+          "url": "https://www.britannica.com/topic/Maya-people"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Drought, warfare, overpopulation and elite competition have all been proposed as causes; most scholars now favour a combination.",
+        "es": "Se han propuesto como causas la sequía, la guerra, la sobrepoblación y la competencia entre las élites; la mayoría de los académicos ahora favorecen una combinación de factores.",
+        "zh": "干旱、战争、人口过剩以及精英间的竞争都曾被提出作为原因；多数学者现在倾向于多种因素共同作用。"
+      }
+    },
+    {
+      "id": "chichen-itza-rise",
+      "start": 900,
+      "type": "ruler",
+      "title": {
+        "en": "Chichén Itzá rises as the dominant power in the northern Yucatán during the Postclassic period",
+        "es": "Chichén Itzá se alza como el poder dominante en el norte de Yucatán durante el periodo Posclásico",
+        "zh": "后古典期，奇琴伊察崛起为尤卡坦半岛北部的主导势力"
+      },
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chichén Itzá.\"",
+          "url": "https://www.britannica.com/place/Chichen-Itza"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "nojpeten-fall",
+      "start": 1697,
+      "type": "collapse",
+      "title": {
+        "en": "Spanish forces take Nojpetén, the last independent Maya city, ending centuries of resistance",
+        "es": "Las fuerzas españolas toman Nojpetén, la última ciudad maya independiente, poniendo fin a siglos de resistencia",
+        "zh": "西班牙军队攻占诺赫佩滕——最后一座独立的玛雅城市，结束了数百年的抵抗"
+      },
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Maya.\"",
+          "url": "https://www.britannica.com/topic/Maya-people"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "long-count",
+      "start": -249,
+      "end": 1697,
+      "text": {
+        "en": "The Maya Long Count calendar tracks days in an unbroken count from a mythical starting point in 3114 BCE.",
+        "es": "El calendario de Cuenta Larga maya cuenta los días de forma ininterrumpida desde un punto de partida mítico en 3114 a. e. c.",
+        "zh": "玛雅长纪历从公元前3114年一个神话起点开始，连续不断地记录着天数。"
+      },
+      "sources": [
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        }
+      ]
+    }
+  ]
+}

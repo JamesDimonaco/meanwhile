@@ -1,0 +1,181 @@
+{
+  "id": "mixtec",
+  "region": "mesoamerica",
+  "wikidataId": "Q16481729",
+  "name": {
+    "en": "Mixtec civilization",
+    "es": "Civilización mixteca",
+    "zh": "米斯特克文明"
+  },
+  "aliases": [
+    "Mixteca",
+    "Ñuu Dzahui"
+  ],
+  "nativeName": {
+    "text": "Ñuu Dzahui",
+    "lang": "mix"
+  },
+  "description": {
+    "en": "Rival kingdoms of highland Oaxaca, known as the \"cloud people\", who painted their dynastic histories in folding screenfold books and produced some of Mesoamerica's finest goldwork.",
+    "es": "Reinos rivales de las tierras altas de Oaxaca, conocidos como el \"pueblo de las nubes\", que pintaron sus historias dinásticas en libros plegables y produjeron algunas de las mejores orfebrerías de Mesoamérica.",
+    "zh": "瓦哈卡高地上一系列相互竞争的王国，被称为“云中之人”，他们将王朝历史绘制在折叠式手抄本中，并制作出中美洲一些最精美的黄金工艺品。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "mixtec-period",
+      "earliestStart": -499,
+      "latestStart": 900,
+      "earliestEnd": 1523,
+      "latestEnd": 1523,
+      "sources": [
+        {
+          "citation": "Spores, Ronald (1967). The Mixtec Kings and Their People. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Mixtec.\"",
+          "url": "https://www.britannica.com/topic/Mixtec"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The Mixtec kingdoms known from the painted codices are Postclassic, from about 900 CE. Mixtec-speaking towns existed in the Oaxaca highlands centuries earlier, and the language itself is reconstructed as separating from its relatives around 1500 BCE.",
+        "es": "Los reinos mixtecas conocidos por los códices pintados son del Posclásico, desde cerca de 900 e. c. Pueblos de habla mixteca existían en las tierras altas de Oaxaca siglos antes, y se reconstruye que la lengua misma se separó de sus parientes hacia 1500 a. e. c.",
+        "zh": "绘画抄本中记载的米斯特克诸王国属于后古典期，始于约公元900年。讲米斯特克语的城镇在此前数百年已存在于瓦哈卡高地，而据语言学重建，米斯特克语本身约在公元前1500年与其亲属语言分离。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "highland-settlement",
+      "start": -1499,
+      "type": "founding",
+      "title": {
+        "en": "Mixtec-speaking communities settle the Mixteca Alta, Baja and Costa regions of Oaxaca",
+        "es": "Comunidades de habla mixteca se asientan en las regiones de la Mixteca Alta, Baja y Costa de Oaxaca",
+        "zh": "讲米斯特克语的社群在瓦哈卡的上米斯特克、下米斯特克和沿海米斯特克地区定居"
+      },
+      "sources": [
+        {
+          "citation": "Spores, Ronald (1967). The Mixtec Kings and Their People. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Mixtec.\"",
+          "url": "https://www.britannica.com/topic/Mixtec"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date rests on linguistic reconstruction of when Mixtec split from related languages, not on excavated remains.",
+        "es": "La fecha se basa en la reconstrucción lingüística de cuándo el mixteco se separó de las lenguas emparentadas, no en restos excavados.",
+        "zh": "该年代依据的是米斯特克语与亲属语言分离时间的语言学重建，而非考古发掘的遗存。"
+      }
+    },
+    {
+      "id": "codices",
+      "start": 999,
+      "type": "invention",
+      "title": {
+        "en": "Mixtec scribes paint dynastic histories in folding deerskin screenfold books, later called codices",
+        "es": "Los escribas mixtecas pintan historias dinásticas en libros plegables de piel de venado, luego llamados códices",
+        "zh": "米斯特克文书官在鹿皮折叠手抄本上绘制王朝历史，后世称之为“抄本”"
+      },
+      "sources": [
+        {
+          "citation": "Spores, Ronald (1967). The Mixtec Kings and Their People. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Mixtec.\"",
+          "url": "https://www.britannica.com/topic/Mixtec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "eight-deer-conquest",
+      "start": 1101,
+      "type": "conflict",
+      "title": {
+        "en": "Lord Eight Deer Jaguar Claw conquers the rival kingdom of Red and White Bundle",
+        "es": "El señor Ocho Venado Garra de Jaguar conquista el reino rival de Fardo Rojo y Blanco",
+        "zh": "八鹿豹爪王征服了敌对的“红白包”王国"
+      },
+      "sources": [
+        {
+          "citation": "Byland, Bruce E. & Pohl, John M. D. (1994). In the Realm of 8 Deer: The Archaeology of the Mixtec Codices. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Mixtec.\"",
+          "url": "https://www.britannica.com/topic/Mixtec"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Eight Deer's reign and conquests are recorded in the Codex Zouche-Nuttall; the Codex counts 94 cities conquered in his lifetime (1063–1115).",
+        "es": "El reinado y las conquistas de Ocho Venado están registrados en el Códice Zouche-Nuttall; el códice cuenta 94 ciudades conquistadas a lo largo de su vida (1063–1115).",
+        "zh": "八鹿的统治与征服记录在《祖切-努塔尔抄本》中；该抄本记载他一生（1063—1115年）共征服了94座城市。"
+      }
+    },
+    {
+      "id": "goldwork",
+      "start": 1200,
+      "type": "invention",
+      "title": {
+        "en": "Mixtec goldsmiths produce filigree jewellery so fine the Aztecs later imported their craftsmen",
+        "es": "Los orfebres mixtecas producen joyería filigranada tan fina que los aztecas luego importaron a sus artesanos",
+        "zh": "米斯特克金匠制作的金丝细工首饰极为精美，以至于阿兹特克人后来专门引进他们的工匠"
+      },
+      "sources": [
+        {
+          "citation": "Spores, Ronald (1967). The Mixtec Kings and Their People. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Mixtec.\"",
+          "url": "https://www.britannica.com/topic/Mixtec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "spanish-conquest",
+      "start": 1523,
+      "type": "collapse",
+      "title": {
+        "en": "Spanish forces complete the conquest of the Mixtec kingdoms following the fall of Tenochtitlan",
+        "es": "Las fuerzas españolas completan la conquista de los reinos mixtecas tras la caída de Tenochtitlan",
+        "zh": "特诺奇蒂特兰陷落后，西班牙军队完成了对米斯特克诸王国的征服"
+      },
+      "sources": [
+        {
+          "citation": "Spores, Ronald (1967). The Mixtec Kings and Their People. University of Oklahoma Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Mixtec.\"",
+          "url": "https://www.britannica.com/topic/Mixtec"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "eight-deer-name",
+      "start": 1063,
+      "end": 1115,
+      "text": {
+        "en": "Mixtec nobles took their names from the day they were born on the 260-day ritual calendar, hence \"Eight Deer\".",
+        "es": "Los nobles mixtecas tomaban su nombre del día de su nacimiento en el calendario ritual de 260 días, de ahí \"Ocho Venado\".",
+        "zh": "米斯特克贵族以其出生当日在260天仪式历中的名称命名，因此才有“八鹿”这样的名字。"
+      },
+      "sources": [
+        {
+          "citation": "Byland, Bruce E. & Pohl, John M. D. (1994). In the Realm of 8 Deer. University of Oklahoma Press."
+        }
+      ]
+    }
+  ]
+}

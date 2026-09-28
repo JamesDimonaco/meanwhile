@@ -1,0 +1,205 @@
+{
+  "id": "sui",
+  "region": "china",
+  "wikidataId": "Q7405",
+  "name": {
+    "en": "Sui dynasty",
+    "es": "Dinastía Sui",
+    "zh": "隋朝"
+  },
+  "nativeName": {
+    "text": "隋",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Sui",
+    "隋",
+    "Suí cháo"
+  ],
+  "description": {
+    "en": "A single reign reunited China after nearly four centuries of division, rebuilding a shared bureaucracy and digging a canal system that still shapes the country's map. It burned through that gain in one generation, exhausted by canal labour and a failed war in Korea, and fell within 37 years of its founding.",
+    "es": "Un solo reinado reunificó China tras casi cuatro siglos de división, reconstruyendo una burocracia común y excavando un sistema de canales que todavía marca el mapa del país. Esa ganancia se consumió en una sola generación, agotada por el trabajo forzado en los canales y una guerra fallida en Corea, y la dinastía cayó a los 37 años de su fundación.",
+    "zh": "一代人的统治终结了近四百年的分裂，重建了统一的官僚体系，并开凿出至今仍影响中国地图格局的运河网络。然而这份成果在一代人之内便被耗尽——繁重的运河劳役与征讨高句丽的失败拖垮了国家，隋朝在建国后仅37年便告灭亡。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 581,
+      "latestStart": 581,
+      "earliestEnd": 618,
+      "latestEnd": 618,
+      "sources": [
+        {
+          "citation": "Berman, Merrick Lex (ed.) (2015). CHGIS: Major Chinese Periods Chronology, \"Sui Dynasty\" (581–618), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0fp7wv9h4n"
+        },
+        {
+          "citation": "Wright, Arthur F. (1978). The Sui Dynasty: The Unification of China, A.D. 581-617. Alfred A. Knopf."
+        }
+      ],
+      "periodoId": "p0fp7wv9h4n",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Sui founder Yang Jian took the throne in the north in 581, but reunification was only completed in 589 with the conquest of the southern Chen state.",
+        "es": "El fundador de los Sui, Yang Jian, tomó el trono en el norte en 581, pero la reunificación solo se completó en 589 con la conquista del estado meridional de Chen.",
+        "zh": "隋朝的建立者杨坚于581年在北方称帝，但统一大业直到589年灭陈才最终完成。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "sui-founded",
+      "start": 581,
+      "type": "founding",
+      "title": {
+        "en": "General Yang Jian deposes the Northern Zhou child emperor and founds the Sui as Emperor Wen",
+        "es": "El general Yang Jian depone al emperador infante de los Zhou del Norte y funda los Sui como emperador Wen",
+        "zh": "将领杨坚废黜北周幼帝，建立隋朝，是为隋文帝"
+      },
+      "sources": [
+        {
+          "citation": "\"Sui dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Sui-dynasty"
+        },
+        {
+          "citation": "Wright, Arthur F. (1978). The Sui Dynasty: The Unification of China, A.D. 581-617. Alfred A. Knopf."
+        }
+      ]
+    },
+    {
+      "id": "conquest-of-chen",
+      "start": 589,
+      "type": "conflict",
+      "title": {
+        "en": "Sui armies conquer the southern Chen state, reuniting China for the first time in nearly 370 years",
+        "es": "Los ejércitos Sui conquistan el estado meridional de Chen, reunificando China por primera vez en casi 370 años",
+        "zh": "隋军攻灭南方的陈朝，中国近370年来首次归于统一"
+      },
+      "sources": [
+        {
+          "citation": "\"Sui dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Sui-dynasty"
+        },
+        {
+          "citation": "Wright, Arthur F. (1978). The Sui Dynasty: The Unification of China, A.D. 581-617. Alfred A. Knopf."
+        }
+      ]
+    },
+    {
+      "id": "civil-exams-restored",
+      "start": 587,
+      "type": "invention",
+      "title": {
+        "en": "Emperor Wen begins selecting officials through written examination rather than birth, a system later dynasties would keep for 1,300 years",
+        "es": "El emperador Wen empieza a seleccionar funcionarios mediante examen escrito en lugar del nacimiento, un sistema que las dinastías posteriores mantendrían durante 1.300 años",
+        "zh": "隋文帝开始以考试选拔官员而非依靠门第出身，此制度被后世沿用长达一千三百年"
+      },
+      "sources": [
+        {
+          "citation": "Wright, Arthur F. (1978). The Sui Dynasty: The Unification of China, A.D. 581-617. Alfred A. Knopf."
+        },
+        {
+          "citation": "\"History of China - The Sui dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/history-of-China/The-Sui-dynasty"
+        }
+      ]
+    },
+    {
+      "id": "grand-canal",
+      "start": 605,
+      "end": 610,
+      "type": "invention",
+      "title": {
+        "en": "Emperor Yang orders the digging and linking of canals that become the Grand Canal, joining the Yellow River and Yangtze basins",
+        "es": "El emperador Yang ordena excavar y unir canales que se convierten en el Gran Canal, uniendo las cuencas del río Amarillo y del Yangtsé",
+        "zh": "隋炀帝下令开凿并连通运河，形成大运河，贯通黄河与长江流域"
+      },
+      "sources": [
+        {
+          "citation": "\"History of China - The Sui dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/history-of-China/The-Sui-dynasty"
+        },
+        {
+          "citation": "Wright, Arthur F. (1978). The Sui Dynasty: The Unification of China, A.D. 581-617. Alfred A. Knopf."
+        }
+      ]
+    },
+    {
+      "id": "goguryeo-wars",
+      "start": 612,
+      "end": 614,
+      "type": "conflict",
+      "title": {
+        "en": "Three huge, failed invasions of Goguryeo in Korea drain the treasury and cost hundreds of thousands of conscripted lives",
+        "es": "Tres enormes invasiones fallidas de Goguryeo, en Corea, agotan el tesoro y cuestan cientos de miles de vidas de reclutas",
+        "zh": "三次大规模征讨高句丽均以失败告终，耗尽国库并使数十万征发的士卒丧生"
+      },
+      "sources": [
+        {
+          "citation": "\"History of China - The Sui dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/history-of-China/The-Sui-dynasty"
+        },
+        {
+          "citation": "Wright, Arthur F. (1978). The Sui Dynasty: The Unification of China, A.D. 581-617. Alfred A. Knopf."
+        }
+      ]
+    },
+    {
+      "id": "sui-collapse",
+      "start": 618,
+      "type": "collapse",
+      "title": {
+        "en": "Emperor Yang is assassinated by his own officers at Jiangdu as rebellions spread; the Sui dynasty ends",
+        "es": "El emperador Yang es asesinado por sus propios oficiales en Jiangdu mientras se extienden las rebeliones; termina la dinastía Sui",
+        "zh": "隋炀帝在江都被部下所弑，各地叛乱四起，隋朝灭亡"
+      },
+      "sources": [
+        {
+          "citation": "\"Sui dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Sui-dynasty"
+        },
+        {
+          "citation": "Wright, Arthur F. (1978). The Sui Dynasty: The Unification of China, A.D. 581-617. Alfred A. Knopf."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "canal-length",
+      "start": 605,
+      "end": 618,
+      "text": {
+        "en": "The canals the Sui dug and joined ran for well over 1,000 kilometres, and much of the route is still in use today as part of the longest man-made waterway on Earth.",
+        "es": "Los canales que los Sui excavaron y unieron se extendían por más de 1.000 kilómetros, y buena parte del trazado sigue en uso hoy como parte de la vía navegable artificial más larga del mundo.",
+        "zh": "隋朝开凿并贯通的运河全长超过一千公里，其大部分河道至今仍在使用，是世界上最长的人工水道的一部分。"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"The Grand Canal\" (inscribed 2014).",
+          "url": "https://whc.unesco.org/en/list/1443"
+        }
+      ]
+    },
+    {
+      "id": "one-generation-empire",
+      "start": 581,
+      "end": 618,
+      "text": {
+        "en": "Just two emperors, father and son, really ruled the Sui, yet between them they left China its canal network, a unified law code and an exam-based civil service: the framework the far longer Tang dynasty inherited whole.",
+        "es": "Solo dos emperadores, padre e hijo, gobernaron realmente los Sui, pero entre ambos legaron a China su red de canales, un código legal unificado y un servicio civil basado en exámenes: el andamiaje que la mucho más longeva dinastía Tang heredó intacto.",
+        "zh": "真正统治隋朝的只有父子二帝，却为中国留下了运河网络、统一的法典与科举选官制度，这套体系后来被享国更久的唐朝原样继承。"
+      },
+      "sources": [
+        {
+          "citation": "Wright, Arthur F. (1978). The Sui Dynasty: The Unification of China, A.D. 581-617. Alfred A. Knopf."
+        }
+      ]
+    }
+  ]
+}

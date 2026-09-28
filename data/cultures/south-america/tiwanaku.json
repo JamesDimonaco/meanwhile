@@ -1,0 +1,177 @@
+{
+  "id": "tiwanaku",
+  "region": "south-america",
+  "wikidataId": "Q1307407",
+  "name": {
+    "en": "Tiwanaku",
+    "es": "Tiwanaku",
+    "zh": "蒂瓦纳库文化"
+  },
+  "aliases": [
+    "Tiahuanaco",
+    "Tiahuanacu"
+  ],
+  "description": {
+    "en": "A city and polity on the high Bolivian altiplano near Lake Titicaca, whose stepped platforms and carved gateways influenced Andean religion for centuries after its own collapse around 1000 CE.",
+    "es": "Una ciudad y estado en el altiplano boliviano cerca del lago Titicaca, cuyas plataformas escalonadas y portadas talladas influyeron en la religión andina durante siglos tras su propio colapso hacia el año 1000 e. c.",
+    "zh": "位于玻利维亚高原、临近的的喀喀湖的一座城市与政体，其阶梯式平台和雕刻门楼在其自身于约公元1000年崩溃之后，仍持续影响安第斯宗教数百年。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "tiwanaku-period",
+      "earliestStart": 99,
+      "latestStart": 374,
+      "earliestEnd": 699,
+      "latestEnd": 999,
+      "sources": [
+        {
+          "citation": "Kolata, Alan L. (1993). The Tiwanaku: Portrait of an Andean Civilization. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Tiwanaku.\"",
+          "url": "https://www.britannica.com/place/Tiwanaku"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Early 20th-century estimates put Tiwanaku thousands of years older; radiocarbon dating now points to founding around 100–300 CE, growth from about 375 CE, and collapse around 1000 CE.",
+        "es": "Estimaciones de principios del siglo XX situaban a Tiwanaku miles de años antes; la datación por radiocarbono ahora apunta a una fundación hacia 100–300 e. c., un crecimiento desde cerca de 375 e. c. y un colapso hacia 1000 e. c.",
+        "zh": "20世纪初的估计曾认为蒂瓦纳库早了数千年；如今放射性碳测年显示其建立于约公元100—300年，约公元375年起开始发展，约公元1000年崩溃。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 99,
+      "type": "founding",
+      "title": {
+        "en": "Tiwanaku is founded near the southern shore of Lake Titicaca",
+        "es": "Tiwanaku es fundada cerca de la orilla sur del lago Titicaca",
+        "zh": "蒂瓦纳库建立于的的喀喀湖南岸附近"
+      },
+      "sources": [
+        {
+          "citation": "Kolata, Alan L. (1993). The Tiwanaku. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Tiwanaku.\"",
+          "url": "https://www.britannica.com/place/Tiwanaku"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The oldest reliable radiocarbon dates centre around 110 CE, with a wide margin of uncertainty.",
+        "es": "Las dataciones por radiocarbono más fiables se centran alrededor de 110 e. c., con un amplio margen de incertidumbre.",
+        "zh": "最可靠的放射性碳测年结果集中在约公元110年前后，误差范围较大。"
+      }
+    },
+    {
+      "id": "growth",
+      "start": 374,
+      "type": "invention",
+      "title": {
+        "en": "Tiwanaku grows into a city of raised platforms, sunken courts and monolithic gateways",
+        "es": "Tiwanaku crece hasta convertirse en una ciudad de plataformas elevadas, patios hundidos y portadas monolíticas",
+        "zh": "蒂瓦纳库发展为一座拥有高台、下沉式庭院与巨石门楼的城市"
+      },
+      "sources": [
+        {
+          "citation": "Kolata, Alan L. (1993). The Tiwanaku. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Tiwanaku.\"",
+          "url": "https://www.britannica.com/place/Tiwanaku"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "raised-fields",
+      "start": 499,
+      "type": "invention",
+      "title": {
+        "en": "Tiwanaku farmers build raised earthen fields around Lake Titicaca to protect crops from frost",
+        "es": "Los agricultores de Tiwanaku construyen campos elevados de tierra alrededor del lago Titicaca para proteger los cultivos de las heladas",
+        "zh": "蒂瓦纳库农民在的的喀喀湖周边修建垄田，以保护作物免受霜冻"
+      },
+      "sources": [
+        {
+          "citation": "Kolata, Alan L. (1993). The Tiwanaku. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Tiwanaku.\"",
+          "url": "https://www.britannica.com/place/Tiwanaku"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "gateway-of-the-sun",
+      "start": 549,
+      "type": "invention",
+      "title": {
+        "en": "Stoneworkers carve the Gateway of the Sun, a single block of andesite with a rayed deity in relief",
+        "es": "Los canteros tallan la Puerta del Sol, un solo bloque de andesita con una deidad radiante en relieve",
+        "zh": "石匠雕刻出太阳门——一块整体安山岩，上面浮雕着一位光芒四射的神祇"
+      },
+      "sources": [
+        {
+          "citation": "Kolata, Alan L. (1993). The Tiwanaku. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Tiwanaku.\"",
+          "url": "https://www.britannica.com/place/Tiwanaku"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "collapse",
+      "start": 999,
+      "type": "collapse",
+      "title": {
+        "en": "Tiwanaku collapses amid a prolonged drought, and its urban core is abandoned",
+        "es": "Tiwanaku colapsa en medio de una sequía prolongada, y su núcleo urbano es abandonado",
+        "zh": "蒂瓦纳库在长期干旱中崩溃，其城市核心区域被废弃"
+      },
+      "sources": [
+        {
+          "citation": "Kolata, Alan L. (1993). The Tiwanaku. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Tiwanaku.\"",
+          "url": "https://www.britannica.com/place/Tiwanaku"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "population",
+      "start": 374,
+      "end": 699,
+      "text": {
+        "en": "Tiwanaku stood at about 3,850 metres above sea level; estimates of its peak population run from around 10,000 to several times that.",
+        "es": "Tiwanaku se alzaba a unos 3850 metros sobre el nivel del mar; las estimaciones de su población máxima van desde unas 10 000 personas hasta varias veces esa cifra.",
+        "zh": "蒂瓦纳库地处海拔约3850米；关于其鼎盛人口的估计从约一万人到数倍于此不等。"
+      },
+      "sources": [
+        {
+          "citation": "Kolata, Alan L. (1993). The Tiwanaku: Portrait of an Andean Civilization. Blackwell."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Tiwanaku.\"",
+          "url": "https://www.britannica.com/place/Tiwanaku"
+        }
+      ],
+      "disputed": true
+    }
+  ]
+}

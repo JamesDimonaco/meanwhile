@@ -1,0 +1,193 @@
+{
+  "id": "olmec",
+  "region": "mesoamerica",
+  "wikidataId": "Q135364",
+  "name": {
+    "en": "Olmec civilization",
+    "es": "Civilización olmeca",
+    "zh": "奥尔梅克文明"
+  },
+  "aliases": [
+    "Olmecs",
+    "San Lorenzo",
+    "La Venta"
+  ],
+  "description": {
+    "en": "Mesoamerica's first major civilization, rising in the Gulf Coast lowlands of Veracruz and Tabasco. The Olmec carved colossal stone heads and practised the ballgame and bloodletting rituals later civilizations inherited.",
+    "es": "La primera gran civilización de Mesoamérica, surgida en las tierras bajas del Golfo en Veracruz y Tabasco. Los olmecas tallaron cabezas colosales de piedra y practicaron el juego de pelota y rituales de sangría que heredarían civilizaciones posteriores.",
+    "zh": "中美洲的第一个主要文明，兴起于韦拉克鲁斯和塔巴斯科的墨西哥湾低地。奥尔梅克人雕刻巨型石头人像，并施行了后来诸文明所继承的球赛与放血仪式。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "olmec-period",
+      "earliestStart": -1499,
+      "latestStart": -1199,
+      "earliestEnd": -399,
+      "latestEnd": -399,
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (2004). The Olmecs: America's First Civilization. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Olmec.\"",
+          "url": "https://www.britannica.com/topic/Olmec"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Olmec culture is conventionally dated 1200–400 BCE, from San Lorenzo's rise to La Venta's abandonment; occupation at San Lorenzo goes back to about 1500 BCE.",
+        "es": "La cultura olmeca se fecha por convención entre 1200 y 400 a. e. c., desde el auge de San Lorenzo hasta el abandono de La Venta; la ocupación de San Lorenzo se remonta a cerca de 1500 a. e. c.",
+        "zh": "奥尔梅克文化通常定在公元前1200年至前400年，即从圣洛伦索的兴起到拉文塔的废弃；圣洛伦索的聚落则可追溯到约公元前1500年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "san-lorenzo-founding",
+      "start": -1199,
+      "type": "founding",
+      "title": {
+        "en": "San Lorenzo becomes the first major Olmec centre in the Veracruz lowlands",
+        "es": "San Lorenzo se convierte en el primer gran centro olmeca de las tierras bajas de Veracruz",
+        "zh": "圣洛伦索成为韦拉克鲁斯低地第一个重要的奥尔梅克中心"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (2004). The Olmecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Olmec.\"",
+          "url": "https://www.britannica.com/topic/Olmec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "colossal-heads",
+      "start": -1099,
+      "type": "invention",
+      "title": {
+        "en": "Olmec sculptors carve colossal basalt heads, some over two metres tall, hauled from distant quarries",
+        "es": "Los escultores olmecas tallan cabezas colosales de basalto, algunas de más de dos metros, transportadas desde canteras lejanas",
+        "zh": "奥尔梅克雕刻家用从远方采石场运来的玄武岩，雕刻出高达两米以上的巨型石头人像"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (2004). The Olmecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Olmec.\"",
+          "url": "https://www.britannica.com/topic/Olmec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "san-lorenzo-decline",
+      "start": -899,
+      "type": "collapse",
+      "title": {
+        "en": "San Lorenzo's monuments are defaced and buried, and the centre of Olmec power shifts away",
+        "es": "Los monumentos de San Lorenzo son mutilados y enterrados, y el centro del poder olmeca se traslada",
+        "zh": "圣洛伦索的纪念碑遭到毁坏并被掩埋，奥尔梅克的权力中心随之转移"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (2004). The Olmecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Olmec.\"",
+          "url": "https://www.britannica.com/topic/Olmec"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Whether this reflects invasion, internal revolt or ritual decommissioning of the monuments is unresolved.",
+        "es": "No está resuelto si esto refleja una invasión, una revuelta interna o la desactivación ritual de los monumentos.",
+        "zh": "这究竟反映了外部入侵、内部叛乱，还是对纪念碑的仪式性废止，目前尚无定论。"
+      }
+    },
+    {
+      "id": "la-venta-rise",
+      "start": -899,
+      "type": "founding",
+      "title": {
+        "en": "La Venta rises as the new leading Olmec centre, with a great earthen pyramid at its heart",
+        "es": "La Venta surge como el nuevo centro olmeca principal, con una gran pirámide de tierra en su corazón",
+        "zh": "拉文塔崛起为新的奥尔梅克主要中心，核心处矗立着一座巨大的土制金字塔"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (2004). The Olmecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"La Venta.\"",
+          "url": "https://www.britannica.com/place/La-Venta"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "ballgame",
+      "start": -1099,
+      "type": "invention",
+      "title": {
+        "en": "Olmec communities play an early form of the Mesoamerican ballgame using rubber balls",
+        "es": "Las comunidades olmecas juegan una forma temprana del juego de pelota mesoamericano con balones de hule",
+        "zh": "奥尔梅克社群使用橡胶球，进行中美洲球赛的早期形式"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (2004). The Olmecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Olmec.\"",
+          "url": "https://www.britannica.com/topic/Olmec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "la-venta-decline",
+      "start": -399,
+      "type": "collapse",
+      "title": {
+        "en": "La Venta is abandoned and Olmec-style monuments cease, as Gulf Coast population falls sharply",
+        "es": "La Venta es abandonada y cesan los monumentos de estilo olmeca, mientras la población del Golfo cae bruscamente",
+        "zh": "拉文塔被废弃，奥尔梅克风格的纪念碑不再出现，墨西哥湾沿岸人口骤减"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (2004). The Olmecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Olmec.\"",
+          "url": "https://www.britannica.com/topic/Olmec"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "were-jaguar",
+      "start": -1099,
+      "end": -399,
+      "text": {
+        "en": "Olmec art repeats a half-human, half-jaguar infant face so often that archaeologists call it the \"were-jaguar\".",
+        "es": "El arte olmeca repite tanto un rostro infantil mitad humano, mitad jaguar, que los arqueólogos lo llaman \"hombre-jaguar\".",
+        "zh": "奥尔梅克艺术中反复出现一种半人半豹的婴儿面孔，考古学家称之为“豹人”。"
+      },
+      "sources": [
+        {
+          "citation": "Diehl, Richard A. (2004). The Olmecs. Thames & Hudson."
+        }
+      ]
+    }
+  ]
+}

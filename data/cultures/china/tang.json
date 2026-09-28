@@ -1,0 +1,219 @@
+{
+  "id": "tang",
+  "region": "china",
+  "wikidataId": "Q9683",
+  "name": {
+    "en": "Tang dynasty",
+    "es": "Dinastía Tang",
+    "zh": "唐朝"
+  },
+  "nativeName": {
+    "text": "唐",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Tang",
+    "唐",
+    "Táng cháo"
+  ],
+  "description": {
+    "en": "Chang'an became the largest, most cosmopolitan city on Earth, drawing traders and monks from Persia, Arabia, Central Asia, Korea and Japan into a court that produced tens of thousands of surviving poems. A general's revolt in 755 broke the empire's finances and confidence, and the dynasty spent its last century and a half never fully recovering before regional warlords tore it apart.",
+    "es": "Chang'an se convirtió en la ciudad más grande y cosmopolita de la Tierra, atrayendo a comerciantes y monjes de Persia, Arabia, Asia Central, Corea y Japón a una corte que produjo decenas de miles de poemas que aún se conservan. La rebelión de un general en 755 quebró las finanzas y la confianza del imperio, y la dinastía pasó su último siglo y medio sin recuperarse del todo antes de que los caudillos regionales la desgarraran.",
+    "zh": "长安成为当时世上规模最大、最具国际色彩的都城，吸引了来自波斯、阿拉伯、中亚、朝鲜与日本的商旅与僧侣，宫廷之中留存至今的诗作多达数万首。755年一场将领叛乱击溃了帝国的财政与信心，此后一个半世纪唐朝始终未能完全恢复元气，最终被地方藩镇割据所瓦解。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 618,
+      "latestStart": 618,
+      "earliestEnd": 907,
+      "latestEnd": 907,
+      "sources": [
+        {
+          "citation": "Berman, Merrick Lex (ed.) (2015). CHGIS: Major Chinese Periods Chronology, \"Tang Dynasty\" (618–907), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0fp7wvrjpj"
+        },
+        {
+          "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
+        }
+      ],
+      "periodoId": "p0fp7wvrjpj",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "tang-founded",
+      "start": 618,
+      "type": "founding",
+      "title": {
+        "en": "Li Yuan founds the Tang dynasty from the ruins of Sui rule",
+        "es": "Li Yuan funda la dinastía Tang sobre las ruinas del gobierno Sui",
+        "zh": "李渊在隋朝统治的废墟上建立唐朝"
+      },
+      "sources": [
+        {
+          "citation": "\"Tang dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Tang-dynasty"
+        },
+        {
+          "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "zhenguan-era",
+      "start": 626,
+      "type": "ruler",
+      "title": {
+        "en": "Emperor Taizong's reign begins, later remembered as a model of good government that later rulers tried to imitate",
+        "es": "Comienza el reinado del emperador Taizong, recordado más tarde como un modelo de buen gobierno que gobernantes posteriores intentaron imitar",
+        "zh": "唐太宗即位，其统治后来被视为善治典范，为后世君主所效仿"
+      },
+      "sources": [
+        {
+          "citation": "\"Tang dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Tang-dynasty"
+        },
+        {
+          "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "wu-zetian",
+      "start": 690,
+      "type": "ruler",
+      "title": {
+        "en": "Wu Zetian deposes her own son and declares herself emperor, becoming the only woman to reign in her own name in Chinese history",
+        "es": "Wu Zetian depone a su propio hijo y se proclama emperadora, convirtiéndose en la única mujer que reinó con nombre propio en la historia china",
+        "zh": "武则天废黜亲生儿子，自立为帝，成为中国历史上唯一以自己名义称帝的女性统治者"
+      },
+      "sources": [
+        {
+          "citation": "\"Tang dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Tang-dynasty"
+        },
+        {
+          "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "an-lushan-rebellion",
+      "start": 755,
+      "end": 763,
+      "type": "conflict",
+      "title": {
+        "en": "General An Lushan's rebellion tears through the empire's heartland, permanently weakening central rule",
+        "es": "La rebelión del general An Lushan devasta el corazón del imperio, debilitando de forma permanente el poder central",
+        "zh": "将领安禄山发动叛乱席卷帝国腹地，中央统治自此一蹶不振"
+      },
+      "sources": [
+        {
+          "citation": "\"Tang dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Tang-dynasty"
+        },
+        {
+          "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "diamond-sutra",
+      "start": 868,
+      "type": "invention",
+      "title": {
+        "en": "A woodblock-printed scroll of the Diamond Sutra is produced, the earliest complete, dated printed book known to survive",
+        "es": "Se imprime con planchas de madera un rollo del Sutra del Diamante, el libro impreso completo y fechado más antiguo que se conserva",
+        "zh": "《金刚经》雕版印刷卷轴问世，是现存最早的完整且有明确纪年的印刷书籍"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
+        },
+        {
+          "citation": "\"Tang dynasty summary.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/summary/Tang-dynasty"
+        }
+      ]
+    },
+    {
+      "id": "huang-chao-rebellion",
+      "start": 874,
+      "end": 884,
+      "type": "conflict",
+      "title": {
+        "en": "Huang Chao's rebel armies sack Guangzhou and the capital Chang'an, breaking what remained of central authority",
+        "es": "Los ejércitos rebeldes de Huang Chao saquean Guangzhou y la capital Chang'an, quebrando lo que quedaba de la autoridad central",
+        "zh": "黄巢的叛军攻陷广州与首都长安，中央权威所剩无几的最后根基就此崩塌"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
+        },
+        {
+          "citation": "\"Tang dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Tang-dynasty"
+        }
+      ]
+    },
+    {
+      "id": "tang-collapse",
+      "start": 907,
+      "type": "collapse",
+      "title": {
+        "en": "Warlord Zhu Wen deposes the last Tang emperor, ending the dynasty and opening a half-century of division",
+        "es": "El caudillo Zhu Wen depone al último emperador Tang, poniendo fin a la dinastía y abriendo medio siglo de división",
+        "zh": "军阀朱温废黜末代唐帝，唐朝灭亡，中国随之进入长达半个世纪的分裂时期"
+      },
+      "sources": [
+        {
+          "citation": "\"Tang dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Tang-dynasty"
+        },
+        {
+          "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "diamond-sutra-fact",
+      "start": 868,
+      "end": 868,
+      "text": {
+        "en": "The world's oldest dated printed book is a Chinese Buddhist scroll from 868, printed not to be sold but to be given away for free: its closing line says so.",
+        "es": "El libro impreso fechado más antiguo del mundo es un rollo budista chino de 868, impreso no para venderse sino para regalarse gratis, tal como lo indica su propia línea final.",
+        "zh": "世界上现存最古老、有明确纪年的印刷书籍是一部868年的中国佛教经卷，末尾题记表明它并非用于出售，而是印制来免费赠送的。"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "census-collapse",
+      "start": 754,
+      "end": 764,
+      "disputed": true,
+      "text": {
+        "en": "Tang census-takers counted roughly 53 million people in 754, and only around 17 million a decade later, after the An Lushan rebellion, a fall historians attribute partly to real deaths and displacement, and partly to a tax census that simply stopped functioning.",
+        "es": "Los censores Tang contaron unos 53 millones de personas en 754, y solo unos 17 millones una década después, tras la rebelión de An Lushan; una caída que los historiadores atribuyen en parte a muertes y desplazamientos reales, y en parte a un censo fiscal que sencillamente dejó de funcionar.",
+        "zh": "唐代户籍在754年登记约五千三百万人口，而十年后安史之乱后仅存约一千七百万，历史学家认为这一降幅既反映了真实的死亡与流离，也反映了赋税户籍统计的彻底瘫痪。"
+      },
+      "sources": [
+        {
+          "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
+        }
+      ]
+    }
+  ]
+}
