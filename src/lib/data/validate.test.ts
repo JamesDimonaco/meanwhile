@@ -173,4 +173,31 @@ describe("validateDataset", () => {
       expect(run(["shang", "shang"]).errors.join("\n")).toMatch(/data\/popular\.json: duplicate id "shang"/);
     });
   });
+
+  describe("succession links", () => {
+    const place = { en: "the Yellow River plain", es: "la llanura del río Amarillo", zh: "黄河平原" };
+    const link = (from: string, to: string) => ({ from, to, place, sources: [src] });
+    const both = [
+      file("china", "shang", cultureJson("shang", "china")),
+      file("south-america", "inca", cultureJson("inca", "south-america", {
+        periods: [{ id: "main", earliestStart: 1400, latestStart: 1438, earliestEnd: 1532, latestEnd: 1572, sources: [src], default: true }],
+      })),
+    ];
+
+    it("accepts links between registered cultures, earlier to later", () => {
+      const result = validateDataset({ registry, cultureFiles: both, borderFiles: [], popular, succession: [link("shang", "inca")] });
+      expect(result.errors).toEqual([]);
+      expect(result.succession.map((l) => `${l.from}>${l.to}`)).toEqual(["shang>inca"]);
+    });
+
+    it("rejects an id that is not in the registry", () => {
+      const { errors } = validateDataset({ registry, cultureFiles: both, borderFiles: [], popular, succession: [link("shang", "xia")] });
+      expect(errors.join("\n")).toMatch(/data\/succession\.json: "xia" is not in data\/registry\.json/);
+    });
+
+    it("rejects a link whose later culture starts first", () => {
+      const { errors } = validateDataset({ registry, cultureFiles: both, borderFiles: [], popular, succession: [link("inca", "shang")] });
+      expect(errors.join("\n")).toMatch(/inca -> shang.*starts before/);
+    });
+  });
 });
