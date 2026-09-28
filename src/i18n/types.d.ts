@@ -1,5 +1,6 @@
 import type { Locale } from "./locales";
 import type common from "../../messages/en/common.json";
+import type compare from "../../messages/en/compare.json";
 import type credits from "../../messages/en/credits.json";
 import type culture from "../../messages/en/culture.json";
 import type explainer from "../../messages/en/explainer.json";
@@ -14,6 +15,7 @@ declare module "next-intl" {
     Locale: Locale;
     Messages: {
       common: typeof common;
+      compare: typeof compare;
       credits: typeof credits;
       culture: typeof culture;
       explainer: typeof explainer;
