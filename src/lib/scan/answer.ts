@@ -92,3 +92,8 @@ export function decideScan(answer: ModelAnswer, cultureIds: ReadonlySet<string>)
   }
   return { destination, reading };
 }
+
+export type ScanError = "unavailable" | "rate-limited" | "bad-image" | "too-large" | "failed";
+
+/** The body of every /api/scan reply. */
+export type ScanResponse = { status: "ok"; result: ScanResult } | { status: "error"; error: ScanError };
