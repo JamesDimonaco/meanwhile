@@ -6,7 +6,6 @@ import { useLocale, useTranslations } from "next-intl";
 import { scaleLinear } from "d3-scale";
 import { ZoomIn, ZoomOut } from "lucide-react";
 import { REGIONS } from "@/lib/data/schema";
-import { activeAt, defaultPeriod } from "@/lib/data/queries";
 import { formatYear, parseYearParam } from "@/lib/years";
 import { useSettings } from "@/components/settings/use-settings";
 import { Button } from "@/components/ui/button";
@@ -14,6 +13,7 @@ import { layoutRows, type TimelineCulture, type TimelineEvent } from "./timeline
 import {
   MAX_PX_PER_YEAR,
   MIN_PX_PER_YEAR,
+  activeCultures,
   axisTicks,
   clampYear,
   clampZoom,
@@ -47,7 +47,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const t = useTranslations("timeline");
   const searchParams = useSearchParams();
 
-  const domain = useMemo(() => computeYearDomain(cultures.map(defaultPeriod)), [cultures]);
+  const domain = useMemo(() => computeYearDomain(cultures.map((c) => c.period)), [cultures]);
   const { rows, totalHeight } = useMemo(() => layoutRows(cultures), [cultures]);
 
   const [pxPerYear, setPxPerYear] = useState(DEFAULT_PX_PER_YEAR);
@@ -72,7 +72,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     }
   }, [year]);
 
-  const active = useMemo(() => activeAt(cultures, year), [cultures, year]);
+  const active = useMemo(() => activeCultures(cultures, year), [cultures, year]);
 
   const scrollRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);

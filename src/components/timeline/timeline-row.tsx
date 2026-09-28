@@ -1,8 +1,6 @@
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import type { ScaleLinear } from "d3-scale";
-import { localize } from "@/lib/data/localize";
 import { Link } from "@/i18n/navigation";
-import { defaultPeriod } from "@/lib/data/queries";
 import type { Region } from "@/lib/data/schema";
 import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
 import { barSegments } from "./timeline-math";
@@ -34,16 +32,14 @@ export function RegionHeaderLabel({ region, y, height }: { region: Region; y: nu
 
 /** Frozen name column: one culture's name, row-aligned with its bar, linking to its page. */
 export function CultureLabel({ culture, y, height }: { culture: TimelineCulture; y: number; height: number }) {
-  const locale = useLocale();
-  const name = localize(culture.name, locale);
   return (
     <Link
       href={`/c/${culture.id}`}
-      title={name}
+      title={culture.name}
       className="absolute inset-x-0 truncate text-xs hover:underline"
       style={{ top: y, height, lineHeight: `${height}px` }}
     >
-      {name}
+      {culture.name}
     </Link>
   );
 }
@@ -63,8 +59,7 @@ export function CultureRow({
   selectedEventId: string | null;
   onSelectEvent: (culture: TimelineCulture, event: TimelineEvent) => void;
 }) {
-  const locale = useLocale();
-  const period = defaultPeriod(culture);
+  const period = culture.period;
   const segments = barSegments(period, culture.phases);
   const color = REGION_COLOR[culture.region];
   const barTop = y + BAR_INSET;
@@ -114,7 +109,7 @@ export function CultureRow({
       </g>
       {culture.events.map((event) => (
         <g key={event.id} className="cursor-pointer" onClick={() => onSelectEvent(culture, event)}>
-          <title>{localize(event.title, locale)}</title>
+          <title>{event.title}</title>
           <circle cx={xScale(event.start)} cy={cy} r={MARKER_HIT_RADIUS} fill="transparent" />
           <circle
             cx={xScale(event.start)}

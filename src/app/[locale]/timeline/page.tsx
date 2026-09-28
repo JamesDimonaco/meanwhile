@@ -14,14 +14,15 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/timeline
 
 /** Owned by the timeline agent. ?year= is read client-side inside WorldTimeline. */
 export default async function TimelinePage({ params }: PageProps<"/[locale]/timeline">) {
-  await pageLocale(params);
+  const locale = await pageLocale(params);
   const t = await getTranslations("timeline");
+  const cultures = loadCultures().map((c) => toTimelineCulture(c, locale));
   return (
     <section className="flex flex-col gap-4">
       <h1 className="text-2xl font-semibold">{t("title")}</h1>
       {/* useSearchParams needs a Suspense boundary in a static export. */}
       <Suspense>
-        <WorldTimeline cultures={loadCultures().map(toTimelineCulture)} />
+        <WorldTimeline cultures={cultures} />
       </Suspense>
     </section>
   );
