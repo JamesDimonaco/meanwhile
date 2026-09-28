@@ -78,8 +78,8 @@ export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
   const active = events.find((e) => e.id === activeId) ?? events[0];
 
   return (
-    <section className="flex flex-col gap-4 md:grid md:grid-cols-2 md:items-start md:gap-6">
-      <div ref={mapSlot} className="sticky top-0 z-10 bg-background py-2 md:top-4">
+    <section className="flex flex-col gap-4">
+      <div ref={mapSlot} className="sticky top-0 z-10 bg-background py-2">
         {mapWanted ? (
           <TerritoryMap cultureId={culture.id} year={active.start} pin={active.place ?? null} />
         ) : (
