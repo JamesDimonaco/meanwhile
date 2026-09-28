@@ -3,13 +3,8 @@ import type { LocalizedText, NativeName, Region } from "@/lib/data/schema";
 import type { Culture } from "@/lib/data/schema";
 import { defaultPeriod } from "@/lib/data/queries";
 
-/** The four numbers pages need to show a range; nothing search doesn't use. */
-export type SearchYearRange = {
-  earliestStart: number;
-  latestStart: number;
-  earliestEnd: number;
-  latestEnd: number;
-};
+/** The two numbers pages show as a range; nothing search doesn't use. */
+export type SearchYearRange = { latestStart: number; earliestEnd: number };
 
 /** The light shape the client-side index searches: no events, facts or sources. */
 export type SearchEntry = {
@@ -22,14 +17,14 @@ export type SearchEntry = {
 };
 
 export function toSearchEntry(culture: Culture): SearchEntry {
-  const period = defaultPeriod(culture);
+  const { latestStart, earliestEnd } = defaultPeriod(culture);
   return {
     id: culture.id,
     region: culture.region,
     name: culture.name,
     nativeName: culture.nativeName,
     aliases: culture.aliases,
-    period,
+    period: { latestStart, earliestEnd },
   };
 }
 

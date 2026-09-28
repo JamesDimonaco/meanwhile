@@ -8,7 +8,7 @@ function entry(overrides: Partial<SearchEntry>): SearchEntry {
     name: { en: "Shang dynasty", es: "Dinastía Shang", zh: "商朝" },
     nativeName: { text: "商", lang: "zh-Hans" },
     aliases: ["Shang", "Yin", "殷", "商", "shāng"],
-    period: { earliestStart: -1600, latestStart: -1500, earliestEnd: -1050, latestEnd: -1045 },
+    period: { latestStart: -1500, earliestEnd: -1050 },
     ...overrides,
   };
 }
@@ -19,7 +19,7 @@ const inca = entry({
   name: { en: "Inca Empire", es: "Imperio inca" },
   nativeName: { text: "Tawantinsuyu", lang: "qu" },
   aliases: ["Inca", "Inka", "Incas", "Tahuantinsuyo", "Tawantinsuyu", "印加"],
-  period: { earliestStart: 1400, latestStart: 1438, earliestEnd: 1533, latestEnd: 1572 },
+  period: { latestStart: 1438, earliestEnd: 1533 },
 });
 
 const shang = entry({});

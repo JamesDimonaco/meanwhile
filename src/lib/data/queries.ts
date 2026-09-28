@@ -12,17 +12,37 @@ import {
 export const MIN_MEANWHILE_CARDS = 4;
 export const MAX_MEANWHILE_CARDS = 6;
 
+/**
+ * A period's dates and flags without sources or notes: what client
+ * components draw, so pages don't ship citations they never render.
+ */
+export type PeriodSpan = Pick<
+  Period,
+  "earliestStart" | "latestStart" | "earliestEnd" | "latestEnd" | "default" | "disputed"
+>;
+
+export function toPeriodSpan(p: PeriodSpan): PeriodSpan {
+  return {
+    earliestStart: p.earliestStart,
+    latestStart: p.latestStart,
+    earliestEnd: p.earliestEnd,
+    latestEnd: p.latestEnd,
+    default: p.default,
+    disputed: p.disputed,
+  };
+}
+
 /** The light shape pages pass to client components instead of whole cultures. */
 export type CultureRef = {
   id: string;
   region: Region;
   name: LocalizedText;
   nativeName?: NativeName;
-  period: Period;
+  period: PeriodSpan;
 };
 
 /** The fields the period queries read, so callers can pass a slimmed culture. */
-export type CultureCore = Pick<Culture, "id" | "region" | "name" | "nativeName" | "periods">;
+export type CultureCore = Pick<Culture, "id" | "region" | "name" | "nativeName"> & { periods: readonly PeriodSpan[] };
 
 export type ActiveCulture = { culture: CultureRef; certain: boolean };
 export type MeanwhileCard = { culture: CultureRef; fact: Fact | null };
@@ -30,7 +50,8 @@ export type WorldEvent = { cultureId: string; event: CultureEvent };
 
 type Range = readonly [number, number];
 
-export function defaultPeriod(culture: CultureCore): Period {
+/** Returns the same shape it's given: a full Period from a Culture, a PeriodSpan from a slimmed one. */
+export function defaultPeriod<P extends PeriodSpan>(culture: { id: string; periods: readonly P[] }): P {
   const period = culture.periods.find((p) => p.default);
   if (!period) throw new Error(`culture ${culture.id} has no default period`);
   return period;
@@ -42,14 +63,14 @@ export function toCultureRef(culture: CultureCore): CultureRef {
     region: culture.region,
     name: culture.name,
     nativeName: culture.nativeName,
-    period: defaultPeriod(culture),
+    period: toPeriodSpan(defaultPeriod(culture)),
   };
 }
 
-const outer = (p: Period): Range => [p.earliestStart, p.latestEnd];
-const core = (p: Period): Range => [p.latestStart, p.earliestEnd];
+const outer = (p: PeriodSpan): Range => [p.earliestStart, p.latestEnd];
+const core = (p: PeriodSpan): Range => [p.latestStart, p.earliestEnd];
 /** Midpoints of the fuzzy edges: the best single guess at start and end. */
-const likely = (p: Period): Range => [(p.earliestStart + p.latestStart) / 2, (p.earliestEnd + p.latestEnd) / 2];
+const likely = (p: PeriodSpan): Range => [(p.earliestStart + p.latestStart) / 2, (p.earliestEnd + p.latestEnd) / 2];
 
 const overlap = (a: Range, b: Range) => Math.min(a[1], b[1]) - Math.max(a[0], b[0]);
 const contains = (r: Range, year: number) => r[0] <= year && year <= r[1];
