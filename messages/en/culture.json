@@ -3,6 +3,7 @@
   "sources": "Sources",
   "otherDefinitions": "Other date definitions",
   "alsoHappening": "Also happening around {year}",
+  "uncertainOverlap": "uncertain overlap",
   "eventTypes": {
     "founding": "Founding",
     "ruler": "Ruler",

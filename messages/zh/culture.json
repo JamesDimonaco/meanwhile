@@ -3,6 +3,7 @@
   "sources": "资料来源",
   "otherDefinitions": "其他年代界定",
   "alsoHappening": "{year}前后世界上还发生着",
+  "uncertainOverlap": "重叠时间不确定",
   "eventTypes": {
     "founding": "建立",
     "ruler": "统治者",
