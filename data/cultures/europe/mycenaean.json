@@ -1,0 +1,210 @@
+{
+  "id": "mycenaean",
+  "region": "europe",
+  "wikidataId": "Q181264",
+  "name": {
+    "en": "Mycenaean Greece",
+    "es": "Grecia micénica",
+    "zh": "迈锡尼文明"
+  },
+  "aliases": [
+    "Mycenae",
+    "Mycenaean civilization",
+    "Late Helladic",
+    "Achaeans"
+  ],
+  "description": {
+    "en": "Greece's first literate civilization, a network of fortified palace citadels such as Mycenae, Pylos and Tiryns ruled by warrior kings who wrote in Linear B, an early form of Greek. Later Greeks remembered them as the heroes of the Trojan War, in stories written down centuries after their palaces burned.",
+    "es": "La primera civilización letrada de Grecia, una red de ciudadelas palaciegas fortificadas como Micenas, Pilos y Tirinto, gobernadas por reyes guerreros que escribían en lineal B, una forma temprana del griego. Los griegos posteriores los recordaron como los héroes de la guerra de Troya, en relatos puestos por escrito siglos después de que sus palacios ardieran.",
+    "zh": "希腊最早拥有文字的文明，是由迈锡尼、皮洛斯、提林斯等设防宫殿城堡组成的网络，统治者为使用早期希腊语线形文字B书写的武士王。后世希腊人将他们的事迹追忆为特洛伊战争中的英雄，这些故事在他们的宫殿焚毁数百年后才被写成文字。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": -1699,
+      "latestStart": -1599,
+      "earliestEnd": -1059,
+      "latestEnd": -1049,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Mycenaean\" (c. 1600 – c. 1060 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h97b5"
+        },
+        {
+          "citation": "Shelmerdine, C.W. (ed.) (2008). The Cambridge Companion to the Aegean Bronze Age. Cambridge University Press."
+        }
+      ],
+      "periodoId": "p08m57h97b5",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Some accounts start Mycenaean civilization earlier, around 1750 BCE, with the rich Shaft Grave burials at Mycenae, before the fortified palaces themselves were built.",
+        "es": "Algunos relatos sitúan el inicio de la civilización micénica antes, hacia el 1750 a. e. c., con los ricos enterramientos de las tumbas de fosa de Micenas, antes de que se construyeran los propios palacios fortificados.",
+        "zh": "有些说法将迈锡尼文明的起点定得更早，约在公元前1750年，即迈锡尼富丽的竖穴墓群出现之时，早于设防宫殿本身的兴建。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "shaft-graves",
+      "start": -1650,
+      "end": -1550,
+      "type": "founding",
+      "title": {
+        "en": "Rulers at Mycenae are buried in shaft graves with gold death masks and bronze weapons",
+        "es": "Los gobernantes de Micenas son enterrados en tumbas de fosa con máscaras funerarias de oro y armas de bronce",
+        "zh": "迈锡尼的统治者葬于竖穴墓中，随葬有黄金面具与青铜武器"
+      },
+      "sources": [
+        {
+          "citation": "Dickinson, O. (1977). The Origins of Mycenaean Civilisation. Paul Åströms Förlag."
+        },
+        {
+          "citation": "National Archaeological Museum, Athens. \"Grave Circle A, Mycenae.\" Collection notes."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "palaces-built",
+      "start": -1399,
+      "end": -1299,
+      "type": "founding",
+      "title": {
+        "en": "Fortified palace citadels are built at Mycenae, Pylos, Tiryns and Thebes",
+        "es": "Se construyen ciudadelas palaciegas fortificadas en Micenas, Pilos, Tirinto y Tebas",
+        "zh": "迈锡尼、皮洛斯、提林斯与忒拜相继建起设防的宫殿城堡"
+      },
+      "sources": [
+        {
+          "citation": "Shelmerdine, C.W. (ed.) (2008). The Cambridge Companion to the Aegean Bronze Age. Cambridge University Press."
+        },
+        {
+          "citation": "Wright, J.C. (2006). \"The Formation of the Mycenaean Palace.\" In Sparkes & Deger-Jalkotzy (eds), Ancient Greece: From the Mycenaean Palaces to the Age of Homer, 7-52."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "linear-b",
+      "start": -1449,
+      "end": -1199,
+      "type": "invention",
+      "title": {
+        "en": "Palace scribes write Linear B, the earliest known form of the Greek language, mostly for tracking stores and taxes",
+        "es": "Los escribas palaciegos escriben en lineal B, la forma más antigua conocida de la lengua griega, sobre todo para registrar existencias e impuestos",
+        "zh": "宫廷书吏使用线形文字B书写，这是已知最早的希腊语文字形式，主要用于记录库存与赋税"
+      },
+      "sources": [
+        {
+          "citation": "Chadwick, J. (1958). The Decipherment of Linear B. Cambridge University Press."
+        },
+        {
+          "citation": "Driessen, J. (2011). \"Chronology of the Linear B Texts.\" In A Companion to Linear B: Mycenaean Greek Texts and their World, vol. 2. Peeters."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "lion-gate",
+      "start": -1250,
+      "type": "invention",
+      "title": {
+        "en": "The Lion Gate, the main entrance to Mycenae, is built with a relief of two lionesses flanking a column",
+        "es": "Se construye la Puerta de los Leones, entrada principal de Micenas, con un relieve de dos leonas flanqueando una columna",
+        "zh": "迈锡尼主入口\"狮门\"建成，门楣上浮雕两头母狮拱卫着一根立柱"
+      },
+      "sources": [
+        {
+          "citation": "Mylonas, G.E. (1966). Mycenae and the Mycenaean Age. Princeton University Press."
+        },
+        {
+          "citation": "Wright, J.C. (2006). \"The Formation of the Mycenaean Palace.\" In Sparkes & Deger-Jalkotzy (eds), Ancient Greece: From the Mycenaean Palaces to the Age of Homer, 7-52."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "palace-destructions",
+      "start": -1200,
+      "end": -1150,
+      "type": "collapse",
+      "title": {
+        "en": "Nearly all Mycenaean palaces are destroyed by fire within a few decades, part of the wider Late Bronze Age collapse",
+        "es": "Casi todos los palacios micénicos son destruidos por el fuego en pocas décadas, dentro del colapso más amplio del Bronce Final",
+        "zh": "几乎所有迈锡尼宫殿在数十年间相继毁于大火，属于更大范围的青铜时代晚期崩溃的一部分"
+      },
+      "sources": [
+        {
+          "citation": "Cline, E.H. (2014). 1177 B.C.: The Year Civilization Collapsed. Princeton University Press."
+        },
+        {
+          "citation": "Middleton, G.D. (2010). The Collapse of Palatial Society in LBA Greece and the Postpalatial Period. Archaeopress."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "No single cause is agreed: proposed triggers include earthquakes, drought, internal revolt and the disruption known from Egyptian records as the \"Sea Peoples\".",
+        "es": "No hay una causa única acordada: entre las propuestas figuran terremotos, sequías, revueltas internas y la alteración conocida por los registros egipcios como los \"Pueblos del Mar\".",
+        "zh": "崩溃的具体成因至今无定论：学者提出的诱因包括地震、干旱、内部叛乱，以及埃及文献所记载的\"海上民族\"造成的动荡。"
+      }
+    },
+    {
+      "id": "pylos-fall",
+      "start": -1180,
+      "type": "collapse",
+      "title": {
+        "en": "The palace at Pylos burns; its archive room's clay tablets survive only because the fire baked them hard",
+        "es": "El palacio de Pilos arde; las tablillas de arcilla de su archivo sobreviven solo porque el incendio las endureció",
+        "zh": "皮洛斯宫殿焚毁；其档案室的泥板正是因大火烘烤而变硬得以留存"
+      },
+      "sources": [
+        {
+          "citation": "Davis, J.L. (ed.) (1998). Sandy Pylos: An Archaeological History from Nestor to Navarino. University of Texas Press."
+        },
+        {
+          "citation": "Palaima, T.G. (2004). \"Sacrificial Feasting in the Linear B Documents.\" Hesperia 73(2): 217-246."
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "trojan-war-memory",
+      "start": -1250,
+      "end": -700,
+      "text": {
+        "en": "Homer's Iliad, composed some 400 years after the Mycenaean palaces fell, still remembered Mycenae as \"rich in gold\".",
+        "es": "La Ilíada de Homero, compuesta unos 400 años después de la caída de los palacios micénicos, seguía recordando a Micenas como \"rica en oro\".",
+        "zh": "荷马史诗《伊利亚特》在迈锡尼宫殿覆灭约四百年后写成，其中仍称迈锡尼为\"多金之城\"。"
+      },
+      "sources": [
+        {
+          "citation": "Latacz, J. (2004). Troy and Homer: Towards a Solution of an Old Mystery. Oxford University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "baked-tablets",
+      "start": -1180,
+      "end": -1180,
+      "text": {
+        "en": "Linear B was written on unbaked clay meant to be recycled; the tablets that survive today only exist because the palaces that stored them burned down.",
+        "es": "El lineal B se escribía sobre arcilla sin cocer destinada a reciclarse; las tablillas que hoy se conservan existen solo porque los palacios que las guardaban se incendiaron.",
+        "zh": "线形文字B原本写在未经烧制、打算回收再用的泥板上；如今能保存下来的泥板，恰恰是因为存放它们的宫殿被大火焚毁。"
+      },
+      "sources": [
+        {
+          "citation": "Chadwick, J. (1958). The Decipherment of Linear B. Cambridge University Press."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
