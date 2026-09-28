@@ -1,0 +1,1482 @@
+{
+  "id": "rome",
+  "region": "europe",
+  "wikidataId": "Q1747689",
+  "name": {
+    "en": "Ancient Rome",
+    "es": "Antigua Roma",
+    "zh": "古罗马"
+  },
+  "nativeName": {
+    "text": "Roma",
+    "lang": "la"
+  },
+  "aliases": [
+    "Rome",
+    "Roman",
+    "Roman Empire",
+    "Roman Republic",
+    "Roman Kingdom",
+    "Byzantine Empire",
+    "Byzantium",
+    "SPQR",
+    "Imperio romano",
+    "República romana",
+    "Bizancio",
+    "罗马",
+    "罗马帝国",
+    "罗马共和国",
+    "拜占庭",
+    "东罗马",
+    "luoma"
+  ],
+  "description": {
+    "en": "A town on the Tiber that grew into an empire ringing the Mediterranean, then lived on for another thousand years from Constantinople. Its rulers went from kings to elected consuls to emperors; its law, roads and Latin language still shape half the world; and the eastern half kept calling itself Roman until Ottoman cannon breached its walls in 1453.",
+    "es": "Una ciudad a orillas del Tíber que se convirtió en un imperio en torno al Mediterráneo y luego sobrevivió otros mil años desde Constantinopla. Sus gobernantes pasaron de reyes a cónsules electos y a emperadores; su derecho, sus calzadas y la lengua latina siguen moldeando medio mundo; y la mitad oriental siguió llamándose romana hasta que los cañones otomanos abrieron brecha en sus murallas en 1453.",
+    "zh": "台伯河畔的一座小城，成长为环绕地中海的帝国，之后又以君士坦丁堡为都延续了一千年。它的统治者从国王到民选执政官再到皇帝；它的法律、道路和拉丁语至今影响着半个世界；东部帝国一直自称罗马，直到1453年奥斯曼大炮轰开城墙。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "traditional",
+      "earliestStart": -752,
+      "latestStart": -752,
+      "earliestEnd": 1453,
+      "latestEnd": 1453,
+      "sources": [
+        {
+          "citation": "Library of Congress Subject Headings, \"Rome--History--Kings, 753-510 B.C.\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g37k82"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Roman Republican\" (510 BC – 27 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h65c8"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Roman Imperial\" (31 BC – AD 410), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hqcc5"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Byzantine\" (AD 330 – AD 1453), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h9nf5"
+        },
+        {
+          "citation": "Treadgold, Warren (1997). A History of the Byzantine State and Society. Stanford University Press.",
+          "url": "https://doi.org/10.1515/9780804779371"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "753 BCE is the legendary founding date fixed by Varro; the settlement is older and the city younger (about 600 BCE). Many museums stop 'ancient Rome' at 476 CE, when the last western emperor was deposed, but the eastern half ruled from Constantinople and called itself Roman until 1453. No single PeriodO definition covers the whole span; the sources give the museum and library periods for each part.",
+        "es": "753 a. e. c. es la fecha legendaria de fundación fijada por Varrón; el asentamiento es más antiguo y la ciudad más reciente (hacia 600 a. e. c.). Muchos museos terminan la \"antigua Roma\" en 476 e. c., cuando fue depuesto el último emperador occidental, pero la mitad oriental gobernó desde Constantinopla y se llamó romana hasta 1453. Ninguna definición de PeriodO cubre todo el periodo; las fuentes dan los periodos de museos y bibliotecas para cada parte.",
+        "zh": "公元前753年是瓦罗推定的传说建城年份；聚落比这更早，而城市更晚（约公元前600年）。许多博物馆将“古罗马”止于公元476年末代西部皇帝被废之时，但东部以君士坦丁堡为都、自称罗马直到1453年。PeriodO中没有一个定义涵盖整个时段；来源列出了各阶段的博物馆和图书馆分期。"
+      }
+    },
+    {
+      "id": "western",
+      "label": {
+        "en": "To the fall of the West",
+        "es": "Hasta la caída de Occidente",
+        "zh": "至西罗马灭亡"
+      },
+      "earliestStart": -752,
+      "latestStart": -752,
+      "earliestEnd": 476,
+      "latestEnd": 476,
+      "sources": [
+        {
+          "citation": "Library of Congress Subject Headings, \"Rome--History--Kings, 753-510 B.C.\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g37k82"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Rome--History--Empire, 284-476\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g38t56"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Late Roman\" (AD 293 – AD 476), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h5vpv"
+        }
+      ],
+      "default": false,
+      "disputed": false,
+      "note": {
+        "en": "The common museum definition: from the legendary founding to Odoacer's deposition of Romulus Augustulus in 476 CE.",
+        "es": "La definición habitual en los museos: desde la fundación legendaria hasta la deposición de Rómulo Augústulo por Odoacro en 476 e. c.",
+        "zh": "博物馆常用的定义：从传说中的建城到公元476年奥多亚克废黜罗慕路斯·奥古斯图卢斯。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "kingdom",
+      "name": {
+        "en": "Kingdom",
+        "es": "Monarquía",
+        "zh": "王政时代"
+      },
+      "start": -752,
+      "end": -509,
+      "sources": [
+        {
+          "citation": "Library of Congress Subject Headings, \"Rome--History--Kings, 753-510 B.C.\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g37k82"
+        },
+        {
+          "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
+          "url": "https://doi.org/10.4324/9780203821107"
+        }
+      ]
+    },
+    {
+      "id": "republic",
+      "name": {
+        "en": "Republic",
+        "es": "República",
+        "zh": "共和国"
+      },
+      "start": -509,
+      "end": -26,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Roman Republican\" (510 BC – 27 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h65c8"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Rome--History--Republic, 510-30 B.C.\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3p3g3"
+        }
+      ]
+    },
+    {
+      "id": "empire",
+      "name": {
+        "en": "Empire",
+        "es": "Imperio",
+        "zh": "帝国"
+      },
+      "start": -26,
+      "end": 476,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Roman Imperial\" (31 BC – AD 410), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hqcc5"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Rome--History--Empire, 30 B.C.-284 A.D.\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g33wp2"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Rome--History--Empire, 284-476\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g38t56"
+        }
+      ]
+    },
+    {
+      "id": "eastern",
+      "name": {
+        "en": "Eastern Empire (Byzantium)",
+        "es": "Imperio de Oriente (Bizancio)",
+        "zh": "东罗马（拜占庭）"
+      },
+      "start": 476,
+      "end": 1453,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Byzantine\" (AD 330 – AD 1453), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h9nf5"
+        },
+        {
+          "citation": "Treadgold, Warren (1997). A History of the Byzantine State and Society. Stanford University Press.",
+          "url": "https://doi.org/10.1515/9780804779371"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "legendary-founding",
+      "start": -752,
+      "type": "founding",
+      "title": {
+        "en": "Legend: Romulus founds Rome on the Palatine Hill",
+        "es": "Leyenda: Rómulo funda Roma en el monte Palatino",
+        "zh": "传说：罗慕路斯在帕拉蒂尼山建立罗马"
+      },
+      "sources": [
+        {
+          "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
+          "url": "https://doi.org/10.4324/9780203821107"
+        },
+        {
+          "citation": "Forsythe, Gary (2005). A Critical History of Early Rome: From Prehistory to the First Punic War. University of California Press."
+        },
+        {
+          "citation": "Livy, Ab Urbe Condita (History of Rome), books 1–2, 5 and 21–22 (Loeb Classical Library translation by B. O. Foster)."
+        },
+        {
+          "citation": "Beard, Mary (2015). SPQR: A History of Ancient Rome. Profile Books."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "A legend. The year 753 BCE was fixed by the scholar Varro in the 1st century BCE. Archaeology shows huts on the Palatine by the 8th century BCE and a walled city with a paved Forum taking shape around 600 BCE.",
+        "es": "Una leyenda. El año 753 a. e. c. lo fijó el erudito Varrón en el siglo I a. e. c. La arqueología muestra cabañas en el Palatino ya en el siglo VIII a. e. c. y una ciudad amurallada con un Foro pavimentado que toma forma hacia el 600 a. e. c.",
+        "zh": "这是传说。公元前753年这一年份由公元前1世纪的学者瓦罗推定。考古表明帕拉蒂尼山在公元前8世纪已有茅屋，而带城墙、广场铺砌的城市大约在公元前600年前后成形。"
+      },
+      "place": {
+        "name": {
+          "en": "Rome",
+          "es": "Roma",
+          "zh": "罗马"
+        },
+        "lat": 41.89,
+        "lon": 12.4913,
+        "pleiadesId": "423025"
+      }
+    },
+    {
+      "id": "republic-founded",
+      "start": -508,
+      "type": "founding",
+      "title": {
+        "en": "Romans expel their last king, Tarquin the Proud, and elect two consuls a year: the Republic begins",
+        "es": "Los romanos expulsan a su último rey, Tarquinio el Soberbio, y eligen dos cónsules al año: comienza la República",
+        "zh": "罗马人驱逐末代国王“傲慢者”塔克文，改为每年选举两名执政官：共和国开始"
+      },
+      "sources": [
+        {
+          "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
+          "url": "https://doi.org/10.4324/9780203821107"
+        },
+        {
+          "citation": "Forsythe, Gary (2005). A Critical History of Early Rome: From Prehistory to the First Punic War. University of California Press."
+        },
+        {
+          "citation": "Livy, Ab Urbe Condita (History of Rome), books 1–2, 5 and 21–22 (Loeb Classical Library translation by B. O. Foster)."
+        },
+        {
+          "citation": "Beard, Mary (2015). SPQR: A History of Ancient Rome. Profile Books."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "509 BCE is the traditional date. Some historians put the end of the monarchy a few years, or even decades, later.",
+        "es": "509 a. e. c. es la fecha tradicional. Algunos historiadores sitúan el fin de la monarquía unos años, o incluso décadas, más tarde.",
+        "zh": "公元前509年是传统年份。一些历史学家认为王政结束得更晚，晚几年甚至几十年。"
+      },
+      "place": {
+        "name": {
+          "en": "Rome",
+          "es": "Roma",
+          "zh": "罗马"
+        },
+        "lat": 41.89,
+        "lon": 12.4913,
+        "pleiadesId": "423025"
+      }
+    },
+    {
+      "id": "twelve-tables",
+      "start": -450,
+      "end": -449,
+      "type": "invention",
+      "title": {
+        "en": "Rome's first written laws, the Twelve Tables, are set up in the Forum for anyone to read",
+        "es": "Las primeras leyes escritas de Roma, las Doce Tablas, se exponen en el Foro para que cualquiera pueda leerlas",
+        "zh": "罗马最早的成文法《十二铜表法》公布于广场，供所有人阅读"
+      },
+      "sources": [
+        {
+          "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
+          "url": "https://doi.org/10.4324/9780203821107"
+        },
+        {
+          "citation": "Crawford, M. H. (ed.) (1996). Roman Statutes, vol. 2, no. 40: The Twelve Tables. Institute of Classical Studies, BICS Supplement 64."
+        },
+        {
+          "citation": "Forsythe, Gary (2005). A Critical History of Early Rome: From Prehistory to the First Punic War. University of California Press."
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Roman Forum",
+          "es": "Foro Romano",
+          "zh": "古罗马广场"
+        },
+        "lat": 41.8916,
+        "lon": 12.4872,
+        "pleiadesId": "502866838"
+      }
+    },
+    {
+      "id": "gallic-sack",
+      "start": -389,
+      "type": "conflict",
+      "title": {
+        "en": "A Gallic war band routs the Roman army at the Allia and sacks the city",
+        "es": "Una banda guerrera gala derrota al ejército romano en el Alia y saquea la ciudad",
+        "zh": "一支高卢军队在阿利亚河击溃罗马军队并洗劫了罗马城"
+      },
+      "sources": [
+        {
+          "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
+          "url": "https://doi.org/10.4324/9780203821107"
+        },
+        {
+          "citation": "Forsythe, Gary (2005). A Critical History of Early Rome: From Prehistory to the First Punic War. University of California Press."
+        },
+        {
+          "citation": "Livy, Ab Urbe Condita (History of Rome), books 1–2, 5 and 21–22 (Loeb Classical Library translation by B. O. Foster)."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "390 BCE is the traditional Roman date; Greek sources imply 387 or 386 BCE.",
+        "es": "390 a. e. c. es la fecha romana tradicional; las fuentes griegas apuntan a 387 o 386 a. e. c.",
+        "zh": "公元前390年是罗马传统年份；希腊史料暗示应为公元前387年或386年。"
+      },
+      "place": {
+        "name": {
+          "en": "Rome",
+          "es": "Roma",
+          "zh": "罗马"
+        },
+        "lat": 41.89,
+        "lon": 12.4913,
+        "pleiadesId": "423025"
+      }
+    },
+    {
+      "id": "first-punic-war",
+      "start": -263,
+      "end": -240,
+      "type": "conflict",
+      "title": {
+        "en": "First Punic War: Rome builds its first war fleet and after 23 years drives Carthage out of Sicily",
+        "es": "Primera guerra púnica: Roma construye su primera flota de guerra y, tras 23 años, expulsa a Cartago de Sicilia",
+        "zh": "第一次布匿战争：罗马建造首支战舰队，历时23年将迦太基逐出西西里"
+      },
+      "sources": [
+        {
+          "citation": "Lazenby, J. F. (1996). The First Punic War: A Military History. UCL Press."
+        },
+        {
+          "citation": "Polybius, The Histories, books 1, 3 and 15 (Loeb Classical Library translation by W. R. Paton).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/home.html"
+        },
+        {
+          "citation": "Hoyos, Dexter (ed.) (2011). A Companion to the Punic Wars. Wiley-Blackwell.",
+          "url": "https://doi.org/10.1002/9781444393712"
+        },
+        {
+          "citation": "Goldsworthy, Adrian (2000). The Punic Wars. Cassell."
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Aegates Islands, Sicily",
+          "es": "Islas Egadas, Sicilia",
+          "zh": "西西里埃加迪群岛"
+        },
+        "lat": 37.9509,
+        "lon": 12.1939,
+        "pleiadesId": "462075"
+      }
+    },
+    {
+      "id": "cannae",
+      "start": -215,
+      "type": "conflict",
+      "title": {
+        "en": "Hannibal, who has marched his army and elephants over the Alps, annihilates a larger Roman army at Cannae",
+        "es": "Aníbal, que ha cruzado los Alpes con su ejército y sus elefantes, aniquila a un ejército romano mayor en Cannas",
+        "zh": "汉尼拔率军携战象翻越阿尔卑斯山后，在坎尼全歼一支人数更多的罗马军队"
+      },
+      "sources": [
+        {
+          "citation": "Daly, Gregory (2002). Cannae: The Experience of Battle in the Second Punic War. Routledge.",
+          "url": "https://doi.org/10.4324/9780203987506"
+        },
+        {
+          "citation": "Polybius, The Histories, books 1, 3 and 15 (Loeb Classical Library translation by W. R. Paton).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/home.html"
+        },
+        {
+          "citation": "Livy, Ab Urbe Condita (History of Rome), books 1–2, 5 and 21–22 (Loeb Classical Library translation by B. O. Foster)."
+        },
+        {
+          "citation": "Goldsworthy, Adrian (2000). The Punic Wars. Cassell."
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Cannae",
+          "es": "Cannas",
+          "zh": "坎尼"
+        },
+        "lat": 41.2967,
+        "lon": 16.1518,
+        "pleiadesId": "442523"
+      }
+    },
+    {
+      "id": "zama",
+      "start": -201,
+      "type": "conflict",
+      "title": {
+        "en": "Scipio defeats Hannibal at Zama; Carthage surrenders its fleet and its empire",
+        "es": "Escipión derrota a Aníbal en Zama; Cartago entrega su flota y su imperio",
+        "zh": "西庇阿在扎马击败汉尼拔；迦太基交出舰队与海外领地"
+      },
+      "sources": [
+        {
+          "citation": "Lazenby, J. F. (1978). Hannibal's War: A Military History of the Second Punic War. Aris & Phillips."
+        },
+        {
+          "citation": "Polybius, The Histories, books 1, 3 and 15 (Loeb Classical Library translation by W. R. Paton).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/home.html"
+        },
+        {
+          "citation": "Hoyos, Dexter (ed.) (2011). A Companion to the Punic Wars. Wiley-Blackwell.",
+          "url": "https://doi.org/10.1002/9781444393712"
+        },
+        {
+          "citation": "Goldsworthy, Adrian (2000). The Punic Wars. Cassell."
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The battlefield has never been securely identified; the pin marks the town of Zama Regia.",
+        "es": "El campo de batalla nunca se ha identificado con seguridad; el marcador señala la ciudad de Zama Regia.",
+        "zh": "战场位置至今未能确定；地图标记的是扎马·雷吉亚城。"
+      },
+      "place": {
+        "name": {
+          "en": "Zama",
+          "es": "Zama",
+          "zh": "扎马"
+        },
+        "lat": 36.1117,
+        "lon": 9.286,
+        "pleiadesId": "315267"
+      }
+    },
+    {
+      "id": "carthage-destroyed",
+      "start": -145,
+      "type": "conflict",
+      "title": {
+        "en": "Rome razes Carthage after a three-year siege; the same year its army sacks Corinth",
+        "es": "Roma arrasa Cartago tras un asedio de tres años; ese mismo año su ejército saquea Corinto",
+        "zh": "罗马在三年围城后夷平迦太基；同年其军队洗劫科林斯"
+      },
+      "sources": [
+        {
+          "citation": "Miles, Richard (2010). Carthage Must Be Destroyed: The Rise and Fall of an Ancient Civilization. Allen Lane."
+        },
+        {
+          "citation": "Hoyos, Dexter (ed.) (2011). A Companion to the Punic Wars. Wiley-Blackwell.",
+          "url": "https://doi.org/10.1002/9781444393712"
+        },
+        {
+          "citation": "Astin, A. E., Walbank, F. W., Frederiksen, M. W. & Ogilvie, R. M. (eds) (1989). The Cambridge Ancient History, vol. VIII: Rome and the Mediterranean to 133 B.C. (2nd ed.). Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521234481"
+        },
+        {
+          "citation": "Goldsworthy, Adrian (2000). The Punic Wars. Cassell."
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Carthage",
+          "es": "Cartago",
+          "zh": "迦太基"
+        },
+        "lat": 36.8531,
+        "lon": 10.3231,
+        "pleiadesId": "314921"
+      }
+    },
+    {
+      "id": "alesia",
+      "start": -51,
+      "type": "conflict",
+      "title": {
+        "en": "Caesar besieges Vercingetorix at Alesia and completes the conquest of Gaul",
+        "es": "César asedia a Vercingétorix en Alesia y completa la conquista de la Galia",
+        "zh": "凯撒在阿莱西亚围困维钦托利，完成对高卢的征服"
+      },
+      "sources": [
+        {
+          "citation": "Caesar, Commentarii de Bello Gallico (The Gallic War), book 7 (Loeb Classical Library translation by H. J. Edwards).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/7*.html"
+        },
+        {
+          "citation": "Goldsworthy, Adrian (2006). Caesar: The Life of a Colossus. Yale University Press."
+        },
+        {
+          "citation": "Crook, J. A., Lintott, A. & Rawson, E. (eds) (1994). The Cambridge Ancient History, vol. IX: The Last Age of the Roman Republic, 146–43 B.C. (2nd ed.). Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521256032"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Alesia",
+          "es": "Alesia",
+          "zh": "阿莱西亚"
+        },
+        "lat": 47.5366,
+        "lon": 4.5039,
+        "pleiadesId": "177434"
+      }
+    },
+    {
+      "id": "rubicon",
+      "start": -48,
+      "type": "conflict",
+      "title": {
+        "en": "Caesar leads a legion across the Rubicon into Italy, starting a civil war",
+        "es": "César cruza el Rubicón con una legión y entra en Italia, iniciando una guerra civil",
+        "zh": "凯撒率一个军团渡过卢比孔河进入意大利，内战爆发"
+      },
+      "sources": [
+        {
+          "citation": "Suetonius, Lives of the Caesars, Divus Iulius 31–33, 40 and 81–82 (Loeb Classical Library translation by J. C. Rolfe).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius*.html"
+        },
+        {
+          "citation": "Plutarch, Life of Caesar 32 and 63–66 (Loeb Classical Library translation by Bernadotte Perrin).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html"
+        },
+        {
+          "citation": "Goldsworthy, Adrian (2006). Caesar: The Life of a Colossus. Yale University Press."
+        },
+        {
+          "citation": "Crook, J. A., Lintott, A. & Rawson, E. (eds) (1994). The Cambridge Ancient History, vol. IX: The Last Age of the Roman Republic, 146–43 B.C. (2nd ed.). Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521256032"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Which stream was the Rubicon was forgotten in antiquity; the modern Rubicone was fixed by decree in 1933.",
+        "es": "Qué arroyo era el Rubicón se olvidó en la antigüedad; el actual Rubicone se fijó por decreto en 1933.",
+        "zh": "哪条河是卢比孔河在古代就已失传；今天的鲁比科内河是1933年以法令确定的。"
+      },
+      "place": {
+        "name": {
+          "en": "Rubicon",
+          "es": "Rubicón",
+          "zh": "卢比孔河"
+        },
+        "lat": 44.0722,
+        "lon": 12.3607,
+        "pleiadesId": "393484"
+      }
+    },
+    {
+      "id": "ides-of-march",
+      "start": -43,
+      "type": "ruler",
+      "title": {
+        "en": "Senators stab Julius Caesar to death at a meeting in the Theatre of Pompey, on the Ides of March",
+        "es": "Unos senadores apuñalan a Julio César hasta matarlo en una sesión en el Teatro de Pompeyo, en los idus de marzo",
+        "zh": "三月十五日，元老们在庞培剧场的会议上将尤利乌斯·凯撒刺死"
+      },
+      "sources": [
+        {
+          "citation": "Suetonius, Lives of the Caesars, Divus Iulius 31–33, 40 and 81–82 (Loeb Classical Library translation by J. C. Rolfe).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius*.html"
+        },
+        {
+          "citation": "Plutarch, Life of Caesar 32 and 63–66 (Loeb Classical Library translation by Bernadotte Perrin).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html"
+        },
+        {
+          "citation": "Goldsworthy, Adrian (2006). Caesar: The Life of a Colossus. Yale University Press."
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Theatre of Pompey, Rome",
+          "es": "Teatro de Pompeyo, Roma",
+          "zh": "罗马庞培剧场"
+        },
+        "lat": 41.8952,
+        "lon": 12.4738,
+        "pleiadesId": "541950317"
+      }
+    },
+    {
+      "id": "actium",
+      "start": -30,
+      "end": -29,
+      "type": "conflict",
+      "title": {
+        "en": "Octavian's fleet defeats Antony and Cleopatra at Actium; Egypt becomes Roman the next year",
+        "es": "La flota de Octavio derrota a Antonio y Cleopatra en Accio; Egipto pasa a ser romano al año siguiente",
+        "zh": "屋大维的舰队在亚克兴击败安东尼与克娄巴特拉；次年埃及并入罗马"
+      },
+      "sources": [
+        {
+          "citation": "Cassius Dio, Roman History, books 50, 56, 66, 68 and 78 (Loeb Classical Library translation by Earnest Cary).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/home.html"
+        },
+        {
+          "citation": "Syme, Ronald (1939). The Roman Revolution. Oxford University Press."
+        },
+        {
+          "citation": "Bowman, A. K., Champlin, E. & Lintott, A. (eds) (1996). The Cambridge Ancient History, vol. X: The Augustan Empire, 43 B.C.–A.D. 69 (2nd ed.). Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521264303"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Actium",
+          "es": "Accio",
+          "zh": "亚克兴"
+        },
+        "lat": 38.9539,
+        "lon": 20.7659,
+        "pleiadesId": "530771"
+      }
+    },
+    {
+      "id": "augustus",
+      "start": -26,
+      "type": "ruler",
+      "title": {
+        "en": "The Senate grants Octavian the name Augustus; historians count him as the first emperor",
+        "es": "El Senado concede a Octavio el nombre de Augusto; los historiadores lo consideran el primer emperador",
+        "zh": "元老院授予屋大维“奥古斯都”称号；史学界视他为首位皇帝"
+      },
+      "sources": [
+        {
+          "citation": "Augustus, Res Gestae Divi Augusti 34 (Loeb Classical Library translation by F. W. Shipley).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/home.html"
+        },
+        {
+          "citation": "Syme, Ronald (1939). The Roman Revolution. Oxford University Press."
+        },
+        {
+          "citation": "Galinsky, Karl (2012). Augustus: Introduction to the Life of an Emperor. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CBO9781139045575"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Rome",
+          "es": "Roma",
+          "zh": "罗马"
+        },
+        "lat": 41.89,
+        "lon": 12.4913,
+        "pleiadesId": "423025"
+      }
+    },
+    {
+      "id": "teutoburg",
+      "start": 9,
+      "type": "conflict",
+      "title": {
+        "en": "Arminius's Germanic alliance destroys three legions in the Teutoburg Forest; Rome gives up on Germany beyond the Rhine",
+        "es": "La alianza germánica de Arminio destruye tres legiones en el bosque de Teutoburgo; Roma renuncia a la Germania más allá del Rin",
+        "zh": "阿米尼乌斯率日耳曼联军在条顿堡森林全歼三个军团；罗马放弃莱茵河以东的日耳曼尼亚"
+      },
+      "sources": [
+        {
+          "citation": "Wells, Peter S. (2003). The Battle That Stopped Rome: Emperor Augustus, Arminius, and the Slaughter of the Legions in the Teutoburg Forest. W. W. Norton."
+        },
+        {
+          "citation": "Cassius Dio, Roman History, books 50, 56, 66, 68 and 78 (Loeb Classical Library translation by Earnest Cary).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/home.html"
+        },
+        {
+          "citation": "Bowman, A. K., Champlin, E. & Lintott, A. (eds) (1996). The Cambridge Ancient History, vol. X: The Augustan Empire, 43 B.C.–A.D. 69 (2nd ed.). Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521264303"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The battle site was identified at Kalkriese, near Osnabrück, by finds made since 1987.",
+        "es": "El lugar de la batalla se identificó en Kalkriese, cerca de Osnabrück, gracias a hallazgos realizados desde 1987.",
+        "zh": "战场位置经1987年以来的考古发现确定在奥斯纳布吕克附近的卡尔克里泽。"
+      },
+      "place": {
+        "name": {
+          "en": "Teutoburg Forest (Kalkriese)",
+          "es": "Bosque de Teutoburgo (Kalkriese)",
+          "zh": "条顿堡森林（卡尔克里泽）"
+        },
+        "lat": 52.4064,
+        "lon": 8.1286,
+        "pleiadesId": "98992"
+      }
+    },
+    {
+      "id": "jerusalem-temple",
+      "start": 70,
+      "type": "conflict",
+      "title": {
+        "en": "Titus's legions storm Jerusalem and destroy the Second Temple",
+        "es": "Las legiones de Tito toman Jerusalén y destruyen el Segundo Templo",
+        "zh": "提图斯的军团攻陷耶路撒冷，摧毁第二圣殿"
+      },
+      "sources": [
+        {
+          "citation": "Josephus, The Jewish War, books 5–6 (Loeb Classical Library translation by H. St. J. Thackeray)."
+        },
+        {
+          "citation": "Goodman, Martin (2007). Rome and Jerusalem: The Clash of Ancient Civilizations. Allen Lane."
+        },
+        {
+          "citation": "Bowman, A. K., Garnsey, P. & Rathbone, D. (eds) (2000). The Cambridge Ancient History, vol. XI: The High Empire, A.D. 70–192 (2nd ed.). Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521263351"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Jerusalem",
+          "es": "Jerusalén",
+          "zh": "耶路撒冷"
+        },
+        "lat": 31.7772,
+        "lon": 35.235,
+        "pleiadesId": "687928"
+      }
+    },
+    {
+      "id": "vesuvius",
+      "start": 79,
+      "type": "collapse",
+      "title": {
+        "en": "Vesuvius erupts and buries Pompeii and Herculaneum under ash and rock",
+        "es": "El Vesubio entra en erupción y sepulta Pompeya y Herculano bajo ceniza y roca",
+        "zh": "维苏威火山喷发，庞贝与赫库兰尼姆被火山灰和岩石掩埋"
+      },
+      "sources": [
+        {
+          "citation": "Pliny the Younger, Letters 6.16 and 6.20, to Tacitus, on the eruption of Vesuvius (translation by William Melmoth, revised).",
+          "url": "https://www.gutenberg.org/ebooks/2811"
+        },
+        {
+          "citation": "Beard, Mary (2008). Pompeii: The Life of a Roman Town. Profile Books."
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Archaeological Areas of Pompei, Herculaneum and Torre Annunziata\" (inscribed 1997).",
+          "url": "https://whc.unesco.org/en/list/829"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The year is certain; the day is not. Manuscripts of Pliny give 24 August, but finds of autumn fruit and a charcoal graffito point to October.",
+        "es": "El año es seguro; el día no. Los manuscritos de Plinio dan el 24 de agosto, pero los hallazgos de fruta otoñal y un grafito al carbón apuntan a octubre.",
+        "zh": "年份确定，具体日期不确定。小普林尼的抄本记为8月24日，但秋季果实和一处炭笔涂鸦的发现指向10月。"
+      },
+      "place": {
+        "name": {
+          "en": "Pompeii",
+          "es": "Pompeya",
+          "zh": "庞贝"
+        },
+        "lat": 40.7494,
+        "lon": 14.4854,
+        "pleiadesId": "433032"
+      }
+    },
+    {
+      "id": "colosseum",
+      "start": 80,
+      "type": "invention",
+      "title": {
+        "en": "Titus opens the Colosseum with a hundred days of games",
+        "es": "Tito inaugura el Coliseo con cien días de juegos",
+        "zh": "提图斯以百日竞技庆典为罗马斗兽场揭幕"
+      },
+      "sources": [
+        {
+          "citation": "Hopkins, Keith & Beard, Mary (2005). The Colosseum. Profile Books."
+        },
+        {
+          "citation": "Cassius Dio, Roman History, books 50, 56, 66, 68 and 78 (Loeb Classical Library translation by Earnest Cary).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/home.html"
+        },
+        {
+          "citation": "Suetonius, Lives of the Caesars, Divus Titus 7 (Loeb Classical Library translation by J. C. Rolfe).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Titus*.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Colosseum, Rome",
+          "es": "Coliseo, Roma",
+          "zh": "罗马斗兽场"
+        },
+        "lat": 41.8903,
+        "lon": 12.4923,
+        "pleiadesId": "285857974"
+      }
+    },
+    {
+      "id": "greatest-extent",
+      "start": 116,
+      "end": 117,
+      "type": "ruler",
+      "title": {
+        "en": "Trajan's army takes the Parthian capital Ctesiphon; at his death in 117 the empire is at its largest",
+        "es": "El ejército de Trajano toma Ctesifonte, la capital parta; a su muerte en 117 el imperio alcanza su máxima extensión",
+        "zh": "图拉真的军队攻占帕提亚都城泰西封；117年他去世时帝国版图达到最大"
+      },
+      "sources": [
+        {
+          "citation": "Bennett, Julian (1997). Trajan: Optimus Princeps. Routledge."
+        },
+        {
+          "citation": "Cassius Dio, Roman History, books 50, 56, 66, 68 and 78 (Loeb Classical Library translation by Earnest Cary).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/home.html"
+        },
+        {
+          "citation": "Bowman, A. K., Garnsey, P. & Rathbone, D. (eds) (2000). The Cambridge Ancient History, vol. XI: The High Empire, A.D. 70–192 (2nd ed.). Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521263351"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Ctesiphon",
+          "es": "Ctesifonte",
+          "zh": "泰西封"
+        },
+        "lat": 33.0947,
+        "lon": 44.5812,
+        "pleiadesId": "893976"
+      }
+    },
+    {
+      "id": "hadrians-wall",
+      "start": 122,
+      "type": "invention",
+      "title": {
+        "en": "Hadrian orders a wall across northern Britain, 117 km from sea to sea",
+        "es": "Adriano ordena levantar una muralla a través del norte de Britania, 117 km de mar a mar",
+        "zh": "哈德良下令在不列颠北部修筑一道横贯两海、长117公里的城墙"
+      },
+      "sources": [
+        {
+          "citation": "Breeze, David J. & Dobson, Brian (2000). Hadrian's Wall (4th ed.). Penguin."
+        },
+        {
+          "citation": "Historia Augusta, Life of Hadrian 11.2 (Loeb Classical Library translation by David Magie).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/Hadrian/1*.html"
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Frontiers of the Roman Empire\" (Hadrian's Wall inscribed 1987).",
+          "url": "https://whc.unesco.org/en/list/430"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Hadrian's Wall",
+          "es": "Muro de Adriano",
+          "zh": "哈德良长城"
+        },
+        "lat": 54.9997,
+        "lon": -2.4264,
+        "pleiadesId": "91358"
+      }
+    },
+    {
+      "id": "citizenship-for-all",
+      "start": 212,
+      "type": "invention",
+      "title": {
+        "en": "Caracalla grants Roman citizenship to nearly every free inhabitant of the empire",
+        "es": "Caracalla concede la ciudadanía romana a casi todos los habitantes libres del imperio",
+        "zh": "卡拉卡拉授予帝国境内几乎所有自由民罗马公民权"
+      },
+      "sources": [
+        {
+          "citation": "Lavan, Myles (2016). \"The Spread of Roman Citizenship, 14–212 CE: Quantification in the Face of High Uncertainty.\" Past & Present 230(1): 3–46.",
+          "url": "https://doi.org/10.1093/pastj/gtv043"
+        },
+        {
+          "citation": "Ando, Clifford (2012). Imperial Rome AD 193 to 284: The Critical Century. Edinburgh University Press."
+        },
+        {
+          "citation": "Cassius Dio, Roman History, books 50, 56, 66, 68 and 78 (Loeb Classical Library translation by Earnest Cary).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/home.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Rome",
+          "es": "Roma",
+          "zh": "罗马"
+        },
+        "lat": 41.89,
+        "lon": 12.4913,
+        "pleiadesId": "423025"
+      }
+    },
+    {
+      "id": "milvian-bridge",
+      "start": 312,
+      "type": "conflict",
+      "title": {
+        "en": "Constantine defeats Maxentius at the Milvian Bridge and begins to favour Christianity",
+        "es": "Constantino derrota a Majencio en el Puente Milvio y empieza a favorecer el cristianismo",
+        "zh": "君士坦丁在米尔维安桥击败马克森提乌斯，开始扶持基督教"
+      },
+      "sources": [
+        {
+          "citation": "Lenski, Noel (ed.) (2006). The Cambridge Companion to the Age of Constantine. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CCOL0521818389"
+        },
+        {
+          "citation": "Barnes, Timothy D. (1981). Constantine and Eusebius. Harvard University Press."
+        },
+        {
+          "citation": "Bowman, A. K., Cameron, A. & Garnsey, P. (eds) (2005). The Cambridge Ancient History, vol. XII: The Crisis of Empire, A.D. 193–337 (2nd ed.). Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521301992"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Milvian Bridge, Rome",
+          "es": "Puente Milvio, Roma",
+          "zh": "罗马米尔维安桥"
+        },
+        "lat": 41.9356,
+        "lon": 12.4669,
+        "pleiadesId": "423008"
+      }
+    },
+    {
+      "id": "constantinople-founded",
+      "start": 330,
+      "type": "founding",
+      "title": {
+        "en": "Constantine dedicates Constantinople, a 'New Rome' on the Bosporus, as the empire's eastern capital",
+        "es": "Constantino consagra Constantinopla, una \"Nueva Roma\" en el Bósforo, como capital oriental del imperio",
+        "zh": "君士坦丁在博斯普鲁斯海峡畔建成君士坦丁堡，作为帝国东部都城的“新罗马”"
+      },
+      "sources": [
+        {
+          "citation": "Lenski, Noel (ed.) (2006). The Cambridge Companion to the Age of Constantine. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CCOL0521818389"
+        },
+        {
+          "citation": "Cameron, Averil (1993). The Later Roman Empire, AD 284–430. Fontana / Harvard University Press."
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Historic Areas of Istanbul\" (inscribed 1985).",
+          "url": "https://whc.unesco.org/en/list/356"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Constantinople",
+          "es": "Constantinopla",
+          "zh": "君士坦丁堡"
+        },
+        "lat": 41.0066,
+        "lon": 28.9656,
+        "pleiadesId": "520998"
+      }
+    },
+    {
+      "id": "empire-divided",
+      "start": 395,
+      "type": "ruler",
+      "title": {
+        "en": "Theodosius I dies at Milan; his sons Arcadius and Honorius rule East and West, and the split becomes permanent",
+        "es": "Teodosio I muere en Milán; sus hijos Arcadio y Honorio gobiernan Oriente y Occidente, y la división se vuelve permanente",
+        "zh": "狄奥多西一世在米兰去世；其子阿卡狄乌斯与霍诺留分治东、西两部，帝国分裂从此固定"
+      },
+      "sources": [
+        {
+          "citation": "Cameron, Averil (1993). The Later Roman Empire, AD 284–430. Fontana / Harvard University Press."
+        },
+        {
+          "citation": "Heather, Peter (2005). The Fall of the Roman Empire: A New History of Rome and the Barbarians. Macmillan."
+        },
+        {
+          "citation": "Cameron, A. & Garnsey, P. (eds) (1998). The Cambridge Ancient History, vol. XIII: The Late Empire, A.D. 337–425. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521302005"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Milan",
+          "es": "Milán",
+          "zh": "米兰"
+        },
+        "lat": 45.4637,
+        "lon": 9.1881,
+        "pleiadesId": "383706"
+      }
+    },
+    {
+      "id": "sack-of-rome",
+      "start": 410,
+      "type": "conflict",
+      "title": {
+        "en": "Alaric's Goths sack Rome, the first enemy to hold the city in 800 years",
+        "es": "Los godos de Alarico saquean Roma, el primer enemigo que ocupa la ciudad en 800 años",
+        "zh": "阿拉里克率哥特人洗劫罗马，这是800年来敌军首次占领该城"
+      },
+      "sources": [
+        {
+          "citation": "Kulikowski, Michael (2007). Rome's Gothic Wars: From the Third Century to Alaric. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CBO9781139167277"
+        },
+        {
+          "citation": "Heather, Peter (2005). The Fall of the Roman Empire: A New History of Rome and the Barbarians. Macmillan."
+        },
+        {
+          "citation": "Cameron, A. & Garnsey, P. (eds) (1998). The Cambridge Ancient History, vol. XIII: The Late Empire, A.D. 337–425. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521302005"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Rome",
+          "es": "Roma",
+          "zh": "罗马"
+        },
+        "lat": 41.89,
+        "lon": 12.4913,
+        "pleiadesId": "423025"
+      }
+    },
+    {
+      "id": "western-empire-ends",
+      "start": 476,
+      "type": "collapse",
+      "title": {
+        "en": "The general Odoacer deposes the boy emperor Romulus Augustulus at Ravenna; the West has no more emperors",
+        "es": "El general Odoacro depone al niño emperador Rómulo Augústulo en Rávena; Occidente ya no tiene emperadores",
+        "zh": "将军奥多亚克在拉文纳废黜幼帝罗慕路斯·奥古斯图卢斯；西部从此再无皇帝"
+      },
+      "sources": [
+        {
+          "citation": "Heather, Peter (2005). The Fall of the Roman Empire: A New History of Rome and the Barbarians. Macmillan."
+        },
+        {
+          "citation": "Wickham, Chris (2009). The Inheritance of Rome: A History of Europe from 400 to 1000. Allen Lane."
+        },
+        {
+          "citation": "Cameron, A., Ward-Perkins, B. & Whitby, M. (eds) (2000). The Cambridge Ancient History, vol. XIV: Late Antiquity: Empire and Successors, A.D. 425–600. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521325912"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "476 is a convention. The last western emperor recognised by Constantinople, Julius Nepos, lived until 480, and the eastern emperors ruled on.",
+        "es": "476 es una convención. El último emperador occidental reconocido por Constantinopla, Julio Nepote, vivió hasta 480, y los emperadores orientales siguieron gobernando.",
+        "zh": "476年只是一个惯例。君士坦丁堡承认的最后一位西部皇帝尤利乌斯·尼波斯活到480年，而东部皇帝仍继续统治。"
+      },
+      "place": {
+        "name": {
+          "en": "Ravenna",
+          "es": "Rávena",
+          "zh": "拉文纳"
+        },
+        "lat": 44.4157,
+        "lon": 12.1966,
+        "pleiadesId": "393480"
+      }
+    },
+    {
+      "id": "hagia-sophia",
+      "start": 537,
+      "type": "invention",
+      "title": {
+        "en": "Justinian dedicates Hagia Sophia, built in under six years beneath a dome 31 m across",
+        "es": "Justiniano consagra Santa Sofía, construida en menos de seis años bajo una cúpula de 31 m de diámetro",
+        "zh": "查士丁尼为圣索菲亚大教堂举行落成礼，该教堂不到六年建成，穹顶直径达31米"
+      },
+      "sources": [
+        {
+          "citation": "Procopius, Buildings 1.1 (Loeb Classical Library translation by H. B. Dewing).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Buildings/1A*.html"
+        },
+        {
+          "citation": "Mainstone, Rowland J. (1988). Hagia Sophia: Architecture, Structure and Liturgy of Justinian's Great Church. Thames & Hudson."
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Historic Areas of Istanbul\" (inscribed 1985).",
+          "url": "https://whc.unesco.org/en/list/356"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Hagia Sophia, Constantinople",
+          "es": "Santa Sofía, Constantinopla",
+          "zh": "君士坦丁堡圣索菲亚大教堂"
+        },
+        "lat": 41.0085,
+        "lon": 28.9799,
+        "pleiadesId": "307220778"
+      }
+    },
+    {
+      "id": "arab-conquests",
+      "start": 636,
+      "end": 641,
+      "type": "conflict",
+      "title": {
+        "en": "Arab armies crush the Byzantines at the Yarmouk; Syria, then Egypt, are lost for good",
+        "es": "Los ejércitos árabes aplastan a los bizantinos en el Yarmuk; Siria y luego Egipto se pierden para siempre",
+        "zh": "阿拉伯军队在雅尔穆克河大败拜占庭军；叙利亚继而埃及永久丧失"
+      },
+      "sources": [
+        {
+          "citation": "Kaegi, Walter E. (1992). Byzantium and the Early Islamic Conquests. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CBO9780511470615"
+        },
+        {
+          "citation": "Kennedy, Hugh (2007). The Great Arab Conquests: How the Spread of Islam Changed the World We Live In. Weidenfeld & Nicolson."
+        },
+        {
+          "citation": "Treadgold, Warren (1997). A History of the Byzantine State and Society. Stanford University Press.",
+          "url": "https://doi.org/10.1515/9780804779371"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Yarmouk River",
+          "es": "Río Yarmuk",
+          "zh": "雅尔穆克河"
+        },
+        "lat": 32.6821,
+        "lon": 35.8667,
+        "pleiadesId": "678183"
+      }
+    },
+    {
+      "id": "manzikert",
+      "start": 1071,
+      "type": "conflict",
+      "title": {
+        "en": "Seljuk Turks capture the emperor Romanos IV at Manzikert; Anatolia, the empire's heartland, is opened to Turkish settlement",
+        "es": "Los turcos selyúcidas capturan al emperador Romano IV en Manzikert; Anatolia, el corazón del imperio, queda abierta al asentamiento turco",
+        "zh": "塞尔柱突厥人在曼齐刻尔特俘虏皇帝罗曼努斯四世；帝国腹地安纳托利亚向突厥人敞开"
+      },
+      "sources": [
+        {
+          "citation": "Angold, Michael (1997). The Byzantine Empire, 1025–1204: A Political History (2nd ed.). Longman."
+        },
+        {
+          "citation": "Treadgold, Warren (1997). A History of the Byzantine State and Society. Stanford University Press.",
+          "url": "https://doi.org/10.1515/9780804779371"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Manzikert",
+          "es": "Manzikert",
+          "zh": "曼齐刻尔特"
+        },
+        "lat": 39.1461,
+        "lon": 42.5409,
+        "pleiadesId": "733857263"
+      }
+    },
+    {
+      "id": "fourth-crusade",
+      "start": 1204,
+      "type": "conflict",
+      "title": {
+        "en": "Crusaders and Venetians storm and loot Constantinople and carve the empire into Latin states",
+        "es": "Cruzados y venecianos toman y saquean Constantinopla y reparten el imperio en estados latinos",
+        "zh": "十字军与威尼斯人攻陷并洗劫君士坦丁堡，将帝国分割为多个拉丁国家"
+      },
+      "sources": [
+        {
+          "citation": "Queller, Donald E. & Madden, Thomas F. (1997). The Fourth Crusade: The Conquest of Constantinople (2nd ed.). University of Pennsylvania Press."
+        },
+        {
+          "citation": "Angold, Michael (1997). The Byzantine Empire, 1025–1204: A Political History (2nd ed.). Longman."
+        },
+        {
+          "citation": "Treadgold, Warren (1997). A History of the Byzantine State and Society. Stanford University Press.",
+          "url": "https://doi.org/10.1515/9780804779371"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Constantinople",
+          "es": "Constantinopla",
+          "zh": "君士坦丁堡"
+        },
+        "lat": 41.0066,
+        "lon": 28.9656,
+        "pleiadesId": "520998"
+      }
+    },
+    {
+      "id": "fall-of-constantinople",
+      "start": 1453,
+      "type": "collapse",
+      "title": {
+        "en": "Ottoman cannon breach the walls of Constantinople; the last emperor, Constantine XI, dies in the fighting",
+        "es": "Los cañones otomanos abren brecha en las murallas de Constantinopla; el último emperador, Constantino XI, muere en la lucha",
+        "zh": "奥斯曼大炮轰开君士坦丁堡城墙；末代皇帝君士坦丁十一世战死"
+      },
+      "sources": [
+        {
+          "citation": "Runciman, Steven (1965). The Fall of Constantinople 1453. Cambridge University Press."
+        },
+        {
+          "citation": "Nicol, Donald M. (1993). The Last Centuries of Byzantium, 1261–1453 (2nd ed.). Cambridge University Press."
+        },
+        {
+          "citation": "Treadgold, Warren (1997). A History of the Byzantine State and Society. Stanford University Press.",
+          "url": "https://doi.org/10.1515/9780804779371"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Constantinople",
+          "es": "Constantinopla",
+          "zh": "君士坦丁堡"
+        },
+        "lat": 41.0066,
+        "lon": 28.9656,
+        "pleiadesId": "520998"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "seven-kings",
+      "text": {
+        "en": "Tradition gives Rome just seven kings in 244 years; archaeology shows a cluster of hut villages growing into a walled city with a paved Forum by about 600 BCE.",
+        "es": "La tradición da a Roma solo siete reyes en 244 años; la arqueología muestra un grupo de aldeas de cabañas que se convierte en una ciudad amurallada con un Foro pavimentado hacia el 600 a. e. c.",
+        "zh": "传说罗马244年间只有七位国王；考古则显示一群茅屋村落到约公元前600年已发展为有城墙、广场铺砌的城市。"
+      },
+      "start": -752,
+      "end": -509,
+      "sources": [
+        {
+          "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
+          "url": "https://doi.org/10.4324/9780203821107"
+        },
+        {
+          "citation": "Forsythe, Gary (2005). A Critical History of Early Rome: From Prehistory to the First Punic War. University of California Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "twelve-tables-memorised",
+      "text": {
+        "en": "Rome's first law code, the Twelve Tables, stood in the Forum for anyone to read, and schoolboys were still chanting it from memory in Cicero's day.",
+        "es": "El primer código legal de Roma, las Doce Tablas, estaba expuesto en el Foro para que cualquiera lo leyera, y los escolares todavía lo recitaban de memoria en tiempos de Cicerón.",
+        "zh": "罗马最早的法典《十二铜表法》立于广场供人阅读，直到西塞罗时代学童仍在背诵它。"
+      },
+      "start": -508,
+      "end": -264,
+      "sources": [
+        {
+          "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
+          "url": "https://doi.org/10.4324/9780203821107"
+        },
+        {
+          "citation": "Crawford, M. H. (ed.) (1996). Roman Statutes, vol. 2, no. 40: The Twelve Tables. Institute of Classical Studies, BICS Supplement 64."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "copied-fleet",
+      "text": {
+        "en": "Rome had no war fleet when it took on Carthage in 264 BCE; it built one in two months by copying a Carthaginian warship that had run aground.",
+        "es": "Roma no tenía flota de guerra cuando se enfrentó a Cartago en 264 a. e. c.; construyó una en dos meses copiando un barco de guerra cartaginés que había encallado.",
+        "zh": "公元前264年与迦太基开战时罗马还没有战舰队；它仿照一艘搁浅的迦太基战舰，在两个月内造出了一支舰队。"
+      },
+      "start": -263,
+      "end": -240,
+      "sources": [
+        {
+          "citation": "Polybius, The Histories, books 1, 3 and 15 (Loeb Classical Library translation by W. R. Paton).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/home.html"
+        },
+        {
+          "citation": "Lazenby, J. F. (1996). The First Punic War: A Military History. UCL Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "elephants-and-qin",
+      "text": {
+        "en": "While the First Emperor of Qin was unifying China, Hannibal was marching an army with war elephants over the Alps to fight Rome on its own soil.",
+        "es": "Mientras el Primer Emperador de Qin unificaba China, Aníbal cruzaba los Alpes con un ejército y elefantes de guerra para combatir a Roma en su propio territorio.",
+        "zh": "当秦始皇统一中国之时，汉尼拔正率领带着战象的军队翻越阿尔卑斯山，到罗马本土与之作战。"
+      },
+      "start": -217,
+      "end": -201,
+      "sources": [
+        {
+          "citation": "Polybius, The Histories, books 1, 3 and 15 (Loeb Classical Library translation by W. R. Paton).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/home.html"
+        },
+        {
+          "citation": "Lazenby, J. F. (1978). Hannibal's War: A Military History of the Second Punic War. Aris & Phillips."
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press.",
+          "url": "https://doi.org/10.4159/9780674040144"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "julian-calendar",
+      "text": {
+        "en": "In 46 BCE Julius Caesar replaced Rome's drifting calendar with a 365-day year and a leap day every four years, essentially the calendar most of the world still uses.",
+        "es": "En 46 a. e. c. Julio César sustituyó el calendario desfasado de Roma por un año de 365 días con un día bisiesto cada cuatro años, en esencia el calendario que la mayor parte del mundo sigue usando.",
+        "zh": "公元前46年，尤利乌斯·凯撒用365天一年、每四年一闰的历法取代了罗马混乱的旧历，这基本上就是当今世界通用的历法。"
+      },
+      "start": -45,
+      "end": -27,
+      "sources": [
+        {
+          "citation": "Suetonius, Lives of the Caesars, Divus Iulius 31–33, 40 and 81–82 (Loeb Classical Library translation by J. C. Rolfe).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius*.html"
+        },
+        {
+          "citation": "Hannah, Robert (2005). Greek and Roman Calendars: Constructions of Time in the Classical World. Duckworth."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "rome-and-han",
+      "text": {
+        "en": "Under Augustus, Rome ruled perhaps 50 million people; the Han census of 2 CE counted 57 million at the other end of the Silk Roads, and each empire knew the other only by rumour.",
+        "es": "Bajo Augusto, Roma gobernaba a quizá 50 millones de personas; el censo Han del año 2 e. c. contó 57 millones en el otro extremo de las Rutas de la Seda, y cada imperio solo conocía al otro de oídas.",
+        "zh": "奥古斯都治下的罗马约有5000万人口；公元2年的汉朝户籍则在丝绸之路的另一端统计出5700万人，而两个帝国对彼此都只闻传言。"
+      },
+      "start": -26,
+      "end": 211,
+      "sources": [
+        {
+          "citation": "Scheidel, Walter (ed.) (2009). Rome and China: Comparative Perspectives on Ancient World Empires. Oxford University Press.",
+          "url": "https://doi.org/10.1093/oso/9780195336900.001.0001"
+        },
+        {
+          "citation": "Bielenstein, Hans (1947). \"The Census of China during the Period 2–742 A.D.\" Bulletin of the Museum of Far Eastern Antiquities 19: 125–163."
+        },
+        {
+          "citation": "Yü, Ying-shih (1986). \"Han foreign relations.\" In Twitchett & Loewe (eds), The Cambridge History of China, vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220, 377–462. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521243278.008"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "citizens-everywhere",
+      "text": {
+        "en": "From 212 CE almost every free person in the empire, from a Briton to a Syrian, was a Roman citizen with the right to use Roman law.",
+        "es": "Desde 212 e. c. casi toda persona libre del imperio, de un britano a un sirio, era ciudadano romano con derecho a usar el derecho romano.",
+        "zh": "自公元212年起，帝国境内几乎所有自由民，从不列颠人到叙利亚人，都是享有罗马法权利的罗马公民。"
+      },
+      "start": 212,
+      "end": 476,
+      "sources": [
+        {
+          "citation": "Lavan, Myles (2016). \"The Spread of Roman Citizenship, 14–212 CE: Quantification in the Face of High Uncertainty.\" Past & Present 230(1): 3–46.",
+          "url": "https://doi.org/10.1093/pastj/gtv043"
+        },
+        {
+          "citation": "Ando, Clifford (2012). Imperial Rome AD 193 to 284: The Critical Century. Edinburgh University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "fulin-envoys",
+      "text": {
+        "en": "Tang court records describe envoys from 'Fulin', their name for Constantinople, arriving in 643 CE with gifts of red glass and precious stones.",
+        "es": "Los registros de la corte Tang describen a enviados de \"Fulin\", su nombre para Constantinopla, que llegaron en 643 e. c. con regalos de vidrio rojo y piedras preciosas.",
+        "zh": "唐朝史籍记载，公元643年“拂菻”（即君士坦丁堡）遣使来朝，献上赤玻璃和宝石等礼物。"
+      },
+      "start": 477,
+      "end": 842,
+      "sources": [
+        {
+          "citation": "Liu Xu et al. (945). Jiu Tangshu (Old Book of Tang), chapter 198, entry on Fulin (拂菻)."
+        },
+        {
+          "citation": "Hirth, Friedrich (1885). China and the Roman Orient: Researches into their Ancient and Mediaeval Relations as Represented in Old Chinese Records. Kelly & Walsh. (Translates the Fulin entries of the Jiu Tangshu, ch. 198.)"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "greek-fire",
+      "text": {
+        "en": "Byzantine warships defended Constantinople with 'Greek fire', a burning liquid pumped through bronze siphons; its recipe was a state secret and is still unknown.",
+        "es": "Los barcos de guerra bizantinos defendían Constantinopla con \"fuego griego\", un líquido ardiente bombeado por sifones de bronce; su receta era secreto de Estado y sigue sin conocerse.",
+        "zh": "拜占庭战舰用“希腊火”守卫君士坦丁堡，这是一种通过青铜虹吸管喷射的燃烧液体；其配方是国家机密，至今无人知晓。"
+      },
+      "start": 843,
+      "end": 1203,
+      "sources": [
+        {
+          "citation": "Haldon, John (2006). \"'Greek fire' revisited: recent and current research.\" In Jeffreys, E. (ed.), Byzantine Style, Religion and Civilization: In Honour of Sir Steven Runciman, 290–325. Cambridge University Press."
+        },
+        {
+          "citation": "Partington, J. R. (1960). A History of Greek Fire and Gunpowder. W. Heffer & Sons."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "last-stand",
+      "text": {
+        "en": "By 1453 the Roman Empire was little more than the city of Constantinople, and about 7,000 defenders faced an Ottoman army more than ten times their size.",
+        "es": "Hacia 1453 el Imperio romano era poco más que la ciudad de Constantinopla, y unos 7000 defensores se enfrentaron a un ejército otomano más de diez veces mayor.",
+        "zh": "到1453年，罗马帝国几乎只剩君士坦丁堡一城，约7000名守军面对着十倍以上于己的奥斯曼大军。"
+      },
+      "start": 1204,
+      "end": 1453,
+      "sources": [
+        {
+          "citation": "Runciman, Steven (1965). The Fall of Constantinople 1453. Cambridge University Press."
+        },
+        {
+          "citation": "Nicol, Donald M. (1993). The Last Centuries of Byzantium, 1261–1453 (2nd ed.). Cambridge University Press."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
