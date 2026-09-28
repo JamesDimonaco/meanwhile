@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
+import { hasTerritoryMap, loadBorders, loadCultures } from "@/lib/data/load";
+import type { Source } from "@/lib/data/schema";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/credits">): Promise<Metadata> {
   const locale = await pageLocale(params);
@@ -8,12 +10,24 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/credits"
   return { title: t("title") };
 }
 
-const SOURCE_KEYS = ["periodo", "wikidata", "cliopatria", "pleiades", "dare"] as const;
+const SOURCE_KEYS = ["periodo", "wikidata", "cliopatria", "pleiades", "naturalEarth", "fonts"] as const;
+
+/** Every source cited anywhere in the dataset, once each, alphabetical. */
+function worksCited(): Source[] {
+  const byCitation = new Map<string, Source>();
+  const add = (sources: Source[]) => sources.forEach((s) => byCitation.set(s.citation, s));
+  for (const c of loadCultures()) {
+    for (const item of [...c.periods, ...c.phases, ...c.events, ...c.facts]) add(item.sources);
+    if (hasTerritoryMap(c.id)) add(loadBorders(c.id).sources);
+  }
+  return [...byCitation.values()].sort((a, b) => a.citation.localeCompare(b.citation, "en"));
+}
 
 /** Every data source, its licence and what Meanwhile did with it. */
 export default async function CreditsPage({ params }: PageProps<"/[locale]/credits">) {
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "credits" });
+  const works = worksCited();
 
   return (
     <section className="mx-auto flex w-full max-w-xl flex-col gap-6 pt-4">
@@ -39,6 +53,23 @@ export default async function CreditsPage({ params }: PageProps<"/[locale]/credi
       </ul>
 
       <p className="text-sm text-muted-foreground">{t("neverUsed")}</p>
+
+      <details className="rounded-lg border border-border p-4">
+        <summary className="cursor-pointer font-medium">{t("worksCited", { count: works.length })}</summary>
+        <ul className="mt-3 flex flex-col gap-2 text-sm text-muted-foreground">
+          {works.map((source) => (
+            <li key={source.citation}>
+              {source.url ? (
+                <a href={source.url} target="_blank" rel="noreferrer" className="underline underline-offset-2">
+                  {source.citation}
+                </a>
+              ) : (
+                source.citation
+              )}
+            </li>
+          ))}
+        </ul>
+      </details>
     </section>
   );
 }

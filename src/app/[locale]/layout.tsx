@@ -47,6 +47,14 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
               </div>
             </header>
             <main className="flex-1 px-4 pb-8">{children}</main>
+            <footer className="flex flex-wrap justify-center gap-x-6 gap-y-2 border-t border-border px-4 py-4 text-sm">
+              <Link href="/timeline" className="underline-offset-2 hover:underline">
+                {t("nav.timeline")}
+              </Link>
+              <Link href="/credits" className="underline-offset-2 hover:underline">
+                {t("nav.credits")}
+              </Link>
+            </footer>
           </ExplainerProvider>
         </NextIntlClientProvider>
       </body>

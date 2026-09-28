@@ -27,12 +27,19 @@
       "used": "Ancient place identifiers and coordinates for event map pins.",
       "changes": "Coordinates are copied as published."
     },
-    "dare": {
-      "name": "DARE (Digital Atlas of the Roman Empire)",
-      "licence": "CC BY",
-      "used": "Roman-era place names and locations.",
-      "changes": "Coordinates are copied as published."
+    "naturalEarth": {
+      "name": "Natural Earth",
+      "licence": "Public domain",
+      "used": "The coastlines and land shapes under the Rome territory map.",
+      "changes": "The 1:50m land layer is clipped to the Mediterranean and simplified."
+    },
+    "fonts": {
+      "name": "Inter and Noto Sans SC",
+      "licence": "SIL Open Font License 1.1",
+      "used": "The typefaces for Latin and Chinese text, served from this site.",
+      "changes": "Subset to the characters Meanwhile uses, so Chinese pages load quickly."
     }
   },
-  "neverUsed": "Never used: the Seshat Global History Databank's own dataset, which is non-commercial only."
+  "neverUsed": "Never used: the Seshat Global History Databank's own dataset, which is non-commercial only.",
+  "worksCited": "Every work cited in the data ({count, number})"
 }

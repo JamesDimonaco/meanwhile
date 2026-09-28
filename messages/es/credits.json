@@ -27,12 +27,19 @@
       "used": "Identificadores y coordenadas de lugares antiguos para los marcadores de eventos en el mapa.",
       "changes": "Las coordenadas se copian tal como se publicaron."
     },
-    "dare": {
-      "name": "DARE (Atlas Digital del Imperio Romano)",
-      "licence": "CC BY",
-      "used": "Nombres y ubicaciones de lugares de época romana.",
-      "changes": "Las coordenadas se copian tal como se publicaron."
+    "naturalEarth": {
+      "name": "Natural Earth",
+      "licence": "Dominio público",
+      "used": "Las costas y la forma de las tierras bajo el mapa de territorio de Roma.",
+      "changes": "La capa de tierras a escala 1:50m se recorta al Mediterráneo y se simplifica."
+    },
+    "fonts": {
+      "name": "Inter y Noto Sans SC",
+      "licence": "SIL Open Font License 1.1",
+      "used": "Las tipografías del texto latino y chino, servidas desde este sitio.",
+      "changes": "Se reducen a los caracteres que usa Meanwhile, para que las páginas en chino carguen rápido."
     }
   },
-  "neverUsed": "Nunca usado: el propio conjunto de datos del Seshat Global History Databank, que es solo de uso no comercial."
+  "neverUsed": "Nunca usado: el propio conjunto de datos del Seshat Global History Databank, que es solo de uso no comercial.",
+  "worksCited": "Todas las obras citadas en los datos ({count, number})"
 }

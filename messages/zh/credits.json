@@ -27,12 +27,19 @@
       "used": "事件地图标记所用的古代地点标识符与坐标。",
       "changes": "坐标按原样引用。"
     },
-    "dare": {
-      "name": "DARE（罗马帝国数字地图集）",
-      "licence": "CC BY",
-      "used": "罗马时代的地名与位置。",
-      "changes": "坐标按原样引用。"
+    "naturalEarth": {
+      "name": "Natural Earth",
+      "licence": "公共领域",
+      "used": "罗马疆域地图底图中的海岸线与陆地轮廓。",
+      "changes": "将 1:50m 陆地图层裁剪至地中海地区并进行简化。"
+    },
+    "fonts": {
+      "name": "Inter 与 Noto Sans SC",
+      "licence": "SIL 开源字体许可证 1.1",
+      "used": "拉丁文和中文所用字体，由本站自行托管。",
+      "changes": "只保留 Meanwhile 用到的字符，让中文页面加载更快。"
     }
   },
-  "neverUsed": "未使用：Seshat Global History Databank 自身的数据集，其许可仅限非商业用途。"
+  "neverUsed": "未使用：Seshat Global History Databank 自身的数据集，其许可仅限非商业用途。",
+  "worksCited": "数据中引用的全部文献（{count, number}）"
 }
