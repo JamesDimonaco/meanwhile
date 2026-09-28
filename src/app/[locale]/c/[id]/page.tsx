@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { BeforeAfter } from "@/components/context/before-after";
 import { CultureEvents } from "@/components/culture/culture-events";
 import { PeriodRange } from "@/components/culture/period-range";
 import { MeanwhileCards } from "@/components/meanwhile/meanwhile-cards";
 import { CultureStory } from "@/components/territory-map/culture-story";
 import { pageLocale } from "@/i18n/page-locale";
-import { hasTerritoryMap, loadCulture, loadCultures } from "@/lib/data/load";
+import { hasTerritoryMap, loadCulture, loadCultures, loadSuccession } from "@/lib/data/load";
 import { isMachineTranslated, localize } from "@/lib/data/localize";
-import { defaultPeriod, eventWorld, meanwhile } from "@/lib/data/queries";
+import { defaultPeriod, eventWorld, meanwhile, successionFor, toCultureRef } from "@/lib/data/queries";
+import { recordsHeld } from "@/lib/data/records";
 
 export const dynamicParams = false;
 
@@ -35,6 +37,15 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
   const t = await getTranslations({ locale, namespace: "meanwhile" });
   const tCulture = await getTranslations({ locale, namespace: "culture" });
   const tCommon = await getTranslations({ locale, namespace: "common" });
+  const tContext = await getTranslations({ locale, namespace: "context" });
+  const refs = new Map(cultures.map((c) => [c.id, toCultureRef(c)]));
+  const refsOf = (ids: string[]) => ids.flatMap((i) => refs.get(i) ?? []);
+  const beforeAfter = successionFor(id, loadSuccession()).map((g) => ({
+    ...g,
+    before: refsOf(g.before),
+    after: refsOf(g.after),
+  }));
+  const records = recordsHeld(id, [...refs.values()]);
 
   return (
     <article className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-4">
@@ -49,6 +60,12 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           )}
         </h1>
         <PeriodRange period={period} locale={locale} />
+        <BeforeAfter lines={beforeAfter} locale={locale} />
+        {records.length > 0 && (
+          <p className="text-xs text-muted-foreground">
+            {records.map((kind) => tContext("holds", { kind, disputed: String(period.disputed) })).join(" ")}
+          </p>
+        )}
         {isMachineTranslated(culture, locale) && (
           <p className="text-xs text-muted-foreground">{tCommon("machineTranslated")}</p>
         )}

@@ -1,0 +1,14 @@
+{
+  "beforeAfter": "Antes y después",
+  "inPlace": "En {place}:",
+  "cameBefore": "Vino antes:",
+  "cameAfter": "Vino después:",
+  "records": "Récords",
+  "oldest": "Inicio más antiguo",
+  "newest": "Inicio más reciente",
+  "longest": "Mayor duración",
+  "began": "comenzó hacia <year></year>",
+  "lasted": "{count, plural, one {duró cerca de # año} other {duró cerca de # años}}",
+  "badge": "{kind, select, oldest {Récord de antigüedad aquí} other {Récord de duración aquí}}{disputed, select, true { (fechas discutidas)} other {}}",
+  "holds": "{kind, select, oldest {Comenzó antes que todo lo demás en Meanwhile} newest {Comenzó después que todo lo demás en Meanwhile} other {Duró más que todo lo demás en Meanwhile}}{disputed, select, true { (sus fechas están en discusión)} other {}}."
+}
