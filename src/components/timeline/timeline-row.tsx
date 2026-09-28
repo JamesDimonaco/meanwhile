@@ -100,8 +100,7 @@ export function CultureRow({
             y={0}
             width={Math.max(0, xScale(period.latestEnd) - xScale(period.earliestStart))}
             height={barHeight}
-            fill="none"
-            stroke="var(--destructive)"
+            className="fill-none stroke-amber-600 dark:stroke-amber-400"
             strokeDasharray="3 2"
             rx={2}
           />
