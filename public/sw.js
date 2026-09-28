@@ -1,6 +1,6 @@
 // Meanwhile service worker: offline for pages already viewed.
 //
-// A static export means there's no server-side list of every route to
+// Every page is prerendered but there's no list of every route to
 // precache (and the culture data set keeps growing) - so instead of
 // precaching, this caches each page/asset the first time it's fetched
 // ("cache as you visit"), then serves that cache entry when the network

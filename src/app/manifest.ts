@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 import common from "../../messages/en/common.json";
 
-// Static export has no server to compute this per request.
 export const dynamic = "force-static";
 
 // A single global manifest (not per-locale: the Web Manifest spec has no

@@ -39,7 +39,7 @@ const TAP_SLOP = 8;
 /**
  * ?year= (astronomical, e.g. -1199 = 1200 BCE) so the year line is shareable.
  * The selected year is read once on mount and otherwise owned by this
- * component; a static export has no server to keep it in sync with.
+ * component; the page is prerendered, so no server keeps it in sync.
  */
 export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const locale = useLocale();

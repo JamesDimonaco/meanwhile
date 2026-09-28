@@ -3,11 +3,11 @@
 # Meanwhile
 
 Answers "I'm looking at this. What else was happening in the world at the same time?" in seconds.
-Mobile-first static web app for travellers and museum visitors on weak signal, in en / es / zh (Simplified).
+Mobile-first web app for travellers and museum visitors on weak signal, in en / es / zh (Simplified).
 
 ## Commands
 
-`pnpm dev` · `pnpm build` (runs `validate-data`, then `next build` to `out/`, then fails on any Google host in the output) · `pnpm typecheck` (`next typegen` first, so `PageProps`/`LayoutProps` exist) · `pnpm test` (vitest) · `pnpm lint` · `pnpm validate-data`.
+`pnpm dev` · `pnpm build` (runs `validate-data`, then `next build`, then fails on any Google host in what a browser can receive: `.next/static`, prerendered `.next/server/app` output, `public/`) · `pnpm typecheck` (`next typegen` first, so `PageProps`/`LayoutProps` exist) · `pnpm test` (vitest) · `pnpm lint` · `pnpm validate-data`.
 
 Before handing work back, run typecheck, test, lint, validate-data, and build if you touched pages.
 
@@ -37,7 +37,7 @@ src/components/ui/                   shadcn components (base-nova, RTL-aware)
 
 - Stored as signed integers, **astronomical numbering**: 1 CE = 1, 1 BCE = 0, 2 BCE = -1, 1200 BCE = -1199. Convert only on display, via `src/lib/years.ts`. There is no year zero on screen.
 - Display: `formatYear` / `formatYearRange` (era labels per locale: en BCE/CE, es "a. e. c."/"e. c.", zh 公元前/公元; BC/AD style optional). In components use `<YearText year>` / `<YearRangeText start end>` from `src/components/settings/year-text.tsx` so every date gets the same era style, years-ago toggle and first-BCE explainer.
-- `yearsAgo(year, currentYear())` and `roundYearsAgo`. Call `currentYear()` on the client: in a static export, server code runs at build time and would freeze the year.
+- `yearsAgo(year, currentYear())` and `roundYearsAgo`. Call `currentYear()` on the client: pages are prerendered, so server code runs at build time and would freeze the year.
 - Parsing: `parseYearQuery` for what people type ("1200 BCE", "公元前1200年", "1200 a. C.", "AD 500"). A bare number is CE; a leading minus is BCE the human way ("-1200" = 1200 BCE = -1199). `parseYearParam` for `?year=`, which is the raw astronomical integer (`?year=-1199` = 1200 BCE).
 
 ## Data format
@@ -69,8 +69,8 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 - Every page, layout and `generateMetadata` under `[locale]` starts with `const locale = await pageLocale(params)`. Link with `Link` from `@/i18n/navigation`, not `next/link`.
 - Numbers and years through `Intl` / `src/lib/years.ts`. Show native names beside translated ones with the `lang` attribute set.
 - Logical CSS only: `ms-/me-/ps-/pe-/start-/end-/text-start/border-s/rounded-s`. Lint rejects left/right Tailwind classes.
-- Nothing from Google: no Google Fonts (lint blocks `next/font/google`), maps, analytics or CDNs. Self-host every asset; the build fails on Google hosts in `out/`. Subset any CJK font.
-- Static export: no middleware, cookies, rewrites or server actions. Browser APIs only in effects or `useSyncExternalStore`; wrap every `localStorage` call in try/catch.
+- Nothing from Google: no Google Fonts (lint blocks `next/font/google`), maps, analytics or CDNs. Self-host every asset; the build fails on Google hosts in the built output. Subset any CJK font.
+- Hosting: Next on Vercel, function region `iad1` (`vercel.json`; Anthropic doesn't serve mainland China or Hong Kong, so never `hkg1`). Every page and the `geo/` and manifest route handlers are prerendered (`generateStaticParams`, `force-static`); check the build's route table keeps them `○`/`●`. The only server code is `POST /api/scan`. No middleware, cookies, rewrites or server actions. Browser APIs only in effects or `useSyncExternalStore`; wrap every `localStorage` call in try/catch.
 - Locale choice is stored under `LOCALE_STORAGE_KEY` (`src/i18n/locales.ts`); the root page reads it before browser languages.
 
 ## Ownership (parallel build)
