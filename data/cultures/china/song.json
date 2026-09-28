@@ -1,0 +1,223 @@
+{
+  "id": "song",
+  "region": "china",
+  "wikidataId": "Q7462",
+  "name": {
+    "en": "Song dynasty",
+    "es": "Dinastía Song",
+    "zh": "宋朝"
+  },
+  "nativeName": {
+    "text": "宋朝",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Song",
+    "宋",
+    "Sòng cháo",
+    "Northern Song",
+    "Southern Song"
+  ],
+  "description": {
+    "en": "Song China printed books by the hundred thousand, paid its soldiers and merchants with the world's first government paper money, and watched cities pass a million residents — all while its armies stayed weaker than the steppe powers on its borders. It bought off, retreated from and finally lost to the Mongols, who ended three centuries of rule at a sea battle off the southern coast.",
+    "es": "La China Song imprimía libros por cientos de miles, pagaba a soldados y comerciantes con el primer papel moneda estatal del mundo, y vio a sus ciudades superar el millón de habitantes, todo mientras sus ejércitos seguían siendo más débiles que las potencias de la estepa en sus fronteras. Pagó, se retiró y finalmente perdió ante los mongoles, que pusieron fin a tres siglos de gobierno en una batalla naval frente a la costa sur.",
+    "zh": "宋代中国印刷书籍数以十万计，以世界上最早的政府纸币支付军饷与商贸，都城人口更是突破百万，然而其军力却始终弱于边境的草原强权。宋朝先以岁币求和、继而节节后退，最终败于蒙古之手，三百年的统治在南方海域的一场海战中画上句号。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 960,
+      "latestStart": 960,
+      "earliestEnd": 1279,
+      "latestEnd": 1279,
+      "sources": [
+        {
+          "citation": "\"Song dynasty.\" British Museum."
+        },
+        {
+          "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
+        }
+      ],
+      "periodoId": "p08m57hpd9k",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The Jurchen Jin conquest of the north in 1127 split the dynasty into a Northern Song (960-1127) and Southern Song (1127-1279); this file treats them as one continuous culture.",
+        "es": "La conquista jurchen Jin del norte en 1127 dividió la dinastía en Song del Norte (960-1127) y Song del Sur (1127-1279); este archivo los trata como una sola cultura continua.",
+        "zh": "1127年女真金国攻占北方，将宋朝分为北宋（960—1127）与南宋（1127—1279）；本文件将两者视为同一延续的文化。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "song-founded",
+      "start": 960,
+      "type": "founding",
+      "title": {
+        "en": "General Zhao Kuangyin is proclaimed emperor by his own troops and founds the Song dynasty",
+        "es": "El general Zhao Kuangyin es proclamado emperador por sus propias tropas y funda la dinastía Song",
+        "zh": "将领赵匡胤被部下拥立为帝，建立宋朝"
+      },
+      "sources": [
+        {
+          "citation": "\"Song dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Song-dynasty"
+        },
+        {
+          "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "jiaozi-currency",
+      "start": 1023,
+      "type": "invention",
+      "title": {
+        "en": "The Song government takes over issuing jiaozi, the world's first government-backed paper currency",
+        "es": "El gobierno Song asume la emisión de jiaozi, la primera moneda de papel respaldada por un gobierno en el mundo",
+        "zh": "宋朝政府接管交子的发行，成为世界上最早由政府担保发行的纸币"
+      },
+      "sources": [
+        {
+          "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
+        },
+        {
+          "citation": "\"Song dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Song-dynasty"
+        }
+      ]
+    },
+    {
+      "id": "movable-type",
+      "start": 1041,
+      "end": 1048,
+      "type": "invention",
+      "title": {
+        "en": "Craftsman Bi Sheng invents movable type printing, casting individual characters in fired clay",
+        "es": "El artesano Bi Sheng inventa la impresión con tipos móviles, fundiendo caracteres individuales en arcilla cocida",
+        "zh": "工匠毕昇发明活字印刷术，用烧制的陶土制成单个活字"
+      },
+      "sources": [
+        {
+          "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
+        },
+        {
+          "citation": "\"Song dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Song-dynasty"
+        }
+      ]
+    },
+    {
+      "id": "jingkang-incident",
+      "start": 1127,
+      "type": "conflict",
+      "title": {
+        "en": "Jurchen Jin forces sack the capital Kaifeng and capture two Song emperors, ending Northern Song rule",
+        "es": "Las fuerzas jurchen Jin saquean la capital Kaifeng y capturan a dos emperadores Song, poniendo fin al gobierno de los Song del Norte",
+        "zh": "女真金军攻陷都城开封，俘获两位宋朝皇帝，北宋灭亡"
+      },
+      "sources": [
+        {
+          "citation": "\"Song dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Song-dynasty"
+        },
+        {
+          "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "southern-song-established",
+      "start": 1127,
+      "type": "founding",
+      "title": {
+        "en": "A surviving prince re-establishes the Song court at Hangzhou, beginning the Southern Song",
+        "es": "Un príncipe superviviente restablece la corte Song en Hangzhou, dando inicio a los Song del Sur",
+        "zh": "幸存的宋室宗亲在杭州重建朝廷，南宋自此开始"
+      },
+      "sources": [
+        {
+          "citation": "\"Song dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Song-dynasty"
+        },
+        {
+          "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "xiangyang-falls",
+      "start": 1273,
+      "type": "conflict",
+      "title": {
+        "en": "The fortress city of Xiangyang falls to Mongol forces after a five-year siege, breaking the Song's southern defence line",
+        "es": "La ciudad fortificada de Xiangyang cae ante las fuerzas mongolas tras un asedio de cinco años, quebrando la línea de defensa meridional de los Song",
+        "zh": "襄阳在被蒙古军队围困五年后陷落，宋朝南方防线自此崩溃"
+      },
+      "sources": [
+        {
+          "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
+        },
+        {
+          "citation": "\"Song dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Song-dynasty"
+        }
+      ]
+    },
+    {
+      "id": "battle-of-yamen",
+      "start": 1279,
+      "type": "collapse",
+      "title": {
+        "en": "The last Song loyalists are defeated at the naval Battle of Yamen; a minister carries the child emperor into the sea rather than surrender",
+        "es": "Los últimos leales a los Song son derrotados en la batalla naval de Yamen; un ministro lleva al emperador niño hacia el mar antes que rendirse",
+        "zh": "崖山海战中最后的宋室忠臣战败，一位大臣宁死不降，背负幼帝投海而亡"
+      },
+      "sources": [
+        {
+          "citation": "\"Song dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Song-dynasty"
+        },
+        {
+          "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "paper-money-fact",
+      "start": 1023,
+      "end": 1279,
+      "text": {
+        "en": "Song merchants were using government-printed banknotes centuries before any European government tried it — Marco Polo would later describe Chinese paper money to a Europe that paid in coin.",
+        "es": "Los comerciantes Song ya usaban billetes impresos por el gobierno siglos antes de que cualquier gobierno europeo lo intentara; Marco Polo describiría más tarde el papel moneda chino a una Europa que pagaba en monedas.",
+        "zh": "早在欧洲政府尝试之前几个世纪，宋朝商人便已使用政府印制的纸币——后来马可·波罗向仍以硬币交易的欧洲人描述了中国的纸币。"
+      },
+      "sources": [
+        {
+          "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "compass-fact",
+      "start": 1090,
+      "end": 1279,
+      "text": {
+        "en": "Song sailors were the first recorded to steer by a magnetic compass at sea, letting ships sail out of sight of land toward Southeast Asia and beyond.",
+        "es": "Los marinos Song fueron los primeros de los que se tiene registro en guiarse por brújula magnética en el mar, lo que permitió a los barcos navegar fuera de la vista de tierra hacia el sureste asiático y más allá.",
+        "zh": "宋代水手是已知最早在海上使用磁罗盘导航的人，使船只得以驶离陆地视野、远航东南亚及更远地区。"
+      },
+      "sources": [
+        {
+          "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
+        }
+      ]
+    }
+  ]
+}
