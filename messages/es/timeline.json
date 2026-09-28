@@ -1,4 +1,17 @@
 {
   "title": "Cronología mundial",
-  "yearLine": "Arrastra para cambiar el año"
+  "yearLine": "Arrastra para cambiar el año",
+  "zoomIn": "Acercar",
+  "zoomOut": "Alejar",
+  "activeIn": "Activo hacia {year}",
+  "noneActive": "Aún no hay nada registrado para este año",
+  "alsoHappening": "También ocurría hacia {year}",
+  "close": "Cerrar",
+  "eventTypes": {
+    "founding": "Fundación",
+    "ruler": "Gobernante",
+    "invention": "Invención",
+    "conflict": "Conflicto",
+    "collapse": "Caída"
+  }
 }
