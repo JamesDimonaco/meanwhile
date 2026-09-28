@@ -1,6 +1,8 @@
 // Pure geometry and interaction math for the world timeline, kept separate
 // from rendering so it can be unit-tested without a DOM.
 
+import { scaleLinear } from "d3-scale";
+
 type PeriodBounds = { earliestStart: number; latestStart: number; earliestEnd: number; latestEnd: number };
 type PhaseBounds = { id: string; start: number; end: number };
 
@@ -43,6 +45,19 @@ export function computeYearDomain(ranges: readonly { earliestStart: number; late
     if (r.latestEnd > max) max = r.latestEnd;
   }
   return [min, max];
+}
+
+/**
+ * Axis tick years (astronomical) that land on round *displayed* years:
+ * d3's round -1000 is shown as 1001 BCE, so BCE ticks shift by one, and
+ * the tick at 0 (not a displayed year) becomes 1 CE.
+ */
+export function axisTicks(domain: [number, number], count: number): number[] {
+  return scaleLinear()
+    .domain(domain)
+    .ticks(count)
+    .map((t) => (t <= 0 ? t + 1 : t))
+    .filter((t) => t >= domain[0] && t <= domain[1]);
 }
 
 /** Years moved per Page Up/Down press on the year line. */

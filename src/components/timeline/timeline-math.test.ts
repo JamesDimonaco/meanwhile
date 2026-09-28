@@ -3,6 +3,7 @@ import {
   MAX_PX_PER_YEAR,
   MIN_PX_PER_YEAR,
   YEAR_STEP_PAGE,
+  axisTicks,
   barSegments,
   clampYear,
   clampZoom,
@@ -105,5 +106,23 @@ describe("clampZoom", () => {
   it("pins the exact bounds so a silent change is caught", () => {
     expect(MIN_PX_PER_YEAR).toBe(0.15);
     expect(MAX_PX_PER_YEAR).toBe(12);
+  });
+});
+
+describe("axisTicks", () => {
+  it("puts ticks on round displayed years, so the -1000 gridline reads 1000 BCE, not 1001 BCE", () => {
+    // astronomical -999 = 1000 BCE; there is no year 0 on screen, so the tick there is 1 CE.
+    expect(axisTicks([-1200, 200], 7)).toEqual([-1199, -999, -799, -599, -399, -199, 1, 200]);
+  });
+
+  it("leaves CE ticks untouched", () => {
+    expect(axisTicks([1000, 1900], 4)).toEqual([1000, 1200, 1400, 1600, 1800]);
+  });
+
+  it("never returns a tick outside the domain", () => {
+    for (const t of axisTicks([-4099, 1912], 40)) {
+      expect(t).toBeGreaterThanOrEqual(-4099);
+      expect(t).toBeLessThanOrEqual(1912);
+    }
   });
 });

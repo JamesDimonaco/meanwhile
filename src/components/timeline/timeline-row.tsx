@@ -1,8 +1,10 @@
 import { useLocale, useTranslations } from "next-intl";
 import type { ScaleLinear } from "d3-scale";
 import { localize } from "@/lib/data/localize";
+import { Link } from "@/i18n/navigation";
 import { defaultPeriod } from "@/lib/data/queries";
-import type { Culture, CultureEvent, Region } from "@/lib/data/schema";
+import type { Region } from "@/lib/data/schema";
+import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
 import { barSegments } from "./timeline-math";
 
 // Region order fixes which shared gradient/colour a bar uses; see REGIONS in schema.ts.
@@ -14,24 +16,35 @@ export const REGION_COLOR: Record<Region, string> = {
 };
 
 const BAR_INSET = 4;
+/** Event dots are small to keep bars readable; the hit area is finger-sized. */
+const MARKER_HIT_RADIUS = 11;
 
 /** Frozen name column: region header text, positioned to match the scrollable chart's rows. */
 export function RegionHeaderLabel({ region, y, height }: { region: Region; y: number; height: number }) {
   const t = useTranslations("common");
   return (
-    <text x={0} y={y + height / 2} dy="0.35em" className="fill-muted-foreground text-xs font-medium">
+    <p
+      className="absolute inset-x-0 flex items-center text-xs font-medium text-muted-foreground"
+      style={{ top: y, height }}
+    >
       {t(`regions.${region}`)}
-    </text>
+    </p>
   );
 }
 
-/** Frozen name column: one culture's native/translated name, row-aligned with its bar. */
-export function CultureLabel({ culture, y, height }: { culture: Culture; y: number; height: number }) {
+/** Frozen name column: one culture's name, row-aligned with its bar, linking to its page. */
+export function CultureLabel({ culture, y, height }: { culture: TimelineCulture; y: number; height: number }) {
   const locale = useLocale();
+  const name = localize(culture.name, locale);
   return (
-    <text x={0} y={y + height / 2} dy="0.35em" className="fill-foreground text-xs" lang={culture.nativeName?.lang}>
-      {localize(culture.name, locale)}
-    </text>
+    <Link
+      href={`/c/${culture.id}`}
+      title={name}
+      className="absolute inset-x-0 truncate text-xs hover:underline"
+      style={{ top: y, height, lineHeight: `${height}px` }}
+    >
+      {name}
+    </Link>
   );
 }
 
@@ -43,12 +56,12 @@ export function CultureRow({
   selectedEventId,
   onSelectEvent,
 }: {
-  culture: Culture;
+  culture: TimelineCulture;
   y: number;
   height: number;
   xScale: ScaleLinear<number, number>;
   selectedEventId: string | null;
-  onSelectEvent: (culture: Culture, event: CultureEvent) => void;
+  onSelectEvent: (culture: TimelineCulture, event: TimelineEvent) => void;
 }) {
   const locale = useLocale();
   const period = defaultPeriod(culture);
@@ -61,9 +74,12 @@ export function CultureRow({
   return (
     <g>
       <g transform={`translate(0, ${barTop})`} pointerEvents="none">
-        {segments.map((segment) => {
+        {segments.map((segment, i) => {
           const x = xScale(segment.start);
-          const width = Math.max(0, xScale(segment.end) - x);
+          // Phases (Rome) touch end to end: a hairline gap and alternating
+          // shade keep them readable as segments of one bar.
+          const gap = segment.kind === "phase" && i > 0 ? 1 : 0;
+          const width = Math.max(0, xScale(segment.end) - x - gap);
           const fill =
             segment.kind === "fade-in"
               ? `url(#tl-fade-in-${culture.region})`
@@ -73,11 +89,12 @@ export function CultureRow({
           return (
             <rect
               key={`${segment.kind}-${segment.start}`}
-              x={x}
+              x={x + gap}
               y={0}
               width={width}
               height={barHeight}
               fill={fill}
+              fillOpacity={segment.kind === "phase" && i % 2 === 1 ? 0.7 : 1}
               rx={2}
             />
           );
@@ -96,19 +113,18 @@ export function CultureRow({
         )}
       </g>
       {culture.events.map((event) => (
-        <circle
-          key={event.id}
-          cx={xScale(event.start)}
-          cy={cy}
-          r={selectedEventId === event.id ? 5 : 3.5}
-          fill={selectedEventId === event.id ? "var(--primary)" : "var(--foreground)"}
-          stroke="var(--background)"
-          strokeWidth={1}
-          className="cursor-pointer"
-          onClick={() => onSelectEvent(culture, event)}
-        >
+        <g key={event.id} className="cursor-pointer" onClick={() => onSelectEvent(culture, event)}>
           <title>{localize(event.title, locale)}</title>
-        </circle>
+          <circle cx={xScale(event.start)} cy={cy} r={MARKER_HIT_RADIUS} fill="transparent" />
+          <circle
+            cx={xScale(event.start)}
+            cy={cy}
+            r={selectedEventId === event.id ? 5 : 3.5}
+            fill={selectedEventId === event.id ? "var(--primary)" : "var(--foreground)"}
+            stroke="var(--background)"
+            strokeWidth={1}
+          />
+        </g>
       ))}
     </g>
   );

@@ -5,16 +5,16 @@ import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { scaleLinear } from "d3-scale";
 import { ZoomIn, ZoomOut } from "lucide-react";
-import type { Culture, CultureEvent } from "@/lib/data/schema";
 import { REGIONS } from "@/lib/data/schema";
 import { activeAt, defaultPeriod } from "@/lib/data/queries";
 import { formatYear, parseYearParam } from "@/lib/years";
 import { useSettings } from "@/components/settings/use-settings";
 import { Button } from "@/components/ui/button";
-import { layoutRows } from "./timeline-layout";
+import { layoutRows, type TimelineCulture, type TimelineEvent } from "./timeline-layout";
 import {
   MAX_PX_PER_YEAR,
   MIN_PX_PER_YEAR,
+  axisTicks,
   clampYear,
   clampZoom,
   computeYearDomain,
@@ -23,18 +23,25 @@ import {
 import { CultureLabel, CultureRow, REGION_COLOR, RegionHeaderLabel } from "./timeline-row";
 import { YearPanel, type SelectedEvent } from "./year-panel";
 
-const NAME_COL_WIDTH = 104;
-/** Vertical room above the rows for the draggable year-line handle. */
-const HANDLE_SPACE = 16;
+const NAME_COL_WIDTH = 112;
+const AXIS_SPACE = 16;
+/** Room for the axis labels, then the draggable year-line handle, above the rows. */
+const TOP_SPACE = AXIS_SPACE + 16;
 const DEFAULT_PX_PER_YEAR = 1;
 const ZOOM_FACTOR = 1.5;
+/** Roughly one axis label per this many pixels, wide enough for "公元前1000年". */
+const TICK_SPACING = 120;
+/** Where the year line starts without ?year=: 1 CE has most regions alive at once. */
+const DEFAULT_YEAR = 1;
+/** A touch that moves less than this is a tap on the chart, not a scroll. */
+const TAP_SLOP = 8;
 
 /**
  * ?year= (astronomical, e.g. -1199 = 1200 BCE) so the year line is shareable.
  * The selected year is read once on mount and otherwise owned by this
  * component; a static export has no server to keep it in sync with.
  */
-export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
+export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const locale = useLocale();
   const { eraStyle } = useSettings();
   const t = useTranslations("timeline");
@@ -49,7 +56,7 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
 
   const [year, setYear] = useState<number>(() => {
     const paramYear = parseYearParam(searchParams.get("year"));
-    return clampYear(paramYear ?? domain[1], domain);
+    return clampYear(paramYear ?? DEFAULT_YEAR, domain);
   });
   const [selected, setSelected] = useState<SelectedEvent | null>(null);
 
@@ -68,7 +75,24 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
   const active = useMemo(() => activeAt(cultures, year), [cultures, year]);
 
   const scrollRef = useRef<HTMLDivElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
   const draggingRef = useRef(false);
+  const tapStartRef = useRef<number | null>(null);
+  const lastZoomRef = useRef<number | null>(null);
+  const yearX = xScale(year);
+
+  // Centre the year line on first render and after every zoom, so a phone
+  // never opens on an empty stretch of chart with the line off-screen; after
+  // that, follow the line only when a key press or a marker moves it out of view.
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const zoomed = lastZoomRef.current !== pxPerYear;
+    lastZoomRef.current = pxPerYear;
+    if (zoomed || yearX < el.scrollLeft || yearX > el.scrollLeft + el.clientWidth) {
+      el.scrollLeft = yearX - el.clientWidth / 2;
+    }
+  }, [pxPerYear, yearX]);
 
   const yearFromClientX = useCallback(
     (clientX: number) => {
@@ -82,8 +106,13 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
 
   // Mouse can drag from anywhere in the chart. Touch/pen only drag from the
   // handle (below): the chart body itself must stay swipeable to scroll.
+  // A touch that ends without the browser taking it over as a scroll
+  // (pointercancel) is a tap, and moves the line there.
   const handleBodyPointerDown = (e: React.PointerEvent) => {
-    if (e.pointerType !== "mouse") return;
+    if (e.pointerType !== "mouse") {
+      tapStartRef.current = e.clientX;
+      return;
+    }
     draggingRef.current = true;
     e.currentTarget.setPointerCapture(e.pointerId);
     const next = yearFromClientX(e.clientX);
@@ -102,6 +131,15 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
   };
   const endDrag = () => {
     draggingRef.current = false;
+    tapStartRef.current = null;
+  };
+  const handleBodyPointerUp = (e: React.PointerEvent) => {
+    const start = tapStartRef.current;
+    if (start !== null && Math.abs(e.clientX - start) < TAP_SLOP) {
+      const next = yearFromClientX(e.clientX);
+      if (next !== null) setYear(next);
+    }
+    endDrag();
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -112,12 +150,17 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
   };
 
   const handleSelectEvent = useCallback(
-    (culture: Culture, event: CultureEvent) => {
+    (culture: TimelineCulture, event: TimelineEvent) => {
       setYear(clampYear(event.start, domain));
       setSelected({ culture, event });
     },
     [domain],
   );
+
+  // The panel sits below every row; on a phone that's a screen or more away.
+  useEffect(() => {
+    if (selected) panelRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [selected]);
 
   // Pinch-to-zoom on a trackpad arrives as a ctrl+wheel event; preventDefault
   // needs a non-passive listener, which React's onWheel can't give us.
@@ -133,13 +176,16 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
     return () => el.removeEventListener("wheel", onWheel);
   }, []);
 
-  const svgHeight = totalHeight + HANDLE_SPACE;
-  const yearX = xScale(year);
+  const svgHeight = totalHeight + TOP_SPACE;
+  const ticks = axisTicks(domain, Math.max(2, Math.floor(chartWidth / TICK_SPACING)));
 
   return (
     <div className="flex flex-col gap-3">
-      <div className="flex items-center justify-between gap-2">
-        <p className="text-xs text-muted-foreground">{t("yearLine")}</p>
+      <div className="sticky top-0 z-10 -mx-4 flex items-center justify-between gap-2 bg-background px-4 py-2">
+        <div className="flex flex-col">
+          <output className="text-lg font-semibold tabular-nums">{formatYear(year, locale, eraStyle)}</output>
+          <p className="text-xs text-muted-foreground">{t("yearLine")}</p>
+        </div>
         <div className="flex gap-1">
           <Button
             type="button"
@@ -165,17 +211,15 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
       </div>
 
       <div className="flex gap-2">
-        <svg width={NAME_COL_WIDTH} height={svgHeight} className="shrink-0">
-          <g transform={`translate(0, ${HANDLE_SPACE})`}>
-            {rows.map((row) =>
-              row.kind === "region" ? (
-                <RegionHeaderLabel key={row.region} region={row.region} y={row.y} height={row.height} />
-              ) : (
-                <CultureLabel key={row.culture.id} culture={row.culture} y={row.y} height={row.height} />
-              ),
-            )}
-          </g>
-        </svg>
+        <div className="relative shrink-0" style={{ width: NAME_COL_WIDTH, height: svgHeight }}>
+          {rows.map((row) =>
+            row.kind === "region" ? (
+              <RegionHeaderLabel key={row.region} region={row.region} y={row.y + TOP_SPACE} height={row.height} />
+            ) : (
+              <CultureLabel key={row.culture.id} culture={row.culture} y={row.y + TOP_SPACE} height={row.height} />
+            ),
+          )}
+        </div>
 
         <div ref={scrollRef} className="grow overflow-x-auto">
           <svg width={chartWidth} height={svgHeight} className="block">
@@ -184,19 +228,31 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
                 <FadeGradients key={region} region={region} />
               ))}
             </defs>
+            <g className="fill-muted-foreground text-[10px]">
+              {ticks.map((tick) => (
+                <text key={tick} x={xScale(tick)} y={AXIS_SPACE / 2} dy="0.35em" textAnchor="middle">
+                  {formatYear(tick, locale, eraStyle)}
+                </text>
+              ))}
+            </g>
+            <g stroke="var(--border)">
+              {ticks.map((tick) => (
+                <line key={tick} x1={xScale(tick)} x2={xScale(tick)} y1={TOP_SPACE} y2={svgHeight} />
+              ))}
+            </g>
             <rect
               x={0}
-              y={HANDLE_SPACE}
+              y={TOP_SPACE}
               width={chartWidth}
               height={totalHeight}
               fill="transparent"
               className="cursor-ew-resize"
               onPointerDown={handleBodyPointerDown}
               onPointerMove={handlePointerMove}
-              onPointerUp={endDrag}
+              onPointerUp={handleBodyPointerUp}
               onPointerCancel={endDrag}
             />
-            <g transform={`translate(0, ${HANDLE_SPACE})`}>
+            <g transform={`translate(0, ${TOP_SPACE})`}>
               {rows.map((row) =>
                 row.kind === "region" ? null : (
                   <CultureRow
@@ -214,7 +270,7 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
             <line
               x1={yearX}
               x2={yearX}
-              y1={0}
+              y1={AXIS_SPACE}
               y2={svgHeight}
               stroke="var(--primary)"
               strokeWidth={1.5}
@@ -222,7 +278,7 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
             />
             <circle
               cx={yearX}
-              cy={HANDLE_SPACE / 2}
+              cy={AXIS_SPACE + (TOP_SPACE - AXIS_SPACE) / 2}
               r={7}
               fill="var(--primary)"
               tabIndex={0}
@@ -245,7 +301,9 @@ export function WorldTimeline({ cultures }: { cultures: Culture[] }) {
         </div>
       </div>
 
-      <YearPanel year={year} active={active} selected={selected} onClose={() => setSelected(null)} />
+      <div ref={panelRef} className="scroll-mt-20">
+        <YearPanel year={year} active={active} selected={selected} onClose={() => setSelected(null)} />
+      </div>
     </div>
   );
 }

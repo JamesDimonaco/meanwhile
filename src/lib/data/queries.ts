@@ -21,19 +21,22 @@ export type CultureRef = {
   period: Period;
 };
 
+/** The fields the period queries read, so callers can pass a slimmed culture. */
+export type CultureCore = Pick<Culture, "id" | "region" | "name" | "nativeName" | "periods">;
+
 export type ActiveCulture = { culture: CultureRef; certain: boolean };
 export type MeanwhileCard = { culture: CultureRef; fact: Fact | null };
 export type WorldEvent = { cultureId: string; event: CultureEvent };
 
 type Range = readonly [number, number];
 
-export function defaultPeriod(culture: Culture): Period {
+export function defaultPeriod(culture: CultureCore): Period {
   const period = culture.periods.find((p) => p.default);
   if (!period) throw new Error(`culture ${culture.id} has no default period`);
   return period;
 }
 
-export function toCultureRef(culture: Culture): CultureRef {
+export function toCultureRef(culture: CultureCore): CultureRef {
   return {
     id: culture.id,
     region: culture.region,
@@ -57,7 +60,7 @@ const regionRank = (r: Region) => REGIONS.indexOf(r);
  * otherwise the year only falls in a fuzzy edge. Certain first, then by
  * region, likely start, id.
  */
-export function activeAt(cultures: readonly Culture[], year: number): ActiveCulture[] {
+export function activeAt(cultures: readonly CultureCore[], year: number): ActiveCulture[] {
   return cultures
     .map((c) => ({ c, p: defaultPeriod(c) }))
     .filter(({ p }) => contains(outer(p), year))

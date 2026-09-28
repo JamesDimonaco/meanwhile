@@ -1,12 +1,13 @@
 import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { ActiveCulture } from "@/lib/data/queries";
-import type { Culture, CultureEvent } from "@/lib/data/schema";
+import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { useSettings } from "@/components/settings/use-settings";
 import { formatYear } from "@/lib/years";
 
-export type SelectedEvent = { culture: Culture; event: CultureEvent };
+export type SelectedEvent = { culture: TimelineCulture; event: TimelineEvent };
 
 /**
  * What was alive at the dragged year, or (when a marker was tapped) that
@@ -54,7 +55,9 @@ export function YearPanel({
             .filter((a) => a.culture.id !== selected?.culture.id)
             .map(({ culture, certain }) => (
               <li key={culture.id} className="flex items-center justify-between gap-2 text-sm">
-                <span lang={culture.nativeName?.lang}>{localize(culture.name, locale)}</span>
+                <Link href={`/c/${culture.id}`} className="underline-offset-2 hover:underline">
+                  {localize(culture.name, locale)}
+                </Link>
                 <span className="text-muted-foreground">
                   <YearRangeText start={culture.period.latestStart} end={culture.period.earliestEnd} />
                   {!certain && " ~"}

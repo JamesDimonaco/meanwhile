@@ -1,6 +1,6 @@
 {
   "title": "Cronología mundial",
-  "yearLine": "Arrastra para cambiar el año",
+  "yearLine": "Arrastra la línea o toca el gráfico para cambiar el año",
   "zoomIn": "Acercar",
   "zoomOut": "Alejar",
   "activeIn": "Activo hacia {year}",

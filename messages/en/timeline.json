@@ -1,6 +1,6 @@
 {
   "title": "World timeline",
-  "yearLine": "Drag to change the year",
+  "yearLine": "Drag the line or tap the chart to change the year",
   "zoomIn": "Zoom in",
   "zoomOut": "Zoom out",
   "activeIn": "Active around {year}",
