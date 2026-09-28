@@ -1,0 +1,224 @@
+{
+  "id": "ming",
+  "region": "china",
+  "wikidataId": "Q9903",
+  "name": {
+    "en": "Ming dynasty",
+    "es": "Dinastía Ming",
+    "zh": "明朝"
+  },
+  "nativeName": {
+    "text": "明朝",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Ming",
+    "明",
+    "Míng cháo"
+  ],
+  "description": {
+    "en": "A former peasant and Buddhist novice, Zhu Yuanzhang, drove out the Mongols and built the Forbidden City and the brick Great Wall most visitors picture today, while his admiral Zheng He sailed treasure fleets as far as East Africa decades before Europe's own age of exploration. Later Ming emperors turned the empire inward, and peasant rebellion, not foreign conquest, first broke it open in 1644.",
+    "es": "Un antiguo campesino y novicio budista, Zhu Yuanzhang, expulsó a los mongoles y construyó la Ciudad Prohibida y la Gran Muralla de ladrillo que la mayoría de los visitantes imagina hoy, mientras su almirante Zheng He llevaba flotas del tesoro hasta el este de África décadas antes de la propia era de exploración europea. Emperadores Ming posteriores volvieron el imperio hacia dentro, y fue la rebelión campesina, no la conquista extranjera, la que primero lo quebró en 1644.",
+    "zh": "曾为农民与佛门沙弥的朱元璋驱逐蒙古人，建造了紫禁城以及今日大多数游客所见的砖石长城，其麾下的郑和更率领宝船远航至东非，比欧洲自身的大航海时代早了数十年。此后的明朝皇帝逐渐转向内向治理，1644年最先撕开帝国裂口的并非外敌入侵，而是农民起义。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 1368,
+      "latestStart": 1368,
+      "earliestEnd": 1644,
+      "latestEnd": 1662,
+      "sources": [
+        {
+          "citation": "\"Ming dynasty.\" British Museum."
+        },
+        {
+          "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
+        }
+      ],
+      "periodoId": "p08m57h684x",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The Ming court in Beijing fell in 1644, but Southern Ming loyalist regimes held parts of the south for another 18 years, ending only when the Yongli claimant was executed in Burma in 1662.",
+        "es": "La corte Ming en Beijing cayó en 1644, pero regímenes leales de los Ming del Sur mantuvieron partes del sur durante 18 años más, terminando solo cuando el pretendiente Yongli fue ejecutado en Birmania en 1662.",
+        "zh": "北京的明朝宫廷于1644年陷落，但南明的效忠政权在南方又坚持了十八年，直到1662年永历帝在缅甸被处决方才彻底终结。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "ming-founded",
+      "start": 1368,
+      "type": "founding",
+      "title": {
+        "en": "Rebel leader Zhu Yuanzhang captures the Yuan capital and founds the Ming as the Hongwu Emperor",
+        "es": "El líder rebelde Zhu Yuanzhang captura la capital Yuan y funda los Ming como el emperador Hongwu",
+        "zh": "起义领袖朱元璋攻占元朝都城，建立明朝，是为洪武帝"
+      },
+      "sources": [
+        {
+          "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
+        },
+        {
+          "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "forbidden-city",
+      "start": 1406,
+      "end": 1420,
+      "type": "invention",
+      "title": {
+        "en": "The Yongle Emperor moves the capital to Beijing and builds the Forbidden City as the new imperial palace",
+        "es": "El emperador Yongle traslada la capital a Beijing y construye la Ciudad Prohibida como nuevo palacio imperial",
+        "zh": "永乐帝迁都北京，营建紫禁城作为新的皇宫"
+      },
+      "sources": [
+        {
+          "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
+        },
+        {
+          "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
+        }
+      ]
+    },
+    {
+      "id": "zheng-he-voyages",
+      "start": 1405,
+      "end": 1433,
+      "type": "invention",
+      "title": {
+        "en": "Admiral Zheng He leads seven treasure-fleet voyages across the Indian Ocean, reaching as far as the coast of East Africa",
+        "es": "El almirante Zheng He lidera siete expediciones de la flota del tesoro por el océano Índico, llegando hasta la costa de África oriental",
+        "zh": "郑和率领宝船七下西洋，横渡印度洋，远至东非海岸"
+      },
+      "sources": [
+        {
+          "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
+        },
+        {
+          "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "great-wall-rebuilt",
+      "start": 1450,
+      "end": 1600,
+      "type": "invention",
+      "title": {
+        "en": "Ming engineers rebuild the northern frontier wall in brick and stone, creating most of the Great Wall that survives today",
+        "es": "Los ingenieros Ming reconstruyen el muro fronterizo del norte en ladrillo y piedra, creando la mayor parte de la Gran Muralla que sobrevive hoy",
+        "zh": "明朝工匠以砖石重修北方边墙，构成了今日所见长城的主要部分"
+      },
+      "sources": [
+        {
+          "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
+        },
+        {
+          "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
+        }
+      ]
+    },
+    {
+      "id": "imjin-war",
+      "start": 1592,
+      "end": 1598,
+      "type": "conflict",
+      "title": {
+        "en": "Ming armies intervene to defend Joseon Korea against two Japanese invasions under Toyotomi Hideyoshi",
+        "es": "Los ejércitos Ming intervienen para defender a Joseon (Corea) frente a dos invasiones japonesas bajo Toyotomi Hideyoshi",
+        "zh": "明朝出兵援助朝鲜，抵御丰臣秀吉两次发动的日本入侵"
+      },
+      "sources": [
+        {
+          "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
+        },
+        {
+          "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
+        }
+      ]
+    },
+    {
+      "id": "ming-falls-beijing",
+      "start": 1644,
+      "type": "collapse",
+      "title": {
+        "en": "Rebel leader Li Zicheng captures Beijing; the last Ming emperor hangs himself rather than be taken",
+        "es": "El líder rebelde Li Zicheng captura Beijing; el último emperador Ming se ahorca antes que ser capturado",
+        "zh": "起义领袖李自成攻陷北京，末代明帝自缢殉国，不愿被俘"
+      },
+      "sources": [
+        {
+          "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
+        },
+        {
+          "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "southern-ming-ends",
+      "start": 1662,
+      "type": "collapse",
+      "title": {
+        "en": "Qing forces capture and execute the last Southern Ming claimant in Burma, ending organised Ming resistance",
+        "es": "Las fuerzas Qing capturan y ejecutan al último pretendiente de los Ming del Sur en Birmania, poniendo fin a la resistencia Ming organizada",
+        "zh": "清军在缅甸擒获并处决最后的南明皇位继承者，明朝有组织的抵抗至此终结"
+      },
+      "sources": [
+        {
+          "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
+        },
+        {
+          "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "treasure-ships",
+      "start": 1405,
+      "end": 1433,
+      "text": {
+        "en": "Zheng He's flagship treasure ships are said to have stretched well over 100 metres, dwarfing the tiny caravels Columbus would sail nearly a century later.",
+        "es": "Se dice que los buques del tesoro insignia de Zheng He medían bien más de 100 metros, empequeñeciendo a las diminutas carabelas que Colón navegaría casi un siglo después.",
+        "zh": "据记载，郑和的旗舰宝船长逾百米，令近一个世纪后哥伦布所乘的小型帆船相形见绌。"
+      },
+      "sources": [
+        {
+          "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
+        }
+      ]
+    },
+    {
+      "id": "great-wall-is-ming",
+      "start": 1450,
+      "end": 1600,
+      "text": {
+        "en": "The brick-faced Great Wall that most visitors photograph near Beijing is largely a Ming creation, built two thousand years after the wall of the first Qin emperor and along a different line.",
+        "es": "La Gran Muralla revestida de ladrillo que la mayoría de los visitantes fotografía cerca de Beijing es en gran parte obra Ming, construida dos mil años después de la muralla del primer emperador Qin y siguiendo un trazado distinto.",
+        "zh": "大多数游客在北京附近拍照留念的砖砌长城，绝大部分实为明代所建，比秦始皇所筑长城晚了两千年，走向也不相同。"
+      },
+      "sources": [
+        {
+          "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
+        }
+      ]
+    }
+  ]
+}

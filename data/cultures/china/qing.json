@@ -1,0 +1,227 @@
+{
+  "id": "qing",
+  "region": "china",
+  "wikidataId": "Q8733",
+  "name": {
+    "en": "Qing dynasty",
+    "es": "Dinastía Qing",
+    "zh": "清朝"
+  },
+  "nativeName": {
+    "text": "Daicing Gurun",
+    "lang": "mnc"
+  },
+  "aliases": [
+    "Qing",
+    "清",
+    "Manchu dynasty",
+    "Great Qing",
+    "Daicing Gurun"
+  ],
+  "description": {
+    "en": "Manchu clans from beyond the Great Wall took Beijing amid a Chinese civil war and built the largest, most populous empire China had ever had, roughly tripling its territory under a run of long-lived, capable emperors. Unable to answer industrialised Western and Japanese power in the 19th century, the dynasty spent its last decades losing wars and territory before a six-year-old emperor's abdication ended over two thousand years of imperial rule.",
+    "es": "Clanes manchúes de más allá de la Gran Muralla tomaron Beijing en medio de una guerra civil china y construyeron el imperio más grande y poblado que China había tenido jamás, triplicando aproximadamente su territorio bajo una sucesión de emperadores longevos y capaces. Incapaz de responder al poder industrializado de Occidente y Japón en el siglo XIX, la dinastía pasó sus últimas décadas perdiendo guerras y territorio antes de que la abdicación de un emperador de seis años pusiera fin a más de dos mil años de gobierno imperial.",
+    "zh": "长城以外的满族部落在中国内战之际攻占北京，建立起中国历史上疆域最广、人口最多的帝国，在数位在位长久且颇具才干的皇帝治理下，版图几乎扩大了三倍。面对十九世纪工业化的西方与日本势力，清朝已无力应对，末代数十年间不断丧师失地，最终一位六岁皇帝的退位，为长达两千余年的帝制画上句号。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 1636,
+      "latestStart": 1644,
+      "earliestEnd": 1911,
+      "latestEnd": 1912,
+      "sources": [
+        {
+          "citation": "Library of Congress Subject Headings. \"Qing dynasty, 1644-1912.\""
+        },
+        {
+          "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
+        }
+      ],
+      "periodoId": "p06c6g3dwcc",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Hong Taiji named his Manchu state \"Qing\" in 1636, while it still ruled only Manchuria; Manchu forces did not take Beijing and claim the Chinese throne until 1644. The dynasty is usually said to end with the Xinhai Revolution in 1911, though Puyi's formal abdication edict was not signed until February 1912.",
+        "es": "Hong Taiji nombró a su estado manchú \"Qing\" en 1636, cuando aún solo gobernaba Manchuria; las fuerzas manchúes no tomaron Beijing ni reclamaron el trono chino hasta 1644. Se suele decir que la dinastía termina con la revolución Xinhai de 1911, aunque el edicto formal de abdicación de Puyi no se firmó hasta febrero de 1912.",
+        "zh": "1636年皇太极为其满族政权定国号为\"清\"，当时仍仅统治满洲；满族军队直到1644年才攻入北京、入主中原。通常认为清朝随1911年辛亥革命而终结，但溥仪正式退位诏书直到1912年2月才签署。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "qing-proclaimed",
+      "start": 1636,
+      "type": "founding",
+      "title": {
+        "en": "Hong Taiji renames his Manchu state \"Qing\" and declares himself emperor at Mukden",
+        "es": "Hong Taiji renombra su estado manchú como \"Qing\" y se proclama emperador en Mukden",
+        "zh": "皇太极将其满族政权改国号为\"清\"，在沈阳称帝"
+      },
+      "sources": [
+        {
+          "citation": "\"Qing dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Qing-dynasty"
+        },
+        {
+          "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
+        }
+      ]
+    },
+    {
+      "id": "qing-takes-beijing",
+      "start": 1644,
+      "type": "conflict",
+      "title": {
+        "en": "A Ming general opens the gates to Manchu forces; they take Beijing and enthrone the Shunzhi Emperor over China",
+        "es": "Un general Ming abre las puertas a las fuerzas manchúes; estas toman Beijing y entronizan al emperador Shunzhi sobre China",
+        "zh": "一位明朝将领打开关门迎清军入关，清军占领北京，拥立顺治帝统治中国"
+      },
+      "sources": [
+        {
+          "citation": "\"Qing dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Qing-dynasty"
+        },
+        {
+          "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
+        }
+      ]
+    },
+    {
+      "id": "taiwan-conquest",
+      "start": 1683,
+      "type": "conflict",
+      "title": {
+        "en": "Qing forces conquer Taiwan from Ming loyalist descendants, completing the conquest of Ming resistance",
+        "es": "Las fuerzas Qing conquistan Taiwán a los descendientes leales a los Ming, completando la derrota de la resistencia Ming",
+        "zh": "清军攻取台湾，击败明朝遗臣后裔，明朝抵抗势力彻底覆灭"
+      },
+      "sources": [
+        {
+          "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
+        },
+        {
+          "citation": "\"Qing dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Qing-dynasty"
+        }
+      ]
+    },
+    {
+      "id": "kangxi-reign",
+      "start": 1661,
+      "end": 1722,
+      "type": "ruler",
+      "title": {
+        "en": "The Kangxi Emperor's six-decade reign roughly doubles Qing territory through campaigns in Mongolia, Tibet and Central Asia",
+        "es": "El reinado de seis décadas del emperador Kangxi duplica aproximadamente el territorio Qing mediante campañas en Mongolia, Tíbet y Asia Central",
+        "zh": "康熙帝在位六十余年，通过对蒙古、西藏及中亚的用兵，使清朝疆域大致扩增一倍"
+      },
+      "sources": [
+        {
+          "citation": "\"Qing dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Qing-dynasty"
+        },
+        {
+          "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
+        }
+      ]
+    },
+    {
+      "id": "first-opium-war",
+      "start": 1839,
+      "end": 1842,
+      "type": "conflict",
+      "title": {
+        "en": "Defeat in the First Opium War forces the Qing to cede Hong Kong and open treaty ports to Britain",
+        "es": "La derrota en la Primera Guerra del Opio obliga a los Qing a ceder Hong Kong y abrir puertos de tratado a Gran Bretaña",
+        "zh": "第一次鸦片战争战败，清廷被迫割让香港，并向英国开放通商口岸"
+      },
+      "sources": [
+        {
+          "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
+        },
+        {
+          "citation": "\"Qing dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Qing-dynasty"
+        }
+      ]
+    },
+    {
+      "id": "taiping-rebellion",
+      "start": 1850,
+      "end": 1864,
+      "type": "conflict",
+      "title": {
+        "en": "The Taiping Rebellion, led by a man claiming to be Christ's younger brother, becomes one of the deadliest conflicts in history",
+        "es": "La rebelión Taiping, liderada por un hombre que afirmaba ser el hermano menor de Cristo, se convierte en uno de los conflictos más mortíferos de la historia",
+        "zh": "由自称基督之弟的洪秀全领导的太平天国运动，成为历史上死伤最惨重的冲突之一"
+      },
+      "sources": [
+        {
+          "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
+        },
+        {
+          "citation": "\"Qing dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Qing-dynasty"
+        }
+      ]
+    },
+    {
+      "id": "qing-collapse",
+      "start": 1911,
+      "end": 1912,
+      "type": "collapse",
+      "title": {
+        "en": "The Wuchang Uprising sparks the Xinhai Revolution; six-year-old Puyi abdicates, ending over two thousand years of imperial rule",
+        "es": "El levantamiento de Wuchang desencadena la revolución Xinhai; el emperador Puyi, de seis años, abdica, poniendo fin a más de dos mil años de gobierno imperial",
+        "zh": "武昌起义引发辛亥革命，年仅六岁的溥仪退位，两千余年的帝制统治就此终结"
+      },
+      "sources": [
+        {
+          "citation": "\"Qing dynasty.\" Encyclopaedia Britannica.",
+          "url": "https://www.britannica.com/topic/Qing-dynasty"
+        },
+        {
+          "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "puyi-stayed",
+      "start": 1912,
+      "end": 1924,
+      "text": {
+        "en": "After his abdication, the boy emperor Puyi went on living inside the inner court of the Forbidden City for another twelve years, a private emperor with no empire, until he was finally expelled in 1924.",
+        "es": "Tras su abdicación, el niño emperador Puyi siguió viviendo en la corte interior de la Ciudad Prohibida durante otros doce años, un emperador privado sin imperio, hasta que finalmente fue expulsado en 1924.",
+        "zh": "退位之后，末代皇帝溥仪仍在紫禁城内廷居住了十二年，成为一位有名无实的\"皇帝\"，直到1924年才被最终逐出宫。"
+      },
+      "sources": [
+        {
+          "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
+        }
+      ]
+    },
+    {
+      "id": "taiping-death-toll",
+      "start": 1850,
+      "end": 1864,
+      "disputed": true,
+      "text": {
+        "en": "Historians estimate the Taiping Rebellion killed somewhere between 20 and 30 million people, a toll that rivals the First World War fought half a century later.",
+        "es": "Los historiadores calculan que la rebelión Taiping mató entre 20 y 30 millones de personas, una cifra comparable a la de la Primera Guerra Mundial, librada medio siglo después.",
+        "zh": "历史学家估计太平天国运动造成两千万至三千万人死亡，其规模足以媲美半个世纪后爆发的第一次世界大战。"
+      },
+      "sources": [
+        {
+          "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
+        }
+      ]
+    }
+  ]
+}
