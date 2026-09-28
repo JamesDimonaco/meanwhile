@@ -1,0 +1,183 @@
+{
+  "id": "aztec",
+  "region": "mesoamerica",
+  "wikidataId": "Q12542",
+  "name": {
+    "en": "Aztec Empire",
+    "es": "Imperio azteca",
+    "zh": "阿兹特克帝国"
+  },
+  "aliases": [
+    "Mexica",
+    "Tenochtitlan",
+    "Triple Alliance"
+  ],
+  "nativeName": {
+    "text": "Mēxihcah",
+    "lang": "nah"
+  },
+  "description": {
+    "en": "The Mexica of Tenochtitlan led a triple alliance that dominated central Mexico by tribute and marriage rather than direct rule, until Spanish forces and their native allies destroyed the capital in 1521.",
+    "es": "Los mexicas de Tenochtitlan encabezaron una triple alianza que dominó el centro de México mediante tributos y matrimonios en lugar de gobierno directo, hasta que las fuerzas españolas y sus aliados nativos destruyeron la capital en 1521.",
+    "zh": "特诺奇蒂特兰的墨西加人领导了一个三方联盟，通过贡赋与联姻而非直接统治来支配墨西哥中部，直到1521年西班牙军队及其土著盟友摧毁了这座都城。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "aztec-period",
+      "earliestStart": 1325,
+      "latestStart": 1325,
+      "earliestEnd": 1521,
+      "latestEnd": 1521,
+      "sources": [
+        {
+          "citation": "Townsend, Richard F. (2009). The Aztecs, 3rd edition. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Aztec.\"",
+          "url": "https://www.britannica.com/topic/Aztec"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "13 March 1325 was chosen in 1925 to mark Tenochtitlan's 600th anniversary; the city's actual founding date is not precisely known.",
+        "es": "El 13 de marzo de 1325 fue elegido en 1925 para conmemorar el 600 aniversario de Tenochtitlan; la fecha real de fundación de la ciudad no se conoce con precisión.",
+        "zh": "1325年3月13日是1925年为纪念特诺奇蒂特兰建城六百周年而选定的日期；该城市的确切建立时间并不明确。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "tenochtitlan-founding",
+      "start": 1325,
+      "type": "founding",
+      "title": {
+        "en": "The Mexica found Tenochtitlan on a marshy island in Lake Texcoco, seeing an eagle on a cactus as a sign",
+        "es": "Los mexicas fundan Tenochtitlan en una isla pantanosa del lago Texcoco, tras ver un águila sobre un nopal como señal",
+        "zh": "墨西加人在特斯科科湖中一座沼泽小岛上建立了特诺奇蒂特兰，据说是因为看见一只鹰立于仙人掌上而认定为吉兆"
+      },
+      "sources": [
+        {
+          "citation": "Townsend, Richard F. (2009). The Aztecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Tenochtitlan.\"",
+          "url": "https://www.britannica.com/place/Tenochtitlan"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The founding legend was recorded generations later; the exact year and the eagle story cannot be independently verified.",
+        "es": "La leyenda fundacional fue registrada generaciones después; el año exacto y la historia del águila no pueden verificarse de forma independiente.",
+        "zh": "建城传说是在数代之后才被记录下来的；确切年份与雄鹰的故事都无法得到独立验证。"
+      }
+    },
+    {
+      "id": "triple-alliance",
+      "start": 1428,
+      "type": "founding",
+      "title": {
+        "en": "Tenochtitlan, Texcoco and Tlacopan form the Triple Alliance, defeating the dominant Tepanec city of Azcapotzalco",
+        "es": "Tenochtitlan, Texcoco y Tlacopan forman la Triple Alianza, derrotando a la ciudad tepaneca dominante de Azcapotzalco",
+        "zh": "特诺奇蒂特兰、特斯科科与特拉科潘结成三方联盟，击败了当时占据主导地位的特帕内克城邦阿兹卡波察尔科"
+      },
+      "sources": [
+        {
+          "citation": "Townsend, Richard F. (2009). The Aztecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Aztec.\"",
+          "url": "https://www.britannica.com/topic/Aztec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "templo-mayor",
+      "start": 1487,
+      "type": "invention",
+      "title": {
+        "en": "The Templo Mayor is rededicated at Tenochtitlan with a mass dedication ceremony",
+        "es": "El Templo Mayor es reconsagrado en Tenochtitlan con una gran ceremonia de dedicación",
+        "zh": "特诺奇蒂特兰的大神庙举行了盛大的重新奉献仪式"
+      },
+      "sources": [
+        {
+          "citation": "Townsend, Richard F. (2009). The Aztecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Templo Mayor.\"",
+          "url": "https://www.britannica.com/topic/Great-Temple"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Chronicle accounts of the numbers sacrificed at this dedication vary widely and are now generally considered exaggerated.",
+        "es": "Los relatos de las crónicas sobre el número de sacrificados en esta dedicación varían mucho y hoy se consideran generalmente exagerados.",
+        "zh": "编年史中关于此次奉献仪式献祭人数的记载差异很大，如今普遍认为存在夸大。"
+      }
+    },
+    {
+      "id": "maximum-extent",
+      "start": 1519,
+      "type": "ruler",
+      "title": {
+        "en": "Under Moctezuma II, the empire reaches its greatest extent just before Spanish forces arrive",
+        "es": "Bajo Moctezuma II, el imperio alcanza su mayor extensión justo antes de la llegada de las fuerzas españolas",
+        "zh": "在蒙特祖玛二世治下，帝国在西班牙军队到来前夕达到疆域最大"
+      },
+      "sources": [
+        {
+          "citation": "Townsend, Richard F. (2009). The Aztecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Aztec.\"",
+          "url": "https://www.britannica.com/topic/Aztec"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "fall-of-tenochtitlan",
+      "start": 1521,
+      "type": "collapse",
+      "title": {
+        "en": "Hernán Cortés, allied with rival city-states, captures Tenochtitlan after a prolonged siege",
+        "es": "Hernán Cortés, aliado con ciudades-estado rivales, captura Tenochtitlan tras un prolongado asedio",
+        "zh": "埃尔南·科尔特斯联合敌对城邦，经过长期围困后攻陷特诺奇蒂特兰"
+      },
+      "sources": [
+        {
+          "citation": "Townsend, Richard F. (2009). The Aztecs. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Aztec.\"",
+          "url": "https://www.britannica.com/topic/Aztec"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "chinampas",
+      "start": 1325,
+      "end": 1521,
+      "text": {
+        "en": "Tenochtitlan fed itself from chinampas, floating fields of woven reeds and lake mud anchored by willow roots.",
+        "es": "Tenochtitlan se alimentaba de chinampas, campos flotantes de carrizo tejido y lodo del lago anclados por raíces de sauce.",
+        "zh": "特诺奇蒂特兰依靠“奇南帕”（浮田）自给自足——由编织芦苇与湖泥筑成、以柳树根固定的浮动田地。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Aztec.\"",
+          "url": "https://www.britannica.com/topic/Aztec"
+        }
+      ]
+    }
+  ]
+}

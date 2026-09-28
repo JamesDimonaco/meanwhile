@@ -1,0 +1,178 @@
+{
+  "id": "teotihuacan",
+  "region": "mesoamerica",
+  "wikidataId": "Q172613",
+  "name": {
+    "en": "Teotihuacan",
+    "es": "Teotihuacán",
+    "zh": "特奥蒂瓦坎"
+  },
+  "aliases": [
+    "Teotihuacano"
+  ],
+  "description": {
+    "en": "The largest city in the pre-Columbian Americas, home to perhaps 100,000 people beneath the Pyramids of the Sun and Moon. Its obsidian tools and murals reached the Maya lowlands, though its own language and rulers remain unnamed.",
+    "es": "La ciudad más grande de la América precolombina, hogar de quizás 100 000 personas bajo las pirámides del Sol y de la Luna. Sus herramientas de obsidiana y murales llegaron hasta las tierras bajas mayas, aunque su propia lengua y gobernantes siguen sin nombre.",
+    "zh": "前哥伦布时期美洲最大的城市，在太阳金字塔与月亮金字塔之下曾居住着约十万人。其黑曜石工具与壁画远播至玛雅低地，然而其本身的语言与统治者姓名至今仍不为人知。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "teotihuacan-period",
+      "earliestStart": -99,
+      "latestStart": -99,
+      "earliestEnd": 549,
+      "latestEnd": 749,
+      "sources": [
+        {
+          "citation": "British Museum. Materials and Cultures Thesaurus: \"Teotihuacan\".",
+          "url": "http://collection.britishmuseum.org/id/thesauri/matcult"
+        },
+        {
+          "citation": "Cowgill, George L. (2015). Ancient Teotihuacan: Early Urbanism in Central Mexico. Cambridge University Press."
+        }
+      ],
+      "periodoId": "p08m57h65xz",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Major monuments were sacked and burned around 550 CE, but some occupation may have continued into the 7th or 8th century.",
+        "es": "Los principales monumentos fueron saqueados e incendiados hacia 550 e. c., pero puede que la ocupación continuara hasta el siglo VII u VIII.",
+        "zh": "主要纪念性建筑约在公元550年遭洗劫焚毁，但部分区域可能一直延续有人居住至7、8世纪。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": -99,
+      "type": "founding",
+      "title": {
+        "en": "Teotihuacan begins as a religious centre on the Mexican plateau",
+        "es": "Teotihuacán comienza como un centro religioso en la meseta mexicana",
+        "zh": "特奥蒂瓦坎在墨西哥高原上作为宗教中心兴起"
+      },
+      "sources": [
+        {
+          "citation": "Cowgill, George L. (2015). Ancient Teotihuacan. Cambridge University Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Teotihuacan.\"",
+          "url": "https://www.britannica.com/place/Teotihuacan"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "pyramid-of-the-sun",
+      "start": 1,
+      "end": 249,
+      "type": "invention",
+      "title": {
+        "en": "Builders raise the Pyramid of the Sun, among the largest structures in the pre-Columbian Americas",
+        "es": "Los constructores levantan la Pirámide del Sol, una de las estructuras más grandes de la América precolombina",
+        "zh": "建造者修建了太阳金字塔，是前哥伦布时期美洲最大的建筑之一"
+      },
+      "sources": [
+        {
+          "citation": "Cowgill, George L. (2015). Ancient Teotihuacan. Cambridge University Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Teotihuacan.\"",
+          "url": "https://www.britannica.com/place/Teotihuacan"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "apartment-compounds",
+      "start": 149,
+      "type": "invention",
+      "title": {
+        "en": "Multi-family apartment compounds house most of the city's population along the Avenue of the Dead",
+        "es": "Complejos habitacionales multifamiliares albergan a la mayor parte de la población de la ciudad junto a la Avenida de los Muertos",
+        "zh": "多户合居的住宅群沿亡灵大道分布，容纳了城市的大部分人口"
+      },
+      "sources": [
+        {
+          "citation": "Cowgill, George L. (2015). Ancient Teotihuacan. Cambridge University Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Teotihuacan.\"",
+          "url": "https://www.britannica.com/place/Teotihuacan"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "maya-contact",
+      "start": 378,
+      "type": "conflict",
+      "title": {
+        "en": "Teotihuacan-linked warriors intervene in the Maya city of Tikal, reshaping its ruling dynasty",
+        "es": "Guerreros vinculados a Teotihuacán intervienen en la ciudad maya de Tikal, reconfigurando su dinastía gobernante",
+        "zh": "与特奥蒂瓦坎有关的武士介入玛雅城市蒂卡尔，改变了其统治王朝"
+      },
+      "sources": [
+        {
+          "citation": "Cowgill, George L. (2015). Ancient Teotihuacan. Cambridge University Press."
+        },
+        {
+          "citation": "Coe, Michael D. & Houston, Stephen (2015). The Maya. Thames & Hudson."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The nature of Teotihuacan's involvement at Tikal, direct conquest or indirect influence, is debated.",
+        "es": "Se debate la naturaleza de la implicación de Teotihuacán en Tikal, ya sea conquista directa o influencia indirecta.",
+        "zh": "特奥蒂瓦坎介入蒂卡尔的具体方式——是直接征服还是间接影响——仍有争议。"
+      }
+    },
+    {
+      "id": "sacking",
+      "start": 549,
+      "type": "collapse",
+      "title": {
+        "en": "Teotihuacan's temples along the Avenue of the Dead are sacked and systematically burned",
+        "es": "Los templos de Teotihuacán a lo largo de la Avenida de los Muertos son saqueados y sistemáticamente incendiados",
+        "zh": "特奥蒂瓦坎沿亡灵大道分布的神庙遭到洗劫，并被系统性焚毁"
+      },
+      "sources": [
+        {
+          "citation": "Cowgill, George L. (2015). Ancient Teotihuacan. Cambridge University Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Teotihuacan.\"",
+          "url": "https://www.britannica.com/place/Teotihuacan"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Some researchers link the burning to internal revolt against the elite, others to extreme weather events recorded around 535–536 CE.",
+        "es": "Algunos investigadores vinculan el incendio a una revuelta interna contra la élite, otros a eventos climáticos extremos registrados hacia 535–536 e. c.",
+        "zh": "部分研究者将这场焚毁与针对精英阶层的内部叛乱联系起来，另一些人则归因于约公元535—536年记录的极端气候事件。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "no-name",
+      "start": -99,
+      "end": 549,
+      "text": {
+        "en": "No one knows what Teotihuacan's own people called their city or themselves; \"Teotihuacan\" is an Aztec name given centuries later.",
+        "es": "Nadie sabe cómo llamaban sus propios habitantes a la ciudad o a sí mismos; \"Teotihuacán\" es un nombre azteca dado siglos después.",
+        "zh": "没有人知道特奥蒂瓦坎的居民如何称呼自己的城市或自己；“特奥蒂瓦坎”是数百年后阿兹特克人所起的名字。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Teotihuacan.\"",
+          "url": "https://www.britannica.com/place/Teotihuacan"
+        }
+      ]
+    }
+  ]
+}
