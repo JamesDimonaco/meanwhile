@@ -94,6 +94,13 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     }
   }, [pxPerYear, yearX]);
 
+  // Any move of the line drops a tapped event, which belongs to its own year.
+  const moveYear = (next: number | null) => {
+    if (next === null) return;
+    setYear(next);
+    setSelected(null);
+  };
+
   const yearFromClientX = useCallback(
     (clientX: number) => {
       const el = scrollRef.current;
@@ -115,19 +122,16 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     }
     draggingRef.current = true;
     e.currentTarget.setPointerCapture(e.pointerId);
-    const next = yearFromClientX(e.clientX);
-    if (next !== null) setYear(next);
+    moveYear(yearFromClientX(e.clientX));
   };
   const handleHandlePointerDown = (e: React.PointerEvent) => {
     draggingRef.current = true;
     e.currentTarget.setPointerCapture(e.pointerId);
-    const next = yearFromClientX(e.clientX);
-    if (next !== null) setYear(next);
+    moveYear(yearFromClientX(e.clientX));
   };
   const handlePointerMove = (e: React.PointerEvent) => {
     if (!draggingRef.current) return;
-    const next = yearFromClientX(e.clientX);
-    if (next !== null) setYear(next);
+    moveYear(yearFromClientX(e.clientX));
   };
   const endDrag = () => {
     draggingRef.current = false;
@@ -136,8 +140,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const handleBodyPointerUp = (e: React.PointerEvent) => {
     const start = tapStartRef.current;
     if (start !== null && Math.abs(e.clientX - start) < TAP_SLOP) {
-      const next = yearFromClientX(e.clientX);
-      if (next !== null) setYear(next);
+      moveYear(yearFromClientX(e.clientX));
     }
     endDrag();
   };
@@ -146,7 +149,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     const delta = yearStepForKey(e.key);
     if (delta === null) return;
     e.preventDefault();
-    setYear(clampYear(year + delta, domain));
+    moveYear(clampYear(year + delta, domain));
   };
 
   const handleSelectEvent = useCallback(
