@@ -35,6 +35,10 @@
         {
           "citation": "Encyclopaedia Britannica. \"Caral.\"",
           "url": "https://www.britannica.com/place/Caral"
+        },
+        {
+          "citation": "Haas, Jonathan, Creamer, Winifred & Ruiz, Alvaro (2004). \"Dating the Late Archaic occupation of the Norte Chico region in Peru.\" Nature 432: 1020–1023.",
+          "url": "https://doi.org/10.1038/nature03146"
         }
       ],
       "default": true,
@@ -49,20 +53,20 @@
   "events": [
     {
       "id": "aspero-founding",
-      "start": -3499,
+      "start": -2999,
       "type": "founding",
       "title": {
-        "en": "Áspero, a fishing settlement on the coast near Supe, is founded",
-        "es": "Se funda Áspero, un asentamiento pesquero en la costa cerca de Supe",
-        "zh": "位于苏佩附近海岸的渔业聚落阿斯佩罗建立"
+        "en": "Áspero, a fishing settlement on the coast near Supe, is among the first Norte Chico sites to be occupied",
+        "es": "Áspero, un asentamiento pesquero en la costa cerca de Supe, está entre los primeros sitios ocupados de Norte Chico",
+        "zh": "位于苏佩附近海岸的渔业聚落阿斯佩罗，是小北地区最早有人定居的遗址之一"
       },
       "sources": [
         {
           "citation": "Shady Solís, Ruth (2006). \"America's First City?\" Springer."
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Caral.\"",
-          "url": "https://www.britannica.com/place/Caral"
+          "citation": "Haas, Jonathan, Creamer, Winifred & Ruiz, Alvaro (2004). \"Dating the Late Archaic occupation of the Norte Chico region in Peru.\" Nature 432: 1020–1023.",
+          "url": "https://doi.org/10.1038/nature03146"
         }
       ],
       "disputed": false

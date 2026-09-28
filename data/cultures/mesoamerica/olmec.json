@@ -24,7 +24,7 @@
   "periods": [
     {
       "id": "olmec-period",
-      "earliestStart": -1199,
+      "earliestStart": -1499,
       "latestStart": -1199,
       "earliestEnd": -399,
       "latestEnd": -399,
@@ -38,7 +38,12 @@
         }
       ],
       "default": true,
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Olmec culture is conventionally dated 1200–400 BCE, from San Lorenzo's rise to La Venta's abandonment; occupation at San Lorenzo goes back to about 1500 BCE.",
+        "es": "La cultura olmeca se fecha por convención entre 1200 y 400 a. e. c., desde el auge de San Lorenzo hasta el abandono de La Venta; la ocupación de San Lorenzo se remonta a cerca de 1500 a. e. c.",
+        "zh": "奥尔梅克文化通常定在公元前1200年至前400年，即从圣洛伦索的兴起到拉文塔的废弃；圣洛伦索的聚落则可追溯到约公元前1500年。"
+      }
     }
   ],
   "events": [
@@ -109,7 +114,7 @@
     },
     {
       "id": "la-venta-rise",
-      "start": -999,
+      "start": -899,
       "type": "founding",
       "title": {
         "en": "La Venta rises as the new leading Olmec centre, with a great earthen pyramid at its heart",

@@ -25,7 +25,7 @@
       "id": "chavin-period",
       "earliestStart": -1199,
       "latestStart": -899,
-      "earliestEnd": -249,
+      "earliestEnd": -499,
       "latestEnd": -199,
       "sources": [
         {
@@ -39,9 +39,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Newer radiocarbon work by Rick pushes construction at Chavín de Huántar back to about 1200 BCE; older accounts start the Early Horizon around 900 BCE.",
-        "es": "Trabajos de radiocarbono más recientes de Rick retrasan la construcción en Chavín de Huántar hasta cerca de 1200 a. e. c.; relatos más antiguos sitúan el inicio del Horizonte Temprano hacia 900 a. e. c.",
-        "zh": "里克(Rick)较新的放射性碳测年将查文德万塔尔的建造时间提前至约公元前1200年；较早的说法则将早期地平线的起点定在约公元前900年。"
+        "en": "Newer radiocarbon work by Rick pushes construction at Chavín de Huántar back to about 1200 BCE; older accounts start the Early Horizon around 900 BCE. Building at the temple stopped around 500 BCE, though Chavín-style art lingered in some regions until about 200 BCE.",
+        "es": "Trabajos de radiocarbono más recientes de Rick retrasan la construcción en Chavín de Huántar hasta cerca de 1200 a. e. c.; relatos más antiguos sitúan el inicio del Horizonte Temprano hacia 900 a. e. c. La construcción en el templo cesó hacia 500 a. e. c., aunque el arte de estilo chavín perduró en algunas regiones hasta cerca de 200 a. e. c.",
+        "zh": "里克（Rick）较新的放射性碳测年将查文德万塔尔的建造时间提前至约公元前1200年；较早的说法则将早期地平线的起点定在约公元前900年。神庙的营建约在公元前500年停止，但查文风格的艺术在部分地区延续到约公元前200年。"
       }
     }
   ],
@@ -109,7 +109,12 @@
           "url": "https://www.britannica.com/topic/Chavin"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Traditional accounts date the New Temple to about 500 BCE; Rick's revised radiocarbon chronology places this expansion centuries earlier.",
+        "es": "Los relatos tradicionales fechan el Templo Nuevo hacia 500 a. e. c.; la cronología radiocarbónica revisada de Rick sitúa esta ampliación siglos antes.",
+        "zh": "传统说法将新神庙定在约公元前500年；里克修订后的放射性碳年代学则将这次扩建提前了数百年。"
+      }
     },
     {
       "id": "metalwork",
@@ -133,12 +138,12 @@
     },
     {
       "id": "decline",
-      "start": -249,
+      "start": -499,
       "type": "collapse",
       "title": {
-        "en": "Chavín de Huántar's influence fades as the Early Horizon ends and regional styles replace it",
-        "es": "La influencia de Chavín de Huántar se desvanece al terminar el Horizonte Temprano y ser reemplazada por estilos regionales",
-        "zh": "随着早期地平线结束，查文德万塔尔的影响力逐渐消退，被地方风格取代"
+        "en": "Building stops at Chavín de Huántar and its religious influence fades as regional styles take over",
+        "es": "Cesa la construcción en Chavín de Huántar y su influencia religiosa se desvanece al imponerse estilos regionales",
+        "zh": "查文德万塔尔停止营建，其宗教影响力随着地方风格的兴起而消退"
       },
       "sources": [
         {
@@ -149,25 +154,34 @@
           "url": "https://www.britannica.com/topic/Chavin"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Rick dates the end of construction to about 500 BCE; older accounts run the Chavín horizon to about 200 BCE.",
+        "es": "Rick fecha el fin de la construcción hacia 500 a. e. c.; relatos más antiguos extienden el horizonte chavín hasta cerca de 200 a. e. c.",
+        "zh": "里克将营建的终止定在约公元前500年；较早的说法则将查文地平线延续到约公元前200年。"
+      }
     }
   ],
   "facts": [
     {
       "id": "acoustics",
       "start": -1199,
-      "end": -249,
+      "end": -499,
       "text": {
-        "en": "Rainy-season water rushing through the temple's stone canals was engineered to roar like a jaguar.",
-        "es": "El agua de la temporada de lluvias, al correr por los canales de piedra del templo, fue diseñada para rugir como un jaguar.",
-        "zh": "雨季水流冲过神庙的石制水渠时，会发出如美洲豹般的咆哮声，这是刻意设计的效果。"
+        "en": "When archaeologists sent water rushing through the temple's stone canals, the roar it made suggested the priests had built them to sound like a jaguar.",
+        "es": "Cuando los arqueólogos hicieron correr agua por los canales de piedra del templo, el rugido resultante sugirió que los sacerdotes los habían construido para sonar como un jaguar.",
+        "zh": "考古学家让水流冲过神庙的石制水渠时，发出的轰鸣声让人推测祭司们当初就是要让它听起来像美洲豹的咆哮。"
       },
       "sources": [
+        {
+          "citation": "Lumbreras, Luis G., González, Chacho & Lietaer, Bernard (1976). Acerca de la función del sistema hidráulico de Chavín. Museo Nacional de Antropología y Arqueología, Lima."
+        },
         {
           "citation": "Encyclopaedia Britannica. \"Chavín.\"",
           "url": "https://www.britannica.com/topic/Chavin"
         }
-      ]
+      ],
+      "disputed": true
     }
   ]
 }

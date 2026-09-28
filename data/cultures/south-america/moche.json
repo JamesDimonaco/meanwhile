@@ -8,12 +8,9 @@
     "zh": "莫切文化"
   },
   "aliases": [
-    "Mochica"
+    "Mochica",
+    "Muchik"
   ],
-  "nativeName": {
-    "text": "Muchik",
-    "lang": "omc"
-  },
   "description": {
     "en": "A cluster of related lords ruling northern Peru's coastal valleys, who raised the largest adobe pyramid in Peru and painted their ceramics with scenes of hunting, sacrifice and daily life.",
     "es": "Un conjunto de señoríos emparentados que gobernaban los valles costeros del norte del Perú, que levantaron la mayor pirámide de adobe de Perú y pintaron sus cerámicas con escenas de caza, sacrificio y vida cotidiana.",
@@ -32,8 +29,8 @@
       "latestEnd": 799,
       "sources": [
         {
-          "citation": "British Museum. Materials and Cultures Thesaurus: \"Moche\".",
-          "url": "http://collection.britishmuseum.org/id/thesauri/matcult"
+          "citation": "British Museum collection thesaurus, \"Moche\" (100 BC – AD 700), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hrvh6"
         },
         {
           "citation": "Bawden, Garth (1996). The Moche. Blackwell."

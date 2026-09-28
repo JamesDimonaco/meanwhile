@@ -28,12 +28,12 @@
       "id": "muisca-period",
       "earliestStart": 599,
       "latestStart": 599,
-      "earliestEnd": 1536,
+      "earliestEnd": 1537,
       "latestEnd": 1599,
       "sources": [
         {
-          "citation": "British Museum. Materials and Cultures Thesaurus: \"Muisca\".",
-          "url": "http://collection.britishmuseum.org/id/thesauri/matcult"
+          "citation": "British Museum collection thesaurus, \"Muisca\" (AD 600 – AD 1600), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hzq74"
         },
         {
           "citation": "Broadbent, Sylvia M. (1964). Los Chibchas: Organización sociopolítica. Universidad Nacional de Colombia."
@@ -110,10 +110,11 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Details of the ceremony come from later Spanish chroniclers, not Muisca written records, since the Muisca had no script.",
-        "es": "Los detalles de la ceremonia provienen de cronistas españoles posteriores, no de registros escritos muiscas, ya que los muiscas no tenían escritura.",
-        "zh": "该仪式的细节来自后来的西班牙编年史作者，而非穆伊斯卡人自己的文字记录，因为穆伊斯卡人没有文字。"
-      }
+        "en": "The ceremony cannot be dated; Spanish chroniclers described it after the conquest as an old custom, and the Muisca had no script of their own to record it.",
+        "es": "La ceremonia no puede fecharse; los cronistas españoles la describieron tras la conquista como una costumbre antigua, y los muiscas no tenían escritura propia para registrarla.",
+        "zh": "这一仪式无法确定年代；西班牙编年史作者在征服之后将其描述为一项古老习俗，而穆伊斯卡人没有自己的文字来记录它。"
+      },
+      "end": 1537
     },
     {
       "id": "zipa-zaque-rivalry",

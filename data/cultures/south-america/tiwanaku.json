@@ -158,16 +158,20 @@
       "start": 374,
       "end": 699,
       "text": {
-        "en": "At its height Tiwanaku may have housed 10,000 to 20,000 people on the cold Bolivian altiplano.",
-        "es": "En su apogeo, Tiwanaku pudo albergar entre 10 000 y 20 000 personas en el frío altiplano boliviano.",
-        "zh": "鼎盛时期，蒂瓦纳库在寒冷的玻利维亚高原上可能居住着一万到两万人。"
+        "en": "Tiwanaku stood at about 3,850 metres above sea level; estimates of its peak population run from around 10,000 to several times that.",
+        "es": "Tiwanaku se alzaba a unos 3850 metros sobre el nivel del mar; las estimaciones de su población máxima van desde unas 10 000 personas hasta varias veces esa cifra.",
+        "zh": "蒂瓦纳库地处海拔约3850米；关于其鼎盛人口的估计从约一万人到数倍于此不等。"
       },
       "sources": [
+        {
+          "citation": "Kolata, Alan L. (1993). The Tiwanaku: Portrait of an Andean Civilization. Blackwell."
+        },
         {
           "citation": "Encyclopaedia Britannica. \"Tiwanaku.\"",
           "url": "https://www.britannica.com/place/Tiwanaku"
         }
-      ]
+      ],
+      "disputed": true
     }
   ]
 }

@@ -27,8 +27,8 @@
   "periods": [
     {
       "id": "mixtec-period",
-      "earliestStart": -1499,
-      "latestStart": -1499,
+      "earliestStart": -499,
+      "latestStart": 900,
       "earliestEnd": 1523,
       "latestEnd": 1523,
       "sources": [
@@ -41,7 +41,12 @@
         }
       ],
       "default": true,
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "The Mixtec kingdoms known from the painted codices are Postclassic, from about 900 CE. Mixtec-speaking towns existed in the Oaxaca highlands centuries earlier, and the language itself is reconstructed as separating from its relatives around 1500 BCE.",
+        "es": "Los reinos mixtecas conocidos por los códices pintados son del Posclásico, desde cerca de 900 e. c. Pueblos de habla mixteca existían en las tierras altas de Oaxaca siglos antes, y se reconstruye que la lengua misma se separó de sus parientes hacia 1500 a. e. c.",
+        "zh": "绘画抄本中记载的米斯特克诸王国属于后古典期，始于约公元900年。讲米斯特克语的城镇在此前数百年已存在于瓦哈卡高地，而据语言学重建，米斯特克语本身约在公元前1500年与其亲属语言分离。"
+      }
     }
   ],
   "events": [
@@ -63,7 +68,12 @@
           "url": "https://www.britannica.com/topic/Mixtec"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "The date rests on linguistic reconstruction of when Mixtec split from related languages, not on excavated remains.",
+        "es": "La fecha se basa en la reconstrucción lingüística de cuándo el mixteco se separó de las lenguas emparentadas, no en restos excavados.",
+        "zh": "该年代依据的是米斯特克语与亲属语言分离时间的语言学重建，而非考古发掘的遗存。"
+      }
     },
     {
       "id": "codices",

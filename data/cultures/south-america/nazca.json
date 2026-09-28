@@ -28,8 +28,8 @@
       "latestEnd": 749,
       "sources": [
         {
-          "citation": "British Museum. Materials and Cultures Thesaurus: \"Nasca\".",
-          "url": "http://collection.britishmuseum.org/id/thesauri/matcult"
+          "citation": "British Museum collection thesaurus, \"Nasca\" (100 BC – AD 600), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hjvht"
         },
         {
           "citation": "Silverman, Helaine & Proulx, Donald A. (2002). The Nasca. Blackwell."
@@ -114,7 +114,7 @@
     },
     {
       "id": "puquios",
-      "start": 249,
+      "start": 499,
       "type": "invention",
       "title": {
         "en": "Nazca engineers dig puquios, spiral underground aqueducts that still supply water in dry seasons",
@@ -130,7 +130,12 @@
           "url": "https://www.britannica.com/topic/Nazca-people"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "The puquios cannot be dated directly; most archaeologists place their construction around 500–600 CE, though earlier dates have been argued.",
+        "es": "Los puquios no pueden fecharse directamente; la mayoría de los arqueólogos sitúan su construcción hacia 500–600 e. c., aunque se han defendido fechas anteriores.",
+        "zh": "普基奥斯无法直接测年；多数考古学家将其建造定在约公元500—600年，但也有人主张更早的年代。"
+      }
     },
     {
       "id": "decline",

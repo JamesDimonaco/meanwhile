@@ -29,8 +29,8 @@
       "latestEnd": -1499,
       "sources": [
         {
-          "citation": "British Museum. Materials and Cultures Thesaurus: \"Valdivia\".",
-          "url": "http://collection.britishmuseum.org/id/thesauri/matcult"
+          "citation": "British Museum collection thesaurus, \"Valdivia\" (c. 3500 – 1500 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hgbmd"
         },
         {
           "citation": "Meggers, Betty J. (1966). Ecuador. Ancient Peoples and Places series. Thames & Hudson."
@@ -64,7 +64,7 @@
     },
     {
       "id": "pottery",
-      "start": -2699,
+      "start": -3499,
       "type": "invention",
       "title": {
         "en": "Valdivia potters make some of the oldest fired ceramics known in the Americas",
@@ -82,9 +82,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Dating rests on typology of the earliest pottery styles; a handful of even older sherds have been claimed elsewhere in the Americas.",
-        "es": "La datación se basa en la tipología de los estilos cerámicos más tempranos; en otros lugares de América se han reclamado tiestos aún más antiguos.",
-        "zh": "断代依据最早陶器风格的类型学；美洲其他地方也有人声称发现了更古老的陶片。"
+        "en": "Valdivia's earliest pottery dates to about 3500 BCE. Older ceramics are known from the Amazon and the Colombian coast, so Valdivia is among the oldest, not the oldest.",
+        "es": "La cerámica valdivia más antigua data de cerca de 3500 a. e. c. Se conocen cerámicas más antiguas en la Amazonía y la costa colombiana, por lo que Valdivia está entre las más antiguas, no es la más antigua.",
+        "zh": "瓦尔迪维亚最早的陶器约在公元前3500年。亚马逊地区和哥伦比亚海岸有更古老的陶器，因此瓦尔迪维亚陶器是最早的之一，而非最早。"
       }
     },
     {
@@ -149,7 +149,7 @@
   "facts": [
     {
       "id": "venus-figurines",
-      "start": -2699,
+      "start": -2999,
       "end": -1499,
       "text": {
         "en": "Valdivia potters shaped small clay \"Venus\" figures of women, each with a distinct hairstyle, no two exactly alike.",

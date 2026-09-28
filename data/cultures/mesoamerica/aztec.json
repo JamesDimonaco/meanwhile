@@ -168,14 +168,17 @@
       "start": 1325,
       "end": 1521,
       "text": {
-        "en": "Tenochtitlan fed itself from chinampas, floating fields of woven reeds and lake mud anchored by willow roots.",
-        "es": "Tenochtitlan se alimentaba de chinampas, campos flotantes de carrizo tejido y lodo del lago anclados por raíces de sauce.",
-        "zh": "特诺奇蒂特兰依靠“奇南帕”（浮田）自给自足——由编织芦苇与湖泥筑成、以柳树根固定的浮动田地。"
+        "en": "Tenochtitlan fed itself from chinampas: plots built up from lake mud and reeds in the shallows, held in place by willow trees planted along their edges. They are often called floating gardens, but they never floated.",
+        "es": "Tenochtitlan se alimentaba de chinampas: parcelas levantadas con lodo del lago y carrizo en las aguas someras, sujetas por sauces plantados en sus bordes. A menudo se les llama jardines flotantes, pero nunca flotaron.",
+        "zh": "特诺奇蒂特兰依靠“奇南帕”自给自足：那是在浅水中用湖泥和芦苇堆筑的田地，边缘种植柳树加以固定。它们常被称为“浮田”，其实从未漂浮。"
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Aztec.\"",
-          "url": "https://www.britannica.com/topic/Aztec"
+          "citation": "Townsend, Richard F. (2009). The Aztecs, 3rd edition. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chinampa.\"",
+          "url": "https://www.britannica.com/topic/chinampa"
         }
       ]
     }
