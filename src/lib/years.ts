@@ -21,6 +21,11 @@ export function fromDisplayYear(year: number, era: Era): number {
   return era === "BCE" ? 1 - year : year;
 }
 
+/** Cliopatria's BCE years are negative with no year zero: its -600 is 600 BCE. */
+export function fromCliopatriaYear(year: number): number {
+  return year < 0 ? fromDisplayYear(-year, "BCE") : year;
+}
+
 const NBSP = "\u00a0";
 
 // Era labels are locale data like CLDR, kept here (not in messages) so the

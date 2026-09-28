@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   formatYear,
   formatYearRange,
+  fromCliopatriaYear,
   fromDisplayYear,
   parseYearParam,
   parseYearQuery,
@@ -12,6 +13,19 @@ import {
 
 // Era labels use non-breaking spaces so "1200 BCE" never wraps mid-date.
 const nb = (s: string) => s.replace(/ /g, "\u00a0");
+
+describe("fromCliopatriaYear", () => {
+  // Cliopatria writes BCE years the human way, with no year zero.
+  it("shifts BCE years by one into astronomical numbering", () => {
+    expect(fromCliopatriaYear(-600)).toBe(-599);
+    expect(fromCliopatriaYear(-1)).toBe(0);
+  });
+
+  it("leaves CE years alone", () => {
+    expect(fromCliopatriaYear(1)).toBe(1);
+    expect(fromCliopatriaYear(117)).toBe(117);
+  });
+});
 
 describe("astronomical <-> display years", () => {
   it("maps 1 BCE to 0 and 2 BCE to -1", () => {
