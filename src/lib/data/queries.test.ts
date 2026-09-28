@@ -5,6 +5,7 @@ import {
   activeAt,
   eventsBetween,
   meanwhile,
+  successionFor,
 } from "./queries";
 import type { Culture, CultureEvent, Fact, Region } from "./schema";
 
@@ -185,5 +186,33 @@ describe("eventsBetween", () => {
   it("treats window bounds as inclusive", () => {
     expect(eventsBetween(cultures, -1000, -1000).map((e) => e.event.id)).toEqual(["y2"]);
     expect(eventsBetween(cultures, -999, -501)).toEqual([]);
+  });
+});
+
+describe("successionFor", () => {
+  const place = (en: string) => ({ en, es: en, zh: en });
+  const link = (from: string, to: string, where: string, note?: string) => ({
+    from,
+    to,
+    place: place(where),
+    sources: [src],
+    note: note === undefined ? undefined : { en: note },
+  });
+  const links = [
+    link("teotihuacan", "toltec", "central Mexico", "gap"),
+    link("toltec", "aztec", "central Mexico"),
+    link("tula-rival", "toltec", "Hidalgo"),
+    link("maya", "other", "Yucatan", "unrelated"),
+  ];
+
+  it("puts what came before and after a culture on one line per place", () => {
+    expect(successionFor("toltec", links)).toEqual([
+      { place: place("central Mexico"), before: ["teotihuacan"], after: ["aztec"], notes: [{ en: "gap" }] },
+      { place: place("Hidalgo"), before: ["tula-rival"], after: [], notes: [] },
+    ]);
+  });
+
+  it("is empty for a culture with no links", () => {
+    expect(successionFor("inca", links)).toEqual([]);
   });
 });

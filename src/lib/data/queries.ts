@@ -7,6 +7,7 @@ import {
   type NativeName,
   type Period,
   type Region,
+  type SuccessionLink,
 } from "./schema";
 
 export const MIN_MEANWHILE_CARDS = 4;
@@ -189,4 +190,29 @@ export function eventWorld(culture: Culture, cultures: readonly Culture[]): Even
   return Object.fromEntries(
     culture.events.map((e) => [e.id, activeAt(cultures, e.start).filter((a) => a.culture.id !== culture.id)]),
   );
+}
+
+/** One place's line in the "Before and after" strip: culture ids, in data order. */
+export type SuccessionGroup = {
+  place: SuccessionLink["place"];
+  before: string[];
+  after: string[];
+  notes: LocalizedText[];
+};
+
+/** What came before and after a culture, grouped by place (keyed on the English name). */
+export function successionFor(id: string, links: readonly SuccessionLink[]): SuccessionGroup[] {
+  const groups = new Map<string, SuccessionGroup>();
+  for (const link of links) {
+    if (link.from !== id && link.to !== id) continue;
+    let group = groups.get(link.place.en);
+    if (!group) {
+      group = { place: link.place, before: [], after: [], notes: [] };
+      groups.set(link.place.en, group);
+    }
+    if (link.to === id) group.before.push(link.from);
+    else group.after.push(link.to);
+    if (link.note) group.notes.push(link.note);
+  }
+  return [...groups.values()];
 }
