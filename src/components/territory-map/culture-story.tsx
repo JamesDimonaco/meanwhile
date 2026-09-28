@@ -48,20 +48,31 @@ export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
     return () => observer.disconnect();
   }, []);
 
-  // The event crossing a line low on the screen, below the sticky map, is the one in view.
+  // The event in view is the last one whose top has passed a line below the
+  // sticky map. Driven by scroll, not IntersectionObserver, so a tapped event
+  // opening its panel doesn't shift the next one across the line and steal the map.
   useEffect(() => {
     const items = list.current?.querySelectorAll<HTMLElement>("[data-event-id]");
     if (!items) return;
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const hit = entries.find((e) => e.isIntersecting)?.target;
-        const id = hit instanceof HTMLElement ? hit.dataset.eventId : undefined;
-        if (id) setActiveId(id);
-      },
-      { rootMargin: "-70% 0px -29% 0px" },
-    );
-    items.forEach((item) => observer.observe(item));
-    return () => observer.disconnect();
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      const line = window.innerHeight * 0.6;
+      let id = items[0].dataset.eventId;
+      for (const item of items) {
+        if (item.getBoundingClientRect().top > line) break;
+        id = item.dataset.eventId;
+      }
+      if (id) setActiveId(id);
+    };
+    const onScroll = () => {
+      frame ||= requestAnimationFrame(update);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      cancelAnimationFrame(frame);
+    };
   }, []);
 
   const active = events.find((e) => e.id === activeId) ?? events[0];
