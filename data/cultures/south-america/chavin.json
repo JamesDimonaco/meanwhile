@@ -1,0 +1,173 @@
+{
+  "id": "chavin",
+  "region": "south-america",
+  "wikidataId": "Q13341477",
+  "name": {
+    "en": "Chavín culture",
+    "es": "Cultura Chavín",
+    "zh": "查文文化"
+  },
+  "aliases": [
+    "Chavin",
+    "Chavín de Huántar"
+  ],
+  "description": {
+    "en": "A religious movement centred on the highland temple of Chavín de Huántar that spread shared art styles and beliefs across much of the Peruvian Andes. Priests used sound and darkness inside stone galleries to stage encounters with jaguar and condor gods.",
+    "es": "Un movimiento religioso centrado en el templo de altura de Chavín de Huántar, que difundió estilos artísticos y creencias comunes por buena parte de los Andes peruanos. Los sacerdotes usaban el sonido y la oscuridad en galerías de piedra para escenificar encuentros con dioses jaguar y cóndor.",
+    "zh": "以高地神庙查文德万塔尔为中心的宗教运动，将共同的艺术风格与信仰传播到秘鲁安第斯山脉的大片地区。祭司们利用石廊内的声响与黑暗，营造与美洲豹神、神鹰神相遇的场景。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "chavin-period",
+      "earliestStart": -1199,
+      "latestStart": -899,
+      "earliestEnd": -249,
+      "latestEnd": -199,
+      "sources": [
+        {
+          "citation": "Rick, John W. (2008). \"Context, Construction, and Ritual in the Development of Authority at Chavín de Huántar.\" In Chavín: Art, Architecture, and Culture, Conklin & Quilter (eds.), Cotsen Institute of Archaeology."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chavín.\"",
+          "url": "https://www.britannica.com/topic/Chavin"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Newer radiocarbon work by Rick pushes construction at Chavín de Huántar back to about 1200 BCE; older accounts start the Early Horizon around 900 BCE.",
+        "es": "Trabajos de radiocarbono más recientes de Rick retrasan la construcción en Chavín de Huántar hasta cerca de 1200 a. e. c.; relatos más antiguos sitúan el inicio del Horizonte Temprano hacia 900 a. e. c.",
+        "zh": "里克(Rick)较新的放射性碳测年将查文德万塔尔的建造时间提前至约公元前1200年；较早的说法则将早期地平线的起点定在约公元前900年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "old-temple",
+      "start": -1199,
+      "type": "founding",
+      "title": {
+        "en": "Construction begins on the \"Old Temple\" at Chavín de Huántar, with underground galleries and drainage canals",
+        "es": "Comienza la construcción del \"Templo Viejo\" en Chavín de Huántar, con galerías subterráneas y canales de drenaje",
+        "zh": "查文德万塔尔“旧神庙”开始动工，内设地下廊道和排水渠道"
+      },
+      "sources": [
+        {
+          "citation": "Rick, John W. (2008). \"Context, Construction, and Ritual.\" Cotsen Institute of Archaeology."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chavín.\"",
+          "url": "https://www.britannica.com/topic/Chavin"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Traditional accounts place this closer to 900 BCE; see the period note.",
+        "es": "Los relatos tradicionales sitúan esto más cerca de 900 a. e. c.; véase la nota del periodo.",
+        "zh": "传统说法将此时间定得更接近公元前900年；参见该时期的说明。"
+      }
+    },
+    {
+      "id": "lanzon",
+      "start": -899,
+      "type": "invention",
+      "title": {
+        "en": "Priests carve the Lanzón, a great stone idol placed at the crossing of the temple's inner galleries",
+        "es": "Los sacerdotes tallan el Lanzón, un gran ídolo de piedra colocado en el cruce de las galerías internas del templo",
+        "zh": "祭司雕刻出兰松（Lanzón）——一尊置于神庙内部廊道交汇处的巨型石像"
+      },
+      "sources": [
+        {
+          "citation": "Rick, John W. (2008). \"Context, Construction, and Ritual.\" Cotsen Institute of Archaeology."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chavín.\"",
+          "url": "https://www.britannica.com/topic/Chavin"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "new-temple",
+      "start": -499,
+      "type": "invention",
+      "title": {
+        "en": "The \"New Temple\" expansion adds a sunken circular plaza and larger galleries at Chavín de Huántar",
+        "es": "La ampliación del \"Templo Nuevo\" añade una plaza circular hundida y galerías más grandes en Chavín de Huántar",
+        "zh": "“新神庙”扩建工程增设了一座下沉式圆形广场和更大的廊道"
+      },
+      "sources": [
+        {
+          "citation": "Rick, John W. (2008). \"Context, Construction, and Ritual.\" Cotsen Institute of Archaeology."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chavín.\"",
+          "url": "https://www.britannica.com/topic/Chavin"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "metalwork",
+      "start": -699,
+      "type": "invention",
+      "title": {
+        "en": "Chavín-influenced metalworkers develop early gold soldering and repoussé techniques",
+        "es": "Metalurgistas de influencia chavín desarrollan técnicas tempranas de soldadura y repujado en oro",
+        "zh": "受查文影响的金属工匠发展出早期的黄金焊接与錾花工艺"
+      },
+      "sources": [
+        {
+          "citation": "Rick, John W. (2008). \"Context, Construction, and Ritual.\" Cotsen Institute of Archaeology."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chavín.\"",
+          "url": "https://www.britannica.com/topic/Chavin"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "decline",
+      "start": -249,
+      "type": "collapse",
+      "title": {
+        "en": "Chavín de Huántar's influence fades as the Early Horizon ends and regional styles replace it",
+        "es": "La influencia de Chavín de Huántar se desvanece al terminar el Horizonte Temprano y ser reemplazada por estilos regionales",
+        "zh": "随着早期地平线结束，查文德万塔尔的影响力逐渐消退，被地方风格取代"
+      },
+      "sources": [
+        {
+          "citation": "Rick, John W. (2008). \"Context, Construction, and Ritual.\" Cotsen Institute of Archaeology."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Chavín.\"",
+          "url": "https://www.britannica.com/topic/Chavin"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "acoustics",
+      "start": -1199,
+      "end": -249,
+      "text": {
+        "en": "Rainy-season water rushing through the temple's stone canals was engineered to roar like a jaguar.",
+        "es": "El agua de la temporada de lluvias, al correr por los canales de piedra del templo, fue diseñada para rugir como un jaguar.",
+        "zh": "雨季水流冲过神庙的石制水渠时，会发出如美洲豹般的咆哮声，这是刻意设计的效果。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Chavín.\"",
+          "url": "https://www.britannica.com/topic/Chavin"
+        }
+      ]
+    }
+  ]
+}

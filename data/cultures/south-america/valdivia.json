@@ -1,0 +1,166 @@
+{
+  "id": "valdivia",
+  "region": "south-america",
+  "wikidataId": "Q1755426",
+  "name": {
+    "en": "Valdivia culture",
+    "es": "Cultura Valdivia",
+    "zh": "瓦尔迪维亚文化"
+  },
+  "aliases": [
+    "Valdivia",
+    "Real Alto"
+  ],
+  "description": {
+    "en": "One of the earliest settled societies in the Americas, living on Ecuador's Santa Elena coast from around 3500 to 1500 BCE. Valdivia potters made some of the oldest ceramics found anywhere in the hemisphere.",
+    "es": "Una de las sociedades sedentarias más antiguas de América, asentada en la costa de Santa Elena, Ecuador, entre aproximadamente 3500 y 1500 a. e. c. Sus alfareros produjeron algunas de las cerámicas más antiguas conocidas en el hemisferio.",
+    "zh": "美洲最早的定居社会之一，约公元前3500年至前1500年生活在厄瓜多尔圣埃伦纳海岸。瓦尔迪维亚的陶工制作了美洲已知最古老的陶器之一。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "valdivia-period",
+      "earliestStart": -3499,
+      "latestStart": -3499,
+      "earliestEnd": -1499,
+      "latestEnd": -1499,
+      "sources": [
+        {
+          "citation": "British Museum. Materials and Cultures Thesaurus: \"Valdivia\".",
+          "url": "http://collection.britishmuseum.org/id/thesauri/matcult"
+        },
+        {
+          "citation": "Meggers, Betty J. (1966). Ecuador. Ancient Peoples and Places series. Thames & Hudson."
+        }
+      ],
+      "periodoId": "p08m57hgbmd",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": -3499,
+      "type": "founding",
+      "title": {
+        "en": "First Valdivia villages rise on the Santa Elena coast, houses set in ovals around a plaza",
+        "es": "Surgen los primeros poblados valdivia en la costa de Santa Elena, con casas ovaladas alrededor de una plaza",
+        "zh": "圣埃伦纳海岸出现最早的瓦尔迪维亚村落，房屋呈椭圆形环绕中央广场排列"
+      },
+      "sources": [
+        {
+          "citation": "Meggers, Betty J. (1966). Ecuador. Thames & Hudson."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Valdivia culture.\"",
+          "url": "https://www.britannica.com/topic/Valdivia-culture"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "pottery",
+      "start": -2699,
+      "type": "invention",
+      "title": {
+        "en": "Valdivia potters make some of the oldest fired ceramics known in the Americas",
+        "es": "Los alfareros valdivia elaboran algunas de las cerámicas cocidas más antiguas conocidas en América",
+        "zh": "瓦尔迪维亚陶工制作出美洲已知最古老的烧制陶器之一"
+      },
+      "sources": [
+        {
+          "citation": "Zeidler, James A. (2008). \"The Ecuadorian Formative.\" In Handbook of South American Archaeology, Silverman & Isbell (eds.), Springer."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Valdivia culture.\"",
+          "url": "https://www.britannica.com/topic/Valdivia-culture"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Dating rests on typology of the earliest pottery styles; a handful of even older sherds have been claimed elsewhere in the Americas.",
+        "es": "La datación se basa en la tipología de los estilos cerámicos más tempranos; en otros lugares de América se han reclamado tiestos aún más antiguos.",
+        "zh": "断代依据最早陶器风格的类型学；美洲其他地方也有人声称发现了更古老的陶片。"
+      }
+    },
+    {
+      "id": "cotton-farming",
+      "start": -2999,
+      "type": "invention",
+      "title": {
+        "en": "Valdivia farmers grow maize, beans, squash and cotton alongside fishing",
+        "es": "Los agricultores valdivia cultivan maíz, frijoles, calabaza y algodón junto con la pesca",
+        "zh": "瓦尔迪维亚农民在捕鱼之外种植玉米、豆类、南瓜和棉花"
+      },
+      "sources": [
+        {
+          "citation": "Meggers, Betty J. (1966). Ecuador. Thames & Hudson."
+        },
+        {
+          "citation": "Zeidler, James A. (2008). \"The Ecuadorian Formative.\" In Handbook of South American Archaeology, Springer."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "exchange-network",
+      "start": -1999,
+      "type": "invention",
+      "title": {
+        "en": "Valdivia communities trade with groups in the Amazon and the Andean highlands",
+        "es": "Las comunidades valdivia comercian con grupos de la Amazonía y las tierras altas andinas",
+        "zh": "瓦尔迪维亚社群与亚马逊和安第斯高地的群体进行贸易往来"
+      },
+      "sources": [
+        {
+          "citation": "Zeidler, James A. (2008). \"The Ecuadorian Formative.\" Springer."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Valdivia culture.\"",
+          "url": "https://www.britannica.com/topic/Valdivia-culture"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "decline",
+      "start": -1499,
+      "type": "collapse",
+      "title": {
+        "en": "Valdivia settlement patterns end as the coast shifts into the Machalilla culture",
+        "es": "Los patrones de asentamiento valdivia terminan cuando la costa da paso a la cultura Machalilla",
+        "zh": "瓦尔迪维亚的聚落模式结束，海岸地区进入马查利亚文化阶段"
+      },
+      "sources": [
+        {
+          "citation": "Meggers, Betty J. (1966). Ecuador. Thames & Hudson."
+        },
+        {
+          "citation": "Zeidler, James A. (2008). \"The Ecuadorian Formative.\" Springer."
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "venus-figurines",
+      "start": -2699,
+      "end": -1499,
+      "text": {
+        "en": "Valdivia potters shaped small clay \"Venus\" figures of women, each with a distinct hairstyle, no two exactly alike.",
+        "es": "Los alfareros valdivia moldeaban pequeñas figuras de arcilla de mujeres, cada una con un peinado distinto, sin que dos fueran idénticas.",
+        "zh": "瓦尔迪维亚陶工塑造了一件件小型陶土“维纳斯”女性像，每尊发型各异，没有两件完全相同。"
+      },
+      "sources": [
+        {
+          "citation": "Meggers, Betty J. (1966). Ecuador. Thames & Hudson."
+        }
+      ]
+    }
+  ]
+}

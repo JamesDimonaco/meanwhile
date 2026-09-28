@@ -164,6 +164,30 @@
       }
     },
     {
+      "id": "huayna-capac-death",
+      "start": 1527,
+      "type": "ruler",
+      "title": {
+        "en": "Emperor Huayna Capac dies, probably of an introduced epidemic disease, without naming a clear heir",
+        "es": "El emperador Huayna Cápac muere, probablemente de una epidemia introducida, sin nombrar un heredero claro",
+        "zh": "皇帝瓦伊纳·卡帕克去世，可能死于外来传入的瘟疫，未明确指定继承人"
+      },
+      "sources": [
+        {
+          "citation": "Hemming, John (1970). The Conquest of the Incas. Macmillan."
+        },
+        {
+          "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The exact year is disputed in the chronicles (accounts range from about 1525 to 1527); the disease is usually assumed to be smallpox spreading ahead of the Spanish.",
+        "es": "El año exacto está en disputa en las crónicas (los relatos varían entre 1525 y 1527 aproximadamente); se suele suponer que la enfermedad fue viruela, propagada antes de la llegada española.",
+        "zh": "确切年份在编年史中存在争议（记载在约1525年至1527年之间不等）；通常认为这场疾病是天花，早于西班牙人到来之前便已传播。"
+      }
+    },
+    {
       "id": "civil-war",
       "start": 1529,
       "end": 1532,

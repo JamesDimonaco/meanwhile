@@ -1,0 +1,167 @@
+{
+  "id": "wari",
+  "region": "south-america",
+  "wikidataId": "Q923516",
+  "name": {
+    "en": "Wari Empire",
+    "es": "Imperio Wari",
+    "zh": "瓦里帝国"
+  },
+  "aliases": [
+    "Huari"
+  ],
+  "description": {
+    "en": "The first state to unite much of the Peruvian highlands and coast under one administration, centuries before the Inca, spreading terrace farming and standardised architecture across the Andes.",
+    "es": "El primer estado que unió buena parte de las tierras altas y la costa peruanas bajo una sola administración, siglos antes de los incas, difundiendo la agricultura en terrazas y una arquitectura estandarizada por los Andes.",
+    "zh": "早于印加帝国数百年，第一个将秘鲁大部分高地与沿海地区统一于一个行政体系之下的国家，在安第斯地区推广梯田农业与标准化建筑。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "wari-period",
+      "earliestStart": 499,
+      "latestStart": 599,
+      "earliestEnd": 799,
+      "latestEnd": 999,
+      "sources": [
+        {
+          "citation": "Isbell, William H. & McEwan, Gordon F. (eds.) (1991). Huari Administrative Structure. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Huari.\"",
+          "url": "https://www.britannica.com/topic/Huari"
+        }
+      ],
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 499,
+      "type": "founding",
+      "title": {
+        "en": "The city of Wari grows near modern Ayacucho as the centre of an expanding highland state",
+        "es": "La ciudad de Wari crece cerca de la actual Ayacucho como centro de un estado altiplánico en expansión",
+        "zh": "瓦里城在今阿亚库乔附近兴起，成为一个不断扩张的高地国家的中心"
+      },
+      "sources": [
+        {
+          "citation": "Isbell, William H. & McEwan, Gordon F. (1991). Huari Administrative Structure. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Huari.\"",
+          "url": "https://www.britannica.com/topic/Huari"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "carahuarazo-conquest",
+      "start": 599,
+      "type": "conflict",
+      "title": {
+        "en": "Wari forces take the Carahuarazo valley, abandoning some villages to build the administrative centre of Jincamocco",
+        "es": "Las fuerzas wari toman el valle de Carahuarazo, abandonando algunos poblados para construir el centro administrativo de Jincamocco",
+        "zh": "瓦里军队攻占卡拉瓦拉索河谷，废弃部分村落以建造行政中心欣卡莫科"
+      },
+      "sources": [
+        {
+          "citation": "Isbell, William H. & McEwan, Gordon F. (1991). Huari Administrative Structure. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Huari.\"",
+          "url": "https://www.britannica.com/topic/Huari"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "terracing",
+      "start": 649,
+      "type": "invention",
+      "title": {
+        "en": "Wari administrators introduce terrace agriculture, shifting valley staples toward maize",
+        "es": "Los administradores wari introducen la agricultura en terrazas, orientando los cultivos del valle hacia el maíz",
+        "zh": "瓦里的管理者引入梯田农业，使河谷主粮转向玉米种植"
+      },
+      "sources": [
+        {
+          "citation": "Isbell, William H. & McEwan, Gordon F. (1991). Huari Administrative Structure. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Huari.\"",
+          "url": "https://www.britannica.com/topic/Huari"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "pikillaqta",
+      "start": 699,
+      "type": "invention",
+      "title": {
+        "en": "Wari builders raise Pikillaqta, a walled grid-planned administrative centre near Cuzco",
+        "es": "Los constructores wari levantan Pikillaqta, un centro administrativo amurallado y planificado en cuadrícula cerca de Cuzco",
+        "zh": "瓦里建造者在库斯科附近建起皮基利亚克塔——一座按网格规划、筑有围墙的行政中心"
+      },
+      "sources": [
+        {
+          "citation": "Isbell, William H. & McEwan, Gordon F. (1991). Huari Administrative Structure. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Huari.\"",
+          "url": "https://www.britannica.com/topic/Huari"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "collapse",
+      "start": 899,
+      "end": 999,
+      "type": "collapse",
+      "title": {
+        "en": "Wari's administrative network breaks down and its centres are abandoned",
+        "es": "La red administrativa wari se desmorona y sus centros son abandonados",
+        "zh": "瓦里的行政网络瓦解，其各中心相继被废弃"
+      },
+      "sources": [
+        {
+          "citation": "Isbell, William H. & McEwan, Gordon F. (1991). Huari Administrative Structure. Dumbarton Oaks."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Huari.\"",
+          "url": "https://www.britannica.com/topic/Huari"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Whether collapse followed drought, internal revolt or loss of long-distance trade is still debated.",
+        "es": "Se debate si el colapso siguió a una sequía, una revuelta interna o la pérdida del comercio a larga distancia.",
+        "zh": "崩溃是否源于干旱、内部叛乱或远程贸易的丧失，学界仍有争论。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "roads",
+      "start": 599,
+      "end": 899,
+      "text": {
+        "en": "Wari administrators built roads and way-stations across the highlands that the later Inca road system reused.",
+        "es": "Los administradores wari construyeron caminos y postas por las tierras altas que el posterior sistema vial inca reutilizó.",
+        "zh": "瓦里的管理者在高地修建的道路与驿站，后来被印加的道路系统沿用。"
+      },
+      "sources": [
+        {
+          "citation": "Isbell, William H. & McEwan, Gordon F. (1991). Huari Administrative Structure. Dumbarton Oaks."
+        }
+      ]
+    }
+  ]
+}
