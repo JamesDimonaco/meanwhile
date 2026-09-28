@@ -70,7 +70,7 @@ export function toCultureRef(culture: CultureCore): CultureRef {
 const outer = (p: PeriodSpan): Range => [p.earliestStart, p.latestEnd];
 const core = (p: PeriodSpan): Range => [p.latestStart, p.earliestEnd];
 /** Midpoints of the fuzzy edges: the best single guess at start and end. */
-const likely = (p: PeriodSpan): Range => [(p.earliestStart + p.latestStart) / 2, (p.earliestEnd + p.latestEnd) / 2];
+export const likelyRange = (p: PeriodSpan): Range => [(p.earliestStart + p.latestStart) / 2, (p.earliestEnd + p.latestEnd) / 2];
 
 const overlap = (a: Range, b: Range) => Math.min(a[1], b[1]) - Math.max(a[0], b[0]);
 const contains = (r: Range, year: number) => r[0] <= year && year <= r[1];
@@ -85,7 +85,7 @@ export function activeAt(cultures: readonly CultureCore[], year: number): Active
   return cultures
     .map((c) => ({ c, p: defaultPeriod(c) }))
     .filter(({ p }) => contains(outer(p), year))
-    .map(({ c, p }) => ({ ref: toCultureRef(c), certain: contains(core(p), year), start: likely(p)[0] }))
+    .map(({ c, p }) => ({ ref: toCultureRef(c), certain: contains(core(p), year), start: likelyRange(p)[0] }))
     .sort(
       (a, b) =>
         Number(b.certain) - Number(a.certain) ||
@@ -112,7 +112,7 @@ export function meanwhile(anchor: Culture, cultures: readonly Culture[]): Meanwh
   for (const c of cultures) {
     if (c.id === anchor.id) continue;
     const p = defaultPeriod(c);
-    const likelyOverlap = overlap(likely(anchorPeriod), likely(p));
+    const likelyOverlap = overlap(likelyRange(anchorPeriod), likelyRange(p));
     if (likelyOverlap > 0) primary.push({ culture: c, score: likelyOverlap });
     else if (overlap(outer(anchorPeriod), outer(p)) >= 0) {
       fuzzy.push({ culture: c, score: overlap(outer(anchorPeriod), outer(p)) });
