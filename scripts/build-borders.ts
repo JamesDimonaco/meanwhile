@@ -112,9 +112,10 @@ const CULTURES: Record<string, CultureConfig> = {
   "holy-roman-empire": {
     subject: "the Holy Roman Empire",
     simplify: "15%",
-    mask: { name: HRE, year: 1453, keep: [HRE], erase: ["Teutonic Order"] },
+    // Cliopatria's 1450s rows fold Habsburg Hungary into the empire; the 1430s ones don't.
+    mask: { name: HRE, year: 1435, keep: [HRE], erase: ["Teutonic Order"] },
     changes:
-      "Where marked, the empire is drawn as the union of the Cliopatria polities that were imperial estates, clipped to the empire's 1453 extent in Cliopatria less the Teutonic Order's Prussia, because from 1459 Cliopatria files only the small imperial states under the empire's name.",
+      "From 1273 on, the empire is drawn as the union of the Cliopatria polities that were imperial estates, clipped to the empire's 1435 extent in Cliopatria less the Teutonic Order's Prussia, because from 1459 Cliopatria files only the small imperial states under the empire's name.",
     snapshots: [
       { year: 955, self: [HRE], rivals: ["West Franks", "Upper Burgundy", "Kingdom of Italy", "Kingdom of Denmark", "Principality of Hungary", "Duchy of Bohemia", "Byzantine Empire", "Caliphate of Córdoba", "Papal States", "Kingdom of England"] },
       { year: 962, self: [HRE], rivals: ["West Franks", "Kingdom of Denmark", "Kingdom of Poland", "Principality of Hungary", "Duchy of Bohemia", "Byzantine Empire", "Caliphate of Córdoba", "Papal States", "Kingdom of England"] },
