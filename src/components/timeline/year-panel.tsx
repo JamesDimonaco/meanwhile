@@ -53,8 +53,8 @@ export function YearPanel({
           {active
             .filter((a) => a.culture.id !== selected?.culture.id)
             .map(({ culture, certain }) => (
-              <li key={culture.id} className="flex items-center justify-between gap-2 text-sm">
-                <Link href={`/c/${culture.id}`} className="underline-offset-2 hover:underline">
+              <li key={culture.id} className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5 text-sm">
+                <Link href={`/c/${culture.id}`} className="min-w-0 underline-offset-2 hover:underline">
                   {culture.name}
                 </Link>
                 <span className="text-muted-foreground">

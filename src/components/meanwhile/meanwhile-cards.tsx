@@ -17,7 +17,7 @@ export async function MeanwhileCards({ cards, locale }: { cards: MeanwhileCard[]
           <Link
             href={`/c/${culture.id}`}
             aria-label={tMeanwhile("reanchor", { name: localize(culture.name, locale) })}
-            className="flex h-full flex-col gap-1.5 rounded-xl border border-border bg-card p-4 transition-colors hover:bg-muted"
+            className="flex h-full min-w-0 flex-col gap-1.5 rounded-xl border border-border bg-card p-4 transition-colors hover:bg-muted"
           >
             <span className="flex items-baseline gap-1.5">
               <span className="font-medium text-foreground">{localize(culture.name, locale)}</span>
