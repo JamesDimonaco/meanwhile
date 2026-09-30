@@ -2,7 +2,7 @@
   "title": "疆域",
   "rivals": "敌对势力：{names}",
   "bordersAround": "约<year></year>的疆域",
-  "beforeBorders": "<year></year>之前暂无疆域数据",
+  "beforeBorders": "暂无早于<year></year>的疆域数据",
   "loading": "地图加载中…",
   "unavailable": "地图暂时无法加载，请检查网络连接。",
   "credit": "疆界：Cliopatria（CC BY 4.0）· 陆地：Natural Earth",
