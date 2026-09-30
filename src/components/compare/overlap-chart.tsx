@@ -158,7 +158,12 @@ export function OverlapChart({ cultures, overlap }: { cultures: CompareCulture[]
   );
 }
 
-/** A slightly generous width for an axis label: a CJK character is a full em, anything else about 0.6em. */
+/**
+ * A width for an axis label at LABEL_FONT_PX, a pixel or two over what the
+ * app's fonts render: CJK characters are a full em, spaces and "." or ","
+ * about 0.3em, anything else 0.65em.
+ */
 function labelWidth(label: string): number {
-  return [...label].reduce((w, ch) => w + (/[\u2e80-\u9fff\uff00-\uffef]/.test(ch) ? 1 : 0.6), 0) * LABEL_FONT_PX;
+  const em = (ch: string) => (/[\u2e80-\u9fff\uff00-\uffef]/.test(ch) ? 1 : /[\s.,]/.test(ch) ? 0.3 : 0.65);
+  return [...label].reduce((w, ch) => w + em(ch), 0) * LABEL_FONT_PX;
 }
