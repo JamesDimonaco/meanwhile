@@ -1,0 +1,19 @@
+{
+  "button": "Escanear una cartela",
+  "buttonShort": "Escanear una cartela con la cámara",
+  "hint": "Fotografía una cartela de museo en cualquier idioma para ir a su página.",
+  "privacy": "La foto se envía para leerla y después se descarta. No se guarda.",
+  "title": "Escanear una cartela",
+  "preparing": "Preparando la foto…",
+  "reading": "Leyendo la cartela…",
+  "opening": "Encontrado. Abriendo…",
+  "offline": "Para escanear hace falta conexión. La búsqueda y las páginas que ya abriste funcionan sin conexión.",
+  "unavailable": "El escaneo no está disponible ahora. Prueba a buscar.",
+  "rateLimited": "Demasiados escaneos en poco tiempo. Vuelve a intentarlo en unos minutos.",
+  "badImage": "No se pudo usar esa foto. Prueba a hacer otra.",
+  "failed": "No se pudo leer la cartela. Inténtalo de nuevo, más cerca y con menos reflejos.",
+  "noMatch": "Todavía no hay coincidencias en Meanwhile. Esto es lo que dice la cartela:",
+  "searchWith": "Buscar con este texto",
+  "seeOnTimeline": "Ver esta fecha en la línea de tiempo",
+  "again": "Escanear otra"
+}

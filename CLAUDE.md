@@ -3,11 +3,11 @@
 # Meanwhile
 
 Answers "I'm looking at this. What else was happening in the world at the same time?" in seconds.
-Mobile-first static web app for travellers and museum visitors on weak signal, in en / es / zh (Simplified).
+Mobile-first web app for travellers and museum visitors on weak signal, in en / es / zh (Simplified).
 
 ## Commands
 
-`pnpm dev` · `pnpm build` (runs `validate-data`, then `next build` to `out/`, then fails on any Google host in the output) · `pnpm typecheck` (`next typegen` first, so `PageProps`/`LayoutProps` exist) · `pnpm test` (vitest) · `pnpm lint` · `pnpm validate-data`.
+`pnpm dev` · `pnpm build` (runs `validate-data`, then `next build`, then fails on any Google host in what a browser can receive: `.next/static`, prerendered `.next/server/app` output, `public/`) · `pnpm typecheck` (`next typegen` first, so `PageProps`/`LayoutProps` exist) · `pnpm test` (vitest) · `pnpm lint` · `pnpm validate-data`.
 
 Before handing work back, run typecheck, test, lint, validate-data, and build if you touched pages.
 
@@ -24,8 +24,9 @@ public/flags/                        flag-icons SVGs (MIT), only the codes today
 messages/<locale>/<namespace>.json   UI text, one file per namespace per locale
 scripts/                             validate-data.ts, check-no-google.ts
 src/app/(root)/page.tsx              "/" : inline script picks a locale, redirects to /<locale>/
-src/app/[locale]/layout.tsx          html, header (explainer trigger + language switcher), providers
-src/app/[locale]/page.tsx            home / search
+src/app/[locale]/layout.tsx          html, header (scan button, explainer trigger, language switcher), providers
+src/app/[locale]/page.tsx            home: scan, search (prefilled from ?q=)
+src/app/api/scan/route.ts            POST /api/scan: placard photo in, destination out (the only server code)
 src/app/[locale]/c/[id]/page.tsx     Meanwhile screen + culture detail (moment first, detail below)
 src/app/[locale]/timeline/page.tsx   world timeline; year in ?year= (astronomical), read client-side
 src/app/[locale]/credits/page.tsx    sources and licences
@@ -33,6 +34,7 @@ src/app/[locale]/compare/page.tsx    compare 2 cultures (3 from 768px); ids in ?
 src/app/culture-data/[file]/route.ts static /culture-data/<id>.json per culture: what compare fetches
 src/i18n/                            locales, routing, navigation, request config, pageLocale()
 src/lib/years.ts                     all year maths and formatting
+src/lib/scan/                        model answer -> destination, upload checks, catalogue prompt, rate limit, the model call
 src/lib/data/                        schema.ts (zod + types), load.ts (fs, build-time), queries.ts, localize.ts, validate.ts
 src/components/filters/              region chips + filter state (?regions= on the timeline, localStorage elsewhere)
 src/components/identity/             HeartlandFlags, RegionDot
@@ -44,7 +46,7 @@ src/components/ui/                   shadcn components (base-nova, RTL-aware)
 
 - Stored as signed integers, **astronomical numbering**: 1 CE = 1, 1 BCE = 0, 2 BCE = -1, 1200 BCE = -1199. Convert only on display, via `src/lib/years.ts`. There is no year zero on screen.
 - Display: `formatYear` / `formatYearRange` (era labels per locale: en BCE/CE, es "a. e. c."/"e. c.", zh 公元前/公元; BC/AD style optional). In components use `<YearText year>` / `<YearRangeText start end>` from `src/components/settings/year-text.tsx` so every date gets the same era style, years-ago toggle and first-BCE explainer.
-- `yearsAgo(year, currentYear())` and `roundYearsAgo`. Call `currentYear()` on the client: in a static export, server code runs at build time and would freeze the year.
+- `yearsAgo(year, currentYear())` and `roundYearsAgo`. Call `currentYear()` on the client: pages are prerendered, so server code runs at build time and would freeze the year.
 - Parsing: `parseYearQuery` for what people type ("1200 BCE", "公元前1200年", "1200 a. C.", "AD 500"). A bare number is CE; a leading minus is BCE the human way ("-1200" = 1200 BCE = -1199). `parseYearParam` for `?year=`, which is the raw astronomical integer (`?year=-1199` = 1200 BCE).
 
 ## Data format
@@ -73,13 +75,21 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 
 ## i18n and UI rules
 
-- No hard-coded user-facing text in UI or data. UI text lives in `messages/<locale>/<namespace>.json`; namespaces are `common, home, meanwhile, culture, timeline, explainer, map, credits, context, compare` (`src/i18n/namespaces.ts`). The English file defines the keys and their types; add a key to all three locales. ICU syntax for plurals and numbers.
+- No hard-coded user-facing text in UI or data. UI text lives in `messages/<locale>/<namespace>.json`; namespaces are `common, home, meanwhile, culture, timeline, explainer, map, credits, context, compare, scan` (`src/i18n/namespaces.ts`). The English file defines the keys and their types; add a key to all three locales. ICU syntax for plurals and numbers.
 - Every page, layout and `generateMetadata` under `[locale]` starts with `const locale = await pageLocale(params)`. Link with `Link` from `@/i18n/navigation`, not `next/link`.
 - Numbers and years through `Intl` / `src/lib/years.ts`. Show native names beside translated ones with the `lang` attribute set.
 - Logical CSS only: `ms-/me-/ps-/pe-/start-/end-/text-start/border-s/rounded-s`. Lint rejects left/right Tailwind classes.
-- Nothing from Google: no Google Fonts (lint blocks `next/font/google`), maps, analytics or CDNs. Self-host every asset; the build fails on Google hosts in `out/`. Subset any CJK font.
-- Static export: no middleware, cookies, rewrites or server actions. Browser APIs only in effects or `useSyncExternalStore`; wrap every `localStorage` call in try/catch.
+- Nothing from Google: no Google Fonts (lint blocks `next/font/google`), maps, analytics or CDNs. Self-host every asset; the build fails on Google hosts in the built output. Subset any CJK font.
+- Hosting: Next on Vercel, function region `iad1` (`vercel.json`; Anthropic doesn't serve mainland China or Hong Kong, so never `hkg1`). Every page and the `geo/` and manifest route handlers are prerendered (`generateStaticParams`, `force-static`); check the build's route table keeps them `○`/`●`. The only server code is `POST /api/scan`. No middleware, cookies, rewrites or server actions. Browser APIs only in effects or `useSyncExternalStore`; wrap every `localStorage` call in try/catch.
 - Locale choice is stored under `LOCALE_STORAGE_KEY` (`src/i18n/locales.ts`); the root page reads it before browser languages.
+
+## Placard scanning
+
+- `POST /api/scan/` takes a JPEG/PNG/WebP body (2 MB cap, magic bytes checked; the client downscales to 1280px JPEG first) and makes one `claude-opus-5` call (low effort, JSON-schema output). The schema limits `cultureId` to catalogue ids or null; BCE/CE years become astronomical in `decideScan`, never in the model. Low confidence never routes.
+- Key: `ANTHROPIC_API_KEY` in the server env only. Without it the route answers 503 and the UI says scanning is unavailable.
+- Images are never stored or logged; the log line is model, stop reason, latency and token counts only.
+- Rate limits are in memory per function instance (30 per IP per 10 min, 120 in total per hour): they reset on a cold start and aren't shared across instances. `max_tokens` is 1024 (a normal scan uses about 100). None of this is a hard spend ceiling: the key needs its own Console workspace with a monthly limit.
+- Live check: `src/lib/scan/__fixtures__/placard-*.jpg` (Shang in Chinese, Rome in English, Moche in Spanish, and a placard that tries to give the model instructions). POST one with `curl --data-binary @file -H 'content-type: image/jpeg'` to a local `next start` that has the key.
 
 ## Ownership (parallel build)
 

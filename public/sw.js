@@ -1,20 +1,22 @@
 // Meanwhile service worker: offline for pages already viewed.
 //
-// A static export means there's no server-side list of every route to
+// Every page is prerendered but there's no list of every route to
 // precache (and the culture data set keeps growing) - so instead of
 // precaching, this caches each page/asset the first time it's fetched
 // ("cache as you visit"), then serves that cache entry when the network
 // is unavailable or too slow. Bump CACHE_NAME when this strategy changes so old
 // runtime caches get cleared on the next activate.
-const CACHE_NAME = "meanwhile-runtime-v2";
+const CACHE_NAME = "meanwhile-runtime-v3";
 const NETWORK_TIMEOUT_MS = 3000;
 
-// A static export serves the same file whatever the query string (?year= is
-// read client-side, ?_rsc= only busts HTTP caches), so entries are keyed by
-// path: one entry per page, found again under any query.
+// Prerendered pages serve the same HTML whatever the query string (?year= is
+// read client-side), so a page is keyed by path and found again under any
+// query. Router payloads (RSC header) come from the same path, and keying them
+// by path would overwrite the HTML; their ?_rsc= is a hash of the headers they
+// vary on, so the full URL keys each one correctly.
 function cacheKey(request) {
   const url = new URL(request.url);
-  return url.origin + url.pathname;
+  return request.headers.get("RSC") === "1" ? url.href : url.origin + url.pathname;
 }
 
 // "/" is where the installed app launches (manifest start_url). It only picks

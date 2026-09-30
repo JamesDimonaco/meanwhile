@@ -47,8 +47,9 @@ const TAP_SLOP = 8;
 /**
  * ?year= (astronomical, e.g. -1199 = 1200 BCE) and ?regions= (e.g.
  * china,europe; absent = the device's stored filter) so a shared link keeps
- * the view. Both are read once on mount and otherwise owned by this
- * component; a static export has no server to keep them in sync with.
+ * the view. ?year= is read on mount and whenever a navigation changes it,
+ * ?regions= on mount only; otherwise both are owned by this component. The
+ * page is prerendered, so no server keeps them in sync.
  */
 export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const locale = useLocale();
@@ -79,6 +80,20 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     return clampYear(paramYear ?? DEFAULT_YEAR, domain);
   });
   const [selected, setSelected] = useState<SelectedEvent | null>(null);
+
+  // Navigating here again with a new ?year= (a scan from the header) doesn't
+  // remount this, so follow the param when it changes. Our own replaceState
+  // below comes back through here too, already equal to year, and is ignored.
+  const yearParam = searchParams.get("year");
+  const [seenYearParam, setSeenYearParam] = useState(yearParam);
+  if (yearParam !== seenYearParam) {
+    setSeenYearParam(yearParam);
+    const paramYear = parseYearParam(yearParam);
+    if (paramYear !== null && clampYear(paramYear, domain) !== year) {
+      setYear(clampYear(paramYear, domain));
+      setSelected(null);
+    }
+  }
 
   // Keep the URL shareable. Not required for the page to work, so a failure
   // (e.g. History API unavailable) is silently ignored.

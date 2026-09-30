@@ -24,7 +24,7 @@ export default async function TimelinePage({ params }: PageProps<"/[locale]/time
   return (
     <section className="flex flex-col gap-4">
       <h1 className="text-2xl font-semibold">{t("title")}</h1>
-      {/* useSearchParams needs a Suspense boundary in a static export. */}
+      {/* useSearchParams needs a Suspense boundary in a prerendered page. */}
       <Suspense>
         <WorldTimeline cultures={cultures} />
       </Suspense>

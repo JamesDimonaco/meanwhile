@@ -66,7 +66,7 @@ export function formatYearRange(
   return `${na}–${nb}${NBSP}${suffixLabel(locale, style, a.era)}`;
 }
 
-/** Call on the client: in a static export, server code runs at build time. */
+/** Call on the client: pages are prerendered, so server code runs at build time. */
 export function currentYear(): number {
   return new Date().getFullYear();
 }

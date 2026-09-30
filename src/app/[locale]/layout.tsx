@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { ExplainerProvider } from "@/components/explainer/explainer-provider";
 import { ExplainerTrigger } from "@/components/explainer/explainer-trigger";
 import { RegisterServiceWorker } from "@/components/pwa/register-service-worker";
+import { ScanButton } from "@/components/scan/scan-button";
 import { LanguageSwitcher } from "@/components/settings/language-switcher";
 import { HTML_LANG, LOCALES } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
@@ -49,11 +50,12 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
         <RegisterServiceWorker />
         <NextIntlClientProvider>
           <ExplainerProvider>
-            <header className="flex items-center justify-between gap-3 px-4 py-3">
+            <header className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1 px-4 py-3">
               <Link href="/" className="font-semibold">
                 {t("appName")}
               </Link>
-              <div className="flex items-center gap-3">
+              <div className="ms-auto flex items-center gap-2 whitespace-nowrap">
+                <ScanButton variant="header" />
                 <ExplainerTrigger />
                 <LanguageSwitcher />
               </div>

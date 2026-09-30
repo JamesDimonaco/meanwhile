@@ -1,0 +1,19 @@
+{
+  "button": "Scan a placard",
+  "buttonShort": "Scan a placard with the camera",
+  "hint": "Photograph a museum label in any language to jump to its page.",
+  "privacy": "The photo is sent to be read, then discarded. It is not kept.",
+  "title": "Scan a placard",
+  "preparing": "Preparing the photo…",
+  "reading": "Reading the placard…",
+  "opening": "Found it. Opening…",
+  "offline": "Scanning needs a connection. Search and pages you've already opened still work offline.",
+  "unavailable": "Scanning isn't available right now. Try searching instead.",
+  "rateLimited": "Too many scans in a short time. Try again in a few minutes.",
+  "badImage": "That photo couldn't be used. Try taking another.",
+  "failed": "The placard couldn't be read. Try again, closer and with less glare.",
+  "noMatch": "No match in Meanwhile yet. This is what the placard says:",
+  "searchWith": "Search with this text",
+  "seeOnTimeline": "See this date on the timeline",
+  "again": "Scan another"
+}

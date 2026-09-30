@@ -4,10 +4,11 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
-  output: "export",
-  // Emits /en/index.html so any static host (not just Vercel) serves clean URLs.
+  // Kept from the static-export days so every URL stays exactly as it was.
   trailingSlash: true,
-  images: { unoptimized: true },
+  // The scan route reads culture names at request time, and file tracing
+  // can't see the directory walk in load.ts.
+  outputFileTracingIncludes: { "/api/scan": ["./data/**/*.json"] },
 };
 
 export default withNextIntl(nextConfig);

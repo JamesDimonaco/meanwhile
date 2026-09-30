@@ -8,6 +8,7 @@ import type explainer from "../../messages/en/explainer.json";
 import type home from "../../messages/en/home.json";
 import type map from "../../messages/en/map.json";
 import type meanwhile from "../../messages/en/meanwhile.json";
+import type scan from "../../messages/en/scan.json";
 import type timeline from "../../messages/en/timeline.json";
 
 // English files are the source of truth for message keys.
@@ -24,6 +25,7 @@ declare module "next-intl" {
       home: typeof home;
       map: typeof map;
       meanwhile: typeof meanwhile;
+      scan: typeof scan;
       timeline: typeof timeline;
     };
   }

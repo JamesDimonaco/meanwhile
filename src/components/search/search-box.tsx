@@ -13,11 +13,19 @@ import { useRegionFilter } from "@/components/filters/use-region-filter";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 
-export function SearchBox({ entries, regions }: { entries: SearchEntry[]; regions: Region[] }) {
+export function SearchBox({
+  entries,
+  regions,
+  initialQuery = "",
+}: {
+  entries: SearchEntry[];
+  regions: Region[];
+  initialQuery?: string;
+}) {
   const t = useTranslations("home");
   const tCommon = useTranslations("common");
   const locale = useLocale();
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(initialQuery);
   const listId = useId();
   const selection = useRegionFilter(regions);
 

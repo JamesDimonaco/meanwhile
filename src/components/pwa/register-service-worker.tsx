@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 /**
  * Registers the offline-caching service worker. Production only: in dev,
- * `next dev` isn't the static export the service worker is built for, and
+ * `next dev` isn't the prerendered build the service worker is built for, and
  * a registered worker there would serve stale pages over HMR.
  */
 export function RegisterServiceWorker() {
