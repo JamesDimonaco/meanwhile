@@ -2,14 +2,15 @@ import Anthropic from "@anthropic-ai/sdk";
 import { loadCultures } from "@/lib/data/load";
 import { decideScan, type ScanResponse } from "@/lib/scan/answer";
 import { buildScanSystemPrompt } from "@/lib/scan/prompt";
-import { createRateLimiter, SCAN_RATE_LIMIT } from "@/lib/scan/rate-limit";
+import { createRateLimiter, SCAN_INSTANCE_LIMIT, SCAN_RATE_LIMIT } from "@/lib/scan/rate-limit";
 import { readPlacard, type Catalogue } from "@/lib/scan/read-placard";
 import { checkUploadBytes, checkUploadHeaders, type UploadError } from "@/lib/scan/upload";
 
 export const runtime = "nodejs";
 export const maxDuration = 30;
 
-const limiter = createRateLimiter(SCAN_RATE_LIMIT);
+const perIp = createRateLimiter(SCAN_RATE_LIMIT);
+const perInstance = createRateLimiter(SCAN_INSTANCE_LIMIT);
 
 let catalogue: Catalogue | undefined;
 function getCatalogue(): Catalogue {
@@ -36,7 +37,8 @@ export async function POST(request: Request): Promise<Response> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return reply({ status: "error", error: "unavailable" }, 503);
 
-  if (!limiter.take(clientIp(request.headers), Date.now())) {
+  const now = Date.now();
+  if (!perIp.take(clientIp(request.headers), now) || !perInstance.take("all", now)) {
     return reply({ status: "error", error: "rate-limited" }, 429);
   }
 

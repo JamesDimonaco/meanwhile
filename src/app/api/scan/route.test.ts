@@ -74,6 +74,8 @@ describe("POST /api/scan", () => {
 
     const params = create.mock.calls[0][0];
     expect(params.model).toBe("claude-opus-5");
+    // The route is public and output is the expensive side; a normal answer is about 100 tokens.
+    expect(params.max_tokens).toBe(1024);
     expect(params.output_config.format.type).toBe("json_schema");
     expect(params.output_config.format.schema.properties.cultureId.anyOf[0].enum).toContain("shang");
     expect(params.messages[0].content[0]).toEqual({
@@ -87,5 +89,42 @@ describe("POST /api/scan", () => {
     const res = await scan(JPEG, "image/jpeg", "203.0.113.10");
     expect(res.status).toBe(502);
     expect(await res.json()).toEqual({ status: "error", error: "failed" });
+  });
+});
+
+describe("POST /api/scan rate limits", () => {
+  beforeEach(() => {
+    create.mockReset();
+    modelReplies({ cultureId: null, year: null, language: "en", text: "", confidence: "low" });
+    vi.stubEnv("ANTHROPIC_API_KEY", "test-key");
+    vi.spyOn(console, "info").mockImplementation(() => {});
+  });
+  afterEach(() => vi.unstubAllEnvs());
+
+  // A fresh module per test, so each starts with empty limiters.
+  async function freshPost() {
+    vi.resetModules();
+    return (await import("./route")).POST;
+  }
+  function from(ip: string) {
+    return new Request("http://127.0.0.1/api/scan/", {
+      method: "POST",
+      headers: { "content-type": "image/jpeg", "x-real-ip": ip },
+      body: JPEG,
+    });
+  }
+
+  it("refuses the 31st scan from one IP before calling the model", async () => {
+    const post = await freshPost();
+    for (let i = 0; i < 30; i++) expect((await post(from("198.51.100.1"))).status).toBe(200);
+    expect((await post(from("198.51.100.1"))).status).toBe(429);
+    expect(create).toHaveBeenCalledTimes(30);
+  });
+
+  it("caps one instance at 120 scans an hour however many IPs send them", async () => {
+    const post = await freshPost();
+    for (let i = 0; i < 120; i++) expect((await post(from(`198.51.100.${i}`))).status).toBe(200);
+    expect((await post(from("192.0.2.1"))).status).toBe(429);
+    expect(create).toHaveBeenCalledTimes(120);
   });
 });

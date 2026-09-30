@@ -80,7 +80,7 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 - `POST /api/scan/` takes a JPEG/PNG/WebP body (2 MB cap, magic bytes checked; the client downscales to 1280px JPEG first) and makes one `claude-opus-5` call (low effort, JSON-schema output). The schema limits `cultureId` to catalogue ids or null; BCE/CE years become astronomical in `decideScan`, never in the model. Low confidence never routes.
 - Key: `ANTHROPIC_API_KEY` in the server env only. Without it the route answers 503 and the UI says scanning is unavailable.
 - Images are never stored or logged; the log line is model, stop reason, latency and token counts only.
-- Rate limit is in memory per function instance (30 per IP per 10 min): it resets on a cold start and isn't shared across instances.
+- Rate limits are in memory per function instance (30 per IP per 10 min, 120 in total per hour): they reset on a cold start and aren't shared across instances. `max_tokens` is 1024 (a normal scan uses about 100). None of this is a hard spend ceiling: the key needs its own Console workspace with a monthly limit.
 - Live check: `src/lib/scan/__fixtures__/placard-*.jpg` (Shang in Chinese, Rome in English, Moche in Spanish, and a placard that tries to give the model instructions). POST one with `curl --data-binary @file -H 'content-type: image/jpeg'` to a local `next start` that has the key.
 
 ## Ownership (parallel build)

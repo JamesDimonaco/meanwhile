@@ -15,7 +15,8 @@ export async function readPlacard(
   const started = Date.now();
   const response = await client.beta.messages.create({
     model: SCAN_MODEL,
-    max_tokens: 4096,
+    // Thinking counts too; a normal scan uses about 100. The ceiling bounds what one call costs.
+    max_tokens: 1024,
     // A classifier decline is retried server-side on the recommended model.
     betas: ["server-side-fallback-2026-07-01"],
     fallbacks: "default",
