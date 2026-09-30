@@ -38,8 +38,9 @@ const TAP_SLOP = 8;
 
 /**
  * ?year= (astronomical, e.g. -1199 = 1200 BCE) so the year line is shareable.
- * The selected year is read once on mount and otherwise owned by this
- * component; the page is prerendered, so no server keeps it in sync.
+ * The selected year is read on mount and whenever a navigation changes ?year=,
+ * and otherwise owned by this component; the page is prerendered, so no server
+ * keeps it in sync.
  */
 export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const locale = useLocale();
@@ -59,6 +60,20 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     return clampYear(paramYear ?? DEFAULT_YEAR, domain);
   });
   const [selected, setSelected] = useState<SelectedEvent | null>(null);
+
+  // Navigating here again with a new ?year= (a scan from the header) doesn't
+  // remount this, so follow the param when it changes. Our own replaceState
+  // below comes back through here too, already equal to year, and is ignored.
+  const yearParam = searchParams.get("year");
+  const [seenYearParam, setSeenYearParam] = useState(yearParam);
+  if (yearParam !== seenYearParam) {
+    setSeenYearParam(yearParam);
+    const paramYear = parseYearParam(yearParam);
+    if (paramYear !== null && clampYear(paramYear, domain) !== year) {
+      setYear(clampYear(paramYear, domain));
+      setSelected(null);
+    }
+  }
 
   // Keep the URL shareable. Not required for the page to work, so a failure
   // (e.g. History API unavailable) is silently ignored.
