@@ -83,8 +83,11 @@ export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
 
   const active = events.find((e) => e.id === activeId) ?? events[0];
 
+  // No scroll anchoring: when a caption changes the map's height, the browser
+  // would shift the page to hold the list still, moving the line under the
+  // events and flipping the map back and forth between two of them.
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col gap-4 [overflow-anchor:none]">
       <div ref={mapSlot} className="sticky top-0 z-10 bg-background py-2">
         {mapWanted ? (
           <TerritoryMap cultureId={culture.id} year={active.end ?? active.start} pin={active.place ?? null} />
