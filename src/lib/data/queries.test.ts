@@ -5,6 +5,8 @@ import {
   activeAt,
   eventsBetween,
   meanwhile,
+  meanwhileCandidates,
+  pickMeanwhile,
 } from "./queries";
 import type { Culture, CultureEvent, Fact, Region } from "./schema";
 
@@ -168,6 +170,27 @@ describe("meanwhile", () => {
       facts: [fact("too-late", -900, -800)],
     });
     expect(meanwhile(anchor, [noFact])[0].fact).toBeNull();
+  });
+
+  it("re-picks from a region-filtered pool exactly as if only those regions existed", () => {
+    const cultures = [
+      culture("china-a", "china", [-1600, -1550, -1050, -1000]),
+      culture("europe-a", "europe", [-1600, -1550, -1050, -1000]),
+      culture("europe-b", "europe", [-1590, -1540, -1060, -1010]),
+      culture("meso-a", "mesoamerica", [-1300, -1250, -1150, -1100]),
+      culture("sa-a", "south-america", [-1400, -1350, -1150, -1100]),
+      culture("sa-b", "south-america", [-1450, -1400, -1150, -1100]),
+      // Fuzzy-only: never needed unfiltered, but needed to reach the minimum once filtered.
+      culture("europe-f1", "europe", [-1040, -900, -800, -700]),
+      culture("europe-f2", "europe", [-1030, -900, -800, -700]),
+      culture("sa-f1", "south-america", [-1040, -900, -800, -700]),
+    ];
+    const { candidates } = meanwhileCandidates(anchor, cultures);
+    for (const regions of [["europe"], ["china", "mesoamerica"], ["south-america", "europe"]] as Region[][]) {
+      const inRegions = <T extends { region: Region }>(xs: readonly T[]) => xs.filter((x) => regions.includes(x.region));
+      expect(pickMeanwhile(inRegions(candidates), anchor.region)).toEqual(ids(meanwhile(anchor, inRegions(cultures))));
+    }
+    expect(pickMeanwhile(candidates, anchor.region)).toEqual(ids(meanwhile(anchor, cultures)));
   });
 });
 
