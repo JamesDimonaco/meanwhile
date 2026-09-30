@@ -101,7 +101,7 @@ const CULTURES: Record<string, CultureConfig> = {
       { year: 751, self: ["Kingdom of the Franks"], rivals: ["Umayyad Caliphate", "Kingdom of Italy", "Aquitaine", "Saxons", "Bavarians", "Avar Khaganate", "Byzantine Empire", "Kingdom of Asturias", "Kingdom of Mercia"] },
       { year: 768, self: ["Kingdom of the Franks"], rivals: ["Emirate of Córdoba", "Kingdom of Italy", "Papal States", "Saxons", "Bavarians", "Avar Khaganate", "Byzantine Empire", "Kingdom of Asturias", "Kingdom of Wessex"] },
       { year: 775, self: ["Kingdom of the Franks"], rivals: ["Emirate of Córdoba", "Papal States", "Duchy of Benevento", "Saxons", "Bavarians", "Avar Khaganate", "Byzantine Empire", "Kingdom of Asturias", "Kingdom of Wessex"] },
-      { year: 788, self: ["Kingdom of the Franks"], rivals: ["Emirate of Córdoba", "Papal States", "Duchy of Benevento", "Avar Khaganate", "Byzantine Empire", "First Bulgarian Empire", "Kingdom of Asturias", "Kingdom of Wessex"] },
+      { year: 788, self: ["Kingdom of the Franks"], rivals: ["Emirate of Córdoba", "Papal States", "Avar Khaganate", "Byzantine Empire", "First Bulgarian Empire", "Kingdom of Asturias"] },
       { year: 800, self: ["Kingdom of the Franks"], rivals: ["Emirate of Córdoba", "Papal States", "Duchy of Benevento", "Avar Khaganate", "Byzantine Empire", "First Bulgarian Empire", "Obotrites", "Kingdom of Asturias", "Kingdom of Mercia"] },
       { year: 814, self: ["Kingdom of the Franks"], rivals: ["Emirate of Córdoba", "Papal States", "Duchy of Benevento", "Byzantine Empire", "First Bulgarian Empire", "Great Moravia", "Obotrites", "Kingdom of Asturias", "Kingdom of Wessex"] },
       { year: 843, dataYear: 850, self: ["West Franks", "Middle Franks", "East Franks"], rivals: ["Emirate of Córdoba", "Papal States", "Duchy of Benevento", "Byzantine Empire", "First Bulgarian Empire", "Great Moravia", "Obotrites", "Kingdom of Brittany", "Kingdom of Asturias", "Kingdom of Wessex"] },
@@ -286,7 +286,13 @@ function loadCliopatria(file: string): ClioRow[] {
     }));
 }
 
-const kebab = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const kebab = (name: string) =>
+  name
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 
 function mapshaper(...args: string[]) {
   execFileSync("npx", [...MAPSHAPER, ...args], { stdio: ["ignore", "ignore", "pipe"] });
