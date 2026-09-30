@@ -63,7 +63,8 @@ function EventItem({
               </span>
               <span className="flex flex-wrap items-center gap-1.5 font-medium">
                 {localize(event.title, locale)}
-                {event.disputed && <DisputedBadge note={event.note && localize(event.note, locale)} />}
+                {/* No note here: tapping the row opens it, and the note shows inside. */}
+                {event.disputed && <DisputedBadge />}
               </span>
             </span>
           </span>
