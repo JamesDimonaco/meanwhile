@@ -6,7 +6,6 @@ import { YearRangeText } from "@/components/settings/year-text";
 import { search, type SearchEntry } from "@/components/search/search-index";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
-import { overlapOf } from "./compare-math";
 import { compareHref } from "./compare-href";
 
 const MAX_SUGGESTIONS = 8;
@@ -41,12 +40,12 @@ export function ComparePicker({
         .slice(0, MAX_SUGGESTIONS);
     }
     if (!anchor) return [];
-    const years = (e: SearchEntry) => {
-      const o = overlapOf([anchor.period, e.period]);
-      return o.kind === "overlap" ? o.years : o.kind === "gap" ? -1 : 0;
-    };
+    const years = (e: SearchEntry) =>
+      Math.min(anchor.period.earliestEnd, e.period.earliestEnd) -
+      Math.max(anchor.period.latestStart, e.period.latestStart) +
+      1;
     return entries
-      .filter((e) => open(e) && years(e) >= 0)
+      .filter((e) => open(e) && years(e) > 0)
       .sort((a, b) => years(b) - years(a) || a.id.localeCompare(b.id))
       .slice(0, MAX_SUGGESTIONS);
   }, [trimmed, entries, selected, anchor]);
