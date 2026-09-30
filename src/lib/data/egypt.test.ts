@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
+import { geoContains } from "d3-geo";
 import { describe, expect, it } from "vitest";
+import { forD3, snapshotAt } from "@/components/territory-map/geo";
 import { readDataset } from "./load";
 
 // Egypt is the second flagship: its events are pinned on the territory map and
@@ -19,6 +21,8 @@ const PHASES = [
 ];
 /** 3100 BCE and 30 BCE, astronomical: the museum span of "ancient Egypt". */
 const SPAN = { start: -3099, end: -29 };
+/** [lon, lat]. The capital at the head of the Delta, which every ruler of Egypt held. */
+const MEMPHIS: [number, number] = [31.25, 29.85];
 
 function must<T>(value: T | undefined, what: string): T {
   if (value === undefined) throw new Error(`missing ${what}`);
@@ -53,5 +57,15 @@ describe("egypt flagship data", () => {
     expect(years[years.length - 1]).toBeLessThanOrEqual(SPAN.end);
     const bytes = fs.statSync(path.join(process.cwd(), "data/borders/egypt.json")).size;
     expect(bytes).toBeLessThanOrEqual(MAX_BORDERS_BYTES);
+  });
+
+  it("draws someone ruling Memphis on every event's map", () => {
+    const { snapshots } = must(borders.find((b) => b.cultureId === "egypt"), "data/borders/egypt.json");
+    const blank = egypt().events.flatMap((e) => {
+      const snapshot = snapshotAt(snapshots, e.end ?? e.start);
+      if (!snapshot || snapshot.polities.some((p) => geoContains(forD3(p.geometry), MEMPHIS))) return [];
+      return [`${e.id} (map ${snapshot.year})`];
+    });
+    expect(blank).toEqual([]);
   });
 });
