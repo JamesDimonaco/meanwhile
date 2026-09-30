@@ -9,6 +9,10 @@ import { YearRangeText } from "@/components/settings/year-text";
 import { RecordsStrip } from "@/components/context/records-strip";
 import { defaultPeriod } from "@/lib/data/queries";
 import { RECORD_KINDS, recordHolder } from "@/lib/data/records";
+import { RegionFilteredList } from "@/components/filters/region-filtered-list";
+import { regionsIn } from "@/components/filters/region-filter";
+import { HeartlandFlags } from "@/components/identity/heartland-flags";
+import { RegionDot } from "@/components/identity/region-dot";
 
 /** Home: one search box, popular starting points underneath. Owned by ui-core. */
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
@@ -20,6 +24,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const popular = loadPopular().map(toSearchEntry);
   const dated = cultures.map((c) => ({ id: c.id, name: c.name, period: defaultPeriod(c) }));
   const records = RECORD_KINDS.map((kind) => ({ kind, holder: recordHolder(kind, dated) }));
+  const regions = regionsIn(cultures);
 
   return (
     <div className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-6">
@@ -28,34 +33,39 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         <p className="text-sm text-muted-foreground">{tCommon("tagline")}</p>
       </header>
 
-      <SearchBox entries={entries} />
+      <SearchBox entries={entries} regions={regions} />
 
       <section className="flex flex-col gap-3">
         <h2 className="text-sm font-medium text-muted-foreground">{t("popular")}</h2>
-        <ul className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-          {popular.map((c) => (
-            <li key={c.id}>
+        <RegionFilteredList
+          available={regions}
+          className="grid grid-cols-1 gap-2.5 sm:grid-cols-2"
+          items={popular.map((c) => ({
+            id: c.id,
+            region: c.region,
+            node: (
               <Link
                 href={`/c/${c.id}`}
                 className="flex min-w-0 flex-col gap-0.5 rounded-lg border border-border px-4 py-3 hover:bg-muted"
               >
-                <span className="flex items-baseline gap-1.5">
+                <span className="flex flex-wrap items-center gap-x-1.5">
                   <span className="font-medium">{localize(c.name, locale)}</span>
                   {c.nativeName && (
                     <span lang={c.nativeName.lang} className="text-muted-foreground">
                       {c.nativeName.text}
                     </span>
                   )}
+                  <HeartlandFlags cultureId={c.id} />
                 </span>
                 <span className="text-sm text-muted-foreground">
-                  {tCommon(`regions.${c.region}`)}
+                  <RegionDot region={c.region} /> {tCommon(`regions.${c.region}`)}
                   {" · "}
                   <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} />
                 </span>
               </Link>
-            </li>
-          ))}
-        </ul>
+            ),
+          }))}
+        />
       </section>
 
       <RecordsStrip holders={records} locale={locale} />

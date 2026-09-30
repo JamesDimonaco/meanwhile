@@ -97,49 +97,69 @@ export function activeAt(cultures: readonly CultureCore[], year: number): Active
     .map(({ ref, certain }) => ({ culture: ref, certain }));
 }
 
-type Candidate = { culture: Culture; score: number };
-
 /**
- * Other cultures alive during the anchor's default period, spread across
- * regions: take the best from each region in turn (regions ordered by their
- * best overlap, the anchor's own region last). Cultures whose likely ranges
- * overlap come first; ones that only touch at the fuzzy edges are used only to
- * reach MIN_MEANWHILE_CARDS.
+ * A culture that shares time with the anchor, scored by how much. `fuzzy`
+ * when only the fuzzy edges touch. Light enough to send to the client, which
+ * re-picks the cards whenever the region filter changes.
  */
-export function meanwhile(anchor: Culture, cultures: readonly Culture[]): MeanwhileCard[] {
+export type MeanwhileCandidate = { id: string; region: Region; score: number; fuzzy: boolean };
+
+/** Every culture that could make a card, and the card each would be. */
+export function meanwhileCandidates(
+  anchor: Culture,
+  cultures: readonly Culture[],
+): { candidates: MeanwhileCandidate[]; cards: Record<string, MeanwhileCard> } {
   const anchorPeriod = defaultPeriod(anchor);
-  const primary: Candidate[] = [];
-  const fuzzy: Candidate[] = [];
+  const candidates: MeanwhileCandidate[] = [];
+  const cards: Record<string, MeanwhileCard> = {};
   for (const c of cultures) {
     if (c.id === anchor.id) continue;
     const p = defaultPeriod(c);
     const likelyOverlap = overlap(likelyRange(anchorPeriod), likelyRange(p));
-    if (likelyOverlap > 0) primary.push({ culture: c, score: likelyOverlap });
-    else if (overlap(outer(anchorPeriod), outer(p)) >= 0) {
-      fuzzy.push({ culture: c, score: overlap(outer(anchorPeriod), outer(p)) });
-    }
+    const outerOverlap = overlap(outer(anchorPeriod), outer(p));
+    if (likelyOverlap <= 0 && outerOverlap < 0) continue;
+    const fuzzy = likelyOverlap <= 0;
+    candidates.push({ id: c.id, region: c.region, score: fuzzy ? outerOverlap : likelyOverlap, fuzzy });
+    const window: Range = [Math.max(anchorPeriod.earliestStart, p.earliestStart), Math.min(anchorPeriod.latestEnd, p.latestEnd)];
+    cards[c.id] = { culture: toCultureRef(c), fact: bestFact(c.facts, window) };
   }
-
-  const picked = roundRobin(primary, anchor.region).slice(0, MAX_MEANWHILE_CARDS);
-  if (picked.length < MIN_MEANWHILE_CARDS) {
-    picked.push(...roundRobin(fuzzy, anchor.region).slice(0, MIN_MEANWHILE_CARDS - picked.length));
-  }
-
-  return picked.map((c) => {
-    const window: Range = [
-      Math.max(anchorPeriod.earliestStart, defaultPeriod(c).earliestStart),
-      Math.min(anchorPeriod.latestEnd, defaultPeriod(c).latestEnd),
-    ];
-    return { culture: toCultureRef(c), fact: bestFact(c.facts, window) };
-  });
+  return { candidates, cards };
 }
 
-function roundRobin(candidates: Candidate[], anchorRegion: Region): Culture[] {
+/**
+ * Card ids in display order, spread across regions: take the best from each
+ * region in turn (regions ordered by their best overlap, the anchor's own
+ * region last). Cultures whose likely ranges overlap come first; ones that
+ * only touch at the fuzzy edges are used only to reach MIN_MEANWHILE_CARDS.
+ */
+export function pickMeanwhile(candidates: readonly MeanwhileCandidate[], anchorRegion: Region): string[] {
+  const picked = roundRobin(
+    candidates.filter((c) => !c.fuzzy),
+    anchorRegion,
+  ).slice(0, MAX_MEANWHILE_CARDS);
+  if (picked.length < MIN_MEANWHILE_CARDS) {
+    picked.push(
+      ...roundRobin(
+        candidates.filter((c) => c.fuzzy),
+        anchorRegion,
+      ).slice(0, MIN_MEANWHILE_CARDS - picked.length),
+    );
+  }
+  return picked;
+}
+
+/** Other cultures alive during the anchor's default period: 4–6 cards, see pickMeanwhile. */
+export function meanwhile(anchor: Culture, cultures: readonly Culture[]): MeanwhileCard[] {
+  const { candidates, cards } = meanwhileCandidates(anchor, cultures);
+  return pickMeanwhile(candidates, anchor.region).map((id) => cards[id]);
+}
+
+function roundRobin(candidates: readonly MeanwhileCandidate[], anchorRegion: Region): string[] {
   const groups = REGIONS.map((region) => ({
     region,
     list: candidates
-      .filter((c) => c.culture.region === region)
-      .sort((a, b) => b.score - a.score || a.culture.id.localeCompare(b.culture.id)),
+      .filter((c) => c.region === region)
+      .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id)),
   }))
     .filter((g) => g.list.length > 0)
     .sort(
@@ -149,10 +169,10 @@ function roundRobin(candidates: Candidate[], anchorRegion: Region): Culture[] {
         regionRank(a.region) - regionRank(b.region),
     );
 
-  const out: Culture[] = [];
+  const out: string[] = [];
   for (let round = 0; out.length < candidates.length; round++) {
     for (const { list } of groups) {
-      if (list[round]) out.push(list[round].culture);
+      if (list[round]) out.push(list[round].id);
     }
   }
   return out;

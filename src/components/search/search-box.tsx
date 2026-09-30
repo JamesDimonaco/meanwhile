@@ -4,17 +4,31 @@ import { useId, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
+import type { Region } from "@/lib/data/schema";
 import { search, type SearchEntry } from "./search-index";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
+import { NoneInRegions, StoredRegionChips } from "@/components/filters/region-chips";
+import { includesRegion } from "@/components/filters/region-filter";
+import { useRegionFilter } from "@/components/filters/use-region-filter";
+import { HeartlandFlags } from "@/components/identity/heartland-flags";
+import { RegionDot } from "@/components/identity/region-dot";
 
-export function SearchBox({ entries }: { entries: SearchEntry[] }) {
+export function SearchBox({ entries, regions }: { entries: SearchEntry[]; regions: Region[] }) {
   const t = useTranslations("home");
   const tCommon = useTranslations("common");
   const locale = useLocale();
   const [query, setQuery] = useState("");
   const listId = useId();
+  const selection = useRegionFilter(regions);
 
-  const results = useMemo(() => search(query, entries), [query, entries]);
+  const results = useMemo(
+    () => search(query, entries.filter((e) => includesRegion(selection, e.region))),
+    [query, entries, selection],
+  );
+  const hiddenMatches = useMemo(
+    () => search(query, entries.filter((e) => !includesRegion(selection, e.region))).some((r) => r.type === "culture"),
+    [query, entries, selection],
+  );
   const trimmed = query.trim();
 
   return (
@@ -35,8 +49,10 @@ export function SearchBox({ entries }: { entries: SearchEntry[] }) {
         />
       </label>
 
+      <StoredRegionChips available={regions} />
+
       {trimmed && (
-        <div aria-live="polite">
+        <div aria-live="polite" className="flex flex-col gap-2">
           {results.length === 0 ? (
             <p className="px-1 text-sm text-muted-foreground">{t("noResults", { query: trimmed })}</p>
           ) : (
@@ -60,15 +76,17 @@ export function SearchBox({ entries }: { entries: SearchEntry[] }) {
                       href={`/c/${result.entry.id}`}
                       className="flex flex-col gap-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted"
                     >
-                      <span className="flex items-baseline gap-1.5">
+                      <span className="flex flex-wrap items-center gap-x-1.5">
                         <span className="font-medium">{localize(result.entry.name, locale)}</span>
                         {result.entry.nativeName && (
                           <span lang={result.entry.nativeName.lang} className="text-muted-foreground">
                             {result.entry.nativeName.text}
                           </span>
                         )}
+                        <HeartlandFlags cultureId={result.entry.id} />
                       </span>
                       <span className="text-sm text-muted-foreground">
+                        <RegionDot region={result.entry.region} />{" "}
                         {tCommon(`regions.${result.entry.region}`)}
                         {" · "}
                         <YearRangeText
@@ -82,6 +100,7 @@ export function SearchBox({ entries }: { entries: SearchEntry[] }) {
               )}
             </ul>
           )}
+          {hiddenMatches && <NoneInRegions message="hiddenByFilter" />}
         </div>
       )}
     </div>

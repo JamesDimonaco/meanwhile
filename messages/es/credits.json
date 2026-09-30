@@ -38,6 +38,12 @@
       "licence": "SIL Open Font License 1.1",
       "used": "Las tipografías del texto latino y chino, servidas desde este sitio.",
       "changes": "Se reducen a los caracteres que usa Meanwhile, para que las páginas en chino carguen rápido."
+    },
+    "flagIcons": {
+      "name": "flag-icons",
+      "licence": "MIT",
+      "used": "Las pequeñas banderas del país actual donde estaba el núcleo de cada cultura.",
+      "changes": "Copiadas sin cambios; solo se sirven las banderas que muestra la aplicación."
     }
   },
   "neverUsed": "Nunca usado: el propio conjunto de datos del Seshat Global History Databank, que es solo de uso no comercial.",

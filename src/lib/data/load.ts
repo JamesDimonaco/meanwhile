@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { Borders, Culture, SuccessionLink } from "./schema";
+import countries from "flag-icons/country.json";
+import { validateHeartland } from "./heartland";
+import { Registry, type Borders, type Culture, type SuccessionLink } from "./schema";
 import { validateDataset, type DataFile, type DatasetResult } from "./validate";
 
 // Build-time only (fs). Pages call these in server components; client
@@ -23,14 +25,24 @@ function readJsonFiles(dir: string): DataFile[] {
     });
 }
 
+const readJson = (file: string) => JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "utf8")) as unknown;
+
 export function readDataset(): DatasetResult {
-  return validateDataset({
-    registry: JSON.parse(fs.readFileSync(path.join(DATA_DIR, "registry.json"), "utf8")) as unknown,
+  const registry = readJson("registry.json");
+  const result = validateDataset({
+    registry,
     cultureFiles: readJsonFiles(path.join(DATA_DIR, "cultures")),
     borderFiles: readJsonFiles(path.join(DATA_DIR, "borders")),
-    popular: JSON.parse(fs.readFileSync(path.join(DATA_DIR, "popular.json"), "utf8")) as unknown,
-    succession: JSON.parse(fs.readFileSync(path.join(DATA_DIR, "succession.json"), "utf8")) as unknown,
+    popular: readJson("popular.json"),
+    succession: readJson("succession.json"),
   });
+  const heartlandErrors = validateHeartland({
+    today: readJson("today.json"),
+    registryIds: Registry.safeParse(registry).data?.cultures.map((c) => c.id) ?? [],
+    isoCodes: countries.filter((c) => c.iso).map((c) => c.code.toUpperCase()),
+    flagFiles: fs.readdirSync(path.join(process.cwd(), "public/flags")).filter((f) => f.endsWith(".svg")),
+  });
+  return { ...result, errors: [...result.errors, ...heartlandErrors] };
 }
 
 let cache: DatasetResult | undefined;

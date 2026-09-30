@@ -1,27 +1,32 @@
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
 import type { TimelineActiveCulture } from "./timeline-math";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
+import { NoneInRegions } from "@/components/filters/region-chips";
 
 export type SelectedEvent = { culture: TimelineCulture; event: TimelineEvent };
 
 /**
  * What was alive at the dragged year, or (when a marker was tapped) that
- * event plus what else was happening at the same time.
+ * event plus what else was happening at the same time. `hiddenByFilter`
+ * means the region filter, not the record, left `active` empty.
  */
 export function YearPanel({
   year,
   active,
   selected,
   onClose,
+  hiddenByFilter,
+  onShowAllRegions,
 }: {
   year: number;
   active: TimelineActiveCulture[];
   selected: SelectedEvent | null;
   onClose: () => void;
+  hiddenByFilter: boolean;
+  onShowAllRegions: () => void;
 }) {
-  const locale = useLocale();
   const t = useTranslations("timeline");
   const tCommon = useTranslations("common");
 
@@ -42,7 +47,9 @@ export function YearPanel({
         </div>
       )}
       <p className="text-sm font-medium">{t.rich(selected ? "alsoHappening" : "activeIn", { year: () => <YearText year={year} /> })}</p>
-      {active.length === 0 ? (
+      {active.length === 0 && hiddenByFilter ? (
+        <NoneInRegions message="noneInRegions" onShowAll={onShowAllRegions} />
+      ) : active.length === 0 ? (
         <p className="text-sm text-muted-foreground">{t("noneActive")}</p>
       ) : (
         <ul className="flex flex-col gap-1">

@@ -8,7 +8,10 @@ import { CultureStory } from "@/components/territory-map/culture-story";
 import { pageLocale } from "@/i18n/page-locale";
 import { hasTerritoryMap, loadCulture, loadCultures, loadSuccession } from "@/lib/data/load";
 import { isMachineTranslated, localize } from "@/lib/data/localize";
-import { defaultPeriod, eventWorld, meanwhile, successionFor, toCultureRef } from "@/lib/data/queries";
+import { defaultPeriod, eventWorld, meanwhileCandidates, successionFor, toCultureRef } from "@/lib/data/queries";
+import { regionsIn } from "@/components/filters/region-filter";
+import { HeartlandFlags } from "@/components/identity/heartland-flags";
+import { RegionDot } from "@/components/identity/region-dot";
 import { recordsHeld } from "@/lib/data/records";
 
 export const dynamicParams = false;
@@ -34,6 +37,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
   const culture = loadCulture(id);
   const period = defaultPeriod(culture);
   const world = eventWorld(culture, cultures);
+  const { candidates, cards } = meanwhileCandidates(culture, cultures);
   const t = await getTranslations({ locale, namespace: "meanwhile" });
   const tCulture = await getTranslations({ locale, namespace: "culture" });
   const tCommon = await getTranslations({ locale, namespace: "common" });
@@ -59,6 +63,13 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
             </span>
           )}
         </h1>
+        <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted-foreground">
+          <span className="inline-flex items-center gap-1.5">
+            <RegionDot region={culture.region} />
+            {tCommon(`regions.${culture.region}`)}
+          </span>
+          <HeartlandFlags cultureId={culture.id} withLabel />
+        </p>
         <PeriodRange period={period} locale={locale} />
         <BeforeAfter lines={beforeAfter} locale={locale} />
         {records.length > 0 && (
@@ -73,7 +84,13 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
 
       <section className="flex flex-col gap-3">
         <h2 className="text-lg font-semibold tracking-tight">{t("heading")}</h2>
-        <MeanwhileCards cards={meanwhile(culture, cultures)} locale={locale} />
+        <MeanwhileCards
+          candidates={candidates}
+          cards={cards}
+          anchorRegion={culture.region}
+          regions={regionsIn(cultures)}
+          locale={locale}
+        />
       </section>
 
       <p className="text-base leading-relaxed">{localize(culture.description, locale)}</p>

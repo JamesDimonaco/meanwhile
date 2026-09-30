@@ -38,6 +38,12 @@
       "licence": "SIL 开源字体许可证 1.1",
       "used": "拉丁文和中文所用字体，由本站自行托管。",
       "changes": "只保留 Meanwhile 用到的字符，让中文页面加载更快。"
+    },
+    "flagIcons": {
+      "name": "flag-icons",
+      "licence": "MIT",
+      "used": "标示各文明核心地区今属国家的小旗帜。",
+      "changes": "原样复制；只提供应用中显示的旗帜。"
     }
   },
   "neverUsed": "未使用：Seshat Global History Databank 自身的数据集，其许可仅限非商业用途。",

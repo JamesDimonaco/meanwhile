@@ -10,6 +10,10 @@ import { formatYear, parseYearParam } from "@/lib/years";
 import { useSettings } from "@/components/settings/use-settings";
 import { YearText } from "@/components/settings/year-text";
 import { Button } from "@/components/ui/button";
+import { RegionChips } from "@/components/filters/region-chips";
+import { includesRegion, parseRegionsParam, regionsIn, regionsParam } from "@/components/filters/region-filter";
+import { saveRegionFilter, useRegionFilter } from "@/components/filters/use-region-filter";
+import type { Region } from "@/lib/data/schema";
 import { layoutRows, type TimelineCulture, type TimelineEvent } from "./timeline-layout";
 import {
   MAX_PX_PER_YEAR,
@@ -41,9 +45,10 @@ const DEFAULT_YEAR = 1;
 const TAP_SLOP = 8;
 
 /**
- * ?year= (astronomical, e.g. -1199 = 1200 BCE) so the year line is shareable.
- * The selected year is read once on mount and otherwise owned by this
- * component; a static export has no server to keep it in sync with.
+ * ?year= (astronomical, e.g. -1199 = 1200 BCE) and ?regions= (e.g.
+ * china,europe; absent = the device's stored filter) so a shared link keeps
+ * the view. Both are read once on mount and otherwise owned by this
+ * component; a static export has no server to keep them in sync with.
  */
 export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const locale = useLocale();
@@ -51,8 +56,19 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const t = useTranslations("timeline");
   const searchParams = useSearchParams();
 
+  const available = useMemo(() => regionsIn(cultures), [cultures]);
+  const storedRegions = useRegionFilter(available);
+  const [linkRegions, setLinkRegions] = useState(() => parseRegionsParam(searchParams.get("regions"), available));
+  const regions = linkRegions ?? storedRegions;
+  const changeRegions = (next: Region[]) => {
+    setLinkRegions(next);
+    saveRegionFilter(next);
+  };
+  const shown = useMemo(() => cultures.filter((c) => includesRegion(regions, c.region)), [cultures, regions]);
+
+  // The domain stays the whole dataset's, so filtering never moves the year line or the scroll.
   const domain = useMemo(() => computeYearDomain(cultures.map((c) => c.period)), [cultures]);
-  const { rows, totalHeight } = useMemo(() => layoutRows(cultures), [cultures]);
+  const { rows, totalHeight } = useMemo(() => layoutRows(shown), [shown]);
 
   const [pxPerYear, setPxPerYear] = useState(DEFAULT_PX_PER_YEAR);
   const chartWidth = Math.max(1, Math.round((domain[1] - domain[0]) * pxPerYear));
@@ -70,13 +86,21 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     try {
       const params = new URLSearchParams(window.location.search);
       params.set("year", String(year));
-      window.history.replaceState(null, "", `${window.location.pathname}?${params.toString()}`);
+      const regionsValue = regionsParam(regions);
+      if (regionsValue === null) params.delete("regions");
+      else params.set("regions", regionsValue);
+      const query = params.toString().replace(/%2C/g, ",");
+      window.history.replaceState(null, "", `${window.location.pathname}?${query}`);
     } catch {
       // Ignore.
     }
-  }, [year]);
+  }, [year, regions]);
 
-  const active = useMemo(() => activeCultures(cultures, year), [cultures, year]);
+  const active = useMemo(() => activeCultures(shown, year), [shown, year]);
+  const hiddenByFilter = useMemo(
+    () => active.length === 0 && activeCultures(cultures, year).length > 0,
+    [active, cultures, year],
+  );
 
   const scrollRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -220,6 +244,8 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
         </div>
       </div>
 
+      <RegionChips available={available} selection={regions} onChange={changeRegions} />
+
       <div className="flex gap-2">
         <div className="relative shrink-0" style={{ width: NAME_COL_WIDTH, height: svgHeight }}>
           {rows.map((row) =>
@@ -312,7 +338,14 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
       </div>
 
       <div ref={panelRef} className="scroll-mt-20">
-        <YearPanel year={year} active={active} selected={selected} onClose={() => setSelected(null)} />
+        <YearPanel
+          year={year}
+          active={active}
+          selected={selected}
+          onClose={() => setSelected(null)}
+          hiddenByFilter={hiddenByFilter}
+          onShowAllRegions={() => changeRegions([])}
+        />
       </div>
     </div>
   );

@@ -20,5 +20,11 @@
     "south-america": "南美洲",
     "mesoamerica": "中美洲",
     "europe": "欧洲"
-  }
+  },
+  "heartlandToday": "核心地区今属：{countries}",
+  "regionFilter": "地区",
+  "allRegions": "全部",
+  "showAllRegions": "显示所有地区",
+  "noneInRegions": "所选地区在这里没有内容。",
+  "hiddenByFilter": "部分结果不在所选地区内。"
 }

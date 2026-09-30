@@ -20,5 +20,11 @@
     "south-america": "South America",
     "mesoamerica": "Mesoamerica",
     "europe": "Europe"
-  }
+  },
+  "heartlandToday": "Heartland today: {countries}",
+  "regionFilter": "Regions",
+  "allRegions": "All",
+  "showAllRegions": "Show all regions",
+  "noneInRegions": "Nothing here in the regions you picked.",
+  "hiddenByFilter": "Some matches are outside the regions you picked."
 }
