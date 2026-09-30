@@ -12,7 +12,8 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/timeline
   const t = await getTranslations({ locale, namespace: "timeline" });
   const title = t("title");
   const description = t("metaDescription");
-  return { title, description, alternates: pageAlternates(locale, "timeline"), openGraph: { title, description } };
+  // No `openGraph` override: see src/app/[locale]/page.tsx for why.
+  return { title, description, alternates: pageAlternates(locale, "timeline") };
 }
 
 /** Owned by the timeline agent. ?year= is read client-side inside WorldTimeline. */

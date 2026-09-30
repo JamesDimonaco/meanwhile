@@ -13,7 +13,10 @@ export async function generateMetadata({ params }: PageProps<"/[locale]">): Prom
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "home" });
   const description = t("metaDescription");
-  return { description, alternates: pageAlternates(locale, ""), openGraph: { description } };
+  // No `openGraph` override here: setting one would replace (not merge
+  // with) the layout's openGraph.siteName/locale/type, and og:title/
+  // og:description already inherit from the plain title/description above.
+  return { description, alternates: pageAlternates(locale, "") };
 }
 
 /** Home: one search box, popular starting points underneath. Owned by ui-core. */

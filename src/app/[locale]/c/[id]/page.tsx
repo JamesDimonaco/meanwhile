@@ -23,7 +23,8 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/c/[id]">
   const culture = loadCulture(id);
   const title = cultureTitle(culture, locale);
   const description = cultureDescription(culture, locale);
-  return { title, description, alternates: pageAlternates(locale, `c/${id}`), openGraph: { title, description } };
+  // No `openGraph` override: see src/app/[locale]/page.tsx for why.
+  return { title, description, alternates: pageAlternates(locale, `c/${id}`) };
 }
 
 /**

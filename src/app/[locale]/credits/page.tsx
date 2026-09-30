@@ -10,7 +10,8 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/credits"
   const t = await getTranslations({ locale, namespace: "credits" });
   const title = t("title");
   const description = t("metaDescription");
-  return { title, description, alternates: pageAlternates(locale, "credits"), openGraph: { title, description } };
+  // No `openGraph` override: see src/app/[locale]/page.tsx for why.
+  return { title, description, alternates: pageAlternates(locale, "credits") };
 }
 
 const SOURCE_KEYS = ["periodo", "wikidata", "cliopatria", "pleiades", "naturalEarth", "fonts"] as const;
