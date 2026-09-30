@@ -256,14 +256,13 @@ const CULTURES: Record<string, CultureConfig> = {
     ],
   },
   aztec: {
-    subject: "Tenochtitlan and the Aztec Triple Alliance",
+    subject: "the Aztec Triple Alliance",
     simplify: "25%",
     changes:
-      "The 1325 map uses Cliopatria's first Tenochtitlan rows, from 1326, and the 1428 map its first Triple Alliance rows, from 1429.",
+      "The 1428 map uses Cliopatria's 1440 rows, because its Tenochtitlan (1326-1428) and Triple Alliance (1429-1439) polygons lie 20-40 km off the island city; there is no map before 1428 for the same reason.",
     // Cliopatria's Maya city-states reach this map's frame only from 1450.
     snapshots: [
-      { year: 1325, dataYear: 1326, self: ["Tenochtitlan"], rivals: ["Texcoco", "Michoacán"] },
-      { year: 1428, dataYear: 1429, self: ["Aztec Triple Alliance"], rivals: ["Michoacán"] },
+      { year: 1428, dataYear: 1440, self: ["Aztec Triple Alliance"], rivals: ["Michoacán"] },
       { year: 1487, self: ["Aztec Triple Alliance"], rivals: ["Michoacán", "Later Mayan City-States"] },
       { year: 1519, self: ["Aztec Triple Alliance"], rivals: ["Michoacán", "Later Mayan City-States"] },
     ],
@@ -470,8 +469,6 @@ const LABELS: Record<string, Label> = {
   "Inca Empire": ["Inca Empire", "Imperio inca", "印加帝国"],
   "Chimu Empire": ["Chimú", "Chimú", "奇穆王国"],
   "Spanish Empire": ["Spanish Empire", "Imperio español", "西班牙帝国"],
-  Tenochtitlan: ["Tenochtitlan", "Tenochtitlan", "特诺奇蒂特兰"],
-  Texcoco: ["Texcoco", "Texcoco", "特斯科科"],
   "Aztec Triple Alliance": ["Aztec Empire", "Imperio azteca", "阿兹特克帝国"],
   Michoacán: ["Tarascan state", "Estado tarasco", "塔拉斯科国"],
   "Later Mayan City-States": ["Maya city-states", "Ciudades-estado mayas", "玛雅城邦"],
