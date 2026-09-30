@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
 import { SearchBox } from "@/components/search/search-box";
@@ -13,6 +14,17 @@ import { RegionFilteredList } from "@/components/filters/region-filtered-list";
 import { regionsIn } from "@/components/filters/region-filter";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
+import { pageAlternates } from "@/lib/seo";
+
+export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
+  const locale = await pageLocale(params);
+  const t = await getTranslations({ locale, namespace: "home" });
+  const description = t("metaDescription");
+  // No `openGraph` override here: setting one would replace (not merge
+  // with) the layout's openGraph.siteName/locale/type, and og:title/
+  // og:description already inherit from the plain title/description above.
+  return { description, alternates: pageAlternates(locale, "") };
+}
 
 /** Home: one search box, popular starting points underneath. Owned by ui-core. */
 export default async function HomePage({ params }: PageProps<"/[locale]">) {

@@ -1,5 +1,6 @@
 {
   "title": "World timeline",
+  "metaDescription": "Scroll through world history and see which civilisations were active in any given year, side by side.",
   "yearLine": "Drag the line or tap the chart to change the year",
   "zoomIn": "Zoom in",
   "zoomOut": "Zoom out",

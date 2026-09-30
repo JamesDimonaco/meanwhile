@@ -5,10 +5,11 @@ import { ExplainerProvider } from "@/components/explainer/explainer-provider";
 import { ExplainerTrigger } from "@/components/explainer/explainer-trigger";
 import { RegisterServiceWorker } from "@/components/pwa/register-service-worker";
 import { LanguageSwitcher } from "@/components/settings/language-switcher";
-import { HTML_LANG } from "@/i18n/locales";
+import { HTML_LANG, LOCALES } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
 import { routing } from "@/i18n/routing";
+import { SITE_URL } from "@/lib/seo";
 import "../globals.css";
 
 export const dynamicParams = false;
@@ -21,9 +22,20 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "common" });
   return {
+    // Every other page overrides title/description/alternates with its own
+    // content; this is only the fallback and the base every relative URL
+    // (canonical, OG images) resolves against.
+    metadataBase: new URL(SITE_URL),
     title: { default: t("appName"), template: `%s · ${t("appName")}` },
     description: t("tagline"),
     appleWebApp: { capable: true, statusBarStyle: "default", title: t("appName") },
+    openGraph: {
+      siteName: t("appName"),
+      locale: HTML_LANG[locale],
+      alternateLocale: LOCALES.filter((l) => l !== locale).map((l) => HTML_LANG[l]),
+      type: "website",
+    },
+    twitter: { card: "summary_large_image" },
   };
 }
 

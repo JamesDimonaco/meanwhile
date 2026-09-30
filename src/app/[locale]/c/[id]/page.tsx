@@ -13,6 +13,8 @@ import { regionsIn } from "@/components/filters/region-filter";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { recordsHeld } from "@/lib/data/records";
+import { cultureDescription, cultureTitle } from "@/lib/data/culture-copy";
+import { pageAlternates } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -23,7 +25,11 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps<"/[locale]/c/[id]">): Promise<Metadata> {
   const locale = await pageLocale(params);
   const { id } = await params;
-  return { title: localize(loadCulture(id).name, locale) };
+  const culture = loadCulture(id);
+  const title = cultureTitle(culture, locale);
+  const description = cultureDescription(culture, locale);
+  // No `openGraph` override: see src/app/[locale]/page.tsx for why.
+  return { title, description, alternates: pageAlternates(locale, `c/${id}`) };
 }
 
 /**

@@ -1,5 +1,6 @@
 {
   "title": "Sources and credits",
+  "metaDescription": "Every date, name and place on Meanwhile traces back to an open historical dataset, credited and licensed here.",
   "intro": "Meanwhile pulls dates, names and places from open historical datasets, and never copies a source's wording — facts on the app are written fresh and checked against sources.",
   "dataLicence": "Data on this site: CC BY 4.0. Code: MIT.",
   "sources": {
