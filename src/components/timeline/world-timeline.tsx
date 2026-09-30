@@ -94,6 +94,10 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   }, [year, regions]);
 
   const active = useMemo(() => activeAt(shown, year), [shown, year]);
+  const hiddenByFilter = useMemo(
+    () => active.length === 0 && activeAt(cultures, year).length > 0,
+    [active, cultures, year],
+  );
 
   const scrollRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -330,7 +334,14 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
       </div>
 
       <div ref={panelRef} className="scroll-mt-20">
-        <YearPanel year={year} active={active} selected={selected} onClose={() => setSelected(null)} />
+        <YearPanel
+          year={year}
+          active={active}
+          selected={selected}
+          onClose={() => setSelected(null)}
+          hiddenByFilter={hiddenByFilter}
+          onShowAllRegions={() => changeRegions([])}
+        />
       </div>
     </div>
   );

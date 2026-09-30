@@ -62,14 +62,20 @@ export function StoredRegionChips({ available }: { available: readonly Region[] 
 }
 
 /** "Nothing in the regions you picked", with a way back to All. */
-export function NoneInRegions({ message }: { message: "noneInRegions" | "hiddenByFilter" }) {
+export function NoneInRegions({
+  message,
+  onShowAll = () => saveRegionFilter([]),
+}: {
+  message: "noneInRegions" | "hiddenByFilter";
+  onShowAll?: () => void;
+}) {
   const t = useTranslations("common");
   return (
     <p className="px-1 text-sm text-muted-foreground">
       {t(message)}{" "}
       <button
         type="button"
-        onClick={() => saveRegionFilter([])}
+        onClick={onShowAll}
         className="font-medium text-foreground underline underline-offset-2"
       >
         {t("showAllRegions")}
