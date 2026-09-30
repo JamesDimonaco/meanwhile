@@ -12,6 +12,35 @@ import { MapFrame, MAP_HEIGHT, MAP_WIDTH } from "./map-frame";
 
 type GeoData = { land: Geometry; borders: Borders[] };
 
+/** Full soft-frontier feather, for a polity as large as the map frame itself. */
+const MAX_FEATHER = 3;
+/** Feather floor: still soft, but small polities (early rivals, a fledgling kingdom) stay visible under it. */
+const MIN_FEATHER = 0.4;
+/** The frame is fixed to the culture's largest-ever extent, so an early or minor polity can project
+ *  to a few px: below this size (min of width/height, in projected px) it gets the floor values. */
+const SIZE_FLOOR_PX = 6;
+/** Projected px at and above which a polity gets the full, unboosted feather and opacity. */
+const SIZE_CEIL_PX = 130;
+
+function lerp(min: number, max: number, minDimension: number): number {
+  const t = Math.min(1, Math.max(0, (minDimension - SIZE_FLOOR_PX) / (SIZE_CEIL_PX - SIZE_FLOOR_PX)));
+  return min + t * (max - min);
+}
+
+/** Scales the border blur down for small polygons so they don't dissolve under a feather sized for the biggest one. */
+function featherFor(minDimension: number): number {
+  return lerp(MIN_FEATHER, MAX_FEATHER, minDimension);
+}
+
+/**
+ * A polity a few px across still gets diluted toward invisibility by the feather even at MIN_FEATHER,
+ * since the blur's spread is large relative to the shape's own size: make up for it with more opacity,
+ * tapering back to the normal, softer look once a polity is big enough to carry the feather on its own.
+ */
+function opacityFor(minDimension: number, base: number, boosted: number): number {
+  return lerp(boosted, base, minDimension);
+}
+
 let geoData: Promise<GeoData> | undefined;
 
 async function fetchJson(url: string): Promise<unknown> {
@@ -86,7 +115,18 @@ function MapSvg({ land, borders, year, pin }: { land: Geometry; borders: Borders
       landPath: toPath(forD3(land)) ?? "",
       snapshots: borders.snapshots.map((s) => ({
         year: s.year,
-        polities: s.polities.map((p) => ({ ...p, d: toPath(forD3(p.geometry)) ?? "" })),
+        polities: s.polities.map((p) => {
+          const feature = forD3(p.geometry);
+          const [[x0, y0], [x1, y1]] = toPath.bounds(feature);
+          const size = Math.min(x1 - x0, y1 - y0);
+          return {
+            ...p,
+            d: toPath(feature) ?? "",
+            feather: featherFor(size),
+            fillOpacity: opacityFor(size, p.role === "self" ? 0.45 : 0.35, 0.9),
+            strokeOpacity: opacityFor(size, p.role === "self" ? 0.4 : 0.25, 0.8),
+          };
+        }),
       })),
     };
   }, [land, borders]);
@@ -104,25 +144,25 @@ function MapSvg({ land, borders, year, pin }: { land: Geometry; borders: Borders
         aria-label={t("title")}
       >
         <defs>
-          {/* Pre-modern frontiers were zones, not lines: blur every border. */}
-          <filter id={filterId} x="-10%" y="-10%" width="120%" height="120%">
-            <feGaussianBlur stdDeviation="3" />
-          </filter>
+          {/* Pre-modern frontiers were zones, not lines: blur every border, less for a small polity than a big one (see featherFor). */}
+          {snapshot?.polities.map((p) => (
+            <filter key={p.id} id={`${filterId}-${p.id}`} x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation={p.feather} />
+            </filter>
+          ))}
         </defs>
-        <path d={landPath} className="fill-background stroke-border" strokeWidth={0.5} />
+        <path d={landPath} className="fill-[oklch(0.88_0.02_90)] stroke-border dark:fill-background" strokeWidth={0.5} />
         {snapshot && (
-          <g key={snapshot.year} filter={`url(#${filterId})`} className="animate-in fade-in duration-500">
+          <g key={snapshot.year} className="animate-in fade-in duration-500">
             {snapshot.polities.map((p) => (
               <path
                 key={p.id}
                 d={p.d}
+                filter={`url(#${filterId}-${p.id})`}
                 strokeWidth={5}
                 strokeLinejoin="round"
-                className={
-                  p.role === "self"
-                    ? "fill-red-700/45 stroke-red-700/40 dark:fill-red-400/45 dark:stroke-red-400/40"
-                    : "fill-muted-foreground/35 stroke-muted-foreground/25"
-                }
+                style={{ fillOpacity: p.fillOpacity, strokeOpacity: p.strokeOpacity }}
+                className={p.role === "self" ? "fill-red-700 stroke-red-700 dark:fill-red-400 dark:stroke-red-400" : "fill-muted-foreground stroke-muted-foreground"}
               />
             ))}
           </g>
