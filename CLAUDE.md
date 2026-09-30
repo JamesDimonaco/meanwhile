@@ -18,6 +18,8 @@ data/registry.json                   canonical culture ids + region (add an id h
 data/cultures/<region>/<id>.json     one culture per file; region is the folder
 data/borders/<cultureId>.json        territory-map snapshots (Rome)
 data/popular.json                    home page starting points, in display order (ids must have a culture file)
+data/today.json                      culture id -> present-day countries of its heartland (ISO 3166-1 alpha-2), for flags
+public/flags/                        flag-icons SVGs (MIT), only the codes today.json uses; regenerate with pnpm sync-flags
 messages/<locale>/<namespace>.json   UI text, one file per namespace per locale
 scripts/                             validate-data.ts, check-no-google.ts
 src/app/(root)/page.tsx              "/" : inline script picks a locale, redirects to /<locale>/
@@ -29,6 +31,8 @@ src/app/[locale]/credits/page.tsx    sources and licences
 src/i18n/                            locales, routing, navigation, request config, pageLocale()
 src/lib/years.ts                     all year maths and formatting
 src/lib/data/                        schema.ts (zod + types), load.ts (fs, build-time), queries.ts, localize.ts, validate.ts
+src/components/filters/              region chips + filter state (?regions= on the timeline, localStorage elsewhere)
+src/components/identity/             HeartlandFlags, RegionDot
 src/components/<area>/               see Ownership
 src/components/ui/                   shadcn components (base-nova, RTL-aware)
 ```
@@ -53,13 +57,14 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 - **Fact** (the "one vivid line" on a meanwhile card): `id`, `text`, `start`, `end`, `sources`, `disputed`.
 - Mark anything contested `disputed: true` and say why in `note`.
 - **Borders** `data/borders/<cultureId>.json`: `{ cultureId, sources, snapshots: [{ year, polities: [{ id, label, role: "self" | "rival", geometry }] }] }`, snapshots in ascending year. `geometry` is GeoJSON `Polygon` or `MultiPolygon`, `[lon, lat]`, simplified before committing. A borders file makes `hasTerritoryMap(id)` true, which swaps the detail page to `CultureStory`.
-- Validation fails on schema errors, duplicate ids, missing English, ids missing from the registry, or a file whose path disagrees with its `id`/`region`.
+- **Heartland** `data/today.json`: `{ "<id>": ["PE"] }`, 1–3 codes, where the heartland lies today, never the largest extent. Every registry id needs an entry. Disputed or politically loaded codes (TW, HK, MO, EH, PS) are rejected: the site must stay reachable in mainland China and neutral elsewhere. After adding a code, run `pnpm sync-flags`.
+- Validation fails on schema errors, duplicate ids, missing English, ids missing from the registry, a file whose path disagrees with its `id`/`region`, or a heartland/flag mismatch.
 - Sources: PeriodO (public domain), Wikidata (CC0), Cliopatria (CC BY 4.0), Pleiades (CC BY), DARE (CC BY). Never Seshat (non-commercial licence).
 
 ## Queries (`src/lib/data/queries.ts`)
 
 - `activeAt(cultures, year)`: cultures whose outer range contains the year; `certain` when inside the solid part.
-- `meanwhile(anchor, cultures)`: 4–6 cards (`MIN_MEANWHILE_CARDS`, `MAX_MEANWHILE_CARDS`), one region at a time, anchor's own region last, deterministic.
+- `meanwhile(anchor, cultures)`: 4–6 cards (`MIN_MEANWHILE_CARDS`, `MAX_MEANWHILE_CARDS`), one region at a time, anchor's own region last, deterministic. It is `pickMeanwhile(meanwhileCandidates(...))`; the culture page sends the light candidates to the client so the region filter can re-pick.
 - `eventsBetween(cultures, from, to)`, `eventWorld(culture, cultures)`, `toCultureRef`, `defaultPeriod`.
 - `load.ts` uses `fs`: call it only from server components and scripts. Pass `CultureRef` / `Culture` props to client components, never whole datasets on pages that don't need them (weak signal).
 
