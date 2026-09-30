@@ -21,13 +21,15 @@ data/popular.json                    home page starting points, in display order
 messages/<locale>/<namespace>.json   UI text, one file per namespace per locale
 scripts/                             validate-data.ts, check-no-google.ts
 src/app/(root)/page.tsx              "/" : inline script picks a locale, redirects to /<locale>/
-src/app/[locale]/layout.tsx          html, header (explainer trigger + language switcher), providers
-src/app/[locale]/page.tsx            home / search
+src/app/[locale]/layout.tsx          html, header (scan button, explainer trigger, language switcher), providers
+src/app/[locale]/page.tsx            home: scan, search (prefilled from ?q=)
+src/app/api/scan/route.ts            POST /api/scan: placard photo in, destination out (the only server code)
 src/app/[locale]/c/[id]/page.tsx     Meanwhile screen + culture detail (moment first, detail below)
 src/app/[locale]/timeline/page.tsx   world timeline; year in ?year= (astronomical), read client-side
 src/app/[locale]/credits/page.tsx    sources and licences
 src/i18n/                            locales, routing, navigation, request config, pageLocale()
 src/lib/years.ts                     all year maths and formatting
+src/lib/scan/                        model answer -> destination, upload checks, catalogue prompt, rate limit, the model call
 src/lib/data/                        schema.ts (zod + types), load.ts (fs, build-time), queries.ts, localize.ts, validate.ts
 src/components/<area>/               see Ownership
 src/components/ui/                   shadcn components (base-nova, RTL-aware)
@@ -72,6 +74,14 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 - Nothing from Google: no Google Fonts (lint blocks `next/font/google`), maps, analytics or CDNs. Self-host every asset; the build fails on Google hosts in the built output. Subset any CJK font.
 - Hosting: Next on Vercel, function region `iad1` (`vercel.json`; Anthropic doesn't serve mainland China or Hong Kong, so never `hkg1`). Every page and the `geo/` and manifest route handlers are prerendered (`generateStaticParams`, `force-static`); check the build's route table keeps them `○`/`●`. The only server code is `POST /api/scan`. No middleware, cookies, rewrites or server actions. Browser APIs only in effects or `useSyncExternalStore`; wrap every `localStorage` call in try/catch.
 - Locale choice is stored under `LOCALE_STORAGE_KEY` (`src/i18n/locales.ts`); the root page reads it before browser languages.
+
+## Placard scanning
+
+- `POST /api/scan/` takes a JPEG/PNG/WebP body (2 MB cap, magic bytes checked; the client downscales to 1280px JPEG first) and makes one `claude-opus-5` call (low effort, JSON-schema output). The schema limits `cultureId` to catalogue ids or null; BCE/CE years become astronomical in `decideScan`, never in the model. Low confidence never routes.
+- Key: `ANTHROPIC_API_KEY` in the server env only. Without it the route answers 503 and the UI says scanning is unavailable.
+- Images are never stored or logged; the log line is model, stop reason, latency and token counts only.
+- Rate limit is in memory per function instance (30 per IP per 10 min): it resets on a cold start and isn't shared across instances.
+- Live check: `src/lib/scan/__fixtures__/placard-*.jpg` (Shang in Chinese, Rome in English, Moche in Spanish, and a placard that tries to give the model instructions). POST one with `curl --data-binary @file -H 'content-type: image/jpeg'` to a local `next start` that has the key.
 
 ## Ownership (parallel build)
 
