@@ -25,7 +25,7 @@ import {
   computeYearDomain,
   yearStepForKey,
 } from "./timeline-math";
-import { CultureLabel, CultureRow, REGION_COLOR, RegionHeaderLabel } from "./timeline-row";
+import { CultureLabel, CultureRow, FadeGradients, REGION_COLOR, RegionHeaderLabel } from "./timeline-row";
 import { YearPanel, type SelectedEvent } from "./year-panel";
 
 const NAME_COL_WIDTH = 112;
@@ -261,7 +261,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
           <svg width={chartWidth} height={svgHeight} className="block">
             <defs>
               {REGIONS.map((region) => (
-                <FadeGradients key={region} region={region} />
+                <FadeGradients key={region} id={`tl-fade-${region}`} color={REGION_COLOR[region]} />
               ))}
             </defs>
             <g className="fill-muted-foreground text-[10px]">
@@ -350,20 +350,3 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     </div>
   );
 }
-
-function FadeGradients({ region }: { region: (typeof REGIONS)[number] }) {
-  const color = REGION_COLOR[region];
-  return (
-    <>
-      <linearGradient id={`tl-fade-in-${region}`} x1="0" x2="1" y1="0" y2="0">
-        <stop offset="0" stopColor={color} stopOpacity={0} />
-        <stop offset="1" stopColor={color} stopOpacity={1} />
-      </linearGradient>
-      <linearGradient id={`tl-fade-out-${region}`} x1="0" x2="1" y1="0" y2="0">
-        <stop offset="0" stopColor={color} stopOpacity={1} />
-        <stop offset="1" stopColor={color} stopOpacity={0} />
-      </linearGradient>
-    </>
-  );
-}
-

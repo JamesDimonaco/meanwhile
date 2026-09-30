@@ -4,7 +4,7 @@ import { ChevronDown, Crown, Flag, Lightbulb, Skull, Swords, type LucideIcon } f
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
-import type { EventWorld } from "@/lib/data/queries";
+import type { CultureRef, EventWorld } from "@/lib/data/queries";
 import type { Culture, CultureEvent, EventType, Source } from "@/lib/data/schema";
 import { YearText } from "@/components/settings/year-text";
 import { DisputedBadge } from "./disputed-badge";
@@ -41,8 +41,6 @@ function EventItem({
   world: EventWorld[string];
 }) {
   const locale = useLocale();
-  const t = useTranslations("culture");
-  const tCommon = useTranslations("common");
   const Icon = EVENT_ICONS[event.type];
 
   return (
@@ -75,35 +73,54 @@ function EventItem({
         </summary>
 
         <div className="flex flex-col gap-3 border-t border-border p-3 text-sm">
-          {event.note && <p className="text-muted-foreground italic">{localize(event.note, locale)}</p>}
-
-          <SourceList sources={event.sources} />
-
-          <div>
-            <h4 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
-              {t.rich("alsoHappening", { year: () => <YearText year={event.start} /> })}
-            </h4>
-            {world.length === 0 ? (
-              <p className="mt-1 text-muted-foreground">—</p>
-            ) : (
-              <ul className="mt-1 flex flex-col gap-1">
-                {world.map(({ culture: ref, certain }) => (
-                  <li key={ref.id}>
-                    <Link href={`/c/${ref.id}`} className="flex items-baseline gap-1.5 hover:underline">
-                      <span className="font-medium text-foreground">{localize(ref.name, locale)}</span>
-                      <span className="text-muted-foreground">
-                        {tCommon(`regions.${ref.region}`)}
-                        {!certain && ` (${t("uncertainOverlap")})`}
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
+          <EventDetail event={event} world={world} />
         </div>
       </details>
     </li>
+  );
+}
+
+/** Who else was alive, just the fields EventDetail shows. */
+export type EventDetailWorld = readonly {
+  culture: Pick<CultureRef, "id" | "name" | "region">;
+  certain: boolean;
+}[];
+
+/** An event's note, sources and what else was alive that year. Shared with the compare screen. */
+export function EventDetail({ event, world }: { event: CultureEvent; world: EventDetailWorld }) {
+  const locale = useLocale();
+  const t = useTranslations("culture");
+  const tCommon = useTranslations("common");
+
+  return (
+    <>
+      {event.note && <p className="text-muted-foreground italic">{localize(event.note, locale)}</p>}
+
+      <SourceList sources={event.sources} />
+
+      <div>
+        <h4 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
+          {t.rich("alsoHappening", { year: () => <YearText year={event.start} /> })}
+        </h4>
+        {world.length === 0 ? (
+          <p className="mt-1 text-muted-foreground">—</p>
+        ) : (
+          <ul className="mt-1 flex flex-col gap-1">
+            {world.map(({ culture: ref, certain }) => (
+              <li key={ref.id}>
+                <Link href={`/c/${ref.id}`} className="flex items-baseline gap-1.5 hover:underline">
+                  <span className="font-medium text-foreground">{localize(ref.name, locale)}</span>
+                  <span className="text-muted-foreground">
+                    {tCommon(`regions.${ref.region}`)}
+                    {!certain && ` (${t("uncertainOverlap")})`}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </>
   );
 }
 

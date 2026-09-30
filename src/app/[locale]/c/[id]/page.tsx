@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { BeforeAfter } from "@/components/context/before-after";
+import { Columns2 } from "lucide-react";
+import { compareHref } from "@/components/compare/compare-href";
 import { CultureEvents } from "@/components/culture/culture-events";
 import { PeriodRange } from "@/components/culture/period-range";
 import { MeanwhileCards } from "@/components/meanwhile/meanwhile-cards";
 import { CultureStory } from "@/components/territory-map/culture-story";
+import { buttonVariants } from "@/components/ui/button";
+import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
 import { hasTerritoryMap, loadCulture, loadCultures, loadSuccession } from "@/lib/data/load";
 import { isMachineTranslated, localize } from "@/lib/data/localize";
@@ -56,6 +60,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
     after: refsOf(g.after),
   }));
   const records = recordsHeld(id, [...refs.values()]);
+  const tCompare = await getTranslations({ locale, namespace: "compare" });
 
   return (
     <article className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-4">
@@ -83,6 +88,13 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
             {records.map((kind) => tContext("holds", { kind, disputed: String(period.disputed) })).join(" ")}
           </p>
         )}
+        <Link
+          href={compareHref([culture.id])}
+          className={buttonVariants({ variant: "outline", className: "self-start" })}
+        >
+          <Columns2 aria-hidden />
+          {tCompare("compareWith")}
+        </Link>
         {isMachineTranslated(culture, locale) && (
           <p className="text-xs text-muted-foreground">{tCommon("machineTranslated")}</p>
         )}
@@ -91,6 +103,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
       <section className="flex flex-col gap-3">
         <h2 className="text-lg font-semibold tracking-tight">{t("heading")}</h2>
         <MeanwhileCards
+          anchor={culture}
           candidates={candidates}
           cards={cards}
           anchorRegion={culture.region}

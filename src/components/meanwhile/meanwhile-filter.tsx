@@ -15,6 +15,8 @@ export type FilterableCard = {
   label: string;
   badges: Record<CardBadge, string>;
   head: ReactNode;
+  /** A sibling of the card link, not inside it: links can't nest. */
+  compare: ReactNode;
   fact: ReactNode;
 };
 
@@ -48,7 +50,7 @@ export function MeanwhileFilter({
             const card = cards[id];
             const badge = badges[id];
             return (
-              <li key={id}>
+              <li key={id} className="relative">
                 <Link
                   href={`/c/${id}`}
                   aria-label={card.label}
@@ -62,6 +64,7 @@ export function MeanwhileFilter({
                   )}
                   {card.fact}
                 </Link>
+                {card.compare}
               </li>
             );
           })}
