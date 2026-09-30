@@ -2,10 +2,11 @@
 
 import { useId, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { YearRangeText } from "@/components/settings/year-text";
+import { useSettings } from "@/components/settings/use-settings";
 import { search, type SearchEntry } from "@/components/search/search-index";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
+import { formatYearRange } from "@/lib/years";
 import { compareHref } from "./compare-href";
 
 const MAX_SUGGESTIONS = 8;
@@ -27,6 +28,7 @@ export function ComparePicker({
   const t = useTranslations("compare");
   const tCommon = useTranslations("common");
   const locale = useLocale();
+  const { eraStyle } = useSettings();
   const [query, setQuery] = useState("");
   const inputId = useId();
   const trimmed = query.trim();
@@ -90,7 +92,8 @@ export function ComparePicker({
                 <span className="text-sm text-muted-foreground">
                   {tCommon(`regions.${entry.region}`)}
                   {" · "}
-                  <YearRangeText start={entry.period.latestStart} end={entry.period.earliestEnd} />
+                  {/* Plain text, not the tappable date: a thumb on the row must pick the culture. */}
+                  {formatYearRange(entry.period.latestStart, entry.period.earliestEnd, locale, eraStyle)}
                 </span>
               </Link>
             </li>
