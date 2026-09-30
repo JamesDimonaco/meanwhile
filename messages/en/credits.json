@@ -18,7 +18,7 @@
     "cliopatria": {
       "name": "Cliopatria",
       "licence": "CC BY 4.0",
-      "used": "Historical border polygons for the Rome territory map.",
+      "used": "Historical border polygons for the Rome and Egypt territory maps.",
       "changes": "Polygons are simplified for a small, fast map and republished under the same licence with attribution. Published separately from, and under a different licence to, Seshat's own dataset (see below)."
     },
     "pleiades": {
@@ -30,8 +30,8 @@
     "naturalEarth": {
       "name": "Natural Earth",
       "licence": "Public domain",
-      "used": "The coastlines and land shapes under the Rome territory map.",
-      "changes": "The 1:50m land layer is clipped to the Mediterranean and simplified."
+      "used": "The coastlines and land shapes under the territory maps.",
+      "changes": "The 1:50m land layer is clipped to the Mediterranean and the Nile valley and simplified."
     },
     "fonts": {
       "name": "Inter and Noto Sans SC",

@@ -18,7 +18,7 @@
     "cliopatria": {
       "name": "Cliopatria",
       "licence": "CC BY 4.0",
-      "used": "罗马疆域地图所用的历史边界多边形。",
+      "used": "罗马和埃及疆域地图所用的历史边界多边形。",
       "changes": "为保持地图轻量快速，多边形已作简化处理，并在标注来源的前提下以相同许可再发布。其发布与 Seshat 自身数据集分开，许可条款也不同（见下文）。"
     },
     "pleiades": {
@@ -30,8 +30,8 @@
     "naturalEarth": {
       "name": "Natural Earth",
       "licence": "公共领域",
-      "used": "罗马疆域地图底图中的海岸线与陆地轮廓。",
-      "changes": "将 1:50m 陆地图层裁剪至地中海地区并进行简化。"
+      "used": "疆域地图底图中的海岸线与陆地轮廓。",
+      "changes": "将 1:50m 陆地图层裁剪至地中海和尼罗河流域并进行简化。"
     },
     "fonts": {
       "name": "Inter 与 Noto Sans SC",

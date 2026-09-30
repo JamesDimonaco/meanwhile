@@ -18,7 +18,7 @@
     "cliopatria": {
       "name": "Cliopatria",
       "licence": "CC BY 4.0",
-      "used": "Polígonos de fronteras históricas para el mapa de territorio de Roma.",
+      "used": "Polígonos de fronteras históricas para los mapas de territorio de Roma y Egipto.",
       "changes": "Los polígonos se simplifican para un mapa pequeño y rápido, y se republican bajo la misma licencia con atribución. Se publica por separado, y bajo una licencia distinta, del propio conjunto de datos de Seshat (véase abajo)."
     },
     "pleiades": {
@@ -30,8 +30,8 @@
     "naturalEarth": {
       "name": "Natural Earth",
       "licence": "Dominio público",
-      "used": "Las costas y la forma de las tierras bajo el mapa de territorio de Roma.",
-      "changes": "La capa de tierras a escala 1:50m se recorta al Mediterráneo y se simplifica."
+      "used": "Las costas y la forma de las tierras bajo los mapas de territorio.",
+      "changes": "La capa de tierras a escala 1:50m se recorta al Mediterráneo y al valle del Nilo y se simplifica."
     },
     "fonts": {
       "name": "Inter y Noto Sans SC",
