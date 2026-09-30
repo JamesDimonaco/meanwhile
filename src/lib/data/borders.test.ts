@@ -1,0 +1,27 @@
+import fs from "node:fs";
+import path from "node:path";
+import { describe, expect, it } from "vitest";
+import { readDataset } from "./load";
+
+// A culture with a borders file gets the scroll-linked map: every event pins
+// its place on it, and the borders file loads on a phone on weak signal.
+const MAX_BORDERS_BYTES = 300 * 1024;
+
+describe("territory map data", () => {
+  const { cultures, borders } = readDataset();
+
+  it.each(borders.map((b) => b.cultureId))("%s: every event has a place to pin", (id) => {
+    const culture = cultures.find((c) => c.id === id);
+    expect(culture, `culture file for ${id}`).toBeDefined();
+    expect(culture?.events.filter((e) => !e.place).map((e) => e.id)).toEqual([]);
+  });
+
+  it.each(borders.map((b) => b.cultureId))("%s: a self polity in every snapshot, under 300 KB", (id) => {
+    const file = borders.find((b) => b.cultureId === id);
+    for (const snapshot of file?.snapshots ?? []) {
+      expect(snapshot.polities.some((p) => p.role === "self"), `year ${snapshot.year}`).toBe(true);
+    }
+    const bytes = fs.statSync(path.join(process.cwd(), "data/borders", `${id}.json`)).size;
+    expect(bytes).toBeLessThanOrEqual(MAX_BORDERS_BYTES);
+  });
+});

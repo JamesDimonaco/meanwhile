@@ -51,6 +51,36 @@
   ],
   "events": [
     {
+      "id": "battle-of-lechfeld",
+      "start": 955,
+      "type": "conflict",
+      "title": {
+        "en": "Otto I's German army defeats a Hungarian force besieging Augsburg, ending the great Magyar raids on western Europe",
+        "es": "El ejército germano de Otón I derrota a una fuerza húngara que asediaba Augsburgo y pone fin a las grandes incursiones magiares en Europa occidental",
+        "zh": "奥托一世的德意志军队击败围攻奥格斯堡的匈牙利军队，马扎尔人对西欧的大规模劫掠自此终结"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Lechfeld\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Lechfeld"
+        },
+        {
+          "citation": "Wikidata, \"Battle of Lechfeld\" (Q273069): date 10 August 955 and coordinates.",
+          "url": "https://www.wikidata.org/wiki/Q273069"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lechfeld, near Augsburg",
+          "es": "Lechfeld, cerca de Augsburgo",
+          "zh": "奥格斯堡附近的莱希菲尔德"
+        },
+        "lat": 48.35,
+        "lon": 10.92
+      }
+    },
+    {
       "id": "otto-crowned",
       "start": 962,
       "type": "founding",
@@ -67,7 +97,17 @@
           "citation": "Reuter, T. (1991). Germany in the Early Middle Ages c. 800-1056. Longman."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Old St Peter's Basilica, Rome",
+          "es": "Antigua basílica de San Pedro, Roma",
+          "zh": "罗马旧圣彼得大教堂"
+        },
+        "lat": 41.9022,
+        "lon": 12.4534,
+        "pleiadesId": "423053"
+      }
     },
     {
       "id": "investiture-controversy",
@@ -87,7 +127,76 @@
           "citation": "Robinson, I.S. (1999). Henry IV of Germany 1056-1106. Cambridge University Press."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Canossa Castle",
+          "es": "Castillo de Canossa",
+          "zh": "卡诺莎城堡"
+        },
+        "lat": 44.576,
+        "lon": 10.4558
+      }
+    },
+    {
+      "id": "battle-of-legnano",
+      "start": 1176,
+      "type": "conflict",
+      "title": {
+        "en": "The Lombard League's city armies, led by Milan, defeat Emperor Frederick Barbarossa near Legnano",
+        "es": "Los ejércitos urbanos de la Liga Lombarda, encabezados por Milán, derrotan al emperador Federico Barbarroja cerca de Legnano",
+        "zh": "以米兰为首的伦巴第联盟城市军队在莱尼亚诺附近击败皇帝腓特烈·巴巴罗萨"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Legnano\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Legnano"
+        },
+        {
+          "citation": "Wikidata, \"Battle of Legnano\" (Q283364): date 29 May 1176 and coordinates.",
+          "url": "https://www.wikidata.org/wiki/Q283364"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Legnano",
+          "es": "Legnano",
+          "zh": "莱尼亚诺"
+        },
+        "lat": 45.5958,
+        "lon": 8.906
+      }
+    },
+    {
+      "id": "rudolf-elected",
+      "start": 1273,
+      "type": "ruler",
+      "title": {
+        "en": "Meeting in Frankfurt, the electors choose Rudolf of Habsburg as King of the Romans, ending the Great Interregnum, two decades of weak and rival kings, and starting his family's rise",
+        "es": "Reunidos en Fráncfort, los electores eligen a Rodolfo de Habsburgo rey de romanos, lo que pone fin al Gran Interregno, dos décadas de reyes débiles y rivales, e inicia el ascenso de su familia",
+        "zh": "选帝侯在法兰克福推选哈布斯堡的鲁道夫为罗马人的国王，结束了约二十年诸王孱弱、彼此对立的“大空位时期”，其家族由此崛起"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Rudolf I of Germany\".",
+          "url": "https://en.wikipedia.org/wiki/Rudolf_I_of_Germany"
+        },
+        {
+          "citation": "Wikipedia, \"Interregnum (Holy Roman Empire)\".",
+          "url": "https://en.wikipedia.org/wiki/Interregnum_(Holy_Roman_Empire)"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Frankfurt",
+          "es": "Fráncfort",
+          "zh": "法兰克福"
+        },
+        "lat": 50.1106,
+        "lon": 8.6822
+      }
     },
     {
       "id": "golden-bull",
@@ -106,7 +215,46 @@
           "citation": "Boockmann, H. (1994). Die Goldene Bulle Kaiser Karls IV vom Jahre 1356. Deutscher Kunstverlag."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Nuremberg",
+          "es": "Núremberg",
+          "zh": "纽伦堡"
+        },
+        "lat": 49.4539,
+        "lon": 11.0775
+      }
+    },
+    {
+      "id": "jan-hus-burned",
+      "start": 1415,
+      "type": "conflict",
+      "title": {
+        "en": "The Council of Constance condemns the Czech reformer Jan Hus as a heretic and he is burned at the stake, setting Bohemia on the road to the Hussite Wars",
+        "es": "El Concilio de Constanza condena por hereje al reformador checo Jan Hus, que muere en la hoguera, y Bohemia se encamina a las guerras husitas",
+        "zh": "康斯坦茨大公会议判定捷克改革家扬·胡斯为异端，将其处以火刑，波希米亚由此走向胡斯战争"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Jan Hus\".",
+          "url": "https://en.wikipedia.org/wiki/Jan_Hus"
+        },
+        {
+          "citation": "Wikipedia, \"Council of Constance\".",
+          "url": "https://en.wikipedia.org/wiki/Council_of_Constance"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Konstanz",
+          "es": "Constanza",
+          "zh": "康斯坦茨"
+        },
+        "lat": 47.6633,
+        "lon": 9.1753
+      }
     },
     {
       "id": "luther-diet-of-worms",
@@ -125,7 +273,46 @@
           "citation": "Brady, T.A. (2009). German Histories in the Age of Reformations, 1400-1650. Cambridge University Press."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Worms",
+          "es": "Worms",
+          "zh": "沃尔姆斯"
+        },
+        "lat": 49.6303,
+        "lon": 8.3621
+      }
+    },
+    {
+      "id": "peace-of-augsburg",
+      "start": 1555,
+      "type": "invention",
+      "title": {
+        "en": "The Peace of Augsburg lets each prince of the empire choose Lutheranism or Catholicism as the faith of his own lands",
+        "es": "La Paz de Augsburgo permite a cada príncipe del imperio elegir el luteranismo o el catolicismo como fe de sus propias tierras",
+        "zh": "《奥格斯堡和约》允许帝国各诸侯为其领地在路德宗与天主教之间择一为官方信仰"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Peace of Augsburg\".",
+          "url": "https://en.wikipedia.org/wiki/Peace_of_Augsburg"
+        },
+        {
+          "citation": "Wikidata, \"Peace of Augsburg\" (Q154577): date 25 September 1555.",
+          "url": "https://www.wikidata.org/wiki/Q154577"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Augsburg",
+          "es": "Augsburgo",
+          "zh": "奥格斯堡"
+        },
+        "lat": 48.3689,
+        "lon": 10.8978
+      }
     },
     {
       "id": "thirty-years-war",
@@ -150,6 +337,15 @@
         "en": "Population loss estimates vary widely by region and source, from around 15 to 30 percent of the empire's population.",
         "es": "Las estimaciones de pérdida de población varían mucho según la región y la fuente, entre alrededor del 15 y el 30 por ciento de la población del imperio.",
         "zh": "人口损失的估算因地区与史料不同而差异颇大，帝国总人口的损失比例约在15%到30%之间。"
+      },
+      "place": {
+        "name": {
+          "en": "Prague Castle",
+          "es": "Castillo de Praga",
+          "zh": "布拉格城堡"
+        },
+        "lat": 50.09,
+        "lon": 14.4
       }
     },
     {
@@ -169,7 +365,76 @@
           "citation": "Wilson, P.H. (2009). Europe's Tragedy: A History of the Thirty Years War. Allen Lane."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Münster",
+          "es": "Münster",
+          "zh": "明斯特"
+        },
+        "lat": 51.9625,
+        "lon": 7.6256
+      }
+    },
+    {
+      "id": "battle-of-vienna",
+      "start": 1683,
+      "type": "conflict",
+      "title": {
+        "en": "Imperial and Polish troops under King John III Sobieski break the two-month Ottoman siege of Vienna in a battle on the Kahlenberg",
+        "es": "Tropas imperiales y polacas al mando del rey Juan III Sobieski rompen el asedio otomano de Viena, que duraba dos meses, en una batalla en el Kahlenberg",
+        "zh": "波兰国王扬三世·索别斯基率领帝国与波兰军队在卡伦山一战，解除了奥斯曼帝国对维也纳长达两个月的围困"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Vienna\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Vienna"
+        },
+        {
+          "citation": "Wikidata, \"Battle of Vienna\" (Q200855): date 12 September 1683 and coordinates.",
+          "url": "https://www.wikidata.org/wiki/Q200855"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kahlenberg, Vienna",
+          "es": "Kahlenberg, Viena",
+          "zh": "维也纳卡伦山"
+        },
+        "lat": 48.235,
+        "lon": 16.335
+      }
+    },
+    {
+      "id": "battle-of-austerlitz",
+      "start": 1805,
+      "type": "conflict",
+      "title": {
+        "en": "Napoleon crushes the Russian and Austrian armies at Austerlitz, and Austria signs the Peace of Pressburg within the month",
+        "es": "Napoleón aplasta a los ejércitos ruso y austriaco en Austerlitz, y Austria firma la Paz de Presburgo ese mismo mes",
+        "zh": "拿破仑在奥斯特利茨大败俄奥联军，奥地利当月即签订《普雷斯堡和约》"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Austerlitz\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Austerlitz"
+        },
+        {
+          "citation": "Wikidata, \"Battle of Austerlitz\" (Q134114): date 2 December 1805 and coordinates.",
+          "url": "https://www.wikidata.org/wiki/Q134114"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Austerlitz (Slavkov u Brna)",
+          "es": "Austerlitz (Slavkov u Brna)",
+          "zh": "奥斯特利茨（斯拉夫科夫）"
+        },
+        "lat": 49.1281,
+        "lon": 16.7625
+      }
     },
     {
       "id": "dissolution",
@@ -188,7 +453,17 @@
           "citation": "Rady, M. (2020). The Habsburgs: To Rule the World. Basic Books."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Vienna",
+          "es": "Viena",
+          "zh": "维也纳"
+        },
+        "lat": 48.2083,
+        "lon": 16.3725,
+        "pleiadesId": "128537"
+      }
     }
   ],
   "facts": [
