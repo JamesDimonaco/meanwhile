@@ -72,7 +72,16 @@
         {
           "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Mukden (Shenyang)",
+          "es": "Mukden (Shenyang)",
+          "zh": "盛京（沈阳）"
+        },
+        "lat": 41.7958,
+        "lon": 123.45
+      }
     },
     {
       "id": "qing-takes-beijing",
@@ -91,7 +100,16 @@
         {
           "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Beijing",
+          "es": "Pekín",
+          "zh": "北京"
+        },
+        "lat": 39.904,
+        "lon": 116.4075
+      }
     },
     {
       "id": "taiwan-conquest",
@@ -110,7 +128,16 @@
           "citation": "\"Qing dynasty.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/topic/Qing-dynasty"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Tainan",
+          "es": "Tainan",
+          "zh": "台南"
+        },
+        "lat": 22.99,
+        "lon": 120.185
+      }
     },
     {
       "id": "kangxi-reign",
@@ -130,7 +157,16 @@
         {
           "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Forbidden City, Beijing",
+          "es": "Ciudad Prohibida, Pekín",
+          "zh": "北京紫禁城"
+        },
+        "lat": 39.9158,
+        "lon": 116.3908
+      }
     },
     {
       "id": "first-opium-war",
@@ -150,7 +186,16 @@
           "citation": "\"Qing dynasty.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/topic/Qing-dynasty"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Hong Kong",
+          "es": "Hong Kong",
+          "zh": "香港"
+        },
+        "lat": 22.2783,
+        "lon": 114.1586
+      }
     },
     {
       "id": "taiping-rebellion",
@@ -170,7 +215,16 @@
           "citation": "\"Qing dynasty.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/topic/Qing-dynasty"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Tianjing (Nanjing)",
+          "es": "Tianjing (Nankín)",
+          "zh": "天京（南京）"
+        },
+        "lat": 32.0608,
+        "lon": 118.7789
+      }
     },
     {
       "id": "qing-collapse",
@@ -190,7 +244,16 @@
         {
           "citation": "Spence, Jonathan D. (1990). The Search for Modern China. W. W. Norton & Company."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Wuchang",
+          "es": "Wuchang",
+          "zh": "武昌"
+        },
+        "lat": 30.5563,
+        "lon": 114.3105
+      }
     }
   ],
   "facts": [

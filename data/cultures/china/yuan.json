@@ -75,7 +75,16 @@
         {
           "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Kaiping (Xanadu)",
+          "es": "Kaiping (Xanadú)",
+          "zh": "开平（上都）"
+        },
+        "lat": 42.358,
+        "lon": 116.1852
+      }
     },
     {
       "id": "yuan-proclaimed",
@@ -94,7 +103,16 @@
         {
           "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Dadu (Beijing)",
+          "es": "Dadu (Pekín)",
+          "zh": "大都（北京）"
+        },
+        "lat": 39.9333,
+        "lon": 116.4
+      }
     },
     {
       "id": "song-conquest-complete",
@@ -113,7 +131,16 @@
         {
           "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Yamen",
+          "es": "Yamen",
+          "zh": "崖山"
+        },
+        "lat": 22.27,
+        "lon": 113.08
+      }
     },
     {
       "id": "paper-currency",
@@ -132,7 +159,16 @@
           "citation": "\"Yuan dynasty.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/topic/Yuan-dynasty"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Kaiping (Xanadu)",
+          "es": "Kaiping (Xanadú)",
+          "zh": "开平（上都）"
+        },
+        "lat": 42.358,
+        "lon": 116.1852
+      }
     },
     {
       "id": "japan-invasions",
@@ -152,7 +188,16 @@
           "citation": "\"Kublai Khan.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/biography/Kublai-Khan"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Hakata Bay",
+          "es": "Bahía de Hakata",
+          "zh": "博多湾"
+        },
+        "lat": 33.632,
+        "lon": 130.3734
+      }
     },
     {
       "id": "red-turban-rebellion",
@@ -171,7 +216,16 @@
         {
           "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Yingzhou (Fuyang)",
+          "es": "Yingzhou (Fuyang)",
+          "zh": "颍州（阜阳）"
+        },
+        "lat": 32.8986,
+        "lon": 115.8045
+      }
     },
     {
       "id": "yuan-collapse",
@@ -190,7 +244,16 @@
         {
           "citation": "Rossabi, Morris (1988). Khubilai Khan: His Life and Times. University of California Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Dadu (Beijing)",
+          "es": "Dadu (Pekín)",
+          "zh": "大都（北京）"
+        },
+        "lat": 39.9333,
+        "lon": 116.4
+      }
     }
   ],
   "facts": [

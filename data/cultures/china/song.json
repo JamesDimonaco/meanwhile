@@ -71,7 +71,16 @@
         {
           "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Chenqiao",
+          "es": "Chenqiao",
+          "zh": "陈桥"
+        },
+        "lat": 34.9454,
+        "lon": 114.483
+      }
     },
     {
       "id": "jiaozi-currency",
@@ -90,7 +99,16 @@
           "citation": "\"Song dynasty.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/topic/Song-dynasty"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Chengdu",
+          "es": "Chengdu",
+          "zh": "成都"
+        },
+        "lat": 30.66,
+        "lon": 104.0633
+      }
     },
     {
       "id": "movable-type",
@@ -110,7 +128,16 @@
           "citation": "\"Song dynasty.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/topic/Song-dynasty"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Yingshan",
+          "es": "Yingshan",
+          "zh": "英山"
+        },
+        "lat": 30.7374,
+        "lon": 115.672
+      }
     },
     {
       "id": "jingkang-incident",
@@ -129,7 +156,16 @@
         {
           "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Kaifeng",
+          "es": "Kaifeng",
+          "zh": "开封"
+        },
+        "lat": 34.795,
+        "lon": 114.345
+      }
     },
     {
       "id": "southern-song-established",
@@ -148,7 +184,16 @@
         {
           "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Hangzhou (Lin'an)",
+          "es": "Hangzhou (Lin'an)",
+          "zh": "杭州（临安）"
+        },
+        "lat": 30.25,
+        "lon": 120.1675
+      }
     },
     {
       "id": "xiangyang-falls",
@@ -167,7 +212,16 @@
           "citation": "\"Song dynasty.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/topic/Song-dynasty"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Xiangyang",
+          "es": "Xiangyang",
+          "zh": "襄阳"
+        },
+        "lat": 32.0654,
+        "lon": 112.1531
+      }
     },
     {
       "id": "battle-of-yamen",
@@ -186,7 +240,16 @@
         {
           "citation": "Ebrey, Patricia Buckley (1999). The Cambridge Illustrated History of China. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Yamen",
+          "es": "Yamen",
+          "zh": "崖山"
+        },
+        "lat": 22.27,
+        "lon": 113.08
+      }
     }
   ],
   "facts": [

@@ -71,7 +71,16 @@
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Dingtao",
+          "es": "Dingtao",
+          "zh": "定陶"
+        },
+        "lat": 35.1425,
+        "lon": 115.5911
+      }
     },
     {
       "id": "zhang-qian-silk-road",
@@ -90,7 +99,16 @@
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Chang'an",
+          "es": "Chang'an",
+          "zh": "长安"
+        },
+        "lat": 34.3083,
+        "lon": 108.8583
+      }
     },
     {
       "id": "wang-mang-usurpation",
@@ -109,7 +127,16 @@
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Chang'an",
+          "es": "Chang'an",
+          "zh": "长安"
+        },
+        "lat": 34.3083,
+        "lon": 108.8583
+      }
     },
     {
       "id": "guangwu-restoration",
@@ -127,7 +154,16 @@
         {
           "citation": "de Crespigny, Rafe (2007). A Biographical Dictionary of Later Han to the Three Kingdoms (23–220 AD). Brill."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Luoyang",
+          "es": "Luoyang",
+          "zh": "洛阳"
+        },
+        "lat": 34.6587,
+        "lon": 112.4245
+      }
     },
     {
       "id": "invention-of-paper",
@@ -151,7 +187,16 @@
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Luoyang",
+          "es": "Luoyang",
+          "zh": "洛阳"
+        },
+        "lat": 34.6587,
+        "lon": 112.4245
+      }
     },
     {
       "id": "yellow-turban-rebellion",
@@ -169,7 +214,16 @@
         {
           "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Julu",
+          "es": "Julu",
+          "zh": "巨鹿"
+        },
+        "lat": 37.2209,
+        "lon": 115.0306
+      }
     },
     {
       "id": "han-abdication",
@@ -187,7 +241,16 @@
         {
           "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Xu (Xuchang)",
+          "es": "Xu (Xuchang)",
+          "zh": "许都（许昌）"
+        },
+        "lat": 33.9894,
+        "lon": 114.0193
+      }
     }
   ],
   "facts": [

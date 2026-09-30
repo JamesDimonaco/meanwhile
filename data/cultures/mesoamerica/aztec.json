@@ -74,6 +74,15 @@
         "en": "The founding legend was recorded generations later; the exact year and the eagle story cannot be independently verified.",
         "es": "La leyenda fundacional fue registrada generaciones después; el año exacto y la historia del águila no pueden verificarse de forma independiente.",
         "zh": "建城传说是在数代之后才被记录下来的；确切年份与雄鹰的故事都无法得到独立验证。"
+      },
+      "place": {
+        "name": {
+          "en": "Tenochtitlan",
+          "es": "Tenochtitlan",
+          "zh": "特诺奇蒂特兰"
+        },
+        "lat": 19.435,
+        "lon": -99.1314
       }
     },
     {
@@ -94,7 +103,16 @@
           "url": "https://www.britannica.com/topic/Aztec"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Azcapotzalco",
+          "es": "Azcapotzalco",
+          "zh": "阿斯卡波察尔科"
+        },
+        "lat": 19.4873,
+        "lon": -99.1877
+      }
     },
     {
       "id": "templo-mayor",
@@ -119,6 +137,15 @@
         "en": "Chronicle accounts of the numbers sacrificed at this dedication vary widely and are now generally considered exaggerated.",
         "es": "Los relatos de las crónicas sobre el número de sacrificados en esta dedicación varían mucho y hoy se consideran generalmente exagerados.",
         "zh": "编年史中关于此次奉献仪式献祭人数的记载差异很大，如今普遍认为存在夸大。"
+      },
+      "place": {
+        "name": {
+          "en": "Templo Mayor, Tenochtitlan",
+          "es": "Templo Mayor, Tenochtitlan",
+          "zh": "特诺奇蒂特兰大神庙"
+        },
+        "lat": 19.435,
+        "lon": -99.1314
       }
     },
     {
@@ -139,7 +166,16 @@
           "url": "https://www.britannica.com/topic/Aztec"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Tenochtitlan",
+          "es": "Tenochtitlan",
+          "zh": "特诺奇蒂特兰"
+        },
+        "lat": 19.435,
+        "lon": -99.1314
+      }
     },
     {
       "id": "fall-of-tenochtitlan",
@@ -159,7 +195,16 @@
           "url": "https://www.britannica.com/topic/Aztec"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Tenochtitlan",
+          "es": "Tenochtitlan",
+          "zh": "特诺奇蒂特兰"
+        },
+        "lat": 19.435,
+        "lon": -99.1314
+      }
     }
   ],
   "facts": [

@@ -73,7 +73,16 @@
         {
           "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Nanjing",
+          "es": "Nankín",
+          "zh": "南京"
+        },
+        "lat": 32.0608,
+        "lon": 118.7789
+      }
     },
     {
       "id": "forbidden-city",
@@ -93,7 +102,16 @@
           "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Forbidden City, Beijing",
+          "es": "Ciudad Prohibida, Pekín",
+          "zh": "北京紫禁城"
+        },
+        "lat": 39.9158,
+        "lon": 116.3908
+      }
     },
     {
       "id": "zheng-he-voyages",
@@ -113,7 +131,16 @@
         {
           "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Liujiagang, Taicang",
+          "es": "Liujiagang, Taicang",
+          "zh": "太仓刘家港"
+        },
+        "lat": 31.4515,
+        "lon": 121.1043
+      }
     },
     {
       "id": "great-wall-rebuilt",
@@ -133,7 +160,16 @@
           "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Badaling",
+          "es": "Badaling",
+          "zh": "八达岭"
+        },
+        "lat": 40.3543,
+        "lon": 116.0065
+      }
     },
     {
       "id": "imjin-war",
@@ -153,7 +189,16 @@
           "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Pyongyang",
+          "es": "Pionyang",
+          "zh": "平壤"
+        },
+        "lat": 39.0167,
+        "lon": 125.7475
+      }
     },
     {
       "id": "ming-falls-beijing",
@@ -172,7 +217,16 @@
         {
           "citation": "Brook, Timothy (2010). The Troubled Empire: China in the Yuan and Ming Dynasties. Belknap Press of Harvard University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Jingshan, Beijing",
+          "es": "Jingshan, Pekín",
+          "zh": "北京景山"
+        },
+        "lat": 39.9236,
+        "lon": 116.3906
+      }
     },
     {
       "id": "southern-ming-ends",
@@ -191,7 +245,16 @@
           "citation": "\"Ming dynasty summary.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Kunming",
+          "es": "Kunming",
+          "zh": "昆明"
+        },
+        "lat": 25.0433,
+        "lon": 102.7061
+      }
     }
   ],
   "facts": [
