@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState, type ReactNode } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { scaleLinear } from "d3-scale";
 import { DisputedBadge } from "@/components/culture/disputed-badge";
@@ -18,7 +18,8 @@ const BAR_HEIGHT = 12;
 const ROW_GAP = 8;
 const AXIS_HEIGHT = 18;
 /** Roughly one axis label per this many pixels, wide enough for "公元前1000年". */
-const TICK_SPACING = 90;
+const TICK_SPACING = 70;
+const TICK_EDGE = 32;
 /** Keeps the earliest and latest edges off the chart's sides. */
 const DOMAIN_PADDING = 0.03;
 
@@ -49,17 +50,21 @@ export function OverlapChart({ cultures, overlap }: { cultures: CompareCulture[]
   const ticks = axisTicks(domain, Math.max(2, Math.floor(width / TICK_SPACING)));
   const all = cultures.length > 2;
 
+  // Keeps the bracket with its date range when the sentence wraps.
+  const nowrap = (chunks: ReactNode) => <span className="whitespace-nowrap">{chunks}</span>;
   const sentence = (() => {
     switch (overlap.kind) {
       case "overlap":
         return t.rich(all ? "overlapAll" : "overlap", {
           count: overlap.years,
+          nowrap,
           range: () => <YearRangeText start={overlap.start} end={overlap.end} />,
         });
       case "touching":
         return t.rich(all ? "touchingAll" : "touching", { year: () => <YearText year={overlap.year} /> });
       case "uncertain":
         return t.rich(all ? "uncertainAll" : "uncertain", {
+          nowrap,
           range: () => <YearRangeText start={overlap.start} end={overlap.end} />,
         });
       case "gap":
@@ -136,15 +141,15 @@ export function OverlapChart({ cultures, overlap }: { cultures: CompareCulture[]
               </g>
             ))}
             <g className="fill-muted-foreground text-[10px]">
-              {ticks.map((tick) => {
-                const x = xScale(tick);
-                const anchor = x < 30 ? "start" : x > width - 30 ? "end" : "middle";
-                return (
-                  <text key={tick} x={x} y={barsHeight + AXIS_HEIGHT / 2 + 2} dy="0.35em" textAnchor={anchor}>
+              {ticks
+                .map((tick) => ({ tick, x: xScale(tick) }))
+                // A centred label this close to an edge would be cut off; shifting it inward collides with its neighbour.
+                .filter(({ x }) => x >= TICK_EDGE && x <= width - TICK_EDGE)
+                .map(({ tick, x }) => (
+                  <text key={tick} x={x} y={barsHeight + AXIS_HEIGHT / 2 + 2} dy="0.35em" textAnchor="middle">
                     {formatYear(tick, locale, eraStyle)}
                   </text>
-                );
-              })}
+                ))}
             </g>
           </svg>
         )}
