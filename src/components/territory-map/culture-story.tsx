@@ -90,7 +90,12 @@ export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
     <section className="flex flex-col gap-4 [overflow-anchor:none]">
       <div ref={mapSlot} className="sticky top-0 z-10 bg-background py-2">
         {mapWanted ? (
-          <TerritoryMap cultureId={culture.id} year={active.end ?? active.start} pin={active.place ?? null} />
+          <TerritoryMap
+            cultureId={culture.id}
+            region={culture.region}
+            year={active.end ?? active.start}
+            pin={active.place ?? null}
+          />
         ) : (
           <MapFrame />
         )}

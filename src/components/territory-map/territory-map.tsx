@@ -6,7 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { useEffect, useId, useMemo, useState } from "react";
 import { YearText } from "@/components/settings/year-text";
 import { localize } from "@/lib/data/localize";
-import type { Borders, Geometry, Place } from "@/lib/data/schema";
+import type { Borders, Geometry, Place, Region } from "@/lib/data/schema";
 import { forD3, snapshotAt } from "./geo";
 import { MapFrame, MAP_HEIGHT, MAP_WIDTH } from "./map-frame";
 
@@ -28,31 +28,40 @@ function fetchJson(url: string): Promise<unknown> {
   return request;
 }
 
-// Both files are written by us: land.json is a prepared Natural Earth
+// Natural Earth land clipped to each part of the world, so a page downloads
+// only the coastline its map can show rather than the whole globe.
+const LAND: Record<Region, string> = {
+  europe: "/geo/land-europe.json",
+  china: "/geo/land-east-asia.json",
+  "south-america": "/geo/land-americas.json",
+  mesoamerica: "/geo/land-americas.json",
+};
+
+// Both files are written by us: the land file is a prepared Natural Earth
 // MultiPolygon, and the borders file is served from data/borders, which
 // validate-data checks against the schema at build time.
-async function loadGeoData(cultureId: string): Promise<GeoData> {
-  const [land, borders] = await Promise.all([fetchJson("/geo/land.json"), fetchJson(`/geo/borders/${cultureId}.json`)]);
+async function loadGeoData(cultureId: string, region: Region): Promise<GeoData> {
+  const [land, borders] = await Promise.all([fetchJson(LAND[region]), fetchJson(`/geo/borders/${cultureId}.json`)]);
   return { land: land as Geometry, borders: borders as Borders };
 }
 
-type Props = { cultureId: string; year: number; pin: Place | null };
+type Props = { cultureId: string; region: Region; year: number; pin: Place | null };
 
 /** Borders for the year over a land basemap, rivals in grey, a pin for the event in view. */
-export function TerritoryMap({ cultureId, year, pin }: Props) {
+export function TerritoryMap({ cultureId, region, year, pin }: Props) {
   const t = useTranslations("map");
   const [data, setData] = useState<GeoData | "error" | null>(null);
 
   useEffect(() => {
     let live = true;
-    loadGeoData(cultureId).then(
+    loadGeoData(cultureId, region).then(
       (d) => live && setData(d),
       () => live && setData("error"),
     );
     return () => {
       live = false;
     };
-  }, [cultureId]);
+  }, [cultureId, region]);
 
   if (data === "error") return <MapFrame>{t("unavailable")}</MapFrame>;
   if (!data) return <MapFrame>{t("loading")}</MapFrame>;

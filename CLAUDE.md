@@ -16,7 +16,8 @@ Before handing work back, run typecheck, test, lint, validate-data, and build if
 ```
 data/registry.json                   canonical culture ids + region (add an id here before its file)
 data/cultures/<region>/<id>.json     one culture per file; region is the folder
-data/borders/<cultureId>.json        territory-map snapshots (rome, carolingian-empire, holy-roman-empire)
+data/borders/<cultureId>.json        territory-map snapshots (Rome, the Carolingian and Holy Roman empires, seven Chinese dynasties, Inca, Aztec)
+public/geo/land-<area>.json          Natural Earth land (europe, east-asia, americas); LAND in territory-map.tsx maps each region to one
 data/popular.json                    home page starting points, in display order (ids must have a culture file)
 messages/<locale>/<namespace>.json   UI text, one file per namespace per locale
 scripts/                             validate-data.ts, check-no-google.ts, build-borders.ts
