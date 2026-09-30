@@ -26,6 +26,8 @@ src/app/[locale]/page.tsx            home / search
 src/app/[locale]/c/[id]/page.tsx     Meanwhile screen + culture detail (moment first, detail below)
 src/app/[locale]/timeline/page.tsx   world timeline; year in ?year= (astronomical), read client-side
 src/app/[locale]/credits/page.tsx    sources and licences
+src/app/[locale]/compare/page.tsx    compare 2 cultures (3 from 768px); ids in ?ids=a,b, read client-side
+src/app/culture-data/[file]/route.ts static /culture-data/<id>.json per culture: what compare fetches
 src/i18n/                            locales, routing, navigation, request config, pageLocale()
 src/lib/years.ts                     all year maths and formatting
 src/lib/data/                        schema.ts (zod + types), load.ts (fs, build-time), queries.ts, localize.ts, validate.ts
@@ -65,7 +67,7 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 
 ## i18n and UI rules
 
-- No hard-coded user-facing text in UI or data. UI text lives in `messages/<locale>/<namespace>.json`; namespaces are `common, home, meanwhile, culture, timeline, explainer, map, credits` (`src/i18n/namespaces.ts`). The English file defines the keys and their types; add a key to all three locales. ICU syntax for plurals and numbers.
+- No hard-coded user-facing text in UI or data. UI text lives in `messages/<locale>/<namespace>.json`; namespaces are `common, home, meanwhile, culture, timeline, explainer, map, credits, compare` (`src/i18n/namespaces.ts`). The English file defines the keys and their types; add a key to all three locales. ICU syntax for plurals and numbers.
 - Every page, layout and `generateMetadata` under `[locale]` starts with `const locale = await pageLocale(params)`. Link with `Link` from `@/i18n/navigation`, not `next/link`.
 - Numbers and years through `Intl` / `src/lib/years.ts`. Show native names beside translated ones with the `lang` attribute set.
 - Logical CSS only: `ms-/me-/ps-/pe-/start-/end-/text-start/border-s/rounded-s`. Lint rejects left/right Tailwind classes.
@@ -86,6 +88,7 @@ Stay inside your files. If you must touch a shared file, keep the change minimal
 | ui-core | `src/app/[locale]/page.tsx`, `src/app/[locale]/c/**`, `src/app/[locale]/credits/**`; `src/components/{search,meanwhile,culture,explainer,settings}/**`; PWA (manifest, service worker, icons); fonts; messages `common, home, meanwhile, culture, explainer, credits` |
 | timeline | `src/app/[locale]/timeline/**`, `src/components/timeline/**`, messages `timeline` |
 | rome-map | `src/components/territory-map/**`, `public/geo/**`, messages `map` |
+| compare | `src/app/[locale]/compare/**`, `src/app/culture-data/**`, `src/components/compare/**`, messages `compare` |
 | foundation (shared) | `src/lib/**`, `src/i18n/**`, `src/app/[locale]/layout.tsx`, `src/app/(root)/**`, `src/app/globals.css`, `data/registry.json`, `scripts/**`, config, `package.json` |
 
 Contracts between areas: `CultureEvents` and `CultureStory` take the same props, `{ culture: Culture; eventWorld: EventWorld }`. `ExplainerProvider`/`useExplainer()` (`open(year?)`, `close()`) and `ExplainerTrigger` are rendered by the shared layout. `useSettings()` / `updateSettings()` live in `src/components/settings/use-settings.ts`. Adding a shadcn component (`pnpm dlx shadcn@4.21.0 add <name>`) writes to `src/components/ui/` and may change `package.json`: report both.
