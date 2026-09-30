@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/locales";
@@ -35,17 +34,12 @@ export async function BeforeAfter({ lines, locale }: { lines: BeforeAfterLine[];
       <h2 className="text-xs font-medium text-muted-foreground">{t("beforeAfter")}</h2>
       <ul className="flex flex-col gap-2 text-sm">
         {lines.map((line) => {
-          const items = [...line.before.map((r) => item(r, "before")), ...line.after.map((r) => item(r, "after"))];
           return (
             <li key={line.place.en} className="flex flex-col gap-0.5">
-              <p className="leading-relaxed">
-                <span className="text-muted-foreground">{t("inPlace", { place: line.place[locale] })} </span>
-                {items.map((node, i) => (
-                  <Fragment key={i}>
-                    {i > 0 && <span className="text-muted-foreground"> · </span>}
-                    {node}
-                  </Fragment>
-                ))}
+              <p className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
+                <span className="text-muted-foreground">{t("inPlace", { place: line.place[locale] })}</span>
+                {line.before.map((r) => item(r, "before"))}
+                {line.after.map((r) => item(r, "after"))}
               </p>
               {line.notes.map((note) => (
                 <p key={note.en} className="text-xs text-muted-foreground">
