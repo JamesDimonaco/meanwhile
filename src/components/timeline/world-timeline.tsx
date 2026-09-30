@@ -9,6 +9,7 @@ import { REGIONS } from "@/lib/data/schema";
 import { activeAt, defaultPeriod } from "@/lib/data/queries";
 import { formatYear, parseYearParam } from "@/lib/years";
 import { useSettings } from "@/components/settings/use-settings";
+import { YearText } from "@/components/settings/year-text";
 import { Button } from "@/components/ui/button";
 import { layoutRows, type TimelineCulture, type TimelineEvent } from "./timeline-layout";
 import {
@@ -94,6 +95,13 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     }
   }, [pxPerYear, yearX]);
 
+  // Any move of the line drops a tapped event, which belongs to its own year.
+  const moveYear = (next: number | null) => {
+    if (next === null) return;
+    setYear(next);
+    setSelected(null);
+  };
+
   const yearFromClientX = useCallback(
     (clientX: number) => {
       const el = scrollRef.current;
@@ -115,19 +123,16 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     }
     draggingRef.current = true;
     e.currentTarget.setPointerCapture(e.pointerId);
-    const next = yearFromClientX(e.clientX);
-    if (next !== null) setYear(next);
+    moveYear(yearFromClientX(e.clientX));
   };
   const handleHandlePointerDown = (e: React.PointerEvent) => {
     draggingRef.current = true;
     e.currentTarget.setPointerCapture(e.pointerId);
-    const next = yearFromClientX(e.clientX);
-    if (next !== null) setYear(next);
+    moveYear(yearFromClientX(e.clientX));
   };
   const handlePointerMove = (e: React.PointerEvent) => {
     if (!draggingRef.current) return;
-    const next = yearFromClientX(e.clientX);
-    if (next !== null) setYear(next);
+    moveYear(yearFromClientX(e.clientX));
   };
   const endDrag = () => {
     draggingRef.current = false;
@@ -136,8 +141,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const handleBodyPointerUp = (e: React.PointerEvent) => {
     const start = tapStartRef.current;
     if (start !== null && Math.abs(e.clientX - start) < TAP_SLOP) {
-      const next = yearFromClientX(e.clientX);
-      if (next !== null) setYear(next);
+      moveYear(yearFromClientX(e.clientX));
     }
     endDrag();
   };
@@ -146,7 +150,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     const delta = yearStepForKey(e.key);
     if (delta === null) return;
     e.preventDefault();
-    setYear(clampYear(year + delta, domain));
+    moveYear(clampYear(year + delta, domain));
   };
 
   const handleSelectEvent = useCallback(
@@ -183,7 +187,9 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     <div className="flex flex-col gap-3">
       <div className="sticky top-0 z-10 -mx-4 flex items-center justify-between gap-2 bg-background px-4 py-2">
         <div className="flex flex-col">
-          <output className="text-lg font-semibold tabular-nums">{formatYear(year, locale, eraStyle)}</output>
+          <output className="text-lg font-semibold tabular-nums">
+            <YearText year={year} />
+          </output>
           <p className="text-xs text-muted-foreground">{t("yearLine")}</p>
         </div>
         <div className="flex gap-1">

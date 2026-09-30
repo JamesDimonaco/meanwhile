@@ -3,9 +3,9 @@
   "yearLine": "Drag the line or tap the chart to change the year",
   "zoomIn": "Zoom in",
   "zoomOut": "Zoom out",
-  "activeIn": "Active around {year}",
+  "activeIn": "Active around <year></year>",
   "noneActive": "Nothing recorded for this year yet",
-  "alsoHappening": "Also happening around {year}",
+  "alsoHappening": "Also happening around <year></year>",
   "close": "Close",
   "eventTypes": {
     "founding": "Founding",

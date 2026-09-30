@@ -4,12 +4,30 @@
 // precache (and the culture data set keeps growing) - so instead of
 // precaching, this caches each page/asset the first time it's fetched
 // ("cache as you visit"), then serves that cache entry when the network
-// is unavailable. Bump CACHE_NAME when this strategy changes so old
+// is unavailable or too slow. Bump CACHE_NAME when this strategy changes so old
 // runtime caches get cleared on the next activate.
-const CACHE_NAME = "meanwhile-runtime-v1";
+const CACHE_NAME = "meanwhile-runtime-v2";
+const NETWORK_TIMEOUT_MS = 3000;
 
-self.addEventListener("install", () => {
+// A static export serves the same file whatever the query string (?year= is
+// read client-side, ?_rsc= only busts HTTP caches), so entries are keyed by
+// path: one entry per page, found again under any query.
+function cacheKey(request) {
+  const url = new URL(request.url);
+  return url.origin + url.pathname;
+}
+
+// "/" is where the installed app launches (manifest start_url). It only picks
+// a locale and redirects, so it's cached up front for an offline launch. A
+// failed fetch here must not fail the install.
+self.addEventListener("install", (event) => {
   self.skipWaiting();
+  event.waitUntil(
+    caches
+      .open(CACHE_NAME)
+      .then((cache) => cache.add("/"))
+      .catch(() => {}),
+  );
 });
 
 self.addEventListener("activate", (event) => {
@@ -26,16 +44,32 @@ self.addEventListener("fetch", (event) => {
   // Only same-origin GETs: never cache POSTs, and never reach into a
   // cross-origin request (this app has none, but be explicit).
   if (request.method !== "GET" || new URL(request.url).origin !== self.location.origin) return;
+  const key = cacheKey(request);
 
-  event.respondWith(
-    fetch(request)
+  const network = fetch(request);
+  // Clone before the page can start reading the body; waitUntil keeps the
+  // worker alive until the copy is written.
+  event.waitUntil(
+    network
       .then((response) => {
-        if (response.ok) {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
-        }
-        return response;
+        if (!response.ok) return;
+        const copy = response.clone();
+        return caches.open(CACHE_NAME).then((cache) => cache.put(key, copy));
       })
-      .catch(() => caches.match(request).then((cached) => cached ?? Response.error())),
+      .catch(() => {}),
   );
+  event.respondWith(networkFirst(network, key));
 });
+
+/**
+ * The network's answer, unless it fails, or takes longer than
+ * NETWORK_TIMEOUT_MS while a cached copy exists (weak signal can hang for
+ * much longer than an outright failure). With nothing cached, keep waiting.
+ */
+function networkFirst(network, key) {
+  const networkOrCache = network.catch(() => caches.match(key).then((cached) => cached ?? Response.error()));
+  const cacheAfterTimeout = new Promise((resolve) => setTimeout(resolve, NETWORK_TIMEOUT_MS))
+    .then(() => caches.match(key))
+    .then((cached) => cached ?? networkOrCache);
+  return Promise.race([networkOrCache, cacheAfterTimeout]);
+}

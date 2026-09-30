@@ -28,6 +28,7 @@ export function readDataset(): DatasetResult {
     registry: JSON.parse(fs.readFileSync(path.join(DATA_DIR, "registry.json"), "utf8")) as unknown,
     cultureFiles: readJsonFiles(path.join(DATA_DIR, "cultures")),
     borderFiles: readJsonFiles(path.join(DATA_DIR, "borders")),
+    popular: JSON.parse(fs.readFileSync(path.join(DATA_DIR, "popular.json"), "utf8")) as unknown,
   });
 }
 
@@ -47,6 +48,11 @@ function dataset(): DatasetResult {
 /** Every culture, sorted by id. */
 export function loadCultures(): Culture[] {
   return dataset().cultures;
+}
+
+/** The home page's starting points, in data/popular.json order. */
+export function loadPopular(): Culture[] {
+  return dataset().popular;
 }
 
 export function loadCulture(id: string): Culture {

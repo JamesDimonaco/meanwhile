@@ -180,6 +180,8 @@ export const RegistryEntry = z.strictObject({
   label: Text,
 });
 export const Registry = z.strictObject({ cultures: z.array(RegistryEntry).min(1) });
+/** data/popular.json: the home page's starting points, shown in this order. */
+export const Popular = z.strictObject({ cultures: z.array(Id).min(1) });
 
 export type Region = z.infer<typeof Region>;
 export type EventType = z.infer<typeof EventType>;

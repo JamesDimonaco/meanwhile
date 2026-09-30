@@ -7,8 +7,6 @@ import { localize } from "@/lib/data/localize";
 import type { EventWorld } from "@/lib/data/queries";
 import type { Culture, CultureEvent, EventType, Source } from "@/lib/data/schema";
 import { YearText } from "@/components/settings/year-text";
-import { useSettings } from "@/components/settings/use-settings";
-import { formatYear } from "@/lib/years";
 import { DisputedBadge } from "./disputed-badge";
 
 export type CultureEventsProps = { culture: Culture; eventWorld: EventWorld };
@@ -45,7 +43,6 @@ function EventItem({
   const locale = useLocale();
   const t = useTranslations("culture");
   const tCommon = useTranslations("common");
-  const { eraStyle } = useSettings();
   const Icon = EVENT_ICONS[event.type];
 
   return (
@@ -66,7 +63,8 @@ function EventItem({
               </span>
               <span className="flex flex-wrap items-center gap-1.5 font-medium">
                 {localize(event.title, locale)}
-                {event.disputed && <DisputedBadge note={event.note && localize(event.note, locale)} />}
+                {/* No note here: tapping the row opens it, and the note shows inside. */}
+                {event.disputed && <DisputedBadge />}
               </span>
             </span>
           </span>
@@ -83,7 +81,7 @@ function EventItem({
 
           <div>
             <h4 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
-              {t("alsoHappening", { year: formatYear(event.start, locale, eraStyle) })}
+              {t.rich("alsoHappening", { year: () => <YearText year={event.start} /> })}
             </h4>
             {world.length === 0 ? (
               <p className="mt-1 text-muted-foreground">—</p>

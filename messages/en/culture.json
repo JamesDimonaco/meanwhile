@@ -2,7 +2,7 @@
   "keyEvents": "Key events",
   "sources": "Sources",
   "otherDefinitions": "Other date definitions",
-  "alsoHappening": "Also happening around {year}",
+  "alsoHappening": "Also happening around <year></year>",
   "uncertainOverlap": "uncertain overlap",
   "eventTypes": {
     "founding": "Founding",

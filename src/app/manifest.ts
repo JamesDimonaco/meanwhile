@@ -13,7 +13,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: common.appName,
     short_name: common.appName,
     description: common.tagline,
-    start_url: "/en/",
+    start_url: "/",
     display: "standalone",
     background_color: "#171717",
     theme_color: "#171717",

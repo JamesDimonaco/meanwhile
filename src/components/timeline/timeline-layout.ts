@@ -1,7 +1,7 @@
 // Row layout shared by the frozen name column and the scrollable SVG, so the
 // two stay pixel-aligned without any DOM measuring.
 
-import { defaultPeriod } from "@/lib/data/queries";
+import { defaultPeriod, toPeriodSpan, type PeriodSpan } from "@/lib/data/queries";
 import { REGIONS, type Culture, type CultureEvent, type Phase, type Region } from "@/lib/data/schema";
 
 /**
@@ -9,7 +9,8 @@ import { REGIONS, type Culture, type CultureEvent, type Phase, type Region } fro
  * page payload, so sources, notes, descriptions and facts stay on the server.
  */
 export type TimelineEvent = Pick<CultureEvent, "id" | "start" | "type" | "title" | "disputed">;
-export type TimelineCulture = Pick<Culture, "id" | "region" | "name" | "nativeName" | "periods"> & {
+export type TimelineCulture = Pick<Culture, "id" | "region" | "name"> & {
+  periods: PeriodSpan[];
   phases: Pick<Phase, "id" | "start" | "end">[];
   events: TimelineEvent[];
 };
@@ -19,8 +20,7 @@ export function toTimelineCulture(culture: Culture): TimelineCulture {
     id: culture.id,
     region: culture.region,
     name: culture.name,
-    nativeName: culture.nativeName,
-    periods: [defaultPeriod(culture)],
+    periods: [toPeriodSpan(defaultPeriod(culture))],
     phases: culture.phases.map(({ id, start, end }) => ({ id, start, end })),
     events: culture.events.map(({ id, start, type, title, disputed }) => ({ id, start, type, title, disputed })),
   };

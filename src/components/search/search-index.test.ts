@@ -8,7 +8,7 @@ function entry(overrides: Partial<SearchEntry>): SearchEntry {
     name: { en: "Shang dynasty", es: "Dinastía Shang", zh: "商朝" },
     nativeName: { text: "商", lang: "zh-Hans" },
     aliases: ["Shang", "Yin", "殷", "商", "shāng"],
-    period: { earliestStart: -1600, latestStart: -1500, earliestEnd: -1050, latestEnd: -1045 },
+    period: { latestStart: -1500, earliestEnd: -1050 },
     ...overrides,
   };
 }
@@ -19,7 +19,7 @@ const inca = entry({
   name: { en: "Inca Empire", es: "Imperio inca" },
   nativeName: { text: "Tawantinsuyu", lang: "qu" },
   aliases: ["Inca", "Inka", "Incas", "Tahuantinsuyo", "Tawantinsuyu", "印加"],
-  period: { earliestStart: 1400, latestStart: 1438, earliestEnd: 1533, latestEnd: 1572 },
+  period: { latestStart: 1438, earliestEnd: 1533 },
 });
 
 const shang = entry({});
@@ -41,8 +41,10 @@ describe("search", () => {
   });
 
   it("matches an accented pinyin alias without the accent", () => {
-    // "shāng" in data; someone typing on a phone won't have the macron.
-    expect(search("shang", entries)).toEqual([{ type: "culture", entry: shang }]);
+    // Only the accented spelling is in the data, and the id doesn't contain
+    // the query, so this can only match once the macron is stripped.
+    const zhou = entry({ id: "c1", name: { en: "Zhōu" }, nativeName: undefined, aliases: ["Zhōu"] });
+    expect(search("zhou", [zhou])).toEqual([{ type: "culture", entry: zhou }]);
   });
 
   it("matches a Spanish localized name", () => {

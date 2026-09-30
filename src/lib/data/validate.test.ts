@@ -32,6 +32,8 @@ function cultureJson(id: string, region: string, overrides: Record<string, unkno
   };
 }
 
+const popular = { cultures: ["shang"] };
+
 const file = (region: string, id: string, data: unknown): DataFile => ({
   path: `data/cultures/${region}/${id}.json`,
   data,
@@ -43,6 +45,7 @@ describe("validateDataset", () => {
       registry,
       cultureFiles: [file("china", "shang", cultureJson("shang", "china"))],
       borderFiles: [],
+      popular,
     });
     expect(result.errors).toEqual([]);
     expect(result.cultures.map((c) => c.id)).toEqual(["shang"]);
@@ -50,7 +53,7 @@ describe("validateDataset", () => {
 
   it("rejects missing English text", () => {
     const bad = cultureJson("shang", "china", { name: { es: "Shang", zh: "商" } });
-    const { errors } = validateDataset({ registry, cultureFiles: [file("china", "shang", bad)], borderFiles: [] });
+    const { errors } = validateDataset({ registry, cultureFiles: [file("china", "shang", bad)], borderFiles: [], popular });
     expect(errors.join("\n")).toMatch(/shang\.json.*name\.en/);
   });
 
@@ -62,6 +65,7 @@ describe("validateDataset", () => {
         { path: "data/cultures/china/shang-copy.json", data: cultureJson("shang", "china") },
       ],
       borderFiles: [],
+      popular,
     });
     expect(errors.join("\n")).toMatch(/duplicate culture id "shang"/);
   });
@@ -71,6 +75,7 @@ describe("validateDataset", () => {
       registry,
       cultureFiles: [file("china", "xia", cultureJson("xia", "china"))],
       borderFiles: [],
+      popular,
     });
     expect(errors.join("\n")).toMatch(/"xia" is not in data\/registry\.json/);
   });
@@ -80,6 +85,7 @@ describe("validateDataset", () => {
       registry,
       cultureFiles: [{ path: "data/cultures/europe/shang.json", data: cultureJson("shang", "china") }],
       borderFiles: [],
+      popular,
     });
     expect(errors.join("\n")).toMatch(/should live at data\/cultures\/china\/shang\.json/);
   });
@@ -90,7 +96,7 @@ describe("validateDataset", () => {
       events: [...events, events[0]],
       periods: [{ ...cultureJson("shang", "china").periods[0], default: false }],
     });
-    const { errors } = validateDataset({ registry, cultureFiles: [file("china", "shang", bad)], borderFiles: [] });
+    const { errors } = validateDataset({ registry, cultureFiles: [file("china", "shang", bad)], borderFiles: [], popular });
     const text = errors.join("\n");
     expect(text).toMatch(/duplicate event id "e0"/);
     expect(text).toMatch(/exactly one period must be default/);
@@ -100,13 +106,13 @@ describe("validateDataset", () => {
     const bad = cultureJson("shang", "china", {
       periods: [{ id: "main", earliestStart: -1500, latestStart: -1600, earliestEnd: -1050, latestEnd: -1000, sources: [src], default: true }],
     });
-    const { errors } = validateDataset({ registry, cultureFiles: [file("china", "shang", bad)], borderFiles: [] });
+    const { errors } = validateDataset({ registry, cultureFiles: [file("china", "shang", bad)], borderFiles: [], popular });
     expect(errors.join("\n")).toMatch(/earliestStart <= latestStart/);
   });
 
   it("warns, but does not fail, on missing translations and unwritten registry cultures", () => {
     const partial = cultureJson("shang", "china", { description: { en: "d" } });
-    const result = validateDataset({ registry, cultureFiles: [file("china", "shang", partial)], borderFiles: [] });
+    const result = validateDataset({ registry, cultureFiles: [file("china", "shang", partial)], borderFiles: [], popular });
     expect(result.errors).toEqual([]);
     expect(result.warnings.join("\n")).toMatch(/shang.*missing es/);
     expect(result.warnings.join("\n")).toMatch(/no file yet: inca/);
@@ -134,7 +140,37 @@ describe("validateDataset", () => {
       registry,
       cultureFiles: [],
       borderFiles: [{ path: "data/borders/carthage.json", data: borders }],
+      popular,
     });
     expect(errors.join("\n")).toMatch(/"carthage" is not in data\/registry\.json/);
+  });
+
+  describe("popular starting points", () => {
+    const both = [file("china", "shang", cultureJson("shang", "china")), file("south-america", "inca", cultureJson("inca", "south-america"))];
+    const run = (ids: string[]) => validateDataset({ registry, cultureFiles: both, borderFiles: [], popular: { cultures: ids } });
+
+    it("returns them in the order data/popular.json lists them, not id order", () => {
+      const result = run(["shang", "inca"]);
+      expect(result.errors).toEqual([]);
+      expect(result.popular.map((c) => c.id)).toEqual(["shang", "inca"]);
+    });
+
+    it("rejects an id that is not in the registry", () => {
+      expect(run(["shang", "xia"]).errors.join("\n")).toMatch(/data\/popular\.json: "xia" is not in data\/registry\.json/);
+    });
+
+    it("rejects a registered id with no culture file, which the home page could not render", () => {
+      const { errors } = validateDataset({
+        registry,
+        cultureFiles: [both[0]],
+        borderFiles: [],
+        popular: { cultures: ["shang", "inca"] },
+      });
+      expect(errors.join("\n")).toMatch(/data\/popular\.json: "inca" has no culture file/);
+    });
+
+    it("rejects a duplicate id", () => {
+      expect(run(["shang", "shang"]).errors.join("\n")).toMatch(/data\/popular\.json: duplicate id "shang"/);
+    });
   });
 });
