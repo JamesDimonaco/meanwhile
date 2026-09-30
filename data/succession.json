@@ -634,5 +634,29 @@
         "url": "https://en.wikipedia.org/wiki/Rhineland"
       }
     ]
+  },
+  {
+    "from": "egypt",
+    "to": "rome",
+    "place": {
+      "en": "Egypt",
+      "es": "Egipto",
+      "zh": "埃及"
+    },
+    "sources": [
+      {
+        "citation": "Metropolitan Museum of Art. \"Egypt in the Ptolemaic Period.\" Heilbrunn Timeline of Art History.",
+        "url": "https://www.metmuseum.org/toah/hd/ptol/hd_ptol.htm"
+      },
+      {
+        "citation": "Encyclopaedia Britannica. \"Cleopatra.\"",
+        "url": "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt"
+      }
+    ],
+    "note": {
+      "en": "Octavian made Egypt a Roman province in 30 BCE, after Cleopatra VII's death.",
+      "es": "Octavio convirtió Egipto en provincia romana en 30 a. e. c., tras la muerte de Cleopatra VII.",
+      "zh": "公元前30年，克利奥帕特拉七世死后，屋大维将埃及变为罗马行省。"
+    }
   }
 ]
