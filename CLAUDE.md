@@ -16,9 +16,9 @@ Before handing work back, run typecheck, test, lint, validate-data, and build if
 ```
 data/registry.json                   canonical culture ids + region (add an id here before its file)
 data/cultures/<region>/<id>.json     one culture per file; region is the folder
-data/borders/<cultureId>.json        territory-map snapshots (Rome)
+data/borders/<cultureId>.json        territory-map snapshots (rome, carolingian-empire, holy-roman-empire)
 messages/<locale>/<namespace>.json   UI text, one file per namespace per locale
-scripts/                             validate-data.ts, check-no-google.ts
+scripts/                             validate-data.ts, check-no-google.ts, build-borders.ts
 src/app/(root)/page.tsx              "/" : inline script picks a locale, redirects to /<locale>/
 src/app/[locale]/layout.tsx          html, header (explainer trigger + language switcher), providers
 src/app/[locale]/page.tsx            home / search
@@ -48,10 +48,10 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 - **Culture**: `id` (kebab-case, in the registry), `region` (`china | south-america | mesoamerica | europe`), `wikidataId` (`Q…`), `name`, `nativeName? { text, lang }` (BCP 47 lang, e.g. `zh-Hans`, `qu`), `aliases[]` (search-only terms: pinyin, other spellings), `description`, `reviewed`, `periods[]`, `phases[]`, `events[]` (at least 5), `facts[]` (at least 1).
 - **Period**: `id`, `label?`, `earliestStart`, `latestStart`, `earliestEnd`, `latestEnd`, `sources`, `periodoId?` (e.g. `p08m57h9sf6`), `default` (exactly one per culture), `disputed`, `note?`. The bar is solid from `latestStart` to `earliestEnd` and fades across the outer edges. Prefer a PeriodO definition from a major museum or standard reference (https://data.perio.do/d.json).
 - **Phase** (segments of one bar): `id`, `name`, `start`, `end`, `sources`, ordered by start. Rome is one culture `rome` with phases kingdom / republic / empire / eastern; Maya is one culture `maya` with phases preclassic / classic / postclassic.
-- **Event**: `id`, `start`, `end?`, `type` (`founding | ruler | invention | conflict | collapse`), `title`, `sources` (2+), `disputed`, `note?`, `place? { name, lat, lon, pleiadesId? }` (required in practice for Rome map pins).
+- **Event**: `id`, `start`, `end?`, `type` (`founding | ruler | invention | conflict | collapse`), `title`, `sources` (2+), `disputed`, `note?`, `place? { name, lat, lon, pleiadesId? }` (required for every event of a culture with a borders file: the map pins it).
 - **Fact** (the "one vivid line" on a meanwhile card): `id`, `text`, `start`, `end`, `sources`, `disputed`.
 - Mark anything contested `disputed: true` and say why in `note`.
-- **Borders** `data/borders/<cultureId>.json`: `{ cultureId, sources, snapshots: [{ year, polities: [{ id, label, role: "self" | "rival", geometry }] }] }`, snapshots in ascending year. `geometry` is GeoJSON `Polygon` or `MultiPolygon`, `[lon, lat]`, simplified before committing. A borders file makes `hasTerritoryMap(id)` true, which swaps the detail page to `CultureStory`.
+- **Borders** `data/borders/<cultureId>.json`: `{ cultureId, sources, snapshots: [{ year, polities: [{ id, label, role: "self" | "rival", geometry }] }] }`, snapshots in ascending year. `geometry` is GeoJSON `Polygon` or `MultiPolygon`, `[lon, lat]`, simplified before committing. A borders file makes `hasTerritoryMap(id)` true, which swaps the detail page to `CultureStory` and serves it at `/geo/borders/<id>.json`. Never edit one by hand: add or change the culture's config in `scripts/build-borders.ts` and run `pnpm borders <cliopatria_polities_only.geojson> [id ...]` (the script's header says where to download Cliopatria; the dataset stays out of the repo). Cliopatria's BCE years have no year zero; the script converts them with `fromCliopatriaYear`.
 - Validation fails on schema errors, duplicate ids, missing English, ids missing from the registry, or a file whose path disagrees with its `id`/`region`.
 - Sources: PeriodO (public domain), Wikidata (CC0), Cliopatria (CC BY 4.0), Pleiades (CC BY), DARE (CC BY). Never Seshat (non-commercial licence).
 
