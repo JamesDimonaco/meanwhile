@@ -249,22 +249,23 @@ const CULTURES: Record<string, CultureConfig> = {
       { year: 1420, self: ["Cuzco"], rivals: ["Chimu Empire"] },
       { year: 1438, self: ["Cuzco"], rivals: ["Chimu Empire"] },
       { year: 1471, self: ["Inca Empire"], rivals: ["Chimu Empire"] },
-      { year: 1527, self: ["Inca Empire"], rivals: ["Spanish Empire"] },
-      { year: 1532, self: ["Inca Empire"], rivals: ["Spanish Empire"] },
+      // Spain held only Panama and the Caribbean until 1532, north of this map's frame.
+      { year: 1527, self: ["Inca Empire"], rivals: [] },
+      { year: 1532, self: ["Inca Empire"], rivals: [] },
       { year: 1571, self: ["Inca Empire"], rivals: ["Spanish Empire"] },
     ],
   },
   aztec: {
     subject: "Tenochtitlan and the Aztec Triple Alliance",
     simplify: "25%",
-    extent: [-120, -60, -30, 35],
     changes:
-      "The 1325 map uses Cliopatria's first Tenochtitlan rows, from 1326, and the 1428 map its first Triple Alliance rows, from 1429. Polities reaching beyond the Americas are cut at 30°W.",
+      "The 1325 map uses Cliopatria's first Tenochtitlan rows, from 1326, and the 1428 map its first Triple Alliance rows, from 1429.",
+    // Cliopatria's Maya city-states reach this map's frame only from 1450.
     snapshots: [
-      { year: 1325, dataYear: 1326, self: ["Tenochtitlan"], rivals: ["Texcoco", "Michoacán", "Later Mayan City-States"] },
-      { year: 1428, dataYear: 1429, self: ["Aztec Triple Alliance"], rivals: ["Michoacán", "Later Mayan City-States"] },
+      { year: 1325, dataYear: 1326, self: ["Tenochtitlan"], rivals: ["Texcoco", "Michoacán"] },
+      { year: 1428, dataYear: 1429, self: ["Aztec Triple Alliance"], rivals: ["Michoacán"] },
       { year: 1487, self: ["Aztec Triple Alliance"], rivals: ["Michoacán", "Later Mayan City-States"] },
-      { year: 1519, self: ["Aztec Triple Alliance"], rivals: ["Michoacán", "Later Mayan City-States", "Kingdom of Spain"] },
+      { year: 1519, self: ["Aztec Triple Alliance"], rivals: ["Michoacán", "Later Mayan City-States"] },
     ],
   },
 };
