@@ -5,7 +5,7 @@ import { localize } from "@/lib/data/localize";
 import type { LocalizedText, Period } from "@/lib/data/schema";
 import { likelySpan, type RecordKind } from "@/lib/data/records";
 import { roundYearsAgo } from "@/lib/years";
-import { YearText } from "@/components/settings/year-text";
+import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { DisputedBadge } from "@/components/culture/disputed-badge";
 
 /** Home: the all-time oldest, newest and longest-lasting cultures, with their numbers. */
@@ -34,7 +34,15 @@ export async function RecordsStrip({
                 {kind === "longest" ? (
                   t("lasted", { count: roundYearsAgo(Math.round(span.duration)) })
                 ) : (
-                  t.rich("began", { year: () => <YearText year={Math.round(span.start)} /> })
+                  t.rich("began", {
+                    // The midpoint only ranks; showing it would invent a date no source gives (Qing: 1636 or 1644, never 1640).
+                    year: () =>
+                      holder.period.earliestStart === holder.period.latestStart ? (
+                        <YearText year={holder.period.latestStart} />
+                      ) : (
+                        <YearRangeText start={holder.period.earliestStart} end={holder.period.latestStart} />
+                      ),
+                  })
                 )}
               </span>
               {holder.period.disputed && (
