@@ -6,6 +6,8 @@ import { defaultPeriod } from "@/lib/data/queries";
 import type { Region } from "@/lib/data/schema";
 import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
 import { barSegments } from "./timeline-math";
+import { HeartlandFlags } from "@/components/identity/heartland-flags";
+import { RegionDot } from "@/components/identity/region-dot";
 
 // Region order fixes which shared gradient/colour a bar uses; see REGIONS in schema.ts.
 export const REGION_COLOR: Record<Region, string> = {
@@ -24,15 +26,19 @@ export function RegionHeaderLabel({ region, y, height }: { region: Region; y: nu
   const t = useTranslations("common");
   return (
     <p
-      className="absolute inset-x-0 flex items-center text-xs font-medium text-muted-foreground"
+      className="absolute inset-x-0 flex items-center gap-1.5 text-xs font-medium text-muted-foreground"
       style={{ top: y, height }}
     >
-      {t(`regions.${region}`)}
+      <RegionDot region={region} />
+      <span className="truncate">{t(`regions.${region}`)}</span>
     </p>
   );
 }
 
-/** Frozen name column: one culture's name, row-aligned with its bar, linking to its page. */
+/**
+ * Frozen name column: one culture's name, row-aligned with its bar, linking
+ * to its page. One flag only: the column is too narrow for three.
+ */
 export function CultureLabel({ culture, y, height }: { culture: TimelineCulture; y: number; height: number }) {
   const locale = useLocale();
   const name = localize(culture.name, locale);
@@ -40,10 +46,11 @@ export function CultureLabel({ culture, y, height }: { culture: TimelineCulture;
     <Link
       href={`/c/${culture.id}`}
       title={name}
-      className="absolute inset-x-0 truncate text-xs hover:underline"
-      style={{ top: y, height, lineHeight: `${height}px` }}
+      className="absolute inset-x-0 flex items-center gap-1 text-xs hover:underline"
+      style={{ top: y, height }}
     >
-      {name}
+      <HeartlandFlags cultureId={culture.id} max={1} />
+      <span className="truncate">{name}</span>
     </Link>
   );
 }

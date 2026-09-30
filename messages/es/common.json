@@ -20,5 +20,11 @@
     "south-america": "Sudamérica",
     "mesoamerica": "Mesoamérica",
     "europe": "Europa"
-  }
+  },
+  "heartlandToday": "Hoy su núcleo está en {countries}",
+  "regionFilter": "Regiones",
+  "allRegions": "Todas",
+  "showAllRegions": "Mostrar todas las regiones",
+  "noneInRegions": "No hay nada aquí en las regiones elegidas.",
+  "hiddenByFilter": "Algunos resultados están fuera de las regiones elegidas."
 }
