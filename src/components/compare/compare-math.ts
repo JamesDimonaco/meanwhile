@@ -1,6 +1,9 @@
 // Pure logic for the compare screen: how two or three cultures' dates line
-// up, and one merged, year-ordered list of their events. No DOM, so it's
-// unit-tested directly.
+// up, one merged, year-ordered list of their events, and the shared axis's
+// labels. No DOM, so it's unit-tested directly.
+
+import { scaleLinear } from "d3-scale";
+import { axisTicks } from "@/components/timeline/timeline-math";
 
 type PeriodBounds = { earliestStart: number; latestStart: number; earliestEnd: number; latestEnd: number };
 
@@ -125,7 +128,9 @@ function align(
   for (let i = n - 1; i >= 0; i--) {
     for (let j = m - 1; j >= 0; j--) {
       for (let above = 0; above < 4; above++) {
-        let score = better(skipRight(i, j, above), skipLeft(i, j, above)) ? skipRight(i, j, above) : skipLeft(i, j, above);
+        const left = skipLeft(i, j, above);
+        const right = skipRight(i, j, above);
+        let score = better(right, left) ? right : left;
         const pair = paired(i, j, above);
         if (pair && !better(score, pair)) score = pair;
         best[i][j][above] = score;
@@ -151,4 +156,33 @@ function align(
     }
   }
   return pairs;
+}
+
+/** Starting guess of one axis label per this many pixels. */
+const TICK_SPACING = 70;
+/** Clear space kept between neighbouring axis labels, in pixels. */
+const LABEL_GAP = 6;
+
+/**
+ * Axis ticks whose centred labels neither touch each other nor run off
+ * either end. d3's tick count is only a hint (it rounds to a nice step and
+ * can return more than asked), so keep every other tick, then every third,
+ * and so on, until the labels fit.
+ */
+export function fitTicks(
+  domain: [number, number],
+  width: number,
+  labelWidth: (tick: number) => number,
+): { tick: number; x: number }[] {
+  const x = scaleLinear().domain(domain).range([0, width]);
+  const inside = axisTicks(domain, Math.max(2, Math.floor(width / TICK_SPACING)))
+    .map((tick) => ({ tick, x: x(tick), half: labelWidth(tick) / 2 }))
+    .filter(({ x, half }) => x - half >= 0 && x + half <= width);
+  for (let every = 1; every <= inside.length; every++) {
+    const kept = inside.filter((_, i) => i % every === 0);
+    if (kept.every((t, i) => i === 0 || t.x - t.half >= kept[i - 1].x + kept[i - 1].half + LABEL_GAP)) {
+      return kept.map(({ tick, x }) => ({ tick, x }));
+    }
+  }
+  return [];
 }

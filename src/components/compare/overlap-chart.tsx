@@ -7,19 +7,17 @@ import { DisputedBadge } from "@/components/culture/disputed-badge";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { useSettings } from "@/components/settings/use-settings";
 import { FadeGradients, PeriodBar } from "@/components/timeline/timeline-row";
-import { axisTicks, computeYearDomain } from "@/components/timeline/timeline-math";
+import { computeYearDomain } from "@/components/timeline/timeline-math";
 import { localize } from "@/lib/data/localize";
 import { formatYear } from "@/lib/years";
 import type { CompareCulture } from "./compare-data";
-import type { Overlap } from "./compare-math";
+import { fitTicks, type Overlap } from "./compare-math";
 import { SLOTS } from "./slots";
 
 const BAR_HEIGHT = 12;
 const ROW_GAP = 8;
 const AXIS_HEIGHT = 18;
-/** Roughly one axis label per this many pixels, wide enough for "公元前1000年". */
-const TICK_SPACING = 70;
-const TICK_EDGE = 32;
+const LABEL_FONT_PX = 10;
 /** Keeps the earliest and latest edges off the chart's sides. */
 const DOMAIN_PADDING = 0.03;
 
@@ -47,7 +45,8 @@ export function OverlapChart({ cultures, overlap }: { cultures: CompareCulture[]
   const xScale = scaleLinear().domain(domain).range([0, width]);
   const barsHeight = cultures.length * (BAR_HEIGHT + ROW_GAP);
   const height = barsHeight + AXIS_HEIGHT;
-  const ticks = axisTicks(domain, Math.max(2, Math.floor(width / TICK_SPACING)));
+  const label = (tick: number) => formatYear(tick, locale, eraStyle);
+  const ticks = fitTicks(domain, width, (tick) => labelWidth(label(tick)));
   const all = cultures.length > 2;
 
   // Keeps the bracket with its date range when the sentence wraps.
@@ -65,7 +64,12 @@ export function OverlapChart({ cultures, overlap }: { cultures: CompareCulture[]
       case "uncertain":
         return t.rich(all ? "uncertainAll" : "uncertain", {
           nowrap,
-          range: () => <YearRangeText start={overlap.start} end={overlap.end} />,
+          range: () =>
+            overlap.start === overlap.end ? (
+              <YearText year={overlap.start} />
+            ) : (
+              <YearRangeText start={overlap.start} end={overlap.end} />
+            ),
         });
       case "gap":
         return all ? t("gapAll") : t("gap", { count: overlap.years });
@@ -140,20 +144,21 @@ export function OverlapChart({ cultures, overlap }: { cultures: CompareCulture[]
                 />
               </g>
             ))}
-            <g className="fill-muted-foreground text-[10px]">
-              {ticks
-                .map((tick) => ({ tick, x: xScale(tick) }))
-                // A centred label this close to an edge would be cut off; shifting it inward collides with its neighbour.
-                .filter(({ x }) => x >= TICK_EDGE && x <= width - TICK_EDGE)
-                .map(({ tick, x }) => (
-                  <text key={tick} x={x} y={barsHeight + AXIS_HEIGHT / 2 + 2} dy="0.35em" textAnchor="middle">
-                    {formatYear(tick, locale, eraStyle)}
-                  </text>
-                ))}
+            <g className="fill-muted-foreground" style={{ fontSize: LABEL_FONT_PX }}>
+              {ticks.map(({ tick, x }) => (
+                <text key={tick} x={x} y={barsHeight + AXIS_HEIGHT / 2 + 2} dy="0.35em" textAnchor="middle">
+                  {label(tick)}
+                </text>
+              ))}
             </g>
           </svg>
         )}
       </div>
     </section>
   );
+}
+
+/** A slightly generous width for an axis label: a CJK character is a full em, anything else about 0.6em. */
+function labelWidth(label: string): number {
+  return [...label].reduce((w, ch) => w + (/[\u2e80-\u9fff\uff00-\uffef]/.test(ch) ? 1 : 0.6), 0) * LABEL_FONT_PX;
 }

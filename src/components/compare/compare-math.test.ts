@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { PAIR_WINDOW, buildSpine, isPaired, overlapOf } from "./compare-math";
+import { PAIR_WINDOW, buildSpine, fitTicks, isPaired, overlapOf } from "./compare-math";
 
 // Years are astronomical: -201 = 202 BCE, -999 = 1000 BCE.
 const period = (earliestStart: number, latestStart: number, earliestEnd: number, latestEnd: number) => ({
@@ -164,5 +164,29 @@ describe("buildSpine, on random inputs", () => {
       });
       for (const row of rows) expect(row.year).toBe(Math.min(...row.cells.flatMap((c) => (c ? [c.start] : []))));
     }
+  });
+});
+
+describe("fitTicks", () => {
+  // Roughly a zh label, "公元前1400年", at 10px.
+  const labelWidth = () => 64;
+
+  it("never lets neighbouring labels touch, though d3 hands back more ticks than asked for", () => {
+    for (let width = 200; width <= 1000; width += 7) {
+      for (const domain of [[-1540, -160], [-3100, 1600], [-230, 950], [0, 1]] as [number, number][]) {
+        const ticks = fitTicks(domain, width, labelWidth);
+        for (let i = 1; i < ticks.length; i++) {
+          expect(ticks[i].x - ticks[i - 1].x, `${domain} at ${width}px`).toBeGreaterThanOrEqual(64 + 6);
+        }
+        for (const { x } of ticks) {
+          expect(x).toBeGreaterThanOrEqual(32);
+          expect(x).toBeLessThanOrEqual(width - 32);
+        }
+      }
+    }
+  });
+
+  it("still labels a phone-width axis: Ancient Greece and the Olmec at 358px get at least three", () => {
+    expect(fitTicks([-1540, -160], 358, labelWidth).length).toBeGreaterThanOrEqual(3);
   });
 });
