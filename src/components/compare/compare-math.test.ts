@@ -120,6 +120,18 @@ describe("buildSpine", () => {
     expect(rows.map((r) => r.year)).toEqual([...rows.map((r) => r.year)].sort((x, y) => x - y));
   });
 
+  it("keeps same-year events together rather than splitting them for more pairs: Sui and Tang in 618", () => {
+    const sui = [ev("invasions", 612), ev("yang-killed", 618)];
+    const tang = [ev("li-yuan", 618), ev("taizong", 626)];
+    expect(ids(buildSpine([sui, tang]))).toEqual(["invasions|-", "yang-killed|li-yuan", "-|taizong"]);
+  });
+
+  it("only refuses a pair that would jump a row above an unpaired one: Toltec's two 999 events both pair", () => {
+    const toltec = [ev("tula", 999), ev("chichen", 999)];
+    const vikings = [ev("vinland", 1000), ev("cnut", 1016)];
+    expect(ids(buildSpine([toltec, vikings]))).toEqual(["chichen|vinland", "tula|cnut"]);
+  });
+
   it("lets a third side join a pair only when it is within the window of every event already in it", () => {
     const rows = buildSpine([[ev("a", 0)], [ev("b", 20)], [ev("c", 30)]]);
     // c is 10 from b but 30 from a: it gets its own row.
@@ -127,5 +139,30 @@ describe("buildSpine", () => {
 
     const joined = buildSpine([[ev("a", 0)], [ev("b", 20)], [ev("c", 10)]]);
     expect(ids(joined)).toEqual(["a|b|c"]);
+  });
+});
+
+describe("buildSpine, on random inputs", () => {
+  // Seeded, so a failure reproduces.
+  let seed = 1;
+  const random = () => {
+    seed = (seed * 16807) % 2147483647;
+    return seed / 2147483647;
+  };
+  const side = (s: number) =>
+    Array.from({ length: Math.floor(random() * 7) }, (_, k) => ev(`${s}-${k}`, Math.floor(random() * 200)));
+
+  it("never lets a row's year go backwards, and keeps every event exactly once, in order", () => {
+    for (let run = 0; run < 3000; run++) {
+      const sides = [side(0), side(1), side(2)];
+      const rows = buildSpine(sides);
+      const years = rows.map((r) => r.year);
+      expect(years, JSON.stringify(sides)).toEqual([...years].sort((x, y) => x - y));
+      sides.forEach((events, s) => {
+        const placed = rows.flatMap((r) => (r.cells[s] ? [r.cells[s]] : []));
+        expect(placed).toEqual([...events].sort((x, y) => x.start - y.start || x.id.localeCompare(y.id)));
+      });
+      for (const row of rows) expect(row.year).toBe(Math.min(...row.cells.flatMap((c) => (c ? [c.start] : []))));
+    }
   });
 });
