@@ -19,7 +19,7 @@
     "cliopatria": {
       "name": "Cliopatria",
       "licence": "CC BY 4.0",
-      "used": "Historical border polygons for the territory maps of Rome, the Carolingian Empire, the Holy Roman Empire, the Qin, Han, Tang, Song, Yuan, Ming and Qing dynasties, the Inca and the Aztecs.",
+      "used": "Historical border polygons for the territory maps of Rome, Egypt, the Carolingian Empire, the Holy Roman Empire, the Qin, Han, Tang, Song, Yuan, Ming and Qing dynasties, the Inca and the Aztecs.",
       "changes": "Polygons are simplified for a small, fast map, their BCE years are converted to the numbering used here, and they are republished under the same licence with attribution. What was changed for each map is listed in the works cited below. Published separately from, and under a different licence to, Seshat's own dataset (see below)."
     },
     "pleiades": {
@@ -32,7 +32,7 @@
       "name": "Natural Earth",
       "licence": "Public domain",
       "used": "The coastlines and land shapes under the territory maps.",
-      "changes": "The 1:50m land layer is clipped to three regions (Europe, the Mediterranean and the Near East; East Asia; the Americas) and simplified, so each map loads only its own region."
+      "changes": "The 1:50m land layer is clipped to three regions (Europe, the Mediterranean, the Near East and the Nile valley; East Asia; the Americas) and simplified, so each map loads only its own region."
     },
     "fonts": {
       "name": "Inter and Noto Sans SC",

@@ -20,12 +20,17 @@ const MAPSHAPER = ["-y", "mapshaper@0.7.69"];
 type Snapshot = {
   /** Astronomical, like every year in the app. */
   year: number;
+  /** Empty when no local polity ruled (a province of someone else's empire). */
   self: string[];
   rivals: string[];
   /** Read Cliopatria at this year instead, where its rows are coarser than the story. */
   dataYear?: number;
   /** Merge the self polities into one, clipped to the culture's mask. */
   clip?: boolean;
+  /** [west, south, east, north]: cut the self polities to this box before simplifying. */
+  clipSelf?: [number, number, number, number];
+  /** Like CultureConfig.relabel, for this snapshot only. */
+  relabel?: Record<string, string>;
 };
 
 type RowAt = { name: string; year: number };
@@ -270,6 +275,58 @@ const CULTURES: Record<string, CultureConfig> = {
       { year: 1519, self: ["Aztec Triple Alliance"], rivals: ["Michoacán", "Later Mayan City-States"] },
     ],
   },
+  egypt: {
+    subject: "the Egyptian polities",
+    simplify: "20%",
+    changes:
+      "Where Cliopatria's rows lag the story (the reunification of c. 2040 BCE, the Hyksos Delta of c. 1650 BCE, Ahmose's victory of c. 1550 BCE, Thutmose III's conquests, Psamtik I's reunification of 656 BCE, the Persian conquests of 525 and 343 BCE, the Roman annexation of 30 BCE) the nearest later row is drawn. Cliopatria splits the Hyksos Delta between Hyksos, 15th Dynasty and 16th Dynasty polygons, drawn as it has them; its Levantine Hyksos, which it keeps to 1401 BCE, is drawn only up to 1550 BCE. Two Egyptian polygons are cut: in 1550 BCE at the Second Cataract (21.8° N), because the 1500 BCE row already holds Thutmose I's conquests in Nubia, and in 305 BCE to leave out Cyprus and Cilicia, since Ptolemy lost Cyprus to Demetrius in 306 BCE. In 700 BCE Kush's polygon, which then covers Egypt, is drawn as Egypt under the 25th Dynasty. Cliopatria has no polygon for Kerma, so Nubia before 1000 BCE is unmarked.",
+    snapshots: [
+      { year: -2999, self: ["Early Dynastic Period of Egypt"], rivals: ["Sumerian City-States"] },
+      { year: -2499, self: ["Old Kingdom of Egypt"], rivals: ["Sumerian City-States"] },
+      { year: -2099, self: ["Upper Egypt"], rivals: ["Lower Egypt"] },
+      // Cliopatria keeps the two kingdoms until 2001 BCE; the reunification is c. 2040 BCE.
+      { year: -2039, dataYear: -1999, self: ["Middle Kingdom of Egypt"], rivals: [] },
+      // Cliopatria's Middle Kingdom only reaches the Second Cataract from 1800 BCE.
+      { year: -1849, dataYear: -1799, self: ["Middle Kingdom of Egypt"], rivals: [] },
+      // Cliopatria's Middle Kingdom runs to 1601 BCE; its divided Egypt starts at 1600.
+      {
+        year: -1649,
+        dataYear: -1599,
+        self: ["Seventeenth Dynasty of Egypt"],
+        rivals: ["Hyksos", "Fifteenth Dynasty of Egypt", "Sixteenth Dynasty of Egypt"],
+        relabel: { "Seventeenth Dynasty of Egypt": "Thebes" },
+      },
+      // Cliopatria's New Kingdom row starts at 1500 BCE and already holds Thutmose I's Nubia.
+      { year: -1549, dataYear: -1499, self: ["New Kingdom of Egypt"], rivals: ["Hyksos", "Mitanni"], clipSelf: [-180, 21.8, 180, 90] },
+      // Cliopatria keeps a Levantine Hyksos to 1401 BCE, long after their expulsion.
+      { year: -1472, self: ["New Kingdom of Egypt"], rivals: ["Mitanni"] },
+      // Thutmose III's Levant is in the 1400-1301 row, not the 1500-1401 one.
+      { year: -1449, dataYear: -1399, self: ["New Kingdom of Egypt"], rivals: ["Mitanni", "Hittites", "Assyria", "Babylonia"] },
+      { year: -1273, self: ["New Kingdom of Egypt"], rivals: ["Hittites", "Assyria", "Babylonia", "Mitanni"] },
+      { year: -1149, self: ["New Kingdom of Egypt"], rivals: ["Philistia", "Phoenicia", "Assyria", "Neo-Hittite states"] },
+      {
+        year: -749,
+        self: ["Twenty-second Dynasty of Egypt", "Twenty-third Dynasty of Egypt"],
+        rivals: ["Kingdom of Kush", "Neo-Assyrian Empire", "Kingdom of Israel", "Kingdom of Judah", "Philistia"],
+      },
+      // In 700 BCE Cliopatria's Kush polygon covers Egypt: the 25th Dynasty.
+      { year: -699, self: ["Kingdom of Kush"], rivals: ["Neo-Assyrian Empire"], relabel: { "Kingdom of Kush": "Kushite Egypt" } },
+      // Psamtik I held all Egypt from 656 BCE; Cliopatria's 26th Dynasty starts in 615.
+      { year: -655, dataYear: -599, self: ["Twenty-sixth Dynasty of Egypt"], rivals: ["Kingdom of Kush"] },
+      { year: -599, self: ["Twenty-sixth Dynasty of Egypt"], rivals: ["Kingdom of Kush", "Neo-Babylonian Empire"] },
+      // Persian province. Cliopatria keeps the 26th Dynasty to 501 BCE.
+      { year: -524, dataYear: -499, self: [], rivals: ["Achaemenid Empire", "Kingdom of Kush"] },
+      { year: -359, self: ["Thirtieth Dynasty of Egypt"], rivals: ["Achaemenid Empire", "Kingdom of Kush"] },
+      // Second Persian conquest, 343 BCE: Cliopatria's Persia covers Egypt again from 337 BCE.
+      { year: -342, dataYear: -334, self: [], rivals: ["Achaemenid Empire", "Kingdom of Kush"] },
+      // Ptolemy lost Cyprus in 306 BCE; the 307-302 row still has it and Cilicia.
+      { year: -304, self: ["Ptolemaic Kingdom"], rivals: ["Macedonian Empire", "Seleucid Empire", "Kingdom of Kush"], clipSelf: [-180, -90, 180, 34.5] },
+      { year: -249, self: ["Ptolemaic Kingdom"], rivals: ["Seleucid Empire", "Antigonid Macedonia", "Kingdom of Kush"] },
+      { year: -39, self: ["Ptolemaic Kingdom"], rivals: ["Roman Republic", "Nabataeans", "Judea", "Kingdom of Kush", "Parthian Empire"] },
+      // Roman province: Cliopatria still lists the Ptolemaic Kingdom for 30-28 BCE.
+      { year: -29, dataYear: -26, self: [], rivals: ["Roman Empire", "Kingdom of Kush", "Nabataeans", "Judea"] },
+    ],
+  },
 };
 
 type Label = [en: string, es: string, zh: string];
@@ -471,6 +528,39 @@ const LABELS: Record<string, Label> = {
   "Aztec Triple Alliance": ["Aztec Empire", "Imperio azteca", "阿兹特克帝国"],
   Michoacán: ["Tarascan state", "Estado tarasco", "塔拉斯科国"],
   "Later Mayan City-States": ["Maya city-states", "Ciudades-estado mayas", "玛雅城邦"],
+  // Egypt and its neighbours
+  "Early Dynastic Period of Egypt": ["Early Dynastic Egypt", "Egipto dinástico temprano", "早王朝时期的埃及"],
+  "Old Kingdom of Egypt": ["Old Kingdom", "Reino Antiguo", "古王国"],
+  "Upper Egypt": ["Thebes (11th Dynasty)", "Tebas (dinastía XI)", "底比斯（第十一王朝）"],
+  "Lower Egypt": ["Herakleopolis (9th–10th Dynasties)", "Heracleópolis (dinastías IX–X)", "赫拉克利奥波利斯（第九至十王朝）"],
+  "Middle Kingdom of Egypt": ["Middle Kingdom", "Reino Medio", "中王国"],
+  Thebes: ["Thebes", "Tebas", "底比斯"],
+  Hyksos: ["Hyksos", "Hicsos", "喜克索斯"],
+  "Fifteenth Dynasty of Egypt": ["15th Dynasty", "Dinastía XV", "第十五王朝"],
+  "Sixteenth Dynasty of Egypt": ["16th Dynasty", "Dinastía XVI", "第十六王朝"],
+  "New Kingdom of Egypt": ["New Kingdom", "Reino Nuevo", "新王国"],
+  Mitanni: ["Mitanni", "Mitani", "米坦尼"],
+  Hittites: ["Hittites", "Hititas", "赫梯"],
+  Assyria: ["Assyria", "Asiria", "亚述"],
+  Babylonia: ["Babylonia", "Babilonia", "巴比伦"],
+  "Sumerian City-States": ["Sumerian city-states", "Ciudades-estado sumerias", "苏美尔城邦"],
+  Philistia: ["Philistines", "Filisteos", "非利士"],
+  Phoenicia: ["Phoenicia", "Fenicia", "腓尼基"],
+  "Neo-Hittite states": ["Neo-Hittite states", "Estados neohititas", "新赫梯诸国"],
+  "Twenty-second Dynasty of Egypt": ["Egypt (22nd Dynasty)", "Egipto (dinastía XXII)", "埃及（第二十二王朝）"],
+  "Twenty-third Dynasty of Egypt": ["Egypt (23rd Dynasty)", "Egipto (dinastía XXIII)", "埃及（第二十三王朝）"],
+  "Kingdom of Kush": ["Kush", "Kush", "库施"],
+  "Kushite Egypt": ["Egypt and Kush (25th Dynasty)", "Egipto y Kush (dinastía XXV)", "埃及与库施（第二十五王朝）"],
+  "Neo-Assyrian Empire": ["Assyrian Empire", "Imperio asirio", "亚述帝国"],
+  "Kingdom of Israel": ["Israel", "Israel", "以色列王国"],
+  "Kingdom of Judah": ["Judah", "Judá", "犹大王国"],
+  "Twenty-sixth Dynasty of Egypt": ["Saite Egypt (26th Dynasty)", "Egipto saíta (dinastía XXVI)", "塞易斯埃及（第二十六王朝）"],
+  "Neo-Babylonian Empire": ["Babylonian Empire", "Imperio babilónico", "新巴比伦帝国"],
+  "Achaemenid Empire": ["Persian Empire", "Imperio persa", "波斯帝国"],
+  "Thirtieth Dynasty of Egypt": ["Egypt (30th Dynasty)", "Egipto (dinastía XXX)", "埃及（第三十王朝）"],
+  "Macedonian Empire": ["Macedonian Empire", "Imperio macedonio", "马其顿帝国"],
+  Nabataeans: ["Nabataeans", "Nabateos", "纳巴泰"],
+  Judea: ["Judaea", "Judea", "犹太"],
 };
 
 const CLIOPATRIA_SOURCES: Source[] = [
@@ -565,8 +655,14 @@ function build(cultureId: string, config: CultureConfig, rows: ClioRow[], work: 
     const dataYear = snap.dataYear ?? snap.year;
     let self = pick(snap.self, dataYear, "self");
     let rivals = pick(snap.rivals, dataYear, "rival");
-    if (self.length === 0) throw new Error(`${snap.year}: no self polity found`);
+    if (snap.self.length > 0 && self.length === 0) throw new Error(`${snap.year}: no self polity found`);
     const base = path.join(work, `${cultureId}-${snap.year}`);
+
+    if (snap.clipSelf) {
+      writeFeatures(`${base}-self.geojson`, self);
+      mapshaper(`${base}-self.geojson`, "-clip", `bbox=${snap.clipSelf.join(",")}`, "-o", `${base}-self-cut.geojson`, "force");
+      self = readFeatures(`${base}-self-cut.geojson`);
+    }
 
     if (snap.clip) {
       if (!config.mask) throw new Error(`${cultureId}: clip needs a mask`);
@@ -597,6 +693,7 @@ function build(cultureId: string, config: CultureConfig, rows: ClioRow[], work: 
       }
       // Cliopatria gives the Lombard kingdom (to 774) and the later Kingdom of Italy one name.
       const key =
+        snap.relabel?.[f.properties.name] ??
         config.relabel?.[f.properties.name] ??
         (f.properties.name === "Kingdom of Italy" && snap.year < 775 ? "Kingdom of Italy (Lombard)" : f.properties.name);
       const label = LABELS[key];

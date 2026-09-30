@@ -19,7 +19,8 @@
     "china": "China",
     "south-america": "South America",
     "mesoamerica": "Mesoamerica",
-    "europe": "Europe"
+    "europe": "Europe",
+    "africa": "Africa"
   },
   "heartlandToday": "Heartland today: {countries}",
   "regionFilter": "Regions",

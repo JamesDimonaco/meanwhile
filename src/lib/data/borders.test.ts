@@ -16,11 +16,11 @@ describe("territory map data", () => {
     expect(culture?.events.filter((e) => !e.place).map((e) => e.id)).toEqual([]);
   });
 
-  it.each(borders.map((b) => b.cultureId))("%s: a self polity in every snapshot, under 300 KB", (id) => {
+  // A snapshot may have no self polity when the land was someone else's
+  // province (Persian and Roman Egypt); the schema already rejects an empty one.
+  it.each(borders.map((b) => b.cultureId))("%s: its own lands on some map, under 300 KB", (id) => {
     const file = borders.find((b) => b.cultureId === id);
-    for (const snapshot of file?.snapshots ?? []) {
-      expect(snapshot.polities.some((p) => p.role === "self"), `year ${snapshot.year}`).toBe(true);
-    }
+    expect(file?.snapshots.some((s) => s.polities.some((p) => p.role === "self"))).toBe(true);
     const bytes = fs.statSync(path.join(process.cwd(), "data/borders", `${id}.json`)).size;
     expect(bytes).toBeLessThanOrEqual(MAX_BORDERS_BYTES);
   });

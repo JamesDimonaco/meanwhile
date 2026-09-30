@@ -64,6 +64,7 @@ const LAND: Record<Region, string> = {
   china: "/geo/land-east-asia.json",
   "south-america": "/geo/land-americas.json",
   mesoamerica: "/geo/land-americas.json",
+  africa: "/geo/land-europe.json",
 };
 
 // Both files are written by us: the land file is a prepared Natural Earth

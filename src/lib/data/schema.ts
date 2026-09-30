@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const REGIONS = ["china", "south-america", "mesoamerica", "europe"] as const;
+export const REGIONS = ["china", "south-america", "mesoamerica", "europe", "africa"] as const;
 export const EVENT_TYPES = ["founding", "ruler", "invention", "conflict", "collapse"] as const;
 
 const Id = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "ids are kebab-case: a-z, 0-9, hyphens");

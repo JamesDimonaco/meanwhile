@@ -14,6 +14,7 @@ export const REGION_COLOR: Record<Region, string> = {
   "south-america": "var(--chart-2)",
   mesoamerica: "var(--chart-3)",
   europe: "var(--chart-4)",
+  africa: "var(--chart-5)",
 };
 
 const BAR_INSET = 4;

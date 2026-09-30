@@ -1,0 +1,1602 @@
+{
+  "id": "egypt",
+  "region": "africa",
+  "wikidataId": "Q11768",
+  "name": {
+    "en": "Ancient Egypt",
+    "es": "Antiguo Egipto",
+    "zh": "古埃及"
+  },
+  "nativeName": {
+    "text": "Kemet (km.t)",
+    "lang": "egy"
+  },
+  "aliases": [
+    "Egypt",
+    "Egyptian",
+    "Egyptians",
+    "Pharaohs",
+    "Pharaonic Egypt",
+    "Kemet",
+    "Kmt",
+    "Ta-Kemet",
+    "Nile",
+    "Aegyptus",
+    "Ptolemaic Egypt",
+    "Old Kingdom",
+    "Middle Kingdom",
+    "New Kingdom",
+    "Egipto",
+    "Egipto antiguo",
+    "egipcios",
+    "faraones",
+    "埃及",
+    "古埃及",
+    "法老",
+    "aiji",
+    "gu aiji"
+  ],
+  "description": {
+    "en": "Three thousand years of kingdoms along the Nile, ruled by kings the Bible calls pharaohs: Narmer's united valley, the pyramid builders, the empire of Thutmose III and Ramesses II, Libyan, Nubian and Persian dynasties, then Alexander's Greek successors down to Cleopatra, whose death in 30 BCE made Egypt a Roman province. Its people called it Kemet, the black land of Nile silt (written km.t; the vowels are a modern guess), and its script stayed unreadable for 1,400 years until the Rosetta Stone gave it back.",
+    "es": "Tres mil años de reinos a orillas del Nilo, gobernados por reyes que la Biblia llama faraones: el valle unificado por Narmer, los constructores de pirámides, el imperio de Tutmosis III y Ramsés II, dinastías libias, nubias y persas, y después los sucesores griegos de Alejandro hasta Cleopatra, cuya muerte en el 30 a. e. c. convirtió a Egipto en provincia romana. Sus habitantes lo llamaban Kemet, la tierra negra del limo del Nilo (escrito km.t; las vocales son una convención moderna), y su escritura fue ilegible durante 1400 años hasta que la piedra de Rosetta la devolvió.",
+    "zh": "尼罗河畔延续三千年的王国，由被《圣经》称为“法老”的君主统治：纳尔迈统一的河谷、金字塔的建造者、图特摩斯三世与拉美西斯二世的帝国、利比亚人、努比亚人和波斯人的王朝，再到亚历山大的希腊继承者，直至克利奥帕特拉——她于公元前30年去世后埃及成为罗马行省。埃及人称自己的国家为“凯麦特”，即尼罗河淤泥的黑土地（写作km.t，元音是现代的推测）；其文字失传了一千四百年，直到罗塞塔石碑将它找回。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "pharaonic",
+      "earliestStart": -3149,
+      "latestStart": -3099,
+      "earliestEnd": -29,
+      "latestEnd": -29,
+      "sources": [
+        {
+          "citation": "Digital Egypt for Universities, University College London. \"Egyptian Chronology.\"",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Early Dynastic\" (2950–2670 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zkc72"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Old Kingdom\" (2670–2168 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76z92f9"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"First Intermediate Period\" (2168–2040 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zqqr2"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Middle Kingdom\" (2040–1640 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zkb23"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Second Intermediate Period\" (1640–1548 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zxgwt"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"New Kingdom\" (1548–1086 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zvjkw"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Third Intermediate Period\" (1086–664 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zpmnv"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Late Period\" (664–332 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zh6n2"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Ptolemaic\" (304–30 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zn9c9"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Ptolemaic\" (332 BC – 31 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hsz57"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Old Kingdom (ca. 2649–2130 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/oking/hd_oking.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Menes.\"",
+          "url": "https://www.britannica.com/biography/Menes"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Egyptian dates before 664 BCE come from king-lists and astronomy, and references disagree by up to two centuries at the start: the unification is put at c. 3150 (World History Encyclopedia), 3100 (UCL), 2950 (UCLA Encyclopedia of Egyptology) or 2900 BCE (Britannica's low chronology). The Old Kingdom begins in 2686 (UCL), 2670 (UEE), 2649 (Metropolitan Museum) or 2543 (Britannica). The bar starts at the conventional 3100 BCE and fades back to 3150; the phase boundaries follow UCL, except the Middle Kingdom start (UEE, 2040) and the Second Intermediate start (Metropolitan Museum, 1650); each phase links the UEE's PeriodO definition. The end, Cleopatra's death in 30 BCE, is certain.",
+        "es": "Las fechas egipcias anteriores al 664 a. e. c. proceden de listas reales y de la astronomía, y las referencias discrepan hasta en dos siglos al principio: la unificación se sitúa hacia 3150 (World History Encyclopedia), 3100 (UCL), 2950 (UCLA Encyclopedia of Egyptology) o 2900 a. e. c. (cronología baja de Britannica). El Reino Antiguo empieza en 2686 (UCL), 2670 (UEE), 2649 (Museo Metropolitano) o 2543 (Britannica). La barra empieza en el convencional 3100 a. e. c. y se difumina hasta 3150; los límites de fase siguen a UCL, salvo el inicio del Reino Medio (UEE, 2040) y el del Segundo periodo intermedio (Museo Metropolitano, 1650); cada fase enlaza la definición de PeriodO de la UEE. El final, la muerte de Cleopatra en el 30 a. e. c., es seguro.",
+        "zh": "公元前664年以前的埃及年代来自王表和天文推算，各参考文献在开端处相差可达两个世纪：统一的年代被定在约公元前3150年（世界历史百科）、3100年（伦敦大学学院）、2950年（UCLA埃及学百科）或2900年（大英百科的低年代学）。古王国的开始分别为公元前2686年（UCL）、2670年（UEE）、2649年（大都会博物馆）或2543年（大英百科）。时间条从传统的公元前3100年开始，并向前渐隐至3150年；分期界线采用UCL的方案，但中王国的开始（UEE，2040年）和第二中间期的开始（大都会博物馆，1650年）除外；每个分期都链接了UEE在PeriodO中的定义。终点——克利奥帕特拉于公元前30年去世——是确定的。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "early-dynastic",
+      "name": {
+        "en": "Early Dynastic",
+        "es": "Dinástico temprano",
+        "zh": "早王朝时期"
+      },
+      "start": -3099,
+      "end": -2685,
+      "sources": [
+        {
+          "citation": "Digital Egypt for Universities, University College London. \"Egyptian Chronology.\"",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Early Dynastic\" (2950–2670 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zkc72"
+        },
+        {
+          "citation": "Wilkinson, Toby (2014). \"Dynasties 2 and 3.\" UCLA Encyclopedia of Egyptology.",
+          "url": "https://escholarship.org/uc/item/1hb1s3pn"
+        }
+      ]
+    },
+    {
+      "id": "old-kingdom",
+      "name": {
+        "en": "Old Kingdom",
+        "es": "Reino Antiguo",
+        "zh": "古王国"
+      },
+      "start": -2685,
+      "end": -2180,
+      "sources": [
+        {
+          "citation": "Digital Egypt for Universities, University College London. \"Egyptian Chronology.\"",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Old Kingdom\" (2670–2168 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76z92f9"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Old Kingdom (ca. 2649–2130 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/oking/hd_oking.htm"
+        }
+      ]
+    },
+    {
+      "id": "first-intermediate",
+      "name": {
+        "en": "First Intermediate",
+        "es": "Primer periodo intermedio",
+        "zh": "第一中间期"
+      },
+      "start": -2180,
+      "end": -2039,
+      "sources": [
+        {
+          "citation": "Digital Egypt for Universities, University College London. \"Egyptian Chronology.\"",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"First Intermediate Period\" (2168–2040 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zqqr2"
+        },
+        {
+          "citation": "Müller-Wollermann, Renate (2014). \"End of the Old Kingdom.\" UCLA Encyclopedia of Egyptology.",
+          "url": "https://escholarship.org/uc/item/2ns3652b"
+        }
+      ]
+    },
+    {
+      "id": "middle-kingdom",
+      "name": {
+        "en": "Middle Kingdom",
+        "es": "Reino Medio",
+        "zh": "中王国"
+      },
+      "start": -2039,
+      "end": -1649,
+      "sources": [
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Middle Kingdom\" (2040–1640 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zkb23"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Middle Kingdom (ca. 2030–1650 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/mking/hd_mking.htm"
+        },
+        {
+          "citation": "Digital Egypt for Universities, University College London. \"Egyptian Chronology.\"",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+        }
+      ]
+    },
+    {
+      "id": "second-intermediate",
+      "name": {
+        "en": "Second Intermediate",
+        "es": "Segundo periodo intermedio",
+        "zh": "第二中间期"
+      },
+      "start": -1649,
+      "end": -1549,
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the New Kingdom (ca. 1550–1070 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/nking/hd_nking.htm"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Second Intermediate Period\" (1640–1548 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zxgwt"
+        },
+        {
+          "citation": "Ilin-Tomich, Alexander (2016). \"Second Intermediate Period.\" UCLA Encyclopedia of Egyptology.",
+          "url": "https://escholarship.org/uc/item/72q561r2"
+        }
+      ]
+    },
+    {
+      "id": "new-kingdom",
+      "name": {
+        "en": "New Kingdom",
+        "es": "Reino Nuevo",
+        "zh": "新王国"
+      },
+      "start": -1549,
+      "end": -1068,
+      "sources": [
+        {
+          "citation": "Digital Egypt for Universities, University College London. \"Egyptian Chronology.\"",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the New Kingdom (ca. 1550–1070 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/nking/hd_nking.htm"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"New Kingdom\" (1548–1086 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zvjkw"
+        }
+      ]
+    },
+    {
+      "id": "third-intermediate",
+      "name": {
+        "en": "Third Intermediate",
+        "es": "Tercer periodo intermedio",
+        "zh": "第三中间期"
+      },
+      "start": -1068,
+      "end": -663,
+      "sources": [
+        {
+          "citation": "Digital Egypt for Universities, University College London. \"Egyptian Chronology.\"",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Third Intermediate Period (ca. 1070–664 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/tipd/hd_tipd.htm"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Third Intermediate Period\" (1086–664 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zpmnv"
+        }
+      ]
+    },
+    {
+      "id": "late-period",
+      "name": {
+        "en": "Late Period",
+        "es": "Periodo tardío",
+        "zh": "后期埃及"
+      },
+      "start": -663,
+      "end": -331,
+      "sources": [
+        {
+          "citation": "Digital Egypt for Universities, University College London. \"Egyptian Chronology.\"",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Late Period (ca. 664–332 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/lapd/hd_lapd.htm"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Late Period\" (664–332 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zh6n2"
+        }
+      ]
+    },
+    {
+      "id": "ptolemaic",
+      "name": {
+        "en": "Ptolemaic",
+        "es": "Ptolemaico",
+        "zh": "托勒密时期"
+      },
+      "start": -331,
+      "end": -29,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Ptolemaic\" (332 BC – 31 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hsz57"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Ptolemaic Period.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/ptol/hd_ptol.htm"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Ptolemaic\" (304–30 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zn9c9"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "narmer-unification",
+      "start": -3099,
+      "type": "founding",
+      "title": {
+        "en": "Narmer, shown on his palette wearing the crowns of both lands, rules a united Upper and Lower Egypt",
+        "es": "Narmer, representado en su paleta con las coronas de ambas tierras, gobierna un Alto y Bajo Egipto unificados",
+        "zh": "纳尔迈在调色板上头戴上下埃及两顶王冠，统治着统一的上下埃及"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Menes.\"",
+          "url": "https://www.britannica.com/biography/Menes"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Narmer.\"",
+          "url": "https://www.worldhistory.org/Narmer/"
+        },
+        {
+          "citation": "Digital Egypt for Universities, University College London. \"Egyptian Chronology.\"",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The traditional date; references range from c. 3150 to c. 2900 BCE. Unification probably took several reigns, and the legendary first king Menes may be Narmer or his successor Aha. The palette was found at Hierakonpolis.",
+        "es": "La fecha tradicional; las referencias van de c. 3150 a c. 2900 a. e. c. La unificación probablemente ocupó varios reinados, y el legendario primer rey Menes puede ser Narmer o su sucesor Aha. La paleta se halló en Hieracómpolis.",
+        "zh": "这是传统年份；各参考文献从约公元前3150年到约公元前2900年不等。统一很可能历经数代国王，传说中的首位国王美尼斯可能是纳尔迈或其继任者阿哈。调色板出土于希拉康波利斯。"
+      },
+      "place": {
+        "name": {
+          "en": "Hierakonpolis (Nekhen)",
+          "es": "Hieracómpolis (Nejen)",
+          "zh": "希拉康波利斯（涅亨）"
+        },
+        "lat": 25.0977,
+        "lon": 32.7797,
+        "pleiadesId": "786037"
+      }
+    },
+    {
+      "id": "step-pyramid",
+      "start": -2649,
+      "type": "invention",
+      "title": {
+        "en": "Djoser builds the Step Pyramid at Saqqara, Egypt's first large stone building and its first pyramid",
+        "es": "Dyoser construye la pirámide escalonada de Saqqara, el primer gran edificio de piedra de Egipto y su primera pirámide",
+        "zh": "左塞尔在萨卡拉建造阶梯金字塔，这是埃及第一座大型石构建筑，也是第一座金字塔"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Old Kingdom (ca. 2649–2130 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/oking/hd_oking.htm"
+        },
+        {
+          "citation": "Wilkinson, Toby (2014). \"Dynasties 2 and 3.\" UCLA Encyclopedia of Egyptology.",
+          "url": "https://escholarship.org/uc/item/1hb1s3pn"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Djoser.\"",
+          "url": "https://www.worldhistory.org/Djoser/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Djoser.\"",
+          "url": "https://www.britannica.com/biography/Djoser"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Djoser's reign is placed at c. 2670 (UEE), 2649–2630 (Metropolitan Museum) or c. 2592 BCE (Britannica).",
+        "es": "El reinado de Dyoser se sitúa hacia 2670 (UEE), 2649–2630 (Museo Metropolitano) o c. 2592 a. e. c. (Britannica).",
+        "zh": "左塞尔的在位年代被定为约公元前2670年（UEE）、2649–2630年（大都会博物馆）或约2592年（大英百科）。"
+      },
+      "place": {
+        "name": {
+          "en": "Saqqara",
+          "es": "Saqqara",
+          "zh": "萨卡拉"
+        },
+        "lat": 29.8624,
+        "lon": 31.2194,
+        "pleiadesId": "796289136"
+      }
+    },
+    {
+      "id": "great-pyramid",
+      "start": -2549,
+      "type": "invention",
+      "title": {
+        "en": "Khufu's Great Pyramid rises at Giza, the largest building the world has yet seen",
+        "es": "La Gran Pirámide de Keops se alza en Guiza, el edificio más grande que el mundo ha visto hasta entonces",
+        "zh": "胡夫大金字塔在吉萨建成，是当时世界上最大的建筑"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Old Kingdom (ca. 2649–2130 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/oking/hd_oking.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Khufu.\"",
+          "url": "https://www.britannica.com/biography/Khufu"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Khufu reigned c. 2551–2528 BCE in the Metropolitan Museum's chronology, a few decades later in Britannica's (4th Dynasty from c. 2543).",
+        "es": "Keops reinó hacia 2551–2528 a. e. c. según la cronología del Museo Metropolitano, y unas décadas después según Britannica (dinastía IV desde c. 2543).",
+        "zh": "按大都会博物馆的年代学，胡夫在位约公元前2551–2528年；按大英百科则晚几十年（第四王朝始于约公元前2543年）。"
+      },
+      "place": {
+        "name": {
+          "en": "Giza",
+          "es": "Guiza",
+          "zh": "吉萨"
+        },
+        "lat": 29.9792,
+        "lon": 31.1342,
+        "pleiadesId": "704360201"
+      }
+    },
+    {
+      "id": "old-kingdom-collapse",
+      "start": -2180,
+      "type": "collapse",
+      "title": {
+        "en": "After Pepi II's long reign the central state breaks down and provincial governors rule for themselves: the First Intermediate Period",
+        "es": "Tras el largo reinado de Pepi II el Estado central se desmorona y los gobernadores provinciales gobiernan por su cuenta: el Primer periodo intermedio",
+        "zh": "佩皮二世长期统治之后中央政权瓦解，各省长官各自为政：第一中间期开始"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Old Kingdom (ca. 2649–2130 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/oking/hd_oking.htm"
+        },
+        {
+          "citation": "Müller-Wollermann, Renate (2014). \"End of the Old Kingdom.\" UCLA Encyclopedia of Egyptology.",
+          "url": "https://escholarship.org/uc/item/2ns3652b"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Middle Kingdom (ca. 2030–1650 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/mking/hd_mking.htm"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The UEE puts the end of the Old Kingdom around the middle of the 22nd century BCE; the Metropolitan Museum ends the ephemeral Dynasties 7–8 about 2100. Low Nile floods and drought are debated causes.",
+        "es": "La UEE sitúa el fin del Reino Antiguo hacia mediados del siglo XXII a. e. c.; el Museo Metropolitano termina las efímeras dinastías VII–VIII hacia 2100. Las crecidas escasas del Nilo y la sequía son causas debatidas.",
+        "zh": "UEE将古王国的终结定在约公元前22世纪中叶；大都会博物馆将短暂的第七至八王朝止于约公元前2100年。尼罗河泛滥不足与干旱是否为原因仍有争论。"
+      },
+      "place": {
+        "name": {
+          "en": "Memphis",
+          "es": "Menfis",
+          "zh": "孟菲斯"
+        },
+        "lat": 29.8495,
+        "lon": 31.2551,
+        "pleiadesId": "736963"
+      }
+    },
+    {
+      "id": "middle-kingdom-reunification",
+      "start": -2039,
+      "type": "founding",
+      "title": {
+        "en": "Mentuhotep II of Thebes defeats Herakleopolis and reunites Egypt: the Middle Kingdom begins",
+        "es": "Mentuhotep II de Tebas derrota a Heracleópolis y reunifica Egipto: comienza el Reino Medio",
+        "zh": "底比斯的孟图霍特普二世击败赫拉克利奥波利斯，重新统一埃及：中王国开始"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Middle Kingdom (ca. 2030–1650 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/mking/hd_mking.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Mentuhotep II.\"",
+          "url": "https://www.britannica.com/biography/Mentuhotep-II"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Middle Kingdom\" (2040–1640 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zkb23"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "c. 2040 BCE in the UEE's chronology; the Metropolitan Museum dates the Middle Kingdom from c. 2030, UCL from 2025.",
+        "es": "Hacia 2040 a. e. c. según la UEE; el Museo Metropolitano fecha el Reino Medio desde c. 2030, y UCL desde 2025.",
+        "zh": "按UEE的年代学约为公元前2040年；大都会博物馆将中王国定为始于约2030年，UCL则为2025年。"
+      },
+      "place": {
+        "name": {
+          "en": "Thebes",
+          "es": "Tebas",
+          "zh": "底比斯"
+        },
+        "lat": 25.6648,
+        "lon": 32.6319,
+        "pleiadesId": "786017"
+      }
+    },
+    {
+      "id": "itjtawy-founded",
+      "start": -1990,
+      "type": "founding",
+      "title": {
+        "en": "Amenemhat I founds a new capital, Itjtawy, near Lisht; his dynasty revives pyramid building and starts the temple of Amun at Karnak",
+        "es": "Amenemhat I funda una nueva capital, Ity-tauy, cerca de Lisht; su dinastía reanuda la construcción de pirámides e inicia el templo de Amón en Karnak",
+        "zh": "阿蒙涅姆赫特一世在利什特附近建立新都伊塔威；其王朝重启金字塔建造，并开始修建卡纳克的阿蒙神庙"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Middle Kingdom (ca. 2030–1650 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/mking/hd_mking.htm"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Hyksos: The Rulers of Foreign Lands Who Transformed Egypt.\"",
+          "url": "https://www.worldhistory.org/Hyksos/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Amenemhat I reigned c. 1991–1962 BCE in the conventional chronology; Britannica's low chronology starts Dynasty 12 in 1939.",
+        "es": "Amenemhat I reinó hacia 1991–1962 a. e. c. en la cronología convencional; la cronología baja de Britannica inicia la dinastía XII en 1939.",
+        "zh": "按传统年代学，阿蒙涅姆赫特一世在位约公元前1991–1962年；大英百科的低年代学将第十二王朝定为始于公元前1939年。"
+      },
+      "place": {
+        "name": {
+          "en": "Lisht (Itjtawy)",
+          "es": "Lisht (Ity-tauy)",
+          "zh": "利什特（伊塔威）"
+        },
+        "lat": 29.5675,
+        "lon": 31.2232,
+        "pleiadesId": "797229144"
+      }
+    },
+    {
+      "id": "hyksos-rule",
+      "start": -1649,
+      "type": "conflict",
+      "title": {
+        "en": "Hyksos kings from the Levant rule the Delta from Avaris while Thebes holds the south: the Second Intermediate Period",
+        "es": "Reyes hicsos procedentes del Levante gobiernan el Delta desde Avaris mientras Tebas conserva el sur: el Segundo periodo intermedio",
+        "zh": "来自黎凡特的喜克索斯诸王以阿瓦里斯为都统治三角洲，底比斯据守南方：第二中间期"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the New Kingdom (ca. 1550–1070 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/nking/hd_nking.htm"
+        },
+        {
+          "citation": "Ilin-Tomich, Alexander (2016). \"Second Intermediate Period.\" UCLA Encyclopedia of Egyptology.",
+          "url": "https://escholarship.org/uc/item/72q561r2"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Ahmose I.\"",
+          "url": "https://www.britannica.com/biography/Ahmose-I"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Hyksos: The Rulers of Foreign Lands Who Transformed Egypt.\"",
+          "url": "https://www.worldhistory.org/Hyksos/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Hyksos rule (Dynasty 15) is dated c. 1650–1550 BCE by the Metropolitan Museum and 1630–1530 by Britannica. They were immigrants who took power, not an invading army; a third kingdom, Kerma in Nubia, held the far south.",
+        "es": "El dominio hicso (dinastía XV) se fecha c. 1650–1550 a. e. c. según el Museo Metropolitano y 1630–1530 según Britannica. Fueron inmigrantes que tomaron el poder, no un ejército invasor; un tercer reino, Kerma en Nubia, dominaba el extremo sur.",
+        "zh": "喜克索斯统治（第十五王朝）大都会博物馆定为约公元前1650–1550年，大英百科定为1630–1530年。他们是夺取政权的移民，而非入侵的军队；第三个王国——努比亚的克尔玛——控制着最南端。"
+      },
+      "place": {
+        "name": {
+          "en": "Avaris",
+          "es": "Avaris",
+          "zh": "阿瓦里斯"
+        },
+        "lat": 30.7863,
+        "lon": 31.8229,
+        "pleiadesId": "727080"
+      }
+    },
+    {
+      "id": "ahmose-expels-hyksos",
+      "start": -1549,
+      "type": "conflict",
+      "title": {
+        "en": "Ahmose of Thebes takes Avaris and drives out the Hyksos, reuniting Egypt: the New Kingdom begins",
+        "es": "Ahmose de Tebas toma Avaris y expulsa a los hicsos, reunificando Egipto: comienza el Reino Nuevo",
+        "zh": "底比斯的雅赫摩斯攻取阿瓦里斯，驱逐喜克索斯人，重新统一埃及：新王国开始"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the New Kingdom (ca. 1550–1070 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/nking/hd_nking.htm"
+        },
+        {
+          "citation": "Ilin-Tomich, Alexander (2016). \"Second Intermediate Period.\" UCLA Encyclopedia of Egyptology.",
+          "url": "https://escholarship.org/uc/item/72q561r2"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Ahmose I.\"",
+          "url": "https://www.britannica.com/biography/Ahmose-I"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "c. 1550 BCE in the Metropolitan Museum's and UCL's chronology; Britannica's low chronology puts the fall of Avaris about 1521.",
+        "es": "Hacia 1550 a. e. c. según el Museo Metropolitano y UCL; la cronología baja de Britannica sitúa la caída de Avaris hacia 1521.",
+        "zh": "按大都会博物馆和UCL的年代学约为公元前1550年；大英百科的低年代学将阿瓦里斯陷落定在约公元前1521年。"
+      },
+      "place": {
+        "name": {
+          "en": "Avaris",
+          "es": "Avaris",
+          "zh": "阿瓦里斯"
+        },
+        "lat": 30.7863,
+        "lon": 31.8229,
+        "pleiadesId": "727080"
+      }
+    },
+    {
+      "id": "hatshepsut-king",
+      "start": -1472,
+      "type": "ruler",
+      "title": {
+        "en": "Hatshepsut, regent for the boy Thutmose III, is crowned king in her own right and builds her terraced temple at Deir el-Bahari",
+        "es": "Hatshepsut, regente del niño Tutmosis III, es coronada rey por derecho propio y construye su templo en terrazas de Deir el-Bahari",
+        "zh": "哈特谢普苏特作为幼主图特摩斯三世的摄政，自立为王，并在代尔拜赫里建造阶梯式神庙"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Thutmose III.\"",
+          "url": "https://www.worldhistory.org/Thutmose_III/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Thutmose III.\"",
+          "url": "https://www.britannica.com/biography/Thutmose-III"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Akhenaten.\"",
+          "url": "https://www.worldhistory.org/Akhenaten/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Hatshepsut ruled c. 1479–1458 BCE, first as regent and from about her seventh year as king. Thutmose III later had her names chiselled off her monuments.",
+        "es": "Hatshepsut gobernó c. 1479–1458 a. e. c., primero como regente y desde aproximadamente su séptimo año como rey. Tutmosis III hizo borrar después sus nombres de los monumentos.",
+        "zh": "哈特谢普苏特约于公元前1479–1458年执政，先为摄政，约自第七年起称王。图特摩斯三世后来将她的名字从纪念物上凿去。"
+      },
+      "place": {
+        "name": {
+          "en": "Deir el-Bahari",
+          "es": "Deir el-Bahari",
+          "zh": "代尔拜赫里"
+        },
+        "lat": 25.7375,
+        "lon": 32.6075,
+        "pleiadesId": "512504673"
+      }
+    },
+    {
+      "id": "thutmose-iii-empire",
+      "start": -1456,
+      "type": "conflict",
+      "title": {
+        "en": "Thutmose III crushes a Canaanite coalition at Megiddo and carries Egypt's empire to the Euphrates and to Napata; his annals cover the walls of Karnak",
+        "es": "Tutmosis III aplasta a una coalición cananea en Meguido y extiende el imperio egipcio hasta el Éufrates y Napata; sus anales cubren los muros de Karnak",
+        "zh": "图特摩斯三世在米吉多击溃迦南联军，将埃及帝国推进至幼发拉底河和纳帕塔；他的年代记刻满卡纳克的墙壁"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Thutmose III.\"",
+          "url": "https://www.britannica.com/biography/Thutmose-III"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Thutmose III.\"",
+          "url": "https://www.worldhistory.org/Thutmose_III/"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the New Kingdom (ca. 1550–1070 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/nking/hd_nking.htm"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Megiddo was fought in 1457 BCE, the year after Hatshepsut's death, in the conventional chronology.",
+        "es": "La batalla de Meguido se libró en 1457 a. e. c., el año siguiente a la muerte de Hatshepsut, según la cronología convencional.",
+        "zh": "按传统年代学，米吉多之战发生于公元前1457年，即哈特谢普苏特去世的次年。"
+      },
+      "place": {
+        "name": {
+          "en": "Karnak",
+          "es": "Karnak",
+          "zh": "卡纳克"
+        },
+        "lat": 25.7182,
+        "lon": 32.6581,
+        "pleiadesId": "786050"
+      }
+    },
+    {
+      "id": "akhenaten-amarna",
+      "start": -1348,
+      "type": "founding",
+      "title": {
+        "en": "Akhenaten abandons Thebes for a new city, Akhetaten (Amarna), and its one god, the sun disc Aten",
+        "es": "Ajenatón abandona Tebas por una nueva ciudad, Ajetatón (Amarna), y su único dios, el disco solar Atón",
+        "zh": "埃赫那吞离开底比斯，迁往新城埃赫塔顿（阿马尔纳），独尊太阳圆盘阿吞神"
+      },
+      "sources": [
+        {
+          "citation": "Williamson, Jacquelyn (2015). \"Amarna Period.\" UCLA Encyclopedia of Egyptology.",
+          "url": "https://escholarship.org/uc/item/77s6r0zr"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Akhenaten.\"",
+          "url": "https://www.britannica.com/biography/Akhenaten"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Akhenaten.\"",
+          "url": "https://www.worldhistory.org/Akhenaten/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The move was announced in Akhenaten's fifth year; he reigned c. 1353–1336 BCE. After his death the court returned to Thebes and the city was abandoned.",
+        "es": "El traslado se anunció en el quinto año de Ajenatón, que reinó c. 1353–1336 a. e. c. Tras su muerte la corte volvió a Tebas y la ciudad fue abandonada.",
+        "zh": "迁都在埃赫那吞在位第五年宣布；他约于公元前1353–1336年在位。他死后宫廷迁回底比斯，新城被废弃。"
+      },
+      "place": {
+        "name": {
+          "en": "Amarna (Akhetaten)",
+          "es": "Amarna (Ajetatón)",
+          "zh": "阿马尔纳（埃赫塔顿）"
+        },
+        "lat": 27.6441,
+        "lon": 30.8982,
+        "pleiadesId": "149576487"
+      }
+    },
+    {
+      "id": "tutankhamun",
+      "start": -1335,
+      "type": "ruler",
+      "title": {
+        "en": "The boy king Tutankhamun restores the old gods; his untouched tomb, opened in 1922, makes him the most famous pharaoh of all",
+        "es": "El niño rey Tutankamón restaura a los antiguos dioses; su tumba intacta, abierta en 1922, lo convierte en el faraón más famoso de todos",
+        "zh": "少年国王图坦卡蒙恢复对旧神的崇拜；他未被盗掘的陵墓于1922年被打开，使他成为最著名的法老"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Tutankhamun.\"",
+          "url": "https://www.worldhistory.org/Tutankhamun/"
+        },
+        {
+          "citation": "Williamson, Jacquelyn (2015). \"Amarna Period.\" UCLA Encyclopedia of Egyptology.",
+          "url": "https://escholarship.org/uc/item/77s6r0zr"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Akhenaten.\"",
+          "url": "https://www.worldhistory.org/Akhenaten/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Born Tutankhaten, he took the throne aged about nine (c. 1336 BCE) and died at about eighteen. Howard Carter found the tomb in the Valley of the Kings.",
+        "es": "Nacido Tutankatón, subió al trono con unos nueve años (c. 1336 a. e. c.) y murió hacia los dieciocho. Howard Carter halló la tumba en el Valle de los Reyes.",
+        "zh": "他生名图坦卡吞，约九岁即位（约公元前1336年），十八岁左右去世。霍华德·卡特在帝王谷发现了他的陵墓。"
+      },
+      "place": {
+        "name": {
+          "en": "Valley of the Kings",
+          "es": "Valle de los Reyes",
+          "zh": "帝王谷"
+        },
+        "lat": 25.7398,
+        "lon": 32.6016,
+        "pleiadesId": "384697574"
+      }
+    },
+    {
+      "id": "ramesses-ii-reign",
+      "start": -1278,
+      "end": -1212,
+      "type": "ruler",
+      "title": {
+        "en": "Ramesses II reigns for 66 years, building on a scale never matched: Pi-Ramesses, the Ramesseum, and the rock temples of Abu Simbel",
+        "es": "Ramsés II reina 66 años y construye a una escala nunca igualada: Pi-Ramsés, el Ramesseum y los templos rupestres de Abu Simbel",
+        "zh": "拉美西斯二世在位66年，营建规模空前：培尔-拉美西斯、拉美西姆和阿布辛贝的岩凿神庙"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Ramses II.\"",
+          "url": "https://www.britannica.com/biography/Ramses-II-king-of-Egypt"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Sea Peoples.\"",
+          "url": "https://www.worldhistory.org/Sea_Peoples/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Battle of Kadesh.\"",
+          "url": "https://www.britannica.com/event/Battle-of-Kadesh"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Reigned 1279–1213 BCE, the second-longest reign in Egyptian history. Abu Simbel's larger temple is fronted by four seated colossi of the king.",
+        "es": "Reinó 1279–1213 a. e. c., el segundo reinado más largo de la historia egipcia. El templo mayor de Abu Simbel está presidido por cuatro colosos sedentes del rey.",
+        "zh": "在位公元前1279–1213年，是埃及历史上第二长的统治。阿布辛贝大神庙正面有四尊国王坐像巨雕。"
+      },
+      "place": {
+        "name": {
+          "en": "Abu Simbel",
+          "es": "Abu Simbel",
+          "zh": "阿布辛贝"
+        },
+        "lat": 22.3362,
+        "lon": 31.6258,
+        "pleiadesId": "424487311"
+      }
+    },
+    {
+      "id": "kadesh",
+      "start": -1273,
+      "type": "conflict",
+      "title": {
+        "en": "Ramesses II fights the Hittites to a draw at Kadesh on the Orontes; the peace treaty that follows is the earliest to survive",
+        "es": "Ramsés II combate a los hititas hasta el empate en Qadesh, junto al Orontes; el tratado de paz que sigue es el más antiguo conservado",
+        "zh": "拉美西斯二世在奥龙特斯河畔的卡叠石与赫梯人战成平手；随后的和约是现存最早的和平条约"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Battle of Kadesh.\"",
+          "url": "https://www.britannica.com/event/Battle-of-Kadesh"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Ramses II.\"",
+          "url": "https://www.britannica.com/biography/Ramses-II-king-of-Egypt"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Sea Peoples.\"",
+          "url": "https://www.worldhistory.org/Sea_Peoples/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "1274 BCE in the conventional chronology, 1275 in Britannica's. Both sides claimed victory; the treaty with Hattusili III came about 1258 BCE.",
+        "es": "1274 a. e. c. en la cronología convencional, 1275 en la de Britannica. Ambos bandos proclamaron la victoria; el tratado con Hattusili III llegó hacia 1258 a. e. c.",
+        "zh": "按传统年代学为公元前1274年，大英百科定为1275年。双方都宣称获胜；与哈图西里三世的条约约订于公元前1258年。"
+      },
+      "place": {
+        "name": {
+          "en": "Kadesh",
+          "es": "Qadesh",
+          "zh": "卡叠石"
+        },
+        "lat": 34.5571,
+        "lon": 36.5194,
+        "pleiadesId": "668291"
+      }
+    },
+    {
+      "id": "sea-peoples",
+      "start": -1177,
+      "type": "conflict",
+      "title": {
+        "en": "Ramesses III defeats the Sea Peoples on the Delta shore; the battle is carved across his temple at Medinet Habu",
+        "es": "Ramsés III derrota a los Pueblos del Mar en la costa del Delta; la batalla queda esculpida en su templo de Medinet Habu",
+        "zh": "拉美西斯三世在三角洲海岸击败海上民族；这场战斗被刻在他位于哈布城的神庙上"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Sea People.\"",
+          "url": "https://www.britannica.com/topic/Sea-People"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Sea Peoples.\"",
+          "url": "https://www.worldhistory.org/Sea_Peoples/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The eighth year of Ramesses III, c. 1178 BCE. The Sea Peoples were part of a wider collapse that also ended the Hittite empire; Egypt survived it but lost its Levantine provinces.",
+        "es": "El octavo año de Ramsés III, c. 1178 a. e. c. Los Pueblos del Mar formaron parte de un colapso más amplio que acabó también con el imperio hitita; Egipto sobrevivió, pero perdió sus provincias levantinas.",
+        "zh": "拉美西斯三世在位第八年，约公元前1178年。海上民族是一场更大规模崩溃的一部分，赫梯帝国也随之覆灭；埃及幸存下来，却失去了黎凡特诸省。"
+      },
+      "place": {
+        "name": {
+          "en": "Medinet Habu",
+          "es": "Medinet Habu",
+          "zh": "哈布城"
+        },
+        "lat": 25.7198,
+        "lon": 32.6008,
+        "pleiadesId": "321318358"
+      }
+    },
+    {
+      "id": "new-kingdom-ends",
+      "start": -1068,
+      "type": "collapse",
+      "title": {
+        "en": "Ramesses XI dies; Smendes rules from Tanis while the High Priests of Amun rule Thebes: Egypt splits into the Third Intermediate Period",
+        "es": "Muere Ramsés XI; Esmendes gobierna desde Tanis mientras los sumos sacerdotes de Amón gobiernan Tebas: Egipto se divide en el Tercer periodo intermedio",
+        "zh": "拉美西斯十一世去世；斯门德斯以塔尼斯为都统治，而阿蒙大祭司统治底比斯：埃及分裂，进入第三中间期"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Third Intermediate Period (ca. 1070–664 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/tipd/hd_tipd.htm"
+        },
+        {
+          "citation": "Digital Egypt for Universities, University College London. \"Egyptian Chronology.\"",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+        },
+        {
+          "citation": "UCLA Encyclopedia of Egyptology chronology, \"Third Intermediate Period\" (1086–664 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0qk76zpmnv"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "1069 BCE (UCL) or 1070 (Metropolitan Museum). Later Libyan and Nubian dynasties kept the country divided for four centuries.",
+        "es": "1069 a. e. c. (UCL) o 1070 (Museo Metropolitano). Las dinastías libias y nubias posteriores mantuvieron el país dividido durante cuatro siglos.",
+        "zh": "公元前1069年（UCL）或1070年（大都会博物馆）。此后的利比亚和努比亚王朝使国家分裂长达四个世纪。"
+      },
+      "place": {
+        "name": {
+          "en": "Tanis",
+          "es": "Tanis",
+          "zh": "塔尼斯"
+        },
+        "lat": 30.9755,
+        "lon": 31.8836,
+        "pleiadesId": "727236"
+      }
+    },
+    {
+      "id": "piye-conquest",
+      "start": -727,
+      "type": "conflict",
+      "title": {
+        "en": "Piye, king of Kush, marches north from Napata and takes Memphis; Nubian pharaohs rule Egypt as the 25th Dynasty",
+        "es": "Piye, rey de Kush, marcha hacia el norte desde Napata y toma Menfis; faraones nubios gobiernan Egipto como dinastía XXV",
+        "zh": "库施国王皮耶从纳帕塔北上攻占孟菲斯；努比亚法老以第二十五王朝之名统治埃及"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Third Intermediate Period (ca. 1070–664 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/tipd/hd_tipd.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Piye.\"",
+          "url": "https://www.britannica.com/biography/Piye"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "About 730–728 BCE; Piye reigned c. 753–723. His victory stela was found at Gebel Barkal, and his successors ruled all Egypt for half a century.",
+        "es": "Hacia 730–728 a. e. c.; Piye reinó c. 753–723. Su estela de la victoria se halló en Gebel Barkal, y sus sucesores gobernaron todo Egipto durante medio siglo.",
+        "zh": "约公元前730–728年；皮耶约于公元前753–723年在位。他的胜利碑出土于杰贝勒巴尔卡尔，其继任者统治全埃及达半个世纪。"
+      },
+      "place": {
+        "name": {
+          "en": "Memphis",
+          "es": "Menfis",
+          "zh": "孟菲斯"
+        },
+        "lat": 29.8495,
+        "lon": 31.2551,
+        "pleiadesId": "736963"
+      }
+    },
+    {
+      "id": "assyrians-sack-thebes",
+      "start": -662,
+      "type": "conflict",
+      "title": {
+        "en": "Assyrian armies drive the Kushite pharaohs out of Egypt and sack Thebes",
+        "es": "Los ejércitos asirios expulsan de Egipto a los faraones kushitas y saquean Tebas",
+        "zh": "亚述军队将库施法老逐出埃及，并洗劫底比斯"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Third Intermediate Period (ca. 1070–664 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/tipd/hd_tipd.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Taharqa.\"",
+          "url": "https://www.britannica.com/biography/Taharqa"
+        },
+        {
+          "citation": "Livius.org. \"Psammetichus I.\"",
+          "url": "https://www.livius.org/articles/person/psammetichus-i/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Esarhaddon took Memphis in 671 BCE; Ashurbanipal's sack of Thebes is dated 664 or 663. The last Kushite pharaoh, Tanutamani, withdrew to Napata.",
+        "es": "Asarhaddón tomó Menfis en 671 a. e. c.; el saqueo de Tebas por Asurbanipal se fecha en 664 o 663. El último faraón kushita, Tanutamani, se retiró a Napata.",
+        "zh": "以撒哈顿于公元前671年攻取孟菲斯；亚述巴尼拔洗劫底比斯定在公元前664年或663年。最后一位库施法老坦沃塔玛尼退回纳帕塔。"
+      },
+      "place": {
+        "name": {
+          "en": "Thebes",
+          "es": "Tebas",
+          "zh": "底比斯"
+        },
+        "lat": 25.6648,
+        "lon": 32.6319,
+        "pleiadesId": "786017"
+      }
+    },
+    {
+      "id": "saite-revival",
+      "start": -663,
+      "end": -655,
+      "type": "founding",
+      "title": {
+        "en": "Psamtik I of Sais shakes off Assyria and reunites Egypt with Greek and Carian mercenaries: the Saite revival",
+        "es": "Psamético I de Sais se libera de Asiria y reunifica Egipto con mercenarios griegos y carios: el renacimiento saíta",
+        "zh": "塞易斯的普萨美提克一世摆脱亚述，凭借希腊和卡里亚雇佣兵重新统一埃及：塞易斯复兴"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Late Period (ca. 664–332 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/lapd/hd_lapd.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Psamtik I.\"",
+          "url": "https://www.britannica.com/biography/Psamtik-I"
+        },
+        {
+          "citation": "Livius.org. \"Psammetichus I.\"",
+          "url": "https://www.livius.org/articles/person/psammetichus-i/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Psamtik became king in 664 BCE and controlled Thebes from 656, when his daughter was adopted as God's Wife of Amun. Dates are secure from here on.",
+        "es": "Psamético fue rey desde 664 a. e. c. y controló Tebas desde 656, cuando su hija fue adoptada como Esposa del dios Amón. A partir de aquí las fechas son seguras.",
+        "zh": "普萨美提克于公元前664年称王，自656年起控制底比斯——那年他的女儿被收为“阿蒙神妻”。此后的年代是确定的。"
+      },
+      "place": {
+        "name": {
+          "en": "Sais",
+          "es": "Sais",
+          "zh": "塞易斯"
+        },
+        "lat": 30.9672,
+        "lon": 30.7744,
+        "pleiadesId": "727217"
+      }
+    },
+    {
+      "id": "persian-conquest",
+      "start": -524,
+      "type": "collapse",
+      "title": {
+        "en": "Cambyses II of Persia defeats Psamtik III at Pelusium; Egypt becomes a Persian province",
+        "es": "Cambises II de Persia derrota a Psamético III en Pelusio; Egipto se convierte en provincia persa",
+        "zh": "波斯的冈比西斯二世在培琉喜阿姆击败普萨美提克三世；埃及沦为波斯行省"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Late Period (ca. 664–332 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/lapd/hd_lapd.htm"
+        },
+        {
+          "citation": "Livius.org. \"Cambyses II.\"",
+          "url": "https://www.livius.org/articles/person/cambyses-ii/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Cambyses II.\"",
+          "url": "https://www.worldhistory.org/Cambyses_II/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Cambyses II.\"",
+          "url": "https://www.britannica.com/biography/Cambyses-II"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Persian kings ruled as Dynasty 27 (525–404 BCE) through a satrap; a coalition of Delta rulers threw them out in 404.",
+        "es": "Los reyes persas gobernaron como dinastía XXVII (525–404 a. e. c.) a través de un sátrapa; una coalición de gobernantes del Delta los expulsó en 404.",
+        "zh": "波斯国王通过总督以第二十七王朝（公元前525–404年）之名统治；公元前404年三角洲统治者联合将其驱逐。"
+      },
+      "place": {
+        "name": {
+          "en": "Pelusium",
+          "es": "Pelusio",
+          "zh": "培琉喜阿姆"
+        },
+        "lat": 31.0428,
+        "lon": 32.5473,
+        "pleiadesId": "727192"
+      }
+    },
+    {
+      "id": "last-native-pharaoh",
+      "start": -342,
+      "type": "collapse",
+      "title": {
+        "en": "Artaxerxes III reconquers Egypt; Nectanebo II, the last native pharaoh, flees south",
+        "es": "Artajerjes III reconquista Egipto; Nectanebo II, el último faraón nativo, huye hacia el sur",
+        "zh": "阿尔塔薛西斯三世再度征服埃及；末代本土法老奈克塔内布二世南逃"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Late Period (ca. 664–332 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/lapd/hd_lapd.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Nectanebo II.\"",
+          "url": "https://www.britannica.com/biography/Nectanebo-II"
+        },
+        {
+          "citation": "Livius.org. \"Nectanebo II.\"",
+          "url": "https://www.livius.org/articles/person/nectanebo-ii/"
+        },
+        {
+          "citation": "Livius.org. \"Artaxerxes III Ochus.\"",
+          "url": "https://www.livius.org/articles/person/artaxerxes-iii-ochus/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Nectanebo II (360–343 BCE) of Sebennytos had beaten off a Persian attack in 351. Sixty years of independence under Dynasties 28–30 ended here.",
+        "es": "Nectanebo II (360–343 a. e. c.), de Sebenitos, había rechazado un ataque persa en 351. Aquí acabaron sesenta años de independencia bajo las dinastías XXVIII–XXX.",
+        "zh": "塞本尼托斯的奈克塔内布二世（公元前360–343年在位）曾于公元前351年击退波斯进攻。第二十八至三十王朝六十年的独立至此终结。"
+      },
+      "place": {
+        "name": {
+          "en": "Sebennytos",
+          "es": "Sebenitos",
+          "zh": "塞本尼托斯"
+        },
+        "lat": 30.9641,
+        "lon": 31.24,
+        "pleiadesId": "727227"
+      }
+    },
+    {
+      "id": "alexander-takes-egypt",
+      "start": -331,
+      "type": "conflict",
+      "title": {
+        "en": "Alexander the Great takes Egypt from the Persians and marks out Alexandria on the coast",
+        "es": "Alejandro Magno arrebata Egipto a los persas y traza Alejandría en la costa",
+        "zh": "亚历山大大帝从波斯人手中夺取埃及，并在海岸规划亚历山大城"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Ptolemaic Period.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/ptol/hd_ptol.htm"
+        },
+        {
+          "citation": "Livius.org. \"Alexandria.\"",
+          "url": "https://www.livius.org/articles/place/alexandria/"
+        },
+        {
+          "citation": "Livius.org. \"Alexander the Great.\"",
+          "url": "https://www.livius.org/articles/person/alexander-the-great/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Ptolemy I Soter.\"",
+          "url": "https://www.britannica.com/biography/Ptolemy-I-Soter"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Egypt submitted without a fight in 332 BCE. Alexandria was founded the following spring and became the Ptolemies' capital, with its lighthouse and library.",
+        "es": "Egipto se rindió sin combate en 332 a. e. c. Alejandría se fundó la primavera siguiente y fue la capital de los Ptolomeos, con su faro y su biblioteca.",
+        "zh": "公元前332年埃及不战而降。亚历山大城于次年春天奠基，成为托勒密王朝的都城，拥有灯塔和图书馆。"
+      },
+      "place": {
+        "name": {
+          "en": "Alexandria",
+          "es": "Alejandría",
+          "zh": "亚历山大城"
+        },
+        "lat": 31.2014,
+        "lon": 29.9098,
+        "pleiadesId": "727070"
+      }
+    },
+    {
+      "id": "ptolemy-becomes-king",
+      "start": -304,
+      "type": "founding",
+      "title": {
+        "en": "Ptolemy, Alexander's general, takes the title of king: his Greek dynasty rules Egypt from Alexandria for 275 years",
+        "es": "Ptolomeo, general de Alejandro, toma el título de rey: su dinastía griega gobierna Egipto desde Alejandría durante 275 años",
+        "zh": "亚历山大的部将托勒密自立为王：他的希腊王朝以亚历山大城为都统治埃及275年"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Ptolemaic Period.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/ptol/hd_ptol.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Ptolemy I Soter.\"",
+          "url": "https://www.britannica.com/biography/Ptolemy-I-Soter"
+        },
+        {
+          "citation": "Livius.org. \"Ptolemy I Soter.\"",
+          "url": "https://www.livius.org/articles/person/ptolemy-i-soter/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Ptolemy had governed Egypt as satrap since Alexander's death in 323 BCE; he was proclaimed king in 305/304.",
+        "es": "Ptolomeo gobernaba Egipto como sátrapa desde la muerte de Alejandro en 323 a. e. c.; fue proclamado rey en 305/304.",
+        "zh": "自公元前323年亚历山大去世后，托勒密以总督身份治理埃及；公元前305/304年被立为王。"
+      },
+      "place": {
+        "name": {
+          "en": "Alexandria",
+          "es": "Alejandría",
+          "zh": "亚历山大城"
+        },
+        "lat": 31.2014,
+        "lon": 29.9098,
+        "pleiadesId": "727070"
+      }
+    },
+    {
+      "id": "rosetta-decree",
+      "start": -195,
+      "type": "invention",
+      "title": {
+        "en": "Priests at Memphis issue a decree for the young Ptolemy V in hieroglyphs, Demotic and Greek: the Rosetta Stone",
+        "es": "Los sacerdotes de Menfis promulgan un decreto para el joven Ptolomeo V en jeroglíficos, demótico y griego: la piedra de Rosetta",
+        "zh": "孟菲斯的祭司为年幼的托勒密五世颁布诏令，以圣书体、世俗体和希腊文三种文字刻写：罗塞塔石碑"
+      },
+      "sources": [
+        {
+          "citation": "British Museum. \"The Rosetta Stone\", collection object EA24.",
+          "url": "https://www.britishmuseum.org/collection/object/Y_EA24"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Rosetta Stone.\"",
+          "url": "https://www.worldhistory.org/Rosetta_Stone/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Found by French soldiers at Rashid (Rosetta) in 1799 and in the British Museum since 1802. Its Greek text let Champollion decipher hieroglyphs in the 1820s.",
+        "es": "Hallada por soldados franceses en Rashid (Roseta) en 1799 y en el Museo Británico desde 1802. Su texto griego permitió a Champollion descifrar los jeroglíficos en la década de 1820.",
+        "zh": "1799年由法国士兵在拉希德（罗塞塔）发现，1802年起藏于大英博物馆。其希腊文使商博良在19世纪20年代破译了圣书体。"
+      },
+      "place": {
+        "name": {
+          "en": "Rashid (Rosetta)",
+          "es": "Rashid (Roseta)",
+          "zh": "拉希德（罗塞塔）"
+        },
+        "lat": 31.4009,
+        "lon": 30.4147,
+        "pleiadesId": "727085"
+      }
+    },
+    {
+      "id": "actium",
+      "start": -30,
+      "type": "conflict",
+      "title": {
+        "en": "Octavian's fleet defeats Antony and Cleopatra off Actium",
+        "es": "La flota de Octavio derrota a Antonio y Cleopatra frente a Accio",
+        "zh": "屋大维的舰队在亚克兴海面击败安东尼与克利奥帕特拉"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org. \"Naval Battle of Actium (31 BCE).\"",
+          "url": "https://www.livius.org/articles/battle/actium-31-bce/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Battle of Actium.\"",
+          "url": "https://www.worldhistory.org/Battle_of_Actium/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Cleopatra.\"",
+          "url": "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "2 September 31 BCE, in the Ionian Sea off western Greece. Antony and Cleopatra escaped to Egypt.",
+        "es": "2 de septiembre de 31 a. e. c., en el mar Jónico frente a Grecia occidental. Antonio y Cleopatra escaparon a Egipto.",
+        "zh": "公元前31年9月2日，在希腊西部外海的爱奥尼亚海。安东尼和克利奥帕特拉逃回埃及。"
+      },
+      "place": {
+        "name": {
+          "en": "Actium",
+          "es": "Accio",
+          "zh": "亚克兴"
+        },
+        "lat": 38.9539,
+        "lon": 20.7659,
+        "pleiadesId": "530771"
+      }
+    },
+    {
+      "id": "rome-annexes-egypt",
+      "start": -29,
+      "type": "collapse",
+      "title": {
+        "en": "Cleopatra VII dies in Alexandria and Octavian makes Egypt a Roman province: the last pharaoh's kingdom ends",
+        "es": "Cleopatra VII muere en Alejandría y Octavio convierte Egipto en provincia romana: acaba el reino del último faraón",
+        "zh": "克利奥帕特拉七世在亚历山大城去世，屋大维将埃及变为罗马行省：末代法老的王国终结"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org. \"Alexandria.\"",
+          "url": "https://www.livius.org/articles/place/alexandria/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Cleopatra.\"",
+          "url": "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Cleopatra VII: The Last Great Pharaoh of Ancient Egypt.\"",
+          "url": "https://www.worldhistory.org/Cleopatra_VII/"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Ptolemaic Period.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/ptol/hd_ptol.htm"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "August 30 BCE. Egypt was governed for Rome by a prefect of equestrian rank, answerable to the emperor alone.",
+        "es": "Agosto de 30 a. e. c. Egipto fue gobernado para Roma por un prefecto de rango ecuestre, responsable solo ante el emperador.",
+        "zh": "公元前30年8月。此后埃及由骑士等级的总督代罗马治理，仅对皇帝负责。"
+      },
+      "place": {
+        "name": {
+          "en": "Alexandria",
+          "es": "Alejandría",
+          "zh": "亚历山大城"
+        },
+        "lat": 31.2014,
+        "lon": 29.9098,
+        "pleiadesId": "727070"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "unification-world",
+      "text": {
+        "en": "When Narmer united the Nile valley, the first Stonehenge, a ditch and bank ringed with bluestones, was being dug on Salisbury Plain, and the Sumerian city-states of Iraq were Egypt's only peers.",
+        "es": "Cuando Narmer unificó el valle del Nilo, en la llanura de Salisbury se excavaba el primer Stonehenge, un foso y un terraplén rodeados de piedras azules, y las ciudades-estado sumerias de Irak eran los únicos pares de Egipto.",
+        "zh": "纳尔迈统一尼罗河谷时，索尔兹伯里平原上正在挖掘最初的巨石阵——一圈壕沟和土垒，环绕着青石；伊拉克的苏美尔城邦是埃及仅有的同侪。"
+      },
+      "start": -3099,
+      "end": -2685,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Menes.\"",
+          "url": "https://www.britannica.com/biography/Menes"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Narmer.\"",
+          "url": "https://www.worldhistory.org/Narmer/"
+        },
+        {
+          "citation": "Parker Pearson, M. (2012). Stonehenge: Exploring the Greatest Stone Age Mystery. Simon & Schuster."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "pyramid-age-world",
+      "text": {
+        "en": "While Khufu's crews were stacking the Great Pyramid, the people of Caral in Peru were raising stepped platforms of their own without pottery or metal, and the sarsen trilithons went up at Stonehenge.",
+        "es": "Mientras las cuadrillas de Keops apilaban la Gran Pirámide, los habitantes de Caral, en Perú, levantaban sus propias plataformas escalonadas sin cerámica ni metal, y en Stonehenge se alzaban los trilitos de sarsen.",
+        "zh": "胡夫的工匠垒砌大金字塔时，秘鲁卡拉尔的人们也在没有陶器和金属的条件下修筑自己的阶梯平台，巨石阵的砂岩三石塔也在此时立起。"
+      },
+      "start": -2685,
+      "end": -2180,
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Old Kingdom (ca. 2649–2130 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/oking/hd_oking.htm"
+        },
+        {
+          "citation": "Shady Solís, Ruth (2006). \"America's First City?\" Springer."
+        },
+        {
+          "citation": "Haas, Jonathan, Creamer, Winifred & Ruiz, Alvaro (2004). \"Dating the Late Archaic occupation of the Norte Chico region in Peru.\" Nature 432: 1020–1023",
+          "url": "https://doi.org/10.1038/nature03146"
+        },
+        {
+          "citation": "Parker Pearson, M. (2012). Stonehenge: Exploring the Greatest Stone Age Mystery. Simon & Schuster."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "middle-kingdom-world",
+      "text": {
+        "en": "Middle Kingdom pharaohs were building Karnak and the Nubian forts while the first palaces rose at Knossos on Crete and the foundries of Erlitou cast China's earliest bronze vessels.",
+        "es": "Los faraones del Reino Medio construían Karnak y las fortalezas nubias mientras se alzaban los primeros palacios de Cnosos en Creta y las fundiciones de Erlitou fundían los primeros vasos de bronce de China.",
+        "zh": "中王国的法老修建卡纳克和努比亚要塞时，克里特岛的克诺索斯正建起最早的宫殿，二里头的作坊也铸出了中国最早的青铜礼器。"
+      },
+      "start": -2039,
+      "end": -1649,
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Middle Kingdom (ca. 2030–1650 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/mking/hd_mking.htm"
+        },
+        {
+          "citation": "Cadogan, G. (2011). \"The Minoan Palaces.\" In The Oxford Handbook of the Bronze Age Aegean, 106-117. Oxford University Press."
+        },
+        {
+          "citation": "Liu, Li & Xu, Hong (2007). \"Rethinking Erlitou: legend, history and Chinese archaeology.\" Antiquity 81(314): 886–901.",
+          "url": "https://doi.org/10.1017/S0003598X00095983"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "ramesses-shang",
+      "text": {
+        "en": "Ramesses II's 66-year reign overlapped the building of the Lion Gate at Mycenae and, in the Xia–Shang–Zhou Project's dates, Wu Ding of Shang, whose diviners at Anyang carved the earliest large body of Chinese writing onto oracle bones.",
+        "es": "El reinado de 66 años de Ramsés II coincidió con la construcción de la Puerta de los Leones de Micenas y, según las fechas del Proyecto Xia–Shang–Zhou, con Wu Ding de Shang, cuyos adivinos en Anyang grabaron en huesos oraculares el primer gran corpus de escritura china.",
+        "zh": "拉美西斯二世66年的统治期间，迈锡尼的狮子门建成；按夏商周断代工程的年代，商王武丁也与他同时——武丁在安阳的贞人把最早的大宗汉字刻在甲骨上。"
+      },
+      "start": -1278,
+      "end": -1212,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Ramses II.\"",
+          "url": "https://www.britannica.com/biography/Ramses-II-king-of-Egypt"
+        },
+        {
+          "citation": "Keightley, David N. (1999). \"The Shang: China's First Historical Dynasty.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 232–291. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.006"
+        },
+        {
+          "citation": "Mylonas, George E. (1966). Mycenae and the Mycenaean Age. Princeton University Press."
+        }
+      ],
+      "disputed": true
+    },
+    {
+      "id": "bronze-age-collapse",
+      "text": {
+        "en": "The raiders Ramesses III beat off the Delta shore were part of a wider collapse: within a few decades the Hittite empire vanished and nearly every Mycenaean palace burned, but Egypt came through.",
+        "es": "Los invasores que Ramsés III rechazó en la costa del Delta formaban parte de un colapso más amplio: en pocas décadas desapareció el imperio hitita y ardieron casi todos los palacios micénicos, pero Egipto sobrevivió.",
+        "zh": "拉美西斯三世在三角洲海岸击退的入侵者是一场更大规模崩溃的一部分：数十年内赫梯帝国消失，几乎所有迈锡尼宫殿被焚，而埃及挺了过来。"
+      },
+      "start": -1199,
+      "end": -1149,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Sea People.\"",
+          "url": "https://www.britannica.com/topic/Sea-People"
+        },
+        {
+          "citation": "Shelmerdine, C.W. (ed.) (2008). The Cambridge Companion to the Aegean Bronze Age. Cambridge University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "kushite-world",
+      "text": {
+        "en": "While Nubian kings ruled from Napata to the Delta, the Eastern Zhou court sat at Luoyang, and Rome was still a cluster of hut villages on its hills.",
+        "es": "Mientras los reyes nubios gobernaban desde Napata hasta el Delta, la corte de los Zhou orientales residía en Luoyang, y Roma era todavía un grupo de aldeas de cabañas sobre sus colinas.",
+        "zh": "努比亚诸王统治从纳帕塔到三角洲的土地时，东周王室居于洛邑，罗马还只是山丘上的一片茅屋村落。"
+      },
+      "start": -727,
+      "end": -663,
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Third Intermediate Period (ca. 1070–664 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/tipd/hd_tipd.htm"
+        },
+        {
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
+        },
+        {
+          "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
+          "url": "https://doi.org/10.4324/9780203821107"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "persian-province-world",
+      "text": {
+        "en": "Egypt spent the fifth century BCE as a Persian province, ruled by the same empire the Greeks stopped at Marathon in 490, while Rome had only just expelled its kings.",
+        "es": "Egipto pasó el siglo V a. e. c. como provincia persa, gobernado por el mismo imperio que los griegos frenaron en Maratón en 490, mientras Roma acababa de expulsar a sus reyes.",
+        "zh": "公元前5世纪的埃及是波斯行省，统治它的正是公元前490年被希腊人阻于马拉松的那个帝国；而罗马刚刚驱逐了自己的国王。"
+      },
+      "start": -524,
+      "end": -403,
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Late Period (ca. 664–332 B.C.).\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/lapd/hd_lapd.htm"
+        },
+        {
+          "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
+          "url": "https://doi.org/10.4324/9780203821107"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "ptolemies-world",
+      "text": {
+        "en": "The Ptolemies' Alexandria, with its lighthouse and library, grew into a city of hundreds of thousands while Qin's First Emperor unified China in 221 BCE and Rome fought Carthage.",
+        "es": "La Alejandría de los Ptolomeos, con su faro y su biblioteca, creció hasta ser una ciudad de cientos de miles de habitantes mientras el Primer Emperador de Qin unificaba China en 221 a. e. c. y Roma combatía a Cartago.",
+        "zh": "托勒密王朝的亚历山大城拥有灯塔和图书馆，人口增至数十万；与此同时秦始皇于公元前221年统一中国，罗马正与迦太基交战。"
+      },
+      "start": -304,
+      "end": -29,
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"Egypt in the Ptolemaic Period.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/hd/ptol/hd_ptol.htm"
+        },
+        {
+          "citation": "Livius.org. \"Alexandria.\"",
+          "url": "https://www.livius.org/articles/place/alexandria/"
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        },
+        {
+          "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
+          "url": "https://doi.org/10.4324/9780203821107"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "cleopatra-world",
+      "text": {
+        "en": "Cleopatra's Egypt fell to Rome in the same decades that Teotihuacan began as a shrine on the Mexican plateau and Han China ruled from Chang'an.",
+        "es": "El Egipto de Cleopatra cayó ante Roma en las mismas décadas en que Teotihuacán nacía como santuario en la meseta mexicana y la China Han gobernaba desde Chang'an.",
+        "zh": "克利奥帕特拉的埃及落入罗马之手的那几十年里，特奥蒂瓦坎正作为圣地在墨西哥高原兴起，汉朝则以长安为都统治中国。"
+      },
+      "start": -50,
+      "end": -29,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Cleopatra.\"",
+          "url": "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt"
+        },
+        {
+          "citation": "Cowgill, George L. (2015). Ancient Teotihuacan. Cambridge University Press."
+        },
+        {
+          "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

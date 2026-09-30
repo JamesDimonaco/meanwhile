@@ -40,5 +40,6 @@
   "rome": ["IT"],
   "vikings": ["DK", "NO", "SE"],
   "carolingian-empire": ["FR", "DE"],
-  "holy-roman-empire": ["DE", "AT"]
+  "holy-roman-empire": ["DE", "AT"],
+  "egypt": ["EG"]
 }

@@ -209,6 +209,11 @@
       "id": "holy-roman-empire",
       "region": "europe",
       "label": "Holy Roman Empire"
+    },
+    {
+      "id": "egypt",
+      "region": "africa",
+      "label": "Ancient Egypt: one culture, phases early-dynastic / old-kingdom / first-intermediate / middle-kingdom / second-intermediate / new-kingdom / third-intermediate / late-period / ptolemaic"
     }
   ]
 }
