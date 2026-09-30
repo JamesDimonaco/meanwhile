@@ -108,7 +108,7 @@ export function EventSpine({
                 {row.cells.map((event, side) =>
                   event ? (
                     <EventCard
-                      key={event.id}
+                      key={`${side}:${event.id}`}
                       event={event}
                       side={side}
                       column={sideCol(side)}
