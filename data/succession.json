@@ -220,8 +220,17 @@
       {
         "citation": "Wikipedia. \"Zhongyuan.\"",
         "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      },
+      {
+        "citation": "Wikipedia. \"Jin dynasty (1115–1234).\"",
+        "url": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115%E2%80%931234)"
       }
-    ]
+    ],
+    "note": {
+      "en": "The Song lost the Central Plains to the Jurchen Jin in 1127 CE; the Mongols took them from the Jin in 1234 and conquered the Southern Song in 1279.",
+      "es": "Los Song perdieron las Llanuras Centrales ante los Jin yurchen en 1127 e. c.; los mongoles se las arrebataron a los Jin en 1234 y conquistaron a los Song del Sur en 1279.",
+      "zh": "公元1127年，宋朝失去中原，由女真人建立的金朝统治；1234年蒙古灭金、夺取中原，1279年又灭南宋。"
+    }
   },
   {
     "from": "yuan",
@@ -262,44 +271,6 @@
     ]
   },
   {
-    "from": "chavin",
-    "to": "moche",
-    "place": {
-      "en": "the central Andes",
-      "es": "los Andes centrales",
-      "zh": "安第斯山脉中部"
-    },
-    "sources": [
-      {
-        "citation": "Wikipedia. \"Chavín culture.\"",
-        "url": "https://en.wikipedia.org/wiki/Chav%C3%ADn_culture"
-      },
-      {
-        "citation": "Wikipedia. \"Andean civilizations.\"",
-        "url": "https://en.wikipedia.org/wiki/Andean_civilizations"
-      }
-    ]
-  },
-  {
-    "from": "chavin",
-    "to": "nazca",
-    "place": {
-      "en": "the central Andes",
-      "es": "los Andes centrales",
-      "zh": "安第斯山脉中部"
-    },
-    "sources": [
-      {
-        "citation": "Wikipedia. \"Chavín culture.\"",
-        "url": "https://en.wikipedia.org/wiki/Chav%C3%ADn_culture"
-      },
-      {
-        "citation": "Wikipedia. \"Andean civilizations.\"",
-        "url": "https://en.wikipedia.org/wiki/Andean_civilizations"
-      }
-    ]
-  },
-  {
     "from": "paracas",
     "to": "nazca",
     "place": {
@@ -322,9 +293,9 @@
     "from": "nazca",
     "to": "wari",
     "place": {
-      "en": "the central Andes",
-      "es": "los Andes centrales",
-      "zh": "安第斯山脉中部"
+      "en": "the south coast of Peru",
+      "es": "la costa sur del Perú",
+      "zh": "秘鲁南部海岸"
     },
     "sources": [
       {
@@ -352,8 +323,8 @@
     },
     "sources": [
       {
-        "citation": "Wikipedia. \"Chimú culture.\"",
-        "url": "https://en.wikipedia.org/wiki/Chim%C3%BA_culture"
+        "citation": "Wikipedia. \"Chimor.\"",
+        "url": "https://en.wikipedia.org/wiki/Chimor"
       },
       {
         "citation": "Wikipedia. \"Andean civilizations.\"",
@@ -380,8 +351,8 @@
     },
     "sources": [
       {
-        "citation": "Wikipedia. \"Chimú culture.\"",
-        "url": "https://en.wikipedia.org/wiki/Chim%C3%BA_culture"
+        "citation": "Wikipedia. \"Chimor.\"",
+        "url": "https://en.wikipedia.org/wiki/Chimor"
       },
       {
         "citation": "Wikipedia. \"Andean civilizations.\"",
@@ -427,8 +398,8 @@
         "url": "https://en.wikipedia.org/wiki/Inca_Empire"
       },
       {
-        "citation": "Wikipedia. \"Aymara kingdoms.\"",
-        "url": "https://en.wikipedia.org/wiki/Aymara_kingdoms"
+        "citation": "Wikipedia. \"Aymara lordships.\"",
+        "url": "https://en.wikipedia.org/wiki/Aymara_lordships"
       }
     ],
     "note": {
@@ -532,9 +503,9 @@
       }
     ],
     "note": {
-      "en": "The Greek Dark Ages, about 1100 to 750 BCE, came in between.",
-      "es": "Entre ambas estuvo la Edad Oscura griega, hacia 1100–750 a. e. c.",
-      "zh": "两者之间是希腊黑暗时代（约公元前1100年至前750年）。"
+      "en": "The Greek Dark Ages, about 1180 to 800 BCE, came in between.",
+      "es": "Entre ambas estuvo la Edad Oscura griega, hacia 1180–800 a. e. c.",
+      "zh": "两者之间是希腊黑暗时代（约公元前1180年至前800年）。"
     }
   },
   {
@@ -550,7 +521,12 @@
         "citation": "Wikipedia. \"Greece in the Roman era.\"",
         "url": "https://en.wikipedia.org/wiki/Greece_in_the_Roman_era"
       }
-    ]
+    ],
+    "note": {
+      "en": "Rome took mainland Greece in 146 BCE, when it defeated Corinth.",
+      "es": "Roma tomó la Grecia continental en 146 a. e. c., al derrotar a Corinto.",
+      "zh": "公元前146年，罗马击败科林斯，控制了希腊本土。"
+    }
   },
   {
     "from": "etruscan",
@@ -605,7 +581,12 @@
         "citation": "Wikipedia. \"Prehistoric Britain.\"",
         "url": "https://en.wikipedia.org/wiki/Prehistoric_Britain"
       }
-    ]
+    ],
+    "note": {
+      "en": "The Roman conquest of Britain began in 43 CE.",
+      "es": "La conquista romana de Britania comenzó en 43 e. c.",
+      "zh": "罗马于公元43年开始征服不列颠。"
+    }
   },
   {
     "from": "rome",
