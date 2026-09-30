@@ -12,14 +12,14 @@
     "wikidata": {
       "name": "Wikidata",
       "licence": "CC0",
-      "used": "Civilisation names in many languages, and identifiers linking to further reading.",
+      "used": "Civilisation names in many languages, identifiers linking to further reading, and coordinates for map pins where Pleiades has no entry.",
       "changes": "Names are copied as published; some are additionally machine-translated where Wikidata has no entry in a language yet."
     },
     "cliopatria": {
       "name": "Cliopatria",
       "licence": "CC BY 4.0",
-      "used": "Historical border polygons for the Rome territory map.",
-      "changes": "Polygons are simplified for a small, fast map and republished under the same licence with attribution. Published separately from, and under a different licence to, Seshat's own dataset (see below)."
+      "used": "Historical border polygons for the territory maps of Rome, the Carolingian Empire and the Holy Roman Empire.",
+      "changes": "Polygons are simplified for a small, fast map, their BCE years are converted to the numbering used here, and they are republished under the same licence with attribution. What was changed for each map is listed in the works cited below. Published separately from, and under a different licence to, Seshat's own dataset (see below)."
     },
     "pleiades": {
       "name": "Pleiades",
@@ -30,8 +30,8 @@
     "naturalEarth": {
       "name": "Natural Earth",
       "licence": "Public domain",
-      "used": "The coastlines and land shapes under the Rome territory map.",
-      "changes": "The 1:50m land layer is clipped to the Mediterranean and simplified."
+      "used": "The coastlines and land shapes under the territory maps.",
+      "changes": "The 1:50m land layer is clipped to Europe, the Mediterranean and the Near East, and simplified."
     },
     "fonts": {
       "name": "Inter and Noto Sans SC",

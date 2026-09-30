@@ -10,27 +10,30 @@ import type { Borders, Geometry, Place } from "@/lib/data/schema";
 import { forD3, snapshotAt } from "./geo";
 import { MapFrame, MAP_HEIGHT, MAP_WIDTH } from "./map-frame";
 
-type GeoData = { land: Geometry; borders: Borders[] };
+type GeoData = { land: Geometry; borders: Borders };
 
-let geoData: Promise<GeoData> | undefined;
+const cache = new Map<string, Promise<unknown>>();
 
-async function fetchJson(url: string): Promise<unknown> {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${url}: ${res.status}`);
-  return res.json();
+// Cached per URL for the session; a failed fetch is dropped so a remount retries.
+function fetchJson(url: string): Promise<unknown> {
+  let request = cache.get(url);
+  if (!request) {
+    request = fetch(url).then((res) => {
+      if (!res.ok) throw new Error(`${url}: ${res.status}`);
+      return res.json();
+    });
+    request.catch(() => cache.delete(url));
+    cache.set(url, request);
+  }
+  return request;
 }
 
 // Both files are written by us: land.json is a prepared Natural Earth
-// MultiPolygon, and borders.json is served from data/borders, which
+// MultiPolygon, and the borders file is served from data/borders, which
 // validate-data checks against the schema at build time.
-function loadGeoData(): Promise<GeoData> {
-  geoData ??= Promise.all([fetchJson("/geo/land.json"), fetchJson("/geo/borders.json")]).then(
-    ([land, borders]) => ({ land: land as Geometry, borders: borders as Borders[] }),
-  );
-  geoData.catch(() => {
-    geoData = undefined;
-  });
-  return geoData;
+async function loadGeoData(cultureId: string): Promise<GeoData> {
+  const [land, borders] = await Promise.all([fetchJson("/geo/land.json"), fetchJson(`/geo/borders/${cultureId}.json`)]);
+  return { land: land as Geometry, borders: borders as Borders };
 }
 
 type Props = { cultureId: string; year: number; pin: Place | null };
@@ -42,20 +45,18 @@ export function TerritoryMap({ cultureId, year, pin }: Props) {
 
   useEffect(() => {
     let live = true;
-    loadGeoData().then(
+    loadGeoData(cultureId).then(
       (d) => live && setData(d),
       () => live && setData("error"),
     );
     return () => {
       live = false;
     };
-  }, []);
+  }, [cultureId]);
 
   if (data === "error") return <MapFrame>{t("unavailable")}</MapFrame>;
   if (!data) return <MapFrame>{t("loading")}</MapFrame>;
-  const borders = data.borders.find((b) => b.cultureId === cultureId);
-  if (!borders) return <MapFrame>{t("unavailable")}</MapFrame>;
-  return <MapSvg land={data.land} borders={borders} year={year} pin={pin} />;
+  return <MapSvg land={data.land} borders={data.borders} year={year} pin={pin} />;
 }
 
 function MapSvg({ land, borders, year, pin }: { land: Geometry; borders: Borders; year: number; pin: Place | null }) {
@@ -70,7 +71,7 @@ function MapSvg({ land, borders, year, pin }: { land: Geometry; borders: Borders
     const everywhere = { type: "GeometryCollection" as const, geometries: own };
     const [[west, south], [east, north]] = geoBounds(everywhere);
     // Equal-area, centred on everywhere the culture ever held, so sizes compare
-    // fairly across the Mediterranean and the frame never moves between years.
+    // fairly and the frame never moves between years.
     const projection = geoAzimuthalEqualArea()
       .rotate([-(west + east) / 2, -(south + north) / 2])
       .fitExtent(
