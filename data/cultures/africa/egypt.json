@@ -49,7 +49,7 @@
     {
       "id": "pharaonic",
       "earliestStart": -3149,
-      "latestStart": -2899,
+      "latestStart": -3099,
       "earliestEnd": -29,
       "latestEnd": -29,
       "sources": [
@@ -109,9 +109,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Egyptian dates before 664 BCE come from king-lists and astronomy, and references disagree by up to two centuries at the start: the unification is put at c. 3150 (World History Encyclopedia), 3100 (UCL), 2950 (UCLA Encyclopedia of Egyptology) or 2900 BCE (Britannica's low chronology). The Old Kingdom begins in 2686 (UCL), 2670 (UEE), 2649 (Metropolitan Museum) or 2543 (Britannica). The phase boundaries here follow the UCL and Metropolitan Museum schemes used by most museum labels; each phase links the UEE's PeriodO definition. The end, Cleopatra's death in 30 BCE, is certain.",
-        "es": "Las fechas egipcias anteriores al 664 a. e. c. proceden de listas reales y de la astronomía, y las referencias discrepan hasta en dos siglos al principio: la unificación se sitúa hacia 3150 (World History Encyclopedia), 3100 (UCL), 2950 (UCLA Encyclopedia of Egyptology) o 2900 a. e. c. (cronología baja de Britannica). El Reino Antiguo empieza en 2686 (UCL), 2670 (UEE), 2649 (Museo Metropolitano) o 2543 (Britannica). Los límites de fase siguen aquí los esquemas de UCL y del Museo Metropolitano, los más usados en las cartelas de los museos; cada fase enlaza la definición de PeriodO de la UEE. El final, la muerte de Cleopatra en el 30 a. e. c., es seguro.",
-        "zh": "公元前664年以前的埃及年代来自王表和天文推算，各参考文献在开端处相差可达两个世纪：统一的年代被定在约公元前3150年（世界历史百科）、3100年（伦敦大学学院）、2950年（UCLA埃及学百科）或2900年（大英百科的低年代学）。古王国的开始分别为公元前2686年（UCL）、2670年（UEE）、2649年（大都会博物馆）或2543年（大英百科）。这里的分期界线采用UCL和大都会博物馆的方案，也是多数博物馆说明牌所用的方案；每个分期都链接了UEE在PeriodO中的定义。终点——克利奥帕特拉于公元前30年去世——是确定的。"
+        "en": "Egyptian dates before 664 BCE come from king-lists and astronomy, and references disagree by up to two centuries at the start: the unification is put at c. 3150 (World History Encyclopedia), 3100 (UCL), 2950 (UCLA Encyclopedia of Egyptology) or 2900 BCE (Britannica's low chronology). The Old Kingdom begins in 2686 (UCL), 2670 (UEE), 2649 (Metropolitan Museum) or 2543 (Britannica). The bar starts at the conventional 3100 BCE and fades back to 3150; the phase boundaries follow the UCL and Metropolitan Museum schemes used by most museum labels; each phase links the UEE's PeriodO definition. The end, Cleopatra's death in 30 BCE, is certain.",
+        "es": "Las fechas egipcias anteriores al 664 a. e. c. proceden de listas reales y de la astronomía, y las referencias discrepan hasta en dos siglos al principio: la unificación se sitúa hacia 3150 (World History Encyclopedia), 3100 (UCL), 2950 (UCLA Encyclopedia of Egyptology) o 2900 a. e. c. (cronología baja de Britannica). El Reino Antiguo empieza en 2686 (UCL), 2670 (UEE), 2649 (Museo Metropolitano) o 2543 (Britannica). La barra empieza en el convencional 3100 a. e. c. y se difumina hasta 3150; los límites de fase siguen los esquemas de UCL y del Museo Metropolitano, los más usados en las cartelas de los museos; cada fase enlaza la definición de PeriodO de la UEE. El final, la muerte de Cleopatra en el 30 a. e. c., es seguro.",
+        "zh": "公元前664年以前的埃及年代来自王表和天文推算，各参考文献在开端处相差可达两个世纪：统一的年代被定在约公元前3150年（世界历史百科）、3100年（伦敦大学学院）、2950年（UCLA埃及学百科）或2900年（大英百科的低年代学）。古王国的开始分别为公元前2686年（UCL）、2670年（UEE）、2649年（大都会博物馆）或2543年（大英百科）。时间条从传统的公元前3100年开始，并向前渐隐至3150年；分期界线采用UCL和大都会博物馆的方案，也是多数博物馆说明牌所用的方案；每个分期都链接了UEE在PeriodO中的定义。终点——克利奥帕特拉于公元前30年去世——是确定的。"
       }
     }
   ],
