@@ -159,7 +159,7 @@ function EventCard({
         onClick={onSelect}
         className="block w-full rounded-b-lg px-2.5 pt-0.5 pb-2 text-start text-sm leading-snug font-medium hover:bg-muted/60 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none"
       >
-        <span className="line-clamp-3">{localize(event.title, locale)}</span>
+        {localize(event.title, locale)}
       </button>
     </div>
   );
