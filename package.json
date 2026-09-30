@@ -12,7 +12,8 @@
     "validate-data": "tsx scripts/validate-data.ts",
     "subset-cjk-font": "tsx scripts/subset-cjk-font.ts",
     "subset-latin-font": "tsx scripts/subset-latin-font.ts",
-    "generate-icons": "tsx scripts/generate-icons.tsx"
+    "generate-icons": "tsx scripts/generate-icons.tsx",
+    "sync-flags": "tsx scripts/sync-flags.ts"
   },
   "dependencies": {
     "@base-ui/react": "1.8.0",
