@@ -28,13 +28,15 @@ type Snapshot = {
   clip?: boolean;
 };
 
+type RowAt = { name: string; year: number };
+
 type CultureConfig = {
   /** Who the self polities are, for the credits line. */
   subject: string;
   simplify: string;
   snapshots: Snapshot[];
   /** Where the culture's lands can be, for polities that only partly belonged to it. */
-  mask?: { name: string; year: number; keep: string[]; erase: string[] };
+  mask?: { name: string; keep: RowAt[]; erase: RowAt[] };
   /** What else was changed, for the credits line. */
   changes?: string;
 };
@@ -63,6 +65,7 @@ const HRE_MEMBERS = [
   "Swedish Empire",
   "Denmark-Norway",
   "Kingdom of Great Britain",
+  "Kingdom of Hanover",
 ];
 
 const CULTURES: Record<string, CultureConfig> = {
@@ -106,29 +109,37 @@ const CULTURES: Record<string, CultureConfig> = {
       { year: 814, self: ["Kingdom of the Franks"], rivals: ["Emirate of Córdoba", "Papal States", "Duchy of Benevento", "Byzantine Empire", "First Bulgarian Empire", "Great Moravia", "Obotrites", "Kingdom of Asturias", "Kingdom of Wessex"] },
       { year: 843, dataYear: 850, self: ["West Franks", "Middle Franks", "East Franks"], rivals: ["Emirate of Córdoba", "Papal States", "Duchy of Benevento", "Byzantine Empire", "First Bulgarian Empire", "Great Moravia", "Obotrites", "Kingdom of Brittany", "Kingdom of Asturias", "Kingdom of Wessex"] },
       { year: 870, self: ["West Franks", "East Franks"], rivals: ["Emirate of Córdoba", "Papal States", "Duchy of Benevento", "Byzantine Empire", "First Bulgarian Empire", "Great Moravia", "Kingdom of Brittany", "Kingdom of Asturias", "Kingdom of Wessex"] },
-      { year: 888, self: ["West Franks", "East Franks", "Upper Burgundy"], rivals: ["Kingdom of Italy", "Lower Burgundy", "Emirate of Córdoba", "Papal States", "Byzantine Empire", "Great Moravia", "Kingdom of Brittany", "Danelaw", "Kingdom of Wessex"] },
     ],
   },
   "holy-roman-empire": {
     subject: "the Holy Roman Empire",
     simplify: "15%",
     // Cliopatria's 1450s rows fold Habsburg Hungary into the empire; the 1430s ones don't.
-    mask: { name: HRE, year: 1435, keep: [HRE], erase: ["Teutonic Order"] },
+    // By 1435 it files Brabant and the Free County under Burgundy and France, so they come from earlier rows.
+    mask: {
+      name: HRE,
+      keep: [
+        { name: HRE, year: 1435 },
+        { name: "County of Brabant", year: 1430 },
+        { name: "Free County of Burgundy", year: 1384 },
+      ],
+      erase: [{ name: "Teutonic Order", year: 1435 }],
+    },
     changes:
-      "From 1273 on, the empire is drawn as the union of the Cliopatria polities that were imperial estates, clipped to the empire's 1435 extent in Cliopatria less the Teutonic Order's Prussia, because from 1459 Cliopatria files only the small imperial states under the empire's name.",
+      "From 1273 on, the empire is drawn as the union of the Cliopatria polities that were imperial estates, clipped to the empire's 1435 extent in Cliopatria plus Brabant and the Free County of Burgundy and less the Teutonic Order's Prussia, because from 1459 Cliopatria files only the small imperial states under the empire's name. The 1805 map uses Cliopatria's 1804 rows, because its 1805 France takes in Hanover and part of Hesse east of the Rhine; in both years Cliopatria leaves Cologne, Koblenz and (in 1804) Mainz, French since 1801, inside the empire.",
     snapshots: [
-      { year: 955, self: [HRE], rivals: ["West Franks", "Upper Burgundy", "Kingdom of Italy", "Kingdom of Denmark", "Principality of Hungary", "Duchy of Bohemia", "Byzantine Empire", "Caliphate of Córdoba", "Papal States", "Kingdom of England"] },
-      { year: 962, self: [HRE], rivals: ["West Franks", "Kingdom of Denmark", "Kingdom of Poland", "Principality of Hungary", "Duchy of Bohemia", "Byzantine Empire", "Caliphate of Córdoba", "Papal States", "Kingdom of England"] },
-      { year: 1077, self: [HRE], rivals: ["Kingdom of France", "Kingdom of Denmark", "Kingdom of Poland", "Kingdom of Hungary", "Kingdom of Croatia", "Republic of Venice", "Papal States", "Norman Italy", "Byzantine Empire", "Norman England", "Kingdom of Castile", "Kingdom of Aragon"] },
-      { year: 1176, self: [HRE], rivals: ["Kingdom of France", "Kingdom of Denmark", "(Duchies of Poland)", "Kingdom of Hungary", "Republic of Venice", "Papal States", "Kingdom of Sicily", "Byzantine Empire", "Kingdom of Castile", "Crown of Aragon"] },
-      { year: 1273, clip: true, self: [HRE], rivals: ["Kingdom of France", "Kingdom of England", "Kingdom of Denmark", "Kingdom of Sweden", "Teutonic Order", "(Duchies of Poland)", "Grand Duchy of Lithuania", "Kingdom of Hungary", "Republic of Venice", "Papal States", "House of Anjou-Sicily", "Crown of Aragon", "Crown of Castile"] },
+      { year: 955, self: [HRE], rivals: ["West Franks", "Upper Burgundy", "Kingdom of Arles", "Kingdom of Italy", "Kingdom of Denmark", "Principality of Hungary", "Byzantine Empire", "Caliphate of Córdoba", "Papal States", "Kingdom of England"] },
+      { year: 962, self: [HRE], rivals: ["West Franks", "Kingdom of Arles", "Kingdom of Denmark", "Kingdom of Poland", "Principality of Hungary", "Byzantine Empire", "Caliphate of Córdoba", "Papal States", "Kingdom of England"] },
+      { year: 1077, self: [HRE], rivals: ["(Kingdom of France)", "Kingdom of Denmark", "Kingdom of Poland", "Kingdom of Hungary", "Kingdom of Croatia", "Republic of Venice", "Papal States", "Norman Italy", "Byzantine Empire", "Norman England", "Kingdom of Castile", "Kingdom of Aragon"] },
+      { year: 1176, self: [HRE], rivals: ["(Kingdom of France)", "Angevin Empire", "Kingdom of Denmark", "(Duchies of Poland)", "Kingdom of Hungary", "Republic of Venice", "Papal States", "Kingdom of Sicily", "Byzantine Empire", "Kingdom of Castile", "Crown of Aragon"] },
+      { year: 1273, clip: true, self: [HRE], rivals: ["Kingdom of France", "Kingdom of England", "Kingdom of Denmark", "Kingdom of Sweden", "Teutonic Order", "(Duchies of Poland)", "Grand Duchy of Lithuania", "Kingdom of Hungary", "Republic of Venice", "Papal States", "Kingdom of Sicily", "Crown of Aragon", "Crown of Castile"] },
       { year: 1356, clip: true, self: [HRE], rivals: ["Kingdom of France", "Kingdom of England", "Kingdom of Denmark", "Kingdom of Sweden", "Teutonic Order", "Kingdom of Poland", "Grand Duchy of Lithuania", "Kingdom of Hungary", "Serbian Empire", "Republic of Venice", "Papal States", "Kingdom of Naples", "Crown of Aragon", "Crown of Castile"] },
       { year: 1415, clip: true, self: [HRE], rivals: ["Kingdom of France", "Kingdom of England", "Kalmar Union", "Teutonic Order", "Kingdom of Poland", "Grand Duchy of Lithuania", "Kingdom of Hungary", "Ottoman Empire", "Republic of Venice", "Papal States"] },
-      { year: 1521, clip: true, self: HRE_MEMBERS, rivals: ["Kingdom of France", "Kingdom of Spain", "Kingdom of England", "Kalmar Union", "Teutonic Order", "Kingdom of Hungary", "Ottoman Empire", "Swiss Confederation", "Republic of Venice", "Papal States"] },
-      { year: 1555, clip: true, self: HRE_MEMBERS, rivals: ["Kingdom of France", "Kingdom of Spain", "Kingdom of England", "Denmark-Norway", "Kingdom of Sweden", "Duchy of Prussia", "Eastern Hungarian Kingdom", "Ottoman Empire", "Swiss Confederation", "Republic of Venice", "Papal States"] },
-      { year: 1648, clip: true, self: HRE_MEMBERS, rivals: ["Kingdom of France", "Kingdom of Spain", "Kingdom of England", "Dutch Republic", "Denmark-Norway", "Swedish Empire", "Polish-Lithuanian Commonwealth", "Habsburg Monarchy", "Ottoman Empire", "Swiss Confederation", "Republic of Venice", "Papal States"] },
+      { year: 1521, clip: true, self: HRE_MEMBERS, rivals: ["Kingdom of France", "Kingdom of Spain", "Kingdom of England", "Kalmar Union", "Teutonic Order", "House of Jagiellon", "Kingdom of Hungary", "Ottoman Empire", "Swiss Confederation", "Republic of Venice", "Papal States"] },
+      { year: 1555, clip: true, self: HRE_MEMBERS, rivals: ["Kingdom of France", "Kingdom of Spain", "Kingdom of England", "Denmark-Norway", "Kingdom of Sweden", "Duchy of Prussia", "House of Jagiellon", "Eastern Hungarian Kingdom", "Ottoman Empire", "Swiss Confederation", "Republic of Venice", "Papal States"] },
+      { year: 1648, clip: true, self: HRE_MEMBERS, rivals: ["Kingdom of France", "Kingdom of Spain", "Commonwealth of England", "Dutch Republic", "Denmark-Norway", "Swedish Empire", "Polish-Lithuanian Commonwealth", "Habsburg Monarchy", "Ottoman Empire", "Swiss Confederation", "Republic of Venice", "Papal States"] },
       { year: 1683, clip: true, self: HRE_MEMBERS, rivals: ["Kingdom of France", "Kingdom of Spain", "Dutch Republic", "Denmark-Norway", "Swedish Empire", "Polish-Lithuanian Commonwealth", "Habsburg Monarchy", "Ottoman Empire", "Swiss Confederation", "Republic of Venice"] },
-      { year: 1805, clip: true, self: HRE_MEMBERS, rivals: ["First French Empire", "Batavian Republic", "Helvetic Republic", "Italian Republic", "Denmark-Norway", "Swedish Empire", "Kingdom of Prussia", "Habsburg Monarchy", "Russian Empire", "Ottoman Empire"] },
+      { year: 1805, dataYear: 1804, clip: true, self: HRE_MEMBERS, rivals: ["French Consulate", "Batavian Republic", "Helvetic Republic", "Italian Republic", "Denmark-Norway", "Swedish Empire", "Kingdom of Prussia", "Habsburg Monarchy", "Russian Empire", "Ottoman Empire"] },
     ],
   },
 };
@@ -194,19 +205,21 @@ const LABELS: Record<string, Label> = {
   "West Franks": ["West Francia", "Francia Occidental", "西法兰克王国"],
   "Middle Franks": ["Middle Francia", "Francia Media", "中法兰克王国"],
   "East Franks": ["East Francia", "Francia Oriental", "东法兰克王国"],
-  "Upper Burgundy": ["Upper Burgundy", "Alta Borgoña", "上勃艮第"],
-  "Lower Burgundy": ["Lower Burgundy", "Baja Borgoña", "下勃艮第"],
-  Danelaw: ["Danelaw", "Danelaw", "丹麦区"],
+  // Cliopatria's "Upper Burgundy" of the 940s-950s is the duchy around Dijon.
+  "Upper Burgundy": ["Duchy of Burgundy", "Ducado de Borgoña", "勃艮第公国"],
   // Holy Roman Empire and its neighbours
   [HRE]: ["Holy Roman Empire", "Sacro Imperio Romano Germánico", "神圣罗马帝国"],
   "Kingdom of Denmark": ["Denmark", "Dinamarca", "丹麦王国"],
   "Principality of Hungary": ["Hungarians", "Húngaros", "匈牙利公国"],
-  "Duchy of Bohemia": ["Bohemia", "Bohemia", "波希米亚公国"],
+  "Kingdom of Arles": ["Burgundy", "Borgoña", "勃艮第王国"],
   "Caliphate of Córdoba": ["Caliphate of Córdoba", "Califato de Córdoba", "科尔多瓦哈里发国"],
   "Kingdom of England": ["England", "Inglaterra", "英格兰王国"],
+  "Commonwealth of England": ["England", "Inglaterra", "英格兰"],
+  "Angevin Empire": ["Angevin Empire", "Imperio angevino", "安茹帝国"],
   "Kingdom of Poland": ["Poland", "Polonia", "波兰王国"],
   "(Duchies of Poland)": ["Poland", "Polonia", "波兰"],
   "Kingdom of France": ["France", "Francia", "法兰西王国"],
+  "(Kingdom of France)": ["France", "Francia", "法兰西王国"],
   "Kingdom of Croatia": ["Croatia", "Croacia", "克罗地亚王国"],
   "Republic of Venice": ["Venice", "Venecia", "威尼斯共和国"],
   "Norman Italy": ["Norman Italy", "Italia normanda", "诺曼意大利"],
@@ -218,7 +231,6 @@ const LABELS: Record<string, Label> = {
   "Kingdom of Sweden": ["Sweden", "Suecia", "瑞典王国"],
   "Teutonic Order": ["Teutonic Order", "Orden Teutónica", "条顿骑士团"],
   "Grand Duchy of Lithuania": ["Lithuania", "Lituania", "立陶宛大公国"],
-  "House of Anjou-Sicily": ["Angevin Naples and Sicily", "Nápoles y Sicilia angevinas", "安茹王朝那不勒斯与西西里"],
   "Kingdom of Naples": ["Naples", "Nápoles", "那不勒斯王国"],
   "Kalmar Union": ["Kalmar Union", "Unión de Kalmar", "卡尔马联盟"],
   "Kingdom of Spain": ["Spain", "España", "西班牙"],
@@ -229,11 +241,14 @@ const LABELS: Record<string, Label> = {
   "Dutch Republic": ["Dutch Republic", "República de los Países Bajos", "荷兰共和国"],
   "Swedish Empire": ["Sweden", "Suecia", "瑞典帝国"],
   "Polish-Lithuanian Commonwealth": ["Poland-Lithuania", "Polonia-Lituania", "波兰立陶宛联邦"],
+  "House of Jagiellon": ["Poland-Lithuania", "Polonia-Lituania", "波兰立陶宛"],
   "Habsburg Monarchy": ["Habsburg lands", "Tierras de los Habsburgo", "哈布斯堡领地"],
-  "First French Empire": ["French Empire", "Imperio francés", "法兰西第一帝国"],
+  // Cliopatria keeps the Consulate name through 1804; Napoleon was crowned emperor that December.
+  "French Consulate": ["French Empire", "Imperio francés", "法兰西第一帝国"],
   "Batavian Republic": ["Batavian Republic", "República Bátava", "巴达维亚共和国"],
-  "Helvetic Republic": ["Helvetic Republic", "República Helvética", "赫尔维蒂共和国"],
-  "Italian Republic": ["Italian Republic", "República Italiana", "意大利共和国"],
+  // Cliopatria's names for these end later than the states did: the Swiss Confederation was restored in 1803, the Kingdom of Italy proclaimed in March 1805.
+  "Helvetic Republic": ["Switzerland", "Suiza", "瑞士"],
+  "Italian Republic": ["Kingdom of Italy", "Reino de Italia", "意大利王国"],
   "Kingdom of Prussia": ["Prussia", "Prusia", "普鲁士王国"],
   "Russian Empire": ["Russian Empire", "Imperio ruso", "俄罗斯帝国"],
 };
@@ -318,9 +333,9 @@ function build(cultureId: string, config: CultureConfig, rows: ClioRow[], work: 
 
   const mask = path.join(work, `${cultureId}-mask.geojson`);
   if (config.mask) {
-    const { year, keep, erase } = config.mask;
-    writeFeatures(`${mask}-keep.geojson`, pick(keep, year, "self"));
-    writeFeatures(`${mask}-erase.geojson`, pick(erase, year, "self"));
+    const pickAll = (at: RowAt[]) => at.flatMap(({ name, year }) => pick([name], year, "self"));
+    writeFeatures(`${mask}-keep.geojson`, pickAll(config.mask.keep));
+    writeFeatures(`${mask}-erase.geojson`, pickAll(config.mask.erase));
     mapshaper(`${mask}-keep.geojson`, "-dissolve", "-erase", `${mask}-erase.geojson`, "-o", mask, "force");
   }
 
