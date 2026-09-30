@@ -149,9 +149,11 @@ const CULTURES: Record<string, CultureConfig> = {
   qin: {
     subject: "the state and empire of Qin",
     simplify: "25%",
-    changes: "The 221 BCE map uses Cliopatria's 218 BCE rows, because its rows for 222-219 BCE still show Qi unconquered.",
+    changes:
+      "The 221 BCE map uses Cliopatria's 218 BCE rows, because its rows for 222-219 BCE still show Qi unconquered. The 214 BCE map uses its 212 BCE rows, the first to include the Ordos frontier Meng Tian took in 215-214 BCE.",
     snapshots: [
       { year: -220, dataYear: -217, self: ["Qin", "Qin Dynasty"], rivals: ["Yuezhi", "Minyue", "Âu Lạc"] },
+      { year: -213, dataYear: -211, self: ["Qin Dynasty"], rivals: ["Yuezhi", "Minyue", "Âu Lạc"] },
       { year: -209, self: ["Qin", "Qin Dynasty"], rivals: ["Yuezhi", "Minyue", "Âu Lạc"] },
     ],
   },
@@ -159,7 +161,7 @@ const CULTURES: Record<string, CultureConfig> = {
     subject: "the Han and Xin dynasties",
     simplify: "20%",
     changes:
-      "The 25 CE map uses Cliopatria's 30 CE rows, because its Xin rows run to 29 CE. Cliopatria's 'Han dynasty' of 215-223 CE is the part of the realm outside Cao Cao's and Sun Quan's control.",
+      "The 25 CE map uses Cliopatria's 30 CE rows, because its Xin rows run to 29 CE. The 184 CE map runs to the abdication in 220: Cliopatria's rows from 215 CE give the name 'Han dynasty' only to Liu Bei's lands, which would leave the Han court in Cao Cao's.",
     snapshots: [
       { year: -201, self: ["Han Dynasty"], rivals: ["Xiongnu", "Nanyue", "Minyue", "Yuezhi"] },
       { year: -125, self: ["Han Dynasty"], rivals: ["Xiongnu", "Nanyue", "Minyue", "Gojoseon", "Yuezhi"] },
@@ -167,17 +169,18 @@ const CULTURES: Record<string, CultureConfig> = {
       { year: 25, dataYear: 30, self: ["Han Dynasty"], rivals: ["Xiongnu", "Goguryeo"] },
       { year: 105, self: ["Han Dynasty"], rivals: ["Xiongnu", "Xianbei", "Kushan Empire", "Goguryeo"] },
       { year: 184, self: ["Han Dynasty"], rivals: ["Xianbei", "Kushan Empire", "Goguryeo"] },
-      { year: 220, self: ["Han Dynasty"], rivals: ["Cao Cao", "Eastern Wu", "Xianbei", "Goguryeo"] },
     ],
   },
   tang: {
     subject: "the Tang dynasty",
     simplify: "20%",
+    changes:
+      "The 868 map leaves out Cliopatria's Qocho kingdom, because it gives Qocho Dunhuang, which the Guiyi Circuit held for the Tang from 851.",
     snapshots: [
       { year: 626, self: ["Tang Dynasty"], rivals: ["Eastern Göktürks", "Western Göktürks", "Tuyuhun", "Goguryeo", "Tibetan Empire"] },
       { year: 690, self: ["Tang Dynasty"], rivals: ["Tibetan Empire", "Turks", "Unified Silla"] },
       { year: 763, self: ["Tang Dynasty"], rivals: ["Tibetan Empire", "Uyghur Khaganate", "Nanzhao", "Balhae", "Unified Silla"] },
-      { year: 868, self: ["Tang Dynasty"], rivals: ["Tibetans", "Nanzhao", "Balhae", "Unified Silla", "Qocho Kingdom", "Ganzhou Kingdom"] },
+      { year: 868, self: ["Tang Dynasty"], rivals: ["Tibetans", "Nanzhao", "Balhae", "Unified Silla", "Ganzhou Kingdom"] },
     ],
   },
   song: {
@@ -213,14 +216,14 @@ const CULTURES: Record<string, CultureConfig> = {
     simplify: "20%",
     relabel: { "Golden Horde": "Golden Horde (Mongolia)" },
     changes:
-      "The 1368 map uses Cliopatria's 1375 rows, because it draws no Ming until then. From 1582 Cliopatria files the Mongol lands north of China under the Golden Horde's name; they are labelled Mongols here.",
+      "The 1368 map uses Cliopatria's 1375 rows, because it draws no Ming until then. From 1582 Cliopatria files the Mongol lands north of China under the Golden Horde's name; they are labelled Mongols here. The 1662 map uses Cliopatria's 1658 rows, its last with the Southern Ming in Yunnan; from 1662 it gives that name to the Zheng state on Taiwan.",
     snapshots: [
       { year: 1368, dataYear: 1375, self: ["Ming Dynasty"], rivals: ["Northern Yuan", "Goryeo", "Tibet", "Chagatai Khanate", "Ngô Dynasty"] },
       { year: 1420, self: ["Ming Dynasty"], rivals: ["Northern Yuan", "Four Oirats", "Joseon", "Tibet", "Chagatai Khanate", "Timurid Empire", "Ashikaga Shogunate"] },
       { year: 1433, self: ["Ming Dynasty"], rivals: ["Northern Yuan", "Four Oirats", "Joseon", "Tibet", "Chagatai Khanate", "Timurid Empire", "Lê Dynasty", "Ashikaga Shogunate"] },
       { year: 1598, self: ["Ming Dynasty"], rivals: ["Joseon", "Warring States Japan", "Golden Horde", "Mongol Khanate", "Tümed", "Tibet", "First Toungoo Empire"] },
       { year: 1644, self: ["Ming Dynasty"], rivals: ["Later Jin Dynasty", "Li Zicheng", "Joseon", "Golden Horde", "Tümed", "Tibet", "First Toungoo Empire"] },
-      { year: 1662, self: ["Southern Ming"], rivals: ["Qing Dynasty", "Joseon", "Tokugawa Shogunate", "Tibet", "First Toungoo Empire"] },
+      { year: 1662, dataYear: 1658, self: ["Southern Ming"], rivals: ["Qing Dynasty", "Joseon", "Tokugawa Shogunate", "Tibet", "First Toungoo Empire"] },
     ],
   },
   qing: {
@@ -229,14 +232,14 @@ const CULTURES: Record<string, CultureConfig> = {
     relabel: { "Golden Horde": "Golden Horde (Mongolia)" },
     extent: [40, -5, 170, 75],
     changes:
-      "Cliopatria calls the Qing state Later Jin until 1644. The 1644 map uses its 1645 rows, the first after the fall of Beijing. From 1582 Cliopatria files the Mongol lands north of China under the Golden Horde's name; they are labelled Mongols here. Polities reaching far beyond East Asia are cut at 40°E and 170°E.",
+      "Cliopatria calls the Qing state Later Jin until 1644. The 1644 map uses its 1645 rows, the first after the fall of Beijing. From 1582 Cliopatria files the Mongol lands north of China under the Golden Horde's name; they are labelled Mongols here. Polities reaching far beyond East Asia are cut at 40°E and 170°E. Cliopatria keeps Tibet separate until 1793, so the 1722 map leaves it unfilled rather than outside the Qing protectorate set up in 1720. The 1864 map leaves Yunnan and the Sichuan basin unfilled: Cliopatria's 1859-1867 row gives them all to the Panthay Rebellion, which held western Yunnan, and cuts them out of the Qing.",
     snapshots: [
       { year: 1636, self: ["Later Jin Dynasty"], rivals: ["Ming Dynasty", "Joseon", "Golden Horde", "Tsardom of Russia", "Tibet"] },
       { year: 1644, dataYear: 1645, self: ["Qing Dynasty"], rivals: ["Southern Ming", "Joseon", "Golden Horde", "Tsardom of Russia", "Tibet", "Oirat Confederation", "Tokugawa Shogunate"] },
       { year: 1683, self: ["Qing Dynasty"], rivals: ["Tsardom of Russia", "Dzungar Khanate", "Golden Horde", "Joseon", "Tokugawa Shogunate", "Tibet", "Mughal Empire"] },
-      { year: 1722, self: ["Qing Dynasty"], rivals: ["Russian Empire", "Dzungar Khanate", "Kazakh Khanate", "Tibet", "Mughal Empire", "Joseon", "Tokugawa Shogunate", "First Toungoo Empire"] },
+      { year: 1722, self: ["Qing Dynasty"], rivals: ["Russian Empire", "Dzungar Khanate", "Kazakh Khanate", "Mughal Empire", "Joseon", "Tokugawa Shogunate", "First Toungoo Empire"] },
       { year: 1842, self: ["Qing Dynasty"], rivals: ["Russian Empire", "British Empire", "Kazakh Khanate", "Joseon", "Tokugawa Shogunate", "Nguyễn dynasty", "Burma", "Rattanakosin Kingdom"] },
-      { year: 1864, self: ["Qing Dynasty"], rivals: ["Taiping Heavenly Kingdom", "Panthay Rebellion", "Russian Empire", "British Raj", "Joseon", "Tokugawa Shogunate", "Burma", "Nguyễn dynasty"] },
+      { year: 1864, self: ["Qing Dynasty"], rivals: ["Taiping Heavenly Kingdom", "Russian Empire", "British Raj", "Joseon", "Tokugawa Shogunate", "Burma", "Nguyễn dynasty"] },
       { year: 1911, self: ["Qing Dynasty"], rivals: ["Russian Empire", "Empire of Japan", "British Raj", "French Indochina", "Rattanakosin Kingdom"] },
     ],
   },
@@ -259,7 +262,7 @@ const CULTURES: Record<string, CultureConfig> = {
     subject: "the Aztec Triple Alliance",
     simplify: "25%",
     changes:
-      "The 1428 map uses Cliopatria's 1440 rows, because its Tenochtitlan (1326-1428) and Triple Alliance (1429-1439) polygons lie 20-40 km off the island city; there is no map before 1428 for the same reason.",
+      "The 1428 map uses Cliopatria's 1440 rows, because its Tenochtitlan (1326-1428) and Triple Alliance (1429-1439) polygons lie 20-40 km off the island city; there is no map before 1428 for the same reason. The 1440 polygon still misses Azcapotzalco, the alliance's first conquest, by about 20 km.",
     // Cliopatria's Maya city-states reach this map's frame only from 1450.
     snapshots: [
       { year: 1428, dataYear: 1440, self: ["Aztec Triple Alliance"], rivals: ["Michoacán"] },
@@ -390,8 +393,6 @@ const LABELS: Record<string, Label> = {
   Goguryeo: ["Goguryeo", "Goguryeo", "高句丽"],
   Xianbei: ["Xianbei", "Xianbei", "鲜卑"],
   "Kushan Empire": ["Kushan Empire", "Imperio kushán", "贵霜帝国"],
-  "Cao Cao": ["Wei", "Wei", "曹魏"],
-  "Eastern Wu": ["Wu", "Wu", "孙吴"],
   "Tang Dynasty": ["Tang dynasty", "Dinastía Tang", "唐朝"],
   "Eastern Göktürks": ["Eastern Turkic Khaganate", "Kanato túrquico oriental", "东突厥"],
   "Western Göktürks": ["Western Turkic Khaganate", "Kanato túrquico occidental", "西突厥"],
@@ -403,7 +404,6 @@ const LABELS: Record<string, Label> = {
   Nanzhao: ["Nanzhao", "Nanzhao", "南诏"],
   Balhae: ["Balhae", "Balhae", "渤海国"],
   Tibetans: ["Tibetan states", "Estados tibetanos", "吐蕃诸部"],
-  "Qocho Kingdom": ["Qocho", "Qocho", "高昌回鹘"],
   "Ganzhou Kingdom": ["Ganzhou Uyghurs", "Uigures de Ganzhou", "甘州回鹘"],
   "Northern Song": ["Song", "Song", "宋"],
   // Cliopatria files the Song under this name from 1028, a century before the south was all it had.
@@ -462,7 +462,6 @@ const LABELS: Record<string, Label> = {
   Burma: ["Burma", "Birmania", "缅甸"],
   "Rattanakosin Kingdom": ["Siam", "Siam", "暹罗"],
   "Taiping Heavenly Kingdom": ["Taiping Heavenly Kingdom", "Reino Celestial Taiping", "太平天国"],
-  "Panthay Rebellion": ["Panthay Rebellion", "Rebelión Panthay", "云南回民起义"],
   "French Indochina": ["French Indochina", "Indochina francesa", "法属印度支那"],
   // The Andes and Mesoamerica
   Cuzco: ["Kingdom of Cusco", "Reino del Cuzco", "库斯科王国"],
