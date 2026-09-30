@@ -7,7 +7,7 @@ import { localize } from "@/lib/data/localize";
 import { toSearchEntry } from "@/components/search/search-index";
 import { YearRangeText } from "@/components/settings/year-text";
 import { RecordsStrip } from "@/components/context/records-strip";
-import { toCultureRef } from "@/lib/data/queries";
+import { defaultPeriod } from "@/lib/data/queries";
 import { RECORD_KINDS, recordHolder } from "@/lib/data/records";
 
 /** Home: one search box, popular starting points underneath. Owned by ui-core. */
@@ -18,8 +18,8 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const cultures = loadCultures();
   const entries = cultures.map(toSearchEntry);
   const popular = loadPopular().map(toSearchEntry);
-  const refs = cultures.map(toCultureRef);
-  const records = RECORD_KINDS.map((kind) => ({ kind, culture: recordHolder(kind, refs) }));
+  const dated = cultures.map((c) => ({ id: c.id, name: c.name, period: defaultPeriod(c) }));
+  const records = RECORD_KINDS.map((kind) => ({ kind, holder: recordHolder(kind, dated) }));
 
   return (
     <div className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-6">

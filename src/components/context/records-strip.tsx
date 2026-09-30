@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/locales";
 import { localize } from "@/lib/data/localize";
-import type { CultureRef } from "@/lib/data/queries";
+import type { LocalizedText, Period } from "@/lib/data/schema";
 import { likelySpan, type RecordKind } from "@/lib/data/records";
 import { roundYearsAgo } from "@/lib/years";
 import { YearText } from "@/components/settings/year-text";
@@ -13,7 +13,7 @@ export async function RecordsStrip({
   holders,
   locale,
 }: {
-  holders: { kind: RecordKind; culture: CultureRef }[];
+  holders: { kind: RecordKind; holder: { id: string; name: LocalizedText; period: Period } }[];
   locale: Locale;
 }) {
   const t = await getTranslations({ locale, namespace: "context" });
@@ -22,13 +22,13 @@ export async function RecordsStrip({
     <section className="flex flex-col gap-3">
       <h2 className="text-sm font-medium text-muted-foreground">{t("records")}</h2>
       <ul className="flex flex-col gap-2 text-sm">
-        {holders.map(({ kind, culture }) => {
-          const span = likelySpan(culture.period);
+        {holders.map(({ kind, holder }) => {
+          const span = likelySpan(holder.period);
           return (
             <li key={kind} className="flex flex-wrap items-baseline gap-x-1.5 gap-y-1">
               <span className="text-muted-foreground">{t(kind)}</span>
-              <Link href={`/c/${culture.id}`} className="font-medium underline-offset-2 hover:underline">
-                {localize(culture.name, locale)}
+              <Link href={`/c/${holder.id}`} className="font-medium underline-offset-2 hover:underline">
+                {localize(holder.name, locale)}
               </Link>
               <span className="text-muted-foreground">
                 {kind === "longest" ? (
@@ -37,8 +37,8 @@ export async function RecordsStrip({
                   t.rich("began", { year: () => <YearText year={Math.round(span.start)} /> })
                 )}
               </span>
-              {culture.period.disputed && (
-                <DisputedBadge note={culture.period.note && localize(culture.period.note, locale)} />
+              {holder.period.disputed && (
+                <DisputedBadge note={holder.period.note && localize(holder.period.note, locale)} />
               )}
             </li>
           );
