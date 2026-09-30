@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
-import { hasTerritoryMap, loadBorders, loadCultures } from "@/lib/data/load";
+import { hasTerritoryMap, loadBorders, loadCultures, loadSuccession } from "@/lib/data/load";
 import type { Source } from "@/lib/data/schema";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/credits">): Promise<Metadata> {
@@ -20,6 +20,7 @@ function worksCited(): Source[] {
     for (const item of [...c.periods, ...c.phases, ...c.events, ...c.facts]) add(item.sources);
     if (hasTerritoryMap(c.id)) add(loadBorders(c.id).sources);
   }
+  for (const link of loadSuccession()) add(link.sources);
   return [...byCitation.values()].sort((a, b) => a.citation.localeCompare(b.citation, "en"));
 }
 

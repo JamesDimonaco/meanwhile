@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { Borders, Culture } from "./schema";
+import type { Borders, Culture, SuccessionLink } from "./schema";
 import { validateDataset, type DataFile, type DatasetResult } from "./validate";
 
 // Build-time only (fs). Pages call these in server components; client
@@ -29,6 +29,7 @@ export function readDataset(): DatasetResult {
     cultureFiles: readJsonFiles(path.join(DATA_DIR, "cultures")),
     borderFiles: readJsonFiles(path.join(DATA_DIR, "borders")),
     popular: JSON.parse(fs.readFileSync(path.join(DATA_DIR, "popular.json"), "utf8")) as unknown,
+    succession: JSON.parse(fs.readFileSync(path.join(DATA_DIR, "succession.json"), "utf8")) as unknown,
   });
 }
 
@@ -59,6 +60,10 @@ export function loadCulture(id: string): Culture {
   const culture = dataset().cultures.find((c) => c.id === id);
   if (!culture) throw new Error(`No culture "${id}"`);
   return culture;
+}
+
+export function loadSuccession(): SuccessionLink[] {
+  return dataset().succession;
 }
 
 export function hasTerritoryMap(id: string): boolean {

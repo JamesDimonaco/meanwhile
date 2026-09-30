@@ -7,6 +7,7 @@ import {
   type NativeName,
   type Period,
   type Region,
+  type SuccessionLink,
 } from "./schema";
 
 export const MIN_MEANWHILE_CARDS = 4;
@@ -70,7 +71,7 @@ export function toCultureRef(culture: CultureCore): CultureRef {
 const outer = (p: PeriodSpan): Range => [p.earliestStart, p.latestEnd];
 const core = (p: PeriodSpan): Range => [p.latestStart, p.earliestEnd];
 /** Midpoints of the fuzzy edges: the best single guess at start and end. */
-const likely = (p: PeriodSpan): Range => [(p.earliestStart + p.latestStart) / 2, (p.earliestEnd + p.latestEnd) / 2];
+export const likelyRange = (p: PeriodSpan): Range => [(p.earliestStart + p.latestStart) / 2, (p.earliestEnd + p.latestEnd) / 2];
 
 const overlap = (a: Range, b: Range) => Math.min(a[1], b[1]) - Math.max(a[0], b[0]);
 const contains = (r: Range, year: number) => r[0] <= year && year <= r[1];
@@ -85,7 +86,7 @@ export function activeAt(cultures: readonly CultureCore[], year: number): Active
   return cultures
     .map((c) => ({ c, p: defaultPeriod(c) }))
     .filter(({ p }) => contains(outer(p), year))
-    .map(({ c, p }) => ({ ref: toCultureRef(c), certain: contains(core(p), year), start: likely(p)[0] }))
+    .map(({ c, p }) => ({ ref: toCultureRef(c), certain: contains(core(p), year), start: likelyRange(p)[0] }))
     .sort(
       (a, b) =>
         Number(b.certain) - Number(a.certain) ||
@@ -112,7 +113,7 @@ export function meanwhile(anchor: Culture, cultures: readonly Culture[]): Meanwh
   for (const c of cultures) {
     if (c.id === anchor.id) continue;
     const p = defaultPeriod(c);
-    const likelyOverlap = overlap(likely(anchorPeriod), likely(p));
+    const likelyOverlap = overlap(likelyRange(anchorPeriod), likelyRange(p));
     if (likelyOverlap > 0) primary.push({ culture: c, score: likelyOverlap });
     else if (overlap(outer(anchorPeriod), outer(p)) >= 0) {
       fuzzy.push({ culture: c, score: overlap(outer(anchorPeriod), outer(p)) });
@@ -189,4 +190,29 @@ export function eventWorld(culture: Culture, cultures: readonly Culture[]): Even
   return Object.fromEntries(
     culture.events.map((e) => [e.id, activeAt(cultures, e.start).filter((a) => a.culture.id !== culture.id)]),
   );
+}
+
+/** One place's line in the "Before and after" strip: culture ids, in data order. */
+export type SuccessionGroup = {
+  place: SuccessionLink["place"];
+  before: string[];
+  after: string[];
+  notes: LocalizedText[];
+};
+
+/** What came before and after a culture, grouped by place (keyed on the English name). */
+export function successionFor(id: string, links: readonly SuccessionLink[]): SuccessionGroup[] {
+  const groups = new Map<string, SuccessionGroup>();
+  for (const link of links) {
+    if (link.from !== id && link.to !== id) continue;
+    let group = groups.get(link.place.en);
+    if (!group) {
+      group = { place: link.place, before: [], after: [], notes: [] };
+      groups.set(link.place.en, group);
+    }
+    if (link.to === id) group.before.push(link.from);
+    else group.after.push(link.to);
+    if (link.note) group.notes.push(link.note);
+  }
+  return [...groups.values()];
 }

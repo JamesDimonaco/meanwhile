@@ -173,6 +173,21 @@ export const Borders = z
     }
   });
 
+/**
+ * "Y came after X in this place": place is a real area (the Valley of Mexico,
+ * Britain), never a whole region. All three languages required: it is shown as is.
+ */
+export const SuccessionLink = z
+  .strictObject({
+    from: Id,
+    to: Id,
+    place: z.strictObject({ en: Text, es: Text, zh: Text }),
+    sources: z.array(Source).min(1),
+    note: LocalizedText.optional(),
+  })
+  .refine((l) => l.from !== l.to, { message: "a culture cannot follow itself" });
+export const Succession = z.array(SuccessionLink);
+
 export const RegistryEntry = z.strictObject({
   id: Id,
   region: Region,
@@ -197,6 +212,7 @@ export type Culture = z.infer<typeof Culture>;
 export type Geometry = z.infer<typeof Geometry>;
 export type BorderPolity = z.infer<typeof BorderPolity>;
 export type Borders = z.infer<typeof Borders>;
+export type SuccessionLink = z.infer<typeof SuccessionLink>;
 export type RegistryEntry = z.infer<typeof RegistryEntry>;
 export type Registry = z.infer<typeof Registry>;
 

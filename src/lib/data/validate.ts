@@ -1,8 +1,16 @@
 import type { z } from "zod";
-import { Borders, Culture, Popular, Registry, duplicates } from "./schema";
+import { defaultPeriod, likelyRange } from "./queries";
+import { Borders, Culture, Popular, Registry, Succession, duplicates, type SuccessionLink } from "./schema";
 
 export type DataFile = { path: string; data: unknown };
-export type DatasetInput = { registry: unknown; cultureFiles: DataFile[]; borderFiles: DataFile[]; popular: unknown };
+export type DatasetInput = {
+  registry: unknown;
+  cultureFiles: DataFile[];
+  borderFiles: DataFile[];
+  popular: unknown;
+  /** Contents of data/succession.json; omitted means no links. */
+  succession?: unknown;
+};
 export type DatasetResult = {
   errors: string[];
   warnings: string[];
@@ -10,6 +18,7 @@ export type DatasetResult = {
   borders: Borders[];
   /** Home page starting points, in data/popular.json order. */
   popular: Culture[];
+  succession: SuccessionLink[];
 };
 
 function issues(path: string, error: z.ZodError): string[] {
@@ -23,7 +32,7 @@ export function validateDataset(input: DatasetInput): DatasetResult {
 
   const registry = Registry.safeParse(input.registry);
   if (!registry.success) {
-    return { errors: issues("data/registry.json", registry.error), warnings, cultures: [], borders: [], popular: [] };
+    return { errors: issues("data/registry.json", registry.error), warnings, cultures: [], borders: [], popular: [], succession: [] };
   }
   const regions = new Map(registry.data.cultures.map((c) => [c.id, c.region]));
   for (const dup of duplicates(registry.data.cultures.map((c) => c.id))) {
@@ -86,8 +95,25 @@ export function validateDataset(input: DatasetInput): DatasetResult {
     }
   }
 
+  const SUCCESSION_PATH = "data/succession.json";
+  const parsedSuccession = Succession.safeParse(input.succession ?? []);
+  const succession = parsedSuccession.success ? parsedSuccession.data : [];
+  if (!parsedSuccession.success) errors.push(...issues(SUCCESSION_PATH, parsedSuccession.error));
+  const byId = new Map(cultures.map((c) => [c.id, c]));
+  for (const dup of duplicates(succession.map((l) => `${l.from} -> ${l.to}`))) {
+    errors.push(`${SUCCESSION_PATH}: duplicate link ${dup}`);
+  }
+  for (const link of succession) {
+    for (const id of [link.from, link.to]) if (!regions.has(id)) errors.push(notRegistered(SUCCESSION_PATH, id));
+    const from = byId.get(link.from);
+    const to = byId.get(link.to);
+    if (from && to && likelyRange(defaultPeriod(to))[0] < likelyRange(defaultPeriod(from))[0]) {
+      errors.push(`${SUCCESSION_PATH}: ${link.from} -> ${link.to}: "${link.to}" starts before "${link.from}"`);
+    }
+  }
+
   cultures.sort((a, b) => (a.id < b.id ? -1 : 1));
-  return { errors, warnings, cultures, borders, popular };
+  return { errors, warnings, cultures, borders, popular, succession };
 }
 
 /** Counts LocalizedText objects (anything with a string "en") lacking a locale. */

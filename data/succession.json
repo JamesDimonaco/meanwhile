@@ -1,0 +1,638 @@
+[
+  {
+    "from": "erlitou",
+    "to": "shang",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Erlitou culture.\"",
+        "url": "https://en.wikipedia.org/wiki/Erlitou_culture"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ],
+    "note": {
+      "en": "Many Chinese archaeologists identify Erlitou with the Xia dynasty of later texts; no writing has been found there to prove it.",
+      "es": "Muchos arqueólogos chinos identifican Erlitou con la dinastía Xia de los textos posteriores; allí no se ha hallado escritura que lo demuestre.",
+      "zh": "许多中国考古学者将二里头与后世文献中的夏朝相对应，但当地尚未发现能证明这一点的文字。"
+    }
+  },
+  {
+    "from": "shang",
+    "to": "western-zhou",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ]
+  },
+  {
+    "from": "western-zhou",
+    "to": "spring-and-autumn",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ]
+  },
+  {
+    "from": "spring-and-autumn",
+    "to": "warring-states",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ]
+  },
+  {
+    "from": "warring-states",
+    "to": "qin",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ]
+  },
+  {
+    "from": "qin",
+    "to": "han",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ]
+  },
+  {
+    "from": "han",
+    "to": "three-kingdoms",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ]
+  },
+  {
+    "from": "three-kingdoms",
+    "to": "sui",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ],
+    "note": {
+      "en": "The Jin dynasty and the Northern and Southern dynasties came in between, 266 to 589 CE.",
+      "es": "Entre ambos estuvieron la dinastía Jin y las dinastías del Norte y del Sur, de 266 a 589 e. c.",
+      "zh": "两者之间是晋朝和南北朝（公元266年至589年）。"
+    }
+  },
+  {
+    "from": "sui",
+    "to": "tang",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ]
+  },
+  {
+    "from": "tang",
+    "to": "song",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ],
+    "note": {
+      "en": "The Five Dynasties and Ten Kingdoms came in between, from 907 CE.",
+      "es": "Entre ambas estuvieron las Cinco Dinastías y los Diez Reinos, desde 907 e. c.",
+      "zh": "两者之间是五代十国时期（始于公元907年）。"
+    }
+  },
+  {
+    "from": "song",
+    "to": "yuan",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      },
+      {
+        "citation": "Wikipedia. \"Jin dynasty (1115–1234).\"",
+        "url": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115%E2%80%931234)"
+      }
+    ],
+    "note": {
+      "en": "The Song lost the Central Plains to the Jurchen Jin in 1127 CE; the Mongols took them from the Jin in 1234 and conquered the Southern Song in 1279.",
+      "es": "Los Song perdieron las Llanuras Centrales ante los Jin yurchen en 1127 e. c.; los mongoles se las arrebataron a los Jin en 1234 y conquistaron a los Song del Sur en 1279.",
+      "zh": "公元1127年，宋朝失去中原，由女真人建立的金朝统治；1234年蒙古灭金、夺取中原，1279年又灭南宋。"
+    }
+  },
+  {
+    "from": "yuan",
+    "to": "ming",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ]
+  },
+  {
+    "from": "ming",
+    "to": "qing",
+    "place": {
+      "en": "the Central Plains of China",
+      "es": "las Llanuras Centrales de China",
+      "zh": "中原"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Dynasties of China.\"",
+        "url": "https://en.wikipedia.org/wiki/Dynasties_of_China"
+      },
+      {
+        "citation": "Wikipedia. \"Zhongyuan.\"",
+        "url": "https://en.wikipedia.org/wiki/Zhongyuan"
+      }
+    ]
+  },
+  {
+    "from": "paracas",
+    "to": "nazca",
+    "place": {
+      "en": "the south coast of Peru",
+      "es": "la costa sur del Perú",
+      "zh": "秘鲁南部海岸"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Nazca culture.\"",
+        "url": "https://en.wikipedia.org/wiki/Nazca_culture"
+      },
+      {
+        "citation": "Wikipedia. \"Andean civilizations.\"",
+        "url": "https://en.wikipedia.org/wiki/Andean_civilizations"
+      }
+    ]
+  },
+  {
+    "from": "nazca",
+    "to": "wari",
+    "place": {
+      "en": "the south coast of Peru",
+      "es": "la costa sur del Perú",
+      "zh": "秘鲁南部海岸"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Nazca culture.\"",
+        "url": "https://en.wikipedia.org/wiki/Nazca_culture"
+      },
+      {
+        "citation": "Wikipedia. \"Wari culture.\"",
+        "url": "https://en.wikipedia.org/wiki/Wari_culture"
+      }
+    ],
+    "note": {
+      "en": "Power shifted from the coast to the highlands as Wari rose, around 650 CE.",
+      "es": "El poder pasó de la costa a la sierra con el auge de Wari, hacia 650 e. c.",
+      "zh": "约公元650年瓦里兴起，权力中心从沿海转向高原。"
+    }
+  },
+  {
+    "from": "moche",
+    "to": "chimu",
+    "place": {
+      "en": "the north coast of Peru",
+      "es": "la costa norte del Perú",
+      "zh": "秘鲁北部海岸"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Chimor.\"",
+        "url": "https://en.wikipedia.org/wiki/Chimor"
+      },
+      {
+        "citation": "Wikipedia. \"Andean civilizations.\"",
+        "url": "https://en.wikipedia.org/wiki/Andean_civilizations"
+      },
+      {
+        "citation": "Wikipedia. \"Sican culture.\"",
+        "url": "https://en.wikipedia.org/wiki/Sican_culture"
+      }
+    ],
+    "note": {
+      "en": "The Lambayeque (Sicán) culture also rose on this coast as the Moche faded; the Chimú later conquered it.",
+      "es": "La cultura Lambayeque (Sicán) también surgió en esta costa al declinar los moche; los chimú la conquistaron después.",
+      "zh": "莫切衰落时，兰巴耶克（西坎）文化也在这一海岸兴起，后被奇穆征服。"
+    }
+  },
+  {
+    "from": "chimu",
+    "to": "inca",
+    "place": {
+      "en": "the north coast of Peru",
+      "es": "la costa norte del Perú",
+      "zh": "秘鲁北部海岸"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Chimor.\"",
+        "url": "https://en.wikipedia.org/wiki/Chimor"
+      },
+      {
+        "citation": "Wikipedia. \"Andean civilizations.\"",
+        "url": "https://en.wikipedia.org/wiki/Andean_civilizations"
+      }
+    ]
+  },
+  {
+    "from": "wari",
+    "to": "inca",
+    "place": {
+      "en": "the Cusco region",
+      "es": "la región del Cusco",
+      "zh": "库斯科地区"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Wari culture.\"",
+        "url": "https://en.wikipedia.org/wiki/Wari_culture"
+      },
+      {
+        "citation": "Wikipedia. \"Inca Empire.\"",
+        "url": "https://en.wikipedia.org/wiki/Inca_Empire"
+      }
+    ],
+    "note": {
+      "en": "Wari held the Cusco area for about 400 years; the Inca rose there some centuries after Wari faded.",
+      "es": "Wari dominó la zona del Cusco unos 400 años; los incas surgieron allí algunos siglos después del declive de Wari.",
+      "zh": "瓦里控制库斯科一带约400年；瓦里衰落数百年后，印加在此兴起。"
+    }
+  },
+  {
+    "from": "tiwanaku",
+    "to": "inca",
+    "place": {
+      "en": "the Lake Titicaca basin",
+      "es": "la cuenca del lago Titicaca",
+      "zh": "的的喀喀湖盆地"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Inca Empire.\"",
+        "url": "https://en.wikipedia.org/wiki/Inca_Empire"
+      },
+      {
+        "citation": "Wikipedia. \"Aymara lordships.\"",
+        "url": "https://en.wikipedia.org/wiki/Aymara_lordships"
+      }
+    ],
+    "note": {
+      "en": "Tiwanaku collapsed around 1000 CE; local Aymara kingdoms held the lake until the Inca took it in the 1400s.",
+      "es": "Tiwanaku colapsó hacia 1000 e. c.; reinos aimaras locales dominaron el lago hasta que los incas lo tomaron en el siglo XV.",
+      "zh": "蒂瓦纳库约在公元1000年崩溃；此后当地艾马拉王国控制湖区，直到15世纪被印加征服。"
+    }
+  },
+  {
+    "from": "teotihuacan",
+    "to": "toltec",
+    "place": {
+      "en": "central Mexico",
+      "es": "el centro de México",
+      "zh": "墨西哥中部"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Toltec.\"",
+        "url": "https://en.wikipedia.org/wiki/Toltec"
+      }
+    ],
+    "note": {
+      "en": "After Teotihuacan declined, the Coyotlatelco culture held the region before Tula rose.",
+      "es": "Tras el declive de Teotihuacan, la cultura Coyotlatelco dominó la región antes del auge de Tula.",
+      "zh": "特奥蒂瓦坎衰落后，图拉兴起之前，这一地区属于科约特拉特尔科文化。"
+    }
+  },
+  {
+    "from": "toltec",
+    "to": "aztec",
+    "place": {
+      "en": "central Mexico",
+      "es": "el centro de México",
+      "zh": "墨西哥中部"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Toltec.\"",
+        "url": "https://en.wikipedia.org/wiki/Toltec"
+      }
+    ],
+    "note": {
+      "en": "The Aztecs saw the Toltecs as their cultural ancestors; how much of the Aztec story of Tula is history is debated.",
+      "es": "Los aztecas veían a los toltecas como sus antepasados culturales; se debate cuánto del relato azteca sobre Tula es historia.",
+      "zh": "阿兹特克人视托尔特克人为自己的文化祖先；阿兹特克人关于图拉的记述有多少属实，仍有争议。"
+    }
+  },
+  {
+    "from": "zapotec",
+    "to": "mixtec",
+    "place": {
+      "en": "the Valley of Oaxaca",
+      "es": "los Valles Centrales de Oaxaca",
+      "zh": "瓦哈卡谷地"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Monte Albán.\"",
+        "url": "https://en.wikipedia.org/wiki/Monte_Alb%C3%A1n"
+      }
+    ],
+    "note": {
+      "en": "Mixtec nobles were buried in a reused Zapotec tomb at Monte Albán, while Zapotec towns such as Mitla and Zaachila carried on.",
+      "es": "Nobles mixtecos fueron enterrados en una tumba zapoteca reutilizada en Monte Albán, mientras pueblos zapotecos como Mitla y Zaachila seguían activos.",
+      "zh": "米斯特克贵族葬于阿尔班山一座再利用的萨波特克墓中，而米特拉、萨奇拉等萨波特克城镇仍在延续。"
+    }
+  },
+  {
+    "from": "minoan",
+    "to": "mycenaean",
+    "place": {
+      "en": "the Aegean",
+      "es": "el Egeo",
+      "zh": "爱琴海地区"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Minoan civilization.\"",
+        "url": "https://en.wikipedia.org/wiki/Minoan_civilization"
+      }
+    ],
+    "note": {
+      "en": "From about 1450 BCE mainland Mycenaean Greeks dominated Crete; whether by conquest is debated.",
+      "es": "Desde hacia 1450 a. e. c. los griegos micénicos del continente dominaron Creta; se debate si fue por conquista.",
+      "zh": "约公元前1450年起，希腊本土的迈锡尼人控制了克里特岛；是否通过征服仍有争议。"
+    }
+  },
+  {
+    "from": "mycenaean",
+    "to": "ancient-greece",
+    "place": {
+      "en": "the Aegean",
+      "es": "el Egeo",
+      "zh": "爱琴海地区"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Greek Dark Ages.\"",
+        "url": "https://en.wikipedia.org/wiki/Greek_Dark_Ages"
+      }
+    ],
+    "note": {
+      "en": "The Greek Dark Ages, about 1180 to 800 BCE, came in between.",
+      "es": "Entre ambas estuvo la Edad Oscura griega, hacia 1180–800 a. e. c.",
+      "zh": "两者之间是希腊黑暗时代（约公元前1180年至前800年）。"
+    }
+  },
+  {
+    "from": "ancient-greece",
+    "to": "rome",
+    "place": {
+      "en": "the Aegean",
+      "es": "el Egeo",
+      "zh": "爱琴海地区"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Greece in the Roman era.\"",
+        "url": "https://en.wikipedia.org/wiki/Greece_in_the_Roman_era"
+      }
+    ],
+    "note": {
+      "en": "Rome took mainland Greece in 146 BCE, when it defeated Corinth.",
+      "es": "Roma tomó la Grecia continental en 146 a. e. c., al derrotar a Corinto.",
+      "zh": "公元前146年，罗马击败科林斯，控制了希腊本土。"
+    }
+  },
+  {
+    "from": "etruscan",
+    "to": "rome",
+    "place": {
+      "en": "central Italy",
+      "es": "el centro de Italia",
+      "zh": "意大利中部"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Etruscan civilization.\"",
+        "url": "https://en.wikipedia.org/wiki/Etruscan_civilization"
+      }
+    ],
+    "note": {
+      "en": "Rome and the Etruscan cities grew up side by side; Rome absorbed Etruria step by step, completing it in the 1st century BCE.",
+      "es": "Roma y las ciudades etruscas crecieron a la par; Roma absorbió Etruria poco a poco y la completó en el siglo I a. e. c.",
+      "zh": "罗马与伊特鲁里亚城邦并肩成长；罗马逐步吞并伊特鲁里亚，至公元前1世纪完成。"
+    }
+  },
+  {
+    "from": "neolithic-britain",
+    "to": "celtic-iron-age",
+    "place": {
+      "en": "Britain",
+      "es": "Britania",
+      "zh": "不列颠"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Prehistoric Britain.\"",
+        "url": "https://en.wikipedia.org/wiki/Prehistoric_Britain"
+      }
+    ],
+    "note": {
+      "en": "The Bronze Age, about 2200 to 750 BCE, came in between.",
+      "es": "Entre ambas estuvo la Edad del Bronce, hacia 2200–750 a. e. c.",
+      "zh": "两者之间是青铜时代（约公元前2200年至前750年）。"
+    }
+  },
+  {
+    "from": "celtic-iron-age",
+    "to": "rome",
+    "place": {
+      "en": "Britain",
+      "es": "Britania",
+      "zh": "不列颠"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Prehistoric Britain.\"",
+        "url": "https://en.wikipedia.org/wiki/Prehistoric_Britain"
+      }
+    ],
+    "note": {
+      "en": "The Roman conquest of Britain began in 43 CE.",
+      "es": "La conquista romana de Britania comenzó en 43 e. c.",
+      "zh": "罗马于公元43年开始征服不列颠。"
+    }
+  },
+  {
+    "from": "rome",
+    "to": "carolingian-empire",
+    "place": {
+      "en": "the Rhineland",
+      "es": "Renania",
+      "zh": "莱茵兰"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Rhineland.\"",
+        "url": "https://en.wikipedia.org/wiki/Rhineland"
+      },
+      {
+        "citation": "Wikipedia. \"Carolingian Empire.\"",
+        "url": "https://en.wikipedia.org/wiki/Carolingian_Empire"
+      }
+    ],
+    "note": {
+      "en": "Roman rule on the Rhine ended in the 5th century; the Frankish Merovingian kings ruled in between.",
+      "es": "El dominio romano en el Rin terminó en el siglo V; entre ambos gobernaron los reyes francos merovingios.",
+      "zh": "罗马对莱茵河地区的统治在5世纪结束；其间由法兰克的墨洛温王朝统治。"
+    }
+  },
+  {
+    "from": "carolingian-empire",
+    "to": "holy-roman-empire",
+    "place": {
+      "en": "the Rhineland",
+      "es": "Renania",
+      "zh": "莱茵兰"
+    },
+    "sources": [
+      {
+        "citation": "Wikipedia. \"Carolingian Empire.\"",
+        "url": "https://en.wikipedia.org/wiki/Carolingian_Empire"
+      },
+      {
+        "citation": "Wikipedia. \"Holy Roman Empire.\"",
+        "url": "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
+      },
+      {
+        "citation": "Wikipedia. \"Rhineland.\"",
+        "url": "https://en.wikipedia.org/wiki/Rhineland"
+      }
+    ]
+  }
+]
