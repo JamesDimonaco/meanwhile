@@ -13,14 +13,14 @@
     "wikidata": {
       "name": "Wikidata",
       "licence": "CC0",
-      "used": "Nombres de civilizaciones en varios idiomas, e identificadores que enlazan a más información.",
+      "used": "Nombres de civilizaciones en varios idiomas, identificadores que enlazan a más información, y coordenadas para los marcadores del mapa cuando Pleiades no tiene una entrada.",
       "changes": "Los nombres se copian tal como se publicaron; algunos además se traducen automáticamente cuando Wikidata aún no tiene una entrada en ese idioma."
     },
     "cliopatria": {
       "name": "Cliopatria",
       "licence": "CC BY 4.0",
-      "used": "Polígonos de fronteras históricas para el mapa de territorio de Roma.",
-      "changes": "Los polígonos se simplifican para un mapa pequeño y rápido, y se republican bajo la misma licencia con atribución. Se publica por separado, y bajo una licencia distinta, del propio conjunto de datos de Seshat (véase abajo)."
+      "used": "Polígonos de fronteras históricas para los mapas de territorio de Roma, el Imperio carolingio, el Sacro Imperio Romano Germánico, las dinastías Qin, Han, Tang, Song, Yuan, Ming y Qing, los incas y los aztecas.",
+      "changes": "Los polígonos se simplifican para un mapa pequeño y rápido, sus años a. e. c. se convierten a la numeración usada aquí, y se republican bajo la misma licencia con atribución. Los cambios hechos para cada mapa figuran en las obras citadas, más abajo. Se publica por separado, y bajo una licencia distinta, del propio conjunto de datos de Seshat (véase abajo)."
     },
     "pleiades": {
       "name": "Pleiades",
@@ -31,8 +31,8 @@
     "naturalEarth": {
       "name": "Natural Earth",
       "licence": "Dominio público",
-      "used": "Las costas y la forma de las tierras bajo el mapa de territorio de Roma.",
-      "changes": "La capa de tierras a escala 1:50m se recorta al Mediterráneo y se simplifica."
+      "used": "Las costas y la forma de las tierras bajo los mapas de territorio.",
+      "changes": "La capa de tierras a escala 1:50m se recorta a tres regiones (Europa, el Mediterráneo y Oriente Próximo; Asia oriental; las Américas) y se simplifica, para que cada mapa cargue solo su región."
     },
     "fonts": {
       "name": "Inter y Noto Sans SC",

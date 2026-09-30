@@ -64,7 +64,16 @@
         {
           "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Chang'an",
+          "es": "Chang'an",
+          "zh": "长安"
+        },
+        "lat": 34.3083,
+        "lon": 108.8583
+      }
     },
     {
       "id": "zhenguan-era",
@@ -83,7 +92,16 @@
         {
           "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Chang'an",
+          "es": "Chang'an",
+          "zh": "长安"
+        },
+        "lat": 34.3083,
+        "lon": 108.8583
+      }
     },
     {
       "id": "wu-zetian",
@@ -102,7 +120,16 @@
         {
           "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Luoyang",
+          "es": "Luoyang",
+          "zh": "洛阳"
+        },
+        "lat": 34.6587,
+        "lon": 112.4245
+      }
     },
     {
       "id": "an-lushan-rebellion",
@@ -122,7 +149,16 @@
         {
           "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Fanyang (Beijing)",
+          "es": "Fanyang (Pekín)",
+          "zh": "范阳（北京）"
+        },
+        "lat": 39.904,
+        "lon": 116.4075
+      }
     },
     {
       "id": "diamond-sutra",
@@ -141,7 +177,16 @@
           "citation": "\"Tang dynasty summary.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/summary/Tang-dynasty"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Mogao Caves, Dunhuang",
+          "es": "Cuevas de Mogao, Dunhuang",
+          "zh": "敦煌莫高窟"
+        },
+        "lat": 40.0372,
+        "lon": 94.8042
+      }
     },
     {
       "id": "huang-chao-rebellion",
@@ -161,7 +206,16 @@
           "citation": "\"Tang dynasty.\" Encyclopaedia Britannica.",
           "url": "https://www.britannica.com/topic/Tang-dynasty"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Chang'an",
+          "es": "Chang'an",
+          "zh": "长安"
+        },
+        "lat": 34.3083,
+        "lon": 108.8583
+      }
     },
     {
       "id": "tang-collapse",
@@ -180,7 +234,16 @@
         {
           "citation": "Twitchett, Denis, ed. (1979). The Cambridge History of China, Vol. 3: Sui and T'ang China, 589-906. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Kaifeng",
+          "es": "Kaifeng",
+          "zh": "开封"
+        },
+        "lat": 34.795,
+        "lon": 114.345
+      }
     }
   ],
   "facts": [

@@ -54,6 +54,41 @@
   ],
   "events": [
     {
+      "id": "battle-of-tours",
+      "start": 732,
+      "type": "conflict",
+      "title": {
+        "en": "Frankish and Aquitanian forces under Charles Martel, Charlemagne's grandfather, defeat an Umayyad army from al-Andalus between Poitiers and Tours",
+        "es": "Tropas francas y aquitanas al mando de Carlos Martel, abuelo de Carlomagno, derrotan a un ejército omeya de al-Ándalus entre Poitiers y Tours",
+        "zh": "查理曼的祖父查理·马特率领法兰克与阿基坦军队，在普瓦捷与图尔之间击败来自安达卢斯的倭马亚军队"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Tours\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Tours"
+        },
+        {
+          "citation": "Wikidata, \"Battle of Tours\" (Q173077): date 10 October 732 and coordinates.",
+          "url": "https://www.wikidata.org/wiki/Q173077"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The surviving sources do not say exactly where the battle was fought; the pin marks one proposed site between Poitiers and Tours.",
+        "es": "Las fuentes conservadas no dicen dónde se libró exactamente la batalla; el marcador señala uno de los lugares propuestos entre Poitiers y Tours.",
+        "zh": "现存史料并未记载战役的确切地点；地图标记只是普瓦捷与图尔之间的一处推测地点。"
+      },
+      "place": {
+        "name": {
+          "en": "Between Poitiers and Tours",
+          "es": "Entre Poitiers y Tours",
+          "zh": "普瓦捷与图尔之间"
+        },
+        "lat": 46.9876,
+        "lon": 0.5344
+      }
+    },
+    {
       "id": "pepin-deposes-merovingians",
       "start": 751,
       "type": "founding",
@@ -70,7 +105,17 @@
           "citation": "Royal Frankish Annals, entry for 751."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Soissons",
+          "es": "Soissons",
+          "zh": "苏瓦松"
+        },
+        "lat": 49.3811,
+        "lon": 3.3225,
+        "pleiadesId": "108772"
+      }
     },
     {
       "id": "charlemagne-sole-king",
@@ -89,7 +134,16 @@
           "citation": "Royal Frankish Annals, entry for 771."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Samoussy",
+          "es": "Samoussy",
+          "zh": "萨穆西"
+        },
+        "lat": 49.585,
+        "lon": 3.7339
+      }
     },
     {
       "id": "saxon-wars",
@@ -109,7 +163,137 @@
           "citation": "Collins, R. (1998). Charlemagne. Macmillan."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Eresburg",
+          "es": "Eresburg",
+          "zh": "埃雷斯堡"
+        },
+        "lat": 51.4503,
+        "lon": 8.8528
+      }
+    },
+    {
+      "id": "siege-of-pavia",
+      "start": 773,
+      "end": 774,
+      "type": "conflict",
+      "title": {
+        "en": "Charlemagne besieges Pavia, the Lombard capital, and on its fall takes the title King of the Lombards",
+        "es": "Carlomagno asedia Pavía, la capital lombarda, y tras su caída asume el título de rey de los lombardos",
+        "zh": "查理曼围攻伦巴第首都帕维亚，城破后自封伦巴第国王"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Siege of Pavia (773–774)\".",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Pavia_(773%E2%80%93774)"
+        },
+        {
+          "citation": "Wikipedia, \"Charlemagne\".",
+          "url": "https://en.wikipedia.org/wiki/Charlemagne"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Pavia",
+          "es": "Pavía",
+          "zh": "帕维亚"
+        },
+        "lat": 45.1853,
+        "lon": 9.155,
+        "pleiadesId": "383798"
+      }
+    },
+    {
+      "id": "roncevaux-pass",
+      "start": 778,
+      "type": "conflict",
+      "title": {
+        "en": "Basques ambush the rearguard of Charlemagne's army in the Pyrenees on its way back from Spain; among the dead is Roland, later the hero of the Song of Roland",
+        "es": "Los vascos emboscan la retaguardia del ejército de Carlomagno en los Pirineos a su regreso de Hispania; entre los muertos está Roldán, luego héroe del Cantar de Roldán",
+        "zh": "查理曼的军队从西班牙撤回途中，后卫在比利牛斯山遭巴斯克人伏击全军覆没，阵亡者中有罗兰，他后来成为《罗兰之歌》的主角"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Roncevaux Pass\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Roncevaux_Pass"
+        },
+        {
+          "citation": "Wikidata, \"Battle of Roncevaux Pass\" (Q1233475): date 15 August 778 and coordinates.",
+          "url": "https://www.wikidata.org/wiki/Q1233475"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Roncevaux Pass",
+          "es": "Roncesvalles",
+          "zh": "龙塞斯瓦列斯山口"
+        },
+        "lat": 42.9894,
+        "lon": -1.3339
+      }
+    },
+    {
+      "id": "carolingian-renaissance",
+      "start": 780,
+      "end": 850,
+      "type": "invention",
+      "title": {
+        "en": "Monastic scriptoria copy classical Latin texts in the new, more legible Carolingian minuscule script, preserving many works otherwise lost",
+        "es": "Los escritorios monásticos copian textos latinos clásicos en la nueva y más legible minúscula carolingia, preservando muchas obras que de otro modo se habrían perdido",
+        "zh": "修道院抄写室以新创的、更易辨读的加洛林小写体抄录古典拉丁文本，使许多原本可能失传的著作得以保存"
+      },
+      "sources": [
+        {
+          "citation": "Bischoff, B. (1990). Latin Palaeography: Antiquity and the Middle Ages. Cambridge University Press."
+        },
+        {
+          "citation": "McKitterick, R. (1989). The Carolingians and the Written Word. Cambridge University Press."
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Tours",
+          "es": "Tours",
+          "zh": "图尔"
+        },
+        "lat": 47.3928,
+        "lon": 0.6883
+      }
+    },
+    {
+      "id": "tassilo-deposed",
+      "start": 788,
+      "type": "conflict",
+      "title": {
+        "en": "At an assembly in the palace at Ingelheim, Charlemagne deposes his cousin Tassilo III, the last independent duke of Bavaria, and takes Bavaria into the Frankish kingdom",
+        "es": "En una asamblea en el palacio de Ingelheim, Carlomagno depone a su primo Tasilón III, último duque independiente de Baviera, e incorpora Baviera al reino franco",
+        "zh": "查理曼在英格尔海姆宫召开的会议上废黜其表亲、巴伐利亚最后一位独立公爵塔西洛三世，将巴伐利亚并入法兰克王国"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Tassilo III of Bavaria\".",
+          "url": "https://en.wikipedia.org/wiki/Tassilo_III_of_Bavaria"
+        },
+        {
+          "citation": "Wikipedia, \"Charlemagne\".",
+          "url": "https://en.wikipedia.org/wiki/Charlemagne"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Ingelheim",
+          "es": "Ingelheim",
+          "zh": "英格尔海姆"
+        },
+        "lat": 49.9775,
+        "lon": 8.0715
+      }
     },
     {
       "id": "imperial-coronation",
@@ -133,27 +317,47 @@
         "en": "Einhard's biography claims Charlemagne was taken by surprise by the coronation; most modern historians doubt this and think it was pre-arranged.",
         "es": "La biografía de Eginardo afirma que Carlomagno fue tomado por sorpresa con la coronación; la mayoría de los historiadores modernos lo dudan y piensan que fue acordada de antemano.",
         "zh": "艾因哈德的传记声称查理曼对这次加冕毫无准备，但现代史家大多对此存疑，认为此事实为事先安排。"
+      },
+      "place": {
+        "name": {
+          "en": "Old St Peter's Basilica, Rome",
+          "es": "Antigua basílica de San Pedro, Roma",
+          "zh": "罗马旧圣彼得大教堂"
+        },
+        "lat": 41.9022,
+        "lon": 12.4534,
+        "pleiadesId": "423053"
       }
     },
     {
-      "id": "carolingian-renaissance",
-      "start": 780,
-      "end": 850,
-      "type": "invention",
+      "id": "death-of-charlemagne",
+      "start": 814,
+      "type": "ruler",
       "title": {
-        "en": "Monastic scriptoria copy classical Latin texts in the new, more legible Carolingian minuscule script, preserving many works otherwise lost",
-        "es": "Los escritorios monásticos copian textos latinos clásicos en la nueva y más legible minúscula carolingia, preservando muchas obras que de otro modo se habrían perdido",
-        "zh": "修道院抄写室以新创的、更易辨读的加洛林小写体抄录古典拉丁文本，使许多原本可能失传的著作得以保存"
+        "en": "Charlemagne dies and is buried in his palace chapel at Aachen; his son Louis the Pious inherits the whole empire",
+        "es": "Carlomagno muere y es enterrado en su capilla palatina de Aquisgrán; su hijo Luis el Piadoso hereda todo el imperio",
+        "zh": "查理曼去世，葬于亚琛宫廷礼拜堂；其子虔诚者路易继承了整个帝国"
       },
       "sources": [
         {
-          "citation": "Bischoff, B. (1990). Latin Palaeography: Antiquity and the Middle Ages. Cambridge University Press."
+          "citation": "Wikipedia, \"Charlemagne\".",
+          "url": "https://en.wikipedia.org/wiki/Charlemagne"
         },
         {
-          "citation": "McKitterick, R. (1989). The Carolingians and the Written Word. Cambridge University Press."
+          "citation": "Wikipedia, \"Louis the Pious\".",
+          "url": "https://en.wikipedia.org/wiki/Louis_the_Pious"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Palatine Chapel, Aachen",
+          "es": "Capilla Palatina, Aquisgrán",
+          "zh": "亚琛宫廷礼拜堂"
+        },
+        "lat": 50.7747,
+        "lon": 6.0839
+      }
     },
     {
       "id": "treaty-of-verdun",
@@ -172,7 +376,79 @@
           "citation": "Ganshof, F.L. (1971). The Carolingians and the Frankish Monarchy. Longman."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Verdun",
+          "es": "Verdún",
+          "zh": "凡尔登"
+        },
+        "lat": 49.1597,
+        "lon": 5.3828,
+        "pleiadesId": "109435"
+      }
+    },
+    {
+      "id": "treaty-of-meerssen",
+      "start": 870,
+      "type": "collapse",
+      "title": {
+        "en": "At Meerssen, Louis the German and Charles the Bald split Lotharingia, the northern part of the middle kingdom, between East and West Francia",
+        "es": "En Meerssen, Luis el Germánico y Carlos el Calvo se reparten Lotaringia, la parte norte del reino central, entre Francia Oriental y Occidental",
+        "zh": "日耳曼人路易与秃头查理在米尔森瓜分中法兰克北部的洛塔林吉亚，分别并入东、西法兰克"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Treaty of Meerssen\".",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Meerssen"
+        },
+        {
+          "citation": "Wikidata, \"Treaty of Meerssen\" (Q160205): date 8 August 870.",
+          "url": "https://www.wikidata.org/wiki/Q160205"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Meerssen",
+          "es": "Meerssen",
+          "zh": "米尔森"
+        },
+        "lat": 50.8858,
+        "lon": 5.7519
+      }
+    },
+    {
+      "id": "siege-of-paris",
+      "start": 885,
+      "end": 886,
+      "type": "conflict",
+      "title": {
+        "en": "A Viking fleet besieges Paris for almost a year; Count Odo holds the walls, but Charles the Fat pays the raiders off and lets them sail on to Burgundy",
+        "es": "Una flota vikinga asedia París durante casi un año; el conde Odón defiende las murallas, pero Carlos el Gordo paga a los atacantes y los deja seguir hacia Borgoña",
+        "zh": "维京船队围攻巴黎近一年；厄德伯爵守住了城墙，胖子查理却向进犯者付钱，任其继续驶往勃艮第"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Siege of Paris (885–886)\".",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Paris_(885%E2%80%93886)"
+        },
+        {
+          "citation": "Wikidata, \"Siege of Paris (885–886)\" (Q815192): dates November 885 to October 886.",
+          "url": "https://www.wikidata.org/wiki/Q815192"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Île de la Cité, Paris",
+          "es": "Isla de la Cité, París",
+          "zh": "巴黎西岱岛"
+        },
+        "lat": 48.8547,
+        "lon": 2.3475,
+        "pleiadesId": "109126"
+      }
     },
     {
       "id": "charles-the-fat-deposed",
@@ -191,7 +467,16 @@
           "citation": "MacLean, S. (2003). Kingship and Politics in the Late Ninth Century: Charles the Fat and the End of the Carolingian Empire. Cambridge University Press."
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Trebur (Tribur)",
+          "es": "Trebur (Tribur)",
+          "zh": "特雷布尔"
+        },
+        "lat": 49.9242,
+        "lon": 8.4092
+      }
     }
   ],
   "facts": [

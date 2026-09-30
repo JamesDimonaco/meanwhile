@@ -71,7 +71,16 @@
           "citation": "Lewis, Mark Edward (1999). \"Warring States Political History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 587–650. Cambridge University Press.",
           "url": "https://doi.org/10.1017/CHOL9780521470308.011"
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Xianyang",
+          "es": "Xianyang",
+          "zh": "咸阳"
+        },
+        "lat": 34.4139,
+        "lon": 108.8578
+      }
     },
     {
       "id": "standardisation",
@@ -90,7 +99,16 @@
         {
           "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Xianyang",
+          "es": "Xianyang",
+          "zh": "咸阳"
+        },
+        "lat": 34.4139,
+        "lon": 108.8578
+      }
     },
     {
       "id": "great-wall-joined",
@@ -108,7 +126,16 @@
         {
           "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Shangjun (Suide)",
+          "es": "Shangjun (Suide)",
+          "zh": "上郡（绥德）"
+        },
+        "lat": 37.5055,
+        "lon": 110.2588
+      }
     },
     {
       "id": "terracotta-army",
@@ -128,7 +155,16 @@
         {
           "citation": "Lewis, Mark Edward (2007). The Early Chinese Empires: Qin and Han. Harvard University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Mausoleum of the First Qin Emperor",
+          "es": "Mausoleo de Qin Shi Huang",
+          "zh": "秦始皇陵"
+        },
+        "lat": 34.3817,
+        "lon": 109.2539
+      }
     },
     {
       "id": "burning-of-books",
@@ -152,7 +188,16 @@
         {
           "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Xianyang",
+          "es": "Xianyang",
+          "zh": "咸阳"
+        },
+        "lat": 34.4139,
+        "lon": 108.8578
+      }
     },
     {
       "id": "dazexiang-uprising",
@@ -171,7 +216,16 @@
         {
           "citation": "Twitchett, Denis & Loewe, Michael (eds.) (1986). The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220. Cambridge University Press."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Dazexiang",
+          "es": "Dazexiang",
+          "zh": "大泽乡"
+        },
+        "lat": 33.5157,
+        "lon": 117.0907
+      }
     }
   ],
   "facts": [

@@ -116,6 +116,15 @@
         "en": "Date from Rowe (1945); radiocarbon evidence suggests an earlier start.",
         "es": "Fecha según Rowe (1945); el radiocarbono sugiere un inicio anterior.",
         "zh": "年份据罗(1945)；放射性碳证据显示起点可能更早。"
+      },
+      "place": {
+        "name": {
+          "en": "Cusco",
+          "es": "Cuzco",
+          "zh": "库斯科"
+        },
+        "lat": -13.5169,
+        "lon": -71.9786
       }
     },
     {
@@ -136,7 +145,16 @@
         {
           "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Cusco",
+          "es": "Cuzco",
+          "zh": "库斯科"
+        },
+        "lat": -13.5169,
+        "lon": -71.9786
+      }
     },
     {
       "id": "topa-inca",
@@ -161,6 +179,15 @@
         "en": "Reign dates follow Rowe's chronology.",
         "es": "Las fechas del reinado siguen la cronología de Rowe.",
         "zh": "在位年份依据罗的年表。"
+      },
+      "place": {
+        "name": {
+          "en": "Cusco",
+          "es": "Cuzco",
+          "zh": "库斯科"
+        },
+        "lat": -13.5169,
+        "lon": -71.9786
       }
     },
     {
@@ -185,6 +212,15 @@
         "en": "The exact year is disputed in the chronicles (accounts range from about 1525 to 1527); the disease is usually assumed to be smallpox spreading ahead of the Spanish.",
         "es": "El año exacto está en disputa en las crónicas (los relatos varían entre 1525 y 1527 aproximadamente); se suele suponer que la enfermedad fue viruela, propagada antes de la llegada española.",
         "zh": "确切年份在编年史中存在争议（记载在约1525年至1527年之间不等）；通常认为这场疾病是天花，早于西班牙人到来之前便已传播。"
+      },
+      "place": {
+        "name": {
+          "en": "Quito",
+          "es": "Quito",
+          "zh": "基多"
+        },
+        "lat": -0.22,
+        "lon": -78.5125
       }
     },
     {
@@ -210,6 +246,15 @@
         "en": "Chronicles disagree on when the war began.",
         "es": "Las crónicas no coinciden en cuándo empezó la guerra.",
         "zh": "各编年史对内战开始的年份说法不一。"
+      },
+      "place": {
+        "name": {
+          "en": "Tumebamba (Cuenca)",
+          "es": "Tomebamba (Cuenca)",
+          "zh": "图米班巴（昆卡）"
+        },
+        "lat": -2.9064,
+        "lon": -78.9975
       }
     },
     {
@@ -256,7 +301,16 @@
         {
           "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Cusco",
+          "es": "Cuzco",
+          "zh": "库斯科"
+        },
+        "lat": -13.5169,
+        "lon": -71.9786
+      }
     },
     {
       "id": "vilcabamba",
@@ -274,7 +328,16 @@
         {
           "citation": "D'Altroy, Terence N. (2014). The Incas, 2nd edition. Wiley Blackwell."
         }
-      ]
+      ],
+      "place": {
+        "name": {
+          "en": "Vilcabamba",
+          "es": "Vilcabamba",
+          "zh": "比尔卡班巴"
+        },
+        "lat": -12.9028,
+        "lon": -73.2058
+      }
     }
   ],
   "facts": [
