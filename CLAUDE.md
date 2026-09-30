@@ -7,7 +7,7 @@ Mobile-first web app for travellers and museum visitors on weak signal, in en / 
 
 ## Commands
 
-`pnpm dev` · `pnpm build` (runs `validate-data`, then `next build`, then fails on any Google host in what a browser can receive: `.next/static`, prerendered `.next/server/app` output, `public/`) · `pnpm typecheck` (`next typegen` first, so `PageProps`/`LayoutProps` exist) · `pnpm test` (vitest) · `pnpm lint` · `pnpm validate-data`.
+`pnpm dev` · `pnpm build` (runs `validate-data`, then `next build`, then fails on any Google host in what a browser can receive: `.next/static`, prerendered `.next/server/app` output, `public/`) · `pnpm start` (serves the build; `/api/scan` needs `ANTHROPIC_API_KEY`) · `pnpm typecheck` (`next typegen` first, so `PageProps`/`LayoutProps` exist) · `pnpm test` (vitest) · `pnpm lint` · `pnpm validate-data`.
 
 Before handing work back, run typecheck, test, lint, validate-data, and build if you touched pages.
 

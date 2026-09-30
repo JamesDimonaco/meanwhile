@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "pnpm validate-data && next build && tsx scripts/check-no-google.ts",
+    "start": "next start",
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "lint": "eslint",
