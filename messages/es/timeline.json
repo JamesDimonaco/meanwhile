@@ -3,9 +3,9 @@
   "yearLine": "Arrastra la línea o toca el gráfico para cambiar el año",
   "zoomIn": "Acercar",
   "zoomOut": "Alejar",
-  "activeIn": "Activo hacia {year}",
+  "activeIn": "Activo hacia <year></year>",
   "noneActive": "Aún no hay nada registrado para este año",
-  "alsoHappening": "También ocurría hacia {year}",
+  "alsoHappening": "También ocurría hacia <year></year>",
   "close": "Cerrar",
   "eventTypes": {
     "founding": "Fundación",

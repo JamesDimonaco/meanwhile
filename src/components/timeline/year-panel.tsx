@@ -4,8 +4,6 @@ import { localize } from "@/lib/data/localize";
 import type { ActiveCulture } from "@/lib/data/queries";
 import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
-import { useSettings } from "@/components/settings/use-settings";
-import { formatYear } from "@/lib/years";
 
 export type SelectedEvent = { culture: TimelineCulture; event: TimelineEvent };
 
@@ -25,10 +23,8 @@ export function YearPanel({
   onClose: () => void;
 }) {
   const locale = useLocale();
-  const { eraStyle } = useSettings();
   const t = useTranslations("timeline");
   const tCommon = useTranslations("common");
-  const formattedYear = formatYear(year, locale, eraStyle);
 
   return (
     <div className="flex flex-col gap-2 rounded-lg border border-border p-3">
@@ -46,7 +42,7 @@ export function YearPanel({
           </button>
         </div>
       )}
-      <p className="text-sm font-medium">{t(selected ? "alsoHappening" : "activeIn", { year: formattedYear })}</p>
+      <p className="text-sm font-medium">{t.rich(selected ? "alsoHappening" : "activeIn", { year: () => <YearText year={year} /> })}</p>
       {active.length === 0 ? (
         <p className="text-sm text-muted-foreground">{t("noneActive")}</p>
       ) : (

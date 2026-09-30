@@ -3,9 +3,9 @@
   "yearLine": "拖动竖线或轻点图表来切换年份",
   "zoomIn": "放大",
   "zoomOut": "缩小",
-  "activeIn": "{year}前后仍然存在",
+  "activeIn": "<year></year>前后仍然存在",
   "noneActive": "这一年暂无记录",
-  "alsoHappening": "{year}前后世界上还发生着",
+  "alsoHappening": "<year></year>前后世界上还发生着",
   "close": "关闭",
   "eventTypes": {
     "founding": "建立",
