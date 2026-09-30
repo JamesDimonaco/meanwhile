@@ -27,6 +27,13 @@ describe("overlapOf", () => {
     expect(overlapOf([sharp(-205, 220), sharp(220, 280)])).toEqual({ kind: "touching", year: 220 });
   });
 
+  it("is uncertain, not touching, when the solid parts meet in one year but the fuzzy edges overlap for longer", () => {
+    // Song and Yuan: Yuan may have begun in 1260, Song ended in 1279 at the earliest.
+    const song = period(960, 960, 1279, 1279);
+    const yuan = period(1260, 1279, 1368, 1368);
+    expect(overlapOf([song, yuan])).toEqual({ kind: "uncertain", start: 1260, end: 1279 });
+  });
+
   it("measures a gap between the solid parts: 1000 BCE to 660 BCE is 340 years apart", () => {
     expect(overlapOf([sharp(-1999, -999), sharp(-659, 100)])).toEqual({ kind: "gap", years: 340 });
     expect(overlapOf([sharp(-659, 100), sharp(-1999, -999)])).toEqual({ kind: "gap", years: 340 });

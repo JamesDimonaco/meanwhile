@@ -17,16 +17,17 @@ export type Overlap =
 /**
  * When every period was alive at once, judged on the solid part of each bar
  * (latestStart to earliestEnd), the same range the rest of the app prints.
- * If only the fuzzy edges meet, that's "uncertain"; otherwise a gap.
+ * If only the fuzzy edges meet, or they stretch a one-year meeting of the
+ * solid parts, that's "uncertain"; otherwise a gap.
  */
 export function overlapOf(periods: readonly PeriodBounds[]): Overlap {
   const start = Math.max(...periods.map((p) => p.latestStart));
   const end = Math.min(...periods.map((p) => p.earliestEnd));
   if (end > start) return { kind: "overlap", start, end, years: end - start + 1 };
-  if (end === start) return { kind: "touching", year: start };
 
   const outerStart = Math.max(...periods.map((p) => p.earliestStart));
   const outerEnd = Math.min(...periods.map((p) => p.latestEnd));
+  if (end === start && outerEnd === outerStart) return { kind: "touching", year: start };
   if (outerEnd >= outerStart) return { kind: "uncertain", start: outerStart, end: outerEnd };
   return { kind: "gap", years: start - end };
 }
