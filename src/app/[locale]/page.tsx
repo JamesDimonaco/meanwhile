@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
 import { SearchBox } from "@/components/search/search-box";
@@ -6,6 +7,14 @@ import { loadCultures, loadPopular } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { toSearchEntry } from "@/components/search/search-index";
 import { YearRangeText } from "@/components/settings/year-text";
+import { pageAlternates } from "@/lib/seo";
+
+export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
+  const locale = await pageLocale(params);
+  const t = await getTranslations({ locale, namespace: "home" });
+  const description = t("metaDescription");
+  return { description, alternates: pageAlternates(locale, ""), openGraph: { description } };
+}
 
 /** Home: one search box, popular starting points underneath. Owned by ui-core. */
 export default async function HomePage({ params }: PageProps<"/[locale]">) {

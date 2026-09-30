@@ -5,11 +5,14 @@ import { Suspense } from "react";
 import { toTimelineCulture } from "@/components/timeline/timeline-layout";
 import { WorldTimeline } from "@/components/timeline/world-timeline";
 import { loadCultures } from "@/lib/data/load";
+import { pageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/timeline">): Promise<Metadata> {
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "timeline" });
-  return { title: t("title") };
+  const title = t("title");
+  const description = t("metaDescription");
+  return { title, description, alternates: pageAlternates(locale, "timeline"), openGraph: { title, description } };
 }
 
 /** Owned by the timeline agent. ?year= is read client-side inside WorldTimeline. */

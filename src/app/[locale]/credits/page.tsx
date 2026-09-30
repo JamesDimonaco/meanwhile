@@ -3,11 +3,14 @@ import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
 import { hasTerritoryMap, loadBorders, loadCultures } from "@/lib/data/load";
 import type { Source } from "@/lib/data/schema";
+import { pageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/credits">): Promise<Metadata> {
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "credits" });
-  return { title: t("title") };
+  const title = t("title");
+  const description = t("metaDescription");
+  return { title, description, alternates: pageAlternates(locale, "credits"), openGraph: { title, description } };
 }
 
 const SOURCE_KEYS = ["periodo", "wikidata", "cliopatria", "pleiades", "naturalEarth", "fonts"] as const;

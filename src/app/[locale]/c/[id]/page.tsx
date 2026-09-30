@@ -5,9 +5,11 @@ import { PeriodRange } from "@/components/culture/period-range";
 import { MeanwhileCards } from "@/components/meanwhile/meanwhile-cards";
 import { CultureStory } from "@/components/territory-map/culture-story";
 import { pageLocale } from "@/i18n/page-locale";
+import { cultureDescription, cultureTitle } from "@/lib/data/culture-copy";
 import { hasTerritoryMap, loadCulture, loadCultures } from "@/lib/data/load";
 import { isMachineTranslated, localize } from "@/lib/data/localize";
 import { defaultPeriod, eventWorld, meanwhile } from "@/lib/data/queries";
+import { pageAlternates } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -18,7 +20,10 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps<"/[locale]/c/[id]">): Promise<Metadata> {
   const locale = await pageLocale(params);
   const { id } = await params;
-  return { title: localize(loadCulture(id).name, locale) };
+  const culture = loadCulture(id);
+  const title = cultureTitle(culture, locale);
+  const description = cultureDescription(culture, locale);
+  return { title, description, alternates: pageAlternates(locale, `c/${id}`), openGraph: { title, description } };
 }
 
 /**
