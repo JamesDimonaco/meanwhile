@@ -76,6 +76,12 @@ describe("cultureDescription", () => {
     expect(out.length).toBeLessThanOrEqual(155);
   });
 
+  it("doesn't stack a second period after an era label that already ends in one (es)", () => {
+    // es era labels ("a. e. c.") already end with a period.
+    const c = culture("shang", "china", { description: { en: "n/a", es: "Primera frase. Segunda frase." } });
+    expect(cultureDescription(c, "es")).not.toContain("..");
+  });
+
   it("never exceeds the ~155 character meta description budget even for a long single-sentence description", () => {
     // One long run-on sentence (a single terminator at the very end) so
     // firstSentence can't shorten it first: this exercises truncate's budget.

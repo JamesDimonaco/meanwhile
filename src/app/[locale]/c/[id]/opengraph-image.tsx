@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
+import { routing } from "@/i18n/routing";
 import { contemporaryNames } from "@/lib/data/culture-copy";
 import { loadCulture, loadCultures } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
@@ -11,18 +12,17 @@ import { ogFrame } from "@/lib/og/frame";
 import { ogColors, OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
 import { SITE_URL } from "@/lib/seo";
 
+// Static export has no server to compute this per request.
+export const dynamic = "force-static";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
 
 const brand = new URL(SITE_URL).host;
 
+// Route Handlers don't inherit generateStaticParams from an ancestor layout
+// the way page.tsx does, so this needs the full locale × id cross product.
 export function generateStaticParams() {
-  return loadCultures().map((c) => ({ id: c.id }));
-}
-
-export async function generateImageMetadata({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
-  return [{ alt: localize(loadCulture(id).name, "en"), size, contentType }];
+  return routing.locales.flatMap((locale) => loadCultures().map((c) => ({ locale, id: c.id })));
 }
 
 export default async function Image({ params }: { params: Promise<{ locale: string; id: string }> }) {
@@ -40,21 +40,25 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
 
   return new ImageResponse(
     ogFrame(
-      <>
-        <div style={{ display: "flex", fontSize: 30, fontWeight: 600, color: ogColors.muted, letterSpacing: 4 }}>
+      [
+        <div key="eyebrow" style={{ display: "flex", fontSize: 30, fontWeight: 600, color: ogColors.muted, letterSpacing: 4 }}>
           {tCommon("appName").toUpperCase()}
-        </div>
-        <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", gap: 16 }}>
+        </div>,
+        <div key="name" style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", gap: 16 }}>
           <div style={{ display: "flex", fontSize: 64, fontWeight: 600 }}>{localize(culture.name, locale)}</div>
           {culture.nativeName && (
             <div style={{ display: "flex", fontSize: 40, color: ogColors.muted }}>{culture.nativeName.text}</div>
           )}
-        </div>
-        <div style={{ display: "flex", fontSize: 36, color: ogColors.muted }}>{range}</div>
-        {othersLine && (
-          <div style={{ display: "flex", fontSize: 30, maxWidth: 980, marginTop: 12 }}>{othersLine}</div>
-        )}
-      </>,
+        </div>,
+        <div key="range" style={{ display: "flex", fontSize: 36, color: ogColors.muted }}>{range}</div>,
+        ...(othersLine
+          ? [
+              <div key="others" style={{ display: "flex", fontSize: 30, maxWidth: 980, marginTop: 12 }}>
+                {othersLine}
+              </div>,
+            ]
+          : []),
+      ],
       brand,
     ),
     { ...size, fonts: ogFonts() },

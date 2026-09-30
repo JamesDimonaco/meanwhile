@@ -41,7 +41,12 @@ export function cultureTitle(culture: Culture, locale: Locale): string {
 export function cultureDescription(culture: Culture, locale: Locale): string {
   const period = defaultPeriod(culture);
   const range = formatYearRange(period.latestStart, period.earliestEnd, locale);
-  const lead = locale === "zh" ? `${cultureTitle(culture, locale)}，${range}。` : `${cultureTitle(culture, locale)}, ${range}. `;
+  // es era labels ("a. e. c.") already end in a period; en/zh ones don't.
+  // Avoid stacking a second one.
+  const lead =
+    locale === "zh"
+      ? `${cultureTitle(culture, locale)}，${range}。`
+      : `${cultureTitle(culture, locale)}, ${range}${range.endsWith(".") ? "" : "."} `;
   const sentence = firstSentence(localize(culture.description, locale), locale);
   return truncate(`${lead}${sentence}`, META_DESCRIPTION_BUDGET);
 }
