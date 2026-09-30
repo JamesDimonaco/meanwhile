@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/credits"
   return { title: t("title") };
 }
 
-const SOURCE_KEYS = ["periodo", "wikidata", "cliopatria", "pleiades", "naturalEarth", "fonts"] as const;
+const SOURCE_KEYS = ["periodo", "wikidata", "cliopatria", "pleiades", "naturalEarth", "flagIcons", "fonts"] as const;
 
 /** Every source cited anywhere in the dataset, once each, alphabetical. */
 function worksCited(): Source[] {

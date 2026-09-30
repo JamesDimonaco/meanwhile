@@ -39,7 +39,7 @@ export function readDataset(): DatasetResult {
     today: readJson("today.json"),
     registryIds: Registry.safeParse(registry).data?.cultures.map((c) => c.id) ?? [],
     isoCodes: countries.filter((c) => c.iso).map((c) => c.code.toUpperCase()),
-    flagFiles: fs.readdirSync(path.join(process.cwd(), "public/flags")),
+    flagFiles: fs.readdirSync(path.join(process.cwd(), "public/flags")).filter((f) => f.endsWith(".svg")),
   });
   return { ...result, errors: [...result.errors, ...heartlandErrors] };
 }

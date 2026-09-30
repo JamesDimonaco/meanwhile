@@ -38,6 +38,12 @@
       "licence": "SIL Open Font License 1.1",
       "used": "The typefaces for Latin and Chinese text, served from this site.",
       "changes": "Subset to the characters Meanwhile uses, so Chinese pages load quickly."
+    },
+    "flagIcons": {
+      "name": "flag-icons",
+      "licence": "MIT",
+      "used": "The small flags showing the present-day country where each culture's heartland was.",
+      "changes": "Copied unchanged; only the flags the app shows are served."
     }
   },
   "neverUsed": "Never used: the Seshat Global History Databank's own dataset, which is non-commercial only.",
