@@ -48,11 +48,11 @@ function setup() {
   const fetch = vi.fn<(request: Request) => Promise<Response>>();
   new Function("self", "caches", "fetch", source)(self, caches, fetch);
 
-  function dispatch(url: string) {
+  function dispatch(url: string, headers?: HeadersInit) {
     let response: Promise<Response> | undefined;
     const waits: Promise<unknown>[] = [];
     const event: FetchEventLike = {
-      request: new Request(new URL(url, ORIGIN)),
+      request: new Request(new URL(url, ORIGIN), { headers }),
       respondWith: (r) => (response = r),
       waitUntil: (p) => waits.push(p),
     };
@@ -62,9 +62,9 @@ function setup() {
   }
 
   /** A full online visit: respond, then let every waitUntil settle. */
-  async function visit(url: string, body: string) {
+  async function visit(url: string, body: string, headers?: HeadersInit) {
     fetch.mockResolvedValueOnce(new Response(body));
-    const { response, waits } = dispatch(url);
+    const { response, waits } = dispatch(url, headers);
     await response;
     await Promise.all(waits);
   }
@@ -112,11 +112,17 @@ describe("service worker", () => {
     expect(await (await response).text()).toBe("timeline page");
   });
 
-  it("keeps one cache entry per path however many ?_rsc= prefetches arrive", async () => {
+  it("caches router payloads apart from the page's HTML, keyed by their full URL", async () => {
     const sw = setup();
-    await sw.visit("/en/timeline/index.txt?_rsc=abc", "payload");
-    await sw.visit("/en/timeline/index.txt?_rsc=xyz", "payload");
-    expect(sw.entries.size).toBe(1);
+    await sw.visit("/en/c/rome/", "rome page");
+    // Next fetches payloads from the page's own path, marked by an RSC header;
+    // ?_rsc= is a hash of the headers the payload varies on.
+    await sw.visit("/en/c/rome/?_rsc=abc", "rome payload", { RSC: "1" });
+    await sw.visit("/en/c/rome/?_rsc=xyz", "rome tree", { RSC: "1" });
+
+    sw.fetch.mockReset().mockRejectedValue(new TypeError("offline"));
+    expect(await (await sw.dispatch("/en/c/rome/").response).text()).toBe("rome page");
+    expect(await (await sw.dispatch("/en/c/rome/?_rsc=abc", { RSC: "1" }).response).text()).toBe("rome payload");
   });
 
   it("keeps the worker alive until the response is written to the cache", async () => {
