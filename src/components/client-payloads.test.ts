@@ -31,7 +31,7 @@ describe("client payloads", () => {
 
   it.each<[string, (culture: Culture) => unknown]>([
     ["search entries (home search box)", toSearchEntry],
-    ["timeline cultures", toTimelineCulture],
+    ["timeline cultures", (culture) => toTimelineCulture(culture, "en")],
     ["culture refs (event world, year panel)", toCultureRef],
   ])("%s carry no sources or notes", (_, toPayload) => {
     const keys = keysIn(cultures.map(toPayload));

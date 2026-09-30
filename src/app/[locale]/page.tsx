@@ -32,7 +32,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             <li key={c.id}>
               <Link
                 href={`/c/${c.id}`}
-                className="flex flex-col gap-0.5 rounded-lg border border-border px-4 py-3 hover:bg-muted"
+                className="flex min-w-0 flex-col gap-0.5 rounded-lg border border-border px-4 py-3 hover:bg-muted"
               >
                 <span className="flex items-baseline gap-1.5">
                   <span className="font-medium">{localize(c.name, locale)}</span>

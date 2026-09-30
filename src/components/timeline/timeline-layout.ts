@@ -1,28 +1,42 @@
 // Row layout shared by the frozen name column and the scrollable SVG, so the
 // two stay pixel-aligned without any DOM measuring.
 
-import { defaultPeriod, toPeriodSpan, type PeriodSpan } from "@/lib/data/queries";
-import { REGIONS, type Culture, type CultureEvent, type Phase, type Region } from "@/lib/data/schema";
+import type { Locale } from "@/i18n/locales";
+import { localize } from "@/lib/data/localize";
+import { defaultPeriod } from "@/lib/data/queries";
+import { REGIONS, type Culture, type EventType, type Period, type Region } from "@/lib/data/schema";
 
 /**
- * What the timeline draws, and nothing else: the whole dataset rides in the
- * page payload, so sources, notes, descriptions and facts stay on the server.
+ * What the timeline draws, and nothing else: sources, notes, periodoId,
+ * descriptions and facts stay on the server, and text is localized to a
+ * plain string server-side rather than shipping all three languages.
  */
-export type TimelineEvent = Pick<CultureEvent, "id" | "start" | "type" | "title" | "disputed">;
-export type TimelineCulture = Pick<Culture, "id" | "region" | "name"> & {
-  periods: PeriodSpan[];
-  phases: Pick<Phase, "id" | "start" | "end">[];
+export type TimelinePeriod = Pick<Period, "earliestStart" | "latestStart" | "earliestEnd" | "latestEnd" | "disputed">;
+export type TimelineEvent = { id: string; start: number; type: EventType; title: string; disputed: boolean };
+export type TimelineCulture = {
+  id: string;
+  region: Region;
+  name: string;
+  period: TimelinePeriod;
+  phases: { id: string; start: number; end: number }[];
   events: TimelineEvent[];
 };
 
-export function toTimelineCulture(culture: Culture): TimelineCulture {
+export function toTimelineCulture(culture: Culture, locale: Locale): TimelineCulture {
+  const { earliestStart, latestStart, earliestEnd, latestEnd, disputed } = defaultPeriod(culture);
   return {
     id: culture.id,
     region: culture.region,
-    name: culture.name,
-    periods: [toPeriodSpan(defaultPeriod(culture))],
+    name: localize(culture.name, locale),
+    period: { earliestStart, latestStart, earliestEnd, latestEnd, disputed },
     phases: culture.phases.map(({ id, start, end }) => ({ id, start, end })),
-    events: culture.events.map(({ id, start, type, title, disputed }) => ({ id, start, type, title, disputed })),
+    events: culture.events.map(({ id, start, type, title, disputed }) => ({
+      id,
+      start,
+      type,
+      title: localize(title, locale),
+      disputed,
+    })),
   };
 }
 
@@ -40,7 +54,7 @@ export function layoutRows(cultures: readonly TimelineCulture[]): { rows: Timeli
   for (const region of REGIONS) {
     const inRegion = cultures
       .filter((c) => c.region === region)
-      .sort((a, b) => defaultPeriod(a).earliestStart - defaultPeriod(b).earliestStart || a.id.localeCompare(b.id));
+      .sort((a, b) => a.period.earliestStart - b.period.earliestStart || a.id.localeCompare(b.id));
     if (inRegion.length === 0) continue;
     rows.push({ kind: "region", region, y, height: HEADER_ROW_HEIGHT });
     y += HEADER_ROW_HEIGHT;

@@ -48,16 +48,20 @@ export function YearText({ year }: { year: number }) {
   useFirstBCEAutoOpen(year);
 
   return (
-    <time className="whitespace-nowrap">
-      <button
-        type="button"
-        onClick={(e) => openFromDate(e, open, year)}
-        className="rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
-      >
-        {formatYear(year, locale, eraStyle)}
-      </button>
+    // The date itself must not break mid-string, but "· about N years ago" can wrap
+    // onto its own line rather than force the whole thing past a narrow card's edge.
+    <span className="inline-flex flex-wrap items-baseline gap-x-1">
+      <time className="whitespace-nowrap">
+        <button
+          type="button"
+          onClick={(e) => openFromDate(e, open, year)}
+          className="rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
+        >
+          {formatYear(year, locale, eraStyle)}
+        </button>
+      </time>
       {showYearsAgo && <YearsAgo year={year} />}
-    </time>
+    </span>
   );
 }
 
@@ -69,11 +73,12 @@ export function YearRangeText({ start, end }: { start: number; end: number }) {
   useFirstBCEAutoOpen(start);
 
   return (
-    <span className="whitespace-nowrap">
+    // Same wrap point as YearText: keep the range itself intact, let years-ago fall to its own line.
+    <span className="inline-flex flex-wrap items-baseline gap-x-1">
       <button
         type="button"
         onClick={(e) => openFromDate(e, open, start)}
-        className="rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
+        className="whitespace-nowrap rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
       >
         {formatYearRange(start, end, locale, eraStyle)}
       </button>

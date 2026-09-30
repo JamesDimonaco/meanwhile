@@ -1,8 +1,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { localize } from "@/lib/data/localize";
-import type { ActiveCulture } from "@/lib/data/queries";
 import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
+import type { TimelineActiveCulture } from "./timeline-math";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 
 export type SelectedEvent = { culture: TimelineCulture; event: TimelineEvent };
@@ -18,7 +17,7 @@ export function YearPanel({
   onClose,
 }: {
   year: number;
-  active: ActiveCulture[];
+  active: TimelineActiveCulture[];
   selected: SelectedEvent | null;
   onClose: () => void;
 }) {
@@ -31,7 +30,7 @@ export function YearPanel({
       {selected && (
         <div className="flex items-start justify-between gap-2 border-b border-border pb-2">
           <div>
-            <p className="font-medium">{localize(selected.event.title, locale)}</p>
+            <p className="font-medium">{selected.event.title}</p>
             <p className="text-sm text-muted-foreground">
               {t(`eventTypes.${selected.event.type}`)} · <YearText year={selected.event.start} />
               {selected.event.disputed && <> · {tCommon("disputed")}</>}
@@ -50,9 +49,9 @@ export function YearPanel({
           {active
             .filter((a) => a.culture.id !== selected?.culture.id)
             .map(({ culture, certain }) => (
-              <li key={culture.id} className="flex items-center justify-between gap-2 text-sm">
-                <Link href={`/c/${culture.id}`} className="underline-offset-2 hover:underline">
-                  {localize(culture.name, locale)}
+              <li key={culture.id} className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5 text-sm">
+                <Link href={`/c/${culture.id}`} className="min-w-0 underline-offset-2 hover:underline">
+                  {culture.name}
                 </Link>
                 <span className="text-muted-foreground">
                   <YearRangeText start={culture.period.latestStart} end={culture.period.earliestEnd} />

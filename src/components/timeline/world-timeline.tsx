@@ -6,7 +6,6 @@ import { useLocale, useTranslations } from "next-intl";
 import { scaleLinear } from "d3-scale";
 import { ZoomIn, ZoomOut } from "lucide-react";
 import { REGIONS } from "@/lib/data/schema";
-import { activeAt, defaultPeriod } from "@/lib/data/queries";
 import { formatYear, parseYearParam } from "@/lib/years";
 import { useSettings } from "@/components/settings/use-settings";
 import { YearText } from "@/components/settings/year-text";
@@ -15,6 +14,7 @@ import { layoutRows, type TimelineCulture, type TimelineEvent } from "./timeline
 import {
   MAX_PX_PER_YEAR,
   MIN_PX_PER_YEAR,
+  activeCultures,
   axisTicks,
   clampYear,
   clampZoom,
@@ -28,8 +28,11 @@ const NAME_COL_WIDTH = 112;
 const AXIS_SPACE = 16;
 /** Room for the axis labels, then the draggable year-line handle, above the rows. */
 const TOP_SPACE = AXIS_SPACE + 16;
-const DEFAULT_PX_PER_YEAR = 1;
+/** The least zoomed-in level shows roughly 1,500-2,000 years across a phone screen. */
+const DEFAULT_PX_PER_YEAR = MIN_PX_PER_YEAR;
 const ZOOM_FACTOR = 1.5;
+/** How far from the left edge the year line sits in the visible chart, so there's more room to see what's ahead than behind. */
+const YEAR_LINE_POSITION = 1 / 3;
 /** Roughly one axis label per this many pixels, wide enough for "公元前1000年". */
 const TICK_SPACING = 120;
 /** Where the year line starts without ?year=: 1 CE has most regions alive at once. */
@@ -48,7 +51,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const t = useTranslations("timeline");
   const searchParams = useSearchParams();
 
-  const domain = useMemo(() => computeYearDomain(cultures.map(defaultPeriod)), [cultures]);
+  const domain = useMemo(() => computeYearDomain(cultures.map((c) => c.period)), [cultures]);
   const { rows, totalHeight } = useMemo(() => layoutRows(cultures), [cultures]);
 
   const [pxPerYear, setPxPerYear] = useState(DEFAULT_PX_PER_YEAR);
@@ -73,7 +76,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
     }
   }, [year]);
 
-  const active = useMemo(() => activeAt(cultures, year), [cultures, year]);
+  const active = useMemo(() => activeCultures(cultures, year), [cultures, year]);
 
   const scrollRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -82,16 +85,17 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const lastZoomRef = useRef<number | null>(null);
   const yearX = xScale(year);
 
-  // Centre the year line on first render and after every zoom, so a phone
-  // never opens on an empty stretch of chart with the line off-screen; after
-  // that, follow the line only when a key press or a marker moves it out of view.
+  // Put the year line a third of the way into view on first render and after
+  // every zoom, so a phone never opens on an empty stretch of chart with the
+  // line off-screen; after that, follow the line only when a key press or a
+  // marker moves it out of view.
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
     const zoomed = lastZoomRef.current !== pxPerYear;
     lastZoomRef.current = pxPerYear;
     if (zoomed || yearX < el.scrollLeft || yearX > el.scrollLeft + el.clientWidth) {
-      el.scrollLeft = yearX - el.clientWidth / 2;
+      el.scrollLeft = yearX - el.clientWidth * YEAR_LINE_POSITION;
     }
   }, [pxPerYear, yearX]);
 

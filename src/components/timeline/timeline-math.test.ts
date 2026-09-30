@@ -1,8 +1,10 @@
 import { describe, expect, it } from "vitest";
+import type { TimelineCulture } from "./timeline-layout";
 import {
   MAX_PX_PER_YEAR,
   MIN_PX_PER_YEAR,
   YEAR_STEP_PAGE,
+  activeCultures,
   axisTicks,
   barSegments,
   clampYear,
@@ -106,6 +108,58 @@ describe("clampZoom", () => {
   it("pins the exact bounds so a silent change is caught", () => {
     expect(MIN_PX_PER_YEAR).toBe(0.15);
     expect(MAX_PX_PER_YEAR).toBe(12);
+  });
+});
+
+function timelineCulture(id: string, region: TimelineCulture["region"], period: TimelineCulture["period"]): TimelineCulture {
+  return { id, region, name: id, period, phases: [], events: [] };
+}
+
+describe("activeCultures", () => {
+  const shang = timelineCulture("shang", "china", {
+    earliestStart: -1600,
+    latestStart: -1500,
+    earliestEnd: -1050,
+    latestEnd: -1040,
+    disputed: false,
+  });
+  const inca = timelineCulture("inca", "south-america", {
+    earliestStart: 1200,
+    latestStart: 1200,
+    earliestEnd: 1533,
+    latestEnd: 1533,
+    disputed: false,
+  });
+
+  it("includes a culture only when the year falls in its outer (fuzzy-inclusive) range", () => {
+    expect(activeCultures([shang, inca], -1300).map((a) => a.culture.id)).toEqual(["shang"]);
+    expect(activeCultures([shang, inca], 1300).map((a) => a.culture.id)).toEqual(["inca"]);
+    expect(activeCultures([shang, inca], 0)).toEqual([]);
+  });
+
+  it("marks certain=true only inside the solid (latestStart..earliestEnd) part of the bar", () => {
+    expect(activeCultures([shang], -1300)[0].certain).toBe(true); // inside -1500..-1050
+    expect(activeCultures([shang], -1550)[0].certain).toBe(false); // in the fuzzy start edge
+  });
+
+  it("sorts by region order (china before south-america) when both are equally certain", () => {
+    const incaContemporary = timelineCulture("inca-contemporary", "south-america", shang.period);
+    const results = activeCultures([incaContemporary, shang], -1300);
+    expect(results.map((a) => a.culture.id)).toEqual(["shang", "inca-contemporary"]);
+  });
+
+  it("sorts certain cultures before uncertain ones within the same region, ahead of id order", () => {
+    // "a-uncertain" sorts first alphabetically, but only in its fuzzy edge at -1300.
+    const uncertain = timelineCulture("a-uncertain", "china", {
+      earliestStart: -1600,
+      latestStart: -1250,
+      earliestEnd: -1200,
+      latestEnd: -1000,
+      disputed: false,
+    });
+    const results = activeCultures([uncertain, shang], -1300);
+    expect(results.map((a) => a.culture.id)).toEqual(["shang", "a-uncertain"]);
+    expect(results.map((a) => a.certain)).toEqual([true, false]);
   });
 });
 
