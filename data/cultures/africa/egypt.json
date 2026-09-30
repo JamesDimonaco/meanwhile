@@ -37,9 +37,9 @@
     "gu aiji"
   ],
   "description": {
-    "en": "Three thousand years of kingdoms along the Nile, ruled by kings the Greeks called pharaohs: Narmer's united valley, the pyramid builders, the empire of Thutmose III and Ramesses II, Libyan, Nubian and Persian dynasties, then Alexander's Greek successors down to Cleopatra, whose death in 30 BCE made Egypt a Roman province. Its people called it Kemet, the black land of Nile silt (written km.t; the vowels are a modern guess), and its script stayed unreadable for 1,400 years until the Rosetta Stone gave it back.",
-    "es": "Tres mil años de reinos a orillas del Nilo, gobernados por reyes que los griegos llamaron faraones: el valle unificado por Narmer, los constructores de pirámides, el imperio de Tutmosis III y Ramsés II, dinastías libias, nubias y persas, y después los sucesores griegos de Alejandro hasta Cleopatra, cuya muerte en el 30 a. e. c. convirtió a Egipto en provincia romana. Sus habitantes lo llamaban Kemet, la tierra negra del limo del Nilo (escrito km.t; las vocales son una convención moderna), y su escritura fue ilegible durante 1400 años hasta que la piedra de Rosetta la devolvió.",
-    "zh": "尼罗河畔延续三千年的王国，由希腊人称为“法老”的君主统治：纳尔迈统一的河谷、金字塔的建造者、图特摩斯三世与拉美西斯二世的帝国、利比亚人、努比亚人和波斯人的王朝，再到亚历山大的希腊继承者，直至克利奥帕特拉——她于公元前30年去世后埃及成为罗马行省。埃及人称自己的国家为“凯麦特”，即尼罗河淤泥的黑土地（写作km.t，元音是现代的推测）；其文字失传了一千四百年，直到罗塞塔石碑将它找回。"
+    "en": "Three thousand years of kingdoms along the Nile, ruled by kings the Bible calls pharaohs: Narmer's united valley, the pyramid builders, the empire of Thutmose III and Ramesses II, Libyan, Nubian and Persian dynasties, then Alexander's Greek successors down to Cleopatra, whose death in 30 BCE made Egypt a Roman province. Its people called it Kemet, the black land of Nile silt (written km.t; the vowels are a modern guess), and its script stayed unreadable for 1,400 years until the Rosetta Stone gave it back.",
+    "es": "Tres mil años de reinos a orillas del Nilo, gobernados por reyes que la Biblia llama faraones: el valle unificado por Narmer, los constructores de pirámides, el imperio de Tutmosis III y Ramsés II, dinastías libias, nubias y persas, y después los sucesores griegos de Alejandro hasta Cleopatra, cuya muerte en el 30 a. e. c. convirtió a Egipto en provincia romana. Sus habitantes lo llamaban Kemet, la tierra negra del limo del Nilo (escrito km.t; las vocales son una convención moderna), y su escritura fue ilegible durante 1400 años hasta que la piedra de Rosetta la devolvió.",
+    "zh": "尼罗河畔延续三千年的王国，由被《圣经》称为“法老”的君主统治：纳尔迈统一的河谷、金字塔的建造者、图特摩斯三世与拉美西斯二世的帝国、利比亚人、努比亚人和波斯人的王朝，再到亚历山大的希腊继承者，直至克利奥帕特拉——她于公元前30年去世后埃及成为罗马行省。埃及人称自己的国家为“凯麦特”，即尼罗河淤泥的黑土地（写作km.t，元音是现代的推测）；其文字失传了一千四百年，直到罗塞塔石碑将它找回。"
   },
   "reviewed": {
     "es": false,
@@ -94,7 +94,7 @@
           "url": "http://n2t.net/ark:/99152/p0qk76zn9c9"
         },
         {
-          "citation": "British Museum collection thesaurus, \"Ptolemaic\" (332 BC – 30 BC), via PeriodO.",
+          "citation": "British Museum collection thesaurus, \"Ptolemaic\" (332 BC – 31 BC), via PeriodO.",
           "url": "http://n2t.net/ark:/99152/p08m57hsz57"
         },
         {
@@ -109,9 +109,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Egyptian dates before 664 BCE come from king-lists and astronomy, and references disagree by up to two centuries at the start: the unification is put at c. 3150 (World History Encyclopedia), 3100 (UCL), 2950 (UCLA Encyclopedia of Egyptology) or 2900 BCE (Britannica's low chronology). The Old Kingdom begins in 2686 (UCL), 2670 (UEE), 2649 (Metropolitan Museum) or 2543 (Britannica). The bar starts at the conventional 3100 BCE and fades back to 3150; the phase boundaries follow the UCL and Metropolitan Museum schemes used by most museum labels; each phase links the UEE's PeriodO definition. The end, Cleopatra's death in 30 BCE, is certain.",
-        "es": "Las fechas egipcias anteriores al 664 a. e. c. proceden de listas reales y de la astronomía, y las referencias discrepan hasta en dos siglos al principio: la unificación se sitúa hacia 3150 (World History Encyclopedia), 3100 (UCL), 2950 (UCLA Encyclopedia of Egyptology) o 2900 a. e. c. (cronología baja de Britannica). El Reino Antiguo empieza en 2686 (UCL), 2670 (UEE), 2649 (Museo Metropolitano) o 2543 (Britannica). La barra empieza en el convencional 3100 a. e. c. y se difumina hasta 3150; los límites de fase siguen los esquemas de UCL y del Museo Metropolitano, los más usados en las cartelas de los museos; cada fase enlaza la definición de PeriodO de la UEE. El final, la muerte de Cleopatra en el 30 a. e. c., es seguro.",
-        "zh": "公元前664年以前的埃及年代来自王表和天文推算，各参考文献在开端处相差可达两个世纪：统一的年代被定在约公元前3150年（世界历史百科）、3100年（伦敦大学学院）、2950年（UCLA埃及学百科）或2900年（大英百科的低年代学）。古王国的开始分别为公元前2686年（UCL）、2670年（UEE）、2649年（大都会博物馆）或2543年（大英百科）。时间条从传统的公元前3100年开始，并向前渐隐至3150年；分期界线采用UCL和大都会博物馆的方案，也是多数博物馆说明牌所用的方案；每个分期都链接了UEE在PeriodO中的定义。终点——克利奥帕特拉于公元前30年去世——是确定的。"
+        "en": "Egyptian dates before 664 BCE come from king-lists and astronomy, and references disagree by up to two centuries at the start: the unification is put at c. 3150 (World History Encyclopedia), 3100 (UCL), 2950 (UCLA Encyclopedia of Egyptology) or 2900 BCE (Britannica's low chronology). The Old Kingdom begins in 2686 (UCL), 2670 (UEE), 2649 (Metropolitan Museum) or 2543 (Britannica). The bar starts at the conventional 3100 BCE and fades back to 3150; the phase boundaries follow UCL, except the Middle Kingdom start (UEE, 2040) and the Second Intermediate start (Metropolitan Museum, 1650); each phase links the UEE's PeriodO definition. The end, Cleopatra's death in 30 BCE, is certain.",
+        "es": "Las fechas egipcias anteriores al 664 a. e. c. proceden de listas reales y de la astronomía, y las referencias discrepan hasta en dos siglos al principio: la unificación se sitúa hacia 3150 (World History Encyclopedia), 3100 (UCL), 2950 (UCLA Encyclopedia of Egyptology) o 2900 a. e. c. (cronología baja de Britannica). El Reino Antiguo empieza en 2686 (UCL), 2670 (UEE), 2649 (Museo Metropolitano) o 2543 (Britannica). La barra empieza en el convencional 3100 a. e. c. y se difumina hasta 3150; los límites de fase siguen a UCL, salvo el inicio del Reino Medio (UEE, 2040) y el del Segundo periodo intermedio (Museo Metropolitano, 1650); cada fase enlaza la definición de PeriodO de la UEE. El final, la muerte de Cleopatra en el 30 a. e. c., es seguro.",
+        "zh": "公元前664年以前的埃及年代来自王表和天文推算，各参考文献在开端处相差可达两个世纪：统一的年代被定在约公元前3150年（世界历史百科）、3100年（伦敦大学学院）、2950年（UCLA埃及学百科）或2900年（大英百科的低年代学）。古王国的开始分别为公元前2686年（UCL）、2670年（UEE）、2649年（大都会博物馆）或2543年（大英百科）。时间条从传统的公元前3100年开始，并向前渐隐至3150年；分期界线采用UCL的方案，但中王国的开始（UEE，2040年）和第二中间期的开始（大都会博物馆，1650年）除外；每个分期都链接了UEE在PeriodO中的定义。终点——克利奥帕特拉于公元前30年去世——是确定的。"
       }
     }
   ],
@@ -319,7 +319,7 @@
       "end": -29,
       "sources": [
         {
-          "citation": "British Museum collection thesaurus, \"Ptolemaic\" (332 BC – 30 BC), via PeriodO.",
+          "citation": "British Museum collection thesaurus, \"Ptolemaic\" (332 BC – 31 BC), via PeriodO.",
           "url": "http://n2t.net/ark:/99152/p08m57hsz57"
         },
         {
@@ -439,9 +439,9 @@
       ],
       "disputed": false,
       "note": {
-        "en": "Khufu reigned c. 2551–2528 BCE in the Metropolitan Museum's chronology, about a century later in Britannica's.",
-        "es": "Keops reinó hacia 2551–2528 a. e. c. según la cronología del Museo Metropolitano, y alrededor de un siglo después según Britannica.",
-        "zh": "按大都会博物馆的年代学，胡夫在位约公元前2551–2528年；按大英百科则晚约一个世纪。"
+        "en": "Khufu reigned c. 2551–2528 BCE in the Metropolitan Museum's chronology, a few decades later in Britannica's (4th Dynasty from c. 2543).",
+        "es": "Keops reinó hacia 2551–2528 a. e. c. según la cronología del Museo Metropolitano, y unas décadas después según Britannica (dinastía IV desde c. 2543).",
+        "zh": "按大都会博物馆的年代学，胡夫在位约公元前2551–2528年；按大英百科则晚几十年（第四王朝始于约公元前2543年）。"
       },
       "place": {
         "name": {
@@ -736,7 +736,7 @@
     },
     {
       "id": "akhenaten-amarna",
-      "start": -1347,
+      "start": -1348,
       "type": "founding",
       "title": {
         "en": "Akhenaten abandons Thebes for a new city, Akhetaten (Amarna), and its one god, the sun disc Aten",
@@ -1213,7 +1213,7 @@
         "name": {
           "en": "Alexandria",
           "es": "Alejandría",
-          "zh": "亚历山大"
+          "zh": "亚历山大城"
         },
         "lat": 31.2014,
         "lon": 29.9098,
@@ -1253,7 +1253,7 @@
         "name": {
           "en": "Alexandria",
           "es": "Alejandría",
-          "zh": "亚历山大"
+          "zh": "亚历山大城"
         },
         "lat": 31.2014,
         "lon": 29.9098,
@@ -1373,7 +1373,7 @@
         "name": {
           "en": "Alexandria",
           "es": "Alejandría",
-          "zh": "亚历山大"
+          "zh": "亚历山大城"
         },
         "lat": 31.2014,
         "lon": 29.9098,
@@ -1460,9 +1460,9 @@
     {
       "id": "ramesses-shang",
       "text": {
-        "en": "Ramesses II's 66-year reign overlapped Wu Ding of Shang, whose diviners at Anyang carved the earliest large body of Chinese writing onto oracle bones, and the building of the Lion Gate at Mycenae.",
-        "es": "El reinado de 66 años de Ramsés II coincidió con Wu Ding de Shang, cuyos adivinos en Anyang grabaron en huesos oraculares el primer gran corpus de escritura china, y con la construcción de la Puerta de los Leones de Micenas.",
-        "zh": "拉美西斯二世66年的统治与商王武丁同时——武丁在安阳的贞人把最早的大宗汉字刻在甲骨上；迈锡尼的狮子门也在此时建成。"
+        "en": "Ramesses II's 66-year reign overlapped the building of the Lion Gate at Mycenae and, in the Xia–Shang–Zhou Project's dates, Wu Ding of Shang, whose diviners at Anyang carved the earliest large body of Chinese writing onto oracle bones.",
+        "es": "El reinado de 66 años de Ramsés II coincidió con la construcción de la Puerta de los Leones de Micenas y, según las fechas del Proyecto Xia–Shang–Zhou, con Wu Ding de Shang, cuyos adivinos en Anyang grabaron en huesos oraculares el primer gran corpus de escritura china.",
+        "zh": "拉美西斯二世66年的统治期间，迈锡尼的狮子门建成；按夏商周断代工程的年代，商王武丁也与他同时——武丁在安阳的贞人把最早的大宗汉字刻在甲骨上。"
       },
       "start": -1278,
       "end": -1212,
@@ -1479,7 +1479,7 @@
           "citation": "Mylonas, George E. (1966). Mycenae and the Mycenaean Age. Princeton University Press."
         }
       ],
-      "disputed": false
+      "disputed": true
     },
     {
       "id": "bronze-age-collapse",
@@ -1504,9 +1504,9 @@
     {
       "id": "kushite-world",
       "text": {
-        "en": "While Nubian kings ruled from Napata to the Delta, the Zhou court had just fled east to Luoyang, and Rome was still a cluster of hut villages on its hills.",
-        "es": "Mientras los reyes nubios gobernaban desde Napata hasta el Delta, la corte Zhou acababa de huir hacia el este, a Luoyang, y Roma era todavía un grupo de aldeas de cabañas sobre sus colinas.",
-        "zh": "努比亚诸王统治从纳帕塔到三角洲的土地时，周王室刚刚东迁洛邑，罗马还只是山丘上的一片茅屋村落。"
+        "en": "While Nubian kings ruled from Napata to the Delta, the Eastern Zhou court sat at Luoyang, and Rome was still a cluster of hut villages on its hills.",
+        "es": "Mientras los reyes nubios gobernaban desde Napata hasta el Delta, la corte de los Zhou orientales residía en Luoyang, y Roma era todavía un grupo de aldeas de cabañas sobre sus colinas.",
+        "zh": "努比亚诸王统治从纳帕塔到三角洲的土地时，东周王室居于洛邑，罗马还只是山丘上的一片茅屋村落。"
       },
       "start": -727,
       "end": -663,
@@ -1516,8 +1516,8 @@
           "url": "https://www.metmuseum.org/toah/hd/tipd/hd_tipd.htm"
         },
         {
-          "citation": "Shaughnessy, Edward L. (1999). \"Western Zhou History.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 292–351. Cambridge University Press.",
-          "url": "https://doi.org/10.1017/CHOL9780521470308.007"
+          "citation": "Hsu, Cho-yun (1999). \"The Spring and Autumn Period.\" In Loewe & Shaughnessy (eds), The Cambridge History of Ancient China, 545–586. Cambridge University Press.",
+          "url": "https://doi.org/10.1017/CHOL9780521470308.010"
         },
         {
           "citation": "Cornell, T. J. (1995). The Beginnings of Rome: Italy and Rome from the Bronze Age to the Punic Wars (c. 1000–264 BC). Routledge.",
