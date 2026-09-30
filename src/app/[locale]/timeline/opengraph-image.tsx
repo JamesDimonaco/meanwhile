@@ -7,7 +7,7 @@ import { ogFrame } from "@/lib/og/frame";
 import { ogColors, OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
 import { SITE_URL } from "@/lib/seo";
 
-// Static export has no server to compute this per request.
+// Built once per deploy: nothing here changes between requests.
 export const dynamic = "force-static";
 export const alt = "World timeline";
 export const size = OG_SIZE;

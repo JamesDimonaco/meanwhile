@@ -17,7 +17,7 @@ export default async function ComparePage({ params }: PageProps<"/[locale]/compa
   await pageLocale(params);
   return (
     <div className="mx-auto w-full max-w-4xl pt-4">
-      {/* useSearchParams needs a Suspense boundary in a static export. */}
+      {/* useSearchParams needs a Suspense boundary in a prerendered page. */}
       <Suspense>
         <CompareView entries={loadCultures().map(toSearchEntry)} />
       </Suspense>

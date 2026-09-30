@@ -19,7 +19,7 @@ function remember(locale: Locale) {
  * Keeps the query string, so the timeline stays on its ?year=.
  */
 export function LanguageSwitcher() {
-  // useSearchParams needs a Suspense boundary in a static export. The static
+  // useSearchParams needs a Suspense boundary in a prerendered page. The static
   // HTML gets the same links without the query until hydration fills it in.
   return (
     <Suspense fallback={<LanguageLinks search="" />}>

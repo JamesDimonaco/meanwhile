@@ -7,7 +7,7 @@ import { ogFrame } from "@/lib/og/frame";
 import { ogColors, OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
 import { SITE_URL } from "@/lib/seo";
 
-// Static export has no server to compute this per request.
+// Built once per deploy: nothing here changes between requests.
 export const dynamic = "force-static";
 export const alt = "Meanwhile";
 export const size = OG_SIZE;
@@ -16,7 +16,7 @@ export const contentType = OG_CONTENT_TYPE;
 const brand = new URL(SITE_URL).host;
 
 // Route Handlers (which this file is, under the hood) need their own
-// generateStaticParams for a static export, unlike page.tsx which inherits
+// generateStaticParams to be prerendered, unlike page.tsx which inherits
 // [locale]'s from the layout.
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

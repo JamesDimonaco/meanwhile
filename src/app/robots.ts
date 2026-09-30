@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { absoluteUrl, SITE_URL } from "@/lib/seo";
 
-// Static export has no server to compute this per request.
+// Built once per deploy: nothing here changes between requests.
 export const dynamic = "force-static";
 
 // Nothing on the site is private: no accounts, no admin routes. One rule

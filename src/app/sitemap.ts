@@ -3,7 +3,7 @@ import { DEFAULT_LOCALE, HTML_LANG, LOCALES } from "@/i18n/locales";
 import { loadCultures } from "@/lib/data/load";
 import { absoluteUrl, localePath, type SeoPath } from "@/lib/seo";
 
-// Static export has no server to compute this per request.
+// Built once per deploy: nothing here changes between requests.
 export const dynamic = "force-static";
 
 /** Every page path, locale-free: the root redirect has no content of its own, so it's excluded. */
