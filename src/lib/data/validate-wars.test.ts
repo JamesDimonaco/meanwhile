@@ -379,8 +379,8 @@ describe("wars", () => {
       expect([...SENSITIVE_WARS].sort()).toEqual([
         "falklands-war",
         "korean-war",
-        "russo-ukrainian-war-2022",
         "russo-ukrainian-war",
+        "russo-ukrainian-war-2022",
         "second-sino-japanese-war",
         "vietnam-war",
       ]);
