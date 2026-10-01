@@ -1,9 +1,10 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { loadCultures } from "@/lib/data/load";
-import { decideScan, type ScanResponse } from "@/lib/scan/answer";
+import { decideScan } from "@/lib/scan/answer";
 import { buildScanSystemPrompt } from "@/lib/scan/prompt";
 import { createRateLimiter, SCAN_INSTANCE_LIMIT, SCAN_RATE_LIMIT } from "@/lib/scan/rate-limit";
 import { readPlacard, type Catalogue } from "@/lib/scan/read-placard";
+import type { ScanResponse } from "@/lib/scan/result";
 import { checkUploadBytes, checkUploadHeaders, type UploadError } from "@/lib/scan/upload";
 
 export const runtime = "nodejs";

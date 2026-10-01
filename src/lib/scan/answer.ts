@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { fromDisplayYear } from "@/lib/years";
+import { timelineYear, type ScanDestination, type ScanResult } from "./result";
 
 export const CONFIDENCES = ["high", "medium", "low"] as const;
 
@@ -14,21 +15,6 @@ export const ModelAnswer = z.strictObject({
   confidence: z.enum(CONFIDENCES),
 });
 export type ModelAnswer = z.infer<typeof ModelAnswer>;
-
-export type ScanDestination =
-  | { kind: "culture"; id: string }
-  | { kind: "year"; year: number }
-  | { kind: "none" };
-
-export type ScanResult = {
-  destination: ScanDestination;
-  reading: {
-    text: string;
-    language: string;
-    /** Astronomical years. */
-    year: { start: number; end: number } | null;
-  };
-};
 
 const ERA_YEAR_SCHEMA = {
   type: "object",
@@ -79,11 +65,6 @@ function readYear(year: ModelAnswer["year"]): ScanResult["reading"]["year"] {
   return { start: Math.min(start, end), end: Math.max(start, end) };
 }
 
-/** Where the timeline opens for a range read off a placard: its middle ("2nd century CE" -> 150). */
-export function timelineYear(range: { start: number; end: number }): number {
-  return Math.floor((range.start + range.end) / 2);
-}
-
 export function decideScan(answer: ModelAnswer, cultureIds: ReadonlySet<string>): ScanResult {
   const reading = {
     text: answer.text.replace(/[\p{Cc}\s]+/gu, " ").trim().slice(0, MAX_TEXT),
@@ -99,8 +80,3 @@ export function decideScan(answer: ModelAnswer, cultureIds: ReadonlySet<string>)
   }
   return { destination, reading };
 }
-
-export type ScanError = "unavailable" | "rate-limited" | "bad-image" | "too-large" | "failed";
-
-/** The body of every /api/scan reply. */
-export type ScanResponse = { status: "ok"; result: ScanResult } | { status: "error"; error: ScanError };

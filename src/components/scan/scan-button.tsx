@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { Link, useRouter } from "@/i18n/navigation";
-import { timelineYear, type ScanError, type ScanResponse, type ScanResult } from "@/lib/scan/answer";
+import { timelineYear, type ScanError, type ScanResponse, type ScanResult } from "@/lib/scan/result";
 import { downscaleToJpeg } from "./downscale";
 
 type Problem = "offline" | "unavailable" | "rateLimited" | "badImage" | "failed";
