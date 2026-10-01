@@ -1,0 +1,1399 @@
+{
+  "id": "vietnam-war",
+  "wikidataId": "Q8740",
+  "name": {
+    "en": "Vietnam War",
+    "es": "Guerra de Vietnam",
+    "zh": "越南战争"
+  },
+  "aliases": [
+    "Second Indochina War",
+    "Segunda guerra de Indochina",
+    "第二次印度支那战争",
+    "American War",
+    "Guerra americana",
+    "Kháng chiến chống Mỹ",
+    "抗美救国战争",
+    "Viet Cong",
+    "越共",
+    "Tet Offensive",
+    "Ofensiva del Tet",
+    "新春攻势",
+    "Fall of Saigon",
+    "Caída de Saigón",
+    "西贡陷落"
+  ],
+  "altNames": [
+    {
+      "text": "Kháng chiến chống Mỹ cứu nước",
+      "lang": "vi",
+      "usedBy": {
+        "en": "Vietnam",
+        "es": "Vietnam",
+        "zh": "越南"
+      },
+      "gloss": {
+        "en": "Resistance War against America to Save the Nation",
+        "es": "Guerra de resistencia contra Estados Unidos para salvar la nación",
+        "zh": "抗美救国战争"
+      }
+    }
+  ],
+  "description": {
+    "en": "After the Geneva armistices, Ngô Đình Diệm proclaimed the Republic of Vietnam in the south in October 1955 and, with US backing, refused the elections set for 1956. From 1959 the North backed an armed insurgency in the south, led from 1960 by the National Liberation Front (the Viet Cong) and supplied along the Ho Chi Minh Trail through Laos. US military personnel in the South passed 23,000 by the end of 1964. After the Gulf of Tonkin incidents, direct US military involvement escalated from 1965: bombing of the North and ground troops, 543,400 at the 1969 peak. South Korea, Australia, New Zealand, Thailand and the Philippines sent forces to the South; the Soviet Union and China sent arms and supplies to the North, and China also sent anti-aircraft and engineering troops. The Tet Offensive of 1968 failed militarily but weakened US public support for the war. From 1969 US troops withdrew while fighting spread into Cambodia and Laos. The Paris Peace Accords of January 1973 ended direct US involvement, but not the war. In spring 1975 PAVN divisions overran the South, and on 30 April their tanks entered Saigon.",
+    "es": "Tras los armisticios de Ginebra, Ngô Đình Diệm proclamó la República de Vietnam en el sur en octubre de 1955 y, con respaldo estadounidense, rechazó las elecciones previstas para 1956. Desde 1959 el Norte apoyó una insurgencia armada en el sur, dirigida desde 1960 por el Frente Nacional de Liberación (el Viet Cong) y abastecida por la ruta Ho Chi Minh a través de Laos. El personal militar estadounidense en el Sur superó los 23.000 a finales de 1964. Tras los incidentes del golfo de Tonkín, la intervención militar directa de EE. UU. se intensificó desde 1965: bombardeos sobre el Norte y tropas terrestres, 543.400 en el máximo de 1969. Corea del Sur, Australia, Nueva Zelanda, Tailandia y Filipinas enviaron fuerzas al Sur; la Unión Soviética y China enviaron armas y suministros al Norte, y China también envió tropas antiaéreas y de ingenieros. La ofensiva del Tet de 1968 fracasó en lo militar, pero debilitó el apoyo de la opinión pública estadounidense a la guerra. Desde 1969 las tropas de EE. UU. se retiraron mientras los combates se extendían a Camboya y Laos. Los Acuerdos de Paz de París de enero de 1973 pusieron fin a la intervención directa estadounidense, pero no a la guerra. En la primavera de 1975 divisiones del EPV arrollaron el Sur, y el 30 de abril sus tanques entraron en Saigón.",
+    "zh": "日内瓦停战后，吴廷琰于1955年10月在南方宣布成立越南共和国，并在美国支持下拒绝举行原定于1956年的选举。1959年起，北方支持南方的武装起义，该起义自1960年起由南方民族解放阵线（越共）领导，并经由穿越老挝的胡志明小道获得补给。到1964年底，在南方的美国军事人员超过2.3万人。北部湾事件之后，美国直接军事介入从1965年开始升级：轰炸北方并派遣地面部队，1969年高峰时达543400人。韩国、澳大利亚、新西兰、泰国和菲律宾向南方派出部队；苏联和中国向北方提供武器和物资，中国还派出了防空和工程部队。1968年的春节攻势在军事上失败，却削弱了美国公众对战争的支持。1969年起美军逐步撤出，而战火蔓延到柬埔寨和老挝。1973年1月的《巴黎和平协约》结束了美国的直接介入，但战争并未结束。1975年春，越南人民军各师席卷南方，4月30日其坦克开进西贡。"
+  },
+  "outcome": {
+    "en": "The Republic of Vietnam surrendered on 30 April 1975; North and South were formally united as the Socialist Republic of Vietnam on 2 July 1976.",
+    "es": "La República de Vietnam se rindió el 30 de abril de 1975; el Norte y el Sur se unificaron formalmente como República Socialista de Vietnam el 2 de julio de 1976.",
+    "zh": "越南共和国于1975年4月30日投降；1976年7月2日，南北正式统一为越南社会主义共和国。"
+  },
+  "tier": "flagship",
+  "sensitive": true,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1955,
+    "latestStart": 1960,
+    "earliestEnd": 1975,
+    "latestEnd": 1975,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Vietnam War.\"",
+        "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+      },
+      {
+        "citation": "Office of the Historian, U.S. Department of State. \"U.S. Involvement in the Vietnam War: the Gulf of Tonkin and Escalation, 1964.\"",
+        "url": "https://history.state.gov/milestones/1961-1968/gulf-of-tonkin"
+      },
+      {
+        "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+        "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "The start is disputed. A common convention, used by the US Department of Defense, is 1 November 1955; others date the war from the insurgency of 1959–1960, or the US war from 1961 or 1965, when direct US military involvement escalated. It ended on 30 April 1975.",
+      "es": "El inicio se discute. Una convención habitual, usada por el Departamento de Defensa de EE. UU., es el 1 de noviembre de 1955; otros fechan la guerra desde la insurgencia de 1959-1960, o la guerra estadounidense desde 1961 o 1965, cuando se intensificó la intervención militar directa de EE. UU. Terminó el 30 de abril de 1975.",
+      "zh": "起点存在争议。美国国防部采用的常见说法是1955年11月1日；也有人从1959—1960年的武装起义算起，或把美国的战争定在1961年或美国直接军事介入升级的1965年。战争于1975年4月30日结束。"
+    }
+  },
+  "sides": [
+    {
+      "id": "north-vietnam-and-allies",
+      "label": {
+        "en": "North Vietnam, the Viet Cong and their backers",
+        "es": "Vietnam del Norte, el Viet Cong y sus apoyos",
+        "zh": "北越、越共及其支持者"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Democratic Republic of Vietnam (North Vietnam)",
+            "es": "República Democrática de Vietnam (Vietnam del Norte)",
+            "zh": "越南民主共和国（北越）"
+          },
+          "role": "belligerent",
+          "today": [
+            "VN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "National Liberation Front (Viet Cong) and, from 1969, the Provisional Revolutionary Government",
+            "es": "Frente Nacional de Liberación (Viet Cong) y, desde 1969, el Gobierno Revolucionario Provisional",
+            "zh": "南方民族解放阵线（越共）及1969年起的临时革命政府"
+          },
+          "role": "belligerent",
+          "today": [
+            "VN"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "CN",
+          "role": "supporter",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Soviet Union",
+            "es": "Unión Soviética",
+            "zh": "苏联"
+          },
+          "role": "supporter",
+          "today": [
+            "RU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-vietnam-and-allies",
+      "label": {
+        "en": "South Vietnam, the United States and their allies",
+        "es": "Vietnam del Sur, Estados Unidos y sus aliados",
+        "zh": "南越、美国及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Republic of Vietnam (South Vietnam)",
+            "es": "República de Vietnam (Vietnam del Sur)",
+            "zh": "越南共和国（南越）"
+          },
+          "role": "belligerent",
+          "today": [
+            "VN"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "belligerent",
+          "today": [
+            "US"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "KR",
+          "role": "belligerent",
+          "today": [
+            "KR"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "AU",
+          "role": "belligerent",
+          "today": [
+            "AU"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "NZ",
+          "role": "belligerent",
+          "today": [
+            "NZ"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "TH",
+          "role": "belligerent",
+          "today": [
+            "TH"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "PH",
+          "role": "belligerent",
+          "today": [
+            "PH"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "two-states-and-insurgency",
+      "name": {
+        "en": "Two states and a growing insurgency",
+        "es": "Dos Estados y una insurgencia creciente",
+        "zh": "两个国家与日益扩大的武装起义"
+      },
+      "start": 1955,
+      "end": 1964,
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"U.S. Involvement in the Vietnam War: the Gulf of Tonkin and Escalation, 1964.\"",
+          "url": "https://history.state.gov/milestones/1961-1968/gulf-of-tonkin"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        }
+      ]
+    },
+    {
+      "id": "us-ground-war",
+      "name": {
+        "en": "US escalation and ground war",
+        "es": "Escalada y guerra terrestre de EE. UU.",
+        "zh": "美国升级与地面战争"
+      },
+      "start": 1965,
+      "end": 1968,
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"U.S. Involvement in the Vietnam War: The Tet Offensive, 1968.\"",
+          "url": "https://history.state.gov/milestones/1961-1968/tet"
+        }
+      ]
+    },
+    {
+      "id": "withdrawal-and-paris",
+      "name": {
+        "en": "US withdrawal and the Paris accords",
+        "es": "Retirada de EE. UU. y acuerdos de París",
+        "zh": "美军撤出与巴黎协约"
+      },
+      "start": 1969,
+      "end": 1973,
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Ending the Vietnam War, 1969–1973.\"",
+          "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        }
+      ]
+    },
+    {
+      "id": "final-offensive",
+      "name": {
+        "en": "War between the Vietnamese parties and the final offensive",
+        "es": "Guerra entre las partes vietnamitas y ofensiva final",
+        "zh": "越南各方之战与最后攻势"
+      },
+      "start": 1974,
+      "end": 1975,
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Ending the Vietnam War, 1969–1973.\"",
+          "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+        },
+        {
+          "citation": "\"Vietnam War.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/vietnam-war"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "republic-of-vietnam-proclaimed",
+      "start": 1955,
+      "title": {
+        "en": "After a referendum widely described as rigged, Ngô Đình Diệm proclaims the Republic of Vietnam in the south on 26 October, with himself as president",
+        "es": "Tras un referéndum que muchos describen como amañado, Ngô Đình Diệm proclama la República de Vietnam en el sur el 26 de octubre, con él mismo como presidente",
+        "zh": "在一场普遍被认为舞弊的公投之后，吴廷琰于10月26日在南方宣布成立越南共和国，自任总统"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Vietnam War.\"",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre du Viêt Nam.\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_du_Viêt_Nam"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Saigon",
+          "es": "Saigón",
+          "zh": "西贡"
+        },
+        "lat": 10.777,
+        "lon": 106.695
+      },
+      "wikidataId": "Q1257296"
+    },
+    {
+      "id": "battle-of-ap-bac",
+      "start": 1963,
+      "title": {
+        "en": "At Ấp Bắc on 2 January a Viet Cong battalion of about 320 men holds off and inflicts heavy losses on an ARVN force of some 3,000 equipped with US helicopters and armoured carriers",
+        "es": "En Ấp Bắc, el 2 de enero, un batallón del Viet Cong de unos 320 hombres resiste e inflige graves pérdidas a una fuerza del ERVN de unos 3000 soldados equipada con helicópteros y vehículos blindados estadounidenses",
+        "zh": "1月2日，约320人的越共一个营在北邑顶住约3000人的南越军队的进攻并使其损失惨重，后者配有美国直升机和装甲运兵车"
+      },
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vietnam War.\"",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ấp Bắc, Mekong Delta",
+          "es": "Ấp Bắc, delta del Mekong",
+          "zh": "北邑（湄公河三角洲）"
+        },
+        "lat": 10.438,
+        "lon": 106.195
+      },
+      "wikidataId": "Q280468"
+    },
+    {
+      "id": "thich-quang-duc",
+      "start": 1963,
+      "title": {
+        "en": "Amid Buddhist protests against the Diệm government, the monk Thích Quảng Đức burns himself to death at a Saigon intersection in June",
+        "es": "En medio de las protestas budistas contra el gobierno de Diệm, el monje Thích Quảng Đức se quema hasta morir en un cruce de Saigón en junio",
+        "zh": "在佛教徒抗议吴廷琰政府期间，释广德法师于6月在西贡一个十字路口自焚身亡"
+      },
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "Wikipedia (English). \"Thích Quảng Đức.\"",
+          "url": "https://en.wikipedia.org/wiki/Thích_Quảng_Đức"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Saigon",
+          "es": "Saigón",
+          "zh": "西贡"
+        },
+        "lat": 10.777,
+        "lon": 106.695
+      }
+    },
+    {
+      "id": "diem-overthrown",
+      "start": 1963,
+      "title": {
+        "en": "ARVN generals seize power in Saigon on 1 November, with US officials standing aside; Diệm and his brother Ngô Đình Nhu are killed",
+        "es": "Generales del ERVN toman el poder en Saigón el 1 de noviembre, sin que los funcionarios estadounidenses intervengan; Diệm y su hermano Ngô Đình Nhu son asesinados",
+        "zh": "11月1日，南越军队将领在西贡夺取政权，美国官员未加阻止；吴廷琰及其弟吴廷瑈被杀"
+      },
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"U.S. Involvement in the Vietnam War: the Gulf of Tonkin and Escalation, 1964.\"",
+          "url": "https://history.state.gov/milestones/1961-1968/gulf-of-tonkin"
+        },
+        {
+          "citation": "\"Vietnam War.\" Encyclopedia of Espionage, Intelligence, and Security. Gale, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/politics/encyclopedias-almanacs-transcripts-and-maps/vietnam-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Saigon",
+          "es": "Saigón",
+          "zh": "西贡"
+        },
+        "lat": 10.777,
+        "lon": 106.695
+      },
+      "wikidataId": "Q1078181"
+    },
+    {
+      "id": "gulf-of-tonkin",
+      "start": 1964,
+      "title": {
+        "en": "North Vietnamese patrol boats fire on the destroyer USS Maddox on 2 August; a second attack reported on 4 August is doubted. On 7 August Congress passes the Gulf of Tonkin Resolution",
+        "es": "Lanchas patrulleras norvietnamitas disparan contra el destructor USS Maddox el 2 de agosto; un segundo ataque notificado el 4 de agosto se pone en duda. El 7 de agosto el Congreso aprueba la Resolución del Golfo de Tonkín",
+        "zh": "8月2日，北越巡逻艇向美国驱逐舰“马多克斯”号开火；8月4日报告的第二次袭击存疑。8月7日，美国国会通过《北部湾决议》"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"U.S. Involvement in the Vietnam War: the Gulf of Tonkin and Escalation, 1964.\"",
+          "url": "https://history.state.gov/milestones/1961-1968/gulf-of-tonkin"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Doubts later emerged over whether the 4 August attack took place at all.",
+        "es": "Más tarde surgieron dudas sobre si el ataque del 4 de agosto llegó a producirse.",
+        "zh": "后来有人怀疑8月4日的袭击是否真的发生过。"
+      },
+      "place": {
+        "name": {
+          "en": "Gulf of Tonkin",
+          "es": "Golfo de Tonkín",
+          "zh": "北部湾"
+        },
+        "lat": 19.7,
+        "lon": 106.8
+      },
+      "wikidataId": "Q482402"
+    },
+    {
+      "id": "pleiku-and-rolling-thunder",
+      "start": 1965,
+      "title": {
+        "en": "A Viet Cong attack on the US base at Pleiku on 7 February kills eight Americans; US aircraft strike North Vietnam, and within weeks the sustained bombing campaign Rolling Thunder begins",
+        "es": "Un ataque del Viet Cong a la base estadounidense de Pleiku el 7 de febrero mata a ocho estadounidenses; aviones de EE. UU. atacan Vietnam del Norte y en pocas semanas empieza la campaña continua de bombardeos Rolling Thunder",
+        "zh": "2月7日，越共袭击波来古美军基地，打死8名美国人；美国飞机随即轰炸北越，数周内持续轰炸行动“滚雷行动”开始"
+      },
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"U.S. Involvement in the Vietnam War: the Gulf of Tonkin and Escalation, 1964.\"",
+          "url": "https://history.state.gov/milestones/1961-1968/gulf-of-tonkin"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Pleiku",
+          "es": "Pleiku",
+          "zh": "波来古"
+        },
+        "lat": 13.98,
+        "lon": 108.0
+      },
+      "wikidataId": "Q547247"
+    },
+    {
+      "id": "marines-land-at-da-nang",
+      "start": 1965,
+      "title": {
+        "en": "Two battalions of US Marines land at Da Nang on 8 March, the first US ground combat units; by the end of the year 184,300 US personnel are in the South",
+        "es": "Dos batallones de marines estadounidenses desembarcan en Da Nang el 8 de marzo, las primeras unidades terrestres de combate de EE. UU.; a fin de año hay 184.300 efectivos estadounidenses en el Sur",
+        "zh": "3月8日，两个营的美国海军陆战队在岘港登陆，这是美军首批地面作战部队；到年底，在南方的美军人员达184300人"
+      },
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vietnam War.\"",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Da Nang",
+          "es": "Da Nang",
+          "zh": "岘港"
+        },
+        "lat": 16.067,
+        "lon": 108.22
+      }
+    },
+    {
+      "id": "battle-of-ia-drang",
+      "start": 1965,
+      "title": {
+        "en": "In November US air-mobile troops and People's Army of Vietnam regiments fight their first major battle, in the Ia Drang valley of the Central Highlands",
+        "es": "En noviembre, tropas aeromóviles estadounidenses y regimientos del Ejército Popular de Vietnam libran su primera gran batalla, en el valle de Ia Drang, en las Tierras Altas Centrales",
+        "zh": "11月，美国空中机动部队与越南人民军各团在中部高原的德浪河谷进行首次大规模交战"
+      },
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "\"Vietnam War.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/vietnam-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ia Drang valley",
+          "es": "Valle de Ia Drang",
+          "zh": "德浪河谷"
+        },
+        "lat": 13.583,
+        "lon": 107.717
+      },
+      "wikidataId": "Q714749"
+    },
+    {
+      "id": "battle-of-long-tan",
+      "start": 1966,
+      "title": {
+        "en": "On 18 August an Australian rifle company of 108 men fights a far larger Viet Cong and PAVN force in a rubber plantation near Long Tân until relieved",
+        "es": "El 18 de agosto una compañía de fusileros australiana de 108 hombres combate contra una fuerza del Viet Cong y del EPV muy superior en una plantación de caucho cerca de Long Tân hasta que llegan refuerzos",
+        "zh": "8月18日，一个108人的澳大利亚步兵连在隆新附近的橡胶园与兵力远超自己的越共和越南人民军部队交战，直至援军赶到"
+      },
+      "sources": [
+        {
+          "citation": "Australian War Memorial. \"Vietnam War 1962–75.\"",
+          "url": "https://www.awm.gov.au/articles/event/vietnam"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Long Tan.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Long_Tan"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Long Tân, Phước Tuy",
+          "es": "Long Tân, Phước Tuy",
+          "zh": "隆新（福绥省）"
+        },
+        "lat": 10.554,
+        "lon": 107.259
+      },
+      "wikidataId": "Q259526"
+    },
+    {
+      "id": "siege-of-khe-sanh",
+      "start": 1968,
+      "title": {
+        "en": "From late January PAVN divisions surround the US Marine and ARVN base at Khe Sanh; US artillery and B-52 bombing break the siege by April, and the Marines leave the base in June",
+        "es": "Desde finales de enero divisiones del EPV rodean la base de marines estadounidenses y del ERVN en Khe Sanh; la artillería y los bombardeos de B-52 rompen el asedio en abril, y los marines abandonan la base en junio",
+        "zh": "1月下旬起，越南人民军各师包围溪生的美国海军陆战队和南越军队基地；美军炮火和B-52轰炸于4月打破围困，海军陆战队于6月撤离该基地"
+      },
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "\"Vietnam War.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/vietnam-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Khe Sanh",
+          "es": "Khe Sanh",
+          "zh": "溪生"
+        },
+        "lat": 16.654,
+        "lon": 106.724
+      },
+      "wikidataId": "Q247253"
+    },
+    {
+      "id": "tet-offensive",
+      "start": 1968,
+      "title": {
+        "en": "On 30–31 January, during the Tet holiday, Viet Cong and PAVN forces attack cities and bases across South Vietnam, breaching the outer wall of the US Embassy in Saigon",
+        "es": "El 30 y 31 de enero, durante la fiesta del Tet, fuerzas del Viet Cong y del EPV atacan ciudades y bases en todo Vietnam del Sur y abren brecha en el muro exterior de la embajada de EE. UU. en Saigón",
+        "zh": "1月30日至31日春节期间，越共和越南人民军部队袭击南越各地的城市和基地，并突破了西贡美国大使馆的外墙"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"U.S. Involvement in the Vietnam War: The Tet Offensive, 1968.\"",
+          "url": "https://history.state.gov/milestones/1961-1968/tet"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Saigon",
+          "es": "Saigón",
+          "zh": "西贡"
+        },
+        "lat": 10.777,
+        "lon": 106.695
+      },
+      "wikidataId": "Q82542"
+    },
+    {
+      "id": "battle-of-hue",
+      "start": 1968,
+      "title": {
+        "en": "Viet Cong and PAVN troops take most of Huế on 31 January; US Marines and ARVN troops retake the city street by street over nearly a month",
+        "es": "Tropas del Viet Cong y del EPV toman la mayor parte de Hué el 31 de enero; marines estadounidenses y tropas del ERVN recuperan la ciudad calle a calle durante casi un mes",
+        "zh": "1月31日，越共和越南人民军部队占领顺化大部；美国海军陆战队和南越军队用了近一个月逐街夺回该城"
+      },
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Massacre at Huế.\"",
+          "url": "https://en.wikipedia.org/wiki/Massacre_at_Huế"
+        }
+      ],
+      "note": {
+        "en": "During their hold on the city, Viet Cong and PAVN forces killed thousands of civilians and prisoners (about 3,000 civilians in one reference work; estimates run from 2,800 to 6,000).",
+        "es": "Mientras controlaban la ciudad, las fuerzas del Viet Cong y del EPV mataron a miles de civiles y prisioneros (unos 3000 civiles según una obra de referencia; las estimaciones van de 2800 a 6000).",
+        "zh": "越共和越南人民军控制该城期间，杀害了数千名平民和俘虏（一部参考书称约3000名平民，各方估计在2800至6000人之间）。"
+      },
+      "place": {
+        "name": {
+          "en": "Huế",
+          "es": "Hué",
+          "zh": "顺化"
+        },
+        "lat": 16.468,
+        "lon": 107.58
+      },
+      "wikidataId": "Q697053"
+    },
+    {
+      "id": "my-lai-massacre",
+      "start": 1968,
+      "title": {
+        "en": "On 16 March soldiers of a US Army company kill several hundred unarmed villagers, most of them women, children and old men, at Mỹ Lai; the killings become public in November 1969",
+        "es": "El 16 de marzo soldados de una compañía del Ejército de EE. UU. matan a varios cientos de aldeanos desarmados, en su mayoría mujeres, niños y ancianos, en Mỹ Lai; la matanza se hace pública en noviembre de 1969",
+        "zh": "3月16日，美国陆军一个连的士兵在美莱村杀害数百名手无寸铁的村民，其中大多是妇女、儿童和老人；此事于1969年11月被公开"
+      },
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "Wikipedia (English). \"My Lai massacre.\"",
+          "url": "https://en.wikipedia.org/wiki/My_Lai_massacre"
+        }
+      ],
+      "note": {
+        "en": "Counts of the dead run from 347 to 504; the memorial at the site lists 504 names.",
+        "es": "Las cifras de muertos van de 347 a 504; el monumento del lugar recoge 504 nombres.",
+        "zh": "死亡人数从347人到504人不等；当地纪念馆列出了504个名字。"
+      },
+      "place": {
+        "name": {
+          "en": "Mỹ Lai, Quảng Ngãi",
+          "es": "Mỹ Lai, Quảng Ngãi",
+          "zh": "美莱村（广义省）"
+        },
+        "lat": 15.178,
+        "lon": 108.869
+      },
+      "wikidataId": "Q183421"
+    },
+    {
+      "id": "cambodian-campaign",
+      "start": 1970,
+      "title": {
+        "en": "US and ARVN troops cross into Cambodia on 30 April against PAVN and Viet Cong base areas along the border; US units leave by the end of June",
+        "es": "Tropas estadounidenses y del ERVN entran en Camboya el 30 de abril contra las bases del EPV y del Viet Cong a lo largo de la frontera; las unidades de EE. UU. salen a finales de junio",
+        "zh": "4月30日，美军和南越军队越境进入柬埔寨，攻击边境沿线的越南人民军和越共基地；美军部队于6月底撤出"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Ending the Vietnam War, 1969–1973.\"",
+          "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "Wikipedia (English). \"Cambodian campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cambodian_campaign"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Parrot's Beak, Svay Rieng, Cambodia",
+          "es": "Pico de Loro, Svay Rieng, Camboya",
+          "zh": "鹦鹉嘴（柬埔寨柴桢省）"
+        },
+        "lat": 11.1,
+        "lon": 105.95
+      },
+      "wikidataId": "Q2994973"
+    },
+    {
+      "id": "lam-son-719",
+      "start": 1971,
+      "title": {
+        "en": "ARVN troops, with US air support, drive into Laos in February to cut the Ho Chi Minh Trail near Xépôn; PAVN forces counter-attack and the withdrawal breaks down",
+        "es": "Tropas del ERVN, con apoyo aéreo de EE. UU., entran en Laos en febrero para cortar la ruta Ho Chi Minh cerca de Xépôn; las fuerzas del EPV contraatacan y la retirada se desbarata",
+        "zh": "2月，南越军队在美国空中支援下进入老挝，企图在车邦附近切断胡志明小道；越南人民军反击，南越军队撤退时陷入混乱"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Ending the Vietnam War, 1969–1973.\"",
+          "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "Wikipedia (English). \"Operation Lam Son 719.\"",
+          "url": "https://en.wikipedia.org/wiki/Operation_Lam_Son_719"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Xépôn (Tchepone), Laos",
+          "es": "Xépôn (Tchepone), Laos",
+          "zh": "车邦（老挝）"
+        },
+        "lat": 16.69,
+        "lon": 106.22
+      },
+      "wikidataId": "Q2095768"
+    },
+    {
+      "id": "easter-offensive",
+      "start": 1972,
+      "title": {
+        "en": "PAVN divisions with tanks and artillery attack the northern provinces, the Central Highlands and the area north-west of Saigon from late March; US bombing and the ARVN halt the offensive, and Nixon has North Vietnam's harbours mined",
+        "es": "Divisiones del EPV con tanques y artillería atacan las provincias del norte, las Tierras Altas Centrales y la zona al noroeste de Saigón desde finales de marzo; los bombardeos de EE. UU. y el ERVN detienen la ofensiva, y Nixon ordena minar los puertos de Vietnam del Norte",
+        "zh": "3月下旬起，越南人民军各师在坦克和火炮支援下进攻南越北部各省、中部高原和西贡西北地区；美军轰炸和南越军队阻止了攻势，尼克松下令在北越港口布雷"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Ending the Vietnam War, 1969–1973.\"",
+          "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "\"Vietnam War.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/vietnam-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Quảng Trị",
+          "es": "Quảng Trị",
+          "zh": "广治"
+        },
+        "lat": 16.75,
+        "lon": 107.19
+      },
+      "wikidataId": "Q2395085"
+    },
+    {
+      "id": "linebacker-ii",
+      "start": 1972,
+      "title": {
+        "en": "US B-52s bomb Hanoi and Haiphong from 18 to 29 December to force a settlement",
+        "es": "Bombarderos B-52 de EE. UU. atacan Hanói y Haiphong del 18 al 29 de diciembre para forzar un acuerdo",
+        "zh": "12月18日至29日，美国B-52轰炸机轰炸河内和海防，以迫使对方达成协议"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Ending the Vietnam War, 1969–1973.\"",
+          "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "Wikipedia (English). \"Operation Linebacker II.\"",
+          "url": "https://en.wikipedia.org/wiki/Operation_Linebacker_II"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Hanoi",
+          "es": "Hanói",
+          "zh": "河内"
+        },
+        "lat": 21.028,
+        "lon": 105.854
+      },
+      "wikidataId": "Q486866"
+    },
+    {
+      "id": "paris-peace-accords",
+      "start": 1973,
+      "title": {
+        "en": "The United States, North Vietnam, South Vietnam and the Provisional Revolutionary Government sign the Paris Peace Accords on 27 January: a ceasefire, US withdrawal and the return of prisoners",
+        "es": "Estados Unidos, Vietnam del Norte, Vietnam del Sur y el Gobierno Revolucionario Provisional firman los Acuerdos de Paz de París el 27 de enero: alto el fuego, retirada estadounidense y devolución de prisioneros",
+        "zh": "1月27日，美国、北越、南越和临时革命政府签订《巴黎和平协约》：停火、美军撤出并交还战俘"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Ending the Vietnam War, 1969–1973.\"",
+          "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Paris",
+          "es": "París",
+          "zh": "巴黎"
+        },
+        "lat": 48.871,
+        "lon": 2.293
+      },
+      "wikidataId": "Q696802"
+    },
+    {
+      "id": "us-forces-leave",
+      "start": 1973,
+      "title": {
+        "en": "The last US combat troops leave South Vietnam at the end of March; 587 prisoners of war are home by 1 April. Fighting between the Vietnamese parties goes on",
+        "es": "Las últimas tropas de combate de EE. UU. salen de Vietnam del Sur a finales de marzo; 587 prisioneros de guerra han vuelto a casa el 1 de abril. Los combates entre las partes vietnamitas continúan",
+        "zh": "3月底，最后一批美军作战部队撤离南越；到4月1日，587名战俘已回国。越南各方之间的战斗仍在继续"
+      },
+      "sources": [
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vietnam War.\"",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tân Sơn Nhất, Saigon",
+          "es": "Tân Sơn Nhất, Saigón",
+          "zh": "新山一（西贡）"
+        },
+        "lat": 10.819,
+        "lon": 106.652
+      }
+    },
+    {
+      "id": "battle-of-ban-me-thuot",
+      "start": 1975,
+      "title": {
+        "en": "PAVN divisions take Buôn Ma Thuột in the Central Highlands in March; an ARVN withdrawal from the highlands turns into a rout",
+        "es": "Divisiones del EPV toman Buôn Ma Thuột, en las Tierras Altas Centrales, en marzo; una retirada del ERVN de las tierras altas se convierte en desbandada",
+        "zh": "3月，越南人民军各师攻占中部高原的邦美蜀；南越军队从高原撤退时溃不成军"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Ending the Vietnam War, 1969–1973.\"",
+          "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Buôn Ma Thuột",
+          "es": "Buôn Ma Thuột",
+          "zh": "邦美蜀"
+        },
+        "lat": 12.68,
+        "lon": 108.06
+      },
+      "wikidataId": "Q2888227"
+    },
+    {
+      "id": "fall-of-saigon",
+      "start": 1975,
+      "title": {
+        "en": "As the last Americans leave by helicopter, PAVN tanks drive through the gate of the Independence Palace on 30 April and President Dương Văn Minh surrenders",
+        "es": "Mientras los últimos estadounidenses salen en helicóptero, tanques del EPV cruzan la verja del Palacio de la Independencia el 30 de abril y el presidente Dương Văn Minh se rinde",
+        "zh": "4月30日，最后一批美国人乘直升机撤离之际，越南人民军坦克冲入独立宫大门，总统杨文明宣布投降"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Ending the Vietnam War, 1969–1973.\"",
+          "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        },
+        {
+          "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Independence Palace, Saigon",
+          "es": "Palacio de la Independencia, Saigón",
+          "zh": "西贡独立宫"
+        },
+        "lat": 10.777,
+        "lon": 106.695
+      },
+      "wikidataId": "Q482456"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Ho Chi Minh",
+        "es": "Ho Chi Minh",
+        "zh": "胡志明"
+      },
+      "side": "north-vietnam-and-allies",
+      "role": {
+        "en": "President of North Vietnam, to 1969",
+        "es": "Presidente de Vietnam del Norte, hasta 1969",
+        "zh": "北越主席（至1969年）"
+      },
+      "wikidataId": "Q36014"
+    },
+    {
+      "name": {
+        "en": "Lê Duẩn",
+        "es": "Lê Duẩn",
+        "zh": "黎笋"
+      },
+      "side": "north-vietnam-and-allies",
+      "role": {
+        "en": "First Secretary of the Workers' Party of Vietnam",
+        "es": "Primer secretario del Partido de los Trabajadores de Vietnam",
+        "zh": "越南劳动党第一书记"
+      },
+      "wikidataId": "Q466001"
+    },
+    {
+      "name": {
+        "en": "Võ Nguyên Giáp",
+        "es": "Võ Nguyên Giáp",
+        "zh": "武元甲"
+      },
+      "side": "north-vietnam-and-allies",
+      "role": {
+        "en": "Defence minister and PAVN commander",
+        "es": "Ministro de Defensa y comandante del EPV",
+        "zh": "国防部长、越南人民军总司令"
+      },
+      "wikidataId": "Q179910"
+    },
+    {
+      "name": {
+        "en": "Văn Tiến Dũng",
+        "es": "Văn Tiến Dũng",
+        "zh": "文进勇"
+      },
+      "side": "north-vietnam-and-allies",
+      "role": {
+        "en": "PAVN chief of staff; led the 1975 offensive",
+        "es": "Jefe de Estado Mayor del EPV; dirigió la ofensiva de 1975",
+        "zh": "越南人民军总参谋长；指挥1975年攻势"
+      },
+      "wikidataId": "Q700516"
+    },
+    {
+      "name": {
+        "en": "Lê Đức Thọ",
+        "es": "Lê Đức Thọ",
+        "zh": "黎德寿"
+      },
+      "side": "north-vietnam-and-allies",
+      "role": {
+        "en": "Negotiator at the Paris talks",
+        "es": "Negociador en las conversaciones de París",
+        "zh": "巴黎谈判代表"
+      },
+      "wikidataId": "Q233969"
+    },
+    {
+      "name": {
+        "en": "Nguyễn Thị Định",
+        "es": "Nguyễn Thị Định",
+        "zh": "阮氏定"
+      },
+      "side": "north-vietnam-and-allies",
+      "role": {
+        "en": "Deputy commander of the Viet Cong's armed forces",
+        "es": "Subcomandante de las fuerzas armadas del Viet Cong",
+        "zh": "越共武装力量副司令"
+      },
+      "wikidataId": "Q2068489"
+    },
+    {
+      "name": {
+        "en": "Ngô Đình Diệm",
+        "es": "Ngô Đình Diệm",
+        "zh": "吴廷琰"
+      },
+      "side": "south-vietnam-and-allies",
+      "role": {
+        "en": "President of South Vietnam, 1955–1963",
+        "es": "Presidente de Vietnam del Sur, 1955-1963",
+        "zh": "南越总统（1955—1963年）"
+      },
+      "wikidataId": "Q192502"
+    },
+    {
+      "name": {
+        "en": "Nguyễn Văn Thiệu",
+        "es": "Nguyễn Văn Thiệu",
+        "zh": "阮文绍"
+      },
+      "side": "south-vietnam-and-allies",
+      "role": {
+        "en": "President of South Vietnam, 1967–1975",
+        "es": "Presidente de Vietnam del Sur, 1967-1975",
+        "zh": "南越总统（1967—1975年）"
+      },
+      "wikidataId": "Q313707"
+    },
+    {
+      "name": {
+        "en": "Dương Văn Minh",
+        "es": "Dương Văn Minh",
+        "zh": "杨文明"
+      },
+      "side": "south-vietnam-and-allies",
+      "role": {
+        "en": "Last president of South Vietnam; surrendered on 30 April 1975",
+        "es": "Último presidente de Vietnam del Sur; se rindió el 30 de abril de 1975",
+        "zh": "南越末任总统；1975年4月30日投降"
+      },
+      "wikidataId": "Q334419"
+    },
+    {
+      "name": {
+        "en": "Lyndon B. Johnson",
+        "es": "Lyndon B. Johnson",
+        "zh": "林登·约翰逊"
+      },
+      "side": "south-vietnam-and-allies",
+      "role": {
+        "en": "US president, 1963–1969",
+        "es": "Presidente de EE. UU., 1963-1969",
+        "zh": "美国总统（1963—1969年）"
+      },
+      "wikidataId": "Q9640"
+    },
+    {
+      "name": {
+        "en": "Richard Nixon",
+        "es": "Richard Nixon",
+        "zh": "理查德·尼克松"
+      },
+      "side": "south-vietnam-and-allies",
+      "role": {
+        "en": "US president, 1969–1974",
+        "es": "Presidente de EE. UU., 1969-1974",
+        "zh": "美国总统（1969—1974年）"
+      },
+      "wikidataId": "Q9588"
+    },
+    {
+      "name": {
+        "en": "William Westmoreland",
+        "es": "William Westmoreland",
+        "zh": "威廉·威斯特摩兰"
+      },
+      "side": "south-vietnam-and-allies",
+      "role": {
+        "en": "Commander of US forces in Vietnam, 1964–1968",
+        "es": "Comandante de las fuerzas de EE. UU. en Vietnam, 1964-1968",
+        "zh": "驻越美军司令（1964—1968年）"
+      },
+      "wikidataId": "Q298793"
+    },
+    {
+      "name": {
+        "en": "Creighton Abrams",
+        "es": "Creighton Abrams",
+        "zh": "克雷顿·艾布拉姆斯"
+      },
+      "side": "south-vietnam-and-allies",
+      "role": {
+        "en": "Commander of US forces in Vietnam, 1968–1972",
+        "es": "Comandante de las fuerzas de EE. UU. en Vietnam, 1968-1972",
+        "zh": "驻越美军司令（1968—1972年）"
+      },
+      "wikidataId": "Q280290"
+    },
+    {
+      "name": {
+        "en": "Chae Myung-shin",
+        "es": "Chae Myung-shin",
+        "zh": "蔡命新"
+      },
+      "side": "south-vietnam-and-allies",
+      "role": {
+        "en": "Commander of South Korean forces in Vietnam",
+        "es": "Comandante de las fuerzas surcoreanas en Vietnam",
+        "zh": "驻越韩军司令"
+      },
+      "wikidataId": "Q625834"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "military-deaths",
+      "side": "north-vietnam-and-allies",
+      "who": {
+        "en": "PAVN and Viet Cong",
+        "es": "EPV y Viet Cong",
+        "zh": "越南人民军和越共"
+      },
+      "low": 1100000,
+      "high": 1100000,
+      "attributedTo": {
+        "en": "Vietnamese government (1995)",
+        "es": "gobierno vietnamita (1995)",
+        "zh": "越南政府（1995年）"
+      },
+      "sources": [
+        {
+          "citation": "Associated Press. \"Vietnam says 1.1 million died fighting for North.\" The Ledger-Star (Norfolk, Virginia), 4 April 1995.",
+          "url": "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1995/vp950404/04040331.htm"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vietnam War casualties.\"",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War_casualties"
+        }
+      ],
+      "note": {
+        "en": "The first official figure, published in April 1995: 1.1 million fighters dead over 21 years of war.",
+        "es": "La primera cifra oficial, publicada en abril de 1995: 1,1 millones de combatientes muertos en 21 años de guerra.",
+        "zh": "1995年4月公布的首个官方数字：21年战争中110万名战斗人员死亡。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "north-vietnam-and-allies",
+      "who": {
+        "en": "PAVN and Viet Cong",
+        "es": "EPV y Viet Cong",
+        "zh": "越南人民军和越共"
+      },
+      "low": 666000,
+      "high": 937000,
+      "sources": [
+        {
+          "citation": "Associated Press. \"Vietnam says 1.1 million died fighting for North.\" The Ledger-Star (Norfolk, Virginia), 4 April 1995.",
+          "url": "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1995/vp950404/04040331.htm"
+        },
+        {
+          "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+        }
+      ],
+      "note": {
+        "en": "Western estimates: about 666,000 (the estimate the Associated Press cited in 1995) to at least 937,000 (Dictionary of American History).",
+        "es": "Estimaciones occidentales: unos 666.000 (la estimación que citó Associated Press en 1995) hasta al menos 937.000 (Dictionary of American History).",
+        "zh": "西方估计：约66.6万（美联社1995年引用的估计）到至少93.7万（《美国历史词典》）。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "south-vietnam-and-allies",
+      "who": {
+        "en": "South Vietnamese armed forces",
+        "es": "Fuerzas armadas de Vietnam del Sur",
+        "zh": "南越武装部队"
+      },
+      "low": 166000,
+      "high": 313000,
+      "sources": [
+        {
+          "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vietnam War casualties.\"",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War_casualties"
+        },
+        {
+          "citation": "Associated Press. \"Vietnam says 1.1 million died fighting for North.\" The Ledger-Star (Norfolk, Virginia), 4 April 1995.",
+          "url": "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1995/vp950404/04040331.htm"
+        }
+      ],
+      "note": {
+        "en": "From more than 166,000 (Dictionary of American History) to 313,000 (R. J. Rummel's high estimate); a 1995 news report gave 223,748 South Vietnamese dead.",
+        "es": "De más de 166.000 (Dictionary of American History) a 313.000 (estimación alta de R. J. Rummel); una noticia de 1995 dio 223.748 muertos survietnamitas.",
+        "zh": "从16.6万以上（《美国历史词典》）到31.3万（R·J·拉梅尔的最高估计）；1995年的一则新闻报道称南越死亡223748人。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "south-vietnam-and-allies",
+      "who": {
+        "en": "US armed forces",
+        "es": "Fuerzas armadas de EE. UU.",
+        "zh": "美国武装部队"
+      },
+      "low": 58220,
+      "high": 58220,
+      "attributedTo": {
+        "en": "US Department of Defense records (2008)",
+        "es": "registros del Departamento de Defensa de EE. UU. (2008)",
+        "zh": "美国国防部记录（2008年）"
+      },
+      "asOf": "2008-04-29",
+      "sources": [
+        {
+          "citation": "U.S. National Archives. \"Vietnam War U.S. Military Fatal Casualty Statistics\" (Defense Casualty Analysis System extract, as of 29 April 2008).",
+          "url": "https://www.archives.gov/research/military/vietnam-war/casualty-statistics"
+        },
+        {
+          "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+        }
+      ],
+      "note": {
+        "en": "Deaths from all causes, in battle and out of it.",
+        "es": "Muertes por todas las causas, en combate y fuera de él.",
+        "zh": "包括战斗和非战斗在内的各种原因死亡。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "south-vietnam-and-allies",
+      "who": {
+        "en": "Australian forces",
+        "es": "Fuerzas australianas",
+        "zh": "澳大利亚部队"
+      },
+      "low": 523,
+      "high": 526,
+      "sources": [
+        {
+          "citation": "Australian War Memorial. \"Vietnam War 1962–75.\"",
+          "url": "https://www.awm.gov.au/articles/event/vietnam"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vietnam War.\"",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        }
+      ],
+      "note": {
+        "en": "523 in the Australian War Memorial's account; 526 in the Department of Veterans' Affairs' 2025 count.",
+        "es": "523 según el Australian War Memorial; 526 según el recuento de 2025 del Departamento de Asuntos de Veteranos.",
+        "zh": "澳大利亚战争纪念馆记为523人；澳大利亚退伍军人事务部2025年统计为526人。"
+      }
+    },
+    {
+      "scope": "civilian-deaths",
+      "who": {
+        "en": "Vietnamese civilians",
+        "es": "Civiles vietnamitas",
+        "zh": "越南平民"
+      },
+      "low": 405000,
+      "high": 2000000,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Vietnam War.\"",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        },
+        {
+          "citation": "Associated Press. \"Vietnam says 1.1 million died fighting for North.\" The Ledger-Star (Norfolk, Virginia), 4 April 1995.",
+          "url": "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1995/vp950404/04040331.htm"
+        },
+        {
+          "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+        }
+      ],
+      "note": {
+        "en": "Contested. The low end is Guenter Lewy's 1978 estimate for 1965–1974; the high end is the Vietnamese government's 1995 figure of nearly 2 million civilians killed in North and South.",
+        "es": "Cifra discutida. El extremo bajo es la estimación de Guenter Lewy de 1978 para 1965-1974; el alto, la cifra del gobierno vietnamita de 1995 de casi 2 millones de civiles muertos en el Norte y el Sur.",
+        "zh": "存在争议。下限为京特·莱维1978年对1965—1974年的估计；上限为越南政府1995年公布的南北方近200万平民死亡的数字。"
+      }
+    }
+  ],
+  "cultures": [],
+  "follows": "first-indochina-war",
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Vietnam War.\"",
+      "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+    },
+    {
+      "citation": "Wikipedia (English). \"Vietnam War casualties.\"",
+      "url": "https://en.wikipedia.org/wiki/Vietnam_War_casualties"
+    },
+    {
+      "citation": "\"Vietnam War (1960–1975): Military and Diplomatic Course.\" The Oxford Companion to American Military History. Oxford University Press, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1960-1975"
+    },
+    {
+      "citation": "\"Vietnam War.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/vietnam-war"
+    },
+    {
+      "citation": "\"Vietnam War.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/vietnam-war"
+    },
+    {
+      "citation": "\"Vietnam War (1959–1975).\" U*X*L Encyclopedia of U.S. History. Gale, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vietnam-war-1959-1975-0"
+    },
+    {
+      "citation": "Office of the Historian, U.S. Department of State. \"U.S. Involvement in the Vietnam War: the Gulf of Tonkin and Escalation, 1964.\"",
+      "url": "https://history.state.gov/milestones/1961-1968/gulf-of-tonkin"
+    },
+    {
+      "citation": "Office of the Historian, U.S. Department of State. \"U.S. Involvement in the Vietnam War: The Tet Offensive, 1968.\"",
+      "url": "https://history.state.gov/milestones/1961-1968/tet"
+    },
+    {
+      "citation": "Office of the Historian, U.S. Department of State. \"Ending the Vietnam War, 1969–1973.\"",
+      "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+    },
+    {
+      "citation": "U.S. National Archives. \"Vietnam War U.S. Military Fatal Casualty Statistics\" (Defense Casualty Analysis System extract, as of 29 April 2008).",
+      "url": "https://www.archives.gov/research/military/vietnam-war/casualty-statistics"
+    },
+    {
+      "citation": "Australian War Memorial. \"Vietnam War 1962–75.\"",
+      "url": "https://www.awm.gov.au/articles/event/vietnam"
+    },
+    {
+      "citation": "Associated Press. \"Vietnam says 1.1 million died fighting for North.\" The Ledger-Star (Norfolk, Virginia), 4 April 1995.",
+      "url": "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1995/vp950404/04040331.htm"
+    },
+    {
+      "citation": "Wikipedia (Tiếng Việt). \"Chiến tranh Việt Nam.\"",
+      "url": "https://vi.wikipedia.org/wiki/Chiến_tranh_Việt_Nam"
+    },
+    {
+      "citation": "Wikipedia (français). \"Guerre du Viêt Nam.\"",
+      "url": "https://fr.wikipedia.org/wiki/Guerre_du_Viêt_Nam"
+    }
+  ]
+}
