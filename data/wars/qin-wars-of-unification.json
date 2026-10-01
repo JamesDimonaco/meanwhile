@@ -1,0 +1,613 @@
+{
+  "id": "qin-wars-of-unification",
+  "wikidataId": "Q2986801",
+  "name": {
+    "en": "Qin's wars of unification",
+    "es": "Guerras de unificación chinas",
+    "zh": "秦灭六国之战"
+  },
+  "aliases": [
+    "Qin unification of China",
+    "Unificación de China por Qin",
+    "秦统一六国",
+    "秦统一战争",
+    "Ying Zheng",
+    "Qin Shi Huang",
+    "秦始皇",
+    "Jing Ke",
+    "荆轲"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "Between 230 and 221 BCE the state of Qin, in the west of the Warring States, defeated the six other states one after another. King Ying Zheng of Qin sent his armies first against Han, the weakest, whose capital fell in 230 BCE. Zhao's capital Handan fell in 228 BCE, after the Zhao king had his general Li Mu, who had held Qin off, put to death. In 227 BCE Jing Ke, an assassin sent by the crown prince of Yan, failed to kill the Qin king; Qin armies took the Yan capital the next year. Qin flooded the Wei capital Daliang in 225 BCE, lost one army to Chu, then sent a far larger one under Wang Jian that took the Chu capital in 223 BCE. The last Yan forces in Liaodong were defeated in 222 BCE, and Qi surrendered without fighting in 221 BCE. Ying Zheng then took the title First Emperor. No reliable count of the war's dead survives.",
+    "es": "Entre el 230 y el 221 a. e. c. el estado de Qin, en el oeste de los Reinos Combatientes, derrotó uno tras otro a los otros seis estados. El rey Ying Zheng de Qin envió sus ejércitos primero contra Han, el más débil, cuya capital cayó en el 230 a. e. c. Handan, la capital de Zhao, cayó en el 228 a. e. c., después de que el rey de Zhao hiciera ejecutar a su general Li Mu, que había contenido a Qin. En el 227 a. e. c. Jing Ke, un asesino enviado por el príncipe heredero de Yan, no logró matar al rey de Qin; al año siguiente los ejércitos de Qin tomaron la capital de Yan. Qin inundó Daliang, la capital de Wei, en el 225 a. e. c., perdió un ejército frente a Chu y después envió otro mucho mayor al mando de Wang Jian, que tomó la capital de Chu en el 223 a. e. c. Las últimas fuerzas de Yan en Liaodong fueron derrotadas en el 222 a. e. c., y Qi se rindió sin combatir en el 221 a. e. c. Ying Zheng adoptó entonces el título de Primer Emperador. No se conserva un recuento fiable de los muertos de la guerra.",
+    "zh": "公元前230年至前221年，位于战国西部的秦国先后击败其余六国。秦王嬴政首先出兵攻打最弱的韩国，其都城于公元前230年陷落。赵王处死曾抵挡秦军的将领李牧后，赵都邯郸于公元前228年陷落。公元前227年，燕太子丹派遣的刺客荆轲刺杀秦王未遂；次年秦军攻占燕都。公元前225年秦军水淹魏都大梁；秦军伐楚一度战败，随后派王翦率更大规模的军队出征，于公元前223年攻占楚都。公元前222年，辽东的燕国残部被击败；公元前221年齐国不战而降。嬴政随即称始皇帝。这场战争的死亡人数没有可靠统计留存。"
+  },
+  "outcome": {
+    "en": "Qin ruled the lands of all seven states; Ying Zheng took the title Shi Huangdi, First Emperor, and divided the empire into 36 commanderies.",
+    "es": "Qin gobernó las tierras de los siete estados; Ying Zheng adoptó el título de Shi Huangdi, Primer Emperador, y dividió el imperio en 36 comandancias.",
+    "zh": "秦国统治了七国全部疆土；嬴政称始皇帝，将天下分为三十六郡。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": -235,
+    "latestStart": -229,
+    "earliestEnd": -220,
+    "latestEnd": -220,
+    "sources": [
+      {
+        "citation": "Mark, Joshua J. \"Shi Huangdi.\" World History Encyclopedia.",
+        "url": "https://www.worldhistory.org/Shi_Huangdi/"
+      },
+      {
+        "citation": "Wikipedia (English). \"Qin's wars of unification.\"",
+        "url": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification"
+      },
+      {
+        "citation": "Wikipedia (中文). \"秦灭六国之战.\"",
+        "url": "https://zh.wikipedia.org/zh-cn/%E7%A7%A6%E7%81%AD%E5%85%AD%E5%9B%BD%E4%B9%8B%E6%88%98"
+      },
+      {
+        "citation": "Wikidata. \"Qin's Wars of Unification\" (Q2986801), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q2986801"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "Most accounts start with Qin's attack on Han in 230 BCE; Chinese Wikipedia counts from Qin's attack on Zhao in 236 BCE.",
+      "es": "La mayoría de los relatos empiezan con el ataque de Qin a Han en el 230 a. e. c.; la Wikipedia en chino cuenta desde el ataque de Qin a Zhao en el 236 a. e. c.",
+      "zh": "多数记述以公元前230年秦攻韩为起点；中文维基百科则从公元前236年秦攻赵算起。"
+    }
+  },
+  "sides": [
+    {
+      "id": "qin",
+      "label": {
+        "en": "The state of Qin",
+        "es": "El estado de Qin",
+        "zh": "秦国"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "qin",
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "six-states",
+      "label": {
+        "en": "The six other Warring States, each fighting Qin on its own",
+        "es": "Los otros seis Reinos Combatientes, cada uno luchando contra Qin por su cuenta",
+        "zh": "其余六国（各自与秦交战）"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Han",
+            "es": "Han",
+            "zh": "韩国"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Zhao, and its successor state of Dai",
+            "es": "Zhao y su estado sucesor, Dai",
+            "zh": "赵国及其后继的代国"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Yan",
+            "es": "Yan",
+            "zh": "燕国"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Wei",
+            "es": "Wei",
+            "zh": "魏国"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Chu",
+            "es": "Chu",
+            "zh": "楚国"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Qi",
+            "es": "Qi",
+            "zh": "齐国"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "han-falls",
+      "start": -229,
+      "title": {
+        "en": "A Qin army crosses the Yellow River and takes Zheng, the Han capital; King An of Han surrenders",
+        "es": "Un ejército de Qin cruza el río Amarillo y toma Zheng, la capital de Han; el rey An de Han se rinde",
+        "zh": "秦军渡过黄河，攻破韩都郑，韩王安投降"
+      },
+      "sources": [
+        {
+          "citation": "Sima Qian. Shiji (Records of the Grand Historian), chapter 6, \"Basic Annals of Qin Shi Huang\" (秦始皇本紀), via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7006"
+        },
+        {
+          "citation": "Wikipedia (English). \"Qin's wars of unification.\"",
+          "url": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification"
+        },
+        {
+          "citation": "Wikipedia (中文). \"秦灭六国之战.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E7%A7%A6%E7%81%AD%E5%85%AD%E5%9B%BD%E4%B9%8B%E6%88%98"
+        },
+        {
+          "citation": "Mark, Joshua J. \"Shi Huangdi.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Shi_Huangdi/"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Zheng (Xinzheng)",
+          "es": "Zheng (Xinzheng)",
+          "zh": "郑（新郑）"
+        },
+        "lat": 34.39,
+        "lon": 113.74
+      }
+    },
+    {
+      "id": "handan-falls",
+      "start": -227,
+      "title": {
+        "en": "After the Zhao king has his general Li Mu put to death, Qin forces take Handan and capture the king; Prince Jia flees north to Dai",
+        "es": "Después de que el rey de Zhao haga ejecutar a su general Li Mu, las fuerzas de Qin toman Handan y capturan al rey; el príncipe Jia huye al norte, a Dai",
+        "zh": "赵王处死将领李牧后，秦军攻占邯郸并俘虏赵王；公子嘉北逃至代"
+      },
+      "sources": [
+        {
+          "citation": "Sima Qian. Shiji (Records of the Grand Historian), chapter 6, \"Basic Annals of Qin Shi Huang\" (秦始皇本紀), via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7006"
+        },
+        {
+          "citation": "Wikipedia (English). \"Qin's wars of unification.\"",
+          "url": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerras de unificación chinas.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerras_de_unificaci%C3%B3n_chinas"
+        },
+        {
+          "citation": "Wikipedia (中文). \"秦灭六国之战.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E7%A7%A6%E7%81%AD%E5%85%AD%E5%9B%BD%E4%B9%8B%E6%88%98"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Handan",
+          "es": "Handan",
+          "zh": "邯郸"
+        },
+        "lat": 36.61,
+        "lon": 114.49
+      }
+    },
+    {
+      "id": "jing-ke-attempt",
+      "start": -226,
+      "title": {
+        "en": "Jing Ke, sent by Crown Prince Dan of Yan, tries to stab the Qin king at court in Xianyang and is killed",
+        "es": "Jing Ke, enviado por el príncipe heredero Dan de Yan, intenta apuñalar al rey de Qin en la corte de Xianyang y muere",
+        "zh": "燕太子丹派遣的荆轲在咸阳朝堂上行刺秦王，失败被杀"
+      },
+      "sources": [
+        {
+          "citation": "Sima Qian. Shiji (Records of the Grand Historian), chapter 6, \"Basic Annals of Qin Shi Huang\" (秦始皇本紀), via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7006"
+        },
+        {
+          "citation": "Wikipedia (English). \"Jing Ke.\"",
+          "url": "https://en.wikipedia.org/wiki/Jing_Ke"
+        },
+        {
+          "citation": "Wikipedia (中文). \"荆轲.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E8%8D%86%E8%BD%B2"
+        },
+        {
+          "citation": "Wikipedia (中文). \"秦灭六国之战.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E7%A7%A6%E7%81%AD%E5%85%AD%E5%9B%BD%E4%B9%8B%E6%88%98"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Xianyang",
+          "es": "Xianyang",
+          "zh": "咸阳"
+        },
+        "lat": 34.33,
+        "lon": 108.71
+      }
+    },
+    {
+      "id": "ji-taken",
+      "start": -225,
+      "title": {
+        "en": "Qin forces take Ji, the Yan capital, and Crown Prince Dan is killed; King Xi of Yan withdraws to Liaodong",
+        "es": "Las fuerzas de Qin toman Ji, la capital de Yan, y el príncipe heredero Dan muere; el rey Xi de Yan se retira a Liaodong",
+        "zh": "秦军攻占燕都蓟，燕太子丹被杀；燕王喜退往辽东"
+      },
+      "sources": [
+        {
+          "citation": "Sima Qian. Shiji (Records of the Grand Historian), chapter 6, \"Basic Annals of Qin Shi Huang\" (秦始皇本紀), via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7006"
+        },
+        {
+          "citation": "Wikipedia (English). \"Qin's wars of unification.\"",
+          "url": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification"
+        },
+        {
+          "citation": "Wikipedia (中文). \"秦灭六国之战.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E7%A7%A6%E7%81%AD%E5%85%AD%E5%9B%BD%E4%B9%8B%E6%88%98"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ji (Beijing)",
+          "es": "Ji (Pekín)",
+          "zh": "蓟（北京）"
+        },
+        "lat": 39.89,
+        "lon": 116.35
+      }
+    },
+    {
+      "id": "daliang-flooded",
+      "start": -224,
+      "title": {
+        "en": "Wang Ben's army diverts river water into the besieged Wei capital Daliang; after three months King Jia of Wei surrenders",
+        "es": "El ejército de Wang Ben desvía agua de los ríos hacia Daliang, la capital sitiada de Wei; tras tres meses el rey Jia de Wei se rinde",
+        "zh": "王贲的军队引河水灌入被围的魏都大梁；三个月后魏王假投降"
+      },
+      "sources": [
+        {
+          "citation": "Sima Qian. Shiji (Records of the Grand Historian), chapter 6, \"Basic Annals of Qin Shi Huang\" (秦始皇本紀), via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7006"
+        },
+        {
+          "citation": "Wikipedia (English). \"Qin's wars of unification.\"",
+          "url": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification"
+        },
+        {
+          "citation": "Wikipedia (中文). \"秦灭六国之战.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E7%A7%A6%E7%81%AD%E5%85%AD%E5%9B%BD%E4%B9%8B%E6%88%98"
+        },
+        {
+          "citation": "Mark, Joshua J. \"Shi Huangdi.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Shi_Huangdi/"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Daliang (Kaifeng)",
+          "es": "Daliang (Kaifeng)",
+          "zh": "大梁（开封）"
+        },
+        "lat": 34.8,
+        "lon": 114.31
+      }
+    },
+    {
+      "id": "shouchun-taken",
+      "start": -222,
+      "title": {
+        "en": "After defeating Xiang Yan's Chu army, Wang Jian takes the Chu capital Shouchun and captures King Fuchu",
+        "es": "Tras vencer al ejército de Chu de Xiang Yan, Wang Jian toma Shouchun, la capital de Chu, y captura al rey Fuchu",
+        "zh": "王翦击败项燕的楚军后攻占楚都寿春，俘虏楚王负刍"
+      },
+      "sources": [
+        {
+          "citation": "Sima Qian. Shiji (Records of the Grand Historian), chapter 6, \"Basic Annals of Qin Shi Huang\" (秦始皇本紀), via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7006"
+        },
+        {
+          "citation": "Wikipedia (English). \"Qin's wars of unification.\"",
+          "url": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification"
+        },
+        {
+          "citation": "Wikipedia (中文). \"秦灭六国之战.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E7%A7%A6%E7%81%AD%E5%85%AD%E5%9B%BD%E4%B9%8B%E6%88%98"
+        },
+        {
+          "citation": "Mark, Joshua J. \"Shi Huangdi.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Shi_Huangdi/"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Shouchun (Shou County)",
+          "es": "Shouchun (condado de Shou)",
+          "zh": "寿春（寿县）"
+        },
+        "lat": 32.58,
+        "lon": 116.79
+      },
+      "disputed": true,
+      "note": {
+        "en": "Sima Qian's annals put the capture of the Chu king in 224 BCE and Xiang Yan's death in 223 BCE; most modern accounts date the fall of the Chu capital to 223 BCE.",
+        "es": "Los anales de Sima Qian sitúan la captura del rey de Chu en el 224 a. e. c. y la muerte de Xiang Yan en el 223 a. e. c.; la mayoría de los relatos modernos fechan la caída de la capital de Chu en el 223 a. e. c.",
+        "zh": "司马迁《秦始皇本纪》将俘虏楚王系于公元前224年，项燕之死系于公元前223年；多数现代记述将楚都陷落定于公元前223年。"
+      }
+    },
+    {
+      "id": "yan-and-dai-end",
+      "start": -221,
+      "title": {
+        "en": "Wang Ben's army enters Liaodong and captures King Xi of Yan, then captures Jia, the king of Dai",
+        "es": "El ejército de Wang Ben entra en Liaodong y captura al rey Xi de Yan, y después a Jia, rey de Dai",
+        "zh": "王贲大军进入辽东，俘获燕王喜，随后俘获代王嘉"
+      },
+      "sources": [
+        {
+          "citation": "Sima Qian. Shiji (Records of the Grand Historian), chapter 6, \"Basic Annals of Qin Shi Huang\" (秦始皇本紀), via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7006"
+        },
+        {
+          "citation": "Wikipedia (English). \"Qin's wars of unification.\"",
+          "url": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification"
+        },
+        {
+          "citation": "Wikipedia (中文). \"秦灭六国之战.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E7%A7%A6%E7%81%AD%E5%85%AD%E5%9B%BD%E4%B9%8B%E6%88%98"
+        },
+        {
+          "citation": "Mark, Joshua J. \"Shi Huangdi.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Shi_Huangdi/"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Liaodong (Liaoyang)",
+          "es": "Liaodong (Liaoyang)",
+          "zh": "辽东（辽阳）"
+        },
+        "lat": 41.27,
+        "lon": 123.17
+      }
+    },
+    {
+      "id": "qi-surrenders",
+      "start": -220,
+      "title": {
+        "en": "A Qin army comes south through the former Yan lands to Linzi; King Jian of Qi surrenders without a fight, and Ying Zheng takes the title First Emperor",
+        "es": "Un ejército de Qin baja por las antiguas tierras de Yan hasta Linzi; el rey Jian de Qi se rinde sin combatir y Ying Zheng adopta el título de Primer Emperador",
+        "zh": "秦军经原燕地南下直抵临淄；齐王建不战而降，嬴政称始皇帝"
+      },
+      "sources": [
+        {
+          "citation": "Sima Qian. Shiji (Records of the Grand Historian), chapter 6, \"Basic Annals of Qin Shi Huang\" (秦始皇本紀), via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7006"
+        },
+        {
+          "citation": "Wikipedia (English). \"Qin's wars of unification.\"",
+          "url": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification"
+        },
+        {
+          "citation": "Wikipedia (中文). \"秦灭六国之战.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E7%A7%A6%E7%81%AD%E5%85%AD%E5%9B%BD%E4%B9%8B%E6%88%98"
+        },
+        {
+          "citation": "Mark, Joshua J. \"Shi Huangdi.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Shi_Huangdi/"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Linzi",
+          "es": "Linzi",
+          "zh": "临淄"
+        },
+        "lat": 36.87,
+        "lon": 118.3
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Ying Zheng (Qin Shi Huang)",
+        "es": "Ying Zheng (Qin Shi Huang)",
+        "zh": "嬴政（秦始皇）"
+      },
+      "side": "qin",
+      "role": {
+        "en": "King of Qin; First Emperor from 221 BCE",
+        "es": "Rey de Qin; Primer Emperador desde el 221 a. e. c.",
+        "zh": "秦王；公元前221年起为始皇帝"
+      },
+      "wikidataId": "Q7192"
+    },
+    {
+      "name": {
+        "en": "Wang Jian",
+        "es": "Wang Jian",
+        "zh": "王翦"
+      },
+      "side": "qin",
+      "role": {
+        "en": "Qin general against Zhao, Yan and Chu",
+        "es": "General de Qin contra Zhao, Yan y Chu",
+        "zh": "攻赵、燕、楚的秦国将领"
+      },
+      "wikidataId": "Q706855"
+    },
+    {
+      "name": {
+        "en": "Wang Ben",
+        "es": "Wang Ben",
+        "zh": "王贲"
+      },
+      "side": "qin",
+      "role": {
+        "en": "Qin general against Wei, Yan and Dai",
+        "es": "General de Qin contra Wei, Yan y Dai",
+        "zh": "攻魏、燕、代的秦国将领"
+      },
+      "wikidataId": "Q10417152"
+    },
+    {
+      "name": {
+        "en": "Li Xin",
+        "es": "Li Xin",
+        "zh": "李信"
+      },
+      "side": "qin",
+      "role": {
+        "en": "Qin general; led the first, failed campaign against Chu",
+        "es": "General de Qin; dirigió la primera campaña, fallida, contra Chu",
+        "zh": "秦国将领；率领首次伐楚，战败"
+      },
+      "wikidataId": "Q10332560"
+    },
+    {
+      "name": {
+        "en": "Meng Wu",
+        "es": "Meng Wu",
+        "zh": "蒙武"
+      },
+      "side": "qin",
+      "role": {
+        "en": "Qin general in the campaign against Chu",
+        "es": "General de Qin en la campaña contra Chu",
+        "zh": "伐楚战役中的秦国将领"
+      },
+      "wikidataId": "Q11621248"
+    },
+    {
+      "name": {
+        "en": "Li Mu",
+        "es": "Li Mu",
+        "zh": "李牧"
+      },
+      "side": "six-states",
+      "role": {
+        "en": "Zhao general who held Qin off; put to death by his own king",
+        "es": "General de Zhao que contuvo a Qin; ejecutado por orden de su propio rey",
+        "zh": "曾抵挡秦军的赵国将领；被赵王处死"
+      },
+      "wikidataId": "Q714415"
+    },
+    {
+      "name": {
+        "en": "Crown Prince Dan of Yan",
+        "es": "Príncipe heredero Dan de Yan",
+        "zh": "燕太子丹"
+      },
+      "side": "six-states",
+      "role": {
+        "en": "Sent Jing Ke to kill the Qin king",
+        "es": "Envió a Jing Ke a matar al rey de Qin",
+        "zh": "派遣荆轲刺杀秦王"
+      },
+      "wikidataId": "Q1135127"
+    },
+    {
+      "name": {
+        "en": "King Xi of Yan",
+        "es": "Rey Xi de Yan",
+        "zh": "燕王喜"
+      },
+      "side": "six-states",
+      "role": {
+        "en": "Last king of Yan, captured in 222 BCE",
+        "es": "Último rey de Yan, capturado en el 222 a. e. c.",
+        "zh": "燕国末代君主，公元前222年被俘"
+      },
+      "wikidataId": "Q3813172"
+    },
+    {
+      "name": {
+        "en": "Xiang Yan",
+        "es": "Xiang Yan",
+        "zh": "项燕"
+      },
+      "side": "six-states",
+      "role": {
+        "en": "Chu general; defeated Li Xin, then lost to Wang Jian",
+        "es": "General de Chu; venció a Li Xin y después perdió frente a Wang Jian",
+        "zh": "楚国将领；先击败李信，后败于王翦"
+      },
+      "wikidataId": "Q5357908"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "warring-states",
+    "qin"
+  ],
+  "sources": [
+    {
+      "citation": "Mark, Joshua J. \"Shi Huangdi.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Shi_Huangdi/"
+    },
+    {
+      "citation": "Wikipedia (English). \"Qin's wars of unification.\"",
+      "url": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerras de unificación chinas.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerras_de_unificaci%C3%B3n_chinas"
+    },
+    {
+      "citation": "Wikipedia (中文). \"秦灭六国之战.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/%E7%A7%A6%E7%81%AD%E5%85%AD%E5%9B%BD%E4%B9%8B%E6%88%98"
+    }
+  ]
+}
