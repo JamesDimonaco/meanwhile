@@ -1,0 +1,573 @@
+{
+  "id": "russo-ukrainian-war-2022",
+  "wikidataId": "Q110999040",
+  "name": {
+    "en": "Russo-Ukrainian war (2022–present)",
+    "es": "Guerra ruso-ucraniana",
+    "zh": "俄乌战争 (2022年至今)"
+  },
+  "aliases": [
+    "Russian invasion of Ukraine",
+    "2022 Russian invasion of Ukraine",
+    "War in Ukraine",
+    "Invasión rusa de Ucrania",
+    "Guerra de Ucrania",
+    "俄罗斯入侵乌克兰",
+    "俄乌战争",
+    "乌克兰战争",
+    "Kursk",
+    "Bakhmut",
+    "Mariupol"
+  ],
+  "altNames": [
+    {
+      "text": "специальная военная операция",
+      "lang": "ru",
+      "usedBy": {
+        "en": "The Russian government",
+        "es": "El gobierno ruso",
+        "zh": "俄罗斯政府"
+      },
+      "gloss": {
+        "en": "\"special military operation\"",
+        "es": "«operación militar especial»",
+        "zh": "\"特别军事行动\""
+      }
+    }
+  ],
+  "description": {
+    "en": "Russia massed troops near Ukraine's borders from late 2021 and demanded that NATO stop expanding. On 21 February 2022 it recognised the Donetsk and Luhansk People's Republics, and on 24 February it launched a full-scale invasion of Ukraine from Russia, Belarus and Crimea, which President Vladimir Putin called a \"special military operation\". Ukrainian forces stopped the advance on Kyiv, and Russian troops left the north by early April; the killing of civilians in Bucha came to light after they withdrew. Russia took Mariupol in May after a siege. In September and November Ukrainian counteroffensives took back much of the Kharkiv region and the city of Kherson, while Russia declared four Ukrainian regions part of Russia, which the UN General Assembly condemned. A Ukrainian offensive in 2023 made little headway; Russia took Bakhmut and Avdiivka and kept advancing slowly. In August 2024 Ukraine sent troops into Russia's Kursk region, where North Korean soldiers later fought beside Russian forces. Western governments have supplied Ukraine with weapons and money. Long-range missile and drone strikes on both countries continue, and Russia holds roughly a fifth of Ukraine.",
+    "es": "Rusia concentró tropas cerca de las fronteras de Ucrania desde finales de 2021 y exigió que la OTAN dejara de ampliarse. El 21 de febrero de 2022 reconoció a las repúblicas populares de Donetsk y Lugansk, y el 24 de febrero lanzó una invasión a gran escala de Ucrania desde Rusia, Bielorrusia y Crimea, que el presidente Vladímir Putin llamó «operación militar especial». Las fuerzas ucranianas detuvieron el avance sobre Kiev y las tropas rusas salieron del norte a principios de abril; la matanza de civiles en Bucha salió a la luz tras su retirada. Rusia tomó Mariúpol en mayo tras un sitio. En septiembre y noviembre las contraofensivas ucranianas recuperaron gran parte de la región de Járkov y la ciudad de Jersón, mientras Rusia declaraba cuatro regiones ucranianas parte de Rusia, algo que condenó la Asamblea General de la ONU. Una ofensiva ucraniana en 2023 apenas avanzó; Rusia tomó Bajmut y Avdíivka y siguió avanzando despacio. En agosto de 2024 Ucrania envió tropas a la región rusa de Kursk, donde después combatieron soldados norcoreanos junto a las fuerzas rusas. Los gobiernos occidentales han suministrado armas y dinero a Ucrania. Continúan los ataques de largo alcance con misiles y drones sobre ambos países, y Rusia controla aproximadamente una quinta parte de Ucrania.",
+    "zh": "自2021年底起，俄罗斯在乌克兰边境附近集结军队，并要求北约停止扩张。2022年2月21日，俄罗斯承认顿涅茨克和卢甘斯克人民共和国；2月24日，俄罗斯从本国、白俄罗斯和克里米亚出发全面入侵乌克兰，普京总统称之为\"特别军事行动\"。乌克兰军队挡住了俄军对基辅的进攻，俄军于4月初撤出北部；俄军撤走后，布恰平民遭杀害的情况被揭露。5月，俄罗斯经过围城战攻占马里乌波尔。9月和11月，乌克兰的反攻夺回哈尔科夫州大部和赫尔松市，同时俄罗斯宣布将乌克兰四个州并入俄罗斯，遭到联合国大会谴责。2023年乌克兰的攻势进展甚微；俄罗斯攻占巴赫穆特和阿夫迪伊夫卡，并继续缓慢推进。2024年8月，乌克兰派兵进入俄罗斯库尔斯克州，朝鲜士兵后来在当地与俄军并肩作战。西方国家政府向乌克兰提供武器和资金。双方对彼此境内的远程导弹和无人机袭击仍在继续，俄罗斯控制着乌克兰约五分之一的领土。"
+  },
+  "outcome": {
+    "en": "Ongoing: US-mediated talks have produced no ceasefire, and Russia holds roughly a fifth of Ukraine's territory, including Crimea.",
+    "es": "En curso: las conversaciones con mediación estadounidense no han logrado un alto el fuego, y Rusia controla aproximadamente una quinta parte del territorio ucraniano, incluida Crimea.",
+    "zh": "仍在进行：美国斡旋的谈判未能达成停火，俄罗斯控制着包括克里米亚在内的约五分之一乌克兰领土。"
+  },
+  "tier": "standard",
+  "sensitive": true,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "ongoing": {
+    "earliestStart": 2022,
+    "latestStart": 2022,
+    "asOf": "2026-10-01",
+    "sources": [
+      {
+        "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, updated 1 September 2026, consulted 2 October 2026.",
+        "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+      },
+      {
+        "citation": "Wikipedia (English). \"Russo-Ukrainian war (2022–present).\"",
+        "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present)"
+      },
+      {
+        "citation": "Wikipedia (español). \"Guerra ruso-ucraniana.\"",
+        "url": "https://es.wikipedia.org/wiki/Guerra_ruso-ucraniana"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "ukraine",
+      "label": {
+        "en": "Ukraine",
+        "es": "Ucrania",
+        "zh": "乌克兰"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "UA",
+          "role": "belligerent",
+          "today": [
+            "UA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "russia-and-allies",
+      "label": {
+        "en": "Russia and its allies",
+        "es": "Rusia y sus aliados",
+        "zh": "俄罗斯及其盟友"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "RU",
+          "role": "belligerent",
+          "today": [
+            "RU"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "KP",
+          "role": "belligerent",
+          "today": [
+            "KP"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "BY",
+          "role": "supporter",
+          "today": [
+            "BY"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "full-scale-invasion-begins",
+      "start": 2022,
+      "title": {
+        "en": "24 February: Russian forces attack from Russia, Belarus and Crimea; columns from the north advance on Kyiv but are stopped, and by early April they withdraw from the north",
+        "es": "24 de febrero: fuerzas rusas atacan desde Rusia, Bielorrusia y Crimea; las columnas del norte avanzan sobre Kiev pero son detenidas, y a principios de abril se retiran del norte",
+        "zh": "2月24日：俄军从俄罗斯、白俄罗斯和克里米亚发起进攻；北路纵队向基辅推进但被挡住，4月初撤出北部"
+      },
+      "sources": [
+        {
+          "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, updated 1 September 2026, consulted 2 October 2026.",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+        },
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war (2022–present).\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present)"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra ruso-ucraniana.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_ruso-ucraniana"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kyiv",
+          "es": "Kiev",
+          "zh": "基辅"
+        },
+        "lat": 50.45,
+        "lon": 30.524
+      }
+    },
+    {
+      "id": "bucha-killings",
+      "start": 2022,
+      "title": {
+        "en": "Early April: after Russian troops leave Bucha, the bodies of hundreds of civilians are found in the town; Russia denies responsibility",
+        "es": "Principios de abril: tras la salida de las tropas rusas de Bucha se hallan en la ciudad los cuerpos de cientos de civiles; Rusia niega su responsabilidad",
+        "zh": "4月初：俄军撤离布恰后，镇上发现数百具平民遗体；俄罗斯否认负有责任"
+      },
+      "sources": [
+        {
+          "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, updated 1 September 2026, consulted 2 October 2026.",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+        },
+        {
+          "citation": "Wikipedia (English). \"Bucha massacre.\"",
+          "url": "https://en.wikipedia.org/wiki/Bucha_massacre"
+        },
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war (2022–present).\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present)"
+        }
+      ],
+      "note": {
+        "en": "Local authorities reported 458 bodies recovered in the town.",
+        "es": "Las autoridades locales informaron de 458 cuerpos recuperados en la ciudad.",
+        "zh": "当地政府报告在镇上找到458具遗体。"
+      },
+      "place": {
+        "name": {
+          "en": "Bucha",
+          "es": "Bucha",
+          "zh": "布恰"
+        },
+        "lat": 50.549,
+        "lon": 30.221
+      },
+      "wikidataId": "Q111467700"
+    },
+    {
+      "id": "fall-of-mariupol",
+      "start": 2022,
+      "title": {
+        "en": "20 May: after a siege of almost three months, the last Ukrainian troops in Mariupol surrender at the Azovstal steelworks",
+        "es": "20 de mayo: tras un sitio de casi tres meses, las últimas tropas ucranianas de Mariúpol se rinden en la acería Azovstal",
+        "zh": "5月20日：经过近三个月的围城，马里乌波尔最后一批乌克兰守军在亚速钢铁厂投降"
+      },
+      "sources": [
+        {
+          "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, updated 1 September 2026, consulted 2 October 2026.",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Mariupol.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Mariupol"
+        },
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war (2022–present).\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mariupol",
+          "es": "Mariúpol",
+          "zh": "马里乌波尔"
+        },
+        "lat": 47.131,
+        "lon": 37.564
+      },
+      "wikidataId": "Q111017791"
+    },
+    {
+      "id": "kharkiv-counteroffensive",
+      "start": 2022,
+      "title": {
+        "en": "September: a Ukrainian counteroffensive in the Kharkiv region breaks through; Russian forces leave Izium and much of the region",
+        "es": "Septiembre: una contraofensiva ucraniana en la región de Járkov rompe el frente; las fuerzas rusas abandonan Izium y gran parte de la región",
+        "zh": "9月：乌克兰在哈尔科夫州的反攻取得突破；俄军撤出伊久姆和该州大部分地区"
+      },
+      "sources": [
+        {
+          "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, updated 1 September 2026, consulted 2 October 2026.",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+        },
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war (2022–present).\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present)"
+        },
+        {
+          "citation": "Wikipedia (English). \"2022 Kharkiv counteroffensive.\"",
+          "url": "https://en.wikipedia.org/wiki/2022_Kharkiv_counteroffensive"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Izium",
+          "es": "Izium",
+          "zh": "伊久姆"
+        },
+        "lat": 49.196,
+        "lon": 37.28
+      },
+      "wikidataId": "Q113865480"
+    },
+    {
+      "id": "four-regions-declared-part-of-russia",
+      "start": 2022,
+      "title": {
+        "en": "30 September: Putin declares the Donetsk, Luhansk, Kherson and Zaporizhzhia regions part of Russia; on 12 October the UN General Assembly condemns the move by 143 votes to 5, with 35 abstentions",
+        "es": "30 de septiembre: Putin declara las regiones de Donetsk, Lugansk, Jersón y Zaporiyia parte de Rusia; el 12 de octubre la Asamblea General de la ONU lo condena por 143 votos a 5, con 35 abstenciones",
+        "zh": "9月30日：普京宣布顿涅茨克、卢甘斯克、赫尔松和扎波罗热四州并入俄罗斯；10月12日联合国大会以143票赞成、5票反对、35票弃权予以谴责"
+      },
+      "sources": [
+        {
+          "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, updated 1 September 2026, consulted 2 October 2026.",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+        },
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war (2022–present).\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present)"
+        },
+        {
+          "citation": "Wikipedia (English). \"Russian annexation of Donetsk, Kherson, Luhansk and Zaporizhzhia oblasts.\"",
+          "url": "https://en.wikipedia.org/wiki/Russian_annexation_of_Donetsk,_Kherson,_Luhansk_and_Zaporizhzhia_oblasts"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Moscow",
+          "es": "Moscú",
+          "zh": "莫斯科"
+        },
+        "lat": 55.751,
+        "lon": 37.617
+      },
+      "wikidataId": "Q114096220"
+    },
+    {
+      "id": "russian-withdrawal-from-kherson",
+      "start": 2022,
+      "title": {
+        "en": "11 November: Russian forces complete their withdrawal from Kherson city to the east bank of the Dnipro, and Ukrainian troops enter the city",
+        "es": "11 de noviembre: las fuerzas rusas completan su retirada de la ciudad de Jersón a la orilla oriental del Dniéper y las tropas ucranianas entran en la ciudad",
+        "zh": "11月11日：俄军完成从赫尔松市撤至第聂伯河东岸，乌克兰军队进入该市"
+      },
+      "sources": [
+        {
+          "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, updated 1 September 2026, consulted 2 October 2026.",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+        },
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war (2022–present).\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present)"
+        },
+        {
+          "citation": "Wikipedia (español). \"Retirada rusa de Jersón (2022).\"",
+          "url": "https://es.wikipedia.org/wiki/Retirada_rusa_de_Jersón_(2022)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kherson",
+          "es": "Jersón",
+          "zh": "赫尔松"
+        },
+        "lat": 46.642,
+        "lon": 32.625
+      },
+      "wikidataId": "Q115172927"
+    },
+    {
+      "id": "fall-of-bakhmut",
+      "start": 2023,
+      "title": {
+        "en": "20 May: after a battle of many months led on the Russian side by the Wagner Group, Russia takes Bakhmut",
+        "es": "20 de mayo: tras una batalla de muchos meses encabezada del lado ruso por el Grupo Wagner, Rusia toma Bajmut",
+        "zh": "5月20日：经过数月、俄方由瓦格纳集团主导的战斗，俄罗斯攻占巴赫穆特"
+      },
+      "sources": [
+        {
+          "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, updated 1 September 2026, consulted 2 October 2026.",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+        },
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war (2022–present).\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present)"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Bakhmut.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Bakhmut"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Bakhmut",
+          "es": "Bajmut",
+          "zh": "巴赫穆特"
+        },
+        "lat": 48.595,
+        "lon": 38.001
+      },
+      "wikidataId": "Q112114958"
+    },
+    {
+      "id": "kursk-offensive",
+      "start": 2024,
+      "title": {
+        "en": "6 August: Ukrainian troops cross into Russia's Kursk region and take Sudzha; North Korean soldiers later join the Russian forces fighting there",
+        "es": "6 de agosto: tropas ucranianas entran en la región rusa de Kursk y toman Sudzha; después soldados norcoreanos se unen allí a las fuerzas rusas",
+        "zh": "8月6日：乌克兰军队进入俄罗斯库尔斯克州并攻占苏贾；朝鲜士兵后来在当地加入俄军作战"
+      },
+      "sources": [
+        {
+          "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, updated 1 September 2026, consulted 2 October 2026.",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+        },
+        {
+          "citation": "\"Russo-Ukrainian War.\" EBSCO Research Starters: Military History and Science, updated 2026.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/russo-ukrainian-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Kursk campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Kursk_campaign"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Sudzha",
+          "es": "Sudzha",
+          "zh": "苏贾"
+        },
+        "lat": 51.191,
+        "lon": 35.271
+      },
+      "wikidataId": "Q128686808"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Volodymyr Zelenskyy",
+        "es": "Volodímir Zelenski",
+        "zh": "弗拉基米尔·泽连斯基"
+      },
+      "side": "ukraine",
+      "role": {
+        "en": "President of Ukraine",
+        "es": "Presidente de Ucrania",
+        "zh": "乌克兰总统"
+      },
+      "wikidataId": "Q3874799"
+    },
+    {
+      "name": {
+        "en": "Valerii Zaluzhnyi",
+        "es": "Valerii Zaluzhnyi",
+        "zh": "瓦列里·扎卢日内"
+      },
+      "side": "ukraine",
+      "role": {
+        "en": "Commander-in-chief of Ukraine's armed forces, 2021–2024",
+        "es": "Comandante en jefe de las fuerzas armadas de Ucrania, 2021–2024",
+        "zh": "乌克兰武装部队总司令（2021年至2024年）"
+      },
+      "wikidataId": "Q54964679"
+    },
+    {
+      "name": {
+        "en": "Oleksandr Syrskyi",
+        "es": "Oleksandr Sirski",
+        "zh": "亚历山大·瑟尔斯基"
+      },
+      "side": "ukraine",
+      "role": {
+        "en": "Commander-in-chief of Ukraine's armed forces from February 2024",
+        "es": "Comandante en jefe de las fuerzas armadas de Ucrania desde febrero de 2024",
+        "zh": "2024年2月起任乌克兰武装部队总司令"
+      },
+      "wikidataId": "Q64737357"
+    },
+    {
+      "name": {
+        "en": "Vladimir Putin",
+        "es": "Vladímir Putin",
+        "zh": "弗拉基米尔·普京"
+      },
+      "side": "russia-and-allies",
+      "role": {
+        "en": "President of Russia",
+        "es": "Presidente de Rusia",
+        "zh": "俄罗斯总统"
+      },
+      "wikidataId": "Q7747"
+    },
+    {
+      "name": {
+        "en": "Sergei Shoigu",
+        "es": "Serguéi Shoigú",
+        "zh": "谢尔盖·绍伊古"
+      },
+      "side": "russia-and-allies",
+      "role": {
+        "en": "Russian defence minister until May 2024",
+        "es": "Ministro de Defensa ruso hasta mayo de 2024",
+        "zh": "俄罗斯国防部长，至2024年5月"
+      },
+      "wikidataId": "Q32024"
+    },
+    {
+      "name": {
+        "en": "Andrei Belousov",
+        "es": "Andréi Beloúsov",
+        "zh": "安德烈·别洛乌索夫"
+      },
+      "side": "russia-and-allies",
+      "role": {
+        "en": "Russian defence minister from May 2024",
+        "es": "Ministro de Defensa ruso desde mayo de 2024",
+        "zh": "2024年5月起任俄罗斯国防部长"
+      },
+      "wikidataId": "Q4082839"
+    },
+    {
+      "name": {
+        "en": "Valery Gerasimov",
+        "es": "Valeri Guerásimov",
+        "zh": "瓦列里·格拉西莫夫"
+      },
+      "side": "russia-and-allies",
+      "role": {
+        "en": "Chief of the Russian General Staff",
+        "es": "Jefe del Estado Mayor ruso",
+        "zh": "俄罗斯总参谋长"
+      },
+      "wikidataId": "Q36073"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "battle-deaths",
+      "low": 311869,
+      "high": 575370,
+      "asOf": "2025-12-31",
+      "sources": [
+        {
+          "citation": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0",
+          "url": "https://ucdp.uu.se/downloads/"
+        }
+      ],
+      "note": {
+        "en": "UCDP's count for the war between the governments of Russia and Ukraine (UCDP conflict 13243), 2022–2025, with North Korea as a secondary party from 2024, summed from its low and high yearly estimates. Battle deaths count soldiers and civilians killed in fighting; 2026 is not yet counted.",
+        "es": "Recuento de UCDP para la guerra entre los gobiernos de Rusia y Ucrania (conflicto 13243 de UCDP), 2022–2025, con Corea del Norte como parte secundaria desde 2024, suma de sus estimaciones anuales mínima y máxima. Las muertes en combate incluyen soldados y civiles muertos en los combates; 2026 aún no está contado.",
+        "zh": "UCDP对俄罗斯与乌克兰两国政府间战争（UCDP冲突编号13243）2022年至2025年的统计，朝鲜自2024年起为次要参战方，由其逐年最低和最高估计相加而得。战斗死亡包括在战斗中丧生的军人和平民；2026年尚未计入。"
+      }
+    },
+    {
+      "scope": "civilian-deaths",
+      "low": 17257,
+      "high": 17257,
+      "asOf": "2026-08-31",
+      "attributedTo": {
+        "en": "the UN Human Rights Monitoring Mission in Ukraine (OHCHR)",
+        "es": "la Misión de Observación de los Derechos Humanos de la ONU en Ucrania (ACNUDH)",
+        "zh": "联合国驻乌克兰人权监察团（人权高专办）"
+      },
+      "sources": [
+        {
+          "citation": "OHCHR, UN Human Rights Monitoring Mission in Ukraine. \"Protection of Civilians in Armed Conflict — August 2026.\" 16 September 2026.",
+          "url": "https://ukraine.ohchr.org/sites/default/files/2026-09/Ukraine%20-%20protection%20of%20civilians%20in%20armed%20conflict%20%28August%29_ENG.pdf"
+        },
+        {
+          "citation": "OHCHR, UN Human Rights Monitoring Mission in Ukraine. \"Protection of civilians\" reports.",
+          "url": "https://ukraine.ohchr.org/en/reports/protection-of-civilians"
+        }
+      ],
+      "note": {
+        "en": "Civilians verified killed from 24 February 2022 to 31 August 2026, with 53,693 injured. OHCHR says the true toll is likely considerably higher, especially in places such as Mariupol where it could not verify reports.",
+        "es": "Civiles cuya muerte se verificó entre el 24 de febrero de 2022 y el 31 de agosto de 2026, con 53.693 heridos. El ACNUDH afirma que la cifra real es probablemente bastante mayor, sobre todo en lugares como Mariúpol, donde no pudo verificar los informes.",
+        "zh": "2022年2月24日至2026年8月31日经核实死亡的平民，另有53693人受伤。人权高专办表示实际人数可能高得多，在马里乌波尔等无法核实报告的地方尤其如此。"
+      }
+    }
+  ],
+  "follows": "russo-ukrainian-war",
+  "sources": [
+    {
+      "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, updated 1 September 2026, consulted 2 October 2026.",
+      "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+    },
+    {
+      "citation": "\"Russo-Ukrainian War.\" EBSCO Research Starters: Military History and Science, updated 2026.",
+      "url": "https://www.ebsco.com/research-starters/military-history-and-science/russo-ukrainian-war"
+    },
+    {
+      "citation": "OHCHR, UN Human Rights Monitoring Mission in Ukraine. \"Protection of Civilians in Armed Conflict — August 2026.\" 16 September 2026.",
+      "url": "https://ukraine.ohchr.org/sites/default/files/2026-09/Ukraine%20-%20protection%20of%20civilians%20in%20armed%20conflict%20%28August%29_ENG.pdf"
+    },
+    {
+      "citation": "Wikipedia (English). \"Russo-Ukrainian war (2022–present).\"",
+      "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present)"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra ruso-ucraniana.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_ruso-ucraniana"
+    },
+    {
+      "citation": "Wikipedia (中文). \"俄乌战争 (2022年至今).\"",
+      "url": "https://zh.wikipedia.org/wiki/俄乌战争_(2022年至今)"
+    },
+    {
+      "citation": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0",
+      "url": "https://ucdp.uu.se/downloads/"
+    }
+  ]
+}
