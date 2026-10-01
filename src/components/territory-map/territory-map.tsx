@@ -83,6 +83,9 @@ async function loadGeoData(bordersId: string | null, land: Region | "world"): Pr
   return { land: landData as Geometry, borders: borders as Borders | null };
 }
 
+// Shared so a map without pins keeps the same array across renders: MapSvg's projection memo depends on it.
+const NO_PINS: readonly Place[] = [];
+
 type Props = {
   /** A culture or war id with a borders file; null for pins on plain land. */
   bordersId: string | null;
@@ -96,7 +99,7 @@ type Props = {
 };
 
 /** Borders for the year over a land basemap, rivals in grey, a pin for the event in view. */
-export function TerritoryMap({ bordersId, land, year, pin, pins = [], nameSelf = false }: Props) {
+export function TerritoryMap({ bordersId, land, year, pin, pins = NO_PINS, nameSelf = false }: Props) {
   const t = useTranslations("map");
   const [data, setData] = useState<GeoData | "error" | null>(null);
 
