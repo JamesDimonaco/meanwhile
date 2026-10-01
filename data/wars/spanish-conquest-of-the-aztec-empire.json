@@ -683,9 +683,9 @@
         }
       ],
       "note": {
-        "en": "Spanish accounts call it the Noche Triste, the 'sad night'; it is also called the Noche Victoriosa, the 'night of victory'.",
-        "es": "Los relatos españoles la llaman Noche Triste; también se la conoce como Noche Victoriosa.",
-        "zh": "西班牙方面称之为“悲伤之夜”（Noche Triste）；它也被称为“胜利之夜”（Noche Victoriosa）。"
+        "en": "Spanish accounts call it the Noche Triste, the 'sad night'; it is also called the Noche Victoriosa, the 'night of victory'. Cortés lost about half his men, but counts of the Spanish dead differ: 154 in Cortés's own report, about 450 in Díaz del Castillo and López de Gómara, 1,170 in Juan Cano's. Counts of the allied dead run from 1,000 to 4,000.",
+        "es": "Los relatos españoles la llaman Noche Triste; también se la conoce como Noche Victoriosa. Cortés perdió cerca de la mitad de sus hombres, pero las cifras de españoles muertos difieren: 154 según el propio Cortés, unos 450 según Díaz del Castillo y López de Gómara, y 1170 según Juan Cano. Las de aliados muertos van de 1000 a 4000.",
+        "zh": "西班牙方面称之为“悲伤之夜”（Noche Triste）；它也被称为“胜利之夜”（Noche Victoriosa）。科尔特斯损失了约一半的部下，但西班牙人死亡人数说法不一：科尔特斯本人报告154人，迪亚斯·德尔卡斯蒂略和洛佩斯·德戈马拉称约450人，胡安·卡诺称1170人。原住民盟友的死亡人数说法从1000人到4000人不等。"
       },
       "place": {
         "name": {
@@ -1026,48 +1026,24 @@
           "url": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
         },
         {
-          "citation": "Suárez, Karina (2019). \"¿Cuántas víctimas se cobró la conquista del imperio azteca a manos de Hernán Cortés?\" El País, 27 April 2019.",
-          "url": "https://elpais.com/politica/2019/04/24/sepa_usted/1556103173_598449.html"
-        },
-        {
           "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
           "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
         }
       ],
       "note": {
-        "en": "Warriors and civilians who died in and around Tenochtitlan during the 1521 siege, many of hunger, thirst and smallpox. The figures rest on conquest-era accounts and are contested.",
-        "es": "Guerreros y civiles muertos en Tenochtitlan y sus alrededores durante el sitio de 1521, muchos de hambre, sed y viruela. Las cifras se basan en relatos de la época y se discuten.",
-        "zh": "1521年围城期间在特诺奇蒂特兰城内外死亡的战士与平民，其中许多死于饥饿、缺水和天花。这些数字基于征服时期的记载，存在争议。"
+        "en": "Warriors and civilians of the Triple Alliance killed over the whole campaign, 1519 to 1521, many of hunger and smallpox. Sources differ on the low end: some put it at 100,000, others at 200,000. The figures rest on conquest-era accounts and are contested.",
+        "es": "Guerreros y civiles de la Triple Alianza muertos a lo largo de toda la campaña, de 1519 a 1521, muchos de hambre y de viruela. Las fuentes difieren en la cifra más baja: unas la sitúan en 100.000 y otras en 200.000. Las cifras se basan en relatos de la época de la conquista y se discuten.",
+        "zh": "1519年至1521年整个战役期间被杀的三方联盟战士与平民，其中许多死于饥饿和天花。各来源对下限说法不一：有的为10万人，有的为20万人。这些数字基于征服时期的记载，存在争议。"
       }
     },
     {
       "scope": "military-deaths",
       "side": "cortes-and-allies",
-      "low": 800,
-      "high": 1200,
-      "sources": [
-        {
-          "citation": "Wikipedia (English). \"La Noche Triste.\"",
-          "url": "https://en.wikipedia.org/wiki/La_Noche_Triste"
-        },
-        {
-          "citation": "Wikipedia (English). \"Fall of Tenochtitlan.\"",
-          "url": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
-        },
-        {
-          "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
-          "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
-        }
-      ],
-      "note": {
-        "en": "Spaniards killed, drowned or captured in the night retreat from Tenochtitlan, 30 June to 1 July 1520; Tlaxcalan losses ran to thousands. Cortés reported far fewer.",
-        "es": "Españoles muertos, ahogados o capturados en la retirada nocturna de Tenochtitlan, del 30 de junio al 1 de julio de 1520; las pérdidas tlaxcaltecas fueron de miles. Cortés informó de muchas menos.",
-        "zh": "1520年6月30日至7月1日夜间撤出特诺奇蒂特兰时被杀、溺亡或被俘的西班牙人；特拉斯卡拉人的损失数以千计。科尔特斯报告的数字要少得多。"
-      }
-    },
-    {
-      "scope": "military-deaths",
-      "side": "cortes-and-allies",
+      "who": {
+        "en": "Spaniards",
+        "es": "Españoles",
+        "zh": "西班牙人"
+      },
       "low": 1800,
       "high": 1800,
       "attributedTo": {
@@ -1086,9 +1062,9 @@
         }
       ],
       "note": {
-        "en": "Spaniards who died of all causes from the landing in 1519 to the fall of Tenochtitlan.",
-        "es": "Españoles muertos por todas las causas desde el desembarco de 1519 hasta la caída de Tenochtitlan.",
-        "zh": "自1519年登陆至特诺奇蒂特兰陷落期间因各种原因死亡的西班牙人。"
+        "en": "Spaniards who died of all causes from the landing in 1519 to the fall of Tenochtitlan. The expedition's Indigenous allies, most of them Tlaxcalan, lost tens of thousands killed or wounded; no source gives a firm count.",
+        "es": "Españoles muertos por todas las causas desde el desembarco de 1519 hasta la caída de Tenochtitlan. Los aliados indígenas de la expedición, en su mayoría tlaxcaltecas, sufrieron decenas de miles de muertos o heridos; ninguna fuente da una cifra firme.",
+        "zh": "自1519年登陆至特诺奇蒂特兰陷落期间因各种原因死亡的西班牙人。远征队的原住民盟友（大多为特拉斯卡拉人）死伤数以万计，没有来源给出确切数字。"
       }
     }
   ],
