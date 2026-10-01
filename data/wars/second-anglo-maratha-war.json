@@ -57,9 +57,9 @@
     {
       "id": "company",
       "label": {
-        "en": "East India Company forces and British Army regiments",
-        "es": "Las fuerzas de la Compañía de las Indias Orientales y regimientos del ejército británico",
-        "zh": "东印度公司部队与英国陆军各团"
+        "en": "East India Company forces, British Army regiments and their allies",
+        "es": "Las fuerzas de la Compañía de las Indias Orientales, regimientos del ejército británico y sus aliados",
+        "zh": "东印度公司部队、英国陆军各团及其盟友"
       },
       "members": [
         {
@@ -97,15 +97,51 @@
           "today": [
             "GB"
           ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Mysore irregular cavalry",
+            "es": "Caballería irregular de Mysore",
+            "zh": "迈索尔非正规骑兵"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "The Peshwa Baji Rao II, who ceded territory to pay for a Company force under the Treaty of Bassein",
+            "es": "El peshwa Baji Rao II, que cedió territorio para pagar una fuerza de la Compañía por el Tratado de Bassein",
+            "zh": "根据《巴塞因条约》割让领土以供养公司部队的佩什瓦巴吉拉奥二世"
+          },
+          "role": "supporter",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Hyderabad, under Nizam Ali Khan",
+            "es": "Hyderabad, bajo el nizam Ali Khan",
+            "zh": "尼扎姆·阿里汗治下的海得拉巴"
+          },
+          "role": "supporter",
+          "today": [
+            "IN"
+          ]
         }
       ]
     },
     {
       "id": "maratha-chiefs",
       "label": {
-        "en": "Maratha chiefs",
-        "es": "Jefes marathas",
-        "zh": "马拉塔首领"
+        "en": "Maratha chiefs, with French officers in Scindia's service",
+        "es": "Jefes marathas, con oficiales franceses al servicio de Scindia",
+        "zh": "马拉塔首领及为辛迪亚效力的法国军官"
       },
       "members": [
         {
@@ -154,6 +190,18 @@
           "role": "belligerent",
           "today": [
             "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "French officers commanding Scindia's regular battalions",
+            "es": "Oficiales franceses al mando de los batallones regulares de Scindia",
+            "zh": "指挥辛迪亚正规营的法国军官"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
           ]
         }
       ]
@@ -469,6 +517,14 @@
     {
       "citation": "\"Battle of Assaye.\" EBSCO Research Starters.",
       "url": "https://www.ebsco.com/research-starters/military-history-and-science/battle-assaye"
+    },
+    {
+      "citation": "Wikipedia (English). \"Battle of Assaye.\"",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Assaye"
+    },
+    {
+      "citation": "\"Battle of Assaye.\" British Battles.",
+      "url": "https://www.britishbattles.com/second-mahratta-war/battle-of-assaye/"
     }
   ]
 }
