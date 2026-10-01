@@ -28,7 +28,7 @@
   "description": {
     "en": "From 1235 to 1279 the Mongol Empire, and from 1271 its Yuan dynasty, fought the Southern Song dynasty, which ruled southern China. The Song held out for decades behind fortified cities, mountain forts and rivers, and both sides used gunpowder bombs and river fleets. Möngke Khan died in 1259 while besieging Diaoyu Fortress in Sichuan, and the Mongol campaigns stopped while his brothers fought over the succession. Kublai renewed the war in 1268: his armies besieged Xiangyang and Fancheng for five years and took them in 1273, helped by counterweight trebuchets built by engineers from the Ilkhanate, then went down the Yangtze. Many Song commanders changed sides. Lin'an (Hangzhou), the Song capital, surrendered in 1276. Song officials enthroned two child emperors in turn and fought on in the south until the Yuan fleet destroyed the last Song fleet at Yamen in 1279. No reliable count of the war's dead survives.",
     "es": "De 1235 a 1279 el Imperio mongol, y desde 1271 su dinastía Yuan, combatió a la dinastía Song del Sur, que gobernaba el sur de China. Los Song resistieron durante décadas tras ciudades fortificadas, fuertes de montaña y ríos, y ambos bandos usaron bombas de pólvora y flotas fluviales. Möngke Kan murió en 1259 mientras asediaba la fortaleza de Diaoyu, en Sichuan, y las campañas mongolas se detuvieron mientras sus hermanos se disputaban la sucesión. Kublai reanudó la guerra en 1268: sus ejércitos sitiaron Xiangyang y Fancheng durante cinco años y las tomaron en 1273, con ayuda de trabuquetes de contrapeso construidos por ingenieros del Iljanato, y después descendieron por el Yangtsé. Muchos comandantes Song cambiaron de bando. Lin'an (Hangzhou), la capital Song, se rindió en 1276. Los funcionarios Song entronizaron sucesivamente a dos emperadores niños y siguieron luchando en el sur hasta que la flota Yuan destruyó la última flota Song en Yamen en 1279. No se conserva un recuento fiable de los muertos de la guerra.",
-    "zh": "1235年至1279年，蒙古帝国（1271年起为其元朝）与统治中国南方的南宋交战。南宋依托设防城市、山城和江河坚守数十年，双方都使用了火药武器和江河水军。1259年蒙哥汗在围攻四川钓鱼城时死去，其兄弟争夺汗位，蒙古的攻势随之停止。1268年忽必烈重启战事：元军围攻襄阳和樊城五年，于1273年借助伊儿汗国工匠制造的配重投石机将其攻破，随后顺长江而下。许多宋将倒戈。1276年南宋都城临安（杭州）投降。宋臣先后拥立两位幼帝，在南方继续抵抗，直到1279年元军舰队在崖山歼灭最后的宋朝舰队。这场战争的死亡人数没有可靠统计留存。"
+    "zh": "1235年至1279年，蒙古帝国（1271年起为其元朝）与统治中国南方的南宋交战。南宋依托设防城市、山城和江河坚守数十年，双方都使用了火药武器和江河水军。1259年蒙哥汗在围攻四川钓鱼城时死去，其兄弟争夺汗位，蒙古的攻势随之停止。1268年忽必烈重启战事：其军队围攻襄阳和樊城五年，于1273年借助伊儿汗国工匠制造的配重投石机将其攻破，随后顺长江而下。许多宋将倒戈。1276年南宋都城临安（杭州）投降。宋臣先后拥立两位幼帝，在南方继续抵抗，直到1279年元军舰队在崖山歼灭最后的宋朝舰队。这场战争的死亡人数没有可靠统计留存。"
   },
   "outcome": {
     "en": "The Song dynasty ended in 1279 and the Yuan dynasty of Kublai Khan ruled all of China.",
@@ -98,6 +98,18 @@
             "en": "Northern Chinese \"Han Army\" troops and Song commanders and soldiers who changed sides",
             "es": "Tropas chinas del norte del \"Ejército Han\" y comandantes y soldados Song que cambiaron de bando",
             "zh": "北方汉人组成的“汉军”以及倒戈的宋朝将士"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Troops of the Dali Kingdom (Yunnan), led by its Duan royal family under Mongol command after the Mongols took Dali in 1253",
+            "es": "Tropas del Reino de Dali (Yunnan), dirigidas por su familia real Duan bajo mando mongol después de que los mongoles tomaran Dali en 1253",
+            "zh": "大理国（云南）的军队，1253年蒙古攻取大理后由段氏王族率领、受蒙古统辖"
           },
           "role": "belligerent",
           "today": [
@@ -457,6 +469,14 @@
     {
       "citation": "Wikipedia (中文). \"宋元战争.\"",
       "url": "https://zh.wikipedia.org/zh-cn/%E5%AE%8B%E5%85%83%E6%88%98%E4%BA%89"
+    },
+    {
+      "citation": "Wikipedia (English). \"Uriyangkhadai\" (the 1259 march from Thang Long into Song Guangxi).",
+      "url": "https://en.wikipedia.org/wiki/Uriyangkhadai"
+    },
+    {
+      "citation": "Wikipedia (中文). \"段兴智\" (the Duan family's Cuan-Bo troops under Mongol command).",
+      "url": "https://zh.wikipedia.org/zh-cn/%E6%AE%B5%E5%85%B4%E6%99%BA"
     }
   ]
 }
