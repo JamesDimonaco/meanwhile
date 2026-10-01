@@ -19,7 +19,7 @@
   ],
   "description": {
     "en": "On 28 June 1914 Gavrilo Princip, a Bosnian Serb, shot dead Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, in Sarajevo. Austria-Hungary declared war on Serbia on 28 July, and within a week the alliances had drawn in Germany, Russia, France and Britain; German troops crossed neutral Belgium on their way into France. The Central Powers (Germany, Austria-Hungary, the Ottoman Empire and Bulgaria) fought the Allies: France, the British Empire with its dominions and India, Russia, Serbia, Belgium and Japan, joined later by Italy, Romania, the United States and others. After the Marne in September 1914 the Western Front settled into trench warfare, and battles such as Verdun and the Somme killed hundreds of thousands without breaking it; Germany released chlorine gas at Ypres in April 1915. Russia left the war after its 1917 revolutions and signed the Treaty of Brest-Litovsk in March 1918. With American troops arriving, the Allies stopped Germany's 1918 offensives and broke the Hindenburg Line; Germany's allies gave up one by one, and Germany signed an armistice on 11 November 1918.",
-    "es": "El 28 de junio de 1914 Gavrilo Princip, un serbobosnio, mató a tiros en Sarajevo al archiduque Francisco Fernando, heredero del trono austrohúngaro. Austria-Hungría declaró la guerra a Serbia el 28 de julio y en una semana las alianzas arrastraron a Alemania, Rusia, Francia y el Reino Unido; las tropas alemanas cruzaron la neutral Bélgica camino de Francia. Las Potencias Centrales (Alemania, Austria-Hungría, el Imperio otomano y Bulgaria) lucharon contra los Aliados: Francia, el Imperio británico con sus dominios y la India, Rusia, Serbia, Bélgica y Japón, a los que se sumaron Italia, Rumania, Estados Unidos y otros. Tras el Marne, en septiembre de 1914, el frente occidental se estancó en una guerra de trincheras, y batallas como Verdún y el Somme mataron a cientos de miles sin romperlo; Alemania liberó gas de cloro en Ypres en abril de 1915. Rusia salió de la guerra tras sus revoluciones de 1917 y firmó el Tratado de Brest-Litovsk en marzo de 1918. Con la llegada de tropas estadounidenses, los Aliados frenaron las ofensivas alemanas de 1918 y rompieron la Línea Hindenburg; los aliados de Alemania se rindieron uno tras otro, y Alemania firmó un armisticio el 11 de noviembre de 1918.",
+    "es": "El 28 de junio de 1914 Gavrilo Princip, un serbobosnio, mató a tiros en Sarajevo al archiduque Francisco Fernando, heredero del trono austrohúngaro. Austria-Hungría declaró la guerra a Serbia el 28 de julio y en una semana las alianzas arrastraron a Alemania, Rusia, Francia y el Reino Unido; las tropas alemanas cruzaron la neutral Bélgica camino de Francia. Las Potencias Centrales (Alemania, Austria-Hungría, el Imperio otomano y Bulgaria) lucharon contra los Aliados: Francia, el Imperio británico con sus dominios y la India, Rusia, Serbia, Bélgica y Japón, a los que se sumaron Italia, Rumania, Estados Unidos y otros. Tras el Marne, en septiembre de 1914, el frente occidental se estancó en una guerra de trincheras, y batallas como Verdún y el Somme mataron a cientos de miles sin romperlo; Alemania lanzó gas de cloro en Ypres en abril de 1915. Rusia salió de la guerra tras sus revoluciones de 1917 y firmó el Tratado de Brest-Litovsk en marzo de 1918. Con la llegada de tropas estadounidenses, los Aliados frenaron las ofensivas alemanas de 1918 y rompieron la Línea Hindenburg; los aliados de Alemania se rindieron uno tras otro, y Alemania firmó un armisticio el 11 de noviembre de 1918.",
     "zh": "1914年6月28日，波斯尼亚塞族人加夫里洛·普林西普在萨拉热窝枪杀奥匈帝国皇储弗朗茨·斐迪南大公。奥匈帝国于7月28日向塞尔维亚宣战，一周之内，同盟体系把德国、俄国、法国和英国卷入战争；德军穿过中立的比利时进入法国。同盟国（德国、奥匈帝国、奥斯曼帝国和保加利亚）与协约国作战，后者包括法国、英帝国及其自治领和印度、俄国、塞尔维亚、比利时和日本，后来又有意大利、罗马尼亚、美国等国加入。1914年9月马恩河战役之后，西线陷入堑壕战，凡尔登、索姆河等战役造成数十万人死亡却未能打破僵局；1915年4月德国在伊珀尔施放氯气。俄国在1917年革命后退出战争，于1918年3月签订《布列斯特-立托夫斯克和约》。随着美军到来，协约国挡住了德国1918年的攻势并突破兴登堡防线；德国的盟国相继投降，德国于1918年11月11日签署停战协定。"
   },
   "outcome": {
@@ -241,10 +241,10 @@
         "name": {
           "en": "Tannenberg, East Prussia (now Stębark, Poland)",
           "es": "Tannenberg, Prusia Oriental (hoy Stębark, Polonia)",
-          "zh": "东普鲁士坦能堡（今波兰斯滕巴克）"
+          "zh": "东普鲁士坦能堡（今波兰斯滕巴尔克）"
         },
-        "lat": 53.75,
-        "lon": 20.5
+        "lat": 53.496,
+        "lon": 20.136
       },
       "wikidataId": "Q153858"
     },
@@ -272,9 +272,9 @@
       ],
       "place": {
         "name": {
-          "en": "The Marne, near Meaux",
-          "es": "El Marne, cerca de Meaux",
-          "zh": "马恩河（莫城附近）"
+          "en": "The Marne, near Château-Thierry",
+          "es": "El Marne, cerca de Château-Thierry",
+          "zh": "马恩河（蒂耶里堡附近）"
         },
         "lat": 49.017,
         "lon": 3.383
