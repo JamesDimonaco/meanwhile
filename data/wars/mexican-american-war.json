@@ -1,0 +1,589 @@
+{
+  "id": "mexican-american-war",
+  "wikidataId": "Q6683",
+  "name": {
+    "en": "Mexican–American War",
+    "es": "Intervención estadounidense en México",
+    "zh": "美墨战争"
+  },
+  "aliases": [
+    "Mexican War",
+    "U.S.–Mexican War",
+    "US–Mexico War",
+    "Guerra mexicano-estadounidense",
+    "Guerra de Estados Unidos-México",
+    "Intervención norteamericana en México",
+    "墨西哥战争",
+    "Treaty of Guadalupe Hidalgo",
+    "Tratado de Guadalupe Hidalgo",
+    "Niños Héroes",
+    "Chapultepec",
+    "Santa Anna"
+  ],
+  "altNames": [
+    {
+      "text": "Intervención estadounidense en México",
+      "lang": "es",
+      "usedBy": {
+        "en": "Mexico",
+        "es": "México",
+        "zh": "墨西哥"
+      },
+      "gloss": {
+        "en": "United States intervention in Mexico",
+        "es": "Intervención estadounidense en México",
+        "zh": "美国对墨西哥的干预"
+      }
+    },
+    {
+      "text": "Mexican War",
+      "lang": "en",
+      "usedBy": {
+        "en": "the United States",
+        "es": "Estados Unidos",
+        "zh": "美国"
+      },
+      "gloss": {
+        "en": "Mexican War",
+        "es": "Guerra de México",
+        "zh": "墨西哥战争"
+      }
+    }
+  ],
+  "description": {
+    "en": "The United States annexed Texas in 1845. Mexico had never recognised Texan independence, and the two countries disputed the border: the United States claimed the Rio Grande, Mexico the Nueces River farther north. After Mexico turned down President James K. Polk's offer to buy the disputed strip, New Mexico and California, Polk sent Zachary Taylor's army to the Rio Grande. In April 1846 Mexican cavalry attacked a US patrol in the disputed land, and the US Congress declared war on 13 May. US forces took New Mexico and California; in the north Taylor's army took Monterrey and held its ground at Buena Vista. In March 1847 Winfield Scott landed at Veracruz, marched inland and took Mexico City in September after the battle of Chapultepec. In the Treaty of Guadalupe Hidalgo, signed on 2 February 1848, Mexico ceded about half of its territory to the United States.",
+    "es": "Estados Unidos se anexionó Texas en 1845. México nunca había reconocido la independencia texana, y los dos países se disputaban la frontera: Estados Unidos reclamaba el río Bravo y México el río Nueces, más al norte. Después de que México rechazara la oferta del presidente James K. Polk de comprar la franja en disputa, Nuevo México y California, Polk envió el ejército de Zachary Taylor al río Bravo. En abril de 1846 la caballería mexicana atacó una patrulla estadounidense en la zona disputada, y el Congreso estadounidense declaró la guerra el 13 de mayo. Las fuerzas estadounidenses tomaron Nuevo México y California; en el norte, el ejército de Taylor tomó Monterrey y resistió en La Angostura. En marzo de 1847 Winfield Scott desembarcó en Veracruz, avanzó tierra adentro y tomó la Ciudad de México en septiembre, tras la batalla de Chapultepec. Por el Tratado de Guadalupe Hidalgo, firmado el 2 de febrero de 1848, México cedió cerca de la mitad de su territorio a Estados Unidos.",
+    "zh": "1845年，美国兼并德克萨斯。墨西哥从未承认德克萨斯独立，两国在边界问题上存在争议：美国主张以格兰德河为界，墨西哥则主张以更北的努埃塞斯河为界。墨西哥拒绝了詹姆斯·K·波尔克总统购买争议地带以及新墨西哥和加利福尼亚的提议，波尔克随即派扎卡里·泰勒的军队开赴格兰德河。1846年4月，墨西哥骑兵在争议地区袭击一支美军巡逻队，美国国会于5月13日宣战。美军占领新墨西哥和加利福尼亚；在北方，泰勒的军队攻占蒙特雷，并在布埃纳维斯塔守住阵地。1847年3月，温菲尔德·斯科特在韦拉克鲁斯登陆，向内陆推进，并在查普尔特佩克之战后于9月攻占墨西哥城。根据1848年2月2日签订的《瓜达卢佩-伊达尔戈条约》，墨西哥将约一半领土割让给美国。"
+  },
+  "outcome": {
+    "en": "In the Treaty of Guadalupe Hidalgo (2 February 1848) Mexico ceded about 55 per cent of its territory to the United States, which paid 15 million dollars and took on up to 3.25 million dollars of Mexico's debts to US citizens.",
+    "es": "Por el Tratado de Guadalupe Hidalgo (2 de febrero de 1848) México cedió cerca del 55 % de su territorio a Estados Unidos, que pagó 15 millones de dólares y asumió hasta 3,25 millones de dólares de deudas de México con ciudadanos estadounidenses.",
+    "zh": "根据《瓜达卢佩-伊达尔戈条约》（1848年2月2日），墨西哥将约55%的领土割让给美国，美国支付1500万美元，并承担墨西哥欠美国公民的至多325万美元债务。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1846,
+    "latestStart": 1846,
+    "earliestEnd": 1848,
+    "latestEnd": 1848,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Mexican–American War.\"",
+        "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+      },
+      {
+        "citation": "Wikipedia (中文). \"美墨戰爭.\"",
+        "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A2%A8%E6%88%B0%E7%88%AD"
+      },
+      {
+        "citation": "Office of the Historian, U.S. Department of State. \"The Annexation of Texas, the Mexican-American War, and the Treaty of Guadalupe-Hidalgo, 1845–1848.\"",
+        "url": "https://history.state.gov/milestones/1830-1860/texas-annexation"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "united-states",
+      "label": {
+        "en": "United States",
+        "es": "Estados Unidos",
+        "zh": "美国"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "belligerent",
+          "today": [
+            "US"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mexico",
+      "label": {
+        "en": "Mexico",
+        "es": "México",
+        "zh": "墨西哥"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "MX",
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "thornton-affair",
+      "start": 1846,
+      "title": {
+        "en": "Mexican cavalry under Anastasio Torrejón attack a US patrol under Seth Thornton north of the Rio Grande, in land both countries claimed",
+        "es": "La caballería mexicana al mando de Anastasio Torrejón ataca una patrulla estadounidense al mando de Seth Thornton al norte del río Bravo, en tierras que ambos países reclamaban",
+        "zh": "阿纳斯塔西奥·托雷洪率领的墨西哥骑兵在格兰德河以北两国均声称拥有的土地上袭击塞斯·桑顿率领的美军巡逻队"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Mexican–American War.\"",
+          "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Intervención estadounidense en México.\"",
+          "url": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_estadounidense_en_M%C3%A9xico"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"The Annexation of Texas, the Mexican-American War, and the Treaty of Guadalupe-Hidalgo, 1845–1848.\"",
+          "url": "https://history.state.gov/milestones/1830-1860/texas-annexation"
+        }
+      ],
+      "note": {
+        "en": "Most accounts date it 25 April 1846; some give 24 April.",
+        "es": "La mayoría de los relatos lo fechan el 25 de abril de 1846; algunos, el 24 de abril.",
+        "zh": "多数记载为1846年4月25日，也有记载为4月24日。"
+      },
+      "place": {
+        "name": {
+          "en": "Rancho de Carricitos",
+          "es": "Rancho de Carricitos",
+          "zh": "卡里西托斯牧场"
+        },
+        "lat": 26.0619,
+        "lon": -97.7842
+      },
+      "wikidataId": "Q7796515"
+    },
+    {
+      "id": "palo-alto-and-resaca-de-la-palma",
+      "start": 1846,
+      "title": {
+        "en": "Taylor's army drives back Mariano Arista's at Palo Alto and Resaca de la Palma on 8–9 May; Arista's army withdraws across the Rio Grande",
+        "es": "El ejército de Taylor hace retroceder al de Mariano Arista en Palo Alto y Resaca de la Palma el 8 y 9 de mayo; el ejército de Arista se retira al otro lado del río Bravo",
+        "zh": "5月8日至9日，泰勒的军队在帕洛阿尔托和雷萨卡-德拉帕尔马击退马里亚诺·阿瑞斯塔的军队，阿瑞斯塔的军队撤回格兰德河以南"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Mexican–American War.\"",
+          "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla de Resaca de la Palma.\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_Resaca_de_la_Palma"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Palo Alto",
+          "es": "Palo Alto",
+          "zh": "帕洛阿尔托"
+        },
+        "lat": 26.0201,
+        "lon": -97.4654
+      },
+      "wikidataId": "Q2736004"
+    },
+    {
+      "id": "santa-fe-occupied",
+      "start": 1846,
+      "title": {
+        "en": "Stephen W. Kearny's army enters Santa Fe without a fight, and Kearny declares himself military governor of New Mexico on 18 August",
+        "es": "El ejército de Stephen W. Kearny entra en Santa Fe sin combatir, y Kearny se proclama gobernador militar de Nuevo México el 18 de agosto",
+        "zh": "斯蒂芬·W·卡尼的军队未经战斗进入圣塔菲，卡尼于8月18日自任新墨西哥军事总督"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Mexican–American War.\"",
+          "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Intervención estadounidense en México.\"",
+          "url": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_estadounidense_en_M%C3%A9xico"
+        },
+        {
+          "citation": "Wikipedia (中文). \"美墨戰爭.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A2%A8%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Santa Fe",
+          "es": "Santa Fe",
+          "zh": "圣塔菲"
+        },
+        "lat": 35.687,
+        "lon": -105.938
+      }
+    },
+    {
+      "id": "battle-of-monterrey",
+      "start": 1846,
+      "title": {
+        "en": "After days of street fighting in September, Pedro de Ampudia surrenders Monterrey to Taylor under an eight-week armistice",
+        "es": "Tras varios días de combates callejeros en septiembre, Pedro de Ampudia entrega Monterrey a Taylor a cambio de un armisticio de ocho semanas",
+        "zh": "9月经过数日巷战，佩德罗·德·安普迪亚以八周停战为条件将蒙特雷交给泰勒"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Mexican–American War.\"",
+          "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Intervención estadounidense en México.\"",
+          "url": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_estadounidense_en_M%C3%A9xico"
+        },
+        {
+          "citation": "Wikipedia (中文). \"美墨戰爭.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A2%A8%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Monterrey",
+          "es": "Monterrey",
+          "zh": "蒙特雷"
+        },
+        "lat": 25.6822,
+        "lon": -100.3111
+      },
+      "wikidataId": "Q1628057"
+    },
+    {
+      "id": "battle-of-buena-vista",
+      "start": 1847,
+      "title": {
+        "en": "Santa Anna's army attacks Taylor's at the pass of La Angostura, near Buena Vista, on 22–23 February, then withdraws south",
+        "es": "El ejército de Santa Anna ataca al de Taylor en el paso de La Angostura, cerca de Buena Vista, el 22 y 23 de febrero, y después se retira al sur",
+        "zh": "2月22日至23日，圣安纳的军队在布埃纳维斯塔附近的安戈斯图拉山口进攻泰勒的军队，随后南撤"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Mexican–American War.\"",
+          "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Intervención estadounidense en México.\"",
+          "url": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_estadounidense_en_M%C3%A9xico"
+        }
+      ],
+      "note": {
+        "en": "Mexicans call it the battle of La Angostura. Early reports on both sides claimed victory; Taylor's army held the field after Santa Anna withdrew.",
+        "es": "En México se la llama batalla de La Angostura. Los primeros partes de ambos bandos se atribuyeron la victoria; el ejército de Taylor quedó en el campo tras la retirada de Santa Anna.",
+        "zh": "墨西哥称之为安戈斯图拉之战。双方最初的战报都宣称获胜；圣安纳撤退后，泰勒的军队控制了战场。"
+      },
+      "place": {
+        "name": {
+          "en": "La Angostura, near Buena Vista",
+          "es": "La Angostura, cerca de Buena Vista",
+          "zh": "布埃纳维斯塔附近的安戈斯图拉"
+        },
+        "lat": 25.337,
+        "lon": -101.0464
+      },
+      "wikidataId": "Q1808450"
+    },
+    {
+      "id": "siege-of-veracruz",
+      "start": 1847,
+      "title": {
+        "en": "Winfield Scott's army lands near Veracruz on 9 March and besieges the port, which surrenders at the end of the month after a bombardment that kills many civilians",
+        "es": "El ejército de Winfield Scott desembarca cerca de Veracruz el 9 de marzo y sitia el puerto, que se rinde a finales de mes tras un bombardeo que mata a muchos civiles",
+        "zh": "3月9日，温菲尔德·斯科特的军队在韦拉克鲁斯附近登陆并围攻该港，该港在一场造成大量平民死亡的炮击后于月底投降"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Mexican–American War.\"",
+          "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Intervención estadounidense en México.\"",
+          "url": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_estadounidense_en_M%C3%A9xico"
+        },
+        {
+          "citation": "Wikipedia (中文). \"美墨戰爭.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A2%A8%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Veracruz",
+          "es": "Veracruz",
+          "zh": "韦拉克鲁斯"
+        },
+        "lat": 19.1903,
+        "lon": -96.1533
+      },
+      "wikidataId": "Q2745368"
+    },
+    {
+      "id": "battle-of-chapultepec",
+      "start": 1847,
+      "title": {
+        "en": "US troops storm Chapultepec Castle, home of the Military College, on 12–13 September and occupy Mexico City",
+        "es": "Las tropas estadounidenses asaltan el Castillo de Chapultepec, sede del Colegio Militar, el 12 y 13 de septiembre y ocupan la Ciudad de México",
+        "zh": "9月12日至13日，美军强攻军校所在的查普尔特佩克城堡，随后占领墨西哥城"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Mexican–American War.\"",
+          "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Intervención estadounidense en México.\"",
+          "url": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_estadounidense_en_M%C3%A9xico"
+        },
+        {
+          "citation": "Wikipedia (中文). \"美墨戰爭.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A2%A8%E6%88%B0%E7%88%AD"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"The Annexation of Texas, the Mexican-American War, and the Treaty of Guadalupe-Hidalgo, 1845–1848.\"",
+          "url": "https://history.state.gov/milestones/1830-1860/texas-annexation"
+        }
+      ],
+      "note": {
+        "en": "Six cadets who died in the fighting at the castle are remembered in Mexico as the Niños Héroes.",
+        "es": "Seis cadetes que murieron en los combates del castillo son recordados en México como los Niños Héroes.",
+        "zh": "在城堡战斗中死亡的六名军校学员在墨西哥被纪念为“少年英雄”（Niños Héroes）。"
+      },
+      "place": {
+        "name": {
+          "en": "Chapultepec Castle, Mexico City",
+          "es": "Castillo de Chapultepec, Ciudad de México",
+          "zh": "墨西哥城查普尔特佩克城堡"
+        },
+        "lat": 19.421,
+        "lon": -99.182
+      },
+      "wikidataId": "Q1536618"
+    },
+    {
+      "id": "treaty-of-guadalupe-hidalgo",
+      "start": 1848,
+      "title": {
+        "en": "US envoy Nicholas Trist and Mexican commissioners sign the Treaty of Guadalupe Hidalgo at the town of that name on 2 February",
+        "es": "El enviado estadounidense Nicholas Trist y los comisionados mexicanos firman el Tratado de Guadalupe Hidalgo en la villa homónima el 2 de febrero",
+        "zh": "2月2日，美国特使尼古拉斯·特里斯特与墨西哥代表在瓜达卢佩-伊达尔戈镇签订《瓜达卢佩-伊达尔戈条约》"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"The Annexation of Texas, the Mexican-American War, and the Treaty of Guadalupe-Hidalgo, 1845–1848.\"",
+          "url": "https://history.state.gov/milestones/1830-1860/texas-annexation"
+        },
+        {
+          "citation": "Wikipedia (español). \"Intervención estadounidense en México.\"",
+          "url": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_estadounidense_en_M%C3%A9xico"
+        },
+        {
+          "citation": "Wikipedia (中文). \"美墨戰爭.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A2%A8%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Villa de Guadalupe Hidalgo",
+          "es": "Villa de Guadalupe Hidalgo",
+          "zh": "瓜达卢佩-伊达尔戈镇"
+        },
+        "lat": 19.4846,
+        "lon": -99.1176
+      },
+      "wikidataId": "Q616109"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "James K. Polk",
+        "es": "James K. Polk",
+        "zh": "詹姆斯·诺克斯·波尔克"
+      },
+      "side": "united-states",
+      "role": {
+        "en": "President of the United States",
+        "es": "Presidente de Estados Unidos",
+        "zh": "美国总统"
+      },
+      "wikidataId": "Q11891"
+    },
+    {
+      "name": {
+        "en": "Zachary Taylor",
+        "es": "Zachary Taylor",
+        "zh": "扎卡里·泰勒"
+      },
+      "side": "united-states",
+      "role": {
+        "en": "Commanded the army in northern Mexico",
+        "es": "Mandó el ejército en el norte de México",
+        "zh": "墨西哥北部美军指挥官"
+      },
+      "wikidataId": "Q11896"
+    },
+    {
+      "name": {
+        "en": "Winfield Scott",
+        "es": "Winfield Scott",
+        "zh": "温菲尔德·斯科特"
+      },
+      "side": "united-states",
+      "role": {
+        "en": "Led the campaign from Veracruz to Mexico City",
+        "es": "Dirigió la campaña de Veracruz a la Ciudad de México",
+        "zh": "领导从韦拉克鲁斯到墨西哥城的战役"
+      },
+      "wikidataId": "Q354759"
+    },
+    {
+      "name": {
+        "en": "Stephen W. Kearny",
+        "es": "Stephen Kearny",
+        "zh": "斯蒂芬·W·卡尼"
+      },
+      "side": "united-states",
+      "role": {
+        "en": "Led the army that took New Mexico",
+        "es": "Dirigió el ejército que tomó Nuevo México",
+        "zh": "率军占领新墨西哥"
+      },
+      "wikidataId": "Q518351"
+    },
+    {
+      "name": {
+        "en": "Antonio López de Santa Anna",
+        "es": "Antonio López de Santa Anna",
+        "zh": "安东尼奥·洛佩斯·德·圣安纳"
+      },
+      "side": "mexico",
+      "role": {
+        "en": "President and commander of the Mexican army from late 1846",
+        "es": "Presidente y comandante del ejército mexicano desde finales de 1846",
+        "zh": "1846年底起任墨西哥总统兼军队统帅"
+      },
+      "wikidataId": "Q189145"
+    },
+    {
+      "name": {
+        "en": "Mariano Arista",
+        "es": "Mariano Arista",
+        "zh": "马里亚诺·阿瑞斯塔"
+      },
+      "side": "mexico",
+      "role": {
+        "en": "Commanded at Palo Alto and Resaca de la Palma",
+        "es": "Mandó en Palo Alto y Resaca de la Palma",
+        "zh": "帕洛阿尔托和雷萨卡-德拉帕尔马墨军指挥官"
+      },
+      "wikidataId": "Q431576"
+    },
+    {
+      "name": {
+        "en": "Pedro de Ampudia",
+        "es": "Pedro Ampudia",
+        "zh": "佩德罗·德·安普迪亚"
+      },
+      "side": "mexico",
+      "role": {
+        "en": "Commanded at Monterrey",
+        "es": "Mandó en Monterrey",
+        "zh": "蒙特雷墨军指挥官"
+      },
+      "wikidataId": "Q727321"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "military-deaths",
+      "side": "united-states",
+      "low": 13283,
+      "high": 13283,
+      "attributedTo": {
+        "en": "the US Department of Veterans Affairs",
+        "es": "el Departamento de Asuntos de Veteranos de Estados Unidos",
+        "zh": "美国退伍军人事务部"
+      },
+      "sources": [
+        {
+          "citation": "U.S. Department of Veterans Affairs. \"America's Wars\": Mexican War (1846–1848).",
+          "url": "https://department.va.gov/americas-wars/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mexican–American War.\"",
+          "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+        }
+      ],
+      "note": {
+        "en": "1,733 killed in battle and 11,550 other deaths in the theatre of war, most of them from disease.",
+        "es": "1733 muertos en combate y 11 550 muertes por otras causas en el teatro de operaciones, la mayoría por enfermedad.",
+        "zh": "1733人阵亡，11550人在战区因其他原因死亡，其中大多死于疾病。"
+      }
+    },
+    {
+      "scope": "total-deaths",
+      "side": "mexico",
+      "low": 25000,
+      "high": 25000,
+      "attributedTo": {
+        "en": "military historian Micheal Clodfelter",
+        "es": "el historiador militar Micheal Clodfelter",
+        "zh": "军事史学者迈克尔·克洛德费尔特"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Mexican–American War.\"",
+          "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+        },
+        {
+          "citation": "Peace, Roger. \"United States-Mexican War, 1846-1848.\" United States Foreign Policy History and Resource Guide.",
+          "url": "https://peacehistory-usfp.org/us-mexican-war/"
+        },
+        {
+          "citation": "Wikipedia (español). \"Intervención estadounidense en México.\"",
+          "url": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_estadounidense_en_M%C3%A9xico"
+        }
+      ],
+      "note": {
+        "en": "An estimate, not a count: soldiers killed in battle (about 5,000) or dead of disease and accidents, and civilians killed in the fighting.",
+        "es": "Una estimación, no un recuento: soldados muertos en combate (unos 5000) o por enfermedad y accidentes, y civiles muertos en los combates.",
+        "zh": "这是估计数而非统计数：包括阵亡士兵（约5000人）、因疾病和事故死亡的士兵，以及在战斗中丧生的平民。"
+      }
+    }
+  ],
+  "cultures": [],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Mexican–American War.\"",
+      "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Intervención estadounidense en México.\"",
+      "url": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_estadounidense_en_M%C3%A9xico"
+    },
+    {
+      "citation": "Wikipedia (中文). \"美墨戰爭.\"",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A2%A8%E6%88%B0%E7%88%AD"
+    },
+    {
+      "citation": "Office of the Historian, U.S. Department of State. \"The Annexation of Texas, the Mexican-American War, and the Treaty of Guadalupe-Hidalgo, 1845–1848.\"",
+      "url": "https://history.state.gov/milestones/1830-1860/texas-annexation"
+    },
+    {
+      "citation": "U.S. Department of Veterans Affairs. \"America's Wars\": Mexican War (1846–1848).",
+      "url": "https://department.va.gov/americas-wars/"
+    },
+    {
+      "citation": "Peace, Roger. \"United States-Mexican War, 1846-1848.\" United States Foreign Policy History and Resource Guide.",
+      "url": "https://peacehistory-usfp.org/us-mexican-war/"
+    }
+  ]
+}

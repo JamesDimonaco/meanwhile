@@ -1,0 +1,1159 @@
+{
+  "id": "first-opium-war",
+  "wikidataId": "Q191282",
+  "name": {
+    "en": "First Opium War",
+    "es": "Primera guerra del Opio",
+    "zh": "第一次鸦片战争"
+  },
+  "aliases": [
+    "Opium War",
+    "Anglo-Chinese War",
+    "First China War",
+    "First Anglo-Chinese War",
+    "Primera guerra anglo-china",
+    "Guerra del Opio",
+    "鸦片战争",
+    "中英战争",
+    "Lin Zexu",
+    "林则徐",
+    "Treaty of Nanking",
+    "Treaty of Nanjing",
+    "南京条约",
+    "Humen",
+    "虎门销烟"
+  ],
+  "description": {
+    "en": "In 1839 the Daoguang Emperor sent Lin Zexu to Guangzhou to end the opium trade, which British merchants ran from India in defiance of a Qing ban. Lin confined the foreign merchants until they surrendered more than 20,000 chests of opium, then had it destroyed at Humen. After clashes off Kowloon and Chuenpi, a British expedition of Royal Navy ships, British regiments and East India Company troops from India arrived in June 1840 and took Zhoushan. A draft settlement in January 1841 was rejected by both governments. British forces then took the Humen forts, attacked Guangzhou and withdrew only after the city paid six million dollars. Under Henry Pottinger they moved north, taking Xiamen, Ningbo, Shanghai and Zhenjiang, where they cut the Grand Canal. With Nanjing under threat, Qing envoys signed the Treaty of Nanking on 29 August 1842.",
+    "es": "En 1839 el emperador Daoguang envió a Lin Zexu a Cantón para acabar con el comercio de opio, que los mercaderes británicos llevaban desde la India pese a la prohibición de los Qing. Lin retuvo a los mercaderes extranjeros hasta que entregaron más de 20.000 cajas de opio, que mandó destruir en Humen. Tras choques frente a Kowloon y Chuenpi, una expedición británica de buques de la Marina Real, regimientos británicos y tropas de la Compañía de las Indias Orientales llegadas de la India arribó en junio de 1840 y tomó Zhoushan. Un acuerdo provisional de enero de 1841 fue rechazado por ambos gobiernos. Las fuerzas británicas tomaron entonces los fuertes de Humen, atacaron Cantón y solo se retiraron cuando la ciudad pagó seis millones de dólares. Al mando de Henry Pottinger avanzaron hacia el norte y tomaron Xiamen, Ningbo, Shanghái y Zhenjiang, donde cortaron el Gran Canal. Con Nankín amenazada, los enviados Qing firmaron el Tratado de Nankín el 29 de agosto de 1842.",
+    "zh": "1839年，道光帝派林则徐到广州禁绝鸦片贸易；英国商人无视清朝禁令，从印度贩运鸦片。林则徐将外国商人困于商馆，直到他们交出两万多箱鸦片，随后下令在虎门销毁。在九龙和穿鼻海面发生冲突后，由皇家海军舰船、英国步兵团和来自印度的东印度公司部队组成的英国远征军于1840年6月到达，攻占舟山。1841年1月拟定的草约被双方政府否决。英军随后攻占虎门炮台、进攻广州，直到该城交付六百万元后才撤退。英军在璞鼎查率领下北上，先后攻占厦门、宁波、上海和镇江，并在镇江切断大运河。南京受到威胁，清朝代表于1842年8月29日签订《南京条约》。"
+  },
+  "outcome": {
+    "en": "In the Treaty of Nanking (29 August 1842) the Qing ceded Hong Kong Island to Britain, opened five ports to British trade and agreed to pay 21 million silver dollars.",
+    "es": "Por el Tratado de Nankín (29 de agosto de 1842) los Qing cedieron la isla de Hong Kong al Reino Unido, abrieron cinco puertos al comercio británico y aceptaron pagar 21 millones de dólares de plata.",
+    "zh": "根据《南京条约》（1842年8月29日），清朝将香港岛割让给英国，开放五个口岸供英国通商，并同意赔款2100万银元。"
+  },
+  "tier": "flagship",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1839,
+    "latestStart": 1840,
+    "earliestEnd": 1842,
+    "latestEnd": 1842,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"First Opium War.\"",
+        "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+      },
+      {
+        "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+      },
+      {
+        "citation": "Larson, Eugene. \"First Opium War.\" EBSCO Research Starters, 2023.",
+        "url": "https://www.ebsco.com/research-starters/history/first-opium-war"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "English-language histories usually date the war from the first armed clashes in 1839; Chinese histories usually date it from the arrival of the British expedition in June 1840. Both end it with the Treaty of Nanking in August 1842.",
+      "es": "Las historias en inglés suelen fechar la guerra desde los primeros choques armados de 1839; las historias chinas, desde la llegada de la expedición británica en junio de 1840. Ambas la terminan con el Tratado de Nankín en agosto de 1842.",
+      "zh": "英文史书通常以1839年的首次武装冲突为战争开端；中文史书通常以1840年6月英国远征军到达为开端。两者都以1842年8月的《南京条约》为结束。"
+    }
+  },
+  "sides": [
+    {
+      "id": "british-empire",
+      "label": {
+        "en": "British Empire",
+        "es": "Imperio británico",
+        "zh": "大英帝国"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "United Kingdom (Royal Navy and British Army)",
+            "es": "Reino Unido (Marina Real y Ejército británico)",
+            "zh": "英国（皇家海军与英国陆军）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces, with Indian troops",
+            "es": "Fuerzas de la Compañía de las Indias Orientales, con tropas indias",
+            "zh": "东印度公司部队（含印度士兵）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB",
+            "IN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qing-china",
+      "label": {
+        "en": "Qing China",
+        "es": "China Qing",
+        "zh": "清朝"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "qing",
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "opium-crisis",
+      "name": {
+        "en": "Opium crisis at Guangzhou",
+        "es": "Crisis del opio en Cantón",
+        "zh": "广州禁烟危机"
+      },
+      "start": 1839,
+      "end": 1839,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Larson, Eugene. \"First Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/first-opium-war"
+        }
+      ]
+    },
+    {
+      "id": "expedition-north",
+      "name": {
+        "en": "British expedition to Zhoushan and the north",
+        "es": "Expedición británica a Zhoushan y al norte",
+        "zh": "英军北上舟山与天津"
+      },
+      "start": 1840,
+      "end": 1840,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        }
+      ]
+    },
+    {
+      "id": "pearl-river-and-coast",
+      "name": {
+        "en": "Pearl River and the southeast coast",
+        "es": "Río de las Perlas y costa sureste",
+        "zh": "珠江与东南沿海"
+      },
+      "start": 1841,
+      "end": 1841,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        }
+      ]
+    },
+    {
+      "id": "yangtze-campaign",
+      "name": {
+        "en": "Yangtze campaign and Treaty of Nanking",
+        "es": "Campaña del Yangtsé y Tratado de Nankín",
+        "zh": "长江战役与《南京条约》"
+      },
+      "start": 1842,
+      "end": 1842,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "merchants-confined",
+      "start": 1839,
+      "title": {
+        "en": "Imperial Commissioner Lin Zexu confines the foreign merchants in Guangzhou's Thirteen Factories until they hand over more than 20,000 chests of opium",
+        "es": "El comisionado imperial Lin Zexu retiene a los mercaderes extranjeros en las Trece factorías de Cantón hasta que entregan más de 20.000 cajas de opio",
+        "zh": "钦差大臣林则徐将外国商人困于广州十三行商馆，直到他们交出两万多箱鸦片"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Larson, Eugene. \"First Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/first-opium-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Thirteen Factories, Guangzhou",
+          "es": "Trece factorías, Cantón",
+          "zh": "广州十三行"
+        },
+        "lat": 23.1138,
+        "lon": 113.248
+      }
+    },
+    {
+      "id": "destruction-of-opium-at-humen",
+      "start": 1839,
+      "title": {
+        "en": "From 3 June, Lin's officials destroy the seized opium at Humen, mixing it with lime and salt in trenches and flushing it out to sea",
+        "es": "Desde el 3 de junio, los funcionarios de Lin destruyen el opio incautado en Humen, mezclándolo con cal y sal en zanjas y vertiéndolo al mar",
+        "zh": "6月3日起，林则徐的官员在虎门销毁收缴的鸦片，在池中拌以石灰和盐，冲入大海"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Larson, Eugene. \"First Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/first-opium-war"
+        },
+        {
+          "citation": "Wikipedia (中文). \"虎门销烟.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E8%99%8E%E9%97%A8%E9%94%80%E7%83%9F"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Humen",
+          "es": "Humen",
+          "zh": "虎门"
+        },
+        "lat": 22.815,
+        "lon": 113.672
+      },
+      "wikidataId": "Q1825430"
+    },
+    {
+      "id": "killing-of-lin-weixi",
+      "start": 1839,
+      "title": {
+        "en": "British sailors on shore fight villagers at Tsim Sha Tsui and the villager Lin Weixi dies of his injuries; Elliot refuses to hand the men over, and Lin cuts off food supplies to the British",
+        "es": "Marineros británicos en tierra se pelean con aldeanos en Tsim Sha Tsui y el aldeano Lin Weixi muere por las heridas; Elliot se niega a entregar a los hombres y Lin corta el suministro de víveres a los británicos",
+        "zh": "英国水手上岸后在尖沙咀与村民斗殴，村民林维喜伤重不治；义律拒绝交出涉案水手，林则徐遂断绝对英国人的食物供应"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tsim Sha Tsui, Kowloon",
+          "es": "Tsim Sha Tsui, Kowloon",
+          "zh": "九龙尖沙咀"
+        },
+        "lat": 22.297,
+        "lon": 114.172
+      }
+    },
+    {
+      "id": "battle-of-kowloon",
+      "start": 1839,
+      "title": {
+        "en": "Refused provisions, British ships open fire on Qing war junks off Kowloon on 4 September, the first armed clash",
+        "es": "Sin poder abastecerse, buques británicos abren fuego contra juncos de guerra Qing frente a Kowloon el 4 de septiembre, el primer choque armado",
+        "zh": "9月4日，英船因无法购得食物，在九龙海面向清军战船开炮，这是首次武装冲突"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kowloon",
+          "es": "Kowloon",
+          "zh": "九龙"
+        },
+        "lat": 22.2928,
+        "lon": 114.1706
+      },
+      "wikidataId": "Q4871489"
+    },
+    {
+      "id": "first-battle-of-chuenpi",
+      "start": 1839,
+      "title": {
+        "en": "HMS Volage and HMS Hyacinth fight Admiral Guan Tianpei's war junks off Chuenpi on 3 November; several junks are sunk or disabled",
+        "es": "El HMS Volage y el HMS Hyacinth combaten a los juncos de guerra del almirante Guan Tianpei frente a Chuenpi el 3 de noviembre; varios juncos son hundidos o inutilizados",
+        "zh": "11月3日，英舰“窝拉疑号”和“海阿新号”在穿鼻洋面与提督关天培的水师交战，数艘清军战船被击沉或击伤"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Chuenpi (Chuanbi), Pearl River mouth",
+          "es": "Chuenpi (Chuanbi), desembocadura del río de las Perlas",
+          "zh": "珠江口穿鼻"
+        },
+        "lat": 22.802,
+        "lon": 113.605
+      },
+      "wikidataId": "Q4870743"
+    },
+    {
+      "id": "capture-of-chusan",
+      "start": 1840,
+      "title": {
+        "en": "The British expedition bombards Dinghai on 5 July and occupies Zhoushan (Chusan) island",
+        "es": "La expedición británica bombardea Dinghai el 5 de julio y ocupa la isla de Zhoushan (Chusan)",
+        "zh": "7月5日，英国远征军炮轰定海，占领舟山岛"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Dinghai, Zhoushan (Chusan)",
+          "es": "Dinghai, Zhoushan (Chusan)",
+          "zh": "舟山定海"
+        },
+        "lat": 30.0067,
+        "lon": 122.1067
+      },
+      "wikidataId": "Q5036997"
+    },
+    {
+      "id": "talks-at-the-hai-river",
+      "start": 1840,
+      "title": {
+        "en": "The fleet sails north to the mouth of the Hai River near Tianjin; the court sends Qishan, who replaces Lin Zexu, to negotiate, and the British return south",
+        "es": "La flota navega al norte hasta la desembocadura del río Hai, cerca de Tianjin; la corte envía a Qishan, que sustituye a Lin Zexu, a negociar, y los británicos vuelven al sur",
+        "zh": "英国舰队北上至天津附近的海河口；朝廷派琦善接替林则徐与英方谈判，英军随即南返"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Larson, Eugene. \"First Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/first-opium-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Dagu, Hai River mouth",
+          "es": "Dagu, desembocadura del río Hai",
+          "zh": "海河口大沽"
+        },
+        "lat": 38.97,
+        "lon": 117.7
+      }
+    },
+    {
+      "id": "second-battle-of-chuenpi",
+      "start": 1841,
+      "title": {
+        "en": "On 7 January British forces take the Chuenpi and Taikoktow forts at the mouth of the Pearl River and destroy eleven war junks",
+        "es": "El 7 de enero las fuerzas británicas toman los fuertes de Chuenpi y Taikoktow en la desembocadura del río de las Perlas y destruyen once juncos de guerra",
+        "zh": "1月7日，英军攻占珠江口的沙角、大角炮台，击毁清军战船11艘"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Shajiao and Dajiao forts, Chuenpi",
+          "es": "Fuertes de Shajiao y Dajiao, Chuenpi",
+          "zh": "穿鼻沙角、大角炮台"
+        },
+        "lat": 22.7615,
+        "lon": 113.6585
+      },
+      "wikidataId": "Q7443080"
+    },
+    {
+      "id": "convention-of-chuenpi",
+      "start": 1841,
+      "title": {
+        "en": "Qishan and Elliot draft the Convention of Chuenpi; British marines land on Hong Kong Island and raise the flag on 26 January, but both governments reject the draft",
+        "es": "Qishan y Elliot redactan la Convención de Chuanbi; infantes de marina británicos desembarcan en la isla de Hong Kong e izan la bandera el 26 de enero, pero ambos gobiernos rechazan el borrador",
+        "zh": "琦善与义律拟定《穿鼻草约》；1月26日英国海军陆战队登陆香港岛升旗，但双方政府均拒绝承认草约"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "Larson, Eugene. \"First Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/first-opium-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Possession Point, Hong Kong Island",
+          "es": "Possession Point, isla de Hong Kong",
+          "zh": "香港岛水坑口"
+        },
+        "lat": 22.2867,
+        "lon": 114.15
+      },
+      "wikidataId": "Q838373"
+    },
+    {
+      "id": "battle-of-the-bogue",
+      "start": 1841,
+      "title": {
+        "en": "British forces storm the Humen (Bogue) forts on 26 February; Admiral Guan Tianpei is killed",
+        "es": "Las fuerzas británicas asaltan los fuertes de Humen (Bogue) el 26 de febrero; muere el almirante Guan Tianpei",
+        "zh": "2月26日，英军强攻虎门炮台，广东水师提督关天培战死"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Humen (Bogue) forts",
+          "es": "Fuertes de Humen (Bogue)",
+          "zh": "虎门炮台"
+        },
+        "lat": 22.7986,
+        "lon": 113.621
+      },
+      "wikidataId": "Q4872861"
+    },
+    {
+      "id": "battle-of-canton",
+      "start": 1841,
+      "title": {
+        "en": "Qing forces attack British ships at Guangzhou on 21 May; British troops take the forts on the heights above the city and withdraw after its officials pay six million dollars",
+        "es": "Las fuerzas Qing atacan los buques británicos en Cantón el 21 de mayo; las tropas británicas toman los fuertes de las alturas sobre la ciudad y se retiran cuando sus autoridades pagan seis millones de dólares",
+        "zh": "5月21日，清军在广州袭击英国船只；英军攻占城北高地上的炮台，在广州官员交付六百万元后撤出"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Canton (May 1841).\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Canton_(May_1841)"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Guangzhou",
+          "es": "Cantón",
+          "zh": "广州"
+        },
+        "lat": 23.1291,
+        "lon": 113.2644
+      },
+      "wikidataId": "Q4870635"
+    },
+    {
+      "id": "sanyuanli",
+      "start": 1841,
+      "title": {
+        "en": "Villagers and local militia around Sanyuanli, north of Guangzhou, attack British and Indian troops in heavy rain",
+        "es": "Aldeanos y milicias locales de los alrededores de Sanyuanli, al norte de Cantón, atacan a tropas británicas e indias bajo una lluvia intensa",
+        "zh": "广州城北三元里一带的村民和乡勇在大雨中袭击英国和印度士兵"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Sanyuanli incident.\"",
+          "url": "https://en.wikipedia.org/wiki/Sanyuanli_incident"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "British and Chinese accounts differ widely on the numbers involved and the losses. In China the clash is remembered as a popular rising against the British.",
+        "es": "Los relatos británicos y chinos difieren mucho sobre el número de participantes y las bajas. En China se recuerda como un levantamiento popular contra los británicos.",
+        "zh": "中英双方对参战人数和伤亡的记载出入很大。在中国，此事被视为民众抗英的象征。"
+      },
+      "place": {
+        "name": {
+          "en": "Sanyuanli, Guangzhou",
+          "es": "Sanyuanli, Cantón",
+          "zh": "广州三元里"
+        },
+        "lat": 23.1634,
+        "lon": 113.2548
+      },
+      "wikidataId": "Q2360284"
+    },
+    {
+      "id": "battle-of-amoy",
+      "start": 1841,
+      "title": {
+        "en": "Under Henry Pottinger the fleet sails north; on 26–27 August British troops storm the batteries at Xiamen (Amoy) and take the city",
+        "es": "Bajo Henry Pottinger la flota navega al norte; el 26 y 27 de agosto las tropas británicas asaltan las baterías de Xiamen (Amoy) y toman la ciudad",
+        "zh": "英军在璞鼎查主持下北上；8月26日至27日，英军攻破厦门炮台，占领该城"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Xiamen (Amoy)",
+          "es": "Xiamen (Amoy)",
+          "zh": "厦门"
+        },
+        "lat": 24.4476,
+        "lon": 118.062
+      },
+      "wikidataId": "Q4870294"
+    },
+    {
+      "id": "second-capture-of-chusan",
+      "start": 1841,
+      "title": {
+        "en": "British forces retake Dinghai on 1 October; three Qing brigade commanders, among them Ge Yunfei, are killed",
+        "es": "Las fuerzas británicas vuelven a tomar Dinghai el 1 de octubre; mueren tres comandantes de brigada Qing, entre ellos Ge Yunfei",
+        "zh": "10月1日，英军再次攻占定海，清军葛云飞等三名总兵阵亡"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        },
+        {
+          "citation": "Wikipedia (English). \"Capture of Chusan (1841).\"",
+          "url": "https://en.wikipedia.org/wiki/Capture_of_Chusan_(1841)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Dinghai, Zhoushan (Chusan)",
+          "es": "Dinghai, Zhoushan (Chusan)",
+          "zh": "舟山定海"
+        },
+        "lat": 30.0067,
+        "lon": 122.1067
+      },
+      "wikidataId": "Q5036999"
+    },
+    {
+      "id": "zhenhai-and-ningbo",
+      "start": 1841,
+      "title": {
+        "en": "British forces take Zhenhai on 10 October and enter Ningbo, left by its defenders, on 13 October",
+        "es": "Las fuerzas británicas toman Zhenhai el 10 de octubre y entran el 13 de octubre en Ningbo, abandonada por sus defensores",
+        "zh": "10月10日英军攻占镇海，10月13日进入守军已撤离的宁波"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Zhenhai",
+          "es": "Zhenhai",
+          "zh": "镇海"
+        },
+        "lat": 29.96,
+        "lon": 121.72
+      },
+      "wikidataId": "Q4870728"
+    },
+    {
+      "id": "battle-of-ningpo",
+      "start": 1842,
+      "title": {
+        "en": "Qing forces under Yijing attack British-held Ningbo and Zhenhai on 10 March and are driven back",
+        "es": "Las fuerzas Qing al mando de Yijing atacan Ningbo y Zhenhai, en manos británicas, el 10 de marzo y son rechazadas",
+        "zh": "3月10日，奕经率清军反攻英军占据的宁波和镇海，被击退"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ningbo",
+          "es": "Ningbo",
+          "zh": "宁波"
+        },
+        "lat": 29.8717,
+        "lon": 121.5567
+      },
+      "wikidataId": "Q4871896"
+    },
+    {
+      "id": "battle-of-chapu",
+      "start": 1842,
+      "title": {
+        "en": "British forces take the port of Zhapu (Chapu) on 18 May after hours of fighting with its Manchu banner garrison",
+        "es": "Las fuerzas británicas toman el puerto de Zhapu (Chapu) el 18 de mayo tras horas de combate con su guarnición manchú de estandartes",
+        "zh": "5月18日，英军与乍浦的满洲八旗驻防兵激战数小时后攻占该港"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Chapu.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Chapu"
+        }
+      ],
+      "note": {
+        "en": "Counts of British dead run from 9 to 13, with 42 to 55 wounded. Many of the garrison's bannermen and their families died, some by their own hand.",
+        "es": "Las cifras de británicos muertos van de 9 a 13, con entre 42 y 55 heridos. Muchos soldados de estandartes de la guarnición y sus familias murieron, algunos por su propia mano.",
+        "zh": "英军死亡人数说法从9人到13人不等，受伤42至55人。驻防八旗兵及其家属死者甚众，其中一些人自尽。"
+      },
+      "place": {
+        "name": {
+          "en": "Zhapu (Chapu)",
+          "es": "Zhapu (Chapu)",
+          "zh": "乍浦"
+        },
+        "lat": 30.606,
+        "lon": 121.096
+      },
+      "wikidataId": "Q4870711"
+    },
+    {
+      "id": "battle-of-woosung",
+      "start": 1842,
+      "title": {
+        "en": "British ships and troops take the Wusong forts at the mouth of the Huangpu River on 16 June; Admiral Chen Huacheng is killed, and Shanghai is occupied on 19 June",
+        "es": "Buques y tropas británicas toman los fuertes de Wusong en la desembocadura del río Huangpu el 16 de junio; muere el almirante Chen Huacheng, y Shanghái es ocupada el 19 de junio",
+        "zh": "6月16日，英军舰船和部队攻占黄浦江口的吴淞炮台，江南提督陈化成战死；6月19日上海被占领"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Wusong",
+          "es": "Wusong",
+          "zh": "吴淞"
+        },
+        "lat": 31.375,
+        "lon": 121.5
+      },
+      "wikidataId": "Q4087474"
+    },
+    {
+      "id": "battle-of-chinkiang",
+      "start": 1842,
+      "title": {
+        "en": "British forces storm Zhenjiang, where the Grand Canal meets the Yangtze, on 21 July; the Manchu garrison fights street by street, and the British cut the canal",
+        "es": "Las fuerzas británicas asaltan Zhenjiang, donde el Gran Canal se une al Yangtsé, el 21 de julio; la guarnición manchú combate calle por calle, y los británicos cortan el canal",
+        "zh": "7月21日，英军强攻大运河与长江交汇处的镇江，满洲驻防兵逐街巷战；英军随后切断运河"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "National Army Museum. \"First China War.\"",
+          "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        }
+      ],
+      "note": {
+        "en": "It was the costliest battle of the war for the British: counts of their dead run from 34 to 39. Many bannermen killed their families and themselves rather than be captured.",
+        "es": "Fue la batalla más costosa de la guerra para los británicos: las cifras de sus muertos van de 34 a 39. Muchos soldados de estandartes mataron a sus familias y se suicidaron antes que ser capturados.",
+        "zh": "这是英军在此战争中损失最大的一战，其死亡人数说法从34人到39人不等。许多八旗兵在城破前杀死家人后自尽，以免被俘。"
+      },
+      "place": {
+        "name": {
+          "en": "Zhenjiang",
+          "es": "Zhenjiang",
+          "zh": "镇江"
+        },
+        "lat": 32.1864,
+        "lon": 119.4197
+      },
+      "wikidataId": "Q4870730"
+    },
+    {
+      "id": "treaty-of-nanking",
+      "start": 1842,
+      "title": {
+        "en": "Qing envoys Keying, Yilibu and Niu Jian and the British envoy Henry Pottinger sign the Treaty of Nanking aboard HMS Cornwallis off Nanjing on 29 August",
+        "es": "Los enviados Qing Keying, Yilibu y Niu Jian y el enviado británico Henry Pottinger firman el Tratado de Nankín a bordo del HMS Cornwallis, frente a Nankín, el 29 de agosto",
+        "zh": "8月29日，清朝代表耆英、伊里布、牛鉴与英国代表璞鼎查在南京江面的英舰“康华丽号”上签订《南京条约》"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Treaty of Nanking.\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Nanking"
+        },
+        {
+          "citation": "Wikipedia (中文). \"南京条约.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E6%9D%A1%E7%BA%A6"
+        },
+        {
+          "citation": "Wikipedia (español). \"Tratado de Nankín.\"",
+          "url": "https://es.wikipedia.org/wiki/Tratado_de_Nank%C3%ADn"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Yangtze off Xiaguan, Nanjing",
+          "es": "Río Yangtsé frente a Xiaguan, Nankín",
+          "zh": "南京下关江面"
+        },
+        "lat": 32.09,
+        "lon": 118.74
+      },
+      "wikidataId": "Q238262"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Charles Elliot",
+        "es": "Charles Elliot",
+        "zh": "查理·义律"
+      },
+      "side": "british-empire",
+      "role": {
+        "en": "Superintendent of Trade and plenipotentiary, to 1841",
+        "es": "Superintendente de Comercio y plenipotenciario, hasta 1841",
+        "zh": "驻华商务总监、全权代表（至1841年）"
+      },
+      "wikidataId": "Q184780"
+    },
+    {
+      "name": {
+        "en": "George Elliot",
+        "es": "George Elliot",
+        "zh": "乔治·懿律"
+      },
+      "side": "british-empire",
+      "role": {
+        "en": "Admiral; led the expedition of 1840",
+        "es": "Almirante; dirigió la expedición de 1840",
+        "zh": "海军将领，1840年远征军统帅"
+      },
+      "wikidataId": "Q5538960"
+    },
+    {
+      "name": {
+        "en": "Gordon Bremer",
+        "es": "James Bremer",
+        "zh": "伯麦"
+      },
+      "side": "british-empire",
+      "role": {
+        "en": "Commodore of the naval squadron",
+        "es": "Comodoro de la escuadra naval",
+        "zh": "海军分舰队准将"
+      },
+      "wikidataId": "Q460181"
+    },
+    {
+      "name": {
+        "en": "Hugh Gough",
+        "es": "Hugh Gough",
+        "zh": "郭富"
+      },
+      "side": "british-empire",
+      "role": {
+        "en": "Commander of the land forces from 1841",
+        "es": "Comandante de las fuerzas terrestres desde 1841",
+        "zh": "1841年起任陆军司令"
+      },
+      "wikidataId": "Q335994"
+    },
+    {
+      "name": {
+        "en": "William Parker",
+        "es": "William Parker",
+        "zh": "威廉·巴加"
+      },
+      "side": "british-empire",
+      "role": {
+        "en": "Naval commander from 1841",
+        "es": "Comandante naval desde 1841",
+        "zh": "1841年起任海军司令"
+      },
+      "wikidataId": "Q715051"
+    },
+    {
+      "name": {
+        "en": "Henry Pottinger",
+        "es": "Henry Pottinger",
+        "zh": "璞鼎查"
+      },
+      "side": "british-empire",
+      "role": {
+        "en": "Plenipotentiary from 1841; signed the Treaty of Nanking",
+        "es": "Plenipotenciario desde 1841; firmó el Tratado de Nankín",
+        "zh": "1841年起任全权代表，签订《南京条约》"
+      },
+      "wikidataId": "Q1607189"
+    },
+    {
+      "name": {
+        "en": "Daoguang Emperor",
+        "es": "Daoguang",
+        "zh": "道光帝"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Emperor of the Qing",
+        "es": "Emperador Qing",
+        "zh": "清朝皇帝"
+      },
+      "wikidataId": "Q334351"
+    },
+    {
+      "name": {
+        "en": "Lin Zexu",
+        "es": "Lin Zexu",
+        "zh": "林则徐"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Imperial Commissioner at Guangzhou, 1839–1840",
+        "es": "Comisionado imperial en Cantón, 1839–1840",
+        "zh": "钦差大臣，1839年至1840年驻广州"
+      },
+      "wikidataId": "Q184999"
+    },
+    {
+      "name": {
+        "en": "Qishan",
+        "es": "Qishan",
+        "zh": "琦善"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Negotiator who replaced Lin Zexu in 1840",
+        "es": "Negociador que sustituyó a Lin Zexu en 1840",
+        "zh": "1840年接替林则徐的谈判大臣"
+      },
+      "wikidataId": "Q700481"
+    },
+    {
+      "name": {
+        "en": "Guan Tianpei",
+        "es": "Guan Tianpei",
+        "zh": "关天培"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Admiral of the Guangdong fleet; killed at Humen in 1841",
+        "es": "Almirante de la flota de Cantón; murió en Humen en 1841",
+        "zh": "广东水师提督，1841年战死于虎门"
+      },
+      "wikidataId": "Q1935221"
+    },
+    {
+      "name": {
+        "en": "Yishan",
+        "es": "Yishan",
+        "zh": "奕山"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Commander at Guangzhou in 1841",
+        "es": "Comandante en Cantón en 1841",
+        "zh": "1841年广州清军统帅"
+      },
+      "wikidataId": "Q8053838"
+    },
+    {
+      "name": {
+        "en": "Yijing",
+        "es": "Yijing",
+        "zh": "奕经"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Led the 1842 attack on Ningbo",
+        "es": "Dirigió el ataque de 1842 contra Ningbo",
+        "zh": "1842年率军反攻宁波"
+      },
+      "wikidataId": "Q8053583"
+    },
+    {
+      "name": {
+        "en": "Chen Huacheng",
+        "es": "Chen Huacheng",
+        "zh": "陈化成"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Admiral; killed at Wusong in 1842",
+        "es": "Almirante; murió en Wusong en 1842",
+        "zh": "江南提督，1842年战死于吴淞"
+      },
+      "wikidataId": "Q30532845"
+    },
+    {
+      "name": {
+        "en": "Keying",
+        "es": "Keying",
+        "zh": "耆英"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Envoy who signed the Treaty of Nanking",
+        "es": "Enviado que firmó el Tratado de Nankín",
+        "zh": "签订《南京条约》的钦差大臣"
+      },
+      "wikidataId": "Q697733"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "military-deaths",
+      "side": "british-empire",
+      "who": {
+        "en": "British and Indian troops and sailors",
+        "es": "Tropas y marinos británicos e indios",
+        "zh": "英国与印度官兵"
+      },
+      "low": 69,
+      "high": 87,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "Wikipedia (español). \"Primera guerra del Opio.\"",
+          "url": "https://es.wikipedia.org/wiki/Primera_guerra_del_Opio"
+        }
+      ],
+      "note": {
+        "en": "Killed in action over the whole war; the counts differ by source. Deaths from disease, which were far higher, are not included.",
+        "es": "Muertos en combate durante toda la guerra; las cifras varían según la fuente. No incluye las muertes por enfermedad, mucho más numerosas.",
+        "zh": "整个战争期间的阵亡人数，各来源数字不一；不包括人数远多于此的病亡者。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "qing-china",
+      "who": {
+        "en": "Qing soldiers",
+        "es": "Soldados Qing",
+        "zh": "清军"
+      },
+      "low": 3100,
+      "high": 3100,
+      "attributedTo": {
+        "en": "a 2008 study by Zhang Li",
+        "es": "un estudio de Zhang Li (2008)",
+        "zh": "张莉2008年的研究"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "Wikipedia (español). \"Primera guerra del Opio.\"",
+          "url": "https://es.wikipedia.org/wiki/Primera_guerra_del_Opio"
+        }
+      ],
+      "note": {
+        "en": "An estimate of those killed in battle over the whole war, with more than 4,000 wounded. It includes bannermen and their families who died by their own hand at Zhapu and Zhenjiang. The toll is uncertain: some works give far higher figures.",
+        "es": "Estimación de los muertos en combate durante toda la guerra, con más de 4000 heridos. Incluye a soldados de estandartes y sus familias que se quitaron la vida en Zhapu y Zhenjiang. La cifra es incierta: algunas obras dan cifras mucho más altas.",
+        "zh": "对整个战争期间阵亡人数的估计，另有4000余人受伤；包括在乍浦和镇江自尽的八旗兵及其家属。这一数字并不确定，有些著作给出的数字要高得多。"
+      }
+    }
+  ],
+  "cultures": [
+    "qing"
+  ],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"First Opium War.\"",
+      "url": "https://en.wikipedia.org/wiki/First_Opium_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Primera guerra del Opio.\"",
+      "url": "https://es.wikipedia.org/wiki/Primera_guerra_del_Opio"
+    },
+    {
+      "citation": "Wikipedia (中文). \"第一次鸦片战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+    },
+    {
+      "citation": "National Army Museum. \"First China War.\"",
+      "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+    },
+    {
+      "citation": "Larson, Eugene. \"First Opium War.\" EBSCO Research Starters, 2023.",
+      "url": "https://www.ebsco.com/research-starters/history/first-opium-war"
+    },
+    {
+      "citation": "Office of the Historian, U.S. Department of State. \"The Opening to China Part I: the First Opium War, the United States, and the Treaty of Wangxia, 1839–1844.\"",
+      "url": "https://history.state.gov/milestones/1830-1860/china-1"
+    },
+    {
+      "citation": "Wikipedia (English). \"Treaty of Nanking.\"",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Nanking"
+    },
+    {
+      "citation": "Wikipedia (中文). \"南京条约.\"",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E6%9D%A1%E7%BA%A6"
+    },
+    {
+      "citation": "Wikipedia (English). \"Battle of Chapu.\"",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Chapu"
+    }
+  ]
+}
