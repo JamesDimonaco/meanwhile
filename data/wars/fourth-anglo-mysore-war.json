@@ -1,0 +1,388 @@
+{
+  "id": "fourth-anglo-mysore-war",
+  "wikidataId": "Q617782",
+  "name": {
+    "en": "Fourth Anglo-Mysore War",
+    "es": "Cuarta guerra anglo-mysore",
+    "zh": "第四次英迈战争"
+  },
+  "noWikiTitle": [
+    "zh"
+  ],
+  "aliases": [
+    "Anglo-Mysore wars",
+    "Mysore Wars",
+    "Siege of Seringapatam",
+    "Srirangapatna",
+    "Tipu Sultan",
+    "英迈战争",
+    "蒂普苏丹",
+    "Guerras anglo-mysore"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "After the French governor of Mauritius called for volunteers to help Tipu Sultan, and Napoleon landed in Egypt, the Governor-General, Richard Wellesley, moved against Mysore. In early 1799 armies from Madras and Bombay, with a large contingent from Hyderabad, marched into Mysore under General George Harris and besieged Tipu's capital, Seringapatam, from 5 April. On 4 May troops led by David Baird stormed the fortress through a breach in its walls, and Tipu was killed in the fighting. The Company took Coimbatore and the coast of Kanara, sent Tipu's family into exile and restored the Wodeyar dynasty to a smaller Mysore, which became a princely state bound to the Company by a subsidiary alliance.",
+    "es": "Después de que el gobernador francés de Mauricio pidiera voluntarios para ayudar a Tipu Sultan y de que Napoleón desembarcara en Egipto, el gobernador general Richard Wellesley actuó contra Mysore. A comienzos de 1799 ejércitos de Madrás y Bombay, con un gran contingente de Hyderabad, entraron en Mysore al mando del general George Harris y sitiaron desde el 5 de abril la capital de Tipu, Seringapatam. El 4 de mayo tropas dirigidas por David Baird asaltaron la fortaleza por una brecha en sus murallas, y Tipu murió en los combates. La Compañía se quedó con Coimbatore y la costa de Kanara, envió al exilio a la familia de Tipu y devolvió a la dinastía Wodeyar un Mysore más pequeño, convertido en estado principesco ligado a la Compañía por una alianza subsidiaria.",
+    "zh": "法国毛里求斯总督号召志愿者援助蒂普苏丹、拿破仑在埃及登陆之后，总督理查德·韦尔斯利对迈索尔采取行动。1799年初，来自马德拉斯和孟买的军队连同一支庞大的海得拉巴部队，在乔治·哈里斯将军率领下进入迈索尔，并自4月5日起围攻蒂普的都城塞林伽巴丹。5月4日，戴维·贝尔德率领的部队从城墙缺口攻入要塞，蒂普在战斗中被杀。东印度公司取得哥印拜陀和卡纳拉沿海地区，将蒂普的家人流放，并让沃德亚尔王朝在缩小了的迈索尔复位；迈索尔成为以附属联盟依附于公司的土邦。"
+  },
+  "outcome": {
+    "en": "Tipu Sultan was killed when Seringapatam fell on 4 May 1799; the Company restored the Wodeyar dynasty to a smaller Mysore bound to it by a subsidiary alliance.",
+    "es": "Tipu Sultan murió al caer Seringapatam el 4 de mayo de 1799; la Compañía devolvió a la dinastía Wodeyar un Mysore más pequeño, ligado a ella por una alianza subsidiaria.",
+    "zh": "1799年5月4日塞林伽巴丹陷落，蒂普苏丹被杀；东印度公司让沃德亚尔王朝在缩小的迈索尔复位，并以附属联盟将其约束。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1798,
+    "latestStart": 1799,
+    "earliestEnd": 1799,
+    "latestEnd": 1799,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Fourth Anglo-Mysore War.\"",
+        "url": "https://en.wikipedia.org/wiki/Fourth_Anglo-Mysore_War"
+      },
+      {
+        "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+        "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+      },
+      {
+        "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+        "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "Some accounts date the war from Wellesley's preparations in 1798; the fighting began when the Company's armies marched into Mysore in February 1799.",
+      "es": "Algunos relatos fechan la guerra desde los preparativos de Wellesley en 1798; los combates empezaron cuando los ejércitos de la Compañía entraron en Mysore en febrero de 1799.",
+      "zh": "有的记载将战争始于1798年韦尔斯利的备战；实际战斗始于1799年2月公司军队进入迈索尔。"
+    }
+  },
+  "sides": [
+    {
+      "id": "mysore",
+      "label": {
+        "en": "Mysore and French volunteers",
+        "es": "Mysore y voluntarios franceses",
+        "zh": "迈索尔与法国志愿者"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Mysore",
+            "es": "Reino de Mysore",
+            "zh": "迈索尔王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "French volunteers from Mauritius",
+            "es": "Voluntarios franceses de Mauricio",
+            "zh": "来自毛里求斯的法国志愿者"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "company-and-hyderabad",
+      "label": {
+        "en": "East India Company forces, British Army regiments and Hyderabad",
+        "es": "Las fuerzas de la Compañía de las Indias Orientales, regimientos del ejército británico y Hyderabad",
+        "zh": "东印度公司部队、英国陆军各团与海得拉巴"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces",
+            "es": "Fuerzas de la Compañía de las Indias Orientales",
+            "zh": "东印度公司部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "British Army regiments",
+            "es": "Regimientos del ejército británico",
+            "zh": "英国陆军各团"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Hyderabad, under the Nizam",
+            "es": "Hyderabad, bajo el nizam",
+            "zh": "尼扎姆治下的海得拉巴"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sultanpet-tope",
+      "start": 1799,
+      "title": {
+        "en": "A night attack led by Colonel Arthur Wellesley on Tipu's rocket troops in the Sultanpet grove outside Seringapatam fails on 5 April; a larger attack takes the position the next day",
+        "es": "Un ataque nocturno dirigido por el coronel Arthur Wellesley contra los coheteros de Tipu en la arboleda de Sultanpet, ante Seringapatam, fracasa el 5 de abril; un ataque mayor toma la posición al día siguiente",
+        "zh": "4月5日夜，阿瑟·韦尔斯利上校率部袭击塞林伽巴丹城外苏丹佩特树林中蒂普的火箭兵，未能得手；次日更大规模的进攻夺取了该阵地"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Fourth Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Fourth_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Arthur Wellesley, 1st Duke of Wellington.\"",
+          "url": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Sultanpet, outside Seringapatam",
+          "es": "Sultanpet, ante Seringapatam",
+          "zh": "塞林伽巴丹城外的苏丹佩特"
+        },
+        "lat": 12.41,
+        "lon": 76.69
+      }
+    },
+    {
+      "id": "siege-of-seringapatam",
+      "start": 1799,
+      "title": {
+        "en": "The Company and Hyderabad armies besiege Seringapatam from 5 April; on 4 May troops under David Baird storm the fortress through a breach",
+        "es": "Los ejércitos de la Compañía y de Hyderabad sitian Seringapatam desde el 5 de abril; el 4 de mayo tropas al mando de David Baird asaltan la fortaleza por una brecha",
+        "zh": "东印度公司与海得拉巴军队自4月5日起围攻塞林伽巴丹；5月4日，戴维·贝尔德率部从缺口攻入要塞"
+      },
+      "sources": [
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Seringapatam (1799).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Seringapatam_%281799%29"
+        },
+        {
+          "citation": "Wikipedia (español). \"Asedio de Seringapatam.\"",
+          "url": "https://es.wikipedia.org/wiki/Asedio_de_Seringapatam"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+        }
+      ],
+      "note": {
+        "en": "Mysore's dead in the siege are put at 6,000 to 10,000; the attackers lost about 1,400 killed or wounded by one count, and about 350 killed by another.",
+        "es": "Los muertos de Mysore en el sitio se cifran entre 6.000 y 10.000; los atacantes perdieron unos 1.400 hombres entre muertos y heridos según un recuento, y unos 350 muertos según otro.",
+        "zh": "围城中迈索尔方面的死亡人数估计为6000至10000人；进攻方伤亡，一种统计为死伤约1400人，另一种为约350人阵亡。"
+      },
+      "place": {
+        "name": {
+          "en": "Seringapatam (Srirangapatna)",
+          "es": "Seringapatam (Srirangapatna)",
+          "zh": "塞林伽巴丹（什里伦格伯德讷）"
+        },
+        "lat": 12.418,
+        "lon": 76.695
+      },
+      "wikidataId": "Q815204"
+    },
+    {
+      "id": "death-of-tipu-sultan",
+      "start": 1799,
+      "title": {
+        "en": "Tipu Sultan is killed in the fighting near a gate of the fortress on 4 May",
+        "es": "Tipu Sultan muere en los combates junto a una puerta de la fortaleza el 4 de mayo",
+        "zh": "5月4日，蒂普苏丹在要塞一座城门附近的战斗中被杀"
+      },
+      "sources": [
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Fourth Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Fourth_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Asedio de Seringapatam.\"",
+          "url": "https://es.wikipedia.org/wiki/Asedio_de_Seringapatam"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Seringapatam (Srirangapatna)",
+          "es": "Seringapatam (Srirangapatna)",
+          "zh": "塞林伽巴丹（什里伦格伯德讷）"
+        },
+        "lat": 12.418,
+        "lon": 76.695
+      }
+    },
+    {
+      "id": "wodeyar-restored",
+      "start": 1799,
+      "title": {
+        "en": "The Company places the young Krishnaraja Wodeyar III on the throne of a reduced Mysore, under a subsidiary alliance",
+        "es": "La Compañía pone en el trono de un Mysore reducido al joven Krishnaraja Wodeyar III, bajo una alianza subsidiaria",
+        "zh": "东印度公司扶立年幼的克里希纳拉贾·沃德亚尔三世为缩小后的迈索尔国王，并订立附属联盟"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Siege of Seringapatam (1799).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Seringapatam_%281799%29"
+        },
+        {
+          "citation": "Wikipedia (English). \"Fourth Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Fourth_Anglo-Mysore_War"
+        },
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mysore",
+          "es": "Mysore",
+          "zh": "迈索尔"
+        },
+        "lat": 12.309,
+        "lon": 76.653
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Tipu Sultan",
+        "es": "Tipu Sultan",
+        "zh": "蒂普苏丹"
+      },
+      "side": "mysore",
+      "role": {
+        "en": "Ruler of Mysore; killed at Seringapatam",
+        "es": "Gobernante de Mysore; murió en Seringapatam",
+        "zh": "迈索尔统治者；在塞林伽巴丹被杀"
+      },
+      "wikidataId": "Q10088"
+    },
+    {
+      "name": {
+        "en": "Richard Wellesley",
+        "es": "Richard Wellesley",
+        "zh": "理查德·韦尔斯利"
+      },
+      "side": "company-and-hyderabad",
+      "role": {
+        "en": "Governor-General; ordered the war",
+        "es": "Gobernador general; ordenó la guerra",
+        "zh": "总督；下令开战"
+      },
+      "wikidataId": "Q335205"
+    },
+    {
+      "name": {
+        "en": "George Harris",
+        "es": "George Harris",
+        "zh": "乔治·哈里斯"
+      },
+      "side": "company-and-hyderabad",
+      "role": {
+        "en": "Commander of the invading army",
+        "es": "Comandante del ejército invasor",
+        "zh": "进攻部队指挥官"
+      },
+      "wikidataId": "Q5540256"
+    },
+    {
+      "name": {
+        "en": "David Baird",
+        "es": "David Baird",
+        "zh": "戴维·贝尔德"
+      },
+      "side": "company-and-hyderabad",
+      "role": {
+        "en": "Led the storming of Seringapatam",
+        "es": "Dirigió el asalto a Seringapatam",
+        "zh": "率部攻入塞林伽巴丹"
+      },
+      "wikidataId": "Q1791677"
+    },
+    {
+      "name": {
+        "en": "Arthur Wellesley",
+        "es": "Arthur Wellesley",
+        "zh": "阿瑟·韦尔斯利"
+      },
+      "side": "company-and-hyderabad",
+      "role": {
+        "en": "Colonel of the 33rd Foot; adviser to the Hyderabad contingent",
+        "es": "Coronel del 33.º de Infantería; asesor del contingente de Hyderabad",
+        "zh": "第33步兵团上校；海得拉巴部队顾问"
+      },
+      "wikidataId": "Q131691"
+    }
+  ],
+  "casualties": [],
+  "follows": "third-anglo-mysore-war",
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Fourth Anglo-Mysore War.\"",
+      "url": "https://en.wikipedia.org/wiki/Fourth_Anglo-Mysore_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Cuarta guerra anglo-mysore.\"",
+      "url": "https://es.wikipedia.org/wiki/Cuarta_guerra_anglo-mysore"
+    },
+    {
+      "citation": "Wikipedia (English). \"Siege of Seringapatam (1799).\"",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Seringapatam_%281799%29"
+    },
+    {
+      "citation": "Wikipedia (español). \"Asedio de Seringapatam.\"",
+      "url": "https://es.wikipedia.org/wiki/Asedio_de_Seringapatam"
+    },
+    {
+      "citation": "Wikipedia (English). \"Anglo-Mysore wars.\"",
+      "url": "https://en.wikipedia.org/wiki/Anglo-Mysore_wars"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+    },
+    {
+      "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+      "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+    }
+  ]
+}
