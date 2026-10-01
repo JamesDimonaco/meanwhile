@@ -114,6 +114,18 @@
         {
           "kind": "polity",
           "name": {
+            "en": "Sepoy regiments of the Company's Madras and Bombay armies",
+            "es": "Regimientos de cipayos de los ejércitos de Madrás y Bombay de la Compañía",
+            "zh": "东印度公司马德拉斯军和孟买军中的印度兵团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
             "en": "Carnatic, under Nawab Muhammad Ali Khan Wallajah",
             "es": "Carnático, bajo el nabab Muhammad Ali Khan Wallajah",
             "zh": "穆罕默德·阿里·汗·瓦拉贾纳瓦卜治下的卡纳蒂克"

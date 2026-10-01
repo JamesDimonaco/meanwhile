@@ -107,6 +107,18 @@
         {
           "kind": "polity",
           "name": {
+            "en": "Sepoy regiments of the Company's Madras and Bombay armies",
+            "es": "Regimientos de cipayos de los ejércitos de Madrás y Bombay de la Compañía",
+            "zh": "东印度公司马德拉斯军和孟买军中的印度兵团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
             "en": "British Army regiments",
             "es": "Regimientos del ejército británico",
             "zh": "英国陆军各团"

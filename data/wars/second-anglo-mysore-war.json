@@ -115,6 +115,18 @@
         {
           "kind": "polity",
           "name": {
+            "en": "Sepoy regiments of the Company's Madras and Bombay armies",
+            "es": "Regimientos de cipayos de los ejércitos de Madrás y Bombay de la Compañía",
+            "zh": "东印度公司马德拉斯军和孟买军中的印度兵团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
             "en": "Crown troops sent from Great Britain, with Hanoverian regiments",
             "es": "Tropas de la Corona enviadas desde Gran Bretaña, con regimientos de Hannover",
             "zh": "从大不列颠派出的王室军队，包括汉诺威团"
