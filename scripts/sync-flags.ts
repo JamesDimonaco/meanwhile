@@ -13,12 +13,26 @@ const SOURCE = path.join(PACKAGE, "flags/4x3");
 const TARGET = path.join(process.cwd(), "public/flags");
 
 const today = Today.parse(JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/today.json"), "utf8")));
-// Read straight from the files, so a war that fails validation for another reason still gets its flags.
+// Read straight from the files, skipping any that don't parse, so one
+// half-written war doesn't block every other war's flags. validate-data
+// reports what is wrong with the skipped file.
 const WARS = path.join(process.cwd(), "data/wars");
 const warCodes = warCountryCodes(
   (fs.existsSync(WARS) ? fs.readdirSync(WARS) : [])
     .filter((f) => f.endsWith(".json"))
-    .map((f) => WarFile.parse(JSON.parse(fs.readFileSync(path.join(WARS, f), "utf8")))),
+    .flatMap((f) => {
+      const file = path.join(WARS, f);
+      let json: unknown;
+      try {
+        json = JSON.parse(fs.readFileSync(file, "utf8"));
+      } catch {
+        console.warn(`skipped data/wars/${f}: not valid JSON, so its flags are not synced`);
+        return [];
+      }
+      const war = WarFile.safeParse(json);
+      if (!war.success) console.warn(`skipped data/wars/${f}: fails the schema, so its flags are not synced`);
+      return war.success ? [war.data] : [];
+    }),
 );
 const wanted = new Set([...Object.values(today).flat(), ...warCodes].map((c) => `${c.toLowerCase()}.svg`));
 
