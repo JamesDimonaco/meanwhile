@@ -7,10 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { Link, useRouter } from "@/i18n/navigation";
-import { timelineYear, type ScanError, type ScanResponse, type ScanResult } from "@/lib/scan/result";
+import { timelineYear, type ScanResponse, type ScanResult } from "@/lib/scan/result";
 import { downscaleToJpeg } from "./downscale";
-
-type Problem = "offline" | "unavailable" | "rateLimited" | "badImage" | "failed";
+import { scanPhoto, type Problem } from "./scan-photo";
 
 type Phase =
   | { kind: "idle" }
@@ -19,13 +18,15 @@ type Phase =
   | { kind: "problem"; problem: Problem }
   | { kind: "noMatch"; reading: ScanResult["reading"] };
 
-const PROBLEM: Record<ScanError, Problem> = {
-  unavailable: "unavailable",
-  "rate-limited": "rateLimited",
-  "bad-image": "badImage",
-  "too-large": "badImage",
-  failed: "failed",
-};
+async function upload(photo: Blob, signal: AbortSignal): Promise<ScanResponse> {
+  const res = await fetch("/api/scan/", {
+    method: "POST",
+    headers: { "content-type": "image/jpeg" },
+    body: photo,
+    signal,
+  });
+  return (await res.json()) as ScanResponse;
+}
 
 /**
  * Camera capture -> downscale -> /api/scan -> the culture page or the timeline.
@@ -57,33 +58,18 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
     if (!navigator.onLine) return setPhase({ kind: "problem", problem: "offline" });
     setPhase({ kind: "preparing" });
 
-    let photo: Blob;
-    try {
-      photo = await downscaleToJpeg(file);
-    } catch {
-      return setPhase({ kind: "problem", problem: "badImage" });
-    }
-
-    setPhase({ kind: "reading" });
     const controller = new AbortController();
     request.current = controller;
-    let body: ScanResponse;
-    try {
-      const res = await fetch("/api/scan/", {
-        method: "POST",
-        headers: { "content-type": "image/jpeg" },
-        body: photo,
-        signal: controller.signal,
-      });
-      body = (await res.json()) as ScanResponse;
-    } catch {
-      if (controller.signal.aborted) return;
-      return setPhase({ kind: "problem", problem: navigator.onLine ? "failed" : "offline" });
-    }
-    if (controller.signal.aborted) return;
+    const outcome = await scanPhoto(file, controller.signal, {
+      downscale: downscaleToJpeg,
+      upload,
+      onUpload: () => setPhase({ kind: "reading" }),
+      isOnline: () => navigator.onLine,
+    });
+    if (!outcome) return;
+    if (outcome.kind === "problem") return setPhase(outcome);
 
-    if (body.status === "error") return setPhase({ kind: "problem", problem: PROBLEM[body.error] });
-    const { destination, reading } = body.result;
+    const { destination, reading } = outcome.result;
     if (destination.kind === "culture") return go(`/c/${destination.id}`);
     if (destination.kind === "year") return go({ pathname: "/timeline", query: { year: String(destination.year) } });
     setPhase({ kind: "noMatch", reading });
