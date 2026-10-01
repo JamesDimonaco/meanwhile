@@ -1,7 +1,8 @@
 import { ImageResponse } from "next/og";
-import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
+import { loadMessages } from "@/i18n/messages";
 import { routing } from "@/i18n/routing";
+import { timelineOg } from "@/lib/og/copy";
 import { ogFonts } from "@/lib/og/fonts";
 import { ogFrame } from "@/lib/og/frame";
 import { ogColors, OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
@@ -22,18 +23,17 @@ export function generateStaticParams() {
 
 export default async function Image({ params }: { params: Promise<{ locale: string }> }) {
   const locale = await pageLocale(params);
-  const t = await getTranslations({ locale, namespace: "common" });
-  const tTimeline = await getTranslations({ locale, namespace: "timeline" });
+  const copy = timelineOg(locale, await loadMessages(locale));
 
   return new ImageResponse(
     ogFrame(
       [
         <div key="eyebrow" style={{ display: "flex", fontSize: 32, fontWeight: 600, color: ogColors.muted, letterSpacing: 4 }}>
-          {t("appName").toUpperCase()}
+          {copy.eyebrow}
         </div>,
-        <div key="title" style={{ display: "flex", fontSize: 68, fontWeight: 600 }}>{tTimeline("title")}</div>,
+        <div key="title" style={{ display: "flex", fontSize: 68, fontWeight: 600 }}>{copy.title}</div>,
         <div key="tagline" style={{ display: "flex", fontSize: 34, color: ogColors.muted, maxWidth: 900 }}>
-          {t("tagline")}
+          {copy.tagline}
         </div>,
       ],
       brand,

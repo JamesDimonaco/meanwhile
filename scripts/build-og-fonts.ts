@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import subsetFont from "subset-font";
+import { LOCALES } from "@/i18n/locales";
+import { loadMessages } from "@/i18n/messages";
+import { loadCultures } from "@/lib/data/load";
+import { ogText } from "@/lib/og/copy";
 
 /**
  * Builds assets/og-fonts/*: sfnt (TrueType/OpenType) fonts for next/og's
@@ -8,17 +12,16 @@ import subsetFont from "subset-font";
  * over CSS and doesn't support woff2 — so these are separate from, and in a
  * different format to, the woff2 the browser gets from public/fonts/.
  *
- * Latin (Inter) reuses the same fixed block list as subset-latin-font.ts:
- * small even in full, so no need to derive it from content. The CJK face is
- * different: subset only to the Han characters actually used in the OG
- * images (culture names, native names, and the handful of message strings
- * the image JSX renders) rather than the full site subset in
- * subset-cjk-font.ts, since satori embeds the font bytes into every one of
- * the ~130 generated images and every unused glyph is dead weight repeated
- * that many times.
+ * Both are subset from ogText (src/lib/og/copy.ts), the same strings the OG
+ * routes draw, in every locale. Inter also keeps a fixed Latin block list
+ * (small even in full), plus whatever else it has a glyph for (Greek native
+ * names). Noto Sans SC gets every non-Latin character, rather than the full
+ * site subset in subset-cjk-font.ts: the font is loaded for each of the ~130
+ * generated images, so every unused glyph is dead weight.
  *
  * Run again (`pnpm build-og-fonts`) whenever OG image copy or the culture
- * roster changes, then commit the regenerated assets/og-fonts/*.
+ * roster changes, then commit the regenerated assets/og-fonts/*;
+ * src/lib/og/fonts.test.ts fails until you do.
  */
 
 const ROOT = process.cwd();
@@ -82,60 +85,31 @@ async function ensureNotoSansSC(): Promise<Buffer> {
   return fs.readFileSync(cached);
 }
 
-function readJson(p: string): unknown {
-  return JSON.parse(fs.readFileSync(p, "utf8"));
-}
+const inLatinRanges = (cp: number) => LATIN_RANGES.some(([from, to]) => cp >= from && cp <= to);
 
-/** Every Han/CJK-punctuation character the OG image JSX can render, for any locale/culture. */
-function ogCjkText(): string {
-  const strings: string[] = [
-    "公元前公元年", // era labels + counter word (years.ts)
-    "—", // em dash used as the zh date-range separator
-  ];
-
-  const common = readJson(path.join(ROOT, "messages/zh/common.json")) as { tagline: string };
-  const timeline = readJson(path.join(ROOT, "messages/zh/timeline.json")) as { title: string };
-  const meanwhileMsg = readJson(path.join(ROOT, "messages/zh/meanwhile.json")) as { heading: string };
-  strings.push(common.tagline, timeline.title, meanwhileMsg.heading);
-
-  const cultureFiles = fs
-    .readdirSync(path.join(ROOT, "data/cultures"), { recursive: true, encoding: "utf8" })
-    .filter((f) => f.endsWith(".json"));
-  for (const f of cultureFiles) {
-    const c = readJson(path.join(ROOT, "data/cultures", f)) as {
-      name: { zh?: string };
-      nativeName?: { text: string };
-    };
-    if (c.name.zh) strings.push(c.name.zh);
-    if (c.nativeName) strings.push(c.nativeName.text);
-  }
-
-  const isHanOrCjkPunct = (cp: number) =>
-    (cp >= 0x4e00 && cp <= 0x9fff) ||
-    (cp >= 0x3400 && cp <= 0x4dbf) ||
-    (cp >= 0x3000 && cp <= 0x303f) ||
-    (cp >= 0xff00 && cp <= 0xffef) ||
-    cp === 0x2014 ||
-    cp === 0x2013;
-
+async function ogCharacters(): Promise<string[]> {
+  const cultures = loadCultures();
   const chars = new Set<string>();
-  for (const s of strings) for (const ch of s) if (isHanOrCjkPunct(ch.codePointAt(0)!)) chars.add(ch);
-  return [...chars].sort().join("");
+  for (const locale of LOCALES) {
+    for (const text of ogText(locale, await loadMessages(locale), cultures)) for (const ch of text) chars.add(ch);
+  }
+  return [...chars].sort();
 }
 
 async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
-  const latin = latinText();
+  const og = await ogCharacters();
+  const interText = latinText() + og.join("");
   for (const { name, source } of INTER_WEIGHTS) {
     const buffer = await ensureInter(source);
-    const subset = await subsetFont(buffer, latin, { targetFormat: "sfnt", noHinting: true });
+    const subset = await subsetFont(buffer, interText, { targetFormat: "sfnt", noHinting: true });
     const outPath = path.join(OUT_DIR, `${name}.ttf`);
     fs.writeFileSync(outPath, subset);
     console.log(`Wrote ${path.relative(ROOT, outPath)} (${(subset.length / 1024).toFixed(1)}KB).`);
   }
 
-  const cjkText = ogCjkText();
+  const cjkText = og.filter((ch) => !inLatinRanges(ch.codePointAt(0)!)).join("");
   const notoBuffer = await ensureNotoSansSC();
   const cjkSubset = await subsetFont(notoBuffer, cjkText, { targetFormat: "sfnt", noHinting: true });
   const cjkOutPath = path.join(OUT_DIR, "noto-sans-sc-og.otf");

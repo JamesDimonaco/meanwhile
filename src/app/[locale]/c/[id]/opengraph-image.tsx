@@ -1,12 +1,9 @@
 import { ImageResponse } from "next/og";
-import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
+import { loadMessages } from "@/i18n/messages";
 import { routing } from "@/i18n/routing";
-import { contemporaryNames } from "@/lib/data/culture-copy";
 import { loadCulture, loadCultures } from "@/lib/data/load";
-import { localize } from "@/lib/data/localize";
-import { defaultPeriod } from "@/lib/data/queries";
-import { formatYearRange } from "@/lib/years";
+import { cultureOg } from "@/lib/og/copy";
 import { ogFonts } from "@/lib/og/fonts";
 import { ogFrame } from "@/lib/og/frame";
 import { ogColors, OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
@@ -30,31 +27,25 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
   const { id } = await params;
   const culture = loadCulture(id);
   const cultures = loadCultures();
-  const t = await getTranslations({ locale, namespace: "meanwhile" });
-  const tCommon = await getTranslations({ locale, namespace: "common" });
-
-  const period = defaultPeriod(culture);
-  const range = formatYearRange(period.latestStart, period.earliestEnd, locale);
-  const others = contemporaryNames(culture, cultures, locale, 3);
-  const othersLine = others.length > 0 ? `${t("heading")} ${new Intl.ListFormat(locale).format(others)}` : null;
+  const copy = cultureOg(locale, await loadMessages(locale), culture, cultures);
 
   return new ImageResponse(
     ogFrame(
       [
         <div key="eyebrow" style={{ display: "flex", fontSize: 30, fontWeight: 600, color: ogColors.muted, letterSpacing: 4 }}>
-          {tCommon("appName").toUpperCase()}
+          {copy.eyebrow}
         </div>,
         <div key="name" style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", gap: 16 }}>
-          <div style={{ display: "flex", fontSize: 64, fontWeight: 600 }}>{localize(culture.name, locale)}</div>
-          {culture.nativeName && (
-            <div style={{ display: "flex", fontSize: 40, color: ogColors.muted }}>{culture.nativeName.text}</div>
+          <div style={{ display: "flex", fontSize: 64, fontWeight: 600 }}>{copy.name}</div>
+          {copy.nativeName && (
+            <div style={{ display: "flex", fontSize: 40, color: ogColors.muted }}>{copy.nativeName}</div>
           )}
         </div>,
-        <div key="range" style={{ display: "flex", fontSize: 36, color: ogColors.muted }}>{range}</div>,
-        ...(othersLine
+        <div key="range" style={{ display: "flex", fontSize: 36, color: ogColors.muted }}>{copy.range}</div>,
+        ...(copy.others
           ? [
               <div key="others" style={{ display: "flex", fontSize: 30, maxWidth: 980, marginTop: 12 }}>
-                {othersLine}
+                {copy.others}
               </div>,
             ]
           : []),

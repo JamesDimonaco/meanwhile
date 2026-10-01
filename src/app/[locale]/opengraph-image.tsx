@@ -1,7 +1,8 @@
 import { ImageResponse } from "next/og";
-import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
+import { loadMessages } from "@/i18n/messages";
 import { routing } from "@/i18n/routing";
+import { homeOg } from "@/lib/og/copy";
 import { ogFonts } from "@/lib/og/fonts";
 import { ogFrame } from "@/lib/og/frame";
 import { ogColors, OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
@@ -24,16 +25,16 @@ export function generateStaticParams() {
 
 export default async function Image({ params }: { params: Promise<{ locale: string }> }) {
   const locale = await pageLocale(params);
-  const t = await getTranslations({ locale, namespace: "common" });
+  const copy = homeOg(locale, await loadMessages(locale));
 
   return new ImageResponse(
     ogFrame(
       [
         <div key="eyebrow" style={{ display: "flex", fontSize: 32, fontWeight: 600, color: ogColors.muted, letterSpacing: 4 }}>
-          {t("appName").toUpperCase()}
+          {copy.eyebrow}
         </div>,
         <div key="tagline" style={{ display: "flex", fontSize: 60, fontWeight: 600, lineHeight: 1.2, maxWidth: 920 }}>
-          {t("tagline")}
+          {copy.tagline}
         </div>,
       ],
       brand,
