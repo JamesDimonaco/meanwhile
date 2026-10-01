@@ -1,0 +1,1116 @@
+{
+  "id": "second-opium-war",
+  "wikidataId": "Q418151",
+  "name": {
+    "en": "Second Opium War",
+    "es": "Segunda guerra del Opio",
+    "zh": "第二次鸦片战争"
+  },
+  "aliases": [
+    "Arrow War",
+    "Second Anglo-Chinese War",
+    "Second China War",
+    "Anglo-French expedition to China",
+    "Segunda guerra anglo-china",
+    "Guerra del Arrow",
+    "英法联军之役",
+    "亚罗号战争",
+    "Old Summer Palace",
+    "Yuanmingyuan",
+    "圆明园",
+    "Treaty of Tientsin",
+    "Treaty of Tianjin",
+    "天津条约",
+    "Convention of Peking",
+    "北京条约"
+  ],
+  "description": {
+    "en": "In October 1856 Qing marines at Guangzhou boarded the Arrow, a Chinese-owned ship registered in Hong Kong, and arrested its crew. The British consul Harry Parkes demanded their release and an apology; when the viceroy Ye Mingchen refused to apologise, British warships attacked the forts below the city and shelled it. France joined Britain, citing the execution of a French missionary in Guangxi. In December 1857 British and French troops took Guangzhou, and Ye was captured. In 1858 they took the Dagu forts at the mouth of the Hai River, and Qing envoys signed the Treaties of Tianjin. When new envoys arrived with an armed escort in June 1859, Sengge Rinchen's guns at Dagu drove their ships back. In 1860 a larger army of British, Indian and French troops took the forts and Tianjin, defeated Qing forces at Baliqiao and reached Beijing. After Qing troops seized its negotiators, Lord Elgin had the Old Summer Palace burned. Prince Gong signed the Convention of Peking in October 1860.",
+    "es": "En octubre de 1856 la marina Qing abordó en Cantón el Arrow, un barco de propietario chino registrado en Hong Kong, y arrestó a su tripulación. El cónsul británico Harry Parkes exigió su liberación y una disculpa; cuando el virrey Ye Mingchen se negó a disculparse, buques de guerra británicos atacaron los fuertes situados río abajo y bombardearon la ciudad. Francia se unió al Reino Unido alegando la ejecución de un misionero francés en Guangxi. En diciembre de 1857 tropas británicas y francesas tomaron Cantón y Ye fue capturado. En 1858 tomaron los fuertes de Dagu en la desembocadura del río Hai, y los enviados Qing firmaron los Tratados de Tianjin. Cuando nuevos enviados llegaron con escolta armada en junio de 1859, los cañones de Sengge Rinchen en Dagu rechazaron sus barcos. En 1860 un ejército mayor de tropas británicas, indias y francesas tomó los fuertes y Tianjin, derrotó a las fuerzas Qing en Baliqiao y llegó a Pekín. Después de que tropas Qing capturaran a sus negociadores, lord Elgin mandó incendiar el Antiguo Palacio de Verano. El príncipe Gong firmó la Convención de Pekín en octubre de 1860.",
+    "zh": "1856年10月，清朝水师在广州登上在香港注册、由华人拥有的“亚罗”号，逮捕船员。英国领事巴夏礼要求放人并道歉；两广总督叶名琛拒绝道歉，英国军舰遂进攻广州城外炮台并炮击该城。法国以一名法国传教士在广西被处死为由，与英国联合出兵。1857年12月，英法军队攻占广州，叶名琛被俘。1858年，联军攻占海河口的大沽炮台，清朝代表签订《天津条约》。1859年6月，新任公使在武装护卫下到来，僧格林沁在大沽的炮台击退其舰船。1860年，由英国、印度和法国士兵组成的更大规模联军攻占大沽炮台和天津，在八里桥击败清军，兵临北京。清军扣押联军谈判人员后，额尔金下令焚毁圆明园。1860年10月，恭亲王签订《北京条约》。"
+  },
+  "outcome": {
+    "en": "In the Convention of Peking (October 1860) the Qing confirmed the Treaties of Tianjin, opened Tianjin to trade, ceded southern Kowloon to Britain and raised the indemnity to 8 million taels each for Britain and France.",
+    "es": "Por la Convención de Pekín (octubre de 1860) los Qing confirmaron los Tratados de Tianjin, abrieron Tianjin al comercio, cedieron el sur de Kowloon al Reino Unido y elevaron la indemnización a 8 millones de taeles para el Reino Unido y otros tantos para Francia.",
+    "zh": "根据《北京条约》（1860年10月），清朝确认《天津条约》，开放天津通商，将九龙半岛南部割让给英国，并将对英、法的赔款各增至800万两。"
+  },
+  "tier": "flagship",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1856,
+    "latestStart": 1856,
+    "earliestEnd": 1860,
+    "latestEnd": 1860,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Second Opium War.\"",
+        "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+      },
+      {
+        "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+      },
+      {
+        "citation": "Zhang, Yunqiu. \"Second Opium War.\" EBSCO Research Starters, 2023.",
+        "url": "https://www.ebsco.com/research-starters/history/second-opium-war"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "britain-and-france",
+      "label": {
+        "en": "Britain and France",
+        "es": "Reino Unido y Francia",
+        "zh": "英国和法国"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "United Kingdom (Royal Navy and British Army)",
+            "es": "Reino Unido (Marina Real y Ejército británico)",
+            "zh": "英国（皇家海军与英国陆军）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Indian regiments under British command",
+            "es": "Regimientos indios bajo mando británico",
+            "zh": "英国指挥下的印度部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN",
+            "PK"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Second French Empire",
+            "es": "Segundo Imperio francés",
+            "zh": "法兰西第二帝国"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qing-china",
+      "label": {
+        "en": "Qing China",
+        "es": "China Qing",
+        "zh": "清朝"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "qing",
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "arrow-and-guangzhou",
+      "name": {
+        "en": "The Arrow and the fighting at Guangzhou",
+        "es": "El Arrow y los combates en Cantón",
+        "zh": "亚罗号事件与广州之战"
+      },
+      "start": 1856,
+      "end": 1857,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ]
+    },
+    {
+      "id": "dagu-and-tianjin",
+      "name": {
+        "en": "Dagu forts and the Treaties of Tianjin",
+        "es": "Fuertes de Dagu y Tratados de Tianjin",
+        "zh": "大沽炮台与《天津条约》"
+      },
+      "start": 1858,
+      "end": 1858,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ]
+    },
+    {
+      "id": "repulse-at-dagu",
+      "name": {
+        "en": "Repulse at Dagu",
+        "es": "Rechazo en Dagu",
+        "zh": "大沽口之战（1859年）"
+      },
+      "start": 1859,
+      "end": 1859,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ]
+    },
+    {
+      "id": "march-on-beijing",
+      "name": {
+        "en": "March on Beijing",
+        "es": "Marcha sobre Pekín",
+        "zh": "联军进攻北京"
+      },
+      "start": 1860,
+      "end": 1860,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chapdelaine-executed",
+      "start": 1856,
+      "title": {
+        "en": "Officials in Xilin, Guangxi, execute the French missionary Auguste Chapdelaine, who had entered a region closed to foreigners; France later cites his death in joining the war",
+        "es": "Las autoridades de Xilin, en Guangxi, ejecutan al misionero francés Auguste Chapdelaine, que había entrado en una región cerrada a los extranjeros; Francia alega después su muerte para entrar en la guerra",
+        "zh": "广西西林地方官处死违禁进入内地传教的法国传教士马赖；法国后来以此为由参战"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "Zhang, Yunqiu. \"Second Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/second-opium-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Xilin, Guangxi",
+          "es": "Xilin, Guangxi",
+          "zh": "广西西林"
+        },
+        "lat": 24.49,
+        "lon": 105.1
+      }
+    },
+    {
+      "id": "arrow-incident",
+      "start": 1856,
+      "title": {
+        "en": "On 8 October Qing marines board the Arrow, a Chinese-owned ship registered in Hong Kong, at Guangzhou and arrest twelve of its Chinese crew on suspicion of piracy",
+        "es": "El 8 de octubre la marina Qing aborda en Cantón el Arrow, un barco de propietario chino registrado en Hong Kong, y arresta a doce de sus tripulantes chinos por sospecha de piratería",
+        "zh": "10月8日，广东水师在广州登上在香港注册、由华人拥有的“亚罗”号，以涉嫌海盗为由逮捕12名中国船员"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Zhang, Yunqiu. \"Second Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/second-opium-war"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Both sides disputed the facts at the time: whether the ship's Hong Kong registration had lapsed, and whether a British flag was flying and was pulled down.",
+        "es": "Ambas partes discutieron los hechos en su momento: si el registro del barco en Hong Kong había caducado, y si ondeaba una bandera británica y fue arriada.",
+        "zh": "双方当时就事实各执一词：该船的香港执照是否已过期，以及船上是否悬挂英国国旗并被扯落。"
+      },
+      "place": {
+        "name": {
+          "en": "Pearl River at Guangzhou",
+          "es": "Río de las Perlas en Cantón",
+          "zh": "广州珠江江面"
+        },
+        "lat": 23.115,
+        "lon": 113.27
+      },
+      "wikidataId": "Q11926594"
+    },
+    {
+      "id": "guangzhou-shelled",
+      "start": 1856,
+      "title": {
+        "en": "From 23 October British warships under Michael Seymour destroy the forts below Guangzhou and shell the city; on 29 October troops breach the wall, enter and withdraw",
+        "es": "Desde el 23 de octubre buques británicos al mando de Michael Seymour destruyen los fuertes situados río abajo y bombardean Cantón; el 29 de octubre las tropas abren brecha en la muralla, entran y se retiran",
+        "zh": "10月23日起，西摩尔率英国军舰摧毁广州城外炮台并炮击该城；10月29日英军轰开城墙攻入城内，随后退出"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "Zhang, Yunqiu. \"Second Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/second-opium-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Guangzhou",
+          "es": "Cantón",
+          "zh": "广州"
+        },
+        "lat": 23.1291,
+        "lon": 113.2644
+      },
+      "wikidataId": "Q16207110"
+    },
+    {
+      "id": "battle-of-fatshan-creek",
+      "start": 1857,
+      "title": {
+        "en": "Royal Navy ships under Michael Seymour destroy a fleet of Qing war junks in Fatshan Creek near Foshan on 1 June",
+        "es": "Buques de la Marina Real al mando de Michael Seymour destruyen una flota de juncos de guerra Qing en el canal de Fatshan, cerca de Foshan, el 1 de junio",
+        "zh": "6月1日，西摩尔率英国皇家海军舰船在佛山水道摧毁一支清军战船队"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Battle of Fatshan Creek.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Fatshan_Creek"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Fatshan Creek, Foshan",
+          "es": "Canal de Fatshan, Foshan",
+          "zh": "佛山水道"
+        },
+        "lat": 23.029,
+        "lon": 113.119
+      },
+      "wikidataId": "Q2888487"
+    },
+    {
+      "id": "guangzhou-taken",
+      "start": 1857,
+      "title": {
+        "en": "British and French forces bombard Guangzhou on 28 December and take the city; Ye Mingchen is captured and taken to Calcutta, where he dies in 1859",
+        "es": "Las fuerzas británicas y francesas bombardean Cantón el 28 de diciembre y toman la ciudad; Ye Mingchen es capturado y llevado a Calcuta, donde muere en 1859",
+        "zh": "12月28日，英法联军炮轰广州并攻占该城；叶名琛被俘，押往加尔各答，1859年死于当地"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Zhang, Yunqiu. \"Second Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/second-opium-war"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "note": {
+        "en": "The British and French lost 15 killed.",
+        "es": "Los británicos y franceses perdieron 15 muertos.",
+        "zh": "英法联军15人死亡。"
+      },
+      "place": {
+        "name": {
+          "en": "Guangzhou",
+          "es": "Cantón",
+          "zh": "广州"
+        },
+        "lat": 23.1291,
+        "lon": 113.2644
+      },
+      "wikidataId": "Q588648"
+    },
+    {
+      "id": "first-battle-of-dagu",
+      "start": 1858,
+      "title": {
+        "en": "British and French gunboats take the Dagu forts on 20 May and sail up the Hai River to Tianjin",
+        "es": "Cañoneras británicas y francesas toman los fuertes de Dagu el 20 de mayo y remontan el río Hai hasta Tianjin",
+        "zh": "5月20日，英法炮艇攻占大沽炮台，沿海河上驶至天津"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Dagu (Taku) forts, Hai River mouth",
+          "es": "Fuertes de Dagu (Taku), desembocadura del río Hai",
+          "zh": "大沽口炮台"
+        },
+        "lat": 38.9749,
+        "lon": 117.7122
+      },
+      "wikidataId": "Q4087331"
+    },
+    {
+      "id": "treaties-of-tianjin",
+      "start": 1858,
+      "title": {
+        "en": "Qing envoys sign the Treaties of Tianjin with Russia, the United States, Britain (26 June) and France (27 June)",
+        "es": "Los enviados Qing firman los Tratados de Tianjin con Rusia, Estados Unidos, el Reino Unido (26 de junio) y Francia (27 de junio)",
+        "zh": "清朝代表与俄国、美国、英国（6月26日）和法国（6月27日）分别签订《天津条约》"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Treaty of Tientsin.\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Tientsin"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        }
+      ],
+      "note": {
+        "en": "The terms included foreign legations in Beijing, ten more ports open to trade, travel in the interior, and indemnities of 4 million taels to Britain and 2 million to France.",
+        "es": "Los términos incluían legaciones extranjeras en Pekín, diez puertos más abiertos al comercio, libertad de viaje por el interior e indemnizaciones de 4 millones de taeles al Reino Unido y 2 millones a Francia.",
+        "zh": "条款包括外国公使驻京、增开十个通商口岸、外国人可赴内地游历，以及对英赔款400万两、对法赔款200万两。"
+      },
+      "place": {
+        "name": {
+          "en": "Tianjin",
+          "es": "Tianjin",
+          "zh": "天津"
+        },
+        "lat": 39.1336,
+        "lon": 117.1936
+      },
+      "wikidataId": "Q612577"
+    },
+    {
+      "id": "second-battle-of-dagu",
+      "start": 1859,
+      "title": {
+        "en": "Sengge Rinchen's batteries at Dagu sink four British gunboats on 25 June and stop a landing; the force escorting the new envoys withdraws",
+        "es": "Las baterías de Sengge Rinchen en Dagu hunden cuatro cañoneras británicas el 25 de junio y frenan un desembarco; la fuerza que escoltaba a los nuevos enviados se retira",
+        "zh": "6月25日，僧格林沁在大沽的炮台击沉四艘英国炮艇并击退登陆部队，护送新任公使的舰队撤退"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        }
+      ],
+      "note": {
+        "en": "Counts of the British and French killed and wounded run from 424 to 446.",
+        "es": "Las cifras de muertos y heridos británicos y franceses van de 424 a 446.",
+        "zh": "英法联军伤亡人数说法从424人到446人不等。"
+      },
+      "place": {
+        "name": {
+          "en": "Dagu (Taku) forts, Hai River mouth",
+          "es": "Fuertes de Dagu (Taku), desembocadura del río Hai",
+          "zh": "大沽口炮台"
+        },
+        "lat": 38.9749,
+        "lon": 117.7122
+      },
+      "wikidataId": "Q1061404"
+    },
+    {
+      "id": "dalian-and-yantai",
+      "start": 1860,
+      "title": {
+        "en": "British forces occupy Dalian Bay and French forces Yantai, closing the Bohai Gulf",
+        "es": "Las fuerzas británicas ocupan la bahía de Dalian y las francesas Yantai, cerrando el golfo de Bohai",
+        "zh": "英军占领大连湾，法军占领烟台，封锁渤海湾"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Dalian Bay",
+          "es": "Bahía de Dalian",
+          "zh": "大连湾"
+        },
+        "lat": 38.95,
+        "lon": 121.65
+      }
+    },
+    {
+      "id": "landing-at-beitang",
+      "start": 1860,
+      "title": {
+        "en": "The allied army lands at Beitang, a few kilometres north of the Dagu forts",
+        "es": "El ejército aliado desembarca en Beitang, a pocos kilómetros al norte de los fuertes de Dagu",
+        "zh": "联军在大沽炮台以北数公里的北塘登陆"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give the landing date as 29 July, 1 August or 3 August.",
+        "es": "Las fuentes fechan el desembarco el 29 de julio, el 1 de agosto o el 3 de agosto.",
+        "zh": "各来源所记登陆日期分别为7月29日、8月1日或8月3日。"
+      },
+      "place": {
+        "name": {
+          "en": "Beitang",
+          "es": "Beitang",
+          "zh": "北塘"
+        },
+        "lat": 39.11,
+        "lon": 117.71
+      }
+    },
+    {
+      "id": "third-battle-of-dagu",
+      "start": 1860,
+      "title": {
+        "en": "British and French troops storm the North Fort at Dagu on 21 August; the remaining forts surrender",
+        "es": "Tropas británicas y francesas asaltan el fuerte Norte de Dagu el 21 de agosto; los demás fuertes se rinden",
+        "zh": "8月21日，英法军队强攻大沽北炮台，其余炮台随即投降"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        }
+      ],
+      "note": {
+        "en": "The attackers lost 17 killed and 184 wounded at the North Fort.",
+        "es": "Los atacantes perdieron 17 muertos y 184 heridos en el fuerte Norte.",
+        "zh": "进攻北炮台的联军17人死亡、184人受伤。"
+      },
+      "place": {
+        "name": {
+          "en": "Dagu (Taku) forts, Hai River mouth",
+          "es": "Fuertes de Dagu (Taku), desembocadura del río Hai",
+          "zh": "大沽口炮台"
+        },
+        "lat": 38.9749,
+        "lon": 117.7122
+      },
+      "wikidataId": "Q4087332"
+    },
+    {
+      "id": "tianjin-taken",
+      "start": 1860,
+      "title": {
+        "en": "The allied army takes Tianjin on 23 August",
+        "es": "El ejército aliado toma Tianjin el 23 de agosto",
+        "zh": "8月23日，联军占领天津"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tianjin",
+          "es": "Tianjin",
+          "zh": "天津"
+        },
+        "lat": 39.1336,
+        "lon": 117.1936
+      }
+    },
+    {
+      "id": "negotiators-seized",
+      "start": 1860,
+      "title": {
+        "en": "Sengge Rinchen's troops seize Harry Parkes, Henry Loch and their party near Tongzhou on 18 September; held in Beijing, about twenty of the prisoners die after mistreatment",
+        "es": "Las tropas de Sengge Rinchen capturan a Harry Parkes, Henry Loch y su comitiva cerca de Tongzhou el 18 de septiembre; retenidos en Pekín, una veintena de los prisioneros mueren por los malos tratos",
+        "zh": "9月18日，僧格林沁部在通州附近扣押巴夏礼、罗亨利及其随行人员；他们被押往北京，约二十人因受虐待而死"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Old Summer Palace.\"",
+          "url": "https://en.wikipedia.org/wiki/Old_Summer_Palace"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tongzhou",
+          "es": "Tongzhou",
+          "zh": "通州"
+        },
+        "lat": 39.909,
+        "lon": 116.657
+      }
+    },
+    {
+      "id": "battle-of-zhangjiawan",
+      "start": 1860,
+      "title": {
+        "en": "Allied troops defeat Sengge Rinchen's cavalry at Zhangjiawan on 18 September",
+        "es": "Las tropas aliadas derrotan a la caballería de Sengge Rinchen en Zhangjiawan el 18 de septiembre",
+        "zh": "9月18日，联军在张家湾击败僧格林沁的骑兵"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Zhangjiawan",
+          "es": "Zhangjiawan",
+          "zh": "张家湾"
+        },
+        "lat": 39.85,
+        "lon": 116.71
+      },
+      "wikidataId": "Q4438423"
+    },
+    {
+      "id": "battle-of-baliqiao",
+      "start": 1860,
+      "title": {
+        "en": "At Baliqiao (Palikao), east of Beijing, allied fire breaks repeated charges by about 10,000 Qing troops on 21 September",
+        "es": "En Baliqiao (Palikao), al este de Pekín, el fuego aliado rompe las sucesivas cargas de unos 10.000 soldados Qing el 21 de septiembre",
+        "zh": "9月21日，在北京以东的八里桥，约一万名清军反复冲锋，被联军火力击溃"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Baliqiao (Palikao)",
+          "es": "Baliqiao (Palikao)",
+          "zh": "八里桥"
+        },
+        "lat": 39.9067,
+        "lon": 116.6142
+      },
+      "wikidataId": "Q2663279"
+    },
+    {
+      "id": "emperor-leaves-beijing",
+      "start": 1860,
+      "title": {
+        "en": "The Xianfeng Emperor leaves Beijing for Chengde, leaving his brother Prince Gong to negotiate",
+        "es": "El emperador Xianfeng abandona Pekín rumbo a Chengde y deja a su hermano el príncipe Gong al frente de las negociaciones",
+        "zh": "咸丰帝离开北京前往承德，留其弟恭亲王奕䜣负责议和"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Opium War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Zhang, Yunqiu. \"Second Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/second-opium-war"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Chengde Mountain Resort",
+          "es": "Residencia de montaña de Chengde",
+          "zh": "承德避暑山庄"
+        },
+        "lat": 40.99,
+        "lon": 117.94
+      }
+    },
+    {
+      "id": "old-summer-palace-looted",
+      "start": 1860,
+      "title": {
+        "en": "French and British troops reach the Old Summer Palace (Yuanmingyuan) on 6 October and loot it",
+        "es": "Tropas francesas y británicas llegan al Antiguo Palacio de Verano (Yuanmingyuan) el 6 de octubre y lo saquean",
+        "zh": "10月6日，法英军队到达圆明园并大肆抢掠"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Old Summer Palace.\"",
+          "url": "https://en.wikipedia.org/wiki/Old_Summer_Palace"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Old Summer Palace (Yuanmingyuan), Beijing",
+          "es": "Antiguo Palacio de Verano (Yuanmingyuan), Pekín",
+          "zh": "北京圆明园"
+        },
+        "lat": 40.012,
+        "lon": 116.3068
+      }
+    },
+    {
+      "id": "beijing-gate-opened",
+      "start": 1860,
+      "title": {
+        "en": "Beijing opens its gates to the allied army on 13 October",
+        "es": "Pekín abre sus puertas al ejército aliado el 13 de octubre",
+        "zh": "10月13日，北京打开城门，联军入城"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Anding Gate, Beijing",
+          "es": "Puerta de Anding, Pekín",
+          "zh": "北京安定门"
+        },
+        "lat": 39.949,
+        "lon": 116.408
+      }
+    },
+    {
+      "id": "old-summer-palace-burned",
+      "start": 1860,
+      "title": {
+        "en": "On Lord Elgin's orders British troops set fire to the Old Summer Palace on 18 October; it burns for days",
+        "es": "Por orden de lord Elgin, tropas británicas incendian el Antiguo Palacio de Verano el 18 de octubre; arde durante días",
+        "zh": "10月18日，英军奉额尔金之命纵火焚烧圆明园，大火连烧数日"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Old Summer Palace.\"",
+          "url": "https://en.wikipedia.org/wiki/Old_Summer_Palace"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+        },
+        {
+          "citation": "National Army Museum. \"Second China War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-china-war"
+        }
+      ],
+      "note": {
+        "en": "Elgin called it a punishment for the treatment of the prisoners; the French commander refused to take part. About 300 eunuchs and palace servants hiding inside died in the fire.",
+        "es": "Elgin lo presentó como castigo por el trato a los prisioneros; el comandante francés se negó a participar. Unos 300 eunucos y sirvientes del palacio escondidos en su interior murieron en el incendio.",
+        "zh": "额尔金称此举是对虐待俘虏的惩罚；法军统帅拒绝参与。藏身园内的约300名太监和宫女葬身火海。"
+      },
+      "place": {
+        "name": {
+          "en": "Old Summer Palace (Yuanmingyuan), Beijing",
+          "es": "Antiguo Palacio de Verano (Yuanmingyuan), Pekín",
+          "zh": "北京圆明园"
+        },
+        "lat": 40.012,
+        "lon": 116.3068
+      }
+    },
+    {
+      "id": "convention-of-peking",
+      "start": 1860,
+      "title": {
+        "en": "At the Ministry of Rites, Prince Gong signs the Convention of Peking with Lord Elgin on 24 October and a matching convention with Baron Gros",
+        "es": "En el Ministerio de Ritos, el príncipe Gong firma la Convención de Pekín con lord Elgin el 24 de octubre y otra equivalente con el barón Gros",
+        "zh": "恭亲王奕䜣在礼部于10月24日与额尔金签订《北京条约》，并与葛罗签订内容相应的条约"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Convention of Peking.\"",
+          "url": "https://en.wikipedia.org/wiki/Convention_of_Peking"
+        },
+        {
+          "citation": "Wikipedia (中文). \"北京条约.\"",
+          "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E6%9D%A1%E7%BA%A6"
+        },
+        {
+          "citation": "Zhang, Yunqiu. \"Second Opium War.\" EBSCO Research Starters, 2023.",
+          "url": "https://www.ebsco.com/research-starters/history/second-opium-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ministry of Rites, Beijing",
+          "es": "Ministerio de Ritos, Pekín",
+          "zh": "北京礼部"
+        },
+        "lat": 39.904,
+        "lon": 116.401
+      },
+      "wikidataId": "Q604938"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "James Bruce, 8th Earl of Elgin",
+        "es": "James Bruce",
+        "zh": "第八代额尔金伯爵詹姆斯·布鲁斯"
+      },
+      "side": "britain-and-france",
+      "role": {
+        "en": "British envoy and plenipotentiary",
+        "es": "Enviado y plenipotenciario británico",
+        "zh": "英国全权专使"
+      },
+      "wikidataId": "Q335230"
+    },
+    {
+      "name": {
+        "en": "Jean-Baptiste Louis Gros",
+        "es": "Jean-Baptiste Louis Gros",
+        "zh": "葛罗"
+      },
+      "side": "britain-and-france",
+      "role": {
+        "en": "French envoy and plenipotentiary",
+        "es": "Enviado y plenipotenciario francés",
+        "zh": "法国全权专使"
+      },
+      "wikidataId": "Q1684668"
+    },
+    {
+      "name": {
+        "en": "Michael Seymour",
+        "es": "Michael Seymour",
+        "zh": "迈克尔·西摩尔"
+      },
+      "side": "britain-and-france",
+      "role": {
+        "en": "British naval commander, 1856–1858",
+        "es": "Comandante naval británico, 1856–1858",
+        "zh": "英国海军司令（1856年至1858年）"
+      },
+      "wikidataId": "Q338366"
+    },
+    {
+      "name": {
+        "en": "Charles Rigault de Genouilly",
+        "es": "Charles Rigault de Genouilly",
+        "zh": "黎峨"
+      },
+      "side": "britain-and-france",
+      "role": {
+        "en": "French naval commander at Guangzhou, 1857",
+        "es": "Comandante naval francés en Cantón, 1857",
+        "zh": "1857年广州之战法国海军指挥官"
+      },
+      "wikidataId": "Q2960122"
+    },
+    {
+      "name": {
+        "en": "James Hope",
+        "es": "James Hope",
+        "zh": "何伯"
+      },
+      "side": "britain-and-france",
+      "role": {
+        "en": "British naval commander at Dagu, 1859",
+        "es": "Comandante naval británico en Dagu, 1859",
+        "zh": "1859年大沽口英国海军指挥官"
+      },
+      "wikidataId": "Q1072211"
+    },
+    {
+      "name": {
+        "en": "James Hope Grant",
+        "es": "James Hope Grant",
+        "zh": "詹姆斯·霍普·格兰特"
+      },
+      "side": "britain-and-france",
+      "role": {
+        "en": "Commander of the British army, 1860",
+        "es": "Comandante del ejército británico, 1860",
+        "zh": "1860年英军总司令"
+      },
+      "wikidataId": "Q1132618"
+    },
+    {
+      "name": {
+        "en": "Charles Cousin-Montauban",
+        "es": "Charles Cousin-Montauban",
+        "zh": "八里桥伯爵夏尔·库赞-蒙托邦"
+      },
+      "side": "britain-and-france",
+      "role": {
+        "en": "Commander of the French army, 1860",
+        "es": "Comandante del ejército francés, 1860",
+        "zh": "1860年法军总司令"
+      },
+      "wikidataId": "Q707195"
+    },
+    {
+      "name": {
+        "en": "Harry Parkes",
+        "es": "Harry Smith Parkes",
+        "zh": "夏利·斯密·巴夏礼"
+      },
+      "side": "britain-and-france",
+      "role": {
+        "en": "British consul at Guangzhou; held prisoner in 1860",
+        "es": "Cónsul británico en Cantón; prisionero en 1860",
+        "zh": "英国驻广州领事，1860年被扣押"
+      },
+      "wikidataId": "Q3127920"
+    },
+    {
+      "name": {
+        "en": "Xianfeng Emperor",
+        "es": "Xianfeng",
+        "zh": "咸丰帝"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Emperor of the Qing",
+        "es": "Emperador Qing",
+        "zh": "清朝皇帝"
+      },
+      "wikidataId": "Q334452"
+    },
+    {
+      "name": {
+        "en": "Ye Mingchen",
+        "es": "Ye Mingchen",
+        "zh": "叶名琛"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Viceroy of Liangguang at Guangzhou; captured in 1858",
+        "es": "Virrey de Liangguang en Cantón; capturado en 1858",
+        "zh": "两广总督，1858年被俘"
+      },
+      "wikidataId": "Q708910"
+    },
+    {
+      "name": {
+        "en": "Sengge Rinchen",
+        "es": "Sengge Rinchen",
+        "zh": "僧格林沁"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Commander at Dagu and Baliqiao",
+        "es": "Comandante en Dagu y Baliqiao",
+        "zh": "大沽与八里桥清军统帅"
+      },
+      "wikidataId": "Q981183"
+    },
+    {
+      "name": {
+        "en": "Prince Gong",
+        "es": "Yixin, príncipe Gong",
+        "zh": "奕䜣"
+      },
+      "side": "qing-china",
+      "role": {
+        "en": "Emperor's brother; signed the Convention of Peking",
+        "es": "Hermano del emperador; firmó la Convención de Pekín",
+        "zh": "咸丰帝之弟，签订《北京条约》"
+      },
+      "wikidataId": "Q509360"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "qing"
+  ],
+  "follows": "first-opium-war",
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Second Opium War.\"",
+      "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Segunda guerra del Opio.\"",
+      "url": "https://es.wikipedia.org/wiki/Segunda_guerra_del_Opio"
+    },
+    {
+      "citation": "Wikipedia (中文). \"第二次鸦片战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+    },
+    {
+      "citation": "National Army Museum. \"Second China War.\"",
+      "url": "https://www.nam.ac.uk/explore/second-china-war"
+    },
+    {
+      "citation": "Zhang, Yunqiu. \"Second Opium War.\" EBSCO Research Starters, 2023.",
+      "url": "https://www.ebsco.com/research-starters/history/second-opium-war"
+    },
+    {
+      "citation": "Wikipedia (English). \"Old Summer Palace.\"",
+      "url": "https://en.wikipedia.org/wiki/Old_Summer_Palace"
+    },
+    {
+      "citation": "Wikipedia (English). \"Treaty of Tientsin.\"",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Tientsin"
+    },
+    {
+      "citation": "Wikipedia (English). \"Convention of Peking.\"",
+      "url": "https://en.wikipedia.org/wiki/Convention_of_Peking"
+    }
+  ]
+}
