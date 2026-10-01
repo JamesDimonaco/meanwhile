@@ -81,22 +81,23 @@ A Wars tab (footer, beside Timeline): pick a present-day country, see its wars o
 | Field | What |
 |---|---|
 | `id`, `wikidataId` | `Q…` of the war item itself (never a disambiguation page) |
-| `name` | `{ en, es, zh }`: each language's own Wikipedia title (en-wiki, es-wiki, zh-wiki in zh-cn). Never invent a title |
+| `name` | `{ en, es, zh }`, all three required: each language's own Wikipedia title (en-wiki, es-wiki, zh-wiki in zh-cn). Never invent a title; where a Wikipedia has no article, see "Titles" under Open calls |
+| `noWikiTitle[]` | `["es"]`, `["zh"]` or both: the languages whose Wikipedia has no article on this war, so their `name` is ours. Omit when every title is a Wikipedia title |
 | `aliases[]` | search-only terms, any language |
 | `altNames[]` | `{ text, lang, usedBy, gloss? }`: a side's own name for the war, shown as "<usedBy> calls it <text>" and searchable, never the title. E.g. `{ "text": "抗美援朝战争", "lang": "zh-Hans", "usedBy": { "en": "China", … }, "gloss": { "en": "War to Resist US Aggression and Aid Korea", … } }` |
 | `description` | the short account, 80–200 words, in our own words |
 | `outcome` | one neutral line |
-| `tier` | `flagship` (phases, 15–30 events) or `standard` (3–8 events) |
-| `sensitive`, `reviewed: { es, zh }` | see the review gate; every war starts `{ "es": false, "zh": false }` |
-| `period` **or** `ongoing` | ended: a Period (`id`, `earliestStart`, `latestStart`, `earliestEnd`, `latestEnd`, `sources`, `disputed`, `note?`). Ongoing: `{ earliestStart, latestStart, asOf: "YYYY-MM-DD", sources, disputed?, note? }`, no end |
+| `tier` | `flagship` (2+ phases, 15–30 events) or `standard` (3–8 events); events include `cultureEvents` |
+| `sensitive`, `reviewed: { es, zh }` | see the review gate. Every war on the sensitive list must say `"sensitive": true`. `reviewed` is always `{ "es": false, "zh": false }` in a file you write: only James sets a language true, after listing it in `src/lib/data/war-review.ts` |
+| `period` **or** `ongoing` | ended: a Period (`id`, `earliestStart`, `latestStart`, `earliestEnd`, `latestEnd`, `sources`, `disputed`, `note?`). Ongoing: `{ earliestStart, latestStart, asOf: "YYYY-MM-DD", sources, disputed?, note? }`, no end; `asOf` is the day you checked, never a future date |
 | `sides[]` | 2+ of `{ id, label, members[] }`. A member is `{ kind: "culture", id }` (registry id, linked), `{ kind: "state", code }` (a UN member today, drawn with its flag) or `{ kind: "polity", name }` (a historical polity, army or company: plain name, no flag), each with `role: "belligerent" \| "supporter"` and `today: ["MX"]`, 1–3 ISO codes of the present-day countries whose pages list the war for that member |
-| `phases[]` | flagship: segments of one bar, `{ id, name, start, end, sources }`, by start, whole calendar years (a phase inside one year is `1519`–`1519`) |
+| `phases[]` | flagship: segments of one bar, `{ id, name, start, end, sources }`, by start, whole calendar years (a phase inside one year is `1519`–`1519`), inside the war's outer period |
 | `events[]` | `{ id, start, end?, title, sources (2+), disputed?, note?, place: { name, lat, lon }, wikidataId? }`. Every event is a pin. List them in the order they happened: within a year, file order is display order |
 | `cultureEvents[]` | `{ culture, event }`: a culture's own event shown in the war's list by reference (the Aztec war uses `aztec`'s `fall-of-tenochtitlan`). The culture event needs a `place`; if it has none, write your own event with the same sources rather than editing the culture file |
 | `leaders[]` | `{ name, side, role, wikidataId }`; `side` is one of this war's side ids |
-| `casualties[]` | `{ scope, side?, low, high, attributedTo?, asOf?, sources, note? }`, scope `battle-deaths \| military-deaths \| civilian-deaths \| total-deaths` |
+| `casualties[]` | `{ scope, side?, who?, low, high, attributedTo?, asOf?, sources, note? }`, scope `battle-deaths \| military-deaths \| civilian-deaths \| total-deaths`. `who` names the part of the side a figure counts (`{ "en": "Spaniards", … }`) and replaces the side's label in the heading. Figures with the same scope, side and `who` sit together as rival estimates of one quantity, so each must count the same people over the same span: a war-wide range and one battle's toll never share a group (the battle's toll goes in that event's `note`) |
 | `cultures[]` | culture ids this war ended or changed: their pages list it |
-| `follows?` | the war this one continues (French conquest of Vietnam → First Indochina War → Vietnam War; Russo-Ukrainian war → Russian invasion of Ukraine). Shown as before/after links |
+| `follows?` | an earlier war this one continues or grows out of (French conquest of Vietnam → First Indochina War → Vietnam War; the Russo-Ukrainian war → its full-scale phase from 2022). Shown as "Began before this one" / "Began after this one" links |
 | `sources[]` | the war's own references |
 
 ```json
@@ -126,7 +127,9 @@ A Wars tab (footer, beside Timeline): pick a present-day country, see its wars o
 
 ### Validation (`pnpm validate-data`, `src/lib/data/validate-wars.ts`)
 
-Fails on: schema errors (including an event with fewer than 2 sources or no place, a casualty without sources, `high < low`, or a single number `low == high` without `attributedTo`); duplicate war ids; a file name that isn't its id; a war id that is also a culture id; an unknown culture id in a side or `cultures[]`; a missing or missing-place culture event reference; `follows` naming a missing war or one that starts later; a `today` or state code that is not a UN member state or is never shown (TW, HK, MO, EH, PS, XK); an event outside the war's outer period (`earliestStart` to `latestEnd`, or to the `asOf` year); a borders file for a standard-tier war or one that ends after 1800; a pin inside a contested area. Missing es/zh only warns.
+Fails on: schema errors (including a missing es or zh title, an event with fewer than 2 sources or no place, a casualty without sources, `high < low`, or a single number `low == high` without `attributedTo`); a war on the sensitive list without `"sensitive": true`; `reviewed.es` or `reviewed.zh` true without James's entry in `war-review.ts`; an ongoing war's `asOf` after the build date; the wrong number of events for the tier, or a flagship with fewer than 2 phases; duplicate war ids; a file name that isn't its id; a war id that is also a culture id; an unknown culture id in a side or `cultures[]`; a missing or missing-place culture event reference; `follows` naming a missing war or one that starts later; a `today` or state code that is not a UN member state or is never shown (TW, HK, MO, EH, PS, XK); an event or phase outside the war's outer period (`earliestStart` to `latestEnd`, or to the `asOf` year); a borders file for a standard-tier war or one that ends after 1800; a pin inside a contested area. Missing es/zh in other text only warns.
+
+Not caught: a BCE war shifted by one year throughout (period and events entered as `-499`…`-449` for 499–449 BCE) is self-consistent and passes. The reviewer checks every BCE value against the sources and Wikidata's start and end (P580/P582).
 
 ### Decisions (James, 2026-10-01)
 
@@ -138,8 +141,17 @@ Fails on: schema errors (including an event with fewer than 2 sources or no plac
 6. **Maps**: polygons only for flagship wars that end before 1800 (Cliopatria via `pnpm borders`). Every other war: pins on plain world land. No country borders, no front lines, no polygons.
 7. **Falklands**: en "Falklands War", es "Guerra de las Malvinas", zh 福克兰战争.
 8. **Ongoing wars**: `ongoing` with an `asOf` date shown on screen; figures re-checked by hand each quarter.
-9. **Review gate**: a `sensitive` war whose `reviewed.es` / `reviewed.zh` is false does not exist in that language: no page, no country-page row, no culture-page row, no search hit, no sitemap entry, no before/after link, and the language switcher sends that language to the wars list instead. English always shows. `isShownIn` / `warsShownIn` in `wars.ts` are the only way in. Sensitive in v1: Korean War, Second Sino-Japanese War (incl. Nanjing), Vietnam War, both Russo-Ukrainian entries, Falklands War.
+9. **Review gate**: a `sensitive` war whose `reviewed.es` / `reviewed.zh` is false does not exist in that language: no page, no country-page row, no culture-page row, no search hit, no sitemap entry, no before/after link, and the language switcher sends that language to the wars list instead (a page in that language never carries the war's id). English always shows. `isShownIn` / `warsShownIn` in `wars.ts` are the only way in. Sensitive in v1 (`SENSITIVE_WARS` in `war-review.ts`, which only James edits): `korean-war`, `second-sino-japanese-war` (incl. Nanjing), `vietnam-war`, `russo-ukrainian-war`, `russian-invasion-of-ukraine`, `falklands-war`. Signing a language off takes both James's `REVIEWED` entry there and the file's `reviewed` flag.
 10. **Opium Wars**: two files, `first-opium-war` (Q191282) and `second-opium-war` (Q418151, `follows: "first-opium-war"`), both flagship, pins only. Wikidata's "Opium Wars" (Q220984) is a series of wars with a 14-year gap, not one war.
+
+### Open calls (defaults until James decides, 2026-10-02)
+
+These follow the decisions above where they reach; James may change them at review.
+
+- **Titles where a Wikipedia has no article.** Use Wikidata's label in that language (zh: the zh-cn or zh-hans label); with no label, translate the en-wiki title word for word. List the language in `noWikiTitle`. Known cases: `french-conquest-of-vietnam` (Q10747195, en article only: es and zh), `mongol-conquest-of-the-song` (Q400061, no es article: es). Prose still follows the "conquest" rule below.
+- **`british-conquest-of-india` is blocked.** No war item or title exists in any language: "British conquest of India" redirects to Company rule in India (Q2001966, a period, not a war), and the Wikidata items for the Anglo-Maratha Wars (Q2776612) and Anglo-Sikh Wars (Q2285589) are disambiguation pages. Splitting it into wars that have items (Anglo-Mysore wars Q617321; the three Anglo-Maratha and two Anglo-Sikh wars; Indian Rebellion of 1857 Q129864) changes the track's scope and loses a flagship, so James picks. Don't write the file until then; the other wars-conquest files go ahead.
+- **Russia and Ukraine, two entries, both `ongoing`.** `russo-ukrainian-war` is the whole war from 20 February 2014 (Q15860072): en "Russo-Ukrainian war", es "Conflicto ruso-ucraniano (2014-presente)", zh 俄乌战争. Its events stop before 24 February 2022, and its UCDP range sums conflicts 13246 (Donetsk), 13247 (Lugansk) and 13306 (Novorossiya) for 2014–2021, `asOf` 2021-12-31, with a note that later deaths are counted on the full-scale entry. `russian-invasion-of-ukraine` is the full-scale war from 24 February 2022 (Q110999040): en "Russo-Ukrainian war (2022–present)", es "Guerra ruso-ucraniana", zh 俄乌战争 (2022年至今) (zh-wiki moved away from 俄罗斯入侵乌克兰, so the plan's 入侵 wording is stale). UCDP conflict 13243, 2022 onwards. It `follows` the 2014 entry, shown as "Began before this one". Check every title on the day you write it; these move.
+- **Pins in disputed places outside the guard.** The guard covers the places China claims or disputes with a neighbour. Elsewhere (the Falklands, Crimea, Donbas, Gaza, the Kurils) a battle is pinned where it happened, because the basemap draws no borders and a pin names no country. Name the place as each language's Wikipedia titles it.
 
 ### Editorial rules
 
@@ -148,11 +160,11 @@ Fails on: schema errors (including an event with fewer than 2 sources or no plac
 - "Conquest" and "invasion" only where all three Wikipedias use the word in the title. Official euphemisms only as attributed quotes.
 - **Name the exact actors** ("East India Company forces" before 1858, "Chinese People's Volunteer Army") and every outside supporter, including local allies in colonial conquests (Tlaxcala in the Aztec war). Use `role: "supporter"` only where the sources say a party supplied rather than fought.
 - **Sides, not verdicts**: no aggressor/victim fields or wording; no winner declared where the sources don't agree on one.
-- **Casualties**: a sourced range, or a figure attributed to whoever gives it. Never a bare number, never only the low end of a contested toll. Say it is contested in `note` when it is. Label UCDP figures `battle-deaths`.
+- **Casualties**: a sourced range, or a figure attributed to whoever gives it. Never a bare number, never only the low end of a contested toll. Say it is contested in `note` when it is. Label UCDP figures `battle-deaths`. Describe each figure as its source does: if the source says "the campaign overall", the note doesn't say "the siege". A source that counts something narrower (one battle, one month) gets its own figure or goes in a note, never into another quantity's range.
 - **Massacres and atrocities**: plain, sourced, non-graphic wording, like a museum label.
 - Mark contested dates and names `disputed: true` with a `note`.
 - **Two independent sources per fact**, written in our own words; open every source you cite.
-- **Pins**: battle sites and cities only, never inside a contested area. The guard (`contested.ts`, server only) rejects Taiwan and Penghu, Kinmen, Matsu, Kashmir and Aksai Chin, Gilgit-Baltistan, Arunachal Pradesh, the Paracels, the Spratlys, Scarborough Shoal and the Senkaku/Diaoyu Islands; pin the nearest undisputed city instead. The boxes are coarse: a reviewer still checks every pin.
+- **Pins**: battle sites and cities only, never inside a contested area. The guard (`contested.ts`, server only) rejects Taiwan and Penghu, Kinmen, Matsu, Kashmir and Aksai Chin, Gilgit-Baltistan, Arunachal Pradesh, the Paracels, the Spratlys, Scarborough Shoal and the Senkaku/Diaoyu Islands; pin the nearest undisputed city instead. Other disputed places: see Open calls. The boxes are coarse: a reviewer still checks every pin.
 
 ### Maps
 
@@ -173,7 +185,8 @@ Fails on: schema errors (including an event with fewer than 2 sources or no plac
 1. Write `data/wars/<id>.json`; every `today` code a UN member.
 2. `pnpm sync-flags` if a new country code appears (the only way `public/flags/` changes).
 3. Pre-1800 flagship only: `WARS` config + `pnpm borders`.
-4. `pnpm validate-data`, `pnpm test`, then look at `/en/war/<id>/` and `/zh/war/<id>/`.
+4. `pnpm validate-data`, `pnpm test`, then look at `/en/war/<id>/` and `/zh/war/<id>/` (a sensitive war has no zh page until James reviews it: check `/en/` only).
+5. BCE wars: check every year against the sources and Wikidata P580/P582 by hand; validation can't see a consistent off-by-one.
 
 ## Queries (`src/lib/data/queries.ts`)
 
@@ -217,9 +230,10 @@ Stay inside your files. If you must touch a shared file, keep the change minimal
 | rome-map | `src/components/territory-map/**`, `public/geo/**`, messages `map` |
 | compare | `src/app/[locale]/compare/**`, `src/app/culture-data/**`, `src/components/compare/**`, messages `compare` |
 | wars-ancient | `data/wars/{greco-persian-wars,peloponnesian-war,qin-wars-of-unification,punic-wars,gallic-wars,han-xiongnu-war,mongol-conquest-of-the-song,fall-of-constantinople}.json`, `data/borders/punic-wars.json`, the `WARS` entries (and their `LABELS`) in `scripts/build-borders.ts`. punic-wars is flagship with a Cliopatria map |
-| wars-conquest | `data/wars/{spanish-conquest-of-the-inca-empire,spanish-conquest-of-yucatan,british-conquest-of-india,first-opium-war,second-opium-war,mexican-american-war}.json`. british-conquest-of-india and both Opium Wars are flagship, pins only |
+| wars-conquest | `data/wars/{spanish-conquest-of-the-inca-empire,spanish-conquest-of-yucatan,british-conquest-of-india,first-opium-war,second-opium-war,mexican-american-war}.json`. Both Opium Wars are flagship, pins only. british-conquest-of-india is blocked (see Open calls) |
 | wars-asia-20c | `data/wars/{french-conquest-of-vietnam,first-indochina-war,vietnam-war,korean-war,second-sino-japanese-war,soviet-afghan-war}.json`. The first three are flagship, one story linked by `follows` |
 | wars-modern | `data/wars/{world-war-i,world-war-ii,iran-iraq-war,falklands-war,gulf-war,war-in-afghanistan-2001,iraq-war,russo-ukrainian-war,russian-invasion-of-ukraine}.json`. The last two are `ongoing`; russian-invasion-of-ukraine `follows` russo-ukrainian-war |
-| foundation (shared) | `src/lib/**`, `src/i18n/**`, `src/app/[locale]/layout.tsx`, `src/app/(root)/**`, `src/app/globals.css`, `data/registry.json`, `scripts/**`, config, `package.json` |
+| James only | `src/lib/data/war-review.ts` (the sensitive list and review sign-offs) |
+| foundation (shared) | `src/lib/**` except `war-review.ts`, `src/i18n/**`, `src/app/[locale]/layout.tsx`, `src/app/(root)/**`, `src/app/globals.css`, `data/registry.json`, `scripts/**`, config, `package.json` |
 
 Contracts between areas: `CultureEvents` and `CultureStory` take the same props, `{ culture: Culture; eventWorld: EventWorld }`. `ExplainerProvider`/`useExplainer()` (`open(year?)`, `close()`) and `ExplainerTrigger` are rendered by the shared layout. `useSettings()` / `updateSettings()` live in `src/components/settings/use-settings.ts`. Adding a shadcn component (`pnpm dlx shadcn@4.21.0 add <name>`) writes to `src/components/ui/` and may change `package.json`: report both.

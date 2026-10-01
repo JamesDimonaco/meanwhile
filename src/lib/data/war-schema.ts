@@ -151,7 +151,7 @@ export const WarFile = z
     casualties: z.array(Casualty).default([]),
     /** Culture ids this war ended or changed: their pages list it. */
     cultures: z.array(Id).default([]),
-    /** The war this one continues. */
+    /** An earlier war this one continues or grows out of. */
     follows: Id.optional(),
     sources: z.array(Source).min(1),
   })
