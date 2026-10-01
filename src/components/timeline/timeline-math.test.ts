@@ -10,6 +10,9 @@ import {
   clampYear,
   clampZoom,
   computeYearDomain,
+  followYearParam,
+  initialYearState,
+  moveYearState,
   yearStepForKey,
 } from "./timeline-math";
 
@@ -197,5 +200,57 @@ describe("axisTicks", () => {
       expect(t).toBeGreaterThanOrEqual(-4099);
       expect(t).toBeLessThanOrEqual(1912);
     }
+  });
+});
+
+describe("year state and ?year=", () => {
+  const domain: [number, number] = [-3000, 2000];
+
+  it("ignores its own late URL write while the line is being dragged on", () => {
+    let s = initialYearState("5", 1, domain);
+    s = moveYearState(s, 6);
+    s = moveYearState(s, 7);
+    // Next delivers ?year=6 (our replaceState) after the move to 7 has rendered.
+    s = followYearParam(s, "6", domain);
+    expect(s.year).toBe(7);
+    s = followYearParam(s, "7", domain);
+    expect(s.year).toBe(7);
+  });
+
+  it("ignores every late echo when the line goes back and forth (6, 7, back to 6)", () => {
+    let s = initialYearState("5", 1, domain);
+    s = moveYearState(s, 6);
+    s = moveYearState(s, 7);
+    s = moveYearState(s, 6);
+    s = followYearParam(s, "6", domain); // the first write's echo
+    s = followYearParam(s, "7", domain);
+    expect(s.year).toBe(6);
+  });
+
+  it("follows a navigation to a new ?year= (a scan from the header)", () => {
+    let s = initialYearState("5", 1, domain);
+    s = moveYearState(s, 6);
+    s = followYearParam(s, "6", domain);
+    s = followYearParam(s, "-1199", domain);
+    expect(s.year).toBe(-1199);
+  });
+
+  it("follows a navigation even to a year the line passed through before its echo came back", () => {
+    let s = initialYearState("5", 1, domain);
+    s = moveYearState(s, 6);
+    s = moveYearState(s, 7);
+    s = followYearParam(s, "7", domain); // 6's echo was coalesced into 7's
+    s = followYearParam(s, "6", domain);
+    expect(s.year).toBe(6);
+  });
+
+  it("starts from ?year=, clamped, or the fallback, and ignores its own mount write", () => {
+    expect(initialYearState("-1199", 1, domain).year).toBe(-1199);
+    expect(initialYearState("9999", 1, domain).year).toBe(2000);
+    let s = initialYearState(null, 1, domain);
+    expect(s.year).toBe(1);
+    s = moveYearState(s, 2);
+    s = followYearParam(s, "1", domain); // the mount write, landing late
+    expect(s.year).toBe(2);
   });
 });

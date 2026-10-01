@@ -6,7 +6,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { scaleLinear } from "d3-scale";
 import { ZoomIn, ZoomOut } from "lucide-react";
 import { REGIONS } from "@/lib/data/schema";
-import { formatYear, parseYearParam } from "@/lib/years";
+import { formatYear } from "@/lib/years";
 import { useSettings } from "@/components/settings/use-settings";
 import { YearText } from "@/components/settings/year-text";
 import { Button } from "@/components/ui/button";
@@ -23,6 +23,9 @@ import {
   clampYear,
   clampZoom,
   computeYearDomain,
+  followYearParam,
+  initialYearState,
+  moveYearState,
   yearStepForKey,
 } from "./timeline-math";
 import { CultureLabel, CultureRow, FadeGradients, REGION_COLOR, RegionHeaderLabel } from "./timeline-row";
@@ -75,24 +78,18 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const chartWidth = Math.max(1, Math.round((domain[1] - domain[0]) * pxPerYear));
   const xScale = useMemo(() => scaleLinear().domain(domain).range([0, chartWidth]), [domain, chartWidth]);
 
-  const [year, setYear] = useState<number>(() => {
-    const paramYear = parseYearParam(searchParams.get("year"));
-    return clampYear(paramYear ?? DEFAULT_YEAR, domain);
-  });
+  const yearParam = searchParams.get("year");
+  const [yearState, setYearState] = useState(() => initialYearState(yearParam, DEFAULT_YEAR, domain));
+  const year = yearState.year;
   const [selected, setSelected] = useState<SelectedEvent | null>(null);
 
   // Navigating here again with a new ?year= (a scan from the header) doesn't
   // remount this, so follow the param when it changes. Our own replaceState
-  // below comes back through here too, already equal to year, and is ignored.
-  const yearParam = searchParams.get("year");
-  const [seenYearParam, setSeenYearParam] = useState(yearParam);
-  if (yearParam !== seenYearParam) {
-    setSeenYearParam(yearParam);
-    const paramYear = parseYearParam(yearParam);
-    if (paramYear !== null && clampYear(paramYear, domain) !== year) {
-      setYear(clampYear(paramYear, domain));
-      setSelected(null);
-    }
+  // below comes back through here too and followYearParam ignores it.
+  if (yearParam !== yearState.seenParam) {
+    const next = followYearParam(yearState, yearParam, domain);
+    setYearState(next);
+    if (next.year !== year) setSelected(null);
   }
 
   // Keep the URL shareable. Not required for the page to work, so a failure
@@ -141,7 +138,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   // Any move of the line drops a tapped event, which belongs to its own year.
   const moveYear = (next: number | null) => {
     if (next === null) return;
-    setYear(next);
+    setYearState((s) => moveYearState(s, next));
     setSelected(null);
   };
 
@@ -198,7 +195,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
 
   const handleSelectEvent = useCallback(
     (culture: TimelineCulture, event: TimelineEvent) => {
-      setYear(clampYear(event.start, domain));
+      setYearState((s) => moveYearState(s, clampYear(event.start, domain)));
       setSelected({ culture, event });
     },
     [domain],
