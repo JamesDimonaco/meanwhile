@@ -3,7 +3,7 @@ import path from "node:path";
 import subsetFont from "subset-font";
 import { LOCALES } from "@/i18n/locales";
 import { loadMessages } from "@/i18n/messages";
-import { loadCultures } from "@/lib/data/load";
+import { loadCultures, loadWars } from "@/lib/data/load";
 import { ogText } from "@/lib/og/copy";
 
 /**
@@ -16,11 +16,11 @@ import { ogText } from "@/lib/og/copy";
  * routes draw, in every locale. Inter also keeps a fixed Latin block list
  * (small even in full), plus whatever else it has a glyph for (Greek native
  * names). Noto Sans SC gets every non-Latin character, rather than the full
- * site subset in subset-cjk-font.ts: the font is loaded for each of the ~130
- * generated images, so every unused glyph is dead weight.
+ * site subset in subset-cjk-font.ts: the font is loaded for every generated
+ * image, so every unused glyph is dead weight.
  *
- * Run again (`pnpm build-og-fonts`) whenever OG image copy or the culture
- * roster changes, then commit the regenerated assets/og-fonts/*;
+ * Run again (`pnpm build-og-fonts`) whenever OG image copy, the culture
+ * roster or the wars change, then commit the regenerated assets/og-fonts/*;
  * src/lib/og/fonts.test.ts fails until you do.
  */
 
@@ -89,9 +89,10 @@ const inLatinRanges = (cp: number) => LATIN_RANGES.some(([from, to]) => cp >= fr
 
 async function ogCharacters(): Promise<string[]> {
   const cultures = loadCultures();
+  const wars = loadWars();
   const chars = new Set<string>();
   for (const locale of LOCALES) {
-    for (const text of ogText(locale, await loadMessages(locale), cultures)) for (const ch of text) chars.add(ch);
+    for (const text of ogText(locale, await loadMessages(locale), cultures, wars)) for (const ch of text) chars.add(ch);
   }
   return [...chars].sort();
 }

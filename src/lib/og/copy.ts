@@ -4,7 +4,9 @@ import { contemporaryNames } from "@/lib/data/culture-copy";
 import { localize } from "@/lib/data/localize";
 import { defaultPeriod } from "@/lib/data/queries";
 import type { Culture } from "@/lib/data/schema";
-import { formatYearRange } from "@/lib/years";
+import type { War } from "@/lib/data/war-schema";
+import { warSpan, warsShownIn } from "@/lib/data/wars";
+import { formatIsoDate, formatYear, formatYearRange } from "@/lib/years";
 
 // Every string a share image draws, one function per image. The routes render
 // these and scripts/build-og-fonts.ts subsets the fonts from ogText, so the
@@ -46,13 +48,28 @@ export function cultureOg(locale: Locale, messages: Messages, culture: Culture, 
   };
 }
 
-/** Every string any share image draws in this locale. */
-export function ogText(locale: Locale, messages: Messages, cultures: readonly Culture[]): string[] {
+export function warOg(locale: Locale, messages: Messages, war: War) {
+  const t = createTranslator({ locale, messages });
+  const { start, end, asOf } = warSpan(war);
+  return {
+    eyebrow: `${t("common.appName")} · ${t("wars.title")}`.toUpperCase(),
+    name: localize(war.name, locale),
+    range:
+      end !== null || asOf === null
+        ? formatYearRange(start, end ?? start, locale)
+        : t.markup("wars.ongoing", { start: () => formatYear(start, locale), date: formatIsoDate(asOf, locale) }),
+    sides: war.sides.map((s) => localize(s.label, locale)).join(` ${t("wars.against")} `),
+  };
+}
+
+/** Every string any share image draws in this locale (a war only where the review gate shows it). */
+export function ogText(locale: Locale, messages: Messages, cultures: readonly Culture[], wars: readonly War[]): string[] {
   const copies = [
     homeOg(locale, messages),
     timelineOg(locale, messages),
     creditsOg(locale, messages),
     ...cultures.map((c) => cultureOg(locale, messages, c, cultures)),
+    ...warsShownIn(wars, locale).map((w) => warOg(locale, messages, w)),
   ];
   return copies.flatMap((copy) => Object.values(copy).filter((s): s is string => s !== null));
 }
