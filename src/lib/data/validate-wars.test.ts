@@ -204,6 +204,12 @@ describe("wars", () => {
       expect(events[1].place?.name.en).toBe("Tenochtitlan");
     });
 
+    it("keeps the file's order within a year, so same-year events stay in the order they happened", () => {
+      const e = (id: string, start: number) => ({ id, start, title: t(id), sources: both, place: place(-98, 19) });
+      const result = run([warFile("w", warJson("w", { events: [e("zebra", 1519), e("apple", 1519), e("later", 1520), e("first", 1519)] }))]);
+      expect(result.wars[0].events.map((x) => x.id)).toEqual(["zebra", "apple", "first", "later"]);
+    });
+
     it("rejects a reference to a missing culture event, or to one without a place", () => {
       expect(errorsFor(warJson("w", { cultureEvents: [{ culture: "aztec", event: "nope" }] }))).toMatch(
         /aztec has no event "nope"/,

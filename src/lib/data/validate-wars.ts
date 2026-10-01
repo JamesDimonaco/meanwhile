@@ -75,7 +75,8 @@ export function validateWars({ warFiles, registryIds, cultures, borders }: WarsI
         place: event.place,
       });
     }
-    events.sort((a, b) => a.start - b.start || a.id.localeCompare(b.id));
+    // Stable: within a year the file order is the order things happened.
+    events.sort((a, b) => a.start - b.start);
 
     const [from, to] = warOuter(w);
     for (const e of events) {

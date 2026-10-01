@@ -91,8 +91,8 @@ A Wars tab (footer, beside Timeline): pick a present-day country, see its wars o
 | `period` **or** `ongoing` | ended: a Period (`id`, `earliestStart`, `latestStart`, `earliestEnd`, `latestEnd`, `sources`, `disputed`, `note?`). Ongoing: `{ earliestStart, latestStart, asOf: "YYYY-MM-DD", sources, disputed?, note? }`, no end |
 | `sides[]` | 2+ of `{ id, label, members[] }`. A member is `{ kind: "culture", id }` (registry id, linked), `{ kind: "state", code }` (a UN member today, drawn with its flag) or `{ kind: "polity", name }` (a historical polity, army or company: plain name, no flag), each with `role: "belligerent" \| "supporter"` and `today: ["MX"]`, 1–3 ISO codes of the present-day countries whose pages list the war for that member |
 | `phases[]` | flagship: segments of one bar, `{ id, name, start, end, sources }`, by start, whole calendar years (a phase inside one year is `1519`–`1519`) |
-| `events[]` | `{ id, start, end?, title, sources (2+), disputed?, note?, place: { name, lat, lon }, wikidataId? }`. Every event is a pin |
-| `cultureEvents[]` | `{ culture, event }`: a culture's own event shown in the war's list by reference (the Aztec war uses `aztec`'s `fall-of-tenochtitlan`). The culture event needs a `place`. Prefer this to copying |
+| `events[]` | `{ id, start, end?, title, sources (2+), disputed?, note?, place: { name, lat, lon }, wikidataId? }`. Every event is a pin. List them in the order they happened: within a year, file order is display order |
+| `cultureEvents[]` | `{ culture, event }`: a culture's own event shown in the war's list by reference (the Aztec war uses `aztec`'s `fall-of-tenochtitlan`). The culture event needs a `place`; if it has none, write your own event with the same sources rather than editing the culture file |
 | `leaders[]` | `{ name, side, role, wikidataId }`; `side` is one of this war's side ids |
 | `casualties[]` | `{ scope, side?, low, high, attributedTo?, asOf?, sources, note? }`, scope `battle-deaths \| military-deaths \| civilian-deaths \| total-deaths` |
 | `cultures[]` | culture ids this war ended or changed: their pages list it |
