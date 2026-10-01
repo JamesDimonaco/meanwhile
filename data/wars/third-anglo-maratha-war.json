@@ -1,0 +1,437 @@
+{
+  "id": "third-anglo-maratha-war",
+  "wikidataId": "Q617210",
+  "name": {
+    "en": "Third Anglo-Maratha War",
+    "es": "Tercera guerra anglo-maratha",
+    "zh": "第三次马拉塔战争"
+  },
+  "aliases": [
+    "Anglo-Maratha Wars",
+    "Third Maratha War",
+    "Pindari War",
+    "Khadki",
+    "Koregaon",
+    "Mahidpur",
+    "Baji Rao II",
+    "马拉塔战争",
+    "第三次英国-马拉塔战争",
+    "Guerras anglo-maratha"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "In June 1817 the Company's Resident at Poona, Mountstuart Elphinstone, forced the Peshwa Baji Rao II to sign the Treaty of Poona, which gave up territory and ended his headship of the Maratha Confederacy. That autumn Governor-General Lord Hastings assembled large armies against the Pindari raiders of central India. On 5 November 1817 the Peshwa's forces burned the Residency and attacked the Company's troops at Khadki, near Poona, and were driven off. The Bhonsle ruler of Nagpur, Appa Saheb, attacked the Company's force on Sitabuldi hill in late November and was defeated, and Holkar's army was broken at Mahidpur on 21 December. The Peshwa fled across the Deccan, fighting at Koregaon on 1 January 1818 and losing his commander Bapu Gokhale at Ashti in February, and surrendered to John Malcolm on 3 June 1818. Scindia of Gwalior stayed neutral under a treaty. The Company annexed the Peshwa's lands, abolished the office of Peshwa and made the remaining Maratha states princely states; the last fort, Asirgarh, fell in April 1819.",
+    "es": "En junio de 1817 el residente de la Compañía en Poona, Mountstuart Elphinstone, obligó al peshwa Baji Rao II a firmar el Tratado de Poona, por el que cedía territorio y perdía la jefatura de la Confederación Maratha. Ese otoño el gobernador general lord Hastings reunió grandes ejércitos contra los saqueadores pindaris de la India central. El 5 de noviembre de 1817 las fuerzas del peshwa quemaron la residencia y atacaron a las tropas de la Compañía en Khadki, cerca de Poona, y fueron rechazadas. El gobernante Bhonsle de Nagpur, Appa Saheb, atacó a finales de noviembre a la fuerza de la Compañía en la colina de Sitabuldi y fue derrotado, y el ejército de Holkar fue destrozado en Mahidpur el 21 de diciembre. El peshwa huyó por el Decán, combatió en Koregaon el 1 de enero de 1818, perdió a su comandante Bapu Gokhale en Ashti en febrero y se rindió a John Malcolm el 3 de junio de 1818. Scindia de Gwalior permaneció neutral en virtud de un tratado. La Compañía se anexionó las tierras del peshwa, abolió el cargo de peshwa y convirtió los demás estados marathas en estados principescos; el último fuerte, Asirgarh, cayó en abril de 1819.",
+    "zh": "1817年6月，东印度公司驻浦那代表蒙特斯图尔特·埃尔芬斯通迫使佩什瓦巴吉拉奥二世签订《浦那条约》，割让领土并放弃对马拉塔联盟的领导地位。同年秋，总督黑斯廷斯勋爵集结大军讨伐印度中部的品达里劫掠者。1817年11月5日，佩什瓦的军队焚毁代表官邸，并在浦那附近的卡德基进攻公司部队，被击退。11月下旬，那格浦尔的邦斯拉统治者阿帕·萨希布进攻锡塔布尔迪山上的公司部队，战败；12月21日，霍尔卡的军队在马希德普尔被击溃。佩什瓦在德干各地逃奔，1818年1月1日在科雷冈作战，2月在阿什提失去其统帅巴普·戈卡莱，并于1818年6月3日向约翰·马尔科姆投降。瓜廖尔的辛迪亚依条约保持中立。公司吞并佩什瓦的领地，废除佩什瓦之职，其余马拉塔邦国成为土邦；最后一座要塞阿西尔格尔于1819年4月陷落。"
+  },
+  "outcome": {
+    "en": "Baji Rao II surrendered in June 1818; the Company annexed his lands, abolished the office of Peshwa and made the other Maratha states princely states under its control.",
+    "es": "Baji Rao II se rindió en junio de 1818; la Compañía se anexionó sus tierras, abolió el cargo de peshwa y convirtió los demás estados marathas en estados principescos bajo su control.",
+    "zh": "巴吉拉奥二世于1818年6月投降；东印度公司吞并其领地，废除佩什瓦之职，并将其他马拉塔邦国变为受其控制的土邦。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1817,
+    "latestStart": 1817,
+    "earliestEnd": 1818,
+    "latestEnd": 1819,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Third Anglo-Maratha War.\"",
+        "url": "https://en.wikipedia.org/wiki/Third_Anglo-Maratha_War"
+      },
+      {
+        "citation": "\"Third Maratha War.\" EBSCO Research Starters (Great Events from History).",
+        "url": "https://www.ebsco.com/research-starters/history/third-maratha-war"
+      },
+      {
+        "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+        "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "Many accounts end the war with the Peshwa's surrender in June 1818; others run it to the fall of Asirgarh in April 1819.",
+      "es": "Muchos relatos terminan la guerra con la rendición del peshwa en junio de 1818; otros la prolongan hasta la caída de Asirgarh en abril de 1819.",
+      "zh": "许多记载以1818年6月佩什瓦投降为战争结束；另一些则延至1819年4月阿西尔格尔陷落。"
+    }
+  },
+  "sides": [
+    {
+      "id": "company",
+      "label": {
+        "en": "East India Company forces",
+        "es": "Fuerzas de la Compañía de las Indias Orientales",
+        "zh": "东印度公司部队"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces",
+            "es": "Fuerzas de la Compañía de las Indias Orientales",
+            "zh": "东印度公司部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Sepoy regiments of the Company's Bombay, Madras and Bengal armies",
+            "es": "Regimientos de cipayos de los ejércitos de Bombay, Madrás y Bengala de la Compañía",
+            "zh": "东印度公司孟买、马德拉斯和孟加拉军中的印度兵团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maratha-states",
+      "label": {
+        "en": "The Peshwa, Nagpur and Indore",
+        "es": "El peshwa, Nagpur e Indore",
+        "zh": "佩什瓦、那格浦尔与印多尔"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "The Peshwa Baji Rao II's forces",
+            "es": "Las fuerzas del peshwa Baji Rao II",
+            "zh": "佩什瓦巴吉拉奥二世的军队"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Nagpur, under Appa Saheb Bhonsle",
+            "es": "Nagpur, bajo Appa Saheb Bhonsle",
+            "zh": "阿帕·萨希布·邦斯拉治下的那格浦尔"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Indore, under Holkar",
+            "es": "Indore, bajo Holkar",
+            "zh": "霍尔卡治下的印多尔"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "battle-of-khadki",
+      "start": 1817,
+      "title": {
+        "en": "The Peshwa's forces burn the British Residency at Poona and attack the Company's troops at Khadki on 5 November; they are driven back",
+        "es": "Las fuerzas del peshwa queman la residencia británica en Poona y atacan a las tropas de la Compañía en Khadki el 5 de noviembre; son rechazadas",
+        "zh": "11月5日，佩什瓦的军队焚毁浦那的英国代表官邸，并在卡德基进攻公司部队，被击退"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Third Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"Third Maratha War.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/third-maratha-war"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Khadki (Kirkee), Pune",
+          "es": "Khadki (Kirkee), Pune",
+          "zh": "浦那卡德基"
+        },
+        "lat": 18.564,
+        "lon": 73.851
+      },
+      "wikidataId": "Q4871419"
+    },
+    {
+      "id": "battle-of-sitabuldi",
+      "start": 1817,
+      "title": {
+        "en": "Appa Saheb's army attacks the Company's force on Sitabuldi hill outside Nagpur on 26–27 November and is defeated after reinforcements arrive",
+        "es": "El ejército de Appa Saheb ataca a la fuerza de la Compañía en la colina de Sitabuldi, junto a Nagpur, el 26 y 27 de noviembre y es derrotado tras la llegada de refuerzos",
+        "zh": "11月26日至27日，阿帕·萨希布的军队进攻那格浦尔城外锡塔布尔迪山上的公司部队，援军到达后被击败"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Third Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"Third Maratha War.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/third-maratha-war"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Sitabuldi, Nagpur",
+          "es": "Sitabuldi, Nagpur",
+          "zh": "那格浦尔锡塔布尔迪"
+        },
+        "lat": 21.148,
+        "lon": 79.085
+      }
+    },
+    {
+      "id": "battle-of-mahidpur",
+      "start": 1817,
+      "title": {
+        "en": "Thomas Hislop's army defeats Holkar's army at Mahidpur on 21 December",
+        "es": "El ejército de Thomas Hislop derrota al ejército de Holkar en Mahidpur el 21 de diciembre",
+        "zh": "12月21日，托马斯·希斯洛普的军队在马希德普尔击败霍尔卡的军队"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Third Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"Third Maratha War.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/third-maratha-war"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "note": {
+        "en": "By one count the Company lost about 800 men and Holkar's army about 3,000 killed or wounded.",
+        "es": "Según un recuento, la Compañía perdió unos 800 hombres y el ejército de Holkar unos 3.000 entre muertos y heridos.",
+        "zh": "据一种统计，公司损失约800人，霍尔卡军队死伤约3000人。"
+      },
+      "place": {
+        "name": {
+          "en": "Mahidpur",
+          "es": "Mahidpur",
+          "zh": "马希德普尔"
+        },
+        "lat": 23.487,
+        "lon": 75.657
+      },
+      "wikidataId": "Q4871633"
+    },
+    {
+      "id": "battle-of-koregaon",
+      "start": 1818,
+      "title": {
+        "en": "About 800 Company troops, most of them Indian sepoys, hold the village of Koregaon against attacks by the Peshwa's troops through 1 January; the Peshwa's force withdraws",
+        "es": "Unos 800 soldados de la Compañía, en su mayoría cipayos indios, resisten en la aldea de Koregaon los ataques de las tropas del peshwa durante todo el 1 de enero; la fuerza del peshwa se retira",
+        "zh": "1月1日，约800名公司士兵（多为印度兵）在科雷冈村整日抵御佩什瓦部队的进攻；佩什瓦的部队撤退"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Third Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Anglo-Maratha_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Koregaon.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Koregaon"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Koregaon Bhima",
+          "es": "Koregaon Bhima",
+          "zh": "科雷冈比马"
+        },
+        "lat": 18.646,
+        "lon": 74.059
+      },
+      "wikidataId": "Q3630511"
+    },
+    {
+      "id": "peshwa-surrenders",
+      "start": 1818,
+      "title": {
+        "en": "Baji Rao II surrenders to John Malcolm on 3 June and is sent to live on a pension at Bithur, near Kanpur",
+        "es": "Baji Rao II se rinde a John Malcolm el 3 de junio y es enviado a vivir con una pensión en Bithur, cerca de Kanpur",
+        "zh": "6月3日，巴吉拉奥二世向约翰·马尔科姆投降，被送往坎普尔附近的比图尔，靠年金度日"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Third Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"Third Maratha War.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/third-maratha-war"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Bithur",
+          "es": "Bithur",
+          "zh": "比图尔"
+        },
+        "lat": 26.613,
+        "lon": 80.272
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Francis Rawdon-Hastings",
+        "es": "Francis Rawdon-Hastings",
+        "zh": "弗朗西斯·罗顿-黑斯廷斯"
+      },
+      "side": "company",
+      "role": {
+        "en": "Governor-General; directed the campaign",
+        "es": "Gobernador general; dirigió la campaña",
+        "zh": "总督；指挥战役"
+      },
+      "wikidataId": "Q692434"
+    },
+    {
+      "name": {
+        "en": "Thomas Hislop",
+        "es": "Thomas Hislop",
+        "zh": "托马斯·希斯洛普"
+      },
+      "side": "company",
+      "role": {
+        "en": "Commanded the Army of the Deccan; won at Mahidpur",
+        "es": "Mandó el Ejército del Decán; venció en Mahidpur",
+        "zh": "德干军指挥官；赢得马希德普尔之战"
+      },
+      "wikidataId": "Q2424779"
+    },
+    {
+      "name": {
+        "en": "John Malcolm",
+        "es": "John Malcolm",
+        "zh": "约翰·马尔科姆"
+      },
+      "side": "company",
+      "role": {
+        "en": "Received the Peshwa's surrender",
+        "es": "Recibió la rendición del peshwa",
+        "zh": "接受佩什瓦投降"
+      },
+      "wikidataId": "Q1700959"
+    },
+    {
+      "name": {
+        "en": "Mountstuart Elphinstone",
+        "es": "Mountstuart Elphinstone",
+        "zh": "蒙特斯图尔特·埃尔芬斯通"
+      },
+      "side": "company",
+      "role": {
+        "en": "Company Resident at Poona",
+        "es": "Residente de la Compañía en Poona",
+        "zh": "公司驻浦那代表"
+      },
+      "wikidataId": "Q910933"
+    },
+    {
+      "name": {
+        "en": "Baji Rao II",
+        "es": "Baji Rao II",
+        "zh": "巴吉拉奥二世"
+      },
+      "side": "maratha-states",
+      "role": {
+        "en": "Peshwa, the last to hold the office",
+        "es": "Peshwa, el último en ocupar el cargo",
+        "zh": "末代佩什瓦"
+      },
+      "wikidataId": "Q4848887"
+    },
+    {
+      "name": {
+        "en": "Bapu Gokhale",
+        "es": "Bapu Gokhale",
+        "zh": "巴普·戈卡莱"
+      },
+      "side": "maratha-states",
+      "role": {
+        "en": "The Peshwa's commander; killed at Ashti in 1818",
+        "es": "Comandante del peshwa; murió en Ashti en 1818",
+        "zh": "佩什瓦的统帅；1818年在阿什提阵亡"
+      },
+      "wikidataId": "Q4857742"
+    },
+    {
+      "name": {
+        "en": "Malhar Rao Holkar III",
+        "es": "Malhar Rao Holkar III",
+        "zh": "马尔哈尔·拉奥·霍尔卡三世"
+      },
+      "side": "maratha-states",
+      "role": {
+        "en": "Boy ruler of Indore",
+        "es": "Joven gobernante de Indore",
+        "zh": "印多尔的少年统治者"
+      },
+      "wikidataId": "Q11934713"
+    }
+  ],
+  "casualties": [],
+  "follows": "second-anglo-maratha-war",
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Third Anglo-Maratha War.\"",
+      "url": "https://en.wikipedia.org/wiki/Third_Anglo-Maratha_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Tercera guerra anglo-maratha.\"",
+      "url": "https://es.wikipedia.org/wiki/Tercera_guerra_anglo-maratha"
+    },
+    {
+      "citation": "Wikipedia (中文). \"第三次马拉塔战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E6%AC%A1%E9%A6%AC%E6%8B%89%E5%A1%94%E6%88%B0%E7%88%AD"
+    },
+    {
+      "citation": "\"Third Maratha War.\" EBSCO Research Starters (Great Events from History).",
+      "url": "https://www.ebsco.com/research-starters/history/third-maratha-war"
+    },
+    {
+      "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+      "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+    }
+  ]
+}
