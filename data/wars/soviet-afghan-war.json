@@ -1,0 +1,606 @@
+{
+  "id": "soviet-afghan-war",
+  "wikidataId": "Q83085",
+  "name": {
+    "en": "Soviet–Afghan War",
+    "es": "Guerra de Afganistán (1978-1989)",
+    "zh": "苏阿战争"
+  },
+  "aliases": [
+    "Soviet war in Afghanistan",
+    "Soviet invasion of Afghanistan",
+    "Guerra afgano-soviética",
+    "Intervención soviética en Afganistán",
+    "苏联入侵阿富汗",
+    "苏联阿富汗战争",
+    "Afghan mujahideen",
+    "muyahidines",
+    "圣战者",
+    "Operation Storm-333",
+    "333风暴行动"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "In April 1978 the People's Democratic Party of Afghanistan (PDPA) took power in a coup, and armed revolt spread against its rule. In late December 1979 Soviet troops entered Afghanistan; on 27 December Soviet special forces stormed the Tajbeg Palace in Kabul, killed the party leader Hafizullah Amin and installed Babrak Karmal. Soviet forces, about 118,000 at their height, and the Afghan army held the main towns and roads, while mujahideen groups fought in the countryside, armed by the United States, Saudi Arabia, China, Britain and others and trained and supplied through Pakistan's military intelligence. Repeated offensives, as in the Panjshir valley, cleared ground only for a time, and some five million Afghans fled to Pakistan and Iran. In 1986 Moscow replaced Karmal with Mohammad Najibullah, and from September US-supplied Stinger missiles cut into Soviet air power. Under the Geneva Accords of April 1988 the Soviet Union withdrew; its last troops crossed into the Uzbek SSR on 15 February 1989. Najibullah's government, still armed by Moscow, fought on against the mujahideen.",
+    "es": "En abril de 1978 el Partido Democrático Popular de Afganistán (PDPA) tomó el poder con un golpe, y la revuelta armada contra su gobierno se extendió. A finales de diciembre de 1979 tropas soviéticas entraron en Afganistán; el 27 de diciembre fuerzas especiales soviéticas asaltaron el palacio de Tajbeg en Kabul, mataron al líder del partido, Hafizullah Amín, e instalaron a Babrak Karmal. Las fuerzas soviéticas, unos 118.000 hombres en su punto máximo, y el ejército afgano dominaban las principales ciudades y carreteras, mientras grupos muyahidines combatían en el campo, armados por Estados Unidos, Arabia Saudí, China, el Reino Unido y otros, y entrenados y abastecidos a través de la inteligencia militar de Pakistán. Las ofensivas repetidas, como en el valle del Panshir, solo despejaban el terreno por un tiempo, y unos cinco millones de afganos huyeron a Pakistán e Irán. En 1986 Moscú sustituyó a Karmal por Mohammad Najibulá, y desde septiembre los misiles Stinger suministrados por EE. UU. mermaron el poder aéreo soviético. Conforme a los Acuerdos de Ginebra de abril de 1988, la Unión Soviética se retiró; sus últimas tropas cruzaron a la RSS de Uzbekistán el 15 de febrero de 1989. El gobierno de Najibulá, aún armado por Moscú, siguió combatiendo a los muyahidines.",
+    "zh": "1978年4月，阿富汗人民民主党通过政变上台，反对其统治的武装反抗随之蔓延。1979年12月下旬，苏联军队进入阿富汗；12月27日，苏联特种部队强攻喀布尔的塔吉贝格宫，打死党的领导人哈菲佐拉·阿明，扶植巴布拉克·卡尔迈勒。苏军最多时约11.8万人，与阿富汗政府军控制主要城镇和道路；圣战者各派则在农村作战，由美国、沙特阿拉伯、中国、英国等提供武器，并经巴基斯坦军方情报机构训练和补给。潘杰希尔谷地等地的反复攻势只能暂时控制这些地区，约500万阿富汗人逃往巴基斯坦和伊朗。1986年，苏联以穆罕默德·纳吉布拉取代卡尔迈勒；同年9月起，美国提供的“毒刺”导弹削弱了苏军的空中力量。根据1988年4月的《日内瓦协议》，苏联撤军，最后一批部队于1989年2月15日撤入乌兹别克苏维埃社会主义共和国。纳吉布拉政府在苏联继续提供武器的情况下，同圣战者的战斗仍在继续。"
+  },
+  "outcome": {
+    "en": "The Soviet Union withdrew all its troops by 15 February 1989 without defeating the mujahideen; the war between the Afghan government and the mujahideen went on.",
+    "es": "La Unión Soviética retiró todas sus tropas antes del 15 de febrero de 1989 sin derrotar a los muyahidines; la guerra entre el gobierno afgano y los muyahidines continuó.",
+    "zh": "苏联于1989年2月15日前撤出全部军队，未能击败圣战者；阿富汗政府与圣战者之间的战争仍在继续。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1979,
+    "latestStart": 1979,
+    "earliestEnd": 1989,
+    "latestEnd": 1989,
+    "sources": [
+      {
+        "citation": "\"Afghanistan: Soviet Intervention in.\" Encyclopedia of the Modern Middle East and North Africa. Macmillan Reference USA, via Encyclopedia.com.",
+        "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/afghanistan-soviet-intervention"
+      },
+      {
+        "citation": "Wikipedia (English). \"Soviet–Afghan War.\"",
+        "url": "https://en.wikipedia.org/wiki/Soviet–Afghan_War"
+      }
+    ],
+    "disputed": false,
+    "note": {
+      "en": "Dated from the entry of Soviet troops in December 1979 to their withdrawal on 15 February 1989. The Spanish Wikipedia title counts the civil war from the 1978 coup.",
+      "es": "Se fecha desde la entrada de las tropas soviéticas en diciembre de 1979 hasta su retirada el 15 de febrero de 1989. El título de la Wikipedia en español cuenta la guerra civil desde el golpe de 1978.",
+      "zh": "起止为1979年12月苏军进入至1989年2月15日撤出。西班牙语维基百科的条目名称从1978年政变算起内战。"
+    }
+  },
+  "sides": [
+    {
+      "id": "soviet-union-and-dra",
+      "label": {
+        "en": "Soviet Union and the Democratic Republic of Afghanistan",
+        "es": "Unión Soviética y la República Democrática de Afganistán",
+        "zh": "苏联和阿富汗民主共和国"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Soviet Union",
+            "es": "Unión Soviética",
+            "zh": "苏联"
+          },
+          "role": "belligerent",
+          "today": [
+            "RU"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Democratic Republic of Afghanistan (PDPA government)",
+            "es": "República Democrática de Afganistán (gobierno del PDPA)",
+            "zh": "阿富汗民主共和国（人民民主党政府）"
+          },
+          "role": "belligerent",
+          "today": [
+            "AF"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mujahideen-and-backers",
+      "label": {
+        "en": "Afghan mujahideen and their backers",
+        "es": "Muyahidines afganos y sus apoyos",
+        "zh": "阿富汗圣战者及其支持者"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Afghan mujahideen",
+            "es": "Muyahidines afganos",
+            "zh": "阿富汗圣战者"
+          },
+          "role": "belligerent",
+          "today": [
+            "AF"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "PK",
+          "role": "supporter",
+          "today": [
+            "PK"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "supporter",
+          "today": [
+            "US"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "SA",
+          "role": "supporter",
+          "today": [
+            "SA"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "CN",
+          "role": "supporter",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "GB",
+          "role": "supporter",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "IR",
+          "role": "supporter",
+          "today": [
+            "IR"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "EG",
+          "role": "supporter",
+          "today": [
+            "EG"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "storm-333",
+      "start": 1979,
+      "title": {
+        "en": "Soviet troops move into Afghanistan in late December; on 27 December Soviet special forces storm the Tajbeg Palace in Kabul, kill the PDPA leader Hafizullah Amin and install Babrak Karmal",
+        "es": "Tropas soviéticas entran en Afganistán a finales de diciembre; el 27 de diciembre fuerzas especiales soviéticas asaltan el palacio de Tajbeg en Kabul, matan al líder del PDPA Hafizullah Amín e instalan a Babrak Karmal",
+        "zh": "12月下旬，苏联军队进入阿富汗；12月27日，苏联特种部队强攻喀布尔的塔吉贝格宫，打死人民民主党领导人哈菲佐拉·阿明，扶植巴布拉克·卡尔迈勒上台"
+      },
+      "sources": [
+        {
+          "citation": "\"Afghanistan: Soviet Intervention in.\" Encyclopedia of the Modern Middle East and North Africa. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/afghanistan-soviet-intervention"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"The Soviet Invasion of Afghanistan and the U.S. Response, 1978–1980.\"",
+          "url": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan"
+        },
+        {
+          "citation": "Wikipedia (English). \"Operation Storm-333.\"",
+          "url": "https://en.wikipedia.org/wiki/Operation_Storm-333"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tajbeg Palace, Kabul",
+          "es": "Palacio de Tajbeg, Kabul",
+          "zh": "喀布尔塔吉贝格宫"
+        },
+        "lat": 34.455,
+        "lon": 69.113
+      },
+      "wikidataId": "Q975430"
+    },
+    {
+      "id": "panjshir-offensives",
+      "start": 1980,
+      "end": 1985,
+      "title": {
+        "en": "Soviet and Afghan government forces launch nine offensives into the Panjshir Valley against Ahmad Shah Massoud's fighters between 1980 and 1985, without securing it",
+        "es": "Fuerzas soviéticas y del gobierno afgano lanzan nueve ofensivas en el valle del Panshir contra los combatientes de Ahmad Shah Masud entre 1980 y 1985, sin lograr controlarlo",
+        "zh": "1980年至1985年，苏军和阿富汗政府军向潘杰希尔谷地发动九次攻势，打击艾哈迈德·沙阿·马苏德的武装，但未能控制该地"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Soviet–Afghan War.\"",
+          "url": "https://en.wikipedia.org/wiki/Soviet–Afghan_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"苏阿战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/苏阿战争"
+        },
+        {
+          "citation": "Wikipedia (English). \"Panjshir offensives (Soviet–Afghan War).\"",
+          "url": "https://en.wikipedia.org/wiki/Panjshir_offensives_(Soviet–Afghan_War)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Panjshir Valley",
+          "es": "Valle del Panshir",
+          "zh": "潘杰希尔谷地"
+        },
+        "lat": 35.35,
+        "lon": 69.583
+      },
+      "wikidataId": "Q2382760"
+    },
+    {
+      "id": "najibullah-replaces-karmal",
+      "start": 1986,
+      "title": {
+        "en": "In May Moscow has Babrak Karmal replaced as party leader by Mohammad Najibullah, former head of the KHAD secret police",
+        "es": "En mayo Moscú hace que Babrak Karmal sea sustituido como líder del partido por Mohammad Najibulá, antiguo jefe de la policía secreta KHAD",
+        "zh": "5月，苏联促成前国家情报局负责人穆罕默德·纳吉布拉接替巴布拉克·卡尔迈勒任党的领导人"
+      },
+      "sources": [
+        {
+          "citation": "\"Afghanistan: Soviet Intervention in.\" Encyclopedia of the Modern Middle East and North Africa. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/afghanistan-soviet-intervention"
+        },
+        {
+          "citation": "Wikipedia (English). \"Soviet–Afghan War.\"",
+          "url": "https://en.wikipedia.org/wiki/Soviet–Afghan_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"苏阿战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/苏阿战争"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kabul",
+          "es": "Kabul",
+          "zh": "喀布尔"
+        },
+        "lat": 34.53,
+        "lon": 69.17
+      }
+    },
+    {
+      "id": "first-stingers",
+      "start": 1986,
+      "title": {
+        "en": "Mujahideen fighters bring down a Soviet helicopter gunship near Jalalabad on 25 September with a US-supplied Stinger missile, the first of many; Soviet air power is curtailed",
+        "es": "Combatientes muyahidines derriban un helicóptero de ataque soviético cerca de Jalalabad el 25 de septiembre con un misil Stinger suministrado por EE. UU., el primero de muchos; el poder aéreo soviético queda limitado",
+        "zh": "9月25日，圣战者武装在贾拉拉巴德附近用美国提供的“毒刺”导弹击落一架苏军武装直升机，此后此类事件接连发生；苏军的空中优势受到削弱"
+      },
+      "sources": [
+        {
+          "citation": "\"Afghanistan: Soviet Intervention in.\" Encyclopedia of the Modern Middle East and North Africa. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/afghanistan-soviet-intervention"
+        },
+        {
+          "citation": "\"Afghanistan, Soviet Invasion of.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/afghanistan-soviet-invasion"
+        },
+        {
+          "citation": "Wikipedia (English). \"FIM-92 Stinger.\"",
+          "url": "https://en.wikipedia.org/wiki/FIM-92_Stinger"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Jalalabad",
+          "es": "Jalalabad",
+          "zh": "贾拉拉巴德"
+        },
+        "lat": 34.43,
+        "lon": 70.45
+      }
+    },
+    {
+      "id": "geneva-accords",
+      "start": 1988,
+      "title": {
+        "en": "Afghanistan and Pakistan sign the Geneva Accords on 14 April, with the Soviet Union and the United States as guarantors; Soviet troops are to leave by 15 February 1989",
+        "es": "Afganistán y Pakistán firman los Acuerdos de Ginebra el 14 de abril, con la Unión Soviética y Estados Unidos como garantes; las tropas soviéticas deben salir antes del 15 de febrero de 1989",
+        "zh": "4月14日，阿富汗和巴基斯坦签订《日内瓦协议》，苏联和美国为担保国；苏军须在1989年2月15日前撤出"
+      },
+      "sources": [
+        {
+          "citation": "\"Afghanistan: Soviet Intervention in.\" Encyclopedia of the Modern Middle East and North Africa. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/afghanistan-soviet-intervention"
+        },
+        {
+          "citation": "Wikipedia (English). \"Geneva Accords (1988).\"",
+          "url": "https://en.wikipedia.org/wiki/Geneva_Accords_(1988)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Palais des Nations, Geneva",
+          "es": "Palacio de las Naciones, Ginebra",
+          "zh": "日内瓦万国宫"
+        },
+        "lat": 46.227,
+        "lon": 6.14
+      },
+      "wikidataId": "Q957806"
+    },
+    {
+      "id": "soviet-withdrawal-completed",
+      "start": 1989,
+      "title": {
+        "en": "The last Soviet troops of the 40th Army, under General Boris Gromov, cross the Friendship Bridge into the Uzbek SSR on 15 February",
+        "es": "Las últimas tropas soviéticas del 40.º Ejército, al mando del general Borís Grómov, cruzan el Puente de la Amistad hacia la RSS de Uzbekistán el 15 de febrero",
+        "zh": "2月15日，鲍里斯·格罗莫夫将军指挥的苏联第40集团军最后一批部队经友谊桥撤入乌兹别克苏维埃社会主义共和国"
+      },
+      "sources": [
+        {
+          "citation": "\"Afghanistan: Soviet Intervention in.\" Encyclopedia of the Modern Middle East and North Africa. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/afghanistan-soviet-intervention"
+        },
+        {
+          "citation": "Wikipedia (English). \"Soviet withdrawal from Afghanistan.\"",
+          "url": "https://en.wikipedia.org/wiki/Soviet_withdrawal_from_Afghanistan"
+        },
+        {
+          "citation": "Wikipedia (English). \"Afghanistan–Uzbekistan Friendship Bridge.\"",
+          "url": "https://en.wikipedia.org/wiki/Afghanistan–Uzbekistan_Friendship_Bridge"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Friendship Bridge, Hairatan–Termez",
+          "es": "Puente de la Amistad, Hairatan-Termez",
+          "zh": "友谊桥（海拉坦—铁尔梅兹）"
+        },
+        "lat": 37.228,
+        "lon": 67.428
+      },
+      "wikidataId": "Q509561"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Leonid Brezhnev",
+        "es": "Leonid Brézhnev",
+        "zh": "列昂尼德·勃列日涅夫"
+      },
+      "side": "soviet-union-and-dra",
+      "role": {
+        "en": "Soviet leader who sent the troops in, to 1982",
+        "es": "Líder soviético que envió las tropas, hasta 1982",
+        "zh": "下令出兵的苏联领导人（至1982年）"
+      },
+      "wikidataId": "Q765165"
+    },
+    {
+      "name": {
+        "en": "Mikhail Gorbachev",
+        "es": "Mijaíl Gorbachov",
+        "zh": "米哈伊尔·戈尔巴乔夫"
+      },
+      "side": "soviet-union-and-dra",
+      "role": {
+        "en": "Soviet leader from 1985; withdrew the troops",
+        "es": "Líder soviético desde 1985; retiró las tropas",
+        "zh": "1985年起任苏联领导人；下令撤军"
+      },
+      "wikidataId": "Q30487"
+    },
+    {
+      "name": {
+        "en": "Boris Gromov",
+        "es": "Borís Grómov",
+        "zh": "鲍里斯·格罗莫夫"
+      },
+      "side": "soviet-union-and-dra",
+      "role": {
+        "en": "Last commander of the 40th Army",
+        "es": "Último comandante del 40.º Ejército",
+        "zh": "第40集团军最后一任司令"
+      },
+      "wikidataId": "Q504137"
+    },
+    {
+      "name": {
+        "en": "Babrak Karmal",
+        "es": "Babrak Karmal",
+        "zh": "巴布拉克·卡尔迈勒"
+      },
+      "side": "soviet-union-and-dra",
+      "role": {
+        "en": "PDPA leader, 1979–1986",
+        "es": "Líder del PDPA, 1979-1986",
+        "zh": "人民民主党领导人（1979—1986年）"
+      },
+      "wikidataId": "Q63827"
+    },
+    {
+      "name": {
+        "en": "Mohammad Najibullah",
+        "es": "Mohammad Najibulá",
+        "zh": "穆罕默德·纳吉布拉"
+      },
+      "side": "soviet-union-and-dra",
+      "role": {
+        "en": "PDPA leader from 1986",
+        "es": "Líder del PDPA desde 1986",
+        "zh": "1986年起任人民民主党领导人"
+      },
+      "wikidataId": "Q207728"
+    },
+    {
+      "name": {
+        "en": "Ahmad Shah Massoud",
+        "es": "Ahmad Shah Masud",
+        "zh": "艾哈迈德·沙阿·马苏德"
+      },
+      "side": "mujahideen-and-backers",
+      "role": {
+        "en": "Jamiat-e Islami commander in the Panjshir",
+        "es": "Comandante de Jamiat-e Islami en el Panshir",
+        "zh": "潘杰希尔的伊斯兰促进会指挥官"
+      },
+      "wikidataId": "Q200029"
+    },
+    {
+      "name": {
+        "en": "Burhanuddin Rabbani",
+        "es": "Burhanuddin Rabbani",
+        "zh": "布尔汉丁·拉巴尼"
+      },
+      "side": "mujahideen-and-backers",
+      "role": {
+        "en": "Leader of Jamiat-e Islami",
+        "es": "Líder de Jamiat-e Islami",
+        "zh": "伊斯兰促进会领导人"
+      },
+      "wikidataId": "Q188667"
+    },
+    {
+      "name": {
+        "en": "Gulbuddin Hekmatyar",
+        "es": "Gulbudin Hekmatiar",
+        "zh": "古勒卜丁·希克马蒂亚尔"
+      },
+      "side": "mujahideen-and-backers",
+      "role": {
+        "en": "Leader of Hezb-e Islami",
+        "es": "Líder de Hezb-e Islami",
+        "zh": "伊斯兰党领导人"
+      },
+      "wikidataId": "Q317797"
+    },
+    {
+      "name": {
+        "en": "Jalaluddin Haqqani",
+        "es": "Jalaluddin Haqqani",
+        "zh": "贾拉勒丁·哈卡尼"
+      },
+      "side": "mujahideen-and-backers",
+      "role": {
+        "en": "Mujahideen commander in Paktia and Khost",
+        "es": "Comandante muyahidín en Paktia y Jost",
+        "zh": "帕克蒂亚和霍斯特的圣战者指挥官"
+      },
+      "wikidataId": "Q186013"
+    },
+    {
+      "name": {
+        "en": "Muhammad Zia-ul-Haq",
+        "es": "Muhammad Zia-ul-Haq",
+        "zh": "穆罕默德·齐亚·哈克"
+      },
+      "side": "mujahideen-and-backers",
+      "role": {
+        "en": "President of Pakistan, whose military intelligence ran supplies to the mujahideen",
+        "es": "Presidente de Pakistán, cuya inteligencia militar canalizaba suministros a los muyahidines",
+        "zh": "巴基斯坦总统，其军方情报机构向圣战者输送物资"
+      },
+      "wikidataId": "Q200499"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "military-deaths",
+      "side": "soviet-union-and-dra",
+      "who": {
+        "en": "Soviet armed forces",
+        "es": "Fuerzas armadas soviéticas",
+        "zh": "苏联军队"
+      },
+      "low": 14453,
+      "high": 14453,
+      "attributedTo": {
+        "en": "Soviet government, after the withdrawal",
+        "es": "gobierno soviético, tras la retirada",
+        "zh": "苏联政府（撤军后公布）"
+      },
+      "sources": [
+        {
+          "citation": "\"Afghanistan: Soviet Intervention in.\" Encyclopedia of the Modern Middle East and North Africa. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/afghanistan-soviet-intervention"
+        },
+        {
+          "citation": "Wikipedia (English). \"Soviet–Afghan War.\"",
+          "url": "https://en.wikipedia.org/wiki/Soviet–Afghan_War"
+        }
+      ],
+      "note": {
+        "en": "The Soviet government also counted 11,600 left invalids. Some later estimates put Soviet dead as high as 26,000.",
+        "es": "El gobierno soviético contó además 11.600 inválidos. Algunas estimaciones posteriores elevan los muertos soviéticos hasta 26.000.",
+        "zh": "苏联政府另统计有11600人致残。后来有估计认为苏军死亡人数高达2.6万人。"
+      }
+    },
+    {
+      "scope": "total-deaths",
+      "who": {
+        "en": "Afghans: government forces, mujahideen and civilians",
+        "es": "Afganos: fuerzas del gobierno, muyahidines y civiles",
+        "zh": "阿富汗人：政府军、圣战者和平民"
+      },
+      "low": 1000000,
+      "high": 3000000,
+      "sources": [
+        {
+          "citation": "\"Afghanistan: Soviet Intervention in.\" Encyclopedia of the Modern Middle East and North Africa. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/afghanistan-soviet-intervention"
+        },
+        {
+          "citation": "Wikipedia (English). \"Soviet–Afghan War.\"",
+          "url": "https://en.wikipedia.org/wiki/Soviet–Afghan_War"
+        }
+      ],
+      "note": {
+        "en": "Estimates run from 1 to 1.5 million (Encyclopedia of the Modern Middle East and North Africa) to 1 to 3 million.",
+        "es": "Las estimaciones van de 1 a 1,5 millones (Encyclopedia of the Modern Middle East and North Africa) a de 1 a 3 millones.",
+        "zh": "估计从100万至150万人（《现代中东与北非百科全书》）到100万至300万人不等。"
+      }
+    }
+  ],
+  "cultures": [],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Soviet–Afghan War.\"",
+      "url": "https://en.wikipedia.org/wiki/Soviet–Afghan_War"
+    },
+    {
+      "citation": "\"Afghanistan: Soviet Intervention in.\" Encyclopedia of the Modern Middle East and North Africa. Macmillan Reference USA, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/afghanistan-soviet-intervention"
+    },
+    {
+      "citation": "\"Afghanistan, Soviet Invasion of.\" Dictionary of American History. Charles Scribner's Sons, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/afghanistan-soviet-invasion"
+    },
+    {
+      "citation": "Office of the Historian, U.S. Department of State. \"The Soviet Invasion of Afghanistan and the U.S. Response, 1978–1980.\"",
+      "url": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra de Afganistán (1978-1989).\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_de_Afganistán_(1978-1989)"
+    },
+    {
+      "citation": "Wikipedia (中文). \"苏阿战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/苏阿战争"
+    },
+    {
+      "citation": "Wikipedia (English). \"Soviet withdrawal from Afghanistan.\"",
+      "url": "https://en.wikipedia.org/wiki/Soviet_withdrawal_from_Afghanistan"
+    },
+    {
+      "citation": "Wikipedia (English). \"Geneva Accords (1988).\"",
+      "url": "https://en.wikipedia.org/wiki/Geneva_Accords_(1988)"
+    }
+  ]
+}

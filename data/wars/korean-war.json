@@ -1,0 +1,862 @@
+{
+  "id": "korean-war",
+  "wikidataId": "Q8663",
+  "name": {
+    "en": "Korean War",
+    "es": "Guerra de Corea",
+    "zh": "朝鲜战争"
+  },
+  "aliases": [
+    "War to Resist US Aggression and Aid Korea",
+    "抗美援朝",
+    "Fatherland Liberation War",
+    "6·25 War",
+    "한국전쟁",
+    "6·25 전쟁",
+    "Chinese People's Volunteer Army",
+    "中国人民志愿军",
+    "Panmunjom",
+    "板门店",
+    "Inchon",
+    "仁川登陆",
+    "Chosin Reservoir",
+    "长津湖战役"
+  ],
+  "altNames": [
+    {
+      "text": "抗美援朝战争",
+      "lang": "zh-Hans",
+      "usedBy": {
+        "en": "China",
+        "es": "China",
+        "zh": "中国"
+      },
+      "gloss": {
+        "en": "War to Resist US Aggression and Aid Korea; in Chinese usage, the period from the Volunteers' entry in October 1950 to the armistice",
+        "es": "Guerra de Resistencia contra la Agresión Estadounidense y de Ayuda a Corea; en el uso chino, el periodo desde la entrada de los Voluntarios en octubre de 1950 hasta el armisticio",
+        "zh": "指1950年10月中国人民志愿军参战至停战协定生效的时期"
+      }
+    },
+    {
+      "text": "조국해방전쟁",
+      "lang": "ko",
+      "usedBy": {
+        "en": "North Korea",
+        "es": "Corea del Norte",
+        "zh": "朝鲜"
+      },
+      "gloss": {
+        "en": "Fatherland Liberation War",
+        "es": "Guerra de Liberación de la Patria",
+        "zh": "祖国解放战争"
+      }
+    },
+    {
+      "text": "한국전쟁",
+      "lang": "ko",
+      "usedBy": {
+        "en": "South Korea",
+        "es": "Corea del Sur",
+        "zh": "韩国"
+      },
+      "gloss": {
+        "en": "Korean War; also called the 6·25 War, after its first day",
+        "es": "Guerra de Corea; también llamada Guerra del 6·25, por su primer día",
+        "zh": "韩国战争；也以开战日期称为“六二五战争”"
+      }
+    }
+  ],
+  "description": {
+    "en": "Korea was divided at the 38th parallel in 1945 into Soviet and US occupation zones, and by 1948 had two rival states. On 25 June 1950 North Korea's army attacked across the parallel, took Seoul and drove South Korean and US forces back to a perimeter around Pusan. The UN Security Council called on members to help South Korea, and sixteen countries sent combat troops under a US-led United Nations Command. After a landing at Inchon in September, UN forces pushed north towards the Chinese border. From October the Chinese People's Volunteer Army crossed the Yalu and drove them back, retaking Seoul in January 1951; the Soviet Union supplied arms, and Soviet pilots flew in combat while Moscow denied it. From mid-1951 the front settled near the 38th parallel while armistice talks stalled, chiefly over the return of prisoners. The armistice signed at Panmunjom on 27 July 1953 stopped the fighting and set a demilitarised zone. No peace treaty followed.",
+    "es": "Corea quedó dividida en el paralelo 38 en 1945 en zonas de ocupación soviética y estadounidense, y en 1948 tenía dos Estados rivales. El 25 de junio de 1950 el ejército de Corea del Norte atacó a través del paralelo, tomó Seúl y empujó a las fuerzas surcoreanas y estadounidenses hasta un perímetro en torno a Pusan. El Consejo de Seguridad de la ONU pidió a sus miembros que ayudaran a Corea del Sur, y dieciséis países enviaron tropas de combate bajo un Mando de las Naciones Unidas dirigido por EE. UU. Tras un desembarco en Incheon en septiembre, las fuerzas de la ONU avanzaron hacia la frontera china. Desde octubre el Ejército Popular de Voluntarios de China cruzó el Yalu y las hizo retroceder, y retomó Seúl en enero de 1951; la Unión Soviética suministró armas, y pilotos soviéticos combatieron mientras Moscú lo negaba. Desde mediados de 1951 el frente se estabilizó cerca del paralelo 38 mientras las conversaciones de armisticio se estancaban, sobre todo por la devolución de prisioneros. El armisticio firmado en Panmunjom el 27 de julio de 1953 detuvo los combates y fijó una zona desmilitarizada. No le siguió ningún tratado de paz.",
+    "zh": "1945年，朝鲜半岛以北纬38度线为界分为苏联和美国占领区，到1948年形成两个对立的国家。1950年6月25日，朝鲜军队越过三八线发起进攻，攻占汉城，把韩国和美国军队逼退到釜山周围的防线。联合国安理会呼吁会员国援助韩国，16个国家在美国主导的联合国军司令部下派出作战部队。9月仁川登陆后，联合国军向中国边境推进。10月起，中国人民志愿军跨过鸭绿江将其击退，并于1951年1月再次攻占汉城；苏联提供武器，苏联飞行员也参加了空战，而莫斯科对此予以否认。1951年年中起，战线在三八线附近稳定下来，停战谈判则主要因战俘遣返问题陷入僵局。1953年7月27日在板门店签订的停战协定停止了战斗，并设立了非军事区。此后未签订和平条约。"
+  },
+  "outcome": {
+    "en": "An armistice, not a peace treaty, ended the fighting on 27 July 1953, with the front line close to the 38th parallel; Korea stayed divided.",
+    "es": "Un armisticio, no un tratado de paz, puso fin a los combates el 27 de julio de 1953, con la línea del frente cerca del paralelo 38; Corea siguió dividida.",
+    "zh": "1953年7月27日，以停战协定而非和平条约结束战斗，战线接近三八线；朝鲜半岛仍处于分裂状态。"
+  },
+  "tier": "standard",
+  "sensitive": true,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1950,
+    "latestStart": 1950,
+    "earliestEnd": 1953,
+    "latestEnd": 1953,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Korean War.\"",
+        "url": "https://en.wikipedia.org/wiki/Korean_War"
+      },
+      {
+        "citation": "National Army Museum (UK). \"Korean War.\"",
+        "url": "https://www.nam.ac.uk/explore/korean-war"
+      }
+    ],
+    "disputed": false
+  },
+  "sides": [
+    {
+      "id": "north-korea-and-allies",
+      "label": {
+        "en": "North Korea, the Chinese People's Volunteer Army and the Soviet Union",
+        "es": "Corea del Norte, el Ejército Popular de Voluntarios de China y la Unión Soviética",
+        "zh": "朝鲜、中国人民志愿军和苏联"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "KP",
+          "role": "belligerent",
+          "today": [
+            "KP"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Chinese People's Volunteer Army",
+            "es": "Ejército Popular de Voluntarios de China",
+            "zh": "中国人民志愿军"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Soviet Union",
+            "es": "Unión Soviética",
+            "zh": "苏联"
+          },
+          "role": "belligerent",
+          "today": [
+            "RU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-korea-and-un",
+      "label": {
+        "en": "South Korea and the United Nations Command",
+        "es": "Corea del Sur y el Mando de las Naciones Unidas",
+        "zh": "韩国和联合国军"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "KR",
+          "role": "belligerent",
+          "today": [
+            "KR"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "belligerent",
+          "today": [
+            "US"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "GB",
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "AU",
+          "role": "belligerent",
+          "today": [
+            "AU"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "NL",
+          "role": "belligerent",
+          "today": [
+            "NL"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "CA",
+          "role": "belligerent",
+          "today": [
+            "CA"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "FR",
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "NZ",
+          "role": "belligerent",
+          "today": [
+            "NZ"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "PH",
+          "role": "belligerent",
+          "today": [
+            "PH"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "TR",
+          "role": "belligerent",
+          "today": [
+            "TR"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "TH",
+          "role": "belligerent",
+          "today": [
+            "TH"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "ZA",
+          "role": "belligerent",
+          "today": [
+            "ZA"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "GR",
+          "role": "belligerent",
+          "today": [
+            "GR"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "BE",
+          "role": "belligerent",
+          "today": [
+            "BE"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "LU",
+          "role": "belligerent",
+          "today": [
+            "LU"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "ET",
+          "role": "belligerent",
+          "today": [
+            "ET"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "CO",
+          "role": "belligerent",
+          "today": [
+            "CO"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "north-korean-attack",
+      "start": 1950,
+      "title": {
+        "en": "North Korea's army attacks across the 38th parallel before dawn on 25 June and takes Seoul on 28 June",
+        "es": "El ejército de Corea del Norte ataca a través del paralelo 38 antes del amanecer del 25 de junio y toma Seúl el 28 de junio",
+        "zh": "6月25日黎明前，朝鲜军队越过三八线发起进攻，并于6月28日攻占汉城"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        },
+        {
+          "citation": "National Army Museum (UK). \"Korean War.\"",
+          "url": "https://www.nam.ac.uk/explore/korean-war"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Korean War and Japan's Recovery.\" Milestones in the History of U.S. Foreign Relations.",
+          "url": "https://history.state.gov/milestones/1945-1952/korean-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Seoul",
+          "es": "Seúl",
+          "zh": "汉城（今首尔）"
+        },
+        "lat": 37.566,
+        "lon": 126.978
+      },
+      "wikidataId": "Q4260079"
+    },
+    {
+      "id": "pusan-perimeter",
+      "start": 1950,
+      "title": {
+        "en": "South Korean, US and other UN troops hold a perimeter around the port of Pusan in the south-east through August and early September",
+        "es": "Tropas surcoreanas, estadounidenses y de otros países de la ONU resisten en un perímetro en torno al puerto de Pusan, en el sureste, durante agosto y principios de septiembre",
+        "zh": "8月至9月初，韩国、美国和其他联合国军部队在东南部釜山港周围的环形防线坚守"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Korean War and Japan's Recovery.\" Milestones in the History of U.S. Foreign Relations.",
+          "url": "https://history.state.gov/milestones/1945-1952/korean-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Pusan Perimeter (Busan)",
+          "es": "Perímetro de Pusan (Busan)",
+          "zh": "釜山环形防御圈（釜山）"
+        },
+        "lat": 35.1,
+        "lon": 129.04
+      },
+      "wikidataId": "Q482979"
+    },
+    {
+      "id": "inchon-landing",
+      "start": 1950,
+      "title": {
+        "en": "UN forces land at Inchon on 15 September, cut North Korean supply lines and retake Seoul; they then cross the 38th parallel and take Pyongyang on 19 October",
+        "es": "Fuerzas de la ONU desembarcan en Incheon el 15 de septiembre, cortan las líneas de suministro norcoreanas y retoman Seúl; después cruzan el paralelo 38 y toman Pionyang el 19 de octubre",
+        "zh": "9月15日，联合国军在仁川登陆，切断朝鲜军队补给线并夺回汉城；随后越过三八线，于10月19日攻占平壤"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla de Incheon.\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_Incheon"
+        },
+        {
+          "citation": "National Army Museum (UK). \"Korean War.\"",
+          "url": "https://www.nam.ac.uk/explore/korean-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Inchon (Incheon)",
+          "es": "Incheon",
+          "zh": "仁川"
+        },
+        "lat": 37.476,
+        "lon": 126.603
+      },
+      "wikidataId": "Q483039"
+    },
+    {
+      "id": "chinese-volunteers-cross-the-yalu",
+      "start": 1950,
+      "title": {
+        "en": "The Chinese People's Volunteer Army crosses the Yalu River into North Korea on 19 October and attacks UN forces from late October",
+        "es": "El Ejército Popular de Voluntarios de China cruza el río Yalu hacia Corea del Norte el 19 de octubre y ataca a las fuerzas de la ONU desde finales de octubre",
+        "zh": "10月19日，中国人民志愿军跨过鸭绿江进入朝鲜，并于10月下旬起向联合国军发起进攻"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"朝鲜战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/朝鲜战争"
+        },
+        {
+          "citation": "CCTV (央视网). \"抗美援朝197653位牺牲烈士 记住他们！\" 23 October 2020.",
+          "url": "https://m.news.cctv.com/2020/10/23/ARTIK3qCRtKLzXVO3JDhXU6p201023.shtml"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Yalu River at Sinuiju",
+          "es": "Río Yalu en Sinuiju",
+          "zh": "鸭绿江（新义州）"
+        },
+        "lat": 40.1,
+        "lon": 124.4
+      }
+    },
+    {
+      "id": "chosin-reservoir",
+      "start": 1950,
+      "title": {
+        "en": "Chinese People's Volunteer Army divisions surround US and UN units at the Chosin (Changjin) Reservoir from 27 November; the UN units fight their way to the coast and leave by sea from Hungnam in December",
+        "es": "Divisiones del Ejército Popular de Voluntarios de China rodean a unidades estadounidenses y de la ONU en el embalse de Chosin (Changjin) desde el 27 de noviembre; las unidades de la ONU se abren paso hasta la costa y salen por mar desde Hungnam en diciembre",
+        "zh": "11月27日起，中国人民志愿军各师在长津湖包围美军和其他联合国军部队；联合国军部队杀开血路退到海边，12月从兴南经海路撤出"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"长津湖战役.\"",
+          "url": "https://zh.wikipedia.org/wiki/长津湖战役"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Chosin (Changjin) Reservoir",
+          "es": "Embalse de Chosin (Changjin)",
+          "zh": "长津湖"
+        },
+        "lat": 40.37,
+        "lon": 127.26
+      },
+      "wikidataId": "Q277337"
+    },
+    {
+      "id": "seoul-taken-again",
+      "start": 1951,
+      "title": {
+        "en": "Chinese and North Korean forces take Seoul again in early January; a UN counter-offensive retakes it in March",
+        "es": "Fuerzas chinas y norcoreanas vuelven a tomar Seúl a principios de enero; una contraofensiva de la ONU la retoma en marzo",
+        "zh": "1月初，中国和朝鲜军队再次攻占汉城；3月，联合国军反攻夺回该城"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        },
+        {
+          "citation": "National Army Museum (UK). \"Korean War.\"",
+          "url": "https://www.nam.ac.uk/explore/korean-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Seoul",
+          "es": "Seúl",
+          "zh": "汉城（今首尔）"
+        },
+        "lat": 37.566,
+        "lon": 126.978
+      },
+      "wikidataId": "Q493922"
+    },
+    {
+      "id": "imjin-and-kapyong",
+      "start": 1951,
+      "title": {
+        "en": "The Chinese spring offensive is held at the Imjin River and Kapyong on 22–25 April; most of the British 1st Battalion, Gloucestershire Regiment, is captured on Hill 235",
+        "es": "La ofensiva china de primavera es contenida en el río Imjin y en Kapyong del 22 al 25 de abril; la mayor parte del 1.er batallón británico del Regimiento de Gloucestershire es capturada en la colina 235",
+        "zh": "4月22日至25日，中国的春季攻势在临津江和加平受阻；英国格洛斯特郡团第1营大部在235高地被俘"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum (UK). \"Korean War.\"",
+          "url": "https://www.nam.ac.uk/explore/korean-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Imjin River",
+          "es": "Río Imjin",
+          "zh": "临津江"
+        },
+        "lat": 37.943,
+        "lon": 126.939
+      },
+      "wikidataId": "Q16170016"
+    },
+    {
+      "id": "armistice",
+      "start": 1953,
+      "title": {
+        "en": "After two years of talks, begun at Kaesong in July 1951 and stalled mainly over the return of prisoners, the armistice is signed at Panmunjom on 27 July; it sets a demilitarised zone along the front line. No peace treaty follows",
+        "es": "Tras dos años de conversaciones, iniciadas en Kaesong en julio de 1951 y estancadas sobre todo por la devolución de prisioneros, el armisticio se firma en Panmunjom el 27 de julio; fija una zona desmilitarizada a lo largo del frente. No le sigue ningún tratado de paz",
+        "zh": "经过两年谈判（1951年7月在开城开始，主要因战俘遣返问题陷入僵局），停战协定于7月27日在板门店签订，沿战线设立非军事区。此后未签订和平条约"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum (UK). \"Korean War.\"",
+          "url": "https://www.nam.ac.uk/explore/korean-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Korean Armistice Agreement.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_Armistice_Agreement"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Korean War and Japan's Recovery.\" Milestones in the History of U.S. Foreign Relations.",
+          "url": "https://history.state.gov/milestones/1945-1952/korean-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Panmunjom",
+          "es": "Panmunjom",
+          "zh": "板门店"
+        },
+        "lat": 37.956,
+        "lon": 126.677
+      },
+      "wikidataId": "Q2862267"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Kim Il Sung",
+        "es": "Kim Il-sung",
+        "zh": "金日成"
+      },
+      "side": "north-korea-and-allies",
+      "role": {
+        "en": "Leader of North Korea",
+        "es": "Líder de Corea del Norte",
+        "zh": "朝鲜领导人"
+      },
+      "wikidataId": "Q41117"
+    },
+    {
+      "name": {
+        "en": "Peng Dehuai",
+        "es": "Peng Dehuai",
+        "zh": "彭德怀"
+      },
+      "side": "north-korea-and-allies",
+      "role": {
+        "en": "Commander of the Chinese People's Volunteer Army",
+        "es": "Comandante del Ejército Popular de Voluntarios de China",
+        "zh": "中国人民志愿军司令员"
+      },
+      "wikidataId": "Q381823"
+    },
+    {
+      "name": {
+        "en": "Mao Zedong",
+        "es": "Mao Zedong",
+        "zh": "毛泽东"
+      },
+      "side": "north-korea-and-allies",
+      "role": {
+        "en": "Chairman of the Chinese Communist Party and of the Central People's Government",
+        "es": "Presidente del Partido Comunista de China y del Gobierno Popular Central",
+        "zh": "中共中央主席、中央人民政府主席"
+      },
+      "wikidataId": "Q5816"
+    },
+    {
+      "name": {
+        "en": "Syngman Rhee",
+        "es": "Syngman Rhee",
+        "zh": "李承晚"
+      },
+      "side": "south-korea-and-un",
+      "role": {
+        "en": "President of South Korea",
+        "es": "Presidente de Corea del Sur",
+        "zh": "韩国总统"
+      },
+      "wikidataId": "Q171684"
+    },
+    {
+      "name": {
+        "en": "Harry S. Truman",
+        "es": "Harry S. Truman",
+        "zh": "哈里·S·杜鲁门"
+      },
+      "side": "south-korea-and-un",
+      "role": {
+        "en": "US president, to January 1953",
+        "es": "Presidente de EE. UU., hasta enero de 1953",
+        "zh": "美国总统（至1953年1月）"
+      },
+      "wikidataId": "Q11613"
+    },
+    {
+      "name": {
+        "en": "Douglas MacArthur",
+        "es": "Douglas MacArthur",
+        "zh": "道格拉斯·麦克阿瑟"
+      },
+      "side": "south-korea-and-un",
+      "role": {
+        "en": "UN commander, 1950–1951",
+        "es": "Comandante de la ONU, 1950-1951",
+        "zh": "联合国军总司令（1950—1951年）"
+      },
+      "wikidataId": "Q127417"
+    },
+    {
+      "name": {
+        "en": "Matthew Ridgway",
+        "es": "Matthew Ridgway",
+        "zh": "马修·李奇微"
+      },
+      "side": "south-korea-and-un",
+      "role": {
+        "en": "Eighth Army commander, then UN commander, 1951–1952",
+        "es": "Comandante del Octavo Ejército y luego de la ONU, 1951-1952",
+        "zh": "第八集团军司令，后任联合国军总司令（1951—1952年）"
+      },
+      "wikidataId": "Q494930"
+    },
+    {
+      "name": {
+        "en": "Mark W. Clark",
+        "es": "Mark W. Clark",
+        "zh": "马克·克拉克"
+      },
+      "side": "south-korea-and-un",
+      "role": {
+        "en": "UN commander; signed the armistice",
+        "es": "Comandante de la ONU; firmó el armisticio",
+        "zh": "联合国军总司令；签署停战协定"
+      },
+      "wikidataId": "Q34339"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "military-deaths",
+      "side": "north-korea-and-allies",
+      "who": {
+        "en": "Chinese People's Volunteer Army",
+        "es": "Ejército Popular de Voluntarios de China",
+        "zh": "中国人民志愿军"
+      },
+      "low": 197653,
+      "high": 197653,
+      "attributedTo": {
+        "en": "PRC Ministry of Civil Affairs and PLA General Political Department (confirmed 2014)",
+        "es": "Ministerio de Asuntos Civiles de la RPC y Departamento Político General del EPL (confirmado en 2014)",
+        "zh": "中国民政部、总政治部（2014年确认）"
+      },
+      "sources": [
+        {
+          "citation": "Xinhua (新华社). \"抗美援朝烈士最新确认为197653名.\" 29 October 2014, via Sina.",
+          "url": "https://news.sina.cn/gn/2014-10-29/detail-iazpqypr0070560.d.html"
+        },
+        {
+          "citation": "CCTV (央视网). \"抗美援朝197653位牺牲烈士 记住他们！\" 23 October 2020.",
+          "url": "https://m.news.cctv.com/2020/10/23/ARTIK3qCRtKLzXVO3JDhXU6p201023.shtml"
+        },
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        }
+      ],
+      "note": {
+        "en": "Volunteers the PRC lists by name as \"martyrs\", including those killed south of the 38th parallel; the figure was repeated on the 70th anniversary in 2020.",
+        "es": "Voluntarios que la RPC registra nombre por nombre como «mártires», incluidos los muertos al sur del paralelo 38; la cifra se repitió en el 70.º aniversario, en 2020.",
+        "zh": "中方逐一核实、列为“烈士”的志愿军官兵，包括在三八线以南死亡者；2020年70周年纪念时再次公布这一数字。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "north-korea-and-allies",
+      "who": {
+        "en": "Chinese People's Volunteer Army",
+        "es": "Ejército Popular de Voluntarios de China",
+        "zh": "中国人民志愿军"
+      },
+      "low": 183108,
+      "high": 183108,
+      "attributedTo": {
+        "en": "PRC civil affairs register, as cited by Maj. Gen. Xu Yan (2010)",
+        "es": "registro de asuntos civiles de la RPC, citado por el general de división Xu Yan (2010)",
+        "zh": "中国民政部门登记，徐焰少将引用（2010年）"
+      },
+      "sources": [
+        {
+          "citation": "China.org.cn. \"180,000 Chinese soldiers killed in Korean War.\" 28 June 2010.",
+          "url": "http://www.china.org.cn/china/2010-06/28/content_20365659.htm"
+        },
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        }
+      ],
+      "note": {
+        "en": "Xu Yan also gave about 114,000 killed in action or accidents, 25,621 missing and about 70,000 dead of wounds, illness and other causes.",
+        "es": "Xu Yan dio además unos 114.000 muertos en combate o accidentes, 25.621 desaparecidos y unos 70.000 fallecidos por heridas, enfermedad y otras causas.",
+        "zh": "徐焰还给出：战斗或事故中死亡约11.4万人，失踪25621人，因伤病等原因死亡约7万人。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "south-korea-and-un",
+      "who": {
+        "en": "US armed forces",
+        "es": "Fuerzas armadas de EE. UU.",
+        "zh": "美国武装部队"
+      },
+      "low": 36574,
+      "high": 36574,
+      "attributedTo": {
+        "en": "US Department of Veterans Affairs",
+        "es": "Departamento de Asuntos de Veteranos de EE. UU.",
+        "zh": "美国退伍军人事务部"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"United Nations Forces in the Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/United_Nations_Forces_in_the_Korean_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        },
+        {
+          "citation": "National Army Museum (UK). \"Korean War.\"",
+          "url": "https://www.nam.ac.uk/explore/korean-war"
+        }
+      ],
+      "note": {
+        "en": "33,739 battle deaths and 2,835 other deaths in the theatre. The National Army Museum gives nearly 37,000 killed.",
+        "es": "33.739 muertes en combate y 2835 por otras causas en el teatro de operaciones. El National Army Museum da casi 37.000 muertos.",
+        "zh": "战区内战斗死亡33739人，其他原因死亡2835人。英国国家陆军博物馆称近3.7万人阵亡。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "south-korea-and-un",
+      "who": {
+        "en": "South Korean armed forces",
+        "es": "Fuerzas armadas de Corea del Sur",
+        "zh": "韩国武装部队"
+      },
+      "low": 137899,
+      "high": 137899,
+      "attributedTo": {
+        "en": "South Korean Ministry of National Defense",
+        "es": "Ministerio de Defensa Nacional de Corea del Sur",
+        "zh": "韩国国防部"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"朝鲜战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/朝鲜战争"
+        }
+      ],
+      "note": {
+        "en": "A further 24,495 were reported missing.",
+        "es": "Además, 24.495 fueron dados por desaparecidos.",
+        "zh": "另有24495人被列为失踪。"
+      }
+    },
+    {
+      "scope": "civilian-deaths",
+      "who": {
+        "en": "Korean civilians, North and South",
+        "es": "Civiles coreanos del Norte y del Sur",
+        "zh": "朝鲜半岛南北平民"
+      },
+      "low": 1600000,
+      "high": 3000000,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Korean War.\"",
+          "url": "https://en.wikipedia.org/wiki/Korean_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Corea.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Corea"
+        },
+        {
+          "citation": "National Army Museum (UK). \"Korean War.\"",
+          "url": "https://www.nam.ac.uk/explore/korean-war"
+        }
+      ],
+      "note": {
+        "en": "Only rough estimates exist: Bruce Cumings gives 2 million, Guenter Lewy 2 to 3 million, and a systematic review 1.6 to 3 million dead or missing. The National Army Museum gives an estimated 2 million.",
+        "es": "Solo hay estimaciones aproximadas: Bruce Cumings da 2 millones, Guenter Lewy de 2 a 3 millones y una revisión sistemática de 1,6 a 3 millones de muertos o desaparecidos. El National Army Museum da unos 2 millones.",
+        "zh": "只有粗略估计：布鲁斯·卡明斯估计200万人，京特·莱维估计200万至300万人，一项系统综述估计死亡或失踪160万至300万人。英国国家陆军博物馆估计约200万人。"
+      }
+    }
+  ],
+  "cultures": [],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Korean War.\"",
+      "url": "https://en.wikipedia.org/wiki/Korean_War"
+    },
+    {
+      "citation": "National Army Museum (UK). \"Korean War.\"",
+      "url": "https://www.nam.ac.uk/explore/korean-war"
+    },
+    {
+      "citation": "Office of the Historian, U.S. Department of State. \"Korean War and Japan's Recovery.\" Milestones in the History of U.S. Foreign Relations.",
+      "url": "https://history.state.gov/milestones/1945-1952/korean-war"
+    },
+    {
+      "citation": "Wikipedia (English). \"United Nations Forces in the Korean War.\"",
+      "url": "https://en.wikipedia.org/wiki/United_Nations_Forces_in_the_Korean_War"
+    },
+    {
+      "citation": "Wikipedia (English). \"Korean Armistice Agreement.\"",
+      "url": "https://en.wikipedia.org/wiki/Korean_Armistice_Agreement"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra de Corea.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_de_Corea"
+    },
+    {
+      "citation": "Wikipedia (中文). \"朝鲜战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/朝鲜战争"
+    },
+    {
+      "citation": "Xinhua (新华社). \"抗美援朝烈士最新确认为197653名.\" 29 October 2014, via Sina.",
+      "url": "https://news.sina.cn/gn/2014-10-29/detail-iazpqypr0070560.d.html"
+    },
+    {
+      "citation": "CCTV (央视网). \"抗美援朝197653位牺牲烈士 记住他们！\" 23 October 2020.",
+      "url": "https://m.news.cctv.com/2020/10/23/ARTIK3qCRtKLzXVO3JDhXU6p201023.shtml"
+    },
+    {
+      "citation": "China.org.cn. \"180,000 Chinese soldiers killed in Korean War.\" 28 June 2010.",
+      "url": "http://www.china.org.cn/china/2010-06/28/content_20365659.htm"
+    }
+  ]
+}
