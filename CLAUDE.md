@@ -16,7 +16,7 @@ Before handing work back, run typecheck, test, lint, validate-data, and build if
 ```
 data/registry.json                   canonical culture ids + region (add an id here before its file)
 data/cultures/<region>/<id>.json     one culture per file; region is the folder
-data/borders/<cultureId>.json        territory-map snapshots (Rome, the Carolingian and Holy Roman empires, seven Chinese dynasties, Inca, Aztec)
+data/borders/<cultureId>.json        territory-map snapshots (Rome, the Carolingian and Holy Roman empires, seven Chinese dynasties, Inca, Aztec, Egypt)
 public/geo/land-<area>.json          Natural Earth land (europe, east-asia, americas); LAND in territory-map.tsx maps each region to one
 data/succession.json                 "before and after in the same place" links (from, to, place, sources)
 data/popular.json                    home page starting points, in display order (ids must have a culture file)
@@ -56,7 +56,7 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 
 - **LocalizedText** `{ en, es?, zh? }`: English required; missing es/zh falls back to English (validation warns). `reviewed: { es, zh }` on each culture is `false` until a native speaker checks that language (machine-translated until then).
 - **Source** `{ citation, url? }`. Every period, phase, event, fact and borders file has `sources: Source[]`. Events need at least 2 independent sources. Write facts in your own words; never copy source wording.
-- **Culture**: `id` (kebab-case, in the registry), `region` (`china | south-america | mesoamerica | europe`), `wikidataId` (`Q…`), `name`, `nativeName? { text, lang }` (BCP 47 lang, e.g. `zh-Hans`, `qu`), `aliases[]` (search-only terms: pinyin, other spellings), `description`, `reviewed`, `periods[]`, `phases[]`, `events[]` (at least 5), `facts[]` (at least 1).
+- **Culture**: `id` (kebab-case, in the registry), `region` (`china | south-america | mesoamerica | europe | africa`), `wikidataId` (`Q…`), `name`, `nativeName? { text, lang }` (BCP 47 lang, e.g. `zh-Hans`, `qu`), `aliases[]` (search-only terms: pinyin, other spellings), `description`, `reviewed`, `periods[]`, `phases[]`, `events[]` (at least 5), `facts[]` (at least 1).
 - **Period**: `id`, `label?`, `earliestStart`, `latestStart`, `earliestEnd`, `latestEnd`, `sources`, `periodoId?` (e.g. `p08m57h9sf6`), `default` (exactly one per culture), `disputed`, `note?`. The bar is solid from `latestStart` to `earliestEnd` and fades across the outer edges. Prefer a PeriodO definition from a major museum or standard reference (https://data.perio.do/d.json).
 - **Phase** (segments of one bar): `id`, `name`, `start`, `end`, `sources`, ordered by start. Rome is one culture `rome` with phases kingdom / republic / empire / eastern; Maya is one culture `maya` with phases preclassic / classic / postclassic.
 - **Event**: `id`, `start`, `end?`, `type` (`founding | ruler | invention | conflict | collapse`), `title`, `sources` (2+), `disputed`, `note?`, `place? { name, lat, lon, pleiadesId? }` (required for every event of a culture with a borders file: the map pins it).
