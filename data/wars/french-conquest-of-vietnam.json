@@ -1,0 +1,1446 @@
+{
+  "id": "french-conquest-of-vietnam",
+  "wikidataId": "Q10747195",
+  "name": {
+    "en": "French conquest of Vietnam",
+    "es": "Conquista francesa de Vietnam",
+    "zh": "法国征服越南"
+  },
+  "noWikiTitle": [
+    "es",
+    "zh"
+  ],
+  "aliases": [
+    "Cochinchina campaign",
+    "Guerra de Cochinchina",
+    "Expedición franco-española a Cochinchina",
+    "交趾支那远征",
+    "Tonkin campaign",
+    "Expédition du Tonkin",
+    "北圻远征",
+    "Sino-French War",
+    "Guerra franco-china",
+    "中法战争",
+    "Black Flag Army",
+    "黑旗军",
+    "Cần Vương",
+    "勤王运动"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "In September 1858 a French and Spanish fleet under Admiral Rigault de Genouilly attacked Tourane (Da Nang), citing the execution of Catholic missionaries under Emperor Tự Đức. Held near the coast by Nguyễn Tri Phương's army, the expedition sailed south and took Saigon in February 1859. Spain's troops came from Manila, many of them Filipino; Spain took a share of the indemnity but no land. In the Treaty of Saigon of June 1862 the Nguyễn court ceded three southern provinces, and French troops took the other three in 1867, forming the colony of Cochinchina. In the north, Francis Garnier seized Hanoi's citadel in 1873 and Henri Rivière in 1882; Black Flag Army troops killed both. In August 1883 French warships shelled Thuận An near Huế, and treaties in 1883 and 1884 made Annam and Tonkin French protectorates. Qing armies fought the French in Tonkin until the Treaty of Tientsin of June 1885. A month later the regent Tôn Thất Thuyết attacked the French at Huế and took the boy emperor Hàm Nghi into the hills, starting the Cần Vương resistance.",
+    "es": "En septiembre de 1858 una flota francesa y española al mando del almirante Rigault de Genouilly atacó Turana (Da Nang), alegando la ejecución de misioneros católicos bajo el emperador Tự Đức. Cercada junto a la costa por el ejército de Nguyễn Tri Phương, la expedición navegó al sur y tomó Saigón en febrero de 1859. Las tropas de España salieron de Manila, muchas de ellas filipinas; España recibió parte de la indemnización, pero ninguna tierra. En el Tratado de Saigón de junio de 1862 la corte Nguyễn cedió tres provincias del sur, y las tropas francesas tomaron las otras tres en 1867, con lo que se formó la colonia de Cochinchina. En el norte, Francis Garnier tomó la ciudadela de Hanói en 1873 y Henri Rivière en 1882; tropas del Ejército de la Bandera Negra mataron a ambos. En agosto de 1883 buques franceses bombardearon Thuận An, cerca de Hué, y los tratados de 1883 y 1884 hicieron de Annam y Tonkín protectorados franceses. Ejércitos Qing combatieron a los franceses en Tonkín hasta el Tratado de Tientsin de junio de 1885. Un mes después el regente Tôn Thất Thuyết atacó a los franceses en Hué y se llevó a las montañas al joven emperador Hàm Nghi, lo que dio inicio a la resistencia Cần Vương.",
+    "zh": "1858年9月，里戈·德·热努伊海军上将率领的法国和西班牙舰队以嗣德帝处死天主教传教士为由，进攻沱㶞（岘港）。远征军被阮知方的军队困于沿海，遂南下，于1859年2月攻占西贡。西班牙的部队从马尼拉出发，其中许多是菲律宾人；西班牙分得部分赔款，但未获得土地。在1862年6月的《西贡条约》中，阮朝割让南部三省，法军又于1867年夺取另外三省，组成交趾支那殖民地。在北方，安邺于1873年、李威利于1882年先后攻占河内城，两人都被黑旗军击杀。1883年8月，法国军舰炮击顺化附近的顺安，1883年和1884年的两项条约使安南和东京成为法国保护国。清军在北圻与法军交战，直到1885年6月签订《中法新约》。一个月后，辅政大臣尊室说在顺化进攻法军，并带年幼的咸宜帝进入山区，勤王抗法由此开始。"
+  },
+  "outcome": {
+    "en": "By 1885 France ruled all of Vietnam: Cochinchina as a colony, Annam and Tonkin as protectorates; in the Treaty of Tientsin the Qing recognised the French protectorate.",
+    "es": "En 1885 Francia gobernaba todo Vietnam: Cochinchina como colonia y Annam y Tonkín como protectorados; en el Tratado de Tientsin los Qing reconocieron el protectorado francés.",
+    "zh": "到1885年，法国统治了整个越南：交趾支那为殖民地，安南和东京为保护国；清朝在《中法新约》中承认了法国的保护权。"
+  },
+  "tier": "flagship",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "conquest",
+    "earliestStart": 1858,
+    "latestStart": 1858,
+    "earliestEnd": 1885,
+    "latestEnd": 1885,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+        "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+      },
+      {
+        "citation": "Kiernan, Ben. \"Indochina.\" Encyclopedia of Modern Europe: Europe 1789–1914. Charles Scribner's Sons, via Encyclopedia.com.",
+        "url": "https://www.encyclopedia.com/places/asia/vietnam-political-geography/indochina"
+      }
+    ],
+    "disputed": false,
+    "note": {
+      "en": "Dated here from the attack on Tourane in September 1858 to the Treaty of Tientsin of June 1885. French columns fought the Cần Vương movement and other resistance in Tonkin and Annam into the 1890s.",
+      "es": "Se fecha aquí desde el ataque a Turana en septiembre de 1858 hasta el Tratado de Tientsin de junio de 1885. Las columnas francesas combatieron al movimiento Cần Vương y otras resistencias en Tonkín y Annam hasta la década de 1890.",
+      "zh": "此处起止为1858年9月进攻沱㶞至1885年6月签订《中法新约》。法军在北圻和中圻与勤王运动等抵抗力量的战斗一直持续到19世纪90年代。"
+    }
+  },
+  "sides": [
+    {
+      "id": "france-and-spain",
+      "label": {
+        "en": "France, with Spain (1858–1862) and local auxiliaries",
+        "es": "Francia, con España (1858-1862) y auxiliares locales",
+        "zh": "法国，以及西班牙（1858—1862年）和当地辅助部队"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "FR",
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Spain, with troops from the Spanish Philippines (1858–1862)",
+            "es": "España, con tropas de las Filipinas españolas (1858-1862)",
+            "zh": "西班牙及西属菲律宾部队（1858—1862年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "ES",
+            "PH"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Vietnamese auxiliaries in French service, among them Cochinchinese riflemen",
+            "es": "Auxiliares vietnamitas al servicio de Francia, entre ellos fusileros cochinchinos",
+            "zh": "为法国效力的越南辅助部队，包括交趾支那步兵"
+          },
+          "role": "belligerent",
+          "today": [
+            "VN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dai-nam-and-allies",
+      "label": {
+        "en": "Đại Nam (Nguyễn dynasty), the Black Flag Army and Qing China",
+        "es": "Đại Nam (dinastía Nguyễn), el Ejército de la Bandera Negra y la China Qing",
+        "zh": "大南（阮朝）、黑旗军和清朝"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Đại Nam under the Nguyễn dynasty",
+            "es": "Đại Nam bajo la dinastía Nguyễn",
+            "zh": "阮朝统治下的大南"
+          },
+          "role": "belligerent",
+          "today": [
+            "VN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Black Flag Army of Liu Yongfu",
+            "es": "Ejército de la Bandera Negra de Liu Yongfu",
+            "zh": "刘永福的黑旗军"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN",
+            "VN"
+          ]
+        },
+        {
+          "kind": "culture",
+          "id": "qing",
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "cochinchina-campaign",
+      "name": {
+        "en": "Cochinchina campaign",
+        "es": "Guerra de Cochinchina",
+        "zh": "交趾支那战役"
+      },
+      "start": 1858,
+      "end": 1862,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Cochinchina.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Cochinchina"
+        }
+      ]
+    },
+    {
+      "id": "between-campaigns",
+      "name": {
+        "en": "Cochinchina enlarged; Garnier in Tonkin",
+        "es": "Cochinchina ampliada; Garnier en Tonkín",
+        "zh": "交趾支那扩张；安邺入北圻"
+      },
+      "start": 1863,
+      "end": 1881,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        },
+        {
+          "citation": "Wikipedia (français). \"Expédition du Tonkin.\"",
+          "url": "https://fr.wikipedia.org/wiki/Expédition_du_Tonkin"
+        }
+      ]
+    },
+    {
+      "id": "tonkin-and-sino-french-war",
+      "name": {
+        "en": "Tonkin campaign and the Sino-French War",
+        "es": "Campaña de Tonkín y guerra franco-china",
+        "zh": "北圻远征与中法战争"
+      },
+      "start": 1882,
+      "end": 1885,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Tonkin campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Tonkin_campaign"
+        },
+        {
+          "citation": "Wikipedia (English). \"Sino-French War.\"",
+          "url": "https://en.wikipedia.org/wiki/Sino-French_War"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre franco-chinoise.\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_franco-chinoise"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "attack-on-tourane",
+      "start": 1858,
+      "title": {
+        "en": "A French and Spanish fleet under Rigault de Genouilly attacks Tourane (Da Nang) and lands troops; Nguyễn Tri Phương's army hems them in near the coast",
+        "es": "Una flota francesa y española al mando de Rigault de Genouilly ataca Turana (Da Nang) y desembarca tropas; el ejército de Nguyễn Tri Phương las cerca junto a la costa",
+        "zh": "里戈·德·热努伊率领的法国和西班牙舰队进攻沱㶞（岘港）并登陆；阮知方的军队将其围困在沿海一带"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Kiernan, Ben. \"Indochina.\" Encyclopedia of Modern Europe: Europe 1789–1914. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/places/asia/vietnam-political-geography/indochina"
+        },
+        {
+          "citation": "Wikipedia (中文). \"沱㶞攻城战.\"",
+          "url": "https://zh.wikipedia.org/wiki/沱㶞攻城战"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Da Nang (Tourane)",
+          "es": "Da Nang (Turana)",
+          "zh": "岘港（沱㶞）"
+        },
+        "lat": 16.067,
+        "lon": 108.22
+      },
+      "wikidataId": "Q5361929"
+    },
+    {
+      "id": "saigon-taken",
+      "start": 1859,
+      "title": {
+        "en": "French and Spanish forces break the river forts and take Saigon and its citadel in February; in March they blow up the citadel",
+        "es": "Fuerzas francesas y españolas destruyen los fuertes del río y toman Saigón y su ciudadela en febrero; en marzo vuelan la ciudadela",
+        "zh": "2月，法国和西班牙军队摧毁沿河炮台，攻占西贡及其城堡；3月，他们炸毁了这座城堡"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Kiernan, Ben. \"Indochina.\" Encyclopedia of Modern Europe: Europe 1789–1914. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/places/asia/vietnam-political-geography/indochina"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Cochinchina.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Cochinchina"
+        }
+      ],
+      "note": {
+        "en": "Sources give 17 or 18 February 1859 for the capture.",
+        "es": "Las fuentes dan el 17 o el 18 de febrero de 1859 para la toma.",
+        "zh": "关于攻占日期，各来源记为1859年2月17日或18日。"
+      },
+      "place": {
+        "name": {
+          "en": "Saigon",
+          "es": "Saigón",
+          "zh": "西贡"
+        },
+        "lat": 10.787,
+        "lon": 106.702
+      }
+    },
+    {
+      "id": "tourane-evacuated",
+      "start": 1860,
+      "title": {
+        "en": "After eighteen months held near the coast, the French and Spanish garrison leaves Tourane in March",
+        "es": "Tras dieciocho meses cercada junto a la costa, la guarnición francesa y española abandona Turana en marzo",
+        "zh": "在沿海被围困十八个月后，法国和西班牙守军于3月撤离沱㶞"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Wikipedia (中文). \"沱㶞攻城战.\"",
+          "url": "https://zh.wikipedia.org/wiki/沱㶞攻城战"
+        },
+        {
+          "citation": "Wikipedia (français). \"Campagne de Cochinchine.\"",
+          "url": "https://fr.wikipedia.org/wiki/Campagne_de_Cochinchine"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Da Nang (Tourane)",
+          "es": "Da Nang (Turana)",
+          "zh": "岘港（沱㶞）"
+        },
+        "lat": 16.067,
+        "lon": 108.22
+      }
+    },
+    {
+      "id": "siege-of-saigon",
+      "start": 1860,
+      "end": 1861,
+      "title": {
+        "en": "A Vietnamese army besieges the Franco-Spanish garrison of about 1,000 men in Saigon from March 1860 to February 1861",
+        "es": "Un ejército vietnamita sitia la guarnición francoespañola de unos 1000 hombres en Saigón de marzo de 1860 a febrero de 1861",
+        "zh": "1860年3月至1861年2月，越南军队围困西贡约1000人的法西守军"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Wikipedia (français). \"Campagne de Cochinchine.\"",
+          "url": "https://fr.wikipedia.org/wiki/Campagne_de_Cochinchine"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Saigon",
+          "es": "Saigón",
+          "zh": "西贡"
+        },
+        "lat": 10.787,
+        "lon": 106.702
+      },
+      "wikidataId": "Q1998999"
+    },
+    {
+      "id": "battle-of-ky-hoa",
+      "start": 1861,
+      "title": {
+        "en": "Reinforced from China, French and Spanish troops attack the Vietnamese siege lines at Kỳ Hòa on 24–25 February and drive off Nguyễn Tri Phương's army",
+        "es": "Reforzadas desde China, las tropas francesas y españolas atacan las líneas de asedio vietnamitas en Kỳ Hòa el 24 y 25 de febrero y rechazan al ejército de Nguyễn Tri Phương",
+        "zh": "法西军队从中国获得增援后，于2月24日至25日进攻祈和的越南围城阵地，击退阮知方的军队"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Wikipedia (français). \"Campagne de Cochinchine.\"",
+          "url": "https://fr.wikipedia.org/wiki/Campagne_de_Cochinchine"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kỳ Hòa, near Saigon",
+          "es": "Kỳ Hòa, cerca de Saigón",
+          "zh": "祈和（西贡附近）"
+        },
+        "lat": 10.767,
+        "lon": 106.667
+      },
+      "wikidataId": "Q3892142"
+    },
+    {
+      "id": "my-tho-taken",
+      "start": 1861,
+      "title": {
+        "en": "French forces occupy Mỹ Tho on 12 April after destroying the forts on the creek leading to it",
+        "es": "Las fuerzas francesas ocupan Mỹ Tho el 12 de abril tras destruir los fuertes del canal que conduce a la ciudad",
+        "zh": "法军摧毁通往美萩的河道沿岸炮台后，于4月12日占领美萩"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Wikipedia (français). \"Campagne de Cochinchine.\"",
+          "url": "https://fr.wikipedia.org/wiki/Campagne_de_Cochinchine"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mỹ Tho",
+          "es": "Mỹ Tho",
+          "zh": "美萩"
+        },
+        "lat": 10.356,
+        "lon": 106.363
+      },
+      "wikidataId": "Q5037043"
+    },
+    {
+      "id": "bien-hoa-taken",
+      "start": 1861,
+      "title": {
+        "en": "Admiral Bonard's forces take Biên Hòa, capital of Đồng Nai province, on 16 December",
+        "es": "Las fuerzas del almirante Bonard toman Biên Hòa, capital de la provincia de Đồng Nai, el 16 de diciembre",
+        "zh": "12月16日，博纳尔海军上将的部队攻占同奈省首府边和"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Wikipedia (français). \"Campagne de Cochinchine.\"",
+          "url": "https://fr.wikipedia.org/wiki/Campagne_de_Cochinchine"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Biên Hòa",
+          "es": "Biên Hòa",
+          "zh": "边和"
+        },
+        "lat": 10.95,
+        "lon": 106.817
+      },
+      "wikidataId": "Q5036990"
+    },
+    {
+      "id": "vinh-long-taken",
+      "start": 1862,
+      "title": {
+        "en": "A Franco-Spanish landing force of about 1,000 takes the batteries and citadel of Vĩnh Long on 22–23 March",
+        "es": "Una fuerza de desembarco francoespañola de unos 1000 hombres toma las baterías y la ciudadela de Vĩnh Long el 22 y 23 de marzo",
+        "zh": "3月22日至23日，约1000人的法西登陆部队攻占永隆的炮台和城堡"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Wikipedia (français). \"Campagne de Cochinchine.\"",
+          "url": "https://fr.wikipedia.org/wiki/Campagne_de_Cochinchine"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Vĩnh Long",
+          "es": "Vĩnh Long",
+          "zh": "永隆"
+        },
+        "lat": 10.25,
+        "lon": 105.967
+      },
+      "wikidataId": "Q5037069"
+    },
+    {
+      "id": "treaty-of-saigon-1862",
+      "start": 1862,
+      "title": {
+        "en": "Phan Thanh Giản signs the Treaty of Saigon on 5 June: the Nguyễn court cedes Biên Hòa, Gia Định, Định Tường and Poulo Condore to France, opens three ports, allows Catholic worship and agrees to pay an indemnity",
+        "es": "Phan Thanh Giản firma el Tratado de Saigón el 5 de junio: la corte Nguyễn cede Biên Hòa, Gia Định, Định Tường y Poulo Condore a Francia, abre tres puertos, permite el culto católico y se compromete a pagar una indemnización",
+        "zh": "6月5日，潘清简签订《西贡条约》：阮朝将边和、嘉定、定祥和昆仑岛割让给法国，开放三个港口，允许天主教传教，并同意支付赔款"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Wikipedia (français). \"Campagne de Cochinchine.\"",
+          "url": "https://fr.wikipedia.org/wiki/Campagne_de_Cochinchine"
+        },
+        {
+          "citation": "Kiernan, Ben. \"Indochina.\" Encyclopedia of Modern Europe: Europe 1789–1914. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/places/asia/vietnam-political-geography/indochina"
+        }
+      ],
+      "note": {
+        "en": "Spain received a share of the indemnity but no territory.",
+        "es": "España recibió una parte de la indemnización pero ningún territorio.",
+        "zh": "西班牙分得部分赔款，但未获得任何领土。"
+      },
+      "place": {
+        "name": {
+          "en": "Saigon",
+          "es": "Saigón",
+          "zh": "西贡"
+        },
+        "lat": 10.787,
+        "lon": 106.702
+      },
+      "wikidataId": "Q2572351"
+    },
+    {
+      "id": "western-provinces-taken",
+      "start": 1867,
+      "title": {
+        "en": "French troops under Admiral de La Grandière take Vĩnh Long, Châu Đốc and Hà Tiên, the last three southern provinces; their governor Phan Thanh Giản takes his own life",
+        "es": "Tropas francesas al mando del almirante de La Grandière toman Vĩnh Long, Châu Đốc y Hà Tiên, las tres últimas provincias del sur; su gobernador Phan Thanh Giản se quita la vida",
+        "zh": "拉格朗迪埃尔海军上将率领的法军占领南部最后三省永隆、朱笃和河仙；三省总督潘清简自尽"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        },
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Kiernan, Ben. \"Indochina.\" Encyclopedia of Modern Europe: Europe 1789–1914. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/places/asia/vietnam-political-geography/indochina"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Vĩnh Long",
+          "es": "Vĩnh Long",
+          "zh": "永隆"
+        },
+        "lat": 10.25,
+        "lon": 105.967
+      }
+    },
+    {
+      "id": "garnier-takes-hanoi",
+      "start": 1873,
+      "title": {
+        "en": "Francis Garnier, sent from Saigon with about 200 men, storms the citadel of Hanoi on 20 November and takes other towns of the Red River delta",
+        "es": "Francis Garnier, enviado desde Saigón con unos 200 hombres, asalta la ciudadela de Hanói el 20 de noviembre y toma otras plazas del delta del río Rojo",
+        "zh": "安邺率约200人从西贡出发，于11月20日攻占河内城，并夺取红河三角洲的其他城镇"
+      },
+      "sources": [
+        {
+          "citation": "\"Francis Garnier.\" Encyclopedia of World Biography. Gale, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/francis-garnier"
+        },
+        {
+          "citation": "Wikipedia (français). \"Francis Garnier.\"",
+          "url": "https://fr.wikipedia.org/wiki/Francis_Garnier"
+        },
+        {
+          "citation": "Wikipedia (中文). \"河內之戰 (1873年).\"",
+          "url": "https://zh.wikipedia.org/wiki/河內之戰_(1873年)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Hanoi citadel",
+          "es": "Ciudadela de Hanói",
+          "zh": "河内城"
+        },
+        "lat": 21.032,
+        "lon": 105.84
+      },
+      "wikidataId": "Q107176729"
+    },
+    {
+      "id": "garnier-killed",
+      "start": 1873,
+      "title": {
+        "en": "Black Flag Army troops, called in by the Vietnamese authorities, kill Garnier outside Hanoi on 21 December",
+        "es": "Tropas del Ejército de la Bandera Negra, llamadas por las autoridades vietnamitas, matan a Garnier a las afueras de Hanói el 21 de diciembre",
+        "zh": "应越南官府之召而来的黑旗军于12月21日在河内城外击杀安邺"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        },
+        {
+          "citation": "Wikipedia (English). \"Sino-French War.\"",
+          "url": "https://en.wikipedia.org/wiki/Sino-French_War"
+        },
+        {
+          "citation": "\"Francis Garnier.\" Encyclopedia of World Biography. Gale, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/francis-garnier"
+        },
+        {
+          "citation": "Wikipedia (français). \"Expédition du Tonkin.\"",
+          "url": "https://fr.wikipedia.org/wiki/Expédition_du_Tonkin"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Cầu Giấy (Paper Bridge), west of Hanoi",
+          "es": "Cầu Giấy (Puente de Papel), al oeste de Hanói",
+          "zh": "纸桥（河内以西）"
+        },
+        "lat": 21.03,
+        "lon": 105.801
+      }
+    },
+    {
+      "id": "treaty-of-saigon-1874",
+      "start": 1874,
+      "title": {
+        "en": "France pulls its troops out of the delta towns; in the Treaty of Saigon of 15 March the Nguyễn court recognises the six southern provinces as French and opens the Red River to trade",
+        "es": "Francia retira sus tropas de las plazas del delta; en el Tratado de Saigón del 15 de marzo la corte Nguyễn reconoce como francesas las seis provincias del sur y abre el río Rojo al comercio",
+        "zh": "法国从三角洲各城镇撤军；在3月15日的《第二次西贡条约》中，阮朝承认南部六省归法国所有，并开放红河通商"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        },
+        {
+          "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+        },
+        {
+          "citation": "Wikipedia (français). \"Expédition du Tonkin.\"",
+          "url": "https://fr.wikipedia.org/wiki/Expédition_du_Tonkin"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Saigon",
+          "es": "Saigón",
+          "zh": "西贡"
+        },
+        "lat": 10.787,
+        "lon": 106.702
+      },
+      "wikidataId": "Q10771157"
+    },
+    {
+      "id": "riviere-takes-hanoi",
+      "start": 1882,
+      "title": {
+        "en": "Henri Rivière, sent to Hanoi with a few hundred men, takes its citadel on 25 April",
+        "es": "Henri Rivière, enviado a Hanói con unos cientos de hombres, toma su ciudadela el 25 de abril",
+        "zh": "李威利率数百人前往河内，于4月25日攻占河内城"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (français). \"Guerre franco-chinoise.\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_franco-chinoise"
+        },
+        {
+          "citation": "Wikipedia (français). \"Expédition du Tonkin.\"",
+          "url": "https://fr.wikipedia.org/wiki/Expédition_du_Tonkin"
+        },
+        {
+          "citation": "Kiernan, Ben. \"Indochina.\" Encyclopedia of Modern Europe: Europe 1789–1914. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/places/asia/vietnam-political-geography/indochina"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Hanoi citadel",
+          "es": "Ciudadela de Hanói",
+          "zh": "河内城"
+        },
+        "lat": 21.032,
+        "lon": 105.84
+      },
+      "wikidataId": "Q8673406"
+    },
+    {
+      "id": "riviere-killed",
+      "start": 1883,
+      "title": {
+        "en": "Rivière's column of about 450 men attacks Black Flag positions at Cầu Giấy on 19 May; Rivière is killed and the column falls back to Hanoi",
+        "es": "La columna de Rivière, de unos 450 hombres, ataca las posiciones de la Bandera Negra en Cầu Giấy el 19 de mayo; Rivière muere y la columna se repliega a Hanói",
+        "zh": "5月19日，李威利率约450人进攻纸桥的黑旗军阵地；李威利阵亡，部队退回河内"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Sino-French War.\"",
+          "url": "https://en.wikipedia.org/wiki/Sino-French_War"
+        },
+        {
+          "citation": "Wikipedia (français). \"Expédition du Tonkin.\"",
+          "url": "https://fr.wikipedia.org/wiki/Expédition_du_Tonkin"
+        },
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Cầu Giấy (Paper Bridge), west of Hanoi",
+          "es": "Cầu Giấy (Puente de Papel), al oeste de Hanói",
+          "zh": "纸桥（河内以西）"
+        },
+        "lat": 21.03,
+        "lon": 105.801
+      },
+      "wikidataId": "Q4870828"
+    },
+    {
+      "id": "battle-of-thuan-an",
+      "start": 1883,
+      "title": {
+        "en": "Admiral Courbet's warships shell the Thuận An forts guarding the river to Huế from 18 August; troops land on 20 August and take them",
+        "es": "Los buques del almirante Courbet bombardean desde el 18 de agosto los fuertes de Thuận An que guardan el río hacia Hué; las tropas desembarcan el 20 de agosto y los toman",
+        "zh": "8月18日起，孤拔的舰队炮击扼守通往顺化河口的顺安炮台；8月20日部队登陆并攻占炮台"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla de Thuận An.\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_Thuận_An"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre franco-chinoise.\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_franco-chinoise"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Thuận An",
+          "es": "Thuận An",
+          "zh": "顺安"
+        },
+        "lat": 16.549,
+        "lon": 107.644
+      },
+      "wikidataId": "Q4872549"
+    },
+    {
+      "id": "treaty-of-hue-1883",
+      "start": 1883,
+      "title": {
+        "en": "At Huế on 25 August the court signs the Harmand treaty, accepting a French protectorate over Annam and Tonkin",
+        "es": "En Hué, el 25 de agosto, la corte firma el tratado Harmand y acepta un protectorado francés sobre Annam y Tonkín",
+        "zh": "8月25日，阮朝在顺化签订《何罗芒条约》（第一次顺化条约），接受法国对安南和东京的保护"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        },
+        {
+          "citation": "Wikipedia (français). \"Traité de Hué (1883).\"",
+          "url": "https://fr.wikipedia.org/wiki/Traité_de_Hué_(1883)"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第一次順化條約.\"",
+          "url": "https://zh.wikipedia.org/wiki/第一次順化條約"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Huế",
+          "es": "Hué",
+          "zh": "顺化"
+        },
+        "lat": 16.464,
+        "lon": 107.587
+      },
+      "wikidataId": "Q3032218"
+    },
+    {
+      "id": "son-tay-campaign",
+      "start": 1883,
+      "title": {
+        "en": "Courbet's forces attack Sơn Tây, held by Black Flag, Qing and Vietnamese troops, and take its citadel in mid-December",
+        "es": "Las fuerzas de Courbet atacan Sơn Tây, defendida por tropas de la Bandera Negra, Qing y vietnamitas, y toman su ciudadela a mediados de diciembre",
+        "zh": "孤拔的部队进攻由黑旗军、清军和越南军驻守的山西，于12月中旬攻占其城堡"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Sino-French War.\"",
+          "url": "https://en.wikipedia.org/wiki/Sino-French_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra franco-china.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_franco-china"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Sơn Tây",
+          "es": "Sơn Tây",
+          "zh": "山西（越南）"
+        },
+        "lat": 21.138,
+        "lon": 105.505
+      },
+      "wikidataId": "Q7667673"
+    },
+    {
+      "id": "bac-ninh-campaign",
+      "start": 1884,
+      "title": {
+        "en": "French brigades attack Bắc Ninh in March and drive out the Qing Guangxi Army",
+        "es": "Las brigadas francesas atacan Bắc Ninh en marzo y expulsan al ejército Qing de Guangxi",
+        "zh": "3月，法军各旅进攻北宁，击退清朝广西军"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (中文). \"北寧之戰.\"",
+          "url": "https://zh.wikipedia.org/wiki/北寧之戰"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre franco-chinoise.\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_franco-chinoise"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra franco-china.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_franco-china"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Bắc Ninh",
+          "es": "Bắc Ninh",
+          "zh": "北宁"
+        },
+        "lat": 21.183,
+        "lon": 106.05
+      },
+      "wikidataId": "Q4141584"
+    },
+    {
+      "id": "treaty-of-hue-1884",
+      "start": 1884,
+      "title": {
+        "en": "At Huế on 6 June the court signs the Patenôtre treaty, confirming the protectorate; the seal the Qing emperor had granted to Vietnam's kings is melted down",
+        "es": "En Hué, el 6 de junio, la corte firma el tratado Patenôtre, que confirma el protectorado; el sello que el emperador Qing había otorgado a los reyes de Vietnam se funde",
+        "zh": "6月6日，阮朝在顺化签订《巴德诺条约》（第二次顺化条约），确认保护关系；清朝皇帝颁赐的越南国王印被熔毁"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        },
+        {
+          "citation": "Wikipedia (français). \"Traité de Hué (1883).\"",
+          "url": "https://fr.wikipedia.org/wiki/Traité_de_Hué_(1883)"
+        },
+        {
+          "citation": "Wikipedia (中文). \"第二次順化條約.\"",
+          "url": "https://zh.wikipedia.org/wiki/第二次順化條約"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Huế",
+          "es": "Hué",
+          "zh": "顺化"
+        },
+        "lat": 16.464,
+        "lon": 107.587
+      },
+      "wikidataId": "Q3536812"
+    },
+    {
+      "id": "bac-le-ambush",
+      "start": 1884,
+      "title": {
+        "en": "A French column marching to occupy Lạng Sơn meets Qing troops at Bắc Lệ; fighting on 23 June turns it back",
+        "es": "Una columna francesa que marcha a ocupar Lạng Sơn se topa con tropas Qing en Bắc Lệ; los combates del 23 de junio la hacen retroceder",
+        "zh": "一支前往占领谅山的法军纵队在北黎（观音桥）遭遇清军；6月23日的战斗迫使其后撤"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Sino-French War.\"",
+          "url": "https://en.wikipedia.org/wiki/Sino-French_War"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre franco-chinoise.\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_franco-chinoise"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra franco-china.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_franco-china"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The two sides read the Tientsin Accord of May 1884 differently: France said Qing troops had to leave Tonkin at once, China that they would leave once a full treaty was signed. Each blamed the other for the first shots.",
+        "es": "Las dos partes interpretaban de forma distinta el Acuerdo de Tientsin de mayo de 1884: Francia sostenía que las tropas Qing debían salir de Tonkín de inmediato y China, que lo harían al firmarse un tratado completo. Cada una culpó a la otra de los primeros disparos.",
+        "zh": "双方对1884年5月《李福协定》的理解不同：法国认为清军须立即撤出北圻，中国则认为应在正式条约签订后撤军。双方都指责对方先开火。"
+      },
+      "place": {
+        "name": {
+          "en": "Bắc Lệ",
+          "es": "Bắc Lệ",
+          "zh": "北黎（观音桥）"
+        },
+        "lat": 21.516,
+        "lon": 106.431
+      },
+      "wikidataId": "Q5005745"
+    },
+    {
+      "id": "siege-of-tuyen-quang",
+      "start": 1884,
+      "end": 1885,
+      "title": {
+        "en": "Liu Yongfu's Black Flag Army and Tang Jingsong's Yunnan Army besiege the French post at Tuyên Quang from 24 November; a relief column fights through at Hòa Mộc and ends the siege on 3 March 1885",
+        "es": "El Ejército de la Bandera Negra de Liu Yongfu y el ejército de Yunnan de Tang Jingsong sitian el puesto francés de Tuyên Quang desde el 24 de noviembre; una columna de socorro se abre paso en Hòa Mộc y pone fin al sitio el 3 de marzo de 1885",
+        "zh": "11月24日起，刘永福的黑旗军和唐景崧的滇军围攻宣光的法军据点；一支援军在左育杀开血路，于1885年3月3日解除围困"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Sino-French War.\"",
+          "url": "https://en.wikipedia.org/wiki/Sino-French_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"宣光之圍.\"",
+          "url": "https://zh.wikipedia.org/wiki/宣光之圍"
+        },
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tuyên Quang",
+          "es": "Tuyên Quang",
+          "zh": "宣光"
+        },
+        "lat": 21.817,
+        "lon": 105.217
+      },
+      "wikidataId": "Q3486048"
+    },
+    {
+      "id": "lang-son-taken",
+      "start": 1885,
+      "title": {
+        "en": "Two French brigades under Brière de l'Isle push north from 3 February and take Lạng Sơn from the Guangxi Army on 13 February",
+        "es": "Dos brigadas francesas al mando de Brière de l'Isle avanzan hacia el norte desde el 3 de febrero y toman Lạng Sơn al ejército de Guangxi el 13 de febrero",
+        "zh": "2月3日起，波里也率法军两个旅北进，于2月13日从广西军手中夺取谅山"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (中文). \"諒山之戰 (1885年).\"",
+          "url": "https://zh.wikipedia.org/wiki/諒山之戰_(1885年)"
+        },
+        {
+          "citation": "Wikipedia (English). \"Sino-French War.\"",
+          "url": "https://en.wikipedia.org/wiki/Sino-French_War"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre franco-chinoise.\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_franco-chinoise"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Lạng Sơn",
+          "es": "Lạng Sơn",
+          "zh": "谅山"
+        },
+        "lat": 21.85,
+        "lon": 106.76
+      },
+      "wikidataId": "Q6711767"
+    },
+    {
+      "id": "battle-of-zhennan-pass",
+      "start": 1885,
+      "title": {
+        "en": "De Négrier's brigade crosses into Guangxi and attacks the Guangxi Army's lines at Zhennan Pass on 23–24 March; Feng Zicai's troops throw it back",
+        "es": "La brigada de De Négrier entra en Guangxi y ataca las líneas del ejército de Guangxi en el paso de Zhennan el 23 y 24 de marzo; las tropas de Feng Zicai la rechazan",
+        "zh": "3月23日至24日，尼格里的旅进入广西，进攻镇南关的广西军阵地；冯子材的部队将其击退"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Sino-French War.\"",
+          "url": "https://en.wikipedia.org/wiki/Sino-French_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"鎮南關之役.\"",
+          "url": "https://zh.wikipedia.org/wiki/鎮南關之役"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Zhennan Pass (Friendship Pass)",
+          "es": "Paso de Zhennan (Paso de la Amistad)",
+          "zh": "镇南关（今友谊关）"
+        },
+        "lat": 21.976,
+        "lon": 106.712
+      },
+      "wikidataId": "Q4870413"
+    },
+    {
+      "id": "retreat-from-lang-son",
+      "start": 1885,
+      "title": {
+        "en": "After de Négrier is wounded at Kỳ Lừa, near Lạng Sơn, on 28 March, his successor orders Lạng Sơn abandoned; Qing forces take it, and the news brings down Jules Ferry's government in Paris on 30 March",
+        "es": "Después de que De Négrier cae herido en Kỳ Lừa, cerca de Lạng Sơn, el 28 de marzo, su sucesor ordena abandonar Lạng Sơn; las fuerzas Qing la ocupan, y la noticia derriba el gobierno de Jules Ferry en París el 30 de marzo",
+        "zh": "3月28日尼格里在谅山附近的战斗中负伤后，其继任者下令放弃谅山；清军进占该城，消息传到巴黎，茹费理内阁于3月30日倒台"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Sino-French War.\"",
+          "url": "https://en.wikipedia.org/wiki/Sino-French_War"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre franco-chinoise.\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_franco-chinoise"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra franco-china.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_franco-china"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Lạng Sơn",
+          "es": "Lạng Sơn",
+          "zh": "谅山"
+        },
+        "lat": 21.85,
+        "lon": 106.76
+      },
+      "wikidataId": "Q7316925"
+    },
+    {
+      "id": "treaty-of-tientsin",
+      "start": 1885,
+      "title": {
+        "en": "Li Hongzhang and Jules Patenôtre sign the Treaty of Tientsin on 9 June: China recognises the 1884 treaty of Huế and the French protectorate over Vietnam",
+        "es": "Li Hongzhang y Jules Patenôtre firman el Tratado de Tientsin el 9 de junio: China reconoce el tratado de Hué de 1884 y el protectorado francés sobre Vietnam",
+        "zh": "6月9日，李鸿章与巴德诺签订《中法新约》：中国承认1884年《第二次顺化条约》及法国对越南的保护权"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (中文). \"中法新约.\"",
+          "url": "https://zh.wikipedia.org/wiki/中法新约"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre franco-chinoise.\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_franco-chinoise"
+        },
+        {
+          "citation": "Kiernan, Ben. \"Indochina.\" Encyclopedia of Modern Europe: Europe 1789–1914. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/places/asia/vietnam-political-geography/indochina"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tianjin",
+          "es": "Tianjin",
+          "zh": "天津"
+        },
+        "lat": 39.13,
+        "lon": 117.2
+      },
+      "wikidataId": "Q700883"
+    },
+    {
+      "id": "hue-attack-and-can-vuong",
+      "start": 1885,
+      "title": {
+        "en": "On the night of 4–5 July the regent Tôn Thất Thuyết attacks the French garrison at Huế; after the attack fails he takes the young emperor Hàm Nghi out of the capital, and an edict in Hàm Nghi's name calls for armed resistance (Cần Vương)",
+        "es": "En la noche del 4 al 5 de julio el regente Tôn Thất Thuyết ataca la guarnición francesa de Hué; tras fracasar el ataque saca de la capital al joven emperador Hàm Nghi, y un edicto en nombre de Hàm Nghi llama a la resistencia armada (Cần Vương)",
+        "zh": "7月4日夜至5日，辅政大臣尊室说进攻顺化的法国驻军；进攻失败后，他带年幼的咸宜帝离开京城，并以咸宜帝的名义发布诏书，号召武装抗法（勤王）"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+          "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+        },
+        {
+          "citation": "Wikipedia (中文). \"勤王運動.\"",
+          "url": "https://zh.wikipedia.org/wiki/勤王運動"
+        },
+        {
+          "citation": "Kiernan, Ben. \"Indochina.\" Encyclopedia of Modern Europe: Europe 1789–1914. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/places/asia/vietnam-political-geography/indochina"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Huế",
+          "es": "Hué",
+          "zh": "顺化"
+        },
+        "lat": 16.464,
+        "lon": 107.587
+      },
+      "wikidataId": "Q2986395"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Charles Rigault de Genouilly",
+        "es": "Charles Rigault de Genouilly",
+        "zh": "黎峨（里戈·德·热努伊）"
+      },
+      "side": "france-and-spain",
+      "role": {
+        "en": "Admiral; led the Franco-Spanish expedition, 1858–1859",
+        "es": "Almirante; dirigió la expedición francoespañola, 1858-1859",
+        "zh": "海军上将；1858—1859年率领法西远征军"
+      },
+      "wikidataId": "Q2960122"
+    },
+    {
+      "name": {
+        "en": "Carlos Palanca Gutiérrez",
+        "es": "Carlos Palanca Gutiérrez",
+        "zh": "卡洛斯·帕兰卡·古铁雷斯"
+      },
+      "side": "france-and-spain",
+      "role": {
+        "en": "Commander of the Spanish contingent",
+        "es": "Comandante del contingente español",
+        "zh": "西班牙分遣队指挥官"
+      },
+      "wikidataId": "Q5751269"
+    },
+    {
+      "name": {
+        "en": "Léonard Charner",
+        "es": "Léonard Charner",
+        "zh": "莱昂纳尔·沙内"
+      },
+      "side": "france-and-spain",
+      "role": {
+        "en": "Admiral; broke the siege of Saigon, 1861",
+        "es": "Almirante; rompió el sitio de Saigón, 1861",
+        "zh": "海军上将；1861年打破西贡之围"
+      },
+      "wikidataId": "Q1324547"
+    },
+    {
+      "name": {
+        "en": "Louis Adolphe Bonard",
+        "es": "Louis Adolphe Bonard",
+        "zh": "路易·阿道夫·博纳尔"
+      },
+      "side": "france-and-spain",
+      "role": {
+        "en": "Admiral; signed the Treaty of Saigon, 1862",
+        "es": "Almirante; firmó el Tratado de Saigón, 1862",
+        "zh": "海军上将；1862年签订《西贡条约》"
+      },
+      "wikidataId": "Q3260973"
+    },
+    {
+      "name": {
+        "en": "Pierre-Paul de La Grandière",
+        "es": "Pierre-Paul de La Grandière",
+        "zh": "皮埃尔-保罗·德·拉格朗迪埃尔"
+      },
+      "side": "france-and-spain",
+      "role": {
+        "en": "Admiral and governor of Cochinchina; took the western provinces, 1867",
+        "es": "Almirante y gobernador de Cochinchina; tomó las provincias occidentales, 1867",
+        "zh": "海军上将、交趾支那总督；1867年夺取西部三省"
+      },
+      "wikidataId": "Q3383462"
+    },
+    {
+      "name": {
+        "en": "Francis Garnier",
+        "es": "Francis Garnier",
+        "zh": "安邺（弗朗西斯·加尼耶）"
+      },
+      "side": "france-and-spain",
+      "role": {
+        "en": "Naval officer; seized Hanoi in 1873",
+        "es": "Oficial de marina; tomó Hanói en 1873",
+        "zh": "海军军官；1873年攻占河内"
+      },
+      "wikidataId": "Q1441510"
+    },
+    {
+      "name": {
+        "en": "Henri Rivière",
+        "es": "Henri Rivière",
+        "zh": "李威利（亨利·李维业）"
+      },
+      "side": "france-and-spain",
+      "role": {
+        "en": "Naval officer; seized Hanoi in 1882",
+        "es": "Oficial de marina; tomó Hanói en 1882",
+        "zh": "海军军官；1882年攻占河内"
+      },
+      "wikidataId": "Q1926906"
+    },
+    {
+      "name": {
+        "en": "Amédée Courbet",
+        "es": "Amédée Courbet",
+        "zh": "孤拔"
+      },
+      "side": "france-and-spain",
+      "role": {
+        "en": "Admiral; Thuận An and Sơn Tây, 1883",
+        "es": "Almirante; Thuận An y Sơn Tây, 1883",
+        "zh": "海军上将；1883年顺安和山西之战"
+      },
+      "wikidataId": "Q482156"
+    },
+    {
+      "name": {
+        "en": "Louis Brière de l'Isle",
+        "es": "Louis Brière de l'Isle",
+        "zh": "波里也（布里埃·德·利勒）"
+      },
+      "side": "france-and-spain",
+      "role": {
+        "en": "General commanding in Tonkin from 1884",
+        "es": "General al mando en Tonkín desde 1884",
+        "zh": "1884年起任北圻法军总司令"
+      },
+      "wikidataId": "Q320823"
+    },
+    {
+      "name": {
+        "en": "François de Négrier",
+        "es": "François de Négrier",
+        "zh": "尼格里"
+      },
+      "side": "france-and-spain",
+      "role": {
+        "en": "General; led the brigade at Lạng Sơn and Zhennan Pass",
+        "es": "General; mandó la brigada en Lạng Sơn y el paso de Zhennan",
+        "zh": "将军；在谅山和镇南关指挥第二旅"
+      },
+      "wikidataId": "Q3357062"
+    },
+    {
+      "name": {
+        "en": "Tự Đức",
+        "es": "Tự Đức",
+        "zh": "嗣德帝"
+      },
+      "side": "dai-nam-and-allies",
+      "role": {
+        "en": "Emperor of Đại Nam, 1847–1883",
+        "es": "Emperador de Đại Nam, 1847-1883",
+        "zh": "大南皇帝（1847—1883年在位）"
+      },
+      "wikidataId": "Q466976"
+    },
+    {
+      "name": {
+        "en": "Nguyễn Tri Phương",
+        "es": "Nguyễn Tri Phương",
+        "zh": "阮知方"
+      },
+      "side": "dai-nam-and-allies",
+      "role": {
+        "en": "Commander at Tourane and Saigon; died after the fall of Hanoi, 1873",
+        "es": "Comandante en Turana y Saigón; murió tras la caída de Hanói, 1873",
+        "zh": "沱㶞和西贡的统帅；1873年河内失陷后去世"
+      },
+      "wikidataId": "Q4456838"
+    },
+    {
+      "name": {
+        "en": "Phan Thanh Giản",
+        "es": "Phan Thanh Giản",
+        "zh": "潘清简"
+      },
+      "side": "dai-nam-and-allies",
+      "role": {
+        "en": "Minister; signed the 1862 treaty and governed the western provinces",
+        "es": "Ministro; firmó el tratado de 1862 y gobernó las provincias occidentales",
+        "zh": "大臣；签订1862年条约并任西部三省总督"
+      },
+      "wikidataId": "Q470095"
+    },
+    {
+      "name": {
+        "en": "Hoàng Kế Viêm",
+        "es": "Hoàng Kế Viêm",
+        "zh": "黄佐炎"
+      },
+      "side": "dai-nam-and-allies",
+      "role": {
+        "en": "Prince and commander in Tonkin; called in the Black Flags",
+        "es": "Príncipe y comandante en Tonkín; llamó a la Bandera Negra",
+        "zh": "亲王、北圻统帅；召黑旗军助战"
+      },
+      "wikidataId": "Q1156062"
+    },
+    {
+      "name": {
+        "en": "Tôn Thất Thuyết",
+        "es": "Tôn Thất Thuyết",
+        "zh": "尊室说"
+      },
+      "side": "dai-nam-and-allies",
+      "role": {
+        "en": "Regent; attacked the French at Huế in 1885",
+        "es": "Regente; atacó a los franceses en Hué en 1885",
+        "zh": "辅政大臣；1885年在顺化进攻法军"
+      },
+      "wikidataId": "Q1060315"
+    },
+    {
+      "name": {
+        "en": "Hàm Nghi",
+        "es": "Hàm Nghi",
+        "zh": "咸宜帝"
+      },
+      "side": "dai-nam-and-allies",
+      "role": {
+        "en": "Emperor from 1884; the Cần Vương edict was issued in his name",
+        "es": "Emperador desde 1884; el edicto Cần Vương se publicó en su nombre",
+        "zh": "1884年即位；勤王诏以其名义发布"
+      },
+      "wikidataId": "Q447616"
+    },
+    {
+      "name": {
+        "en": "Liu Yongfu",
+        "es": "Liu Yongfu",
+        "zh": "刘永福"
+      },
+      "side": "dai-nam-and-allies",
+      "role": {
+        "en": "Leader of the Black Flag Army",
+        "es": "Jefe del Ejército de la Bandera Negra",
+        "zh": "黑旗军首领"
+      },
+      "wikidataId": "Q709550"
+    },
+    {
+      "name": {
+        "en": "Pan Dingxin",
+        "es": "Pan Dingxin",
+        "zh": "潘鼎新"
+      },
+      "side": "dai-nam-and-allies",
+      "role": {
+        "en": "Governor of Guangxi; commanded the Guangxi Army",
+        "es": "Gobernador de Guangxi; mandó el ejército de Guangxi",
+        "zh": "广西巡抚；统率广西军"
+      },
+      "wikidataId": "Q6146668"
+    },
+    {
+      "name": {
+        "en": "Tang Jingsong",
+        "es": "Tang Jingsong",
+        "zh": "唐景崧"
+      },
+      "side": "dai-nam-and-allies",
+      "role": {
+        "en": "Commanded Yunnan troops at the siege of Tuyên Quang",
+        "es": "Mandó tropas de Yunnan en el sitio de Tuyên Quang",
+        "zh": "在宣光之围中统率滇军"
+      },
+      "wikidataId": "Q701499"
+    },
+    {
+      "name": {
+        "en": "Feng Zicai",
+        "es": "Feng Zicai",
+        "zh": "冯子材"
+      },
+      "side": "dai-nam-and-allies",
+      "role": {
+        "en": "Commander at Zhennan Pass, 1885",
+        "es": "Comandante en el paso de Zhennan, 1885",
+        "zh": "1885年镇南关之役指挥官"
+      },
+      "wikidataId": "Q3068368"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "qing"
+  ],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"French conquest of Vietnam.\"",
+      "url": "https://en.wikipedia.org/wiki/French_conquest_of_Vietnam"
+    },
+    {
+      "citation": "Wikipedia (English). \"Cochinchina campaign.\"",
+      "url": "https://en.wikipedia.org/wiki/Cochinchina_campaign"
+    },
+    {
+      "citation": "Wikipedia (English). \"Tonkin campaign.\"",
+      "url": "https://en.wikipedia.org/wiki/Tonkin_campaign"
+    },
+    {
+      "citation": "Wikipedia (English). \"Sino-French War.\"",
+      "url": "https://en.wikipedia.org/wiki/Sino-French_War"
+    },
+    {
+      "citation": "Kiernan, Ben. \"Indochina.\" Encyclopedia of Modern Europe: Europe 1789–1914. Charles Scribner's Sons, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/places/asia/vietnam-political-geography/indochina"
+    },
+    {
+      "citation": "\"French Indochina.\" Encyclopedia of Western Colonialism since 1450. Macmillan Reference USA, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/french-indochina"
+    },
+    {
+      "citation": "\"Francis Garnier.\" Encyclopedia of World Biography. Gale, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/francis-garnier"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra de Cochinchina.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_de_Cochinchina"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra franco-china.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_franco-china"
+    },
+    {
+      "citation": "Wikipedia (français). \"Campagne de Cochinchine.\"",
+      "url": "https://fr.wikipedia.org/wiki/Campagne_de_Cochinchine"
+    },
+    {
+      "citation": "Wikipedia (français). \"Expédition du Tonkin.\"",
+      "url": "https://fr.wikipedia.org/wiki/Expédition_du_Tonkin"
+    },
+    {
+      "citation": "Wikipedia (français). \"Guerre franco-chinoise.\"",
+      "url": "https://fr.wikipedia.org/wiki/Guerre_franco-chinoise"
+    }
+  ]
+}
