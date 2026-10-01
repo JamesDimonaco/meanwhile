@@ -86,9 +86,9 @@
     {
       "id": "north-vietnam-and-allies",
       "label": {
-        "en": "North Vietnam, the Viet Cong and their backers",
-        "es": "Vietnam del Norte, el Viet Cong y sus apoyos",
-        "zh": "北越、越共及其支持者"
+        "en": "North Vietnam, the Viet Cong and their allies",
+        "es": "Vietnam del Norte, el Viet Cong y sus aliados",
+        "zh": "北越、越共及其盟友"
       },
       "members": [
         {
@@ -116,9 +116,33 @@
           ]
         },
         {
+          "kind": "polity",
+          "name": {
+            "en": "Pathet Lao",
+            "es": "Pathet Lao",
+            "zh": "巴特寮"
+          },
+          "role": "belligerent",
+          "today": [
+            "LA"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Khmer Rouge and, from 1970, the GRUNK",
+            "es": "Jemeres Rojos y, desde 1970, el GRUNK",
+            "zh": "红色高棉及1970年起的柬埔寨王国民族团结政府"
+          },
+          "role": "belligerent",
+          "today": [
+            "KH"
+          ]
+        },
+        {
           "kind": "state",
           "code": "CN",
-          "role": "supporter",
+          "role": "belligerent",
           "today": [
             "CN"
           ]
@@ -130,9 +154,17 @@
             "es": "Unión Soviética",
             "zh": "苏联"
           },
-          "role": "supporter",
+          "role": "belligerent",
           "today": [
             "RU"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "KP",
+          "role": "belligerent",
+          "today": [
+            "KP"
           ]
         }
       ]
@@ -155,6 +187,30 @@
           "role": "belligerent",
           "today": [
             "VN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Laos (from 1959)",
+            "es": "Reino de Laos (desde 1959)",
+            "zh": "老挝王国（1959年起）"
+          },
+          "role": "belligerent",
+          "today": [
+            "LA"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Khmer Republic (1970–1975)",
+            "es": "República Jemer (1970-1975)",
+            "zh": "高棉共和国（1970—1975年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "KH"
           ]
         },
         {
@@ -324,9 +380,9 @@
       "id": "battle-of-ap-bac",
       "start": 1963,
       "title": {
-        "en": "At Ấp Bắc on 2 January a Viet Cong battalion of about 320 men holds off and inflicts heavy losses on an ARVN force of some 3,000 equipped with US helicopters and armoured carriers",
-        "es": "En Ấp Bắc, el 2 de enero, un batallón del Viet Cong de unos 320 hombres resiste e inflige graves pérdidas a una fuerza del ERVN de unos 3000 soldados equipada con helicópteros y vehículos blindados estadounidenses",
-        "zh": "1月2日，约320人的越共一个营在北邑顶住约3000人的南越军队的进攻并使其损失惨重，后者配有美国直升机和装甲运兵车"
+        "en": "At Ấp Bắc on 2 January a Viet Cong battalion holds off and inflicts heavy losses on a much larger ARVN force equipped with US helicopters and armoured carriers",
+        "es": "En Ấp Bắc, el 2 de enero, un batallón del Viet Cong resiste e inflige graves pérdidas a una fuerza del ERVN mucho mayor, equipada con helicópteros y vehículos blindados estadounidenses",
+        "zh": "1月2日，越共一个营在北邑顶住兵力远多于己的南越军队的进攻并使其损失惨重，后者配有美国直升机和装甲运兵车"
       },
       "sources": [
         {
@@ -336,6 +392,10 @@
         {
           "citation": "Wikipedia (English). \"Vietnam War.\"",
           "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Ap Bac.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Ap_Bac"
         }
       ],
       "place": {
@@ -347,7 +407,12 @@
         "lat": 10.438,
         "lon": 106.195
       },
-      "wikidataId": "Q280468"
+      "wikidataId": "Q280468",
+      "note": {
+        "en": "Sources give different strengths: about 320 Viet Cong against an ARVN force of 3,000 (Oxford Companion to American Military History), or 350 against 1,400 (Wikipedia, citing Truong).",
+        "es": "Las fuentes dan efectivos distintos: unos 320 combatientes del Viet Cong frente a una fuerza del ERVN de 3000 (Oxford Companion to American Military History), o 350 frente a 1400 (Wikipedia, citando a Truong).",
+        "zh": "各来源给出的兵力不同：约320名越共对3000名南越军（《牛津美国军事史指南》），或350人对1400人（维基百科，引用Truong）。"
+      }
     },
     {
       "id": "thich-quang-duc",
@@ -382,7 +447,7 @@
       "start": 1963,
       "title": {
         "en": "ARVN generals seize power in Saigon on 1 November, with US officials standing aside; Diệm and his brother Ngô Đình Nhu are killed",
-        "es": "Generales del ERVN toman el poder en Saigón el 1 de noviembre, sin que los funcionarios estadounidenses intervengan; Diệm y su hermano Ngô Đình Nhu son asesinados",
+        "es": "Generales del ERVN toman el poder en Saigón el 1 de noviembre, sin que los funcionarios estadounidenses intervengan; Diệm y su hermano Ngô Đình Nhu resultan muertos",
         "zh": "11月1日，南越军队将领在西贡夺取政权，美国官员未加阻止；吴廷琰及其弟吴廷瑈被杀"
       },
       "sources": [
@@ -568,9 +633,9 @@
       "id": "siege-of-khe-sanh",
       "start": 1968,
       "title": {
-        "en": "From late January PAVN divisions surround the US Marine and ARVN base at Khe Sanh; US artillery and B-52 bombing break the siege by April, and the Marines leave the base in June",
-        "es": "Desde finales de enero divisiones del EPV rodean la base de marines estadounidenses y del ERVN en Khe Sanh; la artillería y los bombardeos de B-52 rompen el asedio en abril, y los marines abandonan la base en junio",
-        "zh": "1月下旬起，越南人民军各师包围溪生的美国海军陆战队和南越军队基地；美军炮火和B-52轰炸于4月打破围困，海军陆战队于6月撤离该基地"
+        "en": "From late January PAVN divisions surround the US Marine and ARVN base at Khe Sanh; US artillery and B-52 bombing break the siege by April, and the Marines dismantle the base from late June and close it on 5 July",
+        "es": "Desde finales de enero divisiones del EPV rodean la base de marines estadounidenses y del ERVN en Khe Sanh; la artillería y los bombardeos de B-52 rompen el asedio en abril, y los marines desmantelan la base desde finales de junio y la cierran el 5 de julio",
+        "zh": "1月下旬起，越南人民军各师包围溪生的美国海军陆战队和南越军队基地；美军炮火和B-52轰炸于4月打破围困，海军陆战队自6月下旬起拆除该基地，并于7月5日将其关闭"
       },
       "sources": [
         {
@@ -580,6 +645,10 @@
         {
           "citation": "\"Vietnam War.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
           "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/vietnam-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Khe Sanh.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Khe_Sanh"
         }
       ],
       "place": {
@@ -631,7 +700,7 @@
       "start": 1968,
       "title": {
         "en": "Viet Cong and PAVN troops take most of Huế on 31 January; US Marines and ARVN troops retake the city street by street over nearly a month",
-        "es": "Tropas del Viet Cong y del EPV toman la mayor parte de Hué el 31 de enero; marines estadounidenses y tropas del ERVN recuperan la ciudad calle a calle durante casi un mes",
+        "es": "Tropas del Viet Cong y del EPV toman la mayor parte de Hué el 31 de enero; marines estadounidenses y tropas del ERVN retoman la ciudad calle a calle durante casi un mes",
         "zh": "1月31日，越共和越南人民军部队占领顺化大部；美国海军陆战队和南越军队用了近一个月逐街夺回该城"
       },
       "sources": [
@@ -702,9 +771,9 @@
       "id": "cambodian-campaign",
       "start": 1970,
       "title": {
-        "en": "US and ARVN troops cross into Cambodia on 30 April against PAVN and Viet Cong base areas along the border; US units leave by the end of June",
-        "es": "Tropas estadounidenses y del ERVN entran en Camboya el 30 de abril contra las bases del EPV y del Viet Cong a lo largo de la frontera; las unidades de EE. UU. salen a finales de junio",
-        "zh": "4月30日，美军和南越军队越境进入柬埔寨，攻击边境沿线的越南人民军和越共基地；美军部队于6月底撤出"
+        "en": "ARVN troops cross into Cambodia's Parrot's Beak from 29 April and US troops into the Fishhook on 1 May, against PAVN and Viet Cong base areas along the border; Nixon announces the incursion on 30 April, and US units leave by 30 June",
+        "es": "Tropas del ERVN entran en el Pico de Loro, en Camboya, desde el 29 de abril y tropas estadounidenses en el Anzuelo el 1 de mayo, contra las bases del EPV y del Viet Cong a lo largo de la frontera; Nixon anuncia la incursión el 30 de abril y las unidades de EE. UU. salen antes del 30 de junio",
+        "zh": "4月29日起，南越军队越境进入柬埔寨的鹦鹉嘴地区，5月1日美军进入鱼钩地区，攻击边境沿线的越南人民军和越共基地；尼克松于4月30日宣布这次越境行动，美军部队于6月30日前撤出"
       },
       "sources": [
         {
@@ -867,9 +936,9 @@
       "id": "us-forces-leave",
       "start": 1973,
       "title": {
-        "en": "The last US combat troops leave South Vietnam at the end of March; 587 prisoners of war are home by 1 April. Fighting between the Vietnamese parties goes on",
-        "es": "Las últimas tropas de combate de EE. UU. salen de Vietnam del Sur a finales de marzo; 587 prisioneros de guerra han vuelto a casa el 1 de abril. Los combates entre las partes vietnamitas continúan",
-        "zh": "3月底，最后一批美军作战部队撤离南越；到4月1日，587名战俘已回国。越南各方之间的战斗仍在继续"
+        "en": "The last US combat troops leave South Vietnam at the end of March, and some 590 US prisoners of war are home by early April. Fighting between the Vietnamese parties goes on",
+        "es": "Las últimas tropas de combate de EE. UU. salen de Vietnam del Sur a finales de marzo, y unos 590 prisioneros de guerra estadounidenses han vuelto a casa a principios de abril. Los combates entre las partes vietnamitas continúan",
+        "zh": "3月底，最后一批美军作战部队撤离南越；到4月初，约590名美国战俘已回国。越南各方之间的战斗仍在继续"
       },
       "sources": [
         {
@@ -883,6 +952,10 @@
         {
           "citation": "Wikipedia (English). \"Vietnam War.\"",
           "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Operation Homecoming.\"",
+          "url": "https://en.wikipedia.org/wiki/Operation_Homecoming"
         }
       ],
       "place": {
@@ -893,6 +966,11 @@
         },
         "lat": 10.819,
         "lon": 106.652
+      },
+      "note": {
+        "en": "Counts differ: 587 home by 1 April (Oxford Companion to American Military History), 591 returned in Operation Homecoming between 12 February and 4 April.",
+        "es": "Las cifras difieren: 587 en casa el 1 de abril (Oxford Companion to American Military History), 591 repatriados en la Operación Homecoming entre el 12 de febrero y el 4 de abril.",
+        "zh": "各来源数字不同：到4月1日回国587人（《牛津美国军事史指南》），2月12日至4月4日的“归国行动”共遣返591人。"
       }
     },
     {
@@ -1200,6 +1278,41 @@
         "es": "EPV y Viet Cong",
         "zh": "越南人民军和越共"
       },
+      "low": 849018,
+      "high": 849018,
+      "attributedTo": {
+        "en": "Vietnamese Ministry of Defence (2015)",
+        "es": "Ministerio de Defensa de Vietnam (2015)",
+        "zh": "越南国防部（2015年）"
+      },
+      "sources": [
+        {
+          "citation": "Ministry of Defence of Vietnam, General Political Department, Policy Department. \"Chuyên đề 4: Công tác tìm kiếm, quy tập hài cốt liệt sĩ từ nay đến năm 2020 và những năm tiếp theo\" (2015), archived copy.",
+          "url": "https://web.archive.org/web/20230404230151/http://datafile.chinhsachquandoi.gov.vn/Qu%E1%BA%A3n%20l%C3%BD%20ch%E1%BB%89%20%C4%91%E1%BA%A1o/Chuy%C3%AAn%20%C4%91%E1%BB%81%204.doc"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vietnam War casualties.\"",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War_casualties"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vietnam War.\"",
+          "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        }
+      ],
+      "note": {
+        "en": "The number recorded as \"liệt sĩ\" (martyrs, the official term for those who died in service) in the war against the United States, in a Ministry of Defence report on recovering remains.",
+        "es": "El número registrado como «liệt sĩ» (mártires, el término oficial para quienes murieron en servicio) en la guerra contra Estados Unidos, según un informe del Ministerio de Defensa sobre la recuperación de restos.",
+        "zh": "越南国防部一份关于寻找和归葬遗骸的报告中，抗美战争中登记为“liệt sĩ”（烈士，即因公牺牲者的官方称谓）的人数。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "north-vietnam-and-allies",
+      "who": {
+        "en": "PAVN and Viet Cong",
+        "es": "EPV y Viet Cong",
+        "zh": "越南人民军和越共"
+      },
       "low": 666000,
       "high": 937000,
       "sources": [
@@ -1394,6 +1507,42 @@
     {
       "citation": "Wikipedia (français). \"Guerre du Viêt Nam.\"",
       "url": "https://fr.wikipedia.org/wiki/Guerre_du_Viêt_Nam"
+    },
+    {
+      "citation": "Gleditsch, N. P., Wallensteen, P., Eriksson, M., Sollenberg, M. & Strand, H. (2002). Armed Conflict 1946–2001: A New Dataset. Journal of Peace Research 39(5); Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP/PRIO Armed Conflict Dataset v26.1, conflicts 262 (Laos), 293 (Vietnam) and 300 (Cambodia), CC BY 4.0",
+      "url": "https://ucdp.uu.se/downloads/"
+    },
+    {
+      "citation": "Pribbenow, Merle. \"North Korean Pilots in the Skies over Vietnam.\" NKIDP e-Dossier no. 2. Woodrow Wilson International Center for Scholars, November 2011.",
+      "url": "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/NKIDP_eDossier_2_North_Korean_Pilots_in_Vietnam_War.pdf"
+    },
+    {
+      "citation": "Lê Minh Nam. \"Chuyên gia quân sự Liên Xô và hành trình 10 năm hỗ trợ Việt Nam chống Mỹ, cứu nước.\" VietnamNet, 2025.",
+      "url": "https://vietnamnet.vn/chuyen-gia-quan-su-lien-xo-va-10-nam-ho-tro-viet-nam-chong-my-cuu-nuoc-2389949.html"
+    },
+    {
+      "citation": "Wikipedia (中文). \"抗美援越.\"",
+      "url": "https://zh.wikipedia.org/wiki/抗美援越"
+    },
+    {
+      "citation": "Villard, Erik. \"Were We Right to Be Afraid of China During the Vietnam War?\" HistoryNet, 27 April 2022.",
+      "url": "https://historynet.com/china-fears-in-vietnam/"
+    },
+    {
+      "citation": "Ministry of Defence of Vietnam, General Political Department, Policy Department. \"Chuyên đề 4: Công tác tìm kiếm, quy tập hài cốt liệt sĩ từ nay đến năm 2020 và những năm tiếp theo\" (2015), archived copy.",
+      "url": "https://web.archive.org/web/20230404230151/http://datafile.chinhsachquandoi.gov.vn/Qu%E1%BA%A3n%20l%C3%BD%20ch%E1%BB%89%20%C4%91%E1%BA%A1o/Chuy%C3%AAn%20%C4%91%E1%BB%81%204.doc"
+    },
+    {
+      "citation": "Wikipedia (English). \"Battle of Ap Bac.\"",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Ap_Bac"
+    },
+    {
+      "citation": "Wikipedia (English). \"Siege of Khe Sanh.\"",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Khe_Sanh"
+    },
+    {
+      "citation": "Wikipedia (English). \"Operation Homecoming.\"",
+      "url": "https://en.wikipedia.org/wiki/Operation_Homecoming"
     }
   ]
 }
