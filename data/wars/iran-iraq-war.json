@@ -1,0 +1,480 @@
+{
+  "id": "iran-iraq-war",
+  "wikidataId": "Q82664",
+  "name": {
+    "en": "Iran–Iraq War",
+    "es": "Guerra Irán-Irak",
+    "zh": "两伊战争"
+  },
+  "aliases": [
+    "Iran-Iraq War",
+    "First Persian Gulf War",
+    "Imposed War",
+    "Sacred Defence",
+    "Guerra Irán-Iraq",
+    "Primera guerra del Golfo Pérsico",
+    "伊朗—伊拉克战争",
+    "两伊冲突"
+  ],
+  "altNames": [
+    {
+      "text": "جنگ تحمیلی",
+      "lang": "fa",
+      "usedBy": {
+        "en": "Iran",
+        "es": "Irán",
+        "zh": "伊朗"
+      },
+      "gloss": {
+        "en": "The Imposed War",
+        "es": "La guerra impuesta",
+        "zh": "强加的战争"
+      }
+    },
+    {
+      "text": "دفاع مقدس",
+      "lang": "fa",
+      "usedBy": {
+        "en": "Iran",
+        "es": "Irán",
+        "zh": "伊朗"
+      },
+      "gloss": {
+        "en": "The Sacred Defence",
+        "es": "La defensa sagrada",
+        "zh": "神圣防御"
+      }
+    }
+  ],
+  "description": {
+    "en": "After the 1979 revolution in Iran, Iraq's president Saddam Hussein and Iran's new leader Ayatollah Khomeini each called for the other's overthrow, and the two states disputed their border on the Shatt al-Arab waterway. On 22 September 1980 Iraqi forces crossed into Iran. They took Khorramshahr after weeks of street fighting but stalled before Abadan. Iran mobilised its army, the Revolutionary Guards and Basij volunteers, broke the siege of Abadan in 1981 and took Khorramshahr back in May 1982. Saddam offered to withdraw; Iran refused and carried the war into Iraq, often with mass infantry assaults. The front then hardened into years of attrition. Iraq used chemical weapons from the mid-1980s, and both sides fired missiles at each other's cities and attacked oil tankers in the Gulf. Gulf states, led by Saudi Arabia and Kuwait, lent Iraq tens of billions of dollars, and the Soviet Union and France sold it arms; Syria and Libya backed Iran. In July 1988 Iran accepted UN Security Council Resolution 598, and a ceasefire took effect on 20 August, and neither side had won its aims; in 1990 Iraq accepted the pre-war border.",
+    "es": "Tras la revolución de 1979 en Irán, el presidente iraquí Sadam Huseín y el nuevo líder iraní, el ayatolá Jomeini, pidieron cada uno el derrocamiento del otro, y ambos Estados se disputaban la frontera del Shatt al-Arab. El 22 de septiembre de 1980 fuerzas iraquíes cruzaron a Irán. Tomaron Jorramchar tras semanas de combates calle por calle, pero quedaron detenidas ante Abadán. Irán movilizó su ejército, la Guardia Revolucionaria y voluntarios basij, rompió el sitio de Abadán en 1981 y volvió a tomar Jorramchar en mayo de 1982. Sadam ofreció retirarse; Irán se negó y llevó la guerra a Irak, a menudo con asaltos masivos de infantería. El frente se estancó después en años de desgaste. Irak usó armas químicas desde mediados de los años ochenta, y ambos bandos dispararon misiles contra las ciudades del otro y atacaron petroleros en el Golfo. Los Estados del Golfo, encabezados por Arabia Saudí y Kuwait, prestaron a Irak decenas de miles de millones de dólares, y la Unión Soviética y Francia le vendieron armas; Siria y Libia apoyaron a Irán. En julio de 1988 Irán aceptó la Resolución 598 del Consejo de Seguridad de la ONU, y el 20 de agosto entró en vigor un alto el fuego, sin que ningún bando lograra sus objetivos; en 1990 Irak aceptó la frontera de antes de la guerra.",
+    "zh": "1979年伊朗革命后，伊拉克总统萨达姆·侯赛因与伊朗新领袖霍梅尼互相号召推翻对方，两国还在阿拉伯河的边界问题上存在争议。1980年9月22日，伊拉克部队越境进入伊朗。他们经过数周巷战攻占霍拉姆沙赫尔，却在阿巴丹城下受阻。伊朗动员军队、革命卫队和巴斯基志愿者，于1981年解除阿巴丹之围，并于1982年5月重新攻占霍拉姆沙赫尔。萨达姆提出撤军，伊朗拒绝，并将战火引入伊拉克境内，常以大规模步兵冲锋作战。此后战线僵持，进入多年消耗战。伊拉克自80年代中期起使用化学武器，双方都向对方城市发射导弹，并在海湾袭击油轮。以沙特阿拉伯和科威特为首的海湾国家向伊拉克提供数百亿美元贷款，苏联和法国向其出售武器；叙利亚和利比亚支持伊朗。1988年7月，伊朗接受联合国安理会第598号决议，8月20日停火生效，双方都未实现战争目标；1990年伊拉克接受了战前边界。"
+  },
+  "outcome": {
+    "en": "A UN-brokered ceasefire under Resolution 598 took effect on 20 August 1988 with neither side victorious; in 1990 Iraq withdrew from the last Iranian land it held and accepted the pre-war border.",
+    "es": "El 20 de agosto de 1988 entró en vigor un alto el fuego negociado por la ONU según la Resolución 598, sin vencedor; en 1990 Irak se retiró del último territorio iraní que ocupaba y aceptó la frontera de antes de la guerra.",
+    "zh": "1988年8月20日，联合国斡旋的停火根据第598号决议生效，双方均未获胜；1990年伊拉克撤出其占据的最后一片伊朗领土，并接受战前边界。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1980,
+    "latestStart": 1980,
+    "earliestEnd": 1988,
+    "latestEnd": 1988,
+    "sources": [
+      {
+        "citation": "Burch, Kurt. \"Iran-Iraq War.\" EBSCO Research Starters: History, 2021.",
+        "url": "https://www.ebsco.com/research-starters/history/iran-iraq-war"
+      },
+      {
+        "citation": "Wikipedia (English). \"Iran–Iraq War.\"",
+        "url": "https://en.wikipedia.org/wiki/Iran–Iraq_War"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "iran",
+      "label": {
+        "en": "Iran",
+        "es": "Irán",
+        "zh": "伊朗"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "IR",
+          "role": "belligerent",
+          "today": [
+            "IR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iraq",
+      "label": {
+        "en": "Iraq",
+        "es": "Irak",
+        "zh": "伊拉克"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "IQ",
+          "role": "belligerent",
+          "today": [
+            "IQ"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "iraqi-forces-take-khorramshahr",
+      "start": 1980,
+      "title": {
+        "en": "22 September: Iraqi forces cross into Iran; in the south they take Khorramshahr after weeks of street fighting and besiege Abadan",
+        "es": "22 de septiembre: fuerzas iraquíes cruzan a Irán; en el sur toman Jorramchar tras semanas de combates calle por calle y sitian Abadán",
+        "zh": "9月22日：伊拉克部队越境进入伊朗；在南线经过数周巷战攻占霍拉姆沙赫尔，并包围阿巴丹"
+      },
+      "sources": [
+        {
+          "citation": "Burch, Kurt. \"Iran-Iraq War.\" EBSCO Research Starters: History, 2021.",
+          "url": "https://www.ebsco.com/research-starters/history/iran-iraq-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Iran–Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iran–Iraq_War"
+        },
+        {
+          "citation": "Wikipedia (中文). \"两伊战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/两伊战争"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Khorramshahr",
+          "es": "Jorramchar",
+          "zh": "霍拉姆沙赫尔"
+        },
+        "lat": 30.441,
+        "lon": 48.184
+      }
+    },
+    {
+      "id": "siege-of-abadan-broken",
+      "start": 1981,
+      "title": {
+        "en": "September: Iranian forces break the Iraqi siege of Abadan",
+        "es": "Septiembre: las fuerzas iraníes rompen el sitio iraquí de Abadán",
+        "zh": "9月：伊朗军队解除伊拉克对阿巴丹的包围"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Iran–Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iran–Iraq_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra Irán-Irak.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_Irán-Irak"
+        },
+        {
+          "citation": "Wikipedia (中文). \"两伊战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/两伊战争"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Abadan",
+          "es": "Abadán",
+          "zh": "阿巴丹"
+        },
+        "lat": 30.339,
+        "lon": 48.304
+      },
+      "wikidataId": "Q815104"
+    },
+    {
+      "id": "iran-retakes-khorramshahr",
+      "start": 1982,
+      "title": {
+        "en": "24 May: Iranian forces take Khorramshahr back and capture thousands of Iraqi soldiers; Iraq pulls back towards the border",
+        "es": "24 de mayo: las fuerzas iraníes vuelven a tomar Jorramchar y capturan a miles de soldados iraquíes; Irak se repliega hacia la frontera",
+        "zh": "5月24日：伊朗军队重新攻占霍拉姆沙赫尔，俘虏数千名伊拉克士兵；伊拉克向边界后撤"
+      },
+      "sources": [
+        {
+          "citation": "Burch, Kurt. \"Iran-Iraq War.\" EBSCO Research Starters: History, 2021.",
+          "url": "https://www.ebsco.com/research-starters/history/iran-iraq-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Operation Beit ol-Moqaddas.\"",
+          "url": "https://en.wikipedia.org/wiki/Operation_Beit_ol-Moqaddas"
+        },
+        {
+          "citation": "Wikipedia (English). \"Iran–Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iran–Iraq_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Khorramshahr",
+          "es": "Jorramchar",
+          "zh": "霍拉姆沙赫尔"
+        },
+        "lat": 30.441,
+        "lon": 48.184
+      },
+      "wikidataId": "Q3267731"
+    },
+    {
+      "id": "operation-ramadan",
+      "start": 1982,
+      "title": {
+        "en": "13 July: Iran attacks into Iraq east of Basra with mass infantry assaults; the offensive fails to take the city",
+        "es": "13 de julio: Irán ataca dentro de Irak al este de Basora con asaltos masivos de infantería; la ofensiva no logra tomar la ciudad",
+        "zh": "7月13日：伊朗以大规模步兵冲锋攻入伊拉克巴士拉以东；攻势未能夺取该城"
+      },
+      "sources": [
+        {
+          "citation": "Burch, Kurt. \"Iran-Iraq War.\" EBSCO Research Starters: History, 2021.",
+          "url": "https://www.ebsco.com/research-starters/history/iran-iraq-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Operation Ramadan.\"",
+          "url": "https://en.wikipedia.org/wiki/Operation_Ramadan"
+        },
+        {
+          "citation": "Wikipedia (English). \"Iran–Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iran–Iraq_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Basra",
+          "es": "Basora",
+          "zh": "巴士拉"
+        },
+        "lat": 30.515,
+        "lon": 47.81
+      },
+      "wikidataId": "Q919834"
+    },
+    {
+      "id": "war-of-the-cities",
+      "start": 1984,
+      "title": {
+        "en": "From 1984: in the \"war of the cities\" Iraq strikes Tehran and other Iranian cities with aircraft and missiles, and Iran fires missiles at Baghdad; both sides attack oil tankers in the Gulf",
+        "es": "Desde 1984: en la «guerra de las ciudades» Irak ataca Teherán y otras ciudades iraníes con aviones y misiles, e Irán lanza misiles contra Bagdad; ambos bandos atacan petroleros en el Golfo",
+        "zh": "1984年起：在\"城市战\"中，伊拉克用飞机和导弹袭击德黑兰等伊朗城市，伊朗向巴格达发射导弹；双方都在海湾袭击油轮"
+      },
+      "sources": [
+        {
+          "citation": "Burch, Kurt. \"Iran-Iraq War.\" EBSCO Research Starters: History, 2021.",
+          "url": "https://www.ebsco.com/research-starters/history/iran-iraq-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Iran–Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iran–Iraq_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra Irán-Irak.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_Irán-Irak"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tehran",
+          "es": "Teherán",
+          "zh": "德黑兰"
+        },
+        "lat": 35.689,
+        "lon": 51.39
+      }
+    },
+    {
+      "id": "halabja-chemical-attack",
+      "start": 1988,
+      "title": {
+        "en": "16 March: after Iranian forces and Kurdish fighters take Halabja, Iraqi aircraft attack the town with chemical weapons, killing thousands of Kurdish civilians",
+        "es": "16 de marzo: después de que fuerzas iraníes y combatientes kurdos toman Halabja, aviones iraquíes atacan la ciudad con armas químicas y matan a miles de civiles kurdos",
+        "zh": "3月16日：伊朗军队和库尔德武装攻占哈拉卜贾后，伊拉克飞机用化学武器袭击该镇，数千名库尔德平民死亡"
+      },
+      "sources": [
+        {
+          "citation": "Burch, Kurt. \"Iran-Iraq War.\" EBSCO Research Starters: History, 2021.",
+          "url": "https://www.ebsco.com/research-starters/history/iran-iraq-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Halabja massacre.\"",
+          "url": "https://en.wikipedia.org/wiki/Halabja_massacre"
+        },
+        {
+          "citation": "Wikipedia (English). \"Iran–Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iran–Iraq_War"
+        }
+      ],
+      "note": {
+        "en": "Estimates of the dead range from about 3,200 to 5,000; EBSCO's research starter gives 5,000.",
+        "es": "Las estimaciones de muertos van de unos 3.200 a 5.000; el artículo de EBSCO da 5.000.",
+        "zh": "死亡人数估计从约3200人到5000人不等；EBSCO的条目为5000人。"
+      },
+      "place": {
+        "name": {
+          "en": "Halabja",
+          "es": "Halabja",
+          "zh": "哈拉卜贾"
+        },
+        "lat": 35.183,
+        "lon": 45.983
+      },
+      "wikidataId": "Q579179"
+    },
+    {
+      "id": "iran-accepts-resolution-598",
+      "start": 1988,
+      "title": {
+        "en": "July: Iran accepts UN Security Council Resolution 598; Khomeini likens the decision to drinking poison. The ceasefire takes effect on 20 August",
+        "es": "Julio: Irán acepta la Resolución 598 del Consejo de Seguridad de la ONU; Jomeini compara la decisión con beber veneno. El alto el fuego entra en vigor el 20 de agosto",
+        "zh": "7月：伊朗接受联合国安理会第598号决议，霍梅尼将这一决定比作饮下毒酒。停火于8月20日生效"
+      },
+      "sources": [
+        {
+          "citation": "Burch, Kurt. \"Iran-Iraq War.\" EBSCO Research Starters: History, 2021.",
+          "url": "https://www.ebsco.com/research-starters/history/iran-iraq-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Iran–Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iran–Iraq_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra Irán-Irak.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_Irán-Irak"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tehran",
+          "es": "Teherán",
+          "zh": "德黑兰"
+        },
+        "lat": 35.689,
+        "lon": 51.39
+      },
+      "wikidataId": "Q2359436"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Ruhollah Khomeini",
+        "es": "Ruhollah Jomeini",
+        "zh": "鲁霍拉·霍梅尼"
+      },
+      "side": "iran",
+      "role": {
+        "en": "Supreme Leader of Iran",
+        "es": "Líder supremo de Irán",
+        "zh": "伊朗最高领袖"
+      },
+      "wikidataId": "Q38823"
+    },
+    {
+      "name": {
+        "en": "Ali Khamenei",
+        "es": "Alí Jamenei",
+        "zh": "阿里·哈梅内伊"
+      },
+      "side": "iran",
+      "role": {
+        "en": "President of Iran from 1981",
+        "es": "Presidente de Irán desde 1981",
+        "zh": "1981年起任伊朗总统"
+      },
+      "wikidataId": "Q57336"
+    },
+    {
+      "name": {
+        "en": "Akbar Hashemi Rafsanjani",
+        "es": "Akbar Hashemí Rafsanyaní",
+        "zh": "阿克巴尔·哈什米·拉夫桑贾尼"
+      },
+      "side": "iran",
+      "role": {
+        "en": "Speaker of parliament; acting commander-in-chief in 1988",
+        "es": "Presidente del Parlamento; comandante en jefe interino en 1988",
+        "zh": "议长；1988年任代理武装部队总司令"
+      },
+      "wikidataId": "Q186111"
+    },
+    {
+      "name": {
+        "en": "Saddam Hussein",
+        "es": "Sadam Huseín",
+        "zh": "萨达姆·侯赛因"
+      },
+      "side": "iraq",
+      "role": {
+        "en": "President of Iraq",
+        "es": "Presidente de Irak",
+        "zh": "伊拉克总统"
+      },
+      "wikidataId": "Q1316"
+    },
+    {
+      "name": {
+        "en": "Ali Hassan al-Majid",
+        "es": "Alí Hasán al Mayid",
+        "zh": "阿里·哈桑·马吉德"
+      },
+      "side": "iraq",
+      "role": {
+        "en": "Commander in northern Iraq, 1987–1989",
+        "es": "Comandante en el norte de Irak, 1987–1989",
+        "zh": "1987年至1989年伊拉克北部指挥官"
+      },
+      "wikidataId": "Q214955"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "total-deaths",
+      "low": 367000,
+      "high": 1000000,
+      "sources": [
+        {
+          "citation": "White, Matthew. \"Iran-Iraq War (1980-88).\" Necrometrics: Death Tolls across History, compiling published estimates.",
+          "url": "https://necrometrics.com/20c300k.htm"
+        },
+        {
+          "citation": "Wikipedia (English). \"Iran–Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iran–Iraq_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra Irán-Irak.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_Irán-Irak"
+        },
+        {
+          "citation": "Burch, Kurt. \"Iran-Iraq War.\" EBSCO Research Starters: History, 2021.",
+          "url": "https://www.ebsco.com/research-starters/history/iran-iraq-war"
+        }
+      ],
+      "note": {
+        "en": "Soldiers and civilians on both sides. Published estimates run from about 367,000 (a conservative Western count cited by the historian Dilip Hiro) to about a million, a figure used in many reference works; the median of the estimates compiled by Necrometrics is about 700,000. Iran's and Iraq's own figures are lower than most independent ones. The tolls are contested.",
+        "es": "Soldados y civiles de ambos bandos. Las estimaciones publicadas van de unos 367.000 (un recuento occidental conservador que cita el historiador Dilip Hiro) a cerca de un millón, cifra que usan muchas obras de referencia; la mediana de las estimaciones reunidas por Necrometrics ronda los 700.000. Las cifras propias de Irán e Irak son más bajas que la mayoría de las independientes. Los balances se discuten.",
+        "zh": "双方军人和平民。已发表的估计从约36.7万人（历史学家迪利普·希罗引用的一项保守的西方统计）到约100万人（许多参考书采用的数字）不等；Necrometrics汇编的估计中位数约为70万人。伊朗和伊拉克官方数字低于大多数独立估计。死亡人数存在争议。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "citation": "Burch, Kurt. \"Iran-Iraq War.\" EBSCO Research Starters: History, 2021.",
+      "url": "https://www.ebsco.com/research-starters/history/iran-iraq-war"
+    },
+    {
+      "citation": "White, Matthew. \"Iran-Iraq War (1980-88).\" Necrometrics: Death Tolls across History, compiling published estimates.",
+      "url": "https://necrometrics.com/20c300k.htm"
+    },
+    {
+      "citation": "Wikipedia (English). \"Iran–Iraq War.\"",
+      "url": "https://en.wikipedia.org/wiki/Iran–Iraq_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra Irán-Irak.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_Irán-Irak"
+    },
+    {
+      "citation": "Wikipedia (中文). \"两伊战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/两伊战争"
+    }
+  ]
+}
