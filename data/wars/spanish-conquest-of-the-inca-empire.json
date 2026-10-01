@@ -1,0 +1,455 @@
+{
+  "id": "spanish-conquest-of-the-inca-empire",
+  "wikidataId": "Q636771",
+  "name": {
+    "en": "Spanish conquest of the Inca Empire",
+    "es": "Conquista del Imperio incaico",
+    "zh": "西班牙征服印加帝国"
+  },
+  "aliases": [
+    "Conquest of Peru",
+    "Conquista del Perú",
+    "Conquista española del Imperio incaico",
+    "征服秘鲁",
+    "Francisco Pizarro",
+    "Pizarro",
+    "皮萨罗",
+    "Atahualpa",
+    "阿塔瓦尔帕",
+    "Cajamarca",
+    "Manco Inca",
+    "Vilcabamba",
+    "Tahuantinsuyu"
+  ],
+  "description": {
+    "en": "In 1532 Francisco Pizarro led about 170 Spaniards into the Inca Empire, which was coming out of a civil war between the brothers Atahualpa and Huáscar and had been struck by epidemic disease. At Cajamarca on 16 November his men attacked Atahualpa's retinue and took him prisoner. Atahualpa paid a ransom in gold and silver, but the Spaniards executed him in 1533 and, joined by Huáscar's supporters, entered Cusco that November. Peoples who resented Inca rule, among them the Cañari, Huanca and Chachapoyas, fought alongside the Spaniards. In 1536 Manco Inca, the ruler the Spaniards had installed, broke with them and besieged Cusco for ten months. When the siege failed he withdrew to Vilcabamba, where a small Inca state held out. In 1572 forces sent by Viceroy Francisco de Toledo took Vilcabamba and executed its last ruler, Túpac Amaru.",
+    "es": "En 1532 Francisco Pizarro entró en el Imperio inca con unos 170 españoles, cuando el imperio salía de una guerra civil entre los hermanos Atahualpa y Huáscar y había sido golpeado por epidemias. En Cajamarca, el 16 de noviembre, sus hombres atacaron al séquito de Atahualpa y lo apresaron. Atahualpa pagó un rescate en oro y plata, pero los españoles lo ejecutaron en 1533 y, con el apoyo de los partidarios de Huáscar, entraron en el Cuzco en noviembre de ese año. Pueblos que rechazaban el dominio inca, entre ellos los cañaris, huancas y chachapoyas, combatieron junto a los españoles. En 1536 Manco Inca, el soberano que los españoles habían instalado, rompió con ellos y sitió el Cuzco durante diez meses. Tras el fracaso del sitio se retiró a Vilcabamba, donde resistió un pequeño estado inca. En 1572 fuerzas enviadas por el virrey Francisco de Toledo tomaron Vilcabamba y ejecutaron a su último soberano, Túpac Amaru.",
+    "zh": "1532年，弗朗西斯科·皮萨罗率约170名西班牙人进入印加帝国；当时帝国刚经历阿塔瓦尔帕与瓦斯卡尔兄弟之间的内战，又遭疫病打击。11月16日，皮萨罗的部下在卡哈马卡袭击阿塔瓦尔帕的随从，将其俘虏。阿塔瓦尔帕交付了金银赎金，但西班牙人于1533年将他处决，并在瓦斯卡尔支持者的协助下于同年11月进入库斯科。卡尼亚利人、万卡人和查查波亚人等不满印加统治的民族与西班牙人并肩作战。1536年，西班牙人扶立的印加君主曼科·印卡与其决裂，围攻库斯科达十个月。围城失败后，他退往比尔卡班巴，一个小型印加国家在那里坚持下来。1572年，总督弗朗西斯科·德·托莱多派兵攻占比尔卡班巴，处决其最后一位君主图帕克·阿马鲁。"
+  },
+  "outcome": {
+    "en": "Spanish forces took Vilcabamba, the last Inca stronghold, in 1572; the former Inca lands became part of the Spanish Viceroyalty of Peru.",
+    "es": "Las fuerzas españolas tomaron Vilcabamba, el último reducto inca, en 1572; las antiguas tierras incas pasaron a formar parte del Virreinato del Perú.",
+    "zh": "1572年，西班牙军队攻占印加最后的据点比尔卡班巴；原印加领土并入西班牙的秘鲁总督辖区。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "conquest",
+    "earliestStart": 1532,
+    "latestStart": 1532,
+    "earliestEnd": 1572,
+    "latestEnd": 1572,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Spanish conquest of the Inca Empire.\"",
+        "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire"
+      },
+      {
+        "citation": "Wikipedia (español). \"Conquista del Imperio incaico.\"",
+        "url": "https://es.wikipedia.org/wiki/Conquista_del_Imperio_incaico"
+      },
+      {
+        "citation": "Hudson, Rex A., ed. Peru: A Country Study. Library of Congress, Federal Research Division, 1992. \"The Spanish Conquest, 1532–72\" and \"Consolidation of Control.\"",
+        "url": "http://www.country-data.com/cgi-bin/query/r-10203.html"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "pizarro-and-allies",
+      "label": {
+        "en": "Pizarro's expedition and its Indigenous allies",
+        "es": "La expedición de Pizarro y sus aliados indígenas",
+        "zh": "皮萨罗远征队及其原住民盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Pizarro's expedition, for the Crown of Castile",
+            "es": "La expedición de Pizarro, por la Corona de Castilla",
+            "zh": "皮萨罗远征队（为卡斯蒂利亚王室）"
+          },
+          "role": "belligerent",
+          "today": [
+            "ES"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Huáscar's faction of the Inca nobility",
+            "es": "Facción de Huáscar de la nobleza inca",
+            "zh": "印加贵族中的瓦斯卡尔派"
+          },
+          "role": "belligerent",
+          "today": [
+            "PE"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Cañari",
+            "es": "Cañaris",
+            "zh": "卡尼亚利人"
+          },
+          "role": "belligerent",
+          "today": [
+            "EC"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Huanca",
+            "es": "Huancas",
+            "zh": "万卡人"
+          },
+          "role": "belligerent",
+          "today": [
+            "PE"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Chachapoyas",
+            "es": "Chachapoyas",
+            "zh": "查查波亚人"
+          },
+          "role": "belligerent",
+          "today": [
+            "PE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inca-empire",
+      "label": {
+        "en": "The Inca Empire and, from 1537, the Inca state of Vilcabamba",
+        "es": "El Imperio inca y, desde 1537, el estado inca de Vilcabamba",
+        "zh": "印加帝国及1537年起的比尔卡班巴印加国家"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "inca",
+          "role": "belligerent",
+          "today": [
+            "PE",
+            "EC"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Neo-Inca State of Vilcabamba",
+            "es": "Estado neoincaico de Vilcabamba",
+            "zh": "比尔卡班巴的新印加国"
+          },
+          "role": "belligerent",
+          "today": [
+            "PE"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "quito-taken",
+      "start": 1534,
+      "title": {
+        "en": "Sebastián de Belalcázar, with Cañari allies, defeats Rumiñahui's army near Mount Chimborazo and takes Quito",
+        "es": "Sebastián de Belalcázar, con aliados cañaris, derrota al ejército de Rumiñahui cerca del Chimborazo y toma Quito",
+        "zh": "塞巴斯蒂安·德·贝拉尔卡萨尔在卡尼亚利盟友协助下，于钦博拉索山附近击败卢米尼亚维的军队，攻占基多"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of the Inca Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Pizarro Conquers the Incas in Peru.\" EBSCO Research Starters, 2022.",
+          "url": "https://www.ebsco.com/research-starters/history/pizarro-conquers-incas-peru"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista del Imperio incaico.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_del_Imperio_incaico"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Quito",
+          "es": "Quito",
+          "zh": "基多"
+        },
+        "lat": -0.22,
+        "lon": -78.5125
+      }
+    },
+    {
+      "id": "siege-of-cusco",
+      "start": 1536,
+      "end": 1537,
+      "title": {
+        "en": "Manco Inca's army besieges the Spaniards and their Indigenous allies in Cusco for about ten months; it cannot take the city",
+        "es": "El ejército de Manco Inca sitia durante unos diez meses a los españoles y sus aliados indígenas en el Cuzco; no logra tomar la ciudad",
+        "zh": "曼科·印卡的军队围攻困守库斯科的西班牙人及其原住民盟友约十个月，未能攻下该城"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Siege of Cusco.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Cusco"
+        },
+        {
+          "citation": "Wikipedia (español). \"Sitio del Cuzco.\"",
+          "url": "https://es.wikipedia.org/wiki/Sitio_del_Cuzco"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Pizarro Conquers the Incas in Peru.\" EBSCO Research Starters, 2022.",
+          "url": "https://www.ebsco.com/research-starters/history/pizarro-conquers-incas-peru"
+        },
+        {
+          "citation": "Hudson, Rex A., ed. Peru: A Country Study. Library of Congress, Federal Research Division, 1992. \"The Spanish Conquest, 1532–72\" and \"Consolidation of Control.\"",
+          "url": "http://www.country-data.com/cgi-bin/query/r-10203.html"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Cusco",
+          "es": "Cuzco",
+          "zh": "库斯科"
+        },
+        "lat": -13.5169,
+        "lon": -71.9786
+      },
+      "wikidataId": "Q2398589"
+    },
+    {
+      "id": "battle-of-ollantaytambo",
+      "start": 1537,
+      "title": {
+        "en": "At Ollantaytambo Manco Inca's forces hold terraces and flood the plain, driving back Hernando Pizarro's attack; Manco later withdraws to Vilcabamba",
+        "es": "En Ollantaytambo las fuerzas de Manco Inca resisten desde las terrazas e inundan la llanura, rechazando el ataque de Hernando Pizarro; después Manco se retira a Vilcabamba",
+        "zh": "在奥扬泰坦博，曼科·印卡的部队据守梯田并引水淹没平原，击退埃尔南多·皮萨罗的进攻；曼科随后退往比尔卡班巴"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Battle of Ollantaytambo.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Ollantaytambo"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla de Ollantaytambo.\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_Ollantaytambo"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ollantaytambo",
+          "es": "Ollantaytambo",
+          "zh": "奥扬泰坦博"
+        },
+        "lat": -13.2581,
+        "lon": -72.2633
+      },
+      "wikidataId": "Q2338569"
+    }
+  ],
+  "cultureEvents": [
+    {
+      "culture": "inca",
+      "event": "cajamarca"
+    },
+    {
+      "culture": "inca",
+      "event": "fall-of-cusco"
+    },
+    {
+      "culture": "inca",
+      "event": "vilcabamba"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Francisco Pizarro",
+        "es": "Francisco Pizarro",
+        "zh": "弗朗西斯科·皮萨罗"
+      },
+      "side": "pizarro-and-allies",
+      "role": {
+        "en": "Leader of the expedition and governor",
+        "es": "Jefe de la expedición y gobernador",
+        "zh": "远征队首领、总督"
+      },
+      "wikidataId": "Q44741"
+    },
+    {
+      "name": {
+        "en": "Hernando Pizarro",
+        "es": "Hernando Pizarro",
+        "zh": "埃尔南多·皮萨罗"
+      },
+      "side": "pizarro-and-allies",
+      "role": {
+        "en": "Commanded the Spaniards in Cusco during the siege",
+        "es": "Mandó a los españoles en el Cuzco durante el sitio",
+        "zh": "围城期间库斯科西班牙守军指挥官"
+      },
+      "wikidataId": "Q719855"
+    },
+    {
+      "name": {
+        "en": "Diego de Almagro",
+        "es": "Diego de Almagro",
+        "zh": "迭戈·德·阿尔马格罗"
+      },
+      "side": "pizarro-and-allies",
+      "role": {
+        "en": "Pizarro's partner; brought reinforcements in 1533",
+        "es": "Socio de Pizarro; llevó refuerzos en 1533",
+        "zh": "皮萨罗的合伙人，1533年率援军到达"
+      },
+      "wikidataId": "Q207668"
+    },
+    {
+      "name": {
+        "en": "Sebastián de Belalcázar",
+        "es": "Sebastián de Belalcázar",
+        "zh": "塞巴斯蒂安·德·贝拉尔卡萨尔"
+      },
+      "side": "pizarro-and-allies",
+      "role": {
+        "en": "Took Quito in 1534",
+        "es": "Tomó Quito en 1534",
+        "zh": "1534年攻占基多"
+      },
+      "wikidataId": "Q332070"
+    },
+    {
+      "name": {
+        "en": "Francisco de Toledo",
+        "es": "Francisco de Toledo",
+        "zh": "弗朗西斯科·德·托莱多"
+      },
+      "side": "pizarro-and-allies",
+      "role": {
+        "en": "Viceroy of Peru; sent the 1572 expedition to Vilcabamba",
+        "es": "Virrey del Perú; envió la expedición de 1572 a Vilcabamba",
+        "zh": "秘鲁总督，1572年派兵远征比尔卡班巴"
+      },
+      "wikidataId": "Q186805"
+    },
+    {
+      "name": {
+        "en": "Atahualpa",
+        "es": "Atahualpa",
+        "zh": "阿塔瓦尔帕"
+      },
+      "side": "inca-empire",
+      "role": {
+        "en": "Sapa Inca; captured in 1532 and executed in 1533",
+        "es": "Sapa Inca; capturado en 1532 y ejecutado en 1533",
+        "zh": "萨帕印卡，1532年被俘，1533年被处决"
+      },
+      "wikidataId": "Q179577"
+    },
+    {
+      "name": {
+        "en": "Rumiñahui",
+        "es": "Rumiñahui",
+        "zh": "卢米尼亚维"
+      },
+      "side": "inca-empire",
+      "role": {
+        "en": "General who held the north around Quito",
+        "es": "General que defendió el norte en torno a Quito",
+        "zh": "据守基多一带北方的将领"
+      },
+      "wikidataId": "Q981509"
+    },
+    {
+      "name": {
+        "en": "Quizquiz",
+        "es": "Quizquiz",
+        "zh": "基斯基斯"
+      },
+      "side": "inca-empire",
+      "role": {
+        "en": "Atahualpa's general in the south",
+        "es": "General de Atahualpa en el sur",
+        "zh": "阿塔瓦尔帕在南方的将领"
+      },
+      "wikidataId": "Q2485991"
+    },
+    {
+      "name": {
+        "en": "Manco Inca",
+        "es": "Manco Inca",
+        "zh": "曼科·印卡·尤潘基"
+      },
+      "side": "inca-empire",
+      "role": {
+        "en": "Led the 1536 rising and founded the Vilcabamba state",
+        "es": "Dirigió el levantamiento de 1536 y fundó el estado de Vilcabamba",
+        "zh": "领导1536年起事，建立比尔卡班巴国家"
+      },
+      "wikidataId": "Q332049"
+    },
+    {
+      "name": {
+        "en": "Túpac Amaru",
+        "es": "Túpac Amaru I",
+        "zh": "图帕克·阿马鲁"
+      },
+      "side": "inca-empire",
+      "role": {
+        "en": "Last ruler of Vilcabamba; executed in 1572",
+        "es": "Último soberano de Vilcabamba; ejecutado en 1572",
+        "zh": "比尔卡班巴最后一位君主，1572年被处决"
+      },
+      "wikidataId": "Q296269"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "inca"
+  ],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Spanish conquest of the Inca Empire.\"",
+      "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire"
+    },
+    {
+      "citation": "Wikipedia (español). \"Conquista del Imperio incaico.\"",
+      "url": "https://es.wikipedia.org/wiki/Conquista_del_Imperio_incaico"
+    },
+    {
+      "citation": "Wikipedia (中文). \"西班牙征服印加帝国.\"",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E5%BE%81%E6%9C%8D%E5%8D%B0%E5%8A%A0%E5%B8%9D%E5%9B%BD"
+    },
+    {
+      "citation": "Brown, Kendall W. \"Pizarro Conquers the Incas in Peru.\" EBSCO Research Starters, 2022.",
+      "url": "https://www.ebsco.com/research-starters/history/pizarro-conquers-incas-peru"
+    },
+    {
+      "citation": "Hudson, Rex A., ed. Peru: A Country Study. Library of Congress, Federal Research Division, 1992. \"The Spanish Conquest, 1532–72\" and \"Consolidation of Control.\"",
+      "url": "http://www.country-data.com/cgi-bin/query/r-10203.html"
+    },
+    {
+      "citation": "Wikipedia (English). \"Siege of Cusco.\"",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Cusco"
+    },
+    {
+      "citation": "Wikipedia (English). \"Battle of Ollantaytambo.\"",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Ollantaytambo"
+    }
+  ]
+}
