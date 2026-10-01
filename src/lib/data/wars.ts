@@ -11,10 +11,12 @@ export function warOuter(war: Dated): [number, number] {
   throw new Error("a war needs a period or ongoing");
 }
 
-/** The dates a row shows: the likely start, and the likely end or null while it goes on. */
-export function warSpan(war: Dated): { start: number; end: number | null } {
-  if (war.period) return { start: war.period.latestStart, end: war.period.earliestEnd };
-  if (war.ongoing) return { start: war.ongoing.latestStart, end: null };
+/** The dates a row shows: the likely start, and the likely end, or null and the asOf date while it goes on. */
+export type WarSpan = { start: number; end: number | null; asOf: string | null };
+
+export function warSpan(war: Dated): WarSpan {
+  if (war.period) return { start: war.period.latestStart, end: war.period.earliestEnd, asOf: null };
+  if (war.ongoing) return { start: war.ongoing.latestStart, end: null, asOf: war.ongoing.asOf };
   throw new Error("a war needs a period or ongoing");
 }
 

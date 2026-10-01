@@ -8,7 +8,8 @@ import { cn } from "@/lib/utils";
 import { toggleRegion } from "./region-filter";
 import { saveRegionFilter, useRegionFilter } from "./use-region-filter";
 
-function Chip({ pressed, onClick, children }: { pressed: boolean; onClick: () => void; children: ReactNode }) {
+/** A filter chip; RegionChips and the wars page's continent chips share its look. */
+export function Chip({ pressed, onClick, children }: { pressed: boolean; onClick: () => void; children: ReactNode }) {
   return (
     <button
       type="button"

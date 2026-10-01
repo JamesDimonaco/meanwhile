@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  formatIsoDate,
   formatYear,
   formatYearRange,
   fromCliopatriaYear,
@@ -170,5 +171,14 @@ describe("parseYearParam", () => {
 
   it.each([null, "", "abc", "1.5", "1200 BCE"])("rejects %j", (input) => {
     expect(parseYearParam(input)).toBeNull();
+  });
+});
+
+describe("formatIsoDate", () => {
+  it("writes a stored ISO date day first in every language, whatever the server's time zone", () => {
+    expect(formatIsoDate("2026-09-30", "en")).toBe("30 September 2026");
+    expect(formatIsoDate("2026-09-30", "es")).toBe("30 de septiembre de 2026");
+    expect(formatIsoDate("2026-09-30", "zh")).toBe("2026年9月30日");
+    expect(formatIsoDate("2022-01-01", "en")).toBe("1 January 2022");
   });
 });

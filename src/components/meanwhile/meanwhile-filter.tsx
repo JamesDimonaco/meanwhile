@@ -36,9 +36,9 @@ export function MeanwhileFilter({
   regions,
   cards,
 }: {
-  anchor: { id: string; name: string };
+  anchor: { id: string; name: string } | null;
   candidates: MeanwhileCandidate[];
-  anchorRegion: Region;
+  anchorRegion: Region | null;
   regions: Region[];
   cards: Record<string, MeanwhileCardData>;
 }) {
@@ -70,7 +70,7 @@ export function MeanwhileFilter({
                   aria-label={tMeanwhile("reanchor", { name: card.name })}
                   className="flex h-full min-w-0 flex-col gap-1.5 rounded-xl border border-border bg-card p-4 transition-colors hover:bg-muted"
                 >
-                  <span className="flex flex-wrap items-center gap-x-1.5 pe-24">
+                  <span className={`flex flex-wrap items-center gap-x-1.5 ${anchor ? "pe-24" : ""}`}>
                     <span className="font-medium text-foreground">{card.name}</span>
                     {card.nativeName && (
                       <span lang={card.nativeName.lang} className="text-muted-foreground">
@@ -92,14 +92,16 @@ export function MeanwhileFilter({
                   {card.fact && <p className="mt-1 text-sm text-foreground/90">{card.fact}</p>}
                 </Link>
                 {/* A sibling of the card link, not inside it: links can't nest. */}
-                <Link
-                  href={compareHref([anchor.id, id])}
-                  aria-label={tCompare("compareCardLabel", { a: anchor.name, b: card.name })}
-                  className="absolute end-3 top-3 inline-flex items-center gap-1 rounded-full border border-border bg-background px-2.5 py-1 text-xs font-medium after:absolute after:-inset-1.5 hover:bg-muted"
-                >
-                  <Columns2 aria-hidden className="size-3.5" />
-                  {tCompare("compareCard")}
-                </Link>
+                {anchor && (
+                  <Link
+                    href={compareHref([anchor.id, id])}
+                    aria-label={tCompare("compareCardLabel", { a: anchor.name, b: card.name })}
+                    className="absolute end-3 top-3 inline-flex items-center gap-1 rounded-full border border-border bg-background px-2.5 py-1 text-xs font-medium after:absolute after:-inset-1.5 hover:bg-muted"
+                  >
+                    <Columns2 aria-hidden className="size-3.5" />
+                    {tCompare("compareCard")}
+                  </Link>
+                )}
               </li>
             );
           })}

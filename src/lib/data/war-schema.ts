@@ -6,7 +6,6 @@ import { duplicates, LocalizedText, Period, Phase, Place, Source } from "./schem
 // disputed flag and its note work the same way.
 
 export const WAR_TIERS = ["flagship", "standard"] as const;
-export const WAR_EVENT_TYPES = ["battle", "siege", "massacre", "treaty", "fall", "other"] as const;
 export const CASUALTY_SCOPES = ["battle-deaths", "military-deaths", "civilian-deaths", "total-deaths"] as const;
 export const MEMBER_ROLES = ["belligerent", "supporter"] as const;
 /** A country page lists a war once per member; more than three is an empire's extent, not a member's home. */
@@ -69,7 +68,6 @@ export const WarEvent = z
     id: Id,
     start: Year,
     end: Year.optional(),
-    type: z.enum(WAR_EVENT_TYPES),
     title: LocalizedText,
     sources: z.array(Source).min(2, "events need at least 2 independent sources"),
     disputed: z.boolean().default(false),
@@ -81,11 +79,7 @@ export const WarEvent = z
   .refine((e) => e.end === undefined || e.start <= e.end, { message: "event end must be >= start" });
 
 /** A culture's own event shown in the war's list, by reference, so the two never drift apart. */
-export const CultureEventRef = z.strictObject({
-  culture: Id,
-  event: Id,
-  type: z.enum(WAR_EVENT_TYPES),
-});
+export const CultureEventRef = z.strictObject({ culture: Id, event: Id });
 
 export const Leader = z.strictObject({
   name: LocalizedText,
@@ -181,7 +175,6 @@ export type Side = z.infer<typeof Side>;
 export type AltName = z.infer<typeof AltName>;
 export type Ongoing = z.infer<typeof Ongoing>;
 export type WarEvent = z.infer<typeof WarEvent>;
-export type WarEventType = WarEvent["type"];
 export type CultureEventRef = z.infer<typeof CultureEventRef>;
 export type Leader = z.infer<typeof Leader>;
 export type Casualty = z.infer<typeof Casualty>;

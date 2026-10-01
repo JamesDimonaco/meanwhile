@@ -10,7 +10,7 @@ import { CultureStory } from "@/components/territory-map/culture-story";
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
-import { hasTerritoryMap, loadCulture, loadCultures, loadSuccession } from "@/lib/data/load";
+import { hasTerritoryMap, loadCulture, loadCultures, loadSuccession, loadWars } from "@/lib/data/load";
 import { isMachineTranslated, localize } from "@/lib/data/localize";
 import { defaultPeriod, eventWorld, meanwhileCandidates, successionFor, toCultureRef } from "@/lib/data/queries";
 import { regionsIn } from "@/components/filters/region-filter";
@@ -19,6 +19,8 @@ import { RegionDot } from "@/components/identity/region-dot";
 import { recordsHeld } from "@/lib/data/records";
 import { cultureDescription, cultureTitle } from "@/lib/data/culture-copy";
 import { pageAlternates } from "@/lib/seo";
+import { warsForCulture, warsShownIn } from "@/lib/data/wars";
+import { WarRow } from "@/components/wars/war-parts";
 
 export const dynamicParams = false;
 
@@ -63,6 +65,9 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
   }));
   const records = recordsHeld(id, [...refs.values()]);
   const tCompare = await getTranslations({ locale, namespace: "compare" });
+  const tWars = await getTranslations({ locale, namespace: "wars" });
+  const wars = warsForCulture(warsShownIn(loadWars(), locale), id);
+  const cultureNames = Object.fromEntries(cultures.map((c) => [c.id, localize(c.name, locale)]));
 
   return (
     <article className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-4">
@@ -124,6 +129,19 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           <CultureEvents culture={culture} eventWorld={world} />
         )}
       </section>
+
+      {wars.length > 0 && (
+        <section className="flex flex-col gap-3">
+          <h2 className="text-lg font-semibold tracking-tight">{tWars("cultureWars")}</h2>
+          <ol className="flex flex-col gap-3">
+            {wars.map((war) => (
+              <li key={war.id}>
+                <WarRow war={war} cultureNames={cultureNames} />
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
     </article>
   );
 }

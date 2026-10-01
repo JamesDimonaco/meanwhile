@@ -71,6 +71,16 @@ export function formatYearRange(
   return `${na}–${nb}${NBSP}${suffixLabel(locale, style, a.era)}`;
 }
 
+// en-GB, not en: user-facing dates are day first.
+const DATE_LOCALE: Record<Locale, string> = { en: "en-GB", es: "es", zh: "zh-Hans" };
+
+/** A stored YYYY-MM-DD date for display ("30 September 2026"), read as UTC so no time zone shifts the day. */
+export function formatIsoDate(iso: string, locale: Locale): string {
+  return new Intl.DateTimeFormat(DATE_LOCALE[locale], { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(
+    new Date(`${iso}T00:00:00Z`),
+  );
+}
+
 /** Call on the client: pages are prerendered, so server code runs at build time. */
 export function currentYear(): number {
   return new Date().getFullYear();

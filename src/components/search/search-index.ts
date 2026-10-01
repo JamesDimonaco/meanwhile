@@ -34,7 +34,7 @@ export type SearchResult = { type: "culture"; entry: SearchEntry } | { type: "ye
 // marks are dropped) so a phone keyboard without tone marks still matches
 // data's accented pinyin aliases. CJK text has no combining marks to strip,
 // so it passes through unchanged.
-function normalize(s: string): string {
+export function normalize(s: string): string {
   return s
     .normalize("NFKD")
     .replace(/\p{Diacritic}/gu, "")

@@ -10,6 +10,7 @@ import type map from "../../messages/en/map.json";
 import type meanwhile from "../../messages/en/meanwhile.json";
 import type scan from "../../messages/en/scan.json";
 import type timeline from "../../messages/en/timeline.json";
+import type wars from "../../messages/en/wars.json";
 
 // English files are the source of truth for message keys.
 declare module "next-intl" {
@@ -27,6 +28,7 @@ declare module "next-intl" {
       meanwhile: typeof meanwhile;
       scan: typeof scan;
       timeline: typeof timeline;
+      wars: typeof wars;
     };
   }
 }

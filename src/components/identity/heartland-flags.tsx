@@ -6,6 +6,19 @@ import today from "../../../data/today.json";
 // the component instead of being threaded through every page's props.
 const HEARTLAND: Record<string, readonly string[] | undefined> = today;
 
+/** One present-day country's flag. Decorative: always name the country beside or around it. */
+export function CountryFlag({ code }: { code: string }) {
+  return (
+    <Image
+      src={`/flags/${code.toLowerCase()}.svg`}
+      alt=""
+      width={16}
+      height={12}
+      className="h-3 w-4 shrink-0 rounded-[2px] ring-1 ring-foreground/15"
+    />
+  );
+}
+
 /**
  * Flags of the present-day countries where a culture's heartland was, with
  * "Heartland today: Peru" as tooltip and accessible name. `max` trims the
@@ -21,16 +34,7 @@ export function HeartlandFlags({ cultureId, max, withLabel }: { cultureId: strin
   const names = new Intl.DisplayNames([locale], { type: "region" });
   const countries = new Intl.ListFormat(locale, { type: "conjunction" }).format(codes.map((c) => names.of(c) ?? c));
   const label = t("heartlandToday", { countries });
-  const flags = codes.slice(0, max).map((code) => (
-    <Image
-      key={code}
-      src={`/flags/${code.toLowerCase()}.svg`}
-      alt=""
-      width={16}
-      height={12}
-      className="h-3 w-4 shrink-0 rounded-[2px] ring-1 ring-foreground/15"
-    />
-  ));
+  const flags = codes.slice(0, max).map((code) => <CountryFlag key={code} code={code} />);
 
   if (withLabel) {
     return (

@@ -51,7 +51,7 @@ function warJson(id: string, overrides: Record<string, unknown> = {}) {
       { id: "a", label: t("A"), members: [{ kind: "state", code: "ES", role: "belligerent", today: ["ES"] }] },
       { id: "b", label: t("B"), members: [{ kind: "culture", id: "aztec", role: "belligerent", today: ["MX"] }] },
     ],
-    events: [{ id: "battle", start: 1520, type: "battle", title: t("A battle"), sources: both, place: place(-98.2, 19.3) }],
+    events: [{ id: "battle", start: 1520, title: t("A battle"), sources: both, place: place(-98.2, 19.3) }],
     sources: [src],
     ...overrides,
   };
@@ -118,7 +118,7 @@ describe("wars", () => {
     const ongoing = { earliestStart: 2014, latestStart: 2014, asOf: "2026-09-30", sources: [src] };
     expect(errorsFor(warJson("w", { ongoing }))).toMatch(/exactly one of period/);
     expect(errorsFor(warJson("w", { period: undefined }))).toMatch(/exactly one of period/);
-    const events = [{ id: "e", start: 2022, type: "battle", title: t("e"), sources: both, place: place(30.5, 50.4) }];
+    const events = [{ id: "e", start: 2022, title: t("e"), sources: both, place: place(30.5, 50.4) }];
     expect(errorsFor(warJson("w", { period: undefined, ongoing, events }))).toBe("");
     expect(errorsFor(warJson("w", { period: undefined, ongoing: { ...ongoing, asOf: "30/09/2026" }, events }))).toMatch(/asOf/);
   });
@@ -137,7 +137,7 @@ describe("wars", () => {
     expect(errorsFor(warJson("w", { follows: "nope" }))).toMatch(/follows "nope", which has no file/);
     const earlier = warJson("earlier", {
       period: { id: "war", earliestStart: 1500, latestStart: 1500, earliestEnd: 1510, latestEnd: 1510, sources: [src] },
-      events: [{ id: "e", start: 1505, type: "battle", title: t("e"), sources: both, place: place(-98, 19) }],
+      events: [{ id: "e", start: 1505, title: t("e"), sources: both, place: place(-98, 19) }],
     });
     expect(run([warFile("earlier", earlier), warFile("w", warJson("w", { follows: "earlier" }))]).errors).toEqual([]);
     expect(
@@ -181,7 +181,7 @@ describe("wars", () => {
 
   describe("events", () => {
     const withEvent = (event: Record<string, unknown>) =>
-      warJson("w", { events: [{ id: "e", start: 1520, type: "battle", title: t("e"), sources: both, place: place(-98, 19), ...event }] });
+      warJson("w", { events: [{ id: "e", start: 1520, title: t("e"), sources: both, place: place(-98, 19), ...event }] });
 
     it("rejects an event outside the war's outer period", () => {
       expect(errorsFor(withEvent({ start: 1518 }))).toMatch(/event "e" \(1518\) is outside the war/);
@@ -194,28 +194,28 @@ describe("wars", () => {
     });
 
     it("resolves a culture event reference into the war's events", () => {
-      const result = run([warFile("w", warJson("w", { cultureEvents: [{ culture: "aztec", event: "fall-of-tenochtitlan", type: "siege" }] }))]);
+      const result = run([warFile("w", warJson("w", { cultureEvents: [{ culture: "aztec", event: "fall-of-tenochtitlan" }] }))]);
       expect(result.errors).toEqual([]);
       const events = result.wars[0].events;
-      expect(events.map((e) => [e.id, e.type, e.start])).toEqual([
-        ["battle", "battle", 1520],
-        ["fall-of-tenochtitlan", "siege", 1521],
+      expect(events.map((e) => [e.id, e.start])).toEqual([
+        ["battle", 1520],
+        ["fall-of-tenochtitlan", 1521],
       ]);
       expect(events[1].place?.name.en).toBe("Tenochtitlan");
     });
 
     it("rejects a reference to a missing culture event, or to one without a place", () => {
-      expect(errorsFor(warJson("w", { cultureEvents: [{ culture: "aztec", event: "nope", type: "siege" }] }))).toMatch(
+      expect(errorsFor(warJson("w", { cultureEvents: [{ culture: "aztec", event: "nope" }] }))).toMatch(
         /aztec has no event "nope"/,
       );
-      expect(errorsFor(warJson("w", { cultureEvents: [{ culture: "aztec", event: "e1", type: "other" }] }))).toMatch(
+      expect(errorsFor(warJson("w", { cultureEvents: [{ culture: "aztec", event: "e1" }] }))).toMatch(
         /aztec event "e1" has no place/,
       );
     });
 
     it("rejects an event id the war uses twice, counting references", () => {
-      const cultureEvents = [{ culture: "aztec", event: "fall-of-tenochtitlan", type: "siege" }];
-      const events = [{ id: "fall-of-tenochtitlan", start: 1521, type: "fall", title: t("e"), sources: both, place: place(-99, 19) }];
+      const cultureEvents = [{ culture: "aztec", event: "fall-of-tenochtitlan" }];
+      const events = [{ id: "fall-of-tenochtitlan", start: 1521, title: t("e"), sources: both, place: place(-99, 19) }];
       expect(errorsFor(warJson("w", { cultureEvents, events }))).toMatch(/duplicate event id "fall-of-tenochtitlan"/);
     });
   });
@@ -272,7 +272,7 @@ describe("wars", () => {
     const pinAt = (lon: number, lat: number) =>
       warJson("w", {
         period: { id: "war", earliestStart: 1500, latestStart: 1500, earliestEnd: 1999, latestEnd: 1999, sources: [src] },
-        events: [{ id: "e", start: 1950, type: "battle", title: t("e"), sources: both, place: place(lon, lat) }],
+        events: [{ id: "e", start: 1950, title: t("e"), sources: both, place: place(lon, lat) }],
       });
 
     it.each([
@@ -310,7 +310,7 @@ describe("wars", () => {
     const greek = (period: Record<string, number>, start: number) =>
       warJson("w", {
         period: { id: "war", sources: [src], ...period },
-        events: [{ id: "marathon", start, type: "battle", title: t("Marathon"), sources: both, place: place(23.96, 38.12) }],
+        events: [{ id: "marathon", start, title: t("Marathon"), sources: both, place: place(23.96, 38.12) }],
       });
 
     it("accepts a BCE war written in astronomical years", () => {

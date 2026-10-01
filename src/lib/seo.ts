@@ -6,8 +6,8 @@ import { OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
 // (metadataBase, sitemap, robots). No trailing slash.
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://meanwhile.dimonaco.co.uk").replace(/\/+$/, "");
 
-/** Site-relative path for a page: "" (home) | "timeline" | "credits" | "c/shang". */
-export type SeoPath = "" | "timeline" | "credits" | `c/${string}`;
+/** Site-relative path for a page: "" (home) | "timeline" | "credits" | "c/shang" | "wars" | "wars/mx" | "war/korean-war". */
+export type SeoPath = "" | "timeline" | "credits" | `c/${string}` | "wars" | `wars/${string}` | `war/${string}`;
 
 /** Every page's URL, matching next.config's trailingSlash: true. */
 export function localePath(locale: Locale, path: SeoPath): string {
@@ -20,12 +20,18 @@ export function absoluteUrl(pathname: string): string {
 
 /**
  * `alternates` for generateMetadata: canonical plus every locale's version of
- * the same page (hreflang), reciprocal by construction since every page
- * calls this with the same set of locales. x-default points at DEFAULT_LOCALE.
+ * the same page (hreflang), reciprocal by construction since every version
+ * calls this with the same set of locales. `locales` narrows that set for a
+ * page the review gate keeps out of some languages. x-default points at
+ * DEFAULT_LOCALE, which every page has.
  */
-export function pageAlternates(locale: Locale, path: SeoPath): { canonical: string; languages: Record<string, string> } {
+export function pageAlternates(
+  locale: Locale,
+  path: SeoPath,
+  locales: readonly Locale[] = LOCALES,
+): { canonical: string; languages: Record<string, string> } {
   const languages: Record<string, string> = {};
-  for (const l of LOCALES) languages[HTML_LANG[l]] = localePath(l, path);
+  for (const l of locales) languages[HTML_LANG[l]] = localePath(l, path);
   languages["x-default"] = localePath(DEFAULT_LOCALE, path);
   return { canonical: localePath(locale, path), languages };
 }
@@ -40,7 +46,7 @@ export function pageAlternates(locale: Locale, path: SeoPath): { canonical: stri
 export function openGraph(
   locale: Locale,
   siteName: string,
-  image: { path: Exclude<SeoPath, `c/${string}`>; alt: string },
+  image: { path: "" | "timeline" | "credits"; alt: string },
 ): NonNullable<Metadata["openGraph"]> {
   return {
     siteName,

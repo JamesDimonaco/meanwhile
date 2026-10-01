@@ -1,15 +1,55 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { LOCALES } from "@/i18n/locales";
 import { loadCultures } from "@/lib/data/load";
+import type { War } from "@/lib/data/war-schema";
 import sitemap from "./sitemap";
+
+// Two wars, one behind the review gate in es and zh: the sitemap must leave
+// those pages out exactly where the build doesn't generate them.
+vi.mock("@/lib/data/load", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("@/lib/data/load")>();
+  const t = (en: string) => ({ en });
+  const war = (id: string, code: string, sensitive: boolean): War => ({
+    id,
+    wikidataId: "Q1",
+    name: t(id),
+    aliases: [],
+    altNames: [],
+    description: t("d"),
+    outcome: t("o"),
+    tier: "standard",
+    sensitive,
+    reviewed: { es: false, zh: false },
+    period: { id: "p", earliestStart: 1900, latestStart: 1900, earliestEnd: 1901, latestEnd: 1901, sources: [], default: false, disputed: false },
+    sides: [
+      { id: "a", label: t("a"), members: [{ kind: "state", code, role: "belligerent", today: [code] }] },
+      { id: "b", label: t("b"), members: [{ kind: "state", code: "MX", role: "belligerent", today: ["MX"] }] },
+    ],
+    phases: [],
+    events: [],
+    leaders: [],
+    casualties: [],
+    cultures: [],
+    sources: [],
+  });
+  return { ...actual, loadWars: () => [war("open-war", "ES", false), war("gated-war", "KR", true)] };
+});
 
 describe("sitemap", () => {
   const rows = sitemap();
   const cultureCount = loadCultures().length;
+  const urls = rows.map((r) => r.url);
 
-  it("covers every culture in every locale, plus home/timeline/credits", () => {
-    const expected = (3 + cultureCount) * LOCALES.length;
+  it("covers every culture in every locale, home/timeline/credits, the wars list and each country, minus what the review gate hides", () => {
+    // wars, wars/es, wars/mx and war/open-war everywhere; wars/kr and war/gated-war in English only.
+    const expected = (3 + cultureCount + 4) * LOCALES.length + 2;
     expect(rows).toHaveLength(expected);
+  });
+
+  it("lists a gated war and its only country in English, and nowhere else", () => {
+    expect(urls.filter((u) => u.includes("/war/gated-war/"))).toEqual([expect.stringContaining("/en/war/gated-war/")]);
+    expect(urls.filter((u) => u.includes("/wars/kr/"))).toEqual([expect.stringContaining("/en/wars/kr/")]);
+    expect(urls.filter((u) => u.includes("/war/open-war/"))).toHaveLength(LOCALES.length);
   });
 
   it("lists every culture id at least once", () => {

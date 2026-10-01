@@ -3,13 +3,13 @@
 import { MapPin } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useLocale, useTranslations } from "next-intl";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { SourceList, type CultureEventsProps } from "@/components/culture/culture-events";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { ActiveCulture } from "@/lib/data/queries";
-import type { CultureEvent } from "@/lib/data/schema";
+import type { CultureEvent, Region } from "@/lib/data/schema";
 import { MapFrame } from "./map-frame";
 
 /** How far below the sticky map an event's top must pass to take over the map. */
@@ -20,13 +20,32 @@ const TerritoryMap = dynamic(() => import("./territory-map").then((m) => m.Terri
   loading: () => <MapFrame />,
 });
 
+/** What the story reads from an event: culture and war events both fit. */
+export type StoryEvent = Pick<CultureEvent, "id" | "start" | "end" | "title" | "sources" | "disputed" | "note" | "place">;
+
 /**
  * The events timeline paired with a sticky territory map: as the events
  * scroll, the map redraws the borders for the event in view and pins its
  * place. Rendered instead of CultureEvents when hasTerritoryMap(id).
  */
 export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
-  const events = [...culture.events].sort((a, b) => a.start - b.start);
+  return <EventStory events={culture.events} eventWorld={eventWorld} bordersId={culture.id} land={culture.region} />;
+}
+
+type EventStoryProps = {
+  events: readonly StoryEvent[];
+  eventWorld: CultureEventsProps["eventWorld"];
+  /** null: pins on plain land, no borders. */
+  bordersId: string | null;
+  land: Region | "world";
+  /** Draw every event's place faintly and fit the frame to them (a war's battles). */
+  allPins?: boolean;
+  nameSelf?: boolean;
+};
+
+/** CultureStory's map and list for any dated, placed events: a culture's, or a war's. */
+export function EventStory({ events: unsorted, eventWorld, bordersId, land, allPins = false, nameSelf = false }: EventStoryProps) {
+  const events = [...unsorted].sort((a, b) => a.start - b.start);
   const [activeId, setActiveId] = useState(events[0].id);
   const [openId, setOpenId] = useState<string | null>(null);
   const [mapWanted, setMapWanted] = useState(false);
@@ -82,6 +101,7 @@ export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
   }, []);
 
   const active = events.find((e) => e.id === activeId) ?? events[0];
+  const pins = useMemo(() => unsorted.flatMap((e) => e.place ?? []), [unsorted]);
 
   // No scroll anchoring: when a caption changes the map's height, the browser
   // would shift the page to hold the list still, moving the line under the
@@ -91,10 +111,12 @@ export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
       <div ref={mapSlot} className="sticky top-0 z-10 bg-background py-2">
         {mapWanted ? (
           <TerritoryMap
-            bordersId={culture.id}
-            land={culture.region}
+            bordersId={bordersId}
+            land={land}
             year={active.end ?? active.start}
             pin={active.place ?? null}
+            pins={allPins ? pins : undefined}
+            nameSelf={nameSelf}
           />
         ) : (
           <MapFrame />
@@ -120,7 +142,7 @@ export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
 }
 
 type EventItemProps = {
-  event: CultureEvent;
+  event: StoryEvent;
   world: ActiveCulture[];
   active: boolean;
   open: boolean;

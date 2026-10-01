@@ -18,10 +18,11 @@ export function MeanwhileCards({
   regions,
   locale,
 }: {
-  anchor: Pick<CultureRef, "id" | "name">;
+  /** The culture the cards compare against; a war page has none, so its cards get no compare link. */
+  anchor: Pick<CultureRef, "id" | "name"> | null;
   candidates: MeanwhileCandidate[];
   cards: Record<string, MeanwhileCard>;
-  anchorRegion: Region;
+  anchorRegion: Region | null;
   regions: Region[];
   locale: Locale;
 }) {
@@ -41,7 +42,7 @@ export function MeanwhileCards({
 
   return (
     <MeanwhileFilter
-      anchor={{ id: anchor.id, name: localize(anchor.name, locale) }}
+      anchor={anchor && { id: anchor.id, name: localize(anchor.name, locale) }}
       candidates={candidates}
       anchorRegion={anchorRegion}
       regions={regions}

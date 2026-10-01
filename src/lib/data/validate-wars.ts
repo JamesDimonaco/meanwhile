@@ -64,7 +64,16 @@ export function validateWars({ warFiles, registryIds, cultures, borders }: WarsI
         errors.push(`${at}: ${ref.culture} event "${ref.event}" has no place to pin; add one in the culture file`);
         continue;
       }
-      events.push({ ...event, type: ref.type, place: event.place });
+      events.push({
+        id: event.id,
+        start: event.start,
+        end: event.end,
+        title: event.title,
+        sources: event.sources,
+        disputed: event.disputed,
+        note: event.note,
+        place: event.place,
+      });
     }
     events.sort((a, b) => a.start - b.start || a.id.localeCompare(b.id));
 

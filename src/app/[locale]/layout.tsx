@@ -10,6 +10,8 @@ import { HTML_LANG } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
 import { routing } from "@/i18n/routing";
+import { loadWars } from "@/lib/data/load";
+import { localeGaps } from "@/lib/data/wars";
 import { openGraph, SITE_URL } from "@/lib/seo";
 import "../globals.css";
 
@@ -52,13 +54,16 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
               <div className="ms-auto flex items-center gap-2 whitespace-nowrap">
                 <ScanButton variant="header" />
                 <ExplainerTrigger />
-                <LanguageSwitcher />
+                <LanguageSwitcher gaps={localeGaps(loadWars())} />
               </div>
             </header>
             <main className="flex-1 px-4 pb-8">{children}</main>
             <footer className="flex flex-wrap justify-center gap-x-6 gap-y-2 border-t border-border px-4 py-4 text-sm">
               <Link href="/timeline" className="underline-offset-2 hover:underline">
                 {t("nav.timeline")}
+              </Link>
+              <Link href="/wars" className="underline-offset-2 hover:underline">
+                {t("nav.wars")}
               </Link>
               <Link href="/credits" className="underline-offset-2 hover:underline">
                 {t("nav.credits")}

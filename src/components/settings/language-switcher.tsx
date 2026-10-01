@@ -14,36 +14,41 @@ function remember(locale: Locale) {
   }
 }
 
+/** Pages that exist in some languages only (wars behind the review gate) -> the languages they exist in. */
+type Gaps = Record<string, Locale[]>;
+
 /**
  * One tap to switch — reachable everywhere, no menu to open on weak signal.
- * Keeps the query string, so the timeline stays on its ?year=.
+ * Keeps the query string, so the timeline stays on its ?year=. A page missing
+ * in a language links to the wars list there instead of a 404.
  */
-export function LanguageSwitcher() {
+export function LanguageSwitcher({ gaps }: { gaps: Gaps }) {
   // useSearchParams needs a Suspense boundary in a prerendered page. The static
   // HTML gets the same links without the query until hydration fills it in.
   return (
-    <Suspense fallback={<LanguageLinks search="" />}>
-      <LanguageLinksWithSearch />
+    <Suspense fallback={<LanguageLinks search="" gaps={gaps} />}>
+      <LanguageLinksWithSearch gaps={gaps} />
     </Suspense>
   );
 }
 
-function LanguageLinksWithSearch() {
+function LanguageLinksWithSearch({ gaps }: { gaps: Gaps }) {
   const query = useSearchParams().toString();
-  return <LanguageLinks search={query ? `?${query}` : ""} />;
+  return <LanguageLinks search={query ? `?${query}` : ""} gaps={gaps} />;
 }
 
-function LanguageLinks({ search }: { search: string }) {
+function LanguageLinks({ search, gaps }: { search: string; gaps: Gaps }) {
   const t = useTranslations("common");
   const current = useLocale();
   const pathname = usePathname();
+  const only = gaps[pathname.replace(/\/$/, "")];
   return (
     <nav aria-label={t("language")} className="flex items-center gap-1 text-sm">
       {LOCALES.map((locale, i) => (
         <span key={locale} className="flex items-center gap-1">
           {i > 0 && <span aria-hidden className="text-muted-foreground">·</span>}
           <Link
-            href={`${pathname}${search}`}
+            href={only && !only.includes(locale) ? "/wars" : `${pathname}${search}`}
             locale={locale}
             lang={locale}
             aria-current={locale === current ? "true" : undefined}

@@ -14,5 +14,6 @@ export const NAMESPACES = [
   "context",
   "compare",
   "scan",
+  "wars",
 ] as const;
 export type Namespace = (typeof NAMESPACES)[number];
