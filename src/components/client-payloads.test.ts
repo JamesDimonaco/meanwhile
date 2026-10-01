@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { readDataset } from "@/lib/data/load";
+import { loadWars, readDataset } from "@/lib/data/load";
 import type { Culture } from "@/lib/data/schema";
 import { toCultureRef } from "@/lib/data/queries";
-import { toSearchEntry } from "./search/search-index";
+import { toSearchEntry, warSearchEntries } from "./search/search-index";
 import { toTimelineCulture } from "./timeline/timeline-layout";
 
 // These shapes are serialised into page payloads for weak signal: sources and
@@ -36,5 +36,12 @@ describe("client payloads", () => {
   ])("%s carry no sources or notes", (_, toPayload) => {
     const keys = keysIn(cultures.map(toPayload));
     for (const key of LEAKS) expect(keys).not.toContain(key);
+  });
+
+  it("war search entries (home and wars search) carry no account, sides, sources or notes", () => {
+    const wars = loadWars();
+    for (const key of [...LEAKS.slice(0, 2), "description", "sides"]) expect(keysIn(wars)).toContain(key);
+    const keys = keysIn(warSearchEntries(wars, "en"));
+    for (const key of [...LEAKS, "description", "sides", "events"]) expect(keys).not.toContain(key);
   });
 });

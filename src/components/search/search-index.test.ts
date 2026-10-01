@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { search, type SearchEntry } from "./search-index";
+import { loadWars } from "@/lib/data/load";
+import type { War } from "@/lib/data/war-schema";
+import { search, searchWars, warSearchEntries, type SearchEntry } from "./search-index";
 
 function entry(overrides: Partial<SearchEntry>): SearchEntry {
   return {
@@ -79,5 +81,35 @@ describe("search", () => {
   it("caps results at the given limit", () => {
     const many: SearchEntry[] = Array.from({ length: 20 }, (_, i) => entry({ id: `culture-${i}` }));
     expect(search("shang", many, 3)).toHaveLength(3);
+  });
+});
+
+describe("war search", () => {
+  const base = loadWars()[0];
+  const open: War = { ...base, id: "open", name: { en: "Punic Wars", es: "Guerras púnicas", zh: "布匿战争" }, aliases: ["Bella Punica"], altNames: [], sensitive: false };
+  const gated: War = { ...open, id: "gated", name: { en: "Korean War", es: "Guerra de Corea", zh: "朝鲜战争" }, aliases: [], sensitive: true, reviewed: { es: false, zh: false } };
+
+  it("keeps a war behind the review gate out of the entries of a language it is hidden in", () => {
+    expect(warSearchEntries([open, gated], "es").map((e) => e.id)).toEqual(["open"]);
+    expect(warSearchEntries([open, gated], "zh").map((e) => e.id)).toEqual(["open"]);
+    expect(warSearchEntries([open, gated], "en").map((e) => e.id)).toEqual(["open", "gated"]);
+  });
+
+  it("names each entry in the page's language", () => {
+    expect(warSearchEntries([open], "zh")[0].name).toBe("布匿战争");
+  });
+
+  it("matches a war by any language's title or an alias, accent insensitive", () => {
+    const entries = warSearchEntries([open, gated], "en");
+    expect(searchWars("guerras punicas", entries).map((e) => e.id)).toEqual(["open"]);
+    expect(searchWars("布匿", entries).map((e) => e.id)).toEqual(["open"]);
+    expect(searchWars("bella", entries).map((e) => e.id)).toEqual(["open"]);
+  });
+
+  it("ranks an exact title above a substring match and caps the list", () => {
+    const entries = warSearchEntries([open, { ...open, id: "korea", name: { en: "War", es: "x", zh: "y" } }, gated], "en");
+    expect(searchWars("war", entries).map((e) => e.id)).toEqual(["korea", "gated", "open"]);
+    expect(searchWars("war", entries, 2)).toHaveLength(2);
+    expect(searchWars("  ", entries)).toEqual([]);
   });
 });

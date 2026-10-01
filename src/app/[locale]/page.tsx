@@ -6,9 +6,9 @@ import { SearchBox } from "@/components/search/search-box";
 import { SearchFromUrl } from "@/components/search/search-from-url";
 import { ScanButton } from "@/components/scan/scan-button";
 import { Link } from "@/i18n/navigation";
-import { loadCultures, loadPopular } from "@/lib/data/load";
+import { loadCultures, loadPopular, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
-import { toSearchEntry } from "@/components/search/search-index";
+import { toSearchEntry, warSearchEntries } from "@/components/search/search-index";
 import { YearRangeText } from "@/components/settings/year-text";
 import { RecordsStrip } from "@/components/context/records-strip";
 import { defaultPeriod } from "@/lib/data/queries";
@@ -41,6 +41,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const tCommon = await getTranslations("common");
   const cultures = loadCultures();
   const entries = cultures.map(toSearchEntry);
+  const wars = warSearchEntries(loadWars(), locale);
   const popular = loadPopular().map(toSearchEntry);
   const dated = cultures.map((c) => ({ id: c.id, name: c.name, period: defaultPeriod(c) }));
   const records = RECORD_KINDS.map((kind) => ({ kind, holder: recordHolder(kind, dated) }));
@@ -56,8 +57,8 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       <ScanButton variant="home" />
 
       {/* ?q= comes from a scan with no match; the page itself is prerendered. */}
-      <Suspense fallback={<SearchBox entries={entries} regions={regions} />}>
-        <SearchFromUrl entries={entries} regions={regions} />
+      <Suspense fallback={<SearchBox entries={entries} wars={wars} regions={regions} />}>
+        <SearchFromUrl entries={entries} wars={wars} regions={regions} />
       </Suspense>
 
       <section className="flex flex-col gap-3">

@@ -4,14 +4,11 @@ import { useId, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Chip } from "@/components/filters/region-chips";
 import { CountryFlag } from "@/components/identity/heartland-flags";
-import { normalize } from "@/components/search/search-index";
+import { normalize, searchWars, type WarSearchEntry } from "@/components/search/search-index";
 import { Link } from "@/i18n/navigation";
 import type { Continent } from "@/lib/data/countries";
-import type { CountryEntry, WarSpan } from "@/lib/data/wars";
+import type { CountryEntry } from "@/lib/data/wars";
 import { WarDates } from "./war-parts";
-
-/** What the search matches a war on, already in the page's language: no account, sides or sources. */
-export type WarSearchEntry = { id: string; name: string; terms: string[]; span: WarSpan };
 
 const matches = (query: string, terms: readonly string[]) => terms.some((term) => normalize(term).includes(query));
 
@@ -38,7 +35,7 @@ export function CountryList({
       ),
     [countries, picked, q],
   );
-  const shownWars = useMemo(() => (q ? wars.filter((w) => matches(q, w.terms)) : []), [wars, q]);
+  const shownWars = useMemo(() => searchWars(q, wars, wars.length), [wars, q]);
   const toggle = (c: Continent) => {
     const next = picked.includes(c) ? picked.filter((p) => p !== c) : [...picked, c];
     setPicked(next.length === continents.length ? [] : next);

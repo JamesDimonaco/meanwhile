@@ -49,5 +49,6 @@
   "cultures": "Cultures it ended or changed",
   "meanwhile": "Meanwhile, elsewhere in <year></year>",
   "onTimeline": "See this year on the world timeline",
-  "cultureWars": "Wars"
+  "cultureWars": "Wars",
+  "war": "War"
 }

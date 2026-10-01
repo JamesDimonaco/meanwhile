@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { CountryList, type WarSearchEntry } from "@/components/wars/country-list";
+import { CountryList } from "@/components/wars/country-list";
+import { warSearchEntries } from "@/components/search/search-index";
 import { pageLocale } from "@/i18n/page-locale";
 import { CONTINENTS } from "@/lib/data/countries";
 import { loadWars } from "@/lib/data/load";
-import { localize } from "@/lib/data/localize";
-import { countryIndex, warSpan, warsShownIn } from "@/lib/data/wars";
+import { countryIndex, warsShownIn } from "@/lib/data/wars";
 import { pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -20,14 +20,8 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/wars">):
 export default async function WarsPage({ params }: PageProps<"/[locale]/wars">) {
   const locale = await pageLocale(params);
   const t = await getTranslations("wars");
-  const wars = warsShownIn(loadWars(), locale);
-  const countries = countryIndex(wars, locale);
-  const entries: WarSearchEntry[] = wars.map((w) => ({
-    id: w.id,
-    name: localize(w.name, locale),
-    terms: [w.name.en, w.name.es, w.name.zh, ...w.aliases, ...w.altNames.map((a) => a.text)].filter((s): s is string => Boolean(s)),
-    span: warSpan(w),
-  }));
+  const wars = loadWars();
+  const countries = countryIndex(warsShownIn(wars, locale), locale);
 
   return (
     <section className="mx-auto flex w-full max-w-xl flex-col gap-6 pt-4">
@@ -38,7 +32,7 @@ export default async function WarsPage({ params }: PageProps<"/[locale]/wars">) 
       <CountryList
         countries={countries}
         continents={CONTINENTS.filter((c) => countries.some((country) => country.continent === c))}
-        wars={entries}
+        wars={warSearchEntries(wars, locale)}
       />
     </section>
   );
