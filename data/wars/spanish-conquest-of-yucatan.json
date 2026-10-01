@@ -1,0 +1,483 @@
+{
+  "id": "spanish-conquest-of-yucatan",
+  "wikidataId": "Q975837",
+  "name": {
+    "en": "Spanish conquest of Yucatán",
+    "es": "Conquista de Yucatán",
+    "zh": "西班牙征服尤卡坦"
+  },
+  "aliases": [
+    "Conquest of Yucatán",
+    "Conquest of the Maya",
+    "Conquista de los mayas",
+    "Conquista del Petén",
+    "Spanish conquest of Petén",
+    "Francisco de Montejo",
+    "Montejo",
+    "Mérida",
+    "Nojpetén",
+    "Tayasal",
+    "Itza",
+    "Itzá",
+    "尤卡坦",
+    "玛雅"
+  ],
+  "description": {
+    "en": "Francisco de Montejo, a veteran of Cortés's campaign in Mexico, received a royal licence to conquer Yucatán and landed on its east coast in 1527. The peninsula had no single ruler: it was divided among rival Maya provinces, and the Spaniards had to deal with each one. Montejo's first attempt failed by 1528. A second campaign from the west, begun in 1531, ended around 1535, after the Cupul drove the Spaniards from Chichén Itzá and many of Montejo's men deserted. His son, Francisco de Montejo the Younger, returned in 1540–41 with the support of the Xiu of Maní and founded Campeche and, in 1542, Mérida. An alliance of eastern provinces rose in November 1546 and was put down in 1547, which ended the conquest of the north. Many Maya moved south to Petén, where the Itza kingdom stayed independent until Martín de Ursúa's forces took its island capital, Nojpetén, in 1697.",
+    "es": "Francisco de Montejo, veterano de la campaña de Cortés en México, recibió una licencia real para conquistar Yucatán y desembarcó en su costa oriental en 1527. La península no tenía un único soberano: estaba dividida entre provincias mayas rivales, y los españoles tuvieron que tratar con cada una. El primer intento de Montejo fracasó hacia 1528. Una segunda campaña desde el oeste, iniciada en 1531, terminó hacia 1535, después de que los cupules expulsaran a los españoles de Chichén Itzá y de que muchos hombres de Montejo desertaran. Su hijo, Francisco de Montejo el Mozo, volvió en 1540–41 con el apoyo de los xiúes de Maní y fundó Campeche y, en 1542, Mérida. Una alianza de provincias orientales se alzó en noviembre de 1546 y fue sofocada en 1547, con lo que terminó la conquista del norte. Muchos mayas se trasladaron al sur, al Petén, donde el reino itzá siguió independiente hasta que las fuerzas de Martín de Ursúa tomaron su capital insular, Nojpetén, en 1697.",
+    "zh": "曾参加科尔特斯墨西哥战役的弗朗西斯科·德·蒙泰乔获得王室许可征服尤卡坦，于1527年在其东海岸登陆。半岛没有统一的统治者，而是分属多个相互敌对的玛雅省份，西班牙人必须逐一应对。蒙泰乔的第一次尝试到1528年以失败告终。1531年从西部开始的第二次征战在1535年前后结束：库普尔人将西班牙人逐出奇琴伊察，蒙泰乔的许多部下也开了小差。他的儿子小弗朗西斯科·德·蒙泰乔于1540年至1541年在马尼的修人支持下卷土重来，建立坎佩切，并于1542年建立梅里达。1546年11月，东部各省结盟起事，1547年被镇压，北部的征服至此结束。许多玛雅人南迁至佩滕，那里的伊察王国一直保持独立，直到1697年马丁·德乌尔苏阿的部队攻占其岛上都城诺赫佩滕。"
+  },
+  "outcome": {
+    "en": "Northern Yucatán was under Spanish rule by 1547; the last independent Maya kingdom, the Itza of Nojpetén, fell to Spanish forces on 13 March 1697.",
+    "es": "El norte de Yucatán quedó bajo dominio español en 1547; el último reino maya independiente, el de los itzáes de Nojpetén, cayó ante las fuerzas españolas el 13 de marzo de 1697.",
+    "zh": "尤卡坦北部于1547年处于西班牙统治之下；最后一个独立的玛雅王国——诺赫佩滕的伊察王国——于1697年3月13日被西班牙军队攻占。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "conquest",
+    "earliestStart": 1527,
+    "latestStart": 1527,
+    "earliestEnd": 1542,
+    "latestEnd": 1697,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Spanish conquest of Yucatán.\"",
+        "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Yucat%C3%A1n"
+      },
+      {
+        "citation": "Wikipedia (español). \"Conquista de Yucatán.\"",
+        "url": "https://es.wikipedia.org/wiki/Conquista_de_Yucat%C3%A1n"
+      },
+      {
+        "citation": "\"Montejo, Francisco de.\" The Columbia Encyclopedia, 6th ed., via Encyclopedia.com.",
+        "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/montejo-francisco-de"
+      },
+      {
+        "citation": "Witschey, Walter R. T. \"Tayasal.\" Encyclopedia of Latin American History and Culture, via Encyclopedia.com.",
+        "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tayasal"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "Accounts end the conquest of northern Yucatán in 1542, when Mérida was founded, or in 1547, when the eastern rising was put down. The Itza kingdom in Petén held out until 1697; this page covers both.",
+      "es": "Los relatos dan por terminada la conquista del norte de Yucatán en 1542, con la fundación de Mérida, o en 1547, cuando se sofocó el alzamiento oriental. El reino itzá del Petén resistió hasta 1697; esta página abarca ambos.",
+      "zh": "各种记载将尤卡坦北部的征服结束定于1542年（梅里达建立）或1547年（东部起事被镇压）。佩滕的伊察王国坚持到1697年；本页涵盖两者。"
+    }
+  },
+  "sides": [
+    {
+      "id": "spanish-forces-and-allies",
+      "label": {
+        "en": "Spanish forces and their Maya allies",
+        "es": "Las fuerzas españolas y sus aliados mayas",
+        "zh": "西班牙军队及其玛雅盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Spanish forces, for the Crown of Castile",
+            "es": "Fuerzas españolas, por la Corona de Castilla",
+            "zh": "西班牙军队（为卡斯蒂利亚王室）"
+          },
+          "role": "belligerent",
+          "today": [
+            "ES"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Xiu of Maní",
+            "es": "Xiúes de Maní",
+            "zh": "马尼的修人"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Chel of Ah Kin Chel",
+            "es": "Cheles de Ah Kin Chel",
+            "zh": "阿金切尔的切尔人"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maya-polities",
+      "label": {
+        "en": "Independent Maya polities of Yucatán and Petén",
+        "es": "Señoríos mayas independientes de Yucatán y el Petén",
+        "zh": "尤卡坦与佩滕的独立玛雅政权"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "maya",
+          "role": "belligerent",
+          "today": [
+            "MX",
+            "GT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Cocom of Sotuta",
+            "es": "Cocomes de Sotuta",
+            "zh": "索图塔的科科姆人"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Cupul",
+            "es": "Cupules",
+            "zh": "库普尔人"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Itza kingdom of Nojpetén",
+            "es": "Reino itzá de Nojpetén",
+            "zh": "诺赫佩滕的伊察王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "GT"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "landing-at-xel-ha",
+      "start": 1527,
+      "end": 1528,
+      "title": {
+        "en": "Francisco de Montejo lands on the east coast and founds Salamanca de Xel-Há, the first Spanish settlement on the peninsula; by 1528 most of its garrison is dead and the attempt has failed",
+        "es": "Francisco de Montejo desembarca en la costa oriental y funda Salamanca de Xel-Há, el primer asentamiento español en la península; hacia 1528 la mayor parte de su guarnición ha muerto y el intento ha fracasado",
+        "zh": "弗朗西斯科·德·蒙泰乔在东海岸登陆，建立半岛上第一个西班牙定居点萨拉曼卡-德谢尔哈；到1528年，其守军大多已死，这次尝试宣告失败"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of Yucatán.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Yucat%C3%A1n"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de Yucatán.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_Yucat%C3%A1n"
+        },
+        {
+          "citation": "\"Montejo, Francisco de.\" The Columbia Encyclopedia, 6th ed., via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/montejo-francisco-de"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Xel-Há",
+          "es": "Xel-Há",
+          "zh": "谢尔哈"
+        },
+        "lat": 20.318,
+        "lon": -87.357
+      }
+    },
+    {
+      "id": "chichen-itza-abandoned",
+      "start": 1533,
+      "title": {
+        "en": "Cupul Maya besiege the Spanish town founded at Chichén Itzá; Montejo the Younger's men abandon it by night",
+        "es": "Los mayas cupules sitian la villa española fundada en Chichén Itzá; los hombres de Montejo el Mozo la abandonan de noche",
+        "zh": "库普尔玛雅人围困西班牙人在奇琴伊察建立的城镇；小蒙泰乔的部下趁夜弃城而走"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of Yucatán.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Yucat%C3%A1n"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de Yucatán.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_Yucat%C3%A1n"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Chichén Itzá",
+          "es": "Chichén Itzá",
+          "zh": "奇琴伊察"
+        },
+        "lat": 20.6831,
+        "lon": -88.5686
+      }
+    },
+    {
+      "id": "withdrawal-from-campeche",
+      "start": 1534,
+      "end": 1535,
+      "title": {
+        "en": "With little gold found and many men deserting, the Montejos leave Campeche and withdraw from the peninsula",
+        "es": "Sin apenas oro y con muchos hombres desertando, los Montejo abandonan Campeche y se retiran de la península",
+        "zh": "由于几乎未找到黄金且大批部下开小差，蒙泰乔父子离开坎佩切，撤出半岛"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of Yucatán.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Yucat%C3%A1n"
+        },
+        {
+          "citation": "\"Montejo, Francisco de.\" The Columbia Encyclopedia, 6th ed., via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/montejo-francisco-de"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Campeche",
+          "es": "Campeche",
+          "zh": "坎佩切"
+        },
+        "lat": 19.845,
+        "lon": -90.523
+      }
+    },
+    {
+      "id": "founding-of-merida",
+      "start": 1542,
+      "title": {
+        "en": "Spanish forces found Mérida on the ruins of the Maya city of T'ho on 6 January; the Xiu ruler of Maní submits and joins them, and Nachi Cocom of Sotuta is defeated nearby that June",
+        "es": "Las fuerzas españolas fundan Mérida sobre las ruinas de la ciudad maya de T'ho el 6 de enero; el soberano xiú de Maní se somete y se une a ellos, y Nachi Cocom de Sotuta es derrotado cerca de allí en junio",
+        "zh": "1月6日，西班牙军队在玛雅城市提霍的废墟上建立梅里达；马尼的修人统治者归附并加入西班牙一方，索图塔的纳奇·科科姆于同年6月在附近战败"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of Yucatán.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Yucat%C3%A1n"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de Yucatán.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_Yucat%C3%A1n"
+        },
+        {
+          "citation": "\"Yucatán.\" Encyclopedia of Latin American History and Culture, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/yucatan"
+        },
+        {
+          "citation": "Wikipedia (English). \"Nachi Cocom.\"",
+          "url": "https://en.wikipedia.org/wiki/Nachi_Cocom"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mérida (T'ho)",
+          "es": "Mérida (T'ho)",
+          "zh": "梅里达（提霍）"
+        },
+        "lat": 20.97,
+        "lon": -89.62
+      }
+    },
+    {
+      "id": "eastern-maya-rising",
+      "start": 1546,
+      "end": 1547,
+      "title": {
+        "en": "Eastern Maya provinces rise together on 8 November and besiege Valladolid; Spanish forces and their Maya allies put the rising down by March 1547",
+        "es": "Las provincias mayas orientales se alzan juntas el 8 de noviembre y sitian Valladolid; las fuerzas españolas y sus aliados mayas sofocan el alzamiento hacia marzo de 1547",
+        "zh": "11月8日，东部玛雅各省联合起事，围攻巴亚多利德；西班牙军队及其玛雅盟友于1547年3月前将起事镇压"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of Yucatán.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Yucat%C3%A1n"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de Yucatán.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_Yucat%C3%A1n"
+        },
+        {
+          "citation": "\"Montejo, Francisco de.\" The Columbia Encyclopedia, 6th ed., via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/montejo-francisco-de"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Valladolid",
+          "es": "Valladolid",
+          "zh": "巴亚多利德"
+        },
+        "lat": 20.6894,
+        "lon": -88.2017
+      }
+    },
+    {
+      "id": "fall-of-nojpeten",
+      "start": 1697,
+      "title": {
+        "en": "Martín de Ursúa's soldiers cross Lake Petén Itzá in an armed galley and take Nojpetén, the Itza capital and the last independent Maya kingdom, on 13 March",
+        "es": "Los soldados de Martín de Ursúa cruzan el lago Petén Itzá en una galera armada y toman Nojpetén, capital itzá y último reino maya independiente, el 13 de marzo",
+        "zh": "3月13日，马丁·德乌尔苏阿的士兵乘武装桨帆船横渡佩滕伊察湖，攻占伊察都城、最后一个独立玛雅王国诺赫佩滕"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of Yucatán.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Yucat%C3%A1n"
+        },
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of Petén.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Pet%C3%A9n"
+        },
+        {
+          "citation": "Witschey, Walter R. T. \"Tayasal.\" Encyclopedia of Latin American History and Culture, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tayasal"
+        }
+      ],
+      "note": {
+        "en": "Many Itza defenders died in the assault and in swimming from the island; the Spanish losses were light.",
+        "es": "Muchos defensores itzáes murieron en el asalto y al huir a nado de la isla; las bajas españolas fueron leves.",
+        "zh": "许多伊察守军在进攻中或泅水逃离岛屿时死亡；西班牙方面伤亡轻微。"
+      },
+      "place": {
+        "name": {
+          "en": "Nojpetén (Flores)",
+          "es": "Nojpetén (Flores)",
+          "zh": "诺赫佩滕（弗洛雷斯）"
+        },
+        "lat": 16.9297,
+        "lon": -89.8917
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Francisco de Montejo",
+        "es": "Francisco de Montejo",
+        "zh": "弗朗西斯科·德·蒙泰乔"
+      },
+      "side": "spanish-forces-and-allies",
+      "role": {
+        "en": "Adelantado of Yucatán; led the campaigns of 1527–1535",
+        "es": "Adelantado de Yucatán; dirigió las campañas de 1527–1535",
+        "zh": "尤卡坦总督，领导1527年至1535年的征战"
+      },
+      "wikidataId": "Q387619"
+    },
+    {
+      "name": {
+        "en": "Francisco de Montejo the Younger",
+        "es": "Francisco de Montejo el Mozo",
+        "zh": "小弗朗西斯科·德·蒙泰乔"
+      },
+      "side": "spanish-forces-and-allies",
+      "role": {
+        "en": "Led the campaign of 1540–1546",
+        "es": "Dirigió la campaña de 1540–1546",
+        "zh": "领导1540年至1546年的征战"
+      },
+      "wikidataId": "Q2682937"
+    },
+    {
+      "name": {
+        "en": "Francisco de Montejo the Nephew",
+        "es": "Francisco de Montejo el Sobrino",
+        "zh": "弗朗西斯科·德·蒙泰乔（侄）"
+      },
+      "side": "spanish-forces-and-allies",
+      "role": {
+        "en": "Led campaigns in the north and east, 1541–1547",
+        "es": "Dirigió campañas en el norte y el este, 1541–1547",
+        "zh": "1541年至1547年在北部和东部领兵作战"
+      },
+      "wikidataId": "Q5484144"
+    },
+    {
+      "name": {
+        "en": "Martín de Ursúa",
+        "es": "Martín de Ursúa y Arizmendi",
+        "zh": "马丁·德乌尔苏阿"
+      },
+      "side": "spanish-forces-and-allies",
+      "role": {
+        "en": "Governor of Yucatán; took Nojpetén in 1697",
+        "es": "Gobernador de Yucatán; tomó Nojpetén en 1697",
+        "zh": "尤卡坦总督，1697年攻占诺赫佩滕"
+      },
+      "wikidataId": "Q2362335"
+    },
+    {
+      "name": {
+        "en": "Nachi Cocom",
+        "es": "Nachi Cocom",
+        "zh": "纳奇·科科姆"
+      },
+      "side": "maya-polities",
+      "role": {
+        "en": "Lord of Sotuta; fought the Spaniards in 1542",
+        "es": "Señor de Sotuta; combatió a los españoles en 1542",
+        "zh": "索图塔领主，1542年抵抗西班牙人"
+      },
+      "wikidataId": "Q3917213"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "maya"
+  ],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Spanish conquest of Yucatán.\"",
+      "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Yucat%C3%A1n"
+    },
+    {
+      "citation": "Wikipedia (español). \"Conquista de Yucatán.\"",
+      "url": "https://es.wikipedia.org/wiki/Conquista_de_Yucat%C3%A1n"
+    },
+    {
+      "citation": "Wikipedia (中文). \"西班牙征服尤卡坦.\"",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E5%BE%81%E6%9C%8D%E5%B0%A4%E5%8D%A1%E5%9D%A6"
+    },
+    {
+      "citation": "Wikipedia (English). \"Spanish conquest of Petén.\"",
+      "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Pet%C3%A9n"
+    },
+    {
+      "citation": "\"Montejo, Francisco de.\" The Columbia Encyclopedia, 6th ed., via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/montejo-francisco-de"
+    },
+    {
+      "citation": "Patch, Robert W. \"Montejo, Francisco de (1479–1553).\" Encyclopedia of Latin American History and Culture, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/montejo-francisco-de-1479-1553"
+    },
+    {
+      "citation": "Witschey, Walter R. T. \"Tayasal.\" Encyclopedia of Latin American History and Culture, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tayasal"
+    },
+    {
+      "citation": "\"Yucatán.\" Encyclopedia of Latin American History and Culture, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/yucatan"
+    }
+  ]
+}
