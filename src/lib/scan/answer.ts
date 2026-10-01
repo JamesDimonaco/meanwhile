@@ -74,7 +74,9 @@ function readYear(year: ModelAnswer["year"]): ScanResult["reading"]["year"] {
   if (!year) return null;
   const start = toAstronomical(year.start);
   const end = toAstronomical(year.end);
-  return start !== null && end !== null && start <= end ? { start, end } : null;
+  if (start === null || end === null) return null;
+  // Placards write BCE ranges high-to-low ("1046-771 BCE"), so the model's start/end order can't be trusted.
+  return { start: Math.min(start, end), end: Math.max(start, end) };
 }
 
 /** Where the timeline opens for a range read off a placard: its middle ("2nd century CE" -> 150). */

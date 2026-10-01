@@ -83,14 +83,38 @@ describe("decideScan", () => {
     });
   });
 
-  it("ignores impossible years: year 0, negative, or a reversed range", () => {
+  it("ignores impossible years: year 0 or negative", () => {
     for (const year of [
       { start: { value: 0, era: "CE" as const }, end: { value: 0, era: "CE" as const } },
       { start: { value: -5, era: "BCE" as const }, end: { value: 5, era: "CE" as const } },
-      { start: { value: 200, era: "CE" as const }, end: { value: 100, era: "CE" as const } },
     ]) {
       expect(decideScan(answer({ year }), IDS).reading.year).toBeNull();
     }
+  });
+
+  it("swaps a BCE range given in written order (1046-771 BCE) instead of dropping it", () => {
+    const r = decideScan(
+      answer({ year: { start: { value: 1046, era: "BCE" }, end: { value: 771, era: "BCE" } } }),
+      IDS,
+    );
+    expect(r.reading.year).toEqual({ start: -1045, end: -770 });
+    expect(r.destination).toEqual({ kind: "year", year: -908 });
+
+    const reversed = decideScan(
+      answer({ year: { start: { value: 771, era: "BCE" }, end: { value: 1046, era: "BCE" } } }),
+      IDS,
+    );
+    expect(reversed.reading.year).toEqual({ start: -1045, end: -770 });
+    expect(reversed.destination).toEqual({ kind: "year", year: -908 });
+  });
+
+  it("swaps a reversed CE range", () => {
+    const r = decideScan(
+      answer({ year: { start: { value: 200, era: "CE" }, end: { value: 100, era: "CE" } } }),
+      IDS,
+    );
+    expect(r.reading.year).toEqual({ start: 100, end: 200 });
+    expect(r.destination).toEqual({ kind: "year", year: 150 });
   });
 
   it("keeps the transcription to one short plain line and the language to a BCP 47 tag", () => {
