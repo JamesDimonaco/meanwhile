@@ -1,0 +1,1410 @@
+{
+  "id": "indian-rebellion-of-1857",
+  "wikidataId": "Q129864",
+  "name": {
+    "en": "Indian Rebellion of 1857",
+    "es": "Rebelión de la India de 1857",
+    "zh": "印度民族起义"
+  },
+  "aliases": [
+    "Indian Mutiny",
+    "Sepoy Mutiny",
+    "Great Rebellion",
+    "Revolt of 1857",
+    "First War of Independence",
+    "Rebelión de los cipayos",
+    "Motín de los cipayos",
+    "印度兵变",
+    "印度哗变",
+    "1857年印度起义",
+    "第一次印度独立战争",
+    "Meerut",
+    "Cawnpore",
+    "Kanpur",
+    "Lucknow",
+    "Jhansi",
+    "Rani Lakshmibai",
+    "Nana Sahib",
+    "Bahadur Shah Zafar"
+  ],
+  "altNames": [
+    {
+      "text": "प्रथम भारतीय स्वतंत्रता संग्राम",
+      "lang": "hi",
+      "usedBy": {
+        "en": "India",
+        "es": "India",
+        "zh": "印度"
+      },
+      "gloss": {
+        "en": "First Indian War of Independence",
+        "es": "Primera guerra de independencia india",
+        "zh": "第一次印度独立战争"
+      }
+    },
+    {
+      "text": "جنگ آزادی ہند 1857ء",
+      "lang": "ur",
+      "usedBy": {
+        "en": "Pakistan",
+        "es": "Pakistán",
+        "zh": "巴基斯坦"
+      },
+      "gloss": {
+        "en": "Indian War of Independence of 1857",
+        "es": "Guerra de independencia india de 1857",
+        "zh": "1857年印度独立战争"
+      }
+    },
+    {
+      "text": "Indian Mutiny",
+      "lang": "en",
+      "usedBy": {
+        "en": "British accounts",
+        "es": "Los relatos británicos",
+        "zh": "英国方面的记载"
+      },
+      "gloss": {
+        "en": "Indian Mutiny",
+        "es": "Motín indio",
+        "zh": "印度兵变"
+      }
+    }
+  ],
+  "description": {
+    "en": "The rebellion began on 10 May 1857 at Meerut, where sepoys of the East India Company's Bengal Army freed comrades jailed for refusing cartridges they believed were greased with cow and pig fat, killed British officers and civilians, and marched to Delhi. There they made the aged Mughal emperor Bahadur Shah Zafar their figurehead. Mutinies and civilian risings spread across the upper Ganges plain and central India, led at Cawnpore by Nana Sahib, in Awadh by Begum Hazrat Mahal, in Bihar by Kunwar Singh and at Jhansi by Rani Lakshmibai. Both sides killed civilians: rebels killed British men, women and children at Cawnpore and elsewhere, and Company columns burned villages and hanged or shot prisoners and townspeople. East India Company forces, British Army regiments, Sikh and Punjabi units, Sikh princely states and a Nepalese army took Delhi in September 1857, Lucknow in March 1858 and Gwalior in June 1858. In 1858 the British Parliament ended Company rule, and the Crown took over the government of India.",
+    "es": "La rebelión empezó el 10 de mayo de 1857 en Meerut, donde cipayos del ejército de Bengala de la Compañía de las Indias Orientales liberaron a compañeros encarcelados por rechazar cartuchos que creían engrasados con grasa de vaca y de cerdo, mataron a oficiales y civiles británicos y marcharon a Delhi. Allí pusieron a su cabeza al anciano emperador mogol Bahadur Shah Zafar. Motines y levantamientos civiles se extendieron por la llanura alta del Ganges y el centro de la India, dirigidos en Cawnpore por Nana Sahib, en Awadh por Begum Hazrat Mahal, en Bihar por Kunwar Singh y en Jhansi por la rani Lakshmibai. Ambos bandos mataron a civiles: los rebeldes mataron a hombres, mujeres y niños británicos en Cawnpore y otros lugares, y las columnas de la Compañía quemaron aldeas y ahorcaron o fusilaron a prisioneros y vecinos. Las fuerzas de la Compañía de las Indias Orientales, regimientos del ejército británico, unidades sijs y punyabíes, estados principescos sijs y un ejército nepalí tomaron Delhi en septiembre de 1857, Lucknow en marzo de 1858 y Gwalior en junio de 1858. En 1858 el Parlamento británico puso fin al gobierno de la Compañía y la Corona asumió el gobierno de la India.",
+    "zh": "1857年5月10日，起义在密拉特爆发：东印度公司孟加拉军的印度兵认为新式子弹涂有牛油和猪油，因拒用而入狱的同袍被他们救出，他们杀死英国军官和平民，随后向德里进军，并在那里拥立年迈的莫卧儿皇帝巴哈杜尔沙二世为名义领袖。兵变和民众起事蔓延至恒河上游平原和印度中部，在坎普尔由那那·萨希布领导，在阿瓦德由哈兹拉特·马哈尔王后领导，在比哈尔由孔瓦尔·辛格领导，在占西由拉克希米·巴伊王后领导。双方都杀害了平民：起义者在坎普尔等地杀害英国男子、妇女和儿童；东印度公司部队焚烧村庄，绞死或枪杀俘虏和城镇居民。东印度公司部队、英国陆军各团、锡克和旁遮普部队、锡克土邦以及一支尼泊尔军队于1857年9月攻占德里，1858年3月攻占勒克瑙，1858年6月攻占瓜廖尔。1858年，英国议会结束东印度公司的统治，由英国王室接管印度政府。"
+  },
+  "outcome": {
+    "en": "Company and allied forces took the last rebel centres by mid-1858; the British Crown took over the government of India from the East India Company, and the last Mughal emperor was exiled to Rangoon.",
+    "es": "Las fuerzas de la Compañía y sus aliados tomaron los últimos focos rebeldes a mediados de 1858; la Corona británica asumió el gobierno de la India en lugar de la Compañía de las Indias Orientales, y el último emperador mogol fue desterrado a Rangún.",
+    "zh": "至1858年年中，东印度公司及其盟军攻占了最后的起义据点；英国王室从东印度公司手中接管印度政府，末代莫卧儿皇帝被流放仰光。"
+  },
+  "tier": "flagship",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "rebellion",
+    "earliestStart": 1857,
+    "latestStart": 1857,
+    "earliestEnd": 1858,
+    "latestEnd": 1859,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+        "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+      },
+      {
+        "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+        "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+      },
+      {
+        "citation": "Wikipedia (español). \"Rebelión de la India de 1857.\"",
+        "url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_de_la_India_de_1857"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "The end date depends on the measure: the rebels lost Gwalior on 20 June 1858, the Crown offered an amnesty on 1 November 1858, Tatya Tope was hanged in April 1859, and the British declared the hostilities over on 8 July 1859.",
+      "es": "La fecha de fin depende del criterio: los rebeldes perdieron Gwalior el 20 de junio de 1858, la Corona ofreció una amnistía el 1 de noviembre de 1858, Tatya Tope fue ahorcado en abril de 1859 y los británicos declararon terminadas las hostilidades el 8 de julio de 1859.",
+      "zh": "结束日期取决于标准：起义者于1858年6月20日失去瓜廖尔，英国王室于1858年11月1日宣布大赦，坦提亚·托普于1859年4月被处绞刑，英方于1859年7月8日宣布战事结束。"
+    }
+  },
+  "sides": [
+    {
+      "id": "rebels",
+      "label": {
+        "en": "Rebel sepoys, the Mughal court at Delhi and allied rulers",
+        "es": "Cipayos rebeldes, la corte mogol de Delhi y gobernantes aliados",
+        "zh": "起义印度兵、德里莫卧儿宫廷及盟友统治者"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Mutinous regiments of the Company's Bengal Army",
+            "es": "Regimientos amotinados del ejército de Bengala de la Compañía",
+            "zh": "东印度公司孟加拉军哗变各团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "The Mughal court at Delhi, under Bahadur Shah Zafar",
+            "es": "La corte mogol de Delhi, bajo Bahadur Shah Zafar",
+            "zh": "巴哈杜尔沙二世治下的德里莫卧儿宫廷"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Nana Sahib's forces at Cawnpore",
+            "es": "Las fuerzas de Nana Sahib en Cawnpore",
+            "zh": "那那·萨希布在坎普尔的部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Awadh rebels under Begum Hazrat Mahal",
+            "es": "Los rebeldes de Awadh bajo Begum Hazrat Mahal",
+            "zh": "哈兹拉特·马哈尔王后领导的阿瓦德起义者"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Jhansi, under Rani Lakshmibai",
+            "es": "Jhansi, bajo la rani Lakshmibai",
+            "zh": "拉克希米·巴伊王后治下的占西"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Jagdishpur, under Kunwar Singh",
+            "es": "Jagdishpur, bajo Kunwar Singh",
+            "zh": "孔瓦尔·辛格治下的贾格迪什布尔"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "company-and-allies",
+      "label": {
+        "en": "East India Company forces, the British Army and their allies",
+        "es": "Las fuerzas de la Compañía de las Indias Orientales, el ejército británico y sus aliados",
+        "zh": "东印度公司部队、英国陆军及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces",
+            "es": "Fuerzas de la Compañía de las Indias Orientales",
+            "zh": "东印度公司部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "British Army regiments sent by the Crown",
+            "es": "Regimientos del ejército británico enviados por la Corona",
+            "zh": "英国王室派遣的英国陆军各团"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Indian soldiers who fought for the Company: sepoy regiments that stayed with it, Sikh, Punjabi Muslim and Pashtun units raised in the Punjab, and Gurkha battalions",
+            "es": "Soldados indios que lucharon por la Compañía: regimientos de cipayos que le siguieron fieles, unidades sijs, musulmanas punyabíes y pastunes reclutadas en el Punyab, y batallones gurkhas",
+            "zh": "为东印度公司作战的印度士兵：未参加起义的印度兵团、在旁遮普招募的锡克、旁遮普穆斯林和普什图部队，以及廓尔喀营"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN",
+            "PK"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Sikh princely states of Patiala, Nabha and Kapurthala",
+            "es": "Los estados principescos sijs de Patiala, Nabha y Kapurthala",
+            "zh": "帕蒂亚拉、纳巴和卡普尔塔拉等锡克土邦"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Nepal, under Jung Bahadur Rana",
+            "es": "Reino de Nepal, bajo Jung Bahadur Rana",
+            "zh": "忠格·巴哈杜尔·拉纳治下的尼泊尔王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "NP"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "outbreak-delhi-cawnpore-lucknow",
+      "name": {
+        "en": "Meerut, Delhi, Cawnpore and the siege of Lucknow",
+        "es": "Meerut, Delhi, Cawnpore y el sitio de Lucknow",
+        "zh": "密拉特、德里、坎普尔与勒克瑙之围"
+      },
+      "start": 1857,
+      "end": 1857,
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ]
+    },
+    {
+      "id": "lucknow-and-central-india",
+      "name": {
+        "en": "Lucknow retaken and the central India campaign",
+        "es": "Recuperación de Lucknow y campaña de la India central",
+        "zh": "攻取勒克瑙与印度中部战役"
+      },
+      "start": 1858,
+      "end": 1858,
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ]
+    },
+    {
+      "id": "last-resistance",
+      "name": {
+        "en": "Last resistance",
+        "es": "Última resistencia",
+        "zh": "最后的抵抗"
+      },
+      "start": 1859,
+      "end": 1859,
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "mangal-pandey-at-barrackpore",
+      "start": 1857,
+      "title": {
+        "en": "Sepoy Mangal Pandey of the 34th Bengal Native Infantry attacks his officers at Barrackpore on 29 March; he is hanged and his regiment disbanded",
+        "es": "El cipayo Mangal Pandey, del 34.º de Infantería Nativa de Bengala, ataca a sus oficiales en Barrackpore el 29 de marzo; es ahorcado y su regimiento, disuelto",
+        "zh": "3月29日，孟加拉本土步兵第34团的印度兵曼加尔·潘迪在巴拉克普尔袭击其军官；他被处以绞刑，所在团被解散"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Why did the Indian Rebellion happen?\"",
+          "url": "https://www.nam.ac.uk/explore/why-did-indian-mutiny-happen"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Barrackpore",
+          "es": "Barrackpore",
+          "zh": "巴拉克普尔"
+        },
+        "lat": 22.764,
+        "lon": 88.378
+      }
+    },
+    {
+      "id": "meerut-outbreak",
+      "start": 1857,
+      "title": {
+        "en": "On 10 May sepoys at Meerut free 85 comrades jailed for refusing the new cartridges, kill British officers and civilians, and march on Delhi",
+        "es": "El 10 de mayo los cipayos de Meerut liberan a 85 compañeros encarcelados por rechazar los nuevos cartuchos, matan a oficiales y civiles británicos y marchan sobre Delhi",
+        "zh": "5月10日，密拉特的印度兵救出85名因拒用新式子弹而入狱的同袍，杀死英国军官和平民，随后向德里进军"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Why did the Indian Rebellion happen?\"",
+          "url": "https://www.nam.ac.uk/explore/why-did-indian-mutiny-happen"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Meerut",
+          "es": "Meerut",
+          "zh": "密拉特"
+        },
+        "lat": 28.98,
+        "lon": 77.706
+      }
+    },
+    {
+      "id": "rebels-take-delhi",
+      "start": 1857,
+      "title": {
+        "en": "Sepoys from Meerut reach Delhi on 11 May; Europeans and Indian Christians in the city are killed, British officers blow up the arsenal, and Bahadur Shah Zafar accepts the rebels' allegiance",
+        "es": "Los cipayos de Meerut llegan a Delhi el 11 de mayo; europeos y cristianos indios de la ciudad son asesinados, oficiales británicos vuelan el arsenal y Bahadur Shah Zafar acepta la lealtad de los rebeldes",
+        "zh": "5月11日，来自密拉特的印度兵抵达德里；城中的欧洲人和印度基督徒遭杀害，英国军官炸毁军火库，巴哈杜尔沙二世接受起义者的效忠"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "note": {
+        "en": "Most accounts say the emperor gave his support reluctantly, under pressure from the sepoys and his court.",
+        "es": "La mayoría de los relatos dicen que el emperador dio su apoyo a regañadientes, presionado por los cipayos y su corte.",
+        "zh": "多数记载称，皇帝是在印度兵和朝臣的压力下勉强表示支持的。"
+      },
+      "place": {
+        "name": {
+          "en": "Red Fort, Delhi",
+          "es": "Fuerte Rojo, Delhi",
+          "zh": "德里红堡"
+        },
+        "lat": 28.656,
+        "lon": 77.24
+      }
+    },
+    {
+      "id": "jhansi-fort-killings",
+      "start": 1857,
+      "title": {
+        "en": "At Jhansi, British officials, officers and their families who leave the fort under a promise of safe passage are killed",
+        "es": "En Jhansi, funcionarios y oficiales británicos y sus familias que salen del fuerte con la promesa de un paso seguro son asesinados",
+        "zh": "在占西，获得安全通行承诺后离开要塞的英国官员、军官及其家属遭杀害"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Jhansi.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Jhansi"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Accounts differ on the date (5 to 8 June) and on Rani Lakshmibai's part: the British suspected her of complicity; other accounts say the killers were rebels she did not control, and she denied any role.",
+        "es": "Los relatos difieren en la fecha (del 5 al 8 de junio) y en el papel de la rani Lakshmibai: los británicos la consideraron cómplice; otros relatos dicen que los autores fueron rebeldes a los que ella no controlaba, y ella negó cualquier participación.",
+        "zh": "各记载对日期（6月5日至8日）以及拉克希米·巴伊王后的角色说法不一：英方怀疑她是同谋；另一些记载称行凶者是她无法控制的起义者，她本人也否认参与。"
+      },
+      "place": {
+        "name": {
+          "en": "Jhansi",
+          "es": "Jhansi",
+          "zh": "占西"
+        },
+        "lat": 25.449,
+        "lon": 78.57
+      }
+    },
+    {
+      "id": "battle-of-badli-ki-serai",
+      "start": 1857,
+      "title": {
+        "en": "On 8 June the Delhi Field Force defeats the rebel army at Badli-ki-Serai and takes the ridge north of Delhi, beginning the siege",
+        "es": "El 8 de junio la Fuerza de Campaña de Delhi derrota al ejército rebelde en Badli-ki-Serai y ocupa la cresta al norte de Delhi, con lo que comienza el sitio",
+        "zh": "6月8日，德里野战部队在巴德利基塞赖击败起义军，占领德里城北的山岭，围城战由此开始"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Delhi (1857).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Delhi_%281857%29"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Badli-ki-Serai, near Delhi",
+          "es": "Badli-ki-Serai, cerca de Delhi",
+          "zh": "德里附近的巴德利基塞赖"
+        },
+        "lat": 28.719,
+        "lon": 77.168
+      },
+      "wikidataId": "Q4438383"
+    },
+    {
+      "id": "siege-of-cawnpore",
+      "start": 1857,
+      "title": {
+        "en": "Sepoys at Cawnpore rebel and, under Nana Sahib, besiege General Wheeler's entrenchment, held by soldiers and civilians, for about three weeks",
+        "es": "Los cipayos de Cawnpore se sublevan y, al mando de Nana Sahib, sitian durante unas tres semanas el atrincheramiento del general Wheeler, defendido por soldados y civiles",
+        "zh": "坎普尔的印度兵起事，在那那·萨希布率领下围攻惠勒将军据守、军民混杂的壕垒约三周"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Cawnpore.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Cawnpore"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Cawnpore (Kanpur)",
+          "es": "Cawnpore (Kanpur)",
+          "zh": "坎普尔"
+        },
+        "lat": 26.473,
+        "lon": 80.331
+      },
+      "wikidataId": "Q627881"
+    },
+    {
+      "id": "satichaura-ghat",
+      "start": 1857,
+      "title": {
+        "en": "Wheeler's garrison surrenders on the promise of boats to Allahabad; at Satichaura Ghat the boats are fired on, most of the men are killed and the women and children are taken prisoner",
+        "es": "La guarnición de Wheeler se rinde con la promesa de barcas hacia Allahabad; en el Satichaura Ghat las barcas son atacadas a tiros, la mayoría de los hombres mueren y las mujeres y los niños son apresados",
+        "zh": "惠勒的守军在获准乘船前往阿拉哈巴德的承诺下投降；在萨蒂乔拉码头，船只遭到射击，大多数男子被杀，妇女和儿童被俘"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Cawnpore.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Cawnpore"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Most accounts date the attack to 27 June. Whether it was planned is disputed: at his trial Tatya Tope said the firing began in confusion, and some British historians allow that it may have started by accident.",
+        "es": "La mayoría de los relatos fechan el ataque el 27 de junio. Se discute si fue planeado: en su juicio Tatya Tope dijo que el tiroteo empezó en medio de la confusión, y algunos historiadores británicos admiten que pudo empezar por accidente.",
+        "zh": "多数记载将此事定于6月27日。是否事先策划存在争议：坦提亚·托普在受审时称枪击是在混乱中开始的，一些英国历史学家也承认可能是意外引发。"
+      },
+      "place": {
+        "name": {
+          "en": "Satichaura Ghat, Cawnpore (Kanpur)",
+          "es": "Satichaura Ghat, Cawnpore (Kanpur)",
+          "zh": "坎普尔萨蒂乔拉码头"
+        },
+        "lat": 26.459,
+        "lon": 80.381
+      }
+    },
+    {
+      "id": "siege-of-lucknow",
+      "start": 1857,
+      "title": {
+        "en": "After defeating Sir Henry Lawrence's force at Chinhat on 30 June, rebels besiege the British Residency at Lucknow; Lawrence is killed by a shell in early July",
+        "es": "Tras derrotar a la fuerza de sir Henry Lawrence en Chinhat el 30 de junio, los rebeldes sitian la Residencia británica de Lucknow; Lawrence muere por un proyectil a principios de julio",
+        "zh": "6月30日，起义者在钦哈特击败亨利·劳伦斯爵士的部队，随后围攻勒克瑙的英国官邸；7月初劳伦斯被炮弹炸死"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Lucknow.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Lucknow"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "The Residency, Lucknow",
+          "es": "La Residencia, Lucknow",
+          "zh": "勒克瑙官邸"
+        },
+        "lat": 26.862,
+        "lon": 80.926
+      },
+      "wikidataId": "Q815165"
+    },
+    {
+      "id": "bibighar-massacre",
+      "start": 1857,
+      "title": {
+        "en": "As a Company relief force nears Cawnpore on 15 July, the British women and children held in the Bibighar are killed and their bodies thrown down a well",
+        "es": "El 15 de julio, cuando una fuerza de socorro de la Compañía se acerca a Cawnpore, las mujeres y los niños británicos retenidos en el Bibighar son asesinados y sus cuerpos arrojados a un pozo",
+        "zh": "7月15日，东印度公司援军逼近坎普尔时，被关押在比比加尔的英国妇女和儿童遭杀害，尸体被抛入井中"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Cawnpore.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Cawnpore"
+        }
+      ],
+      "note": {
+        "en": "Counts of the dead differ: the National Army Museum gives about 120 women and children; other accounts say about 200. Sepoys refused the order, and the killing was done by a handful of men.",
+        "es": "Las cifras de muertos difieren: el National Army Museum habla de unas 120 mujeres y niños; otros relatos, de unos 200. Los cipayos se negaron a cumplir la orden y la matanza la llevaron a cabo unos pocos hombres.",
+        "zh": "死亡人数说法不一：英国国家陆军博物馆称约120名妇女和儿童；其他记载称约200人。印度兵拒绝执行命令，屠杀由少数几人实施。"
+      },
+      "place": {
+        "name": {
+          "en": "Cawnpore (Kanpur)",
+          "es": "Cawnpore (Kanpur)",
+          "zh": "坎普尔"
+        },
+        "lat": 26.473,
+        "lon": 80.331
+      }
+    },
+    {
+      "id": "reprisals-on-the-grand-trunk-road",
+      "start": 1857,
+      "title": {
+        "en": "Company columns between Allahabad and Cawnpore burn villages along the Grand Trunk Road and hang their inhabitants; after Cawnpore is retaken in July, captured sepoys are hanged or blown from cannon",
+        "es": "Columnas de la Compañía entre Allahabad y Cawnpore queman aldeas a lo largo de la Grand Trunk Road y ahorcan a sus habitantes; tras retomar Cawnpore en julio, los cipayos capturados son ahorcados o atados a la boca de cañones y despedazados",
+        "zh": "东印度公司部队在阿拉哈巴德至坎普尔之间沿大干道焚烧村庄并绞死村民；7月重新攻占坎普尔后，被俘的印度兵被绞死或绑在炮口处决"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        },
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        }
+      ],
+      "note": {
+        "en": "Colonel James Neill's burnings and hangings on the road began in June, before the Bibighar killings; the reprisals after Cawnpore struck rebels and bystanders alike.",
+        "es": "Las quemas y ahorcamientos del coronel James Neill en el camino empezaron en junio, antes de la matanza del Bibighar; las represalias tras Cawnpore alcanzaron tanto a rebeldes como a personas ajenas.",
+        "zh": "詹姆斯·尼尔上校沿途焚村、绞人始于6月，早于比比加尔屠杀；攻占坎普尔后的报复波及起义者和无关民众。"
+      },
+      "place": {
+        "name": {
+          "en": "Fatehpur",
+          "es": "Fatehpur",
+          "zh": "法塔赫布尔"
+        },
+        "lat": 25.93,
+        "lon": 80.8
+      }
+    },
+    {
+      "id": "storming-of-delhi",
+      "start": 1857,
+      "title": {
+        "en": "Company troops storm Delhi through breaches by the Kashmiri Gate on 14 September and take the city after a week of street fighting; troops then loot it and kill many of its residents",
+        "es": "Las tropas de la Compañía asaltan Delhi por las brechas junto a la Puerta de Cachemira el 14 de septiembre y toman la ciudad tras una semana de combates callejeros; después la saquean y matan a muchos de sus habitantes",
+        "zh": "9月14日，东印度公司军队从克什米尔门附近的缺口攻入德里，经一周巷战占领全城；随后部队洗劫城市并杀害大量居民"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Delhi (1857).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Delhi_%281857%29"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "note": {
+        "en": "Brigadier-General John Nicholson was mortally wounded in the assault. About two-thirds of the 9,000 men before Delhi were Sikhs, Punjabi Muslims and Gurkhas.",
+        "es": "El general de brigada John Nicholson fue herido de muerte en el asalto. Unos dos tercios de los 9.000 hombres ante Delhi eran sijs, musulmanes del Punyab y gurkhas.",
+        "zh": "约翰·尼科尔森准将在攻城中受致命伤。德里城下9000人中约三分之二是锡克人、旁遮普穆斯林和廓尔喀人。"
+      },
+      "place": {
+        "name": {
+          "en": "Kashmiri Gate, Delhi",
+          "es": "Puerta de Cachemira, Delhi",
+          "zh": "德里克什米尔门"
+        },
+        "lat": 28.666,
+        "lon": 77.229
+      },
+      "wikidataId": "Q2343263"
+    },
+    {
+      "id": "zafar-captured",
+      "start": 1857,
+      "title": {
+        "en": "Bahadur Shah Zafar surrenders at Humayun's tomb; the next day Major William Hodson shoots two of his sons and a grandson",
+        "es": "Bahadur Shah Zafar se rinde en la tumba de Humayun; al día siguiente el mayor William Hodson mata a tiros a dos de sus hijos y a un nieto",
+        "zh": "巴哈杜尔沙二世在胡马雍陵投降；次日威廉·霍德森少校枪杀了他的两个儿子和一个孙子"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Bahadur Shah Zafar.\"",
+          "url": "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Humayun's tomb, Delhi",
+          "es": "Tumba de Humayun, Delhi",
+          "zh": "德里胡马雍陵"
+        },
+        "lat": 28.593,
+        "lon": 77.251
+      }
+    },
+    {
+      "id": "first-relief-of-lucknow",
+      "start": 1857,
+      "title": {
+        "en": "A relief column under Henry Havelock and James Outram fights its way into the Lucknow Residency on 25 September but is too weak to bring the garrison out",
+        "es": "Una columna de socorro al mando de Henry Havelock y James Outram se abre paso hasta la Residencia de Lucknow el 25 de septiembre, pero es demasiado débil para sacar a la guarnición",
+        "zh": "9月25日，亨利·哈夫洛克和詹姆斯·乌特勒姆率领的援军杀入勒克瑙官邸，但兵力不足，无法带出守军"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Lucknow.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Lucknow"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "The Residency, Lucknow",
+          "es": "La Residencia, Lucknow",
+          "zh": "勒克瑙官邸"
+        },
+        "lat": 26.862,
+        "lon": 80.926
+      }
+    },
+    {
+      "id": "second-relief-of-lucknow",
+      "start": 1857,
+      "title": {
+        "en": "Sir Colin Campbell's army storms the Sikandar Bagh on 16 November, killing about 2,000 of its defenders, and evacuates the Residency",
+        "es": "El ejército de sir Colin Campbell asalta el Sikandar Bagh el 16 de noviembre, mata a unos 2.000 de sus defensores y evacúa la Residencia",
+        "zh": "11月16日，科林·坎贝尔爵士的部队攻入锡坎达尔花园，杀死约2000名守军，并撤出官邸人员"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Lucknow.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Lucknow"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "note": {
+        "en": "The National Army Museum puts the rebels killed in the Sikandar Bagh at around 2,500; other accounts give about 2,000.",
+        "es": "El National Army Museum cifra en unos 2.500 los rebeldes muertos en el Sikandar Bagh; otros relatos dan unos 2.000.",
+        "zh": "英国国家陆军博物馆称锡坎达尔花园内被杀的起义者约2500人；其他记载称约2000人。"
+      },
+      "place": {
+        "name": {
+          "en": "Sikandar Bagh, Lucknow",
+          "es": "Sikandar Bagh, Lucknow",
+          "zh": "勒克瑙锡坎达尔花园"
+        },
+        "lat": 26.856,
+        "lon": 80.952
+      }
+    },
+    {
+      "id": "second-battle-of-cawnpore",
+      "start": 1857,
+      "title": {
+        "en": "Tatya Tope's army, with the Gwalior Contingent, drives Brigadier Windham back into Cawnpore; Campbell returns and defeats it on 6 December",
+        "es": "El ejército de Tatya Tope, con el Contingente de Gwalior, hace retroceder al brigadier Windham hasta Cawnpore; Campbell regresa y lo derrota el 6 de diciembre",
+        "zh": "坦提亚·托普的军队联合瓜廖尔分遣队将温德姆准将逼退至坎普尔；坎贝尔回师，于12月6日将其击败"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        },
+        {
+          "citation": "Wikipedia (English). \"Tatya Tope.\"",
+          "url": "https://en.wikipedia.org/wiki/Tatya_Tope"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Cawnpore (Kanpur)",
+          "es": "Cawnpore (Kanpur)",
+          "zh": "坎普尔"
+        },
+        "lat": 26.473,
+        "lon": 80.331
+      },
+      "wikidataId": "Q4212577"
+    },
+    {
+      "id": "trial-of-bahadur-shah",
+      "start": 1858,
+      "title": {
+        "en": "A British military court in the Red Fort tries Bahadur Shah Zafar for treason and sentences him to exile in Rangoon, Burma, where he dies in 1862",
+        "es": "Un tribunal militar británico en el Fuerte Rojo juzga a Bahadur Shah Zafar por traición y lo condena al exilio en Rangún (Birmania), donde muere en 1862",
+        "zh": "英国军事法庭在德里红堡以叛国罪审判巴哈杜尔沙二世，判处将其流放缅甸仰光；他于1862年死于当地"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Bahadur Shah Zafar.\"",
+          "url": "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Red Fort, Delhi",
+          "es": "Fuerte Rojo, Delhi",
+          "zh": "德里红堡"
+        },
+        "lat": 28.656,
+        "lon": 77.24
+      }
+    },
+    {
+      "id": "capture-of-lucknow",
+      "start": 1858,
+      "title": {
+        "en": "Campbell's army, joined by a Nepalese army under Jung Bahadur Rana, attacks Lucknow from 6 March and takes the city by 21 March; many rebels escape into the Awadh countryside",
+        "es": "El ejército de Campbell, junto con un ejército nepalí al mando de Jung Bahadur Rana, ataca Lucknow desde el 6 de marzo y toma la ciudad hacia el 21 de marzo; muchos rebeldes huyen al campo de Awadh",
+        "zh": "坎贝尔的军队会同忠格·巴哈杜尔·拉纳率领的尼泊尔军队，自3月6日起进攻勒克瑙，至3月21日攻占该城；许多起义者逃入阿瓦德乡间"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Capture of Lucknow.\"",
+          "url": "https://en.wikipedia.org/wiki/Capture_of_Lucknow"
+        },
+        {
+          "citation": "\"The Ranas and the Raj.\" Historia Magazine.",
+          "url": "https://historiamag.com/ranas-and-raj/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Lucknow",
+          "es": "Lucknow",
+          "zh": "勒克瑙"
+        },
+        "lat": 26.847,
+        "lon": 80.947
+      }
+    },
+    {
+      "id": "siege-of-jhansi",
+      "start": 1858,
+      "title": {
+        "en": "Sir Hugh Rose's Central India Field Force besieges Jhansi, defeats Tatya Tope's relief army, and storms and loots the city in early April; Rani Lakshmibai escapes",
+        "es": "La Fuerza de Campaña de la India Central de sir Hugh Rose sitia Jhansi, derrota al ejército de socorro de Tatya Tope y a principios de abril asalta y saquea la ciudad; la rani Lakshmibai escapa",
+        "zh": "休·罗斯爵士的印度中部野战部队围攻占西，击败坦提亚·托普的援军，并于4月初攻入并洗劫该城；拉克希米·巴伊王后突围出逃"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Jhansi.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Jhansi"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "note": {
+        "en": "The National Army Museum says at least 5,000 of the city's defenders died.",
+        "es": "El National Army Museum afirma que murieron al menos 5.000 defensores de la ciudad.",
+        "zh": "英国国家陆军博物馆称该城至少有5000名守军死亡。"
+      },
+      "place": {
+        "name": {
+          "en": "Jhansi",
+          "es": "Jhansi",
+          "zh": "占西"
+        },
+        "lat": 25.449,
+        "lon": 78.57
+      },
+      "wikidataId": "Q16034303"
+    },
+    {
+      "id": "battle-of-kalpi",
+      "start": 1858,
+      "title": {
+        "en": "Rose defeats the rebels at Kunch and then at Kalpi in May",
+        "es": "Rose derrota a los rebeldes en Kunch y después en Kalpi en mayo",
+        "zh": "5月，罗斯先后在昆奇和卡尔皮击败起义者"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kalpi",
+          "es": "Kalpi",
+          "zh": "卡尔皮"
+        },
+        "lat": 26.117,
+        "lon": 79.733
+      }
+    },
+    {
+      "id": "rebels-take-gwalior",
+      "start": 1858,
+      "title": {
+        "en": "On 1 June Rani Lakshmibai, Tatya Tope and their forces take Gwalior from its ruler, Jayajirao Scindia, an ally of the British, after his troops go over to them",
+        "es": "El 1 de junio la rani Lakshmibai, Tatya Tope y sus fuerzas toman Gwalior a su gobernante, Jayajirao Scindia, aliado de los británicos, después de que las tropas de este se pasen a su bando",
+        "zh": "6月1日，拉克希米·巴伊王后、坦提亚·托普及其部队在瓜廖尔统治者、英国盟友贾亚吉拉奥·辛迪亚的军队倒戈后，攻占瓜廖尔"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        },
+        {
+          "citation": "Wikipedia (español). \"Rebelión de la India de 1857.\"",
+          "url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_de_la_India_de_1857"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Gwalior",
+          "es": "Gwalior",
+          "zh": "瓜廖尔"
+        },
+        "lat": 26.212,
+        "lon": 78.177
+      }
+    },
+    {
+      "id": "battle-of-gwalior",
+      "start": 1858,
+      "title": {
+        "en": "Rani Lakshmibai is killed in fighting at Kotah-ki-Serai on 17 June; Rose's force takes Gwalior two to three days later",
+        "es": "La rani Lakshmibai muere en los combates de Kotah-ki-Serai el 17 de junio; la fuerza de Rose toma Gwalior dos o tres días después",
+        "zh": "6月17日，拉克希米·巴伊王后在科塔基塞赖的战斗中阵亡；两三天后，罗斯的部队攻占瓜廖尔"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        },
+        {
+          "citation": "Wikipedia (español). \"Rebelión de la India de 1857.\"",
+          "url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_de_la_India_de_1857"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Gwalior",
+          "es": "Gwalior",
+          "zh": "瓜廖尔"
+        },
+        "lat": 26.212,
+        "lon": 78.177
+      }
+    },
+    {
+      "id": "tatya-tope-hanged",
+      "start": 1859,
+      "title": {
+        "en": "Tatya Tope, who had evaded Company columns since Gwalior, is betrayed, captured and hanged at Shivpuri on 18 April",
+        "es": "Tatya Tope, que había eludido a las columnas de la Compañía desde Gwalior, es traicionado, capturado y ahorcado en Shivpuri el 18 de abril",
+        "zh": "自瓜廖尔之战后一直躲避公司部队追捕的坦提亚·托普遭人出卖被捕，于4月18日在希沃布里被处以绞刑"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+          "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+        },
+        {
+          "citation": "Wikipedia (English). \"Tatya Tope.\"",
+          "url": "https://en.wikipedia.org/wiki/Tatya_Tope"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Some Indian writers have claimed that he escaped and that another man was hanged in his place.",
+        "es": "Algunos autores indios han afirmado que escapó y que otro hombre fue ahorcado en su lugar.",
+        "zh": "一些印度作者声称他已逃脱，被绞死的是另一个人。"
+      },
+      "place": {
+        "name": {
+          "en": "Shivpuri (Sipri)",
+          "es": "Shivpuri (Sipri)",
+          "zh": "希沃布里"
+        },
+        "lat": 25.433,
+        "lon": 77.65
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Bahadur Shah Zafar",
+        "es": "Bahadur Shah Zafar",
+        "zh": "巴哈杜尔沙二世"
+      },
+      "side": "rebels",
+      "role": {
+        "en": "Mughal emperor at Delhi, proclaimed leader by the rebels",
+        "es": "Emperador mogol en Delhi, proclamado líder por los rebeldes",
+        "zh": "德里的莫卧儿皇帝，被起义者拥立为领袖"
+      },
+      "wikidataId": "Q127369"
+    },
+    {
+      "name": {
+        "en": "Nana Sahib",
+        "es": "Nana Sahib",
+        "zh": "那那·萨希布"
+      },
+      "side": "rebels",
+      "role": {
+        "en": "Led the rebels at Cawnpore",
+        "es": "Dirigió a los rebeldes en Cawnpore",
+        "zh": "坎普尔起义领袖"
+      },
+      "wikidataId": "Q951444"
+    },
+    {
+      "name": {
+        "en": "Rani Lakshmibai",
+        "es": "Rani Lakshmibai",
+        "zh": "拉克希米·巴伊王后"
+      },
+      "side": "rebels",
+      "role": {
+        "en": "Rani of Jhansi; killed at Gwalior in 1858",
+        "es": "Rani de Jhansi; murió en Gwalior en 1858",
+        "zh": "占西王后；1858年在瓜廖尔阵亡"
+      },
+      "wikidataId": "Q181878"
+    },
+    {
+      "name": {
+        "en": "Tatya Tope",
+        "es": "Tatya Tope",
+        "zh": "坦提亚·托普"
+      },
+      "side": "rebels",
+      "role": {
+        "en": "Nana Sahib's general; hanged in 1859",
+        "es": "General de Nana Sahib; ahorcado en 1859",
+        "zh": "那那·萨希布的将领；1859年被处绞刑"
+      },
+      "wikidataId": "Q983579"
+    },
+    {
+      "name": {
+        "en": "Bakht Khan",
+        "es": "Bakht Khan",
+        "zh": "巴克德·汗"
+      },
+      "side": "rebels",
+      "role": {
+        "en": "Commander of the rebel forces in Delhi",
+        "es": "Comandante de las fuerzas rebeldes en Delhi",
+        "zh": "德里起义军指挥官"
+      },
+      "wikidataId": "Q3774267"
+    },
+    {
+      "name": {
+        "en": "Begum Hazrat Mahal",
+        "es": "Begum Hazrat Mahal",
+        "zh": "哈兹拉特·马哈尔王后"
+      },
+      "side": "rebels",
+      "role": {
+        "en": "Led the rebellion in Awadh",
+        "es": "Dirigió la rebelión en Awadh",
+        "zh": "阿瓦德起义领袖"
+      },
+      "wikidataId": "Q717960"
+    },
+    {
+      "name": {
+        "en": "Kunwar Singh",
+        "es": "Kunwar Singh",
+        "zh": "孔瓦尔·辛格"
+      },
+      "side": "rebels",
+      "role": {
+        "en": "Zamindar of Jagdishpur; led the rebellion in Bihar",
+        "es": "Zamindar de Jagdishpur; dirigió la rebelión en Bihar",
+        "zh": "贾格迪什布尔地主；比哈尔起义领袖"
+      },
+      "wikidataId": "Q3595882"
+    },
+    {
+      "name": {
+        "en": "Charles Canning",
+        "es": "Charles Canning",
+        "zh": "查尔斯·坎宁"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Governor-General of India; from 1858 the first Viceroy",
+        "es": "Gobernador general de la India; desde 1858, primer virrey",
+        "zh": "印度总督；1858年起任首任副王"
+      },
+      "wikidataId": "Q335786"
+    },
+    {
+      "name": {
+        "en": "Colin Campbell",
+        "es": "Colin Campbell",
+        "zh": "科林·坎贝尔"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Commander-in-Chief in India; relieved and later took Lucknow",
+        "es": "Comandante en jefe en la India; socorrió y después tomó Lucknow",
+        "zh": "驻印总司令；解勒克瑙之围，后攻占该城"
+      },
+      "wikidataId": "Q336049"
+    },
+    {
+      "name": {
+        "en": "Hugh Rose",
+        "es": "Hugh Rose",
+        "zh": "休·罗斯"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Commanded the Central India Field Force",
+        "es": "Mandó la Fuerza de Campaña de la India Central",
+        "zh": "印度中部野战部队指挥官"
+      },
+      "wikidataId": "Q335777"
+    },
+    {
+      "name": {
+        "en": "Henry Havelock",
+        "es": "Henry Havelock",
+        "zh": "亨利·哈夫洛克"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Retook Cawnpore and led the first relief of Lucknow; died there in November 1857",
+        "es": "Retomó Cawnpore y dirigió el primer socorro de Lucknow; murió allí en noviembre de 1857",
+        "zh": "收复坎普尔并率第一次勒克瑙解围；1857年11月死于当地"
+      },
+      "wikidataId": "Q1606848"
+    },
+    {
+      "name": {
+        "en": "James Outram",
+        "es": "James Outram",
+        "zh": "詹姆斯·乌特勒姆"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Commander at Lucknow and the Alambagh",
+        "es": "Comandante en Lucknow y el Alambagh",
+        "zh": "勒克瑙及阿拉姆花园指挥官"
+      },
+      "wikidataId": "Q584416"
+    },
+    {
+      "name": {
+        "en": "Henry Lawrence",
+        "es": "Henry Lawrence",
+        "zh": "亨利·劳伦斯"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Chief Commissioner of Awadh; killed in the siege of Lucknow",
+        "es": "Comisionado jefe de Awadh; murió en el sitio de Lucknow",
+        "zh": "阿瓦德首席专员；在勒克瑙之围中被炸死"
+      },
+      "wikidataId": "Q58275"
+    },
+    {
+      "name": {
+        "en": "Archdale Wilson",
+        "es": "Archdale Wilson",
+        "zh": "阿奇代尔·威尔逊"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Commanded the force that took Delhi",
+        "es": "Mandó la fuerza que tomó Delhi",
+        "zh": "攻占德里的部队指挥官"
+      },
+      "wikidataId": "Q6243388"
+    },
+    {
+      "name": {
+        "en": "John Nicholson",
+        "es": "John Nicholson",
+        "zh": "约翰·尼科尔森"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Led the Punjab column to Delhi; mortally wounded in the assault",
+        "es": "Condujo la columna del Punyab a Delhi; herido de muerte en el asalto",
+        "zh": "率旁遮普纵队驰援德里；在攻城中受致命伤"
+      },
+      "wikidataId": "Q469572"
+    },
+    {
+      "name": {
+        "en": "Jung Bahadur Rana",
+        "es": "Jung Bahadur Rana",
+        "zh": "忠格·巴哈杜尔·拉纳"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Prime minister of Nepal; led the Nepalese army at Lucknow",
+        "es": "Primer ministro de Nepal; dirigió el ejército nepalí en Lucknow",
+        "zh": "尼泊尔首相；率尼泊尔军参与勒克瑙之战"
+      },
+      "wikidataId": "Q2355896"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "total-deaths",
+      "side": "company-and-allies",
+      "who": {
+        "en": "Europeans in India, soldiers and civilians",
+        "es": "Europeos en la India, soldados y civiles",
+        "zh": "在印欧洲人（军人和平民）"
+      },
+      "low": 6000,
+      "high": 6000,
+      "attributedTo": {
+        "en": "historian Douglas M. Peers",
+        "es": "el historiador Douglas M. Peers",
+        "zh": "历史学家道格拉斯·M·皮尔斯"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        }
+      ],
+      "note": {
+        "en": "A rough estimate: about 6,000 of the roughly 40,000 Europeans then in India were killed. No source gives a firm count of the Indian soldiers who died fighting for the Company.",
+        "es": "Una estimación aproximada: murieron unos 6.000 de los cerca de 40.000 europeos que había entonces en la India. Ninguna fuente da una cifra firme de los soldados indios muertos luchando por la Compañía.",
+        "zh": "粗略估计：当时在印度的约4万名欧洲人中约6000人被杀。没有来源给出为东印度公司作战而死的印度士兵的确切人数。"
+      }
+    },
+    {
+      "scope": "total-deaths",
+      "who": {
+        "en": "Indians",
+        "es": "Indios",
+        "zh": "印度人"
+      },
+      "low": 800000,
+      "high": 800000,
+      "attributedTo": {
+        "en": "historian Douglas M. Peers",
+        "es": "el historiador Douglas M. Peers",
+        "zh": "历史学家道格拉斯·M·皮尔斯"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        },
+        {
+          "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+          "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+        },
+        {
+          "citation": "Ramesh, Randeep. \"Millions died after 1857 war of independence: historian.\" The Guardian, via Dawn, 2007.",
+          "url": "https://www.dawn.com/news/262820/millions-died-after-1857-war-of-independence-historian"
+        }
+      ],
+      "note": {
+        "en": "Indians killed in the fighting and in the famines and epidemics it caused, estimated by comparing unreliable pre-1857 data with the 1871 census; Peers says the true toll was very likely higher. The toll is contested: the historian Saul David puts it in the hundreds of thousands, while the writer Amaresh Misra has claimed almost 10 million deaths over the ten years from 1857, a figure other historians reject.",
+        "es": "Indios muertos en los combates y en las hambrunas y epidemias que estos causaron, según una comparación de datos poco fiables anteriores a 1857 con el censo de 1871; Peers dice que la cifra real fue muy probablemente mayor. La cifra se discute: el historiador Saul David la sitúa en cientos de miles, mientras que el escritor Amaresh Misra ha afirmado que murieron casi 10 millones de personas en los diez años posteriores a 1857, cifra que otros historiadores rechazan.",
+        "zh": "指在战斗及其引发的饥荒和疫病中死亡的印度人，系将1857年前不可靠的数据与1871年人口普查比较得出的估计；皮尔斯认为实际人数很可能更高。该数字存在争议：历史学家索尔·戴维认为死亡人数达数十万，作家阿马雷什·米斯拉则称自1857年起十年间死亡近1000万人，其他历史学家不接受这一数字。"
+      }
+    }
+  ],
+  "cultures": [],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+      "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+    },
+    {
+      "citation": "Wikipedia (español). \"Rebelión de la India de 1857.\"",
+      "url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_de_la_India_de_1857"
+    },
+    {
+      "citation": "Wikipedia (中文). \"印度民族起义.\"",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6%E6%B0%91%E6%97%8F%E8%B5%B7%E4%B9%89"
+    },
+    {
+      "citation": "National Army Museum. \"Decisive events of the Indian Rebellion.\"",
+      "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+    },
+    {
+      "citation": "National Army Museum. \"Why did the Indian Rebellion happen?\"",
+      "url": "https://www.nam.ac.uk/explore/why-did-indian-mutiny-happen"
+    },
+    {
+      "citation": "Sky HISTORY. \"How the Indian Mutiny forever changed the landscape of the British Empire.\"",
+      "url": "https://www.history.co.uk/articles/the-indian-mutiny-the-british-empire"
+    },
+    {
+      "citation": "Ramesh, Randeep. \"Millions died after 1857 war of independence: historian.\" The Guardian, via Dawn, 2007.",
+      "url": "https://www.dawn.com/news/262820/millions-died-after-1857-war-of-independence-historian"
+    }
+  ]
+}
