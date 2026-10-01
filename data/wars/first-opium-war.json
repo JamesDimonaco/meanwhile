@@ -723,12 +723,16 @@
         {
           "citation": "National Army Museum. \"First China War.\"",
           "url": "https://www.nam.ac.uk/explore/opium-war-1839-1842"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Chapu.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Chapu"
         }
       ],
       "note": {
-        "en": "British losses were 9 killed and 55 wounded. Many of the garrison's bannermen and their families died, some by their own hand.",
-        "es": "Las bajas británicas fueron 9 muertos y 55 heridos. Muchos soldados de estandartes de la guarnición y sus familias murieron, algunos por su propia mano.",
-        "zh": "英军9人死亡、55人受伤。驻防八旗兵及其家属死者甚众，其中一些人自尽。"
+        "en": "Counts of British dead run from 9 to 13, with 42 to 55 wounded. Many of the garrison's bannermen and their families died, some by their own hand.",
+        "es": "Las cifras de británicos muertos van de 9 a 13, con entre 42 y 55 heridos. Muchos soldados de estandartes de la guarnición y sus familias murieron, algunos por su propia mano.",
+        "zh": "英军死亡人数说法从9人到13人不等，受伤42至55人。驻防八旗兵及其家属死者甚众，其中一些人自尽。"
       },
       "place": {
         "name": {
@@ -1105,9 +1109,9 @@
         }
       ],
       "note": {
-        "en": "Killed in battle over the whole war, counted from battle reports, with more than 4,000 wounded. It includes bannermen and their families who died by their own hand at Zhapu and Zhenjiang, and leaves out militia, civilians and deaths from disease. The toll is uncertain: some works give far higher figures.",
-        "es": "Muertos en combate durante toda la guerra, contados a partir de los partes de batalla, con más de 4000 heridos. Incluye a soldados de estandartes y sus familias que se quitaron la vida en Zhapu y Zhenjiang, y deja fuera a milicianos, civiles y muertes por enfermedad. La cifra es incierta: algunas obras dan cifras mucho más altas.",
-        "zh": "根据战报统计的整个战争期间的阵亡人数，另有4000余人受伤；包括在乍浦和镇江自尽的八旗兵及其家属，不包括乡勇、平民和病亡者。这一数字并不确定，有些著作给出的数字要高得多。"
+        "en": "An estimate of those killed in battle over the whole war, with more than 4,000 wounded. It includes bannermen and their families who died by their own hand at Zhapu and Zhenjiang. The toll is uncertain: some works give far higher figures.",
+        "es": "Estimación de los muertos en combate durante toda la guerra, con más de 4000 heridos. Incluye a soldados de estandartes y sus familias que se quitaron la vida en Zhapu y Zhenjiang. La cifra es incierta: algunas obras dan cifras mucho más altas.",
+        "zh": "对整个战争期间阵亡人数的估计，另有4000余人受伤；包括在乍浦和镇江自尽的八旗兵及其家属。这一数字并不确定，有些著作给出的数字要高得多。"
       }
     }
   ],
@@ -1146,6 +1150,10 @@
     {
       "citation": "Wikipedia (中文). \"南京条约.\"",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E6%9D%A1%E7%BA%A6"
+    },
+    {
+      "citation": "Wikipedia (English). \"Battle of Chapu.\"",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Chapu"
     }
   ]
 }
