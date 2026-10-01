@@ -22,7 +22,7 @@
   "altNames": [],
   "description": {
     "en": "Resentment of the British Resident's control of the Lahore court grew after the First Anglo-Sikh War. In April 1848 two British officers sent to take over Multan from its governor, Diwan Mulraj, were killed, and Mulraj's troops rose in revolt. Lieutenant Herbert Edwardes, with Pashtun irregulars and troops of the Nawab of Bahawalpur, beat Mulraj's forces in the field and drove them into Multan. In September Sher Singh Attariwalla, sent with Sikh troops to help the besiegers, joined the revolt, and his father Chattar Singh rose in Hazara; Afghan horsemen sent by Dost Mohammad Khan later joined them. Sir Hugh Gough's army fought Sher Singh at Ramnagar in November and at Chillianwala on 13 January 1849, where both sides lost heavily. Multan fell on 22 January after a siege, and on 21 February Gough's reinforced army defeated the Sikh army at Gujrat. The Sikh leaders surrendered near Rawalpindi in March, and on 29 March 1849 the Governor-General, Lord Dalhousie, annexed the Punjab and deposed the boy Maharaja Duleep Singh.",
-    "es": "El resentimiento por el control del residente británico sobre la corte de Lahore creció tras la primera guerra anglo-sij. En abril de 1848 dos oficiales británicos enviados a hacerse cargo de Multán, en lugar de su gobernador, el diván Mulraj, fueron asesinados, y las tropas de Mulraj se sublevaron. El teniente Herbert Edwardes, con irregulares pastunes y tropas del nabab de Bahawalpur, venció a las fuerzas de Mulraj en campo abierto y las obligó a encerrarse en Multán. En septiembre Sher Singh Attariwalla, enviado con tropas sijs para ayudar a los sitiadores, se unió a la revuelta, y su padre Chattar Singh se alzó en Hazara; más tarde se les unieron jinetes afganos enviados por Dost Mohammad Khan. El ejército de sir Hugh Gough combatió a Sher Singh en Ramnagar en noviembre y en Chillianwala el 13 de enero de 1849, donde ambos bandos sufrieron grandes pérdidas. Multán cayó el 22 de enero tras un sitio, y el 21 de febrero el ejército reforzado de Gough derrotó al ejército sij en Gujrat. Los jefes sijs se rindieron cerca de Rawalpindi en marzo, y el 29 de marzo de 1849 el gobernador general, lord Dalhousie, se anexionó el Punyab y depuso al niño maharajá Duleep Singh.",
+    "es": "El resentimiento por el control del residente británico sobre la corte de Lahore creció tras la primera guerra anglo-sij. En abril de 1848 dos oficiales británicos enviados a hacerse cargo de Multán, en lugar de su gobernador, el diván Mulraj, fueron muertos, y las tropas de Mulraj se sublevaron. El teniente Herbert Edwardes, con irregulares pastunes y tropas del nabab de Bahawalpur, venció a las fuerzas de Mulraj en campo abierto y las obligó a encerrarse en Multán. En septiembre Sher Singh Attariwalla, enviado con tropas sijs para ayudar a los sitiadores, se unió a la revuelta, y su padre Chattar Singh se alzó en Hazara; más tarde se les unieron jinetes afganos enviados por Dost Mohammad Khan. El ejército de sir Hugh Gough combatió a Sher Singh en Ramnagar en noviembre y en Chillianwala el 13 de enero de 1849, donde ambos bandos sufrieron grandes pérdidas. Multán cayó el 22 de enero tras un sitio, y el 21 de febrero el ejército reforzado de Gough derrotó al ejército sij en Gujrat. Los jefes sijs se rindieron cerca de Rawalpindi en marzo, y el 29 de marzo de 1849 el gobernador general, lord Dalhousie, se anexionó el Punyab y depuso al niño maharajá Duleep Singh.",
     "zh": "第一次英国锡克战争后，英国驻拉合尔代表对宫廷的控制引发的不满日益加深。1848年4月，两名被派去从总督迪万·穆尔拉吉手中接管木尔坦的英国军官被杀，穆尔拉吉的部队随即起事。赫伯特·爱德华兹中尉率普什图非正规军和巴哈瓦尔布尔纳瓦卜的部队，在野战中击败穆尔拉吉的军队，将其逼入木尔坦城。9月，奉命率锡克部队协助围城的舍尔·辛格·阿塔里瓦拉加入起事，其父查塔尔·辛格在哈扎拉起兵；后来多斯特·穆罕默德汗派出的阿富汗骑兵也加入他们。11月和1849年1月13日，休·高夫爵士的军队先后在拉姆纳加尔和奇连瓦拉与舍尔·辛格交战，在奇连瓦拉双方均损失惨重。1月22日，木尔坦经围攻后陷落；2月21日，高夫得到增援的军队在古杰拉特击败锡克军队。3月，锡克首领在拉瓦尔品第附近投降；1849年3月29日，总督达尔豪斯勋爵吞并旁遮普，废黜年幼的杜利普·辛格大君。"
   },
   "outcome": {
@@ -125,19 +125,19 @@
       ]
     },
     {
-      "id": "sikh-rebels-and-afghans",
+      "id": "sikh-empire-and-afghans",
       "label": {
-        "en": "Sikh forces in revolt and their Afghan allies",
-        "es": "Fuerzas sijs sublevadas y sus aliados afganos",
-        "zh": "起事的锡克部队及其阿富汗盟友"
+        "en": "The Sikh Empire's army (the Khalsa) and Afghan allies",
+        "es": "El ejército del Imperio sij (el Khalsa) y sus aliados afganos",
+        "zh": "锡克帝国军队（卡尔萨）及其阿富汗盟友"
       },
       "members": [
         {
           "kind": "polity",
           "name": {
-            "en": "Mulraj's forces at Multan",
-            "es": "Las fuerzas de Mulraj en Multán",
-            "zh": "穆尔拉吉在木尔坦的部队"
+            "en": "Mulraj's forces at Multan, a province of the Sikh Empire",
+            "es": "Las fuerzas de Mulraj en Multán, provincia del Imperio sij",
+            "zh": "穆尔拉吉在锡克帝国木尔坦省的部队"
           },
           "role": "belligerent",
           "today": [
@@ -147,9 +147,9 @@
         {
           "kind": "polity",
           "name": {
-            "en": "Khalsa regiments under Sher Singh and Chattar Singh Attariwalla",
-            "es": "Regimientos del Khalsa al mando de Sher Singh y Chattar Singh Attariwalla",
-            "zh": "舍尔·辛格和查塔尔·辛格·阿塔里瓦拉率领的卡尔萨各团"
+            "en": "Khalsa regiments of the Sikh Empire under Sher Singh and Chattar Singh Attariwalla",
+            "es": "Regimientos del Khalsa del Imperio sij al mando de Sher Singh y Chattar Singh Attariwalla",
+            "zh": "舍尔·辛格和查塔尔·辛格·阿塔里瓦拉率领的锡克帝国卡尔萨各团"
           },
           "role": "belligerent",
           "today": [
@@ -178,7 +178,7 @@
       "start": 1848,
       "title": {
         "en": "Patrick Vans Agnew and William Anderson, sent to take over Multan from Diwan Mulraj, are attacked and killed in April; Mulraj's troops rise in revolt",
-        "es": "Patrick Vans Agnew y William Anderson, enviados a hacerse cargo de Multán en lugar del diván Mulraj, son atacados y asesinados en abril; las tropas de Mulraj se sublevan",
+        "es": "Patrick Vans Agnew y William Anderson, enviados a hacerse cargo de Multán en lugar del diván Mulraj, son atacados y muertos en abril; las tropas de Mulraj se sublevan",
         "zh": "4月，被派去从迪万·穆尔拉吉手中接管木尔坦的帕特里克·范斯·阿格纽和威廉·安德森遇袭身亡；穆尔拉吉的部队起事"
       },
       "sources": [
@@ -454,7 +454,7 @@
         "es": "Diwan Mulraj",
         "zh": "迪万·穆尔拉吉"
       },
-      "side": "sikh-rebels-and-afghans",
+      "side": "sikh-empire-and-afghans",
       "role": {
         "en": "Governor of Multan",
         "es": "Gobernador de Multán",
@@ -468,7 +468,7 @@
         "es": "Sher Singh Attariwalla",
         "zh": "舍尔·辛格·阿塔里瓦拉"
       },
-      "side": "sikh-rebels-and-afghans",
+      "side": "sikh-empire-and-afghans",
       "role": {
         "en": "Commanded the main Sikh army",
         "es": "Mandó el principal ejército sij",
@@ -482,7 +482,7 @@
         "es": "Chattar Singh Attariwalla",
         "zh": "查塔尔·辛格·阿塔里瓦拉"
       },
-      "side": "sikh-rebels-and-afghans",
+      "side": "sikh-empire-and-afghans",
       "role": {
         "en": "Sher Singh's father; rose in Hazara",
         "es": "Padre de Sher Singh; se alzó en Hazara",
@@ -496,7 +496,7 @@
         "es": "Dost Mohammad Khan",
         "zh": "多斯特·穆罕默德汗"
       },
-      "side": "sikh-rebels-and-afghans",
+      "side": "sikh-empire-and-afghans",
       "role": {
         "en": "Amir of Kabul; sent horsemen to support the Sikhs",
         "es": "Emir de Kabul; envió jinetes en apoyo de los sijs",
