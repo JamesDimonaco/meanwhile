@@ -14,6 +14,15 @@ export function snapshotAt<S extends { year: number }>(snapshots: readonly S[], 
 }
 
 /**
+ * The middle of geoBounds' box. A box that crosses the antimeridian comes back
+ * with west > east, so the plain average would point at the far side of the globe.
+ */
+export function boundsCentre([[west, south], [east, north]]: [[number, number], [number, number]]): [number, number] {
+  const lon = (west + (west > east ? east + 360 : east)) / 2;
+  return [lon > 180 ? lon - 360 : lon, (south + north) / 2];
+}
+
+/**
  * d3-geo draws on a sphere and takes ring direction to mean "inside": GeoJSON
  * written to RFC 7946 (counter-clockwise exteriors) reads as the whole globe
  * minus the shape. Flip any polygon whose exterior covers more than a hemisphere.

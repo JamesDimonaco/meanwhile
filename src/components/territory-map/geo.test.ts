@@ -2,7 +2,7 @@ import { geoArea } from "d3-geo";
 import { describe, expect, it } from "vitest";
 import { Borders, type Geometry } from "@/lib/data/schema";
 import fixture from "./__fixtures__/borders.json";
-import { forD3, snapshotAt } from "./geo";
+import { boundsCentre, forD3, snapshotAt } from "./geo";
 
 const snapshots = [{ year: -500 }, { year: -264 }, { year: 117 }];
 
@@ -59,5 +59,23 @@ describe("forD3", () => {
 describe("fixture", () => {
   it("follows the borders schema the real data uses", () => {
     expect(Borders.safeParse(fixture).success).toBe(true);
+  });
+});
+
+describe("boundsCentre", () => {
+  it("averages bounds that sit on one side of the antimeridian", () => {
+    // Roman Empire, roughly.
+    expect(boundsCentre([[-10, 25], [45, 55]])).toEqual([17.5, 40]);
+  });
+
+  it("centres bounds that cross the antimeridian on their true middle", () => {
+    // geoBounds of World War II's pins, Normandy east to Pearl Harbor: west > east.
+    const [lon, lat] = boundsCentre([[-3.6, 18.362], [-154.954, 55.517]]);
+    expect(lon).toBeCloseTo(100.723, 3);
+    expect(lat).toBeCloseTo(36.9395, 4);
+  });
+
+  it("keeps a crossing centre inside -180 to 180", () => {
+    expect(boundsCentre([[170, 0], [-150, 10]])[0]).toBeCloseTo(-170, 6);
   });
 });

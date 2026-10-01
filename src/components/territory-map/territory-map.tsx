@@ -7,7 +7,7 @@ import { useEffect, useId, useMemo, useState } from "react";
 import { YearText } from "@/components/settings/year-text";
 import { localize } from "@/lib/data/localize";
 import type { Borders, Geometry, Place, Region } from "@/lib/data/schema";
-import { forD3, snapshotAt } from "./geo";
+import { boundsCentre, forD3, snapshotAt } from "./geo";
 import { MapFrame, MAP_HEIGHT, MAP_WIDTH } from "./map-frame";
 
 type GeoData = { land: Geometry; borders: Borders | null };
@@ -149,11 +149,11 @@ function MapSvg({
       });
     }
     const everywhere = { type: "GeometryCollection" as const, geometries: own };
-    const [[west, south], [east, north]] = geoBounds(everywhere);
+    const [lon, lat] = boundsCentre(geoBounds(everywhere));
     // Equal-area, centred on everywhere the culture ever held, so sizes compare
     // fairly and the frame never moves between years.
     const projection = geoAzimuthalEqualArea()
-      .rotate([-(west + east) / 2, -(south + north) / 2])
+      .rotate([-lon, -lat])
       .fitExtent(
         [
           [16, 16],
