@@ -341,16 +341,16 @@ const WARS: Record<string, MapConfig> = {
     snapshots: [{ year: 1519, self: ["Aztec Triple Alliance"], rivals: ["Michoacán", "Later Mayan City-States"] }],
   },
   "punic-wars": {
-    subject: "the Roman Republic",
+    subject: "Rome and Carthage",
     simplify: "25%",
     changes:
       "The map is cut to the western and central Mediterranean, 10° W to 27° E and 29° N to 47° N. Cliopatria has no Numidian kingdom before 197 BCE, so Masinissa's and Syphax's lands are unmarked on the 201 BCE map.",
     extent: [-10, 29, 27, 47],
     snapshots: [
-      { year: -263, self: ["Roman Republic"], rivals: ["Carthage", "Mamertines", "Greek Colonies", "Antigonid Macedonia", "Ptolemaic Kingdom"] },
-      { year: -217, self: ["Roman Republic"], rivals: ["Carthage", "Greek City-States", "Antigonid Macedonia", "Aetolian League", "Achaean League", "Ptolemaic Kingdom"] },
-      { year: -200, self: ["Roman Republic"], rivals: ["Carthage", "Mauretania", "Greek City-States", "Antigonid Macedonia", "Aetolian League", "Achaean League", "Ptolemaic Kingdom"] },
-      { year: -148, self: ["Roman Republic"], rivals: ["Carthage", "Kingdom of Numidia", "Mauretania", "Greek City-States", "Achaean League", "Ptolemaic Kingdom"] },
+      { year: -263, self: ["Roman Republic", "Carthage"], rivals: ["Mamertines", "Greek Colonies", "Antigonid Macedonia", "Ptolemaic Kingdom"] },
+      { year: -217, self: ["Roman Republic", "Carthage"], rivals: ["Greek City-States", "Antigonid Macedonia", "Aetolian League", "Achaean League", "Ptolemaic Kingdom"] },
+      { year: -200, self: ["Roman Republic", "Carthage"], rivals: ["Mauretania", "Greek City-States", "Antigonid Macedonia", "Aetolian League", "Achaean League", "Ptolemaic Kingdom"] },
+      { year: -148, self: ["Roman Republic", "Carthage"], rivals: ["Kingdom of Numidia", "Mauretania", "Greek City-States", "Achaean League", "Ptolemaic Kingdom"] },
     ],
   },
 };
