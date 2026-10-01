@@ -1,0 +1,471 @@
+{
+  "id": "first-anglo-sikh-war",
+  "wikidataId": "Q582584",
+  "name": {
+    "en": "First Anglo-Sikh War",
+    "es": "Primera guerra anglo-sij",
+    "zh": "第一次英国锡克战争"
+  },
+  "aliases": [
+    "First Sikh War",
+    "Anglo-Sikh wars",
+    "Sobraon",
+    "Ferozeshah",
+    "Treaty of Lahore",
+    "Khalsa",
+    "锡克战争",
+    "Guerras anglo-sijs"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "After Maharaja Ranjit Singh died in 1839, the Sikh Empire of the Punjab fell into disorder, and its army, the Khalsa, grew powerful against the court of the boy Maharaja Duleep Singh and his mother, Maharani Jind Kaur, who acted as regent. As the East India Company massed troops on the frontier, the Khalsa crossed the Sutlej river into Company territory on 11 December 1845. Company and British Army troops under Sir Hugh Gough and the Governor-General, Sir Henry Hardinge, fought the Sikh armies at Mudki on 18 December and at Ferozeshah on 21–22 December, where both sides lost heavily. Sir Harry Smith defeated a Sikh force at Aliwal on 28 January 1846, and on 10 February Gough's army stormed the Sikh entrenchments at Sobraon; many Sikh soldiers were trapped against the river when the bridge of boats behind them was destroyed. Lal Singh and Tej Singh, two of the Khalsa's commanders, were later accused of secretly helping the British. By the Treaty of Lahore of 9 March 1846 the Sikh state gave up the Jullundur Doab and other lands and paid an indemnity, and the Company placed a Resident and a garrison at Lahore.",
+    "es": "Tras la muerte del maharajá Ranjit Singh en 1839, el Imperio sij del Punyab cayó en el desorden, y su ejército, el Khalsa, ganó poder frente a la corte del niño maharajá Duleep Singh y de su madre, la maharaní Jind Kaur, que ejercía la regencia. Mientras la Compañía de las Indias Orientales concentraba tropas en la frontera, el Khalsa cruzó el río Sutlej hacia territorio de la Compañía el 11 de diciembre de 1845. Tropas de la Compañía y del ejército británico al mando de sir Hugh Gough y del gobernador general, sir Henry Hardinge, combatieron a los ejércitos sijs en Mudki el 18 de diciembre y en Ferozeshah el 21 y 22 de diciembre, donde ambos bandos sufrieron grandes pérdidas. Sir Harry Smith derrotó a una fuerza sij en Aliwal el 28 de enero de 1846, y el 10 de febrero el ejército de Gough asaltó las trincheras sijs de Sobraon; muchos soldados sijs quedaron atrapados contra el río cuando se destruyó el puente de barcas que tenían detrás. Lal Singh y Tej Singh, dos de los comandantes del Khalsa, fueron acusados después de ayudar en secreto a los británicos. Por el Tratado de Lahore del 9 de marzo de 1846 el estado sij cedió el Doab de Jullundur y otras tierras y pagó una indemnización, y la Compañía instaló un residente y una guarnición en Lahore.",
+    "zh": "1839年兰吉特·辛格大君去世后，旁遮普的锡克帝国陷入混乱，其军队“卡尔萨”势力日盛，与年幼的杜利普·辛格大君及摄政的母亲金德·考尔王太后的宫廷相抗衡。东印度公司在边境集结军队之际，卡尔萨于1845年12月11日渡过萨特莱杰河进入公司领地。休·高夫爵士和总督亨利·哈丁爵士率领的公司部队和英国陆军，于12月18日在穆德基、12月21日至22日在费罗兹沙赫与锡克军队交战，双方损失惨重。1846年1月28日，哈里·史密斯爵士在阿利瓦尔击败一支锡克部队；2月10日，高夫的军队攻入索布拉昂的锡克堑壕，身后的浮桥被毁，许多锡克士兵被困于河边。卡尔萨的两名指挥官拉尔·辛格和特杰·辛格后来被指暗中协助英国人。根据1846年3月9日的《拉合尔条约》，锡克国家割让朱伦杜尔河间地等土地并支付赔款，公司在拉合尔派驻代表和驻军。"
+  },
+  "outcome": {
+    "en": "By the Treaty of Lahore (9 March 1846) the Sikh state gave up the Jullundur Doab and other lands and paid an indemnity; the Company placed a Resident and a garrison at Lahore.",
+    "es": "Por el Tratado de Lahore (9 de marzo de 1846) el estado sij cedió el Doab de Jullundur y otras tierras y pagó una indemnización; la Compañía instaló un residente y una guarnición en Lahore.",
+    "zh": "根据《拉合尔条约》（1846年3月9日），锡克国家割让朱伦杜尔河间地等土地并支付赔款；东印度公司在拉合尔派驻代表和驻军。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1845,
+    "latestStart": 1845,
+    "earliestEnd": 1846,
+    "latestEnd": 1846,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"First Anglo-Sikh War.\"",
+        "url": "https://en.wikipedia.org/wiki/First_Anglo-Sikh_War"
+      },
+      {
+        "citation": "National Army Museum. \"First Sikh War.\"",
+        "url": "https://www.nam.ac.uk/explore/first-sikh-war"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "company",
+      "label": {
+        "en": "East India Company forces and British Army regiments",
+        "es": "Las fuerzas de la Compañía de las Indias Orientales y regimientos del ejército británico",
+        "zh": "东印度公司部队与英国陆军各团"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces",
+            "es": "Fuerzas de la Compañía de las Indias Orientales",
+            "zh": "东印度公司部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "British Army regiments",
+            "es": "Regimientos del ejército británico",
+            "zh": "英国陆军各团"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Sepoy regiments of the Company's Bengal army",
+            "es": "Regimientos de cipayos del ejército de Bengala de la Compañía",
+            "zh": "东印度公司孟加拉军中的印度兵团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sikh-empire",
+      "label": {
+        "en": "The Sikh Empire and Ladwa",
+        "es": "El Imperio sij y Ladwa",
+        "zh": "锡克帝国与拉德瓦"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "The Sikh Empire and its army, the Khalsa",
+            "es": "El Imperio sij y su ejército, el Khalsa",
+            "zh": "锡克帝国及其军队卡尔萨"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN",
+            "PK"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ladwa, under Raja Ajit Singh",
+            "es": "Ladwa, bajo el raja Ajit Singh",
+            "zh": "阿吉特·辛格王公治下的拉德瓦"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "khalsa-crosses-the-sutlej",
+      "start": 1845,
+      "title": {
+        "en": "The Khalsa crosses the Sutlej into Company territory on 11 December; one Sikh army halts before the Company's cantonment at Ferozepore",
+        "es": "El Khalsa cruza el Sutlej hacia territorio de la Compañía el 11 de diciembre; un ejército sij se detiene ante el acantonamiento de la Compañía en Ferozepore",
+        "zh": "12月11日，卡尔萨渡过萨特莱杰河进入公司领地；一支锡克军队在公司的费罗兹布尔兵营前停驻"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"First Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/first-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Sikh_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ferozepore (Firozpur)",
+          "es": "Ferozepore (Firozpur)",
+          "zh": "费罗兹布尔"
+        },
+        "lat": 30.917,
+        "lon": 74.6
+      }
+    },
+    {
+      "id": "battle-of-mudki",
+      "start": 1845,
+      "title": {
+        "en": "Gough and Hardinge's army fights Lal Singh's Sikh force at Mudki on 18 December; the Sikhs fall back in the night",
+        "es": "El ejército de Gough y Hardinge combate a la fuerza sij de Lal Singh en Mudki el 18 de diciembre; los sijs se retiran durante la noche",
+        "zh": "12月18日，高夫和哈丁的军队在穆德基与拉尔·辛格的锡克部队交战；锡克军夜间撤退"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"First Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/first-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Sikh_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mudki",
+          "es": "Mudki",
+          "zh": "穆德基"
+        },
+        "lat": 30.783,
+        "lon": 74.883
+      },
+      "wikidataId": "Q910528"
+    },
+    {
+      "id": "battle-of-ferozeshah",
+      "start": 1845,
+      "title": {
+        "en": "Gough's army attacks the Sikh entrenchments at Ferozeshah on 21 December and drives the Sikhs out the next morning, at heavy cost; a second Sikh army under Tej Singh arrives and then withdraws",
+        "es": "El ejército de Gough ataca las trincheras sijs de Ferozeshah el 21 de diciembre y expulsa a los sijs a la mañana siguiente, con grandes pérdidas; un segundo ejército sij al mando de Tej Singh llega y después se retira",
+        "zh": "12月21日，高夫的军队进攻费罗兹沙赫的锡克堑壕，次日早晨将锡克军逐出，代价惨重；特杰·辛格率领的第二支锡克军队赶到后又撤走"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"First Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/first-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Sikh_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ferozeshah",
+          "es": "Ferozeshah",
+          "zh": "费罗兹沙赫"
+        },
+        "lat": 30.883,
+        "lon": 74.783
+      },
+      "wikidataId": "Q116222"
+    },
+    {
+      "id": "battle-of-aliwal",
+      "start": 1846,
+      "title": {
+        "en": "Sir Harry Smith's force defeats Ranjodh Singh Majithia's Sikh army at Aliwal on 28 January",
+        "es": "La fuerza de sir Harry Smith derrota al ejército sij de Ranjodh Singh Majithia en Aliwal el 28 de enero",
+        "zh": "1月28日，哈里·史密斯爵士的部队在阿利瓦尔击败兰乔德·辛格·马吉提亚的锡克军队"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"First Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/first-sikh-war"
+        },
+        {
+          "citation": "National Army Museum. \"Battle of Aliwal.\"",
+          "url": "https://www.nam.ac.uk/explore/battle-aliwal"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Sikh_War"
+        }
+      ],
+      "note": {
+        "en": "The National Army Museum gives about 3,000 Sikh losses. Its two pages give Smith's losses as 475, or as 141 killed, 413 wounded and 25 missing.",
+        "es": "El National Army Museum da unas 3.000 bajas sijs. Sus dos páginas dan las bajas de Smith como 475, o como 141 muertos, 413 heridos y 25 desaparecidos.",
+        "zh": "英国国家陆军博物馆称锡克方面损失约3000人。其两个页面对史密斯部损失的说法分别为475人，以及141人死亡、413人受伤、25人失踪。"
+      },
+      "place": {
+        "name": {
+          "en": "Aliwal",
+          "es": "Aliwal",
+          "zh": "阿利瓦尔"
+        },
+        "lat": 30.945,
+        "lon": 75.614
+      },
+      "wikidataId": "Q1540820"
+    },
+    {
+      "id": "battle-of-sobraon",
+      "start": 1846,
+      "title": {
+        "en": "Gough's army storms the Sikh entrenchments at Sobraon on 10 February; with the bridge of boats behind them destroyed, many Sikh soldiers are killed or drown in the Sutlej",
+        "es": "El ejército de Gough asalta las trincheras sijs de Sobraon el 10 de febrero; destruido el puente de barcas que tenían detrás, muchos soldados sijs mueren en combate o ahogados en el Sutlej",
+        "zh": "2月10日，高夫的军队攻入索布拉昂的锡克堑壕；身后的浮桥被毁，许多锡克士兵战死或溺亡于萨特莱杰河"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"First Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/first-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Sikh_War"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "British losses were over 2,000 and Sikh losses perhaps as many as 10,000, according to the National Army Museum. Whether the bridge failed under the crowd or Tej Singh had it cut loose is still debated.",
+        "es": "Según el National Army Museum, las bajas británicas superaron las 2.000 y las sijs quizá llegaron a 10.000. Aún se discute si el puente cedió por el gentío o si Tej Singh mandó soltarlo.",
+        "zh": "据英国国家陆军博物馆，英方伤亡逾2000人，锡克方面伤亡可能多达1万人。浮桥是因人群拥挤而垮塌，还是特杰·辛格下令解开，至今仍有争议。"
+      },
+      "place": {
+        "name": {
+          "en": "Sobraon",
+          "es": "Sobraon",
+          "zh": "索布拉昂"
+        },
+        "lat": 31.183,
+        "lon": 74.85
+      },
+      "wikidataId": "Q1573825"
+    },
+    {
+      "id": "treaty-of-lahore",
+      "start": 1846,
+      "title": {
+        "en": "The Lahore court signs the Treaty of Lahore on 9 March, giving up the Jullundur Doab and other lands and agreeing to pay an indemnity",
+        "es": "La corte de Lahore firma el Tratado de Lahore el 9 de marzo, por el que cede el Doab de Jullundur y otras tierras y se compromete a pagar una indemnización",
+        "zh": "3月9日，拉合尔宫廷签订《拉合尔条约》，割让朱伦杜尔河间地等土地并同意支付赔款"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"First Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/first-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Sikh_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Lahore",
+          "es": "Lahore",
+          "zh": "拉合尔"
+        },
+        "lat": 31.55,
+        "lon": 74.344
+      },
+      "wikidataId": "Q7837116"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Hugh Gough",
+        "es": "Hugh Gough",
+        "zh": "休·高夫"
+      },
+      "side": "company",
+      "role": {
+        "en": "Commander-in-Chief in India",
+        "es": "Comandante en jefe en la India",
+        "zh": "驻印总司令"
+      },
+      "wikidataId": "Q335994"
+    },
+    {
+      "name": {
+        "en": "Henry Hardinge",
+        "es": "Henry Hardinge",
+        "zh": "亨利·哈丁"
+      },
+      "side": "company",
+      "role": {
+        "en": "Governor-General; served in the field under Gough",
+        "es": "Gobernador general; sirvió en campaña a las órdenes de Gough",
+        "zh": "总督；在高夫麾下出征"
+      },
+      "wikidataId": "Q332793"
+    },
+    {
+      "name": {
+        "en": "Harry Smith",
+        "es": "Harry Smith",
+        "zh": "哈里·史密斯"
+      },
+      "side": "company",
+      "role": {
+        "en": "Won at Aliwal",
+        "es": "Venció en Aliwal",
+        "zh": "赢得阿利瓦尔之战"
+      },
+      "wikidataId": "Q1606789"
+    },
+    {
+      "name": {
+        "en": "Jind Kaur",
+        "es": "Jind Kaur",
+        "zh": "金德·考尔"
+      },
+      "side": "sikh-empire",
+      "role": {
+        "en": "Maharani; regent for her son Duleep Singh",
+        "es": "Maharaní; regente de su hijo Duleep Singh",
+        "zh": "王太后；为其子杜利普·辛格摄政"
+      },
+      "wikidataId": "Q2753670"
+    },
+    {
+      "name": {
+        "en": "Lal Singh",
+        "es": "Lal Singh",
+        "zh": "拉尔·辛格"
+      },
+      "side": "sikh-empire",
+      "role": {
+        "en": "Wazir; commanded at Mudki and Ferozeshah",
+        "es": "Visir; mandó en Mudki y Ferozeshah",
+        "zh": "宰相；穆德基和费罗兹沙赫之战指挥官"
+      },
+      "wikidataId": "Q6480102"
+    },
+    {
+      "name": {
+        "en": "Tej Singh",
+        "es": "Tej Singh",
+        "zh": "特杰·辛格"
+      },
+      "side": "sikh-empire",
+      "role": {
+        "en": "Commander-in-chief of the Khalsa",
+        "es": "Comandante en jefe del Khalsa",
+        "zh": "卡尔萨总指挥"
+      },
+      "wikidataId": "Q9310965"
+    },
+    {
+      "name": {
+        "en": "Ranjodh Singh Majithia",
+        "es": "Ranjodh Singh Majithia",
+        "zh": "兰乔德·辛格·马吉提亚"
+      },
+      "side": "sikh-empire",
+      "role": {
+        "en": "Commanded the Sikh force defeated at Aliwal",
+        "es": "Mandó la fuerza sij derrotada en Aliwal",
+        "zh": "阿利瓦尔战败的锡克部队指挥官"
+      },
+      "wikidataId": "Q7293192"
+    },
+    {
+      "name": {
+        "en": "Sham Singh Attariwala",
+        "es": "Sham Singh Attariwala",
+        "zh": "沙姆·辛格·阿塔里瓦拉"
+      },
+      "side": "sikh-empire",
+      "role": {
+        "en": "Sikh general killed at Sobraon",
+        "es": "General sij muerto en Sobraon",
+        "zh": "在索布拉昂阵亡的锡克将领"
+      },
+      "wikidataId": "Q7487364"
+    }
+  ],
+  "casualties": [],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"First Anglo-Sikh War.\"",
+      "url": "https://en.wikipedia.org/wiki/First_Anglo-Sikh_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Primera guerra anglo-sij.\"",
+      "url": "https://es.wikipedia.org/wiki/Primera_guerra_anglo-sij"
+    },
+    {
+      "citation": "Wikipedia (中文). \"第一次英国锡克战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%8B%B1%E5%9B%BD%E9%94%A1%E5%85%8B%E6%88%98%E4%BA%89"
+    },
+    {
+      "citation": "National Army Museum. \"First Sikh War.\"",
+      "url": "https://www.nam.ac.uk/explore/first-sikh-war"
+    },
+    {
+      "citation": "National Army Museum. \"Battle of Aliwal.\"",
+      "url": "https://www.nam.ac.uk/explore/battle-aliwal"
+    },
+    {
+      "citation": "Wikipedia (English). \"Ladwa State.\"",
+      "url": "https://en.wikipedia.org/wiki/Ladwa_State"
+    },
+    {
+      "citation": "\"Sikh Rajas who fought for sovereignty of Ladwa.\" The Tribune (India).",
+      "url": "https://www.tribuneindia.com/news/archive/haryanatribune/sikh-rajas-who-fought-for-sovereignty-of-ladwa-684226"
+    }
+  ]
+}

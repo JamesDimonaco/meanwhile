@@ -1,0 +1,478 @@
+{
+  "id": "second-anglo-mysore-war",
+  "wikidataId": "Q233663",
+  "name": {
+    "en": "Second Anglo-Mysore War",
+    "es": "Segunda guerra anglo-mysore",
+    "zh": "第二次昂格鲁迈索尔战争"
+  },
+  "noWikiTitle": [
+    "zh"
+  ],
+  "aliases": [
+    "Anglo-Mysore wars",
+    "Mysore Wars",
+    "Pollilur",
+    "Porto Novo",
+    "Treaty of Mangalore",
+    "第二次英迈战争",
+    "英迈战争",
+    "Guerras anglo-mysore"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "After the Company seized the French port of Mahé, which Hyder Ali had placed under his protection, Hyder crossed into the Carnatic in July 1780 with a large army. In September he and his son Tipu Sultan destroyed Colonel William Baillie's column at Pollilur, and late in 1780 they took Arcot. Sir Eyre Coote, sent from Bengal, defeated Hyder at Porto Novo and Sholinghur in 1781 but could not drive him out of the Carnatic. France, at war with Britain, sent troops and a fleet under the Bailli de Suffren to support Mysore. Hyder died in December 1782 and Tipu carried on the war, besieging the Company garrison of Mangalore from May 1783 until it surrendered in January 1784. When Britain and France made peace in 1783, French support ended, and the Treaty of Mangalore of March 1784 restored the territory each side had held before the war.",
+    "es": "Después de que la Compañía tomara el puerto francés de Mahé, que Hyder Ali había puesto bajo su protección, Hyder entró en el Carnático en julio de 1780 con un gran ejército. En septiembre él y su hijo Tipu Sultan destruyeron la columna del coronel William Baillie en Pollilur, y a finales de 1780 tomaron Arcot. Sir Eyre Coote, enviado desde Bengala, venció a Hyder en Porto Novo y Sholinghur en 1781, pero no pudo expulsarlo del Carnático. Francia, en guerra con Gran Bretaña, envió tropas y una flota al mando del bailío de Suffren en apoyo de Mysore. Hyder murió en diciembre de 1782 y Tipu continuó la guerra; sitió la guarnición de la Compañía en Mangalore desde mayo de 1783 hasta su rendición en enero de 1784. Cuando Gran Bretaña y Francia hicieron la paz en 1783, terminó el apoyo francés, y el Tratado de Mangalore de marzo de 1784 devolvió a cada parte el territorio que tenía antes de la guerra.",
+    "zh": "东印度公司夺取了海德尔·阿里置于其保护之下的法国港口马埃之后，海德尔于1780年7月率大军进入卡纳蒂克。同年9月，他与儿子蒂普苏丹在波利鲁尔歼灭威廉·贝利上校的纵队，并于1780年底攻占阿尔果德。从孟加拉派来的艾尔·库特爵士于1781年在波多诺伏和肖林格尔击败海德尔，但未能将他逐出卡纳蒂克。与英国交战的法国派出军队和叙弗朗率领的舰队支援迈索尔。海德尔于1782年12月去世，蒂普继续作战，自1783年5月起围攻公司在门格洛尔的守军，直至其于1784年1月投降。1783年英法媾和后，法国停止支援；1784年3月的《门格洛尔条约》使双方恢复战前所辖领土。"
+  },
+  "outcome": {
+    "en": "The Treaty of Mangalore (11 March 1784) restored the territory each side had held before the war.",
+    "es": "El Tratado de Mangalore (11 de marzo de 1784) devolvió a cada parte el territorio que tenía antes de la guerra.",
+    "zh": "1784年3月11日的《门格洛尔条约》使双方恢复战前所辖领土。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1780,
+    "latestStart": 1780,
+    "earliestEnd": 1784,
+    "latestEnd": 1784,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Second Anglo-Mysore War.\"",
+        "url": "https://en.wikipedia.org/wiki/Second_Anglo-Mysore_War"
+      },
+      {
+        "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+        "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+      },
+      {
+        "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+        "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "mysore-and-france",
+      "label": {
+        "en": "Mysore, France and the Dutch Republic",
+        "es": "Mysore, Francia y la República Neerlandesa",
+        "zh": "迈索尔、法国和荷兰共和国"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Mysore",
+            "es": "Reino de Mysore",
+            "zh": "迈索尔王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of France: troops and a fleet under the Bailli de Suffren",
+            "es": "Reino de Francia: tropas y una flota al mando del bailío de Suffren",
+            "zh": "法兰西王国：军队及叙弗朗率领的舰队"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Dutch Republic: the Dutch East India Company garrison of Negapatam, held jointly with Hyder Ali's troops until November 1781",
+            "es": "República Neerlandesa: la guarnición de la Compañía Neerlandesa de las Indias Orientales en Negapatam, mantenida junto con tropas de Hyder Ali hasta noviembre de 1781",
+            "zh": "荷兰共和国：荷兰东印度公司驻纳加帕蒂南守军，与海德尔·阿里的部队共同驻守至1781年11月"
+          },
+          "role": "belligerent",
+          "today": [
+            "NL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "company-and-crown",
+      "label": {
+        "en": "East India Company forces and Crown troops",
+        "es": "Las fuerzas de la Compañía de las Indias Orientales y tropas de la Corona",
+        "zh": "东印度公司部队与王室军队"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces",
+            "es": "Fuerzas de la Compañía de las Indias Orientales",
+            "zh": "东印度公司部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Sepoy regiments of the Company's Madras and Bombay armies",
+            "es": "Regimientos de cipayos de los ejércitos de Madrás y Bombay de la Compañía",
+            "zh": "东印度公司马德拉斯军和孟买军中的印度兵团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Crown troops sent from Great Britain, with Hanoverian regiments",
+            "es": "Tropas de la Corona enviadas desde Gran Bretaña, con regimientos de Hannover",
+            "zh": "从大不列颠派出的王室军队，包括汉诺威团"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hyder-ali-enters-the-carnatic",
+      "start": 1780,
+      "title": {
+        "en": "Hyder Ali crosses the Eastern Ghats into the Carnatic in July with an army put at 70,000 to 100,000, burns villages and besieges Company forts around Arcot",
+        "es": "Hyder Ali cruza los Ghats Orientales hacia el Carnático en julio con un ejército que se cifra entre 70.000 y 100.000 hombres, quema aldeas y sitia fuertes de la Compañía en torno a Arcot",
+        "zh": "7月，海德尔·阿里率领据估计7万至10万人的军队越过东高止山脉进入卡纳蒂克，焚烧村庄，并围攻阿尔果德一带的公司要塞"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+        },
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Arcot",
+          "es": "Arcot",
+          "zh": "阿尔果德"
+        },
+        "lat": 12.9,
+        "lon": 79.333
+      }
+    },
+    {
+      "id": "battle-of-pollilur",
+      "start": 1780,
+      "title": {
+        "en": "Hyder Ali and Tipu Sultan's forces destroy Colonel William Baillie's Company column at Pollilur on 10 September; Baillie and the survivors are taken prisoner",
+        "es": "Las fuerzas de Hyder Ali y Tipu Sultan destruyen la columna de la Compañía del coronel William Baillie en Pollilur el 10 de septiembre; Baillie y los supervivientes son apresados",
+        "zh": "9月10日，海德尔·阿里与蒂普苏丹的军队在波利鲁尔歼灭威廉·贝利上校率领的公司纵队，贝利及幸存者被俘"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+        },
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        }
+      ],
+      "note": {
+        "en": "Of Baillie's force of about 3,800, one count gives 336 killed; others say about 250 were captured and the rest killed or scattered.",
+        "es": "De la fuerza de Baillie, de unos 3.800 hombres, un recuento da 336 muertos; otros dicen que unos 250 fueron apresados y el resto murió o se dispersó.",
+        "zh": "贝利部约3800人，一种统计称336人阵亡；另一些记载称约250人被俘，其余或死或散。"
+      },
+      "place": {
+        "name": {
+          "en": "Pollilur",
+          "es": "Pollilur",
+          "zh": "波利鲁尔"
+        },
+        "lat": 12.967,
+        "lon": 79.7
+      },
+      "wikidataId": "Q568613"
+    },
+    {
+      "id": "arcot-taken",
+      "start": 1780,
+      "title": {
+        "en": "Hyder Ali takes Arcot, the capital of the Carnatic, after a siege",
+        "es": "Hyder Ali toma Arcot, la capital del Carnático, tras un sitio",
+        "zh": "海德尔·阿里经围攻后攻占卡纳蒂克首府阿尔果德"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Mysore_War"
+        },
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        }
+      ],
+      "note": {
+        "en": "Accounts date the fall of Arcot to 31 October or 3 November 1780.",
+        "es": "Los relatos fechan la caída de Arcot el 31 de octubre o el 3 de noviembre de 1780.",
+        "zh": "各记载将阿尔果德陷落定于1780年10月31日或11月3日。"
+      },
+      "place": {
+        "name": {
+          "en": "Arcot",
+          "es": "Arcot",
+          "zh": "阿尔果德"
+        },
+        "lat": 12.9,
+        "lon": 79.333
+      }
+    },
+    {
+      "id": "battle-of-porto-novo",
+      "start": 1781,
+      "title": {
+        "en": "Sir Eyre Coote's Company army defeats Hyder Ali at Porto Novo on 1 July",
+        "es": "El ejército de la Compañía de sir Eyre Coote derrota a Hyder Ali en Porto Novo el 1 de julio",
+        "zh": "7月1日，艾尔·库特爵士率领的公司军队在波多诺伏击败海德尔·阿里"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+        },
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Porto Novo (Parangipettai)",
+          "es": "Porto Novo (Parangipettai)",
+          "zh": "波多诺伏（帕朗吉佩泰）"
+        },
+        "lat": 11.49,
+        "lon": 79.76
+      },
+      "wikidataId": "Q4872089"
+    },
+    {
+      "id": "siege-of-mangalore",
+      "start": 1783,
+      "end": 1784,
+      "title": {
+        "en": "Tipu Sultan besieges the Company garrison of Mangalore from 20 May 1783; starving, it surrenders on 30 January 1784",
+        "es": "Tipu Sultan sitia la guarnición de la Compañía en Mangalore desde el 20 de mayo de 1783; hambrienta, se rinde el 30 de enero de 1784",
+        "zh": "蒂普苏丹自1783年5月20日起围攻东印度公司在门格洛尔的守军；守军断粮，于1784年1月30日投降"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Mangalore.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Mangalore"
+        }
+      ],
+      "note": {
+        "en": "Of about 2,700 British and Indian soldiers in the garrison, about 850 survived.",
+        "es": "De unos 2.700 soldados británicos e indios de la guarnición, sobrevivieron unos 850.",
+        "zh": "守军约2700名英国和印度士兵中，约850人幸存。"
+      },
+      "place": {
+        "name": {
+          "en": "Mangalore",
+          "es": "Mangalore",
+          "zh": "门格洛尔"
+        },
+        "lat": 12.872,
+        "lon": 74.843
+      },
+      "wikidataId": "Q3485940"
+    },
+    {
+      "id": "treaty-of-mangalore",
+      "start": 1784,
+      "title": {
+        "en": "Tipu Sultan and the Company sign the Treaty of Mangalore on 11 March, restoring the territory each side held before the war",
+        "es": "Tipu Sultan y la Compañía firman el Tratado de Mangalore el 11 de marzo, que devuelve a cada parte el territorio que tenía antes de la guerra",
+        "zh": "3月11日，蒂普苏丹与东印度公司签订《门格洛尔条约》，双方恢复战前所辖领土"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+        },
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mangalore",
+          "es": "Mangalore",
+          "zh": "门格洛尔"
+        },
+        "lat": 12.872,
+        "lon": 74.843
+      },
+      "wikidataId": "Q7837140"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Hyder Ali",
+        "es": "Hyder Ali",
+        "zh": "海德尔·阿里"
+      },
+      "side": "mysore-and-france",
+      "role": {
+        "en": "Ruler of Mysore; died in December 1782",
+        "es": "Gobernante de Mysore; murió en diciembre de 1782",
+        "zh": "迈索尔统治者；1782年12月去世"
+      },
+      "wikidataId": "Q1569078"
+    },
+    {
+      "name": {
+        "en": "Tipu Sultan",
+        "es": "Tipu Sultan",
+        "zh": "蒂普苏丹"
+      },
+      "side": "mysore-and-france",
+      "role": {
+        "en": "Commanded at Pollilur; ruler of Mysore from December 1782",
+        "es": "Mandó en Pollilur; gobernante de Mysore desde diciembre de 1782",
+        "zh": "波利鲁尔之战指挥官；1782年12月起为迈索尔统治者"
+      },
+      "wikidataId": "Q10088"
+    },
+    {
+      "name": {
+        "en": "Pierre André de Suffren",
+        "es": "Pierre André de Suffren",
+        "zh": "皮埃尔·安德烈·德·叙弗朗"
+      },
+      "side": "mysore-and-france",
+      "role": {
+        "en": "Commander of the French fleet in Indian waters",
+        "es": "Comandante de la flota francesa en aguas de la India",
+        "zh": "印度洋法国舰队司令"
+      },
+      "wikidataId": "Q982584"
+    },
+    {
+      "name": {
+        "en": "Eyre Coote",
+        "es": "Eyre Coote",
+        "zh": "艾尔·库特"
+      },
+      "side": "company-and-crown",
+      "role": {
+        "en": "Commander-in-Chief of the Company's forces in the Carnatic from 1780",
+        "es": "Comandante en jefe de las fuerzas de la Compañía en el Carnático desde 1780",
+        "zh": "1780年起任公司卡纳蒂克部队总司令"
+      },
+      "wikidataId": "Q2613325"
+    },
+    {
+      "name": {
+        "en": "Hector Munro",
+        "es": "Hector Munro",
+        "zh": "赫克托·芒罗"
+      },
+      "side": "company-and-crown",
+      "role": {
+        "en": "Commander at Madras in 1780",
+        "es": "Comandante en Madrás en 1780",
+        "zh": "1780年马德拉斯指挥官"
+      },
+      "wikidataId": "Q5696873"
+    },
+    {
+      "name": {
+        "en": "Warren Hastings",
+        "es": "Warren Hastings",
+        "zh": "沃伦·黑斯廷斯"
+      },
+      "side": "company-and-crown",
+      "role": {
+        "en": "Governor-General in Calcutta; sent Coote's army south",
+        "es": "Gobernador general en Calcuta; envió al sur el ejército de Coote",
+        "zh": "驻加尔各答的总督；派库特率军南下"
+      },
+      "wikidataId": "Q333994"
+    }
+  ],
+  "casualties": [],
+  "follows": "first-anglo-mysore-war",
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Second Anglo-Mysore War.\"",
+      "url": "https://en.wikipedia.org/wiki/Second_Anglo-Mysore_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Segunda guerra anglo-mysore.\"",
+      "url": "https://es.wikipedia.org/wiki/Segunda_guerra_anglo-mysore"
+    },
+    {
+      "citation": "Wikipedia (English). \"Anglo-Mysore wars.\"",
+      "url": "https://en.wikipedia.org/wiki/Anglo-Mysore_wars"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+    },
+    {
+      "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+      "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+    },
+    {
+      "citation": "Wikipedia (English). \"Siege of Negapatam.\"",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Negapatam"
+    },
+    {
+      "citation": "Royal Collection Trust. \"Map of Negapatam, 1781\" (RCIN 734070.b).",
+      "url": "https://militarymaps.rct.uk/other-18th-19th-century-conflicts/negapatam-1781-plan-of-naegapatam-with-the"
+    }
+  ]
+}

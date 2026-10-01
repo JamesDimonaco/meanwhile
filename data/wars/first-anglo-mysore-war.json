@@ -1,0 +1,426 @@
+{
+  "id": "first-anglo-mysore-war",
+  "wikidataId": "Q617070",
+  "name": {
+    "en": "First Anglo-Mysore War",
+    "es": "Primera guerra anglo-mysore",
+    "zh": "第一次英迈战争"
+  },
+  "noWikiTitle": [
+    "zh"
+  ],
+  "aliases": [
+    "Anglo-Mysore wars",
+    "Mysore Wars",
+    "Hyder Ali",
+    "Treaty of Madras",
+    "英迈战争",
+    "海德尔·阿里",
+    "Guerras anglo-mysore"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "In 1767 Hyder Ali, the ruler of Mysore, and the Nizam of Hyderabad joined forces against the East India Company and its ally, the Nawab of the Carnatic. Colonel Joseph Smith's Company army beat their combined army at Tiruvannamalai in September 1767, and Hyder besieged Ambur without success. In 1768 the Nizam made peace with the Company, a Bombay expedition took Mysore's port of Mangalore for a few months, and Maratha horsemen under Murari Rao joined the Company near Bangalore. Hyder retook the coast, beat Company detachments in the Carnatic, and early in 1769 rode with about 6,000 cavalry to the outskirts of Madras. With the city nearly undefended, the Company signed the Treaty of Madras, under which each side promised to help the other if attacked.",
+    "es": "En 1767 Hyder Ali, gobernante de Mysore, y el nizam de Hyderabad unieron fuerzas contra la Compañía de las Indias Orientales y su aliado, el nabab del Carnático. El ejército de la Compañía del coronel Joseph Smith venció a su ejército combinado en Tiruvannamalai en septiembre de 1767, y Hyder sitió Ambur sin éxito. En 1768 el nizam hizo la paz con la Compañía, una expedición de Bombay tomó durante unos meses el puerto de Mangalore, de Mysore, y jinetes marathas al mando de Murari Rao se unieron a la Compañía cerca de Bangalore. Hyder volvió a tomar la costa, venció a destacamentos de la Compañía en el Carnático y a comienzos de 1769 cabalgó con unos 6.000 jinetes hasta las afueras de Madrás. Con la ciudad casi indefensa, la Compañía firmó el Tratado de Madrás, por el que cada parte prometía ayudar a la otra si era atacada.",
+    "zh": "1767年，迈索尔统治者海德尔·阿里与海得拉巴尼扎姆联手对抗东印度公司及其盟友卡纳蒂克纳瓦卜。1767年9月，约瑟夫·史密斯上校率领的公司军队在蒂鲁瓦纳马莱击败两国联军，海德尔围攻安布尔也未能得手。1768年，尼扎姆与公司议和；一支孟买远征军夺取迈索尔港口门格洛尔数月；穆拉里·拉奥率领的马拉塔骑兵在班加罗尔附近与公司会合。海德尔重新夺取沿海地区，在卡纳蒂克击败公司分遣队，并于1769年初率约6000名骑兵直抵马德拉斯郊外。由于城市几乎无兵防守，公司签订《马德拉斯条约》，双方承诺一方受攻击时另一方给予援助。"
+  },
+  "outcome": {
+    "en": "The Treaty of Madras (1769) ended the war; the Company and Mysore each promised to help the other if attacked.",
+    "es": "El Tratado de Madrás (1769) puso fin a la guerra; la Compañía y Mysore se prometieron ayuda mutua en caso de ataque.",
+    "zh": "1769年的《马德拉斯条约》结束了战争；东印度公司与迈索尔相互承诺在一方遭受攻击时提供援助。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1767,
+    "latestStart": 1767,
+    "earliestEnd": 1769,
+    "latestEnd": 1769,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"First Anglo-Mysore War.\"",
+        "url": "https://en.wikipedia.org/wiki/First_Anglo-Mysore_War"
+      },
+      {
+        "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+        "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+      },
+      {
+        "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+        "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "mysore-and-hyderabad",
+      "label": {
+        "en": "Mysore and, until 1768, Hyderabad",
+        "es": "Mysore y, hasta 1768, Hyderabad",
+        "zh": "迈索尔及海得拉巴（至1768年）"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Mysore",
+            "es": "Reino de Mysore",
+            "zh": "迈索尔王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Hyderabad, under the Nizam, until 1768",
+            "es": "Hyderabad, bajo el nizam, hasta 1768",
+            "zh": "尼扎姆治下的海得拉巴（至1768年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "company-and-allies",
+      "label": {
+        "en": "East India Company forces and their allies",
+        "es": "Las fuerzas de la Compañía de las Indias Orientales y sus aliados",
+        "zh": "东印度公司部队及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces",
+            "es": "Fuerzas de la Compañía de las Indias Orientales",
+            "zh": "东印度公司部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Sepoy regiments of the Company's Madras and Bombay armies",
+            "es": "Regimientos de cipayos de los ejércitos de Madrás y Bombay de la Compañía",
+            "zh": "东印度公司马德拉斯军和孟买军中的印度兵团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Carnatic, under Nawab Muhammad Ali Khan Wallajah",
+            "es": "Carnático, bajo el nabab Muhammad Ali Khan Wallajah",
+            "zh": "穆罕默德·阿里·汗·瓦拉贾纳瓦卜治下的卡纳蒂克"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Maratha forces under Murari Rao, from 1768",
+            "es": "Fuerzas marathas al mando de Murari Rao, desde 1768",
+            "zh": "穆拉里·拉奥率领的马拉塔部队（1768年起）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "battle-of-tiruvannamalai",
+      "start": 1767,
+      "title": {
+        "en": "Colonel Joseph Smith's Company army defeats the combined Mysore and Hyderabad army at Tiruvannamalai in late September",
+        "es": "El ejército de la Compañía del coronel Joseph Smith derrota al ejército combinado de Mysore y Hyderabad en Tiruvannamalai a finales de septiembre",
+        "zh": "9月下旬，约瑟夫·史密斯上校率领的公司军队在蒂鲁瓦纳马莱击败迈索尔与海得拉巴联军"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Tiruvannamalai.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Tiruvannamalai"
+        }
+      ],
+      "note": {
+        "en": "Accounts date the battle to 25 or 26 September 1767.",
+        "es": "Los relatos fechan la batalla el 25 o el 26 de septiembre de 1767.",
+        "zh": "各记载将此战定于1767年9月25日或26日。"
+      },
+      "place": {
+        "name": {
+          "en": "Tiruvannamalai",
+          "es": "Tiruvannamalai",
+          "zh": "蒂鲁瓦纳马莱"
+        },
+        "lat": 12.25,
+        "lon": 79.083
+      },
+      "wikidataId": "Q16821560"
+    },
+    {
+      "id": "siege-of-ambur",
+      "start": 1767,
+      "title": {
+        "en": "Hyder Ali besieges Ambur from 10 November; its garrison of local troops and a few Company soldiers holds out until a relief column arrives in early December",
+        "es": "Hyder Ali sitia Ambur desde el 10 de noviembre; su guarnición de tropas locales y unos pocos soldados de la Compañía resiste hasta que llega una columna de socorro a principios de diciembre",
+        "zh": "海德尔·阿里自11月10日起围攻安布尔；由当地部队和少量公司士兵组成的守军坚持到12月初援军抵达"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Ambur.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Ambur"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ambur",
+          "es": "Ambur",
+          "zh": "安布尔"
+        },
+        "lat": 12.78,
+        "lon": 78.718
+      },
+      "wikidataId": "Q7509809"
+    },
+    {
+      "id": "mangalore-taken-and-retaken",
+      "start": 1768,
+      "title": {
+        "en": "A Company expedition from Bombay takes Mangalore in February; Hyder Ali and Tipu Sultan march to the coast and retake it",
+        "es": "Una expedición de la Compañía desde Bombay toma Mangalore en febrero; Hyder Ali y Tipu Sultan marchan a la costa y la vuelven a tomar",
+        "zh": "2月，公司从孟买派出的远征军夺取门格洛尔；海德尔·阿里和蒂普苏丹进军沿海地区将其夺回"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Hyder Ali.\"",
+          "url": "https://en.wikipedia.org/wiki/Hyder_Ali"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mangalore",
+          "es": "Mangalore",
+          "zh": "门格洛尔"
+        },
+        "lat": 12.872,
+        "lon": 74.843
+      }
+    },
+    {
+      "id": "battle-of-ooscota",
+      "start": 1768,
+      "title": {
+        "en": "Hyder Ali attacks the camp of Murari Rao's Maratha force, allied to the Company, at Ooscota on 22 August and is driven off",
+        "es": "Hyder Ali ataca el 22 de agosto en Ooscota el campamento de la fuerza maratha de Murari Rao, aliada de la Compañía, y es rechazado",
+        "zh": "8月22日，海德尔·阿里在乌斯科塔袭击与公司结盟的穆拉里·拉奥马拉塔部队营地，被击退"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Ooscota.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Ooscota"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ooscota (Hoskote)",
+          "es": "Ooscota (Hoskote)",
+          "zh": "乌斯科塔（霍斯科泰）"
+        },
+        "lat": 13.07,
+        "lon": 77.8
+      },
+      "wikidataId": "Q60524422"
+    },
+    {
+      "id": "treaty-of-madras",
+      "start": 1769,
+      "title": {
+        "en": "Hyder Ali rides with about 6,000 cavalry to the outskirts of Madras; the Company signs the Treaty of Madras with him",
+        "es": "Hyder Ali cabalga con unos 6.000 jinetes hasta las afueras de Madrás; la Compañía firma con él el Tratado de Madrás",
+        "zh": "海德尔·阿里率约6000名骑兵直抵马德拉斯郊外；东印度公司与他签订《马德拉斯条约》"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Mysore_War"
+        },
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Treaty of Madras.\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Madras"
+        }
+      ],
+      "note": {
+        "en": "Most accounts date the treaty to 29 March 1769.",
+        "es": "La mayoría de los relatos fechan el tratado el 29 de marzo de 1769.",
+        "zh": "多数记载将条约定于1769年3月29日。"
+      },
+      "place": {
+        "name": {
+          "en": "Madras (Chennai)",
+          "es": "Madrás (Chennai)",
+          "zh": "马德拉斯（金奈）"
+        },
+        "lat": 13.082,
+        "lon": 80.275
+      },
+      "wikidataId": "Q211664"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Hyder Ali",
+        "es": "Hyder Ali",
+        "zh": "海德尔·阿里"
+      },
+      "side": "mysore-and-hyderabad",
+      "role": {
+        "en": "De facto ruler of Mysore",
+        "es": "Gobernante de facto de Mysore",
+        "zh": "迈索尔的实际统治者"
+      },
+      "wikidataId": "Q1569078"
+    },
+    {
+      "name": {
+        "en": "Tipu Sultan",
+        "es": "Tipu Sultan",
+        "zh": "蒂普苏丹"
+      },
+      "side": "mysore-and-hyderabad",
+      "role": {
+        "en": "Hyder Ali's son; led an advance force to the Malabar coast in 1768",
+        "es": "Hijo de Hyder Ali; dirigió una fuerza de avanzada a la costa de Malabar en 1768",
+        "zh": "海德尔·阿里之子；1768年率先头部队前往马拉巴尔海岸"
+      },
+      "wikidataId": "Q10088"
+    },
+    {
+      "name": {
+        "en": "Nizam Ali Khan (Asaf Jah II)",
+        "es": "Nizam Ali Khan (Asaf Jah II)",
+        "zh": "尼扎姆·阿里汗（阿萨夫·贾赫二世）"
+      },
+      "side": "mysore-and-hyderabad",
+      "role": {
+        "en": "Nizam of Hyderabad; allied with Hyder Ali in 1767, made peace with the Company in 1768",
+        "es": "Nizam de Hyderabad; aliado de Hyder Ali en 1767, hizo la paz con la Compañía en 1768",
+        "zh": "海得拉巴尼扎姆；1767年与海德尔·阿里结盟，1768年与公司议和"
+      },
+      "wikidataId": "Q720294"
+    },
+    {
+      "name": {
+        "en": "Joseph Smith",
+        "es": "Joseph Smith",
+        "zh": "约瑟夫·史密斯"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Commander of the Company's army in the Carnatic",
+        "es": "Comandante del ejército de la Compañía en el Carnático",
+        "zh": "东印度公司卡纳蒂克军队指挥官"
+      },
+      "wikidataId": "Q21793961"
+    },
+    {
+      "name": {
+        "en": "Muhammad Ali Khan Wallajah",
+        "es": "Muhammad Ali Khan Wallajah",
+        "zh": "穆罕默德·阿里·汗·瓦拉贾"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Nawab of the Carnatic, the Company's ally",
+        "es": "Nabab del Carnático, aliado de la Compañía",
+        "zh": "卡纳蒂克纳瓦卜，公司盟友"
+      },
+      "wikidataId": "Q6932941"
+    },
+    {
+      "name": {
+        "en": "Murari Rao",
+        "es": "Murari Rao",
+        "zh": "穆拉里·拉奥"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Maratha chief who joined the Company in 1768",
+        "es": "Jefe maratha que se unió a la Compañía en 1768",
+        "zh": "1768年与公司会合的马拉塔首领"
+      },
+      "wikidataId": "Q13006703"
+    }
+  ],
+  "casualties": [],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"First Anglo-Mysore War.\"",
+      "url": "https://en.wikipedia.org/wiki/First_Anglo-Mysore_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Primera guerra anglo-mysore.\"",
+      "url": "https://es.wikipedia.org/wiki/Primera_guerra_anglo-mysore"
+    },
+    {
+      "citation": "Wikipedia (English). \"Anglo-Mysore wars.\"",
+      "url": "https://en.wikipedia.org/wiki/Anglo-Mysore_wars"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+    },
+    {
+      "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+      "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+    }
+  ]
+}
