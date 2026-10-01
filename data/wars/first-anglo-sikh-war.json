@@ -100,9 +100,9 @@
     {
       "id": "sikh-empire",
       "label": {
-        "en": "The Sikh Empire",
-        "es": "El Imperio sij",
-        "zh": "锡克帝国"
+        "en": "The Sikh Empire and Ladwa",
+        "es": "El Imperio sij y Ladwa",
+        "zh": "锡克帝国与拉德瓦"
       },
       "members": [
         {
@@ -116,6 +116,18 @@
           "today": [
             "IN",
             "PK"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ladwa, under Raja Ajit Singh",
+            "es": "Ladwa, bajo el raja Ajit Singh",
+            "zh": "阿吉特·辛格王公治下的拉德瓦"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
           ]
         }
       ]
@@ -231,9 +243,9 @@
         }
       ],
       "note": {
-        "en": "The National Army Museum puts the Sikh casualties at about 3,000 and Smith's at 475 killed and wounded.",
-        "es": "El National Army Museum cifra las bajas sijs en unas 3.000 y las de Smith en 475 entre muertos y heridos.",
-        "zh": "英国国家陆军博物馆称锡克方面伤亡约3000人，史密斯部死伤475人。"
+        "en": "The National Army Museum gives about 3,000 Sikh losses. Its two pages give Smith's losses as 475, or as 141 killed, 413 wounded and 25 missing.",
+        "es": "El National Army Museum da unas 3.000 bajas sijs. Sus dos páginas dan las bajas de Smith como 475, o como 141 muertos, 413 heridos y 25 desaparecidos.",
+        "zh": "英国国家陆军博物馆称锡克方面损失约3000人。其两个页面对史密斯部损失的说法分别为475人，以及141人死亡、413人受伤、25人失踪。"
       },
       "place": {
         "name": {
@@ -446,6 +458,14 @@
     {
       "citation": "National Army Museum. \"Battle of Aliwal.\"",
       "url": "https://www.nam.ac.uk/explore/battle-aliwal"
+    },
+    {
+      "citation": "Wikipedia (English). \"Ladwa State.\"",
+      "url": "https://en.wikipedia.org/wiki/Ladwa_State"
+    },
+    {
+      "citation": "\"Sikh Rajas who fought for sovereignty of Ladwa.\" The Tribune (India).",
+      "url": "https://www.tribuneindia.com/news/archive/haryanatribune/sikh-rajas-who-fought-for-sovereignty-of-ladwa-684226"
     }
   ]
 }
