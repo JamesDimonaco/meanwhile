@@ -1,0 +1,434 @@
+{
+  "id": "third-anglo-mysore-war",
+  "wikidataId": "Q617350",
+  "name": {
+    "en": "Third Anglo-Mysore War",
+    "es": "Tercera guerra anglo-mysore",
+    "zh": "第三次英迈战争"
+  },
+  "noWikiTitle": [
+    "zh"
+  ],
+  "aliases": [
+    "Anglo-Mysore wars",
+    "Mysore Wars",
+    "Treaty of Seringapatam",
+    "Cornwallis",
+    "英迈战争",
+    "Guerras anglo-mysore"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "Tipu Sultan's attack at the end of December 1789 on the Nedumkotta, the fortified line of Travancore, an ally of the East India Company, brought war with the Company, which had secured the support of the Nizam of Hyderabad and the Maratha Confederacy. A Company army took Coimbatore and other forts in 1790, but Tipu pushed it back. In 1791 the Governor-General, Lord Cornwallis, took command, marched into Mysore and stormed Bangalore in March, while Maratha forces took Dharwar in April. Cornwallis beat Tipu near Seringapatam in May but, short of food, withdrew. Returning with a larger allied army, he attacked Tipu's lines outside Seringapatam on 6 February 1792. Tipu asked for terms, and under the Treaty of Seringapatam of March 1792 he gave up about half his territory to the Company, the Marathas and Hyderabad, agreed to pay a large indemnity and handed over two of his sons as hostages.",
+    "es": "El ataque de Tipu Sultan a finales de diciembre de 1789 contra la Nedumkotta, la línea fortificada de Travancore, aliado de la Compañía de las Indias Orientales, desató la guerra con la Compañía, que se había asegurado el apoyo del nizam de Hyderabad y de la Confederación Maratha. Un ejército de la Compañía tomó Coimbatore y otros fuertes en 1790, pero Tipu lo hizo retroceder. En 1791 el gobernador general, lord Cornwallis, asumió el mando, entró en Mysore y asaltó Bangalore en marzo, mientras fuerzas marathas tomaban Dharwar en abril. Cornwallis venció a Tipu cerca de Seringapatam en mayo, pero, falto de víveres, se retiró. De vuelta con un ejército aliado mayor, atacó las líneas de Tipu ante Seringapatam el 6 de febrero de 1792. Tipu pidió condiciones, y por el Tratado de Seringapatam de marzo de 1792 cedió cerca de la mitad de su territorio a la Compañía, los marathas y Hyderabad, se comprometió a pagar una gran indemnización y entregó a dos de sus hijos como rehenes.",
+    "zh": "1789年12月底，蒂普苏丹进攻东印度公司盟友特拉凡哥尔的防线讷杜姆科塔，由此与已争取到海得拉巴尼扎姆和马拉塔联盟支持的公司开战。1790年，公司军队攻占哥印拜陀等要塞，但被蒂普击退。1791年，总督康沃利斯勋爵亲自指挥，进入迈索尔，于3月攻占班加罗尔，马拉塔军队则于4月攻占达尔瓦德。5月，康沃利斯在塞林伽巴丹附近击败蒂普，但因粮草不足而撤退。1792年2月6日，他率更庞大的联军返回，进攻塞林伽巴丹城外蒂普的阵地。蒂普求和；根据1792年3月的《塞林伽巴丹条约》，他将约一半领土割让给公司、马拉塔和海得拉巴，同意支付巨额赔款，并交出两个儿子作为人质。"
+  },
+  "outcome": {
+    "en": "By the Treaty of Seringapatam (March 1792) Mysore gave up about half its territory to the Company and its allies, and Tipu handed over two of his sons as hostages.",
+    "es": "Por el Tratado de Seringapatam (marzo de 1792) Mysore cedió cerca de la mitad de su territorio a la Compañía y sus aliados, y Tipu entregó a dos de sus hijos como rehenes.",
+    "zh": "根据《塞林伽巴丹条约》（1792年3月），迈索尔将约一半领土割让给东印度公司及其盟友，蒂普交出两个儿子作为人质。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1789,
+    "latestStart": 1790,
+    "earliestEnd": 1792,
+    "latestEnd": 1792,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Third Anglo-Mysore War.\"",
+        "url": "https://en.wikipedia.org/wiki/Third_Anglo-Mysore_War"
+      },
+      {
+        "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+        "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+      },
+      {
+        "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+        "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "Some accounts start the war with Tipu's attack on Travancore in December 1789, others with the Company's campaign of 1790.",
+      "es": "Algunos relatos inician la guerra con el ataque de Tipu a Travancore en diciembre de 1789; otros, con la campaña de la Compañía de 1790.",
+      "zh": "有的记载以1789年12月蒂普进攻特拉凡哥尔为战争开端，有的则以1790年公司的战役为开端。"
+    }
+  },
+  "sides": [
+    {
+      "id": "mysore",
+      "label": {
+        "en": "Kingdom of Mysore",
+        "es": "Reino de Mysore",
+        "zh": "迈索尔王国"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Mysore",
+            "es": "Reino de Mysore",
+            "zh": "迈索尔王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "company-and-allies",
+      "label": {
+        "en": "East India Company forces and their allies",
+        "es": "Las fuerzas de la Compañía de las Indias Orientales y sus aliados",
+        "zh": "东印度公司部队及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces",
+            "es": "Fuerzas de la Compañía de las Indias Orientales",
+            "zh": "东印度公司部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "British Army regiments",
+            "es": "Regimientos del ejército británico",
+            "zh": "英国陆军各团"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Maratha Confederacy",
+            "es": "Confederación Maratha",
+            "zh": "马拉塔联盟"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Hyderabad, under the Nizam",
+            "es": "Hyderabad, bajo el nizam",
+            "zh": "尼扎姆治下的海得拉巴"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Travancore",
+            "es": "Reino de Travancore",
+            "zh": "特拉凡哥尔王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "nedumkotta",
+      "start": 1789,
+      "end": 1790,
+      "title": {
+        "en": "Tipu Sultan attacks the Nedumkotta, Travancore's fortified line, on 29 December and is driven back; his forces break through it in April 1790",
+        "es": "Tipu Sultan ataca la Nedumkotta, la línea fortificada de Travancore, el 29 de diciembre y es rechazado; sus fuerzas la rompen en abril de 1790",
+        "zh": "12月29日，蒂普苏丹进攻特拉凡哥尔的防线讷杜姆科塔，被击退；1790年4月，他的军队突破防线"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Third Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Nedumkotta.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Nedumkotta"
+        },
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Nedumkotta (Travancore Lines), Thrissur district",
+          "es": "Nedumkotta (líneas de Travancore), distrito de Thrissur",
+          "zh": "讷杜姆科塔（特拉凡哥尔防线），特里苏尔县"
+        },
+        "lat": 10.27,
+        "lon": 76.33
+      },
+      "wikidataId": "Q4872960"
+    },
+    {
+      "id": "siege-of-darwar",
+      "start": 1790,
+      "end": 1791,
+      "title": {
+        "en": "Maratha forces, with a small Company contingent, besiege Tipu's fort at Dharwar from September 1790 until it surrenders in April 1791",
+        "es": "Fuerzas marathas, con un pequeño contingente de la Compañía, sitian el fuerte de Tipu en Dharwar desde septiembre de 1790 hasta su rendición en abril de 1791",
+        "zh": "马拉塔军队在一小支公司部队协助下，自1790年9月起围攻蒂普的达尔瓦德要塞，直至其于1791年4月投降"
+      },
+      "sources": [
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Darwar.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Darwar"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Dharwar (Dharwad)",
+          "es": "Dharwar (Dharwad)",
+          "zh": "达尔瓦德"
+        },
+        "lat": 15.458,
+        "lon": 75.008
+      },
+      "wikidataId": "Q7509967"
+    },
+    {
+      "id": "siege-of-bangalore",
+      "start": 1791,
+      "title": {
+        "en": "Lord Cornwallis's army takes the town of Bangalore in February and storms its fortress on 21 March",
+        "es": "El ejército de lord Cornwallis toma la ciudad de Bangalore en febrero y asalta su fortaleza el 21 de marzo",
+        "zh": "康沃利斯勋爵的军队于2月攻占班加罗尔城，并于3月21日攻入其要塞"
+      },
+      "sources": [
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Third Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Bangalore.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Bangalore"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Bangalore (Bengaluru)",
+          "es": "Bangalore (Bengaluru)",
+          "zh": "班加罗尔"
+        },
+        "lat": 12.979,
+        "lon": 77.592
+      },
+      "wikidataId": "Q7509848"
+    },
+    {
+      "id": "battle-of-arakere",
+      "start": 1791,
+      "title": {
+        "en": "Cornwallis's army drives Tipu's troops from the heights near Arakere, close to Seringapatam, in mid-May; short of food, it then withdraws to Bangalore",
+        "es": "El ejército de Cornwallis desaloja a las tropas de Tipu de las alturas cerca de Arakere, junto a Seringapatam, a mediados de mayo; falto de víveres, se retira después a Bangalore",
+        "zh": "5月中旬，康沃利斯的军队将蒂普的部队逐出塞林伽巴丹附近阿拉凯雷的高地；随后因粮草不足撤回班加罗尔"
+      },
+      "sources": [
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Arakere.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Arakere"
+        }
+      ],
+      "note": {
+        "en": "Accounts date the battle to 13–15 May 1791.",
+        "es": "Los relatos fechan la batalla entre el 13 y el 15 de mayo de 1791.",
+        "zh": "各记载将此战定于1791年5月13日至15日。"
+      },
+      "place": {
+        "name": {
+          "en": "Arakere, near Seringapatam",
+          "es": "Arakere, cerca de Seringapatam",
+          "zh": "塞林伽巴丹附近的阿拉凯雷"
+        },
+        "lat": 12.418,
+        "lon": 76.695
+      },
+      "wikidataId": "Q4870321"
+    },
+    {
+      "id": "siege-of-seringapatam-1792",
+      "start": 1792,
+      "title": {
+        "en": "Cornwallis's allied army attacks Tipu's lines outside Seringapatam on 6 February; Tipu asks for terms, hands over two sons as hostages and signs the Treaty of Seringapatam on 18 March",
+        "es": "El ejército aliado de Cornwallis ataca las líneas de Tipu ante Seringapatam el 6 de febrero; Tipu pide condiciones, entrega a dos hijos como rehenes y firma el Tratado de Seringapatam el 18 de marzo",
+        "zh": "2月6日，康沃利斯率领的联军进攻塞林伽巴丹城外蒂普的阵地；蒂普求和，交出两个儿子作为人质，并于3月18日签订《塞林伽巴丹条约》"
+      },
+      "sources": [
+        {
+          "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Third Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Anglo-Mysore_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Seringapatam (1792).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Seringapatam_%281792%29"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Seringapatam (Srirangapatna)",
+          "es": "Seringapatam (Srirangapatna)",
+          "zh": "塞林伽巴丹（什里伦格伯德讷）"
+        },
+        "lat": 12.418,
+        "lon": 76.695
+      },
+      "wikidataId": "Q16934060"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Tipu Sultan",
+        "es": "Tipu Sultan",
+        "zh": "蒂普苏丹"
+      },
+      "side": "mysore",
+      "role": {
+        "en": "Ruler of Mysore",
+        "es": "Gobernante de Mysore",
+        "zh": "迈索尔统治者"
+      },
+      "wikidataId": "Q10088"
+    },
+    {
+      "name": {
+        "en": "Charles Cornwallis",
+        "es": "Charles Cornwallis",
+        "zh": "查尔斯·康沃利斯"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Governor-General; commanded the allied army from 1791",
+        "es": "Gobernador general; mandó el ejército aliado desde 1791",
+        "zh": "总督；1791年起指挥联军"
+      },
+      "wikidataId": "Q164723"
+    },
+    {
+      "name": {
+        "en": "William Medows",
+        "es": "William Medows",
+        "zh": "威廉·梅多斯"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Governor of Madras; led the Company's 1790 campaign",
+        "es": "Gobernador de Madrás; dirigió la campaña de la Compañía de 1790",
+        "zh": "马德拉斯总督；领导公司1790年的战役"
+      },
+      "wikidataId": "Q4287924"
+    },
+    {
+      "name": {
+        "en": "Nizam Ali Khan (Asaf Jah II)",
+        "es": "Nizam Ali Khan (Asaf Jah II)",
+        "zh": "尼扎姆·阿里汗（阿萨夫·贾赫二世）"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Nizam of Hyderabad, the Company's ally",
+        "es": "Nizam de Hyderabad, aliado de la Compañía",
+        "zh": "海得拉巴尼扎姆，公司盟友"
+      },
+      "wikidataId": "Q720294"
+    },
+    {
+      "name": {
+        "en": "Dharma Raja (Karthika Thirunal Rama Varma)",
+        "es": "Dharma Raja (Karthika Thirunal Rama Varma)",
+        "zh": "达摩王（卡尔蒂卡·提鲁纳尔·罗摩·瓦尔马）"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Raja of Travancore",
+        "es": "Raja de Travancore",
+        "zh": "特拉凡哥尔国王"
+      },
+      "wikidataId": "Q5269245"
+    },
+    {
+      "name": {
+        "en": "Raja Kesavadas",
+        "es": "Raja Kesavadas",
+        "zh": "拉贾·克沙瓦达斯"
+      },
+      "side": "company-and-allies",
+      "role": {
+        "en": "Dewan of Travancore; led its army at the Nedumkotta",
+        "es": "Diván de Travancore; dirigió su ejército en la Nedumkotta",
+        "zh": "特拉凡哥尔首相；在讷杜姆科塔指挥其军队"
+      },
+      "wikidataId": "Q13114355"
+    }
+  ],
+  "casualties": [],
+  "follows": "second-anglo-mysore-war",
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Third Anglo-Mysore War.\"",
+      "url": "https://en.wikipedia.org/wiki/Third_Anglo-Mysore_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Tercera guerra anglo-mysore.\"",
+      "url": "https://es.wikipedia.org/wiki/Tercera_guerra_anglo-mysore"
+    },
+    {
+      "citation": "Wikipedia (English). \"Anglo-Mysore wars.\"",
+      "url": "https://en.wikipedia.org/wiki/Anglo-Mysore_wars"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Anglo-Mysore Wars.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Anglo-Mysore_Wars/"
+    },
+    {
+      "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
+      "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+    }
+  ]
+}
