@@ -24,9 +24,9 @@
   ],
   "altNames": [],
   "description": {
-    "en": "In the spring of 1453 the Ottoman sultan Mehmed II besieged Constantinople, capital of the Byzantine Empire. His army was many times larger than the city's roughly 7,000 defenders, about 2,000 of them foreigners, many from Genoa and Venice. From 6 April Ottoman cannon, the largest cast by the founder Orban, battered the fifth-century land walls. A chain across the Golden Horn kept the Ottoman fleet out of the harbour until 22 April, when Mehmed had ships dragged overland behind Galata into the inlet. On 29 May Ottoman troops broke through the walls; the Genoese commander Giovanni Giustiniani was wounded, and Emperor Constantine XI was killed in the fighting. Soldiers plundered the city and enslaved much of its population, and Mehmed turned Hagia Sophia into a mosque. Constantinople became the Ottoman capital. The historian David Nicolle puts the inhabitants killed at about 4,000; the dead among the soldiers on either side are not known.",
-    "es": "En la primavera de 1453 el sultán otomano Mehmed II sitió Constantinopla, capital del Imperio bizantino. Su ejército era muchas veces mayor que los unos 7.000 defensores de la ciudad, de los cuales unos 2.000 eran extranjeros, muchos de Génova y Venecia. Desde el 6 de abril los cañones otomanos, el mayor fundido por Orbán, batieron las murallas terrestres del siglo V. Una cadena tendida ante el Cuerno de Oro impidió la entrada de la flota otomana en el puerto hasta el 22 de abril, cuando Mehmed hizo arrastrar barcos por tierra detrás de Gálata hasta la ensenada. El 29 de mayo las tropas otomanas atravesaron las murallas; el comandante genovés Giovanni Giustiniani cayó herido y el emperador Constantino XI murió en la lucha. Los soldados saquearon la ciudad y esclavizaron a gran parte de su población, y Mehmed convirtió Santa Sofía en mezquita. Constantinopla pasó a ser la capital otomana. El historiador David Nicolle cifra en unos 4.000 los habitantes muertos; no se conocen los muertos entre los soldados de uno y otro bando.",
-    "zh": "1453年春，奥斯曼苏丹穆罕默德二世围攻拜占庭帝国首都君士坦丁堡。其军队数倍于城中约7000名守军，守军中约2000人为外国人，许多来自热那亚和威尼斯。自4月6日起，奥斯曼大炮（最大的一门由铸炮匠乌尔班铸造）轰击建于5世纪的陆墙。金角湾入口的铁链使奥斯曼舰队无法进港，直到4月22日穆罕默德二世命人将船只从加拉塔后方经陆路拖入海湾。5月29日奥斯曼军队突破城墙；热那亚指挥官乔瓦尼·朱斯蒂尼亚尼负伤，皇帝君士坦丁十一世战死。士兵洗劫全城，将大批居民掳为奴隶，穆罕默德二世将圣索菲亚大教堂改为清真寺。君士坦丁堡成为奥斯曼帝国的首都。历史学家戴维·尼科尔估计约4000名居民被杀；双方士兵的死亡人数不详。"
+    "en": "In the spring of 1453 the Ottoman sultan Mehmed II besieged Constantinople, capital of the Byzantine Empire. His army was many times larger than the city's roughly 7,000 defenders, about 2,000 of them foreigners, many from Genoa and Venice. From 6 April Ottoman cannon, the largest cast by the founder Orban, battered the fifth-century land walls. A chain across the Golden Horn kept the Ottoman fleet out of the harbour until 22 April, when Mehmed had ships dragged overland behind Galata into the inlet. On 29 May Ottoman troops broke through the walls; the Genoese commander Giovanni Giustiniani was wounded, and Emperor Constantine XI was killed in the fighting. Soldiers plundered the city and enslaved much of its population, and Mehmed turned Hagia Sophia into a mosque. Constantinople became the Ottoman capital. The historian David Nicolle puts the Greek civilians who died in the siege at about 4,000; the dead among the soldiers on either side are not known.",
+    "es": "En la primavera de 1453 el sultán otomano Mehmed II sitió Constantinopla, capital del Imperio bizantino. Su ejército era muchas veces mayor que los unos 7.000 defensores de la ciudad, de los cuales unos 2.000 eran extranjeros, muchos de Génova y Venecia. Desde el 6 de abril los cañones otomanos, el mayor fundido por Orbán, batieron las murallas terrestres del siglo V. Una cadena tendida ante el Cuerno de Oro impidió la entrada de la flota otomana en el puerto hasta el 22 de abril, cuando Mehmed hizo arrastrar barcos por tierra detrás de Gálata hasta la ensenada. El 29 de mayo las tropas otomanas atravesaron las murallas; el comandante genovés Giovanni Giustiniani cayó herido y el emperador Constantino XI murió en la lucha. Los soldados saquearon la ciudad y esclavizaron a gran parte de su población, y Mehmed convirtió Santa Sofía en mezquita. Constantinopla pasó a ser la capital otomana. El historiador David Nicolle cifra en unos 4.000 los civiles griegos que murieron en el asedio; no se conocen los muertos entre los soldados de uno y otro bando.",
+    "zh": "1453年春，奥斯曼苏丹穆罕默德二世围攻拜占庭帝国首都君士坦丁堡。其军队数倍于城中约7000名守军，守军中约2000人为外国人，许多来自热那亚和威尼斯。自4月6日起，奥斯曼大炮（最大的一门由铸炮匠乌尔班铸造）轰击建于5世纪的陆墙。金角湾入口的铁链使奥斯曼舰队无法进港，直到4月22日穆罕默德二世命人将船只从加拉塔后方经陆路拖入海湾。5月29日奥斯曼军队突破城墙；热那亚指挥官乔瓦尼·朱斯蒂尼亚尼负伤，皇帝君士坦丁十一世战死。士兵洗劫全城，将大批居民掳为奴隶，穆罕默德二世将圣索菲亚大教堂改为清真寺。君士坦丁堡成为奥斯曼帝国的首都。历史学家戴维·尼科尔估计约4000名希腊平民在围城中死亡；双方士兵的死亡人数不详。"
   },
   "outcome": {
     "en": "The Ottoman Empire took Constantinople on 29 May 1453 and made it its capital; the Byzantine Empire ended with the death of Constantine XI.",
@@ -104,9 +104,9 @@
     {
       "id": "byzantine-empire",
       "label": {
-        "en": "The Byzantine Empire and its Western allies",
-        "es": "El Imperio bizantino y sus aliados occidentales",
-        "zh": "拜占庭帝国及其西方盟友"
+        "en": "The Byzantine Empire and its allies",
+        "es": "El Imperio bizantino y sus aliados",
+        "zh": "拜占庭帝国及其盟友"
       },
       "members": [
         {
@@ -153,6 +153,18 @@
           "today": [
             "IT",
             "ES"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ottoman prince Orhan Çelebi and his Turkish followers, who fought on the Byzantine side",
+            "es": "El príncipe otomano Orhan Çelebi y sus seguidores turcos, que combatieron del lado bizantino",
+            "zh": "奥斯曼王子奥尔汗·切莱比及其土耳其追随者，站在拜占庭一方作战"
+          },
+          "role": "belligerent",
+          "today": [
+            "TR"
           ]
         }
       ]
@@ -415,9 +427,9 @@
       "scope": "civilian-deaths",
       "side": "byzantine-empire",
       "who": {
-        "en": "Inhabitants of Constantinople",
-        "es": "Habitantes de Constantinopla",
-        "zh": "君士坦丁堡居民"
+        "en": "Greek civilians",
+        "es": "Civiles griegos",
+        "zh": "希腊平民"
       },
       "low": 4000,
       "high": 4000,
@@ -437,9 +449,9 @@
         }
       ],
       "note": {
-        "en": "People killed when the city was taken. Tens of thousands more were enslaved: about 30,000 by one estimate, over 50,000 by another.",
-        "es": "Personas muertas al caer la ciudad. Decenas de miles más fueron esclavizados: unos 30.000 según una estimación, más de 50.000 según otra.",
-        "zh": "城破时被杀的人数。另有数万人沦为奴隶：一种估计约3万人，另一种估计超过5万人。"
+        "en": "Greek civilians who died in the siege, according to Nicolle. World History Encyclopedia gives its own figure for the sack, perhaps 4,000 killed outright. Tens of thousands more were enslaved: about 30,000 according to the historian Roger Crowley, over 50,000 according to World History Encyclopedia.",
+        "es": "Civiles griegos que murieron en el asedio, según Nicolle. World History Encyclopedia da su propia cifra para el saqueo: quizá 4.000 muertos en el acto. Decenas de miles más fueron esclavizados: unos 30.000 según el historiador Roger Crowley, más de 50.000 según World History Encyclopedia.",
+        "zh": "据尼科尔的说法，这是在围城中死亡的希腊平民人数。《世界历史百科全书》对洗劫另有一个数字：当场被杀者或有4000人。另有数万人沦为奴隶：据历史学家罗杰·克劳利的说法约3万人，据《世界历史百科全书》超过5万人。"
       }
     }
   ],
@@ -458,6 +470,10 @@
     {
       "citation": "Wikipedia (español). \"Caída de Constantinopla.\"",
       "url": "https://es.wikipedia.org/wiki/Ca%C3%ADda_de_Constantinopla"
+    },
+    {
+      "citation": "Pemptousia. \"An Ottoman Volunteer Defends Besieged Constantinople (1453)\" (2018), archived copy.",
+      "url": "https://web.archive.org/web/20190410170524/https://pemptousia.com/2018/05/an-ottoman-volunteer-defends-besieged-constantinople-1453/"
     },
     {
       "citation": "Wikipedia (中文). \"君士坦丁堡陷落.\"",
