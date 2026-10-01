@@ -2,7 +2,7 @@
 // from rendering so it can be unit-tested without a DOM.
 
 import { scaleLinear } from "d3-scale";
-import { REGIONS, type Region } from "@/lib/data/schema";
+import { rankActive } from "@/lib/data/queries";
 import type { TimelineCulture } from "./timeline-layout";
 
 type PeriodBounds = { earliestStart: number; latestStart: number; earliestEnd: number; latestEnd: number };
@@ -95,29 +95,9 @@ export function clampZoom(pxPerYear: number): number {
   return Math.min(MAX_PX_PER_YEAR, Math.max(MIN_PX_PER_YEAR, pxPerYear));
 }
 
-const regionRank = (r: Region) => REGIONS.indexOf(r);
-const outer = (p: PeriodBounds): [number, number] => [p.earliestStart, p.latestEnd];
-const core = (p: PeriodBounds): [number, number] => [p.latestStart, p.earliestEnd];
-const likely = (p: PeriodBounds): number => (p.earliestStart + p.latestStart + p.earliestEnd + p.latestEnd) / 4;
-const contains = ([lo, hi]: readonly [number, number], year: number) => lo <= year && year <= hi;
-
 export type TimelineActiveCulture = { culture: TimelineCulture; certain: boolean };
 
-/**
- * Cultures alive in a year: certain first (inside the solid part of the bar),
- * then by region, likely start, id. Mirrors queries.ts's activeAt, but over
- * the timeline's own already-slim culture shape instead of the full dataset.
- */
+/** queries.ts's activeAt over the timeline's already-slim culture shape. */
 export function activeCultures(cultures: readonly TimelineCulture[], year: number): TimelineActiveCulture[] {
-  return cultures
-    .filter((c) => contains(outer(c.period), year))
-    .map((c) => ({ culture: c, certain: contains(core(c.period), year), start: likely(c.period) }))
-    .sort(
-      (a, b) =>
-        Number(b.certain) - Number(a.certain) ||
-        regionRank(a.culture.region) - regionRank(b.culture.region) ||
-        a.start - b.start ||
-        a.culture.id.localeCompare(b.culture.id),
-    )
-    .map(({ culture, certain }) => ({ culture, certain }));
+  return rankActive(cultures, (c) => c.period, year).map(({ item, certain }) => ({ culture: item, certain }));
 }

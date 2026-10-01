@@ -161,6 +161,25 @@ describe("activeCultures", () => {
     expect(results.map((a) => a.culture.id)).toEqual(["shang", "a-uncertain"]);
     expect(results.map((a) => a.certain)).toEqual([true, false]);
   });
+
+  it("orders by likely start, as the culture pages' activeAt does, not by the middle of the whole span", () => {
+    // long starts earlier but, running to 1500, has the later midpoint.
+    const long = timelineCulture("long", "china", {
+      earliestStart: -500,
+      latestStart: -500,
+      earliestEnd: 1500,
+      latestEnd: 1500,
+      disputed: false,
+    });
+    const short = timelineCulture("short", "china", {
+      earliestStart: -300,
+      latestStart: -300,
+      earliestEnd: -100,
+      latestEnd: -100,
+      disputed: false,
+    });
+    expect(activeCultures([short, long], -200).map((a) => a.culture.id)).toEqual(["long", "short"]);
+  });
 });
 
 describe("axisTicks", () => {

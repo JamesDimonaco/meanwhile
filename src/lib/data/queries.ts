@@ -68,33 +68,47 @@ export function toCultureRef(culture: CultureCore): CultureRef {
   };
 }
 
-const outer = (p: PeriodSpan): Range => [p.earliestStart, p.latestEnd];
-const core = (p: PeriodSpan): Range => [p.latestStart, p.earliestEnd];
+type Bounds = Pick<PeriodSpan, "earliestStart" | "latestStart" | "earliestEnd" | "latestEnd">;
+
+const outer = (p: Bounds): Range => [p.earliestStart, p.latestEnd];
+const core = (p: Bounds): Range => [p.latestStart, p.earliestEnd];
 /** Midpoints of the fuzzy edges: the best single guess at start and end. */
-export const likelyRange = (p: PeriodSpan): Range => [(p.earliestStart + p.latestStart) / 2, (p.earliestEnd + p.latestEnd) / 2];
+export const likelyRange = (p: Bounds): Range => [(p.earliestStart + p.latestStart) / 2, (p.earliestEnd + p.latestEnd) / 2];
 
 const overlap = (a: Range, b: Range) => Math.min(a[1], b[1]) - Math.max(a[0], b[0]);
 const contains = (r: Range, year: number) => r[0] <= year && year <= r[1];
 const regionRank = (r: Region) => REGIONS.indexOf(r);
 
 /**
- * Cultures alive in a year. "certain" = inside the solid part of the bar;
+ * Items alive in a year. "certain" = inside the solid part of the bar;
  * otherwise the year only falls in a fuzzy edge. Certain first, then by
- * region, likely start, id.
+ * region, likely start, id. Generic so the timeline can rank its own slim
+ * shape the same way the culture pages do.
  */
-export function activeAt(cultures: readonly CultureCore[], year: number): ActiveCulture[] {
-  return cultures
-    .map((c) => ({ c, p: defaultPeriod(c) }))
+export function rankActive<T extends { id: string; region: Region }>(
+  items: readonly T[],
+  periodOf: (item: T) => Bounds,
+  year: number,
+): { item: T; certain: boolean }[] {
+  return items
+    .map((item) => ({ item, p: periodOf(item) }))
     .filter(({ p }) => contains(outer(p), year))
-    .map(({ c, p }) => ({ ref: toCultureRef(c), certain: contains(core(p), year), start: likelyRange(p)[0] }))
+    .map(({ item, p }) => ({ item, certain: contains(core(p), year), start: likelyRange(p)[0] }))
     .sort(
       (a, b) =>
         Number(b.certain) - Number(a.certain) ||
-        regionRank(a.ref.region) - regionRank(b.ref.region) ||
+        regionRank(a.item.region) - regionRank(b.item.region) ||
         a.start - b.start ||
-        a.ref.id.localeCompare(b.ref.id),
+        a.item.id.localeCompare(b.item.id),
     )
-    .map(({ ref, certain }) => ({ culture: ref, certain }));
+    .map(({ item, certain }) => ({ item, certain }));
+}
+
+export function activeAt(cultures: readonly CultureCore[], year: number): ActiveCulture[] {
+  return rankActive(cultures, (c) => defaultPeriod(c), year).map(({ item, certain }) => ({
+    culture: toCultureRef(item),
+    certain,
+  }));
 }
 
 /**
