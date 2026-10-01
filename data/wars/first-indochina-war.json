@@ -1,0 +1,1169 @@
+{
+  "id": "first-indochina-war",
+  "wikidataId": "Q748780",
+  "name": {
+    "en": "First Indochina War",
+    "es": "Guerra de Indochina",
+    "zh": "第一次印度支那战争"
+  },
+  "aliases": [
+    "French Indochina War",
+    "Indochina War",
+    "Guerre d'Indochine",
+    "Guerra de Indochina",
+    "印度支那战争",
+    "法越战争",
+    "Franco-Viet Minh War",
+    "Kháng chiến chống Pháp",
+    "抗法战争",
+    "Dien Bien Phu",
+    "Điện Biên Phủ",
+    "奠边府",
+    "Viet Minh",
+    "越盟"
+  ],
+  "altNames": [
+    {
+      "text": "Kháng chiến chống thực dân Pháp",
+      "lang": "vi",
+      "usedBy": {
+        "en": "Vietnam",
+        "es": "Vietnam",
+        "zh": "越南"
+      },
+      "gloss": {
+        "en": "Resistance War against the French colonialists",
+        "es": "Guerra de resistencia contra los colonialistas franceses",
+        "zh": "抗击法国殖民者的抗战"
+      }
+    }
+  ],
+  "description": {
+    "en": "Ho Chi Minh proclaimed the Democratic Republic of Vietnam in Hanoi in September 1945, weeks before French troops took back Saigon; fighting followed in the south. Talks failed: French forces shelled Haiphong in November 1946, and full-scale war began in Hanoi on 19 December. The French Union's forces included Foreign Legion, North and sub-Saharan African and Indochinese troops, and from 1949 France backed a State of Vietnam under Bảo Đại. After the communist victory in China, the Viet Minh received Chinese arms, supplies and advisers and some Soviet aid, while from 1950 the United States sent France money and equipment. In October 1950 Viet Minh divisions destroyed French columns on Route Coloniale 4 by the Chinese border. Their attacks on the Red River delta in 1951 failed, but in 1953 they moved into Laos. General Navarre answered with an entrenched camp at Điện Biên Phủ, which fell on 7 May 1954 after nearly two months of siege. At Geneva in July, armistices split Vietnam at the 17th parallel pending elections.",
+    "es": "Ho Chi Minh proclamó la República Democrática de Vietnam en Hanói en septiembre de 1945, semanas antes de que las tropas francesas retomaran Saigón; siguieron combates en el sur. Las negociaciones fracasaron: las fuerzas francesas bombardearon Haiphong en noviembre de 1946 y la guerra abierta empezó en Hanói el 19 de diciembre. Las fuerzas de la Unión Francesa incluían la Legión Extranjera y tropas norteafricanas, subsaharianas e indochinas, y desde 1949 Francia respaldó un Estado de Vietnam encabezado por Bảo Đại. Tras la victoria comunista en China, el Viet Minh recibió armas, suministros y asesores chinos y algo de ayuda soviética, mientras que desde 1950 Estados Unidos envió a Francia dinero y material. En octubre de 1950 divisiones del Viet Minh destruyeron columnas francesas en la Ruta Colonial 4, junto a la frontera china. Sus ataques contra el delta del río Rojo en 1951 fracasaron, pero en 1953 entraron en Laos. El general Navarre respondió con un campo atrincherado en Điện Biên Phủ, que cayó el 7 de mayo de 1954 tras casi dos meses de asedio. En Ginebra, en julio, los armisticios dividieron Vietnam en el paralelo 17 a la espera de elecciones.",
+    "zh": "1945年9月，胡志明在河内宣布成立越南民主共和国，数周后法军夺回西贡，南方随即爆发战斗。谈判失败：1946年11月法军炮击海防，12月19日全面战争在河内爆发。法兰西联邦军队包括外籍军团以及北非、撒哈拉以南非洲和印度支那士兵；1949年起，法国扶持以保大为首的越南国。中国共产党取得胜利后，越盟获得中国的武器、物资和顾问以及部分苏联援助；1950年起，美国向法国提供资金和装备。1950年10月，越盟各师在中国边境附近的4号殖民公路上歼灭法军纵队。1951年他们对红河三角洲的进攻失败，但1953年进入老挝。纳瓦尔将军随即在奠边府修建筑垒营地，该营地在被围近两个月后于1954年5月7日陷落。同年7月在日内瓦签订的停战协定以北纬17度线划分越南，以待选举。"
+  },
+  "outcome": {
+    "en": "France agreed at Geneva to armistices that left the Democratic Republic of Vietnam in the north and the State of Vietnam in the south, divided at the 17th parallel; the last French troops left the south in April 1956.",
+    "es": "Francia aceptó en Ginebra armisticios que dejaron la República Democrática de Vietnam en el norte y el Estado de Vietnam en el sur, divididos por el paralelo 17; las últimas tropas francesas salieron del sur en abril de 1956.",
+    "zh": "法国在日内瓦接受停战协定，越南民主共和国据北方，越南国据南方，以北纬17度线为界；最后一批法军于1956年4月撤离南方。"
+  },
+  "tier": "flagship",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1945,
+    "latestStart": 1946,
+    "earliestEnd": 1954,
+    "latestEnd": 1954,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"First Indochina War.\"",
+        "url": "https://en.wikipedia.org/wiki/First_Indochina_War"
+      },
+      {
+        "citation": "Goscha, Christopher E. \"19 December 1946.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+        "url": "https://indochine.uqam.ca/en/historical-dictionary/8.html"
+      },
+      {
+        "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+        "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "Some historians date the war from the French return to Saigon on 23 September 1945; others from the outbreak of full-scale war in Hanoi on 19 December 1946. The Geneva armistices of 21 July 1954 ended it; the last fighting stopped in August.",
+      "es": "Algunos historiadores fechan la guerra desde el regreso francés a Saigón el 23 de septiembre de 1945; otros, desde el estallido de la guerra abierta en Hanói el 19 de diciembre de 1946. La terminaron los armisticios de Ginebra del 21 de julio de 1954; los últimos combates cesaron en agosto.",
+      "zh": "有的历史学家把战争起点定在1945年9月23日法军重返西贡，有的定在1946年12月19日河内爆发全面战争。1954年7月21日的日内瓦停战协定结束了战争，最后的战斗于8月停止。"
+    }
+  },
+  "sides": [
+    {
+      "id": "french-union",
+      "label": {
+        "en": "French Union: France and the Associated States of Vietnam, Laos and Cambodia",
+        "es": "Unión Francesa: Francia y los Estados Asociados de Vietnam, Laos y Camboya",
+        "zh": "法兰西联邦：法国及越南、老挝、柬埔寨三个联邦邦"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "FR",
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "State of Vietnam",
+            "es": "Estado de Vietnam",
+            "zh": "越南国"
+          },
+          "role": "belligerent",
+          "today": [
+            "VN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Laos",
+            "es": "Reino de Laos",
+            "zh": "老挝王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "LA"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Cambodia",
+            "es": "Reino de Camboya",
+            "zh": "柬埔寨王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "KH"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "supporter",
+          "today": [
+            "US"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viet-minh",
+      "label": {
+        "en": "Viet Minh (Democratic Republic of Vietnam) and allies",
+        "es": "Viet Minh (República Democrática de Vietnam) y aliados",
+        "zh": "越盟（越南民主共和国）及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Democratic Republic of Vietnam (Viet Minh)",
+            "es": "República Democrática de Vietnam (Viet Minh)",
+            "zh": "越南民主共和国（越盟）"
+          },
+          "role": "belligerent",
+          "today": [
+            "VN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Pathet Lao",
+            "es": "Pathet Lao",
+            "zh": "巴特寮"
+          },
+          "role": "belligerent",
+          "today": [
+            "LA"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Khmer Issarak (United Issarak Front)",
+            "es": "Khmer Issarak (Frente Unido Issarak)",
+            "zh": "高棉伊沙拉（伊沙拉联合阵线）"
+          },
+          "role": "belligerent",
+          "today": [
+            "KH"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "CN",
+          "role": "supporter",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Soviet Union",
+            "es": "Unión Soviética",
+            "zh": "苏联"
+          },
+          "role": "supporter",
+          "today": [
+            "RU"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "outbreak",
+      "name": {
+        "en": "Return of the French and outbreak of war",
+        "es": "Regreso de los franceses y estallido de la guerra",
+        "zh": "法国重返与战争爆发"
+      },
+      "start": 1945,
+      "end": 1949,
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"19 December 1946.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/8.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ]
+    },
+    {
+      "id": "internationalised-war",
+      "name": {
+        "en": "Chinese and US aid; battles for the delta and the highlands",
+        "es": "Ayuda china y estadounidense; batallas por el delta y las tierras altas",
+        "zh": "中美援助；三角洲与高地之战"
+      },
+      "start": 1950,
+      "end": 1953,
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Cao Bằng, Battle of.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/206.html"
+        },
+        {
+          "citation": "Goscha, Christopher E. \"Aid, American.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/29.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ]
+    },
+    {
+      "id": "dien-bien-phu-and-geneva",
+      "name": {
+        "en": "Điện Biên Phủ and Geneva",
+        "es": "Điện Biên Phủ y Ginebra",
+        "zh": "奠边府与日内瓦"
+      },
+      "start": 1954,
+      "end": 1954,
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Điện Biên Phủ, Battle of (13 March–7 May 1954).\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/402.html"
+        },
+        {
+          "citation": "Goscha, Christopher E. \"Geneva Accords.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/528.html"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "french-return-to-saigon",
+      "start": 1945,
+      "title": {
+        "en": "With British help, French troops take back Saigon from the Viet Minh administration on 23 September, three weeks after Ho Chi Minh proclaimed the Democratic Republic of Vietnam; fighting spreads in the south",
+        "es": "Con ayuda británica, tropas francesas retoman Saigón a la administración del Viet Minh el 23 de septiembre, tres semanas después de que Ho Chi Minh proclamara la República Democrática de Vietnam; los combates se extienden por el sur",
+        "zh": "9月23日，法军在英国协助下从越盟政权手中夺回西贡，此时距胡志明宣布成立越南民主共和国仅三周；战火在南方蔓延"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"War in southern Vietnam (1945–1946).\"",
+          "url": "https://en.wikipedia.org/wiki/War_in_southern_Vietnam_(1945–1946)"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Indochina War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Indochina_War"
+        },
+        {
+          "citation": "Goscha, Christopher E. \"19 December 1946.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/8.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Saigon",
+          "es": "Saigón",
+          "zh": "西贡"
+        },
+        "lat": 10.776,
+        "lon": 106.701
+      },
+      "wikidataId": "Q3365438"
+    },
+    {
+      "id": "march-1946-accords",
+      "start": 1946,
+      "title": {
+        "en": "Ho Chi Minh and Jean Sainteny sign the accords of 6 March: France calls Vietnam a free state within the French Union, and French troops enter Hanoi as Chinese troops leave",
+        "es": "Ho Chi Minh y Jean Sainteny firman los acuerdos del 6 de marzo: Francia reconoce a Vietnam como Estado libre dentro de la Unión Francesa y las tropas francesas entran en Hanói mientras salen las chinas",
+        "zh": "胡志明与让·圣特尼签订3月6日协定：法国承认越南为法兰西联邦内的自由国家，法军在中国军队撤离时进入河内"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"19 December 1946.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/8.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Hanoi",
+          "es": "Hanói",
+          "zh": "河内"
+        },
+        "lat": 21.028,
+        "lon": 105.854
+      }
+    },
+    {
+      "id": "haiphong-incident",
+      "start": 1946,
+      "title": {
+        "en": "A customs dispute in Haiphong turns to fighting; on 23 November French forces shell and take the city",
+        "es": "Una disputa aduanera en Haiphong desemboca en combates; el 23 de noviembre las fuerzas francesas bombardean y toman la ciudad",
+        "zh": "海防的一场海关纠纷演变为战斗；11月23日，法军炮击并占领该市"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Haiphong Incident (20–23 November 1946).\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/573.html"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre d'Indochine.\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_d'Indochine"
+        }
+      ],
+      "note": {
+        "en": "Estimates of the dead, mostly civilians, run from 1,500–2,000 (a US vice consul, citing French intelligence) to 6,000 (Paul Mus, citing Vice Admiral Robert Battet).",
+        "es": "Las estimaciones de muertos, en su mayoría civiles, van de 1500-2000 (un vicecónsul estadounidense, citando a la inteligencia francesa) a 6000 (Paul Mus, citando al vicealmirante Robert Battet).",
+        "zh": "死者大多为平民，估计人数从1500至2000人（一名美国副领事援引法国情报部门）到6000人（保罗·米斯援引海军中将罗贝尔·巴泰）不等。"
+      },
+      "place": {
+        "name": {
+          "en": "Haiphong",
+          "es": "Haiphong",
+          "zh": "海防"
+        },
+        "lat": 20.856,
+        "lon": 106.683
+      },
+      "wikidataId": "Q23002809"
+    },
+    {
+      "id": "war-in-hanoi",
+      "start": 1946,
+      "title": {
+        "en": "On the evening of 19 December Viet Minh militia cut Hanoi's power and attack French positions; street fighting lasts until February 1947 while the DRV government withdraws to the hills",
+        "es": "La noche del 19 de diciembre milicias del Viet Minh cortan la electricidad de Hanói y atacan posiciones francesas; los combates callejeros duran hasta febrero de 1947 mientras el gobierno de la RDV se retira a las montañas",
+        "zh": "12月19日晚，越盟民兵切断河内电力并进攻法军阵地；巷战持续到1947年2月，越南民主共和国政府撤往山区"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"19 December 1946.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/8.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Indochina War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Indochina_War"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Dien Bien Phu & the Fall of French Indochina, 1954.\" Milestones in the History of U.S. Foreign Relations.",
+          "url": "https://history.state.gov/milestones/1953-1960/dien-bien-phu"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Each side blamed the other for starting the war. Historians agree the Vietnamese opened fire on 19 December, but not on why: French forces had been preparing to retake the north since 1946.",
+        "es": "Cada bando culpó al otro de iniciar la guerra. Los historiadores coinciden en que los vietnamitas abrieron fuego el 19 de diciembre, pero no en el porqué: las fuerzas francesas se preparaban desde 1946 para retomar el norte.",
+        "zh": "双方互相指责对方挑起战争。历史学家一致认为越方于12月19日首先开火，但对原因看法不一：法军自1946年起就在准备重新占领北方。"
+      },
+      "place": {
+        "name": {
+          "en": "Hanoi",
+          "es": "Hanói",
+          "zh": "河内"
+        },
+        "lat": 21.028,
+        "lon": 105.854
+      },
+      "wikidataId": "Q962370"
+    },
+    {
+      "id": "operation-lea",
+      "start": 1947,
+      "title": {
+        "en": "French paratroopers drop on Bắc Kạn on 7 October to capture the DRV leadership; Ho Chi Minh and his ministers escape, and the operation ends in early November",
+        "es": "Paracaidistas franceses caen sobre Bắc Kạn el 7 de octubre para capturar a la dirección de la RDV; Ho Chi Minh y sus ministros escapan, y la operación termina a principios de noviembre",
+        "zh": "10月7日，法国伞兵空降北𣴓，企图俘获越南民主共和国领导层；胡志明及其部长们脱身，行动于11月初结束"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Léa, Opération.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/800.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Operation Léa.\"",
+          "url": "https://en.wikipedia.org/wiki/Operation_Léa"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Bắc Kạn",
+          "es": "Bắc Kạn",
+          "zh": "北𣴓"
+        },
+        "lat": 22.133,
+        "lon": 105.833
+      },
+      "wikidataId": "Q3354762"
+    },
+    {
+      "id": "elysee-accords",
+      "start": 1949,
+      "title": {
+        "en": "France and Bảo Đại sign the accords of 8 March creating the State of Vietnam within the French Union, with Bảo Đại as head of state",
+        "es": "Francia y Bảo Đại firman los acuerdos del 8 de marzo que crean el Estado de Vietnam dentro de la Unión Francesa, con Bảo Đại como jefe de Estado",
+        "zh": "法国与保大于3月8日签订协定，在法兰西联邦内建立越南国，由保大任国家元首"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Élysée Accords.\"",
+          "url": "https://en.wikipedia.org/wiki/Élysée_Accords"
+        },
+        {
+          "citation": "Wikipedia (français). \"Accords de l'Élysée.\"",
+          "url": "https://fr.wikipedia.org/wiki/Accords_de_l'Élysée"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Élysée Palace, Paris",
+          "es": "Palacio del Elíseo, París",
+          "zh": "巴黎爱丽舍宫"
+        },
+        "lat": 48.87,
+        "lon": 2.317
+      },
+      "wikidataId": "Q6531759"
+    },
+    {
+      "id": "route-coloniale-4",
+      "start": 1950,
+      "title": {
+        "en": "As French garrisons pull out of Cao Bằng from 3 October, Viet Minh divisions planned with Chinese advisers attack the columns on Route Coloniale 4 and destroy them; France abandons its posts on the Chinese border, Lạng Sơn included",
+        "es": "Cuando las guarniciones francesas se retiran de Cao Bằng desde el 3 de octubre, divisiones del Viet Minh, con planes trazados junto a asesores chinos, atacan las columnas en la Ruta Colonial 4 y las destruyen; Francia abandona sus puestos en la frontera china, Lạng Sơn incluida",
+        "zh": "10月3日起法军驻军撤出高平时，越盟各师在中国顾问参与策划下于4号殖民公路上攻击并歼灭法军纵队；法国放弃中越边境的据点，包括谅山"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Cao Bằng, Battle of.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/206.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        },
+        {
+          "citation": "Goscha, Christopher E. \"Chinese Military Advisory Delegation.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/271.html"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Đông Khê, Route Coloniale 4",
+          "es": "Đông Khê, Ruta Colonial 4",
+          "zh": "东溪（4号殖民公路）"
+        },
+        "lat": 22.43,
+        "lon": 106.43
+      },
+      "wikidataId": "Q2748355"
+    },
+    {
+      "id": "battle-of-vinh-yen",
+      "start": 1951,
+      "title": {
+        "en": "Giáp's divisions attack the Red River delta at Vĩnh Yên in mid-January; General de Lattre's artillery and aircraft, using napalm, throw them back",
+        "es": "Las divisiones de Giáp atacan el delta del río Rojo en Vĩnh Yên a mediados de enero; la artillería y la aviación del general De Lattre, con napalm, las rechazan",
+        "zh": "1月中旬，武元甲的各师在永安进攻红河三角洲；德·拉特尔将军的炮兵和飞机使用凝固汽油弹将其击退"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Vĩnh Yên, Battle.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/1560.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Vĩnh Yên",
+          "es": "Vĩnh Yên",
+          "zh": "永安（永福省）"
+        },
+        "lat": 21.31,
+        "lon": 105.6
+      },
+      "wikidataId": "Q4872690"
+    },
+    {
+      "id": "battle-of-mao-khe",
+      "start": 1951,
+      "title": {
+        "en": "Viet Minh divisions attack French posts around Mạo Khê and Đông Triều, north-east of the delta, from 23 March; after heavy losses Giáp calls the attack off on 7 April",
+        "es": "Divisiones del Viet Minh atacan desde el 23 de marzo los puestos franceses en torno a Mạo Khê y Đông Triều, al noreste del delta; tras grandes pérdidas, Giáp suspende el ataque el 7 de abril",
+        "zh": "3月23日起，越盟各师进攻三角洲东北部帽溪和东潮一带的法军据点；伤亡惨重后，武元甲于4月7日停止进攻"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Đông Triều, Battle of.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/437.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mạo Khê",
+          "es": "Mạo Khê",
+          "zh": "帽溪"
+        },
+        "lat": 21.06,
+        "lon": 106.59
+      },
+      "wikidataId": "Q4871667"
+    },
+    {
+      "id": "battle-of-the-day-river",
+      "start": 1951,
+      "title": {
+        "en": "Three Viet Minh divisions attack French positions along the Đáy River from 28 May; French and Vietnamese National Army troops halt them in June. Bernard de Lattre, the general's son, is killed",
+        "es": "Tres divisiones del Viet Minh atacan desde el 28 de mayo las posiciones francesas a lo largo del río Đáy; tropas francesas y del Ejército Nacional Vietnamita las detienen en junio. Muere Bernard de Lattre, hijo del general",
+        "zh": "5月28日起，越盟三个师进攻底江沿岸的法军阵地；法军和越南国民军于6月将其阻止。德·拉特尔将军之子贝尔纳·德·拉特尔阵亡"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Đáy, Battle of.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/368.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of the Day River.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Day_River"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ninh Bình, on the Đáy River",
+          "es": "Ninh Bình, junto al río Đáy",
+          "zh": "宁平（底江畔）"
+        },
+        "lat": 20.25,
+        "lon": 105.975
+      },
+      "wikidataId": "Q4872904"
+    },
+    {
+      "id": "battle-of-hoa-binh",
+      "start": 1951,
+      "end": 1952,
+      "title": {
+        "en": "French forces take Hòa Bình in November; Viet Minh divisions attack from 10 December, and the French pull out in February 1952",
+        "es": "Las fuerzas francesas toman Hòa Bình en noviembre; divisiones del Viet Minh atacan desde el 10 de diciembre, y los franceses se retiran en febrero de 1952",
+        "zh": "11月，法军占领和平；越盟各师自12月10日起发动进攻，法军于1952年2月撤出"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Hoà Bình, Battle of.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/603.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Hòa Bình.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Hòa_Bình"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Hòa Bình",
+          "es": "Hòa Bình",
+          "zh": "和平"
+        },
+        "lat": 20.813,
+        "lon": 105.338
+      },
+      "wikidataId": "Q4871237"
+    },
+    {
+      "id": "battle-of-na-san",
+      "start": 1952,
+      "title": {
+        "en": "Viet Minh divisions attack the French entrenched camp at Nà Sản on 30 November; artillery and bombing drive them off, and Giáp ends the attack on 2 December",
+        "es": "Divisiones del Viet Minh atacan el campo atrincherado francés de Nà Sản el 30 de noviembre; la artillería y los bombardeos las rechazan, y Giáp pone fin al ataque el 2 de diciembre",
+        "zh": "11月30日，越盟各师进攻那产的法军筑垒营地；炮火和轰炸将其击退，武元甲于12月2日停止进攻"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Na San, Battle of.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/925.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Nà Sản",
+          "es": "Nà Sản",
+          "zh": "那产"
+        },
+        "lat": 21.215,
+        "lon": 104.036
+      },
+      "wikidataId": "Q2889446"
+    },
+    {
+      "id": "laos-offensive-1953",
+      "start": 1953,
+      "title": {
+        "en": "Viet Minh divisions cross into northern Laos in April, take Sam Neua and threaten Luang Prabang; the offensive ends in May, leaving the Pathet Lao in control around Sam Neua",
+        "es": "Divisiones del Viet Minh entran en el norte de Laos en abril, toman Sam Neua y amenazan Luang Prabang; la ofensiva termina en mayo y deja al Pathet Lao al mando en torno a Sam Neua",
+        "zh": "4月，越盟各师进入老挝北部，攻占桑怒并威胁琅勃拉邦；5月攻势结束，桑怒一带由巴特寮控制"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Laos, First Battle of (13 April–18 May 1953).\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/753.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Sam Neua (Xam Neua)",
+          "es": "Sam Neua (Xam Neua)",
+          "zh": "桑怒"
+        },
+        "lat": 20.415,
+        "lon": 104.048
+      }
+    },
+    {
+      "id": "operation-castor",
+      "start": 1953,
+      "title": {
+        "en": "French paratroopers land in the Điện Biên Phủ valley on 20 November and begin building an entrenched camp and airstrip near the Lao border",
+        "es": "Paracaidistas franceses toman tierra en el valle de Điện Biên Phủ el 20 de noviembre y empiezan a construir un campo atrincherado y una pista de aterrizaje cerca de la frontera con Laos",
+        "zh": "11月20日，法国伞兵空降奠边府谷地，开始在老挝边境附近修建筑垒营地和机场"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Battle of Dien Bien Phu.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu"
+        },
+        {
+          "citation": "Goscha, Christopher E. \"Điện Biên Phủ, Battle of (13 March–7 May 1954).\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/402.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Điện Biên Phủ",
+          "es": "Điện Biên Phủ",
+          "zh": "奠边府"
+        },
+        "lat": 21.387,
+        "lon": 103.016
+      },
+      "wikidataId": "Q3354679"
+    },
+    {
+      "id": "siege-of-dien-bien-phu-begins",
+      "start": 1954,
+      "title": {
+        "en": "On 13 March Viet Minh artillery and infantry attack the camp's outposts, taking Béatrice that night and Gabrielle the next day; shelling closes the airstrip within days",
+        "es": "El 13 de marzo la artillería y la infantería del Viet Minh atacan los puestos avanzados del campo, toman Béatrice esa noche y Gabrielle al día siguiente; el fuego de artillería cierra la pista en pocos días",
+        "zh": "3月13日，越盟炮兵和步兵进攻营地外围据点，当夜攻占“贝阿特丽斯”，次日攻占“加布里埃尔”；几天内炮火便使机场无法使用"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Điện Biên Phủ, Battle of (13 March–7 May 1954).\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/402.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Dien Bien Phu.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Điện Biên Phủ",
+          "es": "Điện Biên Phủ",
+          "zh": "奠边府"
+        },
+        "lat": 21.387,
+        "lon": 103.016
+      }
+    },
+    {
+      "id": "fall-of-dien-bien-phu",
+      "start": 1954,
+      "title": {
+        "en": "After nearly two months of siege, the French Union garrison at Điện Biên Phủ under Colonel de Castries surrenders on 7 May",
+        "es": "Tras casi dos meses de asedio, la guarnición de la Unión Francesa en Điện Biên Phủ, al mando del coronel De Castries, se rinde el 7 de mayo",
+        "zh": "经过近两个月的围困，德·卡斯特里上校指挥的奠边府法兰西联邦守军于5月7日投降"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Điện Biên Phủ, Battle of (13 March–7 May 1954).\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/402.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"Dien Bien Phu & the Fall of French Indochina, 1954.\" Milestones in the History of U.S. Foreign Relations.",
+          "url": "https://history.state.gov/milestones/1953-1960/dien-bien-phu"
+        }
+      ],
+      "note": {
+        "en": "Larousse puts the cost of the final assault at 4,500 French Union soldiers and 8,500 Viet Minh; Goscha gives about 4,000 Viet Minh dead for the battle.",
+        "es": "Larousse cifra el coste del asalto final en 4500 soldados de la Unión Francesa y 8500 del Viet Minh; Goscha da unos 4000 muertos del Viet Minh en la batalla.",
+        "zh": "拉鲁斯百科称最后总攻造成法兰西联邦士兵4500人、越盟8500人死亡；戈沙则称越盟在此役中约4000人阵亡。"
+      },
+      "place": {
+        "name": {
+          "en": "Điện Biên Phủ",
+          "es": "Điện Biên Phủ",
+          "zh": "奠边府"
+        },
+        "lat": 21.387,
+        "lon": 103.016
+      },
+      "wikidataId": "Q604897"
+    },
+    {
+      "id": "mang-yang-pass",
+      "start": 1954,
+      "title": {
+        "en": "Ordered to leave An Khê, the French Mobile Group 100 is ambushed on Route Coloniale 19 from 24 June and largely destroyed near the Mang Yang pass",
+        "es": "Con orden de abandonar An Khê, el Grupo Móvil 100 francés sufre emboscadas en la Ruta Colonial 19 desde el 24 de junio y queda en gran parte destruido cerca del paso de Mang Yang",
+        "zh": "奉命撤离安溪的法军第100机动群自6月24日起在19号殖民公路上遭伏击，在芒扬山口附近几乎全军覆没"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Battle of Mang Yang Pass.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Mang_Yang_Pass"
+        },
+        {
+          "citation": "Goscha, Christopher E. \"Atlante, Operation.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/82.html"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mang Yang pass, Route Coloniale 19",
+          "es": "Paso de Mang Yang, Ruta Colonial 19",
+          "zh": "芒扬山口（19号殖民公路）"
+        },
+        "lat": 14.0,
+        "lon": 108.25
+      },
+      "wikidataId": "Q4871659"
+    },
+    {
+      "id": "geneva-accords",
+      "start": 1954,
+      "title": {
+        "en": "At Geneva on 21 July the parties sign armistices for Vietnam, Laos and Cambodia: Vietnam is split at the 17th parallel, called provisional, with elections set for July 1956; the State of Vietnam protests, and the United States makes a separate declaration",
+        "es": "En Ginebra, el 21 de julio, las partes firman armisticios para Vietnam, Laos y Camboya: Vietnam queda dividido en el paralelo 17, que se declara provisional, con elecciones previstas para julio de 1956; el Estado de Vietnam protesta y Estados Unidos hace una declaración aparte",
+        "zh": "7月21日，各方在日内瓦签订越南、老挝和柬埔寨停战协定：越南以北纬17度线为临时分界，定于1956年7月举行选举；越南国提出抗议，美国另行发表声明"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Geneva Accords.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/528.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Indochina War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Indochina_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Geneva",
+          "es": "Ginebra",
+          "zh": "日内瓦"
+        },
+        "lat": 46.204,
+        "lon": 6.143
+      },
+      "wikidataId": "Q482407"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Ho Chi Minh",
+        "es": "Ho Chi Minh",
+        "zh": "胡志明"
+      },
+      "side": "viet-minh",
+      "role": {
+        "en": "President of the Democratic Republic of Vietnam",
+        "es": "Presidente de la República Democrática de Vietnam",
+        "zh": "越南民主共和国主席"
+      },
+      "wikidataId": "Q36014"
+    },
+    {
+      "name": {
+        "en": "Võ Nguyên Giáp",
+        "es": "Võ Nguyên Giáp",
+        "zh": "武元甲"
+      },
+      "side": "viet-minh",
+      "role": {
+        "en": "Commander-in-chief of the Viet Minh army",
+        "es": "Comandante en jefe del ejército del Viet Minh",
+        "zh": "越盟军队总司令"
+      },
+      "wikidataId": "Q179910"
+    },
+    {
+      "name": {
+        "en": "Phạm Văn Đồng",
+        "es": "Phạm Văn Đồng",
+        "zh": "范文同"
+      },
+      "side": "viet-minh",
+      "role": {
+        "en": "Led the DRV delegation at Geneva",
+        "es": "Encabezó la delegación de la RDV en Ginebra",
+        "zh": "日内瓦会议越南民主共和国代表团团长"
+      },
+      "wikidataId": "Q358051"
+    },
+    {
+      "name": {
+        "en": "Souphanouvong",
+        "es": "Souphanouvong",
+        "zh": "苏发努冯"
+      },
+      "side": "viet-minh",
+      "role": {
+        "en": "Leader of the Lao resistance government",
+        "es": "Jefe del gobierno de la resistencia laosiana",
+        "zh": "老挝抵抗政府领导人"
+      },
+      "wikidataId": "Q320103"
+    },
+    {
+      "name": {
+        "en": "Wei Guoqing",
+        "es": "Wei Guoqing",
+        "zh": "韦国清"
+      },
+      "side": "viet-minh",
+      "role": {
+        "en": "Head of the Chinese Military Advisory Delegation",
+        "es": "Jefe de la Delegación Militar Asesora china",
+        "zh": "中国军事顾问团团长"
+      },
+      "wikidataId": "Q3139184"
+    },
+    {
+      "name": {
+        "en": "Chen Geng",
+        "es": "Chen Geng",
+        "zh": "陈赓"
+      },
+      "side": "viet-minh",
+      "role": {
+        "en": "Chinese adviser for the 1950 border campaign",
+        "es": "Asesor chino en la campaña fronteriza de 1950",
+        "zh": "1950年边界战役的中国顾问"
+      },
+      "wikidataId": "Q697686"
+    },
+    {
+      "name": {
+        "en": "Georges Thierry d'Argenlieu",
+        "es": "Georges Thierry d'Argenlieu",
+        "zh": "乔治·蒂埃里·达让利厄"
+      },
+      "side": "french-union",
+      "role": {
+        "en": "French high commissioner in Indochina, 1945–1947",
+        "es": "Alto comisionado francés en Indochina, 1945-1947",
+        "zh": "法国驻印度支那高级专员（1945—1947年）"
+      },
+      "wikidataId": "Q968123"
+    },
+    {
+      "name": {
+        "en": "Philippe Leclerc de Hauteclocque",
+        "es": "Philippe Leclerc de Hauteclocque",
+        "zh": "菲利普·勒克莱尔"
+      },
+      "side": "french-union",
+      "role": {
+        "en": "Commander of the French expeditionary corps, 1945–1946",
+        "es": "Comandante del cuerpo expedicionario francés, 1945-1946",
+        "zh": "法国远征军司令（1945—1946年）"
+      },
+      "wikidataId": "Q312391"
+    },
+    {
+      "name": {
+        "en": "Jean-Étienne Valluy",
+        "es": "Jean-Étienne Valluy",
+        "zh": "让-艾蒂安·瓦吕"
+      },
+      "side": "french-union",
+      "role": {
+        "en": "French commander, 1946–1948",
+        "es": "Comandante francés, 1946-1948",
+        "zh": "法军司令（1946—1948年）"
+      },
+      "wikidataId": "Q3175875"
+    },
+    {
+      "name": {
+        "en": "Jean de Lattre de Tassigny",
+        "es": "Jean de Lattre de Tassigny",
+        "zh": "让·德·拉特尔·德·塔西尼"
+      },
+      "side": "french-union",
+      "role": {
+        "en": "High commissioner and commander-in-chief, 1950–1951",
+        "es": "Alto comisionado y comandante en jefe, 1950-1951",
+        "zh": "高级专员兼总司令（1950—1951年）"
+      },
+      "wikidataId": "Q81114"
+    },
+    {
+      "name": {
+        "en": "Raoul Salan",
+        "es": "Raoul Salan",
+        "zh": "拉乌尔·萨朗"
+      },
+      "side": "french-union",
+      "role": {
+        "en": "Commander-in-chief, 1952–1953",
+        "es": "Comandante en jefe, 1952-1953",
+        "zh": "总司令（1952—1953年）"
+      },
+      "wikidataId": "Q241944"
+    },
+    {
+      "name": {
+        "en": "Henri Navarre",
+        "es": "Henri Navarre",
+        "zh": "亨利·纳瓦尔"
+      },
+      "side": "french-union",
+      "role": {
+        "en": "Commander-in-chief, 1953–1954",
+        "es": "Comandante en jefe, 1953-1954",
+        "zh": "总司令（1953—1954年）"
+      },
+      "wikidataId": "Q1354290"
+    },
+    {
+      "name": {
+        "en": "Christian de Castries",
+        "es": "Christian de Castries",
+        "zh": "克里斯蒂安·德·卡斯特里"
+      },
+      "side": "french-union",
+      "role": {
+        "en": "Commander of the camp at Điện Biên Phủ",
+        "es": "Comandante del campo de Điện Biên Phủ",
+        "zh": "奠边府营地指挥官"
+      },
+      "wikidataId": "Q710667"
+    },
+    {
+      "name": {
+        "en": "Bảo Đại",
+        "es": "Bảo Đại",
+        "zh": "保大帝"
+      },
+      "side": "french-union",
+      "role": {
+        "en": "Head of the State of Vietnam from 1949",
+        "es": "Jefe del Estado de Vietnam desde 1949",
+        "zh": "1949年起任越南国元首"
+      },
+      "wikidataId": "Q223771"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "military-deaths",
+      "side": "french-union",
+      "low": 92800,
+      "high": 92800,
+      "attributedTo": {
+        "en": "French official statistics, 1955",
+        "es": "estadísticas oficiales francesas, 1955",
+        "zh": "法国1955年官方统计"
+      },
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Casualties, Indochina War.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/223.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ],
+      "note": {
+        "en": "French Union troops killed, dead of disease or missing up to the armistices of mid-1954: about 20,700 French nationals, 15,200 North and sub-Saharan Africans, 11,600 Foreign Legion, 27,700 Indochinese regulars and 17,600 auxiliaries and Associated States troops. The historian Michel Bodin, who also counts deaths in captivity after the armistices, gives 112,032.",
+        "es": "Soldados de la Unión Francesa muertos en combate, por enfermedad o desaparecidos hasta los armisticios de mediados de 1954: unos 20.700 franceses, 15.200 norteafricanos y subsaharianos, 11.600 de la Legión Extranjera, 27.700 regulares indochinos y 17.600 auxiliares y soldados de los Estados Asociados. El historiador Michel Bodin, que cuenta también las muertes en cautiverio tras los armisticios, da 112.032.",
+        "zh": "截至1954年年中停战，法兰西联邦阵亡、病死或失踪的军人：法国籍约20700人，北非和撒哈拉以南非洲士兵15200人，外籍军团11600人，印度支那正规军27700人，辅助部队和联邦邦军队17600人。历史学家米歇尔·博丹把停战后在战俘营中死亡的人也计算在内，得出112032人。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "viet-minh",
+      "low": 175000,
+      "high": 300000,
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Casualties, Indochina War.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/223.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Indochina War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Indochina_War"
+        }
+      ],
+      "note": {
+        "en": "Estimates by Western historians and datasets (Clodfelter at the low end, Lacina and Gleditsch at the high end). Vietnam has never published a full count. A French figure of 500,000 Vietnamese dead, repeated in some references, seems to include civilians and traces back to a single memoir.",
+        "es": "Estimaciones de historiadores y bases de datos occidentales (Clodfelter en el extremo bajo, Lacina y Gleditsch en el alto). Vietnam nunca ha publicado una cifra completa. Una cifra francesa de 500.000 vietnamitas muertos, repetida en algunas obras, parece incluir civiles y procede de unas solas memorias.",
+        "zh": "西方历史学家和数据集的估计（下限为克洛德费尔特，上限为拉齐娜和格莱迪奇）。越南从未公布完整数字。一些著作沿用的法方“越南死亡50万人”的数字似乎包括平民，其来源只是一部回忆录。"
+      }
+    },
+    {
+      "scope": "total-deaths",
+      "low": 400000,
+      "high": 600000,
+      "sources": [
+        {
+          "citation": "Goscha, Christopher E. \"Casualties, Indochina War.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+          "url": "https://indochine.uqam.ca/en/historical-dictionary/223.html"
+        },
+        {
+          "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+          "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+        }
+      ],
+      "note": {
+        "en": "Soldiers and civilians of all sides, 1945–1954: about 400,000 according to the historian Christopher Goscha, about 600,000 according to the Larousse encyclopedia.",
+        "es": "Soldados y civiles de todos los bandos, 1945-1954: unos 400.000 según el historiador Christopher Goscha y unos 600.000 según la enciclopedia Larousse.",
+        "zh": "1945—1954年各方军人和平民：历史学家克里斯托弗·戈沙估计约40万人，拉鲁斯百科全书估计约60万人。"
+      }
+    }
+  ],
+  "cultures": [],
+  "follows": "french-conquest-of-vietnam",
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"First Indochina War.\"",
+      "url": "https://en.wikipedia.org/wiki/First_Indochina_War"
+    },
+    {
+      "citation": "Goscha, Christopher E. \"19 December 1946.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+      "url": "https://indochine.uqam.ca/en/historical-dictionary/8.html"
+    },
+    {
+      "citation": "Goscha, Christopher E. \"Casualties, Indochina War.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+      "url": "https://indochine.uqam.ca/en/historical-dictionary/223.html"
+    },
+    {
+      "citation": "Goscha, Christopher E. \"Điện Biên Phủ, Battle of (13 March–7 May 1954).\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+      "url": "https://indochine.uqam.ca/en/historical-dictionary/402.html"
+    },
+    {
+      "citation": "Goscha, Christopher E. \"Geneva Accords.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+      "url": "https://indochine.uqam.ca/en/historical-dictionary/528.html"
+    },
+    {
+      "citation": "Goscha, Christopher E. \"Aid, American.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+      "url": "https://indochine.uqam.ca/en/historical-dictionary/29.html"
+    },
+    {
+      "citation": "Goscha, Christopher E. \"Aid, Chinese Communist.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+      "url": "https://indochine.uqam.ca/en/historical-dictionary/30.html"
+    },
+    {
+      "citation": "Goscha, Christopher E. \"Aid, Soviet.\" Historical Dictionary of the Indochina War (1945–1954). Université du Québec à Montréal.",
+      "url": "https://indochine.uqam.ca/en/historical-dictionary/32.html"
+    },
+    {
+      "citation": "\"Guerre d'Indochine (1940-1954).\" Encyclopédie Larousse.",
+      "url": "https://www.larousse.fr/encyclopedie/divers/guerre_d_Indochine/124937"
+    },
+    {
+      "citation": "Office of the Historian, U.S. Department of State. \"Dien Bien Phu & the Fall of French Indochina, 1954.\" Milestones in the History of U.S. Foreign Relations.",
+      "url": "https://history.state.gov/milestones/1953-1960/dien-bien-phu"
+    },
+    {
+      "citation": "Wikipedia (français). \"Guerre d'Indochine.\"",
+      "url": "https://fr.wikipedia.org/wiki/Guerre_d'Indochine"
+    }
+  ]
+}
