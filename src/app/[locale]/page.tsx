@@ -17,16 +17,21 @@ import { RegionFilteredList } from "@/components/filters/region-filtered-list";
 import { regionsIn } from "@/components/filters/region-filter";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
-import { pageAlternates } from "@/lib/seo";
+import { openGraph, pageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "home" });
+  const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
   const description = t("metaDescription");
-  // No `openGraph` override here: setting one would replace (not merge
-  // with) the layout's openGraph.siteName/locale/type, and og:title/
-  // og:description already inherit from the plain title/description above.
-  return { description, alternates: pageAlternates(locale, "") };
+  // The layout's openGraph doesn't reach this page: Next puts the segment's
+  // own opengraph-image file (without alt text) in its place unless the page
+  // names the image itself.
+  return {
+    description,
+    alternates: pageAlternates(locale, ""),
+    openGraph: openGraph(locale, appName, { path: "", alt: appName }),
+  };
 }
 
 /** Home: scan a placard or search, popular starting points underneath. Owned by ui-core. */

@@ -32,7 +32,9 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/c/[id]">
   const culture = loadCulture(id);
   const title = cultureTitle(culture, locale);
   const description = cultureDescription(culture, locale);
-  // No `openGraph` override: see src/app/[locale]/page.tsx for why.
+  // No `openGraph` override: it would replace the layout's siteName/locale/type,
+  // og:title/description already follow title/description, and the image is
+  // this segment's opengraph-image file.
   return { title, description, alternates: pageAlternates(locale, `c/${id}`) };
 }
 

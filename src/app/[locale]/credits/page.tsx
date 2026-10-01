@@ -3,15 +3,20 @@ import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
 import { hasTerritoryMap, loadBorders, loadCultures, loadSuccession } from "@/lib/data/load";
 import type { Source } from "@/lib/data/schema";
-import { pageAlternates } from "@/lib/seo";
+import { openGraph, pageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/credits">): Promise<Metadata> {
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "credits" });
   const title = t("title");
   const description = t("metaDescription");
-  // No `openGraph` override: see src/app/[locale]/page.tsx for why.
-  return { title, description, alternates: pageAlternates(locale, "credits") };
+  const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
+  return {
+    title,
+    description,
+    alternates: pageAlternates(locale, "credits"),
+    openGraph: openGraph(locale, appName, { path: "credits", alt: title }),
+  };
 }
 
 const SOURCE_KEYS = ["periodo", "wikidata", "cliopatria", "pleiades", "naturalEarth", "flagIcons", "fonts"] as const;

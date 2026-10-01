@@ -5,15 +5,20 @@ import { Suspense } from "react";
 import { toTimelineCulture } from "@/components/timeline/timeline-layout";
 import { WorldTimeline } from "@/components/timeline/world-timeline";
 import { loadCultures } from "@/lib/data/load";
-import { pageAlternates } from "@/lib/seo";
+import { openGraph, pageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/timeline">): Promise<Metadata> {
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "timeline" });
   const title = t("title");
   const description = t("metaDescription");
-  // No `openGraph` override: see src/app/[locale]/page.tsx for why.
-  return { title, description, alternates: pageAlternates(locale, "timeline") };
+  const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
+  return {
+    title,
+    description,
+    alternates: pageAlternates(locale, "timeline"),
+    openGraph: openGraph(locale, appName, { path: "timeline", alt: title }),
+  };
 }
 
 /** Owned by the timeline agent. ?year= is read client-side inside WorldTimeline. */
