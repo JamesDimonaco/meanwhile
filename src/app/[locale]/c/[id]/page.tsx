@@ -18,7 +18,7 @@ import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { recordsHeld } from "@/lib/data/records";
 import { cultureDescription, cultureTitle } from "@/lib/data/culture-copy";
-import { pageAlternates } from "@/lib/seo";
+import { openGraph, pageAlternates } from "@/lib/seo";
 import { warsForCulture, warsShownIn } from "@/lib/data/wars";
 import { WarRow } from "@/components/wars/war-parts";
 
@@ -34,10 +34,15 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/c/[id]">
   const culture = loadCulture(id);
   const title = cultureTitle(culture, locale);
   const description = cultureDescription(culture, locale);
-  // No `openGraph` override: it would replace the layout's siteName/locale/type,
-  // og:title/description already follow title/description, and the image is
-  // this segment's opengraph-image file.
-  return { title, description, alternates: pageAlternates(locale, `c/${id}`) };
+  const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
+  // Names the segment's opengraph-image itself, since Next's own URL for it
+  // has no trailing slash.
+  return {
+    title,
+    description,
+    alternates: pageAlternates(locale, `c/${id}`),
+    openGraph: openGraph(locale, appName, { path: `c/${id}`, alt: title }),
+  };
 }
 
 /**

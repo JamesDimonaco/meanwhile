@@ -42,12 +42,14 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/war/[id]
   const war = findWar(id);
   const shownIn = LOCALES.filter((l) => isShownIn(war, l));
   const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
+  const title = localize(war.name, locale);
   return {
-    title: localize(war.name, locale),
+    title,
     description: firstSentence(localize(war.description, locale), locale),
     alternates: pageAlternates(locale, `war/${id}`, shownIn),
-    // The layout's openGraph would list every locale as an alternate.
-    openGraph: openGraph(locale, appName, null, shownIn),
+    // Names the segment's opengraph-image itself, since Next's own URL for it
+    // has no trailing slash; and the layout's openGraph would list every locale.
+    openGraph: openGraph(locale, appName, { path: `war/${id}`, alt: title }, shownIn),
   };
 }
 

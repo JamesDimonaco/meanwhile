@@ -12,8 +12,4 @@ describe("openGraph", () => {
     expect(openGraph("en", "Meanwhile", image, ["en"]).alternateLocale).toEqual([]);
     expect(openGraph("es", "Meanwhile", image, ["en", "es"]).alternateLocale).toEqual(["en"]);
   });
-
-  it("leaves images out when the segment's opengraph-image file supplies one", () => {
-    expect(openGraph("en", "Meanwhile", null)).not.toHaveProperty("images");
-  });
 });
