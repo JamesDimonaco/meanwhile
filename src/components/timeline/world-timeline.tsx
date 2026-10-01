@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { scaleLinear } from "d3-scale";
 import { ZoomIn, ZoomOut } from "lucide-react";
-import { REGIONS } from "@/lib/data/schema";
+import { REGIONS } from "@/lib/data/regions";
 import { formatYear } from "@/lib/years";
 import { useSettings } from "@/components/settings/use-settings";
 import { YearText } from "@/components/settings/year-text";

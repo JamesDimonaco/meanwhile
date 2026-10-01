@@ -1,13 +1,13 @@
-import {
-  REGIONS,
-  type Culture,
-  type CultureEvent,
-  type Fact,
-  type LocalizedText,
-  type NativeName,
-  type Period,
-  type Region,
-  type SuccessionLink,
+import { REGIONS } from "./regions";
+import type {
+  Culture,
+  CultureEvent,
+  Fact,
+  LocalizedText,
+  NativeName,
+  Period,
+  Region,
+  SuccessionLink,
 } from "./schema";
 
 export const MIN_MEANWHILE_CARDS = 4;

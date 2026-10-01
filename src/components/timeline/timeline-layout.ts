@@ -4,7 +4,8 @@
 import type { Locale } from "@/i18n/locales";
 import { localize } from "@/lib/data/localize";
 import { defaultPeriod } from "@/lib/data/queries";
-import { REGIONS, type Culture, type EventType, type Period, type Region } from "@/lib/data/schema";
+import { REGIONS } from "@/lib/data/regions";
+import type { Culture, EventType, Period, Region } from "@/lib/data/schema";
 
 /**
  * What the timeline draws, and nothing else: sources, notes, periodoId,

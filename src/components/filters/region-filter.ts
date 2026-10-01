@@ -1,4 +1,5 @@
-import { REGIONS, type Region } from "@/lib/data/schema";
+import { REGIONS } from "@/lib/data/regions";
+import type { Region } from "@/lib/data/schema";
 
 // A selection is the regions someone picked, in display order. Empty means
 // "All", and picking every region collapses back to empty, so each filter
