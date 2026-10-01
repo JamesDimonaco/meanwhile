@@ -8,7 +8,7 @@ import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
 import { loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
-import { countryIndex, warsForCountry, warsShownIn } from "@/lib/data/wars";
+import { countryName, warCountryCodes, warsForCountry, warsShownIn } from "@/lib/data/wars";
 import { openGraph, pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -17,21 +17,18 @@ export const dynamicParams = false;
 /** Only countries with a war shown in this language get a page in it. */
 export function generateStaticParams({ params }: { params: { locale: string } }) {
   if (!isLocale(params.locale)) return [];
-  return countryIndex(warsShownIn(loadWars(), params.locale), params.locale).map((c) => ({ country: c.code.toLowerCase() }));
+  return warCountryCodes(warsShownIn(loadWars(), params.locale)).map((code) => ({ country: code.toLowerCase() }));
 }
 
 function countryWars(country: string, locale: Locale) {
   return warsForCountry(warsShownIn(loadWars(), locale), country.toUpperCase());
 }
 
-const countryName = (country: string, locale: Locale) =>
-  new Intl.DisplayNames([locale], { type: "region" }).of(country.toUpperCase()) ?? country.toUpperCase();
-
 export async function generateMetadata({ params }: PageProps<"/[locale]/wars/[country]">): Promise<Metadata> {
   const locale = await pageLocale(params);
   const { country } = await params;
   const t = await getTranslations({ locale, namespace: "wars" });
-  const name = countryName(country, locale);
+  const name = countryName(country.toUpperCase(), locale);
   const shownIn = LOCALES.filter((l) => countryWars(country, l).length > 0);
   const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
   return {
@@ -50,7 +47,7 @@ export default async function CountryWarsPage({ params }: PageProps<"/[locale]/w
   const t = await getTranslations("wars");
   const wars = countryWars(country, locale);
   if (wars.length === 0) notFound();
-  const name = countryName(country, locale);
+  const name = countryName(country.toUpperCase(), locale);
   const cultureNames = Object.fromEntries(loadCultures().map((c) => [c.id, localize(c.name, locale)]));
 
   return (

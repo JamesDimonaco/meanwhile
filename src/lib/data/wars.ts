@@ -61,13 +61,17 @@ export function warsForCulture(wars: readonly War[], cultureId: string): War[] {
 
 export type CountryEntry = { code: string; name: string; continent: Continent; count: number };
 
+/** A present-day country's name in the page's language, from its ISO code. */
+export function countryName(code: string, locale: Locale): string {
+  return new Intl.DisplayNames([locale], { type: "region" }).of(code) ?? code;
+}
+
 /** Every country some war lists, named in the page's language and sorted by that name. */
 export function countryIndex(wars: readonly War[], locale: Locale): CountryEntry[] {
-  const names = new Intl.DisplayNames([locale], { type: "region" });
   return warCountryCodes(wars)
     .map((code) => ({
       code,
-      name: names.of(code) ?? code,
+      name: countryName(code, locale),
       continent: UN_MEMBERS[code],
       count: wars.filter((w) => warCountryCodes([w]).includes(code)).length,
     }))
