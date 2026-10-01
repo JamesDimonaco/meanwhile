@@ -340,6 +340,19 @@ const WARS: Record<string, MapConfig> = {
     extent: [-106, 13, -86, 24],
     snapshots: [{ year: 1519, self: ["Aztec Triple Alliance"], rivals: ["Michoacán", "Later Mayan City-States"] }],
   },
+  "punic-wars": {
+    subject: "the Roman Republic",
+    simplify: "25%",
+    changes:
+      "The map is cut to the western and central Mediterranean, 10° W to 27° E and 29° N to 47° N. Cliopatria has no Numidian kingdom before 197 BCE, so Masinissa's and Syphax's lands are unmarked on the 201 BCE map.",
+    extent: [-10, 29, 27, 47],
+    snapshots: [
+      { year: -263, self: ["Roman Republic"], rivals: ["Carthage", "Mamertines", "Greek Colonies", "Antigonid Macedonia", "Ptolemaic Kingdom"] },
+      { year: -217, self: ["Roman Republic"], rivals: ["Carthage", "Greek City-States", "Antigonid Macedonia", "Aetolian League", "Achaean League", "Ptolemaic Kingdom"] },
+      { year: -200, self: ["Roman Republic"], rivals: ["Carthage", "Mauretania", "Greek City-States", "Antigonid Macedonia", "Aetolian League", "Achaean League", "Ptolemaic Kingdom"] },
+      { year: -148, self: ["Roman Republic"], rivals: ["Carthage", "Kingdom of Numidia", "Mauretania", "Greek City-States", "Achaean League", "Ptolemaic Kingdom"] },
+    ],
+  },
 };
 
 type Label = [en: string, es: string, zh: string];
@@ -364,6 +377,11 @@ const LABELS: Record<string, Label> = {
   "Parthian Empire": ["Parthian Empire", "Imperio parto", "帕提亚帝国"],
   "Kingdom of Pontus": ["Pontus", "Ponto", "本都王国"],
   "Kingdom of Numidia": ["Numidia", "Numidia", "努米底亚"],
+  // Punic Wars neighbours
+  Mamertines: ["Mamertines (Messana)", "Mamertinos (Mesana)", "玛末丁人（墨西拿）"],
+  Mauretania: ["Mauretania", "Mauritania", "毛里塔尼亚王国"],
+  "Aetolian League": ["Aetolian League", "Liga Etolia", "埃托利亚同盟"],
+  "Achaean League": ["Achaean League", "Liga Aquea", "亚该亚同盟"],
   "Sasanian Empire": ["Sasanian Empire", "Imperio sasánida", "萨珊王朝"],
   Gothia: ["Goths", "Godos", "哥特人"],
   Huns: ["Huns", "Hunos", "匈人"],

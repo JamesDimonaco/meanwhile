@@ -1,0 +1,1170 @@
+{
+  "id": "punic-wars",
+  "wikidataId": "Q124988",
+  "name": {
+    "en": "Punic Wars",
+    "es": "Guerras púnicas",
+    "zh": "布匿战争"
+  },
+  "aliases": [
+    "First Punic War",
+    "Second Punic War",
+    "Third Punic War",
+    "Hannibalic War",
+    "Primera guerra púnica",
+    "Segunda guerra púnica",
+    "Tercera guerra púnica",
+    "第一次布匿战争",
+    "第二次布匿战争",
+    "第三次布匿战争",
+    "Hannibal",
+    "Aníbal",
+    "汉尼拔",
+    "Carthage",
+    "Cartago",
+    "迦太基",
+    "Scipio",
+    "Escipión",
+    "西庇阿"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "Rome and Carthage fought three wars between 264 and 146 BCE. The first, over Sicily, lasted 23 years: Rome built its first large war fleets, lost an army in Africa and several fleets to storms, and in 241 BCE destroyed a Carthaginian fleet off the Aegates Islands, after which Carthage left Sicily. In 218 BCE Hannibal, Carthage's commander in Iberia, marched over the Alps into Italy and destroyed Roman armies at the Trebia, Lake Trasimene and Cannae, but central Italy and Rome's Latin colonies stayed loyal to Rome, and Roman armies under Scipio took Iberia. Scipio then landed in Africa and defeated Hannibal at Zama in 202 BCE; Carthage gave up its fleet and its lands abroad. In 149 BCE, after Carthage fought Rome's ally Masinissa without Rome's leave, Rome declared war again. In 146 BCE, after a three-year siege, Roman troops stormed Carthage, destroyed it and sold the survivors into slavery. No reliable count of the dead survives: ancient writers give figures only for single battles, and historians doubt many of them.",
+    "es": "Roma y Cartago libraron tres guerras entre el 264 y el 146 a. e. c. La primera, por Sicilia, duró 23 años: Roma construyó sus primeras grandes flotas de guerra, perdió un ejército en África y varias flotas en tormentas, y en el 241 a. e. c. destruyó una flota cartaginesa frente a las islas Égadas, tras lo cual Cartago abandonó Sicilia. En el 218 a. e. c. Aníbal, comandante cartaginés en Iberia, cruzó los Alpes hacia Italia y destruyó ejércitos romanos en el Trebia, el lago Trasimeno y Cannas, pero el centro de Italia y las colonias latinas siguieron siendo fieles a Roma, y los ejércitos romanos de Escipión tomaron Iberia. Escipión desembarcó después en África y derrotó a Aníbal en Zama en el 202 a. e. c.; Cartago entregó su flota y sus tierras de ultramar. En el 149 a. e. c., después de que Cartago combatiera sin permiso de Roma a Masinisa, aliado romano, Roma volvió a declararle la guerra. En el 146 a. e. c., tras un asedio de tres años, las tropas romanas tomaron Cartago al asalto, la destruyeron y vendieron como esclavos a los supervivientes. No se conserva un recuento fiable de los muertos: los autores antiguos solo dan cifras de batallas concretas, y los historiadores dudan de muchas de ellas.",
+    "zh": "公元前264年至前146年，罗马与迦太基之间进行了三次战争。第一次战争围绕西西里展开，历时23年：罗马建造了首批大型战舰队，在非洲损失一支军队，又有数支舰队毁于风暴；公元前241年罗马在埃加迪群岛外海摧毁一支迦太基舰队，此后迦太基撤出西西里。公元前218年，迦太基驻伊比利亚的统帅汉尼拔翻越阿尔卑斯山进入意大利，在特雷比亚河、特拉西梅诺湖和坎尼歼灭罗马军队，但意大利中部和罗马的拉丁殖民地仍效忠罗马，西庇阿率领的罗马军队则夺取了伊比利亚。随后西庇阿在非洲登陆，公元前202年在扎马击败汉尼拔；迦太基交出舰队和海外领土。公元前149年，迦太基未经罗马许可与罗马的盟友马西尼萨交战，罗马再度宣战。公元前146年，经过三年围城，罗马军队攻入迦太基，将其摧毁，并把幸存者卖为奴隶。死亡总数没有可靠统计留存：古代作家只记载了个别战役的数字，其中许多受到历史学家的质疑。"
+  },
+  "outcome": {
+    "en": "Carthage was destroyed in 146 BCE and its remaining land became the Roman province of Africa; Rome had already taken Sicily and Iberia from Carthage in the earlier wars.",
+    "es": "Cartago fue destruida en el 146 a. e. c. y el territorio que le quedaba pasó a ser la provincia romana de África; Roma ya le había arrebatado Sicilia e Iberia en las guerras anteriores.",
+    "zh": "迦太基于公元前146年被摧毁，其剩余领土成为罗马的阿非利加行省；此前的战争中罗马已从迦太基手中夺取西西里和伊比利亚。"
+  },
+  "tier": "flagship",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "wars",
+    "earliestStart": -263,
+    "latestStart": -263,
+    "earliestEnd": -145,
+    "latestEnd": -145,
+    "sources": [
+      {
+        "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+        "url": "https://www.worldhistory.org/First_Punic_War/"
+      },
+      {
+        "citation": "Cartwright, Mark. \"Third Punic War.\" World History Encyclopedia.",
+        "url": "https://www.worldhistory.org/Third_Punic_War/"
+      },
+      {
+        "citation": "Wikipedia (English). \"Punic Wars.\"",
+        "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+      },
+      {
+        "citation": "Wikidata. \"Punic Wars\" (Q124988), with \"First Punic War\" (Q6286), \"Second Punic War\" (Q6271) and \"Third Punic War\" (Q6334), start and end times.",
+        "url": "https://www.wikidata.org/wiki/Q124988"
+      }
+    ],
+    "disputed": false
+  },
+  "sides": [
+    {
+      "id": "rome-and-allies",
+      "label": {
+        "en": "Rome and its allies",
+        "es": "Roma y sus aliados",
+        "zh": "罗马及其盟友"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "rome",
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Rome's Italian allies",
+            "es": "Los aliados itálicos de Roma",
+            "zh": "罗马的意大利盟邦"
+          },
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Syracuse under Hiero II (allied with Rome 263–215 BCE)",
+            "es": "Siracusa bajo Hierón II (aliada de Roma 263–215 a. e. c.)",
+            "zh": "希伦二世治下的叙拉古（公元前263年至前215年为罗马盟友）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Masinissa's Numidians (from 206 BCE)",
+            "es": "Los númidas de Masinisa (desde el 206 a. e. c.)",
+            "zh": "马西尼萨的努米底亚人（公元前206年起）"
+          },
+          "role": "belligerent",
+          "today": [
+            "DZ",
+            "TN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carthage-and-allies",
+      "label": {
+        "en": "Carthage and its allies",
+        "es": "Cartago y sus aliados",
+        "zh": "迦太基及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Carthage",
+            "es": "Cartago",
+            "zh": "迦太基"
+          },
+          "role": "belligerent",
+          "today": [
+            "TN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Iberian, Celtic and Ligurian allies and mercenaries",
+            "es": "Aliados y mercenarios íberos, celtas y ligures",
+            "zh": "伊比利亚、凯尔特和利古里亚盟友及雇佣兵"
+          },
+          "role": "belligerent",
+          "today": [
+            "ES",
+            "FR",
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Syracuse (allied with Carthage 214–212 BCE)",
+            "es": "Siracusa (aliada de Cartago 214–212 a. e. c.)",
+            "zh": "叙拉古（公元前214年至前212年为迦太基盟友）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Syphax's Numidians (206–203 BCE)",
+            "es": "Los númidas de Sifax (206–203 a. e. c.)",
+            "zh": "西法克斯的努米底亚人（公元前206年至前203年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "DZ"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "first-punic-war",
+      "name": {
+        "en": "First Punic War",
+        "es": "Primera guerra púnica",
+        "zh": "第一次布匿战争"
+      },
+      "start": -263,
+      "end": -240,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+        }
+      ]
+    },
+    {
+      "id": "second-punic-war",
+      "name": {
+        "en": "Second Punic War",
+        "es": "Segunda guerra púnica",
+        "zh": "第二次布匿战争"
+      },
+      "start": -217,
+      "end": -200,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+        }
+      ]
+    },
+    {
+      "id": "third-punic-war",
+      "name": {
+        "en": "Third Punic War",
+        "es": "Tercera guerra púnica",
+        "zh": "第三次布匿战争"
+      },
+      "start": -148,
+      "end": -145,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Third Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Third_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Third Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Punic_War"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "battle-of-messana",
+      "start": -263,
+      "title": {
+        "en": "Roman legions cross the Strait of Messina and break the Carthaginian and Syracusan siege of Messana, gaining a foothold on Sicily",
+        "es": "Las legiones romanas cruzan el estrecho de Mesina y rompen el asedio cartaginés y siracusano de Mesana, con lo que logran pie en Sicilia",
+        "zh": "罗马军团渡过墨西拿海峡，解除迦太基和叙拉古对墨西拿的围攻，在西西里站稳脚跟"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Messana (Messina)",
+          "es": "Mesana (Mesina)",
+          "zh": "墨西拿"
+        },
+        "lat": 38.19,
+        "lon": 15.556
+      },
+      "wikidataId": "Q2478491"
+    },
+    {
+      "id": "syracuse-allies-with-rome",
+      "start": -262,
+      "title": {
+        "en": "Both consuls march on Syracuse; its king Hiero II makes peace and becomes Rome's ally",
+        "es": "Los dos cónsules marchan sobre Siracusa; su rey Hierón II hace la paz y se convierte en aliado de Roma",
+        "zh": "两位执政官进军叙拉古；叙拉古国王希伦二世议和，成为罗马的盟友"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Syracuse",
+          "es": "Siracusa",
+          "zh": "叙拉古"
+        },
+        "lat": 37.069,
+        "lon": 15.287
+      }
+    },
+    {
+      "id": "siege-of-agrigentum",
+      "start": -261,
+      "title": {
+        "en": "Roman armies besiege Akragas (Agrigento), Carthage's main base on Sicily, defeat a Carthaginian relief army and sack the city",
+        "es": "Los ejércitos romanos sitian Akragas (Agrigento), la principal base cartaginesa en Sicilia, vencen a un ejército cartaginés de socorro y saquean la ciudad",
+        "zh": "罗马军队围攻迦太基在西西里的主要据点阿克拉加斯（阿格里真托），击败迦太基援军并洗劫该城"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Akragas (Agrigento)",
+          "es": "Akragas (Agrigento)",
+          "zh": "阿克拉加斯（阿格里真托）"
+        },
+        "lat": 37.31,
+        "lon": 13.585
+      },
+      "wikidataId": "Q917376"
+    },
+    {
+      "id": "battle-of-mylae",
+      "start": -259,
+      "title": {
+        "en": "Rome's new war fleet, fitted with the corvus boarding bridge, defeats the Carthaginian fleet off Mylae under the consul Gaius Duilius",
+        "es": "La nueva flota de guerra de Roma, provista del puente de abordaje llamado corvus, derrota a la flota cartaginesa frente a Milas al mando del cónsul Cayo Duilio",
+        "zh": "罗马新建的战舰队装备“乌鸦”接舷吊桥，在执政官盖乌斯·杜伊利乌斯指挥下于米列外海击败迦太基舰队"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mylae (Milazzo)",
+          "es": "Milas (Milazzo)",
+          "zh": "米列（米拉佐）"
+        },
+        "lat": 38.217,
+        "lon": 15.233
+      },
+      "wikidataId": "Q277345"
+    },
+    {
+      "id": "battle-of-cape-ecnomus",
+      "start": -255,
+      "title": {
+        "en": "A Roman fleet carrying an army to Africa defeats the Carthaginian fleet off Cape Ecnomus, perhaps the largest naval battle ever fought by number of men",
+        "es": "Una flota romana que lleva un ejército a África derrota a la flota cartaginesa frente al cabo Ecnomo, quizá la mayor batalla naval de la historia por número de hombres",
+        "zh": "运送军队前往非洲的罗马舰队在埃克诺穆斯角外海击败迦太基舰队，按参战人数计可能是史上规模最大的海战"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Cape Ecnomus (Licata)",
+          "es": "Cabo Ecnomo (Licata)",
+          "zh": "埃克诺穆斯角（利卡塔）"
+        },
+        "lat": 37.05,
+        "lon": 13.9
+      },
+      "wikidataId": "Q6881"
+    },
+    {
+      "id": "battle-of-tunis",
+      "start": -254,
+      "title": {
+        "en": "A Carthaginian army trained by the Spartan mercenary Xanthippus crushes the Roman army in Africa near Tunis and captures its commander Regulus",
+        "es": "Un ejército cartaginés entrenado por el mercenario espartano Jantipo aplasta al ejército romano de África cerca de Túnez y captura a su comandante Régulo",
+        "zh": "由斯巴达雇佣兵克桑提普斯训练的迦太基军队在突尼斯附近击溃罗马在非洲的军队，俘虏其统帅雷古鲁斯"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "note": {
+        "en": "The Roman fleet sent to take off the survivors was then wrecked by a storm on its way back to Italy.",
+        "es": "La flota romana enviada a recoger a los supervivientes naufragó después en una tormenta de regreso a Italia.",
+        "zh": "前来接走幸存者的罗马舰队随后在返回意大利途中遭风暴摧毁。"
+      },
+      "place": {
+        "name": {
+          "en": "Near Tunis",
+          "es": "Cerca de Túnez",
+          "zh": "突尼斯附近"
+        },
+        "lat": 36.797,
+        "lon": 10.166
+      },
+      "wikidataId": "Q6891"
+    },
+    {
+      "id": "battle-of-drepana",
+      "start": -248,
+      "title": {
+        "en": "The Carthaginian fleet under Adherbal turns a Roman night attack on Drepana into Carthage's greatest naval victory of the war",
+        "es": "La flota cartaginesa de Aderbal convierte un ataque nocturno romano contra Drépano en la mayor victoria naval cartaginesa de la guerra",
+        "zh": "阿德赫巴尔率领的迦太基舰队挫败罗马人对德雷帕纳的夜袭，取得这场战争中迦太基最大的海战胜利"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Drepana (Trapani)",
+          "es": "Drépano (Trapani)",
+          "zh": "德雷帕纳（特拉帕尼）"
+        },
+        "lat": 38.01,
+        "lon": 12.505
+      },
+      "wikidataId": "Q590014"
+    },
+    {
+      "id": "battle-of-the-aegates",
+      "start": -240,
+      "title": {
+        "en": "A Roman fleet under Lutatius Catulus destroys a Carthaginian relief fleet off the Aegates Islands; Carthage agrees to leave Sicily and pay 3,200 talents of silver",
+        "es": "Una flota romana al mando de Lutacio Cátulo destruye una flota cartaginesa de socorro frente a las islas Égadas; Cartago acepta abandonar Sicilia y pagar 3.200 talentos de plata",
+        "zh": "卢塔提乌斯·卡图卢斯率领的罗马舰队在埃加迪群岛外海摧毁迦太基援救舰队；迦太基同意撤出西西里并支付3200塔兰特白银"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Aegates Islands",
+          "es": "Islas Égadas",
+          "zh": "埃加迪群岛"
+        },
+        "lat": 37.967,
+        "lon": 12.2
+      },
+      "wikidataId": "Q1134649"
+    },
+    {
+      "id": "siege-of-saguntum",
+      "start": -218,
+      "title": {
+        "en": "Hannibal besieges, takes and sacks Saguntum, a city allied to Rome; Rome declares war the following spring",
+        "es": "Aníbal sitia, toma y saquea Sagunto, ciudad aliada de Roma; Roma declara la guerra la primavera siguiente",
+        "zh": "汉尼拔围攻、攻陷并洗劫罗马的盟城萨贡托；次年春罗马宣战"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Saguntum (Sagunto)",
+          "es": "Sagunto",
+          "zh": "萨贡托"
+        },
+        "lat": 39.676,
+        "lon": -0.277
+      },
+      "wikidataId": "Q815210"
+    },
+    {
+      "id": "battle-of-the-trebia",
+      "start": -217,
+      "title": {
+        "en": "Hannibal crosses the Alps into Italy; his army beats Roman cavalry at the Ticinus and destroys a larger Roman army at the Trebia",
+        "es": "Aníbal cruza los Alpes y entra en Italia; su ejército vence a la caballería romana en el Tesino y destruye a un ejército romano mayor en el Trebia",
+        "zh": "汉尼拔翻越阿尔卑斯山进入意大利；其军队在提契诺河击败罗马骑兵，又在特雷比亚河歼灭一支更大的罗马军队"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Trebia River",
+          "es": "Río Trebia",
+          "zh": "特雷比亚河"
+        },
+        "lat": 44.987,
+        "lon": 9.568
+      },
+      "wikidataId": "Q271873"
+    },
+    {
+      "id": "battle-of-lake-trasimene",
+      "start": -216,
+      "title": {
+        "en": "Hannibal ambushes a Roman army on the shore of Lake Trasimene, killing its commander, the consul Flaminius, and by ancient accounts about 15,000 Romans",
+        "es": "Aníbal tiende una emboscada a un ejército romano a orillas del lago Trasimeno y mata a su comandante, el cónsul Flaminio, y según los relatos antiguos a unos 15.000 romanos",
+        "zh": "汉尼拔在特拉西梅诺湖畔伏击一支罗马军队，杀死其统帅执政官弗拉米尼乌斯，据古代记载还杀死约15000名罗马人"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Lake Trasimene.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Lake_Trasimene"
+        }
+      ],
+      "note": {
+        "en": "The senator and historian Fabius Pictor and the historian Polybius both give 15,000 Roman dead.",
+        "es": "El senador e historiador Fabio Píctor y el historiador Polibio dan ambos 15.000 muertos romanos.",
+        "zh": "元老兼史家费边·皮克托与史家波利比乌斯均记载罗马方阵亡15000人。"
+      },
+      "place": {
+        "name": {
+          "en": "Lake Trasimene",
+          "es": "Lago Trasimeno",
+          "zh": "特拉西梅诺湖"
+        },
+        "lat": 43.197,
+        "lon": 12.085
+      },
+      "wikidataId": "Q207250"
+    },
+    {
+      "id": "fall-of-syracuse",
+      "start": -211,
+      "title": {
+        "en": "After a long siege, Roman forces under Marcellus take Syracuse, which had gone over to Carthage; Archimedes is killed by a Roman soldier",
+        "es": "Tras un largo asedio, las fuerzas romanas de Marcelo toman Siracusa, que se había pasado a Cartago; Arquímedes muere a manos de un soldado romano",
+        "zh": "经过长期围攻，马塞卢斯率领的罗马军队攻占已倒向迦太基的叙拉古；阿基米德被一名罗马士兵杀死"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Syracuse",
+          "es": "Siracusa",
+          "zh": "叙拉古"
+        },
+        "lat": 37.069,
+        "lon": 15.287
+      },
+      "wikidataId": "Q533090"
+    },
+    {
+      "id": "battle-of-new-carthage",
+      "start": -208,
+      "title": {
+        "en": "Scipio storms New Carthage (Cartagena), Carthage's main base and treasury in Iberia",
+        "es": "Escipión toma al asalto Cartago Nova (Cartagena), la principal base y tesoro de Cartago en Iberia",
+        "zh": "西庇阿强攻迦太基在伊比利亚的主要基地和金库新迦太基（卡塔赫纳）"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "New Carthage (Cartagena)",
+          "es": "Cartago Nova (Cartagena)",
+          "zh": "新迦太基（卡塔赫纳）"
+        },
+        "lat": 37.6,
+        "lon": -0.986
+      },
+      "wikidataId": "Q1591145"
+    },
+    {
+      "id": "battle-of-the-metaurus",
+      "start": -206,
+      "title": {
+        "en": "Hasdrubal Barca, marching through Italy to join his brother Hannibal, is defeated and killed at the Metaurus",
+        "es": "Asdrúbal Barca, que marchaba por Italia para unirse a su hermano Aníbal, es derrotado y muere en el Metauro",
+        "zh": "哈斯德鲁巴·巴卡在穿越意大利前去与兄长汉尼拔会合途中，于梅陶罗河战败身亡"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Metaurus River",
+          "es": "Río Metauro",
+          "zh": "梅陶罗河"
+        },
+        "lat": 43.782,
+        "lon": 13.015
+      },
+      "wikidataId": "Q848056"
+    },
+    {
+      "id": "battle-of-ilipa",
+      "start": -205,
+      "title": {
+        "en": "Scipio defeats the last large Carthaginian army in Iberia at Ilipa; Gades, Carthage's last city there, goes over to Rome",
+        "es": "Escipión derrota en Ilipa al último gran ejército cartaginés de Iberia; Gades, la última ciudad cartaginesa allí, se pasa a Roma",
+        "zh": "西庇阿在伊利帕击败迦太基在伊比利亚的最后一支大军；迦太基在当地的最后一座城市加的斯倒向罗马"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ilipa (Alcalá del Río)",
+          "es": "Ilipa (Alcalá del Río)",
+          "zh": "伊利帕（阿尔卡拉德尔里奥）"
+        },
+        "lat": 37.518,
+        "lon": -5.978
+      },
+      "wikidataId": "Q1055755"
+    },
+    {
+      "id": "scipio-in-africa",
+      "start": -203,
+      "end": -202,
+      "title": {
+        "en": "Scipio lands near Utica and is joined by Masinissa's Numidian cavalry; in 203 BCE his army destroys two Carthaginian and Numidian armies, and Masinissa captures King Syphax",
+        "es": "Escipión desembarca cerca de Útica y se le une la caballería númida de Masinisa; en el 203 a. e. c. su ejército destruye dos ejércitos cartagineses y númidas, y Masinisa captura al rey Sifax",
+        "zh": "西庇阿在乌提卡附近登陆，马西尼萨的努米底亚骑兵与之会合；公元前203年其军队歼灭两支迦太基和努米底亚军队，马西尼萨俘获国王西法克斯"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of the Great Plains.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Great_Plains"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Utica",
+          "es": "Útica",
+          "zh": "乌提卡"
+        },
+        "lat": 37.057,
+        "lon": 10.062
+      }
+    },
+    {
+      "id": "peace-of-201",
+      "start": -200,
+      "title": {
+        "en": "Carthage accepts Rome's terms: it gives up its lands outside Africa and all but ten warships, may not make war without Rome's leave, and must pay 10,000 talents over fifty years",
+        "es": "Cartago acepta las condiciones de Roma: entrega sus tierras fuera de África y todos sus barcos de guerra salvo diez, no puede hacer la guerra sin permiso de Roma y debe pagar 10.000 talentos en cincuenta años",
+        "zh": "迦太基接受罗马的条件：交出非洲以外的全部领土和除十艘以外的所有战舰，未经罗马许可不得开战，并须在五十年内支付一万塔兰特"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Carthage",
+          "es": "Cartago",
+          "zh": "迦太基"
+        },
+        "lat": 36.853,
+        "lon": 10.323
+      }
+    },
+    {
+      "id": "roman-army-lands-at-utica",
+      "start": -148,
+      "title": {
+        "en": "A Roman army lands at Utica; Carthage hands over its weapons but refuses an order to abandon the city, and the Romans begin a siege",
+        "es": "Un ejército romano desembarca en Útica; Cartago entrega sus armas pero se niega a la orden de abandonar la ciudad, y los romanos inician el asedio",
+        "zh": "罗马军队在乌提卡登陆；迦太基交出武器，但拒绝弃城的命令，罗马人开始围城"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Third Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Third_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Third Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Utica",
+          "es": "Útica",
+          "zh": "乌提卡"
+        },
+        "lat": 37.057,
+        "lon": 10.062
+      },
+      "wikidataId": "Q815160"
+    },
+    {
+      "id": "scipio-aemilianus-blockade",
+      "start": -146,
+      "title": {
+        "en": "The consul Scipio Aemilianus takes command and builds a mole across the harbour mouth that cuts Carthage off from the sea",
+        "es": "El cónsul Escipión Emiliano toma el mando y construye un espigón ante la bocana del puerto que aísla a Cartago del mar",
+        "zh": "执政官小西庇阿接掌指挥，在港口入口处修筑堤坝，切断迦太基的海上通道"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Third Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Third_Punic_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Third Punic War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Punic_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Punic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Harbours of Carthage",
+          "es": "Puertos de Cartago",
+          "zh": "迦太基港口"
+        },
+        "lat": 36.842,
+        "lon": 10.323
+      }
+    }
+  ],
+  "cultureEvents": [
+    {
+      "culture": "rome",
+      "event": "cannae"
+    },
+    {
+      "culture": "rome",
+      "event": "zama"
+    },
+    {
+      "culture": "rome",
+      "event": "carthage-destroyed"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Gaius Duilius",
+        "es": "Cayo Duilio",
+        "zh": "盖乌斯·杜伊利乌斯"
+      },
+      "side": "rome-and-allies",
+      "role": {
+        "en": "Consul; commanded the fleet at Mylae",
+        "es": "Cónsul; mandó la flota en Milas",
+        "zh": "执政官；米列海战中的舰队统帅"
+      },
+      "wikidataId": "Q435408"
+    },
+    {
+      "name": {
+        "en": "Marcus Atilius Regulus",
+        "es": "Marco Atilio Régulo",
+        "zh": "马尔库斯·阿蒂利乌斯·雷古鲁斯"
+      },
+      "side": "rome-and-allies",
+      "role": {
+        "en": "Consul; led the Roman army in Africa, captured in 255 BCE",
+        "es": "Cónsul; dirigió el ejército romano en África, capturado en el 255 a. e. c.",
+        "zh": "执政官；率罗马军队进入非洲，公元前255年被俘"
+      },
+      "wikidataId": "Q318718"
+    },
+    {
+      "name": {
+        "en": "Gaius Lutatius Catulus",
+        "es": "Cayo Lutacio Cátulo",
+        "zh": "盖乌斯·卢塔提乌斯·卡图卢斯"
+      },
+      "side": "rome-and-allies",
+      "role": {
+        "en": "Consul; won at the Aegates Islands",
+        "es": "Cónsul; venció en las islas Égadas",
+        "zh": "执政官；在埃加迪群岛取胜"
+      },
+      "wikidataId": "Q453899"
+    },
+    {
+      "name": {
+        "en": "Quintus Fabius Maximus",
+        "es": "Quinto Fabio Máximo",
+        "zh": "费边·马克西姆斯"
+      },
+      "side": "rome-and-allies",
+      "role": {
+        "en": "Dictator in 217 BCE; avoided pitched battle with Hannibal",
+        "es": "Dictador en el 217 a. e. c.; evitó las batallas campales con Aníbal",
+        "zh": "公元前217年任独裁官；避免与汉尼拔正面交战"
+      },
+      "wikidataId": "Q274545"
+    },
+    {
+      "name": {
+        "en": "Marcus Claudius Marcellus",
+        "es": "Marco Claudio Marcelo",
+        "zh": "马尔库斯·克劳狄乌斯·马塞卢斯"
+      },
+      "side": "rome-and-allies",
+      "role": {
+        "en": "Took Syracuse in 212 BCE",
+        "es": "Tomó Siracusa en el 212 a. e. c.",
+        "zh": "公元前212年攻占叙拉古"
+      },
+      "wikidataId": "Q312306"
+    },
+    {
+      "name": {
+        "en": "Gaius Claudius Nero",
+        "es": "Cayo Claudio Nerón",
+        "zh": "盖乌斯·克劳狄乌斯·尼禄"
+      },
+      "side": "rome-and-allies",
+      "role": {
+        "en": "Consul at the Metaurus",
+        "es": "Cónsul en el Metauro",
+        "zh": "梅陶罗河战役中的执政官"
+      },
+      "wikidataId": "Q441191"
+    },
+    {
+      "name": {
+        "en": "Scipio Africanus",
+        "es": "Escipión el Africano",
+        "zh": "大西庇阿"
+      },
+      "side": "rome-and-allies",
+      "role": {
+        "en": "Commanded in Iberia and Africa; won at Zama",
+        "es": "Mandó en Iberia y África; venció en Zama",
+        "zh": "在伊比利亚和非洲指挥作战；扎马战役的胜者"
+      },
+      "wikidataId": "Q2253"
+    },
+    {
+      "name": {
+        "en": "Masinissa",
+        "es": "Masinisa",
+        "zh": "马西尼萨"
+      },
+      "side": "rome-and-allies",
+      "role": {
+        "en": "Numidian king allied with Rome",
+        "es": "Rey númida aliado de Roma",
+        "zh": "与罗马结盟的努米底亚国王"
+      },
+      "wikidataId": "Q314685"
+    },
+    {
+      "name": {
+        "en": "Scipio Aemilianus",
+        "es": "Escipión Emiliano",
+        "zh": "小西庇阿"
+      },
+      "side": "rome-and-allies",
+      "role": {
+        "en": "Consul; took and destroyed Carthage in 146 BCE",
+        "es": "Cónsul; tomó y destruyó Cartago en el 146 a. e. c.",
+        "zh": "执政官；公元前146年攻占并摧毁迦太基"
+      },
+      "wikidataId": "Q2307"
+    },
+    {
+      "name": {
+        "en": "Hamilcar Barca",
+        "es": "Amílcar Barca",
+        "zh": "哈米尔卡·巴卡"
+      },
+      "side": "carthage-and-allies",
+      "role": {
+        "en": "Carthaginian commander in Sicily, 247–241 BCE",
+        "es": "Comandante cartaginés en Sicilia, 247–241 a. e. c.",
+        "zh": "公元前247年至前241年迦太基在西西里的统帅"
+      },
+      "wikidataId": "Q185101"
+    },
+    {
+      "name": {
+        "en": "Xanthippus",
+        "es": "Jantipo",
+        "zh": "克桑提普斯"
+      },
+      "side": "carthage-and-allies",
+      "role": {
+        "en": "Spartan mercenary commander; defeated Regulus",
+        "es": "Comandante mercenario espartano; venció a Régulo",
+        "zh": "斯巴达雇佣兵统帅；击败雷古鲁斯"
+      },
+      "wikidataId": "Q433455"
+    },
+    {
+      "name": {
+        "en": "Adherbal",
+        "es": "Aderbal",
+        "zh": "阿德赫巴尔"
+      },
+      "side": "carthage-and-allies",
+      "role": {
+        "en": "Carthaginian admiral at Drepana",
+        "es": "Almirante cartaginés en Drépano",
+        "zh": "德雷帕纳海战中的迦太基海军统帅"
+      },
+      "wikidataId": "Q356605"
+    },
+    {
+      "name": {
+        "en": "Hannibal",
+        "es": "Aníbal",
+        "zh": "汉尼拔"
+      },
+      "side": "carthage-and-allies",
+      "role": {
+        "en": "Carthaginian commander in Iberia and Italy, 221–202 BCE",
+        "es": "Comandante cartaginés en Iberia e Italia, 221–202 a. e. c.",
+        "zh": "公元前221年至前202年迦太基在伊比利亚和意大利的统帅"
+      },
+      "wikidataId": "Q36456"
+    },
+    {
+      "name": {
+        "en": "Hasdrubal Barca",
+        "es": "Asdrúbal Barca",
+        "zh": "哈斯德鲁巴·巴卡"
+      },
+      "side": "carthage-and-allies",
+      "role": {
+        "en": "Hannibal's brother; commanded in Iberia, killed at the Metaurus",
+        "es": "Hermano de Aníbal; mandó en Iberia y murió en el Metauro",
+        "zh": "汉尼拔之弟；在伊比利亚指挥作战，死于梅陶罗河战役"
+      },
+      "wikidataId": "Q311702"
+    },
+    {
+      "name": {
+        "en": "Syphax",
+        "es": "Sifax",
+        "zh": "西法克斯"
+      },
+      "side": "carthage-and-allies",
+      "role": {
+        "en": "Numidian king allied with Carthage; captured in 203 BCE",
+        "es": "Rey númida aliado de Cartago; capturado en el 203 a. e. c.",
+        "zh": "与迦太基结盟的努米底亚国王；公元前203年被俘"
+      },
+      "wikidataId": "Q353141"
+    },
+    {
+      "name": {
+        "en": "Hasdrubal the Boetharch",
+        "es": "Asdrúbal el Beotarca",
+        "zh": "哈斯德鲁巴"
+      },
+      "side": "carthage-and-allies",
+      "role": {
+        "en": "Carthaginian commander in the Third Punic War",
+        "es": "Comandante cartaginés en la tercera guerra púnica",
+        "zh": "第三次布匿战争中的迦太基统帅"
+      },
+      "wikidataId": "Q543827"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "rome"
+  ],
+  "sources": [
+    {
+      "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia (2016).",
+      "url": "https://www.worldhistory.org/First_Punic_War/"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Second_Punic_War/"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Third Punic War.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Third_Punic_War/"
+    },
+    {
+      "citation": "Wikipedia (English). \"Punic Wars.\"",
+      "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+    },
+    {
+      "citation": "Wikipedia (English). \"First Punic War.\"",
+      "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+    },
+    {
+      "citation": "Wikipedia (English). \"Second Punic War.\"",
+      "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+    },
+    {
+      "citation": "Wikipedia (English). \"Third Punic War.\"",
+      "url": "https://en.wikipedia.org/wiki/Third_Punic_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerras púnicas.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerras_p%C3%BAnicas"
+    },
+    {
+      "citation": "Wikipedia (中文). \"布匿战争.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/%E5%B8%83%E5%8C%BF%E6%88%98%E4%BA%89"
+    }
+  ]
+}
