@@ -1,0 +1,483 @@
+{
+  "id": "fall-of-constantinople",
+  "wikidataId": "Q160077",
+  "name": {
+    "en": "Fall of Constantinople",
+    "es": "Caída de Constantinopla",
+    "zh": "君士坦丁堡陷落"
+  },
+  "aliases": [
+    "Siege of Constantinople (1453)",
+    "Conquest of Constantinople",
+    "Sitio de Constantinopla",
+    "Toma de Constantinopla",
+    "君士坦丁堡的陷落",
+    "1453",
+    "Mehmed II",
+    "穆罕默德二世",
+    "Constantine XI",
+    "Constantino XI",
+    "君士坦丁十一世",
+    "Byzantine Empire",
+    "Imperio bizantino",
+    "拜占庭帝国"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "In the spring of 1453 the Ottoman sultan Mehmed II besieged Constantinople, capital of the Byzantine Empire. His army was many times larger than the city's roughly 7,000 defenders, about 2,000 of them foreigners, many from Genoa and Venice. From 6 April Ottoman cannon, the largest cast by the founder Orban, battered the fifth-century land walls. A chain across the Golden Horn kept the Ottoman fleet out of the harbour until 22 April, when Mehmed had ships dragged overland behind Galata into the inlet. On 29 May Ottoman troops broke through the walls; the Genoese commander Giovanni Giustiniani was wounded, and Emperor Constantine XI was killed in the fighting. Soldiers plundered the city and enslaved much of its population, and Mehmed turned Hagia Sophia into a mosque. Constantinople became the Ottoman capital. The historian David Nicolle puts the Greek civilians who died in the siege at about 4,000; the dead among the soldiers on either side are not known.",
+    "es": "En la primavera de 1453 el sultán otomano Mehmed II sitió Constantinopla, capital del Imperio bizantino. Su ejército era muchas veces mayor que los unos 7.000 defensores de la ciudad, de los cuales unos 2.000 eran extranjeros, muchos de Génova y Venecia. Desde el 6 de abril los cañones otomanos, el mayor fundido por Orbán, batieron las murallas terrestres del siglo V. Una cadena tendida ante el Cuerno de Oro impidió la entrada de la flota otomana en el puerto hasta el 22 de abril, cuando Mehmed hizo arrastrar barcos por tierra detrás de Gálata hasta la ensenada. El 29 de mayo las tropas otomanas atravesaron las murallas; el comandante genovés Giovanni Giustiniani cayó herido y el emperador Constantino XI murió en la lucha. Los soldados saquearon la ciudad y esclavizaron a gran parte de su población, y Mehmed convirtió Santa Sofía en mezquita. Constantinopla pasó a ser la capital otomana. El historiador David Nicolle cifra en unos 4.000 los civiles griegos que murieron en el asedio; no se conocen los muertos entre los soldados de uno y otro bando.",
+    "zh": "1453年春，奥斯曼苏丹穆罕默德二世围攻拜占庭帝国首都君士坦丁堡。其军队数倍于城中约7000名守军，守军中约2000人为外国人，许多来自热那亚和威尼斯。自4月6日起，奥斯曼大炮（最大的一门由铸炮匠乌尔班铸造）轰击建于5世纪的陆墙。金角湾入口的铁链使奥斯曼舰队无法进港，直到4月22日穆罕默德二世命人将船只从加拉塔后方经陆路拖入海湾。5月29日奥斯曼军队突破城墙；热那亚指挥官乔瓦尼·朱斯蒂尼亚尼负伤，皇帝君士坦丁十一世战死。士兵洗劫全城，将大批居民掳为奴隶，穆罕默德二世将圣索菲亚大教堂改为清真寺。君士坦丁堡成为奥斯曼帝国的首都。历史学家戴维·尼科尔估计约4000名希腊平民在围城中死亡；双方士兵的死亡人数不详。"
+  },
+  "outcome": {
+    "en": "The Ottoman Empire took Constantinople on 29 May 1453 and made it its capital; the Byzantine Empire ended with the death of Constantine XI.",
+    "es": "El Imperio otomano tomó Constantinopla el 29 de mayo de 1453 y la convirtió en su capital; el Imperio bizantino terminó con la muerte de Constantino XI.",
+    "zh": "奥斯曼帝国于1453年5月29日攻占君士坦丁堡并定为首都；拜占庭帝国随君士坦丁十一世之死而终结。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "siege",
+    "earliestStart": 1453,
+    "latestStart": 1453,
+    "earliestEnd": 1453,
+    "latestEnd": 1453,
+    "sources": [
+      {
+        "citation": "Cartwright, Mark. \"1453: The Fall of Constantinople.\" World History Encyclopedia (2018).",
+        "url": "https://www.worldhistory.org/article/1180/1453-the-fall-of-constantinople/"
+      },
+      {
+        "citation": "Wikipedia (English). \"Fall of Constantinople.\"",
+        "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+      },
+      {
+        "citation": "Wikidata. \"Fall of Constantinople\" (Q160077), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q160077"
+      }
+    ],
+    "disputed": false,
+    "note": {
+      "en": "The siege lasted from 6 April to 29 May 1453. Wikidata files it as part of the Byzantine–Ottoman wars (1265–1479).",
+      "es": "El asedio duró del 6 de abril al 29 de mayo de 1453. Wikidata lo clasifica dentro de las guerras otomano-bizantinas (1265–1479).",
+      "zh": "围城自1453年4月6日持续至5月29日。维基数据将其归入拜占庭－奥斯曼战争（1265年至1479年）。"
+    }
+  },
+  "sides": [
+    {
+      "id": "ottoman-empire",
+      "label": {
+        "en": "The Ottoman Empire",
+        "es": "El Imperio otomano",
+        "zh": "奥斯曼帝国"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ottoman Empire",
+            "es": "Imperio otomano",
+            "zh": "奥斯曼帝国"
+          },
+          "role": "belligerent",
+          "today": [
+            "TR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Serbian Despotate (cavalry its ruler was forced to send as an Ottoman vassal)",
+            "es": "Despotado de Serbia (caballería que su soberano tuvo que enviar como vasallo otomano)",
+            "zh": "塞尔维亚专制国（其君主作为奥斯曼附庸被迫派出的骑兵）"
+          },
+          "role": "belligerent",
+          "today": [
+            "RS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "byzantine-empire",
+      "label": {
+        "en": "The Byzantine Empire and its allies",
+        "es": "El Imperio bizantino y sus aliados",
+        "zh": "拜占庭帝国及其盟友"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "rome",
+          "role": "belligerent",
+          "today": [
+            "TR",
+            "GR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Genoese soldiers under Giovanni Giustiniani",
+            "es": "Soldados genoveses al mando de Giovanni Giustiniani",
+            "zh": "乔瓦尼·朱斯蒂尼亚尼率领的热那亚士兵"
+          },
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Venetians in the city",
+            "es": "Venecianos de la ciudad",
+            "zh": "城中的威尼斯人"
+          },
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ships and men sent by the Pope and by Alfonso of Aragon",
+            "es": "Barcos y hombres enviados por el papa y por Alfonso de Aragón",
+            "zh": "教皇和阿拉贡的阿方索派来的船只和人员"
+          },
+          "role": "belligerent",
+          "today": [
+            "IT",
+            "ES"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ottoman prince Orhan Çelebi and his Turkish followers, who fought on the Byzantine side",
+            "es": "El príncipe otomano Orhan Çelebi y sus seguidores turcos, que combatieron del lado bizantino",
+            "zh": "奥斯曼王子奥尔汗·切莱比及其土耳其追随者，站在拜占庭一方作战"
+          },
+          "role": "belligerent",
+          "today": [
+            "TR"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "bombardment-begins",
+      "start": 1453,
+      "title": {
+        "en": "The Ottoman army begins battering the land walls of Constantinople with cannon, the largest cast by the founder Orban",
+        "es": "El ejército otomano empieza a batir las murallas terrestres de Constantinopla con cañones, el mayor de ellos fundido por Orbán",
+        "zh": "奥斯曼军队开始用大炮轰击君士坦丁堡的陆墙，其中最大的一门由铸炮匠乌尔班铸造"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"1453: The Fall of Constantinople.\" World History Encyclopedia (2018).",
+          "url": "https://www.worldhistory.org/article/1180/1453-the-fall-of-constantinople/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Fall of Constantinople.\"",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+        }
+      ],
+      "note": {
+        "en": "The siege began on 6 April 1453.",
+        "es": "El asedio empezó el 6 de abril de 1453.",
+        "zh": "围城始于1453年4月6日。"
+      },
+      "place": {
+        "name": {
+          "en": "Land walls, Gate of St Romanus",
+          "es": "Murallas terrestres, puerta de San Román",
+          "zh": "陆墙圣罗曼努斯门"
+        },
+        "lat": 41.021,
+        "lon": 28.922
+      }
+    },
+    {
+      "id": "relief-ships",
+      "start": 1453,
+      "title": {
+        "en": "Four Christian ships, three of them Genoese, fight their way through the Ottoman fleet into the Golden Horn",
+        "es": "Cuatro barcos cristianos, tres de ellos genoveses, se abren paso entre la flota otomana hasta el Cuerno de Oro",
+        "zh": "四艘基督徒船只（其中三艘为热那亚船）冲破奥斯曼舰队进入金角湾"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"1453: The Fall of Constantinople.\" World History Encyclopedia (2018).",
+          "url": "https://www.worldhistory.org/article/1180/1453-the-fall-of-constantinople/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Fall of Constantinople.\"",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+        }
+      ],
+      "note": {
+        "en": "20 April 1453.",
+        "es": "20 de abril de 1453.",
+        "zh": "1453年4月20日。"
+      },
+      "place": {
+        "name": {
+          "en": "Mouth of the Golden Horn",
+          "es": "Bocana del Cuerno de Oro",
+          "zh": "金角湾入口"
+        },
+        "lat": 41.017,
+        "lon": 28.98
+      }
+    },
+    {
+      "id": "ships-dragged-overland",
+      "start": 1453,
+      "title": {
+        "en": "Mehmed's crews drag ships over the hill behind Galata on greased logs into the Golden Horn, past the chain that blocked its mouth",
+        "es": "Las tripulaciones de Mehmed arrastran barcos sobre troncos engrasados por la colina detrás de Gálata hasta el Cuerno de Oro, sorteando la cadena que cerraba su entrada",
+        "zh": "穆罕默德二世的水手用涂油的圆木将船只拖过加拉塔后方的山丘，绕过封锁湾口的铁链进入金角湾"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Fall of Constantinople.\"",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+        },
+        {
+          "citation": "Wikipedia (español). \"Caída de Constantinopla.\"",
+          "url": "https://es.wikipedia.org/wiki/Ca%C3%ADda_de_Constantinopla"
+        }
+      ],
+      "note": {
+        "en": "22 April 1453.",
+        "es": "22 de abril de 1453.",
+        "zh": "1453年4月22日。"
+      },
+      "place": {
+        "name": {
+          "en": "Galata",
+          "es": "Gálata",
+          "zh": "加拉塔"
+        },
+        "lat": 41.023,
+        "lon": 28.974
+      }
+    },
+    {
+      "id": "final-assault",
+      "start": 1453,
+      "title": {
+        "en": "Ottoman troops break through the land walls; the Genoese commander Giustiniani is wounded and Emperor Constantine XI is killed in the fighting",
+        "es": "Las tropas otomanas atraviesan las murallas terrestres; el comandante genovés Giustiniani cae herido y el emperador Constantino XI muere en la lucha",
+        "zh": "奥斯曼军队突破陆墙；热那亚指挥官朱斯蒂尼亚尼负伤，皇帝君士坦丁十一世战死"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"1453: The Fall of Constantinople.\" World History Encyclopedia (2018).",
+          "url": "https://www.worldhistory.org/article/1180/1453-the-fall-of-constantinople/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Fall of Constantinople.\"",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+        },
+        {
+          "citation": "Wikipedia (中文). \"君士坦丁堡陷落.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E5%90%9B%E5%A3%AB%E5%9D%A6%E4%B8%81%E5%A0%A1%E9%99%B7%E8%90%BD"
+        }
+      ],
+      "note": {
+        "en": "29 May 1453.",
+        "es": "29 de mayo de 1453.",
+        "zh": "1453年5月29日。"
+      },
+      "place": {
+        "name": {
+          "en": "Land walls, Gate of St Romanus",
+          "es": "Murallas terrestres, puerta de San Román",
+          "zh": "陆墙圣罗曼努斯门"
+        },
+        "lat": 41.021,
+        "lon": 28.922
+      }
+    },
+    {
+      "id": "city-plundered",
+      "start": 1453,
+      "title": {
+        "en": "Ottoman soldiers plunder the city and enslave much of its population; Mehmed II enters Hagia Sophia and orders it turned into a mosque",
+        "es": "Los soldados otomanos saquean la ciudad y esclavizan a gran parte de su población; Mehmed II entra en Santa Sofía y ordena convertirla en mezquita",
+        "zh": "奥斯曼士兵洗劫全城，将大批居民掳为奴隶；穆罕默德二世进入圣索菲亚大教堂，下令将其改为清真寺"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"1453: The Fall of Constantinople.\" World History Encyclopedia (2018).",
+          "url": "https://www.worldhistory.org/article/1180/1453-the-fall-of-constantinople/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Fall of Constantinople.\"",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Hagia Sophia",
+          "es": "Santa Sofía",
+          "zh": "圣索菲亚大教堂"
+        },
+        "lat": 41.0086,
+        "lon": 28.9802
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Mehmed II",
+        "es": "Mehmed II",
+        "zh": "穆罕默德二世"
+      },
+      "side": "ottoman-empire",
+      "role": {
+        "en": "Ottoman sultan; commanded the siege",
+        "es": "Sultán otomano; dirigió el asedio",
+        "zh": "奥斯曼苏丹；指挥围城"
+      },
+      "wikidataId": "Q34503"
+    },
+    {
+      "name": {
+        "en": "Zagan Pasha",
+        "es": "Zağanos Pachá",
+        "zh": "扎加诺斯帕夏"
+      },
+      "side": "ottoman-empire",
+      "role": {
+        "en": "Ottoman commander at the siege",
+        "es": "Comandante otomano en el asedio",
+        "zh": "围城战中的奥斯曼将领"
+      },
+      "wikidataId": "Q2353735"
+    },
+    {
+      "name": {
+        "en": "Çandarlı Halil Pasha",
+        "es": "Çandarlı Halil Pachá",
+        "zh": "钱达尔勒·哈利勒帕夏"
+      },
+      "side": "ottoman-empire",
+      "role": {
+        "en": "Grand vizier",
+        "es": "Gran visir",
+        "zh": "大维齐尔"
+      },
+      "wikidataId": "Q1572451"
+    },
+    {
+      "name": {
+        "en": "Constantine XI Palaiologos",
+        "es": "Constantino XI Paleólogo",
+        "zh": "君士坦丁十一世"
+      },
+      "side": "byzantine-empire",
+      "role": {
+        "en": "Last Byzantine emperor; killed in the final assault",
+        "es": "Último emperador bizantino; murió en el asalto final",
+        "zh": "末代拜占庭皇帝；在最后的总攻中战死"
+      },
+      "wikidataId": "Q37142"
+    },
+    {
+      "name": {
+        "en": "Giovanni Giustiniani",
+        "es": "Giovanni Giustiniani",
+        "zh": "乔瓦尼·朱斯蒂尼亚尼"
+      },
+      "side": "byzantine-empire",
+      "role": {
+        "en": "Genoese commander on the land walls; wounded on 29 May",
+        "es": "Comandante genovés en las murallas terrestres; herido el 29 de mayo",
+        "zh": "驻守陆墙的热那亚指挥官；5月29日负伤"
+      },
+      "wikidataId": "Q59879"
+    },
+    {
+      "name": {
+        "en": "Loukas Notaras",
+        "es": "Lucas Notaras",
+        "zh": "卢卡斯·诺塔拉斯"
+      },
+      "side": "byzantine-empire",
+      "role": {
+        "en": "Byzantine grand duke and commander",
+        "es": "Gran duque y comandante bizantino",
+        "zh": "拜占庭大公兼指挥官"
+      },
+      "wikidataId": "Q715696"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "civilian-deaths",
+      "side": "byzantine-empire",
+      "who": {
+        "en": "Greek civilians",
+        "es": "Civiles griegos",
+        "zh": "希腊平民"
+      },
+      "low": 4000,
+      "high": 4000,
+      "attributedTo": {
+        "en": "historian David Nicolle",
+        "es": "el historiador David Nicolle",
+        "zh": "历史学家戴维·尼科尔"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Fall of Constantinople.\"",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+        },
+        {
+          "citation": "Cartwright, Mark. \"1453: The Fall of Constantinople.\" World History Encyclopedia (2018).",
+          "url": "https://www.worldhistory.org/article/1180/1453-the-fall-of-constantinople/"
+        }
+      ],
+      "note": {
+        "en": "Greek civilians who died in the siege, according to Nicolle. World History Encyclopedia gives its own figure for the sack, perhaps 4,000 killed outright. Tens of thousands more were enslaved: about 30,000 according to the historian Roger Crowley, over 50,000 according to World History Encyclopedia.",
+        "es": "Civiles griegos que murieron en el asedio, según Nicolle. World History Encyclopedia da su propia cifra para el saqueo: quizá 4.000 muertos en el acto. Decenas de miles más fueron esclavizados: unos 30.000 según el historiador Roger Crowley, más de 50.000 según World History Encyclopedia.",
+        "zh": "据尼科尔的说法，这是在围城中死亡的希腊平民人数。《世界历史百科全书》对洗劫另有一个数字：当场被杀者或有4000人。另有数万人沦为奴隶：据历史学家罗杰·克劳利的说法约3万人，据《世界历史百科全书》超过5万人。"
+      }
+    }
+  ],
+  "cultures": [
+    "rome"
+  ],
+  "sources": [
+    {
+      "citation": "Cartwright, Mark. \"1453: The Fall of Constantinople.\" World History Encyclopedia (2018).",
+      "url": "https://www.worldhistory.org/article/1180/1453-the-fall-of-constantinople/"
+    },
+    {
+      "citation": "Wikipedia (English). \"Fall of Constantinople.\"",
+      "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+    },
+    {
+      "citation": "Wikipedia (español). \"Caída de Constantinopla.\"",
+      "url": "https://es.wikipedia.org/wiki/Ca%C3%ADda_de_Constantinopla"
+    },
+    {
+      "citation": "Pemptousia. \"An Ottoman Volunteer Defends Besieged Constantinople (1453)\" (2018), archived copy.",
+      "url": "https://web.archive.org/web/20190410170524/https://pemptousia.com/2018/05/an-ottoman-volunteer-defends-besieged-constantinople-1453/"
+    },
+    {
+      "citation": "Wikipedia (中文). \"君士坦丁堡陷落.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/%E5%90%9B%E5%A3%AB%E5%9D%A6%E4%B8%81%E5%A0%A1%E9%99%B7%E8%90%BD"
+    }
+  ]
+}

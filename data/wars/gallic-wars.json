@@ -1,0 +1,683 @@
+{
+  "id": "gallic-wars",
+  "wikidataId": "Q202161",
+  "name": {
+    "en": "Gallic Wars",
+    "es": "Guerra de las Galias",
+    "zh": "高卢战争"
+  },
+  "aliases": [
+    "Gallic War",
+    "Caesar's Gallic War",
+    "De Bello Gallico",
+    "Guerras de las Galias",
+    "高卢战记",
+    "Vercingetorix",
+    "Vercingétorix",
+    "维钦托利",
+    "Alesia",
+    "阿莱西亚",
+    "Julius Caesar",
+    "Julio César",
+    "凯撒"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "Between 58 and 50 BCE the Roman general Julius Caesar led his legions against the peoples of Gaul, the lands of today's France, Belgium and Switzerland. In 58 BCE he defeated the migrating Helvetii and then the Suebi of Ariovistus, and in 57 BCE the Belgic peoples. A Roman fleet defeated the Veneti of Brittany in 56 BCE. In 55 BCE Caesar bridged the Rhine and crossed to Britain, and he returned to Britain in 54 BCE. Revolts followed: the Eburones destroyed a Roman legion in the winter of 54–53 BCE, and in 52 BCE most of Gaul rose under Vercingetorix of the Arverni. Caesar's troops stormed Avaricum and were beaten back at Gergovia, then besieged Vercingetorix at Alesia until he surrendered. The last strongholds fell in 51 BCE. Plutarch and Appian put the Gauls killed at a million, with as many enslaved; historians disagree on how far to trust such figures.",
+    "es": "Entre el 58 y el 50 a. e. c. el general romano Julio César llevó sus legiones contra los pueblos de la Galia, las tierras de las actuales Francia, Bélgica y Suiza. En el 58 a. e. c. derrotó a los helvecios en migración y después a los suevos de Ariovisto, y en el 57 a. e. c. a los pueblos belgas. Una flota romana derrotó a los vénetos de Bretaña en el 56 a. e. c. En el 55 a. e. c. César tendió un puente sobre el Rin y cruzó a Britania, adonde volvió en el 54 a. e. c. Siguieron revueltas: los eburones destruyeron una legión romana en el invierno del 54–53 a. e. c., y en el 52 a. e. c. la mayor parte de la Galia se alzó bajo Vercingétorix, de los arvernos. Las tropas de César tomaron Avárico al asalto y fueron rechazadas en Gergovia; después sitiaron a Vercingétorix en Alesia hasta que se rindió. Las últimas plazas fuertes cayeron en el 51 a. e. c. Plutarco y Apiano cifran en un millón los galos muertos y en otros tantos los esclavizados; los historiadores no se ponen de acuerdo sobre cuánto fiarse de esas cifras.",
+    "zh": "公元前58年至前50年，罗马将领尤利乌斯·凯撒率军团攻打高卢各民族，其地域相当于今天的法国、比利时和瑞士。公元前58年他击败迁徙中的赫尔维蒂人，随后击败阿里奥维斯图斯率领的苏维汇人；公元前57年击败比利时各部族。公元前56年罗马舰队击败布列塔尼的维尼蒂人。公元前55年凯撒在莱茵河上架桥并渡海前往不列颠，公元前54年再度登陆不列颠。此后起事接连发生：公元前54年至前53年冬，厄勃隆尼斯人消灭一个罗马军团；公元前52年，高卢大部在阿维尔尼人维钦托利的领导下起事。凯撒的军队攻破阿瓦利库姆，在日尔戈维亚被击退，随后在阿莱西亚围困维钦托利，直至其投降。公元前51年最后几座要塞陷落。普鲁塔克和阿庇安称高卢人被杀一百万、另有同样多的人沦为奴隶；历史学家对这些数字可信到什么程度看法不一。"
+  },
+  "outcome": {
+    "en": "Rome held all of Gaul up to the Rhine; Caesar withdrew most of his troops in 50 BCE as civil war loomed, and Gaul was organised into Roman provinces in 27 BCE.",
+    "es": "Roma dominó toda la Galia hasta el Rin; César retiró la mayor parte de sus tropas en el 50 a. e. c. ante la inminente guerra civil, y la Galia se organizó en provincias romanas en el 27 a. e. c.",
+    "zh": "罗马控制了直至莱茵河的整个高卢；公元前50年内战在即，凯撒撤出大部分军队，公元前27年高卢被划为罗马行省。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": -57,
+    "latestStart": -57,
+    "earliestEnd": -50,
+    "latestEnd": -49,
+    "sources": [
+      {
+        "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul.\" Livius.org.",
+        "url": "https://www.livius.org/articles/person/caesar/caesar-04/"
+      },
+      {
+        "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul\" (continued, 53–50 BCE). Livius.org.",
+        "url": "https://www.livius.org/articles/person/caesar/caesar-05/"
+      },
+      {
+        "citation": "Wikipedia (English). \"Gallic Wars.\"",
+        "url": "https://en.wikipedia.org/wiki/Gallic_Wars"
+      },
+      {
+        "citation": "Wikidata. \"Gallic War\" (Q202161), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q202161"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "The war has no agreed end: the last major siege, at Uxellodunum, was in 51 BCE, and Caesar's troops were still putting down resistance in 50 BCE.",
+      "es": "La guerra no tiene un final acordado: el último gran asedio, en Uxellodunum, fue en el 51 a. e. c., y las tropas de César aún sofocaban resistencias en el 50 a. e. c.",
+      "zh": "这场战争没有公认的结束时间：最后一次大规模围城战是公元前51年的乌克塞洛杜努姆之战，而公元前50年凯撒的军队仍在镇压抵抗。"
+    }
+  },
+  "sides": [
+    {
+      "id": "rome",
+      "label": {
+        "en": "Rome and its allies",
+        "es": "Roma y sus aliados",
+        "zh": "罗马及其盟友"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "rome",
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Gallic peoples allied with Rome, among them the Remi and, until 52 BCE, the Aedui",
+            "es": "Pueblos galos aliados de Roma, entre ellos los remos y, hasta el 52 a. e. c., los eduos",
+            "zh": "与罗马结盟的高卢部族，包括雷米人以及公元前52年以前的埃杜依人"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Germanic horsemen hired by Caesar",
+            "es": "Jinetes germanos contratados por César",
+            "zh": "凯撒雇用的日耳曼骑兵"
+          },
+          "role": "belligerent",
+          "today": [
+            "DE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gauls-and-others",
+      "label": {
+        "en": "Gallic, Germanic and British peoples who fought Caesar",
+        "es": "Pueblos galos, germanos y britanos que combatieron a César",
+        "zh": "与凯撒交战的高卢、日耳曼和不列颠部族"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Helvetii and their allies (58 BCE)",
+            "es": "Helvecios y sus aliados (58 a. e. c.)",
+            "zh": "赫尔维蒂人及其盟友（公元前58年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "CH"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Suebi under Ariovistus (58 BCE)",
+            "es": "Suevos de Ariovisto (58 a. e. c.)",
+            "zh": "阿里奥维斯图斯率领的苏维汇人（公元前58年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "DE"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Belgic peoples, among them the Nervii and the Eburones",
+            "es": "Pueblos belgas, entre ellos los nervios y los eburones",
+            "zh": "比利时各部族，包括纳尔维人和厄勃隆尼斯人"
+          },
+          "role": "belligerent",
+          "today": [
+            "BE",
+            "FR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Veneti and other peoples of Armorica",
+            "es": "Vénetos y otros pueblos de Armórica",
+            "zh": "维尼蒂人及阿莫里卡其他部族"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Britons under Cassivellaunus (54 BCE)",
+            "es": "Britanos de Casivelono (54 a. e. c.)",
+            "zh": "卡西维拉努斯率领的不列颠人（公元前54年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Arverni and the Gallic coalition led by Vercingetorix (52 BCE)",
+            "es": "Arvernos y la coalición gala dirigida por Vercingétorix (52 a. e. c.)",
+            "zh": "阿维尔尼人及维钦托利领导的高卢联盟（公元前52年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "battle-of-bibracte",
+      "start": -57,
+      "title": {
+        "en": "Caesar's legions defeat the migrating Helvetii and their allies near Bibracte, capital of the Aedui",
+        "es": "Las legiones de César derrotan a los helvecios en migración y a sus aliados cerca de Bibracte, capital de los eduos",
+        "zh": "凯撒的军团在埃杜依人的首府比布拉克特附近击败迁徙中的赫尔维蒂人及其盟友"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul.\" Livius.org.",
+          "url": "https://www.livius.org/articles/person/caesar/caesar-04/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Bibracte.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Bibracte"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gallic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Gallic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Bibracte",
+          "es": "Bibracte",
+          "zh": "比布拉克特"
+        },
+        "lat": 46.917,
+        "lon": 4.033
+      },
+      "wikidataId": "Q635028"
+    },
+    {
+      "id": "battle-of-the-sabis",
+      "start": -56,
+      "title": {
+        "en": "The Nervii and other Belgic peoples surprise Caesar's army on the Sabis; the Romans rally and defeat them",
+        "es": "Los nervios y otros pueblos belgas sorprenden al ejército de César junto al Sabis; los romanos se rehacen y los derrotan",
+        "zh": "纳尔维人等比利时部族在萨比斯河突袭凯撒的军队；罗马人稳住阵脚并将其击败"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul.\" Livius.org.",
+          "url": "https://www.livius.org/articles/person/caesar/caesar-04/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of the Sabis.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Sabis"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gallic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Gallic_Wars"
+        }
+      ],
+      "note": {
+        "en": "Caesar claims that barely 500 of 60,000 Nervian fighters survived; Livius calls the report exaggerated.",
+        "es": "César afirma que apenas 500 de 60.000 combatientes nervios sobrevivieron; Livius considera exagerado el relato.",
+        "zh": "凯撒声称6万名纳尔维战士中仅约500人幸存；Livius网站认为这一记载有所夸大。"
+      },
+      "place": {
+        "name": {
+          "en": "Sabis (near Saulzoir)",
+          "es": "Sabis (cerca de Saulzoir)",
+          "zh": "萨比斯河（索尔祖瓦附近）"
+        },
+        "lat": 50.233,
+        "lon": 3.442
+      },
+      "wikidataId": "Q1268733"
+    },
+    {
+      "id": "battle-of-morbihan",
+      "start": -55,
+      "title": {
+        "en": "A Roman fleet defeats the ships of the Veneti off the coast of Brittany",
+        "es": "Una flota romana derrota a las naves de los vénetos frente a la costa de Bretaña",
+        "zh": "罗马舰队在布列塔尼沿海击败维尼蒂人的船队"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul.\" Livius.org.",
+          "url": "https://www.livius.org/articles/person/caesar/caesar-04/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Morbihan.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Morbihan"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gallic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Gallic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Morbihan, Brittany",
+          "es": "Morbihan, Bretaña",
+          "zh": "布列塔尼莫尔比昂"
+        },
+        "lat": 47.5,
+        "lon": -2.867
+      },
+      "wikidataId": "Q2462109"
+    },
+    {
+      "id": "caesar-in-britain",
+      "start": -54,
+      "end": -53,
+      "title": {
+        "en": "Caesar lands in Britain in 55 BCE and again in 54 BCE with five legions, crosses the Thames and makes the British leader Cassivellaunus pay tribute",
+        "es": "César desembarca en Britania en el 55 a. e. c. y de nuevo en el 54 a. e. c. con cinco legiones, cruza el Támesis y obliga al caudillo britano Casivelono a pagar tributo",
+        "zh": "凯撒于公元前55年登陆不列颠，公元前54年率五个军团再度登陆，渡过泰晤士河，迫使不列颠首领卡西维拉努斯纳贡"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul.\" Livius.org.",
+          "url": "https://www.livius.org/articles/person/caesar/caesar-04/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Julius Caesar's invasions of Britain.\"",
+          "url": "https://en.wikipedia.org/wiki/Julius_Caesar%27s_invasions_of_Britain"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gallic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Gallic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kent coast near Deal",
+          "es": "Costa de Kent cerca de Deal",
+          "zh": "迪尔附近的肯特海岸"
+        },
+        "lat": 51.21,
+        "lon": 1.4
+      },
+      "wikidataId": "Q742306"
+    },
+    {
+      "id": "siege-of-avaricum",
+      "start": -51,
+      "title": {
+        "en": "Roman troops storm the Gallic stronghold of Avaricum (Bourges) and kill most of the people inside",
+        "es": "Las tropas romanas toman al asalto la plaza gala de Avárico (Bourges) y matan a la mayoría de quienes estaban dentro",
+        "zh": "罗马军队攻破高卢要塞阿瓦利库姆（布尔日），杀死城中大部分人"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul\" (continued, 53–50 BCE). Livius.org.",
+          "url": "https://www.livius.org/articles/person/caesar/caesar-05/"
+        },
+        {
+          "citation": "Mark, Joshua J. \"Vercingetorix.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Vercingetorix/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Avaricum.\"",
+          "url": "https://en.wikipedia.org/wiki/Avaricum"
+        }
+      ],
+      "note": {
+        "en": "Caesar wrote that only 800 of about 40,000 people in the town escaped.",
+        "es": "César escribió que solo 800 de unas 40.000 personas de la ciudad escaparon.",
+        "zh": "据凯撒记载，城中约4万人中只有800人逃脱。"
+      },
+      "place": {
+        "name": {
+          "en": "Avaricum (Bourges)",
+          "es": "Avárico (Bourges)",
+          "zh": "阿瓦利库姆（布尔日）"
+        },
+        "lat": 47.084,
+        "lon": 2.396
+      }
+    },
+    {
+      "id": "battle-of-gergovia",
+      "start": -51,
+      "title": {
+        "en": "Vercingetorix's forces beat back Caesar's assault on Gergovia, the main stronghold of the Arverni",
+        "es": "Las fuerzas de Vercingétorix rechazan el asalto de César contra Gergovia, la principal plaza fuerte de los arvernos",
+        "zh": "维钦托利的军队击退凯撒对阿维尔尼人主要要塞日尔戈维亚的进攻"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul\" (continued, 53–50 BCE). Livius.org.",
+          "url": "https://www.livius.org/articles/person/caesar/caesar-05/"
+        },
+        {
+          "citation": "Mark, Joshua J. \"Vercingetorix.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Vercingetorix/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Gergovia.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Gergovia"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Gergovia",
+          "es": "Gergovia",
+          "zh": "日尔戈维亚"
+        },
+        "lat": 45.708,
+        "lon": 3.125
+      },
+      "wikidataId": "Q280868"
+    },
+    {
+      "id": "siege-of-alesia",
+      "start": -51,
+      "title": {
+        "en": "Caesar rings Alesia with two lines of siege works, beats off a Gallic relief army, and Vercingetorix surrenders",
+        "es": "César rodea Alesia con dos líneas de obras de asedio, rechaza a un ejército galo de socorro y Vercingétorix se rinde",
+        "zh": "凯撒在阿莱西亚周围修筑两道围城工事，击退高卢援军，维钦托利投降"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul\" (continued, 53–50 BCE). Livius.org.",
+          "url": "https://www.livius.org/articles/person/caesar/caesar-05/"
+        },
+        {
+          "citation": "Mark, Joshua J. \"Vercingetorix.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Vercingetorix/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Alesia.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Alesia"
+        }
+      ],
+      "note": {
+        "en": "Women, children and old people sent out of the town were not let through the Roman lines and starved between them.",
+        "es": "Las mujeres, los niños y los ancianos enviados fuera de la ciudad no pudieron cruzar las líneas romanas y murieron de hambre entre ellas.",
+        "zh": "被送出城的妇女、儿童和老人未获准穿过罗马防线，饿死在两军之间。"
+      },
+      "place": {
+        "name": {
+          "en": "Alesia",
+          "es": "Alesia",
+          "zh": "阿莱西亚"
+        },
+        "lat": 47.537,
+        "lon": 4.5
+      },
+      "wikidataId": "Q131386"
+    },
+    {
+      "id": "siege-of-uxellodunum",
+      "start": -50,
+      "title": {
+        "en": "Roman sappers cut off the water supply of Uxellodunum, the last major Gallic stronghold; after it surrenders, Caesar has the hands of its defenders cut off",
+        "es": "Los zapadores romanos cortan el suministro de agua de Uxellodunum, la última gran plaza fuerte gala; tras su rendición, César ordena cortar las manos a sus defensores",
+        "zh": "罗马工兵切断高卢最后一座重要要塞乌克塞洛杜努姆的水源；要塞投降后，凯撒下令砍掉守军的双手"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Siege of Uxellodunum.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Uxellodunum"
+        },
+        {
+          "citation": "Rickard, J. \"Siege of Uxellodunum, Spring–Summer 51 BC.\" HistoryofWar.org (2009).",
+          "url": "http://www.historyofwar.org/articles/siege_uxellodunum.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gallic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Gallic_Wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Uxellodunum (Puy d'Issolud)",
+          "es": "Uxellodunum (Puy d'Issolud)",
+          "zh": "乌克塞洛杜努姆（皮伊迪索吕）"
+        },
+        "lat": 44.95,
+        "lon": 1.68
+      },
+      "wikidataId": "Q12950513"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Julius Caesar",
+        "es": "Julio César",
+        "zh": "尤利乌斯·凯撒"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Roman governor and commander in Gaul",
+        "es": "Gobernador y comandante romano en la Galia",
+        "zh": "罗马驻高卢总督兼统帅"
+      },
+      "wikidataId": "Q1048"
+    },
+    {
+      "name": {
+        "en": "Titus Labienus",
+        "es": "Tito Labieno",
+        "zh": "提图斯·拉比埃努斯"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Caesar's second-in-command",
+        "es": "Lugarteniente de César",
+        "zh": "凯撒的副将"
+      },
+      "wikidataId": "Q311265"
+    },
+    {
+      "name": {
+        "en": "Publius Licinius Crassus",
+        "es": "Publio Licinio Craso",
+        "zh": "普布利乌斯·李锡尼·克拉苏"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Commanded the Roman army in western Gaul, 57–56 BCE",
+        "es": "Mandó el ejército romano en el oeste de la Galia, 57–56 a. e. c.",
+        "zh": "公元前57年至前56年在高卢西部指挥罗马军队"
+      },
+      "wikidataId": "Q382280"
+    },
+    {
+      "name": {
+        "en": "Ariovistus",
+        "es": "Ariovisto",
+        "zh": "阿里奥维斯图斯"
+      },
+      "side": "gauls-and-others",
+      "role": {
+        "en": "Leader of the Suebi",
+        "es": "Caudillo de los suevos",
+        "zh": "苏维汇人首领"
+      },
+      "wikidataId": "Q316833"
+    },
+    {
+      "name": {
+        "en": "Ambiorix",
+        "es": "Ambiórix",
+        "zh": "安比奥里克斯"
+      },
+      "side": "gauls-and-others",
+      "role": {
+        "en": "Leader of the Eburones' revolt, 54–53 BCE",
+        "es": "Dirigente de la revuelta de los eburones, 54–53 a. e. c.",
+        "zh": "公元前54年至前53年厄勃隆尼斯人起事的首领"
+      },
+      "wikidataId": "Q12847"
+    },
+    {
+      "name": {
+        "en": "Cassivellaunus",
+        "es": "Casivelono",
+        "zh": "卡西维拉努斯"
+      },
+      "side": "gauls-and-others",
+      "role": {
+        "en": "British leader who fought Caesar in 54 BCE",
+        "es": "Caudillo britano que combatió a César en el 54 a. e. c.",
+        "zh": "公元前54年与凯撒交战的不列颠首领"
+      },
+      "wikidataId": "Q363623"
+    },
+    {
+      "name": {
+        "en": "Vercingetorix",
+        "es": "Vercingétorix",
+        "zh": "维钦托利"
+      },
+      "side": "gauls-and-others",
+      "role": {
+        "en": "Arvernian leader of the Gallic coalition of 52 BCE",
+        "es": "Jefe arverno de la coalición gala del 52 a. e. c.",
+        "zh": "公元前52年高卢联盟的阿维尔尼人首领"
+      },
+      "wikidataId": "Q178953"
+    },
+    {
+      "name": {
+        "en": "Commius",
+        "es": "Comio",
+        "zh": "科密乌斯"
+      },
+      "side": "gauls-and-others",
+      "role": {
+        "en": "King of the Atrebates; served Caesar, then joined the revolt of 52 BCE",
+        "es": "Rey de los atrébates; sirvió a César y después se unió a la revuelta del 52 a. e. c.",
+        "zh": "阿特雷巴特人国王；先为凯撒效力，后加入公元前52年的起事"
+      },
+      "wikidataId": "Q552125"
+    },
+    {
+      "name": {
+        "en": "Lucterius",
+        "es": "Lucterio",
+        "zh": "卢克特里乌斯"
+      },
+      "side": "gauls-and-others",
+      "role": {
+        "en": "Cadurci leader at Uxellodunum",
+        "es": "Jefe de los cadurcos en Uxellodunum",
+        "zh": "乌克塞洛杜努姆的卡杜尔奇人首领"
+      },
+      "wikidataId": "Q964818"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "battle-deaths",
+      "side": "gauls-and-others",
+      "who": {
+        "en": "Gauls",
+        "es": "Galos",
+        "zh": "高卢人"
+      },
+      "low": 1000000,
+      "high": 1000000,
+      "attributedTo": {
+        "en": "Plutarch and Appian",
+        "es": "Plutarco y Apiano",
+        "zh": "普鲁塔克和阿庇安"
+      },
+      "sources": [
+        {
+          "citation": "Plutarch. Life of Caesar 15 (Loeb Classical Library translation by B. Perrin), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html"
+        },
+        {
+          "citation": "Appian. Gallic History, fragment 20a (translation by H. White), via Livius.org.",
+          "url": "https://www.livius.org/sources/content/appian/appian-gallic-war-4/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gallic Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Gallic_Wars"
+        },
+        {
+          "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul\" (continued, 53–50 BCE). Livius.org.",
+          "url": "https://www.livius.org/articles/person/caesar/caesar-05/"
+        }
+      ],
+      "note": {
+        "en": "Gauls killed in battle over the whole war, by the ancient count; the same writers say as many were taken prisoner. Historians are divided: some repeat the figure, others call the ancient numbers implausible and exaggerated.",
+        "es": "Galos muertos en combate durante toda la guerra, según el cómputo antiguo; los mismos autores dicen que otros tantos fueron hechos prisioneros. Los historiadores están divididos: unos repiten la cifra y otros consideran las cifras antiguas inverosímiles y exageradas.",
+        "zh": "古代记载中整场战争在战斗中被杀的高卢人人数；同一批作者称被俘者人数相当。历史学家意见不一：有人沿用这一数字，也有人认为古代数字不可信、有所夸大。"
+      }
+    }
+  ],
+  "cultures": [
+    "celtic-iron-age",
+    "rome"
+  ],
+  "sources": [
+    {
+      "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul.\" Livius.org.",
+      "url": "https://www.livius.org/articles/person/caesar/caesar-04/"
+    },
+    {
+      "citation": "Lendering, Jona. \"Gaius Julius Caesar: Conquest of Gaul\" (continued, 53–50 BCE). Livius.org.",
+      "url": "https://www.livius.org/articles/person/caesar/caesar-05/"
+    },
+    {
+      "citation": "Mark, Joshua J. \"Vercingetorix.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Vercingetorix/"
+    },
+    {
+      "citation": "Plutarch. Life of Caesar 15 (Loeb Classical Library translation by B. Perrin), via LacusCurtius.",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html"
+    },
+    {
+      "citation": "Wikipedia (English). \"Gallic Wars.\"",
+      "url": "https://en.wikipedia.org/wiki/Gallic_Wars"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra de las Galias.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_de_las_Galias"
+    },
+    {
+      "citation": "Wikipedia (中文). \"高卢战争.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/%E9%AB%98%E5%8D%A2%E6%88%98%E4%BA%89"
+    }
+  ]
+}

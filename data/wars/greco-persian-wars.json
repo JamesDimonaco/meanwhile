@@ -1,0 +1,494 @@
+{
+  "id": "greco-persian-wars",
+  "wikidataId": "Q76026",
+  "name": {
+    "en": "Greco-Persian Wars",
+    "es": "Guerras médicas",
+    "zh": "波希战争"
+  },
+  "aliases": [
+    "Persian Wars",
+    "Guerras persas",
+    "希波战争",
+    "Marathon",
+    "Thermopylae",
+    "Salamis",
+    "Plataea",
+    "Xerxes",
+    "Darius"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "In 499 BCE the Greek cities of Ionia, on the coast of Asia Minor, rose against Persian rule. Athens and Eretria sent ships, and in 498 BCE the rebels burned Sardis, a Persian provincial capital. Persia's army and fleet put the revolt down by 493 BCE. In 490 BCE Darius I sent a fleet across the Aegean that razed Eretria, but the Athenians and Plataeans defeated its army at Marathon. In 480 BCE Xerxes I crossed the Hellespont with a far larger force, broke through at Thermopylae and burned Athens, but his fleet lost the battle of Salamis. In 479 BCE an allied Greek army under Spartan command defeated the Persian army at Plataea, and the Greek fleet destroyed the Persian ships at Mycale. The Athenian-led Delian League then fought Persia in the Aegean, Asia Minor, Egypt and Cyprus until about 449 BCE. No reliable count of the war's dead survives: the figures come from ancient writers, above all Herodotus.",
+    "es": "En el 499 a. e. c. las ciudades griegas de Jonia, en la costa de Asia Menor, se alzaron contra el dominio persa. Atenas y Eretria enviaron naves, y en el 498 a. e. c. los rebeldes incendiaron Sardes, una capital provincial persa. El ejército y la flota de Persia sofocaron la revuelta hacia el 493 a. e. c. En el 490 a. e. c. Darío I envió a través del Egeo una flota que arrasó Eretria, pero los atenienses y los plateos derrotaron a su ejército en Maratón. En el 480 a. e. c. Jerjes I cruzó el Helesponto con una fuerza mucho mayor, forzó el paso de las Termópilas e incendió Atenas, pero su flota perdió la batalla de Salamina. En el 479 a. e. c. un ejército de ciudades griegas aliadas al mando de Esparta derrotó al ejército persa en Platea, y la flota griega destruyó las naves persas en Mícala. Después, la Liga de Delos, encabezada por Atenas, combatió a Persia en el Egeo, Asia Menor, Egipto y Chipre hasta hacia el 449 a. e. c. No se conserva un recuento fiable de los muertos de la guerra: las cifras proceden de autores antiguos, sobre todo Heródoto.",
+    "zh": "公元前499年，小亚细亚沿岸伊奥尼亚的希腊城邦起事反抗波斯统治。雅典和埃雷特里亚派出船只，公元前498年起事者焚毁了波斯的行省首府萨第斯。到公元前493年，波斯的陆军和舰队平息了起事。公元前490年，大流士一世派舰队横渡爱琴海，摧毁了埃雷特里亚，但雅典人和普拉提亚人在马拉松击败了波斯军队。公元前480年，薛西斯一世率领规模大得多的军队渡过赫勒斯滂海峡，突破温泉关并焚毁雅典，但其舰队在萨拉米斯海战中落败。公元前479年，由斯巴达指挥的希腊城邦联军在普拉提亚击败波斯军队，希腊舰队在米卡勒摧毁了波斯船只。此后，雅典领导的提洛同盟在爱琴海、小亚细亚、埃及和塞浦路斯与波斯交战，直到约公元前449年。这场战争的死亡人数没有可靠统计留存：现有数字均出自古代作家，主要是希罗多德。"
+  },
+  "outcome": {
+    "en": "Persian forces left mainland Greece after 479 BCE and the Ionian cities broke away from Persian rule; fighting with the Delian League died out around 449 BCE, perhaps under a treaty, the Peace of Callias, whose existence is debated.",
+    "es": "Las fuerzas persas abandonaron la Grecia continental después del 479 a. e. c. y las ciudades jonias se separaron del dominio persa; los combates con la Liga de Delos cesaron hacia el 449 a. e. c., quizá en virtud de un tratado, la Paz de Calias, cuya existencia se discute.",
+    "zh": "公元前479年后波斯军队撤出希腊本土，伊奥尼亚诸城脱离波斯统治；与提洛同盟的战事约在公元前449年平息，或许是依据一项存在与否尚有争议的条约，即卡利亚斯和约。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": -498,
+    "latestStart": -498,
+    "earliestEnd": -448,
+    "latestEnd": -448,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Greco-Persian Wars.\"",
+        "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+      },
+      {
+        "citation": "Cartwright, Mark. \"Peace of Callias.\" World History Encyclopedia.",
+        "url": "https://www.worldhistory.org/Peace_of_Callias/"
+      },
+      {
+        "citation": "Wikidata. \"Greco-Persian Wars\" (Q76026), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q76026"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "499–449 BCE is the usual span. Some historians end the war with the Greek victories of 479 BCE; the 449 BCE end rests on the Peace of Callias, which ancient and modern writers dispute and date either to the 460s or to about 449 BCE.",
+      "es": "499–449 a. e. c. es el periodo habitual. Algunos historiadores terminan la guerra con las victorias griegas del 479 a. e. c.; el final en el 449 a. e. c. se basa en la Paz de Calias, que autores antiguos y modernos discuten y fechan en la década de 460 o hacia el 449 a. e. c.",
+      "zh": "通常的起止年份为公元前499年至前449年。一些历史学家将战争终点定在公元前479年希腊人取胜之时；以公元前449年为终点依据的是卡利亚斯和约，而古今作者对此和约有争议，或将其定于公元前460年代，或定于约公元前449年。"
+    }
+  },
+  "sides": [
+    {
+      "id": "greek-city-states",
+      "label": {
+        "en": "Allied Greek city-states (the Hellenic League, then the Delian League)",
+        "es": "Ciudades-estado griegas aliadas (la Liga Helénica y después la Liga de Delos)",
+        "zh": "希腊城邦联盟（先为希腊同盟，后为提洛同盟）"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": { "en": "Athens", "es": "Atenas", "zh": "雅典" },
+          "role": "belligerent",
+          "today": ["GR"]
+        },
+        {
+          "kind": "polity",
+          "name": { "en": "Sparta", "es": "Esparta", "zh": "斯巴达" },
+          "role": "belligerent",
+          "today": ["GR"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Eretria, Plataea, Corinth and other allied Greek city-states",
+            "es": "Eretria, Platea, Corinto y otras ciudades-estado griegas aliadas",
+            "zh": "埃雷特里亚、普拉提亚、科林斯及其他结盟的希腊城邦"
+          },
+          "role": "belligerent",
+          "today": ["GR"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ionian Greek cities of Asia Minor (in revolt 499–493 BCE and again from 479 BCE)",
+            "es": "Ciudades griegas jonias de Asia Menor (sublevadas en 499–493 a. e. c. y de nuevo desde 479 a. e. c.)",
+            "zh": "小亚细亚的伊奥尼亚希腊城邦（公元前499年至前493年起事，公元前479年起再度起事）"
+          },
+          "role": "belligerent",
+          "today": ["TR"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Cypriot kingdoms under Onesilus of Salamis, all but Amathus (joined the Ionian Revolt, 497 BCE)",
+            "es": "Reinos chipriotas al mando de Onésilo de Salamina, todos salvo Amatunte (se unieron a la Revuelta jónica, 497 a. e. c.)",
+            "zh": "以萨拉米斯的奥涅西洛斯为首的塞浦路斯诸王国，阿马苏斯除外（公元前497年加入伊奥尼亚起义）"
+          },
+          "role": "belligerent",
+          "today": ["CY"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Egyptian rebels under Inaros, allied with the Delian League (about 460–454 BCE)",
+            "es": "Rebeldes egipcios al mando de Ínaro, aliados de la Liga de Delos (hacia 460–454 a. e. c.)",
+            "zh": "伊纳罗斯领导的埃及起事者，与提洛同盟结盟（约公元前460年至前454年）"
+          },
+          "role": "belligerent",
+          "today": ["EG"]
+        }
+      ]
+    },
+    {
+      "id": "achaemenid-empire",
+      "label": {
+        "en": "The Achaemenid Persian Empire and the Greek states that sided with it",
+        "es": "El Imperio aqueménida persa y los estados griegos que se pusieron de su lado",
+        "zh": "波斯阿契美尼德帝国及站在其一方的希腊城邦"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": { "en": "Achaemenid Empire", "es": "Imperio aqueménida", "zh": "阿契美尼德帝国" },
+          "role": "belligerent",
+          "today": ["IR"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Macedon, a Persian vassal, with Thebes, Thessaly and other Greek states that sided with Persia in 480–479 BCE",
+            "es": "Macedonia, vasalla de Persia, con Tebas, Tesalia y otros estados griegos que se pusieron del lado persa en 480–479 a. e. c.",
+            "zh": "波斯的附庸马其顿，以及在公元前480年至前479年站在波斯一方的底比斯、色萨利等希腊城邦"
+          },
+          "role": "belligerent",
+          "today": ["GR"]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sardis-burned",
+      "start": -497,
+      "title": {
+        "en": "Ionian rebels, with Athenian and Eretrian troops, take and burn Sardis, the Persian capital of Lydia",
+        "es": "Los rebeldes jonios, con tropas atenienses y eretrias, toman e incendian Sardes, la capital persa de Lidia",
+        "zh": "伊奥尼亚起事者在雅典和埃雷特里亚军队协助下攻占并焚毁波斯的吕底亚首府萨第斯"
+      },
+      "sources": [
+        {
+          "citation": "\"Ionian Revolt.\" EBSCO Research Starters: History (2022).",
+          "url": "https://www.ebsco.com/research-starters/history/ionian-revolt"
+        },
+        {
+          "citation": "Wikipedia (English). \"Greco-Persian Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+        }
+      ],
+      "note": {
+        "en": "The Persian governor held the citadel, and Persian troops beat the rebels near Ephesus on their way back.",
+        "es": "El sátrapa persa resistió en la ciudadela, y las tropas persas vencieron a los rebeldes cerca de Éfeso en su regreso.",
+        "zh": "波斯总督守住了卫城，波斯军队在起事者返程途中于以弗所附近将其击败。"
+      },
+      "place": {
+        "name": { "en": "Sardis", "es": "Sardes", "zh": "萨第斯" },
+        "lat": 38.488,
+        "lon": 28.04
+      },
+      "wikidataId": "Q4176897"
+    },
+    {
+      "id": "battle-of-lade",
+      "start": -493,
+      "title": {
+        "en": "The Persian fleet defeats the Ionian fleet off Lade after the Samian ships desert; Persian forces then take Miletus",
+        "es": "La flota persa derrota a la flota jonia frente a Lade tras la deserción de las naves de Samos; las fuerzas persas toman después Mileto",
+        "zh": "萨摩斯船只倒戈后，波斯舰队在拉德岛外击败伊奥尼亚舰队，随后波斯军队攻占米利都"
+      },
+      "sources": [
+        {
+          "citation": "\"Ionian Revolt.\" EBSCO Research Starters: History (2022).",
+          "url": "https://www.ebsco.com/research-starters/history/ionian-revolt"
+        },
+        {
+          "citation": "Wikipedia (English). \"Greco-Persian Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+        }
+      ],
+      "place": {
+        "name": { "en": "Lade, off Miletus", "es": "Lade, frente a Mileto", "zh": "米利都外的拉德岛" },
+        "lat": 37.53,
+        "lon": 27.23
+      },
+      "wikidataId": "Q427565"
+    },
+    {
+      "id": "battle-of-marathon",
+      "start": -489,
+      "title": {
+        "en": "A Persian force sent across the Aegean razes Eretria; the Athenians and Plataeans then defeat its army at Marathon",
+        "es": "Una fuerza persa enviada a través del Egeo arrasa Eretria; después los atenienses y los plateos derrotan a su ejército en Maratón",
+        "zh": "横渡爱琴海而来的波斯军队摧毁埃雷特里亚；随后雅典人和普拉提亚人在马拉松击败这支军队"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Persian Wars.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/Persian_Wars/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Marathon.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Marathon"
+        },
+        {
+          "citation": "Wikipedia (English). \"Greco-Persian Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+        }
+      ],
+      "note": {
+        "en": "Herodotus gives 6,400 Persian and 192 Athenian dead; he does not say how many Plataeans died.",
+        "es": "Heródoto da 6.400 muertos persas y 192 atenienses; no dice cuántos plateos murieron.",
+        "zh": "据希罗多德记载，波斯方死亡6400人，雅典方死亡192人；他未提及普拉提亚人的死亡人数。"
+      },
+      "place": {
+        "name": { "en": "Marathon", "es": "Maratón", "zh": "马拉松" },
+        "lat": 38.118,
+        "lon": 23.978
+      },
+      "wikidataId": "Q31900"
+    },
+    {
+      "id": "battle-of-thermopylae",
+      "start": -479,
+      "title": {
+        "en": "Xerxes's army breaks through the pass of Thermopylae on the third day; the Spartan king Leonidas and his rearguard are killed",
+        "es": "El ejército de Jerjes fuerza el paso de las Termópilas al tercer día; el rey espartano Leónidas y su retaguardia mueren",
+        "zh": "薛西斯的军队在第三天突破温泉关；斯巴达国王列奥尼达及其殿后部队阵亡"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Persian Wars.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/Persian_Wars/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Greco-Persian Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+        }
+      ],
+      "place": {
+        "name": { "en": "Thermopylae", "es": "Termópilas", "zh": "温泉关" },
+        "lat": 38.796,
+        "lon": 22.537
+      },
+      "wikidataId": "Q131969"
+    },
+    {
+      "id": "battle-of-salamis",
+      "start": -479,
+      "title": {
+        "en": "Persian troops burn Athens after its people leave; the Greek fleet under Themistocles then defeats the Persian fleet in the straits of Salamis",
+        "es": "Las tropas persas incendian Atenas, abandonada por sus habitantes; después la flota griega de Temístocles derrota a la flota persa en el estrecho de Salamina",
+        "zh": "雅典居民撤离后波斯军队焚毁雅典；随后地米斯托克利率领的希腊舰队在萨拉米斯海峡击败波斯舰队"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Persian Wars.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/Persian_Wars/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Greco-Persian Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerras médicas.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerras_m%C3%A9dicas"
+        }
+      ],
+      "place": {
+        "name": { "en": "Salamis", "es": "Salamina", "zh": "萨拉米斯" },
+        "lat": 37.951,
+        "lon": 23.567
+      },
+      "wikidataId": "Q178850"
+    },
+    {
+      "id": "battle-of-plataea",
+      "start": -478,
+      "title": {
+        "en": "An allied Greek army under the Spartan regent Pausanias defeats Mardonius's Persian army at Plataea",
+        "es": "Un ejército griego aliado al mando del regente espartano Pausanias derrota al ejército persa de Mardonio en Platea",
+        "zh": "斯巴达摄政帕萨尼阿斯率领的希腊联军在普拉提亚击败马铎尼斯的波斯军队"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Persian Wars.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/Persian_Wars/"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerras médicas.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerras_m%C3%A9dicas"
+        },
+        {
+          "citation": "Wikipedia (English). \"Greco-Persian Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+        }
+      ],
+      "place": {
+        "name": { "en": "Plataea", "es": "Platea", "zh": "普拉提亚" },
+        "lat": 38.24,
+        "lon": 23.318
+      },
+      "wikidataId": "Q204636"
+    },
+    {
+      "id": "battle-of-mycale",
+      "start": -478,
+      "title": {
+        "en": "The Greek fleet lands troops at Mycale and destroys the remaining Persian ships; Samos, Miletus and other Ionian cities rise again",
+        "es": "La flota griega desembarca tropas en Mícala y destruye las naves persas restantes; Samos, Mileto y otras ciudades jonias se alzan de nuevo",
+        "zh": "希腊舰队在米卡勒登陆并摧毁残余的波斯船只；萨摩斯、米利都等伊奥尼亚城邦再度起事"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Persian Wars.\" World History Encyclopedia (2016).",
+          "url": "https://www.worldhistory.org/Persian_Wars/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Greco-Persian Wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+        }
+      ],
+      "place": {
+        "name": { "en": "Mycale", "es": "Mícala", "zh": "米卡勒" },
+        "lat": 37.691,
+        "lon": 27.157
+      },
+      "wikidataId": "Q503982"
+    },
+    {
+      "id": "battle-of-the-eurymedon",
+      "start": -465,
+      "title": {
+        "en": "A Delian League fleet under Cimon defeats a Persian fleet and then its army at the mouth of the Eurymedon",
+        "es": "Una flota de la Liga de Delos al mando de Cimón derrota a una flota persa y después a su ejército en la desembocadura del Eurimedonte",
+        "zh": "客蒙率领的提洛同盟舰队在欧里梅敦河口先后击败波斯舰队和陆军"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Cimon.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Cimon/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of the Eurymedon.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Eurymedon"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Dated to 469 or 466 BCE; the ancient sources give no year. The pin uses the later date.",
+        "es": "Fechada en el 469 o el 466 a. e. c.; las fuentes antiguas no dan el año. El marcador usa la fecha más tardía.",
+        "zh": "年代为公元前469年或前466年，古代史料未载明年份。此处采用较晚的年份。"
+      },
+      "place": {
+        "name": { "en": "Mouth of the Eurymedon (Köprüçay)", "es": "Desembocadura del Eurimedonte (Köprüçay)", "zh": "欧里梅敦河（科普鲁河）河口" },
+        "lat": 36.83,
+        "lon": 31.173
+      },
+      "wikidataId": "Q607987"
+    }
+  ],
+  "leaders": [
+    {
+      "name": { "en": "Aristagoras", "es": "Aristágoras", "zh": "阿里斯塔格拉斯" },
+      "side": "greek-city-states",
+      "role": { "en": "Tyrant of Miletus; led the Ionian revolt", "es": "Tirano de Mileto; encabezó la revuelta jonia", "zh": "米利都僭主；领导伊奥尼亚起事" },
+      "wikidataId": "Q318627"
+    },
+    {
+      "name": { "en": "Miltiades", "es": "Milcíades", "zh": "米太亚德" },
+      "side": "greek-city-states",
+      "role": { "en": "Athenian general at Marathon", "es": "General ateniense en Maratón", "zh": "马拉松战役中的雅典将军" },
+      "wikidataId": "Q210350"
+    },
+    {
+      "name": { "en": "Leonidas I", "es": "Leónidas I", "zh": "列奥尼达一世" },
+      "side": "greek-city-states",
+      "role": { "en": "King of Sparta; commanded at Thermopylae", "es": "Rey de Esparta; mandó en las Termópilas", "zh": "斯巴达国王；温泉关战役指挥官" },
+      "wikidataId": "Q44228"
+    },
+    {
+      "name": { "en": "Themistocles", "es": "Temístocles", "zh": "地米斯托克利" },
+      "side": "greek-city-states",
+      "role": { "en": "Athenian commander at Salamis", "es": "Comandante ateniense en Salamina", "zh": "萨拉米斯海战中的雅典指挥官" },
+      "wikidataId": "Q179552"
+    },
+    {
+      "name": { "en": "Pausanias", "es": "Pausanias", "zh": "帕萨尼阿斯" },
+      "side": "greek-city-states",
+      "role": { "en": "Spartan regent; commanded the Greek army at Plataea", "es": "Regente espartano; mandó el ejército griego en Platea", "zh": "斯巴达摄政；普拉提亚战役中希腊军队的统帅" },
+      "wikidataId": "Q314518"
+    },
+    {
+      "name": { "en": "Cimon", "es": "Cimón", "zh": "客蒙" },
+      "side": "greek-city-states",
+      "role": { "en": "Athenian commander of the Delian League fleet", "es": "Comandante ateniense de la flota de la Liga de Delos", "zh": "提洛同盟舰队的雅典指挥官" },
+      "wikidataId": "Q218102"
+    },
+    {
+      "name": { "en": "Darius I", "es": "Darío I", "zh": "大流士一世" },
+      "side": "achaemenid-empire",
+      "role": { "en": "King of Persia, to 486 BCE", "es": "Rey de Persia, hasta 486 a. e. c.", "zh": "波斯国王（至公元前486年）" },
+      "wikidataId": "Q44387"
+    },
+    {
+      "name": { "en": "Datis", "es": "Datis", "zh": "达提斯" },
+      "side": "achaemenid-empire",
+      "role": { "en": "Commander of the expedition of 490 BCE", "es": "Comandante de la expedición del 490 a. e. c.", "zh": "公元前490年远征的指挥官" },
+      "wikidataId": "Q41328"
+    },
+    {
+      "name": { "en": "Xerxes I", "es": "Jerjes I", "zh": "薛西斯一世" },
+      "side": "achaemenid-empire",
+      "role": { "en": "King of Persia from 486 BCE; led the campaign of 480 BCE", "es": "Rey de Persia desde 486 a. e. c.; dirigió la campaña del 480 a. e. c.", "zh": "公元前486年起的波斯国王；亲率公元前480年的远征" },
+      "wikidataId": "Q129165"
+    },
+    {
+      "name": { "en": "Mardonius", "es": "Mardonio", "zh": "马铎尼斯" },
+      "side": "achaemenid-empire",
+      "role": { "en": "Persian commander in Greece, 480–479 BCE", "es": "Comandante persa en Grecia, 480–479 a. e. c.", "zh": "公元前480年至前479年在希腊的波斯统帅" },
+      "wikidataId": "Q155063"
+    }
+  ],
+  "casualties": [],
+  "cultures": ["ancient-greece"],
+  "sources": [
+    {
+      "citation": "Cartwright, Mark. \"Persian Wars.\" World History Encyclopedia (2016).",
+      "url": "https://www.worldhistory.org/Persian_Wars/"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Peace of Callias.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Peace_of_Callias/"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Cimon.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Cimon/"
+    },
+    {
+      "citation": "\"Ionian Revolt.\" EBSCO Research Starters: History (2022).",
+      "url": "https://www.ebsco.com/research-starters/history/ionian-revolt"
+    },
+    {
+      "citation": "Wikipedia (English). \"Greco-Persian Wars.\"",
+      "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+    },
+    {
+      "citation": "Herodotus. Histories 5.104 (translation by G. C. Macaulay), via Project Gutenberg.",
+      "url": "https://www.gutenberg.org/ebooks/2456"
+    },
+    {
+      "citation": "Wikipedia (English). \"Ionian Revolt.\"",
+      "url": "https://en.wikipedia.org/wiki/Ionian_Revolt"
+    },
+    {
+      "citation": "Thucydides. History of the Peloponnesian War 1.104 and 1.109–110 (translation by R. Crawley), via Project Gutenberg.",
+      "url": "https://www.gutenberg.org/ebooks/7142"
+    },
+    {
+      "citation": "Wikipedia (English). \"Inaros II.\"",
+      "url": "https://en.wikipedia.org/wiki/Inaros_II"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerras médicas.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerras_m%C3%A9dicas"
+    },
+    {
+      "citation": "Wikipedia (中文). \"波希战争.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/%E6%B3%A2%E5%B8%8C%E6%88%98%E4%BA%89"
+    }
+  ]
+}
