@@ -1,13 +1,9 @@
 import { z } from "zod";
+import { NEVER_SHOWN } from "./countries";
 import { duplicates } from "./schema";
 
 /** A heartland, not an empire's largest extent: rarely more than one country. */
 export const MAX_HEARTLAND_COUNTRIES = 3;
-
-// Codes whose status is disputed, or that would read as a political claim
-// next to a flag. The site has to stay reachable in mainland China and neutral
-// everywhere else, so these are never shown even though ISO lists them.
-const NEVER_SHOWN = new Set(["TW", "HK", "MO", "EH", "PS"]);
 
 /** data/today.json: culture id -> ISO 3166-1 alpha-2 codes of the countries its heartland lies in today. */
 export const Today = z.record(
@@ -22,10 +18,12 @@ export type HeartlandInput = {
   isoCodes: readonly string[];
   /** File names in public/flags. */
   flagFiles: readonly string[];
+  /** Every code in the wars' `today` lists: they need flags too. */
+  warCodes?: readonly string[];
 };
 
 /** Pure so it can be tested; readDataset feeds it the files on disk. */
-export function validateHeartland({ today, registryIds, isoCodes, flagFiles }: HeartlandInput): string[] {
+export function validateHeartland({ today, registryIds, isoCodes, flagFiles, warCodes = [] }: HeartlandInput): string[] {
   const parsed = Today.safeParse(today);
   if (!parsed.success) {
     return parsed.error.issues.map((i) => `data/today.json: ${i.path.join(".") || "(root)"}: ${i.message}`);
@@ -48,12 +46,12 @@ export function validateHeartland({ today, registryIds, isoCodes, flagFiles }: H
     }
   }
 
-  const used = new Set(entries.flatMap(([, codes]) => codes.map((c) => `${c.toLowerCase()}.svg`)));
+  const used = new Set([...entries.flatMap(([, codes]) => codes), ...warCodes].map((c) => `${c.toLowerCase()}.svg`));
   for (const file of [...used].sort()) {
     if (!flagFiles.includes(file)) errors.push(`public/flags/${file} is missing (run pnpm sync-flags)`);
   }
   for (const file of flagFiles) {
-    if (!used.has(file)) errors.push(`public/flags/${file} is not used by data/today.json (run pnpm sync-flags)`);
+    if (!used.has(file)) errors.push(`public/flags/${file} is not used by data/today.json or any war (run pnpm sync-flags)`);
   }
   return errors;
 }

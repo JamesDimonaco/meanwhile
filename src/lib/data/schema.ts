@@ -159,13 +159,18 @@ export const BorderPolity = z.strictObject({
 
 export const Borders = z
   .strictObject({
-    cultureId: Id,
+    /** Exactly one of cultureId and warId: whose map this is. */
+    cultureId: Id.optional(),
+    warId: Id.optional(),
     sources: z.array(Source).min(1),
     snapshots: z
       .array(z.strictObject({ year: Year, polities: z.array(BorderPolity).min(1) }))
       .min(1),
   })
   .superRefine((b, ctx) => {
+    if ((b.cultureId === undefined) === (b.warId === undefined)) {
+      ctx.addIssue({ code: "custom", message: "give exactly one of cultureId and warId" });
+    }
     for (let i = 1; i < b.snapshots.length; i++) {
       if (b.snapshots[i].year <= b.snapshots[i - 1].year) {
         ctx.addIssue({ code: "custom", message: "snapshots must be in strictly ascending year order" });

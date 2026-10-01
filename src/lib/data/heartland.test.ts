@@ -43,6 +43,17 @@ describe("validateHeartland (data/today.json)", () => {
     expect(run({ today: { ...today, maya: ["MX", "MX"] } })).toMatch(/maya: "MX" listed twice/);
   });
 
+  it("rejects Kosovo too", () => {
+    expect(run({ today: { ...today, shang: ["XK"] }, isoCodes: [...isoCodes, "XK"], flagFiles: [...flagFiles, "xk.svg"] })).toMatch(
+      /shang: "XK" is never shown/,
+    );
+  });
+
+  it("counts the countries wars list as used flags", () => {
+    expect(run({ flagFiles: [...flagFiles, "vn.svg"], warCodes: ["VN"] })).toBe("");
+    expect(run({ warCodes: ["VN"] })).toMatch(/public\/flags\/vn\.svg is missing/);
+  });
+
   it("needs a shipped flag for every code, and ships no flag nothing uses", () => {
     expect(run({ flagFiles: ["cn.svg", "gt.svg", "mx.svg"] })).toMatch(/public\/flags\/pe\.svg is missing/);
     expect(run({ flagFiles: [...flagFiles, "fr.svg"] })).toMatch(/public\/flags\/fr\.svg is not used/);
