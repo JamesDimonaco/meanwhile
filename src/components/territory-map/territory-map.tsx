@@ -153,8 +153,8 @@ function MapSvg({
     }
     const everywhere = { type: "GeometryCollection" as const, geometries: own };
     const [lon, lat] = boundsCentre(geoBounds(everywhere));
-    // Equal-area, centred on everywhere the culture ever held, so sizes compare
-    // fairly and the frame never moves between years.
+    // Equal-area, centred on every "self" polity in every snapshot plus every
+    // pin, so sizes compare fairly and the frame never moves between years.
     const projection = geoAzimuthalEqualArea()
       .rotate([-lon, -lat])
       .fitExtent(
