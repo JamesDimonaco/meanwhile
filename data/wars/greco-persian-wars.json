@@ -101,6 +101,26 @@
           },
           "role": "belligerent",
           "today": ["TR"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Cypriot kingdoms under Onesilus of Salamis, all but Amathus (joined the Ionian Revolt, 497 BCE)",
+            "es": "Reinos chipriotas al mando de Onésilo de Salamina, todos salvo Amatunte (se unieron a la Revuelta jónica, 497 a. e. c.)",
+            "zh": "以萨拉米斯的奥涅西洛斯为首的塞浦路斯诸王国，阿马苏斯除外（公元前497年加入伊奥尼亚起义）"
+          },
+          "role": "belligerent",
+          "today": ["CY"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Egyptian rebels under Inaros, allied with the Delian League (about 460–454 BCE)",
+            "es": "Rebeldes egipcios al mando de Ínaro, aliados de la Liga de Delos (hacia 460–454 a. e. c.)",
+            "zh": "伊纳罗斯领导的埃及起事者，与提洛同盟结盟（约公元前460年至前454年）"
+          },
+          "role": "belligerent",
+          "today": ["EG"]
         }
       ]
     },
@@ -182,8 +202,8 @@
       ],
       "place": {
         "name": { "en": "Lade, off Miletus", "es": "Lade, frente a Mileto", "zh": "米利都外的拉德岛" },
-        "lat": 37.55,
-        "lon": 27.1
+        "lat": 37.53,
+        "lon": 27.23
       },
       "wikidataId": "Q427565"
     },
@@ -445,6 +465,22 @@
     {
       "citation": "Wikipedia (English). \"Greco-Persian Wars.\"",
       "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+    },
+    {
+      "citation": "Herodotus. Histories 5.104 (translation by G. C. Macaulay), via Project Gutenberg.",
+      "url": "https://www.gutenberg.org/ebooks/2456"
+    },
+    {
+      "citation": "Wikipedia (English). \"Ionian Revolt.\"",
+      "url": "https://en.wikipedia.org/wiki/Ionian_Revolt"
+    },
+    {
+      "citation": "Thucydides. History of the Peloponnesian War 1.104 and 1.109–110 (translation by R. Crawley), via Project Gutenberg.",
+      "url": "https://www.gutenberg.org/ebooks/7142"
+    },
+    {
+      "citation": "Wikipedia (English). \"Inaros II.\"",
+      "url": "https://en.wikipedia.org/wiki/Inaros_II"
     },
     {
       "citation": "Wikipedia (español). \"Guerras médicas.\"",
