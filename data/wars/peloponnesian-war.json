@@ -1,0 +1,600 @@
+{
+  "id": "peloponnesian-war",
+  "wikidataId": "Q33745",
+  "name": {
+    "en": "Peloponnesian War",
+    "es": "Guerra del Peloponeso",
+    "zh": "伯罗奔尼撒战争"
+  },
+  "aliases": [
+    "Second Peloponnesian War",
+    "Archidamian War",
+    "Sicilian Expedition",
+    "Athens and Sparta",
+    "Atenas y Esparta",
+    "雅典与斯巴达",
+    "Thucydides",
+    "Tucídides",
+    "修昔底德"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "From 431 to 404 BCE Athens and its Delian League fought Sparta and its Peloponnesian League allies. The war began when Thebes, Sparta's ally, attacked Plataea, an ally of Athens, and King Archidamus II led the Peloponnesian army into Attica. Pericles kept the Athenians behind their walls and used the fleet to raid the Peloponnese, but plague struck the crowded city in 430 BCE and killed him the next year. Athens took Spartan prisoners at Sphacteria in 425 BCE; the Spartan general Brasidas took Amphipolis, and the Peace of Nicias followed in 421 BCE. In 415 BCE Athens sent a great expedition against Syracuse in Sicily, and by 413 BCE it had been destroyed. Persia then paid for a Spartan fleet, which under Lysander captured almost the whole Athenian fleet at Aegospotami in 405 BCE. Athens, besieged and starving, surrendered in 404 BCE. No count of the war's dead survives: the ancient historians give figures only for some battles.",
+    "es": "Del 431 al 404 a. e. c. Atenas y su Liga de Delos combatieron contra Esparta y sus aliados de la Liga del Peloponeso. La guerra empezó cuando Tebas, aliada de Esparta, atacó Platea, aliada de Atenas, y el rey Arquidamo II entró en el Ática con el ejército peloponesio. Pericles mantuvo a los atenienses tras sus murallas y usó la flota para atacar las costas del Peloponeso, pero en el 430 a. e. c. una epidemia golpeó la ciudad abarrotada y al año siguiente lo mató. Atenas capturó a soldados espartanos en Esfacteria en el 425 a. e. c.; el general espartano Brásidas tomó Anfípolis, y en el 421 a. e. c. llegó la Paz de Nicias. En el 415 a. e. c. Atenas envió una gran expedición contra Siracusa, en Sicilia, que en el 413 a. e. c. había sido destruida. Después Persia financió una flota espartana que, al mando de Lisandro, capturó casi toda la flota ateniense en Egospótamos en el 405 a. e. c. Atenas, sitiada y hambrienta, se rindió en el 404 a. e. c. No se conserva un recuento de los muertos de la guerra: los historiadores antiguos solo dan cifras de algunas batallas.",
+    "zh": "公元前431年至前404年，雅典及其提洛同盟与斯巴达及其伯罗奔尼撒同盟交战。战争始于斯巴达的盟友底比斯进攻雅典的盟友普拉提亚，随后国王阿希达穆斯二世率伯罗奔尼撒军队进入阿提卡。伯里克利让雅典人留在城墙之内，用舰队袭扰伯罗奔尼撒沿岸；但公元前430年瘟疫在拥挤的城中暴发，次年伯里克利也死于瘟疫。公元前425年雅典在斯法克特里亚俘获斯巴达士兵；斯巴达将军伯拉西达攻占安菲波利斯，公元前421年双方订立尼西阿斯和约。公元前415年雅典派大军远征西西里的叙拉古，到公元前413年这支远征军已全军覆没。此后波斯出资为斯巴达建立舰队，公元前405年这支舰队在吕山德指挥下于伊哥斯波塔米俘获几乎全部雅典舰船。公元前404年，被围困、陷入饥荒的雅典投降。这场战争的死亡总数没有留下统计：古代史家只记载了部分战役的数字。"
+  },
+  "outcome": {
+    "en": "Athens surrendered in April 404 BCE: it pulled down its Long Walls, gave up its fleet and its overseas possessions, and was ruled for a short time by a Sparta-backed oligarchy, the Thirty.",
+    "es": "Atenas se rindió en abril del 404 a. e. c.: derribó sus Muros Largos, entregó su flota y sus posesiones de ultramar, y durante un breve tiempo la gobernó una oligarquía apoyada por Esparta, los Treinta.",
+    "zh": "公元前404年4月雅典投降：拆毁长墙，交出舰队和海外属地，并在短期内由斯巴达扶植的寡头政权“三十人”统治。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": -430,
+    "latestStart": -430,
+    "earliestEnd": -403,
+    "latestEnd": -403,
+    "sources": [
+      {
+        "citation": "Cartwright, Mark. \"Peloponnesian War.\" World History Encyclopedia (2018).",
+        "url": "https://www.worldhistory.org/Peloponnesian_War/"
+      },
+      {
+        "citation": "\"Peloponnesian Wars (military history).\" EBSCO Research Starters: History (2019).",
+        "url": "https://www.ebsco.com/research-starters/history/peloponnesian-wars-military-history"
+      },
+      {
+        "citation": "Wikidata. \"Peloponnesian War\" (Q33745), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q33745"
+      }
+    ],
+    "disputed": false
+  },
+  "sides": [
+    {
+      "id": "athens-and-delian-league",
+      "label": {
+        "en": "Athens and the Delian League",
+        "es": "Atenas y la Liga de Delos",
+        "zh": "雅典与提洛同盟"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Athens",
+            "es": "Atenas",
+            "zh": "雅典"
+          },
+          "role": "belligerent",
+          "today": [
+            "GR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Delian League cities of the Aegean islands and Greece, and allies such as Corcyra and Plataea",
+            "es": "Ciudades de la Liga de Delos en las islas del Egeo y en Grecia, y aliados como Corcira y Platea",
+            "zh": "爱琴海诸岛和希腊本土的提洛同盟城邦，以及科西拉、普拉提亚等盟友"
+          },
+          "role": "belligerent",
+          "today": [
+            "GR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Delian League cities of Asia Minor",
+            "es": "Ciudades de la Liga de Delos en Asia Menor",
+            "zh": "小亚细亚的提洛同盟城邦"
+          },
+          "role": "belligerent",
+          "today": [
+            "TR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sparta-and-peloponnesian-league",
+      "label": {
+        "en": "Sparta, the Peloponnesian League and their allies",
+        "es": "Esparta, la Liga del Peloponeso y sus aliados",
+        "zh": "斯巴达、伯罗奔尼撒同盟及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Sparta",
+            "es": "Esparta",
+            "zh": "斯巴达"
+          },
+          "role": "belligerent",
+          "today": [
+            "GR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Corinth, Thebes and the other Peloponnesian League allies",
+            "es": "Corinto, Tebas y los demás aliados de la Liga del Peloponeso",
+            "zh": "科林斯、底比斯及伯罗奔尼撒同盟的其他盟邦"
+          },
+          "role": "belligerent",
+          "today": [
+            "GR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Syracuse",
+            "es": "Siracusa",
+            "zh": "叙拉古"
+          },
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Achaemenid Persian Empire (allied with Sparta from 412 BCE; paid for its fleet)",
+            "es": "Imperio aqueménida persa (aliado de Esparta desde el 412 a. e. c.; pagó su flota)",
+            "zh": "波斯阿契美尼德帝国（公元前412年起与斯巴达结盟，出资建立其舰队）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IR"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "thebes-attacks-plataea",
+      "start": -430,
+      "title": {
+        "en": "Theban troops attack Plataea, an ally of Athens; Archidamus II then leads the Peloponnesian army into Attica",
+        "es": "Tropas tebanas atacan Platea, aliada de Atenas; después Arquidamo II entra en el Ática con el ejército peloponesio",
+        "zh": "底比斯军队进攻雅典的盟友普拉提亚；随后阿希达穆斯二世率伯罗奔尼撒军队进入阿提卡"
+      },
+      "sources": [
+        {
+          "citation": "\"Peloponnesian Wars (military history).\" EBSCO Research Starters: History (2019).",
+          "url": "https://www.ebsco.com/research-starters/history/peloponnesian-wars-military-history"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Peloponnesian War.\" World History Encyclopedia (2018).",
+          "url": "https://www.worldhistory.org/Peloponnesian_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Peloponnesian War.\"",
+          "url": "https://en.wikipedia.org/wiki/Peloponnesian_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Plataea",
+          "es": "Platea",
+          "zh": "普拉提亚"
+        },
+        "lat": 38.221,
+        "lon": 23.274
+      }
+    },
+    {
+      "id": "plague-of-athens",
+      "start": -429,
+      "end": -425,
+      "title": {
+        "en": "Plague breaks out in Athens, crowded with people from the countryside; it kills Pericles in 429 BCE",
+        "es": "Una epidemia estalla en Atenas, abarrotada de gente del campo; en el 429 a. e. c. mata a Pericles",
+        "zh": "瘟疫在挤满乡村避难者的雅典暴发；公元前429年伯里克利死于瘟疫"
+      },
+      "sources": [
+        {
+          "citation": "\"Peloponnesian Wars (military history).\" EBSCO Research Starters: History (2019).",
+          "url": "https://www.ebsco.com/research-starters/history/peloponnesian-wars-military-history"
+        },
+        {
+          "citation": "Wikipedia (English). \"Peloponnesian War.\"",
+          "url": "https://en.wikipedia.org/wiki/Peloponnesian_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Pericles.\"",
+          "url": "https://en.wikipedia.org/wiki/Pericles"
+        }
+      ],
+      "note": {
+        "en": "Estimates of its toll run from about a third to two-thirds of the city's people.",
+        "es": "Las estimaciones de sus víctimas van de alrededor de un tercio a dos tercios de la población de la ciudad.",
+        "zh": "对其死亡人数的估计从全城人口的约三分之一到三分之二不等。"
+      },
+      "place": {
+        "name": {
+          "en": "Athens",
+          "es": "Atenas",
+          "zh": "雅典"
+        },
+        "lat": 37.972,
+        "lon": 23.727
+      },
+      "wikidataId": "Q758173"
+    },
+    {
+      "id": "battle-of-sphacteria",
+      "start": -424,
+      "title": {
+        "en": "Athenian forces under Demosthenes and Cleon trap Spartan soldiers on Sphacteria, off Pylos, and take 292 of them prisoner",
+        "es": "Las fuerzas atenienses de Demóstenes y Cleón cercan a soldados espartanos en Esfacteria, frente a Pilos, y hacen prisioneros a 292",
+        "zh": "德摩斯梯尼和克里昂率领的雅典军队在皮洛斯外的斯法克特里亚岛围困斯巴达士兵，俘虏其中292人"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"Sphacteria (425 BCE).\" Livius.org.",
+          "url": "https://www.livius.org/articles/battle/sphacteria/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Sphacteria.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Sphacteria"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Sphacteria",
+          "es": "Esfacteria",
+          "zh": "斯法克特里亚"
+        },
+        "lat": 36.93,
+        "lon": 21.666
+      },
+      "wikidataId": "Q176416"
+    },
+    {
+      "id": "battle-of-amphipolis",
+      "start": -421,
+      "title": {
+        "en": "An Athenian army tries to retake Amphipolis; both Cleon and the Spartan general Brasidas are killed, and the Peace of Nicias is signed the next year",
+        "es": "Un ejército ateniense intenta recuperar Anfípolis; mueren tanto Cleón como el general espartano Brásidas, y al año siguiente se firma la Paz de Nicias",
+        "zh": "雅典军队试图夺回安菲波利斯；克里昂和斯巴达将军伯拉西达双双阵亡，次年双方签订尼西阿斯和约"
+      },
+      "sources": [
+        {
+          "citation": "\"Peloponnesian Wars (military history).\" EBSCO Research Starters: History (2019).",
+          "url": "https://www.ebsco.com/research-starters/history/peloponnesian-wars-military-history"
+        },
+        {
+          "citation": "Wikipedia (English). \"Peloponnesian War.\"",
+          "url": "https://en.wikipedia.org/wiki/Peloponnesian_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Amphipolis",
+          "es": "Anfípolis",
+          "zh": "安菲波利斯"
+        },
+        "lat": 40.824,
+        "lon": 23.847
+      },
+      "wikidataId": "Q637544"
+    },
+    {
+      "id": "siege-of-melos",
+      "start": -415,
+      "title": {
+        "en": "Athens besieges the neutral island of Melos; after it surrenders, the Athenians kill its men and sell its women and children into slavery",
+        "es": "Atenas sitia la isla neutral de Melos; tras su rendición, los atenienses matan a sus hombres y venden como esclavos a sus mujeres y niños",
+        "zh": "雅典围攻中立的米洛斯岛；该岛投降后，雅典人杀死岛上男子，将妇女儿童卖为奴隶"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Siege of Melos.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Melos"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Peloponnesian War.\" World History Encyclopedia (2018).",
+          "url": "https://www.worldhistory.org/Peloponnesian_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Peloponnesian War.\"",
+          "url": "https://en.wikipedia.org/wiki/Peloponnesian_War"
+        }
+      ],
+      "note": {
+        "en": "The siege began in the summer of 416 BCE; Melos surrendered that winter.",
+        "es": "El asedio empezó en el verano del 416 a. e. c.; Melos se rindió ese invierno.",
+        "zh": "围城始于公元前416年夏季，米洛斯于当年冬季投降。"
+      },
+      "place": {
+        "name": {
+          "en": "Melos",
+          "es": "Melos",
+          "zh": "米洛斯"
+        },
+        "lat": 36.683,
+        "lon": 24.417
+      },
+      "wikidataId": "Q2889436"
+    },
+    {
+      "id": "sicilian-expedition-destroyed",
+      "start": -412,
+      "title": {
+        "en": "At Syracuse the Athenian fleet is beaten in the Great Harbour, and the retreating army is killed or captured; Nicias and Demosthenes are executed",
+        "es": "En Siracusa la flota ateniense es derrotada en el Puerto Grande y el ejército en retirada muere o cae prisionero; Nicias y Demóstenes son ejecutados",
+        "zh": "雅典舰队在叙拉古大港战败，撤退的陆军或被杀或被俘；尼西阿斯和德摩斯梯尼被处死"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Peloponnesian War.\" World History Encyclopedia (2018).",
+          "url": "https://www.worldhistory.org/Peloponnesian_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Peloponnesian War.\"",
+          "url": "https://en.wikipedia.org/wiki/Peloponnesian_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Sicilian Expedition.\"",
+          "url": "https://en.wikipedia.org/wiki/Sicilian_Expedition"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Syracuse",
+          "es": "Siracusa",
+          "zh": "叙拉古"
+        },
+        "lat": 37.069,
+        "lon": 15.287
+      },
+      "wikidataId": "Q844289"
+    },
+    {
+      "id": "battle-of-aegospotami",
+      "start": -404,
+      "title": {
+        "en": "Lysander's fleet captures almost the whole Athenian fleet on the beach at Aegospotami; about 3,000 Athenian prisoners are killed",
+        "es": "La flota de Lisandro captura casi toda la flota ateniense en la playa de Egospótamos; unos 3.000 prisioneros atenienses son ejecutados",
+        "zh": "吕山德的舰队在伊哥斯波塔米海滩俘获几乎全部雅典舰船；约3000名雅典俘虏被杀"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Peloponnesian War.\" World History Encyclopedia (2018).",
+          "url": "https://www.worldhistory.org/Peloponnesian_War/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Aegospotami.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Aegospotami"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Aegospotami",
+          "es": "Egospótamos",
+          "zh": "伊哥斯波塔米"
+        },
+        "lat": 40.25,
+        "lon": 26.55
+      },
+      "wikidataId": "Q866862"
+    },
+    {
+      "id": "athens-surrenders",
+      "start": -403,
+      "title": {
+        "en": "Besieged and starving, Athens surrenders; its Long Walls are pulled down and it gives up its fleet",
+        "es": "Sitiada y hambrienta, Atenas se rinde; sus Muros Largos son derribados y entrega su flota",
+        "zh": "被围困且陷入饥荒的雅典投降；长墙被拆毁，舰队被收缴"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Peloponnesian War.\" World History Encyclopedia (2018).",
+          "url": "https://www.worldhistory.org/Peloponnesian_War/"
+        },
+        {
+          "citation": "\"Peloponnesian Wars (military history).\" EBSCO Research Starters: History (2019).",
+          "url": "https://www.ebsco.com/research-starters/history/peloponnesian-wars-military-history"
+        },
+        {
+          "citation": "Wikipedia (English). \"Peloponnesian War.\"",
+          "url": "https://en.wikipedia.org/wiki/Peloponnesian_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Athens",
+          "es": "Atenas",
+          "zh": "雅典"
+        },
+        "lat": 37.972,
+        "lon": 23.727
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Pericles",
+        "es": "Pericles",
+        "zh": "伯里克利"
+      },
+      "side": "athens-and-delian-league",
+      "role": {
+        "en": "Athenian statesman and general, to 429 BCE",
+        "es": "Estadista y general ateniense, hasta el 429 a. e. c.",
+        "zh": "雅典政治家和将军（至公元前429年）"
+      },
+      "wikidataId": "Q80398"
+    },
+    {
+      "name": {
+        "en": "Cleon",
+        "es": "Cleón",
+        "zh": "克里昂"
+      },
+      "side": "athens-and-delian-league",
+      "role": {
+        "en": "Athenian politician and general; killed at Amphipolis",
+        "es": "Político y general ateniense; murió en Anfípolis",
+        "zh": "雅典政治家和将军；在安菲波利斯阵亡"
+      },
+      "wikidataId": "Q298220"
+    },
+    {
+      "name": {
+        "en": "Demosthenes",
+        "es": "Demóstenes",
+        "zh": "德摩斯梯尼"
+      },
+      "side": "athens-and-delian-league",
+      "role": {
+        "en": "Athenian general at Pylos and Syracuse",
+        "es": "General ateniense en Pilos y Siracusa",
+        "zh": "皮洛斯和叙拉古战役中的雅典将军"
+      },
+      "wikidataId": "Q504986"
+    },
+    {
+      "name": {
+        "en": "Nicias",
+        "es": "Nicias",
+        "zh": "尼西阿斯"
+      },
+      "side": "athens-and-delian-league",
+      "role": {
+        "en": "Athenian general; negotiated the peace of 421 BCE and led the Sicilian expedition",
+        "es": "General ateniense; negoció la paz del 421 a. e. c. y dirigió la expedición a Sicilia",
+        "zh": "雅典将军；促成公元前421年和约，并率领西西里远征"
+      },
+      "wikidataId": "Q315822"
+    },
+    {
+      "name": {
+        "en": "Alcibiades",
+        "es": "Alcibíades",
+        "zh": "阿尔西比亚德斯"
+      },
+      "side": "athens-and-delian-league",
+      "role": {
+        "en": "Athenian general; went over to Sparta in 415 BCE, later commanded Athenian fleets again",
+        "es": "General ateniense; se pasó a Esparta en el 415 a. e. c. y después volvió a mandar flotas atenienses",
+        "zh": "雅典将军；公元前415年投奔斯巴达，后来再度指挥雅典舰队"
+      },
+      "wikidataId": "Q187982"
+    },
+    {
+      "name": {
+        "en": "Archidamus II",
+        "es": "Arquidamo II",
+        "zh": "阿希达穆斯二世"
+      },
+      "side": "sparta-and-peloponnesian-league",
+      "role": {
+        "en": "King of Sparta; led the first invasions of Attica",
+        "es": "Rey de Esparta; dirigió las primeras incursiones en el Ática",
+        "zh": "斯巴达国王；率领最初几次进入阿提卡的出征"
+      },
+      "wikidataId": "Q313731"
+    },
+    {
+      "name": {
+        "en": "Brasidas",
+        "es": "Brásidas",
+        "zh": "伯拉西达"
+      },
+      "side": "sparta-and-peloponnesian-league",
+      "role": {
+        "en": "Spartan general; took Amphipolis, killed there in 422 BCE",
+        "es": "General espartano; tomó Anfípolis y murió allí en el 422 a. e. c.",
+        "zh": "斯巴达将军；攻占安菲波利斯，公元前422年在该地阵亡"
+      },
+      "wikidataId": "Q311742"
+    },
+    {
+      "name": {
+        "en": "Gylippus",
+        "es": "Gilipo",
+        "zh": "古利普斯"
+      },
+      "side": "sparta-and-peloponnesian-league",
+      "role": {
+        "en": "Spartan commander at Syracuse",
+        "es": "Comandante espartano en Siracusa",
+        "zh": "叙拉古的斯巴达指挥官"
+      },
+      "wikidataId": "Q504975"
+    },
+    {
+      "name": {
+        "en": "Agis II",
+        "es": "Agis II",
+        "zh": "阿基斯二世"
+      },
+      "side": "sparta-and-peloponnesian-league",
+      "role": {
+        "en": "King of Sparta; held the fort at Decelea in Attica",
+        "es": "Rey de Esparta; ocupó el fuerte de Decelia en el Ática",
+        "zh": "斯巴达国王；驻守阿提卡的狄凯里亚要塞"
+      },
+      "wikidataId": "Q202826"
+    },
+    {
+      "name": {
+        "en": "Lysander",
+        "es": "Lisandro",
+        "zh": "吕山德"
+      },
+      "side": "sparta-and-peloponnesian-league",
+      "role": {
+        "en": "Spartan admiral at Aegospotami",
+        "es": "Almirante espartano en Egospótamos",
+        "zh": "伊哥斯波塔米战役中的斯巴达海军统帅"
+      },
+      "wikidataId": "Q143559"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "ancient-greece"
+  ],
+  "sources": [
+    {
+      "citation": "Cartwright, Mark. \"Peloponnesian War.\" World History Encyclopedia (2018).",
+      "url": "https://www.worldhistory.org/Peloponnesian_War/"
+    },
+    {
+      "citation": "\"Peloponnesian Wars (military history).\" EBSCO Research Starters: History (2019).",
+      "url": "https://www.ebsco.com/research-starters/history/peloponnesian-wars-military-history"
+    },
+    {
+      "citation": "Lendering, Jona. \"Sphacteria (425 BCE).\" Livius.org.",
+      "url": "https://www.livius.org/articles/battle/sphacteria/"
+    },
+    {
+      "citation": "Wikipedia (English). \"Peloponnesian War.\"",
+      "url": "https://en.wikipedia.org/wiki/Peloponnesian_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra del Peloponeso.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_del_Peloponeso"
+    },
+    {
+      "citation": "Wikipedia (中文). \"伯罗奔尼撒战争.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/%E4%BC%AF%E7%BD%97%E5%A5%94%E5%B0%BC%E6%92%92%E6%88%98%E4%BA%89"
+    }
+  ]
+}
