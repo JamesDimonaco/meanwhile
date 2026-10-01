@@ -13,13 +13,13 @@
     "wikidata": {
       "name": "Wikidata",
       "licence": "CC0",
-      "used": "Nombres de civilizaciones en varios idiomas, identificadores que enlazan a más información, y coordenadas para los marcadores del mapa cuando Pleiades no tiene una entrada.",
+      "used": "Nombres de civilizaciones y guerras en varios idiomas, identificadores de guerras, batallas y líderes que enlazan a más información, y coordenadas para los marcadores del mapa cuando Pleiades no tiene una entrada.",
       "changes": "Los nombres se copian tal como se publicaron; algunos además se traducen automáticamente cuando Wikidata aún no tiene una entrada en ese idioma."
     },
     "cliopatria": {
       "name": "Cliopatria",
       "licence": "CC BY 4.0",
-      "used": "Polígonos de fronteras históricas para los mapas de territorio de Roma, Egipto, el Imperio carolingio, el Sacro Imperio Romano Germánico, las dinastías Qin, Han, Tang, Song, Yuan, Ming y Qing, los incas y los aztecas.",
+      "used": "Polígonos de fronteras históricas para los mapas de territorio de Roma, Egipto, el Imperio carolingio, el Sacro Imperio Romano Germánico, las dinastías Qin, Han, Tang, Song, Yuan, Ming y Qing, los incas y los aztecas, y para el mapa de las guerras púnicas.",
       "changes": "Los polígonos se simplifican para un mapa pequeño y rápido, sus años a. e. c. se convierten a la numeración usada aquí, y se republican bajo la misma licencia con atribución. Los cambios hechos para cada mapa figuran en las obras citadas, más abajo. Se publica por separado, y bajo una licencia distinta, del propio conjunto de datos de Seshat (véase abajo)."
     },
     "pleiades": {
@@ -28,11 +28,32 @@
       "used": "Identificadores y coordenadas de lugares antiguos para los marcadores de eventos en el mapa.",
       "changes": "Las coordenadas se copian tal como se publicaron."
     },
+    "ucdp": {
+      "name": "Uppsala Conflict Data Program (UCDP)",
+      "licence": "CC BY 4.0",
+      "used": "Fechas y bandos de las guerras desde 1946 (UCDP/PRIO Armed Conflict Dataset v26.1) y rangos de muertes en combate desde 1989 (UCDP Battle-Related Deaths Dataset v26.1), cada uno con la fecha hasta la que cuenta.",
+      "changes": "Las estimaciones baja y alta se suman sobre los conflictos y años de cada guerra y se muestran como un rango, con la etiqueta de muertes en combate. No se cambia nada más.",
+      "cite": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4). Gleditsch, N. P., Wallensteen, P., Eriksson, M., Sollenberg, M. & Strand, H. (2002). Armed Conflict 1946–2001: A New Dataset. Journal of Peace Research 39(5). Pettersson, T. (2026). UCDP Battle-related Deaths Dataset Codebook v26.1."
+    },
+    "correlatesOfWar": {
+      "name": "Correlates of War",
+      "licence": "Solo datos citados",
+      "used": "Una comprobación de las fechas y los bandos de las guerras entre 1816 y 2007 (Inter-State y Extra-State War Data v4.0, Intra-State War Data v4.1).",
+      "changes": "Los conjuntos de datos no se republican aquí, ni total ni parcialmente; solo aparecen datos sueltos contrastados con ellos, redactados con nuestras propias palabras.",
+      "cite": "Sarkees, M. R. & Wayman, F. (2010). Resort to War: 1816–2007. Washington DC: CQ Press."
+    },
+    "brecke": {
+      "name": "Conflict Catalog (Peter Brecke)",
+      "licence": "Se pide citarlo",
+      "used": "Encontrar guerras y fechas entre 1400 y 1816.",
+      "changes": "Su autor dice que está sin terminar, así que cada guerra y fecha tomada de él se comprobó en otras fuentes antes de usarla. No se republica nada.",
+      "cite": "Brecke, P. (1999). Violent Conflicts 1400 A.D. to the Present in Different Regions of the World. Paper presented at the 1999 Meeting of the Peace Science Society (International), Ann Arbor, Michigan."
+    },
     "naturalEarth": {
       "name": "Natural Earth",
       "licence": "Dominio público",
-      "used": "Las costas y la forma de las tierras bajo los mapas de territorio.",
-      "changes": "La capa de tierras a escala 1:50m se recorta a tres regiones (Europa, el Mediterráneo, Oriente Próximo y el valle del Nilo; Asia oriental; las Américas) y se simplifica, para que cada mapa cargue solo su región."
+      "used": "Las costas y la forma de las tierras bajo los mapas de territorio y los mapas de guerras.",
+      "changes": "La capa de tierras a escala 1:50m se recorta a tres regiones (Europa, el Mediterráneo, Oriente Próximo y el valle del Nilo; Asia oriental; las Américas) y se simplifica, para que cada mapa cargue solo su región. Los mapas de guerras usan las tierras de todo el mundo, simplificadas del mismo modo."
     },
     "fonts": {
       "name": "Inter y Noto Sans SC",
@@ -43,10 +64,11 @@
     "flagIcons": {
       "name": "flag-icons",
       "licence": "MIT",
-      "used": "Las pequeñas banderas del país actual donde estaba el núcleo de cada cultura.",
+      "used": "Las pequeñas banderas del país actual donde estaba el núcleo de cada cultura, y de los países actuales de cada bando de una guerra.",
       "changes": "Copiadas sin cambios; solo se sirven las banderas que muestra la aplicación."
     }
   },
   "neverUsed": "Nunca usado: el propio conjunto de datos del Seshat Global History Databank, que es solo de uso no comercial.",
+  "citeHeading": "Cítese como",
   "worksCited": "Todas las obras citadas en los datos ({count, number})"
 }

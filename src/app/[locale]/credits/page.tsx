@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
-import { hasTerritoryMap, loadBorders, loadCultures, loadSuccession } from "@/lib/data/load";
+import { hasTerritoryMap, loadBorders, loadCultures, loadSuccession, loadWars } from "@/lib/data/load";
+import { warsShownIn } from "@/lib/data/wars";
+import type { Locale } from "@/i18n/locales";
 import type { Source } from "@/lib/data/schema";
 import { openGraph, pageAlternates } from "@/lib/seo";
 
@@ -19,10 +21,26 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/credits"
   };
 }
 
-const SOURCE_KEYS = ["periodo", "wikidata", "cliopatria", "pleiades", "naturalEarth", "flagIcons", "fonts"] as const;
+const SOURCE_KEYS = [
+  "periodo",
+  "wikidata",
+  "cliopatria",
+  "pleiades",
+  "ucdp",
+  "correlatesOfWar",
+  "brecke",
+  "naturalEarth",
+  "flagIcons",
+  "fonts",
+] as const;
+type SourceKey = (typeof SOURCE_KEYS)[number];
 
-/** Every source cited anywhere in the dataset, once each, alphabetical. */
-function worksCited(): Source[] {
+/** The datasets that ask to be cited in a set form. */
+const CITED_KEYS = ["ucdp", "correlatesOfWar", "brecke"] as const;
+const isCited = (key: SourceKey): key is (typeof CITED_KEYS)[number] => (CITED_KEYS as readonly string[]).includes(key);
+
+/** Every source cited anywhere in the dataset, once each, alphabetical; a war only where the review gate shows it. */
+function worksCited(locale: Locale): Source[] {
   const byCitation = new Map<string, Source>();
   const add = (sources: Source[]) => sources.forEach((s) => byCitation.set(s.citation, s));
   for (const c of loadCultures()) {
@@ -30,6 +48,10 @@ function worksCited(): Source[] {
     if (hasTerritoryMap(c.id)) add(loadBorders(c.id).sources);
   }
   for (const link of loadSuccession()) add(link.sources);
+  for (const w of warsShownIn(loadWars(), locale)) {
+    for (const item of [w.period ?? w.ongoing, ...w.phases, ...w.events, ...w.casualties, w]) if (item) add(item.sources);
+    if (hasTerritoryMap(w.id)) add(loadBorders(w.id).sources);
+  }
   return [...byCitation.values()].sort((a, b) => a.citation.localeCompare(b.citation, "en"));
 }
 
@@ -37,7 +59,7 @@ function worksCited(): Source[] {
 export default async function CreditsPage({ params }: PageProps<"/[locale]/credits">) {
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "credits" });
-  const works = worksCited();
+  const works = worksCited(locale);
 
   return (
     <section className="mx-auto flex w-full max-w-xl flex-col gap-6 pt-4">
@@ -58,6 +80,12 @@ export default async function CreditsPage({ params }: PageProps<"/[locale]/credi
             </div>
             <p className="text-sm text-muted-foreground">{t(`sources.${key}.used`)}</p>
             <p className="text-sm text-muted-foreground">{t(`sources.${key}.changes`)}</p>
+            {isCited(key) && (
+              <p className="text-sm text-muted-foreground">
+                <span className="font-medium text-foreground">{t("citeHeading")}: </span>
+                {t(`sources.${key}.cite`)}
+              </p>
+            )}
           </li>
         ))}
       </ul>

@@ -13,13 +13,13 @@
     "wikidata": {
       "name": "Wikidata",
       "licence": "CC0",
-      "used": "Civilisation names in many languages, identifiers linking to further reading, and coordinates for map pins where Pleiades has no entry.",
+      "used": "Names of civilisations and wars in many languages, identifiers for wars, battles and leaders linking to further reading, and coordinates for map pins where Pleiades has no entry.",
       "changes": "Names are copied as published; some are additionally machine-translated where Wikidata has no entry in a language yet."
     },
     "cliopatria": {
       "name": "Cliopatria",
       "licence": "CC BY 4.0",
-      "used": "Historical border polygons for the territory maps of Rome, Egypt, the Carolingian Empire, the Holy Roman Empire, the Qin, Han, Tang, Song, Yuan, Ming and Qing dynasties, the Inca and the Aztecs.",
+      "used": "Historical border polygons for the territory maps of Rome, Egypt, the Carolingian Empire, the Holy Roman Empire, the Qin, Han, Tang, Song, Yuan, Ming and Qing dynasties, the Inca and the Aztecs, and for the map of the Punic Wars.",
       "changes": "Polygons are simplified for a small, fast map, their BCE years are converted to the numbering used here, and they are republished under the same licence with attribution. What was changed for each map is listed in the works cited below. Published separately from, and under a different licence to, Seshat's own dataset (see below)."
     },
     "pleiades": {
@@ -28,11 +28,32 @@
       "used": "Ancient place identifiers and coordinates for event map pins.",
       "changes": "Coordinates are copied as published."
     },
+    "ucdp": {
+      "name": "Uppsala Conflict Data Program (UCDP)",
+      "licence": "CC BY 4.0",
+      "used": "Dates and sides of wars since 1946 (UCDP/PRIO Armed Conflict Dataset v26.1), and battle-death ranges since 1989 (UCDP Battle-Related Deaths Dataset v26.1), each with the date it counts to.",
+      "changes": "Low and high estimates are summed over a war's conflicts and years and shown as a range, labelled battle deaths. Nothing else is changed.",
+      "cite": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4). Gleditsch, N. P., Wallensteen, P., Eriksson, M., Sollenberg, M. & Strand, H. (2002). Armed Conflict 1946–2001: A New Dataset. Journal of Peace Research 39(5). Pettersson, T. (2026). UCDP Battle-related Deaths Dataset Codebook v26.1."
+    },
+    "correlatesOfWar": {
+      "name": "Correlates of War",
+      "licence": "Cited facts only",
+      "used": "A cross-check of the dates and sides of wars between 1816 and 2007 (Inter-State and Extra-State War Data v4.0, Intra-State War Data v4.1).",
+      "changes": "The datasets are not republished here, in whole or in part; only individual facts checked against them appear, written in our own words.",
+      "cite": "Sarkees, M. R. & Wayman, F. (2010). Resort to War: 1816–2007. Washington DC: CQ Press."
+    },
+    "brecke": {
+      "name": "Conflict Catalog (Peter Brecke)",
+      "licence": "Citation requested",
+      "used": "Finding wars and dates between 1400 and 1816.",
+      "changes": "Its author calls it unfinished, so every war and date taken from it was checked against other sources before use. Nothing is republished.",
+      "cite": "Brecke, P. (1999). Violent Conflicts 1400 A.D. to the Present in Different Regions of the World. Paper presented at the 1999 Meeting of the Peace Science Society (International), Ann Arbor, Michigan."
+    },
     "naturalEarth": {
       "name": "Natural Earth",
       "licence": "Public domain",
-      "used": "The coastlines and land shapes under the territory maps.",
-      "changes": "The 1:50m land layer is clipped to three regions (Europe, the Mediterranean, the Near East and the Nile valley; East Asia; the Americas) and simplified, so each map loads only its own region."
+      "used": "The coastlines and land shapes under the territory maps and the war maps.",
+      "changes": "The 1:50m land layer is clipped to three regions (Europe, the Mediterranean, the Near East and the Nile valley; East Asia; the Americas) and simplified, so each map loads only its own region. War maps use the whole world's land, simplified the same way."
     },
     "fonts": {
       "name": "Inter and Noto Sans SC",
@@ -43,10 +64,11 @@
     "flagIcons": {
       "name": "flag-icons",
       "licence": "MIT",
-      "used": "The small flags showing the present-day country where each culture's heartland was.",
+      "used": "The small flags showing the present-day country where each culture's heartland was, and the present-day countries on each side of a war.",
       "changes": "Copied unchanged; only the flags the app shows are served."
     }
   },
   "neverUsed": "Never used: the Seshat Global History Databank's own dataset, which is non-commercial only.",
+  "citeHeading": "Cite as",
   "worksCited": "Every work cited in the data ({count, number})"
 }

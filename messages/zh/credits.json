@@ -13,13 +13,13 @@
     "wikidata": {
       "name": "Wikidata",
       "licence": "CC0",
-      "used": "各文明的多语言名称、指向延伸阅读的标识符，以及 Pleiades 未收录地点的地图标记坐标。",
+      "used": "各文明和战争的多语言名称、战争、战役和领导人指向延伸阅读的标识符，以及 Pleiades 未收录地点的地图标记坐标。",
       "changes": "名称按原样引用；若 Wikidata 尚无某语言的词条，另行以机器翻译补充。"
     },
     "cliopatria": {
       "name": "Cliopatria",
       "licence": "CC BY 4.0",
-      "used": "罗马、埃及、加洛林帝国、神圣罗马帝国，秦、汉、唐、宋、元、明、清各朝，以及印加和阿兹特克疆域地图所用的历史边界多边形。",
+      "used": "罗马、埃及、加洛林帝国、神圣罗马帝国，秦、汉、唐、宋、元、明、清各朝，以及印加和阿兹特克的疆域地图和布匿战争地图所用的历史边界多边形。",
       "changes": "为保持地图轻量快速，多边形已作简化处理，其公元前年份已换算为本站所用的纪年方式，并在标注来源的前提下以相同许可再发布。每幅地图的具体改动列于下方的引用文献中。其发布与 Seshat 自身数据集分开，许可条款也不同（见下文）。"
     },
     "pleiades": {
@@ -28,11 +28,32 @@
       "used": "事件地图标记所用的古代地点标识符与坐标。",
       "changes": "坐标按原样引用。"
     },
+    "ucdp": {
+      "name": "乌普萨拉冲突数据项目（UCDP）",
+      "licence": "CC BY 4.0",
+      "used": "1946年以来各场战争的日期和交战各方（UCDP/PRIO Armed Conflict Dataset v26.1），以及1989年以来的战斗死亡人数范围（UCDP Battle-Related Deaths Dataset v26.1），每项都注明统计截止日期。",
+      "changes": "将一场战争所含冲突和年份的低值与高值分别相加，以范围显示，并标为战斗死亡。其他内容未作改动。",
+      "cite": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4). Gleditsch, N. P., Wallensteen, P., Eriksson, M., Sollenberg, M. & Strand, H. (2002). Armed Conflict 1946–2001: A New Dataset. Journal of Peace Research 39(5). Pettersson, T. (2026). UCDP Battle-related Deaths Dataset Codebook v26.1."
+    },
+    "correlatesOfWar": {
+      "name": "Correlates of War（战争相关因素）",
+      "licence": "仅引用个别事实",
+      "used": "用于核对1816年至2007年间战争的日期和交战各方（Inter-State 和 Extra-State War Data v4.0，Intra-State War Data v4.1）。",
+      "changes": "本站不以任何形式再发布这些数据集；只出现经其核对的个别事实，并以我们自己的文字写成。",
+      "cite": "Sarkees, M. R. & Wayman, F. (2010). Resort to War: 1816–2007. Washington DC: CQ Press."
+    },
+    "brecke": {
+      "name": "Conflict Catalog（Peter Brecke）",
+      "licence": "要求注明出处",
+      "used": "用于查找1400年至1816年间的战争及其日期。",
+      "changes": "作者称其尚未完成，因此取自其中的每场战争和每个日期在使用前都经其他来源核对。未再发布任何内容。",
+      "cite": "Brecke, P. (1999). Violent Conflicts 1400 A.D. to the Present in Different Regions of the World. Paper presented at the 1999 Meeting of the Peace Science Society (International), Ann Arbor, Michigan."
+    },
     "naturalEarth": {
       "name": "Natural Earth",
       "licence": "公共领域",
-      "used": "疆域地图底图中的海岸线与陆地轮廓。",
-      "changes": "将 1:50m 陆地图层裁剪为三个区域（欧洲、地中海、近东与尼罗河流域；东亚；美洲）并进行简化，每幅地图只加载所在区域。"
+      "used": "疆域地图和战争地图底图中的海岸线与陆地轮廓。",
+      "changes": "将 1:50m 陆地图层裁剪为三个区域（欧洲、地中海、近东与尼罗河流域；东亚；美洲）并进行简化，每幅地图只加载所在区域。战争地图使用全球陆地，以同样方式简化。"
     },
     "fonts": {
       "name": "Inter 与 Noto Sans SC",
@@ -43,10 +64,11 @@
     "flagIcons": {
       "name": "flag-icons",
       "licence": "MIT",
-      "used": "标示各文明核心地区今属国家的小旗帜。",
+      "used": "标示各文明核心地区今属国家，以及战争各方今属国家的小旗帜。",
       "changes": "原样复制；只提供应用中显示的旗帜。"
     }
   },
   "neverUsed": "未使用：Seshat Global History Databank 自身的数据集，其许可仅限非商业用途。",
+  "citeHeading": "引用格式",
   "worksCited": "数据中引用的全部文献（{count, number}）"
 }
