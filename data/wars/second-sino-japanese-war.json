@@ -1,0 +1,759 @@
+{
+  "id": "second-sino-japanese-war",
+  "wikidataId": "Q170314",
+  "name": {
+    "en": "Second Sino-Japanese War",
+    "es": "Segunda guerra sino-japonesa",
+    "zh": "中国抗日战争"
+  },
+  "aliases": [
+    "War of Resistance against Japan",
+    "Guerra de resistencia contra la agresión japonesa",
+    "抗日战争",
+    "八年抗战",
+    "十四年抗战",
+    "第二次中日战争",
+    "日中戦争",
+    "Nanjing Massacre",
+    "Nanking Massacre",
+    "Masacre de Nankín",
+    "南京大屠杀",
+    "Marco Polo Bridge",
+    "卢沟桥事变",
+    "七七事变",
+    "Mukden incident",
+    "九一八事变"
+  ],
+  "altNames": [
+    {
+      "text": "中国人民抗日战争",
+      "lang": "zh-Hans",
+      "usedBy": {
+        "en": "China",
+        "es": "China",
+        "zh": "中国"
+      },
+      "gloss": {
+        "en": "The Chinese People's War of Resistance against Japanese Aggression",
+        "es": "Guerra de Resistencia del Pueblo Chino contra la Agresión Japonesa",
+        "zh": "中国人民抗日战争"
+      }
+    },
+    {
+      "text": "日中戦争",
+      "lang": "ja",
+      "usedBy": {
+        "en": "Japan",
+        "es": "Japón",
+        "zh": "日本"
+      },
+      "gloss": {
+        "en": "Japan–China War",
+        "es": "Guerra entre Japón y China",
+        "zh": "日中战争"
+      }
+    }
+  ],
+  "description": {
+    "en": "In September 1931 Japan's Kwantung Army used an explosion on the railway near Mukden as a pretext to occupy Manchuria, where Japan set up the state of Manchukuo in 1932. After troops clashed at the Marco Polo Bridge near Beiping on 7 July 1937, full-scale war followed. Japanese forces took Shanghai after three months of fighting and the capital, Nanjing, in December 1937, where Japanese troops killed large numbers of prisoners and civilians. The Nationalist government moved inland, to Wuhan and then Chongqing, while Communist-led forces fought behind Japanese lines in the north. Chinese forces won at Taierzhuang in 1938, but Japan held most large cities, railways and the coast, and in 1940 installed a collaborationist government under Wang Jingwei in Nanjing. The Soviet Union sent aid and volunteer airmen from 1937; after Pearl Harbor in December 1941 the war became part of the Second World War, with the United States fighting alongside China. Japan's Ichi-Go offensive of 1944 overran much of central and southern China. Japan's forces in China surrendered at Nanjing on 9 September 1945.",
+    "es": "En septiembre de 1931 el Ejército de Kwantung japonés usó una explosión en el ferrocarril cerca de Mukden como pretexto para ocupar Manchuria, donde Japón creó el Estado de Manchukuo en 1932. Tras un choque de tropas en el puente de Marco Polo, cerca de Beiping, el 7 de julio de 1937, siguió la guerra abierta. Las fuerzas japonesas tomaron Shanghái tras tres meses de combates y la capital, Nankín, en diciembre de 1937, donde tropas japonesas mataron a gran número de prisioneros y civiles. El gobierno nacionalista se trasladó al interior, a Wuhan y luego a Chongqing, mientras fuerzas dirigidas por los comunistas combatían tras las líneas japonesas en el norte. Las fuerzas chinas vencieron en Taierzhuang en 1938, pero Japón dominaba la mayoría de las grandes ciudades, los ferrocarriles y la costa, y en 1940 instaló en Nankín un gobierno colaboracionista encabezado por Wang Jingwei. La Unión Soviética envió ayuda y aviadores voluntarios desde 1937; tras Pearl Harbor, en diciembre de 1941, la guerra pasó a formar parte de la Segunda Guerra Mundial, con Estados Unidos combatiendo junto a China. La ofensiva japonesa Ichi-Go de 1944 arrolló gran parte del centro y el sur de China. Las fuerzas japonesas en China se rindieron en Nankín el 9 de septiembre de 1945.",
+    "zh": "1931年9月，日本关东军以沈阳附近铁路爆炸为借口占领中国东北，并于1932年在当地建立满洲国。1937年7月7日双方军队在北平附近的卢沟桥发生冲突后，全面战争随之爆发。日军经过三个月战斗攻占上海，并于1937年12月攻占首都南京，日军在南京杀害了大批战俘和平民。国民政府迁往内地，先到武汉，后到重庆；中国共产党领导的部队则在华北敌后作战。1938年中国军队在台儿庄取胜，但日本控制了大部分大城市、铁路和沿海地区，并于1940年在南京扶植以汪精卫为首的合作政权。苏联自1937年起提供援助并派出志愿飞行员；1941年12月珍珠港事件后，这场战争成为第二次世界大战的一部分，美国与中国并肩作战。日本1944年的“一号作战”席卷了华中和华南大片地区。1945年9月9日，在华日军在南京投降。"
+  },
+  "outcome": {
+    "en": "Japan surrendered to the Allies in August 1945, and its forces in China surrendered at Nanjing on 9 September 1945; Manchukuo and the Wang Jingwei government ended with them.",
+    "es": "Japón se rindió a los Aliados en agosto de 1945 y sus fuerzas en China se rindieron en Nankín el 9 de septiembre de 1945; Manchukuo y el gobierno de Wang Jingwei desaparecieron con ellas.",
+    "zh": "日本于1945年8月向同盟国投降，在华日军于1945年9月9日在南京投降；满洲国和汪精卫政权随之结束。"
+  },
+  "tier": "standard",
+  "sensitive": true,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1931,
+    "latestStart": 1937,
+    "earliestEnd": 1945,
+    "latestEnd": 1945,
+    "sources": [
+      {
+        "citation": "Wikipedia (中文). \"中国抗日战争.\"",
+        "url": "https://zh.wikipedia.org/wiki/中国抗日战争"
+      },
+      {
+        "citation": "Wikipedia (English). \"Second Sino-Japanese War.\"",
+        "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War"
+      },
+      {
+        "citation": "Wikipedia (español). \"Segunda guerra sino-japonesa.\"",
+        "url": "https://es.wikipedia.org/wiki/Segunda_guerra_sino-japonesa"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "The start is disputed. Most international histories date the war from the Marco Polo Bridge incident of 7 July 1937; since 2017 China's official histories count a fourteen-year war from the Mukden incident of 18 September 1931. Japan's forces in China surrendered on 9 September 1945.",
+      "es": "El inicio se discute. La mayoría de las historias internacionales fechan la guerra desde el incidente del puente de Marco Polo del 7 de julio de 1937; desde 2017 las historias oficiales de China cuentan una guerra de catorce años desde el incidente de Mukden del 18 de septiembre de 1931. Las fuerzas japonesas en China se rindieron el 9 de septiembre de 1945.",
+      "zh": "起点存在争议。多数国际史著从1937年7月7日卢沟桥事变算起；自2017年起，中国官方史书从1931年9月18日九一八事变算起，称十四年抗战。在华日军于1945年9月9日投降。"
+    }
+  },
+  "sides": [
+    {
+      "id": "china-and-allies",
+      "label": {
+        "en": "China: the Nationalist government, Communist-led forces and their allies",
+        "es": "China: el gobierno nacionalista, las fuerzas dirigidas por los comunistas y sus aliados",
+        "zh": "中国：国民政府、中国共产党领导的部队及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Republic of China (Nationalist government)",
+            "es": "República de China (gobierno nacionalista)",
+            "zh": "中华民国国民政府"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Communist-led Eighth Route Army and New Fourth Army",
+            "es": "Octavo Ejército de Ruta y Nuevo Cuarto Ejército, dirigidos por los comunistas",
+            "zh": "中国共产党领导的八路军和新四军"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Soviet Volunteer Group (1937–1941)",
+            "es": "Grupo de Voluntarios Soviéticos (1937-1941)",
+            "zh": "苏联航空志愿队（1937—1941年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "RU"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "belligerent",
+          "today": [
+            "US"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan-and-client-states",
+      "label": {
+        "en": "Empire of Japan and its client governments",
+        "es": "Imperio del Japón y sus gobiernos clientes",
+        "zh": "大日本帝国及其扶植政权"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Empire of Japan",
+            "es": "Imperio del Japón",
+            "zh": "大日本帝国"
+          },
+          "role": "belligerent",
+          "today": [
+            "JP"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Manchukuo",
+            "es": "Manchukuo",
+            "zh": "满洲国"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Wang Jingwei regime (Nanjing, 1940–1945)",
+            "es": "Régimen de Wang Jingwei (Nankín, 1940-1945)",
+            "zh": "汪精卫国民政府（南京，1940—1945年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "mukden-incident",
+      "start": 1931,
+      "title": {
+        "en": "A charge explodes on the Japanese-owned railway near Mukden (Shenyang) on 18 September; Japan's Kwantung Army blames Chinese troops and within months occupies Manchuria, where Japan sets up Manchukuo in 1932",
+        "es": "Una carga explota en el ferrocarril de propiedad japonesa cerca de Mukden (Shenyang) el 18 de septiembre; el Ejército de Kwantung japonés culpa a tropas chinas y en pocos meses ocupa Manchuria, donde Japón crea Manchukuo en 1932",
+        "zh": "9月18日，沈阳（奉天）附近日本所有的铁路发生爆炸；日本关东军嫁祸中国军队，数月内占领中国东北，并于1932年在当地建立满洲国"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"The Mukden Incident of 1931 and the Stimson Doctrine.\"",
+          "url": "https://history.state.gov/milestones/1921-1936/mukden-incident"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mukden incident.\"",
+          "url": "https://en.wikipedia.org/wiki/Mukden_incident"
+        },
+        {
+          "citation": "Wikipedia (中文). \"中国抗日战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/中国抗日战争"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Japan blamed Chinese saboteurs at the time; historians widely hold that Japanese officers planted the charge as a pretext.",
+        "es": "Japón culpó entonces a saboteadores chinos; los historiadores sostienen en general que oficiales japoneses colocaron la carga como pretexto.",
+        "zh": "日本当时把爆炸归咎于中国破坏者；历史学家普遍认为是日本军官自行安放炸药以制造借口。"
+      },
+      "place": {
+        "name": {
+          "en": "Liutiaohu, near Mukden (Shenyang)",
+          "es": "Liutiaohu, cerca de Mukden (Shenyang)",
+          "zh": "柳条湖（沈阳附近）"
+        },
+        "lat": 41.835,
+        "lon": 123.466
+      },
+      "wikidataId": "Q242099"
+    },
+    {
+      "id": "marco-polo-bridge",
+      "start": 1937,
+      "title": {
+        "en": "Japanese and Chinese troops exchange fire at the Marco Polo Bridge (Lugou Bridge) near Beiping on 7 July; the clash grows into full-scale war",
+        "es": "Tropas japonesas y chinas intercambian disparos en el puente de Marco Polo (puente de Lugou), cerca de Beiping, el 7 de julio; el choque se convierte en guerra abierta",
+        "zh": "7月7日，日本和中国军队在北平附近的卢沟桥交火；冲突演变为全面战争"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Marco Polo Bridge incident.\"",
+          "url": "https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident"
+        },
+        {
+          "citation": "\"Japan and the Two World Wars.\" Encyclopedia of Modern Europe: Europe Since 1914. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/japan-and-two-world-wars"
+        },
+        {
+          "citation": "Wikipedia (中文). \"中国抗日战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/中国抗日战争"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Marco Polo Bridge (Lugou Bridge), near Beijing",
+          "es": "Puente de Marco Polo (Lugou), cerca de Pekín",
+          "zh": "卢沟桥（北京附近）"
+        },
+        "lat": 39.849,
+        "lon": 116.213
+      },
+      "wikidataId": "Q219230"
+    },
+    {
+      "id": "battle-of-shanghai",
+      "start": 1937,
+      "title": {
+        "en": "Fighting begins in Shanghai on 13 August; after three months of battle Chinese forces withdraw in November",
+        "es": "Los combates comienzan en Shanghái el 13 de agosto; tras tres meses de batalla, las fuerzas chinas se retiran en noviembre",
+        "zh": "8月13日，上海爆发战斗；经过三个月激战，中国军队于11月撤出"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Battle of Shanghai.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Shanghai"
+        },
+        {
+          "citation": "Wikipedia (中文). \"淞沪会战.\"",
+          "url": "https://zh.wikipedia.org/wiki/淞沪会战"
+        },
+        {
+          "citation": "Wikipedia (中文). \"中国抗日战争.\"",
+          "url": "https://zh.wikipedia.org/wiki/中国抗日战争"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Shanghai",
+          "es": "Shanghái",
+          "zh": "上海"
+        },
+        "lat": 31.232,
+        "lon": 121.469
+      },
+      "wikidataId": "Q254599"
+    },
+    {
+      "id": "nanjing-taken-and-massacre",
+      "start": 1937,
+      "title": {
+        "en": "Japanese forces take Nanjing, then China's capital, on 13 December. Over the following weeks Japanese troops kill large numbers of captured soldiers and civilians in the city and around it, rape women and girls, and loot the city and burn about a third of it: the Nanjing Massacre",
+        "es": "Las fuerzas japonesas toman Nankín, entonces capital de China, el 13 de diciembre. En las semanas siguientes, tropas japonesas matan a gran número de soldados capturados y civiles en la ciudad y sus alrededores, violan a mujeres y niñas, y saquean la ciudad e incendian cerca de un tercio de ella: la masacre de Nankín",
+        "zh": "12月13日，日军攻占当时的中国首都南京。此后数周，日军在城内及周边杀害大批被俘士兵和平民，强奸妇女，洗劫城市并焚毁约三分之一的城区，即南京大屠杀"
+      },
+      "sources": [
+        {
+          "citation": "International Military Tribunal for the Far East. Judgment (November 1948), Chapter VIII: Conventional War Crimes (Atrocities), via HyperWar.",
+          "url": "https://www.ibiblio.org/hyperwar/PTO/IMTFE/IMTFE-8.html"
+        },
+        {
+          "citation": "Xinhua, via english.www.gov.cn. \"China holds national memorial for Nanjing Massacre victims, calling for remembrance of history.\" 13 December 2025.",
+          "url": "https://english.www.gov.cn/news/202512/13/content_WS693d2193c6d00ca5f9a08107.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Nanjing Massacre.\"",
+          "url": "https://en.wikipedia.org/wiki/Nanjing_Massacre"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The toll is contested. China's government gives about 300,000 civilians and unarmed soldiers killed over six weeks, the figure also reached by the Nanjing war crimes tribunal in 1947. The Tokyo tribunal (IMTFE) found that over 200,000 civilians and prisoners of war were killed in Nanjing and its vicinity in the first six weeks. Historians' estimates run from about 40,000 for the city alone to over 300,000 for the wider region; many recent studies give 100,000 to 200,000.",
+        "es": "La cifra de víctimas se discute. El gobierno de China da unos 300.000 civiles y soldados desarmados muertos en seis semanas, la cifra a la que también llegó el tribunal de crímenes de guerra de Nankín en 1947. El tribunal de Tokio (TMILO) concluyó que más de 200.000 civiles y prisioneros de guerra fueron asesinados en Nankín y sus alrededores en las seis primeras semanas. Las estimaciones de los historiadores van de unos 40.000 solo para la ciudad a más de 300.000 para la región; muchos estudios recientes dan entre 100.000 y 200.000.",
+        "zh": "死亡人数存在争议。中国政府称六周内约30万平民和放下武器的士兵被杀，1947年南京审判战犯军事法庭得出的也是这一数字。远东国际军事法庭（东京审判）认定，占领后最初六周内在南京及其附近被杀害的平民和战俘超过20万人。历史学家的估计从仅计城内的约4万人到涵盖更大区域的30万人以上不等；不少近年研究给出10万至20万人。"
+      },
+      "place": {
+        "name": {
+          "en": "Nanjing",
+          "es": "Nankín",
+          "zh": "南京"
+        },
+        "lat": 32.06,
+        "lon": 118.79
+      },
+      "wikidataId": "Q192055"
+    },
+    {
+      "id": "battle-of-taierzhuang",
+      "start": 1938,
+      "title": {
+        "en": "Chinese forces under Li Zongren defeat a Japanese advance at Taierzhuang in March and April, the war's first major Chinese victory",
+        "es": "Fuerzas chinas al mando de Li Zongren derrotan un avance japonés en Taierzhuang en marzo y abril, la primera gran victoria china de la guerra",
+        "zh": "3月至4月，李宗仁指挥的中国军队在台儿庄击败日军的进攻，这是战争中中国的第一次重大胜利"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Battle of Taierzhuang.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Taierzhuang"
+        },
+        {
+          "citation": "Wikipedia (español). \"Segunda guerra sino-japonesa.\"",
+          "url": "https://es.wikipedia.org/wiki/Segunda_guerra_sino-japonesa"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Taierzhuang",
+          "es": "Taierzhuang",
+          "zh": "台儿庄"
+        },
+        "lat": 34.557,
+        "lon": 117.731
+      },
+      "wikidataId": "Q626796"
+    },
+    {
+      "id": "hundred-regiments-offensive",
+      "start": 1940,
+      "title": {
+        "en": "From 20 August the Communist-led Eighth Route Army attacks Japanese-held railways, mines and posts across north China, above all the Zhengtai (Shijiazhuang–Taiyuan) railway",
+        "es": "Desde el 20 de agosto el Octavo Ejército de Ruta, dirigido por los comunistas, ataca ferrocarriles, minas y puestos en poder japonés en todo el norte de China, sobre todo el ferrocarril de Zhengtai (Shijiazhuang-Taiyuan)",
+        "zh": "8月20日起，中国共产党领导的八路军在华北各地袭击日军控制的铁路、矿山和据点，重点是正太（石家庄—太原）铁路"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Hundred Regiments Offensive.\"",
+          "url": "https://en.wikipedia.org/wiki/Hundred_Regiments_Offensive"
+        },
+        {
+          "citation": "Wikipedia (中文). \"百团大战.\"",
+          "url": "https://zh.wikipedia.org/wiki/百团大战"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Zhengtai railway near Yangquan",
+          "es": "Ferrocarril de Zhengtai cerca de Yangquan",
+          "zh": "正太铁路（阳泉附近）"
+        },
+        "lat": 37.857,
+        "lon": 113.58
+      },
+      "wikidataId": "Q709261"
+    },
+    {
+      "id": "operation-ichi-go",
+      "start": 1944,
+      "title": {
+        "en": "Japan's Ichi-Go offensive from April drives through central and southern China to link its northern and southern holdings; Hengyang falls on 8 August after a siege of more than six weeks",
+        "es": "La ofensiva japonesa Ichi-Go, desde abril, avanza por el centro y el sur de China para unir sus territorios del norte y del sur; Hengyang cae el 8 de agosto tras un asedio de más de seis semanas",
+        "zh": "4月起，日本发动“一号作战”，贯穿华中和华南，打通南北占领区；衡阳在被围六周多后于8月8日陷落"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Operation Ichi-Go.\"",
+          "url": "https://en.wikipedia.org/wiki/Operation_Ichi-Go"
+        },
+        {
+          "citation": "Wikipedia (español). \"Segunda guerra sino-japonesa.\"",
+          "url": "https://es.wikipedia.org/wiki/Segunda_guerra_sino-japonesa"
+        },
+        {
+          "citation": "Wikipedia (English). \"Defense of Hengyang.\"",
+          "url": "https://en.wikipedia.org/wiki/Defense_of_Hengyang"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Hengyang",
+          "es": "Hengyang",
+          "zh": "衡阳"
+        },
+        "lat": 26.89,
+        "lon": 112.57
+      },
+      "wikidataId": "Q696448"
+    },
+    {
+      "id": "surrender-at-nanjing",
+      "start": 1945,
+      "title": {
+        "en": "After the Japanese emperor announces Japan's surrender on 15 August, General Yasuji Okamura signs the surrender of Japan's forces in China to He Yingqin at Nanjing on 9 September",
+        "es": "Después de que el emperador japonés anuncie la rendición de Japón el 15 de agosto, el general Yasuji Okamura firma la rendición de las fuerzas japonesas en China ante He Yingqin en Nankín el 9 de septiembre",
+        "zh": "日本天皇于8月15日宣布投降后，9月9日，冈村宁次大将在南京向何应钦签署中国战区日军投降书"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (中文). \"第二次世界大战中国战区受降仪式.\"",
+          "url": "https://zh.wikipedia.org/wiki/第二次世界大战中国战区受降仪式"
+        },
+        {
+          "citation": "Wikipedia (español). \"Segunda guerra sino-japonesa.\"",
+          "url": "https://es.wikipedia.org/wiki/Segunda_guerra_sino-japonesa"
+        },
+        {
+          "citation": "\"Japan and the Two World Wars.\" Encyclopedia of Modern Europe: Europe Since 1914. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/japan-and-two-world-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Nanjing",
+          "es": "Nankín",
+          "zh": "南京"
+        },
+        "lat": 32.06,
+        "lon": 118.79
+      },
+      "wikidataId": "Q15909897"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Chiang Kai-shek",
+        "es": "Chiang Kai-shek",
+        "zh": "蒋介石"
+      },
+      "side": "china-and-allies",
+      "role": {
+        "en": "Head of the Nationalist government and commander-in-chief",
+        "es": "Jefe del gobierno nacionalista y comandante en jefe",
+        "zh": "国民政府领导人、最高统帅"
+      },
+      "wikidataId": "Q16574"
+    },
+    {
+      "name": {
+        "en": "Mao Zedong",
+        "es": "Mao Zedong",
+        "zh": "毛泽东"
+      },
+      "side": "china-and-allies",
+      "role": {
+        "en": "Leader of the Chinese Communist Party",
+        "es": "Líder del Partido Comunista de China",
+        "zh": "中国共产党领导人"
+      },
+      "wikidataId": "Q5816"
+    },
+    {
+      "name": {
+        "en": "Zhu De",
+        "es": "Zhu De",
+        "zh": "朱德"
+      },
+      "side": "china-and-allies",
+      "role": {
+        "en": "Commander of the Eighth Route Army",
+        "es": "Comandante del Octavo Ejército de Ruta",
+        "zh": "八路军总司令"
+      },
+      "wikidataId": "Q22513"
+    },
+    {
+      "name": {
+        "en": "Peng Dehuai",
+        "es": "Peng Dehuai",
+        "zh": "彭德怀"
+      },
+      "side": "china-and-allies",
+      "role": {
+        "en": "Deputy commander of the Eighth Route Army; led the Hundred Regiments Offensive",
+        "es": "Subcomandante del Octavo Ejército de Ruta; dirigió la ofensiva de los Cien Regimientos",
+        "zh": "八路军副总司令；指挥百团大战"
+      },
+      "wikidataId": "Q381823"
+    },
+    {
+      "name": {
+        "en": "Li Zongren",
+        "es": "Li Zongren",
+        "zh": "李宗仁"
+      },
+      "side": "china-and-allies",
+      "role": {
+        "en": "Nationalist commander at Taierzhuang",
+        "es": "Comandante nacionalista en Taierzhuang",
+        "zh": "台儿庄战役中的国军指挥官"
+      },
+      "wikidataId": "Q20297"
+    },
+    {
+      "name": {
+        "en": "Joseph Stilwell",
+        "es": "Joseph Stilwell",
+        "zh": "约瑟夫·史迪威"
+      },
+      "side": "china-and-allies",
+      "role": {
+        "en": "US general; chief of staff to Chiang Kai-shek, 1942–1944",
+        "es": "General estadounidense; jefe de Estado Mayor de Chiang Kai-shek, 1942-1944",
+        "zh": "美国将领；1942—1944年任蒋介石的参谋长"
+      },
+      "wikidataId": "Q346551"
+    },
+    {
+      "name": {
+        "en": "Hirohito",
+        "es": "Hirohito",
+        "zh": "昭和天皇"
+      },
+      "side": "japan-and-client-states",
+      "role": {
+        "en": "Emperor of Japan",
+        "es": "Emperador de Japón",
+        "zh": "日本天皇"
+      },
+      "wikidataId": "Q34479"
+    },
+    {
+      "name": {
+        "en": "Fumimaro Konoe",
+        "es": "Fumimaro Konoe",
+        "zh": "近卫文麿"
+      },
+      "side": "japan-and-client-states",
+      "role": {
+        "en": "Prime minister of Japan in 1937–1939 and 1940–1941",
+        "es": "Primer ministro de Japón en 1937-1939 y 1940-1941",
+        "zh": "日本首相（1937—1939年、1940—1941年）"
+      },
+      "wikidataId": "Q315594"
+    },
+    {
+      "name": {
+        "en": "Iwane Matsui",
+        "es": "Iwane Matsui",
+        "zh": "松井石根"
+      },
+      "side": "japan-and-client-states",
+      "role": {
+        "en": "Commander at Shanghai and Nanjing, 1937; executed after the Tokyo tribunal",
+        "es": "Comandante en Shanghái y Nankín, 1937; ejecutado tras el tribunal de Tokio",
+        "zh": "1937年上海、南京战役的日军指挥官；东京审判后被处决"
+      },
+      "wikidataId": "Q353901"
+    },
+    {
+      "name": {
+        "en": "Yasuji Okamura",
+        "es": "Yasuji Okamura",
+        "zh": "冈村宁次"
+      },
+      "side": "japan-and-client-states",
+      "role": {
+        "en": "Commander of the China Expeditionary Army; signed the surrender in Nanjing",
+        "es": "Comandante del Ejército Expedicionario de China; firmó la rendición en Nankín",
+        "zh": "中国派遣军总司令；在南京签署投降书"
+      },
+      "wikidataId": "Q704640"
+    },
+    {
+      "name": {
+        "en": "Wang Jingwei",
+        "es": "Wang Jingwei",
+        "zh": "汪精卫"
+      },
+      "side": "japan-and-client-states",
+      "role": {
+        "en": "Head of the Japanese-backed government in Nanjing",
+        "es": "Jefe del gobierno de Nankín respaldado por Japón",
+        "zh": "日本扶植的南京政府首脑"
+      },
+      "wikidataId": "Q22303"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "total-deaths",
+      "who": {
+        "en": "Chinese soldiers and civilians",
+        "es": "Soldados y civiles chinos",
+        "zh": "中国军人和平民"
+      },
+      "low": 14000000,
+      "high": 22000000,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Sino-Japanese War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Segunda guerra sino-japonesa.\"",
+          "url": "https://es.wikipedia.org/wiki/Segunda_guerra_sino-japonesa"
+        }
+      ],
+      "note": {
+        "en": "Rough estimates: about 14 million (Rana Mitter), about 20 million (Barrett and Shyu) and up to 22 million (Clodfelter). China's government cites 35 million Chinese casualties, killed and wounded.",
+        "es": "Estimaciones aproximadas: unos 14 millones (Rana Mitter), unos 20 millones (Barrett y Shyu) y hasta 22 millones (Clodfelter). El gobierno de China cita 35 millones de bajas chinas, entre muertos y heridos.",
+        "zh": "粗略估计：约1400万人（芮纳·米特），约2000万人（巴雷特与徐），最多2200万人（克洛德费尔特）。中国政府援引的数字为中国伤亡（死亡和受伤）3500万人。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "china-and-allies",
+      "who": {
+        "en": "Nationalist armed forces",
+        "es": "Fuerzas armadas nacionalistas",
+        "zh": "国民政府军队"
+      },
+      "low": 1319958,
+      "high": 1319958,
+      "attributedTo": {
+        "en": "Nationalist government official figures",
+        "es": "cifras oficiales del gobierno nacionalista",
+        "zh": "国民政府官方数字"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Sino-Japanese War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre sino-japonaise (1937-1945).\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_sino-japonaise_(1937-1945)"
+        }
+      ],
+      "note": {
+        "en": "Regular army only, 1937–1945. Other estimates, such as R. J. Rummel's, put Chinese military dead and missing at 3 to 4 million.",
+        "es": "Solo el ejército regular, 1937-1945. Otras estimaciones, como la de R. J. Rummel, sitúan los militares chinos muertos y desaparecidos en 3 a 4 millones.",
+        "zh": "仅含正规军，1937—1945年。另有估计（如R·J·拉梅尔）认为中国军人死亡和失踪300万至400万人。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "japan-and-client-states",
+      "who": {
+        "en": "Japanese armed forces",
+        "es": "Fuerzas armadas japonesas",
+        "zh": "日本军队"
+      },
+      "low": 455700,
+      "high": 700000,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Sino-Japanese War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War"
+        },
+        {
+          "citation": "Wikipedia (français). \"Guerre sino-japonaise (1937-1945).\"",
+          "url": "https://fr.wikipedia.org/wiki/Guerre_sino-japonaise_(1937-1945)"
+        },
+        {
+          "citation": "Wikipedia (español). \"Segunda guerra sino-japonesa.\"",
+          "url": "https://es.wikipedia.org/wiki/Segunda_guerra_sino-japonesa"
+        }
+      ],
+      "note": {
+        "en": "From Japanese records; the low figure is from the Chidorigafuchi National Cemetery, the high from a 1983 Yomiuri Shimbun history.",
+        "es": "Según registros japoneses; la cifra baja procede del Cementerio Nacional de Chidorigafuchi y la alta de una historia publicada por el Yomiuri Shimbun en 1983.",
+        "zh": "据日本方面的记录；下限出自千鸟渊国家公墓，上限出自《读卖新闻》1983年出版的战史。"
+      }
+    }
+  ],
+  "cultures": [],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Second Sino-Japanese War.\"",
+      "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War"
+    },
+    {
+      "citation": "Wikipedia (中文). \"中国抗日战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/中国抗日战争"
+    },
+    {
+      "citation": "Wikipedia (español). \"Segunda guerra sino-japonesa.\"",
+      "url": "https://es.wikipedia.org/wiki/Segunda_guerra_sino-japonesa"
+    },
+    {
+      "citation": "Wikipedia (français). \"Guerre sino-japonaise (1937-1945).\"",
+      "url": "https://fr.wikipedia.org/wiki/Guerre_sino-japonaise_(1937-1945)"
+    },
+    {
+      "citation": "Office of the Historian, U.S. Department of State. \"The Mukden Incident of 1931 and the Stimson Doctrine.\"",
+      "url": "https://history.state.gov/milestones/1921-1936/mukden-incident"
+    },
+    {
+      "citation": "\"Japan and the Two World Wars.\" Encyclopedia of Modern Europe: Europe Since 1914. Charles Scribner's Sons, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/japan-and-two-world-wars"
+    },
+    {
+      "citation": "\"Sino-Japanese Wars.\" World Encyclopedia. Oxford University Press, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/asia-and-africa/chinese-and-taiwanese-history/sino-japanese-wars"
+    },
+    {
+      "citation": "International Military Tribunal for the Far East. Judgment (November 1948), Chapter VIII: Conventional War Crimes (Atrocities), via HyperWar.",
+      "url": "https://www.ibiblio.org/hyperwar/PTO/IMTFE/IMTFE-8.html"
+    },
+    {
+      "citation": "Xinhua, via english.www.gov.cn. \"China holds national memorial for Nanjing Massacre victims, calling for remembrance of history.\" 13 December 2025.",
+      "url": "https://english.www.gov.cn/news/202512/13/content_WS693d2193c6d00ca5f9a08107.html"
+    },
+    {
+      "citation": "Wikipedia (English). \"Nanjing Massacre.\"",
+      "url": "https://en.wikipedia.org/wiki/Nanjing_Massacre"
+    }
+  ]
+}
