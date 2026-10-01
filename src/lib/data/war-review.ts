@@ -7,7 +7,7 @@ export const SENSITIVE_WARS: ReadonlySet<string> = new Set([
   "second-sino-japanese-war",
   "vietnam-war",
   "russo-ukrainian-war",
-  "russian-invasion-of-ukraine",
+  "russo-ukrainian-war-2022",
   "falklands-war",
 ]);
 
