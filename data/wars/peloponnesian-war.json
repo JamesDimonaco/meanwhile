@@ -367,9 +367,14 @@
       "id": "battle-of-aegospotami",
       "start": -404,
       "title": {
-        "en": "Lysander's fleet captures almost the whole Athenian fleet on the beach at Aegospotami; about 3,000 Athenian prisoners are killed",
-        "es": "La flota de Lisandro captura casi toda la flota ateniense en la playa de Egospótamos; unos 3.000 prisioneros atenienses son ejecutados",
-        "zh": "吕山德的舰队在伊哥斯波塔米海滩俘获几乎全部雅典舰船；约3000名雅典俘虏被杀"
+        "en": "Lysander's fleet captures almost the whole Athenian fleet on the beach at Aegospotami; the Athenian prisoners are killed",
+        "es": "La flota de Lisandro captura casi toda la flota ateniense en la playa de Egospótamos; los prisioneros atenienses son matados",
+        "zh": "吕山德的舰队在伊哥斯波塔米海滩俘获几乎全部雅典舰船；雅典俘虏被杀"
+      },
+      "note": {
+        "en": "Plutarch says about 3,000 prisoners were killed; Pausanias says 4,000.",
+        "es": "Plutarco dice que fueron matados unos 3.000 prisioneros; Pausanias dice que 4.000.",
+        "zh": "据普鲁塔克记载，约3000名俘虏被杀；保萨尼亚斯则称有4000人。"
       },
       "sources": [
         {
@@ -379,6 +384,14 @@
         {
           "citation": "Wikipedia (English). \"Battle of Aegospotami.\"",
           "url": "https://en.wikipedia.org/wiki/Battle_of_Aegospotami"
+        },
+        {
+          "citation": "Plutarch. Life of Lysander 11 and 13 (Loeb Classical Library translation by B. Perrin), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Lysander*.html"
+        },
+        {
+          "citation": "Pausanias. Description of Greece 9.32.9 (translation by W. H. S. Jones), via Theoi.com.",
+          "url": "https://www.theoi.com/Text/Pausanias9B.html"
         }
       ],
       "place": {
