@@ -5,8 +5,10 @@ import { validateHeartland } from "./heartland";
 import { Registry, type Borders, type Culture, type SuccessionLink } from "./schema";
 import { validateDataset, type DataFile, type DatasetResult } from "./validate";
 
-// Build-time only (fs). Pages call these in server components; client
-// components receive CultureRef/Culture props, never this module.
+// Server only (fs). Pages call these at build time, in server components;
+// client components receive CultureRef/Culture props, never this module.
+// The one request-time caller, POST /api/scan, uses readCatalogueCultures,
+// which skips the validation pass.
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -43,6 +45,16 @@ export function readDataset(): DatasetResult {
     flagFiles: fs.readdirSync(path.join(process.cwd(), "public/flags")).filter((f) => f.endsWith(".svg")),
   });
   return { ...result, errors: [...result.errors, ...heartlandErrors] };
+}
+
+/** What the scan prompt reads from each culture. */
+export type CatalogueCulture = Pick<Culture, "id" | "name" | "nativeName" | "aliases" | "periods">;
+
+/** The culture files as they are on disk, sorted by id like loadCultures; the build has already validated them. */
+export function readCatalogueCultures(): CatalogueCulture[] {
+  return readJsonFiles(path.join(DATA_DIR, "cultures"))
+    .map((f) => f.data as CatalogueCulture)
+    .sort((a, b) => (a.id < b.id ? -1 : 1));
 }
 
 let cache: DatasetResult | undefined;

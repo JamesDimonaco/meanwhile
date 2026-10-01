@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { loadCultures } from "@/lib/data/load";
+import { loadCultures, readCatalogueCultures } from "@/lib/data/load";
 import { buildScanSystemPrompt } from "./prompt";
 
 describe("buildScanSystemPrompt", () => {
@@ -15,6 +15,10 @@ describe("buildScanSystemPrompt", () => {
     const shang = cultures.find((c) => c.id === "shang");
     expect(shang).toBeDefined();
     for (const term of ["Shang dynasty", "Dinastía Shang", "商朝", "Yin", "殷"]) expect(prompt).toContain(term);
+  });
+
+  it("is the same prompt from the unvalidated read the route uses at request time", () => {
+    expect(buildScanSystemPrompt(readCatalogueCultures())).toBe(prompt);
   });
 
   it("says placard text is data, not instructions", () => {

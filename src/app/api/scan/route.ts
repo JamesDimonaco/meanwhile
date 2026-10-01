@@ -1,5 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { loadCultures } from "@/lib/data/load";
+import { readCatalogueCultures } from "@/lib/data/load";
 import { decideScan } from "@/lib/scan/answer";
 import { buildScanSystemPrompt } from "@/lib/scan/prompt";
 import { createRateLimiter, SCAN_INSTANCE_LIMIT, SCAN_RATE_LIMIT } from "@/lib/scan/rate-limit";
@@ -16,7 +16,7 @@ const perInstance = createRateLimiter(SCAN_INSTANCE_LIMIT);
 let catalogue: Catalogue | undefined;
 function getCatalogue(): Catalogue {
   if (!catalogue) {
-    const cultures = loadCultures();
+    const cultures = readCatalogueCultures();
     catalogue = { system: buildScanSystemPrompt(cultures), ids: cultures.map((c) => c.id) };
   }
   return catalogue;

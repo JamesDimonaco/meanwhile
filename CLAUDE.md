@@ -36,7 +36,7 @@ src/app/culture-data/[file]/route.ts static /culture-data/<id>.json per culture:
 src/i18n/                            locales, routing, navigation, request config, pageLocale()
 src/lib/years.ts                     all year maths and formatting
 src/lib/scan/                        model answer -> destination, upload checks, catalogue prompt, rate limit, the model call
-src/lib/data/                        schema.ts (zod + types), load.ts (fs, build-time), queries.ts, localize.ts, validate.ts
+src/lib/data/                        schema.ts (zod + types), load.ts (fs; build-time, except the scan route's unvalidated catalogue read), queries.ts, localize.ts, validate.ts
 src/components/filters/              region chips + filter state (?regions= on the timeline, localStorage elsewhere)
 src/components/identity/             HeartlandFlags, RegionDot
 src/components/<area>/               see Ownership
