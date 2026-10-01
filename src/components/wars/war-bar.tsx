@@ -1,5 +1,5 @@
 import { scaleLinear } from "d3-scale";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { DisputedBadge } from "@/components/culture/disputed-badge";
 import { YearRangeText } from "@/components/settings/year-text";
 import { FadeGradients, PeriodBar } from "@/components/timeline/timeline-row";
@@ -13,6 +13,7 @@ const HEIGHT = 12;
 /** The war's dates as one bar, fading across uncertain edges, cut into its phases the way Rome's are. */
 export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"> }) {
   const locale = useLocale();
+  const t = useTranslations("wars");
   const [from, to] = warOuter(war);
   const dated = war.period ?? war.ongoing;
   if (!dated) throw new Error("a war needs a period or ongoing");
@@ -42,17 +43,20 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
         <PeriodBar period={period} phases={phases} xScale={xScale} height={HEIGHT} color="var(--primary)" fadeId="war-fade" />
       </svg>
       {war.phases.length > 0 && (
-        <ol className="flex flex-col gap-1 text-sm">
-          {war.phases.map((phase, i) => (
-            <li key={phase.id} className="flex flex-wrap items-baseline gap-x-2">
-              <span className="text-muted-foreground tabular-nums">{i + 1}.</span>
-              <span className="font-medium">{localize(phase.name, locale)}</span>
-              <span className="text-muted-foreground">
-                <YearRangeText start={phase.start} end={phase.end} />
-              </span>
-            </li>
-          ))}
-        </ol>
+        <section className="flex flex-col gap-1">
+          <h2 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">{t("phases")}</h2>
+          <ol className="flex flex-col gap-1 text-sm">
+            {war.phases.map((phase, i) => (
+              <li key={phase.id} className="flex flex-wrap items-baseline gap-x-2">
+                <span className="text-muted-foreground tabular-nums">{i + 1}.</span>
+                <span className="font-medium">{localize(phase.name, locale)}</span>
+                <span className="text-muted-foreground">
+                  <YearRangeText start={phase.start} end={phase.end} />
+                </span>
+              </li>
+            ))}
+          </ol>
+        </section>
       )}
     </div>
   );

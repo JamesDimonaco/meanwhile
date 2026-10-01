@@ -45,18 +45,25 @@ function MemberName({ member, cultureNames, linkCultures }: { member: SideMember
 function SideLine({ side, cultureNames, linkCultures }: { side: Side; cultureNames: CultureNames; linkCultures: boolean }) {
   const t = useTranslations("wars");
   const locale = useLocale();
+  // ListFormat gives each language its own separators ("、" in Chinese); the
+  // members are elements (flags, links), so format their indexes and swap them in.
+  const parts = new Intl.ListFormat(locale, { type: "conjunction" }).formatToParts(side.members.map((_, i) => String(i)));
   return (
-    <p>
+    <div className="flex flex-col">
       <span className="font-medium text-foreground">{localize(side.label, locale)}</span>
-      {": "}
-      {side.members.map((m, i) => (
-        <span key={i}>
-          {i > 0 && ", "}
-          <MemberName member={m} cultureNames={cultureNames} linkCultures={linkCultures} />
-          {m.role === "supporter" && <span className="text-muted-foreground"> ({t("supporting")})</span>}
-        </span>
-      ))}
-    </p>
+      <p>
+        {parts.map((part, i) => {
+          if (part.type === "literal") return <span key={i}>{part.value}</span>;
+          const m = side.members[Number(part.value)];
+          return (
+            <span key={i}>
+              <MemberName member={m} cultureNames={cultureNames} linkCultures={linkCultures} />
+              {m.role === "supporter" && <span className="text-muted-foreground"> ({t("supporting")})</span>}
+            </span>
+          );
+        })}
+      </p>
+    </div>
   );
 }
 
