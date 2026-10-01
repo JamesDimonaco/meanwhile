@@ -173,9 +173,9 @@
       "start": 1789,
       "end": 1790,
       "title": {
-        "en": "Tipu Sultan attacks the Nedumkotta, Travancore's fortified line, on 29 December and is driven back; his forces break through it in April 1790",
-        "es": "Tipu Sultan ataca la Nedumkotta, la línea fortificada de Travancore, el 29 de diciembre y es rechazado; sus fuerzas la rompen en abril de 1790",
-        "zh": "12月29日，蒂普苏丹进攻特拉凡哥尔的防线讷杜姆科塔，被击退；1790年4月，他的军队突破防线"
+        "en": "Tipu Sultan attacks the Nedumkotta, Travancore's fortified line, at the end of December and is driven back; his forces break through it in April 1790",
+        "es": "Tipu Sultan ataca la Nedumkotta, la línea fortificada de Travancore, a finales de diciembre y es rechazado; sus fuerzas la rompen en abril de 1790",
+        "zh": "12月底，蒂普苏丹进攻特拉凡哥尔的防线讷杜姆科塔，被击退；1790年4月，他的军队突破防线"
       },
       "sources": [
         {
@@ -191,6 +191,11 @@
           "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
         }
       ],
+      "note": {
+        "en": "Accounts date the first attack to 28 or 29 December 1789.",
+        "es": "Los relatos fechan el primer ataque el 28 o el 29 de diciembre de 1789.",
+        "zh": "各记载将首次进攻定于1789年12月28日或29日。"
+      },
       "place": {
         "name": {
           "en": "Nedumkotta (Travancore Lines), Thrissur district",
@@ -236,9 +241,9 @@
       "id": "siege-of-bangalore",
       "start": 1791,
       "title": {
-        "en": "Lord Cornwallis's army takes the town of Bangalore in February and storms its fortress on 21 March",
-        "es": "El ejército de lord Cornwallis toma la ciudad de Bangalore en febrero y asalta su fortaleza el 21 de marzo",
-        "zh": "康沃利斯勋爵的军队于2月攻占班加罗尔城，并于3月21日攻入其要塞"
+        "en": "Lord Cornwallis's army reaches Bangalore on 5 March, takes the town on 7 March and storms its fortress on 21 March",
+        "es": "El ejército de lord Cornwallis llega a Bangalore el 5 de marzo, toma la ciudad el 7 de marzo y asalta su fortaleza el 21 de marzo",
+        "zh": "康沃利斯勋爵的军队于3月5日抵达班加罗尔，3月7日攻占城镇，3月21日攻入其要塞"
       },
       "sources": [
         {
@@ -254,6 +259,11 @@
           "url": "https://en.wikipedia.org/wiki/Siege_of_Bangalore"
         }
       ],
+      "note": {
+        "en": "EBSCO's account dates the capture to 2 March 1791.",
+        "es": "El relato de EBSCO fecha la toma el 2 de marzo de 1791.",
+        "zh": "EBSCO的记载将攻占日期定为1791年3月2日。"
+      },
       "place": {
         "name": {
           "en": "Bangalore (Bengaluru)",
@@ -281,18 +291,22 @@
         {
           "citation": "Wikipedia (English). \"Battle of Arakere.\"",
           "url": "https://en.wikipedia.org/wiki/Battle_of_Arakere"
+        },
+        {
+          "citation": "Wikipedia (English). \"Third Anglo-Mysore War.\"",
+          "url": "https://en.wikipedia.org/wiki/Third_Anglo-Mysore_War"
         }
       ],
       "note": {
-        "en": "Accounts date the battle to 13–15 May 1791.",
-        "es": "Los relatos fechan la batalla entre el 13 y el 15 de mayo de 1791.",
-        "zh": "各记载将此战定于1791年5月13日至15日。"
+        "en": "Accounts date the battle to 13–15 May 1791. It was fought on heights by a Kaveri ford near the village of Arakere, about 16 km downstream of Seringapatam; the pin marks Seringapatam because no source gives Arakere's coordinates.",
+        "es": "Los relatos fechan la batalla entre el 13 y el 15 de mayo de 1791. Se libró en unas alturas junto a un vado del Kaveri cerca de la aldea de Arakere, unos 16 km río abajo de Seringapatam; el marcador señala Seringapatam porque ninguna fuente da las coordenadas de Arakere.",
+        "zh": "各记载将此战定于1791年5月13日至15日。战斗发生在塞林伽巴丹下游约16公里、阿拉凯雷村附近的高韦里河渡口旁的高地上；因无资料给出阿拉凯雷的坐标，标记置于塞林伽巴丹。"
       },
       "place": {
         "name": {
-          "en": "Arakere, near Seringapatam",
-          "es": "Arakere, cerca de Seringapatam",
-          "zh": "塞林伽巴丹附近的阿拉凯雷"
+          "en": "Near Seringapatam (Srirangapatna)",
+          "es": "Cerca de Seringapatam (Srirangapatna)",
+          "zh": "塞林伽巴丹（什里伦格伯德讷）附近"
         },
         "lat": 12.418,
         "lon": 76.695
