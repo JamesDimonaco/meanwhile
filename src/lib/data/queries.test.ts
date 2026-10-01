@@ -5,6 +5,7 @@ import {
   activeAt,
   eventsBetween,
   meanwhile,
+  meanwhileAtYear,
   meanwhileCandidates,
   pickMeanwhile,
   successionFor,
@@ -192,6 +193,37 @@ describe("meanwhile", () => {
       expect(pickMeanwhile(inRegions(candidates), anchor.region)).toEqual(ids(meanwhile(anchor, inRegions(cultures))));
     }
     expect(pickMeanwhile(candidates, anchor.region)).toEqual(ids(meanwhile(anchor, cultures)));
+  });
+});
+
+describe("meanwhileAtYear (a war's start year)", () => {
+  const cultures = [
+    culture("aztec", "mesoamerica", [1325, 1325, 1521, 1521], { facts: [fact("aztec-fact", 1400, 1500)] }),
+    culture("inca", "south-america", [1400, 1438, 1532, 1572], { facts: [fact("old", 1440, 1450), fact("now", 1500, 1530)] }),
+    culture("ming", "china", [1368, 1368, 1644, 1644]),
+    culture("edge", "europe", [1500, 1530, 1600, 1600]),
+    culture("gone", "europe", [800, 800, 900, 900]),
+  ];
+
+  it("offers the cultures alive that year, minus the war's own, with the fact that covers the year", () => {
+    const { candidates, cards } = meanwhileAtYear(1519, cultures, ["aztec"]);
+    expect(candidates.map((c) => [c.id, c.fuzzy])).toEqual([
+      ["inca", false],
+      ["ming", false],
+      ["edge", true],
+    ]);
+    expect(cards.inca.fact?.id).toBe("now");
+    expect(cards.ming.fact).toBeNull();
+  });
+
+  it("ranks by how far inside its dates each culture is, and picks without an anchor region when the war has none", () => {
+    const { candidates } = meanwhileAtYear(1519, cultures, []);
+    // Ming is 125 years from either edge, the Inca 13, the Aztec Empire 2; edge only touches the fuzzy start.
+    expect(pickMeanwhile(candidates, null)).toEqual(["ming", "inca", "aztec", "edge"]);
+  });
+
+  it("offers nothing in a year no culture covers", () => {
+    expect(meanwhileAtYear(2000, cultures, []).candidates).toEqual([]);
   });
 });
 

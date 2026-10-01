@@ -146,7 +146,7 @@ export function meanwhileCandidates(
  * region last). Cultures whose likely ranges overlap come first; ones that
  * only touch at the fuzzy edges are used only to reach MIN_MEANWHILE_CARDS.
  */
-export function pickMeanwhile(candidates: readonly MeanwhileCandidate[], anchorRegion: Region): string[] {
+export function pickMeanwhile(candidates: readonly MeanwhileCandidate[], anchorRegion: Region | null): string[] {
   const picked = roundRobin(
     candidates.filter((c) => !c.fuzzy),
     anchorRegion,
@@ -162,13 +162,38 @@ export function pickMeanwhile(candidates: readonly MeanwhileCandidate[], anchorR
   return picked;
 }
 
+/**
+ * Cultures alive in one year, for a page anchored on a moment rather than a
+ * culture (a war's start). Scored by how far inside its dates each one is;
+ * `fuzzy` when the year falls only in a fuzzy edge. `exclude` drops the
+ * page's own cultures.
+ */
+export function meanwhileAtYear(
+  year: number,
+  cultures: readonly Culture[],
+  exclude: readonly string[],
+): { candidates: MeanwhileCandidate[]; cards: Record<string, MeanwhileCard> } {
+  const candidates: MeanwhileCandidate[] = [];
+  const cards: Record<string, MeanwhileCard> = {};
+  for (const c of cultures) {
+    if (exclude.includes(c.id)) continue;
+    const p = defaultPeriod(c);
+    if (!contains(outer(p), year)) continue;
+    const fuzzy = !contains(core(p), year);
+    const score = fuzzy ? Math.min(year - p.earliestStart, p.latestEnd - year) : Math.min(year - p.latestStart, p.earliestEnd - year);
+    candidates.push({ id: c.id, region: c.region, score, fuzzy });
+    cards[c.id] = { culture: toCultureRef(c), fact: bestFact(c.facts, [year, year]) };
+  }
+  return { candidates, cards };
+}
+
 /** Other cultures alive during the anchor's default period: 4–6 cards, see pickMeanwhile. */
 export function meanwhile(anchor: Culture, cultures: readonly Culture[]): MeanwhileCard[] {
   const { candidates, cards } = meanwhileCandidates(anchor, cultures);
   return pickMeanwhile(candidates, anchor.region).map((id) => cards[id]);
 }
 
-function roundRobin(candidates: readonly MeanwhileCandidate[], anchorRegion: Region): string[] {
+function roundRobin(candidates: readonly MeanwhileCandidate[], anchorRegion: Region | null): string[] {
   const groups = REGIONS.map((region) => ({
     region,
     list: candidates

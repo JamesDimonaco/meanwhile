@@ -4,6 +4,8 @@ import countries from "flag-icons/country.json";
 import { validateHeartland } from "./heartland";
 import { Registry, type Borders, type Culture, type SuccessionLink } from "./schema";
 import { validateDataset, type DataFile, type DatasetResult } from "./validate";
+import type { War } from "./war-schema";
+import { warCountryCodes } from "./wars";
 
 // Server only (fs). Pages call these at build time, in server components;
 // client components receive CultureRef/Culture props, never this module.
@@ -37,12 +39,14 @@ export function readDataset(): DatasetResult {
     borderFiles: readJsonFiles(path.join(DATA_DIR, "borders")),
     popular: readJson("popular.json"),
     succession: readJson("succession.json"),
+    warFiles: readJsonFiles(path.join(DATA_DIR, "wars")),
   });
   const heartlandErrors = validateHeartland({
     today: readJson("today.json"),
     registryIds: Registry.safeParse(registry).data?.cultures.map((c) => c.id) ?? [],
     isoCodes: countries.filter((c) => c.iso).map((c) => c.code.toUpperCase()),
     flagFiles: fs.readdirSync(path.join(process.cwd(), "public/flags")).filter((f) => f.endsWith(".svg")),
+    warCodes: warCountryCodes(result.wars),
   });
   return { ...result, errors: [...result.errors, ...heartlandErrors] };
 }
@@ -90,12 +94,18 @@ export function loadSuccession(): SuccessionLink[] {
   return dataset().succession;
 }
 
+/** Every war, sorted by id, review gate not applied: pass through warsShownIn before rendering. */
+export function loadWars(): War[] {
+  return dataset().wars;
+}
+
+/** A culture or war id: both keep their maps in data/borders. */
 export function hasTerritoryMap(id: string): boolean {
-  return dataset().borders.some((b) => b.cultureId === id);
+  return dataset().borders.some((b) => (b.cultureId ?? b.warId) === id);
 }
 
 export function loadBorders(id: string): Borders {
-  const borders = dataset().borders.find((b) => b.cultureId === id);
+  const borders = dataset().borders.find((b) => (b.cultureId ?? b.warId) === id);
   if (!borders) throw new Error(`No borders for "${id}"`);
   return borders;
 }
