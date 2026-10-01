@@ -195,6 +195,18 @@
           "today": [
             "CN"
           ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Mengjiang",
+            "es": "Mengjiang",
+            "zh": "蒙疆联合自治政府"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
         }
       ]
     }
@@ -206,7 +218,7 @@
       "title": {
         "en": "A charge explodes on the Japanese-owned railway near Mukden (Shenyang) on 18 September; Japan's Kwantung Army blames Chinese troops and within months occupies Manchuria, where Japan sets up Manchukuo in 1932",
         "es": "Una carga explota en el ferrocarril de propiedad japonesa cerca de Mukden (Shenyang) el 18 de septiembre; el Ejército de Kwantung japonés culpa a tropas chinas y en pocos meses ocupa Manchuria, donde Japón crea Manchukuo en 1932",
-        "zh": "9月18日，沈阳（奉天）附近日本所有的铁路发生爆炸；日本关东军嫁祸中国军队，数月内占领中国东北，并于1932年在当地建立满洲国"
+        "zh": "9月18日，沈阳（奉天）附近日本所有的铁路发生爆炸；日本关东军指称中国军队所为，数月内占领中国东北，并于1932年在当地建立满洲国"
       },
       "sources": [
         {
@@ -222,7 +234,6 @@
           "url": "https://zh.wikipedia.org/wiki/中国抗日战争"
         }
       ],
-      "disputed": true,
       "note": {
         "en": "Japan blamed Chinese saboteurs at the time; historians widely hold that Japanese officers planted the charge as a pretext.",
         "es": "Japón culpó entonces a saboteadores chinos; los historiadores sostienen en general que oficiales japoneses colocaron la carga como pretexto.",
@@ -311,7 +322,7 @@
       "title": {
         "en": "Japanese forces take Nanjing, then China's capital, on 13 December. Over the following weeks Japanese troops kill large numbers of captured soldiers and civilians in the city and around it, rape women and girls, and loot the city and burn about a third of it: the Nanjing Massacre",
         "es": "Las fuerzas japonesas toman Nankín, entonces capital de China, el 13 de diciembre. En las semanas siguientes, tropas japonesas matan a gran número de soldados capturados y civiles en la ciudad y sus alrededores, violan a mujeres y niñas, y saquean la ciudad e incendian cerca de un tercio de ella: la masacre de Nankín",
-        "zh": "12月13日，日军攻占当时的中国首都南京。此后数周，日军在城内及周边杀害大批被俘士兵和平民，强奸妇女，洗劫城市并焚毁约三分之一的城区，即南京大屠杀"
+        "zh": "12月13日，日军攻占当时的中国首都南京。此后数周，日军在城内及周边杀害大批被俘士兵和平民，强奸妇女和女童，洗劫城市并焚毁约三分之一的城区，即南京大屠杀"
       },
       "sources": [
         {
@@ -327,7 +338,6 @@
           "url": "https://en.wikipedia.org/wiki/Nanjing_Massacre"
         }
       ],
-      "disputed": true,
       "note": {
         "en": "The toll is contested. China's government gives about 300,000 civilians and unarmed soldiers killed over six weeks, the figure also reached by the Nanjing war crimes tribunal in 1947. The Tokyo tribunal (IMTFE) found that over 200,000 civilians and prisoners of war were killed in Nanjing and its vicinity in the first six weeks. Historians' estimates run from about 40,000 for the city alone to over 300,000 for the wider region; many recent studies give 100,000 to 200,000.",
         "es": "La cifra de víctimas se discute. El gobierno de China da unos 300.000 civiles y soldados desarmados muertos en seis semanas, la cifra a la que también llegó el tribunal de crímenes de guerra de Nankín en 1947. El tribunal de Tokio (TMILO) concluyó que más de 200.000 civiles y prisioneros de guerra fueron asesinados en Nankín y sus alrededores en las seis primeras semanas. Las estimaciones de los historiadores van de unos 40.000 solo para la ciudad a más de 300.000 para la región; muchos estudios recientes dan entre 100.000 y 200.000.",
@@ -646,9 +656,9 @@
         }
       ],
       "note": {
-        "en": "Rough estimates: about 14 million (Rana Mitter), about 20 million (Barrett and Shyu) and up to 22 million (Clodfelter). China's government cites 35 million Chinese casualties, killed and wounded.",
-        "es": "Estimaciones aproximadas: unos 14 millones (Rana Mitter), unos 20 millones (Barrett y Shyu) y hasta 22 millones (Clodfelter). El gobierno de China cita 35 millones de bajas chinas, entre muertos y heridos.",
-        "zh": "粗略估计：约1400万人（芮纳·米特），约2000万人（巴雷特与徐），最多2200万人（克洛德费尔特）。中国政府援引的数字为中国伤亡（死亡和受伤）3500万人。"
+        "en": "Rough estimates: about 14 million (Arne Westad, a figure Rana Mitter calls conservative), 15 to 16 million (the consensus range Victor Davis Hanson reports), about 20 million (Duncan Anderson; Barrett and Shyu give about 20 million deaths in the war, mostly civilians) and up to 22 million (Clodfelter). China's government cites 35 million Chinese casualties, killed and wounded.",
+        "es": "Estimaciones aproximadas: unos 14 millones (Arne Westad, cifra que Rana Mitter considera conservadora), de 15 a 16 millones (el rango de consenso que recoge Victor Davis Hanson), unos 20 millones (Duncan Anderson; Barrett y Shyu dan unos 20 millones de muertos en la guerra, la mayoría civiles) y hasta 22 millones (Clodfelter). El gobierno de China cita 35 millones de bajas chinas, entre muertos y heridos.",
+        "zh": "粗略估计：约1400万人（文安立，芮纳·米特认为这一数字偏保守），1500万至1600万人（维克托·戴维斯·汉森所述的共识范围），约2000万人（邓肯·安德森；巴雷特与徐给出的全战争死亡约2000万人，大多为平民），最多2200万人（克洛德费尔特）。中国政府援引的数字为中国伤亡（死亡和受伤）3500万人。"
       }
     },
     {
