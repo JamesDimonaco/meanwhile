@@ -1,0 +1,517 @@
+{
+  "id": "falklands-war",
+  "wikidataId": "Q48249",
+  "name": {
+    "en": "Falklands War",
+    "es": "Guerra de las Malvinas",
+    "zh": "福克兰战争"
+  },
+  "aliases": [
+    "Malvinas War",
+    "Falklands conflict",
+    "South Atlantic War",
+    "Guerra de Malvinas",
+    "Guerra del Atlántico Sur",
+    "Conflicto del Atlántico Sur",
+    "Islas Malvinas",
+    "Falkland Islands",
+    "马岛战争",
+    "马尔维纳斯群岛战争",
+    "福克兰群岛"
+  ],
+  "description": {
+    "en": "Argentina and Britain have both claimed the Falkland Islands, which Argentina calls the Islas Malvinas, since the 1830s. On 2 April 1982 Argentine forces landed near Stanley and took the town after the British governor surrendered its small Royal Marines garrison; the next day they took South Georgia. Britain sent a naval task force south while US Secretary of State Alexander Haig shuttled between the two governments. His mediation failed, and on 30 April the United States publicly backed Britain and later supplied it with missiles. British troops landed on South Georgia on 25 April and its Argentine garrison surrendered. On 2 May a British submarine sank the Argentine cruiser General Belgrano; two days later an Argentine Exocet missile hit the destroyer HMS Sheffield. British forces came ashore at San Carlos on 21 May, took Goose Green a week later and closed on Stanley, where the Argentine commander surrendered on 14 June. 649 Argentine and 255 British servicemen and three islanders died.",
+    "es": "Argentina y el Reino Unido se disputan desde la década de 1830 las islas Malvinas, que en inglés se llaman Falkland Islands. El 2 de abril de 1982 fuerzas argentinas desembarcaron cerca de Puerto Argentino/Stanley y tomaron la localidad después de que el gobernador británico rindiera su pequeña guarnición de infantes de marina; al día siguiente tomaron las Georgias del Sur. El Reino Unido envió al sur una fuerza naval mientras el secretario de Estado estadounidense Alexander Haig viajaba entre ambos gobiernos. Su mediación fracasó, y el 30 de abril Estados Unidos dio su apoyo público al Reino Unido, al que después suministró misiles. Tropas británicas desembarcaron en las Georgias del Sur el 25 de abril y la guarnición argentina se rindió. El 2 de mayo un submarino británico hundió el crucero argentino General Belgrano; dos días después un misil Exocet argentino alcanzó al destructor HMS Sheffield. Las fuerzas británicas desembarcaron en San Carlos el 21 de mayo, tomaron Pradera del Ganso una semana después y avanzaron sobre Puerto Argentino/Stanley, donde el comandante argentino se rindió el 14 de junio. Murieron 649 militares argentinos, 255 británicos y tres isleños.",
+    "zh": "自19世纪30年代起，阿根廷和英国都声称拥有福克兰群岛（阿根廷称马尔维纳斯群岛）的主权。1982年4月2日，阿根廷部队在斯坦利附近登陆，英国总督令岛上少量皇家海军陆战队守军投降后，阿军占领该镇；次日又占领南乔治亚岛。英国派出海军特遣舰队南下，美国国务卿亚历山大·黑格则往返于两国政府之间斡旋。调停失败后，美国于4月30日公开表示支持英国，此后向其提供导弹。4月25日英军在南乔治亚岛登陆，岛上阿根廷守军投降。5月2日，一艘英国潜艇击沉阿根廷巡洋舰贝尔格拉诺将军号；两天后，阿根廷的飞鱼导弹击中英国驱逐舰谢菲尔德号。英军于5月21日在圣卡洛斯登陆，一周后攻占古斯格林，随即逼近斯坦利，阿根廷指挥官于6月14日在该地投降。战争中有649名阿根廷军人、255名英国军人和3名岛民死亡。"
+  },
+  "outcome": {
+    "en": "The Argentine garrison surrendered on 14 June 1982 and British administration of the islands resumed; the defeat brought down Argentina's military government, and Argentina still claims the islands.",
+    "es": "La guarnición argentina se rindió el 14 de junio de 1982 y se restableció la administración británica de las islas; la derrota hizo caer al gobierno militar argentino, y Argentina mantiene su reclamación sobre las islas.",
+    "zh": "1982年6月14日阿根廷守军投降，英国恢复对群岛的管治；战败导致阿根廷军政府垮台，阿根廷至今仍主张对群岛的主权。"
+  },
+  "tier": "standard",
+  "sensitive": true,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1982,
+    "latestStart": 1982,
+    "earliestEnd": 1982,
+    "latestEnd": 1982,
+    "sources": [
+      {
+        "citation": "Mulvaney, Kieran. \"The improbable Falklands War still resonates decades later.\" National Geographic, 1 April 2022.",
+        "url": "https://www.nationalgeographic.com/history/article/falklands-war-history-and-legacy"
+      },
+      {
+        "citation": "Britton, John A. \"Falkland Islands War.\" EBSCO Research Starters: Military History and Science, 2021.",
+        "url": "https://www.ebsco.com/research-starters/military-history-and-science/falkland-islands-war"
+      },
+      {
+        "citation": "Wikipedia (English). \"Falklands War.\"",
+        "url": "https://en.wikipedia.org/wiki/Falklands_War"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "united-kingdom",
+      "label": {
+        "en": "United Kingdom",
+        "es": "Reino Unido",
+        "zh": "英国"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "GB",
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "argentina",
+      "label": {
+        "en": "Argentina",
+        "es": "Argentina",
+        "zh": "阿根廷"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "AR",
+          "role": "belligerent",
+          "today": [
+            "AR"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "argentine-landing-at-stanley",
+      "start": 1982,
+      "title": {
+        "en": "2 April: Argentine forces land near Stanley; the British governor surrenders the Royal Marines garrison and Argentina takes the islands",
+        "es": "2 de abril: fuerzas argentinas desembarcan cerca de Puerto Argentino/Stanley; el gobernador británico rinde la guarnición de infantes de marina y Argentina toma las islas",
+        "zh": "4月2日：阿根廷部队在斯坦利附近登陆；英国总督令皇家海军陆战队守军投降，阿根廷占领群岛"
+      },
+      "sources": [
+        {
+          "citation": "Mulvaney, Kieran. \"The improbable Falklands War still resonates decades later.\" National Geographic, 1 April 2022.",
+          "url": "https://www.nationalgeographic.com/history/article/falklands-war-history-and-legacy"
+        },
+        {
+          "citation": "Britton, John A. \"Falkland Islands War.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/falkland-islands-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"1982 invasion of the Falkland Islands.\"",
+          "url": "https://en.wikipedia.org/wiki/1982_invasion_of_the_Falkland_Islands"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Stanley",
+          "es": "Puerto Argentino/Stanley",
+          "zh": "斯坦利"
+        },
+        "lat": -51.694,
+        "lon": -57.85
+      },
+      "wikidataId": "Q2992361"
+    },
+    {
+      "id": "south-georgia-garrison-surrenders",
+      "start": 1982,
+      "title": {
+        "en": "25 April: British troops land on South Georgia and its Argentine garrison surrenders at Grytviken",
+        "es": "25 de abril: tropas británicas desembarcan en las Georgias del Sur y la guarnición argentina se rinde en Grytviken",
+        "zh": "4月25日：英军在南乔治亚岛登陆，岛上阿根廷守军在古利德维肯投降"
+      },
+      "sources": [
+        {
+          "citation": "Mulvaney, Kieran. \"The improbable Falklands War still resonates decades later.\" National Geographic, 1 April 2022.",
+          "url": "https://www.nationalgeographic.com/history/article/falklands-war-history-and-legacy"
+        },
+        {
+          "citation": "Wikipedia (English). \"Operation Paraquet.\"",
+          "url": "https://en.wikipedia.org/wiki/Operation_Paraquet"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de las Malvinas.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_las_Malvinas"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Grytviken, South Georgia",
+          "es": "Grytviken, Georgias del Sur",
+          "zh": "古利德维肯（南乔治亚岛）"
+        },
+        "lat": -54.281,
+        "lon": -36.508
+      },
+      "wikidataId": "Q3269922"
+    },
+    {
+      "id": "sinking-of-the-general-belgrano",
+      "start": 1982,
+      "title": {
+        "en": "2 May: the British submarine HMS Conqueror sinks the Argentine cruiser General Belgrano; more than 300 aboard die",
+        "es": "2 de mayo: el submarino británico HMS Conqueror hunde el crucero argentino General Belgrano; mueren más de 300 personas a bordo",
+        "zh": "5月2日：英国潜艇征服者号击沉阿根廷巡洋舰贝尔格拉诺将军号，舰上300余人死亡"
+      },
+      "sources": [
+        {
+          "citation": "Britton, John A. \"Falkland Islands War.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/falkland-islands-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Sinking of ARA General Belgrano.\"",
+          "url": "https://en.wikipedia.org/wiki/Sinking_of_ARA_General_Belgrano"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de las Malvinas.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_las_Malvinas"
+        }
+      ],
+      "note": {
+        "en": "Sources differ on the toll: English Wikipedia gives 321 crew and two civilians (323); EBSCO's research starter gives 368.",
+        "es": "Las fuentes difieren en la cifra: la Wikipedia en inglés da 321 tripulantes y dos civiles (323); el artículo de EBSCO da 368.",
+        "zh": "各来源对死亡人数说法不一：英文维基百科为321名舰员和2名平民（共323人），EBSCO的条目为368人。"
+      },
+      "place": {
+        "name": {
+          "en": "South Atlantic, south-west of the Falklands",
+          "es": "Atlántico Sur, al suroeste de las Malvinas",
+          "zh": "南大西洋，福克兰群岛西南"
+        },
+        "lat": -55.4,
+        "lon": -61.533
+      },
+      "wikidataId": "Q3284956"
+    },
+    {
+      "id": "exocet-hits-hms-sheffield",
+      "start": 1982,
+      "title": {
+        "en": "4 May: an Exocet missile fired by Argentine naval aircraft hits the destroyer HMS Sheffield, killing about 20 of its crew; the ship sinks under tow on 10 May",
+        "es": "4 de mayo: un misil Exocet lanzado por aviones navales argentinos alcanza al destructor HMS Sheffield y mata a unos 20 tripulantes; el buque se hunde a remolque el 10 de mayo",
+        "zh": "5月4日：阿根廷海军飞机发射的飞鱼导弹击中驱逐舰谢菲尔德号，约20名舰员死亡；该舰于5月10日在拖曳途中沉没"
+      },
+      "sources": [
+        {
+          "citation": "Britton, John A. \"Falkland Islands War.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/falkland-islands-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Falklands War.\"",
+          "url": "https://en.wikipedia.org/wiki/Falklands_War"
+        }
+      ],
+      "note": {
+        "en": "English Wikipedia gives 20 dead; EBSCO's research starter gives 21.",
+        "es": "La Wikipedia en inglés da 20 muertos; el artículo de EBSCO da 21.",
+        "zh": "英文维基百科记为20人死亡，EBSCO的条目记为21人。"
+      },
+      "place": {
+        "name": {
+          "en": "South Atlantic, south-east of the Falklands",
+          "es": "Atlántico Sur, al sureste de las Malvinas",
+          "zh": "南大西洋，福克兰群岛东南"
+        },
+        "lat": -53.067,
+        "lon": -56.933
+      }
+    },
+    {
+      "id": "landings-at-san-carlos",
+      "start": 1982,
+      "title": {
+        "en": "21 May: British troops land at San Carlos on East Falkland; Argentine aircraft sink several British ships in the following days",
+        "es": "21 de mayo: tropas británicas desembarcan en San Carlos, en la isla Soledad; en los días siguientes aviones argentinos hunden varios buques británicos",
+        "zh": "5月21日：英军在东福克兰岛的圣卡洛斯登陆；此后数日阿根廷飞机击沉多艘英国舰船"
+      },
+      "sources": [
+        {
+          "citation": "Britton, John A. \"Falkland Islands War.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/falkland-islands-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of San Carlos (1982).\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_San_Carlos_(1982)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "San Carlos",
+          "es": "San Carlos",
+          "zh": "圣卡洛斯"
+        },
+        "lat": -51.508,
+        "lon": -59.08
+      },
+      "wikidataId": "Q4872265"
+    },
+    {
+      "id": "battle-of-goose-green",
+      "start": 1982,
+      "title": {
+        "en": "28–29 May: British paratroopers take Darwin and Goose Green; more than 1,000 Argentine soldiers are captured",
+        "es": "28 y 29 de mayo: paracaidistas británicos toman Darwin y Pradera del Ganso; más de 1.000 soldados argentinos caen prisioneros",
+        "zh": "5月28日至29日：英国伞兵攻占达尔文和古斯格林，1000余名阿根廷士兵被俘"
+      },
+      "sources": [
+        {
+          "citation": "Mulvaney, Kieran. \"The improbable Falklands War still resonates decades later.\" National Geographic, 1 April 2022.",
+          "url": "https://www.nationalgeographic.com/history/article/falklands-war-history-and-legacy"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Goose Green.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Goose_Green"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Goose Green",
+          "es": "Pradera del Ganso",
+          "zh": "古斯格林"
+        },
+        "lat": -51.829,
+        "lon": -58.969
+      },
+      "wikidataId": "Q2641750"
+    },
+    {
+      "id": "argentine-surrender-at-stanley",
+      "start": 1982,
+      "title": {
+        "en": "14 June: after British forces take the hills around Stanley, General Mario Menéndez surrenders the Argentine garrison to Major General Jeremy Moore",
+        "es": "14 de junio: después de que las fuerzas británicas toman los montes que rodean Puerto Argentino/Stanley, el general Mario Benjamín Menéndez rinde la guarnición argentina al general de división Jeremy Moore",
+        "zh": "6月14日：英军攻占斯坦利周围的高地后，马里奥·梅嫩德斯将军率阿根廷守军向杰里米·穆尔少将投降"
+      },
+      "sources": [
+        {
+          "citation": "Mulvaney, Kieran. \"The improbable Falklands War still resonates decades later.\" National Geographic, 1 April 2022.",
+          "url": "https://www.nationalgeographic.com/history/article/falklands-war-history-and-legacy"
+        },
+        {
+          "citation": "Britton, John A. \"Falkland Islands War.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/falkland-islands-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Argentine surrender in the Falklands War.\"",
+          "url": "https://en.wikipedia.org/wiki/Argentine_surrender_in_the_Falklands_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Stanley",
+          "es": "Puerto Argentino/Stanley",
+          "zh": "斯坦利"
+        },
+        "lat": -51.694,
+        "lon": -57.85
+      },
+      "wikidataId": "Q4789489"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Margaret Thatcher",
+        "es": "Margaret Thatcher",
+        "zh": "玛格丽特·撒切尔"
+      },
+      "side": "united-kingdom",
+      "role": {
+        "en": "Prime Minister",
+        "es": "Primera ministra",
+        "zh": "首相"
+      },
+      "wikidataId": "Q7416"
+    },
+    {
+      "name": {
+        "en": "Sandy Woodward",
+        "es": "Sandy Woodward",
+        "zh": "桑迪·伍德沃德"
+      },
+      "side": "united-kingdom",
+      "role": {
+        "en": "Rear admiral commanding the naval task force",
+        "es": "Contraalmirante al mando de la fuerza naval",
+        "zh": "海军少将，特遣舰队指挥官"
+      },
+      "wikidataId": "Q2564270"
+    },
+    {
+      "name": {
+        "en": "Jeremy Moore",
+        "es": "Jeremy Moore",
+        "zh": "杰里米·穆尔"
+      },
+      "side": "united-kingdom",
+      "role": {
+        "en": "Commander of British land forces; took the Argentine surrender",
+        "es": "Comandante de las fuerzas terrestres británicas; recibió la rendición argentina",
+        "zh": "英国陆上部队指挥官，接受阿根廷投降"
+      },
+      "wikidataId": "Q581963"
+    },
+    {
+      "name": {
+        "en": "Leopoldo Galtieri",
+        "es": "Leopoldo Fortunato Galtieri",
+        "zh": "莱奥波尔多·加尔铁里"
+      },
+      "side": "argentina",
+      "role": {
+        "en": "President and head of the military junta",
+        "es": "Presidente y jefe de la junta militar",
+        "zh": "总统，军政府首脑"
+      },
+      "wikidataId": "Q124993"
+    },
+    {
+      "name": {
+        "en": "Jorge Anaya",
+        "es": "Jorge Isaac Anaya",
+        "zh": "豪尔赫·阿纳亚"
+      },
+      "side": "argentina",
+      "role": {
+        "en": "Commander of the navy and junta member",
+        "es": "Comandante de la Armada y miembro de la junta",
+        "zh": "海军司令，军政府成员"
+      },
+      "wikidataId": "Q2714985"
+    },
+    {
+      "name": {
+        "en": "Mario Benjamín Menéndez",
+        "es": "Mario Benjamín Menéndez",
+        "zh": "马里奥·贝尼亚明·梅嫩德斯"
+      },
+      "side": "argentina",
+      "role": {
+        "en": "Military governor and commander of the Argentine garrison",
+        "es": "Gobernador militar y comandante de la guarnición argentina",
+        "zh": "军事总督，阿根廷守军指挥官"
+      },
+      "wikidataId": "Q196263"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "military-deaths",
+      "side": "argentina",
+      "low": 649,
+      "high": 649,
+      "attributedTo": {
+        "en": "the list of Argentina's war dead in Law 24,950 (1998)",
+        "es": "la nómina de caídos de la Ley 24.950 (1998)",
+        "zh": "阿根廷第24950号法律（1998年）所列阵亡者名单"
+      },
+      "sources": [
+        {
+          "citation": "Ley 24.950: Decláranse \"Héroes nacionales\" a los combatientes argentinos fallecidos durante la guerra de Malvinas. Boletín Oficial de la República Argentina, 14 April 1998, via InfoLEG.",
+          "url": "http://servicios.infoleg.gob.ar/infolegInternet/anexos/50000-54999/50278/norma.htm"
+        },
+        {
+          "citation": "Mulvaney, Kieran. \"The improbable Falklands War still resonates decades later.\" National Geographic, 1 April 2022.",
+          "url": "https://www.nationalgeographic.com/history/article/falklands-war-history-and-legacy"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de las Malvinas.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_las_Malvinas"
+        }
+      ],
+      "note": {
+        "en": "More than 300 of them died when the General Belgrano sank.",
+        "es": "Más de 300 de ellos murieron en el hundimiento del General Belgrano.",
+        "zh": "其中300余人死于贝尔格拉诺将军号沉没。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "united-kingdom",
+      "low": 255,
+      "high": 255,
+      "attributedTo": {
+        "en": "the British count of its dead, as cited by National Geographic and EBSCO",
+        "es": "el recuento británico de sus muertos, según National Geographic y EBSCO",
+        "zh": "英国对本国死者的统计（据《国家地理》和EBSCO）"
+      },
+      "sources": [
+        {
+          "citation": "Mulvaney, Kieran. \"The improbable Falklands War still resonates decades later.\" National Geographic, 1 April 2022.",
+          "url": "https://www.nationalgeographic.com/history/article/falklands-war-history-and-legacy"
+        },
+        {
+          "citation": "Britton, John A. \"Falkland Islands War.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/falkland-islands-war"
+        }
+      ]
+    },
+    {
+      "scope": "civilian-deaths",
+      "low": 3,
+      "high": 3,
+      "attributedTo": {
+        "en": "National Geographic and the English and Spanish Wikipedias",
+        "es": "National Geographic y las Wikipedias en inglés y en español",
+        "zh": "《国家地理》及英文、西班牙文维基百科"
+      },
+      "sources": [
+        {
+          "citation": "Mulvaney, Kieran. \"The improbable Falklands War still resonates decades later.\" National Geographic, 1 April 2022.",
+          "url": "https://www.nationalgeographic.com/history/article/falklands-war-history-and-legacy"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de las Malvinas.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_las_Malvinas"
+        },
+        {
+          "citation": "Wikipedia (English). \"Falklands War.\"",
+          "url": "https://en.wikipedia.org/wiki/Falklands_War"
+        }
+      ],
+      "note": {
+        "en": "Three Falkland Islanders, killed by British shellfire.",
+        "es": "Tres isleños, muertos por el fuego de artillería británico.",
+        "zh": "三名福克兰岛民，死于英军炮火。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "citation": "Mulvaney, Kieran. \"The improbable Falklands War still resonates decades later.\" National Geographic, 1 April 2022.",
+      "url": "https://www.nationalgeographic.com/history/article/falklands-war-history-and-legacy"
+    },
+    {
+      "citation": "Britton, John A. \"Falkland Islands War.\" EBSCO Research Starters: Military History and Science, 2021.",
+      "url": "https://www.ebsco.com/research-starters/military-history-and-science/falkland-islands-war"
+    },
+    {
+      "citation": "Wikipedia (English). \"Falklands War.\"",
+      "url": "https://en.wikipedia.org/wiki/Falklands_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra de las Malvinas.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_de_las_Malvinas"
+    },
+    {
+      "citation": "Wikipedia (中文). \"福克兰战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/福克兰战争"
+    }
+  ]
+}
