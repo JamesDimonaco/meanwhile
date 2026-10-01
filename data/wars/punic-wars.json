@@ -102,6 +102,30 @@
         {
           "kind": "polity",
           "name": {
+            "en": "Mamertines of Messana (asked Rome for help in 264 BCE)",
+            "es": "Mamertinos de Mesana (pidieron ayuda a Roma en el 264 a. e. c.)",
+            "zh": "墨西拿的马默丁人（公元前264年向罗马求援）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Massalia (Marseille), whose ships sailed with the Roman fleet, as at the Ebro in 217 BCE",
+            "es": "Massalia (Marsella), cuyas naves navegaron con la flota romana, como en el Ebro en el 217 a. e. c.",
+            "zh": "马萨利亚（马赛），其船只随罗马舰队作战，如公元前217年埃布罗河口之战"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
             "en": "Syracuse under Hiero II (allied with Rome 263–215 BCE)",
             "es": "Siracusa bajo Hierón II (aliada de Roma 263–215 a. e. c.)",
             "zh": "希伦二世治下的叙拉古（公元前263年至前215年为罗马盟友）"
@@ -163,9 +187,9 @@
         {
           "kind": "polity",
           "name": {
-            "en": "Syracuse (allied with Carthage 214–212 BCE)",
-            "es": "Siracusa (aliada de Cartago 214–212 a. e. c.)",
-            "zh": "叙拉古（公元前214年至前212年为迦太基盟友）"
+            "en": "Syracuse (allied with Carthage 264–263 BCE and 214–212 BCE)",
+            "es": "Siracusa (aliada de Cartago 264–263 a. e. c. y 214–212 a. e. c.)",
+            "zh": "叙拉古（公元前264年至前263年及公元前214年至前212年为迦太基盟友）"
           },
           "role": "belligerent",
           "today": [
@@ -254,9 +278,9 @@
       "id": "battle-of-messana",
       "start": -263,
       "title": {
-        "en": "Roman legions cross the Strait of Messina and break the Carthaginian and Syracusan siege of Messana, gaining a foothold on Sicily",
-        "es": "Las legiones romanas cruzan el estrecho de Mesina y rompen el asedio cartaginés y siracusano de Mesana, con lo que logran pie en Sicilia",
-        "zh": "罗马军团渡过墨西拿海峡，解除迦太基和叙拉古对墨西拿的围攻，在西西里站稳脚跟"
+        "en": "At the call of the Mamertines, Roman legions cross the Strait of Messina and break the Carthaginian and Syracusan siege of Messana, gaining a foothold on Sicily",
+        "es": "Llamadas por los mamertinos, las legiones romanas cruzan el estrecho de Mesina y rompen el asedio cartaginés y siracusano de Mesana, con lo que logran pie en Sicilia",
+        "zh": "应马默丁人之请，罗马军团渡过墨西拿海峡，解除迦太基和叙拉古对墨西拿的围攻，在西西里站稳脚跟"
       },
       "sources": [
         {
@@ -270,6 +294,10 @@
         {
           "citation": "Wikipedia (English). \"Punic Wars.\"",
           "url": "https://en.wikipedia.org/wiki/Punic_Wars"
+        },
+        {
+          "citation": "Polybius. Histories 1.10–11 (Loeb Classical Library translation by W. R. Paton), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/1*.html"
         }
       ],
       "place": {
@@ -1157,6 +1185,14 @@
     {
       "citation": "Wikipedia (English). \"Third Punic War.\"",
       "url": "https://en.wikipedia.org/wiki/Third_Punic_War"
+    },
+    {
+      "citation": "Polybius. Histories 1.10–11 (Loeb Classical Library translation by W. R. Paton), via LacusCurtius.",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/1*.html"
+    },
+    {
+      "citation": "Polybius. Histories 3.95 (Loeb Classical Library translation by W. R. Paton), via LacusCurtius.",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3*.html"
     },
     {
       "citation": "Wikipedia (español). \"Guerras púnicas.\"",
