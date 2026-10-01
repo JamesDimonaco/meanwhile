@@ -61,9 +61,9 @@
     {
       "id": "mysore-and-france",
       "label": {
-        "en": "Mysore and France",
-        "es": "Mysore y Francia",
-        "zh": "迈索尔与法国"
+        "en": "Mysore, France and the Dutch Republic",
+        "es": "Mysore, Francia y la República Neerlandesa",
+        "zh": "迈索尔、法国和荷兰共和国"
       },
       "members": [
         {
@@ -88,6 +88,18 @@
           "role": "belligerent",
           "today": [
             "FR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Dutch Republic: the Dutch East India Company garrison of Negapatam, held jointly with Hyder Ali's troops until November 1781",
+            "es": "República Neerlandesa: la guarnición de la Compañía Neerlandesa de las Indias Orientales en Negapatam, mantenida junto con tropas de Hyder Ali hasta noviembre de 1781",
+            "zh": "荷兰共和国：荷兰东印度公司驻纳加帕蒂南守军，与海德尔·阿里的部队共同驻守至1781年11月"
+          },
+          "role": "belligerent",
+          "today": [
+            "NL"
           ]
         }
       ]
@@ -453,6 +465,14 @@
     {
       "citation": "\"Anglo-Mysore Wars.\" EBSCO Research Starters (Great Events from History).",
       "url": "https://www.ebsco.com/research-starters/history/anglo-mysore-wars"
+    },
+    {
+      "citation": "Wikipedia (English). \"Siege of Negapatam.\"",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Negapatam"
+    },
+    {
+      "citation": "Royal Collection Trust. \"Map of Negapatam, 1781\" (RCIN 734070.b).",
+      "url": "https://militarymaps.rct.uk/other-18th-19th-century-conflicts/negapatam-1781-plan-of-naegapatam-with-the"
     }
   ]
 }
