@@ -1,6 +1,6 @@
 import { LOCALES, type Locale } from "@/i18n/locales";
 import { UN_MEMBERS, type Continent } from "./countries";
-import type { War, WarFile } from "./war-schema";
+import type { Casualty, War, WarFile } from "./war-schema";
 
 type Dated = Pick<WarFile, "period" | "ongoing">;
 
@@ -89,4 +89,22 @@ export function localeGaps(wars: readonly War[]): Record<string, Locale[]> {
     record(`/wars/${code.toLowerCase()}`, (l) => warsForCountry(warsShownIn(wars, l), code).length > 0);
   }
   return gaps;
+}
+
+/** The gaps a page in this language needs: a path hidden in it has no page there to switch from, and naming it would leak the war. */
+export function gapsOnPagesIn(gaps: Record<string, Locale[]>, locale: Locale): Record<string, Locale[]> {
+  return Object.fromEntries(Object.entries(gaps).filter(([, locales]) => locales.includes(locale)));
+}
+
+/**
+ * Death tolls grouped by what they count and for whom, so one party's official
+ * figure sits beside the independent estimates of the same thing.
+ */
+export function casualtyGroups(casualties: readonly Casualty[]): Casualty[][] {
+  const groups = new Map<string, Casualty[]>();
+  for (const c of casualties) {
+    const key = `${c.scope}|${c.side ?? ""}|${c.who?.en ?? ""}`;
+    groups.set(key, [...(groups.get(key) ?? []), c]);
+  }
+  return [...groups.values()];
 }

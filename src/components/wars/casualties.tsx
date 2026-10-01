@@ -2,21 +2,14 @@ import { useLocale, useTranslations } from "next-intl";
 import { SourceList } from "@/components/culture/culture-events";
 import { localize } from "@/lib/data/localize";
 import type { Casualty, Side } from "@/lib/data/war-schema";
+import { casualtyGroups } from "@/lib/data/wars";
 import { formatIsoDate } from "@/lib/years";
 
-/**
- * Death tolls grouped by what they count and for whom, so one party's
- * official figure sits beside the independent estimates of the same thing.
- */
 export function Casualties({ casualties, sides }: { casualties: readonly Casualty[]; sides: readonly Side[] }) {
   const t = useTranslations("wars");
   const locale = useLocale();
-  const groups = new Map<string, Casualty[]>();
-  for (const c of casualties) {
-    const key = `${c.scope}|${c.side ?? ""}`;
-    groups.set(key, [...(groups.get(key) ?? []), c]);
-  }
-  const sideLabel = (id: string | undefined) => {
+  const counted = ({ side: id, who }: Casualty) => {
+    if (who) return localize(who, locale);
     const side = id && sides.find((s) => s.id === id);
     return side ? localize(side.label, locale) : t("allSides");
   };
@@ -24,10 +17,10 @@ export function Casualties({ casualties, sides }: { casualties: readonly Casualt
   return (
     <div className="flex flex-col gap-4">
       <p className="text-sm text-muted-foreground">{t("casualtiesIntro")}</p>
-      {[...groups.values()].map((figures) => (
-        <section key={`${figures[0].scope}|${figures[0].side}`} className="flex flex-col gap-2">
+      {casualtyGroups(casualties).map((figures) => (
+        <section key={`${figures[0].scope}|${figures[0].side}|${figures[0].who?.en}`} className="flex flex-col gap-2">
           <h3 className="text-sm font-medium">
-            {t(`scope.${figures[0].scope}`)} · {sideLabel(figures[0].side)}
+            {t(`scope.${figures[0].scope}`)} · {counted(figures[0])}
           </h3>
           <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
             {figures.map((c, i) => (

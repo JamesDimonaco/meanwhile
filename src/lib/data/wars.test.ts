@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import type { War } from "./war-schema";
-import { countryIndex, isShownIn, localeGaps, warsForCountry, warsForCulture, warsShownIn } from "./wars";
+import type { Casualty, War } from "./war-schema";
+import { casualtyGroups, countryIndex, gapsOnPagesIn, isShownIn, localeGaps, warsForCountry, warsForCulture, warsShownIn } from "./wars";
 
 const t = (en: string) => ({ en });
 const src = [{ citation: "s" }];
@@ -63,6 +63,15 @@ describe("the review gate", () => {
       "/wars/kp": ["en"],
     });
   });
+
+  it("keeps a gated war's id out of the pages of a language it is hidden in", () => {
+    const onlyKr = war("korea", 1950, { sensitive: true, today: [["KR"], ["KP"]] });
+    const esOnly = war("esonly", 1900, { sensitive: true, reviewed: { es: true, zh: false } });
+    const gaps = localeGaps([plain, onlyKr, esOnly]);
+    expect(gapsOnPagesIn(gaps, "zh")).toEqual({});
+    expect(gapsOnPagesIn(gaps, "es")).toEqual({ "/war/esonly": ["en", "es"] });
+    expect(gapsOnPagesIn(gaps, "en")).toEqual(gaps);
+  });
 });
 
 describe("wars by country and culture", () => {
@@ -101,5 +110,30 @@ describe("countryIndex", () => {
     ]);
     expect(countryIndex(wars, "es").map((c) => c.name)).toEqual(["España", "Estados Unidos", "México"]);
     expect(countryIndex(wars, "zh").find((c) => c.code === "MX")?.name).toBe("墨西哥");
+  });
+});
+
+describe("casualty groups", () => {
+  const fig = (scope: Casualty["scope"], side: string | undefined, low: number, who?: string): Casualty => ({
+    scope,
+    side,
+    low,
+    high: low + 1,
+    who: who === undefined ? undefined : t(who),
+    sources: src,
+  });
+
+  it("groups rival estimates of the same thing, in file order", () => {
+    const a = fig("military-deaths", "a", 1);
+    const b = fig("military-deaths", "a", 2);
+    const c = fig("total-deaths", "a", 3);
+    expect(casualtyGroups([a, c, b])).toEqual([[a, b], [c]]);
+  });
+
+  it("never sets a count of one member beside the whole side's, as if they were rival estimates", () => {
+    const side = fig("military-deaths", "a", 1);
+    const spaniards = fig("military-deaths", "a", 2, "Spaniards");
+    const allSides = fig("military-deaths", undefined, 3);
+    expect(casualtyGroups([side, spaniards, allSides])).toEqual([[side], [spaniards], [allSides]]);
   });
 });
