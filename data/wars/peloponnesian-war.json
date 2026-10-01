@@ -267,9 +267,9 @@
       "id": "battle-of-amphipolis",
       "start": -421,
       "title": {
-        "en": "An Athenian army tries to retake Amphipolis; both Cleon and the Spartan general Brasidas are killed, and the Peace of Nicias is signed the next year",
-        "es": "Un ejército ateniense intenta recuperar Anfípolis; mueren tanto Cleón como el general espartano Brásidas, y al año siguiente se firma la Paz de Nicias",
-        "zh": "雅典军队试图夺回安菲波利斯；克里昂和斯巴达将军伯拉西达双双阵亡，次年双方签订尼西阿斯和约"
+        "en": "An Athenian army attacks Amphipolis, which Brasidas had taken; both Cleon and Brasidas are killed, and the Peace of Nicias is signed the next year",
+        "es": "Un ejército ateniense ataca Anfípolis, que Brásidas había tomado; mueren tanto Cleón como Brásidas, y al año siguiente se firma la Paz de Nicias",
+        "zh": "雅典军队进攻伯拉西达此前攻占的安菲波利斯；克里昂和伯拉西达双双阵亡，次年双方签订尼西阿斯和约"
       },
       "sources": [
         {
@@ -504,7 +504,7 @@
       },
       "side": "sparta-and-peloponnesian-league",
       "role": {
-        "en": "King of Sparta; led the first invasions of Attica",
+        "en": "King of Sparta; led the Peloponnesian army into Attica in the first years of the war",
         "es": "Rey de Esparta; dirigió las primeras incursiones en el Ática",
         "zh": "斯巴达国王；率领最初几次进入阿提卡的出征"
       },
