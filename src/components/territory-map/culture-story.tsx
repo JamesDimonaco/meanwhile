@@ -91,8 +91,8 @@ export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
       <div ref={mapSlot} className="sticky top-0 z-10 bg-background py-2">
         {mapWanted ? (
           <TerritoryMap
-            cultureId={culture.id}
-            region={culture.region}
+            bordersId={culture.id}
+            land={culture.region}
             year={active.end ?? active.start}
             pin={active.place ?? null}
           />

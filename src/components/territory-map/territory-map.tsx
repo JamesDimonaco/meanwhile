@@ -1,6 +1,6 @@
 "use client";
 
-import { geoAzimuthalEqualArea, geoBounds, geoPath } from "d3-geo";
+import { geoAzimuthalEqualArea, geoBounds, geoPath, type GeoGeometryObjects } from "d3-geo";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { useEffect, useId, useMemo, useState } from "react";
@@ -10,7 +10,7 @@ import type { Borders, Geometry, Place, Region } from "@/lib/data/schema";
 import { forD3, snapshotAt } from "./geo";
 import { MapFrame, MAP_HEIGHT, MAP_WIDTH } from "./map-frame";
 
-type GeoData = { land: Geometry; borders: Borders };
+type GeoData = { land: Geometry; borders: Borders | null };
 
 /** Full soft-frontier feather, for a polity as large as the map frame itself. */
 const MAX_FEATHER = 3;
@@ -58,55 +58,96 @@ function fetchJson(url: string): Promise<unknown> {
 }
 
 // Natural Earth land clipped to each part of the world, so a page downloads
-// only the coastline its map can show rather than the whole globe.
-const LAND: Record<Region, string> = {
+// only the coastline its map can show rather than the whole globe. Wars
+// range anywhere, so they use the coarser whole-world file.
+const LAND: Record<Region | "world", string> = {
   europe: "/geo/land-europe.json",
   china: "/geo/land-east-asia.json",
   "south-america": "/geo/land-americas.json",
   mesoamerica: "/geo/land-americas.json",
   africa: "/geo/land-europe.json",
+  world: "/geo/land-world.json",
 };
+
+/** Degrees of margin around the pins, so a single pin or a tight cluster still shows its surroundings. */
+const PIN_MARGIN = 3;
 
 // Both files are written by us: the land file is a prepared Natural Earth
 // MultiPolygon, and the borders file is served from data/borders, which
 // validate-data checks against the schema at build time.
-async function loadGeoData(cultureId: string, region: Region): Promise<GeoData> {
-  const [land, borders] = await Promise.all([fetchJson(LAND[region]), fetchJson(`/geo/borders/${cultureId}.json`)]);
-  return { land: land as Geometry, borders: borders as Borders };
+async function loadGeoData(bordersId: string | null, land: Region | "world"): Promise<GeoData> {
+  const [landData, borders] = await Promise.all([
+    fetchJson(LAND[land]),
+    bordersId ? fetchJson(`/geo/borders/${bordersId}.json`) : null,
+  ]);
+  return { land: landData as Geometry, borders: borders as Borders | null };
 }
 
-type Props = { cultureId: string; region: Region; year: number; pin: Place | null };
+type Props = {
+  /** A culture or war id with a borders file; null for pins on plain land. */
+  bordersId: string | null;
+  land: Region | "world";
+  year: number;
+  pin: Place | null;
+  /** Every place in the story, drawn faintly so the one in view stands out; the frame fits them too. */
+  pins?: readonly Place[];
+  /** Name the red (self) polities in the caption: a war map has no culture page title to say who they are. */
+  nameSelf?: boolean;
+};
 
 /** Borders for the year over a land basemap, rivals in grey, a pin for the event in view. */
-export function TerritoryMap({ cultureId, region, year, pin }: Props) {
+export function TerritoryMap({ bordersId, land, year, pin, pins = [], nameSelf = false }: Props) {
   const t = useTranslations("map");
   const [data, setData] = useState<GeoData | "error" | null>(null);
 
   useEffect(() => {
     let live = true;
-    loadGeoData(cultureId, region).then(
+    loadGeoData(bordersId, land).then(
       (d) => live && setData(d),
       () => live && setData("error"),
     );
     return () => {
       live = false;
     };
-  }, [cultureId, region]);
+  }, [bordersId, land]);
 
   if (data === "error") return <MapFrame>{t("unavailable")}</MapFrame>;
   if (!data) return <MapFrame>{t("loading")}</MapFrame>;
-  return <MapSvg land={data.land} borders={data.borders} year={year} pin={pin} />;
+  return <MapSvg land={data.land} borders={data.borders} year={year} pin={pin} pins={pins} nameSelf={nameSelf} />;
 }
 
-function MapSvg({ land, borders, year, pin }: { land: Geometry; borders: Borders; year: number; pin: Place | null }) {
+function MapSvg({
+  land,
+  borders,
+  year,
+  pin,
+  pins,
+  nameSelf,
+}: {
+  land: Geometry;
+  borders: Borders | null;
+  year: number;
+  pin: Place | null;
+  pins: readonly Place[];
+  nameSelf: boolean;
+}) {
   const t = useTranslations("map");
   const locale = useLocale();
   const filterId = useId();
 
   const { project, landPath, snapshots } = useMemo(() => {
-    const own: Geometry[] = borders.snapshots.flatMap((s) =>
+    const own: GeoGeometryObjects[] = (borders?.snapshots ?? []).flatMap((s) =>
       s.polities.filter((p) => p.role === "self").map((p) => forD3(p.geometry)),
     );
+    if (pins.length > 0) {
+      own.push({
+        type: "MultiPoint",
+        coordinates: pins.flatMap((p) => [
+          [p.lon - PIN_MARGIN, p.lat - PIN_MARGIN],
+          [p.lon + PIN_MARGIN, p.lat + PIN_MARGIN],
+        ]),
+      });
+    }
     const everywhere = { type: "GeometryCollection" as const, geometries: own };
     const [[west, south], [east, north]] = geoBounds(everywhere);
     // Equal-area, centred on everywhere the culture ever held, so sizes compare
@@ -124,7 +165,7 @@ function MapSvg({ land, borders, year, pin }: { land: Geometry; borders: Borders
     return {
       project: (p: Place) => projection([p.lon, p.lat]),
       landPath: toPath(forD3(land)) ?? "",
-      snapshots: borders.snapshots.map((s) => ({
+      snapshots: (borders?.snapshots ?? []).map((s) => ({
         year: s.year,
         polities: s.polities.map((p) => {
           const feature = forD3(p.geometry);
@@ -140,11 +181,14 @@ function MapSvg({ land, borders, year, pin }: { land: Geometry; borders: Borders
         }),
       })),
     };
-  }, [land, borders]);
+  }, [land, borders, pins]);
 
   const snapshot = snapshotAt(snapshots, year);
   const rivals = snapshot?.polities.filter((p) => p.role === "rival") ?? [];
+  const selves = snapshot?.polities.filter((p) => p.role === "self") ?? [];
   const pinAt = pin && project(pin);
+  const names = (list: { label: Borders["snapshots"][number]["polities"][number]["label"] }[]) =>
+    new Intl.ListFormat(locale).format(list.map((p) => localize(p.label, locale)));
 
   return (
     <figure className="flex flex-col gap-1">
@@ -178,6 +222,10 @@ function MapSvg({ land, borders, year, pin }: { land: Geometry; borders: Borders
             ))}
           </g>
         )}
+        {pins.map((p, i) => {
+          const at = project(p);
+          return at && <circle key={i} cx={at[0]} cy={at[1]} r={2.5} className="fill-foreground/40" />;
+        })}
         {pinAt && (
           <g transform={`translate(${pinAt[0]} ${pinAt[1]})`}>
             <circle r={9} className="fill-foreground/15" />
@@ -186,20 +234,28 @@ function MapSvg({ land, borders, year, pin }: { land: Geometry; borders: Borders
         )}
       </svg>
       <figcaption className="flex flex-col gap-0.5 text-xs text-muted-foreground">
-        <span className="text-sm text-foreground">
-          {snapshot
-            ? t.rich("bordersAround", { year: () => <YearText year={snapshot.year} /> })
-            : t.rich("beforeBorders", { year: () => <YearText year={borders.snapshots[0].year} /> })}
-        </span>
+        {borders && (
+          <span className="text-sm text-foreground">
+            {snapshot
+              ? t.rich("bordersAround", { year: () => <YearText year={snapshot.year} /> })
+              : t.rich("beforeBorders", { year: () => <YearText year={borders.snapshots[0].year} /> })}
+          </span>
+        )}
+        {nameSelf && selves.length > 0 && (
+          <span className="flex items-center gap-1.5">
+            <span aria-hidden className="size-2.5 rounded-full bg-red-700/60 dark:bg-red-400/60" />
+            {names(selves)}
+          </span>
+        )}
         {rivals.length > 0 && (
           <span className="flex items-center gap-1.5">
             <span aria-hidden className="size-2.5 rounded-full bg-muted-foreground/50" />
-            {t("rivals", { names: new Intl.ListFormat(locale).format(rivals.map((r) => localize(r.label, locale))) })}
+            {t("rivals", { names: names(rivals) })}
           </span>
         )}
         {/* Full citations and the changes made are on the credits page. */}
         <Link href="/credits" className="underline-offset-2 hover:underline">
-          {t("credit")}
+          {borders ? t("credit") : t("landCredit")}
         </Link>
       </figcaption>
     </figure>

@@ -1,10 +1,10 @@
 /**
- * Regenerates data/borders/<cultureId>.json from a Cliopatria download
- * (CC BY 4.0). The dataset is 165 MB, so it stays out of the repo:
+ * Regenerates data/borders/<cultureId or warId>.json from a Cliopatria
+ * download (CC BY 4.0). The dataset is 165 MB, so it stays out of the repo:
  *
  *   1. Download cliopatria.geojson.zip from the v0.2.0 release on Zenodo
  *      (https://zenodo.org/records/13363121) and unzip it anywhere.
- *   2. pnpm borders <path/to/cliopatria_polities_only.geojson> [cultureId ...]
+ *   2. pnpm borders <path/to/cliopatria_polities_only.geojson> [cultureId or warId ...]
  *
  * mapshaper runs through npx at a pinned version, so nothing is installed.
  */
@@ -29,13 +29,13 @@ type Snapshot = {
   clip?: boolean;
   /** [west, south, east, north]: cut the self polities to this box before simplifying. */
   clipSelf?: [number, number, number, number];
-  /** Like CultureConfig.relabel, for this snapshot only. */
+  /** Like MapConfig.relabel, for this snapshot only. */
   relabel?: Record<string, string>;
 };
 
 type RowAt = { name: string; year: number };
 
-type CultureConfig = {
+type MapConfig = {
   /** Who the self polities are, for the credits line. */
   subject: string;
   simplify: string;
@@ -77,7 +77,7 @@ const HRE_MEMBERS = [
   "Kingdom of Hanover",
 ];
 
-const CULTURES: Record<string, CultureConfig> = {
+const CULTURES: Record<string, MapConfig> = {
   rome: {
     subject: "the Roman polities",
     simplify: "25%",
@@ -326,6 +326,19 @@ const CULTURES: Record<string, CultureConfig> = {
       // Roman province: Cliopatria still lists the Ptolemaic Kingdom for 30-28 BCE.
       { year: -29, dataYear: -26, self: [], rivals: ["Roman Empire", "Kingdom of Kush", "Nabataeans", "Judea"] },
     ],
+  },
+};
+
+// Wars get polygons only when they are flagship and over by 1800
+// (validate-data enforces both). self = the polities whose lands the war was
+// fought over, drawn in red and named in the caption; rivals = neighbours, grey.
+const WARS: Record<string, MapConfig> = {
+  "spanish-conquest-of-the-aztec-empire": {
+    subject: "the Aztec Triple Alliance",
+    simplify: "25%",
+    changes: "The map is cut to Mesoamerica, 106° W to 86° W and 13° N to 24° N.",
+    extent: [-106, 13, -86, 24],
+    snapshots: [{ year: 1519, self: ["Aztec Triple Alliance"], rivals: ["Michoacán", "Later Mayan City-States"] }],
   },
 };
 
@@ -579,7 +592,7 @@ const CLIOPATRIA_SOURCES: Source[] = [
   },
 ];
 
-function sources(config: CultureConfig): Source[] {
+function sources(config: MapConfig): Source[] {
   const changes = [
     `polygons for ${config.subject} and their neighbours were extracted for ${config.snapshots.length} snapshot years`,
     `simplified with mapshaper 0.7.69 (Visvalingam, ${config.simplify} of vertices kept)`,
@@ -632,7 +645,7 @@ function readFeatures(file: string): Feature[] {
   return (JSON.parse(fs.readFileSync(file, "utf8")) as { features: Feature[] }).features;
 }
 
-function build(cultureId: string, config: CultureConfig, rows: ClioRow[], work: string): Borders {
+function build(id: string, config: MapConfig, rows: ClioRow[], work: string): Omit<Borders, "cultureId" | "warId"> {
   const rowsAt = (name: string, year: number) => rows.filter((r) => r.name === name && r.from <= year && year <= r.to);
   const pick = (names: string[], year: number, role: BorderPolity["role"]): Feature[] =>
     names.flatMap((name) => {
@@ -641,7 +654,7 @@ function build(cultureId: string, config: CultureConfig, rows: ClioRow[], work: 
       return found.map((r) => ({ type: "Feature" as const, properties: { name, role }, geometry: r.geometry }));
     });
 
-  const mask = path.join(work, `${cultureId}-mask.geojson`);
+  const mask = path.join(work, `${id}-mask.geojson`);
   if (config.mask) {
     const pickAll = (at: RowAt[]) => at.flatMap(({ name, year }) => pick([name], year, "self"));
     writeFeatures(`${mask}-keep.geojson`, pickAll(config.mask.keep));
@@ -656,7 +669,7 @@ function build(cultureId: string, config: CultureConfig, rows: ClioRow[], work: 
     let self = pick(snap.self, dataYear, "self");
     let rivals = pick(snap.rivals, dataYear, "rival");
     if (snap.self.length > 0 && self.length === 0) throw new Error(`${snap.year}: no self polity found`);
-    const base = path.join(work, `${cultureId}-${snap.year}`);
+    const base = path.join(work, `${id}-${snap.year}`);
 
     if (snap.clipSelf) {
       writeFeatures(`${base}-self.geojson`, self);
@@ -665,7 +678,7 @@ function build(cultureId: string, config: CultureConfig, rows: ClioRow[], work: 
     }
 
     if (snap.clip) {
-      if (!config.mask) throw new Error(`${cultureId}: clip needs a mask`);
+      if (!config.mask) throw new Error(`${id}: clip needs a mask`);
       writeFeatures(`${base}-self.geojson`, self);
       const name = config.mask.name;
       mapshaper(`${base}-self.geojson`, "-clip", mask, "-dissolve", "-each", `name=${JSON.stringify(name)}, role="self"`, "-o", `${base}-clipped.geojson`, "force");
@@ -706,22 +719,23 @@ function build(cultureId: string, config: CultureConfig, rows: ClioRow[], work: 
   });
 
   snapshots.sort((a, b) => a.year - b.year);
-  return { cultureId, sources: sources(config), snapshots };
+  return { sources: sources(config), snapshots };
 }
 
 function main() {
   const [clioFile, ...ids] = process.argv.slice(2);
   if (!clioFile) {
-    console.error("usage: pnpm borders <cliopatria_polities_only.geojson> [cultureId ...]");
+    console.error("usage: pnpm borders <cliopatria_polities_only.geojson> [cultureId or warId ...]");
     process.exit(1);
   }
   const rows = loadCliopatria(clioFile);
   const work = fs.mkdtempSync(path.join(os.tmpdir(), "borders-"));
-  for (const id of ids.length > 0 ? ids : Object.keys(CULTURES)) {
-    const config = CULTURES[id];
+  for (const id of ids.length > 0 ? ids : [...Object.keys(CULTURES), ...Object.keys(WARS)]) {
+    const config = CULTURES[id] ?? WARS[id];
     if (!config) throw new Error(`No borders config for "${id}"`);
+    const owner = CULTURES[id] ? { cultureId: id } : { warId: id };
     const out = path.join("data", "borders", `${id}.json`);
-    fs.writeFileSync(out, `${JSON.stringify(build(id, config, rows, work))}\n`);
+    fs.writeFileSync(out, `${JSON.stringify({ ...owner, ...build(id, config, rows, work) })}\n`);
     console.error(`wrote ${out}: ${Math.round(fs.statSync(out).size / 1024)} KB`);
   }
   fs.rmSync(work, { recursive: true });
