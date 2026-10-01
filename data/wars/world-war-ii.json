@@ -1,0 +1,650 @@
+{
+  "id": "world-war-ii",
+  "wikidataId": "Q362",
+  "name": {
+    "en": "World War II",
+    "es": "Segunda Guerra Mundial",
+    "zh": "第二次世界大战"
+  },
+  "aliases": [
+    "Second World War",
+    "WWII",
+    "WW2",
+    "II Guerra Mundial",
+    "二战",
+    "第二次大战",
+    "Holocaust",
+    "Holocausto",
+    "大屠杀",
+    "D-Day",
+    "Stalingrad",
+    "Pearl Harbor"
+  ],
+  "description": {
+    "en": "Germany attacked Poland on 1 September 1939, and Britain and France declared war on Germany two days later; Japan had been fighting China since 1937. In 1940 Germany defeated France and occupied much of western Europe, while Britain fought on. In June 1941 Germany and its allies attacked the Soviet Union, and in December Japan attacked the US fleet at Pearl Harbor and British territories in Asia, bringing the United States into the war. The Axis (Germany, Japan, Italy and partners such as Hungary and Romania) fought the Allies (the Soviet Union, the United States, the British Empire, China, Free France, Poland and many others). Nazi Germany and its collaborators murdered about six million Jews in the Holocaust, and millions of other civilians and prisoners. The Soviet victory at Stalingrad in early 1943 and the Normandy landings of June 1944 turned the war in Europe; Soviet troops took Berlin, and Germany surrendered on 8 May 1945. The United States dropped atomic bombs on Hiroshima and Nagasaki in August, the Soviet Union attacked Japanese forces in Manchuria, and Japan signed its surrender on 2 September 1945.",
+    "es": "Alemania atacó Polonia el 1 de septiembre de 1939, y el Reino Unido y Francia declararon la guerra a Alemania dos días después; Japón combatía en China desde 1937. En 1940 Alemania derrotó a Francia y ocupó gran parte de Europa occidental, mientras el Reino Unido seguía luchando. En junio de 1941 Alemania y sus aliados atacaron la Unión Soviética, y en diciembre Japón atacó la flota estadounidense en Pearl Harbor y territorios británicos en Asia, lo que llevó a Estados Unidos a la guerra. El Eje (Alemania, Japón, Italia y socios como Hungría y Rumania) luchó contra los Aliados (la Unión Soviética, Estados Unidos, el Imperio británico, China, la Francia Libre, Polonia y muchos otros). La Alemania nazi y sus colaboradores asesinaron a unos seis millones de judíos en el Holocausto, además de a millones de otros civiles y prisioneros. La victoria soviética en Stalingrado a comienzos de 1943 y el desembarco de Normandía de junio de 1944 cambiaron el curso de la guerra en Europa; las tropas soviéticas tomaron Berlín y Alemania se rindió el 8 de mayo de 1945. Estados Unidos lanzó bombas atómicas sobre Hiroshima y Nagasaki en agosto, la Unión Soviética atacó a las fuerzas japonesas en Manchuria y Japón firmó su rendición el 2 de septiembre de 1945.",
+    "zh": "1939年9月1日德国进攻波兰，两天后英国和法国对德宣战；日本自1937年起已在中国作战。1940年德国击败法国，占领西欧大部，英国继续作战。1941年6月德国及其盟国进攻苏联；同年12月日本袭击珍珠港的美国舰队和英国在亚洲的属地，美国随之参战。轴心国（德国、日本、意大利以及匈牙利、罗马尼亚等伙伴）与同盟国（苏联、美国、英帝国、中国、自由法国、波兰等众多国家）作战。纳粹德国及其合作者在大屠杀中杀害了约六百万犹太人，另有数百万其他平民和战俘遇害。1943年初苏联在斯大林格勒获胜，1944年6月盟军诺曼底登陆，扭转了欧洲战局；苏军攻占柏林，德国于1945年5月8日投降。同年8月美国向广岛和长崎投下原子弹，苏联进攻驻满洲的日军，日本于1945年9月2日签署投降书。"
+  },
+  "outcome": {
+    "en": "The Allies won: Germany surrendered unconditionally on 8 May 1945 and Japan on 2 September 1945.",
+    "es": "Ganaron los Aliados: Alemania se rindió sin condiciones el 8 de mayo de 1945 y Japón el 2 de septiembre de 1945.",
+    "zh": "同盟国获胜：德国于1945年5月8日无条件投降，日本于1945年9月2日投降。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1937,
+    "latestStart": 1939,
+    "earliestEnd": 1945,
+    "latestEnd": 1945,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"World War II.\"",
+        "url": "https://en.wikipedia.org/wiki/World_War_II"
+      },
+      {
+        "citation": "Wikipedia (español). \"Segunda Guerra Mundial.\"",
+        "url": "https://es.wikipedia.org/wiki/Segunda_Guerra_Mundial"
+      },
+      {
+        "citation": "\"World War II.\" EBSCO Research Starters: Military History and Science.",
+        "url": "https://www.ebsco.com/research-starters/military-history-and-science/world-war-ii"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "Most historians date the war from Germany's attack on Poland on 1 September 1939; some date the war in Asia from the start of full-scale war between Japan and China in July 1937, or from Japan's seizure of Manchuria in 1931.",
+      "es": "La mayoría de los historiadores fechan la guerra desde el ataque alemán a Polonia del 1 de septiembre de 1939; algunos sitúan el inicio de la guerra en Asia en el comienzo de la guerra a gran escala entre Japón y China, en julio de 1937, o en la ocupación japonesa de Manchuria en 1931.",
+      "zh": "多数历史学家以1939年9月1日德国进攻波兰为战争开端；也有人将亚洲战争的开端定在1937年7月日中全面战争爆发，或1931年日本占领满洲。"
+    }
+  },
+  "sides": [
+    {
+      "id": "allies",
+      "label": {
+        "en": "Allies",
+        "es": "Aliados",
+        "zh": "同盟国"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Soviet Union (from 1941)",
+            "es": "Unión Soviética (desde 1941)",
+            "zh": "苏联（1941年起）"
+          },
+          "role": "belligerent",
+          "today": [
+            "RU"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "belligerent",
+          "today": [
+            "US"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "GB",
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Republic of China (1912–1949)",
+            "es": "República de China (1912-1949)",
+            "zh": "中华民国（1912年—1949年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "FR",
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Second Polish Republic",
+            "es": "Segunda República Polaca",
+            "zh": "波兰第二共和国"
+          },
+          "role": "belligerent",
+          "today": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "axis",
+      "label": {
+        "en": "Axis",
+        "es": "Eje",
+        "zh": "轴心国"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Nazi Germany",
+            "es": "Alemania nazi",
+            "zh": "纳粹德国"
+          },
+          "role": "belligerent",
+          "today": [
+            "DE"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Empire of Japan",
+            "es": "Imperio del Japón",
+            "zh": "大日本帝国"
+          },
+          "role": "belligerent",
+          "today": [
+            "JP"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Italy (until 1943)",
+            "es": "Reino de Italia (hasta 1943)",
+            "zh": "意大利王国（至1943年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "germany-attacks-poland",
+      "start": 1939,
+      "title": {
+        "en": "1 September: German forces attack Poland; Britain and France declare war on Germany on 3 September, and Soviet forces enter eastern Poland on 17 September",
+        "es": "1 de septiembre: fuerzas alemanas atacan Polonia; el Reino Unido y Francia declaran la guerra a Alemania el 3 de septiembre, y fuerzas soviéticas entran en el este de Polonia el 17 de septiembre",
+        "zh": "9月1日：德军进攻波兰；英法于9月3日对德宣战，苏军于9月17日进入波兰东部"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"World War II.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_II"
+        },
+        {
+          "citation": "Wikipedia (español). \"Segunda Guerra Mundial.\"",
+          "url": "https://es.wikipedia.org/wiki/Segunda_Guerra_Mundial"
+        },
+        {
+          "citation": "Wikipedia (English). \"Invasion of Poland.\"",
+          "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Warsaw",
+          "es": "Varsovia",
+          "zh": "华沙"
+        },
+        "lat": 52.23,
+        "lon": 21.011
+      },
+      "wikidataId": "Q150812"
+    },
+    {
+      "id": "germany-attacks-the-soviet-union",
+      "start": 1941,
+      "title": {
+        "en": "22 June: Germany, with Romania, Italy and later Finland and Hungary, attacks the Soviet Union along a front from the Baltic to the Black Sea",
+        "es": "22 de junio: Alemania, con Rumania, Italia y después Finlandia y Hungría, ataca la Unión Soviética en un frente del Báltico al mar Negro",
+        "zh": "6月22日：德国联合罗马尼亚、意大利，随后又有芬兰和匈牙利，沿波罗的海至黑海一线进攻苏联"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"World War II.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_II"
+        },
+        {
+          "citation": "Wikipedia (English). \"Operation Barbarossa.\"",
+          "url": "https://en.wikipedia.org/wiki/Operation_Barbarossa"
+        },
+        {
+          "citation": "Wikipedia (español). \"Operación Barbarroja.\"",
+          "url": "https://es.wikipedia.org/wiki/Operación_Barbarroja"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Brest (then on the German–Soviet line)",
+          "es": "Brest (entonces en la línea germano-soviética)",
+          "zh": "布列斯特（当时位于德苏分界线上）"
+        },
+        "lat": 52.083,
+        "lon": 23.653
+      },
+      "wikidataId": "Q83055"
+    },
+    {
+      "id": "attack-on-pearl-harbor",
+      "start": 1941,
+      "title": {
+        "en": "7 December: Japanese carrier aircraft attack the US Pacific Fleet at Pearl Harbor; the United States declares war on Japan the next day",
+        "es": "7 de diciembre: aviones japoneses lanzados desde portaaviones atacan la flota estadounidense del Pacífico en Pearl Harbor; Estados Unidos declara la guerra a Japón al día siguiente",
+        "zh": "12月7日：日本航母舰载机袭击珍珠港的美国太平洋舰队；美国次日对日宣战"
+      },
+      "sources": [
+        {
+          "citation": "\"World War II.\" EBSCO Research Starters: Military History and Science.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/world-war-ii"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War II.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_II"
+        },
+        {
+          "citation": "Wikipedia (español). \"Ataque a Pearl Harbor.\"",
+          "url": "https://es.wikipedia.org/wiki/Ataque_a_Pearl_Harbor"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Pearl Harbor, Hawaii",
+          "es": "Pearl Harbor, Hawái",
+          "zh": "夏威夷珍珠港"
+        },
+        "lat": 21.362,
+        "lon": -157.954
+      },
+      "wikidataId": "Q52418"
+    },
+    {
+      "id": "auschwitz-birkenau",
+      "start": 1942,
+      "end": 1944,
+      "title": {
+        "en": "1942–1944: trains bring Jews from across occupied Europe to the gas chambers of Auschwitz-Birkenau, where about 1.1 million people are murdered, most of them Jews",
+        "es": "1942–1944: trenes llevan a judíos de toda la Europa ocupada a las cámaras de gas de Auschwitz-Birkenau, donde son asesinadas cerca de 1,1 millones de personas, en su mayoría judías",
+        "zh": "1942年至1944年：火车把被占领欧洲各地的犹太人运往奥斯威辛-比克瑙的毒气室，约110万人在此被杀害，其中大多数是犹太人"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Auschwitz concentration camp.\"",
+          "url": "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"
+        },
+        {
+          "citation": "Wikipedia (español). \"Campo de concentración de Auschwitz.\"",
+          "url": "https://es.wikipedia.org/wiki/Campo_de_concentración_de_Auschwitz"
+        },
+        {
+          "citation": "Wikipedia (English). \"The Holocaust.\"",
+          "url": "https://en.wikipedia.org/wiki/The_Holocaust"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Auschwitz-Birkenau, Oświęcim",
+          "es": "Auschwitz-Birkenau, Oświęcim",
+          "zh": "奥斯威辛-比克瑙（奥斯维辛）"
+        },
+        "lat": 50.036,
+        "lon": 19.178
+      },
+      "wikidataId": "Q7341"
+    },
+    {
+      "id": "battle-of-stalingrad",
+      "start": 1942,
+      "end": 1943,
+      "title": {
+        "en": "23 August 1942 – 2 February 1943: the German Sixth Army reaches Stalingrad, is encircled by Soviet forces and surrenders",
+        "es": "23 de agosto de 1942 – 2 de febrero de 1943: el VI Ejército alemán llega a Stalingrado, es cercado por las fuerzas soviéticas y se rinde",
+        "zh": "1942年8月23日至1943年2月2日：德国第六集团军攻至斯大林格勒，被苏军包围后投降"
+      },
+      "sources": [
+        {
+          "citation": "\"World War II.\" EBSCO Research Starters: Military History and Science.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/world-war-ii"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War II.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_II"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla de Stalingrado.\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_Stalingrado"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Stalingrad (now Volgograd)",
+          "es": "Stalingrado (hoy Volgogrado)",
+          "zh": "斯大林格勒（今伏尔加格勒）"
+        },
+        "lat": 48.709,
+        "lon": 44.515
+      },
+      "wikidataId": "Q38789"
+    },
+    {
+      "id": "normandy-landings",
+      "start": 1944,
+      "title": {
+        "en": "6 June: American, British, Canadian and other Allied troops land on the coast of Normandy",
+        "es": "6 de junio: tropas estadounidenses, británicas, canadienses y de otros países aliados desembarcan en la costa de Normandía",
+        "zh": "6月6日：美国、英国、加拿大等盟军部队在诺曼底海岸登陆"
+      },
+      "sources": [
+        {
+          "citation": "\"World War II.\" EBSCO Research Starters: Military History and Science.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/world-war-ii"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War II.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_II"
+        },
+        {
+          "citation": "Wikipedia (español). \"Desembarco de Normandía.\"",
+          "url": "https://es.wikipedia.org/wiki/Desembarco_de_Normandía"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Normandy coast",
+          "es": "Costa de Normandía",
+          "zh": "诺曼底海岸"
+        },
+        "lat": 49.34,
+        "lon": -0.6
+      },
+      "wikidataId": "Q16470"
+    },
+    {
+      "id": "fall-of-berlin-and-german-surrender",
+      "start": 1945,
+      "title": {
+        "en": "April–May: Soviet forces take Berlin, where Hitler kills himself on 30 April; Germany surrenders unconditionally on 8 May",
+        "es": "Abril–mayo: fuerzas soviéticas toman Berlín, donde Hitler se suicida el 30 de abril; Alemania se rinde sin condiciones el 8 de mayo",
+        "zh": "4月至5月：苏军攻占柏林，希特勒于4月30日自杀；德国于5月8日无条件投降"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"World War II.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_II"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Berlin.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Berlin"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla de Berlín.\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_Berlín"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Berlin",
+          "es": "Berlín",
+          "zh": "柏林"
+        },
+        "lat": 52.517,
+        "lon": 13.383
+      },
+      "wikidataId": "Q154182"
+    },
+    {
+      "id": "atomic-bombings-and-japanese-surrender",
+      "start": 1945,
+      "title": {
+        "en": "6 and 9 August: the United States drops atomic bombs on Hiroshima and Nagasaki; Japan announces its surrender on 15 August and signs it on 2 September",
+        "es": "6 y 9 de agosto: Estados Unidos lanza bombas atómicas sobre Hiroshima y Nagasaki; Japón anuncia su rendición el 15 de agosto y la firma el 2 de septiembre",
+        "zh": "8月6日和9日：美国向广岛和长崎投下原子弹；日本于8月15日宣布投降，9月2日签署投降书"
+      },
+      "sources": [
+        {
+          "citation": "\"World War II.\" EBSCO Research Starters: Military History and Science.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/world-war-ii"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War II.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_II"
+        },
+        {
+          "citation": "Wikipedia (español). \"Bombardeos atómicos de Hiroshima y Nagasaki.\"",
+          "url": "https://es.wikipedia.org/wiki/Bombardeos_atómicos_de_Hiroshima_y_Nagasaki"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Hiroshima",
+          "es": "Hiroshima",
+          "zh": "广岛"
+        },
+        "lat": 34.391,
+        "lon": 132.452
+      },
+      "wikidataId": "Q488"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Joseph Stalin",
+        "es": "Iósif Stalin",
+        "zh": "约瑟夫·斯大林"
+      },
+      "side": "allies",
+      "role": {
+        "en": "Leader of the Soviet Union",
+        "es": "Líder de la Unión Soviética",
+        "zh": "苏联领导人"
+      },
+      "wikidataId": "Q855"
+    },
+    {
+      "name": {
+        "en": "Franklin D. Roosevelt",
+        "es": "Franklin D. Roosevelt",
+        "zh": "富兰克林·德拉诺·罗斯福"
+      },
+      "side": "allies",
+      "role": {
+        "en": "President of the United States until his death in April 1945",
+        "es": "Presidente de Estados Unidos hasta su muerte en abril de 1945",
+        "zh": "美国总统，1945年4月去世"
+      },
+      "wikidataId": "Q8007"
+    },
+    {
+      "name": {
+        "en": "Winston Churchill",
+        "es": "Winston Churchill",
+        "zh": "温斯顿·丘吉尔"
+      },
+      "side": "allies",
+      "role": {
+        "en": "Prime Minister of the United Kingdom from May 1940",
+        "es": "Primer ministro del Reino Unido desde mayo de 1940",
+        "zh": "1940年5月起任英国首相"
+      },
+      "wikidataId": "Q8016"
+    },
+    {
+      "name": {
+        "en": "Chiang Kai-shek",
+        "es": "Chiang Kai-shek",
+        "zh": "蒋介石"
+      },
+      "side": "allies",
+      "role": {
+        "en": "Leader of the Republic of China",
+        "es": "Líder de la República de China",
+        "zh": "中华民国领导人"
+      },
+      "wikidataId": "Q16574"
+    },
+    {
+      "name": {
+        "en": "Georgy Zhukov",
+        "es": "Gueorgui Zhúkov",
+        "zh": "格奥尔基·朱可夫"
+      },
+      "side": "allies",
+      "role": {
+        "en": "Soviet marshal; led the attack on Berlin",
+        "es": "Mariscal soviético; dirigió el ataque a Berlín",
+        "zh": "苏联元帅，指挥攻克柏林"
+      },
+      "wikidataId": "Q124617"
+    },
+    {
+      "name": {
+        "en": "Dwight D. Eisenhower",
+        "es": "Dwight D. Eisenhower",
+        "zh": "德怀特·艾森豪威尔"
+      },
+      "side": "allies",
+      "role": {
+        "en": "Supreme commander of the Allied forces in western Europe",
+        "es": "Comandante supremo de las fuerzas aliadas en Europa occidental",
+        "zh": "西欧盟军最高统帅"
+      },
+      "wikidataId": "Q9916"
+    },
+    {
+      "name": {
+        "en": "Adolf Hitler",
+        "es": "Adolf Hitler",
+        "zh": "阿道夫·希特勒"
+      },
+      "side": "axis",
+      "role": {
+        "en": "Dictator of Germany",
+        "es": "Dictador de Alemania",
+        "zh": "德国独裁者"
+      },
+      "wikidataId": "Q352"
+    },
+    {
+      "name": {
+        "en": "Hirohito",
+        "es": "Hirohito",
+        "zh": "昭和天皇"
+      },
+      "side": "axis",
+      "role": {
+        "en": "Emperor of Japan",
+        "es": "Emperador de Japón",
+        "zh": "日本天皇"
+      },
+      "wikidataId": "Q34479"
+    },
+    {
+      "name": {
+        "en": "Hideki Tojo",
+        "es": "Hideki Tōjō",
+        "zh": "东条英机"
+      },
+      "side": "axis",
+      "role": {
+        "en": "Prime Minister of Japan, 1941–1944",
+        "es": "Primer ministro de Japón, 1941–1944",
+        "zh": "日本首相（1941年至1944年）"
+      },
+      "wikidataId": "Q160847"
+    },
+    {
+      "name": {
+        "en": "Benito Mussolini",
+        "es": "Benito Mussolini",
+        "zh": "贝尼托·墨索里尼"
+      },
+      "side": "axis",
+      "role": {
+        "en": "Dictator of Italy until 1943",
+        "es": "Dictador de Italia hasta 1943",
+        "zh": "意大利独裁者，至1943年"
+      },
+      "wikidataId": "Q23559"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "total-deaths",
+      "low": 50000000,
+      "high": 75000000,
+      "sources": [
+        {
+          "citation": "\"World War II.\" EBSCO Research Starters: Military History and Science.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/world-war-ii"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War II.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_II"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War II casualties.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_II_casualties"
+        },
+        {
+          "citation": "The National WWII Museum. \"Research Starters: Worldwide Deaths in World War II.\"",
+          "url": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war"
+        }
+      ],
+      "note": {
+        "en": "Soldiers and civilians of all countries, including those murdered in the Holocaust and other mass killings and those who died of famine and disease; most were civilians. EBSCO says most estimates centre on about 50 million, while English Wikipedia gives 60–75 million. The National WWII Museum puts Soviet deaths at about 24 million and Chinese deaths at about 20 million. Estimates vary widely.",
+        "es": "Soldados y civiles de todos los países, incluidos los asesinados en el Holocausto y otras matanzas y los muertos por hambre y enfermedad; la mayoría fueron civiles. EBSCO indica que la mayoría de las estimaciones rondan los 50 millones, mientras que la Wikipedia en inglés da de 60 a 75 millones. El Museo Nacional de la Segunda Guerra Mundial cifra los muertos soviéticos en unos 24 millones y los chinos en unos 20 millones. Las estimaciones varían mucho.",
+        "zh": "各国军人和平民，包括在大屠杀和其他屠杀中遇害者，以及死于饥荒和疾病者；其中大多数是平民。EBSCO称多数估计在5000万人左右，英文维基百科则为6000万至7500万人。美国国家二战博物馆估计苏联死亡约2400万人，中国约2000万人。各方估计差异很大。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "citation": "\"World War II.\" EBSCO Research Starters: Military History and Science.",
+      "url": "https://www.ebsco.com/research-starters/military-history-and-science/world-war-ii"
+    },
+    {
+      "citation": "The National WWII Museum. \"Research Starters: Worldwide Deaths in World War II.\"",
+      "url": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war"
+    },
+    {
+      "citation": "Wikipedia (English). \"World War II.\"",
+      "url": "https://en.wikipedia.org/wiki/World_War_II"
+    },
+    {
+      "citation": "Wikipedia (español). \"Segunda Guerra Mundial.\"",
+      "url": "https://es.wikipedia.org/wiki/Segunda_Guerra_Mundial"
+    },
+    {
+      "citation": "Wikipedia (中文). \"第二次世界大战.\"",
+      "url": "https://zh.wikipedia.org/wiki/第二次世界大战"
+    },
+    {
+      "citation": "Wikipedia (English). \"World War II casualties.\"",
+      "url": "https://en.wikipedia.org/wiki/World_War_II_casualties"
+    }
+  ]
+}
