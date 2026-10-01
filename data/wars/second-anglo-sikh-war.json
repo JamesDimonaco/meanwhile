@@ -1,0 +1,524 @@
+{
+  "id": "second-anglo-sikh-war",
+  "wikidataId": "Q243590",
+  "name": {
+    "en": "Second Anglo-Sikh War",
+    "es": "Segunda guerra anglo-sij",
+    "zh": "第二次英国锡克战争"
+  },
+  "noWikiTitle": [
+    "es"
+  ],
+  "aliases": [
+    "Second Sikh War",
+    "Anglo-Sikh wars",
+    "Chillianwala",
+    "Gujrat",
+    "Multan",
+    "Annexation of the Punjab",
+    "锡克战争",
+    "Guerras anglo-sijs"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "Resentment of the British Resident's control of the Lahore court grew after the First Anglo-Sikh War. In April 1848 two British officers sent to take over Multan from its governor, Diwan Mulraj, were killed, and Mulraj's troops rose in revolt. Lieutenant Herbert Edwardes, with Pashtun irregulars and troops of the Nawab of Bahawalpur, beat Mulraj's forces in the field and drove them into Multan. In September Sher Singh Attariwalla, sent with Sikh troops to help the besiegers, joined the revolt, and his father Chattar Singh rose in Hazara; Afghan horsemen sent by Dost Mohammad Khan later joined them. Sir Hugh Gough's army fought Sher Singh at Ramnagar in November and at Chillianwala on 13 January 1849, where both sides lost heavily. Multan fell on 22 January after a siege, and on 21 February Gough's reinforced army defeated the Sikh army at Gujrat. The Sikh leaders surrendered near Rawalpindi in March, and on 29 March 1849 the Governor-General, Lord Dalhousie, annexed the Punjab and deposed the boy Maharaja Duleep Singh.",
+    "es": "El resentimiento por el control del residente británico sobre la corte de Lahore creció tras la primera guerra anglo-sij. En abril de 1848 dos oficiales británicos enviados a hacerse cargo de Multán, en lugar de su gobernador, el diván Mulraj, fueron asesinados, y las tropas de Mulraj se sublevaron. El teniente Herbert Edwardes, con irregulares pastunes y tropas del nabab de Bahawalpur, venció a las fuerzas de Mulraj en campo abierto y las obligó a encerrarse en Multán. En septiembre Sher Singh Attariwalla, enviado con tropas sijs para ayudar a los sitiadores, se unió a la revuelta, y su padre Chattar Singh se alzó en Hazara; más tarde se les unieron jinetes afganos enviados por Dost Mohammad Khan. El ejército de sir Hugh Gough combatió a Sher Singh en Ramnagar en noviembre y en Chillianwala el 13 de enero de 1849, donde ambos bandos sufrieron grandes pérdidas. Multán cayó el 22 de enero tras un sitio, y el 21 de febrero el ejército reforzado de Gough derrotó al ejército sij en Gujrat. Los jefes sijs se rindieron cerca de Rawalpindi en marzo, y el 29 de marzo de 1849 el gobernador general, lord Dalhousie, se anexionó el Punyab y depuso al niño maharajá Duleep Singh.",
+    "zh": "第一次英国锡克战争后，英国驻拉合尔代表对宫廷的控制引发的不满日益加深。1848年4月，两名被派去从总督迪万·穆尔拉吉手中接管木尔坦的英国军官被杀，穆尔拉吉的部队随即起事。赫伯特·爱德华兹中尉率普什图非正规军和巴哈瓦尔布尔纳瓦卜的部队，在野战中击败穆尔拉吉的军队，将其逼入木尔坦城。9月，奉命率锡克部队协助围城的舍尔·辛格·阿塔里瓦拉加入起事，其父查塔尔·辛格在哈扎拉起兵；后来多斯特·穆罕默德汗派出的阿富汗骑兵也加入他们。11月和1849年1月13日，休·高夫爵士的军队先后在拉姆纳加尔和奇连瓦拉与舍尔·辛格交战，在奇连瓦拉双方均损失惨重。1月22日，木尔坦经围攻后陷落；2月21日，高夫得到增援的军队在古杰拉特击败锡克军队。3月，锡克首领在拉瓦尔品第附近投降；1849年3月29日，总督达尔豪斯勋爵吞并旁遮普，废黜年幼的杜利普·辛格大君。"
+  },
+  "outcome": {
+    "en": "The Sikh army surrendered in March 1849, and on 29 March the East India Company annexed the Punjab and deposed Maharaja Duleep Singh.",
+    "es": "El ejército sij se rindió en marzo de 1849, y el 29 de marzo la Compañía de las Indias Orientales se anexionó el Punyab y depuso al maharajá Duleep Singh.",
+    "zh": "锡克军队于1849年3月投降；3月29日，东印度公司吞并旁遮普，废黜杜利普·辛格大君。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1848,
+    "latestStart": 1848,
+    "earliestEnd": 1849,
+    "latestEnd": 1849,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Second Anglo-Sikh War.\"",
+        "url": "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"
+      },
+      {
+        "citation": "National Army Museum. \"Second Sikh War.\"",
+        "url": "https://www.nam.ac.uk/explore/second-sikh-war"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "company",
+      "label": {
+        "en": "East India Company forces, British Army regiments and their allies",
+        "es": "Las fuerzas de la Compañía de las Indias Orientales, regimientos del ejército británico y sus aliados",
+        "zh": "东印度公司部队、英国陆军各团及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces",
+            "es": "Fuerzas de la Compañía de las Indias Orientales",
+            "zh": "东印度公司部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "British Army regiments",
+            "es": "Regimientos del ejército británico",
+            "zh": "英国陆军各团"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Sepoy regiments of the Company's Bengal army",
+            "es": "Regimientos de cipayos del ejército de Bengala de la Compañía",
+            "zh": "东印度公司孟加拉军中的印度兵团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Pashtun irregulars raised by Herbert Edwardes",
+            "es": "Irregulares pastunes reclutados por Herbert Edwardes",
+            "zh": "赫伯特·爱德华兹招募的普什图非正规军"
+          },
+          "role": "belligerent",
+          "today": [
+            "PK"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Bahawalpur, under its Nawab",
+            "es": "Bahawalpur, bajo su nabab",
+            "zh": "纳瓦卜治下的巴哈瓦尔布尔"
+          },
+          "role": "belligerent",
+          "today": [
+            "PK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sikh-rebels-and-afghans",
+      "label": {
+        "en": "Sikh forces in revolt and their Afghan allies",
+        "es": "Fuerzas sijs sublevadas y sus aliados afganos",
+        "zh": "起事的锡克部队及其阿富汗盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Mulraj's forces at Multan",
+            "es": "Las fuerzas de Mulraj en Multán",
+            "zh": "穆尔拉吉在木尔坦的部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "PK"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Khalsa regiments under Sher Singh and Chattar Singh Attariwalla",
+            "es": "Regimientos del Khalsa al mando de Sher Singh y Chattar Singh Attariwalla",
+            "zh": "舍尔·辛格和查塔尔·辛格·阿塔里瓦拉率领的卡尔萨各团"
+          },
+          "role": "belligerent",
+          "today": [
+            "PK",
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Afghan horsemen sent by Dost Mohammad Khan of Kabul",
+            "es": "Jinetes afganos enviados por Dost Mohammad Khan de Kabul",
+            "zh": "喀布尔的多斯特·穆罕默德汗派出的阿富汗骑兵"
+          },
+          "role": "belligerent",
+          "today": [
+            "AF"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "multan-revolt",
+      "start": 1848,
+      "title": {
+        "en": "Patrick Vans Agnew and William Anderson, sent to take over Multan from Diwan Mulraj, are attacked and killed in April; Mulraj's troops rise in revolt",
+        "es": "Patrick Vans Agnew y William Anderson, enviados a hacerse cargo de Multán en lugar del diván Mulraj, son atacados y asesinados en abril; las tropas de Mulraj se sublevan",
+        "zh": "4月，被派去从迪万·穆尔拉吉手中接管木尔坦的帕特里克·范斯·阿格纽和威廉·安德森遇袭身亡；穆尔拉吉的部队起事"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Mulraj said he had not ordered the attack; the National Army Museum calls it unlikely that he did.",
+        "es": "Mulraj dijo que no había ordenado el ataque; el National Army Museum considera poco probable que lo hiciera.",
+        "zh": "穆尔拉吉称并非他下令袭击；英国国家陆军博物馆认为他下令的可能性不大。"
+      },
+      "place": {
+        "name": {
+          "en": "Multan",
+          "es": "Multán",
+          "zh": "木尔坦"
+        },
+        "lat": 30.198,
+        "lon": 71.471
+      }
+    },
+    {
+      "id": "siege-of-multan",
+      "start": 1848,
+      "end": 1849,
+      "title": {
+        "en": "Company forces besiege Multan; the siege is lifted when Sher Singh's troops join the revolt in September, renewed with heavy guns, and ends when Mulraj surrenders on 22 January 1849",
+        "es": "Fuerzas de la Compañía sitian Multán; el sitio se levanta cuando las tropas de Sher Singh se unen a la revuelta en septiembre, se reanuda con artillería pesada y termina con la rendición de Mulraj el 22 de enero de 1849",
+        "zh": "公司部队围攻木尔坦；9月舍尔·辛格的部队加入起事后解围，随后携重炮再度围城，至1849年1月22日穆尔拉吉投降结束"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Multan",
+          "es": "Multán",
+          "zh": "木尔坦"
+        },
+        "lat": 30.198,
+        "lon": 71.471
+      },
+      "wikidataId": "Q7510255"
+    },
+    {
+      "id": "battle-of-ramnagar",
+      "start": 1848,
+      "title": {
+        "en": "Sikh troops under Sher Singh throw back a British cavalry attack at Ramnagar on the Chenab on 22 November",
+        "es": "Tropas sijs al mando de Sher Singh rechazan un ataque de caballería británica en Ramnagar, junto al Chenab, el 22 de noviembre",
+        "zh": "11月22日，舍尔·辛格率领的锡克部队在杰纳布河畔的拉姆纳加尔击退英国骑兵的进攻"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ramnagar, on the Chenab",
+          "es": "Ramnagar, junto al Chenab",
+          "zh": "杰纳布河畔的拉姆纳加尔"
+        },
+        "lat": 32.317,
+        "lon": 73.833
+      },
+      "wikidataId": "Q1761867"
+    },
+    {
+      "id": "battle-of-chillianwala",
+      "start": 1849,
+      "title": {
+        "en": "Gough attacks Sher Singh's army near Chillianwala on 13 January; after heavy fighting both armies hold their ground and the Sikhs later withdraw north",
+        "es": "Gough ataca al ejército de Sher Singh cerca de Chillianwala el 13 de enero; tras duros combates ambos ejércitos mantienen sus posiciones y los sijs se retiran después hacia el norte",
+        "zh": "1月13日，高夫在奇连瓦拉附近进攻舍尔·辛格的军队；激战后双方各守阵地，锡克军随后北撤"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"
+        }
+      ],
+      "note": {
+        "en": "Gough's army had about 2,300 casualties, according to the National Army Museum; the 24th Foot alone lost 238 killed. Sikh troops killed many British wounded left on the field.",
+        "es": "Según el National Army Museum, el ejército de Gough tuvo unas 2.300 bajas; solo el 24.º de Infantería perdió 238 muertos. Tropas sijs mataron a muchos heridos británicos que quedaron en el campo.",
+        "zh": "据英国国家陆军博物馆，高夫的军队伤亡约2300人，仅第24步兵团就有238人阵亡。锡克部队杀死了许多留在战场上的英军伤员。"
+      },
+      "place": {
+        "name": {
+          "en": "Chillianwala",
+          "es": "Chillianwala",
+          "zh": "奇连瓦拉"
+        },
+        "lat": 32.657,
+        "lon": 73.603
+      },
+      "wikidataId": "Q4870727"
+    },
+    {
+      "id": "battle-of-gujrat",
+      "start": 1849,
+      "title": {
+        "en": "Gough's army, reinforced from Multan with heavy guns, defeats the Sikh army at Gujrat on 21 February after a long artillery duel",
+        "es": "El ejército de Gough, reforzado desde Multán con artillería pesada, derrota al ejército sij en Gujrat el 21 de febrero tras un largo duelo de artillería",
+        "zh": "2月21日，得到木尔坦方面重炮增援的高夫军队，经长时间炮战后在古杰拉特击败锡克军队"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Gujrat",
+          "es": "Gujrat",
+          "zh": "古杰拉特"
+        },
+        "lat": 32.574,
+        "lon": 74.079
+      },
+      "wikidataId": "Q4871164"
+    },
+    {
+      "id": "surrender-near-rawalpindi",
+      "start": 1849,
+      "title": {
+        "en": "Sher Singh and Chattar Singh surrender with about 20,000 men near Rawalpindi in March; the Afghan contingent withdraws through Attock and Peshawar",
+        "es": "Sher Singh y Chattar Singh se rinden con unos 20.000 hombres cerca de Rawalpindi en marzo; el contingente afgano se retira por Attock y Peshawar",
+        "zh": "3月，舍尔·辛格和查塔尔·辛格率约2万人在拉瓦尔品第附近投降；阿富汗部队经阿托克和白沙瓦撤走"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"
+        }
+      ],
+      "note": {
+        "en": "Accounts date the surrender to 12 or 14 March 1849.",
+        "es": "Los relatos fechan la rendición el 12 o el 14 de marzo de 1849.",
+        "zh": "各记载将投降日期定于1849年3月12日或14日。"
+      },
+      "place": {
+        "name": {
+          "en": "Rawalpindi",
+          "es": "Rawalpindi",
+          "zh": "拉瓦尔品第"
+        },
+        "lat": 33.601,
+        "lon": 73.068
+      }
+    },
+    {
+      "id": "annexation-of-the-punjab",
+      "start": 1849,
+      "title": {
+        "en": "Lord Dalhousie annexes the Punjab on 29 March and deposes Maharaja Duleep Singh",
+        "es": "Lord Dalhousie se anexiona el Punyab el 29 de marzo y depone al maharajá Duleep Singh",
+        "zh": "3月29日，达尔豪斯勋爵吞并旁遮普，废黜杜利普·辛格大君"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Second Sikh War.\"",
+          "url": "https://www.nam.ac.uk/explore/second-sikh-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Lahore",
+          "es": "Lahore",
+          "zh": "拉合尔"
+        },
+        "lat": 31.55,
+        "lon": 74.344
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Lord Dalhousie",
+        "es": "Lord Dalhousie",
+        "zh": "达尔豪斯勋爵"
+      },
+      "side": "company",
+      "role": {
+        "en": "Governor-General; annexed the Punjab",
+        "es": "Gobernador general; se anexionó el Punyab",
+        "zh": "总督；吞并旁遮普"
+      },
+      "wikidataId": "Q333117"
+    },
+    {
+      "name": {
+        "en": "Hugh Gough",
+        "es": "Hugh Gough",
+        "zh": "休·高夫"
+      },
+      "side": "company",
+      "role": {
+        "en": "Commander-in-Chief in India",
+        "es": "Comandante en jefe en la India",
+        "zh": "驻印总司令"
+      },
+      "wikidataId": "Q335994"
+    },
+    {
+      "name": {
+        "en": "Herbert Edwardes",
+        "es": "Herbert Edwardes",
+        "zh": "赫伯特·爱德华兹"
+      },
+      "side": "company",
+      "role": {
+        "en": "Political officer; raised irregulars and fought Mulraj",
+        "es": "Funcionario político; reclutó irregulares y combatió a Mulraj",
+        "zh": "政治官员；招募非正规军与穆尔拉吉作战"
+      },
+      "wikidataId": "Q3246897"
+    },
+    {
+      "name": {
+        "en": "Walter Gilbert",
+        "es": "Walter Gilbert",
+        "zh": "沃尔特·吉尔伯特"
+      },
+      "side": "company",
+      "role": {
+        "en": "Received the Sikh surrender near Rawalpindi",
+        "es": "Recibió la rendición sij cerca de Rawalpindi",
+        "zh": "在拉瓦尔品第附近接受锡克军投降"
+      },
+      "wikidataId": "Q7529385"
+    },
+    {
+      "name": {
+        "en": "Diwan Mulraj",
+        "es": "Diwan Mulraj",
+        "zh": "迪万·穆尔拉吉"
+      },
+      "side": "sikh-rebels-and-afghans",
+      "role": {
+        "en": "Governor of Multan",
+        "es": "Gobernador de Multán",
+        "zh": "木尔坦总督"
+      },
+      "wikidataId": "Q5268049"
+    },
+    {
+      "name": {
+        "en": "Sher Singh Attariwalla",
+        "es": "Sher Singh Attariwalla",
+        "zh": "舍尔·辛格·阿塔里瓦拉"
+      },
+      "side": "sikh-rebels-and-afghans",
+      "role": {
+        "en": "Commanded the main Sikh army",
+        "es": "Mandó el principal ejército sij",
+        "zh": "锡克主力部队指挥官"
+      },
+      "wikidataId": "Q7494641"
+    },
+    {
+      "name": {
+        "en": "Chattar Singh Attariwalla",
+        "es": "Chattar Singh Attariwalla",
+        "zh": "查塔尔·辛格·阿塔里瓦拉"
+      },
+      "side": "sikh-rebels-and-afghans",
+      "role": {
+        "en": "Sher Singh's father; rose in Hazara",
+        "es": "Padre de Sher Singh; se alzó en Hazara",
+        "zh": "舍尔·辛格之父；在哈扎拉起兵"
+      },
+      "wikidataId": "Q5087910"
+    },
+    {
+      "name": {
+        "en": "Dost Mohammad Khan",
+        "es": "Dost Mohammad Khan",
+        "zh": "多斯特·穆罕默德汗"
+      },
+      "side": "sikh-rebels-and-afghans",
+      "role": {
+        "en": "Amir of Kabul; sent horsemen to support the Sikhs",
+        "es": "Emir de Kabul; envió jinetes en apoyo de los sijs",
+        "zh": "喀布尔埃米尔；派骑兵支援锡克人"
+      },
+      "wikidataId": "Q32027"
+    }
+  ],
+  "casualties": [],
+  "follows": "first-anglo-sikh-war",
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Second Anglo-Sikh War.\"",
+      "url": "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"
+    },
+    {
+      "citation": "Wikipedia (中文). \"第二次英国锡克战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E8%8B%B1%E5%9B%BD%E9%94%A1%E5%85%8B%E6%88%98%E4%BA%89"
+    },
+    {
+      "citation": "National Army Museum. \"Second Sikh War.\"",
+      "url": "https://www.nam.ac.uk/explore/second-sikh-war"
+    }
+  ]
+}
