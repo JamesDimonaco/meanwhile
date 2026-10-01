@@ -3,7 +3,8 @@ import { isListableCountry, NEVER_SHOWN } from "./countries";
 import { countMissing, issues } from "./issues";
 import type { DataFile } from "./validate";
 import type { Borders, Culture } from "./schema";
-import { WarFile, type War, type WarEvent } from "./war-schema";
+import { REVIEWED, SENSITIVE_WARS } from "./war-review";
+import { MIN_FLAGSHIP_PHASES, TIER_EVENTS, WarFile, type War, type WarEvent } from "./war-schema";
 import { warOuter } from "./wars";
 
 /** Polygons only for flagship wars over by this year; later wars get pins on plain land. */
@@ -15,10 +16,12 @@ export type WarsInput = {
   cultures: readonly Culture[];
   /** Border files that name a warId. */
   borders: readonly (Borders & { path: string })[];
+  /** YYYY-MM-DD: an ongoing war can't have been checked later than this. */
+  buildDate: string;
 };
 
 /** Pure so it can be tested; validateDataset feeds it the files on disk. */
-export function validateWars({ warFiles, registryIds, cultures, borders }: WarsInput): {
+export function validateWars({ warFiles, registryIds, cultures, borders, buildDate }: WarsInput): {
   errors: string[];
   warnings: string[];
   wars: War[];
@@ -39,6 +42,13 @@ export function validateWars({ warFiles, registryIds, cultures, borders }: WarsI
     const expected = `data/wars/${w.id}.json`;
     if (file.path !== expected) errors.push(`${at}: should live at ${expected}`);
     if (registryIds.has(w.id)) errors.push(`${at}: "${w.id}" is a culture id; pick another war id`);
+    if (SENSITIVE_WARS.has(w.id) && !w.sensitive) errors.push(`${at}: ${w.id} is on the sensitive list (war-review.ts); set "sensitive": true`);
+    for (const locale of ["es", "zh"] as const) {
+      if (w.reviewed[locale] && !REVIEWED.has(`${w.id}:${locale}`)) {
+        errors.push(`${at}: reviewed.${locale} is true, but only James signs a language off, in war-review.ts; set it false`);
+      }
+    }
+    if (w.ongoing && w.ongoing.asOf > buildDate) errors.push(`${at}: asOf ${w.ongoing.asOf} is after the build date ${buildDate}`);
 
     const unregistered = (id: string) => `${at}: "${id}" is not in data/registry.json`;
     for (const side of w.sides) {
@@ -78,7 +88,18 @@ export function validateWars({ warFiles, registryIds, cultures, borders }: WarsI
     // Stable: within a year the file order is the order things happened.
     events.sort((a, b) => a.start - b.start);
 
+    const [min, max] = TIER_EVENTS[w.tier];
+    if (events.length < min || events.length > max) {
+      errors.push(`${at}: ${w.tier} wars have ${min}-${max} events; this has ${events.length}`);
+    }
+    if (w.tier === "flagship" && w.phases.length < MIN_FLAGSHIP_PHASES) {
+      errors.push(`${at}: flagship wars need at least ${MIN_FLAGSHIP_PHASES} phases`);
+    }
+
     const [from, to] = warOuter(w);
+    for (const p of w.phases) {
+      if (p.start < from || p.end > to) errors.push(`${at}: phase "${p.id}" (${p.start}-${p.end}) is outside the war (${from} to ${to})`);
+    }
     for (const e of events) {
       const end = e.end ?? e.start;
       if (e.start < from || end > to) {

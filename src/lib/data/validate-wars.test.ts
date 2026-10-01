@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { validateDataset, type DataFile } from "./validate";
+import { REVIEWED, SENSITIVE_WARS } from "./war-review";
 
 const src = { citation: "Test source" };
 const both = [src, { citation: "Second source" }];
@@ -36,7 +37,36 @@ const aztec = {
 
 const place = (lon: number, lat: number) => ({ name: t("somewhere"), lat, lon });
 
+type Dates = { earliestStart: number; latestEnd?: number; asOf?: string };
+
+/**
+ * A valid war unless the overrides break it. Events are padded with fillers at
+ * the war's first year, and a flagship gets two phases, so each fixture meets
+ * its tier's rules and a test checks one rule at a time.
+ */
 function warJson(id: string, overrides: Record<string, unknown> = {}) {
+  const tier = (overrides.tier as string | undefined) ?? "standard";
+  const dates = (overrides.period ?? overrides.ongoing ?? { earliestStart: 1519, latestEnd: 1521 }) as Dates;
+  const from = dates.earliestStart;
+  const to = dates.latestEnd ?? Number(dates.asOf?.slice(0, 4));
+  const own = (overrides.events as unknown[] | undefined) ?? [
+    { id: "battle", start: 1520, title: t("A battle"), sources: both, place: place(-98.2, 19.3) },
+  ];
+  const minimum = tier === "flagship" ? 15 : 3;
+  const fillers = Array.from({ length: Math.max(0, minimum - own.length) }, (_, i) => ({
+    id: `filler-${i}`,
+    start: from,
+    title: t("filler"),
+    sources: both,
+    place: place(-98.2, 19.3),
+  }));
+  const phases =
+    tier === "flagship"
+      ? [
+          { id: "opening", name: t("Opening"), start: from, end: from, sources: [src] },
+          { id: "rest", name: t("Rest"), start: from, end: to, sources: [src] },
+        ]
+      : [];
   return {
     id,
     wikidataId: "Q1",
@@ -51,9 +81,10 @@ function warJson(id: string, overrides: Record<string, unknown> = {}) {
       { id: "a", label: t("A"), members: [{ kind: "state", code: "ES", role: "belligerent", today: ["ES"] }] },
       { id: "b", label: t("B"), members: [{ kind: "culture", id: "aztec", role: "belligerent", today: ["MX"] }] },
     ],
-    events: [{ id: "battle", start: 1520, title: t("A battle"), sources: both, place: place(-98.2, 19.3) }],
+    phases,
     sources: [src],
     ...overrides,
+    events: [...own, ...fillers],
   };
 }
 
@@ -61,6 +92,7 @@ const warFile = (id: string, data: unknown): DataFile => ({ path: `data/wars/${i
 
 function run(warFiles: DataFile[], borderFiles: DataFile[] = []) {
   return validateDataset({
+    buildDate: "2026-09-30",
     registry,
     cultureFiles: [{ path: "data/cultures/mesoamerica/aztec.json", data: aztec }],
     borderFiles,
@@ -198,10 +230,12 @@ describe("wars", () => {
       expect(result.errors).toEqual([]);
       const events = result.wars[0].events;
       expect(events.map((e) => [e.id, e.start])).toEqual([
+        ["filler-0", 1519],
+        ["filler-1", 1519],
         ["battle", 1520],
         ["fall-of-tenochtitlan", 1521],
       ]);
-      expect(events[1].place?.name.en).toBe("Tenochtitlan");
+      expect(events[3].place?.name.en).toBe("Tenochtitlan");
     });
 
     it("keeps the file's order within a year, so same-year events stay in the order they happened", () => {
@@ -289,6 +323,7 @@ describe("wars", () => {
       ["Srinagar", 74.8, 34.08],
       ["Aksai Chin", 79.5, 35.2],
       ["Tawang", 91.86, 27.59],
+      ["Bomdila", 92.42, 27.26],
       ["Paracels", 112.3, 16.5],
       ["Spratlys", 114.3, 10.4],
       ["Scarborough Shoal", 117.76, 15.15],
@@ -306,6 +341,8 @@ describe("wars", () => {
       ["Tezpur", 92.8, 26.63],
       ["Hong Kong (Victoria Harbour)", 114.17, 22.29],
       ["Manila", 120.98, 14.6],
+      ["Trashigang, Bhutan", 91.55, 27.33],
+      ["Tsetang, Tibet", 91.77, 29.24],
     ])("accepts a pin at %s, just outside", (_, lon, lat) => {
       expect(errorsFor(pinAt(lon, lat))).toBe("");
     });
@@ -335,6 +372,86 @@ describe("wars", () => {
         /outside the war/,
       );
     });
+  });
+
+  describe("review gate (decision 9)", () => {
+    it("pins the sensitive list and starts with nothing reviewed", () => {
+      expect([...SENSITIVE_WARS].sort()).toEqual([
+        "falklands-war",
+        "korean-war",
+        "russian-invasion-of-ukraine",
+        "russo-ukrainian-war",
+        "second-sino-japanese-war",
+        "vietnam-war",
+      ]);
+      expect([...REVIEWED]).toEqual([]);
+    });
+
+    it("rejects a war on the sensitive list that isn't marked sensitive", () => {
+      expect(errorsFor(warJson("korean-war"), "korean-war")).toMatch(/korean-war is on the sensitive list/);
+      expect(errorsFor(warJson("korean-war", { sensitive: true }), "korean-war")).toBe("");
+    });
+
+    it("rejects reviewed: true for a language James hasn't signed off in war-review.ts", () => {
+      expect(errorsFor(warJson("w", { reviewed: { es: true, zh: false } }))).toMatch(/reviewed\.es is true/);
+      expect(errorsFor(warJson("w", { sensitive: true, reviewed: { es: false, zh: true } }))).toMatch(/reviewed\.zh is true/);
+    });
+  });
+
+  describe("names", () => {
+    it("needs all three titles, so a gap fails instead of showing English", () => {
+      expect(errorsFor(warJson("w", { name: { en: "W", es: "W" } }))).toMatch(/name\.zh/);
+      expect(errorsFor(warJson("w", { name: { en: "W", zh: "W" } }))).toMatch(/name\.es/);
+    });
+
+    it("accepts a title marked as ours where that language's Wikipedia has no article", () => {
+      expect(errorsFor(warJson("w", { noWikiTitle: ["es"] }))).toBe("");
+      expect(errorsFor(warJson("w", { noWikiTitle: ["en"] }))).toMatch(/noWikiTitle/);
+    });
+  });
+
+  describe("tiers", () => {
+    const exact = (tier: string, count: number) => {
+      const base = warJson("w", { tier });
+      const e = (i: number) => ({ id: `e${i}`, start: 1520, title: t("e"), sources: both, place: place(-98, 19) });
+      return { ...base, events: Array.from({ length: count }, (_, i) => e(i)) };
+    };
+
+    it("holds a standard war to 3-8 events", () => {
+      expect(errorsFor(exact("standard", 2))).toMatch(/standard wars have 3-8 events; this has 2/);
+      expect(errorsFor(exact("standard", 3))).toBe("");
+      expect(errorsFor(exact("standard", 8))).toBe("");
+      expect(errorsFor(exact("standard", 9))).toMatch(/standard wars have 3-8 events; this has 9/);
+    });
+
+    it("holds a flagship war to 15-30 events and at least two phases", () => {
+      expect(errorsFor(exact("flagship", 14))).toMatch(/flagship wars have 15-30 events; this has 14/);
+      expect(errorsFor(exact("flagship", 15))).toBe("");
+      expect(errorsFor(exact("flagship", 30))).toBe("");
+      expect(errorsFor(exact("flagship", 31))).toMatch(/flagship wars have 15-30 events; this has 31/);
+      const onePhase = warJson("w", { tier: "flagship" });
+      expect(errorsFor({ ...onePhase, phases: onePhase.phases.slice(1) })).toMatch(/flagship wars need at least 2 phases/);
+    });
+
+    it("counts culture event references as events", () => {
+      const base = warJson("w");
+      const two = { ...base, events: base.events.slice(0, 2), cultureEvents: [{ culture: "aztec", event: "fall-of-tenochtitlan" }] };
+      expect(errorsFor(two)).toBe("");
+    });
+  });
+
+  it("rejects a phase outside the war's outer period", () => {
+    const base = warJson("w", { tier: "flagship" });
+    const phases = [{ id: "early", name: t("Early"), start: 1517, end: 1519, sources: [src] }, base.phases[1]];
+    expect(errorsFor({ ...base, phases })).toMatch(/phase "early" \(1517-1519\) is outside the war \(1519 to 1521\)/);
+  });
+
+  it("rejects an ongoing war checked after the build date", () => {
+    const ongoing = (asOf: string) => ({ earliestStart: 2014, latestStart: 2014, asOf, sources: [src] });
+    expect(errorsFor(warJson("w", { period: undefined, ongoing: ongoing("2026-09-30"), events: undefined }))).not.toMatch(/asOf/);
+    expect(errorsFor(warJson("w", { period: undefined, ongoing: ongoing("2026-10-01") }))).toMatch(
+      /asOf 2026-10-01 is after the build date 2026-09-30/,
+    );
   });
 
   it("warns, but does not fail, on missing translations", () => {

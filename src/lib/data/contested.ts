@@ -1,10 +1,14 @@
 // Server only: validation reads this, pages never do, so the list of
 // contested areas stays out of every client bundle.
 //
-// No war pin may sit inside one of these boxes: a pin there reads as a claim
-// about who the place belongs to. The boxes are coarse on purpose and tuned so
+// No war pin may sit inside one of these boxes: they are the places China
+// claims or disputes with a neighbour, where a pin can read as a claim and
+// cost the site its reach in mainland China. Other disputed places (the
+// Falklands, Crimea, Donbas, Gaza, the Kurils) take pins where the event
+// happened, since the basemap draws no borders. The boxes are coarse on purpose and tuned so
 // battle sites just outside (Xiamen, Fuzhou, Chillianwala, Gujrat, Jammu,
-// Rawalpindi, Tezpur, Dibrugarh, Ledo) stay valid.
+// Rawalpindi, Tezpur, Dibrugarh, Ledo, Trashigang in Bhutan, Tsetang in Tibet)
+// stay valid.
 
 type Box = { name: string; west: number; south: number; east: number; north: number };
 
@@ -14,7 +18,7 @@ const CONTESTED_AREAS: readonly Box[] = [
   { name: "Matsu", west: 119.85, south: 25.9, east: 120.55, north: 26.4 },
   { name: "Kashmir and Aksai Chin", west: 73.3, south: 33.0, east: 80.5, north: 37.1 },
   { name: "Gilgit-Baltistan (west)", west: 72.5, south: 35.0, east: 73.3, north: 37.1 },
-  { name: "Arunachal Pradesh (west)", west: 91.5, south: 27.0, east: 94.0, north: 29.5 },
+  { name: "Arunachal Pradesh (west)", west: 91.6, south: 27.0, east: 94.0, north: 28.4 },
   { name: "Arunachal Pradesh (east)", west: 94.0, south: 27.6, east: 97.5, north: 29.5 },
   { name: "Arunachal Pradesh (south-east)", west: 96.0, south: 26.9, east: 97.5, north: 27.6 },
   { name: "Paracel Islands", west: 111, south: 15.5, east: 113, north: 17.5 },

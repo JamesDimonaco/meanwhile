@@ -14,6 +14,8 @@ export type DatasetInput = {
   succession?: unknown;
   /** data/wars/*.json; omitted means no wars. */
   warFiles?: DataFile[];
+  /** YYYY-MM-DD; omitted means today. */
+  buildDate?: string;
 };
 export type DatasetResult = {
   errors: string[];
@@ -129,6 +131,7 @@ export function validateDataset(input: DatasetInput): DatasetResult {
     registryIds: new Set(regions.keys()),
     cultures,
     borders: warBorders,
+    buildDate: input.buildDate ?? new Date().toISOString().slice(0, 10),
   });
   errors.push(...wars.errors);
   warnings.push(...wars.warnings);

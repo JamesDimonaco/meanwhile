@@ -10,7 +10,8 @@ function war(id: string, start: number, opts: Partial<War> & { today?: string[][
   return {
     id,
     wikidataId: "Q1",
-    name: t(id),
+    name: { en: id, es: id, zh: id },
+    noWikiTitle: [],
     aliases: [],
     altNames: [],
     description: t("d"),

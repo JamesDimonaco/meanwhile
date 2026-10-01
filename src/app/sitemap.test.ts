@@ -12,7 +12,8 @@ vi.mock("@/lib/data/load", async (importOriginal) => {
   const war = (id: string, code: string, sensitive: boolean): War => ({
     id,
     wikidataId: "Q1",
-    name: t(id),
+    name: { en: id, es: id, zh: id },
+    noWikiTitle: [],
     aliases: [],
     altNames: [],
     description: t("d"),

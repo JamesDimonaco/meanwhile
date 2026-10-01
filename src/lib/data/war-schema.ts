@@ -6,6 +6,10 @@ import { duplicates, LocalizedText, Period, Phase, Place, Source } from "./schem
 // disputed flag and its note work the same way.
 
 export const WAR_TIERS = ["flagship", "standard"] as const;
+/** Events per tier, inclusive, counting culture event references. */
+export const TIER_EVENTS = { flagship: [15, 30], standard: [3, 8] } as const;
+/** A flagship's bar needs segments to be worth drawing. */
+export const MIN_FLAGSHIP_PHASES = 2;
 export const CASUALTY_SCOPES = ["battle-deaths", "military-deaths", "civilian-deaths", "total-deaths"] as const;
 export const MEMBER_ROLES = ["belligerent", "supporter"] as const;
 /** A country page lists a war once per member; more than three is an empire's extent, not a member's home. */
@@ -50,6 +54,9 @@ export const AltName = z.strictObject({
   /** What the name means, for readers of other languages. */
   gloss: LocalizedText.optional(),
 });
+
+/** All three titles are required, so a gap fails instead of quietly showing English. */
+const Title = z.strictObject({ en: Text, es: Text, zh: Text });
 
 /** A war with no end yet: no end years, and the date its figures were last checked. */
 export const Ongoing = z
@@ -96,6 +103,8 @@ export const Casualty = z
     side: Id.optional(),
     low: z.number().int().nonnegative(),
     high: z.number().int().nonnegative(),
+    /** The part of the side this figure counts (e.g. "Spaniards"), shown in place of the side's label. */
+    who: LocalizedText.optional(),
     /** Who gives this figure, when it is one party's official count. */
     attributedTo: LocalizedText.optional(),
     asOf: IsoDate.optional(),
@@ -117,7 +126,9 @@ export const WarFile = z
     id: Id,
     wikidataId: WikidataId,
     /** Each language's own Wikipedia title. */
-    name: LocalizedText,
+    name: Title,
+    /** Languages whose Wikipedia has no article on this war: their title is Wikidata's label or our literal translation of the en title. */
+    noWikiTitle: z.array(z.enum(["es", "zh"])).default([]),
     /** Extra search terms. Not displayed. */
     aliases: z.array(Text).default([]),
     altNames: z.array(AltName).default([]),
