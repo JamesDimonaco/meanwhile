@@ -328,19 +328,37 @@ describe("wars", () => {
       ["Spratlys", 114.3, 10.4],
       ["Scarborough Shoal", 117.76, 15.15],
       ["Senkaku", 123.5, 25.75],
+      ["Pratas (Dongsha)", 116.72, 20.7],
+      ["Pengjia Islet", 122.08, 25.63],
+      ["Mianhua Islet", 122.1, 25.48],
+      ["Huaping Islet", 121.95, 25.43],
+      ["Dadan Island", 118.133, 24.383],
+      ["Erdan Island", 118.15, 24.367],
+      ["Louisa Reef", 113.25, 6.33],
+      ["Royal Charlotte Reef", 113.58, 6.95],
+      ["James Shoal", 112.4, 3.98],
+      ["Luconia Shoals", 112.6, 5.4],
     ])("rejects a pin at %s", (_, lon, lat) => {
       expect(errorsFor(pinAt(lon, lat))).toMatch(/inside a contested area/);
     });
 
     it.each([
       ["Xiamen (Amoy)", 118.09, 24.48],
+      ["Gulangyu", 118.065, 24.447],
       ["Fuzhou", 119.3, 26.07],
+      ["Pingtan Island", 119.8, 25.5],
       ["Chillianwala", 73.6, 32.66],
       ["Gujrat", 74.08, 32.57],
       ["Jammu", 74.86, 32.73],
       ["Tezpur", 92.8, 26.63],
       ["Hong Kong (Victoria Harbour)", 114.17, 22.29],
       ["Manila", 120.98, 14.6],
+      ["Bandar Seri Begawan, Brunei", 114.94, 4.89],
+      ["Muara, Brunei", 115.07, 5.03],
+      ["Kota Kinabalu, Sabah", 116.07, 5.98],
+      ["Kudat, Sabah", 116.85, 6.88],
+      ["Miri, Sarawak", 113.99, 4.39],
+      ["Bintulu, Sarawak", 113.03, 3.17],
       ["Trashigang, Bhutan", 91.55, 27.33],
       ["Tsetang, Tibet", 91.77, 29.24],
     ])("accepts a pin at %s, just outside", (_, lon, lat) => {
