@@ -16,9 +16,16 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
   const [from, to] = warOuter(war);
   const dated = war.period ?? war.ongoing;
   if (!dated) throw new Error("a war needs a period or ongoing");
-  // An ongoing war's bar runs solid to its asOf year.
-  const period = war.period ?? { ...dated, earliestEnd: to, latestEnd: to };
-  const xScale = scaleLinear().domain([from, Math.max(to, from + 1)]).range([0, WIDTH]);
+  // Stored years are whole calendar years, end included: draw each span to
+  // the start of the year after, or a war or phase inside one year (1519–1519)
+  // would have no width. An ongoing war's bar runs solid through its asOf year.
+  const period = {
+    ...dated,
+    earliestEnd: (war.period?.earliestEnd ?? to) + 1,
+    latestEnd: (war.period?.latestEnd ?? to) + 1,
+  };
+  const phases = war.phases.map((p) => ({ ...p, end: p.end + 1 }));
+  const xScale = scaleLinear().domain([from, to + 1]).range([0, WIDTH]);
   const note = dated.note && localize(dated.note, locale);
 
   return (
@@ -32,7 +39,7 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
         <defs>
           <FadeGradients id="war-fade" color="var(--primary)" />
         </defs>
-        <PeriodBar period={period} phases={war.phases} xScale={xScale} height={HEIGHT} color="var(--primary)" fadeId="war-fade" />
+        <PeriodBar period={period} phases={phases} xScale={xScale} height={HEIGHT} color="var(--primary)" fadeId="war-fade" />
       </svg>
       {war.phases.length > 0 && (
         <ol className="flex flex-col gap-1 text-sm">

@@ -1,0 +1,1132 @@
+{
+  "id": "spanish-conquest-of-the-aztec-empire",
+  "wikidataId": "Q828435",
+  "name": {
+    "en": "Spanish conquest of the Aztec Empire",
+    "es": "Conquista de México-Tenochtitlan",
+    "zh": "西班牙征服阿兹特克帝国"
+  },
+  "aliases": [
+    "Conquest of Mexico",
+    "Conquista de México",
+    "Conquista del Imperio mexica",
+    "征服墨西哥",
+    "Hernán Cortés",
+    "Cortés",
+    "科尔特斯",
+    "Tenochtitlan",
+    "Mexica",
+    "Tlaxcala"
+  ],
+  "description": {
+    "en": "In February 1519 Hernán Cortés sailed from Cuba with about 500 soldiers, against the orders of the island's governor. On the Gulf coast he founded Veracruz and won over the Totonacs of Cempoala, who paid tribute to Tenochtitlan. After weeks of fighting, the Tlaxcalans, long-standing enemies of the Mexica, joined him. Moctezuma II received the Spaniards in Tenochtitlan in November 1519, and they took him prisoner. In 1520 a massacre at the Toxcatl festival set off an uprising: Moctezuma died, and the expedition fought its way out of the city at night, losing hundreds of Spaniards and thousands of allies. Smallpox then spread through central Mexico. In 1521 Cortés returned with a large Indigenous allied army and thirteen brigantines, besieged Tenochtitlan for nearly three months and took it on 13 August, capturing its ruler Cuauhtémoc. The city was sacked and later rebuilt as Mexico City, capital of New Spain.",
+    "es": "En febrero de 1519 Hernán Cortés zarpó de Cuba con unos 500 soldados, contra las órdenes del gobernador de la isla. En la costa del Golfo fundó Veracruz y atrajo a los totonacas de Cempoala, tributarios de Tenochtitlan. Tras semanas de combates, los tlaxcaltecas, enemigos de los mexicas desde hacía mucho, se le unieron. Moctezuma II recibió a los españoles en Tenochtitlan en noviembre de 1519 y estos lo apresaron. En 1520 una matanza en la fiesta de Tóxcatl desató un levantamiento: Moctezuma murió y la expedición salió de la ciudad de noche abriéndose paso, con la pérdida de cientos de españoles y miles de aliados. Después la viruela se extendió por el centro de México. En 1521 Cortés volvió con un gran ejército de aliados indígenas y trece bergantines, sitió Tenochtitlan durante casi tres meses y la tomó el 13 de agosto, capturando a su gobernante Cuauhtémoc. La ciudad fue saqueada y luego reconstruida como Ciudad de México, capital de la Nueva España.",
+    "zh": "1519年2月，埃尔南·科尔特斯违抗古巴总督的命令，率约500名士兵从古巴启航。他在墨西哥湾沿岸建立韦拉克鲁斯，并争取到向特诺奇蒂特兰纳贡的森波阿拉托托纳克人。经过数周交战，墨西加人的宿敌特拉斯卡拉人与他结盟。1519年11月，蒙特祖马二世在特诺奇蒂特兰接待西班牙人，随后被他们扣押。1520年，托什卡特尔节上的屠杀引发起事：蒙特祖马死亡，远征队趁夜杀出城外，损失数百名西班牙人和数千名盟友。此后天花在墨西哥中部蔓延。1521年，科尔特斯率领庞大的原住民盟军和十三艘双桅帆船卷土重来，围攻特诺奇蒂特兰近三个月，于8月13日攻占该城并俘获其统治者夸乌特莫克。城市遭到洗劫，后来在废墟上重建为新西班牙的首府墨西哥城。"
+  },
+  "outcome": {
+    "en": "Tenochtitlan fell to Cortés's forces and their allies on 13 August 1521; the Spanish crown made central Mexico the colony of New Spain.",
+    "es": "Tenochtitlan cayó ante las fuerzas de Cortés y sus aliados el 13 de agosto de 1521; la Corona española convirtió el centro de México en la colonia de la Nueva España.",
+    "zh": "1521年8月13日，特诺奇蒂特兰被科尔特斯的部队及其盟友攻占；西班牙王室将墨西哥中部设为新西班牙殖民地。"
+  },
+  "tier": "flagship",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "conquest",
+    "earliestStart": 1519,
+    "latestStart": 1519,
+    "earliestEnd": 1521,
+    "latestEnd": 1521,
+    "sources": [
+      {
+        "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+        "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+      },
+      {
+        "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+        "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "cortes-and-allies",
+      "label": {
+        "en": "Cortés's expedition and its Indigenous allies",
+        "es": "La expedición de Cortés y sus aliados indígenas",
+        "zh": "科尔特斯远征队及其原住民盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Cortés's expedition, for the Crown of Castile",
+            "es": "La expedición de Cortés, por la Corona de Castilla",
+            "zh": "科尔特斯远征队（为卡斯蒂利亚王室）"
+          },
+          "role": "belligerent",
+          "today": [
+            "ES"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Tlaxcala",
+            "es": "Tlaxcala",
+            "zh": "特拉斯卡拉"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Totonacs of Cempoala",
+            "es": "Totonacas de Cempoala",
+            "zh": "森波阿拉的托托纳克人"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Texcoco (Ixtlilxochitl's faction)",
+            "es": "Texcoco (facción de Ixtlilxóchitl)",
+            "zh": "特斯科科（伊斯特利尔索奇特尔一派）"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Huejotzingo",
+            "es": "Huejotzingo",
+            "zh": "韦霍钦戈"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Chalco",
+            "es": "Chalco",
+            "zh": "查尔科"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mexica-and-triple-alliance",
+      "label": {
+        "en": "The Mexica of Tenochtitlan and the Triple Alliance",
+        "es": "Los mexicas de Tenochtitlan y la Triple Alianza",
+        "zh": "特诺奇蒂特兰的墨西加人与三方联盟"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "aztec",
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Tlatelolco",
+            "es": "Tlatelolco",
+            "zh": "特拉特洛尔科"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Tlacopan",
+            "es": "Tlacopan",
+            "zh": "特拉科潘"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Texcoco (Coanacoch's faction)",
+            "es": "Texcoco (facción de Coanácoch)",
+            "zh": "特斯科科（科阿纳科奇一派）"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Xochimilco",
+            "es": "Xochimilco",
+            "zh": "霍奇米尔科"
+          },
+          "role": "belligerent",
+          "today": [
+            "MX"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "from-the-coast-to-tenochtitlan",
+      "name": {
+        "en": "From the coast to Tenochtitlan",
+        "es": "De la costa a Tenochtitlan",
+        "zh": "从海岸到特诺奇蒂特兰"
+      },
+      "start": 1519,
+      "end": 1519,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        }
+      ]
+    },
+    {
+      "id": "uprising-retreat-and-regrouping",
+      "name": {
+        "en": "Uprising, retreat and regrouping",
+        "es": "Levantamiento, retirada y reorganización",
+        "zh": "起事、撤退与重整"
+      },
+      "start": 1520,
+      "end": 1520,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        }
+      ]
+    },
+    {
+      "id": "siege-of-tenochtitlan",
+      "name": {
+        "en": "Siege and fall of Tenochtitlan",
+        "es": "Sitio y caída de Tenochtitlan",
+        "zh": "围攻并攻陷特诺奇蒂特兰"
+      },
+      "start": 1521,
+      "end": 1521,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "\"Cortés, Hernán.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/cortes-hernan"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "landing-on-cozumel",
+      "start": 1519,
+      "title": {
+        "en": "Cortés's expedition sails from Cuba against the governor's orders and lands on Cozumel",
+        "es": "La expedición de Cortés zarpa de Cuba contra las órdenes del gobernador y desembarca en Cozumel",
+        "zh": "科尔特斯的远征队违抗古巴总督的命令从古巴启航，在科苏梅尔岛登陆"
+      },
+      "sources": [
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        },
+        {
+          "citation": "\"Cortés, Hernán.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/cortes-hernan"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Cozumel",
+          "es": "Cozumel",
+          "zh": "科苏梅尔岛"
+        },
+        "lat": 20.51,
+        "lon": -86.95
+      }
+    },
+    {
+      "id": "battle-of-centla",
+      "start": 1519,
+      "title": {
+        "en": "Cortés's forces defeat the Chontal Maya of Potonchán at Centla; Malintzin, later his interpreter, is among twenty women handed over",
+        "es": "Las fuerzas de Cortés vencen a los mayas chontales de Potonchán en Centla; Malintzin, después su intérprete, está entre veinte mujeres entregadas",
+        "zh": "科尔特斯的部队在森特拉击败波通昌的琼塔尔玛雅人；后来成为其翻译的马林辛是被交出的二十名女子之一"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Hernán Cortés.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Hernan_Cortes/"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla de Centla.\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_Centla"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Potonchán (Centla)",
+          "es": "Potonchán (Centla)",
+          "zh": "波通昌（森特拉）"
+        },
+        "lat": 18.53,
+        "lon": -92.65
+      },
+      "wikidataId": "Q3636381"
+    },
+    {
+      "id": "founding-of-veracruz",
+      "start": 1519,
+      "title": {
+        "en": "The expedition founds Villa Rica de la Vera Cruz, whose council names Cortés captain, outside the Cuban governor's authority",
+        "es": "La expedición funda la Villa Rica de la Vera Cruz, cuyo cabildo nombra capitán a Cortés, fuera de la autoridad del gobernador de Cuba",
+        "zh": "远征队建立富裕的真十字镇，镇议会任命科尔特斯为统领，使其脱离古巴总督的管辖"
+      },
+      "sources": [
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        },
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Villa Rica de la Vera Cruz (Quiahuiztlan)",
+          "es": "Villa Rica de la Vera Cruz (Quiahuiztlan)",
+          "zh": "富裕的真十字镇（基亚维斯特兰）"
+        },
+        "lat": 19.66,
+        "lon": -96.41
+      }
+    },
+    {
+      "id": "totonac-alliance",
+      "start": 1519,
+      "title": {
+        "en": "The Totonac city of Cempoala stops paying tribute to Tenochtitlan and joins Cortés",
+        "es": "La ciudad totonaca de Cempoala deja de pagar tributo a Tenochtitlan y se une a Cortés",
+        "zh": "托托纳克人的城市森波阿拉停止向特诺奇蒂特兰纳贡，转而与科尔特斯结盟"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Cempoala",
+          "es": "Cempoala",
+          "zh": "森波阿拉"
+        },
+        "lat": 19.44,
+        "lon": -96.4
+      }
+    },
+    {
+      "id": "ships-run-aground",
+      "start": 1519,
+      "title": {
+        "en": "Cortés has his ships run aground and broken up so that his men cannot sail back to Cuba",
+        "es": "Cortés hace encallar y desguazar sus naves para que sus hombres no puedan volver a Cuba",
+        "zh": "科尔特斯下令将船只搁浅拆毁，使部下无法返回古巴"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "\"Cortés, Hernán.\" Encyclopedia of Western Colonialism since 1450. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Villa Rica de la Vera Cruz (Quiahuiztlan)",
+          "es": "Villa Rica de la Vera Cruz (Quiahuiztlan)",
+          "zh": "富裕的真十字镇（基亚维斯特兰）"
+        },
+        "lat": 19.66,
+        "lon": -96.41
+      }
+    },
+    {
+      "id": "tlaxcala-war-and-alliance",
+      "start": 1519,
+      "title": {
+        "en": "Tlaxcalan forces fight the expedition for more than two weeks; Tlaxcala then makes peace and joins it against Tenochtitlan",
+        "es": "Las fuerzas tlaxcaltecas combaten a la expedición durante más de dos semanas; después Tlaxcala hace la paz y se une a ella contra Tenochtitlan",
+        "zh": "特拉斯卡拉军队与远征队交战两周有余；随后特拉斯卡拉议和，并与其联手对抗特诺奇蒂特兰"
+      },
+      "sources": [
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        },
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tlaxcala",
+          "es": "Tlaxcala",
+          "zh": "特拉斯卡拉"
+        },
+        "lat": 19.32,
+        "lon": -98.24
+      }
+    },
+    {
+      "id": "cholula-massacre",
+      "start": 1519,
+      "title": {
+        "en": "Spanish and Tlaxcalan forces kill thousands of people in Cholula",
+        "es": "Las fuerzas españolas y tlaxcaltecas matan a miles de personas en Cholula",
+        "zh": "西班牙与特拉斯卡拉军队在乔卢拉杀害数千人"
+      },
+      "sources": [
+        {
+          "citation": "\"Cortés, Hernán.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/cortes-hernan"
+        },
+        {
+          "citation": "Wikipedia (English). \"Cholula massacre.\"",
+          "url": "https://en.wikipedia.org/wiki/Cholula_massacre"
+        },
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Accounts disagree on why it began: Cortés wrote that he struck first to stop a planned ambush; other accounts point to Tlaxcala's feud with Cholula.",
+        "es": "Los relatos no coinciden sobre por qué empezó: Cortés escribió que atacó primero para frustrar una emboscada; otros relatos señalan la enemistad entre Tlaxcala y Cholula.",
+        "zh": "关于屠杀起因说法不一：科尔特斯称他是为挫败一场预谋的伏击而先发制人；另一些记载则指向特拉斯卡拉与乔卢拉的宿怨。"
+      },
+      "place": {
+        "name": {
+          "en": "Cholula",
+          "es": "Cholula",
+          "zh": "乔卢拉"
+        },
+        "lat": 19.06,
+        "lon": -98.3
+      },
+      "wikidataId": "Q3297424"
+    },
+    {
+      "id": "entry-into-tenochtitlan",
+      "start": 1519,
+      "title": {
+        "en": "Moctezuma II receives Cortés and his allies in Tenochtitlan on 8 November",
+        "es": "Moctezuma II recibe a Cortés y a sus aliados en Tenochtitlan el 8 de noviembre",
+        "zh": "11月8日，蒙特祖马二世在特诺奇蒂特兰接待科尔特斯及其盟友"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "\"Cortés, Hernán.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/cortes-hernan"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tenochtitlan",
+          "es": "Tenochtitlan",
+          "zh": "特诺奇蒂特兰"
+        },
+        "lat": 19.435,
+        "lon": -99.1314
+      }
+    },
+    {
+      "id": "moctezuma-seized",
+      "start": 1519,
+      "title": {
+        "en": "Cortés's men seize Moctezuma and hold him in their quarters",
+        "es": "Los hombres de Cortés apresan a Moctezuma y lo retienen en su alojamiento",
+        "zh": "科尔特斯的部下扣押蒙特祖马，将其软禁于住所"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        },
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Cortés dated the seizure to November 1519; some historians argue Moctezuma was only held later.",
+        "es": "Cortés fechó la captura en noviembre de 1519; algunos historiadores sostienen que Moctezuma fue retenido más tarde.",
+        "zh": "科尔特斯称扣押发生在1519年11月；部分历史学家认为蒙特祖马是后来才被扣押的。"
+      },
+      "place": {
+        "name": {
+          "en": "Tenochtitlan",
+          "es": "Tenochtitlan",
+          "zh": "特诺奇蒂特兰"
+        },
+        "lat": 19.435,
+        "lon": -99.1314
+      }
+    },
+    {
+      "id": "battle-of-cempoala",
+      "start": 1520,
+      "title": {
+        "en": "Cortés attacks and defeats Pánfilo de Narváez's force, sent from Cuba to arrest him, at Cempoala; most of its men join him",
+        "es": "Cortés ataca y vence en Cempoala a la fuerza de Pánfilo de Narváez, enviada desde Cuba para arrestarlo; la mayoría de sus hombres se le unen",
+        "zh": "科尔特斯在森波阿拉袭击并击败从古巴派来逮捕他的潘菲洛·德·纳瓦埃斯部队，其大部分士兵转投科尔特斯"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "\"Hernán Cortés.\" Encyclopedia of World Biography. Gale, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/hernan-cortes"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Cempoala.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Cempoala"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Cempoala",
+          "es": "Cempoala",
+          "zh": "森波阿拉"
+        },
+        "lat": 19.44,
+        "lon": -96.4
+      },
+      "wikidataId": "Q97610233"
+    },
+    {
+      "id": "toxcatl-massacre",
+      "start": 1520,
+      "title": {
+        "en": "Spanish soldiers under Pedro de Alvarado kill Mexica nobles and celebrants at the Toxcatl festival in the Templo Mayor precinct",
+        "es": "Soldados españoles al mando de Pedro de Alvarado matan a nobles y celebrantes mexicas en la fiesta de Tóxcatl, en el recinto del Templo Mayor",
+        "zh": "佩德罗·德·阿尔瓦拉多率领的西班牙士兵在大神庙区的托什卡特尔节上杀害墨西加贵族和参加庆典的人"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        },
+        {
+          "citation": "Wikipedia (English). \"Massacre in the Great Temple of Tenochtitlan.\"",
+          "url": "https://en.wikipedia.org/wiki/Massacre_in_the_Great_Temple_of_Tenochtitlan"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Alvarado said he acted to stop a planned attack; Mexica accounts describe an assault on unarmed people.",
+        "es": "Alvarado dijo que actuó para frustrar un ataque; los relatos mexicas describen un asalto contra gente desarmada.",
+        "zh": "阿尔瓦拉多称他是为阻止一场预谋的袭击；墨西加人的记载则描述为对手无寸铁者的袭击。"
+      },
+      "place": {
+        "name": {
+          "en": "Templo Mayor, Tenochtitlan",
+          "es": "Templo Mayor, Tenochtitlan",
+          "zh": "特诺奇蒂特兰大神庙"
+        },
+        "lat": 19.435,
+        "lon": -99.1314
+      },
+      "wikidataId": "Q1131442"
+    },
+    {
+      "id": "death-of-moctezuma",
+      "start": 1520,
+      "title": {
+        "en": "Moctezuma II dies while held by the Spaniards",
+        "es": "Moctezuma II muere mientras está en poder de los españoles",
+        "zh": "蒙特祖马二世在被西班牙人扣押期间死亡"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        },
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Spanish accounts say stones thrown by his own people killed him; Indigenous accounts say the Spaniards killed him.",
+        "es": "Los relatos españoles dicen que lo mataron piedras lanzadas por su propia gente; los relatos indígenas, que lo mataron los españoles.",
+        "zh": "西班牙方面的记载称他死于本族人投掷的石块；原住民的记载则称他被西班牙人杀害。"
+      },
+      "place": {
+        "name": {
+          "en": "Tenochtitlan",
+          "es": "Tenochtitlan",
+          "zh": "特诺奇蒂特兰"
+        },
+        "lat": 19.435,
+        "lon": -99.1314
+      }
+    },
+    {
+      "id": "noche-triste",
+      "start": 1520,
+      "title": {
+        "en": "The expedition and its Tlaxcalan allies break out of Tenochtitlan at night along the Tlacopan causeway; many are killed or drown",
+        "es": "La expedición y sus aliados tlaxcaltecas salen de noche de Tenochtitlan por la calzada de Tlacopan; muchos mueren en combate o ahogados",
+        "zh": "远征队及其特拉斯卡拉盟友趁夜沿特拉科潘堤道突围出特诺奇蒂特兰，许多人被杀或溺亡"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        },
+        {
+          "citation": "Wikipedia (English). \"La Noche Triste.\"",
+          "url": "https://en.wikipedia.org/wiki/La_Noche_Triste"
+        }
+      ],
+      "note": {
+        "en": "Spanish accounts call it the Noche Triste, the 'sad night'; it is also called the Noche Victoriosa, the 'night of victory'.",
+        "es": "Los relatos españoles la llaman Noche Triste; también se la conoce como Noche Victoriosa.",
+        "zh": "西班牙方面称之为“悲伤之夜”（Noche Triste）；它也被称为“胜利之夜”（Noche Victoriosa）。"
+      },
+      "place": {
+        "name": {
+          "en": "Tlacopan causeway (Popotla)",
+          "es": "Calzada de Tlacopan (Popotla)",
+          "zh": "特拉科潘堤道（波波特拉）"
+        },
+        "lat": 19.452,
+        "lon": -99.178
+      },
+      "wikidataId": "Q1308854"
+    },
+    {
+      "id": "battle-of-otumba",
+      "start": 1520,
+      "title": {
+        "en": "Mexica forces attack the retreating expedition near Otumba on 7 July; it fights its way through to Tlaxcala",
+        "es": "Fuerzas mexicas atacan a la expedición en retirada cerca de Otumba el 7 de julio; esta se abre paso hasta Tlaxcala",
+        "zh": "7月7日，墨西加军队在奥通巴附近攻击撤退中的远征队；远征队杀出重围，退往特拉斯卡拉"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Otumba.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Otumba"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Otumba",
+          "es": "Otumba",
+          "zh": "奥通巴"
+        },
+        "lat": 19.6969,
+        "lon": -98.7547
+      },
+      "wikidataId": "Q2888038"
+    },
+    {
+      "id": "tepeaca-campaign",
+      "start": 1520,
+      "title": {
+        "en": "Spanish and Tlaxcalan forces attack Tepeaca, which surrenders in September; captives are branded and enslaved",
+        "es": "Fuerzas españolas y tlaxcaltecas atacan Tepeaca, que se rinde en septiembre; los cautivos son herrados y esclavizados",
+        "zh": "西班牙与特拉斯卡拉军队进攻特佩阿卡，该城于9月投降；俘虏被烙印并沦为奴隶"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
+        },
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tepeaca",
+          "es": "Tepeaca",
+          "zh": "特佩阿卡"
+        },
+        "lat": 18.965,
+        "lon": -97.9
+      }
+    },
+    {
+      "id": "smallpox-in-tenochtitlan",
+      "start": 1520,
+      "title": {
+        "en": "Smallpox spreads through Tenochtitlan; Cuitláhuac, Moctezuma's successor, dies in December, most likely of it",
+        "es": "La viruela se extiende por Tenochtitlan; Cuitláhuac, sucesor de Moctezuma, muere en diciembre, muy probablemente por ella",
+        "zh": "天花在特诺奇蒂特兰蔓延；蒙特祖马的继任者奎特拉瓦克于12月去世，很可能死于天花"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        },
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tenochtitlan",
+          "es": "Tenochtitlan",
+          "zh": "特诺奇蒂特兰"
+        },
+        "lat": 19.435,
+        "lon": -99.1314
+      }
+    },
+    {
+      "id": "texcoco-taken",
+      "start": 1520,
+      "title": {
+        "en": "Cortés's forces enter Texcoco on 31 December and make it their base",
+        "es": "Las fuerzas de Cortés entran en Texcoco el 31 de diciembre y la convierten en su base",
+        "zh": "12月31日，科尔特斯的部队进入特斯科科，并以此为基地"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Texcoco",
+          "es": "Texcoco",
+          "zh": "特斯科科"
+        },
+        "lat": 19.514,
+        "lon": -98.883
+      }
+    },
+    {
+      "id": "brigantines-launched",
+      "start": 1521,
+      "title": {
+        "en": "Thirteen brigantines, built in Tlaxcala and carried overland, are launched on Lake Texcoco",
+        "es": "Trece bergantines, construidos en Tlaxcala y llevados por tierra, se botan en el lago de Texcoco",
+        "zh": "在特拉斯卡拉建造、经陆路运来的十三艘双桅帆船在特斯科科湖下水"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Lake Texcoco, near Texcoco",
+          "es": "Lago de Texcoco, cerca de Texcoco",
+          "zh": "特斯科科湖（特斯科科附近）"
+        },
+        "lat": 19.5,
+        "lon": -98.92
+      }
+    },
+    {
+      "id": "aqueduct-cut",
+      "start": 1521,
+      "title": {
+        "en": "A company under Alvarado breaks the Chapultepec aqueduct, cutting Tenochtitlan's fresh water",
+        "es": "Una compañía al mando de Alvarado rompe el acueducto de Chapultepec y corta el agua dulce de Tenochtitlan",
+        "zh": "阿尔瓦拉多率部破坏查普尔特佩克引水渠，切断特诺奇蒂特兰的淡水供应"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
+        },
+        {
+          "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Chapultepec",
+          "es": "Chapultepec",
+          "zh": "查普尔特佩克"
+        },
+        "lat": 19.42,
+        "lon": -99.182
+      }
+    }
+  ],
+  "cultureEvents": [
+    {
+      "culture": "aztec",
+      "event": "fall-of-tenochtitlan"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Hernán Cortés",
+        "es": "Hernán Cortés",
+        "zh": "埃尔南·科尔特斯"
+      },
+      "side": "cortes-and-allies",
+      "role": {
+        "en": "Commander of the expedition",
+        "es": "Comandante de la expedición",
+        "zh": "远征队指挥官"
+      },
+      "wikidataId": "Q7326"
+    },
+    {
+      "name": {
+        "en": "Pedro de Alvarado",
+        "es": "Pedro de Alvarado",
+        "zh": "佩德罗·德·阿尔瓦拉多"
+      },
+      "side": "cortes-and-allies",
+      "role": {
+        "en": "Captain; held Tenochtitlan in 1520 while Cortés was away",
+        "es": "Capitán; quedó al mando en Tenochtitlan en 1520 en ausencia de Cortés",
+        "zh": "队长；1520年科尔特斯离开期间留守特诺奇蒂特兰"
+      },
+      "wikidataId": "Q210900"
+    },
+    {
+      "name": {
+        "en": "Gonzalo de Sandoval",
+        "es": "Gonzalo de Sandoval",
+        "zh": "冈萨洛·德·桑多瓦尔"
+      },
+      "side": "cortes-and-allies",
+      "role": {
+        "en": "Captain in the siege of Tenochtitlan",
+        "es": "Capitán en el sitio de Tenochtitlan",
+        "zh": "特诺奇蒂特兰围城战中的队长"
+      },
+      "wikidataId": "Q1374269"
+    },
+    {
+      "name": {
+        "en": "Chichimecatecuhtli",
+        "es": "Chichimecatecuhtli",
+        "zh": "奇奇梅卡特库特利"
+      },
+      "side": "cortes-and-allies",
+      "role": {
+        "en": "Commander of Tlaxcalan warriors in the siege",
+        "es": "Comandante de los guerreros tlaxcaltecas en el sitio",
+        "zh": "围城战中特拉斯卡拉战士的指挥官"
+      },
+      "wikidataId": "Q122939077"
+    },
+    {
+      "name": {
+        "en": "Ixtlilxochitl II",
+        "es": "Ixtlilxóchitl II",
+        "zh": "伊斯特利尔索奇特尔二世"
+      },
+      "side": "cortes-and-allies",
+      "role": {
+        "en": "Leader of the Texcocan faction allied with Cortés",
+        "es": "Líder de la facción texcocana aliada de Cortés",
+        "zh": "与科尔特斯结盟的特斯科科派系首领"
+      },
+      "wikidataId": "Q2568485"
+    },
+    {
+      "name": {
+        "en": "Moctezuma II",
+        "es": "Moctezuma II",
+        "zh": "蒙特祖马二世"
+      },
+      "side": "mexica-and-triple-alliance",
+      "role": {
+        "en": "Huey tlatoani of Tenochtitlan, to 1520",
+        "es": "Huey tlatoani de Tenochtitlan, hasta 1520",
+        "zh": "特诺奇蒂特兰的最高统治者（至1520年）"
+      },
+      "wikidataId": "Q141791"
+    },
+    {
+      "name": {
+        "en": "Cuitláhuac",
+        "es": "Cuitláhuac",
+        "zh": "奎特拉瓦克"
+      },
+      "side": "mexica-and-triple-alliance",
+      "role": {
+        "en": "Huey tlatoani of Tenochtitlan in 1520",
+        "es": "Huey tlatoani de Tenochtitlan en 1520",
+        "zh": "1520年特诺奇蒂特兰的最高统治者"
+      },
+      "wikidataId": "Q315628"
+    },
+    {
+      "name": {
+        "en": "Cuauhtémoc",
+        "es": "Cuauhtémoc",
+        "zh": "夸乌特莫克"
+      },
+      "side": "mexica-and-triple-alliance",
+      "role": {
+        "en": "Huey tlatoani from 1521; led the defence of Tenochtitlan",
+        "es": "Huey tlatoani desde 1521; dirigió la defensa de Tenochtitlan",
+        "zh": "1521年起的最高统治者；领导特诺奇蒂特兰的防守"
+      },
+      "wikidataId": "Q297050"
+    },
+    {
+      "name": {
+        "en": "Coanacoch",
+        "es": "Coanácoch",
+        "zh": "科阿纳科奇"
+      },
+      "side": "mexica-and-triple-alliance",
+      "role": {
+        "en": "Ruler of Texcoco who fought for Tenochtitlan",
+        "es": "Señor de Texcoco que luchó del lado de Tenochtitlan",
+        "zh": "站在特诺奇蒂特兰一方作战的特斯科科统治者"
+      },
+      "wikidataId": "Q1622240"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "total-deaths",
+      "side": "mexica-and-triple-alliance",
+      "low": 100000,
+      "high": 240000,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Fall of Tenochtitlan.\"",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
+        },
+        {
+          "citation": "Suárez, Karina (2019). \"¿Cuántas víctimas se cobró la conquista del imperio azteca a manos de Hernán Cortés?\" El País, 27 April 2019.",
+          "url": "https://elpais.com/politica/2019/04/24/sepa_usted/1556103173_598449.html"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
+        }
+      ],
+      "note": {
+        "en": "Warriors and civilians who died in and around Tenochtitlan during the 1521 siege, many of hunger, thirst and smallpox. The figures rest on conquest-era accounts and are contested.",
+        "es": "Guerreros y civiles muertos en Tenochtitlan y sus alrededores durante el sitio de 1521, muchos de hambre, sed y viruela. Las cifras se basan en relatos de la época y se discuten.",
+        "zh": "1521年围城期间在特诺奇蒂特兰城内外死亡的战士与平民，其中许多死于饥饿、缺水和天花。这些数字基于征服时期的记载，存在争议。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "cortes-and-allies",
+      "low": 800,
+      "high": 1200,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"La Noche Triste.\"",
+          "url": "https://en.wikipedia.org/wiki/La_Noche_Triste"
+        },
+        {
+          "citation": "Wikipedia (English). \"Fall of Tenochtitlan.\"",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
+        }
+      ],
+      "note": {
+        "en": "Spaniards killed, drowned or captured in the night retreat from Tenochtitlan, 30 June to 1 July 1520; Tlaxcalan losses ran to thousands. Cortés reported far fewer.",
+        "es": "Españoles muertos, ahogados o capturados en la retirada nocturna de Tenochtitlan, del 30 de junio al 1 de julio de 1520; las pérdidas tlaxcaltecas fueron de miles. Cortés informó de muchas menos.",
+        "zh": "1520年6月30日至7月1日夜间撤出特诺奇蒂特兰时被杀、溺亡或被俘的西班牙人；特拉斯卡拉人的损失数以千计。科尔特斯报告的数字要少得多。"
+      }
+    },
+    {
+      "scope": "military-deaths",
+      "side": "cortes-and-allies",
+      "low": 1800,
+      "high": 1800,
+      "attributedTo": {
+        "en": "historian Hugh Thomas",
+        "es": "el historiador Hugh Thomas",
+        "zh": "历史学家休·托马斯"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Fall of Tenochtitlan.\"",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
+          "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
+        }
+      ],
+      "note": {
+        "en": "Spaniards who died of all causes from the landing in 1519 to the fall of Tenochtitlan.",
+        "es": "Españoles muertos por todas las causas desde el desembarco de 1519 hasta la caída de Tenochtitlan.",
+        "zh": "自1519年登陆至特诺奇蒂特兰陷落期间因各种原因死亡的西班牙人。"
+      }
+    }
+  ],
+  "cultures": [
+    "aztec"
+  ],
+  "sources": [
+    {
+      "citation": "Cartwright, Mark. \"The Fall of Tenochtitlan.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Hernán Cortés.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Hernan_Cortes/"
+    },
+    {
+      "citation": "Brown, Kendall W. \"Cortés, Hernán (c. 1485–1547).\" Europe, 1450 to 1789: Encyclopedia of the Early Modern World. Charles Scribner's Sons, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan-c-1485-1547"
+    },
+    {
+      "citation": "\"Cortés, Hernán.\" International Encyclopedia of the Social Sciences. Macmillan Reference USA, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/cortes-hernan"
+    },
+    {
+      "citation": "\"Hernán Cortés.\" Encyclopedia of World Biography. Gale, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/hernan-cortes"
+    },
+    {
+      "citation": "\"Cortés, Hernán.\" Encyclopedia of Western Colonialism since 1450. Macmillan Reference USA, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cortes-hernan"
+    },
+    {
+      "citation": "Wikipedia (English). \"Spanish conquest of the Aztec Empire.\"",
+      "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+    },
+    {
+      "citation": "Wikipedia (español). \"Conquista de México-Tenochtitlan.\"",
+      "url": "https://es.wikipedia.org/wiki/Conquista_de_M%C3%A9xico-Tenochtitlan"
+    }
+  ]
+}
