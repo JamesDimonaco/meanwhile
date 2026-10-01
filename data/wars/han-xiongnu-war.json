@@ -1,0 +1,541 @@
+{
+  "id": "han-xiongnu-war",
+  "wikidataId": "Q744969",
+  "name": {
+    "en": "Han–Xiongnu wars",
+    "es": "Guerras han-xiongnu",
+    "zh": "汉匈战争"
+  },
+  "noWikiTitle": [
+    "es"
+  ],
+  "aliases": [
+    "Sino-Xiongnu wars",
+    "Han-Xiongnu War",
+    "Guerra Han-Xiongnu",
+    "漢匈戰爭",
+    "汉匈百年战争",
+    "Xiongnu",
+    "匈奴",
+    "Wei Qing",
+    "卫青",
+    "Huo Qubing",
+    "霍去病",
+    "Dou Xian",
+    "窦宪"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "For more than two centuries the Han dynasty fought the Xiongnu, a confederation of steppe peoples centred on today's Mongolia. Early Han emperors kept peace with the Xiongnu through marriage alliances and gifts, but in 133 BCE Emperor Wu tried to ambush their ruler, the chanyu, at Mayi, and open war followed. Han armies under Wei Qing and Huo Qubing took the Ordos region in 127 BCE and the Hexi Corridor in 121 BCE, and in 119 BCE crossed the Gobi and drove the Xiongnu court north. After a civil war divided the Xiongnu, the chanyu Huhanye came to the Han court in 51 BCE, and in 36 BCE Han forces killed his rival Zhizhi near today's Taraz. The Xiongnu split again in 48 CE; the southern Xiongnu sided with the Han, and in 89 CE a Han and southern Xiongnu army under Dou Xian defeated the northern Xiongnu in Mongolia. No reliable count of the war's dead survives.",
+    "es": "Durante más de dos siglos la dinastía Han combatió a los xiongnu, una confederación de pueblos de la estepa centrada en la actual Mongolia. Los primeros emperadores Han mantuvieron la paz con los xiongnu mediante alianzas matrimoniales y regalos, pero en el 133 a. e. c. el emperador Wu intentó tender una emboscada a su soberano, el chanyu, en Mayi, y estalló la guerra abierta. Los ejércitos Han de Wei Qing y Huo Qubing tomaron la región de Ordos en el 127 a. e. c. y el corredor de Hexi en el 121 a. e. c., y en el 119 a. e. c. cruzaron el Gobi y obligaron a la corte xiongnu a retirarse al norte. Después de que una guerra civil dividiera a los xiongnu, el chanyu Huhanye acudió a la corte Han en el 51 a. e. c., y en el 36 a. e. c. las fuerzas Han mataron a su rival Zhizhi cerca de la actual Taraz. Los xiongnu se dividieron de nuevo en el 48 e. c.; los xiongnu del sur se pusieron del lado Han, y en el 89 e. c. un ejército Han y xiongnu del sur al mando de Dou Xian derrotó a los xiongnu del norte en Mongolia. No se conserva un recuento fiable de los muertos de la guerra.",
+    "zh": "两百多年间，汉朝与以今蒙古国为中心的草原部族联盟匈奴交战。汉初诸帝以和亲和馈赠维持与匈奴的和平，但公元前133年汉武帝试图在马邑伏击匈奴的君主单于，双方由此全面开战。卫青、霍去病率领的汉军于公元前127年夺取河套，公元前121年夺取河西走廊，公元前119年穿越戈壁，迫使匈奴王庭北迁。匈奴因内战分裂后，单于呼韩邪于公元前51年来朝汉廷；公元前36年，汉军在今塔拉兹附近杀死其对手郅支。公元48年匈奴再度分裂，南匈奴归附汉朝；公元89年，窦宪率领的汉军与南匈奴联军在蒙古高原击败北匈奴。这场战争的死亡人数没有可靠统计留存。"
+  },
+  "outcome": {
+    "en": "The northern Xiongnu state was broken and its remnants moved west; the southern Xiongnu lived under Han rule inside the frontier, and the Han held the Hexi Corridor and, for long periods, the Tarim Basin.",
+    "es": "El estado de los xiongnu del norte quedó deshecho y sus restos se desplazaron al oeste; los xiongnu del sur vivieron bajo dominio Han dentro de la frontera, y los Han conservaron el corredor de Hexi y, durante largos periodos, la cuenca del Tarim.",
+    "zh": "北匈奴政权瓦解，残部西迁；南匈奴在边塞以内接受汉朝统治，汉朝控制河西走廊，并在较长时期内控制塔里木盆地。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": -132,
+    "latestStart": -132,
+    "earliestEnd": 89,
+    "latestEnd": 89,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Han–Xiongnu wars.\"",
+        "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+      },
+      {
+        "citation": "Wikipedia (中文). \"汉匈战争.\"",
+        "url": "https://zh.wikipedia.org/zh-cn/%E6%BC%A2%E5%8C%88%E6%88%B0%E7%88%AD"
+      },
+      {
+        "citation": "Wikidata. \"Han–Xiongnu Wars\" (Q744969).",
+        "url": "https://www.wikidata.org/wiki/Q744969"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "133 BCE to 89 CE is the span both the English and Chinese Wikipedias use for the full-scale war; wider definitions run from 200 BCE to 188 CE, and Wikidata gives 139 BCE as the start.",
+      "es": "Del 133 a. e. c. al 89 e. c. es el periodo que las Wikipedias en inglés y en chino dan a la guerra abierta; definiciones más amplias van del 200 a. e. c. al 188 e. c., y Wikidata da el 139 a. e. c. como inicio.",
+      "zh": "英文和中文维基百科均以公元前133年至公元89年为全面战争时期；更宽泛的界定从公元前200年延续到公元188年，维基数据则以公元前139年为起点。"
+    }
+  },
+  "sides": [
+    {
+      "id": "han",
+      "label": {
+        "en": "The Han dynasty and its allies",
+        "es": "La dinastía Han y sus aliados",
+        "zh": "汉朝及其盟友"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "han",
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Southern Xiongnu (allied with the Han from 50 CE)",
+            "es": "Xiongnu del sur (aliados de los Han desde el 50 e. c.)",
+            "zh": "南匈奴（公元50年起归附汉朝）"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xiongnu",
+      "label": {
+        "en": "The Xiongnu",
+        "es": "Los xiongnu",
+        "zh": "匈奴"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Xiongnu confederation (from 48 CE, the northern Xiongnu)",
+            "es": "Confederación xiongnu (desde el 48 e. c., los xiongnu del norte)",
+            "zh": "匈奴联盟（公元48年后为北匈奴）"
+          },
+          "role": "belligerent",
+          "today": [
+            "MN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "mayi-ambush",
+      "start": -132,
+      "title": {
+        "en": "A Han army of about 300,000 lies in wait for the Xiongnu at Mayi; the chanyu sees the trap and turns back, and open war follows",
+        "es": "Un ejército Han de unos 300.000 hombres espera emboscado a los xiongnu en Mayi; el chanyu descubre la trampa y se retira, y estalla la guerra abierta",
+        "zh": "约30万汉军在马邑设伏等待匈奴；单于察觉陷阱后撤回，双方由此全面开战"
+      },
+      "sources": [
+        {
+          "citation": "\"Han Wudi.\" EBSCO Research Starters: History.",
+          "url": "https://www.ebsco.com/research-starters/history/han-wudi"
+        },
+        {
+          "citation": "Wikipedia (English). \"Han–Xiongnu wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+        },
+        {
+          "citation": "Wikipedia (中文). \"汉匈战争.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E6%BC%A2%E5%8C%88%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Mayi (Shuozhou)",
+          "es": "Mayi (Shuozhou)",
+          "zh": "马邑（朔州）"
+        },
+        "lat": 39.335,
+        "lon": 112.434
+      },
+      "wikidataId": "Q722331"
+    },
+    {
+      "id": "ordos-taken",
+      "start": -126,
+      "title": {
+        "en": "Wei Qing's army drives the Xiongnu out of the Ordos region inside the great bend of the Yellow River; the Han set up the Shuofang and Wuyuan commanderies there",
+        "es": "El ejército de Wei Qing expulsa a los xiongnu de la región de Ordos, dentro del gran meandro del río Amarillo; los Han crean allí las comandancias de Shuofang y Wuyuan",
+        "zh": "卫青率军将匈奴逐出黄河大弯内的河套（河南地），汉朝在此设立朔方郡和五原郡"
+      },
+      "sources": [
+        {
+          "citation": "\"Han Wudi.\" EBSCO Research Starters: History.",
+          "url": "https://www.ebsco.com/research-starters/history/han-wudi"
+        },
+        {
+          "citation": "Wikipedia (English). \"Han–Xiongnu wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+        },
+        {
+          "citation": "Wikipedia (中文). \"汉匈战争.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E6%BC%A2%E5%8C%88%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Wuyuan (near Baotou)",
+          "es": "Wuyuan (cerca de Baotou)",
+          "zh": "五原（包头附近）"
+        },
+        "lat": 40.6,
+        "lon": 109.8
+      }
+    },
+    {
+      "id": "hexi-corridor",
+      "start": -120,
+      "title": {
+        "en": "Huo Qubing's cavalry defeat the Xiongnu in the Hexi Corridor; the Hunye king surrenders with his people, and the Han later set up four commanderies there",
+        "es": "La caballería de Huo Qubing derrota a los xiongnu en el corredor de Hexi; el rey Hunye se rinde con su pueblo, y los Han crean después cuatro comandancias en la zona",
+        "zh": "霍去病的骑兵在河西走廊击败匈奴；浑邪王率部投降，汉朝随后在当地设立河西四郡"
+      },
+      "sources": [
+        {
+          "citation": "\"Han Wudi.\" EBSCO Research Starters: History.",
+          "url": "https://www.ebsco.com/research-starters/history/han-wudi"
+        },
+        {
+          "citation": "Wikipedia (English). \"Han–Xiongnu wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+        },
+        {
+          "citation": "Wikipedia (中文). \"汉匈战争.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E6%BC%A2%E5%8C%88%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Hexi Corridor (Zhangye)",
+          "es": "Corredor de Hexi (Zhangye)",
+          "zh": "河西走廊（张掖）"
+        },
+        "lat": 38.935,
+        "lon": 100.455
+      }
+    },
+    {
+      "id": "battle-of-mobei",
+      "start": -118,
+      "title": {
+        "en": "Wei Qing and Huo Qubing lead two armies across the Gobi and rout the Xiongnu; the chanyu flees and the Xiongnu court moves north",
+        "es": "Wei Qing y Huo Qubing cruzan el Gobi con dos ejércitos y derrotan a los xiongnu; el chanyu huye y la corte xiongnu se traslada al norte",
+        "zh": "卫青、霍去病分率两军穿越戈壁，大败匈奴；单于逃走，匈奴王庭北迁"
+      },
+      "sources": [
+        {
+          "citation": "\"Han Wudi.\" EBSCO Research Starters: History.",
+          "url": "https://www.ebsco.com/research-starters/history/han-wudi"
+        },
+        {
+          "citation": "Wikipedia (English). \"Han–Xiongnu wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+        },
+        {
+          "citation": "Wikipedia (中文). \"汉匈战争.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E6%BC%A2%E5%8C%88%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "note": {
+        "en": "Sources place the fighting north of the Gobi, in today's Mongolia; the pin marks the region, not an exact battlefield.",
+        "es": "Las fuentes sitúan los combates al norte del Gobi, en la actual Mongolia; el marcador señala la región, no un campo de batalla exacto.",
+        "zh": "史料将战事定位于戈壁以北的今蒙古国境内；地图标记的是大致区域，而非确切战场。"
+      },
+      "place": {
+        "name": {
+          "en": "North of the Gobi (Orkhon Valley)",
+          "es": "Al norte del Gobi (valle del Orjón)",
+          "zh": "漠北（鄂尔浑河谷）"
+        },
+        "lat": 47.5,
+        "lon": 102.8
+      },
+      "wikidataId": "Q280345"
+    },
+    {
+      "id": "huhanye-at-han-court",
+      "start": -50,
+      "title": {
+        "en": "Huhanye, one of the rival chanyus in a Xiongnu civil war, comes to the Han court and pays homage to Emperor Xuan",
+        "es": "Huhanye, uno de los chanyus rivales en una guerra civil xiongnu, acude a la corte Han y rinde homenaje al emperador Xuan",
+        "zh": "匈奴内战中的单于之一呼韩邪来到汉廷，朝见汉宣帝"
+      },
+      "sources": [
+        {
+          "citation": "Ban Gu. Hanshu (Book of Han), chapter 94b, \"Account of the Xiongnu\" (匈奴傳下), via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7094%E4%B8%8B"
+        },
+        {
+          "citation": "Wikipedia (English). \"Han–Xiongnu wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+        },
+        {
+          "citation": "Wikipedia (中文). \"汉匈战争.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E6%BC%A2%E5%8C%88%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Chang'an",
+          "es": "Chang'an",
+          "zh": "长安"
+        },
+        "lat": 34.3,
+        "lon": 108.9
+      }
+    },
+    {
+      "id": "battle-of-zhizhi",
+      "start": -35,
+      "title": {
+        "en": "Han forces under Gan Yanshou and Chen Tang besiege the town of Zhizhi, Huhanye's rival, near today's Taraz and kill him",
+        "es": "Las fuerzas Han de Gan Yanshou y Chen Tang sitian la ciudad de Zhizhi, rival de Huhanye, cerca de la actual Taraz, y lo matan",
+        "zh": "甘延寿、陈汤率汉军在今塔拉兹附近围攻呼韩邪的对手郅支单于的城池，将其斩杀"
+      },
+      "sources": [
+        {
+          "citation": "Ban Gu. Hanshu (Book of Han), chapter 70, biographies of Gan Yanshou and Chen Tang, via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7070"
+        },
+        {
+          "citation": "Wikipedia (English). \"Han–Xiongnu wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+        },
+        {
+          "citation": "Wikipedia (中文). \"汉匈战争.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E6%BC%A2%E5%8C%88%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Zhizhi's town (near Taraz)",
+          "es": "Ciudad de Zhizhi (cerca de Taraz)",
+          "zh": "郅支城（塔拉兹附近）"
+        },
+        "lat": 42.883,
+        "lon": 71.367
+      },
+      "wikidataId": "Q870947"
+    },
+    {
+      "id": "battle-of-ikh-bayan",
+      "start": 89,
+      "title": {
+        "en": "A Han army under Dou Xian, with southern Xiongnu horsemen, defeats the northern Xiongnu at Mount Jiluo; Dou has a record of the campaign carved on Mount Yanran",
+        "es": "Un ejército Han al mando de Dou Xian, con jinetes xiongnu del sur, derrota a los xiongnu del norte en el monte Jiluo; Dou hace grabar un relato de la campaña en el monte Yanran",
+        "zh": "窦宪率汉军及南匈奴骑兵在稽落山大破北匈奴，并在燕然山刻石记功"
+      },
+      "sources": [
+        {
+          "citation": "Fan Ye. Hou Hanshu (Book of the Later Han), chapter 23, biography of Dou Xian, via Wikisource.",
+          "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B723"
+        },
+        {
+          "citation": "Wikipedia (English). \"Han–Xiongnu wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+        },
+        {
+          "citation": "Wikipedia (中文). \"汉匈战争.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E6%BC%A2%E5%8C%88%E6%88%B0%E7%88%AD"
+        }
+      ],
+      "note": {
+        "en": "The pin marks the inscription, found in Mongolia in 2017; the battlefield itself is not securely located.",
+        "es": "El marcador señala la inscripción, hallada en Mongolia en 2017; el campo de batalla no se ha localizado con seguridad.",
+        "zh": "地图标记的是2017年在蒙古国发现的燕然山铭刻石，战场本身的位置尚无定论。"
+      },
+      "place": {
+        "name": {
+          "en": "Mount Yanran inscription",
+          "es": "Inscripción del monte Yanran",
+          "zh": "燕然山铭刻石处"
+        },
+        "lat": 45.178,
+        "lon": 104.554
+      },
+      "wikidataId": "Q726485"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Emperor Wu of Han",
+        "es": "Emperador Wu de Han",
+        "zh": "汉武帝"
+      },
+      "side": "han",
+      "role": {
+        "en": "Han emperor, 141–87 BCE; began the offensive war",
+        "es": "Emperador Han, 141–87 a. e. c.; inició la guerra ofensiva",
+        "zh": "汉朝皇帝（公元前141年至前87年在位）；发起对匈奴的进攻"
+      },
+      "wikidataId": "Q7225"
+    },
+    {
+      "name": {
+        "en": "Wei Qing",
+        "es": "Wei Qing",
+        "zh": "卫青"
+      },
+      "side": "han",
+      "role": {
+        "en": "Han general; took the Ordos region, commanded at Mobei",
+        "es": "General Han; tomó la región de Ordos y mandó en Mobei",
+        "zh": "汉朝将领；夺取河套，指挥漠北之战"
+      },
+      "wikidataId": "Q701330"
+    },
+    {
+      "name": {
+        "en": "Huo Qubing",
+        "es": "Huo Qubing",
+        "zh": "霍去病"
+      },
+      "side": "han",
+      "role": {
+        "en": "Han cavalry general in the Hexi Corridor and at Mobei",
+        "es": "General de caballería Han en el corredor de Hexi y en Mobei",
+        "zh": "河西之战和漠北之战中的汉朝骑兵将领"
+      },
+      "wikidataId": "Q380583"
+    },
+    {
+      "name": {
+        "en": "Li Guang",
+        "es": "Li Guang",
+        "zh": "李广"
+      },
+      "side": "han",
+      "role": {
+        "en": "Han frontier general",
+        "es": "General Han de la frontera",
+        "zh": "汉朝边将"
+      },
+      "wikidataId": "Q706443"
+    },
+    {
+      "name": {
+        "en": "Gan Yanshou",
+        "es": "Gan Yanshou",
+        "zh": "甘延寿"
+      },
+      "side": "han",
+      "role": {
+        "en": "Protector General of the Western Regions; led the attack on Zhizhi with Chen Tang",
+        "es": "Protector general de las Regiones Occidentales; dirigió con Chen Tang el ataque contra Zhizhi",
+        "zh": "西域都护；与陈汤一同攻打郅支"
+      },
+      "wikidataId": "Q11574263"
+    },
+    {
+      "name": {
+        "en": "Dou Xian",
+        "es": "Dou Xian",
+        "zh": "窦宪"
+      },
+      "side": "han",
+      "role": {
+        "en": "Han general in the campaign of 89 CE",
+        "es": "General Han en la campaña del 89 e. c.",
+        "zh": "公元89年战役的汉朝统帅"
+      },
+      "wikidataId": "Q1251323"
+    },
+    {
+      "name": {
+        "en": "Junchen Chanyu",
+        "es": "Chanyu Junchen",
+        "zh": "军臣单于"
+      },
+      "side": "xiongnu",
+      "role": {
+        "en": "Xiongnu ruler at the time of Mayi",
+        "es": "Soberano xiongnu en tiempos de Mayi",
+        "zh": "马邑之谋时的匈奴单于"
+      },
+      "wikidataId": "Q2660024"
+    },
+    {
+      "name": {
+        "en": "Yizhixie Chanyu",
+        "es": "Chanyu Yizhixie",
+        "zh": "伊稚斜单于"
+      },
+      "side": "xiongnu",
+      "role": {
+        "en": "Xiongnu ruler at Mobei",
+        "es": "Soberano xiongnu en Mobei",
+        "zh": "漠北之战时的匈奴单于"
+      },
+      "wikidataId": "Q2660255"
+    },
+    {
+      "name": {
+        "en": "Huhanye Chanyu",
+        "es": "Chanyu Huhanye",
+        "zh": "呼韩邪单于"
+      },
+      "side": "xiongnu",
+      "role": {
+        "en": "Xiongnu ruler who submitted to the Han in 51 BCE",
+        "es": "Soberano xiongnu que se sometió a los Han en el 51 a. e. c.",
+        "zh": "公元前51年归附汉朝的匈奴单于"
+      },
+      "wikidataId": "Q2986904"
+    },
+    {
+      "name": {
+        "en": "Zhizhi Chanyu",
+        "es": "Chanyu Zhizhi",
+        "zh": "郅支单于"
+      },
+      "side": "xiongnu",
+      "role": {
+        "en": "Huhanye's rival; killed by Han forces in 36 BCE",
+        "es": "Rival de Huhanye; muerto por las fuerzas Han en el 36 a. e. c.",
+        "zh": "呼韩邪的对手；公元前36年被汉军所杀"
+      },
+      "wikidataId": "Q3101072"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "han"
+  ],
+  "sources": [
+    {
+      "citation": "\"Han Wudi.\" EBSCO Research Starters: History.",
+      "url": "https://www.ebsco.com/research-starters/history/han-wudi"
+    },
+    {
+      "citation": "\"Xiongnu.\" EBSCO Research Starters.",
+      "url": "https://www.ebsco.com/research-starters/sports-and-leisure/xiongnu"
+    },
+    {
+      "citation": "Wikipedia (English). \"Han–Xiongnu wars.\"",
+      "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+    },
+    {
+      "citation": "Wikipedia (中文). \"汉匈战争.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/%E6%BC%A2%E5%8C%88%E6%88%B0%E7%88%AD"
+    },
+    {
+      "citation": "Ban Gu. Hanshu (Book of Han), chapter 94b, \"Account of the Xiongnu\" (匈奴傳下), via Wikisource.",
+      "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7094%E4%B8%8B"
+    },
+    {
+      "citation": "Ban Gu. Hanshu (Book of Han), chapter 70, biographies of Gan Yanshou and Chen Tang, via Wikisource.",
+      "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7070"
+    },
+    {
+      "citation": "Fan Ye. Hou Hanshu (Book of the Later Han), chapter 23, biography of Dou Xian, via Wikisource.",
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B723"
+    }
+  ]
+}
