@@ -23,9 +23,9 @@ import {
   clampYear,
   clampZoom,
   computeYearDomain,
-  followYearParam,
-  initialYearState,
-  moveYearState,
+  takeEcho,
+  timelineQuery,
+  yearFromParam,
   yearStepForKey,
 } from "./timeline-math";
 import { CultureLabel, CultureRow, FadeGradients, REGION_COLOR, RegionHeaderLabel } from "./timeline-row";
@@ -79,30 +79,29 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   const xScale = useMemo(() => scaleLinear().domain(domain).range([0, chartWidth]), [domain, chartWidth]);
 
   const yearParam = searchParams.get("year");
-  const [yearState, setYearState] = useState(() => initialYearState(yearParam, DEFAULT_YEAR, domain));
-  const year = yearState.year;
+  const [year, setYear] = useState(() => yearFromParam(yearParam, DEFAULT_YEAR, domain));
   const [selected, setSelected] = useState<SelectedEvent | null>(null);
+  // A ref, not state, so noting a write costs a drag no extra render.
+  const unechoedRef = useRef<string[]>([]);
 
   // Navigating here again with a new ?year= (a scan from the header) doesn't
   // remount this, so follow the param when it changes. Our own replaceState
-  // below comes back through here too and followYearParam ignores it.
-  if (yearParam !== yearState.seenParam) {
-    const next = followYearParam(yearState, yearParam, domain);
-    setYearState(next);
-    if (next.year !== year) setSelected(null);
-  }
+  // below comes back through here too, and takeEcho tells it apart.
+  useEffect(() => {
+    const taken = takeEcho(unechoedRef.current, yearParam);
+    unechoedRef.current = taken.unechoed;
+    if (taken.echo || yearParam === null) return;
+    setYear((y) => yearFromParam(yearParam, y, domain));
+    setSelected(null);
+  }, [yearParam, domain]);
 
   // Keep the URL shareable. Not required for the page to work, so a failure
   // (e.g. History API unavailable) is silently ignored.
   useEffect(() => {
     try {
-      const params = new URLSearchParams(window.location.search);
-      params.set("year", String(year));
-      const regionsValue = regionsParam(regions);
-      if (regionsValue === null) params.delete("regions");
-      else params.set("regions", regionsValue);
-      const query = params.toString().replace(/%2C/g, ",");
+      const { query, yearChanged } = timelineQuery(window.location.search, year, regionsParam(regions));
       window.history.replaceState(null, "", `${window.location.pathname}?${query}`);
+      if (yearChanged) unechoedRef.current = [...unechoedRef.current, String(year)];
     } catch {
       // Ignore.
     }
@@ -138,7 +137,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
   // Any move of the line drops a tapped event, which belongs to its own year.
   const moveYear = (next: number | null) => {
     if (next === null) return;
-    setYearState((s) => moveYearState(s, next));
+    setYear(next);
     setSelected(null);
   };
 
@@ -195,7 +194,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
 
   const handleSelectEvent = useCallback(
     (culture: TimelineCulture, event: TimelineEvent) => {
-      setYearState((s) => moveYearState(s, clampYear(event.start, domain)));
+      setYear(clampYear(event.start, domain));
       setSelected({ culture, event });
     },
     [domain],

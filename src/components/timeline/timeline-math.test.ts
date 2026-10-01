@@ -10,9 +10,9 @@ import {
   clampYear,
   clampZoom,
   computeYearDomain,
-  followYearParam,
-  initialYearState,
-  moveYearState,
+  takeEcho,
+  timelineQuery,
+  yearFromParam,
   yearStepForKey,
 } from "./timeline-math";
 
@@ -203,54 +203,81 @@ describe("axisTicks", () => {
   });
 });
 
-describe("year state and ?year=", () => {
-  const domain: [number, number] = [-3000, 2000];
+describe("?year= echoes", () => {
+  // The component's side: a move rewrites the URL, and only a write that changed ?year= is noted.
+  function write(unechoed: string[], search: string, year: number) {
+    const { query, yearChanged } = timelineQuery(search, year, null);
+    return { search: `?${query}`, unechoed: yearChanged ? [...unechoed, String(year)] : unechoed };
+  }
 
   it("ignores its own late URL write while the line is being dragged on", () => {
-    let s = initialYearState("5", 1, domain);
-    s = moveYearState(s, 6);
-    s = moveYearState(s, 7);
+    let w = write([], "?year=5", 6);
+    w = write(w.unechoed, w.search, 7);
     // Next delivers ?year=6 (our replaceState) after the move to 7 has rendered.
-    s = followYearParam(s, "6", domain);
-    expect(s.year).toBe(7);
-    s = followYearParam(s, "7", domain);
-    expect(s.year).toBe(7);
+    const late = takeEcho(w.unechoed, "6");
+    expect(late.echo).toBe(true);
+    expect(takeEcho(late.unechoed, "7").echo).toBe(true);
   });
 
   it("ignores every late echo when the line goes back and forth (6, 7, back to 6)", () => {
-    let s = initialYearState("5", 1, domain);
-    s = moveYearState(s, 6);
-    s = moveYearState(s, 7);
-    s = moveYearState(s, 6);
-    s = followYearParam(s, "6", domain); // the first write's echo
-    s = followYearParam(s, "7", domain);
-    expect(s.year).toBe(6);
+    let w = write([], "?year=5", 6);
+    w = write(w.unechoed, w.search, 7);
+    w = write(w.unechoed, w.search, 6);
+    const first = takeEcho(w.unechoed, "6");
+    expect(first.echo).toBe(true);
+    expect(takeEcho(first.unechoed, "7").echo).toBe(true);
   });
 
   it("follows a navigation to a new ?year= (a scan from the header)", () => {
-    let s = initialYearState("5", 1, domain);
-    s = moveYearState(s, 6);
-    s = followYearParam(s, "6", domain);
-    s = followYearParam(s, "-1199", domain);
-    expect(s.year).toBe(-1199);
+    const w = write([], "?year=5", 6);
+    const echoed = takeEcho(w.unechoed, "6");
+    const scanned = takeEcho(echoed.unechoed, "-1199");
+    expect(scanned.echo).toBe(false);
+    // A spent echo is gone: a second scan back to 6 is a navigation too.
+    expect(takeEcho(scanned.unechoed, "6").echo).toBe(false);
   });
 
   it("follows a navigation even to a year the line passed through before its echo came back", () => {
-    let s = initialYearState("5", 1, domain);
-    s = moveYearState(s, 6);
-    s = moveYearState(s, 7);
-    s = followYearParam(s, "7", domain); // 6's echo was coalesced into 7's
-    s = followYearParam(s, "6", domain);
-    expect(s.year).toBe(6);
+    let w = write([], "?year=5", 6);
+    w = write(w.unechoed, w.search, 7);
+    const coalesced = takeEcho(w.unechoed, "7"); // 6's echo was folded into 7's
+    expect(takeEcho(coalesced.unechoed, "6").echo).toBe(false);
   });
 
-  it("starts from ?year=, clamped, or the fallback, and ignores its own mount write", () => {
-    expect(initialYearState("-1199", 1, domain).year).toBe(-1199);
-    expect(initialYearState("9999", 1, domain).year).toBe(2000);
-    let s = initialYearState(null, 1, domain);
-    expect(s.year).toBe(1);
-    s = moveYearState(s, 2);
-    s = followYearParam(s, "1", domain); // the mount write, landing late
-    expect(s.year).toBe(2);
+  it("follows a navigation to a year it moved through but never wrote (6 and back to 5 in one render)", () => {
+    // One effect run for both moves, and ?year= already says 5: the write changes nothing, so nothing echoes.
+    const w = write([], "?year=5", 5);
+    expect(w.unechoed).toEqual([]);
+    expect(takeEcho(w.unechoed, "6").echo).toBe(false);
+  });
+
+  it("ignores its own mount write, landing late", () => {
+    let w = write([], "", 1);
+    w = write(w.unechoed, w.search, 2);
+    expect(takeEcho(w.unechoed, "1").echo).toBe(true);
+  });
+});
+
+describe("timelineQuery", () => {
+  it("sets ?year= and ?regions=, keeps other params, and leaves the region commas readable", () => {
+    expect(timelineQuery("?year=5&x=1&regions=china", -1199, "china,europe")).toEqual({
+      query: "year=-1199&x=1&regions=china,europe",
+      yearChanged: true,
+    });
+  });
+
+  it("drops ?regions= for no filter, and says the year didn't change when ?year= already matches", () => {
+    expect(timelineQuery("?year=5&regions=china", 5, null)).toEqual({ query: "year=5", yearChanged: false });
+  });
+});
+
+describe("yearFromParam", () => {
+  const domain: [number, number] = [-3000, 2000];
+
+  it("reads ?year= as an astronomical year, clamped to the domain, or the fallback", () => {
+    expect(yearFromParam("-1199", 1, domain)).toBe(-1199);
+    expect(yearFromParam("9999", 1, domain)).toBe(2000);
+    expect(yearFromParam(null, 1, domain)).toBe(1);
+    expect(yearFromParam("nope", 7, domain)).toBe(7);
   });
 });

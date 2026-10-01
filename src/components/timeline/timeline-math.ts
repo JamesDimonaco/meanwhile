@@ -103,36 +103,33 @@ export function activeCultures(cultures: readonly TimelineCulture[], year: numbe
   return rankActive(cultures, (c) => c.period, year).map(({ item, certain }) => ({ culture: item, certain }));
 }
 
+export function yearFromParam(param: string | null, fallback: number, domain: [number, number]): number {
+  return clampYear(parseYearParam(param) ?? fallback, domain);
+}
+
+/** The timeline's query string from the current one; `yearChanged` when the write changes ?year=, which is when Next echoes it. */
+export function timelineQuery(
+  search: string,
+  year: number,
+  regions: string | null,
+): { query: string; yearChanged: boolean } {
+  const params = new URLSearchParams(search);
+  const yearChanged = params.get("year") !== String(year);
+  params.set("year", String(year));
+  if (regions === null) params.delete("regions");
+  else params.set("regions", regions);
+  return { query: params.toString().replace(/%2C/g, ","), yearChanged };
+}
+
 /**
- * The year line plus what's needed to tell a navigation from our own URL
- * write: the component replaceStates ?year= on every move, and Next hands
- * that back through useSearchParams in a transition that can land after a
- * newer move.
+ * Whether a changed ?year= is the echo of our own write, which is never a
+ * navigation however late it lands: the component replaceStates ?year= after
+ * a move, and Next hands that back through useSearchParams in a transition
+ * that can render after a newer move. `unechoed` holds the ?year= values
+ * written whose echo hasn't come back, oldest first.
  */
-export type YearState = {
-  year: number;
-  /** ?year= as last seen in useSearchParams. */
-  seenParam: string | null;
-  /** Years moved to here whose own replaceState hasn't come back yet, oldest first. */
-  unechoed: string[];
-};
-
-export function initialYearState(param: string | null, fallback: number, domain: [number, number]): YearState {
-  const year = clampYear(parseYearParam(param) ?? fallback, domain);
-  // The mount write only changes the URL (and so only echoes) when it differs from what's there.
-  return { year, seenParam: param, unechoed: String(year) === param ? [] : [String(year)] };
-}
-
-export function moveYearState(state: YearState, year: number): YearState {
-  if (year === state.year) return state;
-  return { ...state, year, unechoed: [...state.unechoed, String(year)] };
-}
-
-/** A changed ?year=: an echo of our own write is never a navigation, however late it lands. */
-export function followYearParam(state: YearState, param: string | null, domain: [number, number]): YearState {
+export function takeEcho(unechoed: readonly string[], param: string | null): { echo: boolean; unechoed: string[] } {
   // Echoes arrive in write order, so an echo also accounts for every older write.
-  const echo = param === null ? -1 : state.unechoed.indexOf(param);
-  if (echo !== -1) return { ...state, seenParam: param, unechoed: state.unechoed.slice(echo + 1) };
-  const paramYear = parseYearParam(param);
-  return { ...state, seenParam: param, year: paramYear === null ? state.year : clampYear(paramYear, domain) };
+  const i = param === null ? -1 : unechoed.indexOf(param);
+  return i === -1 ? { echo: false, unechoed: [...unechoed] } : { echo: true, unechoed: unechoed.slice(i + 1) };
 }
