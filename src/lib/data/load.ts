@@ -1,11 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
 import countries from "flag-icons/country.json";
+import type { Locale } from "@/i18n/locales";
 import { validateHeartland } from "./heartland";
 import { Registry, type Borders, type Culture, type SuccessionLink } from "./schema";
 import { validateDataset, type DataFile, type DatasetResult } from "./validate";
 import type { War } from "./war-schema";
-import { warCountryCodes } from "./wars";
+import { localeGaps, warCountryCodes } from "./wars";
 
 // Server only (fs). Pages call these at build time, in server components;
 // client components receive CultureRef/Culture props, never this module.
@@ -97,6 +98,14 @@ export function loadSuccession(): SuccessionLink[] {
 /** Every war, sorted by id, review gate not applied: pass through warsShownIn before rendering. */
 export function loadWars(): War[] {
   return dataset().wars;
+}
+
+let gapsCache: Record<string, Locale[]> | undefined;
+
+/** localeGaps(loadWars()), worked out once: the layout asks for it on every page in every locale. */
+export function loadLocaleGaps(): Record<string, Locale[]> {
+  gapsCache ??= localeGaps(loadWars());
+  return gapsCache;
 }
 
 /** A culture or war id: both keep their maps in data/borders. */

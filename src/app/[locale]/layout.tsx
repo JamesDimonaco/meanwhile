@@ -10,8 +10,8 @@ import { HTML_LANG } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
 import { routing } from "@/i18n/routing";
-import { loadWars } from "@/lib/data/load";
-import { gapsOnPagesIn, localeGaps } from "@/lib/data/wars";
+import { loadLocaleGaps } from "@/lib/data/load";
+import { gapsOnPagesIn } from "@/lib/data/wars";
 import { openGraph, SITE_URL } from "@/lib/seo";
 import "../globals.css";
 
@@ -54,7 +54,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
               <div className="ms-auto flex items-center gap-2 whitespace-nowrap">
                 <ScanButton variant="header" />
                 <ExplainerTrigger />
-                <LanguageSwitcher gaps={gapsOnPagesIn(localeGaps(loadWars()), locale)} />
+                <LanguageSwitcher gaps={gapsOnPagesIn(loadLocaleGaps(), locale)} />
               </div>
             </header>
             <main className="flex-1 px-4 pb-8">{children}</main>
