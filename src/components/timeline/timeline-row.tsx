@@ -8,7 +8,7 @@ import { barSegments } from "./timeline-math";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 
-// Region order fixes which shared gradient/colour a bar uses; see REGIONS in schema.ts.
+// Region order fixes which shared gradient/colour a bar uses; see REGIONS in regions.ts.
 export const REGION_COLOR: Record<Region, string> = {
   china: "var(--chart-1)",
   "south-america": "var(--chart-2)",
