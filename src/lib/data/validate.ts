@@ -14,7 +14,7 @@ export type DatasetInput = {
   succession?: unknown;
   /** data/wars/*.json; omitted means no wars. */
   warFiles?: DataFile[];
-  /** YYYY-MM-DD; omitted means today. */
+  /** YYYY-MM-DD; omitted means latestDateOnEarth(). */
   buildDate?: string;
 };
 export type DatasetResult = {
@@ -27,6 +27,19 @@ export type DatasetResult = {
   succession: SuccessionLink[];
   wars: War[];
 };
+
+/** UTC+14 (Kiribati's Line Islands) is the furthest-ahead time zone. */
+const LATEST_UTC_OFFSET_HOURS = 14;
+
+/**
+ * The newest calendar date anywhere on Earth right now. An ongoing war's asOf
+ * is the day its author checked in their own time zone, so the future check
+ * compares against this rather than the UTC date, which lags a writer east of
+ * Greenwich by up to a day.
+ */
+export function latestDateOnEarth(now: Date = new Date()): string {
+  return new Date(now.getTime() + LATEST_UTC_OFFSET_HOURS * 3_600_000).toISOString().slice(0, 10);
+}
 
 /** Pure so it can be tested; scripts/validate-data.ts feeds it the files on disk. */
 export function validateDataset(input: DatasetInput): DatasetResult {
@@ -131,7 +144,7 @@ export function validateDataset(input: DatasetInput): DatasetResult {
     registryIds: new Set(regions.keys()),
     cultures,
     borders: warBorders,
-    buildDate: input.buildDate ?? new Date().toISOString().slice(0, 10),
+    buildDate: input.buildDate ?? latestDateOnEarth(),
   });
   errors.push(...wars.errors);
   warnings.push(...wars.warnings);

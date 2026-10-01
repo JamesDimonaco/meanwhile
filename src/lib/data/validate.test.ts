@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { validateDataset, type DataFile } from "./validate";
+import { latestDateOnEarth, validateDataset, type DataFile } from "./validate";
 
 const src = { citation: "Test source" };
 const registry = {
@@ -199,5 +199,17 @@ describe("validateDataset", () => {
       const { errors } = validateDataset({ registry, cultureFiles: both, borderFiles: [], popular, succession: [link("inca", "shang")] });
       expect(errors.join("\n")).toMatch(/inca -> shang.*starts before/);
     });
+  });
+});
+
+describe("latestDateOnEarth", () => {
+  it("is already tomorrow's date once it is tomorrow anywhere (UTC+14)", () => {
+    // 07:00 on 3 October in UTC+8: an asOf of 2026-10-03 written there must not count as future.
+    expect(latestDateOnEarth(new Date("2026-10-02T23:00:00Z"))).toBe("2026-10-03");
+    expect(latestDateOnEarth(new Date("2026-10-02T10:00:00Z"))).toBe("2026-10-03");
+  });
+
+  it("stays on today's date until midnight in UTC+14", () => {
+    expect(latestDateOnEarth(new Date("2026-10-02T09:59:59Z"))).toBe("2026-10-02");
   });
 });
