@@ -19,7 +19,7 @@ import { hasTerritoryMap, loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { activeAt, meanwhileAtYear } from "@/lib/data/queries";
 import { isShownIn, warSpan, warsShownIn } from "@/lib/data/wars";
-import { pageAlternates } from "@/lib/seo";
+import { openGraph, pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -40,14 +40,14 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/war/[id]
   const locale = await pageLocale(params);
   const { id } = await params;
   const war = findWar(id);
+  const shownIn = LOCALES.filter((l) => isShownIn(war, l));
+  const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
   return {
     title: localize(war.name, locale),
     description: firstSentence(localize(war.description, locale), locale),
-    alternates: pageAlternates(
-      locale,
-      `war/${id}`,
-      LOCALES.filter((l) => isShownIn(war, l)),
-    ),
+    alternates: pageAlternates(locale, `war/${id}`, shownIn),
+    // The layout's openGraph would list every locale as an alternate.
+    openGraph: openGraph(locale, appName, null, shownIn),
   };
 }
 

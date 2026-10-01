@@ -42,25 +42,30 @@ export function pageAlternates(
  * export is one string for every locale. Next adds the file's own image only
  * when the segment names none, and a segment's openGraph replaces its
  * parent's rather than merging, so this carries the shared fields as well.
+ * `image` null leaves images out for the segment's own opengraph-image file;
+ * `locales` narrows og:locale:alternate as it does pageAlternates.
  */
 export function openGraph(
   locale: Locale,
   siteName: string,
-  image: { path: "" | "timeline" | "credits"; alt: string },
+  image: { path: "" | "timeline" | "credits"; alt: string } | null,
+  locales: readonly Locale[] = LOCALES,
 ): NonNullable<Metadata["openGraph"]> {
   return {
     siteName,
     locale: HTML_LANG[locale],
-    alternateLocale: LOCALES.filter((l) => l !== locale).map((l) => HTML_LANG[l]),
+    alternateLocale: locales.filter((l) => l !== locale).map((l) => HTML_LANG[l]),
     type: "website",
-    images: [
-      {
-        // Trailing slash: next.config's trailingSlash would 308 the bare path.
-        url: `${localePath(locale, image.path)}opengraph-image/`,
-        alt: image.alt,
-        type: OG_CONTENT_TYPE,
-        ...OG_SIZE,
-      },
-    ],
+    ...(image && {
+      images: [
+        {
+          // Trailing slash: next.config's trailingSlash would 308 the bare path.
+          url: `${localePath(locale, image.path)}opengraph-image/`,
+          alt: image.alt,
+          type: OG_CONTENT_TYPE,
+          ...OG_SIZE,
+        },
+      ],
+    }),
   };
 }

@@ -9,7 +9,7 @@ import { pageLocale } from "@/i18n/page-locale";
 import { loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { countryIndex, warsForCountry, warsShownIn } from "@/lib/data/wars";
-import { pageAlternates } from "@/lib/seo";
+import { openGraph, pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -32,14 +32,14 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/wars/[co
   const { country } = await params;
   const t = await getTranslations({ locale, namespace: "wars" });
   const name = countryName(country, locale);
+  const shownIn = LOCALES.filter((l) => countryWars(country, l).length > 0);
+  const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
   return {
     title: t("countryTitle", { country: name }),
     description: t("countryMetaDescription", { country: name }),
-    alternates: pageAlternates(
-      locale,
-      `wars/${country}`,
-      LOCALES.filter((l) => countryWars(country, l).length > 0),
-    ),
+    alternates: pageAlternates(locale, `wars/${country}`, shownIn),
+    // The layout's openGraph would list every locale as an alternate.
+    openGraph: openGraph(locale, appName, { path: "", alt: appName }, shownIn),
   };
 }
 
