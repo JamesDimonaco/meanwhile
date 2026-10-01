@@ -1,0 +1,462 @@
+{
+  "id": "mongol-conquest-of-the-song",
+  "wikidataId": "Q400061",
+  "name": {
+    "en": "Mongol conquest of the Song dynasty",
+    "es": "Conquista mongola de la dinastía Song",
+    "zh": "宋元战争"
+  },
+  "noWikiTitle": [
+    "es"
+  ],
+  "aliases": [
+    "Song–Yuan War",
+    "Song-Mongol War",
+    "Guerra Song-Yuan",
+    "宋蒙战争",
+    "蒙宋战争",
+    "元宋战争",
+    "Kublai Khan",
+    "Kublai Kan",
+    "忽必烈",
+    "Xiangyang",
+    "襄阳",
+    "Yamen",
+    "崖山"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "From 1235 to 1279 the Mongol Empire, and from 1271 its Yuan dynasty, fought the Southern Song dynasty, which ruled southern China. The Song held out for decades behind fortified cities, mountain forts and rivers, and both sides used gunpowder bombs and river fleets. Möngke Khan died in 1259 while besieging Diaoyu Fortress in Sichuan, and the Mongol campaigns stopped while his brothers fought over the succession. Kublai renewed the war in 1268: his armies besieged Xiangyang and Fancheng for five years and took them in 1273, helped by counterweight trebuchets built by engineers from the Ilkhanate, then went down the Yangtze. Many Song commanders changed sides. Lin'an (Hangzhou), the Song capital, surrendered in 1276. Song officials enthroned two child emperors in turn and fought on in the south until the Yuan fleet destroyed the last Song fleet at Yamen in 1279. No reliable count of the war's dead survives.",
+    "es": "De 1235 a 1279 el Imperio mongol, y desde 1271 su dinastía Yuan, combatió a la dinastía Song del Sur, que gobernaba el sur de China. Los Song resistieron durante décadas tras ciudades fortificadas, fuertes de montaña y ríos, y ambos bandos usaron bombas de pólvora y flotas fluviales. Möngke Kan murió en 1259 mientras asediaba la fortaleza de Diaoyu, en Sichuan, y las campañas mongolas se detuvieron mientras sus hermanos se disputaban la sucesión. Kublai reanudó la guerra en 1268: sus ejércitos sitiaron Xiangyang y Fancheng durante cinco años y las tomaron en 1273, con ayuda de trabuquetes de contrapeso construidos por ingenieros del Iljanato, y después descendieron por el Yangtsé. Muchos comandantes Song cambiaron de bando. Lin'an (Hangzhou), la capital Song, se rindió en 1276. Los funcionarios Song entronizaron sucesivamente a dos emperadores niños y siguieron luchando en el sur hasta que la flota Yuan destruyó la última flota Song en Yamen en 1279. No se conserva un recuento fiable de los muertos de la guerra.",
+    "zh": "1235年至1279年，蒙古帝国（1271年起为其元朝）与统治中国南方的南宋交战。南宋依托设防城市、山城和江河坚守数十年，双方都使用了火药武器和江河水军。1259年蒙哥汗在围攻四川钓鱼城时死去，其兄弟争夺汗位，蒙古的攻势随之停止。1268年忽必烈重启战事：元军围攻襄阳和樊城五年，于1273年借助伊儿汗国工匠制造的配重投石机将其攻破，随后顺长江而下。许多宋将倒戈。1276年南宋都城临安（杭州）投降。宋臣先后拥立两位幼帝，在南方继续抵抗，直到1279年元军舰队在崖山歼灭最后的宋朝舰队。这场战争的死亡人数没有可靠统计留存。"
+  },
+  "outcome": {
+    "en": "The Song dynasty ended in 1279 and the Yuan dynasty of Kublai Khan ruled all of China.",
+    "es": "La dinastía Song terminó en 1279 y la dinastía Yuan de Kublai Kan gobernó toda China.",
+    "zh": "宋朝于1279年灭亡，忽必烈的元朝统治了整个中国。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1235,
+    "latestStart": 1235,
+    "earliestEnd": 1279,
+    "latestEnd": 1279,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Mongol conquest of the Song dynasty.\"",
+        "url": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Song_dynasty"
+      },
+      {
+        "citation": "Wikipedia (中文). \"宋元战争.\"",
+        "url": "https://zh.wikipedia.org/zh-cn/%E5%AE%8B%E5%85%83%E6%88%98%E4%BA%89"
+      },
+      {
+        "citation": "Wikidata. \"Mongol conquest of the Song dynasty\" (Q400061), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q400061"
+      }
+    ],
+    "disputed": false
+  },
+  "sides": [
+    {
+      "id": "mongols-and-yuan",
+      "label": {
+        "en": "The Mongol Empire and, from 1271, the Yuan dynasty",
+        "es": "El Imperio mongol y, desde 1271, la dinastía Yuan",
+        "zh": "蒙古帝国（1271年起为元朝）"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Mongol Empire",
+            "es": "Imperio mongol",
+            "zh": "蒙古帝国"
+          },
+          "role": "belligerent",
+          "today": [
+            "MN"
+          ]
+        },
+        {
+          "kind": "culture",
+          "id": "yuan",
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Northern Chinese \"Han Army\" troops and Song commanders and soldiers who changed sides",
+            "es": "Tropas chinas del norte del \"Ejército Han\" y comandantes y soldados Song que cambiaron de bando",
+            "zh": "北方汉人组成的“汉军”以及倒戈的宋朝将士"
+          },
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ilkhanate (sent the engineers who built counterweight trebuchets)",
+            "es": "Iljanato (envió a los ingenieros que construyeron trabuquetes de contrapeso)",
+            "zh": "伊儿汗国（派出制造配重投石机的工匠）"
+          },
+          "role": "supporter",
+          "today": [
+            "IR",
+            "IQ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "song",
+      "label": {
+        "en": "The Southern Song dynasty",
+        "es": "La dinastía Song del Sur",
+        "zh": "南宋"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "song",
+          "role": "belligerent",
+          "today": [
+            "CN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "siege-of-diaoyucheng",
+      "start": 1259,
+      "title": {
+        "en": "Möngke Khan dies while besieging Diaoyu Fortress in Sichuan; the Mongol campaigns against the Song stop as his brothers fight over the succession",
+        "es": "Möngke Kan muere mientras asedia la fortaleza de Diaoyu, en Sichuan; las campañas mongolas contra los Song se detienen mientras sus hermanos se disputan la sucesión",
+        "zh": "蒙哥汗在围攻四川钓鱼城时死去；其兄弟争夺汗位，蒙古对宋的攻势随之停止"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Kublai Khan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Kublai_Khan/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mongol conquest of the Song dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Song_dynasty"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Diaoyucheng.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Diaoyu_Castle"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Diaoyu Fortress (Hechuan)",
+          "es": "Fortaleza de Diaoyu (Hechuan)",
+          "zh": "钓鱼城（合川）"
+        },
+        "lat": 30.004,
+        "lon": 106.313
+      },
+      "wikidataId": "Q48880934"
+    },
+    {
+      "id": "battle-of-dingjiazhou",
+      "start": 1275,
+      "title": {
+        "en": "Bayan's army and river fleet rout the Song army of the chief minister Jia Sidao at Dingjiazhou on the Yangtze; Jiankang and other river cities surrender",
+        "es": "El ejército y la flota fluvial de Bayan derrotan al ejército Song del primer ministro Jia Sidao en Dingjiazhou, en el Yangtsé; Jiankang y otras ciudades ribereñas se rinden",
+        "zh": "伯颜率领的军队和水军在长江丁家洲击溃宰相贾似道统率的宋军；建康等沿江城市相继投降"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Kublai Khan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Kublai_Khan/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mongol conquest of the Song dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Song_dynasty"
+        },
+        {
+          "citation": "Wikipedia (中文). \"丁家洲之战.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E4%B8%81%E5%AE%B6%E6%B4%B2%E4%B9%8B%E6%88%98"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Dingjiazhou (Tongling)",
+          "es": "Dingjiazhou (Tongling)",
+          "zh": "丁家洲（铜陵）"
+        },
+        "lat": 30.95,
+        "lon": 117.8
+      },
+      "wikidataId": "Q10864232"
+    },
+    {
+      "id": "changzhou-massacre",
+      "start": 1275,
+      "title": {
+        "en": "After storming Changzhou, which had resisted, Bayan's troops kill its inhabitants",
+        "es": "Tras tomar al asalto Changzhou, que había resistido, las tropas de Bayan matan a sus habitantes",
+        "zh": "伯颜的军队攻破曾坚守抵抗的常州后，屠杀城中居民"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Kublai Khan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Kublai_Khan/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mongol conquest of the Song dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Song_dynasty"
+        },
+        {
+          "citation": "Wikipedia (中文). \"常州之战.\"",
+          "url": "https://zh.wikipedia.org/zh-cn/%E5%B8%B8%E5%B7%9E%E4%B9%8B%E6%88%98"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Changzhou",
+          "es": "Changzhou",
+          "zh": "常州"
+        },
+        "lat": 31.81,
+        "lon": 119.97
+      }
+    },
+    {
+      "id": "linan-surrenders",
+      "start": 1276,
+      "title": {
+        "en": "With Bayan's army outside the capital Lin'an (Hangzhou), Grand Empress Dowager Xie hands over the city, the child Emperor Gong and the imperial seal",
+        "es": "Con el ejército de Bayan ante la capital Lin'an (Hangzhou), la gran emperatriz viuda Xie entrega la ciudad, al niño emperador Gong y el sello imperial",
+        "zh": "伯颜大军兵临都城临安（杭州），谢太皇太后献出城池、年幼的宋恭帝和传国玉玺"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Kublai Khan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Kublai_Khan/"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Yuan Dynasty.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Yuan_Dynasty/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mongol conquest of the Song dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Song_dynasty"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Lin'an (Hangzhou)",
+          "es": "Lin'an (Hangzhou)",
+          "zh": "临安（杭州）"
+        },
+        "lat": 30.25,
+        "lon": 120.17
+      }
+    }
+  ],
+  "cultureEvents": [
+    {
+      "culture": "song",
+      "event": "xiangyang-falls"
+    },
+    {
+      "culture": "song",
+      "event": "battle-of-yamen"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Ögedei Khan",
+        "es": "Ögedei Kan",
+        "zh": "窝阔台"
+      },
+      "side": "mongols-and-yuan",
+      "role": {
+        "en": "Great Khan; began the war in 1235",
+        "es": "Gran kan; inició la guerra en 1235",
+        "zh": "大汗；1235年发动战争"
+      },
+      "wikidataId": "Q7519"
+    },
+    {
+      "name": {
+        "en": "Möngke Khan",
+        "es": "Möngke Kan",
+        "zh": "蒙哥"
+      },
+      "side": "mongols-and-yuan",
+      "role": {
+        "en": "Great Khan; died at Diaoyu Fortress in 1259",
+        "es": "Gran kan; murió ante la fortaleza de Diaoyu en 1259",
+        "zh": "大汗；1259年死于钓鱼城下"
+      },
+      "wikidataId": "Q7521"
+    },
+    {
+      "name": {
+        "en": "Kublai Khan",
+        "es": "Kublai Kan",
+        "zh": "忽必烈"
+      },
+      "side": "mongols-and-yuan",
+      "role": {
+        "en": "Great Khan from 1260; founder of the Yuan dynasty",
+        "es": "Gran kan desde 1260; fundador de la dinastía Yuan",
+        "zh": "1260年起为大汗；元朝建立者"
+      },
+      "wikidataId": "Q7523"
+    },
+    {
+      "name": {
+        "en": "Bayan of the Baarin",
+        "es": "Bayan de los baarin",
+        "zh": "伯颜"
+      },
+      "side": "mongols-and-yuan",
+      "role": {
+        "en": "Commander of the Yuan campaign down the Yangtze to Lin'an",
+        "es": "Comandante de la campaña Yuan por el Yangtsé hasta Lin'an",
+        "zh": "元军沿长江南下直取临安之役的统帅"
+      },
+      "wikidataId": "Q846112"
+    },
+    {
+      "name": {
+        "en": "Zhang Hongfan",
+        "es": "Zhang Hongfan",
+        "zh": "张弘范"
+      },
+      "side": "mongols-and-yuan",
+      "role": {
+        "en": "Han Chinese general in Yuan service; commanded at Yamen",
+        "es": "General chino han al servicio Yuan; mandó en Yamen",
+        "zh": "效力元朝的汉人将领；崖山海战指挥官"
+      },
+      "wikidataId": "Q697567"
+    },
+    {
+      "name": {
+        "en": "Meng Gong",
+        "es": "Meng Gong",
+        "zh": "孟珙"
+      },
+      "side": "song",
+      "role": {
+        "en": "Song general who held the middle Yangtze front in the 1230s",
+        "es": "General Song que sostuvo el frente del Yangtsé medio en la década de 1230",
+        "zh": "1230年代坚守长江中游防线的宋将"
+      },
+      "wikidataId": "Q8010057"
+    },
+    {
+      "name": {
+        "en": "Jia Sidao",
+        "es": "Jia Sidao",
+        "zh": "贾似道"
+      },
+      "side": "song",
+      "role": {
+        "en": "Song chief minister; his army was routed at Dingjiazhou in 1275",
+        "es": "Primer ministro Song; su ejército fue derrotado en Dingjiazhou en 1275",
+        "zh": "南宋宰相；1275年其军队在丁家洲溃败"
+      },
+      "wikidataId": "Q706879"
+    },
+    {
+      "name": {
+        "en": "Lü Wenhuan",
+        "es": "Lü Wenhuan",
+        "zh": "吕文焕"
+      },
+      "side": "song",
+      "role": {
+        "en": "Song commander of Xiangyang; surrendered in 1273 and then served the Yuan",
+        "es": "Comandante Song de Xiangyang; se rindió en 1273 y después sirvió a los Yuan",
+        "zh": "南宋襄阳守将；1273年投降后为元朝效力"
+      },
+      "wikidataId": "Q10918378"
+    },
+    {
+      "name": {
+        "en": "Wen Tianxiang",
+        "es": "Wen Tianxiang",
+        "zh": "文天祥"
+      },
+      "side": "song",
+      "role": {
+        "en": "Song minister who led resistance after 1276",
+        "es": "Ministro Song que dirigió la resistencia después de 1276",
+        "zh": "1276年后领导抗元的南宋大臣"
+      },
+      "wikidataId": "Q575900"
+    },
+    {
+      "name": {
+        "en": "Zhang Shijie",
+        "es": "Zhang Shijie",
+        "zh": "张世杰"
+      },
+      "side": "song",
+      "role": {
+        "en": "Song commander of the last fleet at Yamen",
+        "es": "Comandante Song de la última flota en Yamen",
+        "zh": "崖山海战中统率最后宋朝舰队的将领"
+      },
+      "wikidataId": "Q718017"
+    },
+    {
+      "name": {
+        "en": "Lu Xiufu",
+        "es": "Lu Xiufu",
+        "zh": "陆秀夫"
+      },
+      "side": "song",
+      "role": {
+        "en": "Song minister; died at Yamen with the last child emperor",
+        "es": "Ministro Song; murió en Yamen con el último emperador niño",
+        "zh": "南宋大臣；在崖山与末代幼帝一同投海"
+      },
+      "wikidataId": "Q2738615"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "song",
+    "yuan"
+  ],
+  "sources": [
+    {
+      "citation": "Cartwright, Mark. \"Kublai Khan.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Kublai_Khan/"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Yuan Dynasty.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Yuan_Dynasty/"
+    },
+    {
+      "citation": "Wikipedia (English). \"Mongol conquest of the Song dynasty.\"",
+      "url": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Song_dynasty"
+    },
+    {
+      "citation": "Wikipedia (中文). \"宋元战争.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/%E5%AE%8B%E5%85%83%E6%88%98%E4%BA%89"
+    }
+  ]
+}
