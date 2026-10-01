@@ -98,15 +98,15 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
           <ul className="flex flex-col gap-0.5 text-sm text-muted-foreground">
             {war.altNames.map((a) => (
               <li key={a.text}>
-                {t.rich("altName", {
+                {t.rich(a.gloss ? "altNameGloss" : "altName", {
                   usedBy: localize(a.usedBy, locale),
+                  gloss: a.gloss ? localize(a.gloss, locale) : "",
                   name: () => (
                     <span lang={a.lang} className="text-foreground">
                       {a.text}
                     </span>
                   ),
                 })}
-                {a.gloss && ` (${localize(a.gloss, locale)})`}
               </li>
             ))}
           </ul>

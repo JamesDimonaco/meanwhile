@@ -57,8 +57,14 @@ function SideLine({ side, cultureNames, linkCultures }: { side: Side; cultureNam
           const m = side.members[Number(part.value)];
           return (
             <span key={i}>
-              <MemberName member={m} cultureNames={cultureNames} linkCultures={linkCultures} />
-              {m.role === "supporter" && <span className="text-muted-foreground"> ({t("supporting")})</span>}
+              {m.role === "supporter" ? (
+                t.rich("supporter", {
+                  name: () => <MemberName member={m} cultureNames={cultureNames} linkCultures={linkCultures} />,
+                  role: (chunks) => <span className="text-muted-foreground">{chunks}</span>,
+                })
+              ) : (
+                <MemberName member={m} cultureNames={cultureNames} linkCultures={linkCultures} />
+              )}
             </span>
           );
         })}
