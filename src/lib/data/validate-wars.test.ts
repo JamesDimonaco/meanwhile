@@ -464,6 +464,15 @@ describe("wars", () => {
     expect(errorsFor({ ...base, phases })).toMatch(/phase "early" \(1517-1519\) is outside the war \(1519 to 1521\)/);
   });
 
+  it("rejects an ongoing war that starts after its asOf year", () => {
+    const ongoing = (latestStart: number, asOf: string) => ({ earliestStart: 2014, latestStart, asOf, sources: [src] });
+    const events = [{ id: "e", start: 2014, title: t("e"), sources: both, place: place(30.5, 50.4) }];
+    expect(errorsFor(warJson("w", { period: undefined, ongoing: ongoing(2021, "2021-12-31"), events }))).toBe("");
+    expect(errorsFor(warJson("w", { period: undefined, ongoing: ongoing(2022, "2021-12-31"), events }))).toMatch(
+      /latestStart \(2022\) is after the asOf year \(2021\)/,
+    );
+  });
+
   it("rejects an ongoing war checked after the build date", () => {
     const ongoing = (asOf: string) => ({ earliestStart: 2014, latestStart: 2014, asOf, sources: [src] });
     expect(errorsFor(warJson("w", { period: undefined, ongoing: ongoing("2026-09-30"), events: undefined }))).not.toMatch(/asOf/);

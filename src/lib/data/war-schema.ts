@@ -68,7 +68,13 @@ export const Ongoing = z
     disputed: z.boolean().default(false),
     note: LocalizedText.optional(),
   })
-  .refine((o) => o.earliestStart <= o.latestStart, { message: "need earliestStart <= latestStart" });
+  .superRefine((o, ctx) => {
+    if (o.earliestStart > o.latestStart) ctx.addIssue({ code: "custom", message: "need earliestStart <= latestStart" });
+    const asOfYear = Number(o.asOf.slice(0, 4));
+    if (o.latestStart > asOfYear) {
+      ctx.addIssue({ code: "custom", message: `latestStart (${o.latestStart}) is after the asOf year (${asOfYear})` });
+    }
+  });
 
 export const WarEvent = z
   .strictObject({
