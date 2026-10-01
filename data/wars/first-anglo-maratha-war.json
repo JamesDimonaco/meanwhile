@@ -1,0 +1,436 @@
+{
+  "id": "first-anglo-maratha-war",
+  "wikidataId": "Q1362209",
+  "name": {
+    "en": "First Anglo-Maratha War",
+    "es": "Primera guerra anglo-maratha",
+    "zh": "第一次英国-马拉塔战争"
+  },
+  "noWikiTitle": [
+    "zh"
+  ],
+  "aliases": [
+    "Anglo-Maratha Wars",
+    "First Maratha War",
+    "Treaty of Salbai",
+    "Wadgaon",
+    "Raghunathrao",
+    "Mahadaji Shinde",
+    "马拉塔战争",
+    "Guerras anglo-maratha"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "After the murder of the Peshwa Narayanrao in 1773, the Maratha chiefs at Poona, led by Nana Fadnavis, ruled in the name of his infant son and shut out his uncle Raghunathrao. In 1775 Raghunathrao signed the Treaty of Surat with the East India Company's Bombay government, which promised him troops in return for Salsette and Bassein. The Company's Calcutta council disowned the deal and in 1776 made the Treaty of Purandar with the regency, but Bombay kept backing Raghunathrao. A Bombay army marching on Poona was surrounded and early in 1779 signed the Convention of Wadgaon, giving up its gains. Governor-General Warren Hastings rejected it and sent armies from Bengal: Thomas Goddard took Ahmedabad and Bassein, Captain Popham's force took Gwalior fort in 1780, and Major Camac's force beat Mahadaji Shinde near Sipri in 1781. Shinde then brokered the Treaty of Salbai of May 1782, which returned most conquests on both sides and left Salsette with the Company.",
+    "es": "Tras el asesinato del peshwa Narayanrao en 1773, los jefes marathas de Poona, encabezados por Nana Fadnavis, gobernaron en nombre de su hijo recién nacido y apartaron a su tío Raghunathrao. En 1775 Raghunathrao firmó el Tratado de Surat con el gobierno de Bombay de la Compañía de las Indias Orientales, que le prometió tropas a cambio de Salsette y Bassein. El consejo de la Compañía en Calcuta desautorizó el acuerdo y en 1776 firmó el Tratado de Purandar con la regencia, pero Bombay siguió apoyando a Raghunathrao. Un ejército de Bombay que marchaba sobre Poona fue rodeado y a comienzos de 1779 firmó la Convención de Wadgaon, renunciando a lo ganado. El gobernador general Warren Hastings la rechazó y envió ejércitos desde Bengala: Thomas Goddard tomó Ahmedabad y Bassein, la fuerza del capitán Popham tomó el fuerte de Gwalior en 1780 y la del mayor Camac venció a Mahadaji Shinde cerca de Sipri en 1781. Shinde negoció entonces el Tratado de Salbai de mayo de 1782, que devolvió la mayoría de las conquistas de ambas partes y dejó Salsette a la Compañía.",
+    "zh": "1773年佩什瓦纳拉扬拉奥遇害后，以纳纳·法德纳维斯为首的浦那马拉塔首领们以其襁褓中的儿子之名执政，将其叔父拉古纳特拉奥排斥在外。1775年，拉古纳特拉奥与东印度公司孟买政府签订《苏拉特条约》，公司承诺出兵，换取萨尔塞特和巴塞因。公司加尔各答议会否认该协议，并于1776年与摄政当局签订《布伦德尔条约》，但孟买方面继续支持拉古纳特拉奥。一支进军浦那的孟买军队被包围，于1779年初签订《瓦德冈协定》，放弃所得。总督沃伦·黑斯廷斯拒绝承认，并从孟加拉派兵：托马斯·戈达德攻占艾哈迈达巴德和巴塞因，波帕姆上尉的部队于1780年攻占瓜廖尔堡，卡马克少校的部队于1781年在希普里附近击败马哈达吉·辛迪亚。随后辛迪亚促成1782年5月的《萨尔拜条约》，双方归还大部分所占之地，萨尔塞特留归公司。"
+  },
+  "outcome": {
+    "en": "The Treaty of Salbai (May 1782) returned most conquests on both sides; the Company kept Salsette and stopped backing Raghunathrao.",
+    "es": "El Tratado de Salbai (mayo de 1782) devolvió la mayoría de las conquistas de ambas partes; la Compañía conservó Salsette y dejó de apoyar a Raghunathrao.",
+    "zh": "《萨尔拜条约》（1782年5月）使双方归还大部分所占之地；东印度公司保留萨尔塞特，并停止支持拉古纳特拉奥。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1774,
+    "latestStart": 1775,
+    "earliestEnd": 1782,
+    "latestEnd": 1783,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"First Anglo-Maratha War.\"",
+        "url": "https://en.wikipedia.org/wiki/First_Anglo-Maratha_War"
+      },
+      {
+        "citation": "\"First Marāthā War.\" EBSCO Research Starters (Great Events from History).",
+        "url": "https://www.ebsco.com/research-starters/history/first-maratha-war"
+      },
+      {
+        "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+        "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "Accounts start the war with the Company's attack on Salsette in December 1774 or with the Treaty of Surat in March 1775, and end it with the signing of the Treaty of Salbai in May 1782 or its ratification at Poona in February 1783.",
+      "es": "Los relatos inician la guerra con el ataque de la Compañía a Salsette en diciembre de 1774 o con el Tratado de Surat en marzo de 1775, y la terminan con la firma del Tratado de Salbai en mayo de 1782 o con su ratificación en Poona en febrero de 1783.",
+      "zh": "各记载将战争起点定于1774年12月公司进攻萨尔塞特或1775年3月《苏拉特条约》，终点定于1782年5月签订《萨尔拜条约》或1783年2月该条约在浦那获批准。"
+    }
+  },
+  "sides": [
+    {
+      "id": "company-and-raghunathrao",
+      "label": {
+        "en": "East India Company forces and Raghunathrao",
+        "es": "Las fuerzas de la Compañía de las Indias Orientales y Raghunathrao",
+        "zh": "东印度公司部队与拉古纳特拉奥"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces",
+            "es": "Fuerzas de la Compañía de las Indias Orientales",
+            "zh": "东印度公司部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Sepoy regiments of the Company's Bombay, Madras and Bengal armies",
+            "es": "Regimientos de cipayos de los ejércitos de Bombay, Madrás y Bengala de la Compañía",
+            "zh": "东印度公司孟买、马德拉斯和孟加拉军中的印度兵团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Raghunathrao's followers",
+            "es": "Los partidarios de Raghunathrao",
+            "zh": "拉古纳特拉奥的追随者"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maratha-confederacy",
+      "label": {
+        "en": "The Maratha Confederacy",
+        "es": "La Confederación Maratha",
+        "zh": "马拉塔联盟"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "The Peshwa's government at Poona, under the regency of Nana Fadnavis",
+            "es": "El gobierno del peshwa en Poona, bajo la regencia de Nana Fadnavis",
+            "zh": "纳纳·法德纳维斯摄政下的浦那佩什瓦政府"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Mahadaji Shinde of Gwalior",
+            "es": "Mahadaji Shinde de Gwalior",
+            "zh": "瓜廖尔的马哈达吉·辛迪亚"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Tukoji Holkar of Indore",
+            "es": "Tukoji Holkar de Indore",
+            "zh": "印多尔的图科吉·霍尔卡"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "treaty-of-purandar",
+      "start": 1776,
+      "title": {
+        "en": "The Company's Calcutta council signs the Treaty of Purandar with the Poona regency on 1 March, dropping Raghunathrao but keeping Salsette; the Bombay government refuses to accept it",
+        "es": "El consejo de la Compañía en Calcuta firma el Tratado de Purandar con la regencia de Poona el 1 de marzo, abandona a Raghunathrao pero conserva Salsette; el gobierno de Bombay se niega a aceptarlo",
+        "zh": "3月1日，公司加尔各答议会与浦那摄政当局签订《布伦德尔条约》，放弃拉古纳特拉奥但保留萨尔塞特；孟买政府拒绝接受"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"First Marāthā War.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/first-maratha-war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Purandar fort",
+          "es": "Fuerte de Purandar",
+          "zh": "布伦德尔堡"
+        },
+        "lat": 18.283,
+        "lon": 73.983
+      }
+    },
+    {
+      "id": "convention-of-wadgaon",
+      "start": 1779,
+      "title": {
+        "en": "A Bombay army marching on Poona is surrounded and retreats to Wadgaon, where it signs a convention giving up Raghunathrao and the Company's gains since 1773",
+        "es": "Un ejército de Bombay que marcha sobre Poona es rodeado y se retira a Wadgaon, donde firma una convención que entrega a Raghunathrao y renuncia a lo ganado por la Compañía desde 1773",
+        "zh": "一支进军浦那的孟买军队被包围，退至瓦德冈，在那里签订协定，交出拉古纳特拉奥并放弃公司自1773年以来的所得"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"First Marāthā War.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/first-maratha-war"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "note": {
+        "en": "Accounts date the convention between 12 January and 12 February 1779.",
+        "es": "Los relatos fechan la convención entre el 12 de enero y el 12 de febrero de 1779.",
+        "zh": "各记载将该协定日期定于1779年1月12日至2月12日之间。"
+      },
+      "place": {
+        "name": {
+          "en": "Wadgaon (Vadgaon Maval)",
+          "es": "Wadgaon (Vadgaon Maval)",
+          "zh": "瓦德冈"
+        },
+        "lat": 18.749,
+        "lon": 73.641
+      },
+      "wikidataId": "Q29025937"
+    },
+    {
+      "id": "gwalior-fort-taken",
+      "start": 1780,
+      "title": {
+        "en": "A Bengal detachment under Captain Popham scales the walls of Gwalior fort and takes it on 4 August",
+        "es": "Un destacamento de Bengala al mando del capitán Popham escala las murallas del fuerte de Gwalior y lo toma el 4 de agosto",
+        "zh": "8月4日，波帕姆上尉率领的孟加拉分遣队攀上瓜廖尔堡城墙，将其攻占"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Gwalior Fort",
+          "es": "Fuerte de Gwalior",
+          "zh": "瓜廖尔堡"
+        },
+        "lat": 26.23,
+        "lon": 78.169
+      }
+    },
+    {
+      "id": "bassein-taken",
+      "start": 1780,
+      "title": {
+        "en": "Thomas Goddard's army takes Bassein on 11 December",
+        "es": "El ejército de Thomas Goddard toma Bassein el 11 de diciembre",
+        "zh": "12月11日，托马斯·戈达德的军队攻占巴塞因"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Bassein (Vasai)",
+          "es": "Bassein (Vasai)",
+          "zh": "巴塞因（瓦赛）"
+        },
+        "lat": 19.47,
+        "lon": 72.8
+      }
+    },
+    {
+      "id": "sipri",
+      "start": 1781,
+      "title": {
+        "en": "Major Camac's force, cut off by Mahadaji Shinde's larger army near Sipri, raids his camp at night in March and seizes supplies, guns and elephants",
+        "es": "La fuerza del mayor Camac, aislada por el ejército mayor de Mahadaji Shinde cerca de Sipri, asalta de noche su campamento en marzo y se apodera de víveres, cañones y elefantes",
+        "zh": "3月，卡马克少校的部队在希普里附近被马哈达吉·辛迪亚的优势兵力切断，夜袭其营地，夺得补给、火炮和大象"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Sipri (Shivpuri)",
+          "es": "Sipri (Shivpuri)",
+          "zh": "希普里（希沃布里）"
+        },
+        "lat": 25.433,
+        "lon": 77.65
+      }
+    },
+    {
+      "id": "treaty-of-salbai",
+      "start": 1782,
+      "title": {
+        "en": "Mahadaji Shinde and the Company sign the Treaty of Salbai on 17 May; it is ratified at Poona in February 1783",
+        "es": "Mahadaji Shinde y la Compañía firman el Tratado de Salbai el 17 de mayo; se ratifica en Poona en febrero de 1783",
+        "zh": "5月17日，马哈达吉·辛迪亚与东印度公司签订《萨尔拜条约》；1783年2月该条约在浦那获批准"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"First Marāthā War.\" EBSCO Research Starters (Great Events from History).",
+          "url": "https://www.ebsco.com/research-starters/history/first-maratha-war"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Salbai, near Gwalior",
+          "es": "Salbai, cerca de Gwalior",
+          "zh": "瓜廖尔附近的萨尔拜"
+        },
+        "lat": 25.85,
+        "lon": 78.317
+      },
+      "wikidataId": "Q2985337"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Warren Hastings",
+        "es": "Warren Hastings",
+        "zh": "沃伦·黑斯廷斯"
+      },
+      "side": "company-and-raghunathrao",
+      "role": {
+        "en": "Governor-General; rejected the Convention of Wadgaon",
+        "es": "Gobernador general; rechazó la Convención de Wadgaon",
+        "zh": "总督；拒绝承认《瓦德冈协定》"
+      },
+      "wikidataId": "Q333994"
+    },
+    {
+      "name": {
+        "en": "Raghunathrao",
+        "es": "Raghunathrao",
+        "zh": "拉古纳特拉奥"
+      },
+      "side": "company-and-raghunathrao",
+      "role": {
+        "en": "Claimant to the office of Peshwa, backed by the Company's Bombay government",
+        "es": "Aspirante al cargo de peshwa, apoyado por el gobierno de Bombay de la Compañía",
+        "zh": "佩什瓦之位的争夺者，受公司孟买政府支持"
+      },
+      "wikidataId": "Q7283047"
+    },
+    {
+      "name": {
+        "en": "Nana Fadnavis",
+        "es": "Nana Fadnavis",
+        "zh": "纳纳·法德纳维斯"
+      },
+      "side": "maratha-confederacy",
+      "role": {
+        "en": "Minister who led the regency at Poona",
+        "es": "Ministro que dirigió la regencia de Poona",
+        "zh": "领导浦那摄政当局的大臣"
+      },
+      "wikidataId": "Q6569426"
+    },
+    {
+      "name": {
+        "en": "Mahadaji Shinde",
+        "es": "Mahadaji Shinde",
+        "zh": "马哈达吉·辛迪亚"
+      },
+      "side": "maratha-confederacy",
+      "role": {
+        "en": "Maratha chief of Gwalior; negotiated the Treaty of Salbai",
+        "es": "Jefe maratha de Gwalior; negoció el Tratado de Salbai",
+        "zh": "瓜廖尔的马拉塔首领；促成《萨尔拜条约》"
+      },
+      "wikidataId": "Q3275992"
+    },
+    {
+      "name": {
+        "en": "Tukoji Holkar",
+        "es": "Tukoji Holkar",
+        "zh": "图科吉·霍尔卡"
+      },
+      "side": "maratha-confederacy",
+      "role": {
+        "en": "Maratha chief of Indore",
+        "es": "Jefe maratha de Indore",
+        "zh": "印多尔的马拉塔首领"
+      },
+      "wikidataId": "Q11953364"
+    }
+  ],
+  "casualties": [],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"First Anglo-Maratha War.\"",
+      "url": "https://en.wikipedia.org/wiki/First_Anglo-Maratha_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Primera guerra anglo-maratha.\"",
+      "url": "https://es.wikipedia.org/wiki/Primera_guerra_anglo-maratha"
+    },
+    {
+      "citation": "\"First Marāthā War.\" EBSCO Research Starters (Great Events from History).",
+      "url": "https://www.ebsco.com/research-starters/history/first-maratha-war"
+    },
+    {
+      "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+      "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+    }
+  ]
+}
