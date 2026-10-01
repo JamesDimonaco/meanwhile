@@ -1,0 +1,474 @@
+{
+  "id": "second-anglo-maratha-war",
+  "wikidataId": "Q233642",
+  "name": {
+    "en": "Second Anglo-Maratha War",
+    "es": "Segunda guerra anglo-maratha",
+    "zh": "第二次英国-马拉地战争"
+  },
+  "noWikiTitle": [
+    "zh"
+  ],
+  "aliases": [
+    "Anglo-Maratha Wars",
+    "Second Maratha War",
+    "Assaye",
+    "Laswari",
+    "Treaty of Bassein",
+    "马拉塔战争",
+    "第二次英国-马拉塔战争",
+    "Guerras anglo-maratha"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "In October 1802 Yashwantrao Holkar of Indore defeated the armies of the Peshwa Baji Rao II and Daulat Rao Scindia near Poona. Baji Rao fled to the East India Company and in December signed the Treaty of Bassein, accepting a Company force paid for with his territory. Scindia of Gwalior and Raghuji II Bhonsle of Nagpur rejected the treaty, and in August 1803 Governor-General Richard Wellesley sent armies against them. In the Deccan, Arthur Wellesley took Ahmednagar and beat their combined army at Assaye in September and at Argaon in November; in the north, Gerard Lake beat Scindia's forces near Delhi in September and at Laswari in November. Both chiefs signed treaties in December 1803 giving up large territories, including the country around Delhi and Agra. War with Holkar followed in 1804; Lake failed to take Bharatpur, whose raja had joined Holkar, in four assaults in 1805, and the Treaty of Rajghat of December 1805 ended the fighting.",
+    "es": "En octubre de 1802 Yashwantrao Holkar de Indore derrotó cerca de Poona a los ejércitos del peshwa Baji Rao II y de Daulat Rao Scindia. Baji Rao huyó a la Compañía de las Indias Orientales y en diciembre firmó el Tratado de Bassein, por el que aceptaba una fuerza de la Compañía pagada con su territorio. Scindia de Gwalior y Raghuji II Bhonsle de Nagpur rechazaron el tratado, y en agosto de 1803 el gobernador general Richard Wellesley envió ejércitos contra ellos. En el Decán, Arthur Wellesley tomó Ahmednagar y venció a su ejército combinado en Assaye en septiembre y en Argaon en noviembre; en el norte, Gerard Lake venció a las fuerzas de Scindia cerca de Delhi en septiembre y en Laswari en noviembre. Ambos jefes firmaron tratados en diciembre de 1803 por los que cedían grandes territorios, entre ellos la región de Delhi y Agra. En 1804 siguió la guerra con Holkar; Lake no logró tomar Bharatpur, cuyo raja se había unido a Holkar, en cuatro asaltos en 1805, y el Tratado de Rajghat de diciembre de 1805 puso fin a los combates.",
+    "zh": "1802年10月，印多尔的亚什万特拉奥·霍尔卡在浦那附近击败佩什瓦巴吉拉奥二世和道拉特·拉奥·辛迪亚的军队。巴吉拉奥投奔东印度公司，并于12月签订《巴塞因条约》，接受一支以其领土供养的公司部队。瓜廖尔的辛迪亚和那格浦尔的拉古吉二世·邦斯拉拒绝该条约，1803年8月，总督理查德·韦尔斯利派兵进攻他们。在德干，阿瑟·韦尔斯利攻占艾哈迈德讷格尔，并于9月在阿萨耶、11月在阿尔冈击败二者联军；在北方，杰拉德·莱克于9月在德里附近、11月在拉斯瓦里击败辛迪亚的部队。1803年12月，两位首领签订条约，割让大片领土，包括德里和阿格拉一带。1804年又与霍尔卡开战；1805年，莱克四次强攻已与霍尔卡联手的珀勒德布尔均未得手，1805年12月的《拉杰加特条约》结束了战事。"
+  },
+  "outcome": {
+    "en": "Scindia and Bhonsle gave up large territories, including the Delhi–Agra region, by treaties of December 1803; the Treaty of Rajghat with Holkar ended the fighting in December 1805.",
+    "es": "Scindia y Bhonsle cedieron grandes territorios, entre ellos la región de Delhi y Agra, por tratados de diciembre de 1803; el Tratado de Rajghat con Holkar puso fin a los combates en diciembre de 1805.",
+    "zh": "根据1803年12月的条约，辛迪亚和邦斯拉割让包括德里—阿格拉地区在内的大片领土；1805年12月与霍尔卡签订的《拉杰加特条约》结束了战事。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1803,
+    "latestStart": 1803,
+    "earliestEnd": 1805,
+    "latestEnd": 1805,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Second Anglo-Maratha War.\"",
+        "url": "https://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"
+      },
+      {
+        "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+        "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "company",
+      "label": {
+        "en": "East India Company forces and British Army regiments",
+        "es": "Las fuerzas de la Compañía de las Indias Orientales y regimientos del ejército británico",
+        "zh": "东印度公司部队与英国陆军各团"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "East India Company forces",
+            "es": "Fuerzas de la Compañía de las Indias Orientales",
+            "zh": "东印度公司部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Sepoy regiments of the Company's Bombay, Madras and Bengal armies",
+            "es": "Regimientos de cipayos de los ejércitos de Bombay, Madrás y Bengala de la Compañía",
+            "zh": "东印度公司孟买、马德拉斯和孟加拉军中的印度兵团"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "British Army regiments",
+            "es": "Regimientos del ejército británico",
+            "zh": "英国陆军各团"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maratha-chiefs",
+      "label": {
+        "en": "Maratha chiefs",
+        "es": "Jefes marathas",
+        "zh": "马拉塔首领"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Gwalior, under Daulat Rao Scindia",
+            "es": "Gwalior, bajo Daulat Rao Scindia",
+            "zh": "道拉特·拉奥·辛迪亚治下的瓜廖尔"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Nagpur, under Raghuji II Bhonsle",
+            "es": "Nagpur, bajo Raghuji II Bhonsle",
+            "zh": "拉古吉二世·邦斯拉治下的那格浦尔"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Indore, under Yashwantrao Holkar, from 1804",
+            "es": "Indore, bajo Yashwantrao Holkar, desde 1804",
+            "zh": "亚什万特拉奥·霍尔卡治下的印多尔（1804年起）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Bharatpur, under Raja Ranjit Singh, from 1804",
+            "es": "Bharatpur, bajo el raja Ranjit Singh, desde 1804",
+            "zh": "拉贾兰吉特·辛格治下的珀勒德布尔（1804年起）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IN"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ahmednagar-taken",
+      "start": 1803,
+      "title": {
+        "en": "Arthur Wellesley's army takes the town of Ahmednagar by escalade on 8 August; the fort surrenders on 12 August",
+        "es": "El ejército de Arthur Wellesley toma por escalada la ciudad de Ahmednagar el 8 de agosto; el fuerte se rinde el 12 de agosto",
+        "zh": "8月8日，阿瑟·韦尔斯利的军队以云梯攻占艾哈迈德讷格尔城；8月12日要塞投降"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Ahmednagar Fort.\"",
+          "url": "https://en.wikipedia.org/wiki/Ahmednagar_Fort"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ahmednagar Fort",
+          "es": "Fuerte de Ahmednagar",
+          "zh": "艾哈迈德讷格尔堡"
+        },
+        "lat": 19.095,
+        "lon": 74.755
+      }
+    },
+    {
+      "id": "battle-of-delhi-1803",
+      "start": 1803,
+      "title": {
+        "en": "Gerard Lake's army defeats Scindia's forces at Patparganj, across the Yamuna from Delhi, on 11 September and enters the city",
+        "es": "El ejército de Gerard Lake derrota a las fuerzas de Scindia en Patparganj, al otro lado del Yamuna frente a Delhi, el 11 de septiembre y entra en la ciudad",
+        "zh": "9月11日，杰拉德·莱克的军队在德里对岸亚穆纳河畔的帕特帕尔甘吉击败辛迪亚的部队，并进入该城"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Battle of Delhi (1803).\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Delhi_%281803%29"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Patparganj, Delhi",
+          "es": "Patparganj, Delhi",
+          "zh": "德里帕特帕尔甘吉"
+        },
+        "lat": 28.602,
+        "lon": 77.246
+      },
+      "wikidataId": "Q4870862"
+    },
+    {
+      "id": "battle-of-assaye",
+      "start": 1803,
+      "title": {
+        "en": "Arthur Wellesley's army crosses the Kaitna river by a ford and defeats the combined army of Scindia and Bhonsle at Assaye on 23 September",
+        "es": "El ejército de Arthur Wellesley cruza el río Kaitna por un vado y derrota al ejército combinado de Scindia y Bhonsle en Assaye el 23 de septiembre",
+        "zh": "9月23日，阿瑟·韦尔斯利的军队从浅滩渡过凯特纳河，在阿萨耶击败辛迪亚与邦斯拉的联军"
+      },
+      "sources": [
+        {
+          "citation": "\"Battle of Assaye.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/battle-assaye"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"
+        }
+      ],
+      "note": {
+        "en": "About 6,000 Marathas were killed or wounded, about 1,200 of them killed; British and Company losses were over 400 killed and about 1,200 wounded.",
+        "es": "Unos 6.000 marathas murieron o resultaron heridos, de ellos unos 1.200 muertos; las bajas británicas y de la Compañía fueron más de 400 muertos y unos 1.200 heridos.",
+        "zh": "马拉塔方面约6000人死伤，其中约1200人阵亡；英军和公司部队阵亡400余人，伤约1200人。"
+      },
+      "place": {
+        "name": {
+          "en": "Assaye",
+          "es": "Assaye",
+          "zh": "阿萨耶"
+        },
+        "lat": 20.235,
+        "lon": 75.89
+      },
+      "wikidataId": "Q2095678"
+    },
+    {
+      "id": "battle-of-laswari",
+      "start": 1803,
+      "title": {
+        "en": "Lake's army destroys the last regular brigades of Scindia's army at Laswari on 1 November",
+        "es": "El ejército de Lake destruye las últimas brigadas regulares del ejército de Scindia en Laswari el 1 de noviembre",
+        "zh": "11月1日，莱克的军队在拉斯瓦里歼灭辛迪亚军队最后的正规旅"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Battle of Laswari.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Laswari"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Laswari",
+          "es": "Laswari",
+          "zh": "拉斯瓦里"
+        },
+        "lat": 27.55,
+        "lon": 76.933
+      },
+      "wikidataId": "Q4087440"
+    },
+    {
+      "id": "treaty-of-surji-anjangaon",
+      "start": 1803,
+      "title": {
+        "en": "Daulat Rao Scindia signs the Treaty of Surji-Anjangaon on 30 December, giving up the Delhi–Agra region, Ahmednagar, Broach and other lands",
+        "es": "Daulat Rao Scindia firma el Tratado de Surji-Anjangaon el 30 de diciembre, por el que cede la región de Delhi y Agra, Ahmednagar, Broach y otras tierras",
+        "zh": "12月30日，道拉特·拉奥·辛迪亚签订《苏尔吉—安詹冈条约》，割让德里—阿格拉地区、艾哈迈德讷格尔、布罗奇等地"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Maratha War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Anjangaon Surji",
+          "es": "Anjangaon Surji",
+          "zh": "安詹冈苏尔吉"
+        },
+        "lat": 21.165,
+        "lon": 77.309
+      },
+      "wikidataId": "Q7837243"
+    },
+    {
+      "id": "siege-of-bharatpur",
+      "start": 1805,
+      "title": {
+        "en": "Lake besieges Bharatpur from 2 January; four assaults on the fortress are thrown back with heavy losses",
+        "es": "Lake sitia Bharatpur desde el 2 de enero; cuatro asaltos a la fortaleza son rechazados con grandes pérdidas",
+        "zh": "1月2日起莱克围攻珀勒德布尔；对要塞的四次强攻均被击退，伤亡惨重"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Siege of Bharatpur (1805).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Bharatpur_%281805%29"
+        },
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Bharatpur",
+          "es": "Bharatpur",
+          "zh": "珀勒德布尔"
+        },
+        "lat": 27.22,
+        "lon": 77.495
+      },
+      "wikidataId": "Q4870476"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Richard Wellesley",
+        "es": "Richard Wellesley",
+        "zh": "理查德·韦尔斯利"
+      },
+      "side": "company",
+      "role": {
+        "en": "Governor-General; ordered the war",
+        "es": "Gobernador general; ordenó la guerra",
+        "zh": "总督；下令开战"
+      },
+      "wikidataId": "Q335205"
+    },
+    {
+      "name": {
+        "en": "Arthur Wellesley",
+        "es": "Arthur Wellesley",
+        "zh": "阿瑟·韦尔斯利"
+      },
+      "side": "company",
+      "role": {
+        "en": "Commanded the Company's army in the Deccan",
+        "es": "Mandó el ejército de la Compañía en el Decán",
+        "zh": "指挥公司在德干的军队"
+      },
+      "wikidataId": "Q131691"
+    },
+    {
+      "name": {
+        "en": "Gerard Lake",
+        "es": "Gerard Lake",
+        "zh": "杰拉德·莱克"
+      },
+      "side": "company",
+      "role": {
+        "en": "Commander-in-Chief; led the army in the north",
+        "es": "Comandante en jefe; dirigió el ejército del norte",
+        "zh": "总司令；率北方军队"
+      },
+      "wikidataId": "Q334092"
+    },
+    {
+      "name": {
+        "en": "Daulat Rao Scindia",
+        "es": "Daulat Rao Scindia",
+        "zh": "道拉特·拉奥·辛迪亚"
+      },
+      "side": "maratha-chiefs",
+      "role": {
+        "en": "Maratha chief of Gwalior",
+        "es": "Jefe maratha de Gwalior",
+        "zh": "瓜廖尔的马拉塔首领"
+      },
+      "wikidataId": "Q5228002"
+    },
+    {
+      "name": {
+        "en": "Raghuji II Bhonsle",
+        "es": "Raghuji II Bhonsle",
+        "zh": "拉古吉二世·邦斯拉"
+      },
+      "side": "maratha-chiefs",
+      "role": {
+        "en": "Maratha chief of Nagpur",
+        "es": "Jefe maratha de Nagpur",
+        "zh": "那格浦尔的马拉塔首领"
+      },
+      "wikidataId": "Q7282977"
+    },
+    {
+      "name": {
+        "en": "Yashwantrao Holkar",
+        "es": "Yashwantrao Holkar",
+        "zh": "亚什万特拉奥·霍尔卡"
+      },
+      "side": "maratha-chiefs",
+      "role": {
+        "en": "Maratha chief of Indore; fought the Company from 1804",
+        "es": "Jefe maratha de Indore; combatió a la Compañía desde 1804",
+        "zh": "印多尔的马拉塔首领；1804年起与公司作战"
+      },
+      "wikidataId": "Q3630499"
+    },
+    {
+      "name": {
+        "en": "Pierre Cuillier-Perron",
+        "es": "Pierre Cuillier-Perron",
+        "zh": "皮埃尔·屈耶-佩龙"
+      },
+      "side": "maratha-chiefs",
+      "role": {
+        "en": "French commander of Scindia's army in the north; surrendered to Lake in September 1803",
+        "es": "Comandante francés del ejército de Scindia en el norte; se rindió a Lake en septiembre de 1803",
+        "zh": "辛迪亚北方军队的法国指挥官；1803年9月向莱克投降"
+      },
+      "wikidataId": "Q7192158"
+    }
+  ],
+  "casualties": [],
+  "follows": "first-anglo-maratha-war",
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Second Anglo-Maratha War.\"",
+      "url": "https://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Segunda guerra anglo-maratha.\"",
+      "url": "https://es.wikipedia.org/wiki/Segunda_guerra_anglo-maratha"
+    },
+    {
+      "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+      "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+    },
+    {
+      "citation": "\"Battle of Assaye.\" EBSCO Research Starters.",
+      "url": "https://www.ebsco.com/research-starters/military-history-and-science/battle-assaye"
+    }
+  ]
+}
