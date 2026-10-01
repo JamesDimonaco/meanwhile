@@ -23,7 +23,7 @@
   "description": {
     "en": "In April 1978 the People's Democratic Party of Afghanistan (PDPA) took power in a coup, and armed revolt spread against its rule. In late December 1979 Soviet troops entered Afghanistan; on 27 December Soviet special forces stormed the Tajbeg Palace in Kabul, killed the party leader Hafizullah Amin and installed Babrak Karmal. Soviet forces, about 118,000 at their height, and the Afghan army held the main towns and roads, while mujahideen groups fought in the countryside, armed by the United States, Saudi Arabia, China, Britain and others and trained and supplied through Pakistan's military intelligence. Repeated offensives, as in the Panjshir valley, cleared ground only for a time, and some five million Afghans fled to Pakistan and Iran. In 1986 Moscow replaced Karmal with Mohammad Najibullah, and from September US-supplied Stinger missiles cut into Soviet air power. Under the Geneva Accords of April 1988 the Soviet Union withdrew; its last troops crossed into the Uzbek SSR on 15 February 1989. Najibullah's government, still armed by Moscow, fought on against the mujahideen.",
     "es": "En abril de 1978 el Partido Democrático Popular de Afganistán (PDPA) tomó el poder con un golpe, y la revuelta armada contra su gobierno se extendió. A finales de diciembre de 1979 tropas soviéticas entraron en Afganistán; el 27 de diciembre fuerzas especiales soviéticas asaltaron el palacio de Tajbeg en Kabul, mataron al líder del partido, Hafizullah Amín, e instalaron a Babrak Karmal. Las fuerzas soviéticas, unos 118.000 hombres en su punto máximo, y el ejército afgano dominaban las principales ciudades y carreteras, mientras grupos muyahidines combatían en el campo, armados por Estados Unidos, Arabia Saudí, China, el Reino Unido y otros, y entrenados y abastecidos a través de la inteligencia militar de Pakistán. Las ofensivas repetidas, como en el valle del Panshir, solo despejaban el terreno por un tiempo, y unos cinco millones de afganos huyeron a Pakistán e Irán. En 1986 Moscú sustituyó a Karmal por Mohammad Najibulá, y desde septiembre los misiles Stinger suministrados por EE. UU. mermaron el poder aéreo soviético. Conforme a los Acuerdos de Ginebra de abril de 1988, la Unión Soviética se retiró; sus últimas tropas cruzaron a la RSS de Uzbekistán el 15 de febrero de 1989. El gobierno de Najibulá, aún armado por Moscú, siguió combatiendo a los muyahidines.",
-    "zh": "1978年4月，阿富汗人民民主党通过政变上台，反对其统治的武装叛乱随之蔓延。1979年12月下旬，苏联军队进入阿富汗；12月27日，苏联特种部队强攻喀布尔的塔吉贝格宫，打死党的领导人哈菲佐拉·阿明，扶植巴布拉克·卡尔迈勒。苏军最多时约11.8万人，与阿富汗政府军控制主要城镇和道路；圣战者各派则在农村作战，由美国、沙特阿拉伯、中国、英国等提供武器，并经巴基斯坦军方情报机构训练和补给。潘杰希尔谷地等地的反复攻势只能暂时清剿，约500万阿富汗人逃往巴基斯坦和伊朗。1986年，苏联以穆罕默德·纳吉布拉取代卡尔迈勒；同年9月起，美国提供的“毒刺”导弹削弱了苏军的空中力量。根据1988年4月的《日内瓦协议》，苏联撤军，最后一批部队于1989年2月15日撤入乌兹别克苏维埃社会主义共和国。纳吉布拉政府在苏联继续提供武器的情况下，同圣战者的战斗仍在继续。"
+    "zh": "1978年4月，阿富汗人民民主党通过政变上台，反对其统治的武装反抗随之蔓延。1979年12月下旬，苏联军队进入阿富汗；12月27日，苏联特种部队强攻喀布尔的塔吉贝格宫，打死党的领导人哈菲佐拉·阿明，扶植巴布拉克·卡尔迈勒。苏军最多时约11.8万人，与阿富汗政府军控制主要城镇和道路；圣战者各派则在农村作战，由美国、沙特阿拉伯、中国、英国等提供武器，并经巴基斯坦军方情报机构训练和补给。潘杰希尔谷地等地的反复攻势只能暂时控制这些地区，约500万阿富汗人逃往巴基斯坦和伊朗。1986年，苏联以穆罕默德·纳吉布拉取代卡尔迈勒；同年9月起，美国提供的“毒刺”导弹削弱了苏军的空中力量。根据1988年4月的《日内瓦协议》，苏联撤军，最后一批部队于1989年2月15日撤入乌兹别克苏维埃社会主义共和国。纳吉布拉政府在苏联继续提供武器的情况下，同圣战者的战斗仍在继续。"
   },
   "outcome": {
     "en": "The Soviet Union withdrew all its troops by 15 February 1989 without defeating the mujahideen; the war between the Afghan government and the mujahideen went on.",
@@ -160,6 +160,14 @@
           "role": "supporter",
           "today": [
             "IR"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "EG",
+          "role": "supporter",
+          "today": [
+            "EG"
           ]
         }
       ]

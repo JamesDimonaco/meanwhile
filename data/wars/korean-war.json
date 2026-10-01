@@ -452,7 +452,7 @@
       "start": 1951,
       "title": {
         "en": "Chinese and North Korean forces take Seoul again in early January; a UN counter-offensive retakes it in March",
-        "es": "Fuerzas chinas y norcoreanas vuelven a tomar Seúl a principios de enero; una contraofensiva de la ONU la recupera en marzo",
+        "es": "Fuerzas chinas y norcoreanas vuelven a tomar Seúl a principios de enero; una contraofensiva de la ONU la retoma en marzo",
         "zh": "1月初，中国和朝鲜军队再次攻占汉城；3月，联合国军反攻夺回该城"
       },
       "sources": [
@@ -576,9 +576,9 @@
       },
       "side": "north-korea-and-allies",
       "role": {
-        "en": "Chairman of the People's Republic of China",
-        "es": "Presidente de la República Popular China",
-        "zh": "中华人民共和国主席"
+        "en": "Chairman of the Chinese Communist Party and of the Central People's Government",
+        "es": "Presidente del Partido Comunista de China y del Gobierno Popular Central",
+        "zh": "中共中央主席、中央人民政府主席"
       },
       "wikidataId": "Q5816"
     },
@@ -684,9 +684,9 @@
         }
       ],
       "note": {
-        "en": "Martyrs confirmed name by name, including Volunteers killed south of the 38th parallel; the figure was repeated on the 70th anniversary in 2020.",
-        "es": "Mártires confirmados nombre por nombre, incluidos los Voluntarios muertos al sur del paralelo 38; la cifra se repitió en el 70.º aniversario, en 2020.",
-        "zh": "逐一核实确认的烈士，包括牺牲在三八线以南的志愿军官兵；2020年70周年纪念时再次公布这一数字。"
+        "en": "Volunteers the PRC lists by name as \"martyrs\", including those killed south of the 38th parallel; the figure was repeated on the 70th anniversary in 2020.",
+        "es": "Voluntarios que la RPC registra nombre por nombre como «mártires», incluidos los muertos al sur del paralelo 38; la cifra se repitió en el 70.º aniversario, en 2020.",
+        "zh": "中方逐一核实、列为“烈士”的志愿军官兵，包括在三八线以南死亡者；2020年70周年纪念时再次公布这一数字。"
       }
     },
     {
