@@ -1,0 +1,451 @@
+{
+  "id": "gulf-war",
+  "wikidataId": "Q37643",
+  "name": {
+    "en": "Gulf War",
+    "es": "Guerra del Golfo",
+    "zh": "海湾战争"
+  },
+  "aliases": [
+    "Persian Gulf War",
+    "First Gulf War",
+    "Operation Desert Storm",
+    "Operation Desert Shield",
+    "Primera guerra del Golfo",
+    "Guerra del Golfo Pérsico",
+    "Operación Tormenta del Desierto",
+    "第一次海湾战争",
+    "沙漠风暴行动",
+    "Kuwait",
+    "科威特"
+  ],
+  "description": {
+    "en": "Iraq came out of its war with Iran deep in debt and accused Kuwait of overproducing oil and drawing oil from the Rumaila field on their border. On 2 August 1990 Iraqi forces crossed into Kuwait and took Kuwait City within hours; later that month Iraq declared Kuwait its nineteenth province. The UN Security Council imposed sanctions and on 29 November authorised member states to use force if Iraq had not left Kuwait by 15 January 1991. A US-led coalition with forces from more than 30 countries, among them Saudi Arabia, Britain, France, Egypt and Syria, gathered in Saudi Arabia. From 17 January coalition aircraft bombed Iraq and the Iraqi army in Kuwait for five weeks. Iraq fired Scud missiles at Israel and Saudi Arabia and briefly took the Saudi town of Khafji. The coalition's ground offensive began on 24 February; Iraqi troops left Kuwait, setting hundreds of oil wells on fire, and the coalition declared a ceasefire on 28 February, about 100 hours after the ground war began.",
+    "es": "Irak salió de su guerra con Irán muy endeudado y acusó a Kuwait de producir petróleo por encima de su cuota y de extraer crudo del campo de Rumaila, en la frontera común. El 2 de agosto de 1990 fuerzas iraquíes cruzaron a Kuwait y tomaron la ciudad de Kuwait en pocas horas; ese mismo mes Irak declaró a Kuwait su decimonovena provincia. El Consejo de Seguridad de la ONU impuso sanciones y el 29 de noviembre autorizó a los Estados miembros a usar la fuerza si Irak no había salido de Kuwait el 15 de enero de 1991. Una coalición encabezada por Estados Unidos, con fuerzas de más de 30 países, entre ellos Arabia Saudí, el Reino Unido, Francia, Egipto y Siria, se reunió en Arabia Saudí. Desde el 17 de enero la aviación de la coalición bombardeó Irak y al ejército iraquí en Kuwait durante cinco semanas. Irak lanzó misiles Scud contra Israel y Arabia Saudí y tomó por poco tiempo la localidad saudí de Khafji. La ofensiva terrestre de la coalición empezó el 24 de febrero; las tropas iraquíes salieron de Kuwait incendiando cientos de pozos de petróleo, y la coalición declaró un alto el fuego el 28 de febrero, unas 100 horas después del inicio de la guerra terrestre.",
+    "zh": "两伊战争结束后，伊拉克债台高筑，指责科威特超额生产石油，并从两国边境的鲁迈拉油田抽取石油。1990年8月2日，伊拉克部队越境进入科威特，数小时内攻占科威特城；同月，伊拉克宣布科威特为其第十九个省。联合国安理会实施制裁，并于11月29日授权会员国在伊拉克未于1991年1月15日前撤出科威特时使用武力。以美国为首、由30多个国家的部队组成的联军在沙特阿拉伯集结，其中包括沙特阿拉伯、英国、法国、埃及和叙利亚。自1月17日起，联军飞机对伊拉克及驻科威特的伊拉克军队轰炸了五周。伊拉克向以色列和沙特阿拉伯发射飞毛腿导弹，并一度攻占沙特城镇海夫吉。联军于2月24日发起地面进攻；伊拉克军队撤出科威特，并点燃数百口油井。2月28日，即地面战开始约100小时后，联军宣布停火。"
+  },
+  "outcome": {
+    "en": "Iraqi forces left Kuwait and the coalition declared a ceasefire on 28 February 1991; Iraq accepted UN ceasefire terms, and sanctions on it stayed in place.",
+    "es": "Las fuerzas iraquíes salieron de Kuwait y la coalición declaró un alto el fuego el 28 de febrero de 1991; Irak aceptó las condiciones de alto el fuego de la ONU y las sanciones contra él se mantuvieron.",
+    "zh": "伊拉克部队撤出科威特，联军于1991年2月28日宣布停火；伊拉克接受联合国的停火条件，对其制裁继续有效。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1990,
+    "latestStart": 1990,
+    "earliestEnd": 1991,
+    "latestEnd": 1991,
+    "sources": [
+      {
+        "citation": "Office of the Historian, U.S. Department of State. \"The Gulf War, 1991.\" Milestones in the History of U.S. Foreign Relations.",
+        "url": "https://history.state.gov/milestones/1989-1992/gulf-war"
+      },
+      {
+        "citation": "Wikipedia (English). \"Gulf War.\"",
+        "url": "https://en.wikipedia.org/wiki/Gulf_War"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "coalition",
+      "label": {
+        "en": "US-led coalition",
+        "es": "Coalición encabezada por Estados Unidos",
+        "zh": "以美国为首的联军"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "belligerent",
+          "today": [
+            "US"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "SA",
+          "role": "belligerent",
+          "today": [
+            "SA"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "GB",
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "FR",
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "EG",
+          "role": "belligerent",
+          "today": [
+            "EG"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "SY",
+          "role": "belligerent",
+          "today": [
+            "SY"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "KW",
+          "role": "belligerent",
+          "today": [
+            "KW"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iraq",
+      "label": {
+        "en": "Iraq",
+        "es": "Irak",
+        "zh": "伊拉克"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "IQ",
+          "role": "belligerent",
+          "today": [
+            "IQ"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "iraqi-forces-take-kuwait-city",
+      "start": 1990,
+      "title": {
+        "en": "2 August 1990: Iraqi forces cross into Kuwait and take Kuwait City within hours; Kuwait's ruling family leaves for Saudi Arabia",
+        "es": "2 de agosto de 1990: fuerzas iraquíes cruzan a Kuwait y toman la ciudad de Kuwait en pocas horas; la familia gobernante kuwaití parte hacia Arabia Saudí",
+        "zh": "1990年8月2日：伊拉克部队越境进入科威特，数小时内攻占科威特城；科威特王室出走沙特阿拉伯"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"The Gulf War, 1991.\" Milestones in the History of U.S. Foreign Relations.",
+          "url": "https://history.state.gov/milestones/1989-1992/gulf-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gulf War.\"",
+          "url": "https://en.wikipedia.org/wiki/Gulf_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Iraqi invasion of Kuwait.\"",
+          "url": "https://en.wikipedia.org/wiki/Iraqi_invasion_of_Kuwait"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kuwait City",
+          "es": "Ciudad de Kuwait",
+          "zh": "科威特城"
+        },
+        "lat": 29.375,
+        "lon": 47.98
+      },
+      "wikidataId": "Q856650"
+    },
+    {
+      "id": "resolution-678",
+      "start": 1990,
+      "title": {
+        "en": "29 November 1990: the UN Security Council passes Resolution 678, authorising force if Iraq has not left Kuwait by 15 January 1991",
+        "es": "29 de noviembre de 1990: el Consejo de Seguridad de la ONU aprueba la Resolución 678, que autoriza el uso de la fuerza si Irak no ha salido de Kuwait el 15 de enero de 1991",
+        "zh": "1990年11月29日：联合国安理会通过第678号决议，授权在伊拉克未于1991年1月15日前撤出科威特时使用武力"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"The Gulf War, 1991.\" Milestones in the History of U.S. Foreign Relations.",
+          "url": "https://history.state.gov/milestones/1989-1992/gulf-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gulf War.\"",
+          "url": "https://en.wikipedia.org/wiki/Gulf_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra del Golfo.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "New York (UN headquarters)",
+          "es": "Nueva York (sede de la ONU)",
+          "zh": "纽约（联合国总部）"
+        },
+        "lat": 40.749,
+        "lon": -73.968
+      },
+      "wikidataId": "Q1460058"
+    },
+    {
+      "id": "air-campaign-begins",
+      "start": 1991,
+      "title": {
+        "en": "17 January: the coalition begins five weeks of air and missile strikes on Iraq, starting with Baghdad (16 January in Washington)",
+        "es": "17 de enero: la coalición inicia cinco semanas de ataques aéreos y con misiles contra Irak, empezando por Bagdad (16 de enero en Washington)",
+        "zh": "1月17日：联军开始对伊拉克进行为期五周的空袭和导弹打击，首先轰炸巴格达（华盛顿时间为1月16日）"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"The Gulf War, 1991.\" Milestones in the History of U.S. Foreign Relations.",
+          "url": "https://history.state.gov/milestones/1989-1992/gulf-war"
+        },
+        {
+          "citation": "Haas, Michael. \"Gulf War.\" EBSCO Research Starters: Military History and Science, 2022.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/gulf-war"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra del Golfo.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.315,
+        "lon": 44.366
+      },
+      "wikidataId": "Q8256467"
+    },
+    {
+      "id": "scud-strikes-on-israel",
+      "start": 1991,
+      "title": {
+        "en": "From mid-January: Iraq fires Scud missiles at Israel and Saudi Arabia; on 22 January one hits Ramat Gan. Israel does not strike back",
+        "es": "Desde mediados de enero: Irak lanza misiles Scud contra Israel y Arabia Saudí; el 22 de enero uno impacta en Ramat Gan. Israel no responde",
+        "zh": "1月中旬起：伊拉克向以色列和沙特阿拉伯发射飞毛腿导弹；1月22日一枚导弹击中拉马特甘。以色列没有还击"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"The Gulf War, 1991.\" Milestones in the History of U.S. Foreign Relations.",
+          "url": "https://history.state.gov/milestones/1989-1992/gulf-war"
+        },
+        {
+          "citation": "Haas, Michael. \"Gulf War.\" EBSCO Research Starters: Military History and Science, 2022.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/gulf-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gulf War.\"",
+          "url": "https://en.wikipedia.org/wiki/Gulf_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra del Golfo.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ramat Gan",
+          "es": "Ramat Gan",
+          "zh": "拉马特甘"
+        },
+        "lat": 32.07,
+        "lon": 34.824
+      }
+    },
+    {
+      "id": "battle-of-khafji",
+      "start": 1991,
+      "title": {
+        "en": "29 January – 1 February: Iraqi divisions cross into Saudi Arabia and take Khafji; Saudi and Qatari troops with coalition air support drive them out",
+        "es": "29 de enero – 1 de febrero: divisiones iraquíes entran en Arabia Saudí y toman Khafji; tropas saudíes y cataríes con apoyo aéreo de la coalición las expulsan",
+        "zh": "1月29日至2月1日：伊拉克师越境进入沙特阿拉伯并攻占海夫吉；沙特和卡塔尔部队在联军空中支援下将其逐出"
+      },
+      "sources": [
+        {
+          "citation": "Haas, Michael. \"Gulf War.\" EBSCO Research Starters: Military History and Science, 2022.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/gulf-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Khafji.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Khafji"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra del Golfo.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Khafji",
+          "es": "Khafji",
+          "zh": "海夫吉"
+        },
+        "lat": 28.421,
+        "lon": 48.496
+      },
+      "wikidataId": "Q718770"
+    },
+    {
+      "id": "ground-offensive-and-ceasefire",
+      "start": 1991,
+      "title": {
+        "en": "24–28 February: the coalition's ground offensive enters Kuwait and southern Iraq; Iraqi troops leave Kuwait City, setting oil wells on fire, and a ceasefire follows after about 100 hours",
+        "es": "24–28 de febrero: la ofensiva terrestre de la coalición entra en Kuwait y el sur de Irak; las tropas iraquíes salen de la ciudad de Kuwait incendiando pozos de petróleo, y tras unas 100 horas llega el alto el fuego",
+        "zh": "2月24日至28日：联军地面部队攻入科威特和伊拉克南部；伊拉克军队撤离科威特城并点燃油井，约100小时后停火"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State. \"The Gulf War, 1991.\" Milestones in the History of U.S. Foreign Relations.",
+          "url": "https://history.state.gov/milestones/1989-1992/gulf-war"
+        },
+        {
+          "citation": "Haas, Michael. \"Gulf War.\" EBSCO Research Starters: Military History and Science, 2022.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/gulf-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gulf War.\"",
+          "url": "https://en.wikipedia.org/wiki/Gulf_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra del Golfo.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kuwait City",
+          "es": "Ciudad de Kuwait",
+          "zh": "科威特城"
+        },
+        "lat": 29.375,
+        "lon": 47.98
+      },
+      "wikidataId": "Q6541036"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "George H. W. Bush",
+        "es": "George H. W. Bush",
+        "zh": "乔治·赫伯特·沃克·布什"
+      },
+      "side": "coalition",
+      "role": {
+        "en": "President of the United States",
+        "es": "Presidente de Estados Unidos",
+        "zh": "美国总统"
+      },
+      "wikidataId": "Q23505"
+    },
+    {
+      "name": {
+        "en": "Norman Schwarzkopf",
+        "es": "Norman Schwarzkopf",
+        "zh": "诺曼·施瓦茨科夫"
+      },
+      "side": "coalition",
+      "role": {
+        "en": "Commander of US Central Command and of coalition forces",
+        "es": "Comandante del Mando Central de Estados Unidos y de las fuerzas de la coalición",
+        "zh": "美国中央司令部及联军司令"
+      },
+      "wikidataId": "Q310188"
+    },
+    {
+      "name": {
+        "en": "Khalid bin Sultan",
+        "es": "Jálid bin Sultán",
+        "zh": "哈立德·本·苏尔坦"
+      },
+      "side": "coalition",
+      "role": {
+        "en": "Saudi commander of the joint Arab and Islamic forces",
+        "es": "Comandante saudí de las fuerzas conjuntas árabes e islámicas",
+        "zh": "沙特籍阿拉伯和伊斯兰联合部队司令"
+      },
+      "wikidataId": "Q742051"
+    },
+    {
+      "name": {
+        "en": "Saddam Hussein",
+        "es": "Sadam Huseín",
+        "zh": "萨达姆·侯赛因"
+      },
+      "side": "iraq",
+      "role": {
+        "en": "President of Iraq",
+        "es": "Presidente de Irak",
+        "zh": "伊拉克总统"
+      },
+      "wikidataId": "Q1316"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "battle-deaths",
+      "low": 22805,
+      "high": 27261,
+      "asOf": "1991-12-31",
+      "sources": [
+        {
+          "citation": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0",
+          "url": "https://ucdp.uu.se/downloads/"
+        }
+      ],
+      "note": {
+        "en": "UCDP's count for the Iraq–Kuwait conflict (UCDP conflict 371), 1990 and 1991: combatants and civilians killed in fighting, summed from its low and high yearly estimates. It does not count deaths from disease, hunger or the 1991 uprisings inside Iraq.",
+        "es": "Recuento de UCDP para el conflicto Irak–Kuwait (conflicto 371 de UCDP), 1990 y 1991: combatientes y civiles muertos en combate, suma de sus estimaciones anuales mínima y máxima. No incluye muertes por enfermedad o hambre ni las de los levantamientos de 1991 dentro de Irak.",
+        "zh": "UCDP对伊拉克—科威特冲突（UCDP冲突编号371）1990年和1991年的统计：在战斗中死亡的战斗人员和平民，由其逐年最低和最高估计相加而得。不包括因疾病、饥饿死亡者，也不包括1991年伊拉克境内起义中的死者。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "citation": "Office of the Historian, U.S. Department of State. \"The Gulf War, 1991.\" Milestones in the History of U.S. Foreign Relations.",
+      "url": "https://history.state.gov/milestones/1989-1992/gulf-war"
+    },
+    {
+      "citation": "Haas, Michael. \"Gulf War.\" EBSCO Research Starters: Military History and Science, 2022.",
+      "url": "https://www.ebsco.com/research-starters/military-history-and-science/gulf-war"
+    },
+    {
+      "citation": "Wikipedia (English). \"Gulf War.\"",
+      "url": "https://en.wikipedia.org/wiki/Gulf_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra del Golfo.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo"
+    },
+    {
+      "citation": "Wikipedia (中文). \"海湾战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/海湾战争"
+    },
+    {
+      "citation": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0",
+      "url": "https://ucdp.uu.se/downloads/"
+    }
+  ]
+}

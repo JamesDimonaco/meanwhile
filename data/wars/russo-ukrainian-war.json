@@ -1,0 +1,548 @@
+{
+  "id": "russo-ukrainian-war",
+  "wikidataId": "Q15860072",
+  "name": {
+    "en": "Russo-Ukrainian war",
+    "es": "Conflicto ruso-ucraniano (2014-presente)",
+    "zh": "俄乌战争"
+  },
+  "aliases": [
+    "Russia–Ukraine war",
+    "War in Donbas",
+    "Donbas war",
+    "Crimea 2014",
+    "Guerra ruso-ucraniana",
+    "Guerra del Dombás",
+    "Crisis de Crimea",
+    "俄乌冲突",
+    "顿巴斯战争",
+    "克里米亚危机",
+    "Krim",
+    "Crimea",
+    "克里米亚"
+  ],
+  "description": {
+    "en": "After months of protests in Kyiv, President Viktor Yanukovych left the capital in February 2014 and parliament removed him. From 27 February Russian soldiers without insignia took over Crimea; after a referendum held under their control, Russia signed a treaty incorporating the peninsula on 18 March. The UN General Assembly declared the referendum invalid. In April armed groups, including a unit that crossed from Russia, took government buildings and towns in the Donetsk and Luhansk regions and proclaimed two \"people's republics\"; Ukraine sent its army against them. On 17 July Malaysia Airlines Flight 17 was shot down over the fighting, killing all 298 aboard; a Dutch-led investigation traced the missile to a Russian army brigade. Russia denied that its forces were fighting in Donbas, while Ukraine and NATO reported Russian troops and equipment there. The Minsk agreements of September 2014 and February 2015 drew a line of contact, but shelling and skirmishes went on for seven years. On 21 February 2022 Russia recognised the two republics; three days later it attacked Ukraine on a far larger scale, which has its own entry.",
+    "es": "Tras meses de protestas en Kiev, el presidente Víktor Yanukóvich dejó la capital en febrero de 2014 y el Parlamento lo destituyó. Desde el 27 de febrero soldados rusos sin insignias tomaron el control de Crimea; tras un referéndum celebrado bajo su control, Rusia firmó el 18 de marzo un tratado que incorporaba la península. La Asamblea General de la ONU declaró inválido el referéndum. En abril grupos armados, entre ellos una unidad que cruzó desde Rusia, tomaron edificios oficiales y ciudades de las regiones de Donetsk y Lugansk y proclamaron dos «repúblicas populares»; Ucrania envió su ejército contra ellos. El 17 de julio fue derribado sobre la zona de combates el vuelo 17 de Malaysia Airlines, con la muerte de las 298 personas a bordo; una investigación dirigida por los Países Bajos atribuyó el misil a una brigada del ejército ruso. Rusia negó que sus fuerzas combatieran en el Dombás, mientras Ucrania y la OTAN informaban de tropas y equipo rusos allí. Los acuerdos de Minsk de septiembre de 2014 y febrero de 2015 trazaron una línea de contacto, pero los bombardeos y las escaramuzas siguieron durante siete años. El 21 de febrero de 2022 Rusia reconoció a las dos repúblicas; tres días después atacó Ucrania a una escala mucho mayor, que tiene su propia entrada.",
+    "zh": "基辅经历数月抗议后，总统维克托·亚努科维奇于2014年2月离开首都，议会将其罢免。自2月27日起，不佩戴标志的俄罗斯士兵控制了克里米亚；在其控制下举行公投后，俄罗斯于3月18日签署条约，将半岛并入俄罗斯。联合国大会宣布该公投无效。4月，包括一支从俄罗斯越境而来的部队在内的武装团体占领顿涅茨克州和卢甘斯克州的政府建筑和城镇，宣布成立两个\"人民共和国\"；乌克兰派军队与之作战。7月17日，马来西亚航空17号班机在交战区上空被击落，机上298人全部遇难；荷兰牵头的调查认定导弹来自俄罗斯陆军的一个旅。俄罗斯否认其部队在顿巴斯作战，乌克兰和北约则报告当地有俄罗斯部队和装备。2014年9月和2015年2月的明斯克协议划定了接触线，但炮击和小规模冲突持续了七年。2022年2月21日，俄罗斯承认这两个共和国；三天后，俄罗斯对乌克兰发动规模大得多的进攻，另见其条目。"
+  },
+  "outcome": {
+    "en": "No settlement: by February 2022 Russia held Crimea and the two Russian-backed republics held parts of the Donetsk and Luhansk regions; the war widened on 24 February 2022.",
+    "es": "Sin acuerdo: en febrero de 2022 Rusia controlaba Crimea y las dos repúblicas respaldadas por Rusia controlaban partes de las regiones de Donetsk y Lugansk; la guerra se amplió el 24 de febrero de 2022.",
+    "zh": "没有达成解决：至2022年2月，俄罗斯控制克里米亚，两个由俄罗斯支持的共和国控制顿涅茨克州和卢甘斯克州的部分地区；战争于2022年2月24日扩大。"
+  },
+  "tier": "standard",
+  "sensitive": true,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "ongoing": {
+    "earliestStart": 2014,
+    "latestStart": 2014,
+    "asOf": "2026-10-01",
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Russo-Ukrainian war.\"",
+        "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
+      },
+      {
+        "citation": "\"Russo-Ukrainian War.\" EBSCO Research Starters: Military History and Science, updated 2026.",
+        "url": "https://www.ebsco.com/research-starters/military-history-and-science/russo-ukrainian-war"
+      },
+      {
+        "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, consulted 2 October 2026.",
+        "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+      }
+    ],
+    "note": {
+      "en": "This entry covers the war from 2014 to 23 February 2022. The full-scale war from 24 February 2022 has its own entry.",
+      "es": "Esta entrada abarca la guerra desde 2014 hasta el 23 de febrero de 2022. La guerra a gran escala desde el 24 de febrero de 2022 tiene su propia entrada.",
+      "zh": "本条目涵盖2014年至2022年2月23日的战争。2022年2月24日起的全面战争另有条目。"
+    }
+  },
+  "sides": [
+    {
+      "id": "ukraine",
+      "label": {
+        "en": "Ukraine",
+        "es": "Ucrania",
+        "zh": "乌克兰"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "UA",
+          "role": "belligerent",
+          "today": [
+            "UA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "russia-and-the-donbas-republics",
+      "label": {
+        "en": "Russia and the Donetsk and Luhansk People's Republics",
+        "es": "Rusia y las repúblicas populares de Donetsk y Lugansk",
+        "zh": "俄罗斯与顿涅茨克、卢甘斯克人民共和国"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "RU",
+          "role": "belligerent",
+          "today": [
+            "RU"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Donetsk People's Republic (proclaimed 2014)",
+            "es": "República Popular de Donetsk (proclamada en 2014)",
+            "zh": "顿涅茨克人民共和国（2014年宣布成立）"
+          },
+          "role": "belligerent",
+          "today": [
+            "UA"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Luhansk People's Republic (proclaimed 2014)",
+            "es": "República Popular de Lugansk (proclamada en 2014)",
+            "zh": "卢甘斯克人民共和国（2014年宣布成立）"
+          },
+          "role": "belligerent",
+          "today": [
+            "UA"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "soldiers-without-insignia-take-crimea",
+      "start": 2014,
+      "title": {
+        "en": "27 February: Russian soldiers without insignia take the Crimean parliament in Simferopol and other key sites on the peninsula; Russia at first denies they are its troops",
+        "es": "27 de febrero: soldados rusos sin insignias toman el Parlamento de Crimea en Simferópol y otros puntos clave de la península; Rusia niega al principio que sean sus tropas",
+        "zh": "2月27日：不佩戴标志的俄罗斯士兵占领位于辛菲罗波尔的克里米亚议会及半岛其他要地；俄罗斯起初否认他们是俄军"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war.\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conflicto ruso-ucraniano (2014-presente).\"",
+          "url": "https://es.wikipedia.org/wiki/Conflicto_ruso-ucraniano_(2014-presente)"
+        },
+        {
+          "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, consulted 2 October 2026.",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Simferopol",
+          "es": "Simferópol",
+          "zh": "辛菲罗波尔"
+        },
+        "lat": 44.948,
+        "lon": 34.1
+      },
+      "wikidataId": "Q15859754"
+    },
+    {
+      "id": "treaty-incorporating-crimea",
+      "start": 2014,
+      "title": {
+        "en": "18 March: after a referendum held under Russian military control, Russia signs a treaty incorporating Crimea and Sevastopol; on 27 March the UN General Assembly votes 100 to 11, with 58 abstentions, that the referendum has no validity",
+        "es": "18 de marzo: tras un referéndum celebrado bajo control militar ruso, Rusia firma un tratado que incorpora Crimea y Sebastopol; el 27 de marzo la Asamblea General de la ONU vota por 100 a 11, con 58 abstenciones, que el referéndum no tiene validez",
+        "zh": "3月18日：在俄罗斯军事控制下举行公投后，俄罗斯签署条约，将克里米亚和塞瓦斯托波尔并入俄罗斯；3月27日联合国大会以100票赞成、11票反对、58票弃权通过决议，认定该公投无效"
+      },
+      "sources": [
+        {
+          "citation": "\"Russo-Ukrainian War.\" EBSCO Research Starters: Military History and Science, updated 2026.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/russo-ukrainian-war"
+        },
+        {
+          "citation": "UN News. \"Backing Ukraine's territorial integrity, UN Assembly declares Crimea referendum invalid.\" 27 March 2014.",
+          "url": "https://news.un.org/en/story/2014/03/464812"
+        },
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war.\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Moscow",
+          "es": "Moscú",
+          "zh": "莫斯科"
+        },
+        "lat": 55.751,
+        "lon": 37.617
+      }
+    },
+    {
+      "id": "armed-groups-take-sloviansk",
+      "start": 2014,
+      "title": {
+        "en": "12 April: an armed unit led by Igor Girkin crosses from Russia and takes Sloviansk and Kramatorsk; Ukrainian forces besiege Sloviansk and retake it on 5 July",
+        "es": "12 de abril: una unidad armada dirigida por Ígor Guirkin cruza desde Rusia y toma Sláviansk y Kramatorsk; las fuerzas ucranianas sitian Sláviansk y la retoman el 5 de julio",
+        "zh": "4月12日：伊戈尔·吉尔金率领的一支武装部队从俄罗斯越境，占领斯拉维扬斯克和克拉马托尔斯克；乌克兰军队围攻斯拉维扬斯克，并于7月5日将其夺回"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war.\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conflicto ruso-ucraniano (2014-presente).\"",
+          "url": "https://es.wikipedia.org/wiki/Conflicto_ruso-ucraniano_(2014-presente)"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Sloviansk.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Sloviansk"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Sloviansk",
+          "es": "Sláviansk",
+          "zh": "斯拉维扬斯克"
+        },
+        "lat": 48.853,
+        "lon": 37.606
+      },
+      "wikidataId": "Q16394378"
+    },
+    {
+      "id": "mh17-shot-down",
+      "start": 2014,
+      "title": {
+        "en": "17 July: Malaysia Airlines Flight 17 is shot down over separatist-held territory and all 298 aboard are killed; a Dutch-led investigation finds the Buk missile came from Russia's 53rd Anti-Aircraft Missile Brigade, and a Dutch court convicts three men in 2022",
+        "es": "17 de julio: el vuelo 17 de Malaysia Airlines es derribado sobre territorio en manos separatistas y mueren las 298 personas a bordo; una investigación dirigida por los Países Bajos concluye que el misil Buk procedía de la 53.ª Brigada de Misiles Antiaéreos de Rusia, y un tribunal neerlandés condena a tres hombres en 2022",
+        "zh": "7月17日：马来西亚航空17号班机在分离主义武装控制区上空被击落，机上298人全部遇难；荷兰牵头的调查认定山毛榉导弹来自俄罗斯第53防空导弹旅，荷兰法院于2022年判决三人有罪"
+      },
+      "sources": [
+        {
+          "citation": "\"Russo-Ukrainian War.\" EBSCO Research Starters: Military History and Science, updated 2026.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/russo-ukrainian-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Malaysia Airlines Flight 17.\"",
+          "url": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_17"
+        },
+        {
+          "citation": "Wikipedia (español). \"Vuelo 17 de Malaysia Airlines.\"",
+          "url": "https://es.wikipedia.org/wiki/Vuelo_17_de_Malaysia_Airlines"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Near Hrabove, Donetsk region",
+          "es": "Cerca de Hrabove, región de Donetsk",
+          "zh": "顿涅茨克州赫拉博韦附近"
+        },
+        "lat": 48.138,
+        "lon": 38.639
+      },
+      "wikidataId": "Q17374096"
+    },
+    {
+      "id": "minsk-protocol",
+      "start": 2014,
+      "title": {
+        "en": "5 September: Ukraine, Russia, the separatist leaders and the OSCE sign the Minsk Protocol, a ceasefire that soon breaks down",
+        "es": "5 de septiembre: Ucrania, Rusia, los líderes separatistas y la OSCE firman el Protocolo de Minsk, un alto el fuego que pronto se rompe",
+        "zh": "9月5日：乌克兰、俄罗斯、分离主义领导人和欧安组织签署《明斯克议定书》，停火很快破裂"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war.\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conflicto ruso-ucraniano (2014-presente).\"",
+          "url": "https://es.wikipedia.org/wiki/Conflicto_ruso-ucraniano_(2014-presente)"
+        },
+        {
+          "citation": "Wikipedia (English). \"Minsk Protocol.\"",
+          "url": "https://en.wikipedia.org/wiki/Minsk_Protocol"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Minsk",
+          "es": "Minsk",
+          "zh": "明斯克"
+        },
+        "lat": 53.902,
+        "lon": 27.562
+      },
+      "wikidataId": "Q18001626"
+    },
+    {
+      "id": "battle-of-debaltseve",
+      "start": 2015,
+      "title": {
+        "en": "February: days after the Minsk II agreement of 12 February, Russian-backed forces take the rail hub of Debaltseve and Ukrainian troops withdraw",
+        "es": "Febrero: días después del acuerdo de Minsk II del 12 de febrero, fuerzas respaldadas por Rusia toman el nudo ferroviario de Debáltseve y las tropas ucranianas se retiran",
+        "zh": "2月：2月12日《明斯克二号协议》签署数日后，俄罗斯支持的武装占领铁路枢纽杰巴利采沃，乌克兰军队撤出"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Russo-Ukrainian war.\"",
+          "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
+        },
+        {
+          "citation": "Wikipedia (español). \"Conflicto ruso-ucraniano (2014-presente).\"",
+          "url": "https://es.wikipedia.org/wiki/Conflicto_ruso-ucraniano_(2014-presente)"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Debaltseve.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Debaltseve"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Debaltseve",
+          "es": "Debáltseve",
+          "zh": "杰巴利采沃"
+        },
+        "lat": 48.341,
+        "lon": 38.428
+      },
+      "wikidataId": "Q18920465"
+    },
+    {
+      "id": "russia-recognises-the-republics",
+      "start": 2022,
+      "title": {
+        "en": "21 February: Russia recognises the Donetsk and Luhansk People's Republics as independent states and orders troops into them",
+        "es": "21 de febrero: Rusia reconoce a las repúblicas populares de Donetsk y Lugansk como Estados independientes y ordena enviar tropas a ellas",
+        "zh": "2月21日：俄罗斯承认顿涅茨克和卢甘斯克人民共和国为独立国家，并下令向其派遣部队"
+      },
+      "sources": [
+        {
+          "citation": "\"Russo-Ukrainian War.\" EBSCO Research Starters: Military History and Science, updated 2026.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/russo-ukrainian-war"
+        },
+        {
+          "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, consulted 2 October 2026.",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+        },
+        {
+          "citation": "Wikipedia (中文). \"俄乌战争 (2022年至今).\"",
+          "url": "https://zh.wikipedia.org/wiki/俄乌战争_(2022年至今)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Moscow",
+          "es": "Moscú",
+          "zh": "莫斯科"
+        },
+        "lat": 55.751,
+        "lon": 37.617
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Oleksandr Turchynov",
+        "es": "Oleksandr Turchínov",
+        "zh": "亚历山大·图尔奇诺夫"
+      },
+      "side": "ukraine",
+      "role": {
+        "en": "Acting President of Ukraine, February–June 2014",
+        "es": "Presidente interino de Ucrania, febrero–junio de 2014",
+        "zh": "乌克兰代总统（2014年2月至6月）"
+      },
+      "wikidataId": "Q15850"
+    },
+    {
+      "name": {
+        "en": "Petro Poroshenko",
+        "es": "Petró Poroshenko",
+        "zh": "彼得罗·波罗申科"
+      },
+      "side": "ukraine",
+      "role": {
+        "en": "President of Ukraine, 2014–2019",
+        "es": "Presidente de Ucrania, 2014–2019",
+        "zh": "乌克兰总统（2014年至2019年）"
+      },
+      "wikidataId": "Q58077"
+    },
+    {
+      "name": {
+        "en": "Volodymyr Zelenskyy",
+        "es": "Volodímir Zelenski",
+        "zh": "弗拉基米尔·泽连斯基"
+      },
+      "side": "ukraine",
+      "role": {
+        "en": "President of Ukraine from 2019",
+        "es": "Presidente de Ucrania desde 2019",
+        "zh": "2019年起任乌克兰总统"
+      },
+      "wikidataId": "Q3874799"
+    },
+    {
+      "name": {
+        "en": "Vladimir Putin",
+        "es": "Vladímir Putin",
+        "zh": "弗拉基米尔·普京"
+      },
+      "side": "russia-and-the-donbas-republics",
+      "role": {
+        "en": "President of Russia",
+        "es": "Presidente de Rusia",
+        "zh": "俄罗斯总统"
+      },
+      "wikidataId": "Q7747"
+    },
+    {
+      "name": {
+        "en": "Igor Girkin",
+        "es": "Ígor Guirkin",
+        "zh": "伊戈尔·吉尔金"
+      },
+      "side": "russia-and-the-donbas-republics",
+      "role": {
+        "en": "Former Russian intelligence officer who led the armed unit at Sloviansk in 2014",
+        "es": "Exoficial de inteligencia ruso que dirigió la unidad armada en Sláviansk en 2014",
+        "zh": "前俄罗斯情报军官，2014年率领斯拉维扬斯克的武装部队"
+      },
+      "wikidataId": "Q16474356"
+    },
+    {
+      "name": {
+        "en": "Alexander Zakharchenko",
+        "es": "Aleksandr Zajárchenko",
+        "zh": "亚历山大·扎哈尔琴科"
+      },
+      "side": "russia-and-the-donbas-republics",
+      "role": {
+        "en": "Head of the Donetsk People's Republic, 2014–2018",
+        "es": "Jefe de la República Popular de Donetsk, 2014–2018",
+        "zh": "顿涅茨克人民共和国领导人（2014年至2018年）"
+      },
+      "wikidataId": "Q17488307"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "battle-deaths",
+      "low": 8044,
+      "high": 9785,
+      "asOf": "2021-12-31",
+      "sources": [
+        {
+          "citation": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0",
+          "url": "https://ucdp.uu.se/downloads/"
+        }
+      ],
+      "note": {
+        "en": "UCDP's count for the fighting in Donbas from 2014 to 2021: the Ukrainian government against the Donetsk People's Republic (UCDP conflict 13246), the Luhansk People's Republic (13247) and their joint forces (13306), with Russia as a secondary party, summed from its low and high yearly estimates. Deaths from 2022 on are counted on the full-scale war's entry.",
+        "es": "Recuento de UCDP para los combates en el Dombás de 2014 a 2021: el gobierno ucraniano contra la República Popular de Donetsk (conflicto 13246 de UCDP), la República Popular de Lugansk (13247) y sus fuerzas conjuntas (13306), con Rusia como parte secundaria, suma de sus estimaciones anuales mínima y máxima. Las muertes desde 2022 se cuentan en la entrada de la guerra a gran escala.",
+        "zh": "UCDP对2014年至2021年顿巴斯战斗的统计：乌克兰政府对顿涅茨克人民共和国（UCDP冲突编号13246）、卢甘斯克人民共和国（13247）及其联合部队（13306），俄罗斯为次要参战方，由其逐年最低和最高估计相加而得。2022年起的死亡计入全面战争条目。"
+      }
+    },
+    {
+      "scope": "total-deaths",
+      "low": 14200,
+      "high": 14400,
+      "asOf": "2021-12-31",
+      "attributedTo": {
+        "en": "the UN human rights office (OHCHR)",
+        "es": "la Oficina de Derechos Humanos de la ONU (ACNUDH)",
+        "zh": "联合国人权事务高级专员办事处"
+      },
+      "sources": [
+        {
+          "citation": "OHCHR. \"Conflict-related civilian casualties in Ukraine, as of 31 December 2021\" (revised 27 January 2022). UN Human Rights Monitoring Mission in Ukraine.",
+          "url": "https://ukraine.un.org/sites/default/files/2022-02/Conflict-related%20civilian%20casualties%20as%20of%2031%20December%202021%20%28rev%2027%20January%202022%29%20corr%20EN_0.pdf"
+        },
+        {
+          "citation": "Wikipedia (English). \"War in Donbas.\"",
+          "url": "https://en.wikipedia.org/wiki/War_in_Donbas"
+        }
+      ],
+      "note": {
+        "en": "OHCHR's estimate of everyone killed in the conflict in eastern Ukraine from 14 April 2014 to 31 December 2021: at least 3,404 civilians (including the 298 aboard MH17), about 4,400 Ukrainian forces and about 6,500 members of armed groups, counting non-combat deaths on service.",
+        "es": "Estimación del ACNUDH de todas las personas muertas en el conflicto del este de Ucrania del 14 de abril de 2014 al 31 de diciembre de 2021: al menos 3.404 civiles (incluidas las 298 personas del MH17), unos 4.400 miembros de las fuerzas ucranianas y unos 6.500 miembros de grupos armados, contando las muertes no causadas por combate durante el servicio.",
+        "zh": "联合国人权高专办对2014年4月14日至2021年12月31日乌克兰东部冲突中全部死亡人数的估计：至少3404名平民（包括MH17航班上的298人）、约4400名乌克兰部队人员和约6500名武装团体成员，包括服役期间的非战斗死亡。"
+      }
+    },
+    {
+      "scope": "civilian-deaths",
+      "low": 3404,
+      "high": 3404,
+      "asOf": "2021-12-31",
+      "attributedTo": {
+        "en": "the UN human rights office (OHCHR)",
+        "es": "la Oficina de Derechos Humanos de la ONU (ACNUDH)",
+        "zh": "联合国人权事务高级专员办事处"
+      },
+      "sources": [
+        {
+          "citation": "OHCHR. \"Conflict-related civilian casualties in Ukraine, as of 31 December 2021\" (revised 27 January 2022). UN Human Rights Monitoring Mission in Ukraine.",
+          "url": "https://ukraine.un.org/sites/default/files/2022-02/Conflict-related%20civilian%20casualties%20as%20of%2031%20December%202021%20%28rev%2027%20January%202022%29%20corr%20EN_0.pdf"
+        },
+        {
+          "citation": "Wikipedia (English). \"War in Donbas.\"",
+          "url": "https://en.wikipedia.org/wiki/War_in_Donbas"
+        }
+      ],
+      "note": {
+        "en": "At least 3,404 civilians killed from 14 April 2014 to 31 December 2021, including the 298 people aboard MH17; OHCHR gives this as a minimum.",
+        "es": "Al menos 3.404 civiles muertos del 14 de abril de 2014 al 31 de diciembre de 2021, incluidas las 298 personas del MH17; el ACNUDH la da como cifra mínima.",
+        "zh": "2014年4月14日至2021年12月31日至少有3404名平民死亡，包括MH17航班上的298人；人权高专办称这是最低数字。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "citation": "\"Russo-Ukrainian War.\" EBSCO Research Starters: Military History and Science, updated 2026.",
+      "url": "https://www.ebsco.com/research-starters/military-history-and-science/russo-ukrainian-war"
+    },
+    {
+      "citation": "Council on Foreign Relations. \"War in Ukraine.\" Global Conflict Tracker, consulted 2 October 2026.",
+      "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine"
+    },
+    {
+      "citation": "UN News. \"Backing Ukraine's territorial integrity, UN Assembly declares Crimea referendum invalid.\" 27 March 2014.",
+      "url": "https://news.un.org/en/story/2014/03/464812"
+    },
+    {
+      "citation": "OHCHR. \"Conflict-related civilian casualties in Ukraine, as of 31 December 2021\" (revised 27 January 2022). UN Human Rights Monitoring Mission in Ukraine.",
+      "url": "https://ukraine.un.org/sites/default/files/2022-02/Conflict-related%20civilian%20casualties%20as%20of%2031%20December%202021%20%28rev%2027%20January%202022%29%20corr%20EN_0.pdf"
+    },
+    {
+      "citation": "Wikipedia (English). \"Russo-Ukrainian war.\"",
+      "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
+    },
+    {
+      "citation": "Wikipedia (español). \"Conflicto ruso-ucraniano (2014-presente).\"",
+      "url": "https://es.wikipedia.org/wiki/Conflicto_ruso-ucraniano_(2014-presente)"
+    },
+    {
+      "citation": "Wikipedia (中文). \"俄乌战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/俄乌战争"
+    },
+    {
+      "citation": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0",
+      "url": "https://ucdp.uu.se/downloads/"
+    }
+  ]
+}

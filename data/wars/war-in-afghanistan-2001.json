@@ -1,0 +1,524 @@
+{
+  "id": "war-in-afghanistan-2001",
+  "wikidataId": "Q182865",
+  "name": {
+    "en": "War in Afghanistan (2001–2021)",
+    "es": "Guerra de Afganistán (2001-2021)",
+    "zh": "阿富汗战争 (2001年—2021年)"
+  },
+  "aliases": [
+    "War in Afghanistan",
+    "Afghanistan War",
+    "Operation Enduring Freedom",
+    "Guerra afgano-estadounidense",
+    "Operación Libertad Duradera",
+    "阿富汗战争",
+    "持久自由行动",
+    "Taliban",
+    "塔利班"
+  ],
+  "description": {
+    "en": "After the attacks of 11 September 2001, the United States demanded that Afghanistan's Taliban government hand over Osama bin Laden, the leader of al-Qaeda; the Taliban refused. On 7 October US and British aircraft began bombing, and US special forces worked with the anti-Taliban Northern Alliance, which took Kabul and other cities within weeks. Bin Laden escaped from Tora Bora into Pakistan. At Bonn in December an interim administration under Hamid Karzai was agreed, and an international security force, later led by NATO, was deployed. The Taliban regrouped, partly from Pakistan, and fought an insurgency across the south and east; US and Afghan officials accused Pakistan's intelligence service of backing them, which Pakistan denied. US forces killed bin Laden in Abbottabad, Pakistan, in 2011. NATO ended its combat mission in December 2014, leaving Afghan forces to do most of the fighting. In February 2020 the United States and the Taliban signed an agreement in Doha for a full foreign withdrawal. As troops left in 2021, the Taliban took one provincial capital after another and entered Kabul on 15 August; the last US aircraft left on 30 August.",
+    "es": "Tras los atentados del 11 de septiembre de 2001, Estados Unidos exigió al gobierno talibán de Afganistán que entregara a Osama bin Laden, líder de Al Qaeda; los talibanes se negaron. El 7 de octubre aviones estadounidenses y británicos empezaron a bombardear, y fuerzas especiales de Estados Unidos actuaron junto a la Alianza del Norte, contraria a los talibanes, que tomó Kabul y otras ciudades en pocas semanas. Bin Laden escapó de Tora Bora a Pakistán. En Bonn, en diciembre, se acordó una administración interina encabezada por Hamid Karzai, y se desplegó una fuerza internacional de seguridad, dirigida después por la OTAN. Los talibanes se reorganizaron, en parte desde Pakistán, y mantuvieron una insurgencia en el sur y el este; funcionarios estadounidenses y afganos acusaron a los servicios de inteligencia de Pakistán de apoyarlos, algo que Pakistán negó. En 2011 fuerzas de Estados Unidos mataron a bin Laden en Abbottabad (Pakistán). La OTAN terminó su misión de combate en diciembre de 2014 y dejó la mayor parte de los combates a las fuerzas afganas. En febrero de 2020 Estados Unidos y los talibanes firmaron en Doha un acuerdo para la retirada total de las tropas extranjeras. Mientras estas salían en 2021, los talibanes tomaron una capital provincial tras otra y entraron en Kabul el 15 de agosto; el último avión estadounidense partió el 30 de agosto.",
+    "zh": "2001年9月11日袭击事件后，美国要求阿富汗塔利班政府交出基地组织领导人奥萨马·本·拉登，遭塔利班拒绝。10月7日，美国和英国飞机开始轰炸，美国特种部队与反塔利班的北方联盟协同作战，北方联盟在数周内攻占喀布尔等城市。本·拉登从托拉博拉逃往巴基斯坦。12月在波恩商定成立以哈米德·卡尔扎伊为首的临时政府，并部署了一支后来由北约领导的国际安全部队。塔利班部分依托巴基斯坦重新集结，在南部和东部展开叛乱；美国和阿富汗官员指责巴基斯坦情报机构支持塔利班，巴基斯坦予以否认。2011年美军在巴基斯坦阿伯塔巴德打死本·拉登。北约于2014年12月结束作战任务，此后主要由阿富汗部队作战。2020年2月，美国与塔利班在多哈签署外国军队全部撤出的协议。2021年外国军队撤离期间，塔利班接连攻占各省首府，并于8月15日进入喀布尔；最后一架美国飞机于8月30日离开。"
+  },
+  "outcome": {
+    "en": "The Taliban took Kabul on 15 August 2021 and the Islamic Republic of Afghanistan fell; the last US and allied troops left on 30 August.",
+    "es": "Los talibanes tomaron Kabul el 15 de agosto de 2021 y cayó la República Islámica de Afganistán; las últimas tropas estadounidenses y aliadas salieron el 30 de agosto.",
+    "zh": "塔利班于2021年8月15日攻占喀布尔，阿富汗伊斯兰共和国垮台；最后一批美国及盟国部队于8月30日撤离。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 2001,
+    "latestStart": 2001,
+    "earliestEnd": 2021,
+    "latestEnd": 2021,
+    "sources": [
+      {
+        "citation": "Auerbach, Michael P. \"War in Afghanistan.\" EBSCO Research Starters: Military History and Science, 2021.",
+        "url": "https://www.ebsco.com/research-starters/military-history-and-science/war-afghanistan"
+      },
+      {
+        "citation": "Wikipedia (English). \"War in Afghanistan (2001–2021).\"",
+        "url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001–2021)"
+      },
+      {
+        "citation": "Wikipedia (español). \"Guerra de Afganistán (2001-2021).\"",
+        "url": "https://es.wikipedia.org/wiki/Guerra_de_Afganistán_(2001-2021)"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "coalition-and-afghan-government",
+      "label": {
+        "en": "US-led coalition and the Afghan government",
+        "es": "Coalición encabezada por Estados Unidos y el gobierno afgano",
+        "zh": "以美国为首的联军和阿富汗政府"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "belligerent",
+          "today": [
+            "US"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "GB",
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Northern Alliance (2001)",
+            "es": "Alianza del Norte (2001)",
+            "zh": "北方联盟（2001年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "AF"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Islamic Republic of Afghanistan (from 2001, under its interim names until 2004)",
+            "es": "República Islámica de Afganistán (desde 2001, con sus nombres provisionales hasta 2004)",
+            "zh": "阿富汗伊斯兰共和国（2001年起，2004年前为临时机构）"
+          },
+          "role": "belligerent",
+          "today": [
+            "AF"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taliban-and-al-qaeda",
+      "label": {
+        "en": "The Taliban and al-Qaeda",
+        "es": "Los talibanes y Al Qaeda",
+        "zh": "塔利班和基地组织"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Taliban (Islamic Emirate of Afghanistan)",
+            "es": "Talibanes (Emirato Islámico de Afganistán)",
+            "zh": "塔利班（阿富汗伊斯兰酋长国）"
+          },
+          "role": "belligerent",
+          "today": [
+            "AF"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Al-Qaeda",
+            "es": "Al Qaeda",
+            "zh": "基地组织"
+          },
+          "role": "belligerent",
+          "today": [
+            "AF"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "bombing-begins",
+      "start": 2001,
+      "title": {
+        "en": "7 October: US and British aircraft begin bombing Taliban and al-Qaeda targets; US special forces join the Northern Alliance, which takes Kabul within weeks",
+        "es": "7 de octubre: aviones estadounidenses y británicos empiezan a bombardear objetivos talibanes y de Al Qaeda; fuerzas especiales de Estados Unidos se unen a la Alianza del Norte, que toma Kabul en pocas semanas",
+        "zh": "10月7日：美国和英国飞机开始轰炸塔利班和基地组织目标；美国特种部队与北方联盟会合，北方联盟在数周内攻占喀布尔"
+      },
+      "sources": [
+        {
+          "citation": "Auerbach, Michael P. \"War in Afghanistan.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/war-afghanistan"
+        },
+        {
+          "citation": "Wikipedia (English). \"War in Afghanistan (2001–2021).\"",
+          "url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001–2021)"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Afganistán (2001-2021).\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Afganistán_(2001-2021)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kabul",
+          "es": "Kabul",
+          "zh": "喀布尔"
+        },
+        "lat": 34.533,
+        "lon": 69.166
+      },
+      "wikidataId": "Q19646470"
+    },
+    {
+      "id": "bonn-agreement",
+      "start": 2001,
+      "title": {
+        "en": "December: Afghan factions meeting in Bonn agree on an interim administration headed by Hamid Karzai",
+        "es": "Diciembre: facciones afganas reunidas en Bonn acuerdan una administración interina encabezada por Hamid Karzai",
+        "zh": "12月：在波恩开会的阿富汗各派商定成立以哈米德·卡尔扎伊为首的临时政府"
+      },
+      "sources": [
+        {
+          "citation": "Auerbach, Michael P. \"War in Afghanistan.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/war-afghanistan"
+        },
+        {
+          "citation": "Wikipedia (English). \"War in Afghanistan (2001–2021).\"",
+          "url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001–2021)"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Afganistán (2001-2021).\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Afganistán_(2001-2021)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Bonn",
+          "es": "Bonn",
+          "zh": "波恩"
+        },
+        "lat": 50.735,
+        "lon": 7.102
+      },
+      "wikidataId": "Q119843568"
+    },
+    {
+      "id": "battle-of-tora-bora",
+      "start": 2001,
+      "title": {
+        "en": "December: US aircraft and Afghan militias attack al-Qaeda's cave complex at Tora Bora; Osama bin Laden escapes into Pakistan",
+        "es": "Diciembre: aviones estadounidenses y milicias afganas atacan el complejo de cuevas de Al Qaeda en Tora Bora; Osama bin Laden escapa a Pakistán",
+        "zh": "12月：美国飞机和阿富汗民兵进攻基地组织在托拉博拉的洞穴群；奥萨马·本·拉登逃往巴基斯坦"
+      },
+      "sources": [
+        {
+          "citation": "Auerbach, Michael P. \"War in Afghanistan.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/war-afghanistan"
+        },
+        {
+          "citation": "Wikipedia (English). \"War in Afghanistan (2001–2021).\"",
+          "url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001–2021)"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Afganistán (2001-2021).\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Afganistán_(2001-2021)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tora Bora",
+          "es": "Tora Bora",
+          "zh": "托拉博拉"
+        },
+        "lat": 34.117,
+        "lon": 70.217
+      },
+      "wikidataId": "Q2237280"
+    },
+    {
+      "id": "killing-of-osama-bin-laden",
+      "start": 2011,
+      "title": {
+        "en": "2 May: US Navy SEALs kill Osama bin Laden in a compound in Abbottabad, Pakistan",
+        "es": "2 de mayo: comandos SEAL de la Armada de Estados Unidos matan a Osama bin Laden en un recinto de Abbottabad (Pakistán)",
+        "zh": "5月2日：美国海军海豹突击队在巴基斯坦阿伯塔巴德的一处院落打死奥萨马·本·拉登"
+      },
+      "sources": [
+        {
+          "citation": "Auerbach, Michael P. \"War in Afghanistan.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/war-afghanistan"
+        },
+        {
+          "citation": "Wikipedia (English). \"War in Afghanistan (2001–2021).\"",
+          "url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001–2021)"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Afganistán (2001-2021).\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Afganistán_(2001-2021)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Abbottabad",
+          "es": "Abbottabad",
+          "zh": "阿伯塔巴德"
+        },
+        "lat": 34.169,
+        "lon": 73.242
+      },
+      "wikidataId": "Q19085"
+    },
+    {
+      "id": "nato-combat-mission-ends",
+      "start": 2014,
+      "title": {
+        "en": "28 December: at a ceremony in Kabul NATO ends its combat mission and hands security to Afghan forces; about 12,000 foreign troops stay to train and advise",
+        "es": "28 de diciembre: en una ceremonia en Kabul la OTAN pone fin a su misión de combate y entrega la seguridad a las fuerzas afganas; unos 12.000 soldados extranjeros se quedan para entrenar y asesorar",
+        "zh": "12月28日：北约在喀布尔举行仪式，结束作战任务，将安全职责移交阿富汗部队；约1.2万名外国士兵留下负责培训和顾问"
+      },
+      "sources": [
+        {
+          "citation": "Auerbach, Michael P. \"War in Afghanistan.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/war-afghanistan"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Afganistán (2001-2021).\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Afganistán_(2001-2021)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kabul",
+          "es": "Kabul",
+          "zh": "喀布尔"
+        },
+        "lat": 34.533,
+        "lon": 69.166
+      }
+    },
+    {
+      "id": "us-taliban-agreement",
+      "start": 2020,
+      "title": {
+        "en": "29 February: the United States and the Taliban sign an agreement in Doha for the withdrawal of all foreign troops within 14 months",
+        "es": "29 de febrero: Estados Unidos y los talibanes firman en Doha un acuerdo para la retirada de todas las tropas extranjeras en 14 meses",
+        "zh": "2月29日：美国与塔利班在多哈签署协议，规定所有外国军队在14个月内撤出"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"United States–Taliban deal.\"",
+          "url": "https://en.wikipedia.org/wiki/United_States–Taliban_deal"
+        },
+        {
+          "citation": "Wikipedia (español). \"Acuerdo de Doha (2020).\"",
+          "url": "https://es.wikipedia.org/wiki/Acuerdo_de_Doha_(2020)"
+        },
+        {
+          "citation": "Wikipedia (English). \"War in Afghanistan (2001–2021).\"",
+          "url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001–2021)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Doha",
+          "es": "Doha",
+          "zh": "多哈"
+        },
+        "lat": 25.286,
+        "lon": 51.529
+      },
+      "wikidataId": "Q107354956"
+    },
+    {
+      "id": "taliban-enter-kabul",
+      "start": 2021,
+      "title": {
+        "en": "15 August: the Taliban enter Kabul after President Ashraf Ghani leaves the country; the last US aircraft leaves Kabul airport on 30 August",
+        "es": "15 de agosto: los talibanes entran en Kabul después de que el presidente Ashraf Ghani sale del país; el último avión estadounidense despega del aeropuerto de Kabul el 30 de agosto",
+        "zh": "8月15日：总统阿什拉夫·加尼出走后，塔利班进入喀布尔；最后一架美国飞机于8月30日从喀布尔机场起飞"
+      },
+      "sources": [
+        {
+          "citation": "Auerbach, Michael P. \"War in Afghanistan.\" EBSCO Research Starters: Military History and Science, 2021.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/war-afghanistan"
+        },
+        {
+          "citation": "Wikipedia (English). \"War in Afghanistan (2001–2021).\"",
+          "url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001–2021)"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Afganistán (2001-2021).\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Afganistán_(2001-2021)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Kabul",
+          "es": "Kabul",
+          "zh": "喀布尔"
+        },
+        "lat": 34.533,
+        "lon": 69.166
+      },
+      "wikidataId": "Q108102583"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "George W. Bush",
+        "es": "George W. Bush",
+        "zh": "乔治·沃克·布什"
+      },
+      "side": "coalition-and-afghan-government",
+      "role": {
+        "en": "President of the United States, 2001–2009",
+        "es": "Presidente de Estados Unidos, 2001–2009",
+        "zh": "美国总统（2001年至2009年）"
+      },
+      "wikidataId": "Q207"
+    },
+    {
+      "name": {
+        "en": "Barack Obama",
+        "es": "Barack Obama",
+        "zh": "巴拉克·奥巴马"
+      },
+      "side": "coalition-and-afghan-government",
+      "role": {
+        "en": "President of the United States, 2009–2017",
+        "es": "Presidente de Estados Unidos, 2009–2017",
+        "zh": "美国总统（2009年至2017年）"
+      },
+      "wikidataId": "Q76"
+    },
+    {
+      "name": {
+        "en": "Hamid Karzai",
+        "es": "Hamid Karzai",
+        "zh": "哈米德·卡尔扎伊"
+      },
+      "side": "coalition-and-afghan-government",
+      "role": {
+        "en": "Head of the Afghan interim government from 2001, then President until 2014",
+        "es": "Jefe del gobierno interino afgano desde 2001 y presidente hasta 2014",
+        "zh": "2001年起任阿富汗临时政府首脑，后任总统至2014年"
+      },
+      "wikidataId": "Q43944"
+    },
+    {
+      "name": {
+        "en": "Ashraf Ghani",
+        "es": "Ashraf Ghani",
+        "zh": "阿什拉夫·加尼"
+      },
+      "side": "coalition-and-afghan-government",
+      "role": {
+        "en": "President of Afghanistan, 2014–2021",
+        "es": "Presidente de Afganistán, 2014–2021",
+        "zh": "阿富汗总统（2014年至2021年）"
+      },
+      "wikidataId": "Q172388"
+    },
+    {
+      "name": {
+        "en": "Mullah Omar",
+        "es": "Mohammad Omar",
+        "zh": "穆罕默德·奥马尔"
+      },
+      "side": "taliban-and-al-qaeda",
+      "role": {
+        "en": "Founder and leader of the Taliban",
+        "es": "Fundador y líder de los talibanes",
+        "zh": "塔利班创始人和领导人"
+      },
+      "wikidataId": "Q193968"
+    },
+    {
+      "name": {
+        "en": "Hibatullah Akhundzada",
+        "es": "Haibatulá Ajundzadá",
+        "zh": "海巴图拉·阿洪扎达"
+      },
+      "side": "taliban-and-al-qaeda",
+      "role": {
+        "en": "Leader of the Taliban from 2016",
+        "es": "Líder de los talibanes desde 2016",
+        "zh": "2016年起任塔利班领导人"
+      },
+      "wikidataId": "Q24237654"
+    },
+    {
+      "name": {
+        "en": "Osama bin Laden",
+        "es": "Osama bin Laden",
+        "zh": "奥萨马·本·拉登"
+      },
+      "side": "taliban-and-al-qaeda",
+      "role": {
+        "en": "Founder and leader of al-Qaeda",
+        "es": "Fundador y líder de Al Qaeda",
+        "zh": "基地组织创始人和领导人"
+      },
+      "wikidataId": "Q1317"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "battle-deaths",
+      "low": 212824,
+      "high": 265424,
+      "asOf": "2021-12-31",
+      "sources": [
+        {
+          "citation": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0",
+          "url": "https://ucdp.uu.se/downloads/"
+        }
+      ],
+      "note": {
+        "en": "UCDP's count for 2001 (the United States and Britain against the Taliban government, UCDP conflict 13692) and 2002–2021 (the Afghan government and its allies against the Taliban and other groups, conflict 333), summed from its low and high yearly estimates. It leaves out the 2001 fighting between the Taliban and the Northern Alliance before the US entry, and deaths not caused by fighting.",
+        "es": "Recuento de UCDP para 2001 (Estados Unidos y el Reino Unido contra el gobierno talibán, conflicto 13692 de UCDP) y 2002–2021 (el gobierno afgano y sus aliados contra los talibanes y otros grupos, conflicto 333), suma de sus estimaciones anuales mínima y máxima. Excluye los combates de 2001 entre los talibanes y la Alianza del Norte anteriores a la entrada de Estados Unidos y las muertes no causadas por los combates.",
+        "zh": "UCDP对2001年（美国和英国对塔利班政府，UCDP冲突编号13692）和2002年至2021年（阿富汗政府及其盟友对塔利班等团体，冲突编号333）的统计，由其逐年最低和最高估计相加而得。不包括美国介入前2001年塔利班与北方联盟之间的战斗，也不包括非战斗原因造成的死亡。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "citation": "Auerbach, Michael P. \"War in Afghanistan.\" EBSCO Research Starters: Military History and Science, 2021.",
+      "url": "https://www.ebsco.com/research-starters/military-history-and-science/war-afghanistan"
+    },
+    {
+      "citation": "Wikipedia (English). \"War in Afghanistan (2001–2021).\"",
+      "url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001–2021)"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra de Afganistán (2001-2021).\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_de_Afganistán_(2001-2021)"
+    },
+    {
+      "citation": "Wikipedia (中文). \"阿富汗战争 (2001年—2021年).\"",
+      "url": "https://zh.wikipedia.org/wiki/阿富汗战争_(2001年—2021年)"
+    },
+    {
+      "citation": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0",
+      "url": "https://ucdp.uu.se/downloads/"
+    },
+    {
+      "citation": "Associated Press. \"Afghans accuse Pakistan of supporting Taliban.\" NBC News, 12 December 2006.",
+      "url": "https://www.nbcnews.com/news/amp/wbna16166102"
+    },
+    {
+      "citation": "\"Pakistan says US risks 'losing an ally'.\" Al Jazeera, 23 September 2011.",
+      "url": "https://www.aljazeera.com/news/2011/9/23/pakistan-says-us-risks-losing-an-ally"
+    },
+    {
+      "citation": "\"Pakistan denies 'intimate' Taliban links.\" Al Jazeera, 1 February 2012.",
+      "url": "https://www.aljazeera.com/news/2012/2/1/pakistan-denies-intimate-taliban-links"
+    }
+  ]
+}

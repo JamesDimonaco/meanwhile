@@ -1,0 +1,607 @@
+{
+  "id": "iraq-war",
+  "wikidataId": "Q545449",
+  "name": {
+    "en": "Iraq War",
+    "es": "Guerra de Irak",
+    "zh": "伊拉克战争"
+  },
+  "aliases": [
+    "Second Gulf War",
+    "2003 invasion of Iraq",
+    "Operation Iraqi Freedom",
+    "Operation Telic",
+    "Segunda guerra del Golfo",
+    "Invasión de Irak de 2003",
+    "Guerra de Iraq",
+    "第二次海湾战争",
+    "伊拉克自由行动",
+    "2003年入侵伊拉克"
+  ],
+  "description": {
+    "en": "The United States and Britain said Iraq was hiding weapons of mass destruction and linked Saddam Hussein's government to terrorism; France, Germany and Russia urged more diplomacy, and a draft UN resolution authorising force was withdrawn. On 20 March 2003 the US, Britain, Australia and Poland began bombing Baghdad and sent ground forces in from Kuwait, while US special forces and Kurdish Peshmerga fought in the north. Baghdad fell on 9 April, ending Saddam's 24-year rule, and he was captured near Tikrit that December. No stockpiles of such weapons were found. An insurgency grew against the occupation and the new Iraqi governments, drawing in Ba'athists, Sunni Islamist groups including al-Qaeda in Iraq, and Shia militias such as the Mahdi Army; after the bombing of the al-Askari shrine in Samarra in 2006, sectarian killing between Sunnis and Shias spread. The US military said Iran armed and trained Shia militias; Iran denied it. A US troop surge in 2007 and local Sunni forces that turned against al-Qaeda were followed by falling violence. Under a 2008 agreement with the Iraqi government, the last US troops left in December 2011.",
+    "es": "Estados Unidos y el Reino Unido afirmaban que Irak ocultaba armas de destrucción masiva y vinculaban al gobierno de Sadam Huseín con el terrorismo; Francia, Alemania y Rusia pedían más diplomacia, y se retiró un proyecto de resolución de la ONU que autorizaba la fuerza. El 20 de marzo de 2003 Estados Unidos, el Reino Unido, Australia y Polonia empezaron a bombardear Bagdad y enviaron fuerzas terrestres desde Kuwait, mientras fuerzas especiales estadounidenses y peshmergas kurdos combatían en el norte. Bagdad cayó el 9 de abril, lo que puso fin a 24 años de gobierno de Sadam, que fue capturado cerca de Tikrit en diciembre. No se hallaron arsenales de esas armas. Creció una insurgencia contra la ocupación y los nuevos gobiernos iraquíes, en la que participaron baazistas, grupos islamistas suníes como Al Qaeda en Irak y milicias chiíes como el Ejército del Mahdi; tras el atentado contra el santuario de al-Askari en Samarra en 2006 se extendieron las matanzas sectarias entre suníes y chiíes. El ejército estadounidense afirmó que Irán armaba y entrenaba a milicias chiíes; Irán lo negó. Al aumento de tropas estadounidenses de 2007 y a las fuerzas suníes locales que se volvieron contra Al Qaeda les siguió un descenso de la violencia. Según un acuerdo de 2008 con el gobierno iraquí, las últimas tropas estadounidenses salieron en diciembre de 2011.",
+    "zh": "美国和英国称伊拉克藏匿大规模杀伤性武器，并将萨达姆·侯赛因政府与恐怖主义联系起来；法国、德国和俄罗斯主张继续外交努力，一份授权使用武力的联合国决议草案被撤回。2003年3月20日，美国、英国、澳大利亚和波兰开始轰炸巴格达，并从科威特派出地面部队，美国特种部队和库尔德佩什梅加武装则在北部作战。4月9日巴格达陷落，萨达姆24年的统治结束，他于同年12月在提克里特附近被俘。此类武器的库存始终未被找到。针对占领和伊拉克新政府的武装叛乱随之扩大，参与者包括复兴党人、伊拉克基地组织等逊尼派伊斯兰团体，以及迈赫迪军等什叶派民兵；2006年萨迈拉阿斯卡里清真寺遭炸毁后，逊尼派与什叶派之间的教派仇杀蔓延开来。美军称伊朗向什叶派民兵提供武器和训练，伊朗予以否认。2007年美国增兵，加上转而对抗基地组织的地方逊尼派武装，暴力随后下降。根据2008年与伊拉克政府签订的协议，最后一批美军于2011年12月撤离。"
+  },
+  "outcome": {
+    "en": "Saddam Hussein's government fell in April 2003 and new Iraqi governments were formed under occupation; the last US troops left in December 2011, while violence inside Iraq continued.",
+    "es": "El gobierno de Sadam Huseín cayó en abril de 2003 y se formaron nuevos gobiernos iraquíes bajo la ocupación; las últimas tropas estadounidenses salieron en diciembre de 2011, mientras la violencia en Irak continuaba.",
+    "zh": "萨达姆·侯赛因政府于2003年4月垮台，伊拉克新政府在占领下组建；最后一批美军于2011年12月撤离，而伊拉克国内的暴力仍在继续。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 2003,
+    "latestStart": 2003,
+    "earliestEnd": 2011,
+    "latestEnd": 2011,
+    "sources": [
+      {
+        "citation": "Pritchard, John. \"Iraq War.\" EBSCO Research Starters: Military History and Science, 2019.",
+        "url": "https://www.ebsco.com/research-starters/military-history-and-science/iraq-war"
+      },
+      {
+        "citation": "Wikipedia (English). \"Iraq War.\"",
+        "url": "https://en.wikipedia.org/wiki/Iraq_War"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "coalition-and-iraqi-government",
+      "label": {
+        "en": "US-led coalition and the post-2003 Iraqi governments",
+        "es": "Coalición encabezada por Estados Unidos y los gobiernos iraquíes posteriores a 2003",
+        "zh": "以美国为首的联军和2003年后的伊拉克政府"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "belligerent",
+          "today": [
+            "US"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "GB",
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "AU",
+          "role": "belligerent",
+          "today": [
+            "AU"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "PL",
+          "role": "belligerent",
+          "today": [
+            "PL"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kurdish Peshmerga",
+            "es": "Peshmergas kurdos",
+            "zh": "库尔德佩什梅加武装"
+          },
+          "role": "belligerent",
+          "today": [
+            "IQ"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Iraqi governments after 2003",
+            "es": "Gobiernos iraquíes posteriores a 2003",
+            "zh": "2003年后的伊拉克政府"
+          },
+          "role": "belligerent",
+          "today": [
+            "IQ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baathist-iraq-and-insurgents",
+      "label": {
+        "en": "Ba'athist Iraq, then the insurgent groups",
+        "es": "El Irak baazista y después los grupos insurgentes",
+        "zh": "复兴党伊拉克，以及此后的叛乱团体"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ba'athist Iraq (Saddam Hussein's government)",
+            "es": "Irak baazista (gobierno de Sadam Huseín)",
+            "zh": "复兴党伊拉克（萨达姆·侯赛因政府）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IQ"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ba'athist and Sunni insurgent groups",
+            "es": "Grupos insurgentes baazistas y suníes",
+            "zh": "复兴党及逊尼派叛乱团体"
+          },
+          "role": "belligerent",
+          "today": [
+            "IQ"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Al-Qaeda in Iraq / Islamic State of Iraq",
+            "es": "Al Qaeda en Irak / Estado Islámico de Irak",
+            "zh": "伊拉克基地组织／伊拉克伊斯兰国"
+          },
+          "role": "belligerent",
+          "today": [
+            "IQ"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Mahdi Army",
+            "es": "Ejército del Mahdi",
+            "zh": "迈赫迪军"
+          },
+          "role": "belligerent",
+          "today": [
+            "IQ"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "bombing-of-baghdad-begins",
+      "start": 2003,
+      "title": {
+        "en": "20 March: US, British, Australian and Polish forces begin bombing Baghdad and cross into Iraq from Kuwait",
+        "es": "20 de marzo: fuerzas de Estados Unidos, el Reino Unido, Australia y Polonia empiezan a bombardear Bagdad y entran en Irak desde Kuwait",
+        "zh": "3月20日：美国、英国、澳大利亚和波兰部队开始轰炸巴格达，并从科威特进入伊拉克"
+      },
+      "sources": [
+        {
+          "citation": "Pritchard, John. \"Iraq War.\" EBSCO Research Starters: Military History and Science, 2019.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/iraq-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iraq_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Irak.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Irak"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.315,
+        "lon": 44.366
+      },
+      "wikidataId": "Q107802"
+    },
+    {
+      "id": "battle-of-nasiriyah",
+      "start": 2003,
+      "title": {
+        "en": "23 March – 2 April: US Marines fight Iraqi forces for the bridges of Nasiriyah on the Euphrates",
+        "es": "23 de marzo – 2 de abril: marines estadounidenses combaten con fuerzas iraquíes por los puentes de Nasiriya, sobre el Éufrates",
+        "zh": "3月23日至4月2日：美国海军陆战队与伊拉克部队争夺幼发拉底河上纳西里耶的桥梁"
+      },
+      "sources": [
+        {
+          "citation": "Pritchard, John. \"Iraq War.\" EBSCO Research Starters: Military History and Science, 2019.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/iraq-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Nasiriyah.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Nasiriyah"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla de Nasiriya.\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_Nasiriya"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Nasiriyah",
+          "es": "Nasiriya",
+          "zh": "纳西里耶"
+        },
+        "lat": 31.044,
+        "lon": 46.258
+      },
+      "wikidataId": "Q718851"
+    },
+    {
+      "id": "fall-of-baghdad",
+      "start": 2003,
+      "title": {
+        "en": "9 April: US forces enter Baghdad and Saddam Hussein's government falls",
+        "es": "9 de abril: fuerzas estadounidenses entran en Bagdad y cae el gobierno de Sadam Huseín",
+        "zh": "4月9日：美军进入巴格达，萨达姆·侯赛因政府垮台"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iraq_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Irak.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Irak"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.315,
+        "lon": 44.366
+      }
+    },
+    {
+      "id": "capture-of-saddam-hussein",
+      "start": 2003,
+      "title": {
+        "en": "13 December: US troops capture Saddam Hussein hiding on a farm at ad-Dawr, near Tikrit",
+        "es": "13 de diciembre: tropas estadounidenses capturan a Sadam Huseín, escondido en una granja de ad-Dawr, cerca de Tikrit",
+        "zh": "12月13日：美军在提克里特附近道尔的一处农场抓获藏身的萨达姆·侯赛因"
+      },
+      "sources": [
+        {
+          "citation": "Pritchard, John. \"Iraq War.\" EBSCO Research Starters: Military History and Science, 2019.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/iraq-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iraq_War"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Irak.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Irak"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Ad-Dawr, near Tikrit",
+          "es": "Ad-Dawr, cerca de Tikrit",
+          "zh": "道尔（提克里特附近）"
+        },
+        "lat": 34.458,
+        "lon": 43.799
+      }
+    },
+    {
+      "id": "second-battle-of-fallujah",
+      "start": 2004,
+      "title": {
+        "en": "November–December: US, British and Iraqi forces attack Fallujah, held by insurgents, in the war's heaviest urban fighting; much of the city is destroyed",
+        "es": "Noviembre–diciembre: fuerzas estadounidenses, británicas e iraquíes atacan Faluya, en manos de insurgentes, en los combates urbanos más duros de la guerra; gran parte de la ciudad queda destruida",
+        "zh": "11月至12月：美国、英国和伊拉克部队进攻叛乱分子控制的费卢杰，这是战争中最激烈的城市战，城市大部被毁"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iraq_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Battle of Fallujah.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Fallujah"
+        },
+        {
+          "citation": "Wikipedia (español). \"Segunda batalla de Faluya.\"",
+          "url": "https://es.wikipedia.org/wiki/Segunda_batalla_de_Faluya"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Fallujah",
+          "es": "Faluya",
+          "zh": "费卢杰"
+        },
+        "lat": 33.35,
+        "lon": 43.783
+      },
+      "wikidataId": "Q1330136"
+    },
+    {
+      "id": "al-askari-shrine-bombing",
+      "start": 2006,
+      "title": {
+        "en": "22 February: a bomb destroys the golden dome of the al-Askari shrine, a Shia holy site in Samarra; sectarian killings between Sunnis and Shias spread",
+        "es": "22 de febrero: una bomba destruye la cúpula dorada del santuario de al-Askari, lugar sagrado chií en Samarra; se extienden las matanzas sectarias entre suníes y chiíes",
+        "zh": "2月22日：炸弹摧毁什叶派圣地萨迈拉阿斯卡里清真寺的金顶；逊尼派与什叶派之间的教派仇杀随之蔓延"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Iraq_War"
+        },
+        {
+          "citation": "Wikipedia (English). \"2006 al-Askari mosque bombing.\"",
+          "url": "https://en.wikipedia.org/wiki/2006_al-Askari_mosque_bombing"
+        },
+        {
+          "citation": "Wikipedia (español). \"Guerra de Irak.\"",
+          "url": "https://es.wikipedia.org/wiki/Guerra_de_Irak"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Samarra",
+          "es": "Samarra",
+          "zh": "萨迈拉"
+        },
+        "lat": 34.196,
+        "lon": 43.886
+      },
+      "wikidataId": "Q2918175"
+    },
+    {
+      "id": "last-us-troops-leave",
+      "start": 2011,
+      "title": {
+        "en": "15–18 December: a ceremony in Baghdad marks the end of the US mission, and the last US troops cross into Kuwait",
+        "es": "15–18 de diciembre: una ceremonia en Bagdad marca el fin de la misión estadounidense y las últimas tropas de Estados Unidos cruzan a Kuwait",
+        "zh": "12月15日至18日：巴格达举行仪式标志美军任务结束，最后一批美军越境进入科威特"
+      },
+      "sources": [
+        {
+          "citation": "Pritchard, John. \"Iraq War.\" EBSCO Research Starters: Military History and Science, 2019.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/iraq-war"
+        },
+        {
+          "citation": "Wikipedia (English). \"Withdrawal of United States troops from Iraq (2007–2011).\"",
+          "url": "https://en.wikipedia.org/wiki/Withdrawal_of_United_States_troops_from_Iraq_(2007–2011)"
+        },
+        {
+          "citation": "Wikipedia (español). \"Retirada de tropas estadounidenses de Irak (2007-2011).\"",
+          "url": "https://es.wikipedia.org/wiki/Retirada_de_tropas_estadounidenses_de_Irak_(2007-2011)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.315,
+        "lon": 44.366
+      },
+      "wikidataId": "Q4118977"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "George W. Bush",
+        "es": "George W. Bush",
+        "zh": "乔治·沃克·布什"
+      },
+      "side": "coalition-and-iraqi-government",
+      "role": {
+        "en": "President of the United States, 2001–2009",
+        "es": "Presidente de Estados Unidos, 2001–2009",
+        "zh": "美国总统（2001年至2009年）"
+      },
+      "wikidataId": "Q207"
+    },
+    {
+      "name": {
+        "en": "Tony Blair",
+        "es": "Tony Blair",
+        "zh": "托尼·布莱尔"
+      },
+      "side": "coalition-and-iraqi-government",
+      "role": {
+        "en": "Prime Minister of the United Kingdom, 1997–2007",
+        "es": "Primer ministro del Reino Unido, 1997–2007",
+        "zh": "英国首相（1997年至2007年）"
+      },
+      "wikidataId": "Q9545"
+    },
+    {
+      "name": {
+        "en": "Tommy Franks",
+        "es": "Tommy Franks",
+        "zh": "汤米·弗兰克斯"
+      },
+      "side": "coalition-and-iraqi-government",
+      "role": {
+        "en": "US general who led the 2003 offensive",
+        "es": "General estadounidense que dirigió la ofensiva de 2003",
+        "zh": "领导2003年攻势的美国将军"
+      },
+      "wikidataId": "Q461823"
+    },
+    {
+      "name": {
+        "en": "David Petraeus",
+        "es": "David Petraeus",
+        "zh": "大卫·彼得雷乌斯"
+      },
+      "side": "coalition-and-iraqi-government",
+      "role": {
+        "en": "Commander of US-led forces in Iraq, 2007–2008",
+        "es": "Comandante de las fuerzas encabezadas por Estados Unidos en Irak, 2007–2008",
+        "zh": "驻伊拉克美国领导的部队司令（2007年至2008年）"
+      },
+      "wikidataId": "Q28591"
+    },
+    {
+      "name": {
+        "en": "Nouri al-Maliki",
+        "es": "Nuri al Maliki",
+        "zh": "努里·马利基"
+      },
+      "side": "coalition-and-iraqi-government",
+      "role": {
+        "en": "Prime Minister of Iraq from 2006",
+        "es": "Primer ministro de Irak desde 2006",
+        "zh": "2006年起任伊拉克总理"
+      },
+      "wikidataId": "Q57673"
+    },
+    {
+      "name": {
+        "en": "Saddam Hussein",
+        "es": "Sadam Huseín",
+        "zh": "萨达姆·侯赛因"
+      },
+      "side": "baathist-iraq-and-insurgents",
+      "role": {
+        "en": "President of Iraq until April 2003",
+        "es": "Presidente de Irak hasta abril de 2003",
+        "zh": "伊拉克总统，至2003年4月"
+      },
+      "wikidataId": "Q1316"
+    },
+    {
+      "name": {
+        "en": "Abu Musab al-Zarqawi",
+        "es": "Abu Musab al Zarqaui",
+        "zh": "阿布·穆萨布·扎卡维"
+      },
+      "side": "baathist-iraq-and-insurgents",
+      "role": {
+        "en": "Leader of al-Qaeda in Iraq until his death in 2006",
+        "es": "Líder de Al Qaeda en Irak hasta su muerte en 2006",
+        "zh": "伊拉克基地组织领导人，2006年被打死"
+      },
+      "wikidataId": "Q181049"
+    },
+    {
+      "name": {
+        "en": "Muqtada al-Sadr",
+        "es": "Muqtada al-Sadr",
+        "zh": "穆克塔达·萨德尔"
+      },
+      "side": "baathist-iraq-and-insurgents",
+      "role": {
+        "en": "Shia cleric who led the Mahdi Army",
+        "es": "Clérigo chií que dirigía el Ejército del Mahdi",
+        "zh": "领导迈赫迪军的什叶派教士"
+      },
+      "wikidataId": "Q216826"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "battle-deaths",
+      "low": 24337,
+      "high": 35719,
+      "asOf": "2011-12-31",
+      "sources": [
+        {
+          "citation": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0",
+          "url": "https://ucdp.uu.se/downloads/"
+        }
+      ],
+      "note": {
+        "en": "UCDP's count for 2003 (the US-led coalition against the Iraqi government, UCDP conflict 420) and 2004–2011 (the Iraqi government and its allies against insurgent groups, conflict 259), summed from its low and high yearly estimates. Battle deaths include civilians killed in fighting, but not killings deliberately aimed at civilians or fighting between armed groups, which made up much of the violence, so all-cause estimates are far higher.",
+        "es": "Recuento de UCDP para 2003 (la coalición encabezada por Estados Unidos contra el gobierno iraquí, conflicto 420 de UCDP) y 2004–2011 (el gobierno iraquí y sus aliados contra grupos insurgentes, conflicto 259), suma de sus estimaciones anuales mínima y máxima. Las muertes en combate incluyen a los civiles muertos en los combates, pero no los asesinatos dirigidos deliberadamente contra civiles ni los combates entre grupos armados, que fueron gran parte de la violencia, por lo que las estimaciones de todas las causas son mucho más altas.",
+        "zh": "UCDP对2003年（以美国为首的联军对伊拉克政府，UCDP冲突编号420）和2004年至2011年（伊拉克政府及其盟友对叛乱团体，冲突编号259）的统计，由其逐年最低和最高估计相加而得。战斗死亡包括在战斗中丧生的平民，但不包括蓄意针对平民的杀戮和武装团体之间的战斗，而这些占了暴力的很大部分，因此各种原因造成的死亡估计要高得多。"
+      }
+    },
+    {
+      "scope": "total-deaths",
+      "low": 48000,
+      "high": 751000,
+      "attributedTo": {
+        "en": "a 2013 household survey in PLOS Medicine (Hagopian et al.)",
+        "es": "una encuesta de hogares de 2013 publicada en PLOS Medicine (Hagopian et al.)",
+        "zh": "2013年发表于《PLOS医学》的一项入户调查（哈戈皮安等）"
+      },
+      "sources": [
+        {
+          "citation": "Hagopian, A. et al. (2013). \"Mortality in Iraq Associated with the 2003–2011 War and Occupation: Findings from a National Cluster Sample Survey by the University Collaborative Iraq Mortality Study.\" PLOS Medicine 10(10): e1001533.",
+          "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001533"
+        },
+        {
+          "citation": "Wikipedia (English). \"Casualties of the Iraq War.\"",
+          "url": "https://en.wikipedia.org/wiki/Casualties_of_the_Iraq_War"
+        }
+      ],
+      "note": {
+        "en": "Excess deaths of Iraqis from March 2003 to mid-2011, from violence and from the collapse of services, with a central estimate of about 405,000 (the range is the study's 95% uncertainty interval); the authors put more than 60% of them down to violence. Adding deaths in households that had left Iraq brings the estimate to about 461,000. Other surveys and counts give figures from about 150,000 to over a million; the toll is contested.",
+        "es": "Muertes en exceso de iraquíes entre marzo de 2003 y mediados de 2011, por la violencia y por el colapso de los servicios, con una estimación central de unas 405.000 (el intervalo es el de incertidumbre al 95% del estudio); los autores atribuyen más del 60% a la violencia. Si se suman las muertes en hogares que habían salido de Irak, la estimación llega a unas 461.000. Otras encuestas y recuentos dan cifras de unas 150.000 a más de un millón; el balance se discute.",
+        "zh": "2003年3月至2011年年中伊拉克人的超额死亡，包括暴力和公共服务崩溃造成的死亡，中心估计约为40.5万人（区间为该研究的95%不确定区间）；作者认为其中60%以上死于暴力。若加上已离开伊拉克的家庭中的死亡，估计约为46.1万人。其他调查和统计给出的数字从约15万到100万以上不等；死亡人数存在争议。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "citation": "Pritchard, John. \"Iraq War.\" EBSCO Research Starters: Military History and Science, 2019.",
+      "url": "https://www.ebsco.com/research-starters/military-history-and-science/iraq-war"
+    },
+    {
+      "citation": "Wikipedia (English). \"Iraq War.\"",
+      "url": "https://en.wikipedia.org/wiki/Iraq_War"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra de Irak.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_de_Irak"
+    },
+    {
+      "citation": "Wikipedia (中文). \"伊拉克战争.\"",
+      "url": "https://zh.wikipedia.org/wiki/伊拉克战争"
+    },
+    {
+      "citation": "Hagopian, A. et al. (2013). \"Mortality in Iraq Associated with the 2003–2011 War and Occupation: Findings from a National Cluster Sample Survey by the University Collaborative Iraq Mortality Study.\" PLOS Medicine 10(10): e1001533.",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001533"
+    },
+    {
+      "citation": "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0",
+      "url": "https://ucdp.uu.se/downloads/"
+    },
+    {
+      "citation": "\"Iraq: The Road to Kirkuk.\" FRONTLINE/World, PBS, May 2003.",
+      "url": "https://www.pbs.org/frontlineworld/stories/iraq203/crossroads04.html"
+    },
+    {
+      "citation": "Associated Press. \"Iran rejects allegations it armed Iraq insurgents.\" NBC News, 12 February 2007.",
+      "url": "https://www.nbcnews.com/id/wbna17111886"
+    },
+    {
+      "citation": "\"Iran Denies U.S. Claims It Is Arming Iraqi Militias.\" PBS NewsHour, 12 February 2007.",
+      "url": "https://www.pbs.org/newshour/show/iran-denies-u-s-claims-it-is-arming-iraqi-militias"
+    },
+    {
+      "citation": "Beehner, Lionel, and Greg Bruno. \"Iran's Involvement in Iraq.\" Council on Foreign Relations Backgrounder, 2007 (updated 3 March 2008).",
+      "url": "https://www.cfr.org/backgrounders/irans-involvement-iraq"
+    }
+  ]
+}

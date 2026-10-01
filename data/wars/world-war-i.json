@@ -1,0 +1,627 @@
+{
+  "id": "world-war-i",
+  "wikidataId": "Q361",
+  "name": {
+    "en": "World War I",
+    "es": "Primera Guerra Mundial",
+    "zh": "第一次世界大战"
+  },
+  "aliases": [
+    "First World War",
+    "Great War",
+    "WWI",
+    "WW1",
+    "Gran Guerra",
+    "I Guerra Mundial",
+    "一战",
+    "第一次大战",
+    "欧战"
+  ],
+  "description": {
+    "en": "On 28 June 1914 Gavrilo Princip, a Bosnian Serb, shot dead Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, in Sarajevo. Austria-Hungary declared war on Serbia on 28 July, and within a week the alliances had drawn in Germany, Russia, France and Britain; German troops crossed neutral Belgium on their way into France. The Central Powers (Germany, Austria-Hungary, the Ottoman Empire and Bulgaria) fought the Allies: France, the British Empire with its dominions and India, Russia, Serbia, Belgium and Japan, joined later by Italy, Romania, the United States and others. After the Marne in September 1914 the Western Front settled into trench warfare, and battles such as Verdun and the Somme killed hundreds of thousands without breaking it; Germany released chlorine gas at Ypres in April 1915. Russia left the war after its 1917 revolutions and signed the Treaty of Brest-Litovsk in March 1918. With American troops arriving, the Allies stopped Germany's 1918 offensives and broke the Hindenburg Line; Germany's allies gave up one by one, and Germany signed an armistice on 11 November 1918.",
+    "es": "El 28 de junio de 1914 Gavrilo Princip, un serbobosnio, mató a tiros en Sarajevo al archiduque Francisco Fernando, heredero del trono austrohúngaro. Austria-Hungría declaró la guerra a Serbia el 28 de julio y en una semana las alianzas arrastraron a Alemania, Rusia, Francia y el Reino Unido; las tropas alemanas cruzaron la neutral Bélgica camino de Francia. Las Potencias Centrales (Alemania, Austria-Hungría, el Imperio otomano y Bulgaria) lucharon contra los Aliados: Francia, el Imperio británico con sus dominios y la India, Rusia, Serbia, Bélgica y Japón, a los que se sumaron Italia, Rumania, Estados Unidos y otros. Tras el Marne, en septiembre de 1914, el frente occidental se estancó en una guerra de trincheras, y batallas como Verdún y el Somme mataron a cientos de miles sin romperlo; Alemania lanzó gas de cloro en Ypres en abril de 1915. Rusia salió de la guerra tras sus revoluciones de 1917 y firmó el Tratado de Brest-Litovsk en marzo de 1918. Con la llegada de tropas estadounidenses, los Aliados frenaron las ofensivas alemanas de 1918 y rompieron la Línea Hindenburg; los aliados de Alemania se rindieron uno tras otro, y Alemania firmó un armisticio el 11 de noviembre de 1918.",
+    "zh": "1914年6月28日，波斯尼亚塞族人加夫里洛·普林西普在萨拉热窝枪杀奥匈帝国皇储弗朗茨·斐迪南大公。奥匈帝国于7月28日向塞尔维亚宣战，一周之内，同盟体系把德国、俄国、法国和英国卷入战争；德军穿过中立的比利时进入法国。同盟国（德国、奥匈帝国、奥斯曼帝国和保加利亚）与协约国作战，后者包括法国、英帝国及其自治领和印度、俄国、塞尔维亚、比利时和日本，后来又有意大利、罗马尼亚、美国等国加入。1914年9月马恩河战役之后，西线陷入堑壕战，凡尔登、索姆河等战役造成数十万人死亡却未能打破僵局；1915年4月德国在伊珀尔施放氯气。俄国在1917年革命后退出战争，于1918年3月签订《布列斯特-立托夫斯克和约》。随着美军到来，协约国挡住了德国1918年的攻势并突破兴登堡防线；德国的盟国相继投降，德国于1918年11月11日签署停战协定。"
+  },
+  "outcome": {
+    "en": "The Allies won: Germany signed an armistice on 11 November 1918 and the Treaty of Versailles in 1919, and the German, Austro-Hungarian, Russian and Ottoman empires broke up.",
+    "es": "Ganaron los Aliados: Alemania firmó un armisticio el 11 de noviembre de 1918 y el Tratado de Versalles en 1919, y los imperios alemán, austrohúngaro, ruso y otomano se desintegraron.",
+    "zh": "协约国获胜：德国于1918年11月11日签署停战协定，1919年签订《凡尔赛条约》；德意志帝国、奥匈帝国、俄罗斯帝国和奥斯曼帝国相继解体。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1914,
+    "latestStart": 1914,
+    "earliestEnd": 1918,
+    "latestEnd": 1918,
+    "sources": [
+      {
+        "citation": "\"World War I.\" EBSCO Research Starters: Diplomacy and International Relations.",
+        "url": "https://www.ebsco.com/research-starters/diplomacy-and-international-relations/world-war-i"
+      },
+      {
+        "citation": "Wikipedia (English). \"World War I.\"",
+        "url": "https://en.wikipedia.org/wiki/World_War_I"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "allies",
+      "label": {
+        "en": "Allies (Entente)",
+        "es": "Aliados (Entente)",
+        "zh": "协约国"
+      },
+      "members": [
+        {
+          "kind": "state",
+          "code": "FR",
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "GB",
+          "role": "belligerent",
+          "today": [
+            "GB"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Russian Empire (until 1917)",
+            "es": "Imperio ruso (hasta 1917)",
+            "zh": "俄罗斯帝国（至1917年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "RU"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Serbia",
+            "es": "Reino de Serbia",
+            "zh": "塞尔维亚王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "RS"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Italy (from 1915)",
+            "es": "Reino de Italia (desde 1915)",
+            "zh": "意大利王国（1915年起）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "state",
+          "code": "US",
+          "role": "belligerent",
+          "today": [
+            "US"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "central-powers",
+      "label": {
+        "en": "Central Powers",
+        "es": "Potencias Centrales",
+        "zh": "同盟国"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "German Empire",
+            "es": "Imperio alemán",
+            "zh": "德意志帝国"
+          },
+          "role": "belligerent",
+          "today": [
+            "DE"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Austria-Hungary",
+            "es": "Austria-Hungría",
+            "zh": "奥匈帝国"
+          },
+          "role": "belligerent",
+          "today": [
+            "AT",
+            "HU"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Ottoman Empire",
+            "es": "Imperio otomano",
+            "zh": "奥斯曼帝国"
+          },
+          "role": "belligerent",
+          "today": [
+            "TR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Bulgaria (from 1915)",
+            "es": "Reino de Bulgaria (desde 1915)",
+            "zh": "保加利亚王国（1915年起）"
+          },
+          "role": "belligerent",
+          "today": [
+            "BG"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "assassination-in-sarajevo",
+      "start": 1914,
+      "title": {
+        "en": "28 June: Gavrilo Princip shoots dead Archduke Franz Ferdinand in Sarajevo; on 28 July Austria-Hungary declares war on Serbia",
+        "es": "28 de junio: Gavrilo Princip mata a tiros al archiduque Francisco Fernando en Sarajevo; el 28 de julio Austria-Hungría declara la guerra a Serbia",
+        "zh": "6月28日：加夫里洛·普林西普在萨拉热窝枪杀弗朗茨·斐迪南大公；7月28日奥匈帝国向塞尔维亚宣战"
+      },
+      "sources": [
+        {
+          "citation": "\"World War I.\" EBSCO Research Starters: Diplomacy and International Relations.",
+          "url": "https://www.ebsco.com/research-starters/diplomacy-and-international-relations/world-war-i"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War I.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_I"
+        },
+        {
+          "citation": "Wikipedia (español). \"Atentado de Sarajevo.\"",
+          "url": "https://es.wikipedia.org/wiki/Atentado_de_Sarajevo"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Sarajevo",
+          "es": "Sarajevo",
+          "zh": "萨拉热窝"
+        },
+        "lat": 43.858,
+        "lon": 18.429
+      },
+      "wikidataId": "Q192050"
+    },
+    {
+      "id": "battle-of-tannenberg",
+      "start": 1914,
+      "title": {
+        "en": "Late August: German forces encircle and destroy much of the Russian Second Army at Tannenberg in East Prussia",
+        "es": "Finales de agosto: fuerzas alemanas cercan y destruyen gran parte del Segundo Ejército ruso en Tannenberg, en Prusia Oriental",
+        "zh": "8月下旬：德军在东普鲁士坦能堡包围并歼灭俄国第二集团军大部"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"World War I.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_I"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Tannenberg.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Tannenberg"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla de Tannenberg (1914).\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_Tannenberg_(1914)"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Tannenberg, East Prussia (now Stębark, Poland)",
+          "es": "Tannenberg, Prusia Oriental (hoy Stębark, Polonia)",
+          "zh": "东普鲁士坦能堡（今波兰斯滕巴尔克）"
+        },
+        "lat": 53.496,
+        "lon": 20.136
+      },
+      "wikidataId": "Q153858"
+    },
+    {
+      "id": "first-battle-of-the-marne",
+      "start": 1914,
+      "title": {
+        "en": "September: French and British forces stop the German advance on the Marne, east of Paris; both sides dig in along a front from the Channel to Switzerland",
+        "es": "Septiembre: fuerzas francesas y británicas detienen el avance alemán en el Marne, al este de París; ambos bandos se atrincheran en un frente desde el canal de la Mancha hasta Suiza",
+        "zh": "9月：法英军队在巴黎以东的马恩河挡住德军推进；双方沿英吉利海峡至瑞士的战线掘壕对峙"
+      },
+      "sources": [
+        {
+          "citation": "\"World War I.\" EBSCO Research Starters: Diplomacy and International Relations.",
+          "url": "https://www.ebsco.com/research-starters/diplomacy-and-international-relations/world-war-i"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War I.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_I"
+        },
+        {
+          "citation": "Wikipedia (español). \"Primera batalla del Marne.\"",
+          "url": "https://es.wikipedia.org/wiki/Primera_batalla_del_Marne"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "The Marne, near Château-Thierry",
+          "es": "El Marne, cerca de Château-Thierry",
+          "zh": "马恩河（蒂耶里堡附近）"
+        },
+        "lat": 49.017,
+        "lon": 3.383
+      },
+      "wikidataId": "Q190712"
+    },
+    {
+      "id": "gallipoli-campaign",
+      "start": 1915,
+      "end": 1916,
+      "title": {
+        "en": "April 1915 – January 1916: British, French, Australian and New Zealand troops land on the Gallipoli peninsula to open the straits to Constantinople; Ottoman forces hold them, and they withdraw",
+        "es": "Abril de 1915 – enero de 1916: tropas británicas, francesas, australianas y neozelandesas desembarcan en la península de Galípoli para abrir los estrechos hacia Constantinopla; las fuerzas otomanas las contienen y se retiran",
+        "zh": "1915年4月至1916年1月：英国、法国、澳大利亚和新西兰部队在加里波利半岛登陆，企图打通通往君士坦丁堡的海峡；奥斯曼军队将其挡住，联军撤离"
+      },
+      "sources": [
+        {
+          "citation": "\"World War I.\" EBSCO Research Starters: Diplomacy and International Relations.",
+          "url": "https://www.ebsco.com/research-starters/diplomacy-and-international-relations/world-war-i"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War I.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_I"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gallipoli campaign.\"",
+          "url": "https://en.wikipedia.org/wiki/Gallipoli_campaign"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Gallipoli peninsula",
+          "es": "Península de Galípoli",
+          "zh": "加里波利半岛"
+        },
+        "lat": 40.237,
+        "lon": 26.277
+      },
+      "wikidataId": "Q164983"
+    },
+    {
+      "id": "battle-of-verdun",
+      "start": 1916,
+      "title": {
+        "en": "21 February – 18 December: German forces attack the French fortress city of Verdun; ten months of fighting end without a German breakthrough",
+        "es": "21 de febrero – 18 de diciembre: fuerzas alemanas atacan la ciudad fortificada francesa de Verdún; diez meses de combates terminan sin que los alemanes rompan el frente",
+        "zh": "2月21日至12月18日：德军进攻法国要塞城市凡尔登；十个月的战斗以德军未能突破告终"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"World War I.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_I"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Verdun.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Verdun"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla de Verdún.\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_Verdún"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Verdun",
+          "es": "Verdún",
+          "zh": "凡尔登"
+        },
+        "lat": 49.16,
+        "lon": 5.383
+      },
+      "wikidataId": "Q130847"
+    },
+    {
+      "id": "battle-of-the-somme",
+      "start": 1916,
+      "title": {
+        "en": "1 July – 18 November: British and French forces attack on the Somme; the battle ends with gains of a few kilometres and more than a million casualties on both sides",
+        "es": "1 de julio – 18 de noviembre: fuerzas británicas y francesas atacan en el Somme; la batalla termina con avances de pocos kilómetros y más de un millón de bajas entre ambos bandos",
+        "zh": "7月1日至11月18日：英法军队在索姆河发动进攻；战役结束时仅推进数公里，双方伤亡逾百万"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"World War I.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_I"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of the Somme.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Somme"
+        },
+        {
+          "citation": "Wikipedia (español). \"Batalla del Somme.\"",
+          "url": "https://es.wikipedia.org/wiki/Batalla_del_Somme"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "The Somme, near Albert",
+          "es": "El Somme, cerca de Albert",
+          "zh": "索姆河（阿尔贝附近）"
+        },
+        "lat": 50.016,
+        "lon": 2.697
+      },
+      "wikidataId": "Q132568"
+    },
+    {
+      "id": "treaty-of-brest-litovsk",
+      "start": 1918,
+      "title": {
+        "en": "3 March: Soviet Russia signs the Treaty of Brest-Litovsk with the Central Powers, leaving the war and giving up Poland, the Baltic lands and Ukraine",
+        "es": "3 de marzo: la Rusia soviética firma con las Potencias Centrales el Tratado de Brest-Litovsk, sale de la guerra y renuncia a Polonia, los territorios bálticos y Ucrania",
+        "zh": "3月3日：苏维埃俄国与同盟国签订《布列斯特-立托夫斯克和约》，退出战争，放弃波兰、波罗的海地区和乌克兰"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"World War I.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_I"
+        },
+        {
+          "citation": "Wikipedia (English). \"Treaty of Brest-Litovsk.\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk"
+        },
+        {
+          "citation": "Wikipedia (español). \"Tratado de Brest-Litovsk.\"",
+          "url": "https://es.wikipedia.org/wiki/Tratado_de_Brest-Litovsk"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Brest-Litovsk (now Brest, Belarus)",
+          "es": "Brest-Litovsk (hoy Brest, Bielorrusia)",
+          "zh": "布列斯特-立托夫斯克（今白俄罗斯布列斯特）"
+        },
+        "lat": 52.085,
+        "lon": 23.657
+      },
+      "wikidataId": "Q122371"
+    },
+    {
+      "id": "armistice-of-compiegne",
+      "start": 1918,
+      "title": {
+        "en": "11 November: Germany signs the armistice with the Allies in a railway carriage in the forest of Compiègne, and the fighting stops",
+        "es": "11 de noviembre: Alemania firma el armisticio con los Aliados en un vagón de tren en el bosque de Compiègne y cesan los combates",
+        "zh": "11月11日：德国在贡比涅森林的一节火车车厢里与协约国签署停战协定，战斗停止"
+      },
+      "sources": [
+        {
+          "citation": "\"World War I.\" EBSCO Research Starters: Diplomacy and International Relations.",
+          "url": "https://www.ebsco.com/research-starters/diplomacy-and-international-relations/world-war-i"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War I.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_I"
+        },
+        {
+          "citation": "Wikipedia (español). \"Armisticio del 11 de noviembre de 1918.\"",
+          "url": "https://es.wikipedia.org/wiki/Armisticio_del_11_de_noviembre_de_1918"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Compiègne",
+          "es": "Compiègne",
+          "zh": "贡比涅"
+        },
+        "lat": 49.428,
+        "lon": 2.906
+      },
+      "wikidataId": "Q253224"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Georges Clemenceau",
+        "es": "Georges Clemenceau",
+        "zh": "乔治·克列孟梭"
+      },
+      "side": "allies",
+      "role": {
+        "en": "Prime Minister of France from 1917",
+        "es": "Primer ministro de Francia desde 1917",
+        "zh": "1917年起任法国总理"
+      },
+      "wikidataId": "Q171730"
+    },
+    {
+      "name": {
+        "en": "Ferdinand Foch",
+        "es": "Ferdinand Foch",
+        "zh": "费迪南·福煦"
+      },
+      "side": "allies",
+      "role": {
+        "en": "Supreme commander of the Allied armies in 1918",
+        "es": "Comandante supremo de los ejércitos aliados en 1918",
+        "zh": "1918年任协约国军队最高统帅"
+      },
+      "wikidataId": "Q192615"
+    },
+    {
+      "name": {
+        "en": "David Lloyd George",
+        "es": "David Lloyd George",
+        "zh": "大卫·劳合·乔治"
+      },
+      "side": "allies",
+      "role": {
+        "en": "Prime Minister of the United Kingdom from 1916",
+        "es": "Primer ministro del Reino Unido desde 1916",
+        "zh": "1916年起任英国首相"
+      },
+      "wikidataId": "Q134982"
+    },
+    {
+      "name": {
+        "en": "Nicholas II",
+        "es": "Nicolás II de Rusia",
+        "zh": "尼古拉二世"
+      },
+      "side": "allies",
+      "role": {
+        "en": "Emperor of Russia until 1917",
+        "es": "Emperador de Rusia hasta 1917",
+        "zh": "俄国皇帝，至1917年"
+      },
+      "wikidataId": "Q40787"
+    },
+    {
+      "name": {
+        "en": "Woodrow Wilson",
+        "es": "Woodrow Wilson",
+        "zh": "伍德罗·威尔逊"
+      },
+      "side": "allies",
+      "role": {
+        "en": "President of the United States",
+        "es": "Presidente de Estados Unidos",
+        "zh": "美国总统"
+      },
+      "wikidataId": "Q34296"
+    },
+    {
+      "name": {
+        "en": "Wilhelm II",
+        "es": "Guillermo II de Alemania",
+        "zh": "威廉二世"
+      },
+      "side": "central-powers",
+      "role": {
+        "en": "German Emperor",
+        "es": "Emperador alemán",
+        "zh": "德意志皇帝"
+      },
+      "wikidataId": "Q2677"
+    },
+    {
+      "name": {
+        "en": "Paul von Hindenburg",
+        "es": "Paul von Hindenburg",
+        "zh": "保罗·冯·兴登堡"
+      },
+      "side": "central-powers",
+      "role": {
+        "en": "Chief of the German General Staff from 1916",
+        "es": "Jefe del Estado Mayor alemán desde 1916",
+        "zh": "1916年起任德军总参谋长"
+      },
+      "wikidataId": "Q2667"
+    },
+    {
+      "name": {
+        "en": "Franz Joseph I",
+        "es": "Francisco José I de Austria",
+        "zh": "弗朗茨·约瑟夫一世"
+      },
+      "side": "central-powers",
+      "role": {
+        "en": "Emperor of Austria and King of Hungary until his death in 1916",
+        "es": "Emperador de Austria y rey de Hungría hasta su muerte en 1916",
+        "zh": "奥地利皇帝兼匈牙利国王，1916年去世"
+      },
+      "wikidataId": "Q51056"
+    },
+    {
+      "name": {
+        "en": "Enver Pasha",
+        "es": "Enver Bajá",
+        "zh": "恩维尔·帕夏"
+      },
+      "side": "central-powers",
+      "role": {
+        "en": "Ottoman minister of war",
+        "es": "Ministro de Guerra otomano",
+        "zh": "奥斯曼帝国陆军大臣"
+      },
+      "wikidataId": "Q153899"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "military-deaths",
+      "low": 8500000,
+      "high": 11000000,
+      "sources": [
+        {
+          "citation": "\"World War I.\" EBSCO Research Starters: Diplomacy and International Relations.",
+          "url": "https://www.ebsco.com/research-starters/diplomacy-and-international-relations/world-war-i"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War I casualties.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_I_casualties"
+        },
+        {
+          "citation": "Wikipedia (English). \"World War I.\"",
+          "url": "https://en.wikipedia.org/wiki/World_War_I"
+        }
+      ],
+      "note": {
+        "en": "Soldiers of all belligerents who died of all causes, including disease and captivity; EBSCO gives about 8.5 million, other estimates run to 11 million. Civilian deaths from fighting, hunger, disease and the Armenian genocide add millions more, and the 1918 influenza pandemic is usually counted separately.",
+        "es": "Soldados de todos los beligerantes muertos por cualquier causa, incluidas la enfermedad y el cautiverio; EBSCO da unos 8,5 millones y otras estimaciones llegan a 11 millones. Las muertes de civiles por los combates, el hambre, las enfermedades y el genocidio armenio suman millones más, y la pandemia de gripe de 1918 suele contarse aparte.",
+        "zh": "各参战国因各种原因（包括疾病和被俘）死亡的军人；EBSCO给出约850万人，其他估计高达1100万人。平民因战斗、饥饿、疾病和亚美尼亚种族灭绝死亡者另有数百万，1918年流感大流行通常单独计算。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "citation": "\"World War I.\" EBSCO Research Starters: Diplomacy and International Relations.",
+      "url": "https://www.ebsco.com/research-starters/diplomacy-and-international-relations/world-war-i"
+    },
+    {
+      "citation": "Wikipedia (English). \"World War I.\"",
+      "url": "https://en.wikipedia.org/wiki/World_War_I"
+    },
+    {
+      "citation": "Wikipedia (español). \"Primera Guerra Mundial.\"",
+      "url": "https://es.wikipedia.org/wiki/Primera_Guerra_Mundial"
+    },
+    {
+      "citation": "Wikipedia (中文). \"第一次世界大战.\"",
+      "url": "https://zh.wikipedia.org/wiki/第一次世界大战"
+    },
+    {
+      "citation": "Wikipedia (English). \"World War I casualties.\"",
+      "url": "https://en.wikipedia.org/wiki/World_War_I_casualties"
+    }
+  ]
+}
