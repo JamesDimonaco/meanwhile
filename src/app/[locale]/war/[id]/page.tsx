@@ -71,6 +71,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
   if (!isShownIn(war, locale)) notFound();
   const t = await getTranslations("wars");
   const tCommon = await getTranslations("common");
+  const tMap = await getTranslations("map");
   const cultures = loadCultures();
   const shown = warsShownIn(loadWars(), locale);
   const span = warSpan(war);
@@ -131,7 +132,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
           href={{ pathname: "/timeline", query: { year: String(span.start) } }}
           className="self-start text-sm underline underline-offset-2"
         >
-          {t("onTimeline")}
+          {tMap("onTimeline")}
         </Link>
         {locale !== "en" && !war.reviewed[locale] && (
           <p className="text-xs text-muted-foreground">{tCommon("machineTranslated")}</p>
@@ -214,7 +215,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
       {candidates.length > 0 && (
         <section className="flex flex-col gap-3">
           <h2 className="text-lg font-semibold tracking-tight">
-            {t.rich("meanwhile", { year: () => <YearText year={span.start} /> })}
+            {tMap.rich("elsewhere", { year: () => <YearText year={span.start} /> })}
           </h2>
           <MeanwhileCards
             anchor={null}
