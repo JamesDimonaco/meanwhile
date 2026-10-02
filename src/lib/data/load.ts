@@ -3,7 +3,8 @@ import path from "node:path";
 import countries from "flag-icons/country.json";
 import type { Locale } from "@/i18n/locales";
 import { readJsonFiles } from "./files";
-import { validateHeartland } from "./heartland";
+import type { Heartland } from "./country";
+import { Today, validateHeartland } from "./heartland";
 import { Registry, type Borders, type Culture, type SuccessionLink } from "./schema";
 import { validateDataset, type DatasetResult } from "./validate";
 import type { War } from "./war-schema";
@@ -86,6 +87,15 @@ let gapsCache: Record<string, Locale[]> | undefined;
 export function loadLocaleGaps(): Record<string, Locale[]> {
   gapsCache ??= localeGaps(loadAllWars());
   return gapsCache;
+}
+
+let heartlandCache: Heartland | undefined;
+
+/** data/today.json, after the dataset has passed validation. */
+export function loadHeartland(): Heartland {
+  dataset();
+  heartlandCache ??= Today.parse(readJson("today.json"));
+  return heartlandCache;
 }
 
 /** A culture or war id: both keep their maps in data/borders. */
