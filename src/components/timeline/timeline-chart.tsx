@@ -10,7 +10,7 @@ import { useSettings } from "@/components/settings/use-settings";
 import { YearText } from "@/components/settings/year-text";
 import { Button } from "@/components/ui/button";
 import type { TimelineRow } from "./timeline-layout";
-import { MAX_PX_PER_YEAR, MIN_PX_PER_YEAR, axisTicks, clampYear, clampZoom, fitZoom, yearStepForKey } from "./timeline-math";
+import { MAX_PX_PER_YEAR, MIN_PX_PER_YEAR, axisTicks, clampYear, clampZoom, fitZoom, tickAnchor, yearStepForKey } from "./timeline-math";
 import { FadeGradients, REGION_COLOR, WAR_COLOR } from "./timeline-row";
 
 const NAME_COL_WIDTH = 112;
@@ -222,7 +222,7 @@ export function TimelineChart<T, G>({
             </defs>
             <g className="fill-muted-foreground text-[10px]">
               {ticks.map((tick) => (
-                <text key={tick} x={xScale(tick)} y={AXIS_SPACE / 2} dy="0.35em" textAnchor="middle">
+                <text key={tick} x={xScale(tick)} y={AXIS_SPACE / 2} dy="0.35em" textAnchor={tickAnchor(xScale(tick), chartWidth)}>
                   {formatYear(tick, locale, eraStyle)}
                 </text>
               ))}

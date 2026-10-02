@@ -68,6 +68,16 @@ export function axisTicks(domain: [number, number], count: number): number[] {
     .filter((t) => t >= domain[0] && t <= domain[1]);
 }
 
+/** Half the widest axis label ("公元前1000年" at 10px), in pixels. */
+export const TICK_EDGE = 40;
+
+/** A tick's label anchor: centred, except where centring would push it out of the chart. */
+export function tickAnchor(x: number, width: number): "start" | "middle" | "end" {
+  if (x < TICK_EDGE) return "start";
+  if (x > width - TICK_EDGE) return "end";
+  return "middle";
+}
+
 /** Years moved per Page Up/Down press on the year line. */
 export const YEAR_STEP_PAGE = 10;
 

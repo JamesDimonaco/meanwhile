@@ -3,9 +3,11 @@ import type { TimelineCulture } from "./timeline-layout";
 import {
   MAX_PX_PER_YEAR,
   MIN_PX_PER_YEAR,
+  TICK_EDGE,
   YEAR_STEP_PAGE,
   activeCultures,
   axisTicks,
+  tickAnchor,
   barSegments,
   clampYear,
   BAR_HIT_WIDTH,
@@ -231,6 +233,23 @@ describe("axisTicks", () => {
       expect(t).toBeGreaterThanOrEqual(-4099);
       expect(t).toBeLessThanOrEqual(1912);
     }
+  });
+});
+
+describe("tickAnchor", () => {
+  // "1850 CE" centred on a tick 2px from the edge loses its first half to the scroll box.
+  it("keeps a label near either edge inside the chart", () => {
+    expect(tickAnchor(2, 300)).toBe("start");
+    expect(tickAnchor(298, 300)).toBe("end");
+  });
+
+  it("centres every other label on its tick", () => {
+    expect(tickAnchor(TICK_EDGE, 300)).toBe("middle");
+    expect(tickAnchor(300 - TICK_EDGE, 300)).toBe("middle");
+  });
+
+  it("gives a label 40px, room for half of \"公元前1000年\", before it counts as at the edge", () => {
+    expect(TICK_EDGE).toBe(40);
   });
 });
 
