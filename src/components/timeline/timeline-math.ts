@@ -14,9 +14,9 @@ export type BarSegment =
   | { kind: "phase"; start: number; end: number; phaseId: string };
 
 /**
- * The bar for one culture: a fuzzy fade across each edge's uncertainty
- * window, and a solid middle - or, when phases exist (Rome), the middle
- * replaced by one segment per phase. A window with no width (a sharp edge,
+ * The bar for one culture or war: a fuzzy fade across each edge's
+ * uncertainty window, and a solid middle - or, when phases exist (Rome), the
+ * middle replaced by one segment per phase. A window with no width (a sharp edge,
  * or fuzzy windows that overlap and leave no solid gap) is dropped rather
  * than drawn as a zero-width segment.
  */
@@ -26,7 +26,12 @@ export function barSegments(period: PeriodBounds, phases: readonly PhaseBounds[]
     segments.push({ kind: "fade-in", start: period.earliestStart, end: period.latestStart });
   }
   if (phases.length > 0) {
-    for (const phase of phases) segments.push({ kind: "phase", start: phase.start, end: phase.end, phaseId: phase.id });
+    for (const phase of phases) {
+      // Clipped to the solid middle: a phase drawn over a fade would hide that edge's uncertainty.
+      const start = Math.max(phase.start, period.latestStart);
+      const end = Math.min(phase.end, period.earliestEnd);
+      if (start < end) segments.push({ kind: "phase", start, end, phaseId: phase.id });
+    }
   } else if (period.latestStart < period.earliestEnd) {
     segments.push({ kind: "solid", start: period.latestStart, end: period.earliestEnd });
   }

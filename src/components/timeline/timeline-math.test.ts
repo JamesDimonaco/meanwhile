@@ -55,6 +55,31 @@ describe("barSegments", () => {
       { kind: "phase", start: -27, end: 476, phaseId: "empire" },
     ]);
   });
+
+  it("starts the first phase after a fuzzy start and ends the last before a fuzzy end, so the fades still show", () => {
+    // The Vietnam War's start is 1955 or 1960 and its first phase begins in 1955.
+    const phases = [
+      { id: "early", start: 1955, end: 1965 },
+      { id: "late", start: 1965, end: 1976 },
+    ];
+    expect(barSegments({ earliestStart: 1955, latestStart: 1960, earliestEnd: 1974, latestEnd: 1976 }, phases)).toEqual([
+      { kind: "fade-in", start: 1955, end: 1960 },
+      { kind: "phase", start: 1960, end: 1965, phaseId: "early" },
+      { kind: "phase", start: 1965, end: 1974, phaseId: "late" },
+      { kind: "fade-out", start: 1974, end: 1976 },
+    ]);
+  });
+
+  it("drops a phase that lies wholly inside a fade", () => {
+    const phases = [
+      { id: "prelude", start: 1955, end: 1958 },
+      { id: "war", start: 1958, end: 1976 },
+    ];
+    expect(barSegments({ earliestStart: 1955, latestStart: 1960, earliestEnd: 1976, latestEnd: 1976 }, phases)).toEqual([
+      { kind: "fade-in", start: 1955, end: 1960 },
+      { kind: "phase", start: 1960, end: 1976, phaseId: "war" },
+    ]);
+  });
 });
 
 describe("computeYearDomain", () => {
