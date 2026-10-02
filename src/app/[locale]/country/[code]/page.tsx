@@ -56,6 +56,7 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
   const overlaps = overlapping(items);
   const cultureNames = Object.fromEntries(cultures.map((c) => [c.id, localize(c.name, locale)]));
   const cultureCount = items.filter((i) => i.kind === "culture").length;
+  const warCount = items.length - cultureCount;
 
   return (
     <section className="mx-auto flex w-full max-w-3xl flex-col gap-6 pt-4">
@@ -67,8 +68,8 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
           <CountryFlag code={upper} />
           {country}
         </h1>
-        <p className="font-medium">{t("summary", { cultures: cultureCount, wars: items.length - cultureCount })}</p>
-        <p className="text-sm text-muted-foreground">{t("intro", { country })}</p>
+        <p className="font-medium">{t("summary", { cultures: cultureCount, wars: warCount })}</p>
+        <p className="text-sm text-muted-foreground">{t("intro", { country, cultures: cultureCount, wars: warCount })}</p>
       </header>
 
       <section className="flex flex-col gap-3">

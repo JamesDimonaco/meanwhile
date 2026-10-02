@@ -1,4 +1,7 @@
+import { createTranslator } from "next-intl";
 import { describe, expect, it, vi } from "vitest";
+import { LOCALES } from "@/i18n/locales";
+import { loadMessages } from "@/i18n/messages";
 import { NEVER_SHOWN } from "@/lib/data/countries";
 import { generateMetadata, generateStaticParams } from "./page";
 
@@ -35,5 +38,24 @@ describe("country pages", () => {
     expect(meta.title).toBe('title{"country":"South Korea"}');
     expect(Object.keys(meta.alternates?.languages ?? {})).toEqual(["en", "x-default"]);
     expect(meta.openGraph?.images).toEqual([expect.objectContaining({ url: "/en/opengraph-image/" })]);
+  });
+});
+
+describe("the intro line", () => {
+  const intro = async (locale: (typeof LOCALES)[number], cultures: number, wars: number) =>
+    createTranslator({ locale, messages: await loadMessages(locale) })("country.intro", { country: "X", cultures, wars });
+
+  it("names only what the page lists", async () => {
+    expect(await intro("en", 0, 2)).toBe("Wars fought on the land of today's X or by its peoples.");
+    expect(await intro("en", 1, 0)).toBe("Civilisations whose heartland lies in today's X.");
+    expect(await intro("en", 2, 3)).toBe("Civilisations whose heartland lies in today's X, and wars fought on its land or by its peoples.");
+  });
+
+  // Ukraine and Vietnam list wars only; Bolivia a civilisation only.
+  it.each(LOCALES)("in %s, never mentions civilisations on a wars-only page, or wars on a civilisations-only page", async (locale) => {
+    const messages = await loadMessages(locale);
+    const t = createTranslator({ locale, messages });
+    expect((await intro(locale, 0, 2)).toLowerCase()).not.toContain(t("country.cultures").toLowerCase());
+    expect((await intro(locale, 1, 0)).toLowerCase()).not.toContain(t("country.wars").toLowerCase());
   });
 });

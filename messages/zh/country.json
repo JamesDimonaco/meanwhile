@@ -2,7 +2,7 @@
   "title": "{country}：文明与战争",
   "metaDescription": "今日{country}境内的所有文明与战争，按时间顺序排在同一条时间线上，并标出哪些同时发生。",
   "summary": "{cultures, plural, =0 {{wars, plural, other {#场战争}}} other {#个文明{wars, plural, =0 {} other {，#场战争}}}}",
-  "intro": "核心地区位于今日{country}的文明，以及在其土地上或由其人民进行的战争。",
+  "intro": "{cultures, plural, =0 {在今日{country}土地上或由其人民进行的战争。} other {核心地区位于今日{country}的文明{wars, plural, =0 {。} other {，以及在其土地上或由其人民进行的战争。}}}}",
   "timeline": "时间线",
   "list": "按时间顺序",
   "cultures": "文明",
