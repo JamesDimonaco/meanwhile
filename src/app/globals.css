@@ -108,12 +108,13 @@
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
+  /* Region colours (REGION_COLOR), each at least 3:1 on the background in
+     both themes (globals.test.ts). No fifth grey clears that while staying
+     apart from the other four, so africa gets a hue. */
+  --chart-1: oklch(0.65 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
-  /* Region colours (REGION_COLOR). No fifth grey clears 3:1 on both themes'
-     backgrounds while staying apart from the other four, so africa gets a hue. */
   --chart-5: oklch(0.6 0.12 160);
   /* Compare screen, one per culture slot (blue, orange, purple: apart for
      colour-blind eyes too). At least 4.5:1 on background, card and muted. */
@@ -154,9 +155,9 @@
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.556 0 0);
   --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
+  --chart-2: oklch(0.75 0 0);
+  --chart-3: oklch(0.63 0 0);
+  --chart-4: oklch(0.51 0 0);
   --chart-5: oklch(0.6 0.12 160);
   --compare-1: oklch(0.75 0.12 245);
   --compare-2: oklch(0.78 0.13 60);
