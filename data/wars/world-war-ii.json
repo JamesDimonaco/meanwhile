@@ -103,9 +103,9 @@
         {
           "kind": "polity",
           "name": {
-            "en": "Republic of China (1912–1949)",
-            "es": "República de China (1912-1949)",
-            "zh": "中华民国（1912年—1949年）"
+            "en": "Republic of China (Nationalist government)",
+            "es": "República de China (gobierno nacionalista)",
+            "zh": "中华民国国民政府"
           },
           "role": "belligerent",
           "today": [
