@@ -34,16 +34,17 @@ src/app/[locale]/timeline/page.tsx   world timeline; year in ?year= (astronomica
 src/app/[locale]/credits/page.tsx    sources and licences
 src/app/[locale]/compare/page.tsx    compare 2 cultures (3 from 768px); ids in ?ids=a,b, read client-side
 src/app/[locale]/wars/page.tsx       countries with wars: flags, search over countries and wars, continent chips
-src/app/[locale]/wars/[country]/     one country's wars (lowercase ISO code), oldest first
+src/app/[locale]/country/[code]/     one country (lowercase ISO code): its civilisations and wars on one timeline, then a list, oldest first, with what overlapped
 src/app/[locale]/war/[id]/page.tsx   one war: dates, phases, sides, account, map and events, leaders, deaths, links back (share image: opengraph-image.tsx, gated like the page)
 src/app/culture-data/[file]/route.ts static /culture-data/<id>.json per culture: what compare fetches
 src/i18n/                            locales, routing, navigation, request config, pageLocale()
 src/lib/years.ts                     all year maths and formatting
 src/lib/scan/                        model answer -> destination, upload checks, catalogue prompt, rate limit, the model call
-src/lib/data/                        schema.ts (zod + types), load.ts (fs; build-time, except the scan route's unvalidated catalogue read), queries.ts, localize.ts, validate.ts; wars: war-schema.ts, validate-wars.ts, wars.ts (queries, review gate), countries.ts (UN members, never-shown codes), contested.ts (pin guard, server only)
+src/lib/data/                        schema.ts (zod + types), load.ts (fs; build-time, except the scan route's unvalidated catalogue read), queries.ts, localize.ts, validate.ts; wars: war-schema.ts, validate-wars.ts, wars.ts (queries, review gate), country.ts (country pages, overlap, locale gaps), countries.ts (UN members, never-shown codes), contested.ts (pin guard, server only)
 src/components/filters/              region chips + filter state (?regions= on the timeline, localStorage elsewhere)
-src/components/identity/             HeartlandFlags, CountryFlag, RegionDot
+src/components/identity/             HeartlandFlags, CountryFlag, CountryLink (flag + name linking to the country page), RegionDot
 src/components/wars/                 WarRow, SideList, WarDates, WarBar (phase bar), Casualties, CountryList
+src/components/country/              CountryTimeline (on TimelineChart), CountryItemCard
 src/components/<area>/               see Ownership
 src/components/ui/                   shadcn components (base-nova, RTL-aware)
 ```
@@ -74,7 +75,7 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 
 ## Wars
 
-A Wars tab (footer, beside Timeline): pick a present-day country, see its wars oldest first, open a war. Every war links back into the timeline, culture pages and meanwhile cards. `data/wars/spanish-conquest-of-the-aztec-empire.json` is the reference file: copy its shape. `src/lib/data/war-schema.ts` is the source of truth for field names.
+A Wars tab (footer, beside Timeline): pick a present-day country, open its country page, open a war. Every war links back into the timeline, culture pages and meanwhile cards. `data/wars/spanish-conquest-of-the-aztec-empire.json` is the reference file: copy its shape. `src/lib/data/war-schema.ts` is the source of truth for field names.
 
 ### File shape (`data/wars/<id>.json`, id = file name, kebab-case)
 
@@ -140,7 +141,7 @@ Not caught: a BCE war shifted by one year throughout (period and events entered 
 6. **Maps**: polygons only for flagship wars that end before 1800 (Cliopatria via `pnpm borders`). Every other war: pins on plain world land. No country borders, no front lines, no polygons.
 7. **Falklands**: en "Falklands War", es "Guerra de las Malvinas", zh 福克兰战争.
 8. **Ongoing wars**: `ongoing` with an `asOf` date shown on screen; figures re-checked by hand each quarter.
-9. **Review gate**: a `sensitive` war whose `reviewed.es` / `reviewed.zh` is false does not exist in that language: no page, no country-page row, no culture-page row, no search hit, no sitemap entry, no before/after link, and the language switcher sends that language to the wars list instead (a page in that language never carries the war's id). English always shows. `isShownIn` / `warsShownIn` in `wars.ts` are the only way in; pages get wars through `loadWars(locale)`, which applies them. `loadAllWars()` (every war, ungated) is for the sitemap, locale gaps, the borders route, scripts and tests only, and a test fails if any other page or component reads it. Sensitive in v1 (`SENSITIVE_WARS` in `war-review.ts`, which only James edits): `korean-war`, `second-sino-japanese-war` (incl. Nanjing), `vietnam-war`, `russo-ukrainian-war`, `russo-ukrainian-war-2022`, `falklands-war`. Signing a language off takes both James's `REVIEWED` entry there and the file's `reviewed` flag.
+9. **Review gate**: a `sensitive` war whose `reviewed.es` / `reviewed.zh` is false does not exist in that language: no page, no row, bar or year-panel entry on a country page, no culture-page row, no search hit, no sitemap entry, no before/after link, and the language switcher sends that language to the wars list instead (a page in that language never carries the war's id). English always shows. `isShownIn` / `warsShownIn` in `wars.ts` are the only way in; pages get wars through `loadWars(locale)`, which applies them. `loadAllWars()` (every war, ungated) is for the sitemap, locale gaps, the borders route, scripts and tests only, and a test fails if any other page or component reads it. Sensitive in v1 (`SENSITIVE_WARS` in `war-review.ts`, which only James edits): `korean-war`, `second-sino-japanese-war` (incl. Nanjing), `vietnam-war`, `russo-ukrainian-war`, `russo-ukrainian-war-2022`, `falklands-war`. Signing a language off takes both James's `REVIEWED` entry there and the file's `reviewed` flag.
 10. **Opium Wars**: two files, `first-opium-war` (Q191282) and `second-opium-war` (Q418151, `follows: "first-opium-war"`), both flagship, pins only. Wikidata's "Opium Wars" (Q220984) is a series of wars with a 14-year gap, not one war.
 
 ### Open calls (defaults until James decides, 2026-10-02)
@@ -187,18 +188,27 @@ These follow the decisions above where they reach; James may change them at revi
 4. `pnpm validate-data`, `pnpm test`, then look at `/en/war/<id>/` and `/zh/war/<id>/` (a sensitive war has no zh page until James reviews it: check `/en/` only).
 5. BCE wars: check every year against the sources and Wikidata P580/P582 by hand; validation can't see a consistent off-by-one.
 
+## Country pages
+
+`/[locale]/country/<code>/` exists in a language when a civilisation's heartland (`data/today.json`) or a war shown in that language (`loadWars(locale)`) lists the country: UN members only, never a `NEVER_SHOWN` code. A country whose only entries are gated wars has an English page only; `localeGaps` keeps the language switcher and sitemap off the missing ones. Flags outside another link (war sides, the culture page's heartland line) are `CountryLink`s; a test checks every listable heartland and war-state code has a page wherever it shows.
+
+- **Overlap**: two items overlap when their solid spans (`latestStart`..`earliestEnd`; a war's period the same way, an ongoing war solid to its `asOf` year) share at least one year, so fuzzy edges alone never join consecutive dynasties (Qin and Han don't overlap).
+- **Timeline**: `TimelineChart` (`src/components/timeline/timeline-chart.tsx`) is the machinery the world timeline and the country timeline share: year bar and zoom, frozen name column, scrolling axis, draggable year line. `useYearParam` keeps `?year=`. A country's chart opens fitted to its span (`fit`, never zooming out past it); every bar is at least `MIN_BAR_WIDTH` wide with a `BAR_HIT_WIDTH` tap target and opens its page. Wars are drawn in `--war` (`globals.css`, light and dark).
+- **Payload**: the client gets `TimelineBar`s only (id, name, region, years, phases, `asOf`); the list cards render on the server. `client-payloads.test.ts` checks both and the gate.
+
 ## Queries (`src/lib/data/queries.ts`)
 
 - `activeAt(cultures, year)`: cultures whose outer range contains the year; `certain` when inside the solid part.
 - `meanwhile(anchor, cultures)`: 4–6 cards (`MIN_MEANWHILE_CARDS`, `MAX_MEANWHILE_CARDS`), one region at a time, anchor's own region last, deterministic. It is `pickMeanwhile(meanwhileCandidates(...))`; the culture page sends the light candidates to the client so the region filter can re-pick.
 - `meanwhileAtYear(year, cultures, exclude)`: the same candidates and cards for one year (a war's start); `pickMeanwhile(candidates, null)` when there is no anchor region.
 - `eventsBetween(cultures, from, to)`, `eventWorld(culture, cultures)`, `toCultureRef`, `defaultPeriod`.
-- Wars (`wars.ts`): `isShownIn` / `warsShownIn` (the review gate), `warsForCountry`, `warsForCulture`, `countryIndex`, `localeGaps`, `warOuter`, `warSpan`.
+- Wars (`wars.ts`): `isShownIn` / `warsShownIn` (the review gate), `warsForCulture`, `countryIndex`, `warOuter`, `warSpan`.
+- Countries (`country.ts`): `countryCodes` (who gets a country page in a language), `countryItems`, `overlaps` / `overlapping`, `localeGaps`, `gapsOnPagesIn`.
 - `load.ts` uses `fs`: call it only from server components and scripts. Pass `CultureRef` / `Culture` props to client components, never whole datasets on pages that don't need them (weak signal).
 
 ## i18n and UI rules
 
-- No hard-coded user-facing text in UI or data. UI text lives in `messages/<locale>/<namespace>.json`; namespaces are `common, home, meanwhile, culture, timeline, explainer, map, credits, context, compare, scan, wars` (`src/i18n/namespaces.ts`). The English file defines the keys and their types; add a key to all three locales. ICU syntax for plurals and numbers.
+- No hard-coded user-facing text in UI or data. UI text lives in `messages/<locale>/<namespace>.json`; namespaces are `common, home, meanwhile, culture, timeline, explainer, map, credits, context, compare, scan, wars, country` (`src/i18n/namespaces.ts`). The English file defines the keys and their types; add a key to all three locales. ICU syntax for plurals and numbers.
 - Every page, layout and `generateMetadata` under `[locale]` starts with `const locale = await pageLocale(params)`. Link with `Link` from `@/i18n/navigation`, not `next/link`.
 - Numbers and years through `Intl` / `src/lib/years.ts`. Show native names beside translated ones with the `lang` attribute set.
 - Logical CSS only: `ms-/me-/ps-/pe-/start-/end-/text-start/border-s/rounded-s`. Lint rejects left/right Tailwind classes.
@@ -234,6 +244,7 @@ Stay inside your files. If you must touch a shared file, keep the change minimal
 | wars-asia-20c | `data/wars/{french-conquest-of-vietnam,first-indochina-war,vietnam-war,korean-war,second-sino-japanese-war,soviet-afghan-war}.json`. The first three are flagship, one story linked by `follows` |
 | wars-modern | `data/wars/{world-war-i,world-war-ii,iran-iraq-war,falklands-war,gulf-war,war-in-afghanistan-2001,iraq-war,russo-ukrainian-war,russo-ukrainian-war-2022}.json`. The last two are `ongoing`; russo-ukrainian-war-2022 `follows` russo-ukrainian-war |
 | James only | `src/lib/data/war-review.ts` (the sensitive list and review sign-offs) |
+| country | `src/app/[locale]/country/**`, `src/components/country/**`, messages `country` |
 | foundation (shared) | `src/lib/**` except `war-review.ts`, `src/i18n/**`, `src/app/[locale]/layout.tsx`, `src/app/(root)/**`, `src/app/globals.css`, `data/registry.json`, `scripts/**`, config, `package.json` |
 
 Contracts between areas: `CultureEvents` and `CultureStory` take the same props, `{ culture: Culture; eventWorld: EventWorld }`. `ExplainerProvider`/`useExplainer()` (`open(year?)`, `close()`) and `ExplainerTrigger` are rendered by the shared layout. `useSettings()` / `updateSettings()` live in `src/components/settings/use-settings.ts`. Adding a shadcn component (`pnpm dlx shadcn@4.21.0 add <name>`) writes to `src/components/ui/` and may change `package.json`: report both.
