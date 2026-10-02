@@ -6,7 +6,7 @@ import { validateHeartland } from "./heartland";
 import { Registry, type Borders, type Culture, type SuccessionLink } from "./schema";
 import { validateDataset, type DataFile, type DatasetResult } from "./validate";
 import type { War } from "./war-schema";
-import { localeGaps, warCountryCodes } from "./wars";
+import { localeGaps, warCountryCodes, warsShownIn } from "./wars";
 
 // Server only (fs). Pages call these at build time, in server components;
 // client components receive CultureRef/Culture props, never this module.
@@ -95,16 +95,21 @@ export function loadSuccession(): SuccessionLink[] {
   return dataset().succession;
 }
 
-/** Every war, sorted by id, review gate not applied: pass through warsShownIn before rendering. */
-export function loadWars(): War[] {
+/** The wars a page in this language may show (the review gate applied), sorted by id. */
+export function loadWars(locale: Locale): War[] {
+  return warsShownIn(dataset().wars, locale);
+}
+
+/** Every war in every language, gate not applied: for the sitemap, locale gaps, borders files, scripts and tests. */
+export function loadAllWars(): War[] {
   return dataset().wars;
 }
 
 let gapsCache: Record<string, Locale[]> | undefined;
 
-/** localeGaps(loadWars()), worked out once: the layout asks for it on every page in every locale. */
+/** localeGaps(loadAllWars()), worked out once: the layout asks for it on every page in every locale. */
 export function loadLocaleGaps(): Record<string, Locale[]> {
-  gapsCache ??= localeGaps(loadWars());
+  gapsCache ??= localeGaps(loadAllWars());
   return gapsCache;
 }
 

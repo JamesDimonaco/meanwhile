@@ -8,7 +8,7 @@ import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
 import { loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
-import { countryName, warCountryCodes, warsForCountry, warsShownIn } from "@/lib/data/wars";
+import { countryName, warCountryCodes, warsForCountry } from "@/lib/data/wars";
 import { openGraph, pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -17,11 +17,11 @@ export const dynamicParams = false;
 /** Only countries with a war shown in this language get a page in it. */
 export function generateStaticParams({ params }: { params: { locale: string } }) {
   if (!isLocale(params.locale)) return [];
-  return warCountryCodes(warsShownIn(loadWars(), params.locale)).map((code) => ({ country: code.toLowerCase() }));
+  return warCountryCodes(loadWars(params.locale)).map((code) => ({ country: code.toLowerCase() }));
 }
 
 function countryWars(country: string, locale: Locale) {
-  return warsForCountry(warsShownIn(loadWars(), locale), country.toUpperCase());
+  return warsForCountry(loadWars(locale), country.toUpperCase());
 }
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/wars/[country]">): Promise<Metadata> {

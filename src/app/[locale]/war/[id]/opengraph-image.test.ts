@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { loadWars } from "@/lib/data/load";
+import { loadAllWars } from "@/lib/data/load";
 import { isShownIn } from "@/lib/data/wars";
 import { generateStaticParams } from "./opengraph-image";
 
@@ -9,7 +9,7 @@ describe("war share images", () => {
   const params = generateStaticParams();
 
   it("exist exactly where the war's page does", () => {
-    const expected = loadWars().flatMap((w) => (["en", "es", "zh"] as const).filter((l) => isShownIn(w, l)).map((locale) => ({ locale, id: w.id })));
+    const expected = loadAllWars().flatMap((w) => (["en", "es", "zh"] as const).filter((l) => isShownIn(w, l)).map((locale) => ({ locale, id: w.id })));
     expect(params).toEqual(expect.arrayContaining(expected));
     expect(params).toHaveLength(expected.length);
   });

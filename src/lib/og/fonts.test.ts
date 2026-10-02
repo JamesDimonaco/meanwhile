@@ -4,7 +4,7 @@ import { Blob as FontBlob, Face } from "harfbuzzjs";
 import { describe, expect, it } from "vitest";
 import { LOCALES } from "@/i18n/locales";
 import { loadMessages } from "@/i18n/messages";
-import { loadCultures, loadWars } from "@/lib/data/load";
+import { loadAllWars, loadCultures } from "@/lib/data/load";
 import { ogText } from "./copy";
 
 function codepoints(file: string): Set<number> {
@@ -20,7 +20,7 @@ describe("share image fonts", () => {
     const semibold = codepoints("inter-semibold.ttf");
     const cjk = codepoints("noto-sans-sc-og.otf");
     const cultures = loadCultures();
-    const wars = loadWars();
+    const wars = loadAllWars();
     const missing = new Set<string>();
     for (const locale of LOCALES) {
       for (const text of ogText(locale, await loadMessages(locale), cultures, wars)) {

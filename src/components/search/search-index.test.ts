@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { loadWars } from "@/lib/data/load";
+import { loadAllWars } from "@/lib/data/load";
 import type { War } from "@/lib/data/war-schema";
 import { search, searchWars, warSearchEntries, type SearchEntry } from "./search-index";
 
@@ -85,7 +85,7 @@ describe("search", () => {
 });
 
 describe("war search", () => {
-  const base = loadWars()[0];
+  const base = loadAllWars()[0];
   const open: War = { ...base, id: "open", name: { en: "Punic Wars", es: "Guerras púnicas", zh: "布匿战争" }, aliases: ["Bella Punica"], altNames: [], sensitive: false };
   const gated: War = { ...open, id: "gated", name: { en: "Korean War", es: "Guerra de Corea", zh: "朝鲜战争" }, aliases: [], sensitive: true, reviewed: { es: false, zh: false } };
 

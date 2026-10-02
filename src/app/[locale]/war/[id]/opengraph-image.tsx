@@ -4,7 +4,6 @@ import { pageLocale } from "@/i18n/page-locale";
 import { loadMessages } from "@/i18n/messages";
 import { routing } from "@/i18n/routing";
 import { loadWars } from "@/lib/data/load";
-import { isShownIn, warsShownIn } from "@/lib/data/wars";
 import { warOg } from "@/lib/og/copy";
 import { ogFonts } from "@/lib/og/fonts";
 import { ogFrame } from "@/lib/og/frame";
@@ -20,16 +19,17 @@ export const contentType = OG_CONTENT_TYPE;
 const brand = new URL(SITE_URL).host;
 
 // A route handler doesn't inherit the page's generateStaticParams, so this
-// repeats the review gate: no image in a language the war's page is hidden in.
+// lists its own, through the gated loadWars: no image in a language the war's
+// page is hidden in.
 export function generateStaticParams() {
-  return routing.locales.flatMap((locale) => warsShownIn(loadWars(), locale).map((w) => ({ locale, id: w.id })));
+  return routing.locales.flatMap((locale) => loadWars(locale).map((w) => ({ locale, id: w.id })));
 }
 
 export default async function Image({ params }: { params: Promise<{ locale: string; id: string }> }) {
   const locale = await pageLocale(params);
   const { id } = await params;
-  const war = loadWars().find((w) => w.id === id);
-  if (!war || !isShownIn(war, locale)) notFound();
+  const war = loadWars(locale).find((w) => w.id === id);
+  if (!war) notFound();
   const copy = warOg(locale, await loadMessages(locale), war);
 
   return new ImageResponse(

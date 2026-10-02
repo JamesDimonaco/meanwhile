@@ -19,7 +19,7 @@ import { RegionDot } from "@/components/identity/region-dot";
 import { recordsHeld } from "@/lib/data/records";
 import { cultureDescription, cultureTitle } from "@/lib/data/culture-copy";
 import { openGraph, pageAlternates } from "@/lib/seo";
-import { warsForCulture, warsShownIn } from "@/lib/data/wars";
+import { warsForCulture } from "@/lib/data/wars";
 import { WarRow } from "@/components/wars/war-parts";
 
 export const dynamicParams = false;
@@ -71,7 +71,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
   const records = recordsHeld(id, [...refs.values()]);
   const tCompare = await getTranslations({ locale, namespace: "compare" });
   const tWars = await getTranslations({ locale, namespace: "wars" });
-  const wars = warsForCulture(warsShownIn(loadWars(), locale), id);
+  const wars = warsForCulture(loadWars(locale), id);
   const cultureNames = Object.fromEntries(cultures.map((c) => [c.id, localize(c.name, locale)]));
 
   return (

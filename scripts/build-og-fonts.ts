@@ -3,7 +3,7 @@ import path from "node:path";
 import subsetFont from "subset-font";
 import { LOCALES } from "@/i18n/locales";
 import { loadMessages } from "@/i18n/messages";
-import { loadCultures, loadWars } from "@/lib/data/load";
+import { loadAllWars, loadCultures } from "@/lib/data/load";
 import { ogText } from "@/lib/og/copy";
 
 /**
@@ -89,7 +89,7 @@ const inLatinRanges = (cp: number) => LATIN_RANGES.some(([from, to]) => cp >= fr
 
 async function ogCharacters(): Promise<string[]> {
   const cultures = loadCultures();
-  const wars = loadWars();
+  const wars = loadAllWars();
   const chars = new Set<string>();
   for (const locale of LOCALES) {
     for (const text of ogText(locale, await loadMessages(locale), cultures, wars)) for (const ch of text) chars.add(ch);

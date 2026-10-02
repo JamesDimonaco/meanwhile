@@ -33,7 +33,7 @@ vi.mock("@/lib/data/load", async (importOriginal) => {
     cultures: [],
     sources: [],
   });
-  return { ...actual, loadWars: () => [war("open-war", "ES", false), war("gated-war", "KR", true)] };
+  return { ...actual, loadAllWars: () => [war("open-war", "ES", false), war("gated-war", "KR", true)] };
 });
 
 describe("sitemap", () => {

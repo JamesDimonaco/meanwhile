@@ -5,7 +5,7 @@ import { warSearchEntries } from "@/components/search/search-index";
 import { pageLocale } from "@/i18n/page-locale";
 import { CONTINENTS } from "@/lib/data/countries";
 import { loadWars } from "@/lib/data/load";
-import { countryIndex, warsShownIn } from "@/lib/data/wars";
+import { countryIndex } from "@/lib/data/wars";
 import { pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/wars">):
 export default async function WarsPage({ params }: PageProps<"/[locale]/wars">) {
   const locale = await pageLocale(params);
   const t = await getTranslations("wars");
-  const wars = loadWars();
-  const countries = countryIndex(warsShownIn(wars, locale), locale);
+  const wars = loadWars(locale);
+  const countries = countryIndex(wars, locale);
 
   return (
     <section className="mx-auto flex w-full max-w-xl flex-col gap-6 pt-4">

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { loadWars, readDataset } from "@/lib/data/load";
+import { loadAllWars, readDataset } from "@/lib/data/load";
 import type { Culture } from "@/lib/data/schema";
 import { toCultureRef } from "@/lib/data/queries";
 import { toSearchEntry, warSearchEntries } from "./search/search-index";
@@ -39,7 +39,7 @@ describe("client payloads", () => {
   });
 
   it("war search entries (home and wars search) carry no account, sides, sources or notes", () => {
-    const wars = loadWars();
+    const wars = loadAllWars();
     for (const key of [...LEAKS.slice(0, 2), "description", "sides"]) expect(keysIn(wars)).toContain(key);
     const keys = keysIn(warSearchEntries(wars, "en"));
     for (const key of [...LEAKS, "description", "sides", "events"]) expect(keys).not.toContain(key);

@@ -41,7 +41,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const tCommon = await getTranslations("common");
   const cultures = loadCultures();
   const entries = cultures.map(toSearchEntry);
-  const wars = warSearchEntries(loadWars(), locale);
+  const wars = warSearchEntries(loadWars(locale), locale);
   const popular = loadPopular().map(toSearchEntry);
   const dated = cultures.map((c) => ({ id: c.id, name: c.name, period: defaultPeriod(c) }));
   const records = RECORD_KINDS.map((kind) => ({ kind, holder: recordHolder(kind, dated) }));

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
 import { hasTerritoryMap, loadBorders, loadCultures, loadSuccession, loadWars } from "@/lib/data/load";
-import { warsShownIn } from "@/lib/data/wars";
 import type { Locale } from "@/i18n/locales";
 import type { Source } from "@/lib/data/schema";
 import { openGraph, pageAlternates } from "@/lib/seo";
@@ -48,7 +47,7 @@ function worksCited(locale: Locale): Source[] {
     if (hasTerritoryMap(c.id)) add(loadBorders(c.id).sources);
   }
   for (const link of loadSuccession()) add(link.sources);
-  for (const w of warsShownIn(loadWars(), locale)) {
+  for (const w of loadWars(locale)) {
     for (const item of [w.period ?? w.ongoing, ...w.phases, ...w.events, ...w.casualties, w]) if (item) add(item.sources);
     if (hasTerritoryMap(w.id)) add(loadBorders(w.id).sources);
   }

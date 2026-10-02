@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { DEFAULT_LOCALE, HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
-import { loadCultures, loadWars } from "@/lib/data/load";
+import { loadAllWars, loadCultures } from "@/lib/data/load";
 import { localeGaps, warCountryCodes } from "@/lib/data/wars";
 import { absoluteUrl, localePath, type SeoPath } from "@/lib/seo";
 
@@ -9,7 +9,7 @@ export const dynamic = "force-static";
 
 /** Every page path, locale-free: the root redirect has no content of its own, so it's excluded. */
 function paths(): SeoPath[] {
-  const wars = loadWars();
+  const wars = loadAllWars();
   return [
     "",
     "timeline",
@@ -33,6 +33,6 @@ function rows(path: SeoPath, locales: readonly Locale[]): MetadataRoute.Sitemap 
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const gaps = localeGaps(loadWars());
+  const gaps = localeGaps(loadAllWars());
   return paths().flatMap((path) => rows(path, gaps[`/${path}`] ?? LOCALES));
 }

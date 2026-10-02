@@ -11,7 +11,7 @@ import { EventStory } from "@/components/territory-map/culture-story";
 import { Casualties } from "@/components/wars/casualties";
 import { SideList, WarDates } from "@/components/wars/war-parts";
 import { WarBar } from "@/components/wars/war-bar";
-import { isLocale, LOCALES } from "@/i18n/locales";
+import { isLocale, LOCALES, type Locale } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
 import { firstSentence } from "@/lib/data/culture-copy";
@@ -19,7 +19,7 @@ import { hasTerritoryMap, loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { activeAt, meanwhileAtYear } from "@/lib/data/queries";
 import type { War } from "@/lib/data/war-schema";
-import { isShownIn, warSpan, warsShownIn } from "@/lib/data/wars";
+import { isShownIn, warSpan } from "@/lib/data/wars";
 import { openGraph, pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -28,11 +28,11 @@ export const dynamicParams = false;
 /** The review gate: a war gets a page only in the languages it is shown in. */
 export function generateStaticParams({ params }: { params: { locale: string } }) {
   if (!isLocale(params.locale)) return [];
-  return warsShownIn(loadWars(), params.locale).map((w) => ({ id: w.id }));
+  return loadWars(params.locale).map((w) => ({ id: w.id }));
 }
 
-function findWar(id: string) {
-  const war = loadWars().find((w) => w.id === id);
+function findWar(id: string, locale: Locale) {
+  const war = loadWars(locale).find((w) => w.id === id);
   if (!war) notFound();
   return war;
 }
@@ -40,7 +40,7 @@ function findWar(id: string) {
 export async function generateMetadata({ params }: PageProps<"/[locale]/war/[id]">): Promise<Metadata> {
   const locale = await pageLocale(params);
   const { id } = await params;
-  const war = findWar(id);
+  const war = findWar(id, locale);
   const shownIn = LOCALES.filter((l) => isShownIn(war, l));
   const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
   const title = localize(war.name, locale);
@@ -67,13 +67,12 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
 export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]">) {
   const locale = await pageLocale(params);
   const { id } = await params;
-  const war = findWar(id);
-  if (!isShownIn(war, locale)) notFound();
+  const war = findWar(id, locale);
   const t = await getTranslations("wars");
   const tCommon = await getTranslations("common");
   const tMap = await getTranslations("map");
   const cultures = loadCultures();
-  const shown = warsShownIn(loadWars(), locale);
+  const shown = loadWars(locale);
   const span = warSpan(war);
 
   const ownCultures = new Set([
