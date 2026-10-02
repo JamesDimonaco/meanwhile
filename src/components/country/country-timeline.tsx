@@ -62,7 +62,7 @@ function BarRow({ bar, y, height, xScale }: { bar: TimelineBar; y: number; heigh
  */
 export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; opening: { range: [number, number]; year: number } }) {
   const t = useTranslations("country");
-  const domain = useMemo(() => padDomain(computeYearDomain(bars.map((b) => b.period))), [bars]);
+  const domain = useMemo(() => padDomain(computeYearDomain(bars.map((b) => b.period)), opening.range), [bars, opening.range]);
   const fit = useMemo(() => padDomain(opening.range), [opening.range]);
   const { rows, totalHeight } = useMemo(() => layoutCountryRows(bars), [bars]);
   const [year, setYear] = useYearParam(domain, opening.year, null);
@@ -82,7 +82,7 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
               {t(row.group)}
             </RowHeader>
           ) : (
-            <RowLabel href={barHref(row.item)} name={row.item.name} y={top} height={row.height} />
+            <RowLabel href={barHref(row.item)} name={row.item.name} y={top} height={row.height} twoLines />
           )
         }
         bars={(row, xScale) => <BarRow bar={row.item} y={row.y} height={row.height} xScale={xScale} />}

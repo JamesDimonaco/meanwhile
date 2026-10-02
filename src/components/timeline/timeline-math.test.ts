@@ -357,6 +357,11 @@ describe("fitting a country's span to the screen", () => {
     expect(padDomain([-2000, 2000])).toEqual([-2200, 2200]);
     expect(padDomain([1982, 1982])).toEqual([1972, 1992]);
   });
+
+  // GB opens on 1789-2021: 5% of its 6,000 years would add three empty centuries after 2021.
+  it("pads by the span the chart opens on, when that is narrower", () => {
+    expect(padDomain([-4099, 2021], [1789, 2021])).toEqual([-4111, 2033]);
+  });
 });
 
 describe("atLeast", () => {

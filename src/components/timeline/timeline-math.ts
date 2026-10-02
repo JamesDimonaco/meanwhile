@@ -122,9 +122,13 @@ export function fitZoom([min, max]: [number, number], width: number): number {
 const DOMAIN_PAD = 0.05;
 const MIN_DOMAIN_PAD = 10;
 
-/** Room either side of a country's span, so its first and last bars don't sit on the frame. */
-export function padDomain([min, max]: [number, number]): [number, number] {
-  const pad = Math.max(MIN_DOMAIN_PAD, Math.round((max - min) * DOMAIN_PAD));
+/**
+ * Room either side of a country's span, so its first and last bars don't sit
+ * on the frame; sized to `opening`, the range the chart opens on, so a chart
+ * opening on its newest wars doesn't open on centuries of empty future.
+ */
+export function padDomain([min, max]: [number, number], opening: [number, number] = [min, max]): [number, number] {
+  const pad = Math.max(MIN_DOMAIN_PAD, Math.round((opening[1] - opening[0]) * DOMAIN_PAD));
   return [min - pad, max + pad];
 }
 
