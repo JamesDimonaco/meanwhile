@@ -50,10 +50,15 @@ export function validateWars({ warFiles, registryIds, cultures, borders, buildDa
     }
     if (w.ongoing && w.ongoing.asOf > buildDate) errors.push(`${at}: asOf ${w.ongoing.asOf} is after the build date ${buildDate}`);
 
-    const unregistered = (id: string) => `${at}: "${id}" is not in data/registry.json`;
+    const checkCulture = (id: string) => {
+      if (culturesById.has(id)) return;
+      errors.push(
+        registryIds.has(id) ? `${at}: "${id}" has no culture file yet, so its link would 404` : `${at}: "${id}" is not in data/registry.json`,
+      );
+    };
     for (const side of w.sides) {
       for (const member of side.members) {
-        if (member.kind === "culture" && !registryIds.has(member.id)) errors.push(unregistered(member.id));
+        if (member.kind === "culture") checkCulture(member.id);
         const codes = member.kind === "state" ? [member.code, ...member.today] : member.today;
         for (const code of new Set(codes)) {
           const problem = countryProblem(code);
@@ -61,7 +66,7 @@ export function validateWars({ warFiles, registryIds, cultures, borders, buildDa
         }
       }
     }
-    for (const id of w.cultures) if (!registryIds.has(id)) errors.push(unregistered(id));
+    w.cultures.forEach(checkCulture);
 
     const events: WarEvent[] = [...ownEvents];
     for (const ref of cultureEvents) {

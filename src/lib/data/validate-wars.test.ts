@@ -165,6 +165,15 @@ describe("wars", () => {
     expect(errorsFor(warJson("w", { cultures: ["aztec"] }))).toBe("");
   });
 
+  it("rejects a registered culture with no file, whose link would 404", () => {
+    const sides = [
+      warJson("w").sides[0],
+      { id: "b", label: t("B"), members: [{ kind: "culture", id: "rome", role: "belligerent", today: ["IT"] }] },
+    ];
+    expect(errorsFor(warJson("w", { sides }))).toMatch(/"rome" has no culture file/);
+    expect(errorsFor(warJson("w", { cultures: ["rome"] }))).toMatch(/"rome" has no culture file/);
+  });
+
   it("rejects an unknown war in follows, and a followed war that starts later", () => {
     expect(errorsFor(warJson("w", { follows: "nope" }))).toMatch(/follows "nope", which has no file/);
     const earlier = warJson("earlier", {
