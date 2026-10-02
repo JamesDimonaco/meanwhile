@@ -151,8 +151,8 @@ export const WarFile = z
     ongoing: Ongoing.optional(),
     sides: z.array(Side).min(2),
     phases: z.array(Phase).default([]),
-    events: z.array(WarEvent).default([]),
-    cultureEvents: z.array(CultureEventRef).default([]),
+    /** Own events and culture event references, in the order they happened. */
+    events: z.array(z.union([WarEvent, CultureEventRef])).default([]),
     leaders: z.array(Leader).default([]),
     casualties: z.array(Casualty).default([]),
     /** Culture ids this war ended or changed: their pages list it. */
@@ -169,7 +169,7 @@ export const WarFile = z
     const idLists = [
       ["side", w.sides.map((s) => s.id)],
       ["phase", w.phases.map((p) => p.id)],
-      ["event", [...w.events.map((e) => e.id), ...w.cultureEvents.map((r) => r.event)]],
+      ["event", w.events.map((e) => ("culture" in e ? e.event : e.id))],
       ["culture", w.cultures],
     ] as const;
     for (const [kind, ids] of idLists) {
@@ -199,4 +199,4 @@ export type CasualtyScope = Casualty["scope"];
 export type WarFile = z.infer<typeof WarFile>;
 
 /** A validated war: culture event references resolved into events, all events in year order. */
-export type War = Omit<WarFile, "events" | "cultureEvents"> & { events: WarEvent[] };
+export type War = Omit<WarFile, "events"> & { events: WarEvent[] };

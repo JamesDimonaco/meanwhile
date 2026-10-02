@@ -185,6 +185,10 @@
       "wikidataId": "Q48880934"
     },
     {
+      "culture": "song",
+      "event": "xiangyang-falls"
+    },
+    {
       "id": "battle-of-dingjiazhou",
       "start": 1275,
       "title": {
@@ -280,12 +284,6 @@
         "lat": 30.25,
         "lon": 120.17
       }
-    }
-  ],
-  "cultureEvents": [
-    {
-      "culture": "song",
-      "event": "xiangyang-falls"
     },
     {
       "culture": "song",

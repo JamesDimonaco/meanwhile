@@ -37,7 +37,7 @@ export function validateWars({ warFiles, registryIds, cultures, borders, buildDa
       errors.push(...issues(file.path, parsed.error));
       continue;
     }
-    const { cultureEvents, events: ownEvents, ...w } = parsed.data;
+    const { events: listed, ...w } = parsed.data;
     const at = file.path;
     const expected = `data/wars/${w.id}.json`;
     if (file.path !== expected) errors.push(`${at}: should live at ${expected}`);
@@ -68,8 +68,13 @@ export function validateWars({ warFiles, registryIds, cultures, borders, buildDa
     }
     w.cultures.forEach(checkCulture);
 
-    const events: WarEvent[] = [...ownEvents];
-    for (const ref of cultureEvents) {
+    const events: WarEvent[] = [];
+    for (const item of listed) {
+      if (!("culture" in item)) {
+        events.push(item);
+        continue;
+      }
+      const ref = item;
       const event = culturesById.get(ref.culture)?.events.find((e) => e.id === ref.event);
       if (!event) {
         errors.push(`${at}: ${ref.culture} has no event "${ref.event}"`);

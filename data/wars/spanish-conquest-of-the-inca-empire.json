@@ -187,6 +187,14 @@
   ],
   "events": [
     {
+      "culture": "inca",
+      "event": "cajamarca"
+    },
+    {
+      "culture": "inca",
+      "event": "fall-of-cusco"
+    },
+    {
       "id": "quito-taken",
       "start": 1534,
       "title": {
@@ -284,16 +292,6 @@
         "lon": -72.2633
       },
       "wikidataId": "Q2338569"
-    }
-  ],
-  "cultureEvents": [
-    {
-      "culture": "inca",
-      "event": "cajamarca"
-    },
-    {
-      "culture": "inca",
-      "event": "fall-of-cusco"
     },
     {
       "culture": "inca",

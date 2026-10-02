@@ -651,6 +651,10 @@
       "wikidataId": "Q207250"
     },
     {
+      "culture": "rome",
+      "event": "cannae"
+    },
+    {
       "id": "fall-of-syracuse",
       "start": -211,
       "title": {
@@ -820,6 +824,10 @@
       }
     },
     {
+      "culture": "rome",
+      "event": "zama"
+    },
+    {
       "id": "peace-of-201",
       "start": -200,
       "title": {
@@ -911,16 +919,6 @@
         "lat": 36.842,
         "lon": 10.323
       }
-    }
-  ],
-  "cultureEvents": [
-    {
-      "culture": "rome",
-      "event": "cannae"
-    },
-    {
-      "culture": "rome",
-      "event": "zama"
     },
     {
       "culture": "rome",
