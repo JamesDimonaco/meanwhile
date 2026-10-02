@@ -16,7 +16,7 @@ export type WarsInput = {
   cultures: readonly Culture[];
   /** Border files that name a warId. */
   borders: readonly (Borders & { path: string })[];
-  /** YYYY-MM-DD: an ongoing war can't have been checked later than this. */
+  /** YYYY-MM-DD: an ongoing war or a casualty figure can't have been checked later than this. */
   buildDate: string;
 };
 
@@ -49,6 +49,9 @@ export function validateWars({ warFiles, registryIds, cultures, borders, buildDa
       }
     }
     if (w.ongoing && w.ongoing.asOf > buildDate) errors.push(`${at}: asOf ${w.ongoing.asOf} is after the build date ${buildDate}`);
+    w.casualties.forEach((c, i) => {
+      if (c.asOf && c.asOf > buildDate) errors.push(`${at}: casualty ${i}: asOf ${c.asOf} is after the build date ${buildDate}`);
+    });
 
     const checkCulture = (id: string) => {
       if (culturesById.has(id)) return;

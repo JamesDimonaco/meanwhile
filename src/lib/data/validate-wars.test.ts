@@ -528,6 +528,13 @@ describe("wars", () => {
     );
   });
 
+  it("rejects a casualty figure dated after the build date", () => {
+    const withAsOf = (asOf: string) =>
+      warJson("w", { casualties: [{ scope: "battle-deaths", low: 1000, high: 2000, asOf, sources: [src] }] });
+    expect(errorsFor(withAsOf("2026-09-30"))).toBe("");
+    expect(errorsFor(withAsOf("2026-10-01"))).toMatch(/casualty 0: asOf 2026-10-01 is after the build date 2026-09-30/);
+  });
+
   it("warns, but does not fail, on missing translations", () => {
     const result = run([warFile("w", warJson("w", { outcome: { en: "o" } }))]);
     expect(result.errors).toEqual([]);
