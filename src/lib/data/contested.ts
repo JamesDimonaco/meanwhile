@@ -9,8 +9,8 @@
 // purpose and tuned so battle sites just outside (Xiamen, Gulangyu and Dadeng,
 // Pingtan, Nanri, Fuzhou, the Brunei, Sabah and Sarawak coasts, Balabac and
 // southern Palawan, Chillianwala, Gujrat, Jammu, Rawalpindi, Kaza, Shiquanhe,
-// Tezpur, Dibrugarh, Tinsukia, Digboi, Ledo, Mon in Nagaland, Trashigang in
-// Bhutan, Tsetang in Tibet) stay valid.
+// Tezpur, Dibrugarh, Tinsukia, Doom Dooma, Digboi, Ledo, Lekhapani, Mon in
+// Nagaland, Trashigang in Bhutan, Tsetang in Tibet) stay valid.
 // Outlying islands get their own small boxes rather than a stretched big one,
 // which would swallow the mainland coast beside them.
 
@@ -33,6 +33,7 @@ const CONTESTED_AREAS: readonly Box[] = [
   { name: "Arunachal Pradesh (east)", west: 94.0, south: 27.6, east: 97.5, north: 29.5 },
   { name: "Arunachal Pradesh (south-east)", west: 96.0, south: 26.9, east: 97.5, north: 27.6 },
   { name: "Arunachal Pradesh (Tirap, Longding and Changlang)", west: 95.2, south: 26.7, east: 96.0, north: 27.2 },
+  { name: "Arunachal Pradesh (Bordumsa)", west: 95.8, south: 27.45, east: 96.0, north: 27.6 },
   { name: "Paracel Islands", west: 111, south: 15.5, east: 113, north: 17.5 },
   { name: "Spratly Islands", west: 111.5, south: 7, east: 116, north: 12 },
   { name: "Spratly Islands (Half Moon Shoal and Reed Bank)", west: 116, south: 8.5, east: 117, north: 12 },
