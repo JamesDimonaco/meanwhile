@@ -4,7 +4,7 @@ import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { Side, SideMember, War } from "@/lib/data/war-schema";
-import { warSpan, type WarSpan } from "@/lib/data/wars";
+import { countryName, warSpan, type WarSpan } from "@/lib/data/wars";
 import { formatIsoDate } from "@/lib/years";
 
 /** Culture id -> its name in the page's language, for culture members. */
@@ -25,7 +25,7 @@ function MemberName({ member, cultureNames, linkCultures }: { member: SideMember
     return (
       <span className="inline-flex items-center gap-1">
         <CountryFlag code={member.code} />
-        {new Intl.DisplayNames([locale], { type: "region" }).of(member.code)}
+        {countryName(member.code, locale)}
       </span>
     );
   }
