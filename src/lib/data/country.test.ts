@@ -47,6 +47,8 @@ describe("overlaps, with the real data", () => {
     ["inca", "spanish-conquest-of-the-inca-empire"],
     ["song", "mongol-conquest-of-the-song"],
     ["world-war-ii", "second-sino-japanese-war"],
+    // Wari took over the Nazca valleys while Nazca still stood: not a handover.
+    ["nazca", "wari"],
     // Each shares only the civilisation's last year with the war that ended it.
     ["qin-wars-of-unification", "qin"],
     ["rome", "fall-of-constantinople"],
@@ -177,7 +179,8 @@ describe("where a country's chart opens", () => {
 
   it("starts the year line where the most items overlap, the latest on a tie", () => {
     expect(view("CN").year).toBe(1858);
-    expect(view("PE").year).toBe(1532);
+    // Moche, Nazca and Wari all stand in 600 CE; the Spanish conquest only meets the Inca.
+    expect(view("PE").year).toBe(599);
     expect(view("GB").year).toBe(2003);
   });
 

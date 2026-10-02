@@ -24,7 +24,7 @@
       "id": "nazca-period",
       "earliestStart": -99,
       "latestStart": -99,
-      "earliestEnd": 599,
+      "earliestEnd": 649,
       "latestEnd": 749,
       "sources": [
         {
@@ -33,15 +33,18 @@
         },
         {
           "citation": "Silverman, Helaine & Proulx, Donald A. (2002). The Nasca. Blackwell."
+        },
+        {
+          "citation": "Wikipedia. \"Nazca culture.\"",
+          "url": "https://en.wikipedia.org/wiki/Nazca_culture"
         }
       ],
-      "periodoId": "p08m57hjvht",
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Museum classification runs Nazca to about 600 CE; archaeologists trace the culture's final decline to about 750 CE.",
-        "es": "La clasificación museística sitúa a Nazca hasta cerca de 600 e. c.; los arqueólogos ubican el declive final de la cultura hacia 750 e. c.",
-        "zh": "博物馆分类将纳斯卡文化定至约公元600年；考古学家则将该文化的最终衰落定在约公元750年。"
+        "en": "The British Museum ends Nazca at about 600 CE, but archaeologists date Late Nazca pottery to 550–750 CE: the Nazca were still making their lines when Wari reached the coast around 650 CE, and the culture was gone by about 750 CE.",
+        "es": "El British Museum cierra Nazca hacia 600 e. c., pero los arqueólogos fechan la cerámica nazca tardía en 550–750 e. c.: los nazca aún trazaban sus líneas cuando Wari llegó a la costa hacia 650 e. c., y la cultura había desaparecido hacia 750 e. c.",
+        "zh": "大英博物馆将纳斯卡文化的结束定在约公元600年，但考古学家把晚期纳斯卡陶器定在公元550至750年：约公元650年瓦里势力抵达沿海时，纳斯卡人仍在刻画地画，至约公元750年该文化已经消失。"
       }
     }
   ],
