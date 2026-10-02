@@ -47,18 +47,25 @@ export function RegionHeaderLabel({ region, y, height }: { region: Region; y: nu
   );
 }
 
-/** Frozen name column: one row's name, row-aligned with its bar, linking to its page, after an optional prefix (a flag). */
+/**
+ * Frozen name column: one row's name, row-aligned with its bar, linking to
+ * its page, after an optional prefix (a flag). `twoLines` wraps a long name
+ * onto a second line in rows tall enough for it, since a cut-off name can
+ * read the same as another ("Second Anglo-M..." twice) and touch has no tooltip.
+ */
 export function RowLabel({
   href,
   name,
   y,
   height,
+  twoLines = false,
   children,
 }: {
   href: string;
   name: string;
   y: number;
   height: number;
+  twoLines?: boolean;
   children?: ReactNode;
 }) {
   return (
@@ -69,7 +76,7 @@ export function RowLabel({
       style={{ top: y, height }}
     >
       {children}
-      <span className="truncate">{name}</span>
+      <span className={twoLines ? "line-clamp-2 leading-tight" : "truncate"}>{name}</span>
     </Link>
   );
 }
