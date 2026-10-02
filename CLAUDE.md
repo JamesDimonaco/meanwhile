@@ -18,7 +18,7 @@ data/registry.json                   canonical culture ids + region (add an id h
 data/cultures/<region>/<id>.json     one culture per file; region is the folder
 data/borders/<cultureId|warId>.json territory-map snapshots (Rome, the Carolingian and Holy Roman empires, seven Chinese dynasties, Inca, Aztec, Egypt; pre-1800 flagship wars)
 data/wars/<id>.json                  one war per file (see Wars)
-public/geo/land-<area>.json          Natural Earth land (europe, east-asia, americas, world); LAND in territory-map.tsx maps each region to one, wars use world
+public/geo/land-<area>.json          Natural Earth land (europe, east-asia, americas, world); LAND in territory-map.tsx maps each region to one; a war with a borders file uses its cultures' region (`warLand`), a pins-only war uses world
 data/succession.json                 "before and after in the same place" links (from, to, place, sources)
 data/popular.json                    home page starting points, in display order (ids must have a culture file)
 data/today.json                      culture id -> present-day countries of its heartland (ISO 3166-1 alpha-2), for flags

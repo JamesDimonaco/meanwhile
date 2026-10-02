@@ -58,8 +58,8 @@ function fetchJson(url: string): Promise<unknown> {
 }
 
 // Natural Earth land clipped to each part of the world, so a page downloads
-// only the coastline its map can show rather than the whole globe. Wars
-// range anywhere, so they use the coarser whole-world file.
+// only the coastline its map can show rather than the whole globe. Pins-only
+// wars range anywhere, so they use the coarser whole-world file.
 const LAND: Record<Region | "world", string> = {
   europe: "/geo/land-europe.json",
   china: "/geo/land-east-asia.json",
