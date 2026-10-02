@@ -31,7 +31,7 @@ export function CountryList({
   const shownCountries = useMemo(
     () =>
       countries.filter(
-        (c) => (picked.length === 0 || picked.includes(c.continent)) && (!q || matches(q, [c.name, c.code])),
+        (c) => (picked.length === 0 || picked.includes(c.continent)) && (!q || matches(q, c.terms)),
       ),
     [countries, picked, q],
   );

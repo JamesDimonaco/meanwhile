@@ -59,7 +59,8 @@ export function warsForCulture(wars: readonly War[], cultureId: string): War[] {
   return wars.filter((w) => w.cultures.includes(cultureId)).sort(oldestFirst);
 }
 
-export type CountryEntry = { code: string; name: string; continent: Continent; count: number };
+/** `terms`: the code and the name in every language, so a search in any of them finds the country. */
+export type CountryEntry = { code: string; name: string; terms: string[]; continent: Continent; count: number };
 
 /** A present-day country's name in the page's language, from its ISO code. */
 export function countryName(code: string, locale: Locale): string {
@@ -72,6 +73,7 @@ export function countryIndex(wars: readonly War[], locale: Locale): CountryEntry
     .map((code) => ({
       code,
       name: countryName(code, locale),
+      terms: [code, ...LOCALES.map((l) => countryName(code, l))],
       continent: UN_MEMBERS[code],
       count: wars.filter((w) => warCountryCodes([w]).includes(code)).length,
     }))

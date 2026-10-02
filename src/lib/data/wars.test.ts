@@ -103,13 +103,18 @@ describe("wars by country and culture", () => {
 describe("countryIndex", () => {
   it("lists each country once with its name in the page's language, continent and war count, sorted by name", () => {
     const wars = [war("one", 1519), war("two", 1846, { today: [["US"], ["MX"]] })];
-    expect(countryIndex(wars, "en")).toEqual([
+    expect(countryIndex(wars, "en").map(({ terms: _, ...c }) => c)).toEqual([
       { code: "MX", name: "Mexico", continent: "americas", count: 2 },
       { code: "ES", name: "Spain", continent: "europe", count: 1 },
       { code: "US", name: "United States", continent: "americas", count: 1 },
     ]);
     expect(countryIndex(wars, "es").map((c) => c.name)).toEqual(["España", "Estados Unidos", "México"]);
     expect(countryIndex(wars, "zh").find((c) => c.code === "MX")?.name).toBe("墨西哥");
+  });
+
+  it("lets a country be found by its code or its name in any language, whatever the page's language", () => {
+    const mexico = countryIndex([war("one", 1519)], "zh").find((c) => c.code === "MX");
+    expect(mexico?.terms).toEqual(["MX", "Mexico", "México", "墨西哥"]);
   });
 });
 
