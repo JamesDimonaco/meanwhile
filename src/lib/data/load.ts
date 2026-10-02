@@ -2,33 +2,18 @@ import fs from "node:fs";
 import path from "node:path";
 import countries from "flag-icons/country.json";
 import type { Locale } from "@/i18n/locales";
+import { readJsonFiles } from "./files";
 import { validateHeartland } from "./heartland";
 import { Registry, type Borders, type Culture, type SuccessionLink } from "./schema";
-import { validateDataset, type DataFile, type DatasetResult } from "./validate";
+import { validateDataset, type DatasetResult } from "./validate";
 import type { War } from "./war-schema";
 import { localeGaps, warCountryCodes, warsShownIn } from "./wars";
 
 // Server only (fs). Pages call these at build time, in server components;
 // client components receive CultureRef/Culture props, never this module.
-// The one request-time caller, POST /api/scan, uses readCatalogueCultures,
-// which skips the validation pass.
+// The one request-time caller, POST /api/scan, reads files.ts instead.
 
 const DATA_DIR = path.join(process.cwd(), "data");
-
-function readJsonFiles(dir: string): DataFile[] {
-  if (!fs.existsSync(dir)) return [];
-  return fs
-    .readdirSync(dir, { recursive: true, encoding: "utf8" })
-    .filter((f) => f.endsWith(".json"))
-    .sort()
-    .map((f) => {
-      const full = path.join(dir, f);
-      return {
-        path: path.relative(process.cwd(), full).split(path.sep).join("/"),
-        data: JSON.parse(fs.readFileSync(full, "utf8")) as unknown,
-      };
-    });
-}
 
 const readJson = (file: string) => JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "utf8")) as unknown;
 
@@ -50,16 +35,6 @@ export function readDataset(): DatasetResult {
     warCodes: warCountryCodes(result.wars),
   });
   return { ...result, errors: [...result.errors, ...heartlandErrors] };
-}
-
-/** What the scan prompt reads from each culture. */
-export type CatalogueCulture = Pick<Culture, "id" | "name" | "nativeName" | "aliases" | "periods">;
-
-/** The culture files as they are on disk, sorted by id like loadCultures; the build has already validated them. */
-export function readCatalogueCultures(): CatalogueCulture[] {
-  return readJsonFiles(path.join(DATA_DIR, "cultures"))
-    .map((f) => f.data as CatalogueCulture)
-    .sort((a, b) => (a.id < b.id ? -1 : 1));
 }
 
 let cache: DatasetResult | undefined;

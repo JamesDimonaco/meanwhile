@@ -1,5 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { readCatalogueCultures } from "@/lib/data/load";
+import { readCatalogueCultures } from "@/lib/data/files";
 import { decideScan } from "@/lib/scan/answer";
 import { buildScanSystemPrompt } from "@/lib/scan/prompt";
 import { createRateLimiter, SCAN_INSTANCE_LIMIT, SCAN_RATE_LIMIT } from "@/lib/scan/rate-limit";

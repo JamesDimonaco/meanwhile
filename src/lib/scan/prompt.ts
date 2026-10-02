@@ -1,5 +1,5 @@
 import { defaultPeriod } from "@/lib/data/queries";
-import type { CatalogueCulture } from "@/lib/data/load";
+import type { CatalogueCulture } from "@/lib/data/files";
 import { formatYearRange } from "@/lib/years";
 
 function catalogueEntry(c: CatalogueCulture): string {

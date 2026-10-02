@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { loadCultures, readCatalogueCultures } from "@/lib/data/load";
+import { readCatalogueCultures } from "@/lib/data/files";
+import { loadCultures } from "@/lib/data/load";
 import { buildScanSystemPrompt } from "./prompt";
 
 describe("buildScanSystemPrompt", () => {
