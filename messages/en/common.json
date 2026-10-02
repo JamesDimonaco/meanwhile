@@ -24,6 +24,7 @@
     "africa": "Africa"
   },
   "heartlandToday": "Heartland today: {countries}",
+  "heartlandTodayLinked": "Heartland today: <countries></countries>",
   "regionFilter": "Regions",
   "allRegions": "All",
   "showAllRegions": "Show all regions",

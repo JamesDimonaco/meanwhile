@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from "vitest";
 import { LOCALES } from "@/i18n/locales";
-import { loadCultures } from "@/lib/data/load";
+import { loadCultures, loadHeartland } from "@/lib/data/load";
 import type { War } from "@/lib/data/war-schema";
 import sitemap from "./sitemap";
 
@@ -42,15 +42,22 @@ describe("sitemap", () => {
   const urls = rows.map((r) => r.url);
 
   it("covers every culture in every locale, home/timeline/credits, the wars list and each country, minus what the review gate hides", () => {
-    // wars, wars/es, wars/mx and war/open-war everywhere; wars/kr and war/gated-war in English only.
-    const expected = (3 + cultureCount + 4) * LOCALES.length + 2;
+    // Every heartland country plus ES and MX (open-war), wars and war/open-war everywhere;
+    // country/kr and war/gated-war in English only.
+    const countries = new Set([...Object.values(loadHeartland()).flat(), "ES", "MX"]).size;
+    const expected = (3 + cultureCount + 2 + countries) * LOCALES.length + 2;
     expect(rows).toHaveLength(expected);
   });
 
   it("lists a gated war and its only country in English, and nowhere else", () => {
     expect(urls.filter((u) => u.includes("/war/gated-war/"))).toEqual([expect.stringContaining("/en/war/gated-war/")]);
-    expect(urls.filter((u) => u.includes("/wars/kr/"))).toEqual([expect.stringContaining("/en/wars/kr/")]);
+    expect(urls.filter((u) => u.includes("/country/kr/"))).toEqual([expect.stringContaining("/en/country/kr/")]);
     expect(urls.filter((u) => u.includes("/war/open-war/"))).toHaveLength(LOCALES.length);
+  });
+
+  it("lists a country with a civilisation but no war in every locale, and no old wars/<code> page", () => {
+    expect(urls.filter((u) => u.includes("/country/pe/"))).toHaveLength(LOCALES.length);
+    expect(urls.filter((u) => /\/wars\/[a-z]{2}\//.test(u))).toEqual([]);
   });
 
   it("lists every culture id at least once", () => {

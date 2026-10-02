@@ -1,0 +1,12 @@
+{
+  "title": "{country}: civilizaciones y guerras",
+  "metaDescription": "Todas las civilizaciones y guerras de lo que hoy es {country} en una sola cronología, de la más antigua a la más reciente, y cuáles coincidieron en el tiempo.",
+  "summary": "{cultures, plural, =0 {{wars, plural, one {# guerra} other {# guerras}}} one {# civilización{wars, plural, =0 {} one {, # guerra} other {, # guerras}}} other {# civilizaciones{wars, plural, =0 {} one {, # guerra} other {, # guerras}}}}",
+  "intro": "Civilizaciones cuyo núcleo está en lo que hoy es {country}, y guerras libradas en su territorio o por sus pueblos.",
+  "timeline": "Cronología",
+  "list": "De la más antigua a la más reciente",
+  "cultures": "Civilizaciones",
+  "wars": "Guerras",
+  "kind": "{kind, select, culture {Civilización} other {Guerra}}",
+  "sameTime": "<label>Al mismo tiempo aquí:</label> <items></items>"
+}

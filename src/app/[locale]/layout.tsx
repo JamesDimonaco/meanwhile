@@ -11,7 +11,7 @@ import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
 import { routing } from "@/i18n/routing";
 import { loadLocaleGaps } from "@/lib/data/load";
-import { gapsOnPagesIn } from "@/lib/data/wars";
+import { gapsOnPagesIn } from "@/lib/data/country";
 import { openGraph, SITE_URL } from "@/lib/seo";
 import "../globals.css";
 

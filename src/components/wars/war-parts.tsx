@@ -1,10 +1,11 @@
 import { useLocale, useTranslations } from "next-intl";
-import { CountryFlag } from "@/components/identity/heartland-flags";
+import { CountryLink } from "@/components/identity/heartland-flags";
+import { JoinedList } from "@/components/joined-list";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { Side, SideMember, War } from "@/lib/data/war-schema";
-import { countryName, warSpan, type WarSpan } from "@/lib/data/wars";
+import { warSpan, type WarSpan } from "@/lib/data/wars";
 import { formatIsoDate } from "@/lib/years";
 
 /** Culture id -> its name in the page's language, for culture members. */
@@ -18,17 +19,10 @@ export function WarDates({ span: { start, end, asOf } }: { span: WarSpan }) {
   return <span>{t.rich("ongoing", { start: () => <YearText year={start} />, date: formatIsoDate(asOf, locale) })}</span>;
 }
 
-/** A modern state with its flag; a culture by name (linked on the war page); a historical polity by plain name. */
+/** A modern state with its flag, linking to its country page; a culture by name (linked on the war page); a historical polity by plain name. */
 function MemberName({ member, cultureNames, linkCultures }: { member: SideMember; cultureNames: CultureNames; linkCultures: boolean }) {
   const locale = useLocale();
-  if (member.kind === "state") {
-    return (
-      <span className="inline-flex items-center gap-1">
-        <CountryFlag code={member.code} />
-        {countryName(member.code, locale)}
-      </span>
-    );
-  }
+  if (member.kind === "state") return <CountryLink code={member.code} />;
   if (member.kind === "culture") {
     const name = cultureNames[member.id] ?? member.id;
     return linkCultures ? (
@@ -45,29 +39,24 @@ function MemberName({ member, cultureNames, linkCultures }: { member: SideMember
 function SideLine({ side, cultureNames, linkCultures }: { side: Side; cultureNames: CultureNames; linkCultures: boolean }) {
   const t = useTranslations("wars");
   const locale = useLocale();
-  // ListFormat gives each language its own separators ("、" in Chinese); the
-  // members are elements (flags, links), so format their indexes and swap them in.
-  const parts = new Intl.ListFormat(locale, { type: "conjunction" }).formatToParts(side.members.map((_, i) => String(i)));
   return (
     <div className="flex flex-col">
       <span className="font-medium text-foreground">{localize(side.label, locale)}</span>
       <p>
-        {parts.map((part, i) => {
-          if (part.type === "literal") return <span key={i}>{part.value}</span>;
-          const m = side.members[Number(part.value)];
-          return (
-            <span key={i}>
-              {m.role === "supporter" ? (
-                t.rich("supporter", {
+        <JoinedList
+          items={side.members.map((m, i) =>
+            m.role === "supporter" ? (
+              <span key={i}>
+                {t.rich("supporter", {
                   name: () => <MemberName member={m} cultureNames={cultureNames} linkCultures={linkCultures} />,
                   role: (chunks) => <span className="text-muted-foreground">{chunks}</span>,
-                })
-              ) : (
-                <MemberName member={m} cultureNames={cultureNames} linkCultures={linkCultures} />
-              )}
-            </span>
-          );
-        })}
+                })}
+              </span>
+            ) : (
+              <MemberName key={i} member={m} cultureNames={cultureNames} linkCultures={linkCultures} />
+            ),
+          )}
+        />
       </p>
     </div>
   );

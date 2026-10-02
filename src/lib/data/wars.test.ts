@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Casualty, War } from "./war-schema";
-import { casualtyGroups, countryIndex, gapsOnPagesIn, isShownIn, localeGaps, warLand, warsForCountry, warsForCulture, warsShownIn } from "./wars";
+import { casualtyGroups, countryIndex, isShownIn, warCountryCodes, warLand, warsForCulture, warsShownIn } from "./wars";
 
 const t = (en: string) => ({ en });
 const src = [{ citation: "s" }];
@@ -54,35 +54,12 @@ describe("the review gate", () => {
   it("filters a list", () => {
     expect(warsShownIn([plain, sensitive], "zh").map((w) => w.id)).toEqual(["plain"]);
   });
-
-  it("names the pages missing in some language, so no link there leads to a 404", () => {
-    const onlyKr = war("korea", 1950, { sensitive: true, today: [["KR"], ["KP"]] });
-    expect(localeGaps([plain, onlyKr])).toEqual({
-      "/war/korea": ["en"],
-      "/wars/kr": ["en"],
-      "/wars/kp": ["en"],
-    });
-  });
-
-  it("keeps a gated war's id out of the pages of a language it is hidden in", () => {
-    const onlyKr = war("korea", 1950, { sensitive: true, today: [["KR"], ["KP"]] });
-    const esOnly = war("esonly", 1900, { sensitive: true, reviewed: { es: true, zh: false } });
-    const gaps = localeGaps([plain, onlyKr, esOnly]);
-    expect(gapsOnPagesIn(gaps, "zh")).toEqual({});
-    expect(gapsOnPagesIn(gaps, "es")).toEqual({ "/war/esonly": ["en", "es"] });
-    expect(gapsOnPagesIn(gaps, "en")).toEqual(gaps);
-  });
 });
 
 describe("wars by country and culture", () => {
   const later = war("later", 1800, { today: [["MX"], ["US"]] });
   const earlier = war("earlier", 1519, { cultures: ["aztec"] });
   const bce = war("bce", -263, { today: [["IT"], ["TN"]], cultures: ["rome"] });
-
-  it("lists a country's wars oldest first, BCE before CE", () => {
-    expect(warsForCountry([later, earlier, bce], "MX").map((w) => w.id)).toEqual(["earlier", "later"]);
-    expect(warsForCountry([later, earlier, bce], "IT").map((w) => w.id)).toEqual(["bce"]);
-  });
 
   it("counts a state member's own code, not only its today list", () => {
     const withState = war("state", 1982, {
@@ -91,7 +68,7 @@ describe("wars by country and culture", () => {
         { id: "b", label: t("B"), members: [{ kind: "state", code: "AR", role: "belligerent", today: ["AR"] }] },
       ],
     });
-    expect(warsForCountry([withState], "AR").map((w) => w.id)).toEqual(["state"]);
+    expect(warCountryCodes([withState])).toEqual(["AR", "GB"]);
   });
 
   it("lists the wars a culture's page links to", () => {

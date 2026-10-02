@@ -1,9 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { loadAllWars, readDataset } from "@/lib/data/load";
+import { LOCALES } from "@/i18n/locales";
+import { countryCodes, countryItems } from "@/lib/data/country";
+import { loadAllWars, loadHeartland, loadWars, readDataset } from "@/lib/data/load";
 import type { Culture } from "@/lib/data/schema";
 import { toCultureRef } from "@/lib/data/queries";
 import { toSearchEntry, warSearchEntries } from "./search/search-index";
-import { toTimelineCulture } from "./timeline/timeline-layout";
+import { toTimelineBar, toTimelineCulture } from "./timeline/timeline-layout";
 
 // These shapes are serialised into page payloads for weak signal: sources and
 // notes are never rendered from them, so they must stay on the server.
@@ -43,5 +45,25 @@ describe("client payloads", () => {
     for (const key of [...LEAKS.slice(0, 2), "description", "sides"]) expect(keysIn(wars)).toContain(key);
     const keys = keysIn(warSearchEntries(wars, "en"));
     for (const key of [...LEAKS, "description", "sides", "events"]) expect(keys).not.toContain(key);
+  });
+
+  // What a country page's timeline ships: names, years, colours and ids, built the way the page builds them.
+  describe.each(LOCALES)("country timeline bars in %s", (locale) => {
+    const heartland = loadHeartland();
+    const wars = loadWars(locale);
+    const bars = countryCodes(heartland, wars).flatMap((code) =>
+      countryItems(code, cultures, heartland, wars).map((item) => toTimelineBar(item, locale)),
+    );
+
+    it("carry no account, sides, events, sources or notes", () => {
+      const keys = keysIn(bars);
+      for (const key of [...LEAKS, "description", "outcome", "sides", "events", "facts", "casualties"]) expect(keys).not.toContain(key);
+    });
+
+    it("carry no war the review gate hides here", () => {
+      const hidden = loadAllWars().filter((w) => w.sensitive && locale !== "en" && !w.reviewed[locale]).map((w) => w.id);
+      if (locale !== "en") expect(hidden.length).toBeGreaterThan(0);
+      for (const id of hidden) expect(bars.map((b) => b.id)).not.toContain(id);
+    });
   });
 });

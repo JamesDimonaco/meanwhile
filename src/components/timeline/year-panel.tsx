@@ -1,31 +1,33 @@
+import type { ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import type { WarSpan } from "@/lib/data/wars";
 import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
-import type { TimelineActiveCulture } from "./timeline-math";
-import { YearRangeText, YearText } from "@/components/settings/year-text";
-import { NoneInRegions } from "@/components/filters/region-chips";
+import { YearText } from "@/components/settings/year-text";
+import { WarDates } from "@/components/wars/war-parts";
 
 export type SelectedEvent = { culture: TimelineCulture; event: TimelineEvent };
 
+/** One thing alive at the year line: a culture, or a war on a country's page. */
+export type PanelEntry = { id: string; name: string; href: string; span: WarSpan; certain: boolean; color: string };
+
 /**
  * What was alive at the dragged year, or (when a marker was tapped) that
- * event plus what else was happening at the same time. `hiddenByFilter`
- * means the region filter, not the record, left `active` empty.
+ * event plus what else was happening at the same time. `empty` replaces the
+ * list when nothing is.
  */
 export function YearPanel({
   year,
-  active,
-  selected,
+  entries,
+  selected = null,
   onClose,
-  hiddenByFilter,
-  onShowAllRegions,
+  empty,
 }: {
   year: number;
-  active: TimelineActiveCulture[];
-  selected: SelectedEvent | null;
-  onClose: () => void;
-  hiddenByFilter: boolean;
-  onShowAllRegions: () => void;
+  entries: PanelEntry[];
+  selected?: SelectedEvent | null;
+  onClose?: () => void;
+  empty?: ReactNode;
 }) {
   const t = useTranslations("timeline");
   const tCommon = useTranslations("common");
@@ -47,21 +49,20 @@ export function YearPanel({
         </div>
       )}
       <p className="text-sm font-medium">{t.rich(selected ? "alsoHappening" : "activeIn", { year: () => <YearText year={year} /> })}</p>
-      {active.length === 0 && hiddenByFilter ? (
-        <NoneInRegions message="noneInRegions" onShowAll={onShowAllRegions} />
-      ) : active.length === 0 ? (
-        <p className="text-sm text-muted-foreground">{t("noneActive")}</p>
+      {entries.length === 0 ? (
+        (empty ?? <p className="text-sm text-muted-foreground">{t("noneActive")}</p>)
       ) : (
         <ul className="flex flex-col gap-1">
-          {active
-            .filter((a) => a.culture.id !== selected?.culture.id)
-            .map(({ culture, certain }) => (
-              <li key={culture.id} className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5 text-sm">
-                <Link href={`/c/${culture.id}`} className="min-w-0 underline-offset-2 hover:underline">
-                  {culture.name}
+          {entries
+            .filter((e) => e.id !== selected?.culture.id)
+            .map(({ id, name, href, span, certain, color }) => (
+              <li key={id} className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5 text-sm">
+                <Link href={href} className="inline-flex min-w-0 items-baseline gap-1.5 underline-offset-2 hover:underline">
+                  <span aria-hidden className="inline-block size-2 shrink-0 rounded-full" style={{ backgroundColor: color }} />
+                  {name}
                 </Link>
                 <span className="text-muted-foreground">
-                  <YearRangeText start={culture.period.latestStart} end={culture.period.earliestEnd} />
+                  <WarDates span={span} />
                   {!certain && " ~"}
                 </span>
               </li>

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { LOCALES } from "@/i18n/locales";
 import { NEVER_SHOWN } from "./countries";
-import { countryCodes, countryItems, itemBounds, itemId, overlapping, overlaps } from "./country";
+import { countryCodes, countryItems, gapsOnPagesIn, itemBounds, itemId, localeGaps, overlapping, overlaps } from "./country";
 import { loadAllWars, loadCultures, loadHeartland, loadWars } from "./load";
 import type { War } from "./war-schema";
 import { warCountryCodes } from "./wars";
@@ -56,7 +56,7 @@ describe("overlaps, with the real data", () => {
   });
 });
 
-function war(id: string, codes: string[]): War {
+function war(id: string, codes: string[], opts: Partial<War> = {}): War {
   const t = (en: string) => ({ en });
   return {
     id,
@@ -81,6 +81,7 @@ function war(id: string, codes: string[]): War {
     casualties: [],
     cultures: [],
     sources: [],
+    ...opts,
   };
 }
 
@@ -135,5 +136,30 @@ describe("country pages, with the real data", () => {
     // Chimu fell to the Inca: their solid spans share 1438-1469.
     expect(withInca).toEqual(["chimu", "spanish-conquest-of-the-inca-empire"]);
     expect(overlapping(items).get("caral-supe")).toEqual([]);
+  });
+});
+
+describe("locale gaps", () => {
+  const plain = war("plain", ["ES"]);
+  const onlyKr = war("korea", ["KR", "KP"], { sensitive: true });
+
+  it("names the pages missing in some language, so no link there leads to a 404", () => {
+    expect(localeGaps([plain, onlyKr], {})).toEqual({
+      "/war/korea": ["en"],
+      "/country/kr": ["en"],
+      "/country/kp": ["en"],
+    });
+  });
+
+  it("keeps a country page whose gated wars are hidden when a civilisation still gives it one", () => {
+    expect(localeGaps([onlyKr], { goguryeo: ["KR"], aztec: ["MX"] })).toEqual({ "/war/korea": ["en"], "/country/kp": ["en"] });
+  });
+
+  it("keeps a gated war's id out of the pages of a language it is hidden in", () => {
+    const esOnly = war("esonly", ["ES"], { sensitive: true, reviewed: { es: true, zh: false } });
+    const gaps = localeGaps([plain, onlyKr, esOnly], {});
+    expect(gapsOnPagesIn(gaps, "zh")).toEqual({});
+    expect(gapsOnPagesIn(gaps, "es")).toEqual({ "/war/esonly": ["en", "es"] });
+    expect(gapsOnPagesIn(gaps, "en")).toEqual(gaps);
   });
 });

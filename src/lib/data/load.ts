@@ -3,12 +3,12 @@ import path from "node:path";
 import countries from "flag-icons/country.json";
 import type { Locale } from "@/i18n/locales";
 import { readJsonFiles } from "./files";
-import type { Heartland } from "./country";
+import { localeGaps, type Heartland } from "./country";
 import { Today, validateHeartland } from "./heartland";
 import { Registry, type Borders, type Culture, type SuccessionLink } from "./schema";
 import { validateDataset, type DatasetResult } from "./validate";
 import type { War } from "./war-schema";
-import { localeGaps, warCountryCodes, warsShownIn } from "./wars";
+import { warCountryCodes, warsShownIn } from "./wars";
 
 // Server only (fs). Pages call these at build time, in server components;
 // client components receive CultureRef/Culture props, never this module.
@@ -83,9 +83,9 @@ export function loadAllWars(): War[] {
 
 let gapsCache: Record<string, Locale[]> | undefined;
 
-/** localeGaps(loadAllWars()), worked out once: the layout asks for it on every page in every locale. */
+/** localeGaps over every war, worked out once: the layout asks for it on every page in every locale. */
 export function loadLocaleGaps(): Record<string, Locale[]> {
-  gapsCache ??= localeGaps(loadAllWars());
+  gapsCache ??= localeGaps(loadAllWars(), loadHeartland());
   return gapsCache;
 }
 

@@ -50,11 +50,6 @@ export function warsShownIn<W extends Pick<War, "sensitive" | "reviewed">>(wars:
 
 const oldestFirst = (a: War, b: War) => warSpan(a).start - warSpan(b).start || a.id.localeCompare(b.id);
 
-/** The wars a country's page lists, oldest first. */
-export function warsForCountry(wars: readonly War[], code: string): War[] {
-  return wars.filter((w) => warCountryCodes([w]).includes(code)).sort(oldestFirst);
-}
-
 /**
  * The land a war's map draws on. A borders file is cut to its war's part of
  * the world, so it takes the region file its cultures share (a third of the
@@ -95,28 +90,6 @@ export function countryIndex(wars: readonly War[], locale: Locale): CountryEntry
       count: wars.filter((w) => warCountryCodes([w]).includes(code)).length,
     }))
     .sort((a, b) => a.name.localeCompare(b.name, locale));
-}
-
-/**
- * Pages that exist in some languages only (the review gate), mapped to the
- * languages they exist in, so the language switcher never links to a 404.
- */
-export function localeGaps(wars: readonly War[]): Record<string, Locale[]> {
-  const gaps: Record<string, Locale[]> = {};
-  const record = (path: string, shown: (l: Locale) => boolean) => {
-    const locales = LOCALES.filter(shown);
-    if (locales.length < LOCALES.length) gaps[path] = locales;
-  };
-  for (const war of wars) record(`/war/${war.id}`, (l) => isShownIn(war, l));
-  for (const code of warCountryCodes(wars)) {
-    record(`/wars/${code.toLowerCase()}`, (l) => warsForCountry(warsShownIn(wars, l), code).length > 0);
-  }
-  return gaps;
-}
-
-/** The gaps a page in this language needs: a path hidden in it has no page there to switch from, and naming it would leak the war. */
-export function gapsOnPagesIn(gaps: Record<string, Locale[]>, locale: Locale): Record<string, Locale[]> {
-  return Object.fromEntries(Object.entries(gaps).filter(([, locales]) => locales.includes(locale)));
 }
 
 /**

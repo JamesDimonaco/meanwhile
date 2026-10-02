@@ -24,6 +24,7 @@
     "africa": "África"
   },
   "heartlandToday": "Hoy su núcleo está en {countries}",
+  "heartlandTodayLinked": "Hoy su núcleo está en <countries></countries>",
   "regionFilter": "Regiones",
   "allRegions": "Todas",
   "showAllRegions": "Mostrar todas las regiones",

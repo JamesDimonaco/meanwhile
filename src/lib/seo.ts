@@ -6,8 +6,8 @@ import { OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
 // (metadataBase, sitemap, robots). No trailing slash.
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://meanwhile.dimonaco.co.uk").replace(/\/+$/, "");
 
-/** Site-relative path for a page: "" (home) | "timeline" | "credits" | "c/shang" | "wars" | "wars/mx" | "war/korean-war". */
-export type SeoPath = "" | "timeline" | "credits" | `c/${string}` | "wars" | `wars/${string}` | `war/${string}`;
+/** Site-relative path for a page: "" (home) | "timeline" | "credits" | "c/shang" | "wars" | "country/mx" | "war/korean-war". */
+export type SeoPath = "" | "timeline" | "credits" | `c/${string}` | "wars" | `country/${string}` | `war/${string}`;
 
 /** Every page's URL, matching next.config's trailingSlash: true. */
 export function localePath(locale: Locale, path: SeoPath): string {

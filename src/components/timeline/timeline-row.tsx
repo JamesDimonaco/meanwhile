@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import type { ScaleLinear } from "d3-scale";
 import { Link } from "@/i18n/navigation";
@@ -17,39 +18,68 @@ export const REGION_COLOR: Record<Region, string> = {
   africa: "var(--chart-5)",
 };
 
+/** Wars on a country's timeline: apart from every region colour and the compare slots, in both themes. */
+export const WAR_COLOR = "var(--war)";
+
 const BAR_INSET = 4;
 /** Event dots are small to keep bars readable; the hit area is finger-sized. */
 const MARKER_HIT_RADIUS = 11;
 
-/** Frozen name column: region header text, positioned to match the scrollable chart's rows. */
-export function RegionHeaderLabel({ region, y, height }: { region: Region; y: number; height: number }) {
-  const t = useTranslations("common");
+/** Frozen name column: a group header (a region, or civilisations and wars), positioned to match the scrollable chart's rows. */
+export function RowHeader({ y, height, children }: { y: number; height: number; children: ReactNode }) {
   return (
     <p
       className="absolute inset-x-0 flex items-center gap-1.5 text-xs font-medium text-muted-foreground"
       style={{ top: y, height }}
     >
-      <RegionDot region={region} />
-      <span className="truncate">{t(`regions.${region}`)}</span>
+      {children}
     </p>
   );
 }
 
-/**
- * Frozen name column: one culture's name, row-aligned with its bar, linking
- * to its page. One flag only: the column is too narrow for three.
- */
-export function CultureLabel({ culture, y, height }: { culture: TimelineCulture; y: number; height: number }) {
+export function RegionHeaderLabel({ region, y, height }: { region: Region; y: number; height: number }) {
+  const t = useTranslations("common");
+  return (
+    <RowHeader y={y} height={height}>
+      <RegionDot region={region} />
+      <span className="truncate">{t(`regions.${region}`)}</span>
+    </RowHeader>
+  );
+}
+
+/** Frozen name column: one row's name, row-aligned with its bar, linking to its page, after an optional prefix (a flag). */
+export function RowLabel({
+  href,
+  name,
+  y,
+  height,
+  children,
+}: {
+  href: string;
+  name: string;
+  y: number;
+  height: number;
+  children?: ReactNode;
+}) {
   return (
     <Link
-      href={`/c/${culture.id}`}
-      title={culture.name}
+      href={href}
+      title={name}
       className="absolute inset-x-0 flex items-center gap-1 text-xs hover:underline"
       style={{ top: y, height }}
     >
-      <HeartlandFlags cultureId={culture.id} max={1} />
-      <span className="truncate">{culture.name}</span>
+      {children}
+      <span className="truncate">{name}</span>
     </Link>
+  );
+}
+
+/** One flag only: the column is too narrow for three. */
+export function CultureLabel({ culture, y, height }: { culture: TimelineCulture; y: number; height: number }) {
+  return (
+    <RowLabel href={`/c/${culture.id}`} name={culture.name} y={y} height={height}>
+      <HeartlandFlags cultureId={culture.id} max={1} />
+    </RowLabel>
   );
 }
 

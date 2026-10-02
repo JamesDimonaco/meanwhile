@@ -96,12 +96,44 @@ export function clampYear(year: number, [min, max]: [number, number]): number {
 export const MIN_PX_PER_YEAR = 0.15;
 export const MAX_PX_PER_YEAR = 12;
 
-/** Keeps the zoom level (pixels per year) inside a readable, cheap-to-render range. */
-export function clampZoom(pxPerYear: number): number {
-  return Math.min(MAX_PX_PER_YEAR, Math.max(MIN_PX_PER_YEAR, pxPerYear));
+/** Keeps the zoom level (pixels per year) inside a readable, cheap-to-render range; a country's chart floors it at its fit. */
+export function clampZoom(pxPerYear: number, min = MIN_PX_PER_YEAR): number {
+  return Math.min(MAX_PX_PER_YEAR, Math.max(min, pxPerYear));
 }
 
-export type TimelineActiveCulture = { culture: TimelineCulture; certain: boolean };
+/** The zoom at which the whole domain fills `width` pixels. */
+export function fitZoom([min, max]: [number, number], width: number): number {
+  return Math.min(MAX_PX_PER_YEAR, width / (max - min));
+}
+
+const DOMAIN_PAD = 0.05;
+const MIN_DOMAIN_PAD = 10;
+
+/** Room either side of a country's span, so its first and last bars don't sit on the frame. */
+export function padDomain([min, max]: [number, number]): [number, number] {
+  const pad = Math.max(MIN_DOMAIN_PAD, Math.round((max - min) * DOMAIN_PAD));
+  return [min - pad, max + pad];
+}
+
+/** The narrowest a bar is drawn, so a one-year war on a 4,000-year axis still shows. */
+export const MIN_BAR_WIDTH = 6;
+/** The narrowest a bar's tap target is. */
+export const BAR_HIT_WIDTH = 32;
+
+/** x0..x1 widened about its centre to at least `min` pixels. */
+export function atLeast(x0: number, x1: number, min: number): { x: number; width: number } {
+  const width = x1 - x0;
+  return width >= min ? { x: x0, width } : { x: (x0 + x1 - min) / 2, width: min };
+}
+
+/** The bars alive in a year, in the order given; `certain` inside the solid part. */
+export function activeBars<B extends { period: PeriodBounds }>(bars: readonly B[], year: number): { bar: B; certain: boolean }[] {
+  return bars
+    .filter(({ period: p }) => p.earliestStart <= year && year <= p.latestEnd)
+    .map((bar) => ({ bar, certain: bar.period.latestStart <= year && year <= bar.period.earliestEnd }));
+}
+
+type TimelineActiveCulture = { culture: TimelineCulture; certain: boolean };
 
 /** queries.ts's activeAt over the timeline's already-slim culture shape. */
 export function activeCultures(cultures: readonly TimelineCulture[], year: number): TimelineActiveCulture[] {

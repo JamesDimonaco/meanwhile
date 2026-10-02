@@ -8,7 +8,13 @@ import {
   axisTicks,
   barSegments,
   clampYear,
+  BAR_HIT_WIDTH,
+  MIN_BAR_WIDTH,
+  activeBars,
+  atLeast,
   clampZoom,
+  fitZoom,
+  padDomain,
   computeYearDomain,
   takeEcho,
   timelineQuery,
@@ -304,5 +310,66 @@ describe("yearFromParam", () => {
     expect(yearFromParam("9999", 1, domain)).toBe(2000);
     expect(yearFromParam(null, 1, domain)).toBe(1);
     expect(yearFromParam("nope", 7, domain)).toBe(7);
+  });
+});
+
+describe("fitting a country's span to the screen", () => {
+  it("zooms so the whole domain fills the width", () => {
+    expect(fitZoom([0, 1000], 250)).toBe(0.25);
+  });
+
+  it("can zoom out further than the world timeline's floor, and never in past its ceiling", () => {
+    expect(fitZoom([-2100, 2026], 200)).toBeLessThan(MIN_PX_PER_YEAR);
+    expect(fitZoom([1982, 1983], 500)).toBe(MAX_PX_PER_YEAR);
+  });
+
+  it("clamps zoom to a floor the caller gives", () => {
+    expect(clampZoom(0.01, 0.05)).toBe(0.05);
+    expect(clampZoom(100, 0.05)).toBe(MAX_PX_PER_YEAR);
+  });
+
+  it("pads the domain so edge bars don't touch the frame, and a one-year span still has room", () => {
+    expect(padDomain([-2000, 2000])).toEqual([-2200, 2200]);
+    expect(padDomain([1982, 1982])).toEqual([1972, 1992]);
+  });
+});
+
+describe("atLeast", () => {
+  it("widens a narrow bar about its centre", () => {
+    expect(atLeast(100, 101, 6)).toEqual({ x: 97.5, width: 6 });
+  });
+
+  it("leaves a wide bar alone", () => {
+    expect(atLeast(100, 200, 6)).toEqual({ x: 100, width: 100 });
+  });
+
+  // A one-year war on a 4,000-year axis is a twentieth of a pixel wide.
+  it("keeps every bar visible and a fingertip wide to tap", () => {
+    expect(MIN_BAR_WIDTH).toBeGreaterThanOrEqual(4);
+    expect(BAR_HIT_WIDTH).toBeGreaterThanOrEqual(32);
+  });
+});
+
+describe("activeBars", () => {
+  const p = (earliestStart: number, latestStart: number, earliestEnd: number, latestEnd: number) => ({
+    earliestStart,
+    latestStart,
+    earliestEnd,
+    latestEnd,
+    disputed: false,
+  });
+  const bars = [
+    { id: "a", period: p(0, 10, 90, 100) },
+    { id: "b", period: p(50, 50, 60, 60) },
+    { id: "c", period: p(200, 200, 300, 300) },
+  ];
+
+  it("lists the bars alive in a year in their given order, certain inside the solid part", () => {
+    expect(activeBars(bars, 55).map(({ bar, certain }) => [bar.id, certain])).toEqual([
+      ["a", true],
+      ["b", true],
+    ]);
+    expect(activeBars(bars, 5).map(({ bar, certain }) => [bar.id, certain])).toEqual([["a", false]]);
+    expect(activeBars(bars, 150)).toEqual([]);
   });
 });

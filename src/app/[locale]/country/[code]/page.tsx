@@ -1,0 +1,94 @@
+import type { Metadata } from "next";
+import { Suspense } from "react";
+import { getTranslations } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { CountryItemCard } from "@/components/country/country-item-card";
+import { CountryTimeline } from "@/components/country/country-timeline";
+import { CountryFlag } from "@/components/identity/heartland-flags";
+import { toTimelineBar } from "@/components/timeline/timeline-layout";
+import { isLocale, LOCALES, type Locale } from "@/i18n/locales";
+import { Link } from "@/i18n/navigation";
+import { pageLocale } from "@/i18n/page-locale";
+import { countryCodes, countryItems, itemId, overlapping } from "@/lib/data/country";
+import { loadCultures, loadHeartland, loadWars } from "@/lib/data/load";
+import { localize } from "@/lib/data/localize";
+import { countryName } from "@/lib/data/wars";
+import { openGraph, pageAlternates } from "@/lib/seo";
+
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
+const hasPage = (code: string, locale: Locale) => countryCodes(loadHeartland(), loadWars(locale)).includes(code.toUpperCase());
+
+/** A country has a page in a language when a civilisation's heartland or a war shown in it lists the country. */
+export function generateStaticParams({ params }: { params: { locale: string } }) {
+  if (!isLocale(params.locale)) return [];
+  return countryCodes(loadHeartland(), loadWars(params.locale)).map((code) => ({ code: code.toLowerCase() }));
+}
+
+export async function generateMetadata({ params }: PageProps<"/[locale]/country/[code]">): Promise<Metadata> {
+  const locale = await pageLocale(params);
+  const { code } = await params;
+  const t = await getTranslations({ locale, namespace: "country" });
+  const country = countryName(code.toUpperCase(), locale);
+  const shownIn = LOCALES.filter((l) => hasPage(code, l));
+  const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
+  return {
+    title: t("title", { country }),
+    description: t("metaDescription", { country }),
+    alternates: pageAlternates(locale, `country/${code}`, shownIn),
+    // The default share image; the layout's openGraph would list every locale.
+    openGraph: openGraph(locale, appName, { path: "", alt: appName }, shownIn),
+  };
+}
+
+/** One country: its civilisations and wars on one timeline, then as a list, oldest first, with what overlapped. */
+export default async function CountryPage({ params }: PageProps<"/[locale]/country/[code]">) {
+  const locale = await pageLocale(params);
+  const { code } = await params;
+  if (!hasPage(code, locale)) notFound();
+  const t = await getTranslations("country");
+  const tWars = await getTranslations("wars");
+  const upper = code.toUpperCase();
+  const country = countryName(upper, locale);
+  const cultures = loadCultures();
+  const items = countryItems(upper, cultures, loadHeartland(), loadWars(locale));
+  const overlaps = overlapping(items);
+  const cultureNames = Object.fromEntries(cultures.map((c) => [c.id, localize(c.name, locale)]));
+  const cultureCount = items.filter((i) => i.kind === "culture").length;
+
+  return (
+    <section className="mx-auto flex w-full max-w-3xl flex-col gap-6 pt-4">
+      <header className="flex flex-col gap-2">
+        <Link href="/wars" className="self-start text-sm text-muted-foreground underline-offset-2 hover:underline">
+          {tWars("allCountries")}
+        </Link>
+        <h1 className="flex items-center gap-2 text-2xl font-semibold tracking-tight">
+          <CountryFlag code={upper} />
+          {country}
+        </h1>
+        <p className="font-medium">{t("summary", { cultures: cultureCount, wars: items.length - cultureCount })}</p>
+        <p className="text-sm text-muted-foreground">{t("intro", { country })}</p>
+      </header>
+
+      <section className="flex flex-col gap-3">
+        <h2 className="text-lg font-semibold tracking-tight">{t("timeline")}</h2>
+        {/* useSearchParams needs a Suspense boundary in a prerendered page. */}
+        <Suspense>
+          <CountryTimeline bars={items.map((item) => toTimelineBar(item, locale))} />
+        </Suspense>
+      </section>
+
+      <section className="flex flex-col gap-3">
+        <h2 className="text-lg font-semibold tracking-tight">{t("list")}</h2>
+        <ol className="flex flex-col gap-3">
+          {items.map((item) => (
+            <li key={itemId(item)}>
+              <CountryItemCard item={item} overlaps={overlaps.get(itemId(item)) ?? []} cultureNames={cultureNames} />
+            </li>
+          ))}
+        </ol>
+      </section>
+    </section>
+  );
+}

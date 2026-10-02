@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { DEFAULT_LOCALE, HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
-import { loadAllWars, loadCultures } from "@/lib/data/load";
-import { localeGaps, warCountryCodes } from "@/lib/data/wars";
+import { countryCodes, localeGaps } from "@/lib/data/country";
+import { loadAllWars, loadCultures, loadHeartland } from "@/lib/data/load";
 import { absoluteUrl, localePath, type SeoPath } from "@/lib/seo";
 
 // Built once per deploy: nothing here changes between requests.
@@ -16,7 +16,7 @@ function paths(): SeoPath[] {
     "credits",
     ...loadCultures().map((c) => `c/${c.id}` as const),
     "wars",
-    ...warCountryCodes(wars).map((code) => `wars/${code.toLowerCase()}` as const),
+    ...countryCodes(loadHeartland(), wars).map((code) => `country/${code.toLowerCase()}` as const),
     ...wars.map((w) => `war/${w.id}` as const),
   ];
 }
@@ -33,6 +33,6 @@ function rows(path: SeoPath, locales: readonly Locale[]): MetadataRoute.Sitemap 
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const gaps = localeGaps(loadAllWars());
+  const gaps = localeGaps(loadAllWars(), loadHeartland());
   return paths().flatMap((path) => rows(path, gaps[`/${path}`] ?? LOCALES));
 }

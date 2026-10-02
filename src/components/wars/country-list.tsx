@@ -99,7 +99,7 @@ export function CountryList({
                 {shownCountries.map((c) => (
                   <li key={c.code}>
                     <Link
-                      href={`/wars/${c.code.toLowerCase()}`}
+                      href={`/country/${c.code.toLowerCase()}`}
                       className="flex min-w-0 items-center gap-2 rounded-lg border border-border px-4 py-3 hover:bg-muted"
                     >
                       <CountryFlag code={c.code} />

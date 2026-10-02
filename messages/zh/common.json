@@ -24,6 +24,7 @@
     "africa": "非洲"
   },
   "heartlandToday": "核心地区今属：{countries}",
+  "heartlandTodayLinked": "核心地区今属：<countries></countries>",
   "regionFilter": "地区",
   "allRegions": "全部",
   "showAllRegions": "显示所有地区",

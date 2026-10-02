@@ -1,8 +1,9 @@
+import { LOCALES, type Locale } from "@/i18n/locales";
 import { isListableCountry } from "./countries";
 import { defaultPeriod } from "./queries";
 import type { Culture, Period } from "./schema";
 import type { War } from "./war-schema";
-import { warCountryCodes, warOuter } from "./wars";
+import { isShownIn, warCountryCodes, warOuter, warsShownIn } from "./wars";
 
 /** data/today.json: culture id -> the present-day countries its heartland lies in. */
 export type Heartland = Readonly<Record<string, readonly string[]>>;
@@ -57,4 +58,28 @@ export function overlapping(items: readonly CountryItem[]): Map<string, CountryI
   return new Map(
     items.map((item) => [itemId(item), items.filter((other) => other !== item && overlaps(itemBounds(item), itemBounds(other)))]),
   );
+}
+
+/**
+ * Pages that exist in some languages only (the review gate), mapped to the
+ * languages they exist in, so the language switcher never links to a 404.
+ * Pass every war, gate not applied.
+ */
+export function localeGaps(wars: readonly War[], heartland: Heartland): Record<string, Locale[]> {
+  const gaps: Record<string, Locale[]> = {};
+  const record = (path: string, shown: (l: Locale) => boolean) => {
+    const locales = LOCALES.filter(shown);
+    if (locales.length < LOCALES.length) gaps[path] = locales;
+  };
+  for (const war of wars) record(`/war/${war.id}`, (l) => isShownIn(war, l));
+  const pages = Object.fromEntries(LOCALES.map((l) => [l, countryCodes(heartland, warsShownIn(wars, l))]));
+  for (const code of countryCodes(heartland, wars)) {
+    record(`/country/${code.toLowerCase()}`, (l) => pages[l].includes(code));
+  }
+  return gaps;
+}
+
+/** The gaps a page in this language needs: a path hidden in it has no page there to switch from, and naming it would leak the war. */
+export function gapsOnPagesIn(gaps: Record<string, Locale[]>, locale: Locale): Record<string, Locale[]> {
+  return Object.fromEntries(Object.entries(gaps).filter(([, locales]) => locales.includes(locale)));
 }
