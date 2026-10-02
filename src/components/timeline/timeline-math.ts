@@ -58,14 +58,17 @@ export function computeYearDomain(ranges: readonly { earliestStart: number; late
 /**
  * Axis tick years (astronomical) that land on round *displayed* years:
  * d3's round -1000 is shown as 1001 BCE, so BCE ticks shift by one, and
- * the tick at 0 (not a displayed year) becomes 1 CE.
+ * the tick at 0 (not a displayed year) becomes 1 CE. Never fewer than two
+ * while the domain spans a year, since one label can't date anything: d3
+ * can round `count` to a step only one tick fits, so ask for more.
  */
 export function axisTicks(domain: [number, number], count: number): number[] {
-  return scaleLinear()
+  const ticks = scaleLinear()
     .domain(domain)
     .ticks(count)
     .map((t) => (t <= 0 ? t + 1 : t))
     .filter((t) => t >= domain[0] && t <= domain[1]);
+  return ticks.length < 2 && count < domain[1] - domain[0] ? axisTicks(domain, count + 1) : ticks;
 }
 
 /** Half the widest axis label ("公元前1000年" at 10px), in pixels. */

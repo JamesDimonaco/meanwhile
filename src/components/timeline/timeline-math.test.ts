@@ -228,6 +228,12 @@ describe("axisTicks", () => {
     expect(axisTicks([1000, 1900], 4)).toEqual([1000, 1200, 1400, 1600, 1800]);
   });
 
+  // One label can't date anything: Ukraine's chart showed only "2020 CE", GB's only "1 CE".
+  it("gives at least two ticks when the asked-for count fits only one", () => {
+    expect(axisTicks([2004, 2036], 2)).toEqual([2010, 2020, 2030]);
+    expect(axisTicks([-4405, 2327], 2)).toEqual([-3999, -1999, 1, 2000]);
+  });
+
   it("never returns a tick outside the domain", () => {
     for (const t of axisTicks([-4099, 1912], 40)) {
       expect(t).toBeGreaterThanOrEqual(-4099);
