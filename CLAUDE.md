@@ -164,7 +164,7 @@ These follow the decisions above where they reach; James may change them at revi
 - **Massacres and atrocities**: plain, sourced, non-graphic wording, like a museum label.
 - Mark contested dates and names `disputed: true` with a `note`.
 - **Two independent sources per fact**, written in our own words; open every source you cite.
-- **Pins**: battle sites and cities only, never inside a contested area. The guard (`contested.ts`, server only) rejects Taiwan, Penghu and Taiwan's northern islets, Kinmen (with Dadan, Erdan and Wuqiu), Matsu, the Pratas Islands, Kashmir and Aksai Chin, Gilgit-Baltistan, Arunachal Pradesh, the Paracels, the Spratlys (with the Luconia Shoals and James Shoal), Scarborough Shoal and the Senkaku/Diaoyu Islands; pin the nearest undisputed city instead. Other disputed places: see Open calls. The boxes are coarse: a reviewer still checks every pin.
+- **Pins**: battle sites and cities only, never inside a contested area. The guard (`contested.ts`, server only) rejects Taiwan, Penghu and Taiwan's northern islets, Kinmen (with Dadan, Erdan, Wuqiu and Dongding), Matsu, the Pratas Islands, Kashmir and Aksai Chin (with Ladakh down to Hanle, Chumar and Demchok), Gilgit-Baltistan, Arunachal Pradesh, the Paracels, the Spratlys (with the Luconia Shoals and James Shoal), Scarborough Shoal and the Senkaku/Diaoyu Islands; pin the nearest undisputed city instead. Other disputed places: see Open calls. The boxes are coarse: a reviewer still checks every pin.
 
 ### Maps
 
