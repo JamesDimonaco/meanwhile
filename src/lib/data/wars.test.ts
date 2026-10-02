@@ -103,7 +103,7 @@ describe("wars by country and culture", () => {
 describe("countryIndex", () => {
   it("lists each country once with its name in the page's language, continent and war count, sorted by name", () => {
     const wars = [war("one", 1519), war("two", 1846, { today: [["US"], ["MX"]] })];
-    expect(countryIndex(wars, "en").map(({ terms: _, ...c }) => c)).toEqual([
+    expect(countryIndex(wars, "en").map(({ code, name, continent, count }) => ({ code, name, continent, count }))).toEqual([
       { code: "MX", name: "Mexico", continent: "americas", count: 2 },
       { code: "ES", name: "Spain", continent: "europe", count: 1 },
       { code: "US", name: "United States", continent: "americas", count: 1 },
