@@ -85,7 +85,7 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
         <ol className="flex flex-col gap-3">
           {items.map((item) => (
             <li key={itemId(item)}>
-              <CountryItemCard item={item} overlaps={overlaps.get(itemId(item)) ?? []} cultureNames={cultureNames} />
+              <CountryItemCard item={item} overlaps={overlaps.get(itemId(item)) ?? []} cultureNames={cultureNames} country={upper} />
             </li>
           ))}
         </ol>

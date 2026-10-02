@@ -21,10 +21,13 @@ export function CountryItemCard({
   item,
   overlaps,
   cultureNames,
+  country,
 }: {
   item: CountryItem;
   overlaps: readonly CountryItem[];
   cultureNames: CultureNames;
+  /** The page's country code. */
+  country: string;
 }) {
   const locale = useLocale();
   const t = useTranslations("country");
@@ -49,7 +52,7 @@ export function CountryItemCard({
       </span>
       {item.kind === "war" && (
         <>
-          <SideList sides={item.war.sides} cultureNames={cultureNames} />
+          <SideList sides={item.war.sides} cultureNames={cultureNames} here={country} />
           <p className="text-sm">{localize(item.war.outcome, locale)}</p>
         </>
       )}

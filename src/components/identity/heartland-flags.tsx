@@ -26,9 +26,10 @@ export function CountryFlag({ code }: { code: string }) {
 /**
  * A present-day country's flag and name, linking to its country page. Every
  * listable heartland or war-state code has one in every language it appears
- * in (country.test.ts), so only the never-shown and non-UN codes stay plain.
+ * in (country.test.ts), so only the never-shown and non-UN codes stay plain,
+ * and `here`, the country page it is on, which a link would only reload.
  */
-export function CountryLink({ code }: { code: string }) {
+export function CountryLink({ code, here }: { code: string; here?: string }) {
   const locale = useLocale();
   const content = (
     <>
@@ -36,7 +37,7 @@ export function CountryLink({ code }: { code: string }) {
       {countryName(code, locale)}
     </>
   );
-  if (!isListableCountry(code)) return <span className="inline-flex items-center gap-1">{content}</span>;
+  if (!isListableCountry(code) || code === here) return <span className="inline-flex items-center gap-1">{content}</span>;
   return (
     <Link href={`/country/${code.toLowerCase()}`} className="inline-flex items-center gap-1 underline underline-offset-2">
       {content}

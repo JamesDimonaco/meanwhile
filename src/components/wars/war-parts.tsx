@@ -19,10 +19,12 @@ export function WarDates({ span: { start, end, asOf } }: { span: WarSpan }) {
   return <span>{t.rich("ongoing", { start: () => <YearText year={start} />, date: formatIsoDate(asOf, locale) })}</span>;
 }
 
+type SideProps = { cultureNames: CultureNames; linkCultures: boolean; here?: string };
+
 /** A modern state with its flag, linking to its country page; a culture by name (linked on the war page); a historical polity by plain name. */
-function MemberName({ member, cultureNames, linkCultures }: { member: SideMember; cultureNames: CultureNames; linkCultures: boolean }) {
+function MemberName({ member, cultureNames, linkCultures, here }: SideProps & { member: SideMember }) {
   const locale = useLocale();
-  if (member.kind === "state") return <CountryLink code={member.code} />;
+  if (member.kind === "state") return <CountryLink code={member.code} here={here} />;
   if (member.kind === "culture") {
     const name = cultureNames[member.id] ?? member.id;
     return linkCultures ? (
@@ -36,7 +38,7 @@ function MemberName({ member, cultureNames, linkCultures }: { member: SideMember
   return <span>{localize(member.name, locale)}</span>;
 }
 
-function SideLine({ side, cultureNames, linkCultures }: { side: Side; cultureNames: CultureNames; linkCultures: boolean }) {
+function SideLine({ side, ...props }: SideProps & { side: Side }) {
   const t = useTranslations("wars");
   const locale = useLocale();
   return (
@@ -48,12 +50,12 @@ function SideLine({ side, cultureNames, linkCultures }: { side: Side; cultureNam
             m.role === "supporter" ? (
               <span key={i}>
                 {t.rich("supporter", {
-                  name: () => <MemberName member={m} cultureNames={cultureNames} linkCultures={linkCultures} />,
+                  name: () => <MemberName member={m} {...props} />,
                   role: (chunks) => <span className="text-muted-foreground">{chunks}</span>,
                 })}
               </span>
             ) : (
-              <MemberName key={i} member={m} cultureNames={cultureNames} linkCultures={linkCultures} />
+              <MemberName key={i} member={m} {...props} />
             ),
           )}
         />
@@ -62,15 +64,20 @@ function SideLine({ side, cultureNames, linkCultures }: { side: Side; cultureNam
   );
 }
 
-/** Each side on its own line, "against" between them. Never aggressor and victim: just who fought whom. */
+/**
+ * Each side on its own line, "against" between them. Never aggressor and
+ * victim: just who fought whom. On a country page, `here` is its code.
+ */
 export function SideList({
   sides,
   cultureNames,
   linkCultures = false,
+  here,
 }: {
   sides: readonly Side[];
   cultureNames: CultureNames;
   linkCultures?: boolean;
+  here?: string;
 }) {
   const t = useTranslations("wars");
   return (
@@ -78,7 +85,7 @@ export function SideList({
       {sides.map((side, i) => (
         <div key={side.id} className="flex flex-col gap-0.5">
           {i > 0 && <span className="text-xs">{t("against")}</span>}
-          <SideLine side={side} cultureNames={cultureNames} linkCultures={linkCultures} />
+          <SideLine side={side} cultureNames={cultureNames} linkCultures={linkCultures} here={here} />
         </div>
       ))}
     </div>
