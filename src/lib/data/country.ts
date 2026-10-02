@@ -37,11 +37,16 @@ export function itemBounds(item: CountryItem): Bounds {
 
 /**
  * Two items overlap when their solid spans (latestStart..earliestEnd) share
- * at least one year. Fuzzy edges alone don't count, or every dynasty would
- * overlap the one it replaced.
+ * a year. Fuzzy edges alone don't count. Two civilisations must share more
+ * than one year, since the data writes a handover as one ending the year the
+ * next starts (Sui and Tang, 618); a war counts even in a civilisation's last
+ * year, because that is where the war that ended it falls.
  */
-export function overlaps(a: Bounds, b: Bounds): boolean {
-  return a.latestStart <= b.earliestEnd && b.latestStart <= a.earliestEnd;
+export function overlaps(a: CountryItem, b: CountryItem): boolean {
+  const x = itemBounds(a);
+  const y = itemBounds(b);
+  const handover = a.kind === "culture" && b.kind === "culture" ? 1 : 0;
+  return x.latestStart + handover <= y.earliestEnd && y.latestStart + handover <= x.earliestEnd;
 }
 
 /** A country's civilisations (by heartland) and the wars shown in its language, oldest first. */
@@ -56,7 +61,7 @@ export function countryItems(code: string, cultures: readonly Culture[], heartla
 /** Each item's id -> the other items it overlapped with, in the list's order. */
 export function overlapping(items: readonly CountryItem[]): Map<string, CountryItem[]> {
   return new Map(
-    items.map((item) => [itemId(item), items.filter((other) => other !== item && overlaps(itemBounds(item), itemBounds(other)))]),
+    items.map((item) => [itemId(item), items.filter((other) => other !== item && overlaps(item, other))]),
   );
 }
 

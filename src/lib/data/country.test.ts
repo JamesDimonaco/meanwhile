@@ -1,58 +1,73 @@
 import { describe, expect, it } from "vitest";
 import { LOCALES } from "@/i18n/locales";
 import { NEVER_SHOWN } from "./countries";
-import { countryCodes, countryItems, gapsOnPagesIn, itemBounds, itemId, localeGaps, overlapping, overlaps } from "./country";
+import { type CountryItem, countryCodes, countryItems, gapsOnPagesIn, itemBounds, itemId, localeGaps, overlapping, overlaps } from "./country";
 import { loadAllWars, loadCultures, loadHeartland, loadWars } from "./load";
 import type { War } from "./war-schema";
 import { warCountryCodes } from "./wars";
 
-const span = (latestStart: number, earliestEnd: number, fuzz = 0) => ({
-  earliestStart: latestStart - fuzz,
-  latestStart,
-  earliestEnd,
-  latestEnd: earliestEnd + fuzz,
-});
-
 describe("overlaps", () => {
-  it("counts a single shared year", () => {
-    expect(overlaps(span(1000, 1100), span(1100, 1200))).toBe(true);
+  const atWar = (id: string, latestStart: number, earliestEnd: number, fuzz = 0): CountryItem => ({
+    kind: "war",
+    war: war(id, ["MX"], {
+      period: { id: "p", earliestStart: latestStart - fuzz, latestStart, earliestEnd, latestEnd: earliestEnd + fuzz, sources: [], default: false, disputed: false },
+    }),
+  });
+
+  it("counts a single shared year when a war is one of the pair", () => {
+    expect(overlaps(atWar("a", 1000, 1100), atWar("b", 1100, 1200))).toBe(true);
   });
 
   it("does not count ranges a year apart", () => {
-    expect(overlaps(span(1000, 1100), span(1101, 1200))).toBe(false);
+    expect(overlaps(atWar("a", 1000, 1100), atWar("b", 1101, 1200))).toBe(false);
   });
 
-  it("ignores the fuzzy edges: consecutive dynasties whose uncertain ends cross do not overlap", () => {
-    expect(overlaps(span(1000, 1100, 30), span(1110, 1200, 30))).toBe(false);
+  it("ignores the fuzzy edges", () => {
+    expect(overlaps(atWar("a", 1000, 1100, 30), atWar("b", 1110, 1200, 30))).toBe(false);
   });
 
   it("is symmetric and counts containment", () => {
-    expect(overlaps(span(1200, 1210), span(1000, 1500))).toBe(true);
-    expect(overlaps(span(1000, 1500), span(1200, 1210))).toBe(true);
+    expect(overlaps(atWar("a", 1200, 1210), atWar("b", 1000, 1500))).toBe(true);
+    expect(overlaps(atWar("a", 1000, 1500), atWar("b", 1200, 1210))).toBe(true);
   });
 });
 
 describe("overlaps, with the real data", () => {
   const cultures = loadCultures();
   const wars = loadAllWars();
-  const bounds = (id: string) => {
+  const item = (id: string): CountryItem => {
     const culture = cultures.find((c) => c.id === id);
-    if (culture) return itemBounds({ kind: "culture", culture });
-    const war = wars.find((w) => w.id === id);
-    if (!war) throw new Error(`no culture or war ${id}`);
-    return itemBounds({ kind: "war", war });
+    if (culture) return { kind: "culture", culture };
+    const found = wars.find((w) => w.id === id);
+    if (!found) throw new Error(`no culture or war ${id}`);
+    return { kind: "war", war: found };
   };
 
   it.each([
     ["inca", "spanish-conquest-of-the-inca-empire"],
     ["song", "mongol-conquest-of-the-song"],
     ["world-war-ii", "second-sino-japanese-war"],
+    // Each shares only the civilisation's last year with the war that ended it.
+    ["qin-wars-of-unification", "qin"],
+    ["rome", "fall-of-constantinople"],
   ])("%s and %s overlap", (a, b) => {
-    expect(overlaps(bounds(a), bounds(b))).toBe(true);
+    expect(overlaps(item(a), item(b))).toBe(true);
+    expect(overlaps(item(b), item(a))).toBe(true);
+  });
+
+  it.each([
+    ["sui", "tang"],
+    ["yuan", "ming"],
+    ["ming", "qing"],
+    ["warring-states", "qin"],
+    ["paracas", "nazca"],
+  ])("%s handing over to %s in one year is not an overlap", (a, b) => {
+    expect(overlaps(item(a), item(b))).toBe(false);
+    expect(overlaps(item(b), item(a))).toBe(false);
   });
 
   it("Qin and Han do not, though their fuzzy edges meet", () => {
-    expect(overlaps(bounds("qin"), bounds("han"))).toBe(false);
+    expect(overlaps(item("qin"), item("han"))).toBe(false);
   });
 });
 
