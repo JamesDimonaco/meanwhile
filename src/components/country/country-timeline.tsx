@@ -57,21 +57,20 @@ function BarRow({ bar, y, height, xScale }: { bar: TimelineBar; y: number; heigh
 }
 
 /**
- * One country's civilisations and wars on one year axis, opening zoomed to
- * fit. The year line starts at the first war, where overlaps begin to show,
- * or at the first civilisation; ?year= overrides it.
+ * One country's civilisations and wars on one year axis, opening on
+ * `opening` (openingView in country.ts); ?year= overrides its year.
  */
-export function CountryTimeline({ bars }: { bars: TimelineBar[] }) {
+export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; opening: { range: [number, number]; year: number } }) {
   const t = useTranslations("country");
   const domain = useMemo(() => padDomain(computeYearDomain(bars.map((b) => b.period))), [bars]);
+  const fit = useMemo(() => padDomain(opening.range), [opening.range]);
   const { rows, totalHeight } = useMemo(() => layoutCountryRows(bars), [bars]);
-  const start = (bars.find((b) => b.kind === "war") ?? bars[0]).period.latestStart;
-  const [year, setYear] = useYearParam(domain, start, null);
+  const [year, setYear] = useYearParam(domain, opening.year, null);
 
   return (
     <div className="flex flex-col gap-3">
       <TimelineChart
-        fit
+        fit={fit}
         rows={rows}
         totalHeight={totalHeight}
         domain={domain}

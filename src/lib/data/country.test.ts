@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { LOCALES } from "@/i18n/locales";
 import { NEVER_SHOWN } from "./countries";
-import { type CountryItem, countryCodes, countryItems, gapsOnPagesIn, itemBounds, itemId, localeGaps, overlapping, overlaps } from "./country";
+import { type CountryItem, countryCodes, countryItems, gapsOnPagesIn, itemBounds, itemId, localeGaps, openingView, overlapping, overlaps } from "./country";
 import { loadAllWars, loadCultures, loadHeartland, loadWars } from "./load";
 import type { War } from "./war-schema";
 import { warCountryCodes } from "./wars";
@@ -151,6 +151,41 @@ describe("country pages, with the real data", () => {
     // Chimu fell to the Inca: their solid spans share 1438-1469.
     expect(withInca).toEqual(["chimu", "spanish-conquest-of-the-inca-empire"]);
     expect(overlapping(items).get("caral-supe")).toEqual([]);
+  });
+});
+
+describe("where a country's chart opens", () => {
+  const heartland = loadHeartland();
+  const cultures = loadCultures();
+  const view = (code: string) => openingView(countryItems(code, cultures, heartland, loadWars("en")));
+  const at = (id: string, start: number, end: number): CountryItem => ({
+    kind: "war",
+    war: war(id, ["MX"], { period: { id: "p", earliestStart: start, latestStart: start, earliestEnd: end, latestEnd: end, sources: [], default: false, disputed: false } }),
+  });
+
+  // Neolithic Britain alone would squeeze 21 wars into the last few pixels.
+  it("opens on the newest three-quarters of the items when that zooms in at least 4x", () => {
+    expect(view("GB").range).toEqual([1789, 2021]);
+    expect(openingView([at("old", 0, 0), at("a", 300, 310), at("b", 350, 360), at("c", 390, 400)]).range).toEqual([300, 400]);
+    expect(openingView([at("old", 1, 1), at("a", 300, 310), at("b", 350, 360), at("c", 390, 400)]).range).toEqual([1, 400]);
+  });
+
+  it("opens on everything when narrowing would gain less", () => {
+    expect(view("CN").range).toEqual([-1899, 1989]);
+    expect(view("PE").range).toEqual([-3499, 1572]);
+  });
+
+  it("starts the year line where the most items overlap, the latest on a tie", () => {
+    expect(view("CN").year).toBe(1858);
+    expect(view("PE").year).toBe(1532);
+    expect(view("GB").year).toBe(2003);
+  });
+
+  it("counts a handover year as one civilisation, not two at once", () => {
+    // At 618 Sui ends and Tang begins; Tang overlapping nothing else, its start is no denser than any other.
+    const [sui, tang] = countryItems("CN", cultures, heartland, loadWars("en")).filter((i) => ["sui", "tang"].includes(itemId(i)));
+    expect(openingView([sui, tang]).year).toBe(618);
+    expect(openingView([sui, at("w", 600, 610), tang]).year).toBe(600);
   });
 });
 

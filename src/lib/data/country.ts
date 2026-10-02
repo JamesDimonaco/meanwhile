@@ -65,6 +65,42 @@ export function overlapping(items: readonly CountryItem[]): Map<string, CountryI
   );
 }
 
+/** The newest share of a country's items its chart can open on. */
+const OPEN_SHARE = 3 / 4;
+/** Opening on that share must zoom in at least this much; for less, hiding the oldest items isn't worth it. */
+const MIN_OPEN_ZOOM = 4;
+
+const extent = (bounds: readonly Bounds[]): [number, number] => [
+  Math.min(...bounds.map((b) => b.earliestStart)),
+  Math.max(...bounds.map((b) => b.latestEnd)),
+];
+
+/**
+ * Where a country's chart opens (items oldest first, as countryItems gives
+ * them). The range is the newest three-quarters of the items when one early
+ * civilisation would otherwise squeeze everything else into a strip (Neolithic
+ * Britain and 21 wars), else everything. The year is the start of the item
+ * that overlaps the most others running in that year, the latest on a tie, so
+ * the year panel opens on things happening at once.
+ */
+export function openingView(items: readonly CountryItem[]): { range: [number, number]; year: number } {
+  const bounds = items.map(itemBounds);
+  const all = extent(bounds);
+  const newest = extent(bounds.slice(Math.floor(bounds.length * (1 - OPEN_SHARE))));
+  const range = all[1] - all[0] >= MIN_OPEN_ZOOM * (newest[1] - newest[0]) ? newest : all;
+  let best = { year: range[0], count: 0 };
+  for (const item of items) {
+    const year = itemBounds(item).latestStart;
+    if (year < range[0] || year > range[1]) continue;
+    const running = items.filter((other) => {
+      const b = itemBounds(other);
+      return other === item || (overlaps(item, other) && b.latestStart <= year && year <= b.earliestEnd);
+    });
+    if (running.length >= best.count) best = { year, count: running.length };
+  }
+  return { range, year: best.year };
+}
+
 /**
  * Pages that exist in some languages only (the review gate), mapped to the
  * languages they exist in, so the language switcher never links to a 404.

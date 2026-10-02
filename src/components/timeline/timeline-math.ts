@@ -106,7 +106,7 @@ export function clampYear(year: number, [min, max]: [number, number]): number {
 export const MIN_PX_PER_YEAR = 0.15;
 export const MAX_PX_PER_YEAR = 12;
 
-/** Keeps the zoom level (pixels per year) inside a readable, cheap-to-render range; a country's chart floors it at its fit. */
+/** Keeps the zoom level (pixels per year) inside a readable, cheap-to-render range; a country's chart floors it at its whole span. */
 export function clampZoom(pxPerYear: number, min = MIN_PX_PER_YEAR): number {
   return Math.min(MAX_PX_PER_YEAR, Math.max(min, pxPerYear));
 }

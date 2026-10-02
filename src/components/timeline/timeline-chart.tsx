@@ -33,8 +33,8 @@ type ItemRow<T, G> = Extract<TimelineRow<T, G>, { kind: "item" }>;
  * The timeline's machinery, shared by the world timeline and the country
  * pages: the year and zoom bar, a frozen name column, a horizontally
  * scrolling chart with an axis, and a year line dragged by its handle (or
- * by mouse anywhere, or a tap on the chart). `fit` opens zoomed so the whole
- * domain fills the screen and never zooms out past that.
+ * by mouse anywhere, or a tap on the chart). `fit` opens zoomed so that
+ * range fills the screen, and never zooms out past the whole domain.
  */
 export function TimelineChart<T, G>({
   rows,
@@ -42,7 +42,7 @@ export function TimelineChart<T, G>({
   domain,
   year,
   onYear,
-  fit = false,
+  fit,
   label,
   bars,
   controls,
@@ -52,7 +52,7 @@ export function TimelineChart<T, G>({
   domain: [number, number];
   year: number;
   onYear: (year: number) => void;
-  fit?: boolean;
+  fit?: [number, number];
   /** The frozen column's content for a row, absolutely placed at `top`. */
   label: (row: TimelineRow<T, G>, top: number) => ReactNode;
   /** A row's bar in the chart, drawn from the row's own y. */
@@ -65,7 +65,7 @@ export function TimelineChart<T, G>({
   const t = useTranslations("timeline");
 
   const [minZoom, setMinZoom] = useState(() => (fit ? fitZoom(domain, PHONE_CHART_WIDTH) : MIN_PX_PER_YEAR));
-  const [pxPerYear, setPxPerYear] = useState(minZoom);
+  const [pxPerYear, setPxPerYear] = useState(() => (fit ? fitZoom(fit, PHONE_CHART_WIDTH) : minZoom));
   const chartWidth = Math.max(1, Math.round((domain[1] - domain[0]) * pxPerYear));
   const xScale = useMemo(() => scaleLinear().domain(domain).range([0, chartWidth]), [domain, chartWidth]);
 
@@ -79,9 +79,8 @@ export function TimelineChart<T, G>({
   useLayoutEffect(() => {
     const el = scrollRef.current;
     if (!fit || !el) return;
-    const zoom = fitZoom(domain, el.clientWidth);
-    setMinZoom(zoom);
-    setPxPerYear(zoom);
+    setMinZoom(fitZoom(domain, el.clientWidth));
+    setPxPerYear(fitZoom(fit, el.clientWidth));
   }, [fit, domain]);
 
   // Put the year line a third of the way into view on first render and after

@@ -9,7 +9,7 @@ import { toTimelineBar } from "@/components/timeline/timeline-layout";
 import { isLocale, LOCALES, type Locale } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
-import { countryCodes, countryItems, itemId, overlapping } from "@/lib/data/country";
+import { countryCodes, countryItems, itemId, openingView, overlapping } from "@/lib/data/country";
 import { loadCultures, loadHeartland, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { countryName } from "@/lib/data/wars";
@@ -75,7 +75,7 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
         <h2 className="text-lg font-semibold tracking-tight">{t("timeline")}</h2>
         {/* useSearchParams needs a Suspense boundary in a prerendered page. */}
         <Suspense>
-          <CountryTimeline bars={items.map((item) => toTimelineBar(item, locale))} />
+          <CountryTimeline bars={items.map((item) => toTimelineBar(item, locale))} opening={openingView(items)} />
         </Suspense>
       </section>
 
