@@ -18,6 +18,7 @@ import { firstSentence } from "@/lib/data/culture-copy";
 import { hasTerritoryMap, loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { activeAt, meanwhileAtYear } from "@/lib/data/queries";
+import type { War } from "@/lib/data/war-schema";
 import { isShownIn, warSpan, warsShownIn } from "@/lib/data/wars";
 import { openGraph, pageAlternates } from "@/lib/seo";
 
@@ -88,6 +89,15 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
   const after = shown.filter((w) => w.follows === war.id);
   const linked = cultures.filter((c) => war.cultures.includes(c.id));
   const sideLabels = new Map(war.sides.map((s) => [s.id, localize(s.label, locale)]));
+  const followLink = (w: War) => ({
+    name: localize(w.name, locale),
+    label: (chunks: ReactNode) => <span className="text-muted-foreground">{chunks}</span>,
+    link: (chunks: ReactNode) => (
+      <Link href={`/war/${w.id}`} className="underline underline-offset-2">
+        {chunks}
+      </Link>
+    ),
+  });
 
   return (
     <article className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-4">
@@ -135,8 +145,10 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
       <Section title={t("account")}>
         <p className="text-base leading-relaxed">{localize(war.description, locale)}</p>
         <p className="text-sm">
-          <span className="font-medium">{t("outcome")}: </span>
-          {localize(war.outcome, locale)}
+          {t.rich("outcome", {
+            outcome: localize(war.outcome, locale),
+            label: (chunks) => <span className="font-medium">{chunks}</span>,
+          })}
         </p>
       </Section>
 
@@ -177,21 +189,9 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
 
       {(before || after.length > 0) && (
         <nav className="flex flex-col gap-2 text-sm">
-          {before && (
-            <p>
-              <span className="text-muted-foreground">{t("before")}: </span>
-              <Link href={`/war/${before.id}`} className="underline underline-offset-2">
-                {localize(before.name, locale)}
-              </Link>
-            </p>
-          )}
+          {before && <p>{t.rich("before", followLink(before))}</p>}
           {after.map((w) => (
-            <p key={w.id}>
-              <span className="text-muted-foreground">{t("after")}: </span>
-              <Link href={`/war/${w.id}`} className="underline underline-offset-2">
-                {localize(w.name, locale)}
-              </Link>
-            </p>
+            <p key={w.id}>{t.rich("after", followLink(w))}</p>
           ))}
         </nav>
       )}

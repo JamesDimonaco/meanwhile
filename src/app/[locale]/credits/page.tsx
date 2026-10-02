@@ -82,8 +82,10 @@ export default async function CreditsPage({ params }: PageProps<"/[locale]/credi
             <p className="text-sm text-muted-foreground">{t(`sources.${key}.changes`)}</p>
             {isCited(key) && (
               <p className="text-sm text-muted-foreground">
-                <span className="font-medium text-foreground">{t("citeHeading")}: </span>
-                {t(`sources.${key}.cite`)}
+                {t.rich("citeAs", {
+                  cite: t(`sources.${key}.cite`),
+                  label: (chunks) => <span className="font-medium text-foreground">{chunks}</span>,
+                })}
               </p>
             )}
           </li>

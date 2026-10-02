@@ -69,6 +69,6 @@
     }
   },
   "neverUsed": "Nunca usado: el propio conjunto de datos del Seshat Global History Databank, que es solo de uso no comercial.",
-  "citeHeading": "Cítese como",
+  "citeAs": "<label>Cítese como:</label> {cite}",
   "worksCited": "Todas las obras citadas en los datos ({count, number})"
 }

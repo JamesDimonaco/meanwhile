@@ -69,6 +69,6 @@
     }
   },
   "neverUsed": "Never used: the Seshat Global History Databank's own dataset, which is non-commercial only.",
-  "citeHeading": "Cite as",
+  "citeAs": "<label>Cite as:</label> {cite}",
   "worksCited": "Every work cited in the data ({count, number})"
 }

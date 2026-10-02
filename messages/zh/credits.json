@@ -69,6 +69,6 @@
     }
   },
   "neverUsed": "未使用：Seshat Global History Databank 自身的数据集，其许可仅限非商业用途。",
-  "citeHeading": "引用格式",
+  "citeAs": "<label>引用格式：</label>{cite}",
   "worksCited": "数据中引用的全部文献（{count, number}）"
 }
