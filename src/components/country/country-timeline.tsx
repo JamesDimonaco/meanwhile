@@ -8,11 +8,11 @@ import { layoutCountryRows, type TimelineBar } from "@/components/timeline/timel
 import { MIN_BAR_WIDTH, activeBars, atLeast, computeYearDomain, padDomain, snapToBar } from "@/components/timeline/timeline-math";
 import { PeriodBar, REGION_COLOR, RowHeader, RowLabel, WAR_COLOR } from "@/components/timeline/timeline-row";
 import { useYearParam } from "@/components/timeline/use-year-param";
+import { itemHref } from "./item-href";
 import { YearPanel } from "@/components/timeline/year-panel";
 
 const BAR_INSET = 8;
 
-const barHref = (bar: TimelineBar) => (bar.kind === "culture" ? `/c/${bar.id}` : `/war/${bar.id}`);
 const barColor = (bar: TimelineBar) => (bar.region ? REGION_COLOR[bar.region] : WAR_COLOR);
 
 /**
@@ -69,7 +69,7 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
               {t(row.group)}
             </RowHeader>
           ) : (
-            <RowLabel href={barHref(row.item)} name={row.item.name} y={top} height={row.height} twoLines />
+            <RowLabel href={itemHref(row.item)} name={row.item.name} y={top} height={row.height} twoLines />
           )
         }
         bars={(row, xScale) => <BarRow bar={row.item} y={row.y} height={row.height} xScale={xScale} />}
@@ -80,7 +80,7 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
         entries={activeBars(bars, year).map(({ bar, certain }) => ({
           id: bar.id,
           name: bar.name,
-          href: barHref(bar),
+          href: itemHref(bar),
           span: { start: bar.period.latestStart, end: bar.asOf ? null : bar.period.earliestEnd, asOf: bar.asOf },
           certain,
           color: barColor(bar),

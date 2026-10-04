@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { CountryLink } from "@/components/identity/heartland-flags";
 import { JoinedList } from "@/components/joined-list";
@@ -92,19 +93,37 @@ export function SideList({
   );
 }
 
-/** One war in a list: name linking to its page, dates, sides, one-line outcome. */
-export function WarRow({ war, cultureNames }: { war: War; cultureNames: CultureNames }) {
+/**
+ * One war in a list: name linking to its page, dates, sides, one-line
+ * outcome. On a country page, `here` is its code, `header` goes above the
+ * name and `children` below the outcome.
+ */
+export function WarRow({
+  war,
+  cultureNames,
+  here,
+  header,
+  children,
+}: {
+  war: War;
+  cultureNames: CultureNames;
+  here?: string;
+  header?: ReactNode;
+  children?: ReactNode;
+}) {
   const locale = useLocale();
   return (
     <article className="flex flex-col gap-1.5 rounded-lg border border-border px-4 py-3">
+      {header}
       <Link href={`/war/${war.id}`} className="font-medium underline-offset-2 hover:underline">
         {localize(war.name, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">
         <WarDates span={warSpan(war)} />
       </span>
-      <SideList sides={war.sides} cultureNames={cultureNames} />
+      <SideList sides={war.sides} cultureNames={cultureNames} here={here} />
       <p className="text-sm">{localize(war.outcome, locale)}</p>
+      {children}
     </article>
   );
 }
