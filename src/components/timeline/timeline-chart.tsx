@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { Fragment, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { scaleLinear, type ScaleLinear } from "d3-scale";
 import { ZoomIn, ZoomOut } from "lucide-react";
@@ -26,6 +26,15 @@ const TICK_SPACING = 120;
 const TAP_SLOP = 8;
 /** The chart's width on a 360px phone, for a fitted chart's prerendered zoom before it can measure itself. */
 const PHONE_CHART_WIDTH = 208;
+
+/**
+ * Runs as the prerendered HTML is parsed, before the app's JS loads (seconds
+ * on weak signal), so the chart opens on its year line, not its oldest edge.
+ * It waits for the chart to have a size: React streams a Suspense boundary's
+ * HTML into a hidden div first and moves it into place after.
+ */
+const SCROLL_TO_YEAR_LINE = `(function(){var e=document.currentScript.previousElementSibling;new ResizeObserver(function(_,o){if(e.clientWidth){e.scrollLeft=e.dataset.yearX-e.clientWidth*${YEAR_LINE_POSITION};o.disconnect()}}).observe(e)})()`;
+const subscribeNever = () => () => {};
 
 type ItemRow<T, G> = Extract<TimelineRow<T, G>, { kind: "item" }>;
 
@@ -77,6 +86,8 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   const tapStartRef = useRef<number | null>(null);
   const lastZoomRef = useRef<number | null>(null);
   const yearX = xScale(year);
+  // True in the prerendered HTML and while hydrating it, never in a client render (where a script never runs).
+  const prerendered = useSyncExternalStore(subscribeNever, () => false, () => true);
 
   // Measured before paint, so a fitted chart never shows its phone-width guess
   // on a wider screen, and again on every resize (a phone turned sideways), so
@@ -226,7 +237,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
           ))}
         </div>
 
-        <div ref={scrollRef} className="grow overflow-x-auto">
+        <div ref={scrollRef} data-year-x={yearX} className="grow overflow-x-auto">
           <svg width={chartWidth} height={svgHeight} className="block">
             <defs>
               {REGIONS.map((region) => (
@@ -293,6 +304,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
             />
           </svg>
         </div>
+        {prerendered && <script dangerouslySetInnerHTML={{ __html: SCROLL_TO_YEAR_LINE }} />}
       </div>
     </>
   );
