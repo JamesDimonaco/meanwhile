@@ -71,7 +71,7 @@ export function toTimelineBar(item: CountryItem, locale: Locale): TimelineBar {
 
 export const HEADER_ROW_HEIGHT = 24;
 export const CULTURE_ROW_HEIGHT = 22;
-/** A country's bars open their pages when tapped, so each row is a fingertip tall. */
+/** A fingertip tall: a country's row names are links, and a tap on a bar moves the year line into it. */
 export const BAR_ROW_HEIGHT = 32;
 
 export type TimelineRow<T, G> =

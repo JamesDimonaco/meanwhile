@@ -1,3 +1,4 @@
+import { scaleLinear } from "d3-scale";
 import { describe, expect, it } from "vitest";
 import type { TimelineCulture } from "./timeline-layout";
 import {
@@ -17,6 +18,7 @@ import {
   clampZoom,
   fitZoom,
   padDomain,
+  snapToBar,
   computeYearDomain,
   takeEcho,
   timelineQuery,
@@ -377,6 +379,25 @@ describe("atLeast", () => {
   it("keeps every bar visible and a fingertip wide to tap", () => {
     expect(MIN_BAR_WIDTH).toBeGreaterThanOrEqual(4);
     expect(BAR_HIT_WIDTH).toBeGreaterThanOrEqual(32);
+  });
+});
+
+describe("snapToBar", () => {
+  // One pixel per year, so a one-year war is one pixel wide and its tap target BAR_HIT_WIDTH.
+  const xScale = scaleLinear().domain([0, 1000]).range([0, 1000]);
+  const war = { earliestStart: 500, latestEnd: 501 };
+
+  it("puts the year line inside a short bar when a tap lands anywhere on its tap target", () => {
+    const edge = BAR_HIT_WIDTH / 2 - 1;
+    expect(snapToBar(501 + edge, war, xScale)).toBe(501);
+    expect(snapToBar(500 - edge, war, xScale)).toBe(500);
+    expect(activeBars([{ period: { ...war, latestStart: 500, earliestEnd: 501 } }], snapToBar(510, war, xScale))).toHaveLength(1);
+  });
+
+  it("leaves a tap outside the tap target, or inside a wide bar, where it landed", () => {
+    expect(snapToBar(501 + BAR_HIT_WIDTH, war, xScale)).toBe(501 + BAR_HIT_WIDTH);
+    expect(snapToBar(200, { earliestStart: 100, latestEnd: 300 }, xScale)).toBe(200);
+    expect(snapToBar(305, { earliestStart: 100, latestEnd: 300 }, xScale)).toBe(305);
   });
 });
 

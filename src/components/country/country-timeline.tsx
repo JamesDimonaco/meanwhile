@@ -3,17 +3,9 @@
 import { useMemo } from "react";
 import { useTranslations } from "next-intl";
 import type { ScaleLinear } from "d3-scale";
-import { Link } from "@/i18n/navigation";
 import { TimelineChart } from "@/components/timeline/timeline-chart";
 import { layoutCountryRows, type TimelineBar } from "@/components/timeline/timeline-layout";
-import {
-  BAR_HIT_WIDTH,
-  MIN_BAR_WIDTH,
-  activeBars,
-  atLeast,
-  computeYearDomain,
-  padDomain,
-} from "@/components/timeline/timeline-math";
+import { MIN_BAR_WIDTH, activeBars, atLeast, computeYearDomain, padDomain, snapToBar } from "@/components/timeline/timeline-math";
 import { PeriodBar, REGION_COLOR, RowHeader, RowLabel, WAR_COLOR } from "@/components/timeline/timeline-row";
 import { useYearParam } from "@/components/timeline/use-year-param";
 import { YearPanel } from "@/components/timeline/year-panel";
@@ -24,35 +16,30 @@ const barHref = (bar: TimelineBar) => (bar.kind === "culture" ? `/c/${bar.id}` :
 const barColor = (bar: TimelineBar) => (bar.region ? REGION_COLOR[bar.region] : WAR_COLOR);
 
 /**
- * A bar that opens its page when tapped: never narrower than MIN_BAR_WIDTH,
- * so a one-year war still shows, and its tap target the whole row tall and
- * at least BAR_HIT_WIDTH wide.
+ * A bar, never narrower than MIN_BAR_WIDTH so a one-year war still shows. Not
+ * a link (its name in the frozen column is): a tap moves the year line, and
+ * snapToBar puts it inside a short bar so the year panel lists it.
  */
 function BarRow({ bar, y, height, xScale }: { bar: TimelineBar; y: number; height: number; xScale: ScaleLinear<number, number> }) {
   const x0 = xScale(bar.period.earliestStart);
   const x1 = xScale(bar.period.latestEnd);
-  const hit = atLeast(x0, x1, BAR_HIT_WIDTH);
   const visible = atLeast(x0, x1, MIN_BAR_WIDTH);
   const barHeight = height - BAR_INSET * 2;
   return (
-    <Link href={barHref(bar)} aria-label={bar.name} className="outline-none focus-visible:[&>rect:first-of-type]:fill-ring/30">
-      <title>{bar.name}</title>
-      <rect x={hit.x} y={y} width={hit.width} height={height} fill="transparent" />
-      <g transform={`translate(0, ${y + BAR_INSET})`} pointerEvents="none">
-        {visible.width > x1 - x0 ? (
-          <rect x={visible.x} width={visible.width} height={barHeight} fill={barColor(bar)} rx={2} />
-        ) : (
-          <PeriodBar
-            period={bar.period}
-            phases={bar.phases}
-            xScale={xScale}
-            height={barHeight}
-            color={barColor(bar)}
-            fadeId={`tl-fade-${bar.region ?? "war"}`}
-          />
-        )}
-      </g>
-    </Link>
+    <g transform={`translate(0, ${y + BAR_INSET})`} pointerEvents="none">
+      {visible.width > x1 - x0 ? (
+        <rect x={visible.x} width={visible.width} height={barHeight} fill={barColor(bar)} rx={2} />
+      ) : (
+        <PeriodBar
+          period={bar.period}
+          phases={bar.phases}
+          xScale={xScale}
+          height={barHeight}
+          color={barColor(bar)}
+          fadeId={`tl-fade-${bar.region ?? "war"}`}
+        />
+      )}
+    </g>
   );
 }
 
@@ -86,6 +73,7 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
           )
         }
         bars={(row, xScale) => <BarRow bar={row.item} y={row.y} height={row.height} xScale={xScale} />}
+        snap={(bar, year, xScale) => snapToBar(year, bar.period, xScale)}
       />
       <YearPanel
         year={year}

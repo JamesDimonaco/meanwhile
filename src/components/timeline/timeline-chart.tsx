@@ -45,8 +45,9 @@ const rowKey = <T extends { id: string }, G extends string>(row: TimelineRow<T, 
  * The timeline's machinery, shared by the world timeline and the country
  * pages: the year and zoom bar, a frozen name column, a horizontally
  * scrolling chart with an axis, and a year line dragged by its handle (or
- * by mouse anywhere, or a tap on the chart). `fit` opens zoomed so that
- * range fills the screen, and never zooms out past the whole domain.
+ * by mouse anywhere, or a tap on the chart). `snap` moves a tap or click
+ * on a row to the year it picks for that row's item. `fit` opens zoomed so
+ * that range fills the screen, and never zooms out past the whole domain.
  */
 export function TimelineChart<T extends { id: string }, G extends string>({
   rows,
@@ -57,6 +58,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   fit,
   label,
   bars,
+  snap,
   controls,
 }: {
   rows: TimelineRow<T, G>[];
@@ -69,6 +71,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   label: (row: TimelineRow<T, G>, top: number) => ReactNode;
   /** A row's bar in the chart, drawn from the row's own y. */
   bars: (row: ItemRow<T, G>, xScale: ScaleLinear<number, number>) => ReactNode;
+  snap?: (item: T, year: number, xScale: ScaleLinear<number, number>) => number;
   /** Between the year bar and the chart (the world timeline's region chips). */
   controls?: ReactNode;
 }) {
@@ -135,6 +138,15 @@ export function TimelineChart<T extends { id: string }, G extends string>({
     [xScale, domain],
   );
 
+  const yearFromTap = (e: React.PointerEvent) => {
+    const tapped = yearFromClientX(e.clientX);
+    const el = scrollRef.current;
+    if (tapped === null || !snap || !el) return tapped;
+    const y = e.clientY - el.getBoundingClientRect().top - TOP_SPACE;
+    const row = rows.find((r) => r.kind === "item" && y >= r.y && y < r.y + r.height);
+    return row?.kind === "item" ? snap(row.item, tapped, xScale) : tapped;
+  };
+
   // Mouse can drag from anywhere in the chart. Touch/pen only drag from the
   // handle (below): the chart body itself must stay swipeable to scroll.
   // A touch that ends without the browser taking it over as a scroll
@@ -146,7 +158,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
     }
     draggingRef.current = true;
     e.currentTarget.setPointerCapture(e.pointerId);
-    moveYear(yearFromClientX(e.clientX));
+    moveYear(yearFromTap(e));
   };
   const handleHandlePointerDown = (e: React.PointerEvent) => {
     draggingRef.current = true;
@@ -164,7 +176,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   const handleBodyPointerUp = (e: React.PointerEvent) => {
     const start = tapStartRef.current;
     if (start !== null && Math.abs(e.clientX - start) < TAP_SLOP) {
-      moveYear(yearFromClientX(e.clientX));
+      moveYear(yearFromTap(e));
     }
     endDrag();
   };

@@ -143,6 +143,22 @@ export function atLeast(x0: number, x1: number, min: number): { x: number; width
   return width >= min ? { x: x0, width } : { x: (x0 + x1 - min) / 2, width: min };
 }
 
+/**
+ * The year a tap at `year` in a bar's row moves the line to: inside the bar
+ * when the tap lands on its BAR_HIT_WIDTH tap target, so a one-year war a
+ * fraction of a pixel wide can still be tapped into the year panel.
+ */
+export function snapToBar(
+  year: number,
+  bar: { earliestStart: number; latestEnd: number },
+  xScale: (year: number) => number,
+): number {
+  const hit = atLeast(xScale(bar.earliestStart), xScale(bar.latestEnd), BAR_HIT_WIDTH);
+  const x = xScale(year);
+  if (x < hit.x || x > hit.x + hit.width) return year;
+  return Math.min(bar.latestEnd, Math.max(bar.earliestStart, year));
+}
+
 /** The bars alive in a year, in the order given; `certain` inside the solid part. */
 export function activeBars<B extends { period: PeriodBounds }>(bars: readonly B[], year: number): { bar: B; certain: boolean }[] {
   return bars
