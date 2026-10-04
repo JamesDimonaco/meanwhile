@@ -1,5 +1,5 @@
-// Pure geometry and interaction math for the world timeline, kept separate
-// from rendering so it can be unit-tested without a DOM.
+// Pure geometry and interaction math for the world and country timelines,
+// kept separate from rendering so it can be unit-tested without a DOM.
 
 import { scaleLinear } from "d3-scale";
 import { rankActive } from "@/lib/data/queries";
