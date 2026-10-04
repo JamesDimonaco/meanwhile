@@ -26,7 +26,7 @@
   "periods": [
     {
       "id": "muisca-period",
-      "earliestStart": 599,
+      "earliestStart": 600,
       "latestStart": 600,
       "earliestEnd": 1537,
       "latestEnd": 1599,
