@@ -180,7 +180,7 @@ describe("where a country's chart opens", () => {
   it("starts the year line where the most items overlap, the latest on a tie", () => {
     expect(view("CN").year).toBe(1858);
     // Moche, Nazca and Wari all stand in 600 CE; the Spanish conquest only meets the Inca.
-    expect(view("PE").year).toBe(599);
+    expect(view("PE").year).toBe(600);
     expect(view("GB").year).toBe(2003);
   });
 

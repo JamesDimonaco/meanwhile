@@ -23,7 +23,7 @@
     {
       "id": "wari-period",
       "earliestStart": 499,
-      "latestStart": 599,
+      "latestStart": 600,
       "earliestEnd": 799,
       "latestEnd": 999,
       "sources": [
