@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { CountryLink } from "@/components/identity/heartland-flags";
+import { CountryLink } from "@/components/identity/country-link";
 import { JoinedList } from "@/components/joined-list";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { Link } from "@/i18n/navigation";

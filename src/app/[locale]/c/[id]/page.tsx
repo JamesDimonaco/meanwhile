@@ -14,7 +14,7 @@ import { hasTerritoryMap, loadCulture, loadCultures, loadSuccession, loadWars } 
 import { isMachineTranslated, localize } from "@/lib/data/localize";
 import { defaultPeriod, eventWorld, meanwhileCandidates, successionFor, toCultureRef } from "@/lib/data/queries";
 import { regionsIn } from "@/components/filters/region-filter";
-import { HeartlandFlags } from "@/components/identity/heartland-flags";
+import { HeartlandLinks } from "@/components/identity/country-link";
 import { RegionDot } from "@/components/identity/region-dot";
 import { recordsHeld } from "@/lib/data/records";
 import { cultureDescription, cultureTitle } from "@/lib/data/culture-copy";
@@ -91,7 +91,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
             <RegionDot region={culture.region} />
             {tCommon(`regions.${culture.region}`)}
           </span>
-          <HeartlandFlags cultureId={culture.id} withLabel />
+          <HeartlandLinks cultureId={culture.id} />
         </p>
         <PeriodRange period={period} locale={locale} />
         <BeforeAfter lines={beforeAfter} locale={locale} />

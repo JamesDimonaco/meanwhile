@@ -42,7 +42,7 @@ src/lib/years.ts                     all year maths and formatting
 src/lib/scan/                        model answer -> destination, upload checks, catalogue prompt, rate limit, the model call
 src/lib/data/                        schema.ts (zod + types), load.ts (fs; build-time, except the scan route's unvalidated catalogue read), queries.ts, localize.ts, validate.ts; wars: war-schema.ts, validate-wars.ts, wars.ts (queries, review gate), country.ts (country pages, overlap, locale gaps), countries.ts (UN members, never-shown codes), contested.ts (pin guard, server only)
 src/components/filters/              region chips + filter state (?regions= on the timeline, localStorage elsewhere)
-src/components/identity/             HeartlandFlags, CountryFlag, CountryLink (flag + name linking to the country page), RegionDot
+src/components/identity/             HeartlandFlags, CountryFlag, RegionDot; country-link.tsx: CountryLink (flag + name linking to the country page) and HeartlandLinks, kept apart so the UN member table stays out of every page's shared chunk
 src/components/wars/                 WarRow, SideList, WarDates, WarBar (phase bar), Casualties, CountryList
 src/components/country/              CountryTimeline (on TimelineChart), CountryItemCard
 src/components/<area>/               see Ownership
