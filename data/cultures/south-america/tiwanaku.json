@@ -23,7 +23,7 @@
   "periods": [
     {
       "id": "tiwanaku-period",
-      "earliestStart": 99,
+      "earliestStart": 100,
       "latestStart": 374,
       "earliestEnd": 699,
       "latestEnd": 1000,
