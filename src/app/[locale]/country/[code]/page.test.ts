@@ -35,7 +35,8 @@ describe("country pages", () => {
 
   it("titles the page with the country's name and keeps hreflang to the languages it exists in", async () => {
     const meta = await generateMetadata({ params: Promise.resolve({ locale: "en", code: "kr" }), searchParams: Promise.resolve({}) });
-    expect(meta.title).toBe('title{"country":"South Korea"}');
+    expect(meta.title).toMatch(/^title\{"country":"South Korea","cultures":0,"wars":[1-9]\d*\}$/);
+    expect(meta.description).toMatch(/^metaDescription\{"country":"South Korea","cultures":0,"wars":[1-9]\d*\}$/);
     expect(Object.keys(meta.alternates?.languages ?? {})).toEqual(["en", "x-default"]);
     expect(meta.openGraph?.images).toEqual([expect.objectContaining({ url: "/en/opengraph-image/" })]);
   });
@@ -57,5 +58,43 @@ describe("the intro line", () => {
     const t = createTranslator({ locale, messages });
     expect((await intro(locale, 0, 2)).toLowerCase()).not.toContain(t("country.cultures").toLowerCase());
     expect((await intro(locale, 1, 0)).toLowerCase()).not.toContain(t("country.wars").toLowerCase());
+  });
+});
+
+describe("the title and meta description", () => {
+  const text = async (locale: (typeof LOCALES)[number], key: "title" | "metaDescription", cultures: number, wars: number) =>
+    createTranslator({ locale, messages: await loadMessages(locale) })(`country.${key}`, { country: "X", cultures, wars });
+  // The clause promising which items overlapped, which a one-item page can't keep.
+  const sameTime = { en: "at the same time", es: "coincidieron", zh: "同时" };
+
+  it("names only what the page lists", async () => {
+    expect(await text("en", "title", 0, 2)).toBe("X: wars");
+    expect(await text("en", "title", 1, 0)).toBe("X: civilisations");
+    expect(await text("en", "title", 2, 3)).toBe("X: civilisations and wars");
+    expect(await text("en", "metaDescription", 1, 0)).toBe("The civilisation in today's X on a timeline.");
+    expect(await text("en", "metaDescription", 0, 3)).toBe(
+      "Every war in today's X on one timeline, oldest first, and which of them were happening at the same time.",
+    );
+  });
+
+  // Ukraine, Vietnam and South Korea list wars only; Bolivia a civilisation only.
+  // Stems, so a singular ("The war", "La civilización") counts too.
+  const words = { en: ["civilisation", "war"], es: ["civiliza", "guerra"], zh: ["文明", "战争"] };
+
+  it.each(LOCALES)("in %s, never mentions civilisations on a wars-only page, or wars on a civilisations-only page", async (locale) => {
+    const [cultures, wars] = words[locale];
+    for (const key of ["title", "metaDescription"] as const) {
+      for (const n of [1, 2]) {
+        expect((await text(locale, key, 0, n)).toLowerCase()).not.toContain(cultures);
+        expect((await text(locale, key, n, 0)).toLowerCase()).not.toContain(wars);
+      }
+    }
+  });
+
+  it.each(LOCALES)("in %s, promises overlaps only when the page lists more than one item", async (locale) => {
+    expect(await text(locale, "metaDescription", 1, 0)).not.toContain(sameTime[locale]);
+    expect(await text(locale, "metaDescription", 0, 1)).not.toContain(sameTime[locale]);
+    expect(await text(locale, "metaDescription", 1, 1)).toContain(sameTime[locale]);
+    expect(await text(locale, "metaDescription", 0, 2)).toContain(sameTime[locale]);
   });
 });

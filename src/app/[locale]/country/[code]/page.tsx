@@ -9,7 +9,7 @@ import { toTimelineBar } from "@/components/timeline/timeline-layout";
 import { isLocale, LOCALES, type Locale } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
-import { countryCodes, countryItems, itemId, openingView, overlapping } from "@/lib/data/country";
+import { countryCodes, countryItems, itemId, openingView, overlapping, type CountryItem } from "@/lib/data/country";
 import { loadCultures, loadHeartland, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { countryName } from "@/lib/data/wars";
@@ -19,6 +19,12 @@ export const dynamic = "force-static";
 export const dynamicParams = false;
 
 const hasPage = (code: string, locale: Locale) => countryCodes(loadHeartland(), loadWars(locale)).includes(code.toUpperCase());
+const pageItems = (code: string, locale: Locale) => countryItems(code.toUpperCase(), loadCultures(), loadHeartland(), loadWars(locale));
+/** How many civilisations and wars a page lists: its title, description and intro name only those. */
+function counts(items: readonly CountryItem[]) {
+  const cultures = items.filter((i) => i.kind === "culture").length;
+  return { cultures, wars: items.length - cultures };
+}
 
 /** A country has a page in a language when a civilisation's heartland or a war shown in it lists the country. */
 export function generateStaticParams({ params }: { params: { locale: string } }) {
@@ -31,11 +37,12 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/country/
   const { code } = await params;
   const t = await getTranslations({ locale, namespace: "country" });
   const country = countryName(code.toUpperCase(), locale);
+  const listed = counts(pageItems(code, locale));
   const shownIn = LOCALES.filter((l) => hasPage(code, l));
   const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
   return {
-    title: t("title", { country }),
-    description: t("metaDescription", { country }),
+    title: t("title", { country, ...listed }),
+    description: t("metaDescription", { country, ...listed }),
     alternates: pageAlternates(locale, `country/${code}`, shownIn),
     // The default share image; the layout's openGraph would list every locale.
     openGraph: openGraph(locale, appName, { path: "", alt: appName }, shownIn),
@@ -51,12 +58,10 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
   const tWars = await getTranslations("wars");
   const upper = code.toUpperCase();
   const country = countryName(upper, locale);
-  const cultures = loadCultures();
-  const items = countryItems(upper, cultures, loadHeartland(), loadWars(locale));
+  const items = pageItems(code, locale);
   const overlaps = overlapping(items);
-  const cultureNames = Object.fromEntries(cultures.map((c) => [c.id, localize(c.name, locale)]));
-  const cultureCount = items.filter((i) => i.kind === "culture").length;
-  const warCount = items.length - cultureCount;
+  const cultureNames = Object.fromEntries(loadCultures().map((c) => [c.id, localize(c.name, locale)]));
+  const listed = counts(items);
 
   return (
     <section className="mx-auto flex w-full max-w-3xl flex-col gap-6 pt-4">
@@ -68,8 +73,8 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
           <CountryFlag code={upper} />
           {country}
         </h1>
-        <p className="font-medium">{t("summary", { cultures: cultureCount, wars: warCount })}</p>
-        <p className="text-sm text-muted-foreground">{t("intro", { country, cultures: cultureCount, wars: warCount })}</p>
+        <p className="font-medium">{t("summary", listed)}</p>
+        <p className="text-sm text-muted-foreground">{t("intro", { country, ...listed })}</p>
       </header>
 
       <section className="flex flex-col gap-3">
