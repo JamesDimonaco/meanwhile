@@ -150,7 +150,7 @@ describe("country pages, with the real data", () => {
   it("names, for each item, the others on the page it overlapped with", () => {
     const items = countryItems("PE", cultures, heartland, loadWars("en"));
     const withInca = overlapping(items).get("inca")?.map(itemId);
-    // Chimu fell to the Inca: their solid spans share 1438-1469.
+    // Chimu fell to the Inca: their solid spans share 1438-1470.
     expect(withInca).toEqual(["chimu", "spanish-conquest-of-the-inca-empire"]);
     expect(overlapping(items).get("caral-supe")).toEqual([]);
   });
