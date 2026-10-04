@@ -78,12 +78,22 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   const lastZoomRef = useRef<number | null>(null);
   const yearX = xScale(year);
 
-  // Measured before paint, so a fitted chart never shows its phone-width guess on a wider screen.
+  // Measured before paint, so a fitted chart never shows its phone-width guess
+  // on a wider screen, and again on every resize (a phone turned sideways), so
+  // zoom out always stops exactly at the whole span.
   useLayoutEffect(() => {
     const el = scrollRef.current;
     if (!fit || !el) return;
-    setMinZoom(fitZoom(domain, el.clientWidth));
     setPxPerYear(fitZoom(fit, el.clientWidth));
+    const measure = () => {
+      const min = fitZoom(domain, el.clientWidth);
+      setMinZoom(min);
+      setPxPerYear((z) => Math.max(z, min));
+    };
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(el);
+    return () => observer.disconnect();
   }, [fit, domain]);
 
   // Put the year line a third of the way into view on first render and after
