@@ -172,8 +172,10 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   const svgHeight = totalHeight + TOP_SPACE;
   const ticks = axisTicks(domain, Math.max(2, Math.floor(chartWidth / TICK_SPACING)));
 
+  // A fragment, not a wrapper: the sticky year bar stays pinned for as long as
+  // its parent is on screen, and the parent also holds the year panel.
   return (
-    <div className="flex flex-col gap-3">
+    <>
       <div className="sticky top-0 z-10 -mx-4 flex items-center justify-between gap-2 bg-background px-4 py-2">
         <div className="flex flex-col">
           <output className="text-lg font-semibold tabular-nums">
@@ -282,6 +284,6 @@ export function TimelineChart<T extends { id: string }, G extends string>({
           </svg>
         </div>
       </div>
-    </div>
+    </>
   );
 }
