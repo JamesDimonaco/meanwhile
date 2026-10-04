@@ -18,7 +18,7 @@ export const REGION_COLOR: Record<Region, string> = {
   africa: "var(--chart-5)",
 };
 
-/** Wars on a country's timeline: apart from every region colour and the compare slots, in both themes. */
+/** Wars on a country's timeline: apart from every region colour (globals.test.ts). */
 export const WAR_COLOR = "var(--war)";
 
 const BAR_INSET = 4;

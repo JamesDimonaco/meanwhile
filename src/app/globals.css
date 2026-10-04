@@ -108,22 +108,21 @@
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
-  /* Region colours (REGION_COLOR), each at least 3:1 on the background in
-     both themes (globals.test.ts). No fifth grey clears that while staying
-     apart from the other four, so africa gets a hue. */
-  --chart-1: oklch(0.65 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.6 0.12 160);
+  /* Region colours (REGION_COLOR) and the war colour: each at least 3:1 on
+     the background, and apart from one another for full colour vision and
+     under protanopia and deuteranopia (globals.test.ts). */
+  --chart-1: oklch(0.36 0.08 60);
+  --chart-2: oklch(0.44 0.2 330);
+  --chart-3: oklch(0.68 0.18 310);
+  --chart-4: oklch(0.5 0.2 260);
+  --chart-5: oklch(0.64 0.1 180);
   /* Compare screen, one per culture slot (blue, orange, purple: apart for
      colour-blind eyes too). At least 4.5:1 on background, card and muted. */
   --compare-1: oklch(0.5 0.15 250);
   --compare-2: oklch(0.55 0.16 45);
   --compare-3: oklch(0.5 0.2 320);
-  /* War bars on a country's timeline (WAR_COLOR): a red no region or compare
-     slot uses, at least 3:1 on background. */
-  --war: oklch(0.55 0.2 25);
+  /* War bars on a country's timeline (WAR_COLOR): a red no region uses. */
+  --war: oklch(0.56 0.2 30);
   --radius: 0.625rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
@@ -155,14 +154,13 @@
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.556 0 0);
   --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.75 0 0);
-  --chart-3: oklch(0.63 0 0);
-  --chart-4: oklch(0.51 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.6 0.12 160);
   --compare-1: oklch(0.75 0.12 245);
   --compare-2: oklch(0.78 0.13 60);
   --compare-3: oklch(0.76 0.14 320);
-  --war: oklch(0.68 0.17 25);
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
   --sidebar-primary: oklch(0.488 0.243 264.376);
