@@ -29,6 +29,9 @@ const PHONE_CHART_WIDTH = 208;
 
 type ItemRow<T, G> = Extract<TimelineRow<T, G>, { kind: "item" }>;
 
+const rowKey = <T extends { id: string }, G extends string>(row: TimelineRow<T, G>) =>
+  row.kind === "header" ? `header:${row.group}` : `item:${row.item.id}`;
+
 /**
  * The timeline's machinery, shared by the world timeline and the country
  * pages: the year and zoom bar, a frozen name column, a horizontally
@@ -36,7 +39,7 @@ type ItemRow<T, G> = Extract<TimelineRow<T, G>, { kind: "item" }>;
  * by mouse anywhere, or a tap on the chart). `fit` opens zoomed so that
  * range fills the screen, and never zooms out past the whole domain.
  */
-export function TimelineChart<T, G>({
+export function TimelineChart<T extends { id: string }, G extends string>({
   rows,
   totalHeight,
   domain,
@@ -206,8 +209,8 @@ export function TimelineChart<T, G>({
 
       <div className="flex gap-2">
         <div className="relative shrink-0" style={{ width: NAME_COL_WIDTH, height: svgHeight }}>
-          {rows.map((row, i) => (
-            <Fragment key={i}>{label(row, row.y + TOP_SPACE)}</Fragment>
+          {rows.map((row) => (
+            <Fragment key={rowKey(row)}>{label(row, row.y + TOP_SPACE)}</Fragment>
           ))}
         </div>
 
@@ -244,7 +247,7 @@ export function TimelineChart<T, G>({
               onPointerCancel={endDrag}
             />
             <g transform={`translate(0, ${TOP_SPACE})`}>
-              {rows.map((row, i) => (row.kind === "item" ? <Fragment key={i}>{bars(row, xScale)}</Fragment> : null))}
+              {rows.map((row) => (row.kind === "item" ? <Fragment key={rowKey(row)}>{bars(row, xScale)}</Fragment> : null))}
             </g>
             <line
               x1={yearX}
