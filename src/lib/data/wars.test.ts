@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
+import { loadAllWars } from "./load";
 import type { Casualty, War } from "./war-schema";
-import { casualtyGroups, countryIndex, isShownIn, warCountryCodes, warLand, warsForCulture, warsShownIn } from "./wars";
+import { casualtyGroups, countriesToday, countryIndex, isShownIn, warCountryCodes, warLand, warsForCulture, warsShownIn } from "./wars";
 
 const t = (en: string) => ({ en });
 const src = [{ citation: "s" }];
@@ -136,5 +137,31 @@ describe("casualty groups", () => {
     const spaniards = fig("military-deaths", "a", 2, "Spaniards");
     const allSides = fig("military-deaths", undefined, 3);
     expect(casualtyGroups([side, spaniards, allSides])).toEqual([[side], [spaniards], [allSides]]);
+  });
+});
+
+describe("countriesToday (the war page's line under the sides)", () => {
+  const wars = loadAllWars();
+  const byId = (id: string) => {
+    const w = wars.find((x) => x.id === id);
+    if (!w) throw new Error(`no war ${id}`);
+    return w;
+  };
+
+  // The Gulf War's sides are all states, already drawn with their flags.
+  it("is empty when the sides already show every country as a state", () => {
+    expect(countriesToday(byId("gulf-war"), "en")).toEqual([]);
+    expect(countriesToday(byId("falklands-war"), "en")).toEqual([]);
+  });
+
+  it("names only the countries the sides don't already show as states", () => {
+    expect(countriesToday(byId("korean-war"), "en")).toEqual(["CN", "RU"]);
+  });
+
+  it("sorts by the name readers see, in their language", () => {
+    expect(countriesToday(byId("spanish-conquest-of-the-inca-empire"), "en")).toEqual(["EC", "PE", "ES"]);
+    expect(countriesToday(byId("spanish-conquest-of-the-inca-empire"), "es")).toEqual(["EC", "ES", "PE"]);
+    // By pinyin, as ICU reads them: 厄瓜多尔 (e), 秘鲁 (mi), 西班牙 (xi).
+    expect(countriesToday(byId("spanish-conquest-of-the-inca-empire"), "zh")).toEqual(["EC", "PE", "ES"]);
   });
 });

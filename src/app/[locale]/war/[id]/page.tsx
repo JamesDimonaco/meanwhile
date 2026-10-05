@@ -21,8 +21,7 @@ import { hasTerritoryMap, loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { activeAt, meanwhileAtYear } from "@/lib/data/queries";
 import type { War } from "@/lib/data/war-schema";
-import { isListableCountry } from "@/lib/data/countries";
-import { isShownIn, warCountryCodes, warLand, warSpan } from "@/lib/data/wars";
+import { countriesToday, isShownIn, warLand, warSpan } from "@/lib/data/wars";
 import { openGraph, pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -96,8 +95,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
   const linked = cultures.filter((c) => war.cultures.includes(c.id));
   const hasBorders = hasTerritoryMap(war.id);
   const sideLabels = new Map(war.sides.map((s) => [s.id, localize(s.label, locale)]));
-  // Every member's `today` codes, not only state members: these are the countries whose pages list this war.
-  const countries = warCountryCodes([war]).filter(isListableCountry);
+  const countries = countriesToday(war, locale);
   const followLink = (w: War) => ({
     name: localize(w.name, locale),
     label: (chunks: ReactNode) => <span className="text-muted-foreground">{chunks}</span>,

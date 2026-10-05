@@ -1,5 +1,5 @@
-import { LOCALES, type Locale } from "@/i18n/locales";
-import { UN_MEMBERS, type Continent } from "./countries";
+import { HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
+import { isListableCountry, UN_MEMBERS, type Continent } from "./countries";
 import type { Culture, Region } from "./schema";
 import type { Casualty, War, WarFile } from "./war-schema";
 
@@ -77,6 +77,19 @@ export type CountryEntry = { code: string; name: string; terms: string[]; contin
 /** A present-day country's name in the page's language, from its ISO code. */
 export function countryName(code: string, locale: Locale): string {
   return new Intl.DisplayNames([locale], { type: "region" }).of(code) ?? code;
+}
+
+/**
+ * The war page's "Countries today" line: the present-day countries whose
+ * pages list the war that the sides don't already show as states (with their
+ * flags), by name in the page's language. Empty when the sides show them all.
+ */
+export function countriesToday(war: War, locale: Locale): string[] {
+  const states = new Set(war.sides.flatMap((s) => s.members.flatMap((m) => (m.kind === "state" ? [m.code] : []))));
+  const collator = new Intl.Collator(HTML_LANG[locale]);
+  return warCountryCodes([war])
+    .filter((code) => isListableCountry(code) && !states.has(code))
+    .sort((a, b) => collator.compare(countryName(a, locale), countryName(b, locale)));
 }
 
 /** Every country some war lists, named in the page's language and sorted by that name. */

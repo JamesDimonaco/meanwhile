@@ -205,7 +205,7 @@ These follow the decisions above where they reach; James may change them at revi
 - `meanwhile(anchor, cultures)`: 4–6 cards (`MIN_MEANWHILE_CARDS`, `MAX_MEANWHILE_CARDS`), one region at a time, anchor's own region last, deterministic. It is `pickMeanwhile(meanwhileCandidates(...))`; the culture page sends the light candidates to the client so the region filter can re-pick.
 - `meanwhileAtYear(year, cultures, exclude)`: the same candidates and cards for one year (a war's start); `pickMeanwhile(candidates, null)` when there is no anchor region.
 - `eventsBetween(cultures, from, to)`, `eventWorld(culture, cultures)`, `toCultureRef`, `defaultPeriod`.
-- Wars (`wars.ts`): `isShownIn` / `warsShownIn` (the review gate), `warsForCulture`, `countryIndex`, `warOuter`, `warSpan`.
+- Wars (`wars.ts`): `isShownIn` / `warsShownIn` (the review gate), `warsForCulture`, `countryIndex`, `countriesToday` (the war page's line under the sides), `warOuter`, `warSpan`.
 - Countries (`country.ts`): `countryCodes` (who gets a country page in a language), `countryItems`, `overlaps` / `overlapping`, `alsoAlive` (the culture page's "also alive" list, same rule), `localeGaps`, `gapsOnPagesIn`.
 - `load.ts` uses `fs`: call it only from server components and scripts. Pass `CultureRef` / `Culture` props to client components, never whole datasets on pages that don't need them (weak signal).
 
