@@ -53,16 +53,18 @@ export function SearchBox({
   const tCommon = useTranslations("common");
   const locale = useLocale();
   const [query, setQuery] = useState(initialQuery);
+  // The text the results are for: held while an IME composes, so the pinyin on its way to 中国 isn't searched.
+  const [searched, setSearched] = useState(initialQuery);
   const listId = useId();
   const selection = useRegionFilter(regions);
 
   const index = useMemo(() => searchIndex({ locale, countries, cultures: entries, wars }), [locale, countries, entries, wars]);
-  const hits = useMemo(() => search(query, index), [query, index]);
+  const hits = useMemo(() => search(searched, index), [searched, index]);
   // Countries, wars and years have no region, so the region chips filter only civilisations.
   const inRegions = (hit: SearchHit) => hit.type !== "culture" || includesRegion(selection, hit.entry.region);
   const results = hits.filter(inRegions).slice(0, MAX_RESULTS);
   const hiddenMatches = hits.some((hit) => !inRegions(hit));
-  const trimmed = query.trim();
+  const trimmed = searched.trim();
 
   return (
     <div className="flex flex-col gap-3">
@@ -72,7 +74,11 @@ export function SearchBox({
           id={`${listId}-input`}
           type="search"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            if (!(e.nativeEvent instanceof InputEvent && e.nativeEvent.isComposing)) setSearched(e.target.value);
+          }}
+          onCompositionEnd={(e) => setSearched(e.currentTarget.value)}
           placeholder={t("searchPlaceholder")}
           role="combobox"
           aria-expanded={trimmed.length > 0}
@@ -81,8 +87,6 @@ export function SearchBox({
           className="rounded-lg border border-border bg-background px-4 py-3 text-base focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
         />
       </label>
-
-      <StoredRegionChips available={regions} />
 
       {trimmed && (
         <div aria-live="polite" className="flex flex-col gap-2">
@@ -121,12 +125,15 @@ export function SearchBox({
                       }
                     >
                       <span className="font-medium">{localize(hit.entry.name, locale)}</span>
-                      {hit.entry.nativeName && (
-                        <span lang={hit.entry.nativeName.lang} className="text-muted-foreground">
-                          {hit.entry.nativeName.text}
-                        </span>
-                      )}
-                      <HeartlandFlags cultureId={hit.entry.id} />
+                      {/* One flex item, so a wrapping row never leaves the flag on a line of its own. */}
+                      <span className="inline-flex min-w-0 items-center gap-x-1.5">
+                        {hit.entry.nativeName && (
+                          <span lang={hit.entry.nativeName.lang} className="text-muted-foreground">
+                            {hit.entry.nativeName.text}
+                          </span>
+                        )}
+                        <HeartlandFlags cultureId={hit.entry.id} />
+                      </span>
                     </ResultLink>
                   ) : (
                     <ResultLink href={`/war/${hit.entry.id}`} kind={t("kind", { kind: "war" })} details={<WarDates span={hit.entry.span} />}>
@@ -140,6 +147,9 @@ export function SearchBox({
           {hiddenMatches && <NoneInRegions message="hiddenByFilter" />}
         </div>
       )}
+
+      {/* Below the results, so a phone keyboard leaves the first results in view while typing. */}
+      <StoredRegionChips available={regions} />
     </div>
   );
 }
