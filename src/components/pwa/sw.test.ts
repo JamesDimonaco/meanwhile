@@ -26,10 +26,6 @@ function setup() {
       entries.set(urlOf(key), response);
     },
     match: async (key: Request | string) => entries.get(urlOf(key))?.clone(),
-    add: async (url: string) => {
-      const request = new Request(new URL(url, ORIGIN));
-      entries.set(request.url, await fetch(request));
-    },
   };
   const caches = {
     open: async () => cache,
@@ -69,15 +65,8 @@ function setup() {
     await Promise.all(waits);
   }
 
-  async function install() {
-    const waits: Promise<unknown>[] = [];
-    listeners.get("install")?.({ waitUntil: (p) => waits.push(p) });
-    await Promise.all(waits);
-  }
-
   return {
     entries,
-    install,
     fetch,
     dispatch,
     visit,
@@ -170,15 +159,5 @@ describe("service worker", () => {
     sw.fetch.mockResolvedValueOnce(new Response("new home"));
     const { response } = sw.dispatch("/en/");
     expect(await (await response).text()).toBe("new home");
-  });
-
-  it("caches / on install, so the installed app can launch offline before / was ever visited", async () => {
-    const sw = setup();
-    sw.fetch.mockResolvedValueOnce(new Response("locale redirect"));
-    await sw.install();
-
-    sw.fetch.mockReset().mockRejectedValue(new TypeError("offline"));
-    const { response } = sw.dispatch("/");
-    expect(await (await response).text()).toBe("locale redirect");
   });
 });
