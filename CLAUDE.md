@@ -30,6 +30,7 @@ scripts/                             validate-data.ts, check-no-google.ts, build
 src/app/(root)/page.tsx              "/" : inline script picks a locale, redirects to /<locale>/
 src/app/[locale]/layout.tsx          html, header (scan button, explainer trigger, language switcher), providers
 src/app/[locale]/page.tsx            home: scan, search (prefilled from ?q=)
+src/app/[locale]/manifest.webmanifest/ one web manifest per language (start_url /<locale>/, its appName), linked from the layout
 src/app/api/scan/route.ts            POST /api/scan: placard photo in, destination out (the only server code)
 src/app/[locale]/c/[id]/page.tsx     meanwhile cards + culture detail (moment first, detail below)
 src/app/[locale]/timeline/page.tsx   world timeline; year in ?year= (astronomical), read client-side

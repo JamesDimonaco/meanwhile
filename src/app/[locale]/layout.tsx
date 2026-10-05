@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
     title: { default: t("appName"), template: `%s · ${t("appName")}` },
     description: t("tagline"),
     appleWebApp: { capable: true, statusBarStyle: "default", title: t("appName") },
+    manifest: `/${locale}/manifest.webmanifest`,
     openGraph: openGraph(locale, t("appName"), { path: "", alt: t("appName") }),
     twitter: { card: "summary_large_image" },
   };

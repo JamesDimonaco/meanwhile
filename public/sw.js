@@ -19,17 +19,8 @@ function cacheKey(request) {
   return request.headers.get("RSC") === "1" ? url.href : url.origin + url.pathname;
 }
 
-// "/" is where the installed app launches (manifest start_url). It only picks
-// a locale and redirects, so it's cached up front for an offline launch. A
-// failed fetch here must not fail the install.
-self.addEventListener("install", (event) => {
+self.addEventListener("install", () => {
   self.skipWaiting();
-  event.waitUntil(
-    caches
-      .open(CACHE_NAME)
-      .then((cache) => cache.add("/"))
-      .catch(() => {}),
-  );
 });
 
 self.addEventListener("activate", (event) => {
