@@ -1,4 +1,7 @@
+import { createTranslator } from "next-intl";
 import { describe, expect, it } from "vitest";
+import type { Locale } from "@/i18n/locales";
+import { loadMessages } from "@/i18n/messages";
 import {
   contemporaryNames,
   cultureDescription,
@@ -184,6 +187,14 @@ function war(overrides: Partial<War> = {}): War {
 }
 
 const ongoing = (start: string, date: string) => `${start} – ongoing, as of ${date}`;
+const noSince = () => {
+  throw new Error("an ended war has no 'since'");
+};
+/** The wars namespace's ongoingSince message, as the war page fills it. */
+async function since(locale: Locale) {
+  const t = createTranslator({ locale, messages: await loadMessages(locale), namespace: "wars" });
+  return (start: string, date: string, named: boolean) => t("ongoingSince", { start, date, named: String(named) });
+}
 
 describe("warYears", () => {
   it("formats an ended war's likely span as a year range", () => {
@@ -193,7 +204,7 @@ describe("warYears", () => {
   it("shows one year for a war that starts and ends in the same year, in the title and description too", () => {
     const w = war({ period: { id: "p", earliestStart: 1982, latestStart: 1982, earliestEnd: 1982, latestEnd: 1982, sources: [src], default: false, disputed: false } });
     expect(warTitle(w, "en", warYears(w, "en", ongoing))).toBe("Punic Wars (1982\u00a0CE)");
-    expect(warDescription(w, "es", warYears(w, "es", ongoing))).toBe("Guerras púnicas, 1982\u00a0e.\u00a0c. Roma destruyó Cartago.");
+    expect(warDescription(w, "es", noSince)).toBe("Guerras púnicas, 1982\u00a0e.\u00a0c. Roma destruyó Cartago.");
     expect(warTitle(w, "zh", warYears(w, "zh", ongoing))).toBe("布匿战争（公元1982年）");
   });
 
@@ -224,25 +235,42 @@ describe("warTitle", () => {
 
 describe("warDescription", () => {
   it("is '<Name>, <years>. <outcome>' in en", () => {
-    const w = war();
-    expect(warDescription(w, "en", warYears(w, "en", ongoing))).toBe("Punic Wars, 264–146\u00a0BCE. Rome destroyed Carthage.");
+    expect(warDescription(war(), "en", noSince)).toBe("Punic Wars, 264–146\u00a0BCE. Rome destroyed Carthage.");
   });
 
   it("doesn't stack a second period after the es era label", () => {
-    const w = war();
-    expect(warDescription(w, "es", warYears(w, "es", ongoing))).toBe(
-      "Guerras púnicas, 264–146\u00a0a.\u00a0e.\u00a0c. Roma destruyó Cartago.",
-    );
+    expect(warDescription(war(), "es", noSince)).toBe("Guerras púnicas, 264–146\u00a0a.\u00a0e.\u00a0c. Roma destruyó Cartago.");
   });
 
   it("uses Chinese punctuation in zh", () => {
-    const w = war();
-    expect(warDescription(w, "zh", warYears(w, "zh", ongoing))).toBe("布匿战争，公元前264—前146年。罗马摧毁了迦太基。");
+    expect(warDescription(war(), "zh", noSince)).toBe("布匿战争，公元前264—前146年。罗马摧毁了迦太基。");
   });
 
   it("cuts to exactly the 155-character meta description budget", () => {
     // No spaces, so truncate can't stop early on a word boundary: the length is the budget itself.
-    const w = war({ outcome: { en: "x".repeat(300) } });
-    expect(warDescription(w, "en", "1 CE")).toHaveLength(155);
+    expect(warDescription(war({ outcome: { en: "x".repeat(300) } }), "en", noSince)).toHaveLength(155);
+  });
+
+  // "Russo-Ukrainian war (2022–present), 2022 CE – ongoing, as of 1 October 2026. Ongoing: …" spent a third of the budget on repeats.
+  describe("for an ongoing war", () => {
+    const going = (name: War["name"], outcome: War["outcome"]) =>
+      war({ name, outcome, period: undefined, ongoing: { earliestStart: 2022, latestStart: 2022, asOf: "2026-10-01", sources: [src], disputed: false } });
+    const named = going(
+      { en: "Russo-Ukrainian war (2022–present)", es: "Guerra ruso-ucraniana", zh: "俄乌战争 (2022年至今)" },
+      { en: "Ongoing: no ceasefire.", es: "En curso: sin alto el fuego.", zh: "仍在进行：未能停火。" },
+    );
+
+    it("gives the start year and the as-of date, without WarDates' 'ongoing'", async () => {
+      expect(warDescription(named, "es", await since("es"))).toBe(
+        "Guerra ruso-ucraniana, desde 2022\u00a0e.\u00a0c., a fecha de 1 de octubre de 2026. En curso: sin alto el fuego.",
+      );
+    });
+
+    it("leaves the start year out when the name already carries it", async () => {
+      expect(warDescription(named, "en", await since("en"))).toBe(
+        "Russo-Ukrainian war (2022–present), as of 1 October 2026. Ongoing: no ceasefire.",
+      );
+      expect(warDescription(named, "zh", await since("zh"))).toBe("俄乌战争 (2022年至今)，截至2026年10月1日。仍在进行：未能停火。");
+    });
   });
 });

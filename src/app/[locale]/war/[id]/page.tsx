@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/war/[id]
   return {
     // Without the layout's " · Meanwhile": it pushed titles past what search results show.
     title: { absolute: warTitle(war, locale, years) },
-    description: warDescription(war, locale, years),
+    description: warDescription(war, locale, (start, date, named) => tWars("ongoingSince", { start, date, named: String(named) })),
     alternates: pageAlternates(locale, `war/${id}`, shownIn),
     // Names the segment's opengraph-image itself, since Next's own URL for it
     // has no trailing slash; and the layout's openGraph would list every locale.

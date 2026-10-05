@@ -20,6 +20,7 @@
   "countriesToday": "Countries today: <countries></countries>",
   "allCountries": "All countries",
   "ongoing": "<start></start> – ongoing, as of {date}",
+  "ongoingSince": "{named, select, true {as of {date}} other {since {start}, as of {date}}}",
   "against": "against",
   "supporter": "<name></name> <role>(supporting)</role>",
   "altName": "{usedBy} calls it <name></name>",

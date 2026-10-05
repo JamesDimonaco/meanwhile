@@ -20,6 +20,7 @@
   "countriesToday": "今日国家：<countries></countries>",
   "allCountries": "所有国家",
   "ongoing": "<start></start>至今（截至{date}）",
+  "ongoingSince": "{named, select, true {截至{date}} other {自{start}起，截至{date}}}",
   "against": "对阵",
   "supporter": "<name></name><role>（支援方）</role>",
   "altName": "{usedBy}称之为<name></name>",

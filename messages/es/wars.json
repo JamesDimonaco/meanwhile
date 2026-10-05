@@ -20,6 +20,7 @@
   "countriesToday": "Países hoy: <countries></countries>",
   "allCountries": "Todos los países",
   "ongoing": "<start></start> – en curso, a {date}",
+  "ongoingSince": "{named, select, true {a fecha de {date}} other {desde {start}, a fecha de {date}}}",
   "against": "contra",
   "supporter": "<name></name> <role>(en apoyo)</role>",
   "altName": "{usedBy} la llama <name></name>",

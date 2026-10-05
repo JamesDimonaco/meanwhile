@@ -92,9 +92,25 @@ export function warTitle(war: War, locale: Locale, years: string): string {
   return warSpan(war).end === null ? name : `${name}${bracket(years, locale)}`;
 }
 
-/** "<Name>, <years>. <outcome>", truncated to the meta-description budget. */
-export function warDescription(war: War, locale: Locale, years: string): string {
-  return truncate(`${lead(localize(war.name, locale), years, locale)}${localize(war.outcome, locale)}`, META_DESCRIPTION_BUDGET);
+/**
+ * "<Name>, <years>. <outcome>", truncated to the meta-description budget. An
+ * ongoing war's dates are the wars namespace's `ongoingSince` message, which
+ * the caller fills: not WarDates' "– ongoing", since an outcome can open
+ * with "Ongoing:", and `named` drops the start year when the name carries it
+ * ("Russo-Ukrainian war (2022–present)").
+ */
+export function warDescription(
+  war: War,
+  locale: Locale,
+  since: (start: string, date: string, named: boolean) => string,
+): string {
+  const name = localize(war.name, locale);
+  const { start, end, asOf } = warSpan(war);
+  const dates =
+    end !== null || asOf === null
+      ? formatYearRange(start, end ?? start, locale)
+      : since(formatYear(start, locale), formatIsoDate(asOf, locale), name.includes(String(start)));
+  return truncate(`${lead(name, dates, locale)}${localize(war.outcome, locale)}`, META_DESCRIPTION_BUDGET);
 }
 
 /** Up to `count` other cultures alive during this one's default period, for "Meanwhile… X, Y and Z" copy. */
