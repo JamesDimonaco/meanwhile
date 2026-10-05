@@ -47,6 +47,5 @@
   "before": "<label>Empezó antes que esta:</label> <link>{name}</link>",
   "after": "<label>Empezó después de esta:</label> <link>{name}</link>",
   "cultures": "Culturas a las que puso fin o transformó",
-  "cultureWars": "Guerras",
-  "war": "Guerra"
+  "cultureWars": "Guerras"
 }

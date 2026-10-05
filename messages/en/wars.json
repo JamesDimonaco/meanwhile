@@ -47,6 +47,5 @@
   "before": "<label>Began before this one:</label> <link>{name}</link>",
   "after": "<label>Began after this one:</label> <link>{name}</link>",
   "cultures": "Cultures it ended or changed",
-  "cultureWars": "Wars",
-  "war": "War"
+  "cultureWars": "Wars"
 }

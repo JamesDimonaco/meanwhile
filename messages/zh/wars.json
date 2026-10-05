@@ -47,6 +47,5 @@
   "before": "<label>早于本战争开始：</label><link>{name}</link>",
   "after": "<label>晚于本战争开始：</label><link>{name}</link>",
   "cultures": "因此终结或改变的文化",
-  "cultureWars": "战争",
-  "war": "战争"
+  "cultureWars": "战争"
 }
