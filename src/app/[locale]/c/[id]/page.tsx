@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/c/[id]">
   // Names the segment's opengraph-image itself, since Next's own URL for it
   // has no trailing slash.
   return {
-    // Without the layout's " · Meanwhile": it pushed titles past what search results show.
+    // Without the layout's " · <app name>" suffix: it pushed titles past what search results show.
     title: { absolute: cultureMetaTitle(culture, locale, (name, years) => tCulture("metaTitle", { name, years })) },
     description,
     alternates: pageAlternates(locale, `c/${id}`),
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/c/[id]">
 }
 
 /**
- * The Meanwhile screen and culture detail in one page: the moment first
+ * The meanwhile cards and culture detail in one page: the moment first
  * (anchor + cards), exploration below. Owned by ui-core.
  */
 export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id]">) {

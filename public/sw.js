@@ -1,4 +1,4 @@
-// Meanwhile service worker: offline for pages already viewed.
+// Who Was When service worker: offline for pages already viewed.
 //
 // Every page is prerendered but there's no list of every route to
 // precache (and the culture data set keeps growing) - so instead of

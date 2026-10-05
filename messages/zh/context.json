@@ -10,5 +10,5 @@
   "began": "始于<year></year>",
   "lasted": "延续约{count, number}年",
   "badge": "{kind, select, oldest {此处起始最早} other {此处延续最久}}{disputed, select, true {（年代有争议）} other {}}",
-  "holds": "{kind, select, oldest {在 Meanwhile 收录的所有条目中起始最早} newest {在 Meanwhile 收录的所有条目中起始最晚} other {在 Meanwhile 收录的所有条目中延续最久}}{disputed, select, true {（其年代有争议）} other {}}。"
+  "holds": "{kind, select, oldest {在“同时代”收录的所有条目中起始最早} newest {在“同时代”收录的所有条目中起始最晚} other {在“同时代”收录的所有条目中延续最久}}{disputed, select, true {（其年代有争议）} other {}}。"
 }

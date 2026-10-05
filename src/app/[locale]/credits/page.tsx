@@ -54,7 +54,7 @@ function worksCited(locale: Locale): Source[] {
   return [...byCitation.values()].sort((a, b) => a.citation.localeCompare(b.citation, "en"));
 }
 
-/** Every data source, its licence and what Meanwhile did with it. */
+/** Every data source, its licence and what the site did with it. */
 export default async function CreditsPage({ params }: PageProps<"/[locale]/credits">) {
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "credits" });

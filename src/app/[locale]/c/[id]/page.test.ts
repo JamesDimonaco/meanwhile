@@ -23,7 +23,7 @@ describe("culture page metadata", () => {
   const meta = (locale: Locale, id: string) =>
     generateMetadata({ params: Promise.resolve({ locale, id }), searchParams: Promise.resolve({}) });
 
-  // No " · Meanwhile": search results cut a title at about 60 characters, and the site name shows above the result anyway.
+  // No " · <app name>" suffix: search results cut a title at about 60 characters, and the site name shows above the result anyway.
   it("titles a culture with its dates and the 'at the same time' wording people search with, without the app name", async () => {
     expect((await meta("en", "shang")).title).toEqual({ absolute: "Shang dynasty (1500–1050\u00a0BCE): the world at the same time" });
     expect((await meta("es", "egypt")).title).toEqual({ absolute: expect.stringMatching(/\): el mundo al mismo tiempo$/) });

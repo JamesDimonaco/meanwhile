@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/country/
   // A one-item page's description names its item rather than a generic sentence.
   const name = items[0].kind === "culture" ? localize(items[0].culture.name, locale) : localize(items[0].war.name, locale);
   return {
-    // Without the layout's " · Meanwhile": it pushed titles past what search results show.
+    // Without the layout's " · <app name>" suffix: it pushed titles past what search results show.
     title: { absolute: t("title", { country, ...listed }) },
     description: t("metaDescription", { country, ...listed, name }),
     alternates: pageAlternates(locale, `country/${code}`, shownIn),

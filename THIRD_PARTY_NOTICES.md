@@ -1,6 +1,6 @@
 # Third-party notices
 
-Meanwhile's own code is MIT ([LICENSE](LICENSE)) and its dataset is CC BY 4.0
+Who Was When's own code is MIT ([LICENSE](LICENSE)) and its dataset is CC BY 4.0
 ([data/LICENSE](data/LICENSE)). These parts of the repository come from
 elsewhere and keep their own licences.
 

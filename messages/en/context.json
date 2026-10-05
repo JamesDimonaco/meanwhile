@@ -10,5 +10,5 @@
   "began": "began in <year></year>",
   "lasted": "{count, plural, one {lasted about # year} other {lasted about # years}}",
   "badge": "{kind, select, oldest {Oldest here} other {Longest-lasting here}}{disputed, select, true { (disputed dates)} other {}}",
-  "holds": "{kind, select, oldest {Began earlier than anything else in Meanwhile} newest {Began later than anything else in Meanwhile} other {Lasted longer than anything else in Meanwhile}}{disputed, select, true { (its dates are disputed)} other {}}."
+  "holds": "{kind, select, oldest {Began earlier than anything else in Who Was When} newest {Began later than anything else in Who Was When} other {Lasted longer than anything else in Who Was When}}{disputed, select, true { (its dates are disputed)} other {}}."
 }

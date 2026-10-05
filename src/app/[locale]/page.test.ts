@@ -17,10 +17,14 @@ vi.mock("@/i18n/navigation", () => ({ Link: () => null }));
 
 const meta = (locale: Locale) => generateMetadata({ params: Promise.resolve({ locale }), searchParams: Promise.resolve({}) });
 
-// The home title was just "Meanwhile" in every language, so no search words matched it.
+// The home title was just the app name in every language, so no search words matched it.
 describe("home page metadata", () => {
   it("titles the page with what the site answers, then the app name", async () => {
-    expect((await meta("en")).title).toEqual({ absolute: "What else was happening in the world at the same time · Meanwhile" });
-    expect((await meta("zh")).title).toEqual({ absolute: "同一时间，世界上还发生着什么 · Meanwhile" });
+    expect((await meta("en")).title).toEqual({ absolute: "What else was happening in the world at the same time · Who Was When" });
+    expect((await meta("zh")).title).toEqual({ absolute: "同一时间，世界上还发生着什么 · 同时代" });
+  });
+
+  it("names the app in Spanish pages as Who Was When", async () => {
+    expect((await meta("es")).title).toMatchObject({ absolute: expect.stringMatching(/ · Who Was When$/) });
   });
 });

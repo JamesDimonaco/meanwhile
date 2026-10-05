@@ -1,9 +1,10 @@
 @AGENTS.md
 
-# Meanwhile
+# Who Was When
 
-Answers "I'm looking at this. What else was happening in the world at the same time?" in seconds.
+Who Was When (zh 同时代; called Meanwhile until October 2026) answers "I'm looking at this. What else was happening in the world at the same time?" in seconds.
 Mobile-first web app for travellers and museum visitors on weak signal, in en / es / zh (Simplified).
+The brand lives in `appName` (`messages/<locale>/common.json`). The old name stays where renaming would cost visitors something or nobody sees it: the `meanwhile.*` localStorage keys, the service worker's cache name, the GitHub repo and code identifiers (`meanwhile()`, `MeanwhileCard`). "Meanwhile…" as a card heading is ordinary English, not the brand.
 "James" below is James Dimonaco, the maintainer: decisions and sign-offs marked as his are his to make.
 
 ## Commands
@@ -30,7 +31,7 @@ src/app/(root)/page.tsx              "/" : inline script picks a locale, redirec
 src/app/[locale]/layout.tsx          html, header (scan button, explainer trigger, language switcher), providers
 src/app/[locale]/page.tsx            home: scan, search (prefilled from ?q=)
 src/app/api/scan/route.ts            POST /api/scan: placard photo in, destination out (the only server code)
-src/app/[locale]/c/[id]/page.tsx     Meanwhile screen + culture detail (moment first, detail below)
+src/app/[locale]/c/[id]/page.tsx     meanwhile cards + culture detail (moment first, detail below)
 src/app/[locale]/timeline/page.tsx   world timeline; year in ?year= (astronomical), read client-side
 src/app/[locale]/credits/page.tsx    sources and licences
 src/app/[locale]/compare/page.tsx    compare 2 cultures (3 from 768px); ids in ?ids=a,b, read client-side

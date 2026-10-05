@@ -91,6 +91,8 @@ export function websiteJsonLd(appName: string) {
     "@type": "WebSite",
     "@id": `${SITE_URL}/#website`,
     name: appName,
+    // The site's name until October 2026, so a search for it still finds the site.
+    alternateName: ["Meanwhile"],
     url: `${SITE_URL}/`,
     inLanguage: LOCALES.map((l) => HTML_LANG[l]),
   };

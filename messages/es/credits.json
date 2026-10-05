@@ -1,7 +1,7 @@
 {
   "title": "Fuentes y créditos",
-  "metaDescription": "Cada fecha, nombre y lugar de Meanwhile procede de un conjunto de datos históricos abiertos, citado y licenciado aquí.",
-  "intro": "Meanwhile toma fechas, nombres y lugares de conjuntos de datos históricos abiertos, y nunca copia las palabras de una fuente: los datos breves de la app se redactan de nuevo y se contrastan con las fuentes.",
+  "metaDescription": "Cada fecha, nombre y lugar de Who Was When procede de un conjunto de datos históricos abiertos, citado y licenciado aquí.",
+  "intro": "Who Was When toma fechas, nombres y lugares de conjuntos de datos históricos abiertos, y nunca copia las palabras de una fuente: los datos breves de la app se redactan de nuevo y se contrastan con las fuentes.",
   "dataLicence": "Datos de este sitio: CC BY 4.0. Código: MIT.",
   "datasetName": "{appName}: civilizaciones y guerras fechadas",
   "datasetDescription": "Fechas, fases, acontecimientos y datos con fuentes de {cultures} civilizaciones y {wars} guerras, desde {from} hasta hoy, en inglés, y la mayor parte también en español y chino simplificado. Cada periodo, acontecimiento y dato cita sus fuentes, y cada acontecimiento al menos dos. Los años se guardan en numeración astronómica (1 a. e. c. = 0).",
@@ -62,7 +62,7 @@
       "name": "Inter y Noto Sans SC",
       "licence": "SIL Open Font License 1.1",
       "used": "Las tipografías del texto latino y chino, servidas desde este sitio.",
-      "changes": "Se reducen a los caracteres que usa Meanwhile, para que las páginas en chino carguen rápido."
+      "changes": "Se reducen a los caracteres que usa Who Was When, para que las páginas en chino carguen rápido."
     },
     "flagIcons": {
       "name": "flag-icons",

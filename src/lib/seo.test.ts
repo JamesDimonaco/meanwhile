@@ -5,15 +5,15 @@ import { loadCultures, loadWars } from "@/lib/data/load";
 import { datasetJsonLd, jsonLd, openGraph, pageAlternates, SITE_URL, websiteJsonLd } from "./seo";
 
 describe("openGraph", () => {
-  const image = { path: "" as const, alt: "Meanwhile" };
+  const image = { path: "" as const, alt: "Who Was When" };
 
   it("lists every other locale as an alternate by default", () => {
-    expect(openGraph("en", "Meanwhile", image).alternateLocale).toEqual(["es", "zh-Hans"]);
+    expect(openGraph("en", "Who Was When", image).alternateLocale).toEqual(["es", "zh-Hans"]);
   });
 
   it("lists only the locales the page exists in, for a page the review gate hides", () => {
-    expect(openGraph("en", "Meanwhile", image, ["en"]).alternateLocale).toEqual([]);
-    expect(openGraph("es", "Meanwhile", image, ["en", "es"]).alternateLocale).toEqual(["en"]);
+    expect(openGraph("en", "Who Was When", image, ["en"]).alternateLocale).toEqual([]);
+    expect(openGraph("es", "Who Was When", image, ["en", "es"]).alternateLocale).toEqual(["en"]);
   });
 });
 
@@ -27,10 +27,15 @@ describe("pageAlternates", () => {
 describe("websiteJsonLd", () => {
   // The domain root's WebSite block is the one Google reads for the site name above each result.
   it("names the site after the app and points at the site root", () => {
-    const site = websiteJsonLd("Meanwhile");
-    expect(site.name).toBe("Meanwhile");
+    const site = websiteJsonLd("Who Was When");
+    expect(site.name).toBe("Who Was When");
     expect(site.url).toBe(`${SITE_URL}/`);
     expect(site["@id"]).toBe(`${SITE_URL}/#website`);
+  });
+
+  // The site was called Meanwhile until October 2026.
+  it("keeps the old name as an alternate, so a search for it still finds the site", () => {
+    expect(websiteJsonLd("Who Was When").alternateName).toEqual(["Meanwhile"]);
   });
 });
 
@@ -49,7 +54,7 @@ describe("datasetJsonLd", () => {
   const wars = loadWars("en");
   const dataset = datasetJsonLd(
     {
-      name: t("datasetName", { appName: "Meanwhile" }),
+      name: t("datasetName", { appName: "Who Was When" }),
       keywords: t("datasetKeywords"),
       description: (values) => t("datasetDescription", values),
     },
@@ -72,7 +77,7 @@ describe("datasetJsonLd", () => {
   });
 
   it("takes its name and keywords from the credits messages", () => {
-    expect(dataset.name).toBe("Meanwhile: dated civilisations and wars");
+    expect(dataset.name).toBe("Who Was When: dated civilisations and wars");
     expect(dataset.keywords).toBe("history, chronology, civilisations, dynasties, wars, timeline");
   });
 

@@ -1,12 +1,13 @@
-# Meanwhile
+# Who Was When
 
-Meanwhile answers one question: "I'm looking at this. What else was happening in
+Who Was When (同时代 in Chinese) answers one question: "I'm looking at this. What else was happening in
 the world at the same time?" You type a civilisation, dynasty, war or year, or
 photograph a museum label, and it shows what other cultures were alive at that
 moment. It is built for travellers and museum visitors on a phone, often on weak
 signal, and works in English, Spanish and Simplified Chinese.
 
-Live site: https://whowaswhen.com
+Live site: https://whowaswhen.com. It was called Meanwhile until October 2026,
+and the repository still is.
 
 <p>
   <img src="docs/home.png" alt="Home page: search box, placard scan button and popular starting points" width="300">

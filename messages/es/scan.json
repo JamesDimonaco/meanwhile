@@ -12,7 +12,7 @@
   "rateLimited": "Demasiados escaneos en poco tiempo. Vuelve a intentarlo en unos minutos.",
   "badImage": "No se pudo usar esa foto. Prueba a hacer otra.",
   "failed": "No se pudo leer la cartela. Inténtalo de nuevo, más cerca y con menos reflejos.",
-  "noMatch": "Todavía no hay coincidencias en Meanwhile. Esto es lo que dice la cartela:",
+  "noMatch": "Todavía no hay coincidencias en Who Was When. Esto es lo que dice la cartela:",
   "searchWith": "Buscar con este texto",
   "seeOnTimeline": "Ver esta fecha en la línea de tiempo",
   "again": "Escanear otra"

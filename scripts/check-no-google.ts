@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-// Meanwhile must work in mainland China, where Google hosts are blocked.
+// The site must work in mainland China, where Google hosts are blocked.
 const BANNED = /fonts\.googleapis\.com|fonts\.gstatic\.com|google-analytics\.com|googletagmanager\.com|maps\.googleapis\.com|www\.google\.com|ajax\.googleapis\.com/;
 
 // Everything a browser can receive: client bundles, prerendered pages and

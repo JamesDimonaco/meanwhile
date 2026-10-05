@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/war/[id]
   const name = localize(war.name, locale);
   const years = warYears(war, locale, (start, date) => tWars.markup("ongoing", { start: () => start, date }));
   return {
-    // Without the layout's " · Meanwhile": it pushed titles past what search results show.
+    // Without the layout's " · <app name>" suffix: it pushed titles past what search results show.
     title: { absolute: warTitle(war, locale, years) },
     description: warDescription(war, locale, (start, date, named) => tWars("ongoingSince", { start, date, named: String(named) })),
     alternates: pageAlternates(locale, `war/${id}`, shownIn),
@@ -68,7 +68,7 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
   );
 }
 
-/** One war: names, dates, sides, account, phases, map and events, leaders, deaths, links back into Meanwhile. */
+/** One war: names, dates, sides, account, phases, map and events, leaders, deaths, links back into the rest of the site. */
 export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]">) {
   const locale = await pageLocale(params);
   const { id } = await params;
