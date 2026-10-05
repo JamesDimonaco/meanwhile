@@ -1,15 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { openGraph } from "./seo";
+import { pageAlternates } from "./seo";
 
-describe("openGraph", () => {
-  const image = { path: "" as const, alt: "Meanwhile" };
-
-  it("lists every other locale as an alternate by default", () => {
-    expect(openGraph("en", "Meanwhile", image).alternateLocale).toEqual(["es", "zh-Hans"]);
-  });
-
-  it("lists only the locales the page exists in, for a page the review gate hides", () => {
-    expect(openGraph("en", "Meanwhile", image, ["en"]).alternateLocale).toEqual([]);
-    expect(openGraph("es", "Meanwhile", image, ["en", "es"]).alternateLocale).toEqual(["en"]);
+describe("pageAlternates", () => {
+  it("sends x-default to the root language chooser for the home page only", () => {
+    expect(pageAlternates("es", "").languages["x-default"]).toBe("/");
+    expect(pageAlternates("es", "credits").languages["x-default"]).toBe("/en/credits/");
   });
 });

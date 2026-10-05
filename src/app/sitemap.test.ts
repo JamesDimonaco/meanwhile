@@ -2,6 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 import { LOCALES } from "@/i18n/locales";
 import { loadCultures, loadHeartland } from "@/lib/data/load";
 import type { War } from "@/lib/data/war-schema";
+import { SITE_URL } from "@/lib/seo";
 import sitemap from "./sitemap";
 
 // Two wars, one behind the review gate in es and zh: the sitemap must leave
@@ -77,6 +78,13 @@ describe("sitemap", () => {
         expect(allUrls.has(url)).toBe(true);
       }
     }
+  });
+
+  // "/" is the language chooser, the URL Google designed x-default for; every other page has no such page, so English stands in.
+  it("points the home page's x-default at the root, and every other page's at its English version", () => {
+    const xDefault = (url: string) => (rows.find((r) => r.url === url)?.alternates?.languages as Record<string, string>)["x-default"];
+    expect(xDefault(`${SITE_URL}/es/`)).toBe(`${SITE_URL}/`);
+    expect(xDefault(`${SITE_URL}/es/timeline/`)).toBe(`${SITE_URL}/en/timeline/`);
   });
 
   it("gives every row's own URL a place in its own alternates (self-referencing, as Google recommends)", () => {

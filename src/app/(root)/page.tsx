@@ -11,17 +11,16 @@ export default function RootRedirect() {
   return (
     <>
       <script dangerouslySetInnerHTML={{ __html: script }} />
-      <noscript>
-        <ul>
-          {LOCALES.map((l) => (
-            <li key={l}>
-              <a href={`/${l}/`} lang={HTML_LANG[l]}>
-                {new Intl.DisplayNames([l], { type: "language" }).of(l)}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </noscript>
+      {/* Outside <noscript> so crawlers follow them; the script above redirects before paint. */}
+      <ul>
+        {LOCALES.map((l) => (
+          <li key={l}>
+            <a href={`/${l}/`} lang={HTML_LANG[l]}>
+              {new Intl.DisplayNames([l], { type: "language" }).of(l)}
+            </a>
+          </li>
+        ))}
+      </ul>
     </>
   );
 }

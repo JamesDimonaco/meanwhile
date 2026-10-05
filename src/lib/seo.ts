@@ -19,11 +19,19 @@ export function absoluteUrl(pathname: string): string {
 }
 
 /**
+ * x-default: the home page's is "/", the language chooser x-default was
+ * designed for; any other page's is its DEFAULT_LOCALE version, which every
+ * page has.
+ */
+export function xDefaultPath(path: SeoPath): string {
+  return path ? localePath(DEFAULT_LOCALE, path) : "/";
+}
+
+/**
  * `alternates` for generateMetadata: canonical plus every locale's version of
  * the same page (hreflang), reciprocal by construction since every version
  * calls this with the same set of locales. `locales` narrows that set for a
- * page the review gate keeps out of some languages. x-default points at
- * DEFAULT_LOCALE, which every page has.
+ * page the review gate keeps out of some languages.
  */
 export function pageAlternates(
   locale: Locale,
@@ -32,7 +40,7 @@ export function pageAlternates(
 ): { canonical: string; languages: Record<string, string> } {
   const languages: Record<string, string> = {};
   for (const l of locales) languages[HTML_LANG[l]] = localePath(l, path);
-  languages["x-default"] = localePath(DEFAULT_LOCALE, path);
+  languages["x-default"] = xDefaultPath(path);
   return { canonical: localePath(locale, path), languages };
 }
 

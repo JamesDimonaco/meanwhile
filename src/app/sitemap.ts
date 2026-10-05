@@ -1,8 +1,8 @@
 import type { MetadataRoute } from "next";
-import { DEFAULT_LOCALE, HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
+import { HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
 import { countryCodes, localeGaps } from "@/lib/data/country";
 import { loadAllWars, loadCultures, loadHeartland } from "@/lib/data/load";
-import { absoluteUrl, localePath, type SeoPath } from "@/lib/seo";
+import { absoluteUrl, localePath, xDefaultPath, type SeoPath } from "@/lib/seo";
 
 // Built once per deploy: nothing here changes between requests.
 export const dynamic = "force-static";
@@ -28,7 +28,7 @@ function paths(): SeoPath[] {
  */
 function rows(path: SeoPath, locales: readonly Locale[]): MetadataRoute.Sitemap {
   const languages = Object.fromEntries(locales.map((l) => [HTML_LANG[l], absoluteUrl(localePath(l, path))]));
-  languages["x-default"] = absoluteUrl(localePath(DEFAULT_LOCALE, path));
+  languages["x-default"] = absoluteUrl(xDefaultPath(path));
   return locales.map((locale) => ({ url: absoluteUrl(localePath(locale, path)), alternates: { languages } }));
 }
 
