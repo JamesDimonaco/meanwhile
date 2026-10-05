@@ -1,5 +1,7 @@
 // No zod here: client components read CONTINENTS for the filter chips.
 
+import type { Locale } from "@/i18n/locales";
+
 /** UN M49 regions, the grouping on the wars country list. */
 export const CONTINENTS = ["africa", "americas", "asia", "europe", "oceania"] as const;
 export type Continent = (typeof CONTINENTS)[number];
@@ -46,23 +48,32 @@ export function isListableCountry(code: string): boolean {
 
 /**
  * Search-only names people type for a country that Intl's names in en, es
- * and zh don't give. Kept small, and never a disputed name: no Malvinas,
- * Burma or Persia, and no never-shown code. A spelling the matcher already
- * reaches stays out ("Turkey" is one edit from a half-typed "Türkiye";
- * "Holanda" is a typo away from "Holland").
+ * and zh don't give, by the language of the pages they search: a name can
+ * mean something else in another language ("América" is the continent in
+ * Spanish). Kept small, and never a disputed name: no Malvinas, Burma or
+ * Persia, and no never-shown code. A spelling the matcher already reaches
+ * stays out ("Turkey" is one edit from a half-typed "Türkiye").
  * - GB: "UK", "Britain" and "Great Britain" are everyday English ("Britain"
- *   whole, so it outranks Neolithic Britain, whose name the reader sees); visitors say "England"
- *   and Spanish speakers "Inglaterra" for the whole country.
+ *   whole, so it outranks Neolithic Britain, whose name the reader sees);
+ *   visitors say "England" and Spanish speakers "Inglaterra" for the whole country.
  * - US: "USA" and "America" in English; "EE. UU."/"EEUU" is how Spanish writes it.
- * - NL: "Holland", the name most visitors use.
- * - DE, CH, CN: the name a German or Chinese speaker types without an IME
- *   ("Deutschland", "Zhongguo"), and the adjective people search Switzerland by.
+ * - NL: "Holland" and "Holanda", the names most visitors use.
+ * - DE, CH: the name a German visitor types ("Deutschland"), and the
+ *   adjective people search Switzerland by.
+ * - CN: "Zhongguo", what a Chinese speaker types without an IME.
  */
-export const COUNTRY_ALIASES: Readonly<Record<string, readonly string[]>> = {
-  GB: ["UK", "Britain", "Great Britain", "England", "Inglaterra", "Gran Bretaña"],
-  US: ["USA", "America", "EE. UU.", "EEUU"],
-  NL: ["Holland"],
-  DE: ["Deutschland"],
-  CH: ["Swiss"],
-  CN: ["Zhongguo"],
+export const COUNTRY_ALIASES: Readonly<Record<Locale, Readonly<Record<string, readonly string[]>>>> = {
+  en: {
+    GB: ["UK", "Britain", "Great Britain", "England"],
+    US: ["USA", "America"],
+    NL: ["Holland"],
+    DE: ["Deutschland"],
+    CH: ["Swiss"],
+  },
+  es: {
+    GB: ["Inglaterra", "Gran Bretaña"],
+    US: ["EE. UU.", "EEUU"],
+    NL: ["Holanda"],
+  },
+  zh: { CN: ["Zhongguo"] },
 };

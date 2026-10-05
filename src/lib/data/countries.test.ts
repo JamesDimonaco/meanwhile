@@ -36,6 +36,6 @@ describe("UN member states", () => {
 describe("country aliases", () => {
   // An alias on a never-shown or non-member code would put that code in search.
   it("only name countries the site may list", () => {
-    for (const code of Object.keys(COUNTRY_ALIASES)) expect(isListableCountry(code), code).toBe(true);
+    for (const code of Object.values(COUNTRY_ALIASES).flatMap(Object.keys)) expect(isListableCountry(code), code).toBe(true);
   });
 });

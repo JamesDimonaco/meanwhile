@@ -87,12 +87,12 @@ export function countryName(code: string, locale: Locale): string {
 /** A country as search sees it on a page in one language: the name there, the English name, and everything else it is found by. */
 export type CountrySearchNames = { name: string; english: string; terms: string[] };
 
-/** `terms`: the code, its names in the languages that are neither the page's nor English, and what people call it. */
+/** `terms`: the code, its names in the languages that are neither the page's nor English, and its aliases in the page's language. */
 export function countrySearchNames(code: string, locale: Locale): CountrySearchNames {
   return {
     name: countryName(code, locale),
     english: countryName(code, "en"),
-    terms: [code, ...LOCALES.filter((l) => l !== "en" && l !== locale).map((l) => countryName(code, l)), ...(COUNTRY_ALIASES[code] ?? [])],
+    terms: [code, ...LOCALES.filter((l) => l !== "en" && l !== locale).map((l) => countryName(code, l)), ...(COUNTRY_ALIASES[locale][code] ?? [])],
   };
 }
 

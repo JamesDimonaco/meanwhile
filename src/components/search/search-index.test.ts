@@ -329,6 +329,12 @@ describe("false positives", () => {
     expect(labels("中困", "zh")).toEqual([]);
   });
 
+  it("keeps each language's names for a country to that language's pages", () => {
+    // In Spanish "América" is the continent.
+    for (const q of ["america", "américa"]) expect(labels(q, "es")).not.toContain("country:US");
+    expect(labels("america", "en")[0]).toBe("country:US");
+  });
+
   it("never offers a country or war the page's language has no page for", () => {
     for (const locale of ["es", "zh"] as const) {
       expect(labels("ukraine", locale)).not.toContain("country:UA");
