@@ -33,7 +33,7 @@ export function ComparePicker({
   const inputId = useId();
   const trimmed = query.trim();
   const anchor = selected[0];
-  const index = useMemo(() => searchIndex({ cultures: entries }), [entries]);
+  const index = useMemo(() => searchIndex({ locale, cultures: entries }), [locale, entries]);
 
   const results = useMemo(() => {
     const open = (e: SearchEntry) => !selected.some((s) => s.id === e.id);

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { rank, toTerms } from "./match";
 
-/** Each name is its own item with that one term, so a test reads as "query against these names". */
+/** Each name is its own item with that one shown term, so a test reads as "query against these names". */
 const find = (query: string, names: readonly string[]) => rank(query, names.map((n) => ({ item: n, terms: toTerms([n]) })));
 
 describe("rank: real matches", () => {
@@ -9,8 +9,15 @@ describe("rank: real matches", () => {
     expect(find("  ", ["Inca"])).toEqual([]);
   });
 
-  it("ranks exact, then prefix, then a word inside, then a substring", () => {
-    expect(find("inca", ["Vinca", "Inca Empire", "Imperio inca", "Inca"])).toEqual(["Inca", "Inca Empire", "Imperio inca", "Vinca"]);
+  it("ranks exact, then prefix, then a word inside", () => {
+    expect(find("inca", ["Imperio inca", "Inca Empire", "Inca"])).toEqual(["Inca", "Inca Empire", "Imperio inca"]);
+  });
+
+  it("never matches Latin text in the middle of a word, at any length", () => {
+    // "Srirangapatna" brought the Fourth Anglo-Mysore War to "iran".
+    expect(find("inc", ["Vinca"])).toEqual([]);
+    expect(find("rang", ["Srirangapatna"])).toEqual([]);
+    expect(find("iran", ["Srirangapatna"])).toEqual([]);
   });
 
   it("ignores case and accents", () => {
@@ -22,8 +29,37 @@ describe("rank: real matches", () => {
     expect(find("egypt", ["Egypt", "egypt"])).toEqual(["Egypt", "egypt"]);
   });
 
-  it("matches CJK anywhere in a term", () => {
+  it("matches CJK anywhere in a term, from one character", () => {
     expect(find("中国", ["第二次中国战争", "中国"])).toEqual(["中国", "第二次中国战争"]);
+    expect(find("国", ["中国"])).toEqual(["中国"]);
+  });
+
+  it("matches words typed apart or together, or with letters doubled, as if typed right", () => {
+    expect(find("viet nam", ["Vietnam"])).toEqual(["Vietnam"]);
+    expect(find("qingchao", ["Qing chao"])).toEqual(["Qing chao"]);
+    expect(find("ching", ["Ch'ing"])).toEqual(["Ch'ing"]);
+    // "Han" is exact once doubled letters are folded, so it beats a real prefix.
+    expect(find("hann", ["Hannibal", "Han"])).toEqual(["Han", "Hannibal"]);
+    expect(find("ww ii", ["WWII"])).toEqual(["WWII"]);
+    expect(find("eeuu", ["EEUU", "Iron Age Europe"])).toEqual(["EEUU"]);
+    expect(find("romman", ["Ancient Rome", "Holy Roman Empire", "Roman"])).toEqual(["Roman", "Holy Roman Empire"]);
+  });
+
+  it("but never folds a word of three letters or fewer", () => {
+    expect(find("inn", ["In"])).toEqual([]);
+    expect(find("world war ii", ["World War I", "World War II"])).toEqual(["World War II"]);
+  });
+
+  it("matches a one- or two-letter query against the shown name, and other terms only whole", () => {
+    // On an English page "de" found Korea through "Corea del Norte", which the reader never sees.
+    const items = [
+      { item: "KP", terms: toTerms(["North Korea"], ["KP", "Corea del Norte"]) },
+      { item: "DK", terms: toTerms(["Denmark"], ["DK", "Dinamarca"]) },
+      { item: "DE", terms: toTerms(["Germany"], ["DE", "Alemania"]) },
+    ];
+    expect(rank("de", items)).toEqual(["DE", "DK"]);
+    expect(rank("co", items)).toEqual([]);
+    expect(rank("cor", items)).toEqual(["KP"]);
   });
 
   it("matches a one- or two-letter query only at the start of a word, never inside one", () => {
@@ -38,6 +74,18 @@ describe("rank: typos", () => {
     expect(find("untied states", ["United States"])).toEqual(["United States"]);
   });
 
+  it("lets a word whose consonants all agree hold one edit over its budget, in its vowels", () => {
+    expect(find("spane", ["Spanish conquest", "Spain"])).toEqual(["Spain", "Spanish conquest"]);
+    expect(find("mochay", ["Moche"])).toEqual(["Moche"]);
+    expect(find("spake", ["Spain"])).toEqual([]);
+    // Only from five letters, of about the same length, with three consonants to agree.
+    expect(find("meia", ["Maya"])).toEqual([]);
+    expect(find("sung", ["Sanguo"])).toEqual([]);
+    expect(find("frnace", ["Faraonic"])).toEqual([]);
+    expect(find("rusia", ["Ruso"])).toEqual([]);
+    expect(find("fransia", ["Faraones"])).toEqual([]);
+  });
+
   it("allows no edit up to three letters", () => {
     expect(find("wae", ["War"])).toEqual([]);
     expect(find("tnag", ["Tang"])).toEqual(["Tang"]);
@@ -46,7 +94,7 @@ describe("rank: typos", () => {
   it("allows one edit from four to six letters, two from seven", () => {
     expect(find("egpt", ["Egypt"])).toEqual(["Egypt"]);
     expect(find("mongal", ["Mongol"])).toEqual(["Mongol"]);
-    expect(find("mangal", ["Mongol"])).toEqual([]);
+    expect(find("mondal", ["Mongol"])).toEqual([]);
     expect(find("vietman", ["Vietnam"])).toEqual(["Vietnam"]);
     expect(find("vaetman", ["Vietnam"])).toEqual([]);
   });
@@ -81,13 +129,23 @@ describe("rank: typos", () => {
     expect(find("opiom wae", ["First Opium War"])).toEqual([]);
   });
 
-  it("ranks a misspelling of the whole name above one of a word in it, and that above a half-typed one", () => {
+  it("still forgives the words of a query that has a number in it", () => {
+    expect(find("wolrd war 2", ["World War 2"])).toEqual(["World War 2"]);
+    expect(find("world war 3", ["World War 2"])).toEqual([]);
+  });
+
+  it("ranks a misspelling of the whole name above one of a word in it or a half-typed one", () => {
     expect(find("vietman", ["Vietnam War", "Vietnamese", "Vietnam"])).toEqual(["Vietnam", "Vietnam War", "Vietnamese"]);
   });
 
+  it("ranks a misspelt word in a name and a half-typed one alike, so the order given decides", () => {
+    // Typing "afghanistan" flipped the top hit between the country and the Soviet–Afghan War.
+    expect(find("afghn", ["Afghanistan", "Soviet–Afghan War"])).toEqual(["Afghanistan", "Soviet–Afghan War"]);
+  });
+
   it("ranks fewer edits first", () => {
-    expect(find("vietnem", ["Vaetnam", "Vietnam"])).toEqual(["Vietnam", "Vaetnam"]);
-    expect(find("vietnem", ["Vaetnam", "Vietnam War"])).toEqual(["Vietnam War", "Vaetnam"]);
+    expect(find("vietnem", ["Vietnan", "Vietnam"])).toEqual(["Vietnam", "Vietnan"]);
+    expect(find("vietnem", ["Vietnan", "Vietnam War"])).toEqual(["Vietnam War", "Vietnan"]);
   });
 
   it("never ranks a typo above a real prefix or substring hit", () => {
@@ -98,8 +156,24 @@ describe("rank: typos", () => {
     expect(find("iran", ["Iraq", "Iran", "Iran–Iraq War"])).toEqual(["Iran", "Iran–Iraq War"]);
   });
 
+  it("keeps only typos of a name the reader sees when something else matched for real", () => {
+    const maratha = { item: "Third Anglo-Maratha War", terms: toTerms(["Third Anglo-Maratha War"], ["Koregaon"]) };
+    const korea = [maratha, { item: "North Korea", terms: toTerms(["North Korea"]) }];
+    expect(rank("korea", korea)).toEqual(["North Korea"]);
+    expect(rank("koregoan", [maratha])).toEqual(["Third Anglo-Maratha War"]);
+    expect(rank("korean", [{ item: "Korean War", terms: toTerms(["Korean War"]) }, ...korea])).toEqual(["Korean War", "North Korea"]);
+  });
+
   it("never fuzzes CJK or digits", () => {
     expect(find("中困", ["中国"])).toEqual([]);
     expect(find("1435", ["1453"])).toEqual([]);
+  });
+
+  it("counts the name of a place the site doesn't list as a match it never returns", () => {
+    const thailand = [{ item: "Thailand", terms: toTerms(["Thailand"], ["Tailandia"]) }];
+    const unlisted = toTerms([], ["Taiwan"]);
+    expect(rank("taiwan", thailand, unlisted)).toEqual([]);
+    expect(rank("taiwa", thailand, unlisted)).toEqual([]);
+    expect(rank("tailanda", thailand, unlisted)).toEqual(["Thailand"]);
   });
 });

@@ -1,12 +1,13 @@
 import { parseYearQuery } from "@/lib/years";
-import type { Locale } from "@/i18n/locales";
+import { LOCALES, type Locale } from "@/i18n/locales";
 import type { LocalizedText, NativeName, Region } from "@/lib/data/schema";
 import type { Culture } from "@/lib/data/schema";
 import { defaultPeriod } from "@/lib/data/queries";
 import { localize } from "@/lib/data/localize";
 import type { War } from "@/lib/data/war-schema";
+import { NEVER_SHOWN, UN_MEMBERS } from "@/lib/data/countries";
 import { countryName, countryTerms, warSpan, warsShownIn, type WarSpan } from "@/lib/data/wars";
-import { rank, toTerms, type Ranked } from "./match";
+import { rank, toTerms, type Ranked, type Term } from "./match";
 
 /** The two numbers pages show as a range; nothing search doesn't use. */
 export type SearchYearRange = { latestStart: number; earliestEnd: number };
@@ -67,29 +68,46 @@ export type SearchHit =
   | { type: "war"; entry: WarSearchEntry };
 
 type NameHit = Exclude<SearchHit, { type: "year" }>;
-export type SearchIndex = readonly Ranked<NameHit>[];
+/** `unlisted`: every country's names in every language, bar the ones the index lists. */
+export type SearchIndex = { items: readonly Ranked<NameHit>[]; unlisted: readonly Term[] };
 
 const byKey = <T>(key: (t: T) => string) => (a: T, b: T) => key(a).localeCompare(key(b));
 
+function unlistedCountries(listed: readonly CountrySearchEntry[]): Term[] {
+  const shown = new Set(listed.map((c) => c.code));
+  const names = LOCALES.map((l) => new Intl.DisplayNames([l], { type: "region" }));
+  const codes = [...Object.keys(UN_MEMBERS), ...NEVER_SHOWN].filter((code) => !shown.has(code));
+  return toTerms([], codes.flatMap((code) => names.map((n) => n.of(code) ?? code)));
+}
+
 /**
- * Prepares the terms once, on the client. On equal scores a country comes
- * first, then a civilisation, then a war: "egypt" is the country by that
- * name before Ancient Egypt, which has it as an alias.
+ * Prepares the terms once, on the client, with the names a row shows in the
+ * page's language first. On equal scores a country comes first, then a
+ * civilisation, then a war: "egypt" is the country by that name before
+ * Ancient Egypt, which has it as an alias.
  */
 export function searchIndex({
+  locale,
   countries = [],
   cultures = [],
   wars = [],
 }: {
+  locale: Locale;
   countries?: readonly CountrySearchEntry[];
   cultures?: readonly SearchEntry[];
   wars?: readonly WarSearchEntry[];
 }): SearchIndex {
-  return [
-    ...[...countries].sort(byKey((c) => c.code)).map((entry) => ({ item: { type: "country" as const, entry }, terms: toTerms(entry.terms) })),
-    ...[...cultures].sort(byKey((c) => c.id)).map((entry) => ({ item: { type: "culture" as const, entry }, terms: toTerms(cultureTerms(entry)) })),
-    ...[...wars].sort(byKey((w) => w.id)).map((entry) => ({ item: { type: "war" as const, entry }, terms: toTerms(entry.terms) })),
-  ];
+  const cultureShown = (c: SearchEntry) => [localize(c.name, locale), ...(c.nativeName ? [c.nativeName.text] : [])];
+  return {
+    items: [
+      ...[...countries].sort(byKey((c) => c.code)).map((entry) => ({ item: { type: "country" as const, entry }, terms: toTerms([entry.name], entry.terms) })),
+      ...[...cultures]
+        .sort(byKey((c) => c.id))
+        .map((entry) => ({ item: { type: "culture" as const, entry }, terms: toTerms(cultureShown(entry), cultureTerms(entry)) })),
+      ...[...wars].sort(byKey((w) => w.id)).map((entry) => ({ item: { type: "war" as const, entry }, terms: toTerms([entry.name], entry.terms) })),
+    ],
+    unlisted: unlistedCountries(countries),
+  };
 }
 
 /** A typed year ("1200 BCE", "公元前1200年") first, then every name hit, best first. */
@@ -97,6 +115,6 @@ export function search(query: string, index: SearchIndex): SearchHit[] {
   const trimmed = query.trim();
   if (!trimmed) return [];
   const year = parseYearQuery(trimmed);
-  const names: SearchHit[] = rank(trimmed, index);
+  const names: SearchHit[] = rank(trimmed, index.items, index.unlisted);
   return year === null ? names : [{ type: "year", year }, ...names];
 }

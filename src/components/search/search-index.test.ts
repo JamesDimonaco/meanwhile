@@ -27,7 +27,7 @@ const inca = entry({
 });
 
 const shang = entry({});
-const cultures = (...entries: SearchEntry[]) => searchIndex({ cultures: entries });
+const cultures = (...entries: SearchEntry[]) => searchIndex({ locale: "en", cultures: entries });
 
 describe("search", () => {
   const index = cultures(shang, inca);
@@ -60,13 +60,13 @@ describe("search", () => {
     expect(search("tawantinsuyu", index)).toEqual([{ type: "culture", entry: inca }]);
   });
 
-  it("ranks an exact alias match above a mere substring match", () => {
-    // "vinca" only contains "inca"; the Inca entry's alias "Inca" is exact,
-    // so it must sort first even though "vinca" would otherwise win by id order.
-    const vinca = entry({ id: "vinca", name: { en: "Vinca culture" }, aliases: ["Vinca"], nativeName: undefined });
-    expect(search("inca", cultures(vinca, inca))).toEqual([
+  it("ranks an exact alias match above a prefix match", () => {
+    // "inca roads" only starts with "inca"; the Inca entry's alias "Inca" is exact,
+    // so it must sort first even though "a-roads" would otherwise win by id order.
+    const roads = entry({ id: "a-roads", name: { en: "Inca roads" }, aliases: [], nativeName: undefined });
+    expect(search("inca", cultures(roads, inca))).toEqual([
       { type: "culture", entry: inca },
-      { type: "culture", entry: vinca },
+      { type: "culture", entry: roads },
     ]);
   });
 
@@ -95,7 +95,7 @@ describe("war search entries", () => {
   });
 
   it("matches a war by any language's title or an alias, accent insensitive", () => {
-    const index = searchIndex({ wars: warSearchEntries([open, gated], "en") });
+    const index = searchIndex({ locale: "en", wars: warSearchEntries([open, gated], "en") });
     const ids = (q: string) => search(q, index).map((h) => (h.type === "war" ? h.entry.id : h.type));
     expect(ids("guerras punicas")).toEqual(["open"]);
     expect(ids("布匿")).toEqual(["open"]);
@@ -107,7 +107,7 @@ describe("country search entries", () => {
   it("names each country in the page's language and finds it by its name in any language", () => {
     const [mexico] = countrySearchEntries(["MX"], "zh");
     expect(mexico.name).toBe("墨西哥");
-    expect(search("mexico", searchIndex({ countries: [mexico] }))).toEqual([{ type: "country", entry: mexico }]);
+    expect(search("mexico", searchIndex({ locale: "zh", countries: [mexico] }))).toEqual([{ type: "country", entry: mexico }]);
   });
 });
 
@@ -117,6 +117,7 @@ const allCultures = loadCultures().map(toSearchEntry);
 function homeIndex(locale: Locale) {
   const wars = loadWars(locale);
   return searchIndex({
+    locale,
     countries: countrySearchEntries(countryCodes(heartland, wars), locale),
     cultures: allCultures,
     wars: warSearchEntries(wars, locale),
@@ -145,7 +146,7 @@ describe("misspellings people type, against the real data", () => {
     ["en", "peloponesian", "war:peloponnesian-war"],
     ["en", "peleop", "war:peloponnesian-war"],
     ["en", "opiom war", "war:first-opium-war"],
-    ["en", "mongal", "culture:yuan"],
+    ["en", "mongal", "country:MN"],
     ["en", "maian", "culture:maya"],
     ["en", "uk", "country:GB"],
     ["en", "usa", "country:US"],
@@ -155,6 +156,27 @@ describe("misspellings people type, against the real data", () => {
     ["en", "america", "country:US"],
     ["en", "holland", "country:NL"],
     ["en", "turkey", "country:TR"],
+    ["en", "qing chao", "culture:qing"],
+    ["en", "ching dynasty", "culture:qing"],
+    ["en", "ching", "culture:qing"],
+    ["en", "spane", "country:ES"],
+    ["en", "world war 2", "war:world-war-ii"],
+    ["en", "world war two", "war:world-war-ii"],
+    ["en", "ww ii", "war:world-war-ii"],
+    ["en", "wolrd war 2", "war:world-war-ii"],
+    ["en", "world war 1", "war:world-war-i"],
+    ["en", "world war one", "war:world-war-i"],
+    ["en", "3 kingdoms", "culture:three-kingdoms"],
+    ["en", "hann", "culture:han"],
+    ["en", "mayas", "culture:maya"],
+    ["en", "afghn", "country:AF"],
+    ["en", "afghna", "country:AF"],
+    ["en", "viet nam", "country:VN"],
+    ["en", "indo china war", "war:first-indochina-war"],
+    ["en", "greeks", "culture:ancient-greece"],
+    ["en", "mochay", "culture:moche"],
+    ["en", "deutschland", "country:DE"],
+    ["en", "swiss", "country:CH"],
     ["es", "mejico", "country:MX"],
     ["es", "vietnan", "country:VN"],
     ["es", "egipto", "country:EG"],
@@ -165,17 +187,25 @@ describe("misspellings people type, against the real data", () => {
     ["es", "holanda", "country:NL"],
     ["es", "azteca", "culture:aztec"],
     ["es", "guerra del opio", "war:first-opium-war"],
+    ["es", "aztecas", "culture:aztec"],
+    ["es", "mayas", "culture:maya"],
+    ["es", "cultura maya", "culture:maya"],
     ["zh", "中国", "country:CN"],
     ["zh", "越南", "country:VN"],
     ["zh", "阿兹特克", "culture:aztec"],
     ["zh", "mexcio", "country:MX"],
+    ["zh", "qing chao", "culture:qing"],
+    ["zh", "qingchao", "culture:qing"],
+    ["zh", "hanchao", "culture:han"],
+    ["zh", "qinchao", "culture:qin"],
+    ["zh", "zhongguo", "country:CN"],
   ])("%s: %s -> %s", (locale, query, expected) => {
     expect(labels(query, locale)[0]).toBe(expected);
   });
 });
 
 describe("false positives", () => {
-  const termsOf = (locale: Locale, hit: SearchHit) => indexes[locale].find((r) => r.item === hit)?.terms.map((t) => t.text) ?? [];
+  const termsOf = (locale: Locale, hit: SearchHit) => indexes[locale].items.find((r) => r.item === hit)?.terms.map((t) => t.text) ?? [];
   const hitsWhoseTerms = (query: string, test: (term: string) => boolean) =>
     search(query, indexes.en).filter((hit) => !termsOf("en", hit).some(test)).map(label);
 
@@ -184,11 +214,19 @@ describe("false positives", () => {
     expect(hitsWhoseTerms("war", (t) => t.includes("war"))).toEqual([]);
   });
 
-  it("finds only words starting with a two-letter query", () => {
-    for (const q of ["in", "ma"]) {
-      expect(search(q, indexes.en).length).toBeGreaterThan(0);
-      expect(hitsWhoseTerms(q, (t) => new RegExp(`(^|[^\\p{L}])${q}`, "u").test(t))).toEqual([]);
+  it("finds a two-letter query only at a word start in the name shown, or as a whole code or alias", () => {
+    const shownOrWhole = (q: string) => (hit: SearchHit) => {
+      const shown = hit.type === "culture" ? (hit.entry.name.en ?? "") : hit.type === "year" ? "" : hit.entry.name;
+      return new RegExp(`(^|[^\\p{L}])${q}`, "iu").test(shown) || termsOf("en", hit).includes(q);
+    };
+    for (const q of ["in", "ma", "de", "la", "co"]) {
+      const hits = search(q, indexes.en);
+      expect(hits.length).toBeGreaterThan(0);
+      expect(hits.filter((hit) => !shownOrWhole(q)(hit)).map(label)).toEqual([]);
     }
+    // Through "Inglaterra" and "Corea del Norte", names an English page never shows.
+    expect(labels("in", "en")).not.toContain("country:GB");
+    expect(labels("co", "en")).not.toContain("country:KP");
   });
 
   it("answers a bare year with the year alone, and puts a year ahead of names", () => {
@@ -200,6 +238,17 @@ describe("false positives", () => {
     expect(labels("iran", "en")).not.toContain("country:IQ");
     expect(labels("iran", "en")).not.toContain("war:iraq-war");
     expect(labels("inca", "en")).not.toContain("country:IN");
+    expect(labels("iran", "en")).toEqual(["country:IR", "war:iran-iraq-war"]);
+    expect(labels("usa", "en")).toEqual(["country:US"]);
+    expect(labels("korea", "en")).not.toContain("war:third-anglo-maratha-war");
+    expect(labels("netherland", "en")).toEqual(["country:NL"]);
+    expect(labels("aztecas", "es")).not.toContain("war:peloponnesian-war");
+    expect(labels("qing chao", "en")).not.toContain("culture:ming");
+  });
+
+  it("answers the name of a country the site doesn't list with nothing, not a neighbour", () => {
+    for (const q of ["taiwan", "taiwa", "chile", "oman", "hong kong"]) expect(labels(q, "en")).toEqual([]);
+    expect(labels("birmania", "es")).toEqual([]);
   });
 
   it("never fuzzes CJK", () => {

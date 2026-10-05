@@ -54,9 +54,14 @@ export function isListableCountry(code: string): boolean {
  *   and Spanish speakers "Inglaterra" for the whole country.
  * - US: "USA" and "America" in English; "EE. UU."/"EEUU" is how Spanish writes it.
  * - NL: "Holland", the name most visitors use.
+ * - DE, CH, CN: the name a German or Chinese speaker types without an IME
+ *   ("Deutschland", "Zhongguo"), and the adjective people search Switzerland by.
  */
 export const COUNTRY_ALIASES: Readonly<Record<string, readonly string[]>> = {
   GB: ["UK", "Great Britain", "England", "Inglaterra", "Gran Bretaña"],
   US: ["USA", "America", "EE. UU.", "EEUU"],
   NL: ["Holland"],
+  DE: ["Deutschland"],
+  CH: ["Swiss"],
+  CN: ["Zhongguo"],
 };

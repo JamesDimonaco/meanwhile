@@ -1,7 +1,7 @@
 "use client";
 
 import { useId, useMemo, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Chip } from "@/components/filters/region-chips";
 import { CountryFlag } from "@/components/identity/heartland-flags";
 import { search, searchIndex, type WarSearchEntry } from "@/components/search/search-index";
@@ -21,12 +21,13 @@ export function CountryList({
   wars: WarSearchEntry[];
 }) {
   const t = useTranslations("wars");
+  const locale = useLocale();
   const id = useId();
   const [query, setQuery] = useState("");
   const [picked, setPicked] = useState<Continent[]>([]);
   const q = query.trim();
 
-  const index = useMemo(() => searchIndex({ countries, wars }), [countries, wars]);
+  const index = useMemo(() => searchIndex({ locale, countries, wars }), [locale, countries, wars]);
   const hits = useMemo(() => search(q, index), [q, index]);
   // With a query, countries come in the order the search ranks them; without, alphabetically.
   const shownCountries = useMemo(() => {
