@@ -1,5 +1,5 @@
 import { HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
-import { COUNTRY_ALIASES, isListableCountry, UN_MEMBERS, type Continent } from "./countries";
+import { COUNTRY_ALIASES, ENGLISH_ALIASES, isListableCountry, UN_MEMBERS, type Continent } from "./countries";
 import type { Culture, Region } from "./schema";
 import type { Casualty, War, WarFile } from "./war-schema";
 
@@ -87,12 +87,12 @@ export function countryName(code: string, locale: Locale): string {
 /** A country as search sees it on a page in one language: the name there, the English name, and everything else it is found by. */
 export type CountrySearchNames = { name: string; english: string; terms: string[] };
 
-/** `terms`: the code, its names in the languages that are neither the page's nor English, and its aliases in the page's language. */
+/** `terms`: the code, its names in the languages that are neither the page's nor English, and its aliases (English pages get ENGLISH_ALIASES too). */
 export function countrySearchNames(code: string, locale: Locale): CountrySearchNames {
   return {
     name: countryName(code, locale),
     english: countryName(code, "en"),
-    terms: [code, ...LOCALES.filter((l) => l !== "en" && l !== locale).map((l) => countryName(code, l)), ...(COUNTRY_ALIASES[locale][code] ?? [])],
+    terms: [code, ...LOCALES.filter((l) => l !== "en" && l !== locale).map((l) => countryName(code, l)), ...(COUNTRY_ALIASES[code] ?? []), ...(locale === "en" ? (ENGLISH_ALIASES[code] ?? []) : [])],
   };
 }
 

@@ -343,10 +343,21 @@ describe("false positives", () => {
     expect(labels("中困", "zh")).toEqual([]);
   });
 
-  it("keeps each language's names for a country to that language's pages", () => {
+  it("keeps 'America' to English pages", () => {
     // In Spanish "América" is the continent.
     for (const q of ["america", "américa"]) expect(labels(q, "es")).not.toContain("country:US");
     expect(labels("america", "en")[0]).toBe("country:US");
+  });
+
+  it("finds a country by its everyday names on every page", () => {
+    // Keyed by the page's language, these found nothing on Spanish and Chinese pages.
+    for (const locale of ["es", "zh"] as const) {
+      for (const [q, code] of [["usa", "US"], ["uk", "GB"], ["england", "GB"], ["deutschland", "DE"], ["swiss", "CH"], ["britain", "GB"]]) {
+        expect(labels(q, locale)[0], `${locale} ${q}`).toBe(`country:${code}`);
+      }
+    }
+    expect(labels("zhongguo", "en")[0]).toBe("country:CN");
+    expect(labels("inglaterra", "en")[0]).toBe("country:GB");
   });
 
   it("never offers a country or war the page's language has no page for", () => {
