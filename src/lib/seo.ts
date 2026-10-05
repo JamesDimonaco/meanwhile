@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { DEFAULT_LOCALE, HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
+import type { Culture } from "@/lib/data/schema";
+import type { War } from "@/lib/data/war-schema";
+import { warOuter } from "@/lib/data/wars";
 import { OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
+import { formatYear } from "@/lib/years";
 
 // One env var, one fallback, used everywhere a full URL is needed
 // (metadataBase, sitemap, robots). No trailing slash.
@@ -89,5 +93,40 @@ export function websiteJsonLd(appName: string) {
     name: appName,
     url: `${SITE_URL}/`,
     inLanguage: LOCALES.map((l) => HTML_LANG[l]),
+  };
+}
+
+const REPO_URL = "https://github.com/JamesDimonaco/meanwhile";
+
+/** An astronomical year as an ISO 8601 year, which numbers years the same way: -4099 (4100 BCE) is "-4099". */
+function isoYear(year: number): string {
+  return `${year < 0 ? "-" : ""}${String(Math.abs(year)).padStart(4, "0")}`;
+}
+
+/**
+ * The Dataset block for Google Dataset Search, on /en/credits/ only: one
+ * entry rather than three locale copies. It names no war, so no gated war's
+ * id or name can reach es/zh output. No creator: the site shows no byline.
+ */
+export function datasetJsonLd(appName: string, cultures: readonly Culture[], wars: readonly War[]) {
+  const from = Math.min(...cultures.flatMap((c) => c.periods.map((p) => p.earliestStart)), ...wars.map((w) => warOuter(w)[0]));
+  return {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: `${appName}: dated civilisations and wars`,
+    description:
+      `Dates, phases, events and sourced facts for ${cultures.length} civilisations and ${wars.length} wars, ` +
+      `from ${formatYear(from, "en")} to the present, in English, Spanish and Simplified Chinese. ` +
+      "Every period, event and fact cites its sources, and every event at least two. " +
+      "Years are stored in astronomical numbering (1 BCE = 0).",
+    url: absoluteUrl(localePath("en", "credits")),
+    sameAs: `${REPO_URL}/tree/main/data`,
+    license: "https://creativecommons.org/licenses/by/4.0/",
+    isAccessibleForFree: true,
+    inLanguage: LOCALES.map((l) => HTML_LANG[l]),
+    keywords: ["history", "chronology", "civilisations", "dynasties", "wars", "timeline"],
+    // Open end: some wars are still going on.
+    temporalCoverage: `${isoYear(from)}/..`,
+    distribution: [{ "@type": "DataDownload", encodingFormat: "application/zip", contentUrl: `${REPO_URL}/archive/refs/heads/main.zip` }],
   };
 }

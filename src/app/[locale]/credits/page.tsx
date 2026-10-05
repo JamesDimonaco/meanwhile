@@ -4,7 +4,7 @@ import { pageLocale } from "@/i18n/page-locale";
 import { hasTerritoryMap, loadBorders, loadCultures, loadSuccession, loadWars } from "@/lib/data/load";
 import type { Locale } from "@/i18n/locales";
 import type { Source } from "@/lib/data/schema";
-import { openGraph, pageAlternates } from "@/lib/seo";
+import { datasetJsonLd, jsonLd, openGraph, pageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/credits">): Promise<Metadata> {
   const locale = await pageLocale(params);
@@ -59,9 +59,16 @@ export default async function CreditsPage({ params }: PageProps<"/[locale]/credi
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "credits" });
   const works = worksCited(locale);
+  const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
 
   return (
     <section className="mx-auto flex w-full max-w-xl flex-col gap-6 pt-4">
+      {locale === "en" && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonLd(datasetJsonLd(appName, loadCultures(), loadWars(locale))) }}
+        />
+      )}
       <header className="flex flex-col gap-2">
         <h1 className="text-2xl font-semibold tracking-tight">{t("title")}</h1>
         <p className="text-sm text-muted-foreground">{t("intro")}</p>
