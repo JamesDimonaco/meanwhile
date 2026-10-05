@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
+import { ENGLISH_APP_NAME } from "@/i18n/app-name";
 import { DEFAULT_LOCALE, HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
 import type { Culture } from "@/lib/data/schema";
 import type { War } from "@/lib/data/war-schema";
 import { warOuter } from "@/lib/data/wars";
 import { OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
 import { formatYear } from "@/lib/years";
-import enCommon from "../../messages/en/common.json";
 import zhCommon from "../../messages/zh/common.json";
 
 // One env var, one fallback, used everywhere a full URL is needed
@@ -96,7 +96,7 @@ export function websiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${SITE_URL}/#website`,
-    name: enCommon.appName,
+    name: ENGLISH_APP_NAME,
     // "Meanwhile" was the site's name until October 2026, so a search for it still finds the site.
     alternateName: [zhCommon.appName, "Meanwhile"],
     url: `${SITE_URL}/`,

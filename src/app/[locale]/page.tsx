@@ -18,7 +18,7 @@ import { RegionFilteredList } from "@/components/filters/region-filtered-list";
 import { regionsIn } from "@/components/filters/region-filter";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
-import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { ENGLISH_APP_NAME } from "@/i18n/app-name";
 import { jsonLd, openGraph, pageAlternates, websiteJsonLd } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
@@ -53,17 +53,16 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const records = RECORD_KINDS.map((kind) => ({ kind, holder: recordHolder(kind, dated) }));
   const regions = regionsIn(cultures);
   const appName = tCommon("appName");
-  // A language that names the site its own way (zh 同时代) shows the English name too, so it matches the domain.
-  const englishName = (await getTranslations({ locale: DEFAULT_LOCALE, namespace: "common" }))("appName");
 
   return (
     <div className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-6">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteJsonLd()) }} />
       <header className="flex flex-col gap-1 text-center">
         <h1 className="text-2xl font-semibold tracking-tight">{appName}</h1>
-        {appName !== englishName && (
+        {/* A language that names the site its own way (zh 同时代) shows the English name too, so it matches the domain. */}
+        {appName !== ENGLISH_APP_NAME && (
           <p lang="en" className="text-sm text-muted-foreground">
-            {englishName}
+            {ENGLISH_APP_NAME}
           </p>
         )}
         <p className="text-sm text-muted-foreground">{tCommon("tagline")}</p>
