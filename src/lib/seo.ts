@@ -105,26 +105,27 @@ function isoYear(year: number): string {
 
 /**
  * The Dataset block for Google Dataset Search, on /en/credits/ only: one
- * entry rather than three locale copies. It names no war, so no gated war's
- * id or name can reach es/zh output. No creator: the site shows no byline.
+ * entry rather than three locale copies. Its text is the credits namespace's
+ * dataset messages, which the caller fills. It names no war, so no gated
+ * war's id or name can reach es/zh output. No creator: the site shows no byline.
  */
-export function datasetJsonLd(appName: string, cultures: readonly Culture[], wars: readonly War[]) {
+export function datasetJsonLd(
+  text: { name: string; keywords: string; description: (values: { cultures: number; wars: number; from: string }) => string },
+  cultures: readonly Culture[],
+  wars: readonly War[],
+) {
   const from = Math.min(...cultures.flatMap((c) => c.periods.map((p) => p.earliestStart)), ...wars.map((w) => warOuter(w)[0]));
   return {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    name: `${appName}: dated civilisations and wars`,
-    description:
-      `Dates, phases, events and sourced facts for ${cultures.length} civilisations and ${wars.length} wars, ` +
-      `from ${formatYear(from, "en")} to the present, in English, Spanish and Simplified Chinese. ` +
-      "Every period, event and fact cites its sources, and every event at least two. " +
-      "Years are stored in astronomical numbering (1 BCE = 0).",
+    name: text.name,
+    description: text.description({ cultures: cultures.length, wars: wars.length, from: formatYear(from, "en") }),
     url: absoluteUrl(localePath("en", "credits")),
     sameAs: `${REPO_URL}/tree/main/data`,
     license: "https://creativecommons.org/licenses/by/4.0/",
     isAccessibleForFree: true,
     inLanguage: LOCALES.map((l) => HTML_LANG[l]),
-    keywords: ["history", "chronology", "civilisations", "dynasties", "wars", "timeline"],
+    keywords: text.keywords,
     // Open end: some wars are still going on.
     temporalCoverage: `${isoYear(from)}/..`,
     distribution: [{ "@type": "DataDownload", encodingFormat: "application/zip", contentUrl: `${REPO_URL}/archive/refs/heads/main.zip` }],

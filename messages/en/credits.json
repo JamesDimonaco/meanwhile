@@ -3,6 +3,9 @@
   "metaDescription": "Every date, name and place on Meanwhile traces back to an open historical dataset, credited and licensed here.",
   "intro": "Meanwhile pulls dates, names and places from open historical datasets, and never copies a source's wording — facts on the app are written fresh and checked against sources.",
   "dataLicence": "Data on this site: CC BY 4.0. Code: MIT.",
+  "datasetName": "{appName}: dated civilisations and wars",
+  "datasetDescription": "Dates, phases, events and sourced facts for {cultures} civilisations and {wars} wars, from {from} to the present, in English, most of it also in Spanish and Simplified Chinese. Every period, event and fact cites its sources, and every event at least two. Years are stored in astronomical numbering (1 BCE = 0).",
+  "datasetKeywords": "history, chronology, civilisations, dynasties, wars, timeline",
   "sources": {
     "periodo": {
       "name": "PeriodO",

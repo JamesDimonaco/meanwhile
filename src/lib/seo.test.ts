@@ -1,4 +1,6 @@
+import { createTranslator } from "next-intl";
 import { describe, expect, it } from "vitest";
+import { loadMessages } from "@/i18n/messages";
 import { loadCultures, loadWars } from "@/lib/data/load";
 import { datasetJsonLd, jsonLd, openGraph, pageAlternates, SITE_URL, websiteJsonLd } from "./seo";
 
@@ -40,10 +42,20 @@ describe("jsonLd", () => {
   });
 });
 
+const t = createTranslator({ locale: "en", messages: await loadMessages("en"), namespace: "credits" });
+
 describe("datasetJsonLd", () => {
   const cultures = loadCultures();
   const wars = loadWars("en");
-  const dataset = datasetJsonLd("Meanwhile", cultures, wars);
+  const dataset = datasetJsonLd(
+    {
+      name: t("datasetName", { appName: "Meanwhile" }),
+      keywords: t("datasetKeywords"),
+      description: (values) => t("datasetDescription", values),
+    },
+    cultures,
+    wars,
+  );
 
   // Google drops a Dataset whose description is outside 50 to 5000 characters.
   it("describes the data in 50 to 5000 characters, with the counts from the loaded data", () => {
@@ -53,9 +65,19 @@ describe("datasetJsonLd", () => {
     expect(dataset.description).toContain("from 4100\u00a0BCE to the present");
   });
 
+  // es/zh text falls back to English where it is missing, and the gated wars are English only.
+  it("doesn't claim every record is in all three languages", () => {
+    expect(dataset.description).not.toContain("in English, Spanish and Simplified Chinese");
+    expect(dataset.description).toContain("most of it also in Spanish and Simplified Chinese");
+  });
+
+  it("takes its name and keywords from the credits messages", () => {
+    expect(dataset.name).toBe("Meanwhile: dated civilisations and wars");
+    expect(dataset.keywords).toBe("history, chronology, civilisations, dynasties, wars, timeline");
+  });
+
   it("names the CC BY 4.0 licence and where to get the data", () => {
     expect(dataset["@type"]).toBe("Dataset");
-    expect(dataset.name).toBe("Meanwhile: dated civilisations and wars");
     expect(dataset.license).toBe("https://creativecommons.org/licenses/by/4.0/");
     expect(dataset.isAccessibleForFree).toBe(true);
     expect(dataset.url).toBe(`${SITE_URL}/en/credits/`);

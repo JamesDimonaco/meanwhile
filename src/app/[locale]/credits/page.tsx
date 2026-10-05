@@ -66,7 +66,19 @@ export default async function CreditsPage({ params }: PageProps<"/[locale]/credi
       {locale === "en" && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: jsonLd(datasetJsonLd(appName, loadCultures(), loadWars(locale))) }}
+          dangerouslySetInnerHTML={{
+            __html: jsonLd(
+              datasetJsonLd(
+                {
+                  name: t("datasetName", { appName }),
+                  keywords: t("datasetKeywords"),
+                  description: (values) => t("datasetDescription", values),
+                },
+                loadCultures(),
+                loadWars(locale),
+              ),
+            ),
+          }}
         />
       )}
       <header className="flex flex-col gap-2">
