@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { CountryItemCard } from "@/components/country/country-item-card";
@@ -79,10 +78,7 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
 
       <section className="flex flex-col gap-3">
         <h2 className="text-lg font-semibold tracking-tight">{t("timeline")}</h2>
-        {/* useSearchParams needs a Suspense boundary in a prerendered page. */}
-        <Suspense>
-          <CountryTimeline bars={items.map((item) => toTimelineBar(item, locale))} opening={openingView(items)} />
-        </Suspense>
+        <CountryTimeline bars={items.map((item) => toTimelineBar(item, locale))} opening={openingView(items)} />
       </section>
 
       <section className="flex flex-col gap-3">

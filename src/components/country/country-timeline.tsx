@@ -1,12 +1,14 @@
 "use client";
 
-import { useMemo } from "react";
+import { useCallback, useMemo } from "react";
+import type { ReadonlyURLSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import type { ScaleLinear } from "d3-scale";
 import { TimelineChart } from "@/components/timeline/timeline-chart";
 import { layoutCountryRows, type TimelineBar } from "@/components/timeline/timeline-layout";
 import { MIN_BAR_WIDTH, activeBars, atLeast, computeYearDomain, padDomain, snapToBar } from "@/components/timeline/timeline-math";
 import { PeriodBar, REGION_COLOR, RowHeader, RowLabel, WAR_COLOR } from "@/components/timeline/timeline-row";
+import { QueryReader } from "@/components/timeline/query-reader";
 import { useYearParam } from "@/components/timeline/use-year-param";
 import { itemHref } from "./item-href";
 import { YearPanel } from "@/components/timeline/year-panel";
@@ -52,10 +54,12 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
   const domain = useMemo(() => padDomain(computeYearDomain(bars.map((b) => b.period)), opening.range), [bars, opening.range]);
   const fit = useMemo(() => padDomain(opening.range), [opening.range]);
   const { rows, totalHeight } = useMemo(() => layoutCountryRows(bars), [bars]);
-  const [year, setYear] = useYearParam(domain, opening.year, null);
+  const [year, setYear, readYearParam] = useYearParam(domain, opening.year, null);
+  const readQuery = useCallback((params: ReadonlyURLSearchParams) => readYearParam(params.get("year")), [readYearParam]);
 
   return (
     <div className="flex flex-col gap-3">
+      <QueryReader onQuery={readQuery} />
       <TimelineChart
         fit={fit}
         rows={rows}

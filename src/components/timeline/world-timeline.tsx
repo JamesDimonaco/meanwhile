@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import type { ReadonlyURLSearchParams } from "next/navigation";
 import { RegionChips, NoneInRegions } from "@/components/filters/region-chips";
 import { includesRegion, parseRegionsParam, regionsIn, regionsParam } from "@/components/filters/region-filter";
 import { saveRegionFilter, useRegionFilter } from "@/components/filters/use-region-filter";
@@ -9,6 +9,7 @@ import type { Region } from "@/lib/data/schema";
 import { TimelineChart } from "./timeline-chart";
 import { layoutRows, type TimelineCulture, type TimelineEvent } from "./timeline-layout";
 import { activeCultures, clampYear, computeYearDomain } from "./timeline-math";
+import { QueryReader } from "./query-reader";
 import { CultureLabel, CultureRow, REGION_COLOR, RegionHeaderLabel } from "./timeline-row";
 import { useYearParam } from "./use-year-param";
 import { YearPanel, type SelectedEvent } from "./year-panel";
@@ -22,11 +23,9 @@ const DEFAULT_YEAR = 1;
  * ?regions= is read on mount only; after that this component owns it.
  */
 export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
-  const searchParams = useSearchParams();
-
   const available = useMemo(() => regionsIn(cultures), [cultures]);
   const storedRegions = useRegionFilter(available);
-  const [linkRegions, setLinkRegions] = useState(() => parseRegionsParam(searchParams.get("regions"), available));
+  const [linkRegions, setLinkRegions] = useState<Region[] | null>(null);
   const regions = linkRegions ?? storedRegions;
   const changeRegions = (next: Region[]) => {
     setLinkRegions(next);
@@ -40,7 +39,18 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
 
   const [selected, setSelected] = useState<SelectedEvent | null>(null);
   const clearSelected = useCallback(() => setSelected(null), []);
-  const [year, setYear] = useYearParam(domain, DEFAULT_YEAR, regionsParam(regions), clearSelected);
+  const [year, setYear, readYearParam] = useYearParam(domain, DEFAULT_YEAR, regionsParam(regions), clearSelected);
+  const regionsRead = useRef(false);
+  const readQuery = useCallback(
+    (params: ReadonlyURLSearchParams) => {
+      if (!regionsRead.current) {
+        regionsRead.current = true;
+        setLinkRegions(parseRegionsParam(params.get("regions"), available));
+      }
+      readYearParam(params.get("year"));
+    },
+    [available, readYearParam],
+  );
 
   const active = useMemo(() => activeCultures(shown, year), [shown, year]);
   const hiddenByFilter = useMemo(
@@ -71,6 +81,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
 
   return (
     <div className="flex flex-col gap-3">
+      <QueryReader onQuery={readQuery} />
       <TimelineChart
         rows={rows}
         totalHeight={totalHeight}
