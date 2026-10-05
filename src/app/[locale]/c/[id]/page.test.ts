@@ -33,8 +33,10 @@ describe("culture page metadata", () => {
     expect((await meta("en", "zapotec")).title).toEqual({ absolute: "Zapotec civilization (700\u00a0BCE – 1521\u00a0CE)" });
   });
 
-  it("doesn't repeat a native name the zh name already contains", async () => {
-    expect((await meta("zh", "shang")).title).toEqual({ absolute: "商朝（公元前1500—前1050年）同时期的世界" });
+  // The native name costs title length and isn't what people search with; the share image's alt keeps it.
+  it("leaves the native name out of the title", async () => {
+    expect((await meta("en", "shang")).title).toEqual({ absolute: expect.not.stringContaining("商") });
+    expect((await meta("es", "inca")).title).toEqual({ absolute: expect.not.stringContaining("Tawantinsuyu") });
   });
 
   it("names its share image with a trailing slash and the page title as alt", async () => {
