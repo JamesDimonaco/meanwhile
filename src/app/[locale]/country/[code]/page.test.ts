@@ -35,7 +35,7 @@ describe("country pages", () => {
 
   it("titles the page with the country's name and keeps hreflang to the languages it exists in", async () => {
     const meta = await generateMetadata({ params: Promise.resolve({ locale: "en", code: "kr" }), searchParams: Promise.resolve({}) });
-    expect(meta.title).toMatch(/^title\{"country":"South Korea","cultures":0,"wars":[1-9]\d*\}$/);
+    expect(meta.title).toEqual({ absolute: expect.stringMatching(/^title\{"country":"South Korea","cultures":0,"wars":[1-9]\d*\}$/) });
     expect(meta.description).toMatch(/^metaDescription\{"country":"South Korea","cultures":0,"wars":[1-9]\d*,"name":"Korean War"\}$/);
     expect(Object.keys(meta.alternates?.languages ?? {})).toEqual(["en", "x-default"]);
     expect(meta.openGraph?.images).toEqual([expect.objectContaining({ url: "/en/opengraph-image/" })]);

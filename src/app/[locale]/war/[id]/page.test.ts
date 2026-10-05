@@ -16,10 +16,9 @@ describe("war page metadata", () => {
       params: Promise.resolve({ locale: "en", id: "korean-war" }),
       searchParams: Promise.resolve({}),
     });
-    expect(meta.title).toBe("Korean War (1950–1953\u00a0CE)");
+    expect(meta.title).toEqual({ absolute: "Korean War (1950–1953\u00a0CE)" });
     expect(meta.description).toMatch(/^Korean War, 1950–1953\u00a0CE\. An armistice/);
   });
-
 
   it("names its share image with a trailing slash and the war's name as alt", async () => {
     const meta = await generateMetadata({

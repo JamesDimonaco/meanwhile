@@ -10,6 +10,8 @@ import { warSpan } from "./wars";
 // both read the same real content instead of each inventing their own copy.
 
 const META_DESCRIPTION_BUDGET = 155;
+/** About what search results show of a title before cutting it. */
+const TITLE_BUDGET = 60;
 
 /**
  * The first sentence of a block of prose, terminal punctuation included. In
@@ -39,6 +41,20 @@ export function cultureTitle(culture: Culture, locale: Locale): string {
   const name = localize(culture.name, locale);
   const native = culture.nativeName?.text;
   return native && !name.includes(native) ? `${name}${bracket(native, locale)}` : name;
+}
+
+/**
+ * A culture page's <title>: the caller's wording around name and dates (the
+ * culture namespace's `metaTitle`) when it fits TITLE_BUDGET, otherwise just
+ * "<Name> (<dates>)". The native name stays out: it costs length and isn't
+ * what people search with.
+ */
+export function cultureMetaTitle(culture: Culture, locale: Locale, wording: (name: string, years: string) => string): string {
+  const name = localize(culture.name, locale);
+  const period = defaultPeriod(culture);
+  const years = formatYearRange(period.latestStart, period.earliestEnd, locale);
+  const long = wording(name, years);
+  return [...long].length <= TITLE_BUDGET ? long : `${name}${bracket(years, locale)}`;
 }
 
 /** "<name>, <dates>. " (zh "<name>，<dates>。"), opening a meta description. */

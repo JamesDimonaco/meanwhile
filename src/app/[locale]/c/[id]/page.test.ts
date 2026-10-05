@@ -23,13 +23,18 @@ describe("culture page metadata", () => {
   const meta = (locale: Locale, id: string) =>
     generateMetadata({ params: Promise.resolve({ locale, id }), searchParams: Promise.resolve({}) });
 
-  it("titles a culture with its dates and the 'at the same time' wording people search with", async () => {
-    expect((await meta("en", "shang")).title).toBe("Shang dynasty (1500–1050\u00a0BCE): the world at the same time");
-    expect((await meta("es", "shang")).title).toMatch(/\): el mundo al mismo tiempo$/);
+  // No " · Meanwhile": search results cut a title at about 60 characters, and the site name shows above the result anyway.
+  it("titles a culture with its dates and the 'at the same time' wording people search with, without the app name", async () => {
+    expect((await meta("en", "shang")).title).toEqual({ absolute: "Shang dynasty (1500–1050\u00a0BCE): the world at the same time" });
+    expect((await meta("es", "egypt")).title).toEqual({ absolute: expect.stringMatching(/\): el mundo al mismo tiempo$/) });
+  });
+
+  it("drops the wording when a long name would push the title past 60 characters", async () => {
+    expect((await meta("en", "zapotec")).title).toEqual({ absolute: "Zapotec civilization (700\u00a0BCE – 1521\u00a0CE)" });
   });
 
   it("doesn't repeat a native name the zh name already contains", async () => {
-    expect((await meta("zh", "shang")).title).toBe("商朝（公元前1500—前1050年）同时期的世界");
+    expect((await meta("zh", "shang")).title).toEqual({ absolute: "商朝（公元前1500—前1050年）同时期的世界" });
   });
 
   it("names its share image with a trailing slash and the page title as alt", async () => {

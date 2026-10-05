@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   contemporaryNames,
   cultureDescription,
+  cultureMetaTitle,
   cultureTitle,
   firstSentence,
   truncate,
@@ -94,6 +95,27 @@ describe("cultureTitle", () => {
 
   it("falls back to the plain name when there's no native name", () => {
     expect(cultureTitle(culture("shang", "china"), "en")).toBe("shang en");
+  });
+});
+
+describe("cultureMetaTitle", () => {
+  const sameTime = (name: string, years: string) => `${name} (${years}): the world at the same time`;
+  // The default period here is 101 BCE – 100 CE, so a 13-letter name makes the long form exactly 60 characters.
+  const named = (en: string) => culture("c", "europe", { name: { en, zh: "商朝" } });
+
+  it("keeps the caller's wording when the whole title fits in 60 characters", () => {
+    const title = cultureMetaTitle(named("n".repeat(13)), "en", sameTime);
+    expect(title).toHaveLength(60);
+    expect(title).toBe("nnnnnnnnnnnnn (101\u00a0BCE – 100\u00a0CE): the world at the same time");
+  });
+
+  it("drops to name and dates when the wording would push it past 60", () => {
+    expect(cultureMetaTitle(named("n".repeat(14)), "en", sameTime)).toBe("nnnnnnnnnnnnnn (101\u00a0BCE – 100\u00a0CE)");
+  });
+
+  it("uses full-width brackets for zh's short form, and never adds the native name", () => {
+    const long = culture("c", "china", { name: { en: "x", zh: "商".repeat(60) }, nativeName: { text: "商", lang: "zh-Hans" } });
+    expect(cultureMetaTitle(long, "zh", sameTime)).toBe(`${"商".repeat(60)}（公元前101年—公元100年）`);
   });
 });
 

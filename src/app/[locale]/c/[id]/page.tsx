@@ -19,9 +19,8 @@ import { RegionDot } from "@/components/identity/region-dot";
 import { YearRangeText } from "@/components/settings/year-text";
 import { recordsHeld } from "@/lib/data/records";
 import { alsoAlive } from "@/lib/data/country";
-import { cultureDescription, cultureTitle } from "@/lib/data/culture-copy";
+import { cultureDescription, cultureMetaTitle, cultureTitle } from "@/lib/data/culture-copy";
 import { openGraph, pageAlternates } from "@/lib/seo";
-import { formatYearRange } from "@/lib/years";
 import { warsForCulture } from "@/lib/data/wars";
 import { WarRow } from "@/components/wars/war-parts";
 
@@ -39,12 +38,11 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/c/[id]">
   const description = cultureDescription(culture, locale);
   const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
   const tCulture = await getTranslations({ locale, namespace: "culture" });
-  const period = defaultPeriod(culture);
-  const years = formatYearRange(period.latestStart, period.earliestEnd, locale);
   // Names the segment's opengraph-image itself, since Next's own URL for it
   // has no trailing slash.
   return {
-    title: tCulture("metaTitle", { name: localize(culture.name, locale), years }),
+    // Without the layout's " · Meanwhile": it pushed titles past what search results show.
+    title: { absolute: cultureMetaTitle(culture, locale, (name, years) => tCulture("metaTitle", { name, years })) },
     description,
     alternates: pageAlternates(locale, `c/${id}`),
     openGraph: openGraph(locale, appName, { path: `c/${id}`, alt: title }),
