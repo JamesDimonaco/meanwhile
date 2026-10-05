@@ -42,6 +42,8 @@ describe("rank: real matches", () => {
     expect(find("hann", ["Hannibal", "Han"])).toEqual(["Han", "Hannibal"]);
     expect(find("ww ii", ["WWII"])).toEqual(["WWII"]);
     expect(find("eeuu", ["EEUU", "Iron Age Europe"])).toEqual(["EEUU"]);
+    // One typed word never runs on into the next word of a name.
+    expect(find("warinuk", ["War in Ukraine"])).toEqual([]);
     expect(find("romman", ["Ancient Rome", "Holy Roman Empire", "Roman"])).toEqual(["Roman", "Holy Roman Empire"]);
   });
 
@@ -84,6 +86,9 @@ describe("rank: typos", () => {
     expect(find("frnace", ["Faraonic"])).toEqual([]);
     expect(find("rusia", ["Ruso"])).toEqual([]);
     expect(find("fransia", ["Faraones"])).toEqual([]);
+    expect(find("chna", ["Chin"])).toEqual([]);
+    // One edit over, not two.
+    expect(find("spane", ["Speoine"])).toEqual([]);
   });
 
   it("allows no edit up to three letters", () => {
