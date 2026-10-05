@@ -30,15 +30,15 @@ export function truncate(text: string, max: number): string {
   return `${trimmed.trimEnd()}…`;
 }
 
-function wrapNative(native: string, locale: Locale): string {
-  return locale === "zh" ? `（${native}）` : ` (${native})`;
+function bracket(text: string, locale: Locale): string {
+  return locale === "zh" ? `（${text}）` : ` (${text})`;
 }
 
 /** "<Name> (<native name>)", or just the name when there's no native name or the name already contains it (商朝, not 商朝（商）). */
 export function cultureTitle(culture: Culture, locale: Locale): string {
   const name = localize(culture.name, locale);
   const native = culture.nativeName?.text;
-  return native && !name.includes(native) ? `${name}${wrapNative(native, locale)}` : name;
+  return native && !name.includes(native) ? `${name}${bracket(native, locale)}` : name;
 }
 
 /** "<name>, <dates>. " (zh "<name>，<dates>。"), opening a meta description. */
@@ -68,6 +68,12 @@ export function warYears(war: War, locale: Locale, ongoing: (start: string, date
   const { start, end, asOf } = warSpan(war);
   if (end !== null || asOf === null) return formatYearRange(start, end ?? start, locale);
   return ongoing(formatYear(start, locale), formatIsoDate(asOf, locale));
+}
+
+/** "<Name> (<years>)" for an ended war; an ongoing war's as-of date reads as noise in a title, so its name alone. */
+export function warTitle(war: War, locale: Locale, years: string): string {
+  const name = localize(war.name, locale);
+  return warSpan(war).end === null ? name : `${name}${bracket(years, locale)}`;
 }
 
 /** "<Name>, <years>. <outcome>", truncated to the meta-description budget. */

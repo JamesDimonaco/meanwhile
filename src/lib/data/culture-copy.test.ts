@@ -1,5 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { contemporaryNames, cultureDescription, cultureTitle, firstSentence, truncate, warDescription, warYears } from "./culture-copy";
+import {
+  contemporaryNames,
+  cultureDescription,
+  cultureTitle,
+  firstSentence,
+  truncate,
+  warDescription,
+  warTitle,
+  warYears,
+} from "./culture-copy";
 import type { Culture, Region } from "./schema";
 import type { War } from "./war-schema";
 
@@ -165,6 +174,22 @@ describe("warYears", () => {
       ongoing: { earliestStart: 2022, latestStart: 2022, asOf: "2026-09-30", sources: [src], disputed: false },
     });
     expect(warYears(w, "en", ongoing)).toBe("2022\u00a0CE – ongoing, as of 30 September 2026");
+  });
+});
+
+describe("warTitle", () => {
+  it("puts an ended war's years after its name, in full-width brackets for zh", () => {
+    expect(warTitle(war(), "en", "264–146 BCE")).toBe("Punic Wars (264–146 BCE)");
+    expect(warTitle(war(), "zh", "公元前264—前146年")).toBe("布匿战争（公元前264—前146年）");
+  });
+
+  // "Russo-Ukrainian war (2022–present) (2022 CE – ongoing, as of …)": the as-of date belongs in the description.
+  it("leaves an ongoing war's title as its name", () => {
+    const w = war({
+      period: undefined,
+      ongoing: { earliestStart: 2022, latestStart: 2022, asOf: "2026-09-30", sources: [src], disputed: false },
+    });
+    expect(warTitle(w, "en", "2022 CE – ongoing, as of 30 September 2026")).toBe("Punic Wars");
   });
 });
 

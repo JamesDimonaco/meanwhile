@@ -16,7 +16,7 @@ import { WarBar } from "@/components/wars/war-bar";
 import { isLocale, LOCALES, type Locale } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
-import { warDescription, warYears } from "@/lib/data/culture-copy";
+import { warDescription, warTitle, warYears } from "@/lib/data/culture-copy";
 import { hasTerritoryMap, loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { activeAt, meanwhileAtYear } from "@/lib/data/queries";
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/war/[id]
   const name = localize(war.name, locale);
   const years = warYears(war, locale, (start, date) => tWars.markup("ongoing", { start: () => start, date }));
   return {
-    title: locale === "zh" ? `${name}（${years}）` : `${name} (${years})`,
+    title: warTitle(war, locale, years),
     description: warDescription(war, locale, years),
     alternates: pageAlternates(locale, `war/${id}`, shownIn),
     // Names the segment's opengraph-image itself, since Next's own URL for it
