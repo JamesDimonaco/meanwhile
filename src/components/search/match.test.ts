@@ -122,6 +122,20 @@ describe("rank: names the reader sees come first", () => {
   });
 });
 
+describe("rank: anywhere inside a word", () => {
+  const inside = (names: readonly string[]) => names.map((n) => ({ item: n, terms: toTerms({ shown: [n], inside: true }) }));
+
+  it("matches inside a word of a name the reader sees from three letters, below a prefix or a word start", () => {
+    expect(rank("stan", inside(["Pakistan", "Stanley"]))).toEqual(["Stanley", "Pakistan"]);
+    expect(rank("land", inside(["Poland", "Thailand"]))).toEqual(["Poland", "Thailand"]);
+    expect(rank("an", inside(["Pakistan"]))).toEqual([]);
+  });
+
+  it("but never inside a term the reader doesn't see", () => {
+    expect(rank("stan", [{ item: "PK", terms: toTerms({ shown: ["巴基斯坦"], other: ["Pakistan"], inside: true }) }])).toEqual([]);
+  });
+});
+
 describe("isPinyin", () => {
   it("is true when every word splits into pinyin syllables, tone marks or not", () => {
     for (const text of ["Zhongguo", "Hàn cháo", "luoma", "gu aiji", "Wei Shu Wu", "Erlitou", "Xiongnu", "Qīng cháo"]) expect(isPinyin(text), text).toBe(true);

@@ -94,10 +94,24 @@ function toForms(text: string): Forms {
 type Seen = "shown" | "latin" | "hidden";
 
 /** A search term, prepared once, when the index is built. */
-export type Term = Forms & { seen: Seen };
+export type Term = Forms & {
+  seen: Seen;
+  /** Seen, it matches anywhere inside a word from INSIDE_FROM letters, not only at a word's start. */
+  inside: boolean;
+};
 
 /** The names a result shows, the names seen in Latin letters, then everything else it is found by; a term in two is the first. */
-export function toTerms({ shown, latin = [], other = [] }: { shown: readonly string[]; latin?: readonly string[]; other?: readonly string[] }): Term[] {
+export function toTerms({
+  shown,
+  latin = [],
+  other = [],
+  inside = false,
+}: {
+  shown: readonly string[];
+  latin?: readonly string[];
+  other?: readonly string[];
+  inside?: boolean;
+}): Term[] {
   const done = new Set<string>();
   const tiers = [
     [shown, "shown"],
@@ -109,13 +123,15 @@ export function toTerms({ shown, latin = [], other = [] }: { shown: readonly str
       const text = normalize(raw);
       if (!text || done.has(text)) return [];
       done.add(text);
-      return [{ ...toForms(text), seen }];
+      return [{ ...toForms(text), seen, inside }];
     }),
   );
 }
 
 // A half-typed word gets the same budget only from five letters: at four, "meri" would find Mexico.
 const HALF_TYPED_FUZZ_FROM = 5;
+
+const INSIDE_FROM = 3;
 
 // Lower is better. Every real hit beats every typo.
 const EXACT = 0;
@@ -239,16 +255,16 @@ function typoScore(q: Query, t: Term): number | null {
   return best;
 }
 
-/** Exact or prefix; on a term the reader sees, a word starting with `q` too; CJK anywhere. */
-function textScore(q: string, t: string, seen: boolean): number | null {
+/** Exact or prefix; on a term the reader sees, a word starting with `q` too; CJK anywhere, and with `inside` Latin too. */
+function textScore(q: string, t: string, seen: boolean, inside: boolean): number | null {
   if (t === q) return EXACT;
   if (t.startsWith(q)) return PREFIX;
-  let inside = false;
+  let within = false;
   for (let at = t.indexOf(q, 1); at !== -1; at = t.indexOf(q, at + 1)) {
     if (seen && NOT_WORD.test(t[at - 1])) return WORD_START;
-    inside = true;
+    within = true;
   }
-  return inside && CJK.test(q) ? INSIDE : null;
+  return within && (CJK.test(q) || (inside && q.length >= INSIDE_FROM)) ? INSIDE : null;
 }
 
 function realScore(q: Query, t: Term): number | null {
@@ -259,11 +275,12 @@ function realScore(q: Query, t: Term): number | null {
 }
 
 function kindOf(q: Query, t: Term, seen: boolean): number | null {
-  const typed = textScore(q.text, t.text, seen);
+  const inside = seen && t.inside;
+  const typed = textScore(q.text, t.text, seen, inside);
   if (typed !== null || budget(q.text.length) === 0) return typed;
   // Doubled letters free ("hann" is "han"), and words split or joined
   // differently ("viet nam", "qingchao"), score as if typed right.
-  const folded = textScore(q.foldedText, t.foldedText, seen);
+  const folded = textScore(q.foldedText, t.foldedText, seen, inside);
   if (folded !== null) return folded;
   if (t.squashed === q.squashed) return EXACT;
   return q.words.length > 1 && t.squashed.startsWith(q.squashed) ? PREFIX : null;

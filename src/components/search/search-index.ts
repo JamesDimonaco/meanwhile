@@ -90,6 +90,7 @@ export function searchIndex({
   cultures = [],
   wars = [],
   allCountryPages = false,
+  countryInside = false,
 }: {
   locale: Locale;
   countries?: readonly CountrySearchEntry[];
@@ -97,6 +98,8 @@ export function searchIndex({
   wars?: readonly WarSearchEntry[];
   /** `countries` is every country with a page in this language (the home page), so another country's name finds nothing. */
   allCountryPages?: boolean;
+  /** A country's name matches anywhere from three letters ("stan", "land"), as the wars list's filter always has. */
+  countryInside?: boolean;
 }): SearchIndex {
   // A reader typing Latin letters knows the English name, and a Chinese civilisation's pinyin.
   const cultureTerms = (c: SearchEntry) =>
@@ -105,10 +108,11 @@ export function searchIndex({
       latin: [c.name.en, ...(c.nativeName?.lang.startsWith("zh") ? c.aliases.filter(isPinyin) : [])],
       other: [c.name.es, c.name.zh, ...c.aliases, c.id.replace(/-/g, " ")].filter((s): s is string => Boolean(s)),
     });
-  const terms = (entry: { name: string; english: string; terms: readonly string[] }) => toTerms({ shown: [entry.name], latin: [entry.english], other: entry.terms });
+  const terms = (entry: { name: string; english: string; terms: readonly string[] }, inside = false) =>
+    toTerms({ shown: [entry.name], latin: [entry.english], other: entry.terms, inside });
   return {
     items: [
-      ...[...countries].sort(byKey((c) => c.code)).map((entry) => ({ item: { type: "country" as const, entry }, terms: terms(entry) })),
+      ...[...countries].sort(byKey((c) => c.code)).map((entry) => ({ item: { type: "country" as const, entry }, terms: terms(entry, countryInside) })),
       ...[...cultures]
         .sort(byKey((c) => c.id))
         .map((entry) => ({ item: { type: "culture" as const, entry }, terms: cultureTerms(entry) })),

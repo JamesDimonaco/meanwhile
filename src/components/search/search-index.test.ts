@@ -308,6 +308,20 @@ describe("false positives", () => {
     expect(search("romani", picker("es")).map(label)).toContain("culture:holy-roman-empire");
   });
 
+  it("lists on the wars page every country with the typed letters anywhere in its name, from three letters", () => {
+    // "stan" listed Afghanistan, Pakistan and the rest before the search forgave typos, and nothing after.
+    const wars = loadWars("en");
+    const countries = countryIndex(wars, "en");
+    const warsList = searchIndex({ locale: "en", countries, wars: warSearchEntries(wars, "en"), countryInside: true });
+    for (const q of ["stan", "land"]) {
+      const want = countries.filter((c) => c.name.toLowerCase().includes(q)).map((c) => `country:${c.code}`);
+      expect(want.length).toBeGreaterThan(1);
+      expect(search(q, warsList).map(label)).toEqual(expect.arrayContaining(want));
+    }
+    // Only there: the home page still matches Latin letters only at the start of a word.
+    expect(labels("stan", "en")).not.toContain("country:AF");
+  });
+
   it("builds no country names for an index without countries but the places never shown", () => {
     const unlisted = searchIndex({ locale: "en", cultures: allCultures }).unlisted.map((t) => t.text);
     expect(unlisted).toContain("taiwan");

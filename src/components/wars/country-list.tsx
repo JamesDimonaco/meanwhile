@@ -27,7 +27,7 @@ export function CountryList({
   const [picked, setPicked] = useState<Continent[]>([]);
   const q = query.trim();
 
-  const index = useMemo(() => searchIndex({ locale, countries, wars }), [locale, countries, wars]);
+  const index = useMemo(() => searchIndex({ locale, countries, wars, countryInside: true }), [locale, countries, wars]);
   const hits = useMemo(() => search(q, index), [q, index]);
   // With a query, countries come in the order the search ranks them; without, alphabetically.
   const shownCountries = useMemo(() => {
