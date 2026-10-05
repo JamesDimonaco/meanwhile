@@ -34,6 +34,7 @@ async function upload(photo: Blob, signal: AbortSignal): Promise<ScanResponse> {
  */
 export function ScanButton({ variant }: { variant: "header" | "home" }) {
   const t = useTranslations("scan");
+  const tCommon = useTranslations("common");
   const router = useRouter();
   const input = useRef<HTMLInputElement>(null);
   const againInput = useRef<HTMLInputElement>(null);
@@ -113,7 +114,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
 
             {!opening && phase.kind === "noMatch" && (
               <div className="flex flex-col gap-3">
-                <p>{t("noMatch")}</p>
+                <p>{t("noMatch", { appName: tCommon("appName") })}</p>
                 {phase.reading.text && (
                   <blockquote lang={phase.reading.language} className="border-s-2 border-border ps-3 text-base">
                     {phase.reading.text}

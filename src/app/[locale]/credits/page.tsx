@@ -10,8 +10,8 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/credits"
   const locale = await pageLocale(params);
   const t = await getTranslations({ locale, namespace: "credits" });
   const title = t("title");
-  const description = t("metaDescription");
   const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
+  const description = t("metaDescription", { appName });
   return {
     title,
     description,
@@ -83,7 +83,7 @@ export default async function CreditsPage({ params }: PageProps<"/[locale]/credi
       )}
       <header className="flex flex-col gap-2">
         <h1 className="text-2xl font-semibold tracking-tight">{t("title")}</h1>
-        <p className="text-sm text-muted-foreground">{t("intro")}</p>
+        <p className="text-sm text-muted-foreground">{t("intro", { appName })}</p>
         <p className="text-sm font-medium">{t("dataLicence")}</p>
       </header>
 
@@ -97,7 +97,7 @@ export default async function CreditsPage({ params }: PageProps<"/[locale]/credi
               </span>
             </div>
             <p className="text-sm text-muted-foreground">{t(`sources.${key}.used`)}</p>
-            <p className="text-sm text-muted-foreground">{t(`sources.${key}.changes`)}</p>
+            <p className="text-sm text-muted-foreground">{t(`sources.${key}.changes`, { appName })}</p>
             {isCited(key) && (
               <p className="text-sm text-muted-foreground">
                 {t.rich("citeAs", {

@@ -31,7 +31,7 @@ export function creditsOg(locale: Locale, messages: Messages) {
   return {
     eyebrow: t("common.appName").toUpperCase(),
     title: t("credits.title"),
-    description: t("credits.metaDescription"),
+    description: t("credits.metaDescription", { appName: t("common.appName") }),
   };
 }
 

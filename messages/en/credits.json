@@ -1,7 +1,7 @@
 {
   "title": "Sources and credits",
-  "metaDescription": "Every date, name and place on Who Was When traces back to an open historical dataset, credited and licensed here.",
-  "intro": "Who Was When pulls dates, names and places from open historical datasets, and never copies a source's wording — facts on the app are written fresh and checked against sources.",
+  "metaDescription": "Every date, name and place on {appName} traces back to an open historical dataset, credited and licensed here.",
+  "intro": "{appName} pulls dates, names and places from open historical datasets, and never copies a source's wording — facts on the app are written fresh and checked against sources.",
   "dataLicence": "Data on this site: CC BY 4.0. Code: MIT.",
   "datasetName": "{appName}: dated civilisations and wars",
   "datasetDescription": "Dates, phases, events and sourced facts for {cultures} civilisations and {wars} wars, from {from} to the present, in English, most of it also in Spanish and Simplified Chinese. Every period, event and fact cites its sources, and every event at least two. Years are stored in astronomical numbering (1 BCE = 0).",
@@ -62,7 +62,7 @@
       "name": "Inter and Noto Sans SC",
       "licence": "SIL Open Font License 1.1",
       "used": "The typefaces for Latin and Chinese text, served from this site.",
-      "changes": "Subset to the characters Who Was When uses, so Chinese pages load quickly."
+      "changes": "Subset to the characters {appName} uses, so Chinese pages load quickly."
     },
     "flagIcons": {
       "name": "flag-icons",

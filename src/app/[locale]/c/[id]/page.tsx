@@ -102,7 +102,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
         <BeforeAfter lines={beforeAfter} locale={locale} />
         {records.length > 0 && (
           <p className="text-xs text-muted-foreground">
-            {records.map((kind) => tContext("holds", { kind, disputed: String(period.disputed) })).join(" ")}
+            {records.map((kind) => tContext("holds", { kind, disputed: String(period.disputed), appName: tCommon("appName") })).join(" ")}
           </p>
         )}
         <Link
