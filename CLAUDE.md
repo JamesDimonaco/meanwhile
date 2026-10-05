@@ -4,6 +4,7 @@
 
 Answers "I'm looking at this. What else was happening in the world at the same time?" in seconds.
 Mobile-first web app for travellers and museum visitors on weak signal, in en / es / zh (Simplified).
+"James" below is James Dimonaco, the maintainer: decisions and sign-offs marked as his are his to make.
 
 ## Commands
 
@@ -172,6 +173,8 @@ These follow the decisions above where they reach; James may change them at revi
 - Everything else: no borders file. The page draws every event pin on `public/geo/land-world.json` and fits the frame to them.
 
 ### Sources
+
+`../wars-sources` is a folder beside the checkout, never committed: download each dataset into it from its publisher.
 
 - **UCDP** (CC BY 4.0), 1946 onwards: `UcdpPrioConflict_v26_1.csv` (conflicts, dates, sides) and `BattleDeaths_v26_1_conf.csv` (battle deaths 1989–2025, with `brd_codebook.txt`) in `../wars-sources`. A war's range: take every row of its `conflict_id` in the battle-deaths file for the years the war covers and sum `bd_low` and `bd_high` separately (e.g. conflict 13243, Russia–Ukraine, 2022–2025: 311,869–575,370). Scope `battle-deaths` (combatants and civilians killed in battle, not all deaths); `asOf` = the last day of the last year summed. Cite "Davies, S., Pettersson, T. & Öberg, M. (2026). Organized violence 1989–2025, and violent political protests. Journal of Peace Research 63(4); UCDP Battle-Related Deaths Dataset v26.1, CC BY 4.0" with https://ucdp.uu.se/downloads/.
 - **Correlates of War** (`interstate.csv`, `extrastate.csv`, `intrastate.csv` in `../wars-sources`), 1816–2007: cross-check dates and sides only. Its licence forbids redistribution: never commit the CSVs or any table derived from them; cite individual facts only.
