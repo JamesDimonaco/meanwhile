@@ -36,7 +36,7 @@ describe("country pages", () => {
   it("titles the page with the country's name and keeps hreflang to the languages it exists in", async () => {
     const meta = await generateMetadata({ params: Promise.resolve({ locale: "en", code: "kr" }), searchParams: Promise.resolve({}) });
     expect(meta.title).toMatch(/^title\{"country":"South Korea","cultures":0,"wars":[1-9]\d*\}$/);
-    expect(meta.description).toMatch(/^metaDescription\{"country":"South Korea","cultures":0,"wars":[1-9]\d*\}$/);
+    expect(meta.description).toMatch(/^metaDescription\{"country":"South Korea","cultures":0,"wars":[1-9]\d*,"name":"Korean War"\}$/);
     expect(Object.keys(meta.alternates?.languages ?? {})).toEqual(["en", "x-default"]);
     expect(meta.openGraph?.images).toEqual([expect.objectContaining({ url: "/en/opengraph-image/" })]);
   });
@@ -63,15 +63,26 @@ describe("the intro line", () => {
 
 describe("the title and meta description", () => {
   const text = async (locale: (typeof LOCALES)[number], key: "title" | "metaDescription", cultures: number, wars: number) =>
-    createTranslator({ locale, messages: await loadMessages(locale) })(`country.${key}`, { country: "X", cultures, wars });
+    createTranslator({ locale, messages: await loadMessages(locale) })(`country.${key}`, { country: "X", cultures, wars, name: "A" });
   // The clause promising which items overlapped, which a one-item page can't keep.
   const sameTime = { en: "at the same time", es: "coincidieron", zh: "同时" };
 
   it("names only what the page lists", async () => {
-    expect(await text("en", "title", 0, 2)).toBe("X: wars");
-    expect(await text("en", "title", 1, 0)).toBe("X: civilisations");
-    expect(await text("en", "title", 2, 3)).toBe("X: civilisations and wars");
-    expect(await text("en", "metaDescription", 1, 0)).toBe("The civilisation in today's X on a timeline.");
+    expect(await text("en", "title", 0, 2)).toBe("Wars in X: a timeline");
+    expect(await text("en", "title", 1, 0)).toBe("X: timeline of civilisations");
+    expect(await text("en", "title", 2, 3)).toBe("X: timeline of civilisations and wars");
+    expect(await text("zh", "title", 0, 2)).toBe("X战争时间线");
+    expect(await text("es", "title", 2, 3)).toBe("Cronología de X: civilizaciones y guerras");
+  });
+
+  // A one-item page's generic sentence was 17 to 39 characters: it names its item instead.
+  it.each(LOCALES)("in %s, names the item on a one-item page", async (locale) => {
+    expect(await text(locale, "metaDescription", 1, 0)).toContain("A");
+    expect(await text(locale, "metaDescription", 0, 1)).toContain("A");
+  });
+
+  it("words a one-item page's description around the item's name", async () => {
+    expect(await text("en", "metaDescription", 1, 0)).toBe("A in today's X, on a timeline.");
     expect(await text("en", "metaDescription", 0, 3)).toBe(
       "Every war in today's X on one timeline, oldest first, and which of them were happening at the same time.",
     );

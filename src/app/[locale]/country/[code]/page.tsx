@@ -36,12 +36,15 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/country/
   const { code } = await params;
   const t = await getTranslations({ locale, namespace: "country" });
   const country = countryName(code.toUpperCase(), locale);
-  const listed = counts(pageItems(code, locale));
+  const items = pageItems(code, locale);
+  const listed = counts(items);
   const shownIn = LOCALES.filter((l) => hasPage(code, l));
   const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
+  // A one-item page's description names its item rather than a generic sentence.
+  const name = items[0].kind === "culture" ? localize(items[0].culture.name, locale) : localize(items[0].war.name, locale);
   return {
     title: t("title", { country, ...listed }),
-    description: t("metaDescription", { country, ...listed }),
+    description: t("metaDescription", { country, ...listed, name }),
     alternates: pageAlternates(locale, `country/${code}`, shownIn),
     // The default share image; the layout's openGraph would list every locale.
     openGraph: openGraph(locale, appName, { path: "", alt: appName }, shownIn),

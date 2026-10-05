@@ -1,6 +1,6 @@
 {
-  "title": "{country}：{cultures, plural, =0 {战争} other {文明{wars, plural, =0 {} other {与战争}}}}",
-  "metaDescription": "{cultures, plural, =0 {{wars, plural, =1 {今日{country}境内的战争，排在时间线上。} other {今日{country}境内的所有战争，按时间顺序排在同一条时间线上，并标出哪些同时发生。}}} =1 {{wars, plural, =0 {今日{country}境内的文明，排在时间线上。} other {今日{country}境内的所有文明与战争，按时间顺序排在同一条时间线上，并标出哪些同时发生。}}} other {今日{country}境内的所有文明{wars, plural, =0 {} other {与战争}}，按时间顺序排在同一条时间线上，并标出哪些同时发生。}}",
+  "title": "{cultures, plural, =0 {{country}战争时间线} other {{country}历史时间线：文明{wars, plural, =0 {} other {与战争}}}}",
+  "metaDescription": "{cultures, plural, =0 {{wars, plural, =1 {今日{country}境内的{name}，排在时间线上。} other {今日{country}境内的所有战争，按时间顺序排在同一条时间线上，并标出哪些同时发生。}}} =1 {{wars, plural, =0 {今日{country}境内的{name}，排在时间线上。} other {今日{country}境内的所有文明与战争，按时间顺序排在同一条时间线上，并标出哪些同时发生。}}} other {今日{country}境内的所有文明{wars, plural, =0 {} other {与战争}}，按时间顺序排在同一条时间线上，并标出哪些同时发生。}}",
   "summary": "{cultures, plural, =0 {{wars, plural, other {#场战争}}} other {#个文明{wars, plural, =0 {} other {，#场战争}}}}",
   "intro": "{cultures, plural, =0 {在今日{country}土地上或由其人民进行的战争。} other {核心地区位于今日{country}的文明{wars, plural, =0 {。} other {，以及在其土地上或由其人民进行的战争。}}}}",
   "timeline": "时间线",
