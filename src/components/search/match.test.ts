@@ -25,6 +25,16 @@ describe("rank: real matches", () => {
     expect(find("zhou", ["Zhōu"])).toEqual(["Zhōu"]);
   });
 
+  it("ranks any hit on the name the reader sees, short of exact, above one on a term they don't", () => {
+    // "inc" put the Korean War, through its alias "Inchon", above the conquest of the Inca Empire.
+    const items = [
+      { item: "Korean War", terms: toTerms(["Korean War"], ["Inchon"]) },
+      { item: "Conquest of the Inca Empire", terms: toTerms(["Conquest of the Inca Empire"]) },
+    ];
+    expect(rank("inc", items)).toEqual(["Conquest of the Inca Empire", "Korean War"]);
+    expect(rank("korea", items)).toEqual(["Korean War"]);
+  });
+
   it("keeps items with equal scores in the order given", () => {
     expect(find("egypt", ["Egypt", "egypt"])).toEqual(["Egypt", "egypt"]);
   });
@@ -102,6 +112,14 @@ describe("rank: typos", () => {
     expect(find("mondal", ["Mongol"])).toEqual([]);
     expect(find("vietman", ["Vietnam"])).toEqual(["Vietnam"]);
     expect(find("vaetman", ["Vietnam"])).toEqual([]);
+  });
+
+  it("counts the budget from the shorter of the two words", () => {
+    // Two edits make a six-letter word into another word, however long the typed one:
+    // "otomanos" (Ottomans) found the Spring and Autumn period through "Otoños".
+    expect(find("otomanos", ["Primaveras y los Otoños"])).toEqual([]);
+    expect(find("otomano", ["Imperio romano"])).toEqual([]);
+    expect(find("vietman", ["Vietnam War"])).toEqual(["Vietnam War"]);
   });
 
   it("forgives doubled or missing double letters and ph for f at no cost to the budget", () => {

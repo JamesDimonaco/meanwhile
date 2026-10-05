@@ -76,7 +76,10 @@ const EXACT = 0;
 const PREFIX = 1;
 const WORD_START = 2;
 const INSIDE = 3;
-const FUZZY = 4;
+// Past an exact hit, any hit on the name the reader sees beats one on a term
+// they don't: "inc" finds the conquest of the Inca Empire before the Korean War's "Inchon".
+const UNSEEN = INSIDE;
+const FUZZY = INSIDE + UNSEEN + 1;
 // Within typos, fewer edits first; at equal edits, the whole name, then a word in it or a half-typed word alike.
 const WHOLE = 0;
 const PART = 1;
@@ -127,9 +130,13 @@ type Query = {
   short: boolean;
 };
 
-/** Edits a typed word may hold; a half-typed one gets them only from HALF_TYPED_FUZZ_FROM letters. */
-const allowed = (word: string, prefix: boolean) =>
-  NO_FUZZ.test(word) || (prefix && word.length < HALF_TYPED_FUZZ_FROM) ? 0 : budget(word.length);
+/**
+ * Edits a typed word may hold against a word of a name; a half-typed one gets
+ * them only from HALF_TYPED_FUZZ_FROM letters. The shorter of the two words
+ * sets the budget: two edits turn "otomanos" into "otoños".
+ */
+const allowed = (word: string, against: string, prefix: boolean) =>
+  NO_FUZZ.test(word) || (prefix && word.length < HALF_TYPED_FUZZ_FROM) ? 0 : budget(Math.min(word.length, against.length));
 
 function edits(a: string, b: string, max: number, prefix: boolean): number {
   if (max === 0) return (prefix ? b.startsWith(a) : a === b) ? 0 : Infinity;
@@ -138,12 +145,12 @@ function edits(a: string, b: string, max: number, prefix: boolean): number {
 
 function wordEdits(q: Query, t: Term, i: number, at: number, prefix: boolean): number {
   const word = q.words[i];
-  const max = allowed(word, prefix);
+  const max = allowed(word, t.words[at], prefix);
   const raw = edits(word, t.words[at], max, prefix);
   if (raw === 0 || budget(word.length) === 0) return raw;
   const unfolded = q.folded[i] === word && t.folded[at] === t.words[at];
   // The folded word's own length sets its budget: "hann" folds to "han", which may not become "san".
-  const folded = unfolded ? raw : Math.min(raw, edits(q.folded[i], t.folded[at], allowed(q.folded[i], prefix), prefix));
+  const folded = unfolded ? raw : Math.min(raw, edits(q.folded[i], t.folded[at], allowed(q.folded[i], t.folded[at], prefix), prefix));
   if (folded !== Infinity || prefix || word.length < SKELETON_FROM) return folded;
   if (q.skeletons[i].length < SKELETON_MIN || q.skeletons[i] !== t.skeletons[at]) return Infinity;
   // Counted as the whole budget, so a vowel-swap like "spane" ranks Spain above a half-typed "Spanish".
@@ -186,6 +193,11 @@ function textScore(q: string, t: string): number | null {
 }
 
 function realScore(q: Query, t: Term): number | null {
+  const score = kindOf(q, t);
+  return score === null || score === EXACT || t.shown ? score : score + UNSEEN;
+}
+
+function kindOf(q: Query, t: Term): number | null {
   if (q.short && !t.shown) return t.text === q.text ? EXACT : null;
   const typed = textScore(q.text, t.text);
   if (typed !== null || budget(q.text.length) === 0) return typed;
@@ -210,8 +222,9 @@ function best(terms: readonly Term[], score: (t: Term) => number | null): number
 }
 
 /**
- * Items whose terms match the query, best first: exact, prefix, a word
- * starting with it, CJK anywhere inside, then typos. When something matched
+ * Items whose terms match the query, best first: exact; prefix, a word
+ * starting with it, CJK anywhere inside, first in the name the reader sees
+ * and then in other terms; then typos. When something matched
  * exactly, typos are dropped, so a correct "Iran" doesn't bring Iraq; when
  * something else matched for real, only typos of a name the reader sees
  * stay, so "korea" doesn't bring a war through its battle "Koregaon".

@@ -247,9 +247,13 @@ describe("false positives", () => {
     expect(labels("qing chao", "en")).not.toContain("culture:ming");
   });
 
-  it("answers the name of a country the site doesn't list with nothing, not a neighbour", () => {
-    for (const q of ["taiwan", "taiwa", "chile", "oman", "hong kong"]) expect(labels(q, "en")).toEqual([]);
-    expect(labels("birmania", "es")).toEqual([]);
+  it("answers the name of a place the site doesn't cover with nothing, not a neighbour", () => {
+    for (const q of ["taiwan", "taiwa", "chile", "oman", "hong kong", "ottoman"]) expect(labels(q, "en")).toEqual([]);
+    for (const q of ["birmania", "imperio otomano", "otomano", "otomanos"]) expect(labels(q, "es")).toEqual([]);
+  });
+
+  it("puts names the reader sees ahead of aliases they start", () => {
+    expect(labels("inc", "en")).toEqual(["culture:inca", "war:spanish-conquest-of-the-inca-empire", "war:korean-war", "war:second-sino-japanese-war"]);
   });
 
   it("never fuzzes CJK", () => {
