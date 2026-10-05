@@ -17,7 +17,8 @@ import { RegionFilteredList } from "@/components/filters/region-filtered-list";
 import { regionsIn } from "@/components/filters/region-filter";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
-import { openGraph, pageAlternates } from "@/lib/seo";
+import { DEFAULT_LOCALE } from "@/i18n/locales";
+import { jsonLd, openGraph, pageAlternates, websiteJsonLd } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
   const locale = await pageLocale(params);
@@ -48,9 +49,12 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const dated = cultures.map((c) => ({ id: c.id, name: c.name, period: defaultPeriod(c) }));
   const records = RECORD_KINDS.map((kind) => ({ kind, holder: recordHolder(kind, dated) }));
   const regions = regionsIn(cultures);
+  // English's app name on every locale home, so the block is identical to the one on "/".
+  const siteName = (await getTranslations({ locale: DEFAULT_LOCALE, namespace: "common" }))("appName");
 
   return (
     <div className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-6">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteJsonLd(siteName)) }} />
       <header className="flex flex-col gap-1 text-center">
         <h1 className="text-2xl font-semibold tracking-tight">{tCommon("appName")}</h1>
         <p className="text-sm text-muted-foreground">{tCommon("tagline")}</p>

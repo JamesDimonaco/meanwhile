@@ -74,3 +74,20 @@ export function openGraph(
     ],
   };
 }
+
+/** JSON for a <script type="application/ld+json">, with < escaped so no string in it can close the tag. */
+export function jsonLd(data: Record<string, unknown>): string {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
+}
+
+/** The WebSite block: sets the site name Google shows above each result. The same on "/" and every locale home. */
+export function websiteJsonLd(appName: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
+    name: appName,
+    url: `${SITE_URL}/`,
+    inLanguage: LOCALES.map((l) => HTML_LANG[l]),
+  };
+}
