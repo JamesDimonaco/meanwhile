@@ -8,6 +8,7 @@
     "credits": "Fuentes y créditos"
   },
   "language": "Idioma",
+  "languageShort": { "en": "EN", "es": "ES", "zh": "中文" },
   "explainerTrigger": "¿Qué significan a. e. c. y e. c.?",
   "disputed": "En discusión",
   "machineTranslated": "Traducción automática, aún no revisada por un hablante nativo.",

@@ -8,6 +8,7 @@
     "credits": "资料来源与致谢"
   },
   "language": "语言",
+  "languageShort": { "en": "EN", "es": "ES", "zh": "中文" },
   "explainerTrigger": "“公元前”和“公元”是什么意思？",
   "disputed": "有争议",
   "machineTranslated": "机器翻译，尚未经母语者审校。",

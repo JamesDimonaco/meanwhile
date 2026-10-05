@@ -8,6 +8,7 @@
     "credits": "Sources and credits"
   },
   "language": "Language",
+  "languageShort": { "en": "EN", "es": "ES", "zh": "中文" },
   "explainerTrigger": "What do BCE and CE mean?",
   "disputed": "Disputed",
   "machineTranslated": "Machine-translated, not yet checked by a native speaker.",

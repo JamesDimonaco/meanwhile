@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
-import { HTML_LANG, LOCALES, LOCALE_STORAGE_KEY, SHORT_LANGUAGE_NAME, type Locale } from "@/i18n/locales";
+import { HTML_LANG, LOCALES, LOCALE_STORAGE_KEY, type Locale } from "@/i18n/locales";
 
 function remember(locale: Locale) {
   try {
@@ -19,7 +19,8 @@ type Gaps = Record<string, Locale[]>;
 
 /**
  * One tap to switch — reachable everywhere, no menu to open on weak signal.
- * Phones show short labels (EN · ES · 中文); screen readers always get the full name.
+ * Phones show short labels (EN · ES · 中文), named "EN English" so a voice command
+ * can say the label it sees; from sm up the full name alone shows.
  * Keeps the query string, so the timeline stays on its ?year=. A page missing
  * in a language links to the wars list there instead of a 404.
  */
@@ -60,13 +61,21 @@ function LanguageLinks({ search, gaps }: { search: string; gaps: Gaps }) {
                 : "rounded-md px-1.5 py-1 text-muted-foreground hover:text-foreground"
             }
           >
-            <span className="max-sm:sr-only">{new Intl.DisplayNames([locale], { type: "language" }).of(locale)}</span>
-            <span aria-hidden className="sm:hidden">
-              {SHORT_LANGUAGE_NAME[locale]}
-            </span>
+            <LanguageName locale={locale} short={t(`languageShort.${locale}`)} />
           </Link>
         </span>
       ))}
     </nav>
+  );
+}
+
+function LanguageName({ locale, short }: { locale: Locale; short: string }) {
+  const name = new Intl.DisplayNames([locale], { type: "language" }).of(locale);
+  if (short === name) return name;
+  return (
+    <>
+      <span className="sm:hidden">{short}</span>{" "}
+      <span className="max-sm:sr-only">{name}</span>
+    </>
   );
 }
