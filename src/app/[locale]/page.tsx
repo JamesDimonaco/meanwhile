@@ -6,9 +6,10 @@ import { SearchBox } from "@/components/search/search-box";
 import { SearchFromUrl } from "@/components/search/search-from-url";
 import { ScanButton } from "@/components/scan/scan-button";
 import { Link } from "@/i18n/navigation";
-import { loadCultures, loadPopular, loadWars } from "@/lib/data/load";
+import { loadCultures, loadHeartland, loadPopular, loadWars } from "@/lib/data/load";
+import { countryCodes } from "@/lib/data/country";
 import { localize } from "@/lib/data/localize";
-import { toSearchEntry, warSearchEntries } from "@/components/search/search-index";
+import { countrySearchEntries, toSearchEntry, warSearchEntries } from "@/components/search/search-index";
 import { YearRangeText } from "@/components/settings/year-text";
 import { RecordsStrip } from "@/components/context/records-strip";
 import { defaultPeriod } from "@/lib/data/queries";
@@ -44,7 +45,9 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const tCommon = await getTranslations("common");
   const cultures = loadCultures();
   const entries = cultures.map(toSearchEntry);
-  const wars = warSearchEntries(loadWars(locale), locale);
+  const shownWars = loadWars(locale);
+  const wars = warSearchEntries(shownWars, locale);
+  const countries = countrySearchEntries(countryCodes(loadHeartland(), shownWars), locale);
   const popular = loadPopular().map(toSearchEntry);
   const dated = cultures.map((c) => ({ id: c.id, name: c.name, period: defaultPeriod(c) }));
   const records = RECORD_KINDS.map((kind) => ({ kind, holder: recordHolder(kind, dated) }));
@@ -63,8 +66,8 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       <ScanButton variant="home" />
 
       {/* ?q= comes from a scan with no match; the page itself is prerendered. */}
-      <Suspense fallback={<SearchBox entries={entries} wars={wars} regions={regions} />}>
-        <SearchFromUrl entries={entries} wars={wars} regions={regions} />
+      <Suspense fallback={<SearchBox countries={countries} entries={entries} wars={wars} regions={regions} />}>
+        <SearchFromUrl countries={countries} entries={entries} wars={wars} regions={regions} />
       </Suspense>
 
       <section className="flex flex-col gap-3">

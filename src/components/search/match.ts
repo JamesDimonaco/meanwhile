@@ -2,7 +2,7 @@
 // marks are dropped) so a phone keyboard without tone marks still matches
 // data's accented pinyin aliases. CJK text has no combining marks to strip,
 // so it passes through unchanged.
-export function normalize(s: string): string {
+function normalize(s: string): string {
   return s
     .normalize("NFKD")
     .replace(/\p{Diacritic}/gu, "")
@@ -78,10 +78,20 @@ function distance(a: string, b: string, max: number, prefix: boolean): number {
 
 type Query = { text: string; words: readonly string[]; folded: readonly string[]; inside: boolean; fuzzy: boolean };
 
-function wordEdits(q: Query, t: Term, i: number, at: number, max: number, prefix: boolean): number {
-  const [qw, tw] = [q.words[i], t.words[at]];
-  if (max === 0) return (prefix ? tw.startsWith(qw) : tw === qw) ? 0 : Infinity;
-  return Math.min(distance(qw, tw, max, prefix), distance(q.folded[i], t.folded[at], max, prefix));
+/** Edits a typed word may hold; a half-typed one gets them only from HALF_TYPED_FUZZ_FROM letters. */
+const allowed = (word: string, prefix: boolean) => (prefix && word.length < HALF_TYPED_FUZZ_FROM ? 0 : budget(word.length));
+
+function edits(a: string, b: string, max: number, prefix: boolean): number {
+  if (max === 0) return (prefix ? b.startsWith(a) : a === b) ? 0 : Infinity;
+  return distance(a, b, max, prefix);
+}
+
+function wordEdits(q: Query, t: Term, i: number, at: number, prefix: boolean): number {
+  const word = q.words[i];
+  const raw = edits(word, t.words[at], allowed(word, prefix), prefix);
+  if (budget(word.length) === 0) return raw;
+  // The folded word's own length sets its budget: "hann" folds to "han", which may not become "san".
+  return Math.min(raw, edits(q.folded[i], t.folded[at], allowed(q.folded[i], prefix), prefix));
 }
 
 /** The query's words against a run of the term's words, in order; the last may be half typed. */
@@ -92,10 +102,9 @@ function typoScore(q: Query, t: Term): number | null {
     let edits = 0;
     let kind = start === 0 && n === t.words.length ? WHOLE : IN_TERM;
     for (let i = 0; i < n && edits !== Infinity; i++) {
-      const length = q.words[i].length;
-      let d = wordEdits(q, t, i, start + i, budget(length), false);
+      let d = wordEdits(q, t, i, start + i, false);
       if (i === n - 1) {
-        const half = wordEdits(q, t, i, start + i, length >= HALF_TYPED_FUZZ_FROM ? budget(length) : 0, true);
+        const half = wordEdits(q, t, i, start + i, true);
         if (half < d) [d, kind] = [half, HALF_TYPED];
       }
       edits += d;

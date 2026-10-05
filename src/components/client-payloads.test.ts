@@ -4,7 +4,7 @@ import { countryCodes, countryItems } from "@/lib/data/country";
 import { loadAllWars, loadHeartland, loadWars, readDataset } from "@/lib/data/load";
 import type { Culture } from "@/lib/data/schema";
 import { toCultureRef } from "@/lib/data/queries";
-import { toSearchEntry, warSearchEntries } from "./search/search-index";
+import { countrySearchEntries, toSearchEntry, warSearchEntries } from "./search/search-index";
 import { toTimelineBar, toTimelineCulture } from "./timeline/timeline-layout";
 
 // These shapes are serialised into page payloads for weak signal: sources and
@@ -45,6 +45,11 @@ describe("client payloads", () => {
     for (const key of [...LEAKS.slice(0, 2), "description", "sides"]) expect(keysIn(wars)).toContain(key);
     const keys = keysIn(warSearchEntries(wars, "en"));
     for (const key of [...LEAKS, "description", "sides", "events"]) expect(keys).not.toContain(key);
+  });
+
+  it("country search entries (home search box) carry only the code, the name and what to match", () => {
+    const entries = countrySearchEntries(countryCodes(loadHeartland(), loadWars("en")), "en");
+    expect(new Set(entries.flatMap((e) => Object.keys(e)))).toEqual(new Set(["code", "name", "terms"]));
   });
 
   // What a country page's timeline ships: names, years, colours and ids, built the way the page builds them.

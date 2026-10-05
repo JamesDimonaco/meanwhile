@@ -43,3 +43,20 @@ export const UN_MEMBERS: Readonly<Record<string, Continent>> = {
 export function isListableCountry(code: string): boolean {
   return Object.hasOwn(UN_MEMBERS, code) && !NEVER_SHOWN.has(code);
 }
+
+/**
+ * Search-only names people type for a country that Intl's names in en, es
+ * and zh don't give. Kept small, and never a disputed name: no Malvinas,
+ * Burma or Persia, and no never-shown code. A spelling the matcher already
+ * reaches stays out ("Turkey" is one edit from a half-typed "Türkiye";
+ * "Holanda" is a typo away from "Holland", "Britain" a word of "Great Britain").
+ * - GB: "UK" and "Great Britain" are everyday English; visitors say "England"
+ *   and Spanish speakers "Inglaterra" for the whole country.
+ * - US: "USA" and "America" in English; "EE. UU."/"EEUU" is how Spanish writes it.
+ * - NL: "Holland", the name most visitors use.
+ */
+export const COUNTRY_ALIASES: Readonly<Record<string, readonly string[]>> = {
+  GB: ["UK", "Great Britain", "England", "Inglaterra", "Gran Bretaña"],
+  US: ["USA", "America", "EE. UU.", "EEUU"],
+  NL: ["Holland"],
+};

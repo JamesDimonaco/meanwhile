@@ -1,10 +1,12 @@
 {
   "metaTitle": "Qué más pasaba en el mundo al mismo tiempo",
   "metaDescription": "Busca cualquier civilización, dinastía o año, y descubre qué más pasaba en el mundo al mismo tiempo.",
-  "searchLabel": "Busca una civilización, dinastía, guerra o año",
-  "searchPlaceholder": "Shang, 商, 1200 a. e. c.…",
+  "searchLabel": "Busca una civilización, dinastía, guerra, país o año",
+  "searchPlaceholder": "Shang, 商, México, 1200 a. e. c.…",
   "popular": "Puntos de partida populares",
   "noResults": "No se encontró nada para «{query}»",
   "seeOnTimeline": "Ver este año en la cronología",
-  "resultsLabel": "Resultados de la búsqueda"
+  "resultsLabel": "Resultados de la búsqueda",
+  "noResultsHint": "Prueba con una civilización, una guerra, un país o un año, como inca, guerra del Opio, México o 1200 a. e. c.",
+  "kind": "{kind, select, year {Año} country {País} culture {Civilización} other {Guerra}}"
 }

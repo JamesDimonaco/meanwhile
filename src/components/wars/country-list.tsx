@@ -4,13 +4,11 @@ import { useId, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Chip } from "@/components/filters/region-chips";
 import { CountryFlag } from "@/components/identity/heartland-flags";
-import { normalize, searchWars, type WarSearchEntry } from "@/components/search/search-index";
+import { search, searchIndex, type WarSearchEntry } from "@/components/search/search-index";
 import { Link } from "@/i18n/navigation";
 import type { Continent } from "@/lib/data/countries";
 import type { CountryEntry } from "@/lib/data/wars";
 import { WarDates } from "./war-parts";
-
-const matches = (query: string, terms: readonly string[]) => terms.some((term) => normalize(term).includes(query));
 
 /** The wars page: countries by flag, a search box over countries and wars, continent chips. */
 export function CountryList({
@@ -26,16 +24,17 @@ export function CountryList({
   const id = useId();
   const [query, setQuery] = useState("");
   const [picked, setPicked] = useState<Continent[]>([]);
-  const q = normalize(query);
+  const q = query.trim();
 
-  const shownCountries = useMemo(
-    () =>
-      countries.filter(
-        (c) => (picked.length === 0 || picked.includes(c.continent)) && (!q || matches(q, c.terms)),
-      ),
-    [countries, picked, q],
-  );
-  const shownWars = useMemo(() => searchWars(q, wars, wars.length), [wars, q]);
+  const index = useMemo(() => searchIndex({ countries, wars }), [countries, wars]);
+  const hits = useMemo(() => search(q, index), [q, index]);
+  // With a query, countries come in the order the search ranks them; without, alphabetically.
+  const shownCountries = useMemo(() => {
+    const byCode = new Map(countries.map((c) => [c.code, c]));
+    const listed = q ? hits.flatMap((h) => (h.type === "country" ? (byCode.get(h.entry.code) ?? []) : [])) : countries;
+    return listed.filter((c) => picked.length === 0 || picked.includes(c.continent));
+  }, [countries, hits, picked, q]);
+  const shownWars = hits.flatMap((h) => (h.type === "war" ? [h.entry] : []));
   const toggle = (c: Continent) => {
     const next = picked.includes(c) ? picked.filter((p) => p !== c) : [...picked, c];
     setPicked(next.length === continents.length ? [] : next);
@@ -90,7 +89,7 @@ export function CountryList({
         )}
 
         {shownCountries.length === 0 && shownWars.length === 0 ? (
-          <p className="px-1 text-sm text-muted-foreground">{t("noMatch", { query: query.trim() })}</p>
+          <p className="px-1 text-sm text-muted-foreground">{t("noMatch", { query: q })}</p>
         ) : (
           shownCountries.length > 0 && (
             <section className="flex flex-col gap-2">

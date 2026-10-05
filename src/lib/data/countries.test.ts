@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import countries from "flag-icons/country.json";
-import { CONTINENTS, NEVER_SHOWN, UN_MEMBERS, isListableCountry } from "./countries";
+import { CONTINENTS, COUNTRY_ALIASES, NEVER_SHOWN, UN_MEMBERS, isListableCountry } from "./countries";
 
 describe("UN member states", () => {
   it("lists exactly the 193 UN members", () => {
@@ -30,5 +30,12 @@ describe("UN member states", () => {
     expect(isListableCountry("XK")).toBe(false);
     expect(isListableCountry("VA")).toBe(false);
     expect(isListableCountry("mx")).toBe(false);
+  });
+});
+
+describe("country aliases", () => {
+  // An alias on a never-shown or non-member code would put that code in search.
+  it("only name countries the site may list", () => {
+    for (const code of Object.keys(COUNTRY_ALIASES)) expect(isListableCountry(code), code).toBe(true);
   });
 });

@@ -61,6 +61,8 @@ describe("rank: typos", () => {
 
   it("but never on a word of three letters or fewer", () => {
     expect(find("inn", ["War in Afghanistan"])).toEqual([]);
+    // "hann" folds to "han": three letters, so no edit left to reach "San".
+    expect(find("hann", ["San Lorenzo", "Han dynasty"])).toEqual(["Han dynasty"]);
   });
 
   it("matches a misspelled word inside a longer name", () => {

@@ -1,25 +1,49 @@
 "use client";
 
-import { useId, useMemo, useState } from "react";
+import { useId, useMemo, useState, type ReactNode } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { Region } from "@/lib/data/schema";
-import { search, searchWars, type SearchEntry, type WarSearchEntry } from "./search-index";
+import {
+  search,
+  searchIndex,
+  type CountrySearchEntry,
+  type SearchEntry,
+  type SearchHit,
+  type WarSearchEntry,
+} from "./search-index";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { NoneInRegions, StoredRegionChips } from "@/components/filters/region-chips";
 import { includesRegion } from "@/components/filters/region-filter";
 import { useRegionFilter } from "@/components/filters/use-region-filter";
-import { HeartlandFlags } from "@/components/identity/heartland-flags";
+import { CountryFlag, HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { WarDates } from "@/components/wars/war-parts";
 
+const MAX_RESULTS = 10;
+
+const hitKey = (hit: SearchHit) => (hit.type === "year" ? "year" : hit.type === "country" ? `country-${hit.entry.code}` : `${hit.type}-${hit.entry.id}`);
+
+/** One result: what it is on the first line beside its kind, details under it. */
+function ResultLink({ href, kind, children, details }: { href: Parameters<typeof Link>[0]["href"]; kind: string; children: ReactNode; details?: ReactNode }) {
+  return (
+    <Link href={href} className="grid grid-cols-[1fr_auto] items-start gap-x-2 gap-y-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted">
+      <span className="flex min-w-0 flex-wrap items-center gap-x-1.5">{children}</span>
+      <span className="mt-0.5 rounded-full border border-border px-1.5 text-xs text-muted-foreground">{kind}</span>
+      {details && <span className="col-span-2 text-sm text-muted-foreground">{details}</span>}
+    </Link>
+  );
+}
+
 export function SearchBox({
+  countries,
   entries,
   wars,
   regions,
   initialQuery = "",
 }: {
+  countries: CountrySearchEntry[];
   entries: SearchEntry[];
   wars: WarSearchEntry[];
   regions: Region[];
@@ -27,22 +51,17 @@ export function SearchBox({
 }) {
   const t = useTranslations("home");
   const tCommon = useTranslations("common");
-  const tWars = useTranslations("wars");
   const locale = useLocale();
   const [query, setQuery] = useState(initialQuery);
   const listId = useId();
   const selection = useRegionFilter(regions);
 
-  const results = useMemo(
-    () => search(query, entries.filter((e) => includesRegion(selection, e.region))),
-    [query, entries, selection],
-  );
-  const hiddenMatches = useMemo(
-    () => search(query, entries.filter((e) => !includesRegion(selection, e.region))).some((r) => r.type === "culture"),
-    [query, entries, selection],
-  );
-  // Wars have no region, so the region chips don't filter them.
-  const warResults = useMemo(() => searchWars(query, wars), [query, wars]);
+  const index = useMemo(() => searchIndex({ countries, cultures: entries, wars }), [countries, entries, wars]);
+  const hits = useMemo(() => search(query, index), [query, index]);
+  // Countries, wars and years have no region, so the region chips filter only civilisations.
+  const inRegions = (hit: SearchHit) => hit.type !== "culture" || includesRegion(selection, hit.entry.region);
+  const results = hits.filter(inRegions).slice(0, MAX_RESULTS);
+  const hiddenMatches = hits.some((hit) => !inRegions(hit));
   const trimmed = query.trim();
 
   return (
@@ -67,64 +86,53 @@ export function SearchBox({
 
       {trimmed && (
         <div aria-live="polite" className="flex flex-col gap-2">
-          {results.length === 0 && warResults.length === 0 ? (
-            <p className="px-1 text-sm text-muted-foreground">{t("noResults", { query: trimmed })}</p>
+          {results.length === 0 ? (
+            <div className="flex flex-col gap-1 px-1 text-sm text-muted-foreground">
+              <p>{t("noResults", { query: trimmed })}</p>
+              <p>{t("noResultsHint")}</p>
+            </div>
           ) : (
             <ul id={listId} aria-label={t("resultsLabel")} className="flex flex-col gap-1.5">
-              {results.map((result) =>
-                result.type === "year" ? (
-                  <li key="year">
-                    <Link
-                      href={{ pathname: "/timeline", query: { year: String(result.year) } }}
-                      className="flex flex-col gap-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted"
+              {results.map((hit) => (
+                <li key={hitKey(hit)}>
+                  {hit.type === "year" ? (
+                    <ResultLink
+                      href={{ pathname: "/timeline", query: { year: String(hit.year) } }}
+                      kind={t("kind", { kind: "year" })}
+                      details={<YearText year={hit.year} />}
                     >
-                      <span className="text-sm font-medium">{t("seeOnTimeline")}</span>
-                      <span className="text-sm text-muted-foreground">
-                        <YearText year={result.year} />
-                      </span>
-                    </Link>
-                  </li>
-                ) : (
-                  <li key={result.entry.id}>
-                    <Link
-                      href={`/c/${result.entry.id}`}
-                      className="flex flex-col gap-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted"
+                      <span className="font-medium">{t("seeOnTimeline")}</span>
+                    </ResultLink>
+                  ) : hit.type === "country" ? (
+                    <ResultLink href={`/country/${hit.entry.code.toLowerCase()}`} kind={t("kind", { kind: "country" })}>
+                      <CountryFlag code={hit.entry.code} />
+                      <span className="font-medium">{hit.entry.name}</span>
+                    </ResultLink>
+                  ) : hit.type === "culture" ? (
+                    <ResultLink
+                      href={`/c/${hit.entry.id}`}
+                      kind={t("kind", { kind: "culture" })}
+                      details={
+                        <>
+                          <RegionDot region={hit.entry.region} /> {tCommon(`regions.${hit.entry.region}`)}
+                          {" · "}
+                          <YearRangeText start={hit.entry.period.latestStart} end={hit.entry.period.earliestEnd} />
+                        </>
+                      }
                     >
-                      <span className="flex flex-wrap items-center gap-x-1.5">
-                        <span className="font-medium">{localize(result.entry.name, locale)}</span>
-                        {result.entry.nativeName && (
-                          <span lang={result.entry.nativeName.lang} className="text-muted-foreground">
-                            {result.entry.nativeName.text}
-                          </span>
-                        )}
-                        <HeartlandFlags cultureId={result.entry.id} />
-                      </span>
-                      <span className="text-sm text-muted-foreground">
-                        <RegionDot region={result.entry.region} />{" "}
-                        {tCommon(`regions.${result.entry.region}`)}
-                        {" · "}
-                        <YearRangeText
-                          start={result.entry.period.latestStart}
-                          end={result.entry.period.earliestEnd}
-                        />
-                      </span>
-                    </Link>
-                  </li>
-                ),
-              )}
-              {warResults.map((war) => (
-                <li key={`war-${war.id}`}>
-                  <Link
-                    href={`/war/${war.id}`}
-                    className="flex flex-col gap-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted"
-                  >
-                    <span className="font-medium">{war.name}</span>
-                    <span className="text-sm text-muted-foreground">
-                      {tWars("war")}
-                      {" · "}
-                      <WarDates span={war.span} />
-                    </span>
-                  </Link>
+                      <span className="font-medium">{localize(hit.entry.name, locale)}</span>
+                      {hit.entry.nativeName && (
+                        <span lang={hit.entry.nativeName.lang} className="text-muted-foreground">
+                          {hit.entry.nativeName.text}
+                        </span>
+                      )}
+                      <HeartlandFlags cultureId={hit.entry.id} />
+                    </ResultLink>
+                  ) : (
+                    <ResultLink href={`/war/${hit.entry.id}`} kind={t("kind", { kind: "war" })} details={<WarDates span={hit.entry.span} />}>
+                      <span className="font-medium">{hit.entry.name}</span>
+                    </ResultLink>
+                  )}
                 </li>
               ))}
             </ul>

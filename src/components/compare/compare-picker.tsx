@@ -3,7 +3,7 @@
 import { useId, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { useSettings } from "@/components/settings/use-settings";
-import { search, type SearchEntry } from "@/components/search/search-index";
+import { search, searchIndex, type SearchEntry } from "@/components/search/search-index";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import { formatYearRange } from "@/lib/years";
@@ -12,7 +12,7 @@ import { compareHref } from "./compare-href";
 const MAX_SUGGESTIONS = 8;
 
 /**
- * Search the same index as the home page; each result is a link to the
+ * Search civilisations the way the home page does; each result is a link to the
  * compare URL with that culture added. With nothing typed, suggests cultures
  * alive at the same time as the first one picked.
  */
@@ -33,11 +33,12 @@ export function ComparePicker({
   const inputId = useId();
   const trimmed = query.trim();
   const anchor = selected[0];
+  const index = useMemo(() => searchIndex({ cultures: entries }), [entries]);
 
   const results = useMemo(() => {
     const open = (e: SearchEntry) => !selected.some((s) => s.id === e.id);
     if (trimmed) {
-      return search(trimmed, entries, 12)
+      return search(trimmed, index)
         .flatMap((r) => (r.type === "culture" && open(r.entry) ? [r.entry] : []))
         .slice(0, MAX_SUGGESTIONS);
     }
@@ -50,7 +51,7 @@ export function ComparePicker({
       .filter((e) => open(e) && years(e) > 0)
       .sort((a, b) => years(b) - years(a) || a.id.localeCompare(b.id))
       .slice(0, MAX_SUGGESTIONS);
-  }, [trimmed, entries, selected, anchor]);
+  }, [trimmed, entries, index, selected, anchor]);
 
   return (
     <div className="flex flex-col gap-3">

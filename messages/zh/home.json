@@ -1,10 +1,12 @@
 {
   "metaTitle": "同一时间，世界上还发生着什么",
   "metaDescription": "搜索任意文明、朝代或年份，看看同一时间世界上还发生着什么。",
-  "searchLabel": "搜索文明、朝代、战争或年份",
-  "searchPlaceholder": "商、Shang、公元前1200年…",
+  "searchLabel": "搜索文明、朝代、战争、国家或年份",
+  "searchPlaceholder": "商、Shang、墨西哥、公元前1200年…",
   "popular": "热门起点",
   "noResults": "未找到“{query}”的结果",
   "seeOnTimeline": "在时间线上查看这一年",
-  "resultsLabel": "搜索结果"
+  "resultsLabel": "搜索结果",
+  "noResultsHint": "试试文明、战争、国家或年份，例如印加、鸦片战争、墨西哥或公元前1200年。",
+  "kind": "{kind, select, year {年份} country {国家} culture {文明} other {战争}}"
 }
