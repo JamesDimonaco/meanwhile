@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
-import { LOCALES, LOCALE_STORAGE_KEY, SHORT_LANGUAGE_NAME, type Locale } from "@/i18n/locales";
+import { HTML_LANG, LOCALES, LOCALE_STORAGE_KEY, SHORT_LANGUAGE_NAME, type Locale } from "@/i18n/locales";
 
 function remember(locale: Locale) {
   try {
@@ -51,7 +51,7 @@ function LanguageLinks({ search, gaps }: { search: string; gaps: Gaps }) {
           <Link
             href={only && !only.includes(locale) ? "/wars" : `${pathname}${search}`}
             locale={locale}
-            lang={locale}
+            lang={HTML_LANG[locale]}
             aria-current={locale === current ? "true" : undefined}
             onClick={() => remember(locale)}
             className={
