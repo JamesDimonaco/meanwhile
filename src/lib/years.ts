@@ -57,6 +57,7 @@ export function formatYearRange(
   locale: Locale,
   style: EraStyle = "ce",
 ): string {
+  if (start === end) return formatYear(start, locale, style);
   const a = toDisplayYear(start);
   const b = toDisplayYear(end);
   if (a.era !== b.era) {

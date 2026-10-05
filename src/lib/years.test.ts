@@ -98,6 +98,15 @@ describe("formatYearRange", () => {
     expect(formatYearRange(618, 907, "zh")).toBe("公元618—907年");
   });
 
+  // A war that starts and ends in one year read "Falklands War (1982–1982 CE)".
+  it("shows a single year when both ends are the same year", () => {
+    expect(formatYearRange(1982, 1982, "en")).toBe(nb("1982 CE"));
+    expect(formatYearRange(1982, 1982, "es")).toBe(nb("1982 e. c."));
+    expect(formatYearRange(1982, 1982, "zh")).toBe("公元1982年");
+    expect(formatYearRange(-479, -479, "en")).toBe(nb("480 BCE"));
+    expect(formatYearRange(1453, 1453, "en", "ad")).toBe(nb("1453 AD"));
+  });
+
   it("labels both ends when the range crosses the era boundary", () => {
     expect(formatYearRange(-26, 1453, "en")).toBe(`${nb("27 BCE")} – ${nb("1453 CE")}`);
     expect(formatYearRange(-26, 1453, "zh")).toBe("公元前27年—公元1453年");

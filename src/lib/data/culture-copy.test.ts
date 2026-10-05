@@ -168,6 +168,13 @@ describe("warYears", () => {
     expect(warYears(war(), "en", ongoing)).toBe("264–146\u00a0BCE");
   });
 
+  it("shows one year for a war that starts and ends in the same year, in the title and description too", () => {
+    const w = war({ period: { id: "p", earliestStart: 1982, latestStart: 1982, earliestEnd: 1982, latestEnd: 1982, sources: [src], default: false, disputed: false } });
+    expect(warTitle(w, "en", warYears(w, "en", ongoing))).toBe("Punic Wars (1982\u00a0CE)");
+    expect(warDescription(w, "es", warYears(w, "es", ongoing))).toBe("Guerras púnicas, 1982\u00a0e.\u00a0c. Roma destruyó Cartago.");
+    expect(warTitle(w, "zh", warYears(w, "zh", ongoing))).toBe("布匿战争（公元1982年）");
+  });
+
   it("words an ongoing war through the caller's ongoing message, with its start year and asOf date", () => {
     const w = war({
       period: undefined,
