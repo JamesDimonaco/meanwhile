@@ -53,18 +53,16 @@ export function SearchBox({
   const tCommon = useTranslations("common");
   const locale = useLocale();
   const [query, setQuery] = useState(initialQuery);
-  // The text the results are for: held while an IME composes, so the pinyin on its way to 中国 isn't searched.
-  const [searched, setSearched] = useState(initialQuery);
   const listId = useId();
   const selection = useRegionFilter(regions);
 
   const index = useMemo(() => searchIndex({ locale, countries, cultures: entries, wars }), [locale, countries, entries, wars]);
-  const hits = useMemo(() => search(searched, index), [searched, index]);
+  const hits = useMemo(() => search(query, index), [query, index]);
   // Countries, wars and years have no region, so the region chips filter only civilisations.
   const inRegions = (hit: SearchHit) => hit.type !== "culture" || includesRegion(selection, hit.entry.region);
   const results = hits.filter(inRegions).slice(0, MAX_RESULTS);
   const hiddenMatches = hits.some((hit) => !inRegions(hit));
-  const trimmed = searched.trim();
+  const trimmed = query.trim();
 
   return (
     <div className="flex flex-col gap-3">
@@ -74,11 +72,7 @@ export function SearchBox({
           id={`${listId}-input`}
           type="search"
           value={query}
-          onChange={(e) => {
-            setQuery(e.target.value);
-            if (!(e.nativeEvent instanceof InputEvent && e.nativeEvent.isComposing)) setSearched(e.target.value);
-          }}
-          onCompositionEnd={(e) => setSearched(e.currentTarget.value)}
+          onChange={(e) => setQuery(e.target.value)}
           placeholder={t("searchPlaceholder")}
           role="combobox"
           aria-expanded={trimmed.length > 0}
