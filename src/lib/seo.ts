@@ -8,7 +8,7 @@ import { formatYear } from "@/lib/years";
 
 // One env var, one fallback, used everywhere a full URL is needed
 // (metadataBase, sitemap, robots). No trailing slash.
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://meanwhile.dimonaco.co.uk").replace(/\/+$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://whowaswhen.com").replace(/\/+$/, "");
 
 /** Site-relative path for a page: "" (home) | "timeline" | "credits" | "c/shang" | "wars" | "country/mx" | "war/korean-war". */
 export type SeoPath = "" | "timeline" | "credits" | `c/${string}` | "wars" | `country/${string}` | `war/${string}`;

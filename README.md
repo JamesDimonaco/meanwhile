@@ -6,7 +6,7 @@ photograph a museum label, and it shows what other cultures were alive at that
 moment. It is built for travellers and museum visitors on a phone, often on weak
 signal, and works in English, Spanish and Simplified Chinese.
 
-Live site: https://meanwhile.dimonaco.co.uk
+Live site: https://whowaswhen.com
 
 <p>
   <img src="docs/home.png" alt="Home page: search box, placard scan button and popular starting points" width="300">
@@ -68,7 +68,7 @@ marked disputed, with a note saying why.
 
 Every period, event and fact cites at least one source (events at least two),
 and facts are written in our own words, never copied from a source. The
-[credits page](https://meanwhile.dimonaco.co.uk/en/credits/) lists every source
+[credits page](https://whowaswhen.com/en/credits/) lists every source
 and what was changed.
 
 | Source | Used for | Licence |
