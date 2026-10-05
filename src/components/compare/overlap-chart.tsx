@@ -64,12 +64,7 @@ export function OverlapChart({ cultures, overlap }: { cultures: CompareCulture[]
       case "uncertain":
         return t.rich(all ? "uncertainAll" : "uncertain", {
           nowrap,
-          range: () =>
-            overlap.start === overlap.end ? (
-              <YearText year={overlap.start} />
-            ) : (
-              <YearRangeText start={overlap.start} end={overlap.end} />
-            ),
+          range: () => <YearRangeText start={overlap.start} end={overlap.end} />,
         });
       case "gap":
         return all ? t("gapAll") : t("gap", { count: overlap.years });

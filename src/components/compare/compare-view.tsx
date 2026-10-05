@@ -6,7 +6,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { X } from "lucide-react";
 import { EventDetail } from "@/components/culture/culture-events";
 import type { SearchEntry } from "@/components/search/search-index";
-import { YearRangeText, YearText } from "@/components/settings/year-text";
+import { YearRangeText } from "@/components/settings/year-text";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Link } from "@/i18n/navigation";
@@ -208,11 +208,7 @@ function EventSheet({
             <span className="text-muted-foreground">· {tCulture(`eventTypes.${event.type}`)}</span>
           </p>
           <p className="text-sm text-muted-foreground">
-            {event.end === undefined || event.end === event.start ? (
-              <YearText year={event.start} />
-            ) : (
-              <YearRangeText start={event.start} end={event.end} />
-            )}
+            <YearRangeText start={event.start} end={event.end ?? event.start} />
           </p>
         </div>
         <Button variant="ghost" size="icon-sm" onClick={onClose} aria-label={t("close")}>

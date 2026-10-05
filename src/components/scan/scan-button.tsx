@@ -5,7 +5,7 @@ import { Camera, LoaderCircle } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { YearRangeText, YearText } from "@/components/settings/year-text";
+import { YearRangeText } from "@/components/settings/year-text";
 import { Link, useRouter } from "@/i18n/navigation";
 import { timelineYear, type ScanResponse, type ScanResult } from "@/lib/scan/result";
 import { downscaleToJpeg } from "./downscale";
@@ -127,11 +127,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                   >
                     <span className="font-medium">{t("seeOnTimeline")}</span>
                     <span className="text-muted-foreground">
-                      {phase.reading.year.start === phase.reading.year.end ? (
-                        <YearText year={phase.reading.year.start} />
-                      ) : (
-                        <YearRangeText start={phase.reading.year.start} end={phase.reading.year.end} />
-                      )}
+                      <YearRangeText start={phase.reading.year.start} end={phase.reading.year.end} />
                     </span>
                   </Link>
                 )}

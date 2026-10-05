@@ -3,7 +3,7 @@
 import { Fragment, type CSSProperties } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { DisputedBadge } from "@/components/culture/disputed-badge";
-import { YearRangeText, YearText } from "@/components/settings/year-text";
+import { YearRangeText } from "@/components/settings/year-text";
 import { localize } from "@/lib/data/localize";
 import type { CompareCulture, CompareEvent } from "./compare-data";
 import { PAIR_WINDOW, buildSpine, isPaired, type Overlap } from "./compare-math";
@@ -147,11 +147,7 @@ function EventCard({
     >
       {/* The date is its own button (the era explainer), so it sits outside the card's button. */}
       <p className="flex flex-wrap items-center gap-1 px-2.5 pt-2 text-xs text-muted-foreground">
-        {event.end === undefined || event.end === event.start ? (
-          <YearText year={event.start} />
-        ) : (
-          <YearRangeText start={event.start} end={event.end} />
-        )}
+        <YearRangeText start={event.start} end={event.end ?? event.start} />
         {event.disputed && <DisputedBadge note={event.note && localize(event.note, locale)} />}
       </p>
       <button
