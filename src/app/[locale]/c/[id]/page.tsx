@@ -12,10 +12,11 @@ import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
 import { hasTerritoryMap, loadCulture, loadCultures, loadSuccession, loadWars } from "@/lib/data/load";
 import { isMachineTranslated, localize } from "@/lib/data/localize";
-import { defaultPeriod, eventWorld, meanwhileCandidates, successionFor, toCultureRef } from "@/lib/data/queries";
+import { alsoAlive, defaultPeriod, eventWorld, meanwhileCandidates, successionFor, toCultureRef } from "@/lib/data/queries";
 import { regionsIn } from "@/components/filters/region-filter";
 import { HeartlandLinks } from "@/components/identity/country-link";
 import { RegionDot } from "@/components/identity/region-dot";
+import { YearRangeText } from "@/components/settings/year-text";
 import { recordsHeld } from "@/lib/data/records";
 import { cultureDescription, cultureTitle } from "@/lib/data/culture-copy";
 import { openGraph, pageAlternates } from "@/lib/seo";
@@ -61,6 +62,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
   const period = defaultPeriod(culture);
   const world = eventWorld(culture, cultures);
   const { candidates, cards } = meanwhileCandidates(culture, cultures);
+  const alive = alsoAlive(candidates, cards);
   const t = await getTranslations({ locale, namespace: "meanwhile" });
   const tCulture = await getTranslations({ locale, namespace: "culture" });
   const tCommon = await getTranslations({ locale, namespace: "common" });
@@ -127,6 +129,24 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           locale={locale}
         />
       </section>
+
+      {alive.length > 0 && (
+        <section className="flex flex-col gap-2">
+          <h2 className="text-sm font-medium text-muted-foreground">{t("alsoAlive")}</h2>
+          <ul className="flex flex-col gap-1 text-sm">
+            {alive.map((c) => (
+              <li key={c.id}>
+                <Link href={`/c/${c.id}`} className="underline underline-offset-2">
+                  {localize(c.name, locale)}
+                </Link>{" "}
+                <span className="text-muted-foreground">
+                  <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} />
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <p className="text-base leading-relaxed">{localize(culture.description, locale)}</p>
 

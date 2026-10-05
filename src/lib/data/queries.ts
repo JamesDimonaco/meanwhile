@@ -140,6 +140,14 @@ export function meanwhileCandidates(
   return { candidates, cards };
 }
 
+/** Every candidate that shares likely years with the anchor (no fuzzy-edge ones), by region then start: the culture page's full list beside its cards. */
+export function alsoAlive(candidates: readonly MeanwhileCandidate[], cards: Record<string, MeanwhileCard>): CultureRef[] {
+  return candidates
+    .filter((c) => !c.fuzzy)
+    .map((c) => cards[c.id].culture)
+    .sort((a, b) => regionRank(a.region) - regionRank(b.region) || a.period.latestStart - b.period.latestStart);
+}
+
 /**
  * Card ids in display order, spread across regions: take the best from each
  * region in turn (regions ordered by their best overlap, the anchor's own
