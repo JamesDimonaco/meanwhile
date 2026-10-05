@@ -63,16 +63,19 @@ export type SearchHit =
   | { type: "war"; entry: WarSearchEntry };
 
 type NameHit = Exclude<SearchHit, { type: "year" }>;
-/** `unlisted`: every country's names in every language, bar the ones the index lists. */
+/** `unlisted`: the names, in every language, of places the site has no page for. */
 export type SearchIndex = { items: readonly Ranked<NameHit>[]; unlisted: readonly Term[] };
 
 const byKey = <T>(key: (t: T) => string) => (a: T, b: T) => key(a).localeCompare(key(b));
 
-function unlistedCountries(listed: readonly CountrySearchEntry[]): Term[] {
-  const shown = new Set(listed.map((c) => c.code));
-  const names = LOCALES.map((l) => new Intl.DisplayNames([l], { type: "region" }));
-  const codes = [...Object.keys(UN_MEMBERS), ...NEVER_SHOWN].filter((code) => !shown.has(code));
-  return toTerms({ shown: codes.flatMap((code) => names.map((n) => n.of(code) ?? code)) });
+/** The never-shown places, and with `allPages` every UN member not in `listed`, named as a listed country is. */
+function unlistedCountries(listed: readonly CountrySearchEntry[], allPages: boolean, locale: Locale): Term[] {
+  const paged = new Set(listed.map((c) => c.code));
+  const codes = [...NEVER_SHOWN, ...(allPages ? Object.keys(UN_MEMBERS).filter((code) => !paged.has(code)) : [])];
+  return codes.flatMap((code) => {
+    const { name, english, terms } = countrySearchNames(code, locale);
+    return toTerms({ shown: [name], latin: [english], other: terms });
+  });
 }
 
 /**
@@ -86,11 +89,14 @@ export function searchIndex({
   countries = [],
   cultures = [],
   wars = [],
+  allCountryPages = false,
 }: {
   locale: Locale;
   countries?: readonly CountrySearchEntry[];
   cultures?: readonly SearchEntry[];
   wars?: readonly WarSearchEntry[];
+  /** `countries` is every country with a page in this language (the home page), so another country's name finds nothing. */
+  allCountryPages?: boolean;
 }): SearchIndex {
   // A reader typing Latin letters knows the English name, and a Chinese civilisation's pinyin.
   const cultureTerms = (c: SearchEntry) =>
@@ -108,7 +114,7 @@ export function searchIndex({
         .map((entry) => ({ item: { type: "culture" as const, entry }, terms: cultureTerms(entry) })),
       ...[...wars].sort(byKey((w) => w.id)).map((entry) => ({ item: { type: "war" as const, entry }, terms: terms(entry) })),
     ],
-    unlisted: unlistedCountries(countries),
+    unlisted: unlistedCountries(countries, allCountryPages, locale),
   };
 }
 

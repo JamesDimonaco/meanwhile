@@ -255,4 +255,20 @@ describe("rank: typos", () => {
     expect(rank("taiwa", thailand, unlisted)).toEqual([]);
     expect(rank("tailanda", thailand, unlisted)).toEqual(["Thailand"]);
   });
+
+  it("returns nothing for a misspelt unlisted place, unless a listed name is at least as close", () => {
+    // "tiawan" is one swap from Taiwan; it found Tiwanaku as a half-typed typo.
+    const tiwanaku = [{ item: "Tiwanaku", terms: toTerms({ shown: ["Tiwanaku"] }) }];
+    const unlisted = toTerms({ shown: ["Taiwan"] });
+    expect(rank("tiawan", tiwanaku, unlisted)).toEqual([]);
+    expect(rank("tiwanak", tiwanaku, unlisted)).toEqual(["Tiwanaku"]);
+    // As close: one edit from both.
+    expect(rank("kali", [{ item: "Mali", terms: toTerms({ shown: ["Mali"] }) }], toTerms({ shown: ["Bali"] }))).toEqual(["Mali"]);
+  });
+
+  it("measures how close in edits, whether or not the reader sees the term", () => {
+    // On a Spanish page "holanda" is one edit from the alias Holland, two from Irlanda, a country with no page.
+    const netherlands = [{ item: "NL", terms: toTerms({ shown: ["Países Bajos"], other: ["Holland"] }) }];
+    expect(rank("holanda", netherlands, toTerms({ shown: ["Irlanda"] }))).toEqual(["NL"]);
+  });
 });

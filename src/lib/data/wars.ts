@@ -74,9 +74,14 @@ export function warsForCulture(wars: readonly War[], cultureId: string): War[] {
 /** `name`, `english` and `terms`: countrySearchNames, so a search in any language finds the country. */
 export type CountryEntry = CountrySearchNames & { code: string; continent: Continent; count: number };
 
+// One per language: the home search names the 130-odd countries without a page, in three languages, on the client.
+const regionNames = new Map<Locale, Intl.DisplayNames>();
+
 /** A present-day country's name in the page's language, from its ISO code. */
 export function countryName(code: string, locale: Locale): string {
-  return new Intl.DisplayNames([locale], { type: "region" }).of(code) ?? code;
+  let names = regionNames.get(locale);
+  if (!names) regionNames.set(locale, (names = new Intl.DisplayNames([locale], { type: "region" })));
+  return names.of(code) ?? code;
 }
 
 /** A country as search sees it on a page in one language: the name there, the English name, and everything else it is found by. */

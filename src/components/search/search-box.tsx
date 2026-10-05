@@ -56,7 +56,7 @@ export function SearchBox({
   const listId = useId();
   const selection = useRegionFilter(regions);
 
-  const index = useMemo(() => searchIndex({ locale, countries, cultures: entries, wars }), [locale, countries, entries, wars]);
+  const index = useMemo(() => searchIndex({ locale, countries, cultures: entries, wars, allCountryPages: true }), [locale, countries, entries, wars]);
   const hits = useMemo(() => search(query, index), [query, index]);
   // Countries, wars and years have no region, so the region chips filter only civilisations.
   const inRegions = (hit: SearchHit) => hit.type !== "culture" || includesRegion(selection, hit.entry.region);

@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import type { Locale } from "@/i18n/locales";
 import { countryCodes } from "@/lib/data/country";
 import { loadAllWars, loadCultures, loadHeartland, loadWars } from "@/lib/data/load";
+import { countryIndex } from "@/lib/data/wars";
 import type { War } from "@/lib/data/war-schema";
 import { countrySearchEntries, search, searchIndex, toSearchEntry, warSearchEntries, type SearchEntry, type SearchHit } from "./search-index";
 
@@ -121,6 +122,7 @@ function homeIndex(locale: Locale) {
     countries: countrySearchEntries(countryCodes(heartland, wars), locale),
     cultures: allCultures,
     wars: warSearchEntries(wars, locale),
+    allCountryPages: true,
   });
 }
 const indexes = { en: homeIndex("en"), es: homeIndex("es"), zh: homeIndex("zh") };
@@ -288,8 +290,28 @@ describe("false positives", () => {
   });
 
   it("answers the name of a place the site doesn't cover with nothing, not a neighbour", () => {
-    for (const q of ["taiwan", "taiwa", "chile", "oman", "hong kong", "ottoman"]) expect(labels(q, "en")).toEqual([]);
+    for (const q of ["taiwan", "taiwa", "tiawan", "tawian", "chile", "oman", "hong kong", "ottoman"]) expect(labels(q, "en")).toEqual([]);
     for (const q of ["birmania", "imperio otomano", "otomano", "otomanos"]) expect(labels(q, "es")).toEqual([]);
+    for (const q of ["taiwan", "tiawan"]) expect(labels(q, "zh")).toEqual([]);
+  });
+
+  // The wars list and the compare picker list only some places; a country they leave out may still have a page.
+  it("blocks typos on the wars list and in the compare picker only for the places never shown", () => {
+    const wars = loadWars("en");
+    const warsList = searchIndex({ locale: "en", countries: countryIndex(wars, "en"), wars: warSearchEntries(wars, "en") });
+    // "angol" matched unlisted Angola, so none of the Anglo wars appeared.
+    expect(search("angol", warsList).map(label)).toContain("war:first-anglo-mysore-war");
+    expect(search("tiawan", warsList)).toEqual([]);
+    const picker = (locale: Locale) => searchIndex({ locale, cultures: allCultures });
+    // Through Oman and Romania, which the picker never lists.
+    for (const q of ["ooman", "ruman"]) expect(search(q, picker("en")).map(label)).toContain("culture:holy-roman-empire");
+    expect(search("romani", picker("es")).map(label)).toContain("culture:holy-roman-empire");
+  });
+
+  it("builds no country names for an index without countries but the places never shown", () => {
+    const unlisted = searchIndex({ locale: "en", cultures: allCultures }).unlisted.map((t) => t.text);
+    expect(unlisted).toContain("taiwan");
+    expect(unlisted).not.toContain("angola");
   });
 
   it("puts names the reader sees ahead of aliases they start", () => {

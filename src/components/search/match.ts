@@ -289,9 +289,9 @@ function best(terms: readonly Term[], score: (t: Term) => number | null): number
  * typos are dropped, so a correct "Iran" doesn't bring Iraq; when something
  * else matched for real, only typos of a name the reader sees stay, so
  * "korea" doesn't bring a war through its battle "Koregaon".
- * `unlisted` names places the site has no page for: a query that matches one
- * gets no typos, so "Taiwan" finds nothing rather than Thailand. Equal scores
- * keep the items' order.
+ * `unlisted` names places the site has no page for: a query closer to one
+ * than to anything listed gets no typos, so "Taiwan" and "tiawan" find
+ * nothing rather than Thailand or Tiwanaku. Equal scores keep the items' order.
  */
 export function rank<T>(query: string, items: readonly Ranked<T>[], unlisted: readonly Term[] = []): T[] {
   const text = normalize(query);
@@ -299,11 +299,16 @@ export function rank<T>(query: string, items: readonly Ranked<T>[], unlisted: re
   const q = toQuery(text);
   const real = items.map(({ terms }) => best(terms, (t) => realScore(q, t)));
   // A query of punctuation alone has no word to spell wrong; one or two letters have no edit to spend.
-  const typos = q.words.length > 0 && !q.short && !real.includes(EXACT) && best(unlisted, (t) => realScore(q, t)) === null;
+  const fuzz = q.words.length > 0 && !q.short && !real.includes(EXACT);
   const seenOnly = real.some((s) => s !== null);
+  const scores = items.map(({ terms }, i) => real[i] ?? (fuzz ? best(seenOnly ? terms.filter((t) => sees(q, t)) : terms, (t) => typoScore(q, t)) : null));
+  // How close, whoever sees the term: "holanda" is one edit from Holland, two from the unlisted Irlanda.
+  const closeness = (s: number) => (s >= q.unseen ? s - q.unseen : s);
+  const place = fuzz ? best(unlisted, (t) => realScore(q, t) ?? typoScore(q, t)) : null;
+  const typos = place === null || closeness(place) >= Math.min(...scores.flatMap((s) => (s === null ? [] : [closeness(s)])));
   return items
-    .flatMap(({ item, terms }, i) => {
-      const score = real[i] ?? (typos ? best(seenOnly ? terms.filter((t) => sees(q, t)) : terms, (t) => typoScore(q, t)) : null);
+    .flatMap(({ item }, i) => {
+      const score = typos ? scores[i] : real[i];
       return score === null ? [] : [{ item, score }];
     })
     .sort((a, b) => a.score - b.score)
