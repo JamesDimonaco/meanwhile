@@ -219,6 +219,26 @@ These follow the decisions above where they reach; James may change them at revi
 - Hosting: Next on Vercel, function region `iad1` (`vercel.json`; Anthropic doesn't serve mainland China or Hong Kong, so never `hkg1`). Every page and the `geo/` and manifest route handlers are prerendered (`generateStaticParams`, `force-static`); check the build's route table keeps them `○`/`●`. The only server code is `POST /api/scan`. No middleware, cookies, rewrites or server actions; `redirects()` in `next.config.ts` holds the one redirect, old `/<locale>/wars/<code>/` links to `/<locale>/country/<code>/`. Browser APIs only in effects or `useSyncExternalStore`; wrap every `localStorage` call in try/catch.
 - Locale choice is stored under `LOCALE_STORAGE_KEY` (`src/i18n/locales.ts`); the root page reads it before browser languages.
 
+## Domain, deploys and workflow
+
+- **Live:** https://whowaswhen.com.
+  - The apex is primary. `www` 308s to it, and the old `meanwhile.dimonaco.co.uk` 301s path-for-path.
+  - DNS is at Cloudflare, DNS-only (grey cloud), pointing at Vercel. The Cloudflare proxy has no path into mainland China, so never turn it on.
+  - The host lives in one place: `SITE_URL` in `src/lib/seo.ts`. It drives metadataBase, canonical, hreflang, the sitemap, robots and the share images.
+- **China check after any domain or hosting change:** run a Globalping HTTP measurement from CN probes (e.g. `https://api.globalping.io/v1/measurements`, `locations: [{country: "CN"}]`, path `/zh/`). Beijing, Shanghai, Guangzhou and Shenzhen should answer 200.
+- **Deploy:**
+  - Run `vercel deploy --prod` from the main checkout, which holds the `.vercel` link. A new worktree needs `.vercel/project.json` copied in.
+  - The first deploy from a new checkout sometimes answers "Not authorized"; retrying works.
+  - Production should match `main`.
+- **Git:** the repo is public at https://github.com/JamesDimonaco/meanwhile.
+  - Work goes on a branch and a PR.
+  - `/code-review` runs before any merge (xhigh for features), then the fix-and-verify loop.
+  - Merging to `main` needs James's "merge".
+- **Never commit:**
+  - the raw sources in `../wars-sources` (the Correlates of War licence forbids redistribution);
+  - any key;
+  - `.vercel/`.
+
 ## Placard scanning
 
 - `POST /api/scan/` takes a JPEG/PNG/WebP body (2 MB cap, magic bytes checked; the client downscales to 1280px JPEG first) and makes one `claude-opus-5` call (low effort, JSON-schema output). The schema limits `cultureId` to catalogue ids or null; BCE/CE years become astronomical in `decideScan`, never in the model. Low confidence never routes.
