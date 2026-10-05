@@ -6,12 +6,12 @@ import { openGraph, pageAlternates, SITE_URL } from "@/lib/seo";
 
 // "/" is the URL people share, so it carries the English home page's description and share image.
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations({ locale: DEFAULT_LOCALE, namespace: "common" });
-  const appName = t("appName");
+  const appName = (await getTranslations({ locale: DEFAULT_LOCALE, namespace: "common" }))("appName");
+  const tHome = await getTranslations({ locale: DEFAULT_LOCALE, namespace: "home" });
   return {
     metadataBase: new URL(SITE_URL),
     title: appName,
-    description: t("tagline"),
+    description: tHome("metaDescription"),
     openGraph: openGraph(DEFAULT_LOCALE, appName, { path: "", alt: appName }),
     alternates: { languages: pageAlternates(DEFAULT_LOCALE, "").languages },
   };
