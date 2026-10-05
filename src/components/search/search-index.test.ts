@@ -190,6 +190,7 @@ describe("misspellings people type, against the real data", () => {
     ["es", "aztecas", "culture:aztec"],
     ["es", "mayas", "culture:maya"],
     ["es", "cultura maya", "culture:maya"],
+    ["es", "grecia antigua", "culture:ancient-greece"],
     ["zh", "中国", "country:CN"],
     ["zh", "越南", "country:VN"],
     ["zh", "阿兹特克", "culture:aztec"],
