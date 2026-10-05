@@ -17,6 +17,7 @@
   "noMatch": "未找到“{query}”",
   "matchingWars": "战争",
   "countries": "国家",
+  "countriesToday": "今日国家：<countries></countries>",
   "allCountries": "所有国家",
   "ongoing": "<start></start>至今（截至{date}）",
   "against": "对阵",

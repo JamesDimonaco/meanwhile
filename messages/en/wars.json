@@ -17,6 +17,7 @@
   "noMatch": "Nothing found for “{query}”",
   "matchingWars": "Wars",
   "countries": "Countries",
+  "countriesToday": "Countries today: <countries></countries>",
   "allCountries": "All countries",
   "ongoing": "<start></start> – ongoing, as of {date}",
   "against": "against",

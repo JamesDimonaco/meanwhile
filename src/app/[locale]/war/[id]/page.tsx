@@ -4,7 +4,9 @@ import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { SourceList } from "@/components/culture/culture-events";
 import { regionsIn } from "@/components/filters/region-filter";
+import { CountryLink } from "@/components/identity/country-link";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
+import { JoinedList } from "@/components/joined-list";
 import { MeanwhileCards } from "@/components/meanwhile/meanwhile-cards";
 import { YearText } from "@/components/settings/year-text";
 import { EventStory } from "@/components/territory-map/culture-story";
@@ -19,7 +21,8 @@ import { hasTerritoryMap, loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { activeAt, meanwhileAtYear } from "@/lib/data/queries";
 import type { War } from "@/lib/data/war-schema";
-import { isShownIn, warLand, warSpan } from "@/lib/data/wars";
+import { isListableCountry } from "@/lib/data/countries";
+import { isShownIn, warCountryCodes, warLand, warSpan } from "@/lib/data/wars";
 import { openGraph, pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -92,6 +95,8 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
   const linked = cultures.filter((c) => war.cultures.includes(c.id));
   const hasBorders = hasTerritoryMap(war.id);
   const sideLabels = new Map(war.sides.map((s) => [s.id, localize(s.label, locale)]));
+  // Every member's `today` codes, not only state members: these are the countries whose pages list this war.
+  const countries = warCountryCodes([war]).filter(isListableCountry);
   const followLink = (w: War) => ({
     name: localize(w.name, locale),
     label: (chunks: ReactNode) => <span className="text-muted-foreground">{chunks}</span>,
@@ -143,6 +148,13 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
 
       <Section title={t("sides")}>
         <SideList sides={war.sides} cultureNames={cultureNames} linkCultures />
+        {countries.length > 0 && (
+          <p className="text-sm">
+            {t.rich("countriesToday", {
+              countries: () => <JoinedList items={countries.map((code) => <CountryLink key={code} code={code} />)} />,
+            })}
+          </p>
+        )}
       </Section>
 
       <Section title={t("account")}>
