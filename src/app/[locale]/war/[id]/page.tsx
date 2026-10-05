@@ -14,7 +14,7 @@ import { WarBar } from "@/components/wars/war-bar";
 import { isLocale, LOCALES, type Locale } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
-import { firstSentence } from "@/lib/data/culture-copy";
+import { warDescription, warYears } from "@/lib/data/culture-copy";
 import { hasTerritoryMap, loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { activeAt, meanwhileAtYear } from "@/lib/data/queries";
@@ -43,14 +43,16 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/war/[id]
   const war = findWar(id, locale);
   const shownIn = LOCALES.filter((l) => isShownIn(war, l));
   const appName = (await getTranslations({ locale, namespace: "common" }))("appName");
-  const title = localize(war.name, locale);
+  const tWars = await getTranslations({ locale, namespace: "wars" });
+  const name = localize(war.name, locale);
+  const years = warYears(war, locale, (start, date) => tWars.markup("ongoing", { start: () => start, date }));
   return {
-    title,
-    description: firstSentence(localize(war.description, locale), locale),
+    title: locale === "zh" ? `${name}（${years}）` : `${name} (${years})`,
+    description: warDescription(war, locale, years),
     alternates: pageAlternates(locale, `war/${id}`, shownIn),
     // Names the segment's opengraph-image itself, since Next's own URL for it
     // has no trailing slash; and the layout's openGraph would list every locale.
-    openGraph: openGraph(locale, appName, { path: `war/${id}`, alt: title }, shownIn),
+    openGraph: openGraph(locale, appName, { path: `war/${id}`, alt: name }, shownIn),
   };
 }
 

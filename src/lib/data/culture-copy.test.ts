@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { contemporaryNames, cultureDescription, cultureTitle, firstSentence, truncate } from "./culture-copy";
+import { contemporaryNames, cultureDescription, cultureTitle, firstSentence, truncate, warDescription, warYears } from "./culture-copy";
 import type { Culture, Region } from "./schema";
+import type { War } from "./war-schema";
 
 const src = { citation: "Test source" };
 
@@ -35,6 +36,20 @@ describe("firstSentence", () => {
 
   it("returns the whole string when there's no terminator", () => {
     expect(firstSentence("No terminator here", "en")).toBe("No terminator here");
+  });
+
+  it("doesn't end a sentence inside an abbreviation such as the es era label", () => {
+    // Five es war descriptions were cut to "En el 499 a." on the live site.
+    expect(firstSentence("Roma y Cartago lucharon entre el 264 y el 146 a. e. c. La primera fue por Sicilia.", "es")).toBe(
+      "Roma y Cartago lucharon entre el 264 y el 146 a. e. c.",
+    );
+    expect(firstSentence("En el 499 a. e. c. las ciudades jonias se rebelaron. Atenas envió barcos.", "es")).toBe(
+      "En el 499 a. e. c. las ciudades jonias se rebelaron.",
+    );
+  });
+
+  it("ends a sentence before an inverted question or exclamation mark (es)", () => {
+    expect(firstSentence("Primera frase. ¿Segunda?", "es")).toBe("Primera frase.");
   });
 });
 
@@ -102,5 +117,72 @@ describe("contemporaryNames", () => {
     const names = contemporaryNames(anchor, [anchor, ...others], "en", 3);
     expect(names).toHaveLength(3);
     expect(names).not.toContain("shang en");
+  });
+});
+
+function war(overrides: Partial<War> = {}): War {
+  const t = (en: string) => ({ en });
+  return {
+    id: "punic-wars",
+    wikidataId: "Q1",
+    name: { en: "Punic Wars", es: "Guerras púnicas", zh: "布匿战争" },
+    noWikiTitle: [],
+    aliases: [],
+    altNames: [],
+    description: t("d"),
+    outcome: { en: "Rome destroyed Carthage.", es: "Roma destruyó Cartago.", zh: "罗马摧毁了迦太基。" },
+    tier: "standard",
+    sensitive: false,
+    reviewed: { es: false, zh: false },
+    period: { id: "p", earliestStart: -263, latestStart: -263, earliestEnd: -145, latestEnd: -145, sources: [src], default: false, disputed: false },
+    sides: [],
+    phases: [],
+    events: [],
+    leaders: [],
+    casualties: [],
+    cultures: [],
+    sources: [],
+    ...overrides,
+  };
+}
+
+const ongoing = (start: string, date: string) => `${start} – ongoing, as of ${date}`;
+
+describe("warYears", () => {
+  it("formats an ended war's likely span as a year range", () => {
+    expect(warYears(war(), "en", ongoing)).toBe("264–146\u00a0BCE");
+  });
+
+  it("words an ongoing war through the caller's ongoing message, with its start year and asOf date", () => {
+    const w = war({
+      period: undefined,
+      ongoing: { earliestStart: 2022, latestStart: 2022, asOf: "2026-09-30", sources: [src], disputed: false },
+    });
+    expect(warYears(w, "en", ongoing)).toBe("2022\u00a0CE – ongoing, as of 30 September 2026");
+  });
+});
+
+describe("warDescription", () => {
+  it("is '<Name>, <years>. <outcome>' in en", () => {
+    const w = war();
+    expect(warDescription(w, "en", warYears(w, "en", ongoing))).toBe("Punic Wars, 264–146\u00a0BCE. Rome destroyed Carthage.");
+  });
+
+  it("doesn't stack a second period after the es era label", () => {
+    const w = war();
+    expect(warDescription(w, "es", warYears(w, "es", ongoing))).toBe(
+      "Guerras púnicas, 264–146\u00a0a.\u00a0e.\u00a0c. Roma destruyó Cartago.",
+    );
+  });
+
+  it("uses Chinese punctuation in zh", () => {
+    const w = war();
+    expect(warDescription(w, "zh", warYears(w, "zh", ongoing))).toBe("布匿战争，公元前264—前146年。罗马摧毁了迦太基。");
+  });
+
+  it("cuts to exactly the 155-character meta description budget", () => {
+    // No spaces, so truncate can't stop early on a word boundary: the length is the budget itself.
+    const w = war({ outcome: { en: "x".repeat(300) } });
+    expect(warDescription(w, "en", "1 CE")).toHaveLength(155);
   });
 });
