@@ -79,7 +79,7 @@ and what was changed.
 | [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria) | Historical borders for the territory maps | CC BY 4.0 |
 | [UCDP](https://ucdp.uu.se) | Dates, sides and battle deaths of wars since 1946 | CC BY 4.0 |
 | [Natural Earth](https://www.naturalearthdata.com) | Coastlines and land under the maps | Public domain |
-| Correlates of War | Cross-checking war dates and sides, 1816 to 2007 | Cited only; no data included |
+| Correlates of War | Cross-checking war dates and sides, 1816 to 2014 | Cited only; no data included |
 
 ## Running it locally
 
