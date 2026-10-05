@@ -12,12 +12,13 @@ import { Link } from "@/i18n/navigation";
 import { pageLocale } from "@/i18n/page-locale";
 import { hasTerritoryMap, loadCulture, loadCultures, loadSuccession, loadWars } from "@/lib/data/load";
 import { isMachineTranslated, localize } from "@/lib/data/localize";
-import { alsoAlive, defaultPeriod, eventWorld, meanwhileCandidates, successionFor, toCultureRef } from "@/lib/data/queries";
+import { defaultPeriod, eventWorld, meanwhileCandidates, successionFor, toCultureRef } from "@/lib/data/queries";
 import { regionsIn } from "@/components/filters/region-filter";
 import { HeartlandLinks } from "@/components/identity/country-link";
 import { RegionDot } from "@/components/identity/region-dot";
 import { YearRangeText } from "@/components/settings/year-text";
 import { recordsHeld } from "@/lib/data/records";
+import { alsoAlive } from "@/lib/data/country";
 import { cultureDescription, cultureTitle } from "@/lib/data/culture-copy";
 import { openGraph, pageAlternates } from "@/lib/seo";
 import { formatYearRange } from "@/lib/years";
@@ -62,7 +63,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
   const period = defaultPeriod(culture);
   const world = eventWorld(culture, cultures);
   const { candidates, cards } = meanwhileCandidates(culture, cultures);
-  const alive = alsoAlive(candidates, cards);
+  const alive = alsoAlive(culture, cultures);
   const t = await getTranslations({ locale, namespace: "meanwhile" });
   const tCulture = await getTranslations({ locale, namespace: "culture" });
   const tCommon = await getTranslations({ locale, namespace: "common" });
@@ -130,10 +131,13 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
         />
       </section>
 
+      <p className="text-base leading-relaxed">{localize(culture.description, locale)}</p>
+
       {alive.length > 0 && (
+        // Unfiltered: the region chips narrow the cards above, but this is the full list, rendered on the server.
         <section className="flex flex-col gap-2">
           <h2 className="text-sm font-medium text-muted-foreground">{t("alsoAlive")}</h2>
-          <ul className="flex flex-col gap-1 text-sm">
+          <ul className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
             {alive.map((c) => (
               <li key={c.id}>
                 <Link href={`/c/${c.id}`} className="underline underline-offset-2">
@@ -147,8 +151,6 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           </ul>
         </section>
       )}
-
-      <p className="text-base leading-relaxed">{localize(culture.description, locale)}</p>
 
       <section className="flex flex-col gap-3">
         <h2 className="text-lg font-semibold tracking-tight">{tCulture("keyEvents")}</h2>

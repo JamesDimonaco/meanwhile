@@ -3,7 +3,6 @@ import {
   MAX_MEANWHILE_CARDS,
   MIN_MEANWHILE_CARDS,
   activeAt,
-  alsoAlive,
   eventsBetween,
   meanwhile,
   meanwhileAtYear,
@@ -225,22 +224,6 @@ describe("meanwhileAtYear (a war's start year)", () => {
 
   it("offers nothing in a year no culture covers", () => {
     expect(meanwhileAtYear(2000, cultures, []).candidates).toEqual([]);
-  });
-});
-
-describe("alsoAlive", () => {
-  it("lists every culture whose likely span overlaps the anchor's, by region then start, never a fuzzy-edge one", () => {
-    const anchor = culture("anchor", "china", [-1600, -1550, -1050, -1000]);
-    const all = [
-      anchor,
-      culture("europe-late", "europe", [-1300, -1250, -900, -850]),
-      culture("europe-early", "europe", [-2000, -1900, -1400, -1350]),
-      culture("china-other", "china", [-1700, -1650, -1200, -1150]),
-      culture("edge-only", "mesoamerica", [-1030, -1000, -500, -400]),
-      culture("too-late", "africa", [-500, -450, 0, 50]),
-    ];
-    const { candidates, cards } = meanwhileCandidates(anchor, all);
-    expect(alsoAlive(candidates, cards).map((c) => c.id)).toEqual(["china-other", "europe-early", "europe-late"]);
   });
 });
 

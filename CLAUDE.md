@@ -206,7 +206,7 @@ These follow the decisions above where they reach; James may change them at revi
 - `meanwhileAtYear(year, cultures, exclude)`: the same candidates and cards for one year (a war's start); `pickMeanwhile(candidates, null)` when there is no anchor region.
 - `eventsBetween(cultures, from, to)`, `eventWorld(culture, cultures)`, `toCultureRef`, `defaultPeriod`.
 - Wars (`wars.ts`): `isShownIn` / `warsShownIn` (the review gate), `warsForCulture`, `countryIndex`, `warOuter`, `warSpan`.
-- Countries (`country.ts`): `countryCodes` (who gets a country page in a language), `countryItems`, `overlaps` / `overlapping`, `localeGaps`, `gapsOnPagesIn`.
+- Countries (`country.ts`): `countryCodes` (who gets a country page in a language), `countryItems`, `overlaps` / `overlapping`, `alsoAlive` (the culture page's "also alive" list, same rule), `localeGaps`, `gapsOnPagesIn`.
 - `load.ts` uses `fs`: call it only from server components and scripts. Pass `CultureRef` / `Culture` props to client components, never whole datasets on pages that don't need them (weak signal).
 
 ## i18n and UI rules

@@ -1,8 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { LOCALES } from "@/i18n/locales";
 import { NEVER_SHOWN } from "./countries";
-import { type CountryItem, countryCodes, countryItems, gapsOnPagesIn, itemBounds, itemId, localeGaps, openingView, overlapping, overlaps } from "./country";
+import { type CountryItem, alsoAlive, countryCodes, countryItems, gapsOnPagesIn, itemBounds, itemId, localeGaps, openingView, overlapping, overlaps } from "./country";
 import { loadAllWars, loadCultures, loadHeartland, loadWars } from "./load";
+import { defaultPeriod } from "./queries";
+import { REGIONS } from "./regions";
 import type { War } from "./war-schema";
 import { warCountryCodes } from "./wars";
 
@@ -70,6 +72,40 @@ describe("overlaps, with the real data", () => {
 
   it("Qin and Han do not, though their fuzzy edges meet", () => {
     expect(overlaps(item("qin"), item("han"))).toBe(false);
+  });
+});
+
+describe("alsoAlive (a culture page's list), with the real data", () => {
+  const cultures = loadCultures();
+  const byId = (id: string) => {
+    const c = cultures.find((x) => x.id === id);
+    if (!c) throw new Error(`no culture ${id}`);
+    return c;
+  };
+  const ids = (id: string) => alsoAlive(byId(id), cultures).map((c) => c.id);
+
+  // The list shows each culture's solid span beside the anchor's, so every entry must visibly share years with it.
+  it("lists only cultures whose shown dates share more than a year with the anchor's", () => {
+    for (const anchor of cultures) {
+      const a = defaultPeriod(anchor);
+      for (const c of alsoAlive(anchor, cultures)) {
+        expect(c.id).not.toBe(anchor.id);
+        expect(Math.min(a.earliestEnd, c.period.earliestEnd) - Math.max(a.latestStart, c.period.latestStart), `${anchor.id} lists ${c.id}`).toBeGreaterThanOrEqual(1);
+      }
+    }
+  });
+
+  it("leaves out cultures whose fuzzy edges alone meet the anchor's", () => {
+    expect(ids("han")).not.toContain("mixtec");
+    expect(ids("qin")).not.toContain("han");
+    expect(ids("sui")).not.toContain("tang");
+  });
+
+  it("lists cultures elsewhere that did share the anchor's years, by region then start", () => {
+    const han = alsoAlive(byId("han"), cultures);
+    expect(han.map((c) => c.id)).toEqual(expect.arrayContaining(["rome", "moche"]));
+    const keys = han.map((c) => [REGIONS.indexOf(c.region), c.period.latestStart]);
+    expect(keys).toEqual([...keys].sort((a, b) => a[0] - b[0] || a[1] - b[1]));
   });
 });
 

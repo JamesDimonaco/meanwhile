@@ -1,6 +1,7 @@
 import { LOCALES, type Locale } from "@/i18n/locales";
 import { isListableCountry } from "./countries";
-import { defaultPeriod } from "./queries";
+import { type CultureRef, defaultPeriod, toCultureRef } from "./queries";
+import { REGIONS } from "./regions";
 import type { Culture, Period } from "./schema";
 import type { War } from "./war-schema";
 import { isShownIn, warCountryCodes, warOuter, warsShownIn } from "./wars";
@@ -47,6 +48,15 @@ export function overlaps(a: CountryItem, b: CountryItem): boolean {
   const y = itemBounds(b);
   const handover = a.kind === "culture" && b.kind === "culture" ? 1 : 0;
   return x.latestStart + handover <= y.earliestEnd && y.latestStart + handover <= x.earliestEnd;
+}
+
+/** The culture page's "also alive" list: every other culture that overlaps the anchor by the rule above, by region then start. */
+export function alsoAlive(anchor: Culture, cultures: readonly Culture[]): CultureRef[] {
+  const self: CountryItem = { kind: "culture", culture: anchor };
+  return cultures
+    .filter((c) => c.id !== anchor.id && overlaps(self, { kind: "culture", culture: c }))
+    .map(toCultureRef)
+    .sort((a, b) => REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region) || a.period.latestStart - b.period.latestStart);
 }
 
 /** A country's civilisations (by heartland) and the wars shown in its language, oldest first. */
