@@ -15,16 +15,19 @@ export default async function RootRedirect() {
     <>
       <script dangerouslySetInnerHTML={{ __html: script }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteJsonLd(appName)) }} />
-      {/* Outside <noscript> so crawlers follow them; the script above redirects before paint. */}
-      <ul>
-        {LOCALES.map((l) => (
-          <li key={l}>
-            <a href={`/${l}/`} lang={HTML_LANG[l]}>
-              {new Intl.DisplayNames([l], { type: "language" }).of(l)}
-            </a>
-          </li>
-        ))}
-      </ul>
+      {/* No-JS visitors only: the script redirects, but the page still paints while /<locale>/ loads. Crawlers find the
+          languages through the hreflang alternates in the head. */}
+      <noscript>
+        <ul>
+          {LOCALES.map((l) => (
+            <li key={l}>
+              <a href={`/${l}/`} lang={HTML_LANG[l]}>
+                {new Intl.DisplayNames([l], { type: "language" }).of(l)}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </noscript>
     </>
   );
 }
