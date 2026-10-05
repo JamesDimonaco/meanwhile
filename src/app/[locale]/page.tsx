@@ -28,6 +28,8 @@ export async function generateMetadata({ params }: PageProps<"/[locale]">): Prom
   // own opengraph-image file (without alt text) in its place unless the page
   // names the image itself.
   return {
+    // The layout's title template skips a page in its own segment, so the app name is added here.
+    title: { absolute: `${t("metaTitle")} · ${appName}` },
     description,
     alternates: pageAlternates(locale, ""),
     openGraph: openGraph(locale, appName, { path: "", alt: appName }),
