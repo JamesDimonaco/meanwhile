@@ -87,7 +87,8 @@ export function SearchBox({
           {results.length === 0 ? (
             <div className="flex flex-col gap-1 px-1 text-sm text-muted-foreground">
               <p>{t("noResults", { query: trimmed })}</p>
-              <p>{t("noResultsHint")}</p>
+              {/* With matches hidden by the region chips, the line under the results says so instead. */}
+              {!hiddenMatches && <p>{t("noResultsHint")}</p>}
             </div>
           ) : (
             <ul id={listId} aria-label={t("resultsLabel")} className="flex flex-col gap-1.5">
