@@ -34,10 +34,11 @@ function wrapNative(native: string, locale: Locale): string {
   return locale === "zh" ? `（${native}）` : ` (${native})`;
 }
 
-/** "<Name> (<native name>)", or just the name when there's no native name. */
+/** "<Name> (<native name>)", or just the name when there's no native name or the name already contains it (商朝, not 商朝（商）). */
 export function cultureTitle(culture: Culture, locale: Locale): string {
   const name = localize(culture.name, locale);
-  return culture.nativeName ? `${name}${wrapNative(culture.nativeName.text, locale)}` : name;
+  const native = culture.nativeName?.text;
+  return native && !name.includes(native) ? `${name}${wrapNative(native, locale)}` : name;
 }
 
 /** "<name>, <dates>. " (zh "<name>，<dates>。"), opening a meta description. */

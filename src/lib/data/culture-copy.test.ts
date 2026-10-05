@@ -77,6 +77,12 @@ describe("cultureTitle", () => {
     expect(cultureTitle(c, "zh")).toBe("shangzh（商）");
   });
 
+  it("leaves the native name out when the localized name already contains it", () => {
+    const c = culture("shang", "china", { name: { en: "Shang dynasty", zh: "商朝" }, nativeName: { text: "商", lang: "zh-Hans" } });
+    expect(cultureTitle(c, "zh")).toBe("商朝");
+    expect(cultureTitle(c, "en")).toBe("Shang dynasty (商)");
+  });
+
   it("falls back to the plain name when there's no native name", () => {
     expect(cultureTitle(culture("shang", "china"), "en")).toBe("shang en");
   });
