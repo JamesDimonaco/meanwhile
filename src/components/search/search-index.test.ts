@@ -250,6 +250,12 @@ describe("names the reader sees, against the real data", () => {
     expect(labels("zhou", "en")).toContain("culture:spring-and-autumn");
   });
 
+  it("keeps the wars whose names say \"Wars\" in the list for \"wars\"", () => {
+    // The home box shows the first 10 hits.
+    const shown = labels("wars", "en").slice(0, 10);
+    for (const id of ["punic-wars", "han-xiongnu-war", "qin-wars-of-unification"]) expect(shown, id).toContain(`war:${id}`);
+  });
+
   it("finds Rome by its people, in English and Spanish", () => {
     expect(labels("romans", "en")[0]).toBe("culture:rome");
     expect(labels("romans", "en")).toContain("culture:holy-roman-empire");

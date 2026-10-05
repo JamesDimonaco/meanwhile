@@ -137,6 +137,8 @@ const EXACT = 0;
 const PREFIX = 1;
 const WORD_START = 2;
 const INSIDE = 3;
+// A plural matched inside a longer name, between the real hits and the typos.
+const PLURAL = INSIDE + 0.5;
 const FUZZY = INSIDE + 1;
 // Within typos, fewer edits first; at equal edits, the whole name, then a word in it or a half-typed word alike.
 const WHOLE = 0;
@@ -296,7 +298,11 @@ function kindOf(q: Query, t: Term, seen: boolean): number | null {
   if (folded !== null) return folded;
   if (t.squashed === q.squashed) return EXACT;
   if (q.words.length > 1 && t.squashed.startsWith(q.squashed)) return PREFIX;
-  return q.singular && wholeWords(q.singular, t);
+  // A whole name in the singular is the plural typed right ("romans" is the
+  // alias "Roman"); inside a longer name it ranks after every literal hit, so
+  // "wars" lists the Punic Wars before War in Afghanistan.
+  const plural = q.singular && wholeWords(q.singular, t);
+  return plural === null || plural === EXACT ? plural : PLURAL + plural / 10;
 }
 
 /** Where the words sit as a run of whole words of the term: all of it, its start, or further in. */

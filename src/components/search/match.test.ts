@@ -141,6 +141,11 @@ describe("rank: plurals", () => {
   it("but only as whole words", () => {
     expect(find("cars", ["Carolingian Empire"])).toEqual([]);
   });
+
+  it("ranks a plural found inside a longer name after every name that has the plural as typed", () => {
+    // "wars" put War in Afghanistan, a prefix through "war", above the Punic Wars, which say "Wars".
+    expect(find("wars", ["War in Afghanistan", "Punic Wars"])).toEqual(["Punic Wars", "War in Afghanistan"]);
+  });
 });
 
 describe("rank: anywhere inside a word", () => {
