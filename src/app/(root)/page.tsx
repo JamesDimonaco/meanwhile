@@ -1,4 +1,3 @@
-import { getTranslations } from "next-intl/server";
 import { DEFAULT_LOCALE, HTML_LANG, LOCALES, LOCALE_STORAGE_KEY } from "@/i18n/locales";
 import { pickLocale } from "@/i18n/pick-locale";
 import { jsonLd, websiteJsonLd } from "@/lib/seo";
@@ -9,12 +8,11 @@ const script = `(function(){var s=null;try{s=localStorage.getItem(${JSON.stringi
 var l=(${pickLocale.toString()})(s,navigator.languages||[navigator.language],${JSON.stringify(LOCALES)},${JSON.stringify(DEFAULT_LOCALE)});
 location.replace("/"+l+"/"+location.search+location.hash)})()`;
 
-export default async function RootRedirect() {
-  const appName = (await getTranslations({ locale: DEFAULT_LOCALE, namespace: "common" }))("appName");
+export default function RootRedirect() {
   return (
     <>
       <script dangerouslySetInnerHTML={{ __html: script }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteJsonLd(appName)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteJsonLd()) }} />
       {/* No-JS visitors only: the script redirects, but the page still paints while /<locale>/ loads. Crawlers find the
           languages through the hreflang alternates in the head. */}
       <noscript>

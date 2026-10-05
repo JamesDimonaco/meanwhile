@@ -5,6 +5,8 @@ import type { War } from "@/lib/data/war-schema";
 import { warOuter } from "@/lib/data/wars";
 import { OG_CONTENT_TYPE, OG_SIZE } from "@/lib/og/theme";
 import { formatYear } from "@/lib/years";
+import enCommon from "../../messages/en/common.json";
+import zhCommon from "../../messages/zh/common.json";
 
 // One env var, one fallback, used everywhere a full URL is needed
 // (metadataBase, sitemap, robots). No trailing slash.
@@ -84,15 +86,19 @@ export function jsonLd(data: Record<string, unknown>): string {
   return JSON.stringify(data).replace(/</g, "\\u003c");
 }
 
-/** The WebSite block: sets the site name Google shows above each result. The same on "/" and every locale home. */
-export function websiteJsonLd(appName: string) {
+/**
+ * The WebSite block: sets the site name Google shows above each result. The
+ * same on "/" and every locale home, so it names the site in English and
+ * lists the zh name (zh pages' og:site_name) as an alternate.
+ */
+export function websiteJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${SITE_URL}/#website`,
-    name: appName,
-    // The site's name until October 2026, so a search for it still finds the site.
-    alternateName: ["Meanwhile"],
+    name: enCommon.appName,
+    // "Meanwhile" was the site's name until October 2026, so a search for it still finds the site.
+    alternateName: [zhCommon.appName, "Meanwhile"],
     url: `${SITE_URL}/`,
     inLanguage: LOCALES.map((l) => HTML_LANG[l]),
   };

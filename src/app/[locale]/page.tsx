@@ -52,14 +52,20 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const dated = cultures.map((c) => ({ id: c.id, name: c.name, period: defaultPeriod(c) }));
   const records = RECORD_KINDS.map((kind) => ({ kind, holder: recordHolder(kind, dated) }));
   const regions = regionsIn(cultures);
-  // English's app name on every locale home, so the block is identical to the one on "/".
-  const siteName = (await getTranslations({ locale: DEFAULT_LOCALE, namespace: "common" }))("appName");
+  const appName = tCommon("appName");
+  // A language that names the site its own way (zh 同时代) shows the English name too, so it matches the domain.
+  const englishName = (await getTranslations({ locale: DEFAULT_LOCALE, namespace: "common" }))("appName");
 
   return (
     <div className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-6">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteJsonLd(siteName)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteJsonLd()) }} />
       <header className="flex flex-col gap-1 text-center">
-        <h1 className="text-2xl font-semibold tracking-tight">{tCommon("appName")}</h1>
+        <h1 className="text-2xl font-semibold tracking-tight">{appName}</h1>
+        {appName !== englishName && (
+          <p lang="en" className="text-sm text-muted-foreground">
+            {englishName}
+          </p>
+        )}
         <p className="text-sm text-muted-foreground">{tCommon("tagline")}</p>
       </header>
 

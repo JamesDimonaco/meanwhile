@@ -26,16 +26,16 @@ describe("pageAlternates", () => {
 
 describe("websiteJsonLd", () => {
   // The domain root's WebSite block is the one Google reads for the site name above each result.
-  it("names the site after the app and points at the site root", () => {
-    const site = websiteJsonLd("Who Was When");
+  it("names the site after the English app name and points at the site root", () => {
+    const site = websiteJsonLd();
     expect(site.name).toBe("Who Was When");
     expect(site.url).toBe(`${SITE_URL}/`);
     expect(site["@id"]).toBe(`${SITE_URL}/#website`);
   });
 
-  // The site was called Meanwhile until October 2026.
-  it("keeps the old name as an alternate, so a search for it still finds the site", () => {
-    expect(websiteJsonLd("Who Was When").alternateName).toEqual(["Meanwhile"]);
+  // zh pages call the site 同时代 (og:site_name); the site was called Meanwhile until October 2026.
+  it("lists the Chinese name and the old name as alternates, so either finds the site", () => {
+    expect(websiteJsonLd().alternateName).toEqual(["同时代", "Meanwhile"]);
   });
 });
 
