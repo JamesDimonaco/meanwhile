@@ -130,10 +130,9 @@ export function toTerms({
 
 // A half-typed word gets the same budget only from five letters: at four, "meri" would find Mexico.
 const HALF_TYPED_FUZZ_FROM = 5;
-
 const INSIDE_FROM = 3;
 
-// Lower is better. Every real hit beats every typo.
+// Lower is better. On a seen term, every real hit beats every typo.
 const EXACT = 0;
 const PREFIX = 1;
 const WORD_START = 2;
@@ -300,9 +299,9 @@ function best(terms: readonly Term[], score: (t: Term) => number | null): number
 
 /**
  * Items whose terms match the query, best first: exact; then hits on a name
- * the reader sees (prefix, a word starting with it, CJK anywhere inside,
- * then typos); then hits on terms they don't see, which count only from the
- * term's start and with one edit at most. When something matched exactly,
+ * the reader sees (prefix, a word starting with it, CJK or an `inside` term
+ * anywhere inside, then typos); then hits on terms they don't see, which
+ * count only from the term's start and with one edit at most. When something matched exactly,
  * typos are dropped, so a correct "Iran" doesn't bring Iraq; when something
  * else matched for real, only typos of a name the reader sees stay, so
  * "korea" doesn't bring a war through its battle "Koregaon".
