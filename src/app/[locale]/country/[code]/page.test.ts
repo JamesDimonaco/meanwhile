@@ -71,8 +71,14 @@ describe("the title and meta description", () => {
     expect(await text("en", "title", 0, 2)).toBe("Wars in X: a timeline");
     expect(await text("en", "title", 1, 0)).toBe("X: timeline of civilisations");
     expect(await text("en", "title", 2, 3)).toBe("X: timeline of civilisations and wars");
-    expect(await text("zh", "title", 0, 2)).toBe("X战争时间线");
+    expect(await text("zh", "title", 0, 2)).toBe("X的战争时间线");
     expect(await text("es", "title", 2, 3)).toBe("Cronología de X: civilizaciones y guerras");
+  });
+
+  // "越南" + "战争" reads as 越南战争, the Vietnam War's zh title, which the review gate keeps out of zh.
+  it("never runs a zh country name into 战争, which would spell a war's title", async () => {
+    const title = createTranslator({ locale: "zh", messages: await loadMessages("zh") })("country.title", { country: "越南", cultures: 0, wars: 2 });
+    expect(title).not.toContain("越南战争");
   });
 
   // A one-item page's generic sentence was 17 to 39 characters: it names its item instead.
