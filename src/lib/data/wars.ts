@@ -71,17 +71,24 @@ export function warsForCulture(wars: readonly War[], cultureId: string): War[] {
   return wars.filter((w) => w.cultures.includes(cultureId)).sort(oldestFirst);
 }
 
-/** `terms`: countryTerms, so a search in any language finds the country. */
-export type CountryEntry = { code: string; name: string; terms: string[]; continent: Continent; count: number };
+/** `name`, `english` and `terms`: countrySearchNames, so a search in any language finds the country. */
+export type CountryEntry = CountrySearchNames & { code: string; continent: Continent; count: number };
 
 /** A present-day country's name in the page's language, from its ISO code. */
 export function countryName(code: string, locale: Locale): string {
   return new Intl.DisplayNames([locale], { type: "region" }).of(code) ?? code;
 }
 
-/** What a search finds a country by, whatever the page's language: its code, its name in every language, and what people call it. */
-export function countryTerms(code: string): string[] {
-  return [code, ...LOCALES.map((l) => countryName(code, l)), ...(COUNTRY_ALIASES[code] ?? [])];
+/** A country as search sees it on a page in one language: the name there, the English name, and everything else it is found by. */
+export type CountrySearchNames = { name: string; english: string; terms: string[] };
+
+/** `terms`: the code, its names in the languages that are neither the page's nor English, and what people call it. */
+export function countrySearchNames(code: string, locale: Locale): CountrySearchNames {
+  return {
+    name: countryName(code, locale),
+    english: countryName(code, "en"),
+    terms: [code, ...LOCALES.filter((l) => l !== "en" && l !== locale).map((l) => countryName(code, l)), ...(COUNTRY_ALIASES[code] ?? [])],
+  };
 }
 
 /**
@@ -102,8 +109,7 @@ export function countryIndex(wars: readonly War[], locale: Locale): CountryEntry
   return warCountryCodes(wars)
     .map((code) => ({
       code,
-      name: countryName(code, locale),
-      terms: countryTerms(code),
+      ...countrySearchNames(code, locale),
       continent: UN_MEMBERS[code],
       count: wars.filter((w) => warCountryCodes([w]).includes(code)).length,
     }))

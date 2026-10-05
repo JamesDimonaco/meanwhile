@@ -6,8 +6,8 @@ import { defaultPeriod } from "@/lib/data/queries";
 import { localize } from "@/lib/data/localize";
 import type { War } from "@/lib/data/war-schema";
 import { NEVER_SHOWN, UN_MEMBERS } from "@/lib/data/countries";
-import { countryName, countryTerms, warSpan, warsShownIn, type WarSpan } from "@/lib/data/wars";
-import { rank, toTerms, type Ranked, type Term } from "./match";
+import { countrySearchNames, warSpan, warsShownIn, type CountrySearchNames, type WarSpan } from "@/lib/data/wars";
+import { isPinyin, rank, toTerms, type Ranked, type Term } from "./match";
 
 /** The two numbers pages show as a range; nothing search doesn't use. */
 export type SearchYearRange = { latestStart: number; earliestEnd: number };
@@ -34,31 +34,26 @@ export function toSearchEntry(culture: Culture): SearchEntry {
   };
 }
 
-function cultureTerms(entry: SearchEntry): string[] {
-  const names = [entry.name.en, entry.name.es, entry.name.zh].filter((s): s is string => Boolean(s));
-  const native = entry.nativeName ? [entry.nativeName.text] : [];
-  return [...names, ...native, ...entry.aliases, entry.id.replace(/-/g, " ")];
-}
-
 /** What search matches a war on and what a hit shows, in the page's language: no account, sides or sources. */
-export type WarSearchEntry = { id: string; name: string; terms: string[]; span: WarSpan };
+export type WarSearchEntry = { id: string; name: string; english: string; terms: string[]; span: WarSpan };
 
 /** The wars a page in this language may search: the review gate decides, so a hidden war never reaches the payload. */
 export function warSearchEntries(wars: readonly War[], locale: Locale): WarSearchEntry[] {
   return warsShownIn(wars, locale).map((w) => ({
     id: w.id,
     name: localize(w.name, locale),
-    terms: [w.name.en, w.name.es, w.name.zh, ...w.aliases, ...w.altNames.map((a) => a.text)],
+    english: w.name.en,
+    terms: [...LOCALES.filter((l) => l !== "en" && l !== locale).map((l) => w.name[l]), ...w.aliases, ...w.altNames.map((a) => a.text)],
     span: warSpan(w),
   }));
 }
 
 /** A country with a page, named in the page's language: what a hit shows and what it is found by. */
-export type CountrySearchEntry = { code: string; name: string; terms: string[] };
+export type CountrySearchEntry = CountrySearchNames & { code: string };
 
 /** Pass the codes with a page in this language (countryCodes), so a hit never links to a missing page. */
 export function countrySearchEntries(codes: readonly string[], locale: Locale): CountrySearchEntry[] {
-  return codes.map((code) => ({ code, name: countryName(code, locale), terms: countryTerms(code) }));
+  return codes.map((code) => ({ code, ...countrySearchNames(code, locale) }));
 }
 
 export type SearchHit =
@@ -77,7 +72,7 @@ function unlistedCountries(listed: readonly CountrySearchEntry[]): Term[] {
   const shown = new Set(listed.map((c) => c.code));
   const names = LOCALES.map((l) => new Intl.DisplayNames([l], { type: "region" }));
   const codes = [...Object.keys(UN_MEMBERS), ...NEVER_SHOWN].filter((code) => !shown.has(code));
-  return toTerms([], codes.flatMap((code) => names.map((n) => n.of(code) ?? code)));
+  return toTerms({ shown: codes.flatMap((code) => names.map((n) => n.of(code) ?? code)) });
 }
 
 /**
@@ -97,14 +92,21 @@ export function searchIndex({
   cultures?: readonly SearchEntry[];
   wars?: readonly WarSearchEntry[];
 }): SearchIndex {
-  const cultureShown = (c: SearchEntry) => [localize(c.name, locale), ...(c.nativeName ? [c.nativeName.text] : [])];
+  // A reader typing Latin letters knows the English name, and a Chinese civilisation's pinyin.
+  const cultureTerms = (c: SearchEntry) =>
+    toTerms({
+      shown: [localize(c.name, locale), ...(c.nativeName ? [c.nativeName.text] : [])],
+      latin: [c.name.en, ...(c.nativeName?.lang.startsWith("zh") ? c.aliases.filter(isPinyin) : [])],
+      other: [c.name.es, c.name.zh, ...c.aliases, c.id.replace(/-/g, " ")].filter((s): s is string => Boolean(s)),
+    });
+  const terms = (entry: { name: string; english: string; terms: readonly string[] }) => toTerms({ shown: [entry.name], latin: [entry.english], other: entry.terms });
   return {
     items: [
-      ...[...countries].sort(byKey((c) => c.code)).map((entry) => ({ item: { type: "country" as const, entry }, terms: toTerms([entry.name], entry.terms) })),
+      ...[...countries].sort(byKey((c) => c.code)).map((entry) => ({ item: { type: "country" as const, entry }, terms: terms(entry) })),
       ...[...cultures]
         .sort(byKey((c) => c.id))
-        .map((entry) => ({ item: { type: "culture" as const, entry }, terms: toTerms(cultureShown(entry), cultureTerms(entry)) })),
-      ...[...wars].sort(byKey((w) => w.id)).map((entry) => ({ item: { type: "war" as const, entry }, terms: toTerms([entry.name], entry.terms) })),
+        .map((entry) => ({ item: { type: "culture" as const, entry }, terms: cultureTerms(entry) })),
+      ...[...wars].sort(byKey((w) => w.id)).map((entry) => ({ item: { type: "war" as const, entry }, terms: terms(entry) })),
     ],
     unlisted: unlistedCountries(countries),
   };

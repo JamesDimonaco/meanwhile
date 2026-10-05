@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { rank, toTerms } from "./match";
+import { isPinyin, rank, toTerms } from "./match";
 
 /** Each name is its own item with that one shown term, so a test reads as "query against these names". */
-const find = (query: string, names: readonly string[]) => rank(query, names.map((n) => ({ item: n, terms: toTerms([n]) })));
+const find = (query: string, names: readonly string[]) => rank(query, names.map((n) => ({ item: n, terms: toTerms({ shown: [n] }) })));
 
 describe("rank: real matches", () => {
   it("returns nothing for a blank query", () => {
@@ -30,8 +30,8 @@ describe("rank: real matches", () => {
   it("ranks any hit on the name the reader sees, short of exact, above one on a term they don't", () => {
     // "inc" put the Korean War, through its alias "Inchon", above the conquest of the Inca Empire.
     const items = [
-      { item: "Korean War", terms: toTerms(["Korean War"], ["Inchon"]) },
-      { item: "Conquest of the Inca Empire", terms: toTerms(["Conquest of the Inca Empire"]) },
+      { item: "Korean War", terms: toTerms({ shown: ["Korean War"], other: ["Inchon"] }) },
+      { item: "Conquest of the Inca Empire", terms: toTerms({ shown: ["Conquest of the Inca Empire"] }) },
     ];
     expect(rank("inc", items)).toEqual(["Conquest of the Inca Empire", "Korean War"]);
     expect(rank("korea", items)).toEqual(["Korean War"]);
@@ -69,9 +69,9 @@ describe("rank: real matches", () => {
   it("matches a one- or two-letter query against the shown name, and other terms only whole", () => {
     // On an English page "de" found Korea through "Corea del Norte", which the reader never sees.
     const items = [
-      { item: "KP", terms: toTerms(["North Korea"], ["KP", "Corea del Norte"]) },
-      { item: "DK", terms: toTerms(["Denmark"], ["DK", "Dinamarca"]) },
-      { item: "DE", terms: toTerms(["Germany"], ["DE", "Alemania"]) },
+      { item: "KP", terms: toTerms({ shown: ["North Korea"], other: ["KP", "Corea del Norte"] }) },
+      { item: "DK", terms: toTerms({ shown: ["Denmark"], other: ["DK", "Dinamarca"] }) },
+      { item: "DE", terms: toTerms({ shown: ["Germany"], other: ["DE", "Alemania"] }) },
     ];
     expect(rank("de", items)).toEqual(["DE", "DK"]);
     expect(rank("co", items)).toEqual([]);
@@ -81,6 +81,54 @@ describe("rank: real matches", () => {
   it("matches a one- or two-letter query only at the start of a word, never inside one", () => {
     expect(find("in", ["Argentina", "War in Afghanistan", "India"])).toEqual(["India", "War in Afghanistan"]);
     expect(find("ma", ["Denmark", "Maya"])).toEqual(["Maya"]);
+  });
+});
+
+describe("rank: names the reader sees come first", () => {
+  const korean = { item: "Korean War", terms: toTerms({ shown: ["Korean War"], other: ["Chinese People's Volunteer Army", "Inchon"] }) };
+  const china = { item: "China", terms: toTerms({ shown: ["China"] }) };
+
+  it("finds a term the reader doesn't see by its start, never by a word inside it", () => {
+    expect(rank("chinese", [korean])).toEqual(["Korean War"]);
+    expect(rank("volunteer", [korean])).toEqual([]);
+  });
+
+  it("ranks a one-edit typo of a name the reader sees above any hit on a term they don't, short of exact", () => {
+    // "chine" put the Korean War first, through "Chinese People's Volunteer Army".
+    expect(rank("chine", [korean, china])).toEqual(["China", "Korean War"]);
+    expect(rank("inchon", [korean, china])).toEqual(["Korean War"]);
+  });
+
+  it("gives a term the reader doesn't see one edit at most, from its start, with no allowance for vowels", () => {
+    const poland = { item: "Poland", terms: toTerms({ shown: ["Poland"], other: ["Polonia"] }) };
+    expect(rank("polonai", [poland])).toEqual(["Poland"]);
+    // Two edits: "colonial" found Poland through "Polonia".
+    expect(rank("colonial", [poland])).toEqual([]);
+    expect(rank("pulonea", [poland])).toEqual([]);
+    // Consonants alike: "russian" found the Etruscans through "Rasenna".
+    expect(rank("russian", [{ item: "Etruscans", terms: toTerms({ shown: ["Etruscan civilization"], other: ["Rasenna"] }) }])).toEqual([]);
+    // A word inside: "polaco" found the Second Opium War through "Old Summer Palace".
+    expect(rank("palce", [{ item: "Second Opium War", terms: toTerms({ shown: ["Second Opium War"], other: ["Old Summer Palace"] }) }])).toEqual([]);
+  });
+
+  it("counts the English name as seen when the query is in Latin letters", () => {
+    // On a Chinese page the rows show 中国 and 第一次鸦片战争; "chine" found only the war, through "Anglo-Chinese War".
+    const zhChina = { item: "China", terms: toTerms({ shown: ["中国"], latin: ["China"] }) };
+    const zhOpium = { item: "First Opium War", terms: toTerms({ shown: ["第一次鸦片战争"], latin: ["First Opium War"], other: ["Anglo-Chinese War"] }) };
+    expect(rank("chine", [zhOpium, zhChina])).toEqual(["China"]);
+    expect(rank("opium", [zhOpium, zhChina])).toEqual(["First Opium War"]);
+    // One or two letters still search only the name on the row.
+    expect(rank("ch", [zhOpium, zhChina])).toEqual([]);
+  });
+});
+
+describe("isPinyin", () => {
+  it("is true when every word splits into pinyin syllables, tone marks or not", () => {
+    for (const text of ["Zhongguo", "Hàn cháo", "luoma", "gu aiji", "Wei Shu Wu", "Erlitou", "Xiongnu", "Qīng cháo"]) expect(isPinyin(text), text).toBe(true);
+  });
+
+  it("is false for other names", () => {
+    for (const text of ["Manchu dynasty", "Inca", "Rome", "Koregaon", "Daicing Gurun", "Ch'ing", "Deutschland", "中国", "1453"]) expect(isPinyin(text), text).toBe(false);
   });
 });
 
@@ -101,6 +149,8 @@ describe("rank: typos", () => {
     expect(find("rusia", ["Ruso"])).toEqual([]);
     expect(find("fransia", ["Faraones"])).toEqual([]);
     expect(find("chna", ["Chin"])).toEqual([]);
+    // Both words from five letters: "chine" found the Spring and Autumn period through "Chun Qiu".
+    expect(find("chine", ["Chun Qiu"])).toEqual([]);
     // One edit over, not two.
     expect(find("spane", ["Speoine"])).toEqual([]);
     // The first letter counts even when it is a vowel: past it, "oztic" has Aztec's consonants, but starts differently.
@@ -186,11 +236,11 @@ describe("rank: typos", () => {
   });
 
   it("keeps only typos of a name the reader sees when something else matched for real", () => {
-    const maratha = { item: "Third Anglo-Maratha War", terms: toTerms(["Third Anglo-Maratha War"], ["Koregaon"]) };
-    const korea = [maratha, { item: "North Korea", terms: toTerms(["North Korea"]) }];
+    const maratha = { item: "Third Anglo-Maratha War", terms: toTerms({ shown: ["Third Anglo-Maratha War"], other: ["Koregaon"] }) };
+    const korea = [maratha, { item: "North Korea", terms: toTerms({ shown: ["North Korea"] }) }];
     expect(rank("korea", korea)).toEqual(["North Korea"]);
     expect(rank("koregoan", [maratha])).toEqual(["Third Anglo-Maratha War"]);
-    expect(rank("korean", [{ item: "Korean War", terms: toTerms(["Korean War"]) }, ...korea])).toEqual(["Korean War", "North Korea"]);
+    expect(rank("korean", [{ item: "Korean War", terms: toTerms({ shown: ["Korean War"] }) }, ...korea])).toEqual(["Korean War", "North Korea"]);
   });
 
   it("never fuzzes CJK or digits", () => {
@@ -199,8 +249,8 @@ describe("rank: typos", () => {
   });
 
   it("counts the name of a place the site doesn't list as a match it never returns", () => {
-    const thailand = [{ item: "Thailand", terms: toTerms(["Thailand"], ["Tailandia"]) }];
-    const unlisted = toTerms([], ["Taiwan"]);
+    const thailand = [{ item: "Thailand", terms: toTerms({ shown: ["Thailand"], other: ["Tailandia"] }) }];
+    const unlisted = toTerms({ shown: ["Taiwan"] });
     expect(rank("taiwan", thailand, unlisted)).toEqual([]);
     expect(rank("taiwa", thailand, unlisted)).toEqual([]);
     expect(rank("tailanda", thailand, unlisted)).toEqual(["Thailand"]);

@@ -205,6 +205,42 @@ describe("misspellings people type, against the real data", () => {
   });
 });
 
+describe("names the reader sees, against the real data", () => {
+  it.each<Locale>(["en", "es", "zh"])("%s: a typo of a country's name finds it first, whatever the page's language", (locale) => {
+    // Through words inside other names: "Anglo-Chinese War", "Invasión rusa de Ucrania".
+    expect(labels("chine", locale)[0]).toBe("country:CN");
+    expect(labels("russa", locale)[0]).toBe("country:RU");
+    expect(labels("greeco", locale)).toContain("country:GR");
+  });
+
+  it("finds the country, not only what a hidden word inside another name starts", () => {
+    expect(labels("mongola", "en")[0]).toBe("country:MN");
+    for (const locale of ["en", "zh"] as const) expect(labels("germani", locale)).toContain("country:DE");
+    for (const locale of ["es", "zh"] as const) expect(labels("spani", locale)).toContain("country:ES");
+  });
+
+  it("counts a Chinese civilisation's pinyin as seen, so it forgives two edits", () => {
+    // "Chunqiu" is the Spring and Autumn period's pinyin; its name on the row is 春秋时期 or an English one.
+    expect(labels("chunquio", "zh")[0]).toBe("culture:spring-and-autumn");
+  });
+
+  it("asks only a Chinese civilisation's aliases whether they are pinyin", () => {
+    // "Tula", "Nile" and "luoma" split into pinyin syllables too, as do "Taliban" and "Tailandia".
+    const seenIn = (id: string) => indexes.en.items.find((r) => r.item.type === "culture" && r.item.entry.id === id)?.terms.filter((t) => t.seen === "latin").map((t) => t.text);
+    // On an English page the English name is shown, so only pinyin is left to be seen in Latin letters.
+    expect(seenIn("toltec")).toEqual([]);
+    expect(seenIn("rome")).toEqual([]);
+    expect(seenIn("three-kingdoms")).toEqual(expect.arrayContaining(["sanguo", "san guo"]));
+  });
+
+  it("brings nothing through two edits or a vowel allowance on a name the reader never sees", () => {
+    expect(labels("polaco", "es")).not.toContain("war:second-opium-war");
+    for (const unrelated of ["country:TH", "war:war-in-afghanistan-2001", "culture:aztec", "war:world-war-ii"]) expect(labels("italian", "en")).not.toContain(unrelated);
+    expect(labels("colonial", "en")).not.toContain("country:PL");
+    expect(labels("russian", "zh")).not.toContain("culture:etruscan");
+  });
+});
+
 describe("false positives", () => {
   const termsOf = (locale: Locale, hit: SearchHit) => indexes[locale].items.find((r) => r.item === hit)?.terms.map((t) => t.text) ?? [];
   const hitsWhoseTerms = (query: string, test: (term: string) => boolean) =>

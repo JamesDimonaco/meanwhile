@@ -92,7 +92,7 @@ describe("countryIndex", () => {
 
   it("lets a country be found by its code or its name in any language, whatever the page's language", () => {
     const mexico = countryIndex([war("one", 1519)], "zh").find((c) => c.code === "MX");
-    expect(mexico?.terms).toEqual(["MX", "Mexico", "México", "墨西哥"]);
+    expect(mexico).toMatchObject({ name: "墨西哥", english: "Mexico", terms: ["MX", "México"] });
   });
 });
 

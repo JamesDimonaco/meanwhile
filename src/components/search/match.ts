@@ -17,9 +17,14 @@ const NOT_WORD = /[^\p{L}\p{N}]+/u;
 const NO_FUZZ = /[\p{N}\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]/u;
 // CJK has no spaces between words, so it is the one script matched anywhere inside a name.
 const CJK = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]/u;
+const LATIN = /\p{Script=Latin}/u;
 
+const MAX_EDITS = 2;
 /** Edits a typed word may hold: none up to three letters, where one edit makes a different word. */
-const budget = (length: number) => (length < 4 ? 0 : length < 7 ? 1 : 2);
+const budget = (length: number) => (length < 4 ? 0 : length < 7 ? 1 : MAX_EDITS);
+// On a term the reader never sees, a second edit or the vowel allowance below
+// finds what they can't explain: "colonial" is two edits from "Polonia".
+const HIDDEN_EDITS = 1;
 
 // Doubled letters and "ph" for "f" are the commonest dyslexic misspellings
 // (chinna, peloponesian, fillipines); folding both sides makes them free.
@@ -33,12 +38,38 @@ function fold(word: string): string {
 // whose consonants all agree, in order, may hold one edit over its budget
 // and still cost no more than the budget.
 const skeleton = (folded: string) => folded[0] + folded.slice(1).replace(/[aeiouy]/g, "");
-// From five letters, with at least three consonants to agree: "sung" is not "Sanguo", nor "rusia" "ruso".
+// Both words from five letters, with at least three consonants to agree: "sung" is not "Sanguo", "rusia" not "ruso", "chine" not "chun".
 const SKELETON_FROM = 5;
 const SKELETON_MIN = 3;
 
-/** A search term, normalized and split into words once, when the index is built. */
-export type Term = {
+// Toneless pinyin syllables by initial, ü written u; a few the language lacks get through.
+const PINYIN = new RegExp(
+  `^(?:${[
+    "[bpm](?:a|ai|an|ang|ao|ei|en|eng|i|ian|iao|ie|in|ing|iu|o|ou|u)",
+    "f(?:a|an|ang|ei|en|eng|o|ou|u)",
+    "[dtnl](?:a|ai|an|ang|ao|e|ei|en|eng|i|ia|ian|iang|iao|ie|in|ing|iu|o|ong|ou|u|uan|ue|ui|un|uo)",
+    "[gkh](?:a|ai|an|ang|ao|e|ei|en|eng|ong|ou|u|ua|uai|uan|uang|ui|un|uo)",
+    "[jqx](?:i|ia|ian|iang|iao|ie|in|ing|iong|iu|u|uan|ue|un)",
+    "[zcs]h?(?:a|ai|an|ang|ao|e|ei|en|eng|i|ong|ou|u|ua|uai|uan|uang|ui|un|uo)",
+    "r(?:an|ang|ao|e|en|eng|i|ong|ou|u|ua|uan|ui|un|uo)",
+    "y(?:a|an|ang|ao|e|i|in|ing|o|ong|ou|u|uan|ue|un)",
+    "w(?:a|ai|an|ang|ei|en|eng|o|u)",
+    "a|ai|an|ang|ao|e|ei|en|eng|er|o|ou",
+  ].join("|")})+$`,
+);
+
+/**
+ * Text whose every word splits into pinyin syllables ("Zhongguo", "Hàn
+ * cháo"). Plenty of other names split too ("Taliban", "Tailandia"), so ask
+ * only of names already known to be Chinese.
+ */
+export function isPinyin(text: string): boolean {
+  const words = normalize(text).split(NOT_WORD).filter(Boolean);
+  return words.length > 0 && words.every((w) => PINYIN.test(w));
+}
+
+/** A text normalized and split into words, the forms a query and a term are compared in. */
+type Forms = {
   text: string;
   words: readonly string[];
   folded: readonly string[];
@@ -47,25 +78,40 @@ export type Term = {
   /** The words run together: "viet nam", "Ch'ing". */
   squashed: string;
   skeletons: readonly string[];
-  /** The name the reader sees on the result, the only term a one- or two-letter query searches. */
-  shown: boolean;
 };
 
-function toTerm(text: string, shown: boolean): Term {
+function toForms(text: string): Forms {
   const words = text.split(NOT_WORD).filter(Boolean);
   const folded = words.map(fold);
-  return { text, words, folded, foldedText: folded.join(" "), squashed: words.join(""), skeletons: folded.map(skeleton), shown };
+  return { text, words, folded, foldedText: folded.join(" "), squashed: words.join(""), skeletons: folded.map(skeleton) };
 }
 
-/** The names a result shows, then everything else it is found by; a term in both is shown. */
-export function toTerms(shown: readonly string[], other: readonly string[] = []): Term[] {
-  const seen = new Set<string>();
-  return [...shown.map((r) => [r, true] as const), ...other.map((r) => [r, false] as const)].flatMap(([r, isShown]) => {
-    const text = normalize(r);
-    if (!text || seen.has(text)) return [];
-    seen.add(text);
-    return [toTerm(text, isShown)];
-  });
+/**
+ * Who sees a term: "shown" is the name on the result in the page's language;
+ * "latin" is seen by a reader typing Latin letters, who knows the English
+ * name or the pinyin; "hidden" is everything else (other languages, aliases).
+ */
+type Seen = "shown" | "latin" | "hidden";
+
+/** A search term, prepared once, when the index is built. */
+export type Term = Forms & { seen: Seen };
+
+/** The names a result shows, the names seen in Latin letters, then everything else it is found by; a term in two is the first. */
+export function toTerms({ shown, latin = [], other = [] }: { shown: readonly string[]; latin?: readonly string[]; other?: readonly string[] }): Term[] {
+  const done = new Set<string>();
+  const tiers = [
+    [shown, "shown"],
+    [latin, "latin"],
+    [other, "hidden"],
+  ] as const;
+  return tiers.flatMap(([raws, seen]) =>
+    raws.flatMap((raw) => {
+      const text = normalize(raw);
+      if (!text || done.has(text)) return [];
+      done.add(text);
+      return [{ ...toForms(text), seen }];
+    }),
+  );
 }
 
 // A half-typed word gets the same budget only from five letters: at four, "meri" would find Mexico.
@@ -76,10 +122,7 @@ const EXACT = 0;
 const PREFIX = 1;
 const WORD_START = 2;
 const INSIDE = 3;
-// Past an exact hit, any hit on the name the reader sees beats one on a term
-// they don't: "inc" finds the conquest of the Inca Empire before the Korean War's "Inchon".
-const UNSEEN = INSIDE;
-const FUZZY = INSIDE + UNSEEN + 1;
+const FUZZY = INSIDE + 1;
 // Within typos, fewer edits first; at equal edits, the whole name, then a word in it or a half-typed word alike.
 const WHOLE = 0;
 const PART = 1;
@@ -119,91 +162,108 @@ function distance(a: string, b: string, max: number, prefix: boolean): number {
   return d <= max ? d : Infinity;
 }
 
-type Query = {
-  text: string;
-  words: readonly string[];
-  folded: readonly string[];
-  foldedText: string;
-  squashed: string;
-  skeletons: readonly string[];
+type Query = Forms & {
   /** One or two Latin letters: only the shown name is searched, other terms only whole. */
   short: boolean;
+  /** Typed in Latin letters, so the English name and pinyin are seen. */
+  latin: boolean;
+  /** Added to any hit on a term the reader doesn't see, short of exact: more than any seen hit can score. */
+  unseen: number;
 };
+
+function toQuery(text: string): Query {
+  const forms = toForms(text);
+  return {
+    ...forms,
+    short: text.length < 3 && !CJK.test(text),
+    latin: LATIN.test(text),
+    unseen: FUZZY + (MAX_EDITS * forms.words.length + 1) * KINDS,
+  };
+}
+
+const sees = (q: Query, t: Term) => t.seen === "shown" || (t.seen === "latin" && q.latin);
 
 /**
  * Edits a typed word may hold against a word of a name; a half-typed one gets
  * them only from HALF_TYPED_FUZZ_FROM letters. The shorter of the two words
  * sets the budget: two edits turn "otomanos" into "otoños".
  */
-const allowed = (word: string, against: string, prefix: boolean) =>
-  NO_FUZZ.test(word) || (prefix && word.length < HALF_TYPED_FUZZ_FROM) ? 0 : budget(Math.min(word.length, against.length));
+const allowed = (word: string, against: string, prefix: boolean, seen: boolean) =>
+  NO_FUZZ.test(word) || (prefix && word.length < HALF_TYPED_FUZZ_FROM) ? 0 : Math.min(budget(Math.min(word.length, against.length)), seen ? MAX_EDITS : HIDDEN_EDITS);
 
 function edits(a: string, b: string, max: number, prefix: boolean): number {
   if (max === 0) return (prefix ? b.startsWith(a) : a === b) ? 0 : Infinity;
   return distance(a, b, max, prefix);
 }
 
-function wordEdits(q: Query, t: Term, i: number, at: number, prefix: boolean): number {
+function wordEdits(q: Query, t: Term, i: number, at: number, prefix: boolean, seen: boolean): number {
   const word = q.words[i];
-  const max = allowed(word, t.words[at], prefix);
+  const max = allowed(word, t.words[at], prefix, seen);
   const raw = edits(word, t.words[at], max, prefix);
   if (raw === 0 || budget(word.length) === 0) return raw;
   const unfolded = q.folded[i] === word && t.folded[at] === t.words[at];
   // The folded word's own length sets its budget: "hann" folds to "han", which may not become "san".
-  const folded = unfolded ? raw : Math.min(raw, edits(q.folded[i], t.folded[at], allowed(q.folded[i], t.folded[at], prefix), prefix));
-  if (folded !== Infinity || prefix || word.length < SKELETON_FROM) return folded;
+  const folded = unfolded ? raw : Math.min(raw, edits(q.folded[i], t.folded[at], allowed(q.folded[i], t.folded[at], prefix, seen), prefix));
+  if (!seen || folded !== Infinity || prefix || Math.min(word.length, t.words[at].length) < SKELETON_FROM) return folded;
   if (q.skeletons[i].length < SKELETON_MIN || q.skeletons[i] !== t.skeletons[at]) return Infinity;
   // Counted as the whole budget, so a vowel-swap like "spane" ranks Spain above a half-typed "Spanish".
   return edits(q.folded[i], t.folded[at], max + 1, false) === Infinity ? Infinity : max;
 }
 
-/** The query's words against a run of the term's words, in order; the last may be half typed. */
+/**
+ * The query's words against a run of the term's words, in order; the last
+ * may be half typed. A term the reader doesn't see is matched only from its
+ * start, with one edit in all.
+ */
 function typoScore(q: Query, t: Term): number | null {
+  const seen = sees(q, t);
   const n = q.words.length;
+  const last = seen ? t.words.length - n : Math.min(0, t.words.length - n);
   let best: number | null = null;
-  for (let start = 0; start + n <= t.words.length; start++) {
+  for (let start = 0; start <= last; start++) {
     let edits = 0;
     let kind = start === 0 && n === t.words.length ? WHOLE : PART;
     for (let i = 0; i < n && edits !== Infinity; i++) {
-      let d = wordEdits(q, t, i, start + i, false);
+      let d = wordEdits(q, t, i, start + i, false, seen);
       if (i === n - 1) {
-        const half = wordEdits(q, t, i, start + i, true);
+        const half = wordEdits(q, t, i, start + i, true, seen);
         if (half < d) [d, kind] = [half, PART];
       }
       edits += d;
     }
-    if (edits !== Infinity) {
-      const score = FUZZY + edits * KINDS + kind;
+    if (edits !== Infinity && (seen || edits <= HIDDEN_EDITS)) {
+      const score = FUZZY + edits * KINDS + kind + (seen ? 0 : q.unseen);
       if (best === null || score < best) best = score;
     }
   }
   return best;
 }
 
-/** Exact, prefix or a word starting with `q` in `t`; CJK anywhere. */
-function textScore(q: string, t: string): number | null {
+/** Exact or prefix; on a term the reader sees, a word starting with `q` too; CJK anywhere. */
+function textScore(q: string, t: string, seen: boolean): number | null {
   if (t === q) return EXACT;
   if (t.startsWith(q)) return PREFIX;
   let inside = false;
   for (let at = t.indexOf(q, 1); at !== -1; at = t.indexOf(q, at + 1)) {
-    if (NOT_WORD.test(t[at - 1])) return WORD_START;
+    if (seen && NOT_WORD.test(t[at - 1])) return WORD_START;
     inside = true;
   }
   return inside && CJK.test(q) ? INSIDE : null;
 }
 
 function realScore(q: Query, t: Term): number | null {
-  const score = kindOf(q, t);
-  return score === null || score === EXACT || t.shown ? score : score + UNSEEN;
+  if (q.short && t.seen !== "shown") return t.text === q.text ? EXACT : null;
+  const seen = sees(q, t);
+  const score = kindOf(q, t, seen);
+  return score === null || score === EXACT || seen ? score : score + q.unseen;
 }
 
-function kindOf(q: Query, t: Term): number | null {
-  if (q.short && !t.shown) return t.text === q.text ? EXACT : null;
-  const typed = textScore(q.text, t.text);
+function kindOf(q: Query, t: Term, seen: boolean): number | null {
+  const typed = textScore(q.text, t.text, seen);
   if (typed !== null || budget(q.text.length) === 0) return typed;
   // Doubled letters free ("hann" is "han"), and words split or joined
   // differently ("viet nam", "qingchao"), score as if typed right.
-  const folded = textScore(q.foldedText, t.foldedText);
+  const folded = textScore(q.foldedText, t.foldedText, seen);
   if (folded !== null) return folded;
   if (t.squashed === q.squashed) return EXACT;
   return q.words.length > 1 && t.squashed.startsWith(q.squashed) ? PREFIX : null;
@@ -222,12 +282,13 @@ function best(terms: readonly Term[], score: (t: Term) => number | null): number
 }
 
 /**
- * Items whose terms match the query, best first: exact; prefix, a word
- * starting with it, CJK anywhere inside, first in the name the reader sees
- * and then in other terms; then typos. When something matched
- * exactly, typos are dropped, so a correct "Iran" doesn't bring Iraq; when
- * something else matched for real, only typos of a name the reader sees
- * stay, so "korea" doesn't bring a war through its battle "Koregaon".
+ * Items whose terms match the query, best first: exact; then hits on a name
+ * the reader sees (prefix, a word starting with it, CJK anywhere inside,
+ * then typos); then hits on terms they don't see, which count only from the
+ * term's start and with one edit at most. When something matched exactly,
+ * typos are dropped, so a correct "Iran" doesn't bring Iraq; when something
+ * else matched for real, only typos of a name the reader sees stay, so
+ * "korea" doesn't bring a war through its battle "Koregaon".
  * `unlisted` names places the site has no page for: a query that matches one
  * gets no typos, so "Taiwan" finds nothing rather than Thailand. Equal scores
  * keep the items' order.
@@ -235,24 +296,14 @@ function best(terms: readonly Term[], score: (t: Term) => number | null): number
 export function rank<T>(query: string, items: readonly Ranked<T>[], unlisted: readonly Term[] = []): T[] {
   const text = normalize(query);
   if (!text) return [];
-  const words = text.split(NOT_WORD).filter(Boolean);
-  const folded = words.map(fold);
-  const q: Query = {
-    text,
-    words,
-    folded,
-    foldedText: folded.join(" "),
-    squashed: words.join(""),
-    skeletons: folded.map(skeleton),
-    short: text.length < 3 && !CJK.test(text),
-  };
+  const q = toQuery(text);
   const real = items.map(({ terms }) => best(terms, (t) => realScore(q, t)));
   // A query of punctuation alone has no word to spell wrong; one or two letters have no edit to spend.
-  const typos = words.length > 0 && !q.short && !real.includes(EXACT) && best(unlisted, (t) => realScore(q, t)) === null;
-  const shownOnly = real.some((s) => s !== null);
+  const typos = q.words.length > 0 && !q.short && !real.includes(EXACT) && best(unlisted, (t) => realScore(q, t)) === null;
+  const seenOnly = real.some((s) => s !== null);
   return items
     .flatMap(({ item, terms }, i) => {
-      const score = real[i] ?? (typos ? best(shownOnly ? terms.filter((t) => t.shown) : terms, (t) => typoScore(q, t)) : null);
+      const score = real[i] ?? (typos ? best(seenOnly ? terms.filter((t) => sees(q, t)) : terms, (t) => typoScore(q, t)) : null);
       return score === null ? [] : [{ item, score }];
     })
     .sort((a, b) => a.score - b.score)

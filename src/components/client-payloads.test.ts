@@ -47,9 +47,9 @@ describe("client payloads", () => {
     for (const key of [...LEAKS, "description", "sides", "events"]) expect(keys).not.toContain(key);
   });
 
-  it("country search entries (home search box) carry only the code, the name and what to match", () => {
+  it("country search entries (home search box) carry only the code, the names and what to match", () => {
     const entries = countrySearchEntries(countryCodes(loadHeartland(), loadWars("en")), "en");
-    expect(new Set(entries.flatMap((e) => Object.keys(e)))).toEqual(new Set(["code", "name", "terms"]));
+    expect(new Set(entries.flatMap((e) => Object.keys(e)))).toEqual(new Set(["code", "name", "english", "terms"]));
   });
 
   // What a country page's timeline ships: names, years, colours and ids, built the way the page builds them.
