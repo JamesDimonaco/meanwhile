@@ -21,8 +21,10 @@ describe("rank: real matches", () => {
   });
 
   it("ignores case and accents", () => {
-    expect(find("mexico", ["MÉXICO"])).toEqual(["MÉXICO"]);
-    expect(find("zhou", ["Zhōu"])).toEqual(["Zhōu"]);
+    expect(find("mexico", ["MEXICO"])).toEqual(["MEXICO"]);
+    // Three letters have no typo budget, so only stripping the tone mark can match these.
+    expect(find("han", ["Hàn"])).toEqual(["Hàn"]);
+    expect(find("qin", ["Qín cháo"])).toEqual(["Qín cháo"]);
   });
 
   it("ranks any hit on the name the reader sees, short of exact, above one on a term they don't", () => {
@@ -51,6 +53,8 @@ describe("rank: real matches", () => {
     // "Han" is exact once doubled letters are folded, so it beats a real prefix.
     expect(find("hann", ["Hannibal", "Han"])).toEqual(["Han", "Hannibal"]);
     expect(find("ww ii", ["WWII"])).toEqual(["WWII"]);
+    // Typed apart and half typed: "Vietnam War" run together starts with "vietnamw".
+    expect(find("viet nam w", ["Vietnam War"])).toEqual(["Vietnam War"]);
     expect(find("eeuu", ["EEUU", "Iron Age Europe"])).toEqual(["EEUU"]);
     // One typed word never runs on into the next word of a name.
     expect(find("warinuk", ["War in Ukraine"])).toEqual([]);
@@ -99,6 +103,8 @@ describe("rank: typos", () => {
     expect(find("chna", ["Chin"])).toEqual([]);
     // One edit over, not two.
     expect(find("spane", ["Speoine"])).toEqual([]);
+    // The first letter counts even when it is a vowel: past it, "oztic" has Aztec's consonants, but starts differently.
+    expect(find("oztic", ["Aztec"])).toEqual([]);
   });
 
   it("allows no edit up to three letters", () => {

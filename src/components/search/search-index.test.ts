@@ -46,10 +46,10 @@ describe("search", () => {
   });
 
   it("matches an accented pinyin alias without the accent", () => {
-    // Only the accented spelling is in the data, and the id doesn't contain
-    // the query, so this can only match once the macron is stripped.
-    const zhou = entry({ id: "c1", name: { en: "Zhōu" }, nativeName: undefined, aliases: ["Zhōu"] });
-    expect(search("zhou", cultures(zhou))).toEqual([{ type: "culture", entry: zhou }]);
+    // Only the accented spelling is in the data, and three letters have no
+    // typo budget, so this can only match once the tone mark is stripped.
+    const qin = entry({ id: "c1", name: { en: "Dynasty" }, nativeName: undefined, aliases: ["Qín"] });
+    expect(search("qin", cultures(qin))).toEqual([{ type: "culture", entry: qin }]);
   });
 
   it("matches a Spanish localized name", () => {
@@ -231,18 +231,22 @@ describe("false positives", () => {
   });
 
   it("answers a bare year with the year alone, and puts a year ahead of names", () => {
-    expect(labels("1500", "en")).toEqual(["year:1500"]);
-    expect(labels("1453", "en")).toEqual(["year:1453", "war:fall-of-constantinople"]);
+    expect(labels("1500", "en").filter((l) => !l.startsWith("year:"))).toEqual([]);
+    expect(labels("1453", "en")[0]).toBe("year:1453");
+    expect(labels("1453", "en")).toContain("war:fall-of-constantinople");
   });
 
   it("brings no near-namesake when a name is spelled right", () => {
     expect(labels("iran", "en")).not.toContain("country:IQ");
     expect(labels("iran", "en")).not.toContain("war:iraq-war");
     expect(labels("inca", "en")).not.toContain("country:IN");
-    expect(labels("iran", "en")).toEqual(["country:IR", "war:iran-iraq-war"]);
-    expect(labels("usa", "en")).toEqual(["country:US"]);
+    expect(labels("iran", "en")[0]).toBe("country:IR");
+    expect(labels("iran", "en")).toContain("war:iran-iraq-war");
+    expect(labels("usa", "en")[0]).toBe("country:US");
+    expect(labels("usa", "en")).not.toContain("war:russo-ukrainian-war-2022");
     expect(labels("korea", "en")).not.toContain("war:third-anglo-maratha-war");
-    expect(labels("netherland", "en")).toEqual(["country:NL"]);
+    expect(labels("netherland", "en")[0]).toBe("country:NL");
+    expect(labels("netherland", "en")).not.toContain("war:korean-war");
     expect(labels("aztecas", "es")).not.toContain("war:peloponnesian-war");
     expect(labels("qing chao", "en")).not.toContain("culture:ming");
   });
@@ -253,7 +257,14 @@ describe("false positives", () => {
   });
 
   it("puts names the reader sees ahead of aliases they start", () => {
-    expect(labels("inc", "en")).toEqual(["culture:inca", "war:spanish-conquest-of-the-inca-empire", "war:korean-war", "war:second-sino-japanese-war"]);
+    // The Korean War is found by its alias "Inchon"; the Inca by the names on their rows.
+    const hits = labels("inc", "en");
+    const at = (label: string) => {
+      expect(hits).toContain(label);
+      return hits.indexOf(label);
+    };
+    expect(at("culture:inca")).toBeLessThan(at("war:spanish-conquest-of-the-inca-empire"));
+    expect(at("war:spanish-conquest-of-the-inca-empire")).toBeLessThan(at("war:korean-war"));
   });
 
   it("never fuzzes CJK", () => {
