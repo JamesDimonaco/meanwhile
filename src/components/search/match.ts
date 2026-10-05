@@ -177,7 +177,12 @@ function distance(a: string, b: string, max: number, prefix: boolean): number {
   return d <= max ? d : Infinity;
 }
 
+// A plural is no typo: "romans" is the alias "Roman", "romanos" a word of "Imperio romano".
+const singular = (word: string) => (word.endsWith("s") ? word.slice(0, -1) : word);
+
 type Query = Forms & {
+  /** The words with a plural s dropped, matched as whole words only; null when no word has one. */
+  singular: readonly string[] | null;
   /** One or two Latin letters: only the shown name is searched, other terms only whole. */
   short: boolean;
   /** Typed in Latin letters, so the English name and pinyin are seen. */
@@ -188,8 +193,10 @@ type Query = Forms & {
 
 function toQuery(text: string): Query {
   const forms = toForms(text);
+  const singulars = forms.words.map(singular);
   return {
     ...forms,
+    singular: singulars.some((w, i) => w !== forms.words[i]) ? singulars : null,
     short: text.length < 3 && !CJK.test(text),
     latin: LATIN.test(text),
     unseen: FUZZY + (MAX_EDITS * forms.words.length + 1) * KINDS,
@@ -288,7 +295,16 @@ function kindOf(q: Query, t: Term, seen: boolean): number | null {
   const folded = textScore(q.foldedText, t.foldedText, seen, inside);
   if (folded !== null) return folded;
   if (t.squashed === q.squashed) return EXACT;
-  return q.words.length > 1 && t.squashed.startsWith(q.squashed) ? PREFIX : null;
+  if (q.words.length > 1 && t.squashed.startsWith(q.squashed)) return PREFIX;
+  return q.singular && wholeWords(q.singular, t);
+}
+
+/** Where the words sit as a run of whole words of the term: all of it, its start, or further in. */
+function wholeWords(words: readonly string[], t: Term): number | null {
+  for (let start = 0; start + words.length <= t.words.length; start++) {
+    if (words.every((w, i) => t.words[start + i] === w)) return start > 0 ? WORD_START : words.length === t.words.length ? EXACT : PREFIX;
+  }
+  return null;
 }
 
 /** What a search ranks: anything with its terms prepared by toTerms. */

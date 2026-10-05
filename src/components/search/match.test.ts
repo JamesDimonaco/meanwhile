@@ -126,6 +126,23 @@ describe("rank: names the reader sees come first", () => {
   });
 });
 
+describe("rank: plurals", () => {
+  const rome = { item: "Ancient Rome", terms: toTerms({ shown: ["Ancient Rome"], other: ["Roman", "Imperio romano"] }) };
+  const hre = { item: "Holy Roman Empire", terms: toTerms({ shown: ["Holy Roman Empire"] }) };
+
+  it("matches a word with a plural s as the whole word without it, as if typed right", () => {
+    // "romans" put the Holy Roman Empire, one edit from a word it shows, above Rome, whose alias is "Roman".
+    expect(rank("romans", [hre, rome])).toEqual(["Ancient Rome", "Holy Roman Empire"]);
+    // "romanos" found no Rome: "romano" is a word inside its alias, two edits from "Roman".
+    expect(rank("romanos", [rome])).toEqual(["Ancient Rome"]);
+    expect(find("wars", ["War in Afghanistan"])).toEqual(["War in Afghanistan"]);
+  });
+
+  it("but only as whole words", () => {
+    expect(find("cars", ["Carolingian Empire"])).toEqual([]);
+  });
+});
+
 describe("rank: anywhere inside a word", () => {
   const inside = (names: readonly string[]) => names.map((n) => ({ item: n, terms: toTerms({ shown: [n], inside: true }) }));
 

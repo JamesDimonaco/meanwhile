@@ -250,6 +250,19 @@ describe("names the reader sees, against the real data", () => {
     expect(labels("zhou", "en")).toContain("culture:spring-and-autumn");
   });
 
+  it("finds Rome by its people, in English and Spanish", () => {
+    expect(labels("romans", "en")[0]).toBe("culture:rome");
+    expect(labels("romans", "en")).toContain("culture:holy-roman-empire");
+    const picker = searchIndex({ locale: "es", cultures: allCultures });
+    for (const q of ["romano", "romanos"]) {
+      for (const hits of [labels(q, "es"), search(q, picker).map(label)]) {
+        // The Holy Roman Empire's Spanish name, on the row, says "Romano"; Rome's alias "Imperio romano" doesn't show.
+        expect(hits.indexOf("culture:holy-roman-empire"), q).toBe(0);
+        expect(hits, q).toContain("culture:rome");
+      }
+    }
+  });
+
   it("brings nothing through two edits or a vowel allowance on a name the reader never sees", () => {
     expect(labels("polaco", "es")).not.toContain("war:second-opium-war");
     for (const unrelated of ["country:TH", "war:war-in-afghanistan-2001", "culture:aztec", "war:world-war-ii"]) expect(labels("italian", "en")).not.toContain(unrelated);
