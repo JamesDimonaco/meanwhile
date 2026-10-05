@@ -88,9 +88,13 @@ describe("rank: names the reader sees come first", () => {
   const korean = { item: "Korean War", terms: toTerms({ shown: ["Korean War"], other: ["Chinese People's Volunteer Army", "Inchon"] }) };
   const china = { item: "China", terms: toTerms({ shown: ["China"] }) };
 
-  it("finds a term the reader doesn't see by its start, never by a word inside it", () => {
+  it("finds a term the reader doesn't see by its start or a whole word inside it, never by part of a word inside", () => {
     expect(rank("chinese", [korean])).toEqual(["Korean War"]);
-    expect(rank("volunteer", [korean])).toEqual([]);
+    // "charlemagne" found the Carolingian Empire through "Empire of Charlemagne" until words inside hidden terms were dropped.
+    expect(rank("volunteer", [korean])).toEqual(["Korean War"]);
+    expect(rank("volunteer army", [korean])).toEqual(["Korean War"]);
+    expect(rank("volun", [korean])).toEqual([]);
+    expect(rank("people volunteer", [korean])).toEqual([]);
   });
 
   it("ranks a one-edit typo of a name the reader sees above any hit on a term they don't, short of exact", () => {

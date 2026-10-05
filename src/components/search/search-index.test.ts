@@ -235,6 +235,21 @@ describe("names the reader sees, against the real data", () => {
     expect(seenIn("three-kingdoms")).toEqual(expect.arrayContaining(["sanguo", "san guo"]));
   });
 
+  it("finds what a whole word inside an alias names, after the names the reader sees", () => {
+    // Through "Russian invasion of Ukraine", "Russia–Ukraine war", "Empire of Charlemagne", "US–Mexico War",
+    // "Conquest of Peru", "First China War" and "Eastern Zhou (early)".
+    expect(labels("invasion of ukraine", "en")[0]).toBe("war:russo-ukrainian-war-2022");
+    expect(labels("ukraine war", "en")).toContain("war:russo-ukrainian-war");
+    expect(labels("charlemagne", "en")[0]).toBe("culture:carolingian-empire");
+    expect(labels("ukraine", "en")[0]).toBe("country:UA");
+    expect(labels("ukraine", "en")).toEqual(expect.arrayContaining(["war:russo-ukrainian-war", "war:russo-ukrainian-war-2022"]));
+    for (const [q, code, war] of [["mexico", "MX", "mexican-american-war"], ["peru", "PE", "spanish-conquest-of-the-inca-empire"], ["china", "CN", "first-opium-war"]]) {
+      expect(labels(q, "en")[0], q).toBe(`country:${code}`);
+      expect(labels(q, "en"), q).toContain(`war:${war}`);
+    }
+    expect(labels("zhou", "en")).toContain("culture:spring-and-autumn");
+  });
+
   it("brings nothing through two edits or a vowel allowance on a name the reader never sees", () => {
     expect(labels("polaco", "es")).not.toContain("war:second-opium-war");
     for (const unrelated of ["country:TH", "war:war-in-afghanistan-2001", "culture:aztec", "war:world-war-ii"]) expect(labels("italian", "en")).not.toContain(unrelated);

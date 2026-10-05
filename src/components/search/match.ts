@@ -254,13 +254,19 @@ function typoScore(q: Query, t: Term): number | null {
   return best;
 }
 
-/** Exact or prefix; on a term the reader sees, a word starting with `q` too; CJK anywhere, and with `inside` Latin too. */
+const endsWord = (t: string, at: number) => at === t.length || NOT_WORD.test(t[at]);
+
+/**
+ * Exact or prefix; a word starting with `q` too, only whole words on a term
+ * the reader doesn't see ("charlemagne" in "Empire of Charlemagne", not
+ * "volun" in "Volunteer Army"); CJK anywhere, and with `inside` Latin too.
+ */
 function textScore(q: string, t: string, seen: boolean, inside: boolean): number | null {
   if (t === q) return EXACT;
   if (t.startsWith(q)) return PREFIX;
   let within = false;
   for (let at = t.indexOf(q, 1); at !== -1; at = t.indexOf(q, at + 1)) {
-    if (seen && NOT_WORD.test(t[at - 1])) return WORD_START;
+    if (NOT_WORD.test(t[at - 1]) && (seen || endsWord(t, at + q.length))) return WORD_START;
     within = true;
   }
   return within && (CJK.test(q) || (inside && q.length >= INSIDE_FROM)) ? INSIDE : null;
@@ -301,7 +307,8 @@ function best(terms: readonly Term[], score: (t: Term) => number | null): number
  * Items whose terms match the query, best first: exact; then hits on a name
  * the reader sees (prefix, a word starting with it, CJK or an `inside` term
  * anywhere inside, then typos); then hits on terms they don't see, which
- * count only from the term's start and with one edit at most. When something matched exactly,
+ * count from the term's start or as whole words inside it, with one edit at
+ * most and only from the start. When something matched exactly,
  * typos are dropped, so a correct "Iran" doesn't bring Iraq; when something
  * else matched for real, only typos of a name the reader sees stay, so
  * "korea" doesn't bring a war through its battle "Koregaon".
