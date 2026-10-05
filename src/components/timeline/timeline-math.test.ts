@@ -20,6 +20,7 @@ import {
   padDomain,
   snapToBar,
   computeYearDomain,
+  followsParam,
   takeEcho,
   timelineQuery,
   yearFromParam,
@@ -422,5 +423,25 @@ describe("activeBars", () => {
     ]);
     expect(activeBars(bars, 5).map(({ bar, certain }) => [bar.id, certain])).toEqual([["a", false]]);
     expect(activeBars(bars, 150)).toEqual([]);
+  });
+});
+
+describe("followsParam", () => {
+  it("moves the line to a link's ?year= when the reader reports it", () => {
+    expect(followsParam("-1199", false, true, false)).toBe(true);
+  });
+
+  // The reader reports after hydration; on a slow phone the visitor can drag first.
+  it("keeps the visitor's move when the link's ?year= arrives after it", () => {
+    expect(followsParam("-1199", false, true, true)).toBe(false);
+  });
+
+  it("follows a later navigation even after the visitor moved the line (a scan from the header)", () => {
+    expect(followsParam("-1199", false, false, true)).toBe(true);
+  });
+
+  it("never follows our own write's echo, or a URL with no ?year=", () => {
+    expect(followsParam("6", true, false, false)).toBe(false);
+    expect(followsParam(null, false, true, false)).toBe(false);
   });
 });

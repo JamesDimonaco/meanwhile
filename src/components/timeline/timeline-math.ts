@@ -192,6 +192,16 @@ export function timelineQuery(
 }
 
 /**
+ * Whether a ?year= the reader reports moves the year line: not our own
+ * write's echo, and not a link's ?year= arriving once the visitor has already
+ * moved the line (the first report comes after hydration). A later
+ * navigation's always does.
+ */
+export function followsParam(param: string | null, echo: boolean, firstRead: boolean, moved: boolean): boolean {
+  return param !== null && !echo && !(firstRead && moved);
+}
+
+/**
  * Whether a changed ?year= is the echo of our own write, which is never a
  * navigation however late it lands: the component replaceStates ?year= after
  * a move, and Next hands that back through useSearchParams in a transition

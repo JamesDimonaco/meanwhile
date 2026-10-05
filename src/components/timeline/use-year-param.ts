@@ -1,40 +1,77 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { takeEcho, timelineQuery, yearFromParam } from "./timeline-math";
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import type { ReadonlyURLSearchParams } from "next/navigation";
+import { followsParam, takeEcho, timelineQuery, yearFromParam } from "./timeline-math";
+
+/**
+ * What TimelineChart needs to read the query string for useYearParam. Only
+ * useYearParam makes one (the class isn't exported, and its private field
+ * stops a look-alike), and TimelineChart requires one, so a chart can't keep
+ * ?year= without reading it.
+ */
+class YearQuery {
+  readonly #read: (params: ReadonlyURLSearchParams) => void;
+  constructor(read: (params: ReadonlyURLSearchParams) => void) {
+    this.#read = read;
+  }
+  /** Bound, so it can go straight to QueryReader. */
+  readonly read = (params: ReadonlyURLSearchParams) => this.#read(params);
+}
+export type { YearQuery };
 
 /**
  * The year line's year, kept in ?year= (astronomical, e.g. -1199 = 1200 BCE)
  * so a shared link keeps the view; `regions` is written beside it (null drops
- * ?regions=). The caller passes ?year= in through the returned `readYearParam`
- * (from a QueryReader) after mount and whenever a navigation changes it, when
- * `onFollow` runs; otherwise this owns it. The page is prerendered, so no
+ * ?regions=). The returned YearQuery goes to TimelineChart, whose reader
+ * reports the query string after hydration and whenever a navigation changes
+ * it; `onQuery` sees each report first (the world timeline's ?regions=), and
+ * `onFollow` runs when ?year= moves the line. The page is prerendered, so no
  * server keeps it in sync.
  */
 export function useYearParam(
   domain: [number, number],
   fallback: number,
   regions: string | null,
-  onFollow?: () => void,
-): [number, (year: number) => void, (param: string | null) => void] {
-  // undefined until the QueryReader has reported: the URL isn't read yet, so nothing may be written over it.
-  const [yearParam, readYearParam] = useState<string | null | undefined>(undefined);
+  { onFollow, onQuery }: { onFollow?: () => void; onQuery?: (params: ReadonlyURLSearchParams) => void } = {},
+): [number, (year: number) => void, YearQuery] {
+  // undefined until the reader has reported: the URL isn't read yet, so nothing may be written over it.
+  const [yearParam, setYearParam] = useState<string | null | undefined>(undefined);
   // Null until a move or ?year= sets it. The page is prerendered without
   // ?year=, so the first render shows the fallback too, or hydration fails.
-  const [picked, setYear] = useState<number | null>(null);
+  const [picked, setPicked] = useState<number | null>(null);
   const year = picked ?? yearFromParam(null, fallback, domain);
-  // A ref, not state, so noting a write costs a drag no extra render.
+  // Refs, not state, so noting a write or a move costs a drag no extra render.
   const unechoedRef = useRef<string[]>([]);
+  const movedRef = useRef(false);
+  const readRef = useRef(false);
+
+  const setYear = useCallback((next: number) => {
+    movedRef.current = true;
+    setPicked(next);
+  }, []);
+
+  const query = useMemo(
+    () =>
+      new YearQuery((params) => {
+        onQuery?.(params);
+        setYearParam(params.get("year"));
+      }),
+    [onQuery],
+  );
 
   // Navigating here again with a new ?year= (a scan from the header) doesn't
   // remount this, so follow the param when it changes. Our own replaceState
-  // below comes back through here too, and takeEcho tells it apart.
-  useEffect(() => {
+  // below comes back through here too, and takeEcho tells it apart. A layout
+  // effect, so the line moves in the same paint as whatever onQuery changed.
+  useLayoutEffect(() => {
     if (yearParam === undefined) return;
+    const firstRead = !readRef.current;
+    readRef.current = true;
     const taken = takeEcho(unechoedRef.current, yearParam);
     unechoedRef.current = taken.unechoed;
-    if (taken.echo || yearParam === null) return;
-    setYear((y) => yearFromParam(yearParam, y ?? fallback, domain));
+    if (!followsParam(yearParam, taken.echo, firstRead, movedRef.current)) return;
+    setPicked((y) => yearFromParam(yearParam, y ?? fallback, domain));
     onFollow?.();
   }, [yearParam, domain, fallback, onFollow]);
 
@@ -53,5 +90,5 @@ export function useYearParam(
     }
   }, [year, picked, yearParam, regions]);
 
-  return [year, setYear, readYearParam];
+  return [year, setYear, query];
 }

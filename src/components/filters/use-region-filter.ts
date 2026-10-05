@@ -4,7 +4,7 @@ import { useMemo, useSyncExternalStore } from "react";
 import type { Region } from "@/lib/data/schema";
 import { normalizeSelection } from "./region-filter";
 
-const STORAGE_KEY = "meanwhile.regions";
+export const REGION_STORAGE_KEY = "meanwhile.regions";
 const ALL: readonly string[] = [];
 
 const listeners = new Set<() => void>();
@@ -12,7 +12,7 @@ let snapshot: readonly string[] | null = null;
 
 function read(): readonly string[] {
   try {
-    const parsed: unknown = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
+    const parsed: unknown = JSON.parse(localStorage.getItem(REGION_STORAGE_KEY) ?? "[]");
     return Array.isArray(parsed) ? parsed.filter((v): v is string => typeof v === "string") : ALL;
   } catch {
     return ALL;
@@ -32,7 +32,7 @@ function subscribe(listener: () => void) {
 export function saveRegionFilter(selection: readonly Region[]) {
   snapshot = selection;
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(selection));
+    localStorage.setItem(REGION_STORAGE_KEY, JSON.stringify(selection));
   } catch {
     // Private mode or storage blocked: keep the filter for this visit only.
   }

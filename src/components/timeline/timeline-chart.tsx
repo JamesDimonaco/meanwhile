@@ -11,7 +11,9 @@ import { YearText } from "@/components/settings/year-text";
 import { Button } from "@/components/ui/button";
 import type { TimelineRow } from "./timeline-layout";
 import { MAX_PX_PER_YEAR, MIN_PX_PER_YEAR, axisTicks, clampYear, clampZoom, fitZoom, tickAnchor, yearStepForKey } from "./timeline-math";
+import { QueryReader } from "./query-reader";
 import { FadeGradients, REGION_COLOR, WAR_COLOR } from "./timeline-row";
+import type { YearQuery } from "./use-year-param";
 
 const NAME_COL_WIDTH = 112;
 const AXIS_SPACE = 16;
@@ -30,11 +32,14 @@ const PHONE_CHART_WIDTH = 208;
 /**
  * Runs as the prerendered HTML is parsed, before the app's JS loads (seconds
  * on weak signal), so the chart opens on its year line, not its oldest edge.
- * It waits for the chart to have a size: React streams a Suspense boundary's
- * HTML into a hidden div first and moves it into place after.
  */
-const SCROLL_TO_YEAR_LINE = `(function(){var e=document.currentScript.previousElementSibling;new ResizeObserver(function(_,o){if(e.clientWidth){e.scrollLeft=e.dataset.yearX-e.clientWidth*${YEAR_LINE_POSITION};o.disconnect()}}).observe(e)})()`;
+const SCROLL_TO_YEAR_LINE = `(function(){var e=document.currentScript.previousElementSibling;e.scrollLeft=e.dataset.yearX-e.clientWidth*${YEAR_LINE_POSITION}})()`;
 const subscribeNever = () => () => {};
+
+/** True in the prerendered HTML and while hydrating it, never in a client render (where a script never runs). */
+export function usePrerendered(): boolean {
+  return useSyncExternalStore(subscribeNever, () => false, () => true);
+}
 
 type ItemRow<T, G> = Extract<TimelineRow<T, G>, { kind: "item" }>;
 
@@ -45,9 +50,10 @@ const rowKey = <T extends { id: string }, G extends string>(row: TimelineRow<T, 
  * The timeline's machinery, shared by the world timeline and the country
  * pages: the year and zoom bar, a frozen name column, a horizontally
  * scrolling chart with an axis, and a year line dragged by its handle (or
- * by mouse anywhere, or a tap on the chart). `snap` moves a tap or click
- * on a row to the year it picks for that row's item. `fit` opens zoomed so
- * that range fills the screen, and never zooms out past the whole domain.
+ * by mouse anywhere, or a tap on the chart). `query` (from useYearParam)
+ * reads ?year= into the year. `snap` moves a tap or click on a row to the
+ * year it picks for that row's item. `fit` opens zoomed so that range fills
+ * the screen, and never zooms out past the whole domain.
  */
 export function TimelineChart<T extends { id: string }, G extends string>({
   rows,
@@ -55,6 +61,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   domain,
   year,
   onYear,
+  query,
   fit,
   label,
   bars,
@@ -66,6 +73,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   domain: [number, number];
   year: number;
   onYear: (year: number) => void;
+  query: YearQuery;
   fit?: [number, number];
   /** The frozen column's content for a row, absolutely placed at `top`. */
   label: (row: TimelineRow<T, G>, top: number) => ReactNode;
@@ -89,8 +97,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   const tapStartRef = useRef<number | null>(null);
   const lastZoomRef = useRef<number | null>(null);
   const yearX = xScale(year);
-  // True in the prerendered HTML and while hydrating it, never in a client render (where a script never runs).
-  const prerendered = useSyncExternalStore(subscribeNever, () => false, () => true);
+  const prerendered = usePrerendered();
 
   // Measured before paint, so a fitted chart never shows its phone-width guess
   // on a wider screen, and again on every resize (a phone turned sideways), so
@@ -209,6 +216,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   // its parent is on screen, and the parent also holds the year panel.
   return (
     <>
+      <QueryReader onQuery={query.read} />
       <div className="sticky top-0 z-10 -mx-4 flex items-center justify-between gap-2 bg-background px-4 py-2">
         <div className="flex flex-col">
           <output className="text-lg font-semibold tabular-nums">
