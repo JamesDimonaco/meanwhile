@@ -68,11 +68,26 @@ describe("the title and meta description", () => {
   const sameTime = { en: "at the same time", es: "coincidieron", zh: "同时" };
 
   it("names only what the page lists", async () => {
-    expect(await text("en", "title", 0, 2)).toBe("Wars in X: a timeline");
-    expect(await text("en", "title", 1, 0)).toBe("X: timeline of civilisations");
-    expect(await text("en", "title", 2, 3)).toBe("X: timeline of civilisations and wars");
+    expect(await text("en", "title", 0, 2)).toBe("X: a timeline of wars");
+    expect(await text("en", "title", 1, 0)).toBe("X: a timeline of civilisations");
+    expect(await text("en", "title", 2, 3)).toBe("X: a timeline of civilisations and wars");
+    expect(await text("es", "title", 0, 2)).toBe("X: cronología de guerras");
+    expect(await text("es", "title", 2, 3)).toBe("X: cronología de civilizaciones y guerras");
     expect(await text("zh", "title", 0, 2)).toBe("X的战争时间线");
-    expect(await text("es", "title", 2, 3)).toBe("Cronología de X: civilizaciones y guerras");
+  });
+
+  // "Wars in United States", "Cronología de Reino Unido": some names need an article after a preposition, others don't.
+  it.each([
+    ["en", "United States"],
+    ["en", "Netherlands"],
+    ["en", "Philippines"],
+    ["es", "Reino Unido"],
+    ["es", "Estados Unidos"],
+  ] as const)("in %s, opens the title with the name, so %s needs no article", async (locale, country) => {
+    const t = createTranslator({ locale, messages: await loadMessages(locale) });
+    for (const [cultures, wars] of [[0, 2], [1, 0], [2, 3]]) {
+      expect(t("country.title", { country, cultures, wars })).toMatch(new RegExp(`^${country}: `));
+    }
   });
 
   // "越南" + "战争" reads as 越南战争, the Vietnam War's zh title, which the review gate keeps out of zh.
