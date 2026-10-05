@@ -8,5 +8,7 @@
   "cultures": "文明",
   "wars": "战争",
   "kind": "{kind, select, culture {文明} other {战争}}",
-  "sameTime": "<label>同一时期在此：</label><items></items>"
+  "sameTime": "<label>同一时期在此：</label><items></items>",
+  "partOf": "<link>英国</link>的一部分",
+  "nations": "<items></items>各有专页。"
 }

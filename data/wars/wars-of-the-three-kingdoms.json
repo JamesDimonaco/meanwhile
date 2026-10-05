@@ -1,0 +1,860 @@
+{
+  "id": "wars-of-the-three-kingdoms",
+  "wikidataId": "Q2577772",
+  "name": {
+    "en": "Wars of the Three Kingdoms",
+    "es": "Guerras de los Tres Reinos",
+    "zh": "三国之战"
+  },
+  "aliases": [
+    "English Civil War",
+    "English Civil Wars",
+    "British Civil Wars",
+    "Guerra Civil Inglesa",
+    "Revolución inglesa",
+    "Guerras civiles británicas",
+    "英格兰内战",
+    "英国内战",
+    "不列颠内战",
+    "三国战争",
+    "Bishops' Wars",
+    "Guerras de los Obispos",
+    "主教战争",
+    "Irish Confederate Wars",
+    "Guerras confederadas irlandesas",
+    "爱尔兰邦联战争",
+    "Oliver Cromwell",
+    "奥利弗·克伦威尔",
+    "Roundheads",
+    "Cavaliers",
+    "Covenanters"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "From 1639 to 1653 a chain of wars ran through all three kingdoms of Charles I: England (with Wales), Scotland and Ireland. Scottish Covenanters, who rejected his changes to their church, defeated him in the Bishops' Wars of 1639–1640 and occupied northern England. In 1641 Irish Catholics rose in Ulster; thousands of Protestant settlers were killed, settler forces killed Irish civilians in turn, and the Confederate Catholics of Ireland soon held most of the island. Civil war between Royalists and Parliamentarians began in England in 1642. Alliances shifted: the Covenanters joined Parliament in 1643 and fought at Marston Moor, and Parliament's New Model Army defeated the King at Naseby in 1645. After a second war in 1648, in which a Scottish faction fought for the King, Charles I was tried and beheaded in January 1649 and England became a republic. Oliver Cromwell's army then took Ireland, where the Confederates had joined the Royalists, and defeated the Scots, who had accepted Charles II as their king, at Dunbar in 1650 and Worcester in 1651. The last Irish forces surrendered in 1652–1653.",
+    "es": "Entre 1639 y 1653 una cadena de guerras recorrió los tres reinos de Carlos I: Inglaterra (con Gales), Escocia e Irlanda. Los covenanters escoceses, que rechazaban sus cambios en la Iglesia de Escocia, lo derrotaron en las guerras de los Obispos de 1639–1640 y ocuparon el norte de Inglaterra. En 1641 los católicos irlandeses se alzaron en el Úlster; murieron miles de colonos protestantes, las fuerzas de los colonos mataron a su vez a civiles irlandeses, y los Confederados Católicos de Irlanda pronto dominaron la mayor parte de la isla. En 1642 estalló en Inglaterra la guerra civil entre realistas y parlamentarios. Las alianzas cambiaron: los covenanters se unieron al Parlamento en 1643 y combatieron en Marston Moor, y el Nuevo Ejército Modelo del Parlamento derrotó al rey en Naseby en 1645. Tras una segunda guerra en 1648, en la que una facción escocesa luchó por el rey, Carlos I fue juzgado y decapitado en enero de 1649 e Inglaterra se convirtió en república. El ejército de Oliver Cromwell tomó entonces Irlanda, donde los confederados se habían unido a los realistas, y derrotó a los escoceses, que habían aceptado a Carlos II como rey, en Dunbar en 1650 y en Worcester en 1651. Las últimas fuerzas irlandesas se rindieron en 1652–1653.",
+    "zh": "1639年至1653年间，一连串战争席卷查理一世治下的三个王国：英格兰（包括威尔士）、苏格兰和爱尔兰。反对国王改动其教会的苏格兰誓约派在1639年至1640年的主教战争中击败国王，并占领英格兰北部。1641年，爱尔兰天主教徒在阿尔斯特起事，数千名新教移民被杀，移民武装也反过来杀害爱尔兰平民；爱尔兰天主教邦联不久控制了岛上大部分地区。1642年，保王派与议会派之间的内战在英格兰爆发。各方结盟关系不断变化：誓约派于1643年与议会结盟并参加马斯顿荒原战役；1645年，议会的新模范军在内斯比击败国王。1648年第二次内战中，一个苏格兰派系站在国王一边作战；此后查理一世受审，于1649年1月被斩首，英格兰成为共和国。奥利弗·克伦威尔的军队随后攻取爱尔兰（当地天主教邦联已与保王派联合），并于1650年在邓巴、1651年在伍斯特击败已拥立查理二世为王的苏格兰人。最后一批爱尔兰部队于1652年至1653年投降。"
+  },
+  "outcome": {
+    "en": "Charles I was executed and the monarchy abolished; England, Scotland and Ireland were ruled from London as one Commonwealth until the monarchy was restored in 1660, and most land held by Irish Catholics was confiscated.",
+    "es": "Carlos I fue ejecutado y la monarquía abolida; Inglaterra, Escocia e Irlanda fueron gobernadas desde Londres como una sola Commonwealth hasta la restauración de la monarquía en 1660, y se confiscó la mayor parte de las tierras de los católicos irlandeses.",
+    "zh": "查理一世被处决，君主制被废除；英格兰、苏格兰和爱尔兰作为统一的联邦由伦敦统治，直至1660年君主制复辟；爱尔兰天主教徒的大部分土地被没收。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "wars",
+    "earliestStart": 1638,
+    "latestStart": 1639,
+    "earliestEnd": 1651,
+    "latestEnd": 1653,
+    "sources": [
+      {
+        "citation": "Wikidata. \"Wars of the Three Kingdoms\" (Q2577772), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q2577772"
+      },
+      {
+        "citation": "National Army Museum. \"British Civil Wars.\"",
+        "url": "https://www.nam.ac.uk/explore/british-civil-wars"
+      },
+      {
+        "citation": "BCW Project. \"The Conquest of Connacht, 1651–2.\"",
+        "url": "https://bcw-project.org.uk/military/third-civil-war/cromwell-in-ireland/connacht"
+      },
+      {
+        "citation": "Wikipedia (English). \"Wars of the Three Kingdoms.\"",
+        "url": "https://en.wikipedia.org/wiki/Wars_of_the_Three_Kingdoms"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "Sources bound the wars differently. Wikidata gives 1638 to 1651, the year of the Battle of Worcester. English Wikipedia begins with the first Bishops' War in 1639 and ends in 1653, when the last Irish forces surrendered; the National Army Museum dates the civil wars proper 1642 to 1651.",
+      "es": "Las fuentes delimitan las guerras de forma distinta. Wikidata da de 1638 a 1651, año de la batalla de Worcester. La Wikipedia en inglés empieza con la primera guerra de los Obispos, en 1639, y termina en 1653, cuando se rindieron las últimas fuerzas irlandesas; el National Army Museum fecha las guerras civiles propiamente dichas de 1642 a 1651.",
+      "zh": "各来源对战争起止的划定不一。维基数据定为1638年至1651年（伍斯特战役之年）；英文维基百科从1639年第一次主教战争算起，至1653年最后一批爱尔兰部队投降为止；英国国家陆军博物馆则将内战本身定为1642年至1651年。"
+    }
+  },
+  "sides": [
+    {
+      "id": "royalists",
+      "label": {
+        "en": "Royalists (Charles I, then Charles II)",
+        "es": "Realistas (Carlos I y después Carlos II)",
+        "zh": "保王派（先后效忠查理一世和查理二世）"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "English and Welsh Royalists",
+            "es": "Realistas ingleses y galeses",
+            "zh": "英格兰和威尔士保王派"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG",
+            "GB-WLS"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Scottish Royalists under the Marquess of Montrose (1644–1645, 1650)",
+            "es": "Realistas escoceses del marqués de Montrose (1644–1645, 1650)",
+            "zh": "蒙特罗斯侯爵率领的苏格兰保王派（1644年至1645年、1650年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-SCT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Royalist forces in Ireland under Ormond",
+            "es": "Fuerzas realistas en Irlanda al mando de Ormond",
+            "zh": "奥蒙德统率的爱尔兰保王派部队"
+          },
+          "role": "belligerent",
+          "today": [
+            "IE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parliamentarians",
+      "label": {
+        "en": "Parliamentarians (the English Parliament, from 1649 the Commonwealth)",
+        "es": "Parlamentarios (el Parlamento inglés y, desde 1649, la Commonwealth)",
+        "zh": "议会派（英格兰议会，1649年起为英格兰联邦）"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Armies of the English Parliament, from 1645 the New Model Army",
+            "es": "Ejércitos del Parlamento inglés y, desde 1645, el Nuevo Ejército Modelo",
+            "zh": "英格兰议会军队，1645年起为新模范军"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG",
+            "GB-WLS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "covenanters",
+      "label": {
+        "en": "Scottish Covenanters (allied with Parliament from 1643, with Charles II from 1650)",
+        "es": "Covenanters escoceses (aliados del Parlamento desde 1643 y de Carlos II desde 1650)",
+        "zh": "苏格兰誓约派（1643年起与议会结盟，1650年起与查理二世结盟）"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Covenanter government and armies of Scotland, including the Engagers who fought for Charles I in 1648",
+            "es": "Gobierno y ejércitos covenanters de Escocia, incluidos los Engagers, que lucharon por Carlos I en 1648",
+            "zh": "苏格兰誓约派政府及其军队，包括1648年为查理一世作战的承诺派"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-SCT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "confederates",
+      "label": {
+        "en": "Irish Confederate Catholics (allied with the Royalists from 1649)",
+        "es": "Confederados católicos irlandeses (aliados de los realistas desde 1649)",
+        "zh": "爱尔兰天主教邦联（1649年起与保王派结盟）"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Irish Catholic insurgents of 1641, then the Confederate Catholics of Ireland",
+            "es": "Insurgentes católicos irlandeses de 1641 y después los Confederados Católicos de Irlanda",
+            "zh": "1641年的爱尔兰天主教起事者，其后的爱尔兰天主教邦联"
+          },
+          "role": "belligerent",
+          "today": [
+            "IE"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [],
+  "events": [
+    {
+      "id": "battle-of-newburn",
+      "start": 1640,
+      "title": {
+        "en": "A Covenanter army under Alexander Leslie crosses the Tyne at Newburn, routs the King's troops and occupies Newcastle",
+        "es": "Un ejército covenanter al mando de Alexander Leslie cruza el Tyne en Newburn, pone en fuga a las tropas del rey y ocupa Newcastle",
+        "zh": "亚历山大·莱斯利率领的誓约派军队在纽伯恩渡过泰恩河，击溃国王的军队并占领纽卡斯尔"
+      },
+      "sources": [
+        {
+          "citation": "Cannon, John. \"Newburn, battle of.\" The Oxford Companion to British History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/places/britain-ireland-france-and-low-countries/british-and-irish-political-geography/newburn"
+        },
+        {
+          "citation": "Battlefields Trust. \"Battle of Newburn Ford, 28 August 1640.\" UK Battlefields Resource Centre.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=29"
+        }
+      ],
+      "note": {
+        "en": "The only battle of the second Bishops' War. Newcastle surrendered to the Scots two days later.",
+        "es": "Fue la única batalla de la segunda guerra de los Obispos. Newcastle se rindió a los escoceses dos días después.",
+        "zh": "这是第二次主教战争中唯一的一场战役。两天后纽卡斯尔向苏格兰人投降。"
+      },
+      "place": {
+        "name": {
+          "en": "Newburn",
+          "es": "Newburn",
+          "zh": "纽伯恩"
+        },
+        "lat": 54.983,
+        "lon": -1.751
+      },
+      "wikidataId": "Q976820"
+    },
+    {
+      "id": "irish-rising-of-1641",
+      "start": 1641,
+      "title": {
+        "en": "Irish Catholic gentry rise in Ulster: Sir Phelim O'Neill's men take Charlemont, Dungannon and other forts, while a plan to seize Dublin Castle is revealed to the authorities",
+        "es": "La nobleza católica irlandesa se alza en el Úlster: los hombres de sir Phelim O'Neill toman Charlemont, Dungannon y otros fuertes, mientras un plan para tomar el castillo de Dublín es delatado",
+        "zh": "爱尔兰天主教士绅在阿尔斯特起事：费利姆·奥尼尔爵士的部下夺取查理蒙特、邓甘嫩等要塞，而夺取都柏林城堡的计划遭到告发"
+      },
+      "sources": [
+        {
+          "citation": "Perceval-Maxwell, Michael. \"Rebellion of 1641.\" Encyclopedia of Irish History and Culture, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/rebellion-1641"
+        },
+        {
+          "citation": "BCW Project. \"The Irish Uprising, 1641.\"",
+          "url": "https://bcw-project.org.uk/church-and-state/confederate-ireland/the-irish-uprising"
+        }
+      ],
+      "note": {
+        "en": "In the following months thousands of Protestant settlers were killed or died after being driven from their homes, among them about 100 men, women and children drowned in the River Bann at Portadown in November 1641. Settler forces killed Irish civilians in turn. English accounts of the time greatly exaggerated the number of settlers killed.",
+        "es": "En los meses siguientes miles de colonos protestantes murieron asesinados o tras ser expulsados de sus casas; entre ellos, unos 100 hombres, mujeres y niños ahogados en el río Bann en Portadown en noviembre de 1641. Las fuerzas de los colonos mataron a su vez a civiles irlandeses. Los relatos ingleses de la época exageraron mucho el número de colonos muertos.",
+        "zh": "此后数月，数千名新教移民被杀或在被逐出家园后死亡，其中包括1641年11月在波塔当被投入班恩河溺死的约100名男女老幼。移民武装也反过来杀害爱尔兰平民。当时英格兰方面的记载大大夸大了被杀移民的人数。"
+      },
+      "place": {
+        "name": {
+          "en": "Charlemont Fort",
+          "es": "Fuerte de Charlemont",
+          "zh": "查理蒙特堡"
+        },
+        "lat": 54.448,
+        "lon": -6.679
+      },
+      "wikidataId": "Q1461147"
+    },
+    {
+      "id": "battle-of-marston-moor",
+      "start": 1644,
+      "title": {
+        "en": "Parliamentarian and Covenanter armies under the Earl of Leven defeat Prince Rupert's Royalists at Marston Moor, the largest battle of the war; the Royalists lose the north of England",
+        "es": "Los ejércitos parlamentario y covenanter, al mando del conde de Leven, derrotan a los realistas del príncipe Ruperto en Marston Moor, la mayor batalla de la guerra; los realistas pierden el norte de Inglaterra",
+        "zh": "利文伯爵统率的议会派与誓约派联军在马斯顿荒原击败鲁珀特亲王的保王派军队，这是战争中规模最大的战役；保王派失去英格兰北部"
+      },
+      "sources": [
+        {
+          "citation": "Battlefields Trust. \"Battle of Marston Moor, 2 July 1644.\" UK Battlefields Resource Centre.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=24"
+        },
+        {
+          "citation": "Cartwright, Mark. \"English Civil Wars.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/English_Civil_Wars/"
+        },
+        {
+          "citation": "National Army Museum. \"British Civil Wars.\"",
+          "url": "https://www.nam.ac.uk/explore/british-civil-wars"
+        }
+      ],
+      "note": {
+        "en": "The Battlefields Trust gives Royalist losses of about 4,000 killed and 1,500 captured, and Parliamentarian and Scottish losses of 200–300 killed.",
+        "es": "El Battlefields Trust cifra las pérdidas realistas en unos 4.000 muertos y 1.500 prisioneros, y las parlamentarias y escocesas en 200–300 muertos.",
+        "zh": "据英国战场信托统计，保王派约4000人阵亡、1500人被俘，议会派与苏格兰军阵亡200至300人。"
+      },
+      "place": {
+        "name": {
+          "en": "Marston Moor",
+          "es": "Marston Moor",
+          "zh": "马斯顿荒原"
+        },
+        "lat": 53.962,
+        "lon": -1.254
+      },
+      "wikidataId": "Q326417"
+    },
+    {
+      "id": "battle-of-naseby",
+      "start": 1645,
+      "title": {
+        "en": "Parliament's New Model Army under Sir Thomas Fairfax destroys Charles I's main field army at Naseby",
+        "es": "El Nuevo Ejército Modelo del Parlamento, al mando de sir Thomas Fairfax, destruye el principal ejército de campaña de Carlos I en Naseby",
+        "zh": "托马斯·费尔法克斯爵士率领的议会新模范军在内斯比摧毁查理一世的主力野战军"
+      },
+      "sources": [
+        {
+          "citation": "Battlefields Trust. \"Battle of Naseby, 14 June 1645.\" UK Battlefields Resource Centre.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=51"
+        },
+        {
+          "citation": "National Army Museum. \"British Civil Wars.\"",
+          "url": "https://www.nam.ac.uk/explore/british-civil-wars"
+        },
+        {
+          "citation": "Cartwright, Mark. \"English Civil Wars.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/English_Civil_Wars/"
+        }
+      ],
+      "note": {
+        "en": "The Battlefields Trust gives Royalist losses of about 1,000 and Parliamentarian losses of fewer than 150; only about 4,000 Royalists, most of them cavalry, got away.",
+        "es": "El Battlefields Trust cifra las pérdidas realistas en unas 1.000 y las parlamentarias en menos de 150; solo unos 4.000 realistas, en su mayoría jinetes, lograron escapar.",
+        "zh": "据英国战场信托统计，保王派损失约1000人，议会派损失不到150人；仅约4000名保王派士兵逃离战场，其中大多是骑兵。"
+      },
+      "place": {
+        "name": {
+          "en": "Naseby",
+          "es": "Naseby",
+          "zh": "内斯比"
+        },
+        "lat": 52.416,
+        "lon": -0.995
+      },
+      "wikidataId": "Q949724"
+    },
+    {
+      "id": "execution-of-charles-i",
+      "start": 1649,
+      "title": {
+        "en": "After a trial for treason, Charles I is beheaded outside the Banqueting House in Whitehall, London",
+        "es": "Tras un juicio por traición, Carlos I es decapitado frente a la Banqueting House de Whitehall, en Londres",
+        "zh": "查理一世经叛国罪审判后，在伦敦白厅国宴厅外被斩首"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"British Civil Wars.\"",
+          "url": "https://www.nam.ac.uk/explore/british-civil-wars"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Charles I of England.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Charles_I_of_England/"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Banqueting House, Whitehall",
+          "es": "Banqueting House, Whitehall",
+          "zh": "白厅国宴厅"
+        },
+        "lat": 51.5045,
+        "lon": -0.1262
+      },
+      "wikidataId": "Q65088700"
+    },
+    {
+      "id": "siege-of-drogheda",
+      "start": 1649,
+      "title": {
+        "en": "Cromwell's army storms Drogheda; most of the Royalist garrison, Catholic priests and many townspeople are killed, some after they had surrendered",
+        "es": "El ejército de Cromwell toma Drogheda al asalto; mueren la mayor parte de la guarnición realista, sacerdotes católicos y muchos vecinos, algunos después de haberse rendido",
+        "zh": "克伦威尔的军队强攻德罗赫达；保王派守军大部、天主教神父和许多市民被杀，其中一些人是在投降后被杀的"
+      },
+      "sources": [
+        {
+          "citation": "BCW Project. \"The Siege of Drogheda, 1649.\"",
+          "url": "https://bcw-project.org.uk/military/third-civil-war/cromwell-in-ireland/drogheda"
+        },
+        {
+          "citation": "National Army Museum. \"British Civil Wars.\"",
+          "url": "https://www.nam.ac.uk/explore/british-civil-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Drogheda.\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Drogheda"
+        },
+        {
+          "citation": "Dorney, John. \"Today in Irish History, Cromwell Storms Drogheda, 11 September 1649.\" The Irish Story, 2011.",
+          "url": "https://www.theirishstory.com/2011/09/11/today-in-irish-history-11-september-1649-cromwell-storms-drogheda/"
+        }
+      ],
+      "note": {
+        "en": "The BCW Project puts the dead at around 2,000 and Parliamentarian losses at about 150. Hugh Peters, a chaplain with Cromwell's army, reported 3,552 dead, about 2,800 of them soldiers, which would leave 700–800 townspeople; how many civilians died has never been established. Surviving soldiers captured afterwards were shipped to Barbados.",
+        "es": "El BCW Project cifra los muertos en unos 2.000 y las pérdidas parlamentarias en unas 150. Hugh Peters, capellán del ejército de Cromwell, informó de 3.552 muertos, unos 2.800 de ellos soldados, lo que dejaría entre 700 y 800 vecinos; nunca se ha establecido cuántos civiles murieron. Los soldados supervivientes capturados después fueron enviados a Barbados.",
+        "zh": "据BCW项目统计，死亡约2000人，议会派损失约150人。克伦威尔军中的随军牧师休·彼得斯报告死亡3552人，其中约2800人是士兵，由此推算市民死者为700至800人；平民究竟死了多少，始终没有定论。事后被俘的幸存士兵被押送至巴巴多斯。"
+      },
+      "place": {
+        "name": {
+          "en": "Drogheda",
+          "es": "Drogheda",
+          "zh": "德罗赫达"
+        },
+        "lat": 53.714,
+        "lon": -6.35
+      },
+      "wikidataId": "Q815234"
+    },
+    {
+      "id": "battle-of-dunbar",
+      "start": 1650,
+      "title": {
+        "en": "Cromwell's army defeats David Leslie's larger Scottish army at Dunbar, then takes Edinburgh",
+        "es": "El ejército de Cromwell derrota en Dunbar al ejército escocés, más numeroso, de David Leslie y después toma Edimburgo",
+        "zh": "克伦威尔的军队在邓巴击败兵力更多的戴维·莱斯利苏格兰军，随后攻占爱丁堡"
+      },
+      "sources": [
+        {
+          "citation": "Historic Environment Scotland. \"Battle of Dunbar II (BTL7).\" Inventory of Historic Battlefields.",
+          "url": "https://portal.historicenvironment.scot/designation/BTL7"
+        },
+        {
+          "citation": "Battlefields Trust. \"Battle of Dunbar II, 3 September 1650.\" UK Battlefields Resource Centre.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=61"
+        },
+        {
+          "citation": "National Army Museum. \"British Civil Wars.\"",
+          "url": "https://www.nam.ac.uk/explore/british-civil-wars"
+        }
+      ],
+      "note": {
+        "en": "Historic Environment Scotland and the Battlefields Trust give about 3,000 Scots killed and some 10,000 captured, against 30–100 English dead; World History Encyclopedia gives perhaps 6,000 prisoners.",
+        "es": "Historic Environment Scotland y el Battlefields Trust dan unos 3.000 escoceses muertos y unos 10.000 prisioneros, frente a 30–100 muertos ingleses; la World History Encyclopedia da quizá 6.000 prisioneros.",
+        "zh": "苏格兰历史环境局和英国战场信托给出的数字是苏格兰人约3000人阵亡、约1万人被俘，英格兰方面阵亡30至100人；《世界历史百科》则称被俘者或为6000人。"
+      },
+      "place": {
+        "name": {
+          "en": "Dunbar",
+          "es": "Dunbar",
+          "zh": "邓巴"
+        },
+        "lat": 55.984,
+        "lon": -2.484
+      },
+      "wikidataId": "Q2605977"
+    },
+    {
+      "id": "battle-of-worcester",
+      "start": 1651,
+      "title": {
+        "en": "Cromwell's army defeats Charles II's Scottish and Royalist army at Worcester; Charles escapes into exile",
+        "es": "El ejército de Cromwell derrota en Worcester al ejército escocés y realista de Carlos II; Carlos huye al exilio",
+        "zh": "克伦威尔的军队在伍斯特击败查理二世的苏格兰与保王派军队；查理逃亡海外"
+      },
+      "sources": [
+        {
+          "citation": "Battlefields Trust. \"Battle of Worcester, 3 September 1651.\" UK Battlefields Resource Centre.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=49"
+        },
+        {
+          "citation": "National Army Museum. \"British Civil Wars.\"",
+          "url": "https://www.nam.ac.uk/explore/british-civil-wars"
+        },
+        {
+          "citation": "Cartwright, Mark. \"English Civil Wars.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/English_Civil_Wars/"
+        }
+      ],
+      "note": {
+        "en": "The Battlefields Trust gives about 3,000 Royalists killed and 7,000 captured, against about 200 Parliamentarian dead.",
+        "es": "El Battlefields Trust da unos 3.000 realistas muertos y 7.000 prisioneros, frente a unos 200 muertos parlamentarios.",
+        "zh": "据英国战场信托统计，保王派约3000人阵亡、7000人被俘，议会派阵亡约200人。"
+      },
+      "place": {
+        "name": {
+          "en": "Worcester",
+          "es": "Worcester",
+          "zh": "伍斯特"
+        },
+        "lat": 52.189,
+        "lon": -2.221
+      },
+      "wikidataId": "Q1116626"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Charles I",
+        "es": "Carlos I",
+        "zh": "查理一世"
+      },
+      "side": "royalists",
+      "role": {
+        "en": "King of England, Scotland and Ireland; executed in 1649",
+        "es": "Rey de Inglaterra, Escocia e Irlanda; ejecutado en 1649",
+        "zh": "英格兰、苏格兰和爱尔兰国王；1649年被处决"
+      },
+      "wikidataId": "Q81506"
+    },
+    {
+      "name": {
+        "en": "Prince Rupert of the Rhine",
+        "es": "Ruperto del Rin",
+        "zh": "莱茵河的鲁珀特亲王"
+      },
+      "side": "royalists",
+      "role": {
+        "en": "The King's nephew and cavalry commander; led the Royalist army at Marston Moor",
+        "es": "Sobrino del rey y jefe de su caballería; mandó el ejército realista en Marston Moor",
+        "zh": "国王的外甥和骑兵指挥官；在马斯顿荒原统率保王派军队"
+      },
+      "wikidataId": "Q76930"
+    },
+    {
+      "name": {
+        "en": "James Graham, Marquess of Montrose",
+        "es": "James Graham, marqués de Montrose",
+        "zh": "蒙特罗斯侯爵詹姆斯·格雷厄姆"
+      },
+      "side": "royalists",
+      "role": {
+        "en": "Led Royalist forces in Scotland in 1644–1645 and 1650",
+        "es": "Dirigió las fuerzas realistas en Escocia en 1644–1645 y en 1650",
+        "zh": "1644年至1645年及1650年在苏格兰率领保王派部队"
+      },
+      "wikidataId": "Q979180"
+    },
+    {
+      "name": {
+        "en": "James Butler, Marquess of Ormond",
+        "es": "James Butler, marqués de Ormond",
+        "zh": "奥蒙德侯爵詹姆斯·巴特勒"
+      },
+      "side": "royalists",
+      "role": {
+        "en": "The King's commander in Ireland; led the Royalist and Confederate alliance from 1649",
+        "es": "Comandante del rey en Irlanda; dirigió la alianza de realistas y confederados desde 1649",
+        "zh": "国王在爱尔兰的指挥官；1649年起领导保王派与天主教邦联的联盟"
+      },
+      "wikidataId": "Q948569"
+    },
+    {
+      "name": {
+        "en": "Charles II",
+        "es": "Carlos II",
+        "zh": "查理二世"
+      },
+      "side": "royalists",
+      "role": {
+        "en": "Crowned King of Scots at Scone in 1651; led the army defeated at Worcester",
+        "es": "Coronado rey de Escocia en Scone en 1651; mandó el ejército derrotado en Worcester",
+        "zh": "1651年在斯昆加冕为苏格兰国王；率领在伍斯特战败的军队"
+      },
+      "wikidataId": "Q122553"
+    },
+    {
+      "name": {
+        "en": "Robert Devereux, Earl of Essex",
+        "es": "Robert Devereux, conde de Essex",
+        "zh": "埃塞克斯伯爵罗伯特·德弗罗"
+      },
+      "side": "parliamentarians",
+      "role": {
+        "en": "Captain-general of Parliament's army from 1642 to 1645",
+        "es": "Capitán general del ejército del Parlamento de 1642 a 1645",
+        "zh": "1642年至1645年任议会军总司令"
+      },
+      "wikidataId": "Q2701696"
+    },
+    {
+      "name": {
+        "en": "Sir Thomas Fairfax",
+        "es": "Sir Thomas Fairfax",
+        "zh": "托马斯·费尔法克斯爵士"
+      },
+      "side": "parliamentarians",
+      "role": {
+        "en": "Commander of the New Model Army from 1645; won at Naseby",
+        "es": "Comandante del Nuevo Ejército Modelo desde 1645; venció en Naseby",
+        "zh": "1645年起任新模范军司令；赢得内斯比战役"
+      },
+      "wikidataId": "Q550612"
+    },
+    {
+      "name": {
+        "en": "Oliver Cromwell",
+        "es": "Oliver Cromwell",
+        "zh": "奥利弗·克伦威尔"
+      },
+      "side": "parliamentarians",
+      "role": {
+        "en": "Cavalry commander under Fairfax, then commander-in-chief in Ireland (1649–1650) and Scotland (1650–1651)",
+        "es": "Jefe de caballería a las órdenes de Fairfax y después comandante en jefe en Irlanda (1649–1650) y Escocia (1650–1651)",
+        "zh": "费尔法克斯麾下的骑兵指挥官，后任爱尔兰（1649年至1650年）和苏格兰（1650年至1651年）的总司令"
+      },
+      "wikidataId": "Q44279"
+    },
+    {
+      "name": {
+        "en": "Alexander Leslie, Earl of Leven",
+        "es": "Alexander Leslie, conde de Leven",
+        "zh": "利文伯爵亚历山大·莱斯利"
+      },
+      "side": "covenanters",
+      "role": {
+        "en": "Commander of the Covenanter army; led it at Newburn and Marston Moor",
+        "es": "Comandante del ejército covenanter; lo dirigió en Newburn y Marston Moor",
+        "zh": "誓约派军队司令；在纽伯恩和马斯顿荒原指挥作战"
+      },
+      "wikidataId": "Q1376604"
+    },
+    {
+      "name": {
+        "en": "David Leslie",
+        "es": "David Leslie",
+        "zh": "戴维·莱斯利"
+      },
+      "side": "covenanters",
+      "role": {
+        "en": "Covenanter general; commanded the Scottish army defeated at Dunbar",
+        "es": "General covenanter; mandó el ejército escocés derrotado en Dunbar",
+        "zh": "誓约派将领；指挥在邓巴战败的苏格兰军队"
+      },
+      "wikidataId": "Q4259456"
+    },
+    {
+      "name": {
+        "en": "Archibald Campbell, Marquess of Argyll",
+        "es": "Archibald Campbell, marqués de Argyll",
+        "zh": "阿盖尔侯爵阿奇博尔德·坎贝尔"
+      },
+      "side": "covenanters",
+      "role": {
+        "en": "Leading figure in the Covenanter government of Scotland",
+        "es": "Figura principal del gobierno covenanter de Escocia",
+        "zh": "苏格兰誓约派政府的主要人物"
+      },
+      "wikidataId": "Q977300"
+    },
+    {
+      "name": {
+        "en": "Sir Phelim O'Neill",
+        "es": "Sir Phelim O'Neill",
+        "zh": "费利姆·奥尼尔爵士"
+      },
+      "side": "confederates",
+      "role": {
+        "en": "Led the 1641 rising in Ulster",
+        "es": "Dirigió el alzamiento de 1641 en el Úlster",
+        "zh": "领导1641年阿尔斯特起事"
+      },
+      "wikidataId": "Q335800"
+    },
+    {
+      "name": {
+        "en": "Owen Roe O'Neill",
+        "es": "Owen Roe O'Neill",
+        "zh": "欧文·罗·奥尼尔"
+      },
+      "side": "confederates",
+      "role": {
+        "en": "Led the Confederate army of Ulster from 1642",
+        "es": "Dirigió el ejército confederado del Úlster desde 1642",
+        "zh": "1642年起统率天主教邦联的阿尔斯特军"
+      },
+      "wikidataId": "Q2360966"
+    },
+    {
+      "name": {
+        "en": "Thomas Preston",
+        "es": "Thomas Preston",
+        "zh": "托马斯·普雷斯顿"
+      },
+      "side": "confederates",
+      "role": {
+        "en": "Led the Confederate army of Leinster",
+        "es": "Dirigió el ejército confederado de Leinster",
+        "zh": "统率天主教邦联的伦斯特军"
+      },
+      "wikidataId": "Q2466049"
+    }
+  ],
+  "casualties": [
+    {
+      "scope": "total-deaths",
+      "who": {
+        "en": "England and Wales",
+        "es": "Inglaterra y Gales",
+        "zh": "英格兰和威尔士"
+      },
+      "low": 190000,
+      "high": 230441,
+      "sources": [
+        {
+          "citation": "Atherton, Ian. Review of Charles Carlton, This Seat of Mars: War and the British Isles 1482–1746 (Yale University Press, 2011). Reviews in History, Institute of Historical Research, no. 1256.",
+          "url": "https://reviews.history.ac.uk/review/1256/"
+        },
+        {
+          "citation": "Cartwright, Mark. \"English Civil Wars.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/English_Civil_Wars/"
+        }
+      ],
+      "note": {
+        "en": "Soldiers and civilians, killed in fighting or dead of disease. The historian Charles Carlton estimated about 190,000 deaths (3.7 per cent of the population) in 1992 and revised this to 230,441 in 2011; World History Encyclopedia gives about 100,000 soldiers and 100,000 civilians. All such figures are estimates.",
+        "es": "Soldados y civiles muertos en combate o por enfermedad. El historiador Charles Carlton estimó unas 190.000 muertes (el 3,7 % de la población) en 1992 y corrigió la cifra a 230.441 en 2011; la World History Encyclopedia da unos 100.000 soldados y 100.000 civiles. Todas estas cifras son estimaciones.",
+        "zh": "包括在战斗中被杀或死于疾病的士兵和平民。历史学家查尔斯·卡尔顿1992年估计死亡约19万人（占人口3.7%），2011年修正为230,441人；《世界历史百科》称约10万名士兵和10万名平民死亡。这些数字均为估算。"
+      }
+    },
+    {
+      "scope": "total-deaths",
+      "who": {
+        "en": "Scotland",
+        "es": "Escocia",
+        "zh": "苏格兰"
+      },
+      "low": 60000,
+      "high": 92751,
+      "sources": [
+        {
+          "citation": "Dittmar, Jenna, et al. \"The final plague outbreak in Scotland 1644–1649: Historical, archaeological, and genetic evidence.\" PLOS ONE 19(11), 2024 (citing Ian Gentles, The English Revolution and the Wars in the Three Kingdoms, 1638–1652, 2007).",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306432"
+        },
+        {
+          "citation": "Atherton, Ian. Review of Charles Carlton, This Seat of Mars: War and the British Isles 1482–1746 (Yale University Press, 2011). Reviews in History, Institute of Historical Research, no. 1256.",
+          "url": "https://reviews.history.ac.uk/review/1256/"
+        }
+      ],
+      "note": {
+        "en": "The historian Ian Gentles puts deaths at about 60,000, some 6 per cent of the population: about 25,000 killed in battle and 35,000 dead of accident or disease. Charles Carlton estimated 60,000 in 1992 and revised this to 92,751 in 2011.",
+        "es": "El historiador Ian Gentles cifra las muertes en unas 60.000, alrededor del 6 % de la población: unas 25.000 en combate y 35.000 por accidente o enfermedad. Charles Carlton estimó 60.000 en 1992 y corrigió la cifra a 92.751 en 2011.",
+        "zh": "历史学家伊恩·金特尔斯估计死亡约6万人，约占人口6%：约2.5万人死于战斗，3.5万人死于意外或疾病。查尔斯·卡尔顿1992年估计为6万人，2011年修正为92,751人。"
+      }
+    },
+    {
+      "scope": "total-deaths",
+      "who": {
+        "en": "Ireland",
+        "es": "Irlanda",
+        "zh": "爱尔兰"
+      },
+      "low": 250000,
+      "high": 325000,
+      "sources": [
+        {
+          "citation": "National Army Museum. \"British Civil Wars.\"",
+          "url": "https://www.nam.ac.uk/explore/british-civil-wars"
+        },
+        {
+          "citation": "Atherton, Ian. Review of Charles Carlton, This Seat of Mars: War and the British Isles 1482–1746 (Yale University Press, 2011). Reviews in History, Institute of Historical Research, no. 1256.",
+          "url": "https://reviews.history.ac.uk/review/1256/"
+        }
+      ],
+      "note": {
+        "en": "Deaths from fighting, famine and plague, 1641–1653. The National Army Museum gives more than 250,000, perhaps 15–20 per cent of the pre-war population; Charles Carlton's revised estimate (2011) is 325,000, about a fifth of the population.",
+        "es": "Muertes por combate, hambre y peste entre 1641 y 1653. El National Army Museum da más de 250.000, quizá el 15–20 % de la población anterior a la guerra; la estimación corregida de Charles Carlton (2011) es de 325.000, alrededor de una quinta parte de la población.",
+        "zh": "1641年至1653年间死于战斗、饥荒和瘟疫的人数。英国国家陆军博物馆称超过25万人，约占战前人口的15%至20%；查尔斯·卡尔顿2011年的修正估计为32.5万人，约占人口五分之一。"
+      }
+    },
+    {
+      "scope": "total-deaths",
+      "who": {
+        "en": "Ireland",
+        "es": "Irlanda",
+        "zh": "爱尔兰"
+      },
+      "low": 618000,
+      "high": 618000,
+      "attributedTo": {
+        "en": "the 17th-century surveyor William Petty",
+        "es": "el agrimensor del siglo XVII William Petty",
+        "zh": "17世纪土地测量师威廉·配第"
+      },
+      "sources": [
+        {
+          "citation": "Dorney, John. \"War and Famine in Ireland, 1580–1700.\" The Irish Story, 2012.",
+          "url": "https://www.theirishstory.com/2012/01/03/war-and-famine-in-ireland-1580-1700/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Cromwellian conquest of Ireland.\"",
+          "url": "https://en.wikipedia.org/wiki/Cromwellian_conquest_of_Ireland"
+        },
+        {
+          "citation": "Atherton, Ian. Review of Charles Carlton, This Seat of Mars: War and the British Isles 1482–1746 (Yale University Press, 2011). Reviews in History, Institute of Historical Research, no. 1256.",
+          "url": "https://reviews.history.ac.uk/review/1256/"
+        }
+      ],
+      "note": {
+        "en": "Petty counted deaths in Ireland since 1641 from war, famine and disease, about 40 per cent of the pre-war population. Historians now judge the figure too high, partly because many of the missing had fled abroad or been transported; Charles Carlton used it in 1992 and later revised his estimate to 325,000.",
+        "es": "Petty contó las muertes en Irlanda desde 1641 por guerra, hambre y enfermedad, alrededor del 40 % de la población anterior a la guerra. Los historiadores consideran hoy la cifra demasiado alta, en parte porque muchos de los desaparecidos habían huido al extranjero o habían sido deportados; Charles Carlton la usó en 1992 y después corrigió su estimación a 325.000.",
+        "zh": "配第统计的是1641年以来爱尔兰死于战争、饥荒和疾病的人数，约占战前人口的40%。如今历史学家认为这一数字偏高，部分原因是许多失踪者已逃往国外或被流放；查尔斯·卡尔顿曾在1992年采用此数，后将估计修正为32.5万人。"
+      }
+    }
+  ],
+  "cultures": [
+    "kingdom-of-scotland"
+  ],
+  "sources": [
+    {
+      "citation": "National Army Museum. \"British Civil Wars.\"",
+      "url": "https://www.nam.ac.uk/explore/british-civil-wars"
+    },
+    {
+      "citation": "Cartwright, Mark. \"English Civil Wars.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/English_Civil_Wars/"
+    },
+    {
+      "citation": "BCW Project. \"Cromwell in Ireland: Overview.\"",
+      "url": "https://bcw-project.org.uk/military/third-civil-war/cromwell-in-ireland"
+    },
+    {
+      "citation": "BCW Project. \"The Irish Uprising, 1641.\"",
+      "url": "https://bcw-project.org.uk/church-and-state/confederate-ireland/the-irish-uprising"
+    },
+    {
+      "citation": "Perceval-Maxwell, Michael. \"Rebellion of 1641.\" Encyclopedia of Irish History and Culture, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/rebellion-1641"
+    },
+    {
+      "citation": "Historic Environment Scotland. \"Battle of Dunbar II (BTL7).\" Inventory of Historic Battlefields.",
+      "url": "https://portal.historicenvironment.scot/designation/BTL7"
+    },
+    {
+      "citation": "Wikipedia (English). \"Wars of the Three Kingdoms.\"",
+      "url": "https://en.wikipedia.org/wiki/Wars_of_the_Three_Kingdoms"
+    },
+    {
+      "citation": "Wikidata. \"Wars of the Three Kingdoms\" (Q2577772).",
+      "url": "https://www.wikidata.org/wiki/Q2577772"
+    },
+    {
+      "citation": "BCW Project. \"Owen Roe O'Neill, c.1590–1649\" (landed July 1642; commander in Ulster).",
+      "url": "https://bcw-project.org.uk/biography/owen-roe-oneill"
+    },
+    {
+      "citation": "Wikipedia (English). \"Owen Roe O'Neill.\"",
+      "url": "https://en.wikipedia.org/wiki/Owen_Roe_O%27Neill"
+    },
+    {
+      "citation": "BCW Project. \"Thomas Preston, Viscount Tara, c.1585–1655\" (commander of the Leinster army).",
+      "url": "https://bcw-project.org.uk/biography/thomas-preston"
+    },
+    {
+      "citation": "Wikipedia (English). \"Thomas Preston, 1st Viscount Tara.\"",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Preston,_1st_Viscount_Tara"
+    },
+    {
+      "citation": "BCW Project. \"Robert Devereux, 3rd Earl of Essex, 1591–1646\" (captain-general 1642; resigned 2 April 1645).",
+      "url": "https://bcw-project.org.uk/biography/robert-devereux-3rd-earl-of-essex"
+    },
+    {
+      "citation": "Wikipedia (English). \"Robert Devereux, 3rd Earl of Essex.\"",
+      "url": "https://en.wikipedia.org/wiki/Robert_Devereux,_3rd_Earl_of_Essex"
+    }
+  ]
+}

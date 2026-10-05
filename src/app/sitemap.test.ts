@@ -1,6 +1,7 @@
 import { describe, expect, it, vi } from "vitest";
 import { LOCALES } from "@/i18n/locales";
 import { loadCultures, loadHeartland } from "@/lib/data/load";
+import { withUnion } from "@/lib/data/nations";
 import type { War } from "@/lib/data/war-schema";
 import { SITE_URL } from "@/lib/seo";
 import sitemap from "./sitemap";
@@ -43,9 +44,9 @@ describe("sitemap", () => {
   const urls = rows.map((r) => r.url);
 
   it("covers every culture in every locale, home/timeline/credits, the wars list and each country, minus what the review gate hides", () => {
-    // Every heartland country plus ES and MX (open-war), wars and war/open-war everywhere;
-    // country/kr and war/gated-war in English only.
-    const countries = new Set([...Object.values(loadHeartland()).flat(), "ES", "MX"]).size;
+    // Every heartland country (and the UK, through its nations) plus ES and MX (open-war), wars and
+    // war/open-war everywhere; country/kr and war/gated-war in English only.
+    const countries = new Set(withUnion([...Object.values(loadHeartland()).flat(), "ES", "MX"])).size;
     const expected = (3 + cultureCount + 2 + countries) * LOCALES.length + 2;
     expect(rows).toHaveLength(expected);
   });

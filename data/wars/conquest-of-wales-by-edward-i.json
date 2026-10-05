@@ -1,0 +1,553 @@
+{
+  "id": "conquest-of-wales-by-edward-i",
+  "wikidataId": "Q5162450",
+  "name": {
+    "en": "Conquest of Wales by Edward I",
+    "es": "Conquista de Gales por Eduardo I",
+    "zh": "爱德华一世征服威尔士"
+  },
+  "noWikiTitle": [
+    "zh"
+  ],
+  "aliases": [
+    "Edwardian conquest of Wales",
+    "Conquest of Wales by Edward I of England",
+    "Welsh wars of Edward I",
+    "Goresgyniad Edward I",
+    "Llywelyn the Last",
+    "Llywelyn ap Gruffudd",
+    "Dafydd ap Gruffudd",
+    "Treaty of Aberconwy",
+    "Tratado de Aberconwy",
+    "阿伯康威和约",
+    "威尔士征服",
+    "威尔斯征讨",
+    "卢埃林·阿颇·格鲁菲德"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "Llywelyn ap Gruffudd, prince of Gwynedd, had been recognised as Prince of Wales by Henry III in 1267. After Edward I became king, Llywelyn refused to do him homage, and in November 1276 Edward declared him a rebel. In 1277 English armies, joined by Welsh rulers who had broken with Llywelyn, among them his brother Dafydd and Gruffudd ap Gwenwynwyn of Powys, advanced into Wales and took the harvest of Anglesey. Llywelyn submitted in the Treaty of Aberconwy and kept only Gwynedd west of the river Conwy. In March 1282 Dafydd attacked Hawarden Castle, and Llywelyn and most other Welsh lords joined the revolt. In November Welsh forces destroyed an English army crossing the Menai Strait, but on 11 December Llywelyn was killed near Builth. Edward's armies took the last Welsh castles in the spring of 1283; Dafydd was captured in June and executed at Shrewsbury in October. No reliable count of the war's dead survives.",
+    "es": "Llywelyn ap Gruffudd, príncipe de Gwynedd, había sido reconocido como príncipe de Gales por Enrique III en 1267. Cuando Eduardo I llegó al trono, Llywelyn se negó a rendirle homenaje, y en noviembre de 1276 Eduardo lo declaró rebelde. En 1277 los ejércitos ingleses, junto con gobernantes galeses que habían roto con Llywelyn, entre ellos su hermano Dafydd y Gruffudd ap Gwenwynwyn de Powys, avanzaron por Gales y se llevaron la cosecha de Anglesey. Llywelyn se sometió en el Tratado de Aberconwy y conservó solo Gwynedd al oeste del río Conwy. En marzo de 1282 Dafydd atacó el castillo de Hawarden, y Llywelyn y la mayoría de los demás señores galeses se unieron a la revuelta. En noviembre las fuerzas galesas destruyeron un ejército inglés que cruzaba el estrecho de Menai, pero el 11 de diciembre Llywelyn murió cerca de Builth. Los ejércitos de Eduardo tomaron los últimos castillos galeses en la primavera de 1283; Dafydd fue capturado en junio y ejecutado en Shrewsbury en octubre. No se conserva un recuento fiable de los muertos de la guerra.",
+    "zh": "格温内斯亲王卢埃林·阿普·格鲁菲兹在1267年获亨利三世承认为威尔士亲王。爱德华一世即位后，卢埃林拒绝向他效忠，1276年11月爱德华宣布他为叛乱者。1277年，英格兰军队连同与卢埃林决裂的威尔士统治者（包括他的弟弟戴维兹和波伊斯的格鲁菲兹·阿普·古恩温威）开进威尔士，夺走了安格尔西岛的收成。卢埃林在《阿伯康威和约》中屈服，只保留康威河以西的格温内斯。1282年3月，戴维兹进攻哈登城堡，卢埃林和大多数其他威尔士领主随即加入起事。同年11月，威尔士军队歼灭了一支渡过梅奈海峡的英格兰军队，但12月11日卢埃林在比尔斯附近被杀。1283年春，爱德华的军队攻占最后几座威尔士城堡；戴维兹于6月被俘，10月在什鲁斯伯里被处决。这场战争的死亡人数没有可靠统计留存。"
+  },
+  "outcome": {
+    "en": "Gwynedd's princes lost all their lands; under the Statute of Rhuddlan (1284) Edward organised the principality into shires under the English crown, and from 1283 he built castles at Conwy, Caernarfon and Harlech.",
+    "es": "Los príncipes de Gwynedd perdieron todas sus tierras; con el Estatuto de Rhuddlan (1284) Eduardo organizó el principado en condados bajo la corona inglesa, y desde 1283 construyó castillos en Conwy, Caernarfon y Harlech.",
+    "zh": "格温内斯诸亲王失去了全部领地；爱德华依据《里兹兰法令》（1284年）把亲王国划为隶属英格兰王室的郡，并从1283年起在康威、卡那封和哈莱克修建城堡。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1276,
+    "latestStart": 1277,
+    "earliestEnd": 1283,
+    "latestEnd": 1283,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Conquest of Wales by Edward I.\"",
+        "url": "https://en.wikipedia.org/wiki/Conquest_of_Wales_by_Edward_I"
+      },
+      {
+        "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Gruffydd ('Llywelyn the Last'), Prince of Wales (died 1282).\" Dictionary of Welsh Biography, National Library of Wales.",
+        "url": "https://biography.wales/article/s-LLYW-APG-1200"
+      },
+      {
+        "citation": "\"Dafydd ap Gruffydd.\" The Oxford Companion to British History, via Encyclopedia.com.",
+        "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dafydd-ap-gruffydd"
+      },
+      {
+        "citation": "Wikipedia (English). \"Treaty of Montgomery\" (Implications).",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Montgomery"
+      },
+      {
+        "citation": "Wikidata. \"Conquest of Wales by Edward I of England\" (Q5162450), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q5162450"
+      }
+    ],
+    "disputed": false,
+    "note": {
+      "en": "Edward declared Llywelyn a rebel in November 1276 and the first campaign was fought in 1277, the year Wikidata gives as the start. The last Welsh garrison surrendered in April 1283 and Dafydd was executed in October; the Statute of Rhuddlan of March 1284 then set out English rule.",
+      "es": "Eduardo declaró rebelde a Llywelyn en noviembre de 1276 y la primera campaña se libró en 1277, el año que Wikidata da como inicio. La última guarnición galesa se rindió en abril de 1283 y Dafydd fue ejecutado en octubre; el Estatuto de Rhuddlan de marzo de 1284 fijó después el gobierno inglés.",
+      "zh": "爱德华于1276年11月宣布卢埃林为叛乱者，第一次战役在1277年进行，维基数据即以1277年为起点。最后一支威尔士守军于1283年4月投降，戴维兹于同年10月被处决；随后1284年3月的《里兹兰法令》确立了英格兰的统治。"
+    }
+  },
+  "sides": [
+    {
+      "id": "england",
+      "label": {
+        "en": "England under Edward I and its Welsh allies",
+        "es": "Inglaterra bajo Eduardo I y sus aliados galeses",
+        "zh": "爱德华一世治下的英格兰及其威尔士盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of England under Edward I, with the marcher lords",
+            "es": "Reino de Inglaterra bajo Eduardo I, con los señores de las Marcas",
+            "zh": "爱德华一世治下的英格兰王国及边区领主"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Gruffudd ap Gwenwynwyn, lord of southern Powys",
+            "es": "Gruffudd ap Gwenwynwyn, señor del sur de Powys",
+            "zh": "南波伊斯领主格鲁菲兹·阿普·古恩温威"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-WLS"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Dafydd ap Gruffudd, Llywelyn's brother, in 1277 (he began the revolt of 1282 against Edward)",
+            "es": "Dafydd ap Gruffudd, hermano de Llywelyn, en 1277 (inició la revuelta de 1282 contra Eduardo)",
+            "zh": "卢埃林的弟弟戴维兹·阿普·格鲁菲兹（1277年；他于1282年发动了反对爱德华的起事）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-WLS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gwynedd",
+      "label": {
+        "en": "Gwynedd and the Welsh lords who rose with it",
+        "es": "Gwynedd y los señores galeses que se alzaron con ella",
+        "zh": "格温内斯及随其起事的威尔士领主"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "gwynedd",
+          "role": "belligerent",
+          "today": [
+            "GB-WLS"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Welsh lords who joined the revolt in 1282, among them most of the princes of Deheubarth",
+            "es": "Señores galeses que se unieron a la revuelta en 1282, entre ellos la mayoría de los príncipes de Deheubarth",
+            "zh": "1282年加入起事的威尔士领主，包括德修巴斯的大多数亲王"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-WLS"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "first-war",
+      "name": {
+        "en": "First war: Llywelyn submits",
+        "es": "Primera guerra: Llywelyn se somete",
+        "zh": "第一次战争：卢埃林屈服"
+      },
+      "start": 1276,
+      "end": 1277,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Conquest of Wales by Edward I.\"",
+          "url": "https://en.wikipedia.org/wiki/Conquest_of_Wales_by_Edward_I"
+        },
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Gruffydd ('Llywelyn the Last'), Prince of Wales (died 1282).\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-LLYW-APG-1200"
+        },
+        {
+          "citation": "Wikipedia (English). \"Rhys ap Maredudd\" (the Anglo-Welsh war of 1276–77).",
+          "url": "https://en.wikipedia.org/wiki/Rhys_ap_Maredudd"
+        }
+      ]
+    },
+    {
+      "id": "second-war",
+      "name": {
+        "en": "Second war: Welsh revolt and the fall of Gwynedd",
+        "es": "Segunda guerra: revuelta galesa y caída de Gwynedd",
+        "zh": "第二次战争：威尔士起事与格温内斯的覆灭"
+      },
+      "start": 1282,
+      "end": 1283,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Conquest of Wales by Edward I.\"",
+          "url": "https://en.wikipedia.org/wiki/Conquest_of_Wales_by_Edward_I"
+        },
+        {
+          "citation": "\"Dafydd ap Gruffydd.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dafydd-ap-gruffydd"
+        },
+        {
+          "citation": "Wikipedia (English). \"Rhys ap Maredudd\" (the war of 1282–3).",
+          "url": "https://en.wikipedia.org/wiki/Rhys_ap_Maredudd"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "siege-of-dolforwyn",
+      "start": 1277,
+      "title": {
+        "en": "English forces under Roger Mortimer take Llywelyn's new castle at Dolforwyn after a siege of about two weeks, when its defenders run out of water",
+        "es": "Fuerzas inglesas al mando de Roger Mortimer toman el nuevo castillo de Llywelyn en Dolforwyn tras un asedio de unas dos semanas, cuando a los defensores se les acaba el agua",
+        "zh": "罗杰·莫蒂默率领的英格兰军队围攻约两周后，因守军断水而攻下卢埃林新建的多尔福温城堡"
+      },
+      "sources": [
+        {
+          "citation": "Cadw. \"Dolforwyn Castle.\"",
+          "url": "https://cadw.gov.wales/visit/places-to-visit/dolforwyn-castle"
+        },
+        {
+          "citation": "Wikipedia (English). \"Dolforwyn Castle.\"",
+          "url": "https://en.wikipedia.org/wiki/Dolforwyn_Castle"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The castle fell on 8 April 1277. Llywelyn had built it from 1273 against Edward's orders.",
+        "es": "El castillo cayó el 8 de abril de 1277. Llywelyn lo había construido desde 1273 contra las órdenes de Eduardo.",
+        "zh": "城堡于1277年4月8日陷落。卢埃林自1273年起不顾爱德华的禁令修建了这座城堡。"
+      },
+      "place": {
+        "name": {
+          "en": "Dolforwyn Castle",
+          "es": "Castillo de Dolforwyn",
+          "zh": "多尔福温城堡"
+        },
+        "lat": 52.5465,
+        "lon": -3.252
+      }
+    },
+    {
+      "id": "treaty-of-aberconwy",
+      "start": 1277,
+      "title": {
+        "en": "Llywelyn submits to Edward I in the Treaty of Aberconwy: he keeps the title Prince of Wales but only Gwynedd west of the river Conwy",
+        "es": "Llywelyn se somete a Eduardo I en el Tratado de Aberconwy: conserva el título de príncipe de Gales, pero solo Gwynedd al oeste del río Conwy",
+        "zh": "卢埃林在《阿伯康威和约》中向爱德华一世屈服：他保留威尔士亲王的称号，但只保有康威河以西的格温内斯"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Treaty of Aberconwy.\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Aberconwy"
+        },
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Gruffydd ('Llywelyn the Last'), Prince of Wales (died 1282).\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-LLYW-APG-1200"
+        },
+        {
+          "citation": "\"Llewelyn ap Gruffydd.\" Encyclopedia of World Biography, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/llewelyn-ap-gruffydd"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Edward's troops had taken the harvest of Anglesey, cutting off Llywelyn's food. Eastern Gwynedd was split between Edward and Dafydd. Sources date the treaty to 9 or 10 November 1277.",
+        "es": "Las tropas de Eduardo se habían llevado la cosecha de Anglesey y habían dejado a Llywelyn sin víveres. El este de Gwynedd se repartió entre Eduardo y Dafydd. Las fuentes fechan el tratado el 9 o el 10 de noviembre de 1277.",
+        "zh": "爱德华的军队夺走了安格尔西岛的收成，切断了卢埃林的粮食来源。格温内斯东部由爱德华和戴维兹瓜分。各来源记载的签约日期为1277年11月9日或10日。"
+      },
+      "place": {
+        "name": {
+          "en": "Aberconwy (Conwy)",
+          "es": "Aberconwy (Conwy)",
+          "zh": "阿伯康威（康威）"
+        },
+        "lat": 53.2807,
+        "lon": -3.8289
+      },
+      "wikidataId": "Q3405472"
+    },
+    {
+      "id": "attack-on-hawarden",
+      "start": 1282,
+      "title": {
+        "en": "Dafydd ap Gruffudd attacks and takes Hawarden Castle on Palm Sunday, starting a general Welsh revolt that Llywelyn joins",
+        "es": "Dafydd ap Gruffudd ataca y toma el castillo de Hawarden el Domingo de Ramos, lo que desata una revuelta galesa general a la que se une Llywelyn",
+        "zh": "戴维兹·阿普·格鲁菲兹在圣枝主日进攻并攻占哈登城堡，引发威尔士全面起事，卢埃林随之加入"
+      },
+      "sources": [
+        {
+          "citation": "\"Dafydd ap Gruffydd.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dafydd-ap-gruffydd"
+        },
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Gruffydd ('Llywelyn the Last'), Prince of Wales (died 1282).\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-LLYW-APG-1200"
+        },
+        {
+          "citation": "Wikipedia (English). \"Hawarden Castle (medieval).\"",
+          "url": "https://en.wikipedia.org/wiki/Hawarden_Castle_(medieval)"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Accounts date the attack to 21 or 22 March 1282. Dafydd had fought for Edward in 1277 and was unhappy with his reward.",
+        "es": "Los relatos fechan el ataque el 21 o el 22 de marzo de 1282. Dafydd había luchado por Eduardo en 1277 y estaba descontento con su recompensa.",
+        "zh": "各方记载的进攻日期为1282年3月21日或22日。戴维兹在1277年曾为爱德华作战，对所得封赏不满。"
+      },
+      "place": {
+        "name": {
+          "en": "Hawarden Castle",
+          "es": "Castillo de Hawarden",
+          "zh": "哈登城堡"
+        },
+        "lat": 53.1809,
+        "lon": -3.0199
+      }
+    },
+    {
+      "id": "battle-of-moel-y-don",
+      "start": 1282,
+      "title": {
+        "en": "Welsh forces attack an English army under Luke de Tany as it crosses from Anglesey on a bridge of boats over the Menai Strait; cut off by the tide, many drown or are killed",
+        "es": "Las fuerzas galesas atacan a un ejército inglés al mando de Luke de Tany cuando cruza desde Anglesey por un puente de barcas sobre el estrecho de Menai; aislados por la marea, muchos se ahogan o mueren",
+        "zh": "卢克·德·塔尼率领的英格兰军队从安格尔西岛经浮桥渡过梅奈海峡时遭威尔士军队攻击；被潮水切断退路后，许多人溺死或被杀"
+      },
+      "sources": [
+        {
+          "citation": "Royal Commission on the Ancient and Historical Monuments of Wales (2017). \"Moel-y-Don: possible site of Battle, Menai Straits, near Llanedwen\" (NPRN 404319). Inventory of Historic Battlefields in Wales, Coflein.",
+          "url": "https://coflein.gov.uk/en/sites/404319"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Moel-y-don.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Moel-y-don"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Fought on 6 November 1282. The crossing point is uncertain: tradition names Moel-y-don, but the Royal Commission suggests a site further north, near Bangor or between Llanfaes and Abergwyngregyn; the pin marks the strait near Bangor. The Welsh chronicle Brut y Tywysogyon says countless English drowned and others were killed; de Tany was among the dead.",
+        "es": "Librada el 6 de noviembre de 1282. El punto de cruce es incierto: la tradición señala Moel-y-don, pero la Royal Commission propone un lugar más al norte, cerca de Bangor o entre Llanfaes y Abergwyngregyn; el marcador señala el estrecho cerca de Bangor. La crónica galesa Brut y Tywysogyon dice que se ahogaron incontables ingleses y otros murieron; De Tany estaba entre los muertos.",
+        "zh": "战斗发生于1282年11月6日。渡口位置不确定：传统说法是莫伊尔伊顿，但威尔士皇家古迹委员会认为地点更靠北，在班戈附近或兰菲斯与阿伯格温格雷金之间；图钉标在班戈附近的海峡。威尔士编年史《亲王编年史》称溺死的英格兰人不计其数，另有人被杀；德·塔尼也在死者之中。"
+      },
+      "place": {
+        "name": {
+          "en": "Menai Strait, near Bangor",
+          "es": "Estrecho de Menai, cerca de Bangor",
+          "zh": "班戈附近的梅奈海峡"
+        },
+        "lat": 53.23,
+        "lon": -4.154
+      },
+      "wikidataId": "Q4871754"
+    },
+    {
+      "culture": "gwynedd",
+      "event": "llywelyn-killed"
+    },
+    {
+      "id": "castell-y-bere",
+      "start": 1283,
+      "title": {
+        "en": "The Welsh garrison of Castell y Bere surrenders to the forces of William de Valence and Roger Lestrange after a siege, the last Welsh castle to hold out",
+        "es": "La guarnición galesa de Castell y Bere se rinde a las fuerzas de William de Valence y Roger Lestrange tras un asedio; es el último castillo galés en resistir",
+        "zh": "贝雷城堡的威尔士守军在被围后向威廉·德·瓦朗斯和罗杰·莱斯特兰奇的部队投降，这是最后一座坚守的威尔士城堡"
+      },
+      "sources": [
+        {
+          "citation": "Heneb: The Trust for Welsh Archaeology. \"Area 14 Castell y Bere (PRN 29773).\" Dysynni Historic Landscape Characterisation.",
+          "url": "https://heneb.org.uk/hcla/dysynni/area-14-castell-y-bere-prn-29773/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Castell y Bere.\"",
+          "url": "https://en.wikipedia.org/wiki/Castell_y_Bere"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Surrendered on 25 April 1283. Llywelyn the Great had begun the castle around 1221 to guard Gwynedd's southern frontier.",
+        "es": "Se rindió el 25 de abril de 1283. Llywelyn el Grande había empezado el castillo hacia 1221 para guardar la frontera sur de Gwynedd.",
+        "zh": "城堡于1283年4月25日投降。卢埃林大帝约于1221年开始修建这座城堡，以守卫格温内斯的南部边境。"
+      },
+      "place": {
+        "name": {
+          "en": "Castell y Bere",
+          "es": "Castell y Bere",
+          "zh": "贝雷城堡"
+        },
+        "lat": 52.6583,
+        "lon": -3.9711
+      }
+    },
+    {
+      "culture": "gwynedd",
+      "event": "dafydd-executed"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Edward I",
+        "es": "Eduardo I",
+        "zh": "爱德华一世"
+      },
+      "side": "england",
+      "role": {
+        "en": "King of England; led both campaigns",
+        "es": "Rey de Inglaterra; dirigió ambas campañas",
+        "zh": "英格兰国王；亲自领导两次战役"
+      },
+      "wikidataId": "Q57798"
+    },
+    {
+      "name": {
+        "en": "Roger Mortimer",
+        "es": "Roger Mortimer",
+        "zh": "罗杰·莫蒂默"
+      },
+      "side": "england",
+      "role": {
+        "en": "Marcher lord; took Dolforwyn Castle in 1277",
+        "es": "Señor de las Marcas; tomó el castillo de Dolforwyn en 1277",
+        "zh": "边区领主；1277年攻下多尔福温城堡"
+      },
+      "wikidataId": "Q934504"
+    },
+    {
+      "name": {
+        "en": "Luke de Tany",
+        "es": "Luke de Tany",
+        "zh": "卢克·德·塔尼"
+      },
+      "side": "england",
+      "role": {
+        "en": "Commanded the English force on Anglesey; died in the Menai Strait in 1282",
+        "es": "Mandó la fuerza inglesa en Anglesey; murió en el estrecho de Menai en 1282",
+        "zh": "指挥安格尔西岛上的英格兰部队；1282年死于梅奈海峡"
+      },
+      "wikidataId": "Q6702499"
+    },
+    {
+      "name": {
+        "en": "Roger Lestrange",
+        "es": "Roger Lestrange",
+        "zh": "罗杰·莱斯特兰奇"
+      },
+      "side": "england",
+      "role": {
+        "en": "Commanded the king's forces around Builth in December 1282; besieged Castell y Bere in 1283",
+        "es": "Mandó las fuerzas del rey en torno a Builth en diciembre de 1282; asedió Castell y Bere en 1283",
+        "zh": "1282年12月指挥比尔斯一带的国王军队；1283年围攻贝雷城堡"
+      },
+      "wikidataId": "Q17352983"
+    },
+    {
+      "name": {
+        "en": "William de Valence",
+        "es": "Guillermo de Valence",
+        "zh": "威廉·德·瓦朗斯"
+      },
+      "side": "england",
+      "role": {
+        "en": "Earl of Pembroke; besieged Castell y Bere in 1283",
+        "es": "Conde de Pembroke; asedió Castell y Bere en 1283",
+        "zh": "彭布罗克伯爵；1283年围攻贝雷城堡"
+      },
+      "wikidataId": "Q940171"
+    },
+    {
+      "name": {
+        "en": "Gruffudd ap Gwenwynwyn",
+        "es": "Gruffudd ap Gwenwynwyn",
+        "zh": "格鲁菲兹·阿普·古恩温威"
+      },
+      "side": "england",
+      "role": {
+        "en": "Lord of southern Powys; fought for Edward in both wars",
+        "es": "Señor del sur de Powys; luchó por Eduardo en ambas guerras",
+        "zh": "南波伊斯领主；两次战争中都为爱德华作战"
+      },
+      "wikidataId": "Q3072975"
+    },
+    {
+      "name": {
+        "en": "Llywelyn ap Gruffudd",
+        "es": "Llywelyn ap Gruffudd",
+        "zh": "卢埃林·阿普·格鲁菲兹"
+      },
+      "side": "gwynedd",
+      "role": {
+        "en": "Prince of Wales; killed in December 1282",
+        "es": "Príncipe de Gales; murió en diciembre de 1282",
+        "zh": "威尔士亲王；1282年12月被杀"
+      },
+      "wikidataId": "Q369651"
+    },
+    {
+      "name": {
+        "en": "Dafydd ap Gruffudd",
+        "es": "Dafydd ap Gruffudd",
+        "zh": "戴维兹·阿普·格鲁菲兹"
+      },
+      "side": "gwynedd",
+      "role": {
+        "en": "Llywelyn's brother; fought for Edward in 1277, began the 1282 revolt and claimed the title of prince after Llywelyn's death; executed in 1283",
+        "es": "Hermano de Llywelyn; luchó por Eduardo en 1277, inició la revuelta de 1282 y reclamó el título de príncipe tras la muerte de Llywelyn; ejecutado en 1283",
+        "zh": "卢埃林的弟弟；1277年为爱德华作战，1282年发动起事，卢埃林死后自称亲王；1283年被处决"
+      },
+      "wikidataId": "Q592561"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "gwynedd"
+  ],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Conquest of Wales by Edward I.\"",
+      "url": "https://en.wikipedia.org/wiki/Conquest_of_Wales_by_Edward_I"
+    },
+    {
+      "citation": "Wikipedia (español). \"Conquista de Gales por Eduardo I.\"",
+      "url": "https://es.wikipedia.org/wiki/Conquista_de_Gales_por_Eduardo_I"
+    },
+    {
+      "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Gruffydd ('Llywelyn the Last'), Prince of Wales (died 1282).\" Dictionary of Welsh Biography, National Library of Wales.",
+      "url": "https://biography.wales/article/s-LLYW-APG-1200"
+    },
+    {
+      "citation": "\"Dafydd ap Gruffydd.\" The Oxford Companion to British History, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dafydd-ap-gruffydd"
+    },
+    {
+      "citation": "Cartwright, Mark (2020). \"Edward I of England.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Edward_I_of_England/"
+    },
+    {
+      "citation": "Wikipedia (English). \"Rhys ap Maredudd\" (the princes of Deheubarth in the war of 1282–3).",
+      "url": "https://en.wikipedia.org/wiki/Rhys_ap_Maredudd"
+    },
+    {
+      "citation": "Wikipedia (English). \"Gruffudd ap Gwenwynwyn.\"",
+      "url": "https://en.wikipedia.org/wiki/Gruffudd_ap_Gwenwynwyn"
+    },
+    {
+      "citation": "Royal Commission on the Ancient and Historical Monuments of Wales (2017). \"Irfon Bridge; Pont Irfon; Battle of Orewin Bridge, Builth Wells\" (NPRN 403411). Inventory of Historic Battlefields in Wales, Coflein.",
+      "url": "https://coflein.gov.uk/en/site/403411/"
+    },
+    {
+      "citation": "Wikidata. \"Conquest of Wales by Edward I of England\" (Q5162450).",
+      "url": "https://www.wikidata.org/wiki/Q5162450"
+    }
+  ]
+}

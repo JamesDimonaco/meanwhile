@@ -152,7 +152,8 @@ describe("misspellings people type, against the real data", () => {
     ["en", "maian", "culture:maya"],
     ["en", "uk", "country:GB"],
     ["en", "usa", "country:US"],
-    ["en", "england", "country:GB"],
+    ["en", "england", "country:GB-ENG"],
+    ["en", "scottland", "country:GB-SCT"],
     ["en", "great britain", "country:GB"],
     ["en", "britain", "country:GB"],
     ["en", "america", "country:US"],
@@ -182,7 +183,7 @@ describe("misspellings people type, against the real data", () => {
     ["es", "mejico", "country:MX"],
     ["es", "vietnan", "country:VN"],
     ["es", "egipto", "country:EG"],
-    ["es", "inglaterra", "country:GB"],
+    ["es", "inglaterra", "country:GB-ENG"],
     ["es", "eeuu", "country:US"],
     ["es", "EE. UU.", "country:US"],
     ["es", "gran bretana", "country:GB"],
@@ -289,7 +290,8 @@ describe("false positives", () => {
 
   it("finds a two-letter query only at a word start in the name shown, or as a whole code or alias", () => {
     const shownOrWhole = (q: string) => (hit: SearchHit) => {
-      const shown = hit.type === "culture" ? (hit.entry.name.en ?? "") : hit.type === "year" ? "" : hit.entry.name;
+      // A culture's native name is shown beside its name: "la" may find "Engla land".
+      const shown = hit.type === "culture" ? `${hit.entry.name.en} ${hit.entry.nativeName?.text ?? ""}` : hit.type === "year" ? "" : hit.entry.name;
       return new RegExp(`(^|[^\\p{L}])${q}`, "iu").test(shown) || termsOf("en", hit).includes(q);
     };
     for (const q of ["in", "ma", "de", "la", "co"]) {
@@ -298,7 +300,7 @@ describe("false positives", () => {
       expect(hits.filter((hit) => !shownOrWhole(q)(hit)).map(label)).toEqual([]);
     }
     // Through "Inglaterra" and "Corea del Norte", names an English page never shows.
-    expect(labels("in", "en")).not.toContain("country:GB");
+    expect(labels("in", "en")).not.toContain("country:GB-ENG");
     expect(labels("co", "en")).not.toContain("country:KP");
   });
 
@@ -386,12 +388,13 @@ describe("false positives", () => {
   it("finds a country by its everyday names on every page", () => {
     // Keyed by the page's language, these found nothing on Spanish and Chinese pages.
     for (const locale of ["es", "zh"] as const) {
-      for (const [q, code] of [["usa", "US"], ["uk", "GB"], ["england", "GB"], ["deutschland", "DE"], ["swiss", "CH"], ["britain", "GB"]]) {
+      for (const [q, code] of [["usa", "US"], ["uk", "GB"], ["england", "GB-ENG"], ["scotland", "GB-SCT"], ["cymru", "GB-WLS"], ["deutschland", "DE"], ["swiss", "CH"], ["britain", "GB"]]) {
         expect(labels(q, locale)[0], `${locale} ${q}`).toBe(`country:${code}`);
       }
     }
     expect(labels("zhongguo", "en")[0]).toBe("country:CN");
-    expect(labels("inglaterra", "en")[0]).toBe("country:GB");
+    expect(labels("inglaterra", "en")[0]).toBe("country:GB-ENG");
+    expect(labels("苏格兰", "en")[0]).toBe("country:GB-SCT");
   });
 
   it("never offers a country or war the page's language has no page for", () => {

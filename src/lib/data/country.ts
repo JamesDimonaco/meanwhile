@@ -1,5 +1,6 @@
 import { LOCALES, type Locale } from "@/i18n/locales";
 import { isListableCountry } from "./countries";
+import { withUnion } from "./nations";
 import { type CultureRef, defaultPeriod, toCultureRef } from "./queries";
 import { REGIONS } from "./regions";
 import type { Culture, Period } from "./schema";
@@ -12,10 +13,11 @@ export type Heartland = Readonly<Record<string, readonly string[]>>;
 /**
  * The countries with a page in a language: every heartland country and every
  * country a war shown in that language lists (pass loadWars(locale), so a
- * gated war adds none). UN members only, never a NEVER_SHOWN code.
+ * gated war adds none), and the UK wherever one of its nations has a page.
+ * UN members and the UK's nations only, never a NEVER_SHOWN code.
  */
 export function countryCodes(heartland: Heartland, shownWars: readonly War[]): string[] {
-  const codes = new Set([...Object.values(heartland).flat(), ...warCountryCodes(shownWars)]);
+  const codes = new Set(withUnion([...Object.values(heartland).flat(), ...warCountryCodes(shownWars)]));
   return [...codes].filter(isListableCountry).sort();
 }
 
@@ -59,11 +61,11 @@ export function alsoAlive(anchor: Culture, cultures: readonly Culture[]): Cultur
     .sort((a, b) => REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region) || a.period.latestStart - b.period.latestStart);
 }
 
-/** A country's civilisations (by heartland) and the wars shown in its language, oldest first. */
+/** A country's civilisations (by heartland) and the wars shown in its language, oldest first. The UK's include its nations'. */
 export function countryItems(code: string, cultures: readonly Culture[], heartland: Heartland, shownWars: readonly War[]): CountryItem[] {
   const items: CountryItem[] = [
-    ...cultures.filter((c) => heartland[c.id]?.includes(code)).map((culture) => ({ kind: "culture" as const, culture })),
-    ...shownWars.filter((w) => warCountryCodes([w]).includes(code)).map((war) => ({ kind: "war" as const, war })),
+    ...cultures.filter((c) => withUnion(heartland[c.id] ?? []).includes(code)).map((culture) => ({ kind: "culture" as const, culture })),
+    ...shownWars.filter((w) => withUnion(warCountryCodes([w])).includes(code)).map((war) => ({ kind: "war" as const, war })),
   ];
   return items.sort((a, b) => itemBounds(a).latestStart - itemBounds(b).latestStart || itemId(a).localeCompare(itemId(b)));
 }
@@ -89,7 +91,7 @@ const extent = (bounds: readonly Bounds[]): [number, number] => [
  * Where a country's chart opens (items oldest first, as countryItems gives
  * them). The range is the newest three-quarters of the items when one early
  * civilisation would otherwise squeeze everything else into a strip (Neolithic
- * Britain and 21 wars), else everything. The year is the start of the item
+ * Britain before everything from the Romans on), else everything. The year is the start of the item
  * that overlaps the most others running in that year, the latest on a tie, so
  * the year panel opens on things happening at once.
  */

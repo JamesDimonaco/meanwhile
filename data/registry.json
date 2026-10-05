@@ -211,6 +211,26 @@
       "label": "Holy Roman Empire"
     },
     {
+      "id": "anglo-saxon-england",
+      "region": "europe",
+      "label": "Anglo-Saxon England"
+    },
+    {
+      "id": "picts",
+      "region": "europe",
+      "label": "Picts"
+    },
+    {
+      "id": "kingdom-of-scotland",
+      "region": "europe",
+      "label": "Kingdom of Scotland (Alba)"
+    },
+    {
+      "id": "gwynedd",
+      "region": "europe",
+      "label": "Gwynedd: kingdom, then the Principality of Wales"
+    },
+    {
       "id": "egypt",
       "region": "africa",
       "label": "Ancient Egypt: one culture, phases early-dynastic / old-kingdom / first-intermediate / middle-kingdom / second-intermediate / new-kingdom / third-intermediate / late-period / ptolemaic"

@@ -1,5 +1,6 @@
 import { HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
 import { COUNTRY_ALIASES, ENGLISH_ALIASES, isListableCountry, UN_MEMBERS, type Continent } from "./countries";
+import { countryName, isNation, withUnion } from "./nations";
 import type { Culture, Region } from "./schema";
 import type { Casualty, War, WarFile } from "./war-schema";
 
@@ -74,16 +75,6 @@ export function warsForCulture(wars: readonly War[], cultureId: string): War[] {
 /** `name`, `english` and `terms`: countrySearchNames, so a search in any language finds the country. */
 export type CountryEntry = CountrySearchNames & { code: string; continent: Continent; count: number };
 
-// One per language: the home search names the 130-odd countries without a page, in three languages, on the client.
-const regionNames = new Map<Locale, Intl.DisplayNames>();
-
-/** A present-day country's name in the page's language, from its ISO code. */
-export function countryName(code: string, locale: Locale): string {
-  let names = regionNames.get(locale);
-  if (!names) regionNames.set(locale, (names = new Intl.DisplayNames([locale], { type: "region" })));
-  return names.of(code) ?? code;
-}
-
 /** A country as search sees it on a page in one language: the name there, the English name, and everything else it is found by. */
 export type CountrySearchNames = { name: string; english: string; terms: string[] };
 
@@ -109,14 +100,19 @@ export function countriesToday(war: War, locale: Locale): string[] {
     .sort((a, b) => collator.compare(countryName(a, locale), countryName(b, locale)));
 }
 
-/** Every country some war lists, named in the page's language and sorted by that name. */
+/**
+ * Every UN member some war lists, named in the page's language and sorted by
+ * that name. The UK's nations are not on the list; their wars count for the UK.
+ */
 export function countryIndex(wars: readonly War[], locale: Locale): CountryEntry[] {
-  return warCountryCodes(wars)
+  const listed = wars.map((w) => withUnion(warCountryCodes([w])));
+  return [...new Set(listed.flat())]
+    .filter((code) => !isNation(code))
     .map((code) => ({
       code,
       ...countrySearchNames(code, locale),
       continent: UN_MEMBERS[code],
-      count: wars.filter((w) => warCountryCodes([w]).includes(code)).length,
+      count: listed.filter((codes) => codes.includes(code)).length,
     }))
     .sort((a, b) => a.name.localeCompare(b.name, locale));
 }

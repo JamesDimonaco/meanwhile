@@ -1,0 +1,399 @@
+{
+  "id": "picts",
+  "region": "europe",
+  "wikidataId": "Q102891",
+  "name": {
+    "en": "Picts",
+    "es": "Pictos",
+    "zh": "皮克特人"
+  },
+  "aliases": [
+    "Pictish",
+    "Pictland",
+    "Pictavia",
+    "Picti",
+    "Fortriu",
+    "Cruithni",
+    "Na Cruithnich",
+    "Pictiaid",
+    "pictos",
+    "Pictia",
+    "皮克特",
+    "皮克特王国"
+  ],
+  "description": {
+    "en": "The Picts lived in northern and eastern Scotland, beyond the Roman frontier. A Latin speech first names them in 297 CE; over the next centuries they raided Roman Britain, became Christian, defeated Northumbria at Dun Nechtain in 685 and carved the symbol stones that still stand across eastern and northern Scotland. In the 9th century, under a new line of kings, their kingdom became Alba, and over the following generations Gaelic replaced the Pictish language.",
+    "es": "Los pictos vivían en el norte y el este de Escocia, más allá de la frontera romana. Un discurso latino los nombra por primera vez en el 297 e. c.; en los siglos siguientes asaltaron la Britania romana, se hicieron cristianos, derrotaron a Northumbria en Dun Nechtain en el 685 y tallaron las piedras con símbolos que aún se alzan en el este y el norte de Escocia. En el siglo IX, bajo una nueva línea de reyes, su reino se convirtió en Alba, y en las generaciones siguientes el gaélico sustituyó a la lengua picta.",
+    "zh": "皮克特人生活在苏格兰北部和东部，位于罗马边界以外。公元297年的一篇拉丁语颂词首次提到他们；此后几个世纪里，他们袭击罗马治下的不列颠，皈依基督教，685年在邓尼赫坦击败诺森布里亚，并雕刻了至今仍矗立在苏格兰东部和北部的象征石。9世纪，在新的王族统治下，他们的王国变成了阿尔巴，此后几代人间，盖尔语取代了皮克特语。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 297,
+      "latestStart": 300,
+      "earliestEnd": 843,
+      "latestEnd": 900,
+      "sources": [
+        {
+          "citation": "Historic Environment Scotland. Scottish Archaeological Periods & Ages (ScAPA), \"Pictish\" (300–850), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0xxt6tghvr"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Pictish\" (4th–9th century AD), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hqp6z"
+        },
+        {
+          "citation": "Batey, Colleen E. \"Picts.\" Ancient Europe, 8000 B.C. to A.D. 1000: Encyclopedia of the Barbarian World; and Cannon, John. \"Picts.\" The Oxford Companion to British History; via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/picts"
+        },
+        {
+          "citation": "The Annals of Ulster, U858.2 and U900.6. Translated by Seán Mac Airt and Gearóid Mac Niocaill (1983), CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/T100001A.html"
+        },
+        {
+          "citation": "The Annals of Ulster, U858.2 (\"Cinaedh m. Ailpin rex Pictorum\") and U900.6 (\"Domnall m. Caustantin, ri Alban\"), Irish and Latin text, CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/G100001A.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Kenneth MacAlpin.\"",
+          "url": "https://en.wikipedia.org/wiki/Kenneth_MacAlpin"
+        }
+      ],
+      "periodoId": "p0xxt6tghvr",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The Picts first appear under that name in 297; Historic Environment Scotland's Pictish period runs from 300 to 850. The end is contested: 843 is the traditional year in which Kenneth MacAlpin took the Pictish kingdom, but the Annals of Ulster still call him king of the Picts at his death in 858, and the first king they call king of Alba died in 900.",
+        "es": "Los pictos aparecen con ese nombre por primera vez en el 297; el periodo picto de Historic Environment Scotland va del 300 al 850. El final es discutido: el 843 es el año tradicional en que Kenneth MacAlpin tomó el reino picto, pero los Anales de Úlster aún lo llaman rey de los pictos a su muerte en el 858, y el primer rey al que llaman rey de Alba murió en el 900.",
+        "zh": "“皮克特人”这一名称最早出现于297年；苏格兰历史环境局将皮克特时期定为300年至850年。结束时间有争议：843年是传统上肯尼思·麦克亚尔平取得皮克特王国的年份，但《阿尔斯特编年史》在他858年去世时仍称他为皮克特人的国王，而该编年史首位称为阿尔巴国王的君主死于900年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "first-named",
+      "start": 297,
+      "type": "founding",
+      "title": {
+        "en": "A Latin speech praising the emperor Constantius names the Picts, the first time they appear in writing",
+        "es": "Un discurso latino en elogio del emperador Constancio nombra a los pictos, la primera vez que aparecen por escrito",
+        "zh": "一篇颂扬君士坦提乌斯皇帝的拉丁语颂词提到皮克特人，这是他们首次见于文字记载"
+      },
+      "sources": [
+        {
+          "citation": "Batey, Colleen E. \"Picts.\" Ancient Europe, 8000 B.C. to A.D. 1000: Encyclopedia of the Barbarian World; and Cannon, John. \"Picts.\" The Oxford Companion to British History; via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/picts"
+        },
+        {
+          "citation": "Wikipedia (English). \"Panegyrici Latini\" (Panegyric VIII, anonymous, to Constantius, 297).",
+          "url": "https://en.wikipedia.org/wiki/Panegyrici_Latini"
+        },
+        {
+          "citation": "Wikipedia (English). \"Picts.\"",
+          "url": "https://en.wikipedia.org/wiki/Picts"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Picts.\"",
+          "url": "https://www.worldhistory.org/Picts/"
+        }
+      ],
+      "note": {
+        "en": "The speech, given in 297 to celebrate Constantius retaking Britain, is anonymous; older works credit it to Eumenius. Picti is a Latin name, usually read as 'painted people', though historians disagree on whether that was its origin.",
+        "es": "El discurso, pronunciado en el 297 para celebrar que Constancio había vuelto a tomar Britania, es anónimo; obras más antiguas lo atribuyen a Eumenio. Picti es un nombre latino que suele entenderse como 'pintados', aunque los historiadores discrepan sobre si ese fue su origen.",
+        "zh": "这篇颂词作于297年，为庆祝君士坦提乌斯重新夺取不列颠而发表，作者不详；较早的著作将其归于欧梅尼乌斯。Picti是拉丁语名称，通常解作“涂画身体的人”，但历史学家对这是否为其本义看法不一。"
+      }
+    },
+    {
+      "id": "raids-on-roman-britain",
+      "start": 367,
+      "end": 368,
+      "type": "conflict",
+      "title": {
+        "en": "Picts, Scots and Attacotti raid Roman Britain while Franks and Saxons attack the coasts of Gaul; the Roman commander of the coast is killed",
+        "es": "Pictos, escotos y atacotos asaltan la Britania romana mientras francos y sajones atacan las costas de la Galia; muere el comandante romano de la costa",
+        "zh": "皮克特人、斯科特人和阿塔科蒂人袭击罗马治下的不列颠，同时法兰克人和撒克逊人进攻高卢沿海；罗马沿海指挥官被杀"
+      },
+      "sources": [
+        {
+          "citation": "Ammianus Marcellinus. Roman History 27.8 (Loeb Classical Library translation by J. C. Rolfe), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ammian/27*.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Great Conspiracy.\"",
+          "url": "https://en.wikipedia.org/wiki/Great_Conspiracy"
+        }
+      ],
+      "note": {
+        "en": "Ammianus Marcellinus, the main source, names two Pictish peoples, the Dicalydones and the Verturiones. Historians disagree on whether the attacks were planned together. In 368 Count Theodosius brought Britain back under Roman control.",
+        "es": "Amiano Marcelino, la fuente principal, nombra dos pueblos pictos, los dicalidones y los verturiones. Los historiadores discrepan sobre si los ataques se planearon juntos. En el 368 el conde Teodosio volvió a poner Britania bajo control romano.",
+        "zh": "主要史料作者阿米阿努斯·马塞利努斯提到两个皮克特部族：迪卡利多内斯人和韦尔图里奥内斯人。历史学家对这些袭击是否经过共同策划看法不一。368年，狄奥多西伯爵使不列颠重归罗马控制。"
+      }
+    },
+    {
+      "id": "columba",
+      "start": 563,
+      "end": 565,
+      "type": "founding",
+      "title": {
+        "en": "Columba, an Irish monk settled on Iona, preaches to the northern Picts in the reign of King Bridei son of Maelchon",
+        "es": "Columba, monje irlandés establecido en Iona, predica a los pictos del norte durante el reinado del rey Bridei, hijo de Maelchon",
+        "zh": "定居爱奥那岛的爱尔兰修士科伦巴在国王布里代（梅尔孔之子）在位期间向北方皮克特人传教"
+      },
+      "sources": [
+        {
+          "citation": "Bede. Ecclesiastical History of the English People III.4 (translation by L. C. Jane), Internet Medieval Sourcebook, Fordham University.",
+          "url": "https://sourcebooks.fordham.edu/basis/bede-book3.asp"
+        },
+        {
+          "citation": "The Annals of Ulster, U563.4. Translated by Seán Mac Airt and Gearóid Mac Niocaill (1983), CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/T100001A.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Picts.\"",
+          "url": "https://www.worldhistory.org/Picts/"
+        },
+        {
+          "citation": "Henningfeld, Diane Andrews (2022). \"Picts.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/anthropology/picts"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Bede dates Columba's coming to 565 and says the southern Picts had already been converted by Ninian; the Annals of Ulster put Columba's voyage to Iona in 563. Conversion was gradual.",
+        "es": "Beda fecha la llegada de Columba en el 565 y dice que los pictos del sur ya habían sido convertidos por Niniano; los Anales de Úlster sitúan el viaje de Columba a Iona en el 563. La conversión fue gradual.",
+        "zh": "比德将科伦巴的到来定于565年，并说南方皮克特人此前已由尼尼安使之皈依；《阿尔斯特编年史》则将科伦巴前往爱奥那岛的航行记于563年。皈依是一个渐进的过程。"
+      }
+    },
+    {
+      "id": "symbol-stones",
+      "start": 300,
+      "end": 700,
+      "type": "invention",
+      "title": {
+        "en": "Picts carve symbols such as crescents, double discs, mirrors, combs and animals on undressed stones: the earliest Pictish symbol stones",
+        "es": "Los pictos tallan símbolos como medias lunas, discos dobles, espejos, peines y animales en piedras sin labrar: las primeras piedras pictas con símbolos",
+        "zh": "皮克特人在未经修整的石头上刻下新月、双圆盘、镜子、梳子和动物等符号，这就是最早的皮克特象征石"
+      },
+      "sources": [
+        {
+          "citation": "Noble, Gordon, Goldberg, Martin & Hamilton, Derek (2018). \"The development of the Pictish symbol system: inscribing identity beyond the edges of Empire.\" Antiquity 92(365).",
+          "url": "https://www.cambridge.org/core/journals/antiquity/article/development-of-the-pictish-symbol-system-inscribing-identity-beyond-the-edges-of-empire/4F09B9C943A1C29F226591A20BEC5248"
+        },
+        {
+          "citation": "Batey, Colleen E. \"Picts.\" Ancient Europe, 8000 B.C. to A.D. 1000: Encyclopedia of the Barbarian World; and Cannon, John. \"Picts.\" The Oxford Companion to British History; via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/picts"
+        },
+        {
+          "citation": "Wikipedia (English). \"Pictish stone.\"",
+          "url": "https://en.wikipedia.org/wiki/Pictish_stone"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "These stones were long dated to between the 5th and 8th centuries; radiocarbon dates from Dunnicaer and other sites, published in 2018, put the first symbols in the 3rd or 4th century. Later stones of the 8th and 9th centuries combine the symbols with Christian crosses.",
+        "es": "Durante mucho tiempo estas piedras se fecharon entre los siglos V y VIII; las dataciones por radiocarbono de Dunnicaer y otros yacimientos, publicadas en 2018, sitúan los primeros símbolos en el siglo III o IV. Piedras posteriores, de los siglos VIII y IX, combinan los símbolos con cruces cristianas.",
+        "zh": "这些石头长期以来被定为5至8世纪之物；2018年发表的邓尼凯尔等遗址的放射性碳测年结果，将最早的符号推至3或4世纪。8至9世纪较晚的石刻则将这些符号与基督教十字架结合在一起。"
+      }
+    },
+    {
+      "id": "dun-nechtain",
+      "start": 685,
+      "type": "conflict",
+      "title": {
+        "en": "At Dun Nechtain the Picts under Bridei son of Beli defeat and kill King Ecgfrith of Northumbria and take the lands Northumbria had held",
+        "es": "En Dun Nechtain los pictos de Bridei, hijo de Beli, derrotan y matan al rey Ecgfrith de Northumbria y toman las tierras que Northumbria había dominado",
+        "zh": "在邓尼赫坦，贝利之子布里代率领的皮克特人击败并杀死诺森布里亚国王埃格弗里斯，夺取了诺森布里亚此前占据的土地"
+      },
+      "sources": [
+        {
+          "citation": "Bede. Ecclesiastical History of the English People IV.26 (translation by L. C. Jane), Internet Medieval Sourcebook, Fordham University.",
+          "url": "https://sourcebooks.fordham.edu/basis/bede-book4.asp"
+        },
+        {
+          "citation": "The Annals of Ulster, U686.1. Translated by Seán Mac Airt and Gearóid Mac Niocaill (1983), CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/T100001A.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Picts.\"",
+          "url": "https://www.worldhistory.org/Picts/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Dun Nechtain.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Dun_Nechtain"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Fought on 20 May 685. Bede says the Picts drew Ecgfrith into mountain passes by pretending to retreat. The site is disputed: traditionally Dunnichen in Angus, though the historian Alex Woolf has argued for Dunachton in Badenoch.",
+        "es": "Se libró el 20 de mayo del 685. Beda cuenta que los pictos atrajeron a Ecgfrith a desfiladeros fingiendo una retirada. El lugar es discutido: tradicionalmente Dunnichen, en Angus, aunque el historiador Alex Woolf ha defendido Dunachton, en Badenoch.",
+        "zh": "战役发生于685年5月20日。比德记载，皮克特人佯装撤退，将埃格弗里斯引入山间隘道。战场位置有争议：传统上认为在安格斯的邓尼兴，但历史学家亚历克斯·伍尔夫认为在巴德诺赫的邓纳赫顿。"
+      }
+    },
+    {
+      "id": "nechtan-roman-easter",
+      "start": 710,
+      "type": "ruler",
+      "title": {
+        "en": "King Nechtan son of Derile adopts the Roman date of Easter and asks the abbot of Jarrow in Northumbria for builders to raise a church in the Roman manner",
+        "es": "El rey Nechtan, hijo de Derile, adopta la fecha romana de la Pascua y pide al abad de Jarrow, en Northumbria, constructores para levantar una iglesia al modo romano",
+        "zh": "国王内赫坦（德里勒之子）采用罗马的复活节日期，并请求诺森布里亚贾罗修道院院长派工匠来按罗马样式修建教堂"
+      },
+      "sources": [
+        {
+          "citation": "Bede. Ecclesiastical History of the English People V.21 (translation by L. C. Jane), Internet Medieval Sourcebook, Fordham University.",
+          "url": "https://sourcebooks.fordham.edu/basis/bede-book5.asp"
+        },
+        {
+          "citation": "Batey, Colleen E. \"Picts.\" Ancient Europe, 8000 B.C. to A.D. 1000: Encyclopedia of the Barbarian World; and Cannon, John. \"Picts.\" The Oxford Companion to British History; via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/picts"
+        },
+        {
+          "citation": "Wikipedia (English). \"Nechtan mac Der Ilei.\"",
+          "url": "https://en.wikipedia.org/wiki/Nechtan_mac_Der_Ilei"
+        }
+      ],
+      "note": {
+        "en": "Bede places this around 710.",
+        "es": "Beda lo sitúa hacia el 710.",
+        "zh": "比德将此事定于710年前后。"
+      }
+    },
+    {
+      "id": "viking-victory-839",
+      "start": 839,
+      "type": "conflict",
+      "title": {
+        "en": "Vikings defeat the men of Fortriu; the Pictish king Eóganán, his brother Bran and Áed son of Boanta, king of Dál Riata, are killed",
+        "es": "Los vikingos derrotan a los hombres de Fortriu; mueren el rey picto Eóganán, su hermano Bran y Áed, hijo de Boanta, rey de Dál Riata",
+        "zh": "维京人击败福尔特里乌的军队；皮克特国王厄加南、其弟布兰以及达尔里阿达国王博安塔之子埃德阵亡"
+      },
+      "sources": [
+        {
+          "citation": "The Annals of Ulster, U839.9. Translated by Seán Mac Airt and Gearóid Mac Niocaill (1983), CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/T100001A.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Eóganán mac Óengusa.\"",
+          "url": "https://en.wikipedia.org/wiki/E%C3%B3gan%C3%A1n_mac_%C3%93engusa"
+        }
+      ],
+      "note": {
+        "en": "The Annals of Ulster add that countless others fell; the site is not recorded. The defeat ended the line of Óengus son of Fergus that had ruled Pictland for about a century and opened the way for Kenneth MacAlpin.",
+        "es": "Los Anales de Úlster añaden que cayeron otros innumerables; el lugar no se registra. La derrota acabó con el linaje de Óengus, hijo de Fergus, que había dominado Pictlandia durante alrededor de un siglo, y abrió el camino a Kenneth MacAlpin.",
+        "zh": "《阿尔斯特编年史》称阵亡者不计其数；战场位置没有记载。这次失败终结了统治皮克特地区约一个世纪的弗格斯之子恩古斯家族，为肯尼思·麦克亚尔平的崛起铺平了道路。"
+      }
+    },
+    {
+      "id": "kenneth-macalpin",
+      "start": 843,
+      "type": "ruler",
+      "title": {
+        "en": "Kenneth MacAlpin (Cináed mac Ailpín) becomes king of the Picts",
+        "es": "Kenneth MacAlpin (Cináed mac Ailpín) se convierte en rey de los pictos",
+        "zh": "肯尼思·麦克亚尔平（Cináed mac Ailpín）成为皮克特人的国王"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Kenneth MacAlpin.\"",
+          "url": "https://en.wikipedia.org/wiki/Kenneth_MacAlpin"
+        },
+        {
+          "citation": "The Royal Family. \"Kenneth I (r. 843–858).\"",
+          "url": "https://www.royal.uk/kenneth-i-r-843-858"
+        },
+        {
+          "citation": "Cannon, John. \"Alba, kingdom of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/alba-kingdom"
+        },
+        {
+          "citation": "The Annals of Ulster, U858.2. Translated by Seán Mac Airt and Gearóid Mac Niocaill (1983), CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/T100001A.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "843 is the traditional year; sources also give 842, 848 or 850. Later tradition made him the first king of a united Scotland, but the Annals of Ulster still call him king of the Picts when he died in 858.",
+        "es": "El 843 es el año tradicional; las fuentes también dan 842, 848 o 850. La tradición posterior lo convirtió en el primer rey de una Escocia unida, pero los Anales de Úlster aún lo llaman rey de los pictos cuando murió en el 858.",
+        "zh": "843年是传统说法；史料中也有842年、848年和850年等说法。后世传统把他视为统一的苏格兰的第一位国王，但《阿尔斯特编年史》在他858年去世时仍称他为皮克特人的国王。"
+      }
+    },
+    {
+      "id": "king-of-alba",
+      "start": 900,
+      "type": "collapse",
+      "title": {
+        "en": "Donald II (Domnall son of Constantine) dies; the Annals of Ulster call him king of Alba, the first king they name that way rather than king of the Picts",
+        "es": "Muere Donald II (Domnall, hijo de Constantino); los Anales de Úlster lo llaman rey de Alba, el primer rey al que nombran así en lugar de rey de los pictos",
+        "zh": "唐纳德二世（君士坦丁之子多姆纳尔）去世；《阿尔斯特编年史》称他为阿尔巴国王，他是该编年史中第一位不再被称为皮克特人国王、而被称为阿尔巴国王的君主"
+      },
+      "sources": [
+        {
+          "citation": "The Annals of Ulster, U900.6. Translated by Seán Mac Airt and Gearóid Mac Niocaill (1983), CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/T100001A.html"
+        },
+        {
+          "citation": "The Annals of Ulster, U858.2 (\"Cinaedh m. Ailpin rex Pictorum\") and U900.6 (\"Domnall m. Caustantin, ri Alban\"), Irish and Latin text, CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/G100001A.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Kingdom of Alba.\"",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Picts.\"",
+          "url": "https://www.worldhistory.org/Picts/"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "symbol-stones",
+      "text": {
+        "en": "More than 200 carved stones across eastern and northern Scotland bear Pictish symbols, such as crescents crossed by V-shaped rods, double discs, mirrors, combs and the animal known as the Pictish beast, and nobody knows for certain what they meant.",
+        "es": "Más de 200 piedras talladas del este y el norte de Escocia llevan símbolos pictos, como medias lunas cruzadas por varas en forma de V, discos dobles, espejos, peines y el animal conocido como la bestia picta, y nadie sabe con certeza qué significaban.",
+        "zh": "苏格兰东部和北部有200多块刻石带有皮克特符号，如被V形杖穿过的新月、双圆盘、镜子、梳子以及被称为“皮克特兽”的动物，至今无人能确知其含义。"
+      },
+      "start": 300,
+      "end": 899,
+      "sources": [
+        {
+          "citation": "Noble, Gordon, Goldberg, Martin & Hamilton, Derek (2018). \"The development of the Pictish symbol system: inscribing identity beyond the edges of Empire.\" Antiquity 92(365).",
+          "url": "https://www.cambridge.org/core/journals/antiquity/article/development-of-the-pictish-symbol-system-inscribing-identity-beyond-the-edges-of-empire/4F09B9C943A1C29F226591A20BEC5248"
+        },
+        {
+          "citation": "Wikipedia (English). \"Pictish stone.\"",
+          "url": "https://en.wikipedia.org/wiki/Pictish_stone"
+        }
+      ]
+    },
+    {
+      "id": "lost-language",
+      "text": {
+        "en": "The Picts left no texts in their own language. It survives mainly in place-names such as Aberdeen and Pitlochry, in their kings' names and in a few short inscriptions that scholars still argue over.",
+        "es": "Los pictos no dejaron textos en su propia lengua. Sobrevive sobre todo en topónimos como Aberdeen y Pitlochry, en los nombres de sus reyes y en unas pocas inscripciones breves que los especialistas aún discuten.",
+        "zh": "皮克特人没有留下用本族语言写成的文献。这种语言主要保存在阿伯丁、皮特洛赫里等地名、历代国王的名字以及少数学者至今仍有争议的简短铭文中。"
+      },
+      "start": 297,
+      "end": 900,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Pictish language.\"",
+          "url": "https://en.wikipedia.org/wiki/Pictish_language"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Picts.\"",
+          "url": "https://www.worldhistory.org/Picts/"
+        },
+        {
+          "citation": "Henningfeld, Diane Andrews (2022). \"Picts.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/anthropology/picts"
+        }
+      ]
+    }
+  ]
+}

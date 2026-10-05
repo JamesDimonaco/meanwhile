@@ -8,5 +8,7 @@
   "cultures": "Civilizaciones",
   "wars": "Guerras",
   "kind": "{kind, select, culture {Civilización} other {Guerra}}",
-  "sameTime": "<label>Al mismo tiempo aquí:</label> <items></items>"
+  "sameTime": "<label>Al mismo tiempo aquí:</label> <items></items>",
+  "partOf": "Parte del <link>Reino Unido</link>",
+  "nations": "<items></items> tienen su propia página."
 }

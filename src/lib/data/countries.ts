@@ -1,3 +1,5 @@
+import { isNation } from "./nations";
+
 // No zod here: client components read CONTINENTS for the filter chips.
 
 /** UN M49 regions, the grouping on the wars country list. */
@@ -39,9 +41,9 @@ export const UN_MEMBERS: Readonly<Record<string, Continent>> = {
   YE: AS, ZM: AF, ZW: AF,
 };
 
-/** A code a war's `today` list may use: a UN member that is not on the never-shown list. */
+/** A code a `today` list may use, and so may have a country page: a UN member not on the never-shown list, or a UK nation. */
 export function isListableCountry(code: string): boolean {
-  return Object.hasOwn(UN_MEMBERS, code) && !NEVER_SHOWN.has(code);
+  return (Object.hasOwn(UN_MEMBERS, code) && !NEVER_SHOWN.has(code)) || isNation(code);
 }
 
 /**
@@ -51,15 +53,18 @@ export function isListableCountry(code: string): boolean {
  * Malvinas, Burma or Persia, and no never-shown code. A spelling the matcher
  * already reaches stays out ("Turkey" is one edit from a half-typed "Türkiye").
  * - GB: "UK", "Britain" and "Great Britain" are everyday English ("Britain"
- *   whole, so it outranks Neolithic Britain, whose name the reader sees);
- *   visitors say "England" and Spanish speakers "Inglaterra" for the whole country.
+ *   whole, so it outranks Neolithic Britain, whose name the reader sees).
+ *   "England" is England's own page.
+ * - GB-SCT, GB-WLS: Alba and Cymru, each nation's name in its own language.
  * - US: "USA"; "EE. UU."/"EEUU" is how Spanish writes it.
  * - NL: "Holland" and "Holanda", the names most visitors use.
  * - DE, CH, CN: the name a German or Chinese speaker types without an IME
  *   ("Deutschland", "Zhongguo"), and the adjective people search Switzerland by.
  */
 export const COUNTRY_ALIASES: Readonly<Record<string, readonly string[]>> = {
-  GB: ["UK", "Britain", "Great Britain", "England", "Inglaterra", "Gran Bretaña"],
+  GB: ["UK", "Britain", "Great Britain", "Gran Bretaña"],
+  "GB-SCT": ["Alba"],
+  "GB-WLS": ["Cymru"],
   US: ["USA", "EE. UU.", "EEUU"],
   NL: ["Holland", "Holanda"],
   DE: ["Deutschland"],

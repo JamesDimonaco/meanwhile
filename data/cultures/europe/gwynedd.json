@@ -1,0 +1,504 @@
+{
+  "id": "gwynedd",
+  "region": "europe",
+  "wikidataId": "Q816814",
+  "name": {
+    "en": "Kingdom of Gwynedd",
+    "es": "Reino de Gwynedd",
+    "zh": "格温内斯王国"
+  },
+  "nativeName": {
+    "text": "Teyrnas Gwynedd",
+    "lang": "cy"
+  },
+  "aliases": [
+    "Gwynedd",
+    "Venedotia",
+    "Principality of Wales",
+    "Tywysogaeth Cymru",
+    "Principado de Gales",
+    "威尔士亲王国",
+    "威尔士公国",
+    "格温内斯",
+    "圭内斯王国",
+    "Aberffraw",
+    "Llywelyn the Great",
+    "Llywelyn ab Iorwerth",
+    "Llywelyn the Last",
+    "Llywelyn ap Gruffudd",
+    "卢埃林大帝",
+    "卢埃林·阿颇·格鲁菲德"
+  ],
+  "description": {
+    "en": "A kingdom in north-west Wales, built around Snowdonia and the island of Anglesey, where its chief court stood at Aberffraw. Its first rulers appear in the 6th century and claimed descent from Cunedda, a leader from what is now southern Scotland. From the 12th century they called themselves princes, and in the 13th century Llywelyn the Great and his grandson Llywelyn ap Gruffudd made themselves overlords of most of native Wales; in 1267 Henry III of England recognised the younger Llywelyn as Prince of Wales. Edward I of England's armies took Gwynedd's last strongholds in 1282–83.",
+    "es": "Un reino del noroeste de Gales, articulado en torno a Snowdonia y la isla de Anglesey, donde su corte principal estaba en Aberffraw. Sus primeros gobernantes aparecen en el siglo VI y afirmaban descender de Cunedda, un caudillo de lo que hoy es el sur de Escocia. Desde el siglo XII se llamaron príncipes, y en el siglo XIII Llywelyn el Grande y su nieto Llywelyn ap Gruffudd se convirtieron en señores de la mayor parte del Gales nativo; en 1267 Enrique III de Inglaterra reconoció al nieto como príncipe de Gales. Los ejércitos de Eduardo I de Inglaterra tomaron los últimos baluartes de Gwynedd en 1282–83.",
+    "zh": "威尔士西北部的王国，以斯诺登尼亚和安格尔西岛为中心，主要宫廷设在阿伯弗劳。其最早的统治者见于6世纪，自称是来自今苏格兰南部的首领基内扎的后裔。从12世纪起，他们改称亲王；13世纪，卢埃林大帝和他的孙子卢埃林·阿普·格鲁菲兹先后成为威尔士本土大部分地区的宗主。1267年，英格兰国王亨利三世承认小卢埃林为威尔士亲王。1282年至1283年，英格兰国王爱德华一世的军队攻占了格温内斯最后的据点。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kingdom-and-principality",
+      "earliestStart": 380,
+      "latestStart": 520,
+      "earliestEnd": 1282,
+      "latestEnd": 1283,
+      "sources": [
+        {
+          "citation": "Jackson, Guy (2022). \"Maglocunus.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Maglocunus/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Cunedda.\"",
+          "url": "https://en.wikipedia.org/wiki/Cunedda"
+        },
+        {
+          "citation": "Wikipedia (English). \"Kingdom of Gwynedd.\"",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Gwynedd"
+        },
+        {
+          "citation": "Wikipedia (English). \"Principality of Wales.\"",
+          "url": "https://en.wikipedia.org/wiki/Principality_of_Wales"
+        },
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Owain Gwynedd (c. 1100–1170), king of Gwynedd.\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-OWAI-GWY-1100"
+        },
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Gruffydd ('Llywelyn the Last'), Prince of Wales (died 1282).\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-LLYW-APG-1200"
+        },
+        {
+          "citation": "Wikidata. \"Kingdom of Gwynedd\" (Q816814), inception and dissolution.",
+          "url": "https://www.wikidata.org/wiki/Q816814"
+        },
+        {
+          "citation": "Wikidata. \"Principality of Wales\" (Q1483510), inception.",
+          "url": "https://www.wikidata.org/wiki/Q1483510"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start is legendary: later Welsh tradition credits Cunedda, whom historians date anywhere from the late 4th century to the 440s, while some doubt he came at all. Gwynedd's name first appears on a gravestone of the 5th or 6th century, and its first ruler named by a writer of his own time is Maelgwn (died about 547). Sources split the later centuries differently: Wikidata ends the kingdom in 1216, when the other Welsh rulers did homage to Llywelyn the Great at Aberdyfi, and starts the Principality of Wales then; English Wikipedia dates the principality from 1267, when Henry III recognised Llywelyn ap Gruffudd as Prince of Wales. Gwynedd's rulers had called themselves princes since Owain Gwynedd's time (the 1150s and 1160s), and after 1240 their overlordship fell apart until Llywelyn ap Gruffudd rebuilt it from 1255, so no single year divides kingdom from principality. This file shows both as one period under one dynasty, ending with Llywelyn's death in 1282 and Dafydd's capture in 1283. No PeriodO definition covers Gwynedd.",
+        "es": "El inicio es legendario: la tradición galesa posterior lo atribuye a Cunedda, al que los historiadores sitúan entre finales del siglo IV y la década de 440, y algunos dudan de que llegara. El nombre de Gwynedd aparece por primera vez en una lápida de los siglos V o VI, y su primer gobernante nombrado por un autor de su tiempo es Maelgwn (muerto hacia 547). Las fuentes dividen los siglos posteriores de forma distinta: Wikidata termina el reino en 1216, cuando los demás gobernantes galeses rindieron homenaje a Llywelyn el Grande en Aberdyfi, y hace empezar entonces el principado de Gales; la Wikipedia en inglés fecha el principado en 1267, cuando Enrique III reconoció a Llywelyn ap Gruffudd como príncipe de Gales. Los gobernantes de Gwynedd se llamaban príncipes desde la época de Owain Gwynedd (décadas de 1150 y 1160), y después de 1240 su señorío se deshizo hasta que Llywelyn ap Gruffudd lo reconstruyó a partir de 1255, de modo que ningún año separa el reino del principado. Este archivo muestra ambos como un solo periodo bajo una misma dinastía, que termina con la muerte de Llywelyn en 1282 y la captura de Dafydd en 1283. Ninguna definición de PeriodO cubre Gwynedd.",
+        "zh": "起点带有传说色彩：后世威尔士传统将建国归于基内扎，历史学家对其年代的推定从4世纪末到440年代不等，也有人怀疑他是否真的来过。格温内斯之名最早见于一块5世纪或6世纪的墓碑，而第一位由同时代作者点名的统治者是迈尔贡（约547年去世）。各来源对后期的划分不同：维基数据将王国的终点定在1216年，即其他威尔士统治者在阿伯多维向卢埃林大帝效忠之时，并以此作为威尔士亲王国的起点；英文维基百科则以1267年亨利三世承认卢埃林·阿普·格鲁菲兹为威尔士亲王作为亲王国的起点。格温内斯的统治者自欧文·圭内斯时代（1150至1160年代）起已自称亲王，而1240年后其宗主地位瓦解，直到1255年起才由卢埃林·阿普·格鲁菲兹重建，因此没有哪一年能把王国和亲王国截然分开。本文件把两者视为同一王朝统治下的一个时期，止于1282年卢埃林之死和1283年戴维兹被俘。PeriodO中没有涵盖格温内斯的定义。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "cunedda",
+      "start": 380,
+      "end": 450,
+      "type": "founding",
+      "title": {
+        "en": "According to later Welsh tradition, Cunedda and his sons come from Manaw Gododdin, near the Firth of Forth, drive Irish settlers out of north-west Wales and found the kingdom",
+        "es": "Según la tradición galesa posterior, Cunedda y sus hijos llegan desde Manaw Gododdin, cerca del estuario del Forth, expulsan a los colonos irlandeses del noroeste de Gales y fundan el reino",
+        "zh": "据后世威尔士传统，基内扎和他的儿子们从福斯湾附近的马瑙戈多丁南下，将爱尔兰定居者逐出威尔士西北部，建立了王国"
+      },
+      "sources": [
+        {
+          "citation": "Jackson, Guy (2022). \"Maglocunus.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Maglocunus/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Cunedda.\"",
+          "url": "https://en.wikipedia.org/wiki/Cunedda"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The story comes from the Historia Brittonum, written about 829, which places Cunedda's coming 146 years before Maelgwn's reign. Proposed dates run from the late 370s to the 440s, and some historians treat the whole story as later propaganda for Gwynedd's kings.",
+        "es": "El relato procede de la Historia Brittonum, escrita hacia 829, que sitúa la llegada de Cunedda 146 años antes del reinado de Maelgwn. Las fechas propuestas van de finales de la década de 370 a la de 440, y algunos historiadores consideran todo el relato propaganda posterior de los reyes de Gwynedd.",
+        "zh": "这一说法出自约829年成书的《不列颠人史》，书中称基内扎南下发生在迈尔贡在位之前146年。学者推定的年代从370年代末到440年代不等，也有历史学家认为整个故事是后来为格温内斯诸王所作的宣传。"
+      }
+    },
+    {
+      "id": "maelgwn",
+      "start": 547,
+      "type": "ruler",
+      "title": {
+        "en": "Maelgwn Gwynedd, the first ruler of Gwynedd named by a writer of his own time, dies in a great plague",
+        "es": "Maelgwn Gwynedd, el primer gobernante de Gwynedd nombrado por un autor de su tiempo, muere en una gran peste",
+        "zh": "迈尔贡·圭内斯死于一场大瘟疫，他是第一位由同时代作者点名的格温内斯统治者"
+      },
+      "sources": [
+        {
+          "citation": "Davies, William Hopkin (1959). \"Maelgwn Gwynedd (died c. 547), king of Gwynedd and monk.\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-MAEL-GWY-0547"
+        },
+        {
+          "citation": "Jackson, Guy (2022). \"Maglocunus.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Maglocunus/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Maelgwn Gwynedd.\"",
+          "url": "https://en.wikipedia.org/wiki/Maelgwn_Gwynedd"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The date is the Annales Cambriae's entry for a 'great mortality', a few years after the Plague of Justinian began. Tradition puts his court at Deganwy.",
+        "es": "La fecha es la de la entrada de los Annales Cambriae sobre una «gran mortandad», pocos años después del comienzo de la peste de Justiniano. La tradición sitúa su corte en Deganwy.",
+        "zh": "年份来自《威尔士编年史》中关于一场“大死亡”的记载，时间在查士丁尼瘟疫暴发几年之后。传统认为他的宫廷设在德甘维。"
+      }
+    },
+    {
+      "id": "rhodri-mawr",
+      "start": 844,
+      "type": "ruler",
+      "title": {
+        "en": "Rhodri Mawr ('the Great') succeeds his father Merfyn Frych as king of Gwynedd",
+        "es": "Rhodri Mawr («el Grande») sucede a su padre Merfyn Frych como rey de Gwynedd",
+        "zh": "罗德里大帝继承父亲默尔芬·弗里赫，成为格温内斯国王"
+      },
+      "sources": [
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Rhodri Mawr ('the Great') (died 877), king of Gwynedd, Powys, and Deheubarth.\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-RHOD-MAW-0877"
+        },
+        {
+          "citation": "Wikipedia (English). \"Rhodri Mawr.\"",
+          "url": "https://en.wikipedia.org/wiki/Rhodri_Mawr"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Dictionary of Welsh Biography says he also became king of Powys in 855 and of Seisyllwg in 872, a first union of three Welsh kingdoms; the historian Thomas Charles-Edwards doubts he ruled beyond Gwynedd. He was killed fighting the Mercians in 877 or 878; sources differ on the year.",
+        "es": "El Dictionary of Welsh Biography dice que también fue rey de Powys desde 855 y de Seisyllwg desde 872, una primera unión de tres reinos galeses; el historiador Thomas Charles-Edwards duda de que gobernara más allá de Gwynedd. Murió luchando contra los mercios en 877 u 878; las fuentes no coinciden en el año.",
+        "zh": "《威尔士传记辞典》称他还在855年成为波伊斯国王、872年成为塞西斯尔格国王，首次将三个威尔士王国联合起来；历史学家托马斯·查尔斯-爱德华兹则怀疑他的统治是否超出格温内斯。他在与麦西亚人作战时被杀，时间为877年或878年，各来源说法不一。"
+      }
+    },
+    {
+      "id": "gruffudd-ap-cynan",
+      "start": 1081,
+      "type": "ruler",
+      "title": {
+        "en": "Gruffudd ap Cynan, back from exile in Ireland, wins the battle of Mynydd Carn with Rhys ap Tewdwr and takes the throne of Gwynedd",
+        "es": "Gruffudd ap Cynan, de vuelta de su exilio en Irlanda, gana con Rhys ap Tewdwr la batalla de Mynydd Carn y ocupa el trono de Gwynedd",
+        "zh": "格鲁菲兹·阿普·卡南结束在爱尔兰的流亡，与里斯·阿普·图多尔一起赢得麦尼兹卡恩之战，夺得格温内斯王位"
+      },
+      "sources": [
+        {
+          "citation": "Parry, Thomas (1959). \"Gruffudd ap Cynan (c. 1055–1137), king of Gwynedd.\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-GRUF-APC-1055"
+        },
+        {
+          "citation": "Wikipedia (English). \"Gruffudd ap Cynan.\"",
+          "url": "https://en.wikipedia.org/wiki/Gruffudd_ap_Cynan"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Soon afterwards the Normans captured him and held him at Chester for years. He was free by 1094, ruled Anglesey from 1099 and the rest of Gwynedd later, and died in 1137.",
+        "es": "Poco después los normandos lo capturaron y lo retuvieron en Chester durante años. Estaba libre en 1094, gobernó Anglesey desde 1099 y después el resto de Gwynedd, y murió en 1137.",
+        "zh": "此后不久他被诺曼人俘获，在切斯特被关押多年。他在1094年前已获自由，1099年起统治安格尔西，后来又控制格温内斯其余地区，1137年去世。"
+      }
+    },
+    {
+      "id": "berwyn-1165",
+      "start": 1165,
+      "type": "conflict",
+      "title": {
+        "en": "Henry II of England's army crosses the Berwyn hills into Wales; a coalition of Welsh rulers led by Owain Gwynedd blocks it, and heavy rain forces it back",
+        "es": "El ejército de Enrique II de Inglaterra cruza los montes Berwyn hacia Gales; una coalición de gobernantes galeses dirigida por Owain Gwynedd le cierra el paso y las lluvias torrenciales lo obligan a retirarse",
+        "zh": "英格兰国王亨利二世的军队翻越伯温山进入威尔士；欧文·圭内斯率领的威尔士统治者联盟将其挡住，暴雨迫使英军撤退"
+      },
+      "sources": [
+        {
+          "citation": "Groves, Liam (2025). \"Owain Gwynedd.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Owain_Gwynedd/"
+        },
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Owain Gwynedd (c. 1100–1170), king of Gwynedd.\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-OWAI-GWY-1100"
+        },
+        {
+          "citation": "Wikipedia (English). \"Owain Gwynedd.\"",
+          "url": "https://en.wikipedia.org/wiki/Owain_Gwynedd"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "On his retreat Henry had Welsh hostages mutilated, among them two of Owain's sons.",
+        "es": "En la retirada, Enrique mandó mutilar a rehenes galeses, entre ellos dos hijos de Owain.",
+        "zh": "撤退途中，亨利下令将威尔士人质致残，其中包括欧文的两个儿子。"
+      }
+    },
+    {
+      "id": "aberdyfi",
+      "start": 1216,
+      "type": "ruler",
+      "title": {
+        "en": "At an assembly at Aberdyfi, Llywelyn the Great shares out the lands of Deheubarth among its princes, and the other Welsh rulers do homage to him",
+        "es": "En una asamblea en Aberdyfi, Llywelyn el Grande reparte las tierras de Deheubarth entre sus príncipes, y los demás gobernantes galeses le rinden homenaje",
+        "zh": "卢埃林大帝在阿伯多维召集会议，把德修巴斯的土地分给当地诸亲王，其他威尔士统治者向他效忠"
+      },
+      "sources": [
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Iorwerth ('Llywelyn the Great') (1173–1240), prince of Gwynedd.\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-LLYW-API-1173"
+        },
+        {
+          "citation": "Wikipedia (English). \"Llywelyn ab Iorwerth.\"",
+          "url": "https://en.wikipedia.org/wiki/Llywelyn_ab_Iorwerth"
+        },
+        {
+          "citation": "Wikipedia (English). \"History of Gwynedd in the High Middle Ages\" (Council of Aberdyfi).",
+          "url": "https://en.wikipedia.org/wiki/History_of_Gwynedd_in_the_High_Middle_Ages"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Aberdyfi",
+          "es": "Aberdyfi",
+          "zh": "阿伯多维"
+        },
+        "lat": 52.5444,
+        "lon": -4.0444
+      }
+    },
+    {
+      "id": "treaty-of-worcester",
+      "start": 1218,
+      "type": "ruler",
+      "title": {
+        "en": "In the Treaty of Worcester, the government of the boy king Henry III makes peace with Llywelyn the Great and leaves him holding the royal castles of Carmarthen and Cardigan",
+        "es": "En el Tratado de Worcester, el gobierno del rey niño Enrique III firma la paz con Llywelyn el Grande y le deja en poder de los castillos reales de Carmarthen y Cardigan",
+        "zh": "在《伍斯特条约》中，少年国王亨利三世的政府与卢埃林大帝议和，并让他继续掌握王室的卡马森和卡迪根城堡"
+      },
+      "sources": [
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Iorwerth ('Llywelyn the Great') (1173–1240), prince of Gwynedd.\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-LLYW-API-1173"
+        },
+        {
+          "citation": "Wikipedia (English). \"History of Gwynedd in the High Middle Ages\" (Aberdyfi, Worcester, and Strata Florida; 1216–1240).",
+          "url": "https://en.wikipedia.org/wiki/History_of_Gwynedd_in_the_High_Middle_Ages"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "He was to hold the castles only until Henry III came of age; English forces took them back in 1223.",
+        "es": "Debía conservar los castillos solo hasta la mayoría de edad de Enrique III; las fuerzas inglesas volvieron a tomarlos en 1223.",
+        "zh": "按约他只能保有这些城堡到亨利三世成年为止；1223年英格兰军队重新夺取了这些城堡。"
+      },
+      "place": {
+        "name": {
+          "en": "Worcester",
+          "es": "Worcester",
+          "zh": "伍斯特"
+        },
+        "lat": 52.1911,
+        "lon": -2.2206
+      }
+    },
+    {
+      "id": "treaty-of-montgomery",
+      "start": 1267,
+      "type": "ruler",
+      "title": {
+        "en": "In the Treaty of Montgomery, Henry III of England recognises Llywelyn ap Gruffudd as Prince of Wales and overlord of the other Welsh lords, in return for his homage",
+        "es": "En el Tratado de Montgomery, Enrique III de Inglaterra reconoce a Llywelyn ap Gruffudd como príncipe de Gales y señor de los demás nobles galeses, a cambio de su homenaje",
+        "zh": "在《蒙哥马利条约》中，英格兰国王亨利三世承认卢埃林·阿普·格鲁菲兹为威尔士亲王和其他威尔士领主的宗主，换取他的臣服"
+      },
+      "sources": [
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Gruffydd ('Llywelyn the Last'), Prince of Wales (died 1282).\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-LLYW-APG-1200"
+        },
+        {
+          "citation": "\"Llewelyn ap Gruffydd.\" Encyclopedia of World Biography, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/llewelyn-ap-gruffydd"
+        },
+        {
+          "citation": "Wikipedia (English). \"Treaty of Montgomery.\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Montgomery"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Signed on 29 September 1267. Llywelyn had taken the title Prince of Wales in 1258. It was the only time an English king recognised a ruler of Gwynedd's authority over Wales.",
+        "es": "Firmado el 29 de septiembre de 1267. Llywelyn había adoptado el título de príncipe de Gales en 1258. Fue la única vez que un rey inglés reconoció la autoridad de un gobernante de Gwynedd sobre Gales.",
+        "zh": "条约签订于1267年9月29日。卢埃林在1258年已自称威尔士亲王。这是英格兰国王唯一一次承认格温内斯统治者对威尔士的权力。"
+      },
+      "place": {
+        "name": {
+          "en": "Montgomery",
+          "es": "Montgomery",
+          "zh": "蒙哥马利"
+        },
+        "lat": 52.5628,
+        "lon": -3.1493
+      }
+    },
+    {
+      "id": "llywelyn-killed",
+      "start": 1282,
+      "type": "conflict",
+      "title": {
+        "en": "Edward I's forces, among them the men of the Mortimers and of Gruffudd ap Gwenwynwyn of Powys, kill Llywelyn ap Gruffudd near Cilmeri, by the river Irfon near Builth, on 11 December",
+        "es": "Las fuerzas de Eduardo I, entre ellas los hombres de los Mortimer y de Gruffudd ap Gwenwynwyn de Powys, matan a Llywelyn ap Gruffudd cerca de Cilmeri, junto al río Irfon, cerca de Builth, el 11 de diciembre",
+        "zh": "12月11日，爱德华一世的军队（其中有莫蒂默家族和波伊斯的格鲁菲兹·阿普·古恩温威的部下）在比尔斯附近伊尔丰河畔的基尔梅里一带杀死卢埃林·阿普·格鲁菲兹"
+      },
+      "sources": [
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Gruffydd ('Llywelyn the Last'), Prince of Wales (died 1282).\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-LLYW-APG-1200"
+        },
+        {
+          "citation": "Royal Commission on the Ancient and Historical Monuments of Wales (2017). \"Irfon Bridge; Pont Irfon; Battle of Orewin Bridge, Builth Wells\" (NPRN 403411). Inventory of Historic Battlefields in Wales, Coflein.",
+          "url": "https://coflein.gov.uk/en/site/403411/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Orewin Bridge.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Orewin_Bridge"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Accounts conflict. Walter of Guisborough describes a battle at Orewin (Irfon) Bridge in which the Welsh army was routed; the Welsh chronicle Brut y Tywysogyon says Roger Mortimer and Gruffudd ap Gwenwynwyn came upon Llywelyn with the king's army while he had few men with him. The Roger Mortimer it names was a son of Roger Mortimer of Wigmore, who had died that October; other chronicles name his brother Edmund. The memorial at Cilmeri marks the traditional spot. His head was sent to London and displayed at the Tower. The historian David Stephenson puts the Welsh dead at about 3,000 foot soldiers and 160 horsemen; Llinos Beverley Smith questions the figure.",
+        "es": "Los relatos no coinciden. Walter de Guisborough describe una batalla en el puente de Orewin (Irfon) en la que el ejército galés fue derrotado; la crónica galesa Brut y Tywysogyon dice que Roger Mortimer y Gruffudd ap Gwenwynwyn cayeron sobre Llywelyn con el ejército del rey cuando tenía pocos hombres consigo. El Roger Mortimer que nombra era hijo de Roger Mortimer de Wigmore, muerto en octubre de ese año; otras crónicas nombran a su hermano Edmund. El monumento de Cilmeri marca el lugar tradicional. Su cabeza fue enviada a Londres y expuesta en la Torre. El historiador David Stephenson cifra los muertos galeses en unos 3000 soldados de a pie y 160 jinetes; Llinos Beverley Smith pone en duda la cifra.",
+        "zh": "各方记载互相矛盾。吉斯伯勒的沃尔特称在奥鲁因（伊尔丰）桥发生过一场战斗，威尔士军队溃败；威尔士编年史《亲王编年史》则说，罗杰·莫蒂默和格鲁菲兹·阿普·古恩温威率国王的军队突袭了身边只有少数人的卢埃林。编年史所称的罗杰·莫蒂默是当年10月去世的威格莫尔领主罗杰·莫蒂默之子；另有编年史记为其兄弟埃德蒙。基尔梅里的纪念碑标出的是传统所说的地点。他的首级被送往伦敦，在伦敦塔示众。历史学家戴维·斯蒂芬森估计威尔士方面约有3000名步兵和160名骑兵被杀；利诺斯·贝弗利·史密斯对这一数字表示怀疑。"
+      },
+      "place": {
+        "name": {
+          "en": "Cilmeri, near Builth Wells",
+          "es": "Cilmeri, cerca de Builth Wells",
+          "zh": "比尔斯韦尔斯附近的基尔梅里"
+        },
+        "lat": 52.1506,
+        "lon": -3.4571
+      }
+    },
+    {
+      "id": "dafydd-executed",
+      "start": 1283,
+      "type": "collapse",
+      "title": {
+        "en": "Dafydd ap Gruffudd, Llywelyn's brother and successor, captured in June, is hanged, drawn and quartered for treason at Shrewsbury on 3 October",
+        "es": "Dafydd ap Gruffudd, hermano y sucesor de Llywelyn, capturado en junio, es ahorcado, arrastrado y descuartizado por traición en Shrewsbury el 3 de octubre",
+        "zh": "卢埃林的弟弟和继承人戴维兹·阿普·格鲁菲兹于6月被俘，10月3日在什鲁斯伯里以叛国罪被处以绞刑、开膛和分尸"
+      },
+      "sources": [
+        {
+          "citation": "\"Dafydd ap Gruffydd.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dafydd-ap-gruffydd"
+        },
+        {
+          "citation": "\"Llewelyn ap Gruffydd.\" Encyclopedia of World Biography, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/llewelyn-ap-gruffydd"
+        },
+        {
+          "citation": "Wikipedia (English). \"Dafydd ap Gruffudd.\"",
+          "url": "https://en.wikipedia.org/wiki/Dafydd_ap_Gruffudd"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Welsh men handed him over to the English. A parliament at Shrewsbury condemned him; he was the first prominent person known to have been executed this way.",
+        "es": "Fueron galeses quienes lo entregaron a los ingleses. Un parlamento reunido en Shrewsbury lo condenó; fue la primera persona destacada de la que se sabe que fue ejecutada de esta manera.",
+        "zh": "他是被威尔士人交给英格兰人的。什鲁斯伯里召开的议会判他死刑；他是已知第一位以这种方式被处决的知名人物。"
+      },
+      "place": {
+        "name": {
+          "en": "Shrewsbury",
+          "es": "Shrewsbury",
+          "zh": "什鲁斯伯里"
+        },
+        "lat": 52.7081,
+        "lon": -2.7544
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "cantiorix-stone",
+      "text": {
+        "en": "The oldest known mention of Gwynedd is a Latin gravestone of the 5th or 6th century, now in Penmachno church, which names the dead man, Cantiorix, as a citizen of Venedos (Gwynedd) and a cousin of Maglos the magistrate.",
+        "es": "La mención más antigua conocida de Gwynedd es una lápida latina de los siglos V o VI, hoy en la iglesia de Penmachno, que presenta al difunto, Cantiorix, como ciudadano de Venedos (Gwynedd) y primo de Maglos el magistrado.",
+        "zh": "已知最早提到格温内斯的是一块5世纪或6世纪的拉丁文墓碑，今存于彭马赫诺教堂，碑文称死者坎蒂奥里克斯是维内多斯（格温内斯）的公民、地方长官马格洛斯的表亲。"
+      },
+      "start": 401,
+      "end": 600,
+      "sources": [
+        {
+          "citation": "Royal Commission on the Ancient and Historical Monuments of Wales. \"Beddau Gwyr Ardudwy\" (NPRN 303044), Coflein.",
+          "url": "https://coflein.gov.uk/en/sites/303044"
+        },
+        {
+          "citation": "Wikipedia (English). \"Cantiorix Inscription.\"",
+          "url": "https://en.wikipedia.org/wiki/Cantiorix_Inscription"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "island-dragon",
+      "text": {
+        "en": "Writing around 540, the monk Gildas called Maelgwn 'the dragon of the island' and denounced him as the worst of five British kings.",
+        "es": "Hacia 540, el monje Gildas llamó a Maelgwn «el dragón de la isla» y lo denunció como el peor de cinco reyes britanos.",
+        "zh": "约540年，修士吉尔达斯称迈尔贡为“岛上之龙”，并斥之为五位不列颠国王中最坏的一个。"
+      },
+      "start": 530,
+      "end": 547,
+      "sources": [
+        {
+          "citation": "Davies, William Hopkin (1959). \"Maelgwn Gwynedd (died c. 547), king of Gwynedd and monk.\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-MAEL-GWY-0547"
+        },
+        {
+          "citation": "Jackson, Guy (2022). \"Maglocunus.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Maglocunus/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "waliarum-princeps",
+      "text": {
+        "en": "In letters to Louis VII of France, Owain Gwynedd called himself Waliarum princeps, 'prince of Wales': the first Welsh ruler known to use the title.",
+        "es": "En cartas a Luis VII de Francia, Owain Gwynedd se llamó a sí mismo Waliarum princeps, «príncipe de Gales»: el primer gobernante galés del que se sabe que usó el título.",
+        "zh": "欧文·圭内斯在致法国国王路易七世的信中自称“Waliarum princeps”，即“威尔士亲王”，是已知最早使用这一称号的威尔士统治者。"
+      },
+      "start": 1165,
+      "end": 1170,
+      "sources": [
+        {
+          "citation": "Groves, Liam (2025). \"Owain Gwynedd.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Owain_Gwynedd/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Owain Gwynedd.\"",
+          "url": "https://en.wikipedia.org/wiki/Owain_Gwynedd"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "prince-of-aberffraw",
+      "text": {
+        "en": "From about 1230 Llywelyn the Great styled himself 'Prince of Aberffraw and Lord of Snowdon', after his court on Anglesey and the mountains at the heart of his land.",
+        "es": "Desde hacia 1230 Llywelyn el Grande se tituló «príncipe de Aberffraw y señor de Snowdon», por su corte en Anglesey y las montañas del corazón de su tierra.",
+        "zh": "约1230年起，卢埃林大帝自称“阿伯弗劳亲王兼斯诺登领主”，取自他在安格尔西岛的宫廷和其领地中心的群山。"
+      },
+      "start": 1230,
+      "end": 1240,
+      "sources": [
+        {
+          "citation": "Pierce, Thomas Jones (1959). \"Llywelyn ap Iorwerth ('Llywelyn the Great') (1173–1240), prince of Gwynedd.\" Dictionary of Welsh Biography, National Library of Wales.",
+          "url": "https://biography.wales/article/s-LLYW-API-1173"
+        },
+        {
+          "citation": "Wikipedia (English). \"Treaty of Montgomery.\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Montgomery"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

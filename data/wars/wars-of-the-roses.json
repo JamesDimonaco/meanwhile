@@ -1,0 +1,843 @@
+{
+  "id": "wars-of-the-roses",
+  "wikidataId": "Q127751",
+  "name": {
+    "en": "Wars of the Roses",
+    "es": "Guerra de las Dos Rosas",
+    "zh": "玫瑰战争"
+  },
+  "aliases": [
+    "War of the Roses",
+    "Guerra de las Rosas",
+    "蔷薇战争",
+    "House of Lancaster",
+    "House of York",
+    "Casa de Lancaster",
+    "Casa de York",
+    "兰开斯特家族",
+    "约克家族",
+    "Lancastrians",
+    "Yorkists",
+    "Kingmaker",
+    "Richard III",
+    "Ricardo III",
+    "理查三世",
+    "Henry Tudor",
+    "Enrique Tudor",
+    "亨利·都铎",
+    "Towton",
+    "Bosworth",
+    "博斯沃思"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "The Wars of the Roses were a series of civil wars over the English throne between supporters of two branches of the royal family, the houses of Lancaster and York. In 1455 Richard, Duke of York, attacked the forces of the Lancastrian king Henry VI at St Albans and took the king into his custody. York was killed at Wakefield in 1460, but his son took the crown as Edward IV and defeated the Lancastrians at Towton in 1461; Harlech Castle in Wales held out for Henry until 1468. In 1469 the Earl of Warwick and Edward's brother Clarence turned against Edward, and in 1470 Warwick, allied with Henry's queen Margaret of Anjou and backed by Louis XI of France, restored Henry. Edward returned with Burgundian help in 1471; his army killed Warwick at Barnet and defeated Margaret's army at Tewkesbury. After Edward died in 1483 his brother took the throne as Richard III. In 1485 Henry Tudor, heir to the Lancastrian claim, landed in Wales with French troops and defeated and killed Richard at Bosworth. As Henry VII he married Elizabeth of York, and in 1487 he defeated a Yorkist rising at Stoke Field.",
+    "es": "La guerra de las Dos Rosas fue una serie de guerras civiles por el trono inglés entre los partidarios de dos ramas de la familia real: las casas de Lancaster y York. En 1455 Ricardo, duque de York, atacó a las fuerzas del rey lancasteriano Enrique VI en St Albans y tomó al rey bajo su custodia. York murió en Wakefield en 1460, pero su hijo se coronó como Eduardo IV y derrotó a los lancasterianos en Towton en 1461; el castillo de Harlech, en Gales, resistió por Enrique hasta 1468. En 1469 el conde de Warwick y Clarence, hermano de Eduardo, se volvieron contra el rey, y en 1470 Warwick, aliado con la reina Margarita de Anjou y respaldado por Luis XI de Francia, devolvió el trono a Enrique. Eduardo regresó con ayuda borgoñona en 1471; sus tropas mataron a Warwick en Barnet y derrotaron al ejército de Margarita en Tewkesbury. Tras la muerte de Eduardo en 1483, su hermano subió al trono como Ricardo III. En 1485 Enrique Tudor, heredero de la pretensión lancasteriana, desembarcó en Gales con tropas francesas y derrotó y mató a Ricardo en Bosworth. Como Enrique VII se casó con Isabel de York, y en 1487 derrotó un levantamiento yorkista en Stoke Field.",
+    "zh": "玫瑰战争是英格兰王室两个分支兰开斯特家族与约克家族的支持者之间争夺王位的一系列内战。1455年，约克公爵理查在圣奥尔本斯攻击兰开斯特派国王亨利六世的部队，并将国王置于自己的控制之下。1460年约克公爵在韦克菲尔德战死，但其子登基为爱德华四世，并于1461年在陶顿击败兰开斯特派；威尔士的哈莱克城堡为亨利坚守至1468年。1469年，沃里克伯爵和爱德华的弟弟克拉伦斯公爵转而反对爱德华；1470年，沃里克与亨利的王后安茹的玛格丽特结盟，在法国国王路易十一的支持下使亨利复位。1471年爱德华在勃艮第的援助下返回，其军队在巴内特杀死沃里克，又在蒂克斯伯里击败玛格丽特的军队。1483年爱德华去世后，他的弟弟登上王位，成为理查三世。1485年，兰开斯特王位继承权的继承人亨利·都铎率法国军队在威尔士登陆，在博斯沃思击败并杀死理查。他即位为亨利七世后迎娶约克的伊丽莎白，并于1487年在斯托克菲尔德击败约克派的起事。"
+  },
+  "outcome": {
+    "en": "Henry Tudor took the throne as Henry VII in 1485 and in 1486 married Elizabeth of York, Edward IV's daughter; the Tudor dynasty he founded ruled England until 1603.",
+    "es": "Enrique Tudor subió al trono como Enrique VII en 1485 y en 1486 se casó con Isabel de York, hija de Eduardo IV; la dinastía Tudor que fundó reinó en Inglaterra hasta 1603.",
+    "zh": "亨利·都铎于1485年即位为亨利七世，1486年迎娶爱德华四世之女约克的伊丽莎白；他开创的都铎王朝统治英格兰直至1603年。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "wars",
+    "earliestStart": 1455,
+    "latestStart": 1455,
+    "earliestEnd": 1485,
+    "latestEnd": 1487,
+    "sources": [
+      {
+        "citation": "Pollard, A. J. \"Roses, Wars of the.\" The Oxford Companion to British History, ed. John Cannon. Oxford University Press, via Encyclopedia.com.",
+        "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/roses-wars"
+      },
+      {
+        "citation": "\"Roses, Wars of the.\" World Encyclopedia. Oxford University Press, via Encyclopedia.com.",
+        "url": "https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/roses-wars"
+      },
+      {
+        "citation": "\"Wars of the Roses.\" EBSCO Research Starters: History.",
+        "url": "https://www.ebsco.com/research-starters/history/wars-roses"
+      },
+      {
+        "citation": "Cartwright, Mark. \"Wars of the Roses.\" World History Encyclopedia, 24 February 2020.",
+        "url": "https://www.worldhistory.org/Wars_of_the_Roses/"
+      },
+      {
+        "citation": "Wikipedia (English). \"Wars of the Roses.\"",
+        "url": "https://en.wikipedia.org/wiki/Wars_of_the_Roses"
+      },
+      {
+        "citation": "Wikidata. \"Wars of the Roses\" (Q127751), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q127751"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "The wars are dated from the first battle of St Albans in 1455. Some historians end them with Richard III's death at Bosworth in 1485, others with Stoke Field in 1487, the last battle. Jack Cade's rising in Kent in 1450 and the unrest of the early 1450s are usually treated as a prelude, not as part of the wars.",
+      "es": "Las guerras se datan desde la primera batalla de St Albans, en 1455. Algunos historiadores las dan por terminadas con la muerte de Ricardo III en Bosworth en 1485; otros, con Stoke Field en 1487, la última batalla. La revuelta de Jack Cade en Kent en 1450 y los disturbios de principios de la década de 1450 suelen tratarse como un preludio, no como parte de las guerras.",
+      "zh": "这场战争从1455年第一次圣奥尔本斯战役算起。有的历史学家以1485年理查三世在博斯沃思战死为结束，也有的以最后一场战役即1487年的斯托克菲尔德战役为结束。1450年肯特的杰克·凯德起事和1450年代初的动荡通常被视为前奏，而不算作战争的一部分。"
+    }
+  },
+  "sides": [
+    {
+      "id": "lancaster",
+      "label": {
+        "en": "House of Lancaster and, from 1485, Henry Tudor",
+        "es": "Casa de Lancaster y, desde 1485, Enrique Tudor",
+        "zh": "兰开斯特家族及1485年起的亨利·都铎"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "House of Lancaster: Henry VI, Margaret of Anjou and their supporters (in 1470–1471 also the Earl of Warwick)",
+            "es": "Casa de Lancaster: Enrique VI, Margarita de Anjou y sus partidarios (en 1470–1471 también el conde de Warwick)",
+            "zh": "兰开斯特家族：亨利六世、安茹的玛格丽特及其支持者（1470年至1471年还有沃里克伯爵）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG",
+            "GB-WLS"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Henry Tudor's army: English and Welsh exiles and recruits raised in Wales (1485–1487)",
+            "es": "Ejército de Enrique Tudor: exiliados ingleses y galeses y reclutas de Gales (1485–1487)",
+            "zh": "亨利·都铎的军队：英格兰与威尔士流亡者及在威尔士招募的士兵（1485年至1487年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-WLS",
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of France: Louis XI backed the 1470 restoration of Henry VI; the government of Charles VIII supplied the French troops, about 1,800, who sailed with Henry Tudor in 1485",
+            "es": "Reino de Francia: Luis XI respaldó la restauración de Enrique VI en 1470; el gobierno de Carlos VIII proporcionó las tropas francesas, unas 1800, que zarparon con Enrique Tudor en 1485",
+            "zh": "法兰西王国：路易十一支持亨利六世于1470年复位；查理八世的政府提供了约1800名法国士兵，于1485年随亨利·都铎渡海"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "york",
+      "label": {
+        "en": "House of York and its supporters",
+        "es": "Casa de York y sus partidarios",
+        "zh": "约克家族及其支持者"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "House of York: Richard, Duke of York, Edward IV, Richard III and their supporters (until 1469 also the Earl of Warwick)",
+            "es": "Casa de York: Ricardo, duque de York, Eduardo IV, Ricardo III y sus partidarios (hasta 1469 también el conde de Warwick)",
+            "zh": "约克家族：约克公爵理查、爱德华四世、理查三世及其支持者（1469年以前还有沃里克伯爵）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG",
+            "GB-WLS"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Yorkist rebels under the Earl of Lincoln and Viscount Lovell, with the pretender Lambert Simnel (1487)",
+            "es": "Rebeldes yorkistas al mando del conde de Lincoln y el vizconde Lovell, con el pretendiente Lambert Simnel (1487)",
+            "zh": "林肯伯爵与洛弗尔子爵率领的约克派叛军，拥立王位觊觎者兰伯特·西姆内尔（1487年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Irish troops raised with the help of the FitzGeralds of Kildare (1487)",
+            "es": "Tropas irlandesas reclutadas con ayuda de los FitzGerald de Kildare (1487)",
+            "zh": "在基尔代尔的菲茨杰拉德家族协助下招募的爱尔兰军队（1487年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "IE"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "German mercenaries under Martin Schwartz (1487)",
+            "es": "Mercenarios alemanes al mando de Martin Schwartz (1487)",
+            "zh": "马丁·施瓦茨率领的德意志雇佣兵（1487年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "DE"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Burgundian Netherlands: Charles the Bold helped Edward IV return in 1471; the dowager duchess Margaret of York paid the mercenaries of 1487",
+            "es": "Países Bajos borgoñones: Carlos el Temerario ayudó a Eduardo IV a regresar en 1471; la duquesa viuda Margarita de York pagó a los mercenarios de 1487",
+            "zh": "勃艮第尼德兰：大胆查理于1471年助爱德华四世回国；寡居的公爵夫人约克的玛格丽特出资雇用了1487年的雇佣兵"
+          },
+          "role": "supporter",
+          "today": [
+            "BE",
+            "NL"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "first-phase",
+      "name": {
+        "en": "First phase: Henry VI loses the throne",
+        "es": "Primera fase: Enrique VI pierde el trono",
+        "zh": "第一阶段：亨利六世失去王位"
+      },
+      "start": 1455,
+      "end": 1464,
+      "sources": [
+        {
+          "citation": "Pollard, A. J. \"Roses, Wars of the.\" The Oxford Companion to British History, ed. John Cannon. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/roses-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Wars of the Roses.\"",
+          "url": "https://en.wikipedia.org/wiki/Wars_of_the_Roses"
+        }
+      ]
+    },
+    {
+      "id": "second-phase",
+      "name": {
+        "en": "Second phase: Warwick's revolt and Henry VI's return",
+        "es": "Segunda fase: la revuelta de Warwick y el regreso de Enrique VI",
+        "zh": "第二阶段：沃里克叛乱与亨利六世复位"
+      },
+      "start": 1469,
+      "end": 1471,
+      "sources": [
+        {
+          "citation": "Pollard, A. J. \"Roses, Wars of the.\" The Oxford Companion to British History, ed. John Cannon. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/roses-wars"
+        },
+        {
+          "citation": "The Battlefields Trust. \"Battle of Tewkesbury, 1471.\" Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=45"
+        }
+      ]
+    },
+    {
+      "id": "third-phase",
+      "name": {
+        "en": "Third phase: Richard III and Henry Tudor",
+        "es": "Tercera fase: Ricardo III y Enrique Tudor",
+        "zh": "第三阶段：理查三世与亨利·都铎"
+      },
+      "start": 1483,
+      "end": 1487,
+      "sources": [
+        {
+          "citation": "Pollard, A. J. \"Roses, Wars of the.\" The Oxford Companion to British History, ed. John Cannon. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/roses-wars"
+        },
+        {
+          "citation": "\"Roses, Wars of the.\" World Encyclopedia. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/roses-wars"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "first-battle-of-st-albans",
+      "start": 1455,
+      "title": {
+        "en": "Richard, Duke of York, and his Neville allies attack Henry VI's forces in the streets of St Albans; the Duke of Somerset is killed and the king is taken into York's custody",
+        "es": "Ricardo, duque de York, y sus aliados Neville atacan a las fuerzas de Enrique VI en las calles de St Albans; el duque de Somerset muere y el rey queda bajo la custodia de York",
+        "zh": "约克公爵理查及其内维尔家族盟友在圣奥尔本斯街头攻击亨利六世的部队；萨默塞特公爵被杀，国王落入约克公爵的控制"
+      },
+      "sources": [
+        {
+          "citation": "The Battlefields Trust. \"Battle of St Albans I, 1455.\" Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=111"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Wars of the Roses.\" World History Encyclopedia, 24 February 2020.",
+          "url": "https://www.worldhistory.org/Wars_of_the_Roses/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Wars of the Roses.\"",
+          "url": "https://en.wikipedia.org/wiki/Wars_of_the_Roses"
+        }
+      ],
+      "note": {
+        "en": "The Battlefields Trust puts the dead at no more than about 400, nearly all Lancastrian; the English Wikipedia account gives fewer than 160 in all.",
+        "es": "La Battlefields Trust calcula como máximo unos 400 muertos, casi todos lancasterianos; el relato de la Wikipedia en inglés da menos de 160 en total.",
+        "zh": "战场信托（Battlefields Trust）估计死者至多约400人，几乎全是兰开斯特派；英文维基百科的记述则称总数不足160人。"
+      },
+      "place": {
+        "name": {
+          "en": "St Albans",
+          "es": "St Albans",
+          "zh": "圣奥尔本斯"
+        },
+        "lat": 51.752,
+        "lon": -0.339
+      },
+      "wikidataId": "Q842796"
+    },
+    {
+      "id": "battle-of-towton",
+      "start": 1461,
+      "title": {
+        "en": "Edward IV's army defeats the main Lancastrian army near Towton in Yorkshire; Henry VI and Margaret of Anjou withdraw to Scotland",
+        "es": "El ejército de Eduardo IV derrota al grueso del ejército lancasteriano cerca de Towton, en Yorkshire; Enrique VI y Margarita de Anjou se retiran a Escocia",
+        "zh": "爱德华四世的军队在约克郡陶顿附近击败兰开斯特派主力；亨利六世与安茹的玛格丽特退往苏格兰"
+      },
+      "sources": [
+        {
+          "citation": "The Battlefields Trust. \"Battle of Towton, 1461.\" Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/warsoftheroses/battleview.asp?BattleFieldId=46"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Towton.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Towton"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Wars of the Roses.\" World History Encyclopedia, 24 February 2020.",
+          "url": "https://www.worldhistory.org/Wars_of_the_Roses/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The toll is contested. Letters written days after the battle passed on the heralds' count of 28,000 dead, and other contemporary sources gave 30,000 to 38,000; the Annales rerum anglicarum gave 9,000 Lancastrian dead, a figure the historians Charles Ross and Bertram Wolffe found more believable. A 2009 study by Sutherland, which argues that accounts of Towton absorbed the fighting at Ferrybridge and Dintingdale, suggests 2,800 to 3,800 dead in all. The Battlefields Trust calls the chronicle figures improbable.",
+        "es": "La cifra de muertos es discutida. Cartas escritas días después de la batalla transmitieron el recuento de los heraldos, 28 000 muertos, y otras fuentes de la época dieron entre 30 000 y 38 000; los Annales rerum anglicarum dieron 9000 muertos lancasterianos, cifra que los historiadores Charles Ross y Bertram Wolffe consideraron más creíble. Un estudio de Sutherland de 2009, que sostiene que los relatos de Towton absorbieron los combates de Ferrybridge y Dintingdale, sugiere entre 2800 y 3800 muertos en total. La Battlefields Trust considera improbables las cifras de las crónicas.",
+        "zh": "死亡人数存在争议。战后数日写成的书信转述了传令官统计的2.8万名死者，其他同时代资料给出3万至3.8万人；《英格兰编年纪》（Annales rerum anglicarum）称兰开斯特派死亡9000人，历史学家查尔斯·罗斯和伯特伦·沃尔夫认为这一数字较为可信。萨瑟兰2009年的研究认为，有关陶顿的记载混入了费里布里奇和丁廷代尔的战斗，估计总死亡人数为2800至3800人。战场信托认为编年史中的数字不可信。"
+      },
+      "place": {
+        "name": {
+          "en": "Towton, North Yorkshire",
+          "es": "Towton, Yorkshire del Norte",
+          "zh": "北约克郡陶顿"
+        },
+        "lat": 53.8397,
+        "lon": -1.2683
+      },
+      "wikidataId": "Q634629"
+    },
+    {
+      "id": "harlech-castle-surrenders",
+      "start": 1468,
+      "title": {
+        "en": "Harlech Castle in Wales, held for Henry VI since 1461, surrenders to William Herbert's Yorkist army after a siege of about a month",
+        "es": "El castillo de Harlech, en Gales, en manos de los partidarios de Enrique VI desde 1461, se rinde al ejército yorkista de William Herbert tras un asedio de alrededor de un mes",
+        "zh": "自1461年起为亨利六世据守的威尔士哈莱克城堡，在威廉·赫伯特率领的约克派军队围攻约一个月后投降"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Harlech Castle.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Harlech_Castle/"
+        },
+        {
+          "citation": "Cadw (Welsh Government). \"More about Harlech Castle.\"",
+          "url": "https://cadw.gov.wales/more-about-harlech-castle"
+        },
+        {
+          "citation": "Wikipedia (English). \"Harlech Castle.\"",
+          "url": "https://en.wikipedia.org/wiki/Harlech_Castle"
+        }
+      ],
+      "note": {
+        "en": "Cadw records that fifty prisoners were taken, among them the Welsh constable Dafydd ab Ieuan ab Einion. The long resistance is traditionally linked to the song 'Men of Harlech'.",
+        "es": "Cadw registra que se tomaron cincuenta prisioneros, entre ellos el condestable galés Dafydd ab Ieuan ab Einion. La larga resistencia se asocia tradicionalmente a la canción «Men of Harlech».",
+        "zh": "据威尔士古迹管理局（Cadw）记载，五十人被俘，其中包括威尔士籍城堡守官达维兹·阿卜·耶万·阿卜·埃纽恩。这次长期坚守传统上被认为与歌曲《哈莱克的勇士》有关。"
+      },
+      "place": {
+        "name": {
+          "en": "Harlech Castle, Gwynedd",
+          "es": "Castillo de Harlech, Gwynedd",
+          "zh": "圭内斯郡哈莱克城堡"
+        },
+        "lat": 52.86,
+        "lon": -4.1092
+      }
+    },
+    {
+      "id": "battle-of-barnet",
+      "start": 1471,
+      "title": {
+        "en": "Edward IV, back from exile with Burgundian help, defeats the Earl of Warwick's army at Barnet; Warwick is killed",
+        "es": "Eduardo IV, de vuelta del exilio con ayuda borgoñona, derrota al ejército del conde de Warwick en Barnet; Warwick muere",
+        "zh": "借助勃艮第援助结束流亡归来的爱德华四世在巴内特击败沃里克伯爵的军队；沃里克被杀"
+      },
+      "sources": [
+        {
+          "citation": "The Battlefields Trust. \"Battle of Barnet, 1471.\" Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=5"
+        },
+        {
+          "citation": "\"Wars of the Roses.\" EBSCO Research Starters: History.",
+          "url": "https://www.ebsco.com/research-starters/history/wars-roses"
+        },
+        {
+          "citation": "Wikipedia (English). \"Wars of the Roses.\"",
+          "url": "https://en.wikipedia.org/wiki/Wars_of_the_Roses"
+        },
+        {
+          "citation": "\"Margaret of Anjou.\" Encyclopedia of World Biography. Gale, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/margaret-anjou-0"
+        }
+      ],
+      "note": {
+        "en": "Estimates of the dead range from 1,000 on both sides (John Paston) to 4,000 (Warkworth's chronicle); von Wesel, a German merchant in London, gave 1,500.",
+        "es": "Las estimaciones de muertos van de 1000 entre ambos bandos (John Paston) a 4000 (la crónica de Warkworth); Von Wesel, mercader alemán en Londres, dio 1500.",
+        "zh": "死亡人数估计从双方合计1000人（约翰·帕斯顿）到4000人（沃克沃思编年史）不等；伦敦的德意志商人冯·韦瑟尔给出1500人。"
+      },
+      "place": {
+        "name": {
+          "en": "Barnet",
+          "es": "Barnet",
+          "zh": "巴内特"
+        },
+        "lat": 51.6658,
+        "lon": -0.1989
+      },
+      "wikidataId": "Q1428169"
+    },
+    {
+      "id": "battle-of-tewkesbury",
+      "start": 1471,
+      "title": {
+        "en": "Edward IV's army defeats Margaret of Anjou's army at Tewkesbury; her son Edward of Westminster, Henry VI's heir, is killed",
+        "es": "El ejército de Eduardo IV derrota al de Margarita de Anjou en Tewkesbury; su hijo Eduardo de Westminster, heredero de Enrique VI, muere",
+        "zh": "爱德华四世的军队在蒂克斯伯里击败安茹的玛格丽特的军队；她的儿子、亨利六世的继承人威斯敏斯特的爱德华被杀"
+      },
+      "sources": [
+        {
+          "citation": "The Battlefields Trust. \"Battle of Tewkesbury, 1471.\" Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=45"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Wars of the Roses.\" World History Encyclopedia, 24 February 2020.",
+          "url": "https://www.worldhistory.org/Wars_of_the_Roses/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Wars of the Roses.\"",
+          "url": "https://en.wikipedia.org/wiki/Wars_of_the_Roses"
+        }
+      ],
+      "note": {
+        "en": "The Battlefields Trust suggests about 2,000 Lancastrian dead and possibly 500 Yorkist. Henry VI died in the Tower of London on or soon after 21 May 1471, possibly on Edward IV's orders.",
+        "es": "La Battlefields Trust sugiere unos 2000 muertos lancasterianos y quizá 500 yorkistas. Enrique VI murió en la Torre de Londres el 21 de mayo de 1471 o poco después, posiblemente por orden de Eduardo IV.",
+        "zh": "战场信托估计兰开斯特派约2000人死亡，约克派或有500人死亡。亨利六世于1471年5月21日或稍后死于伦敦塔，可能是奉爱德华四世之命被杀。"
+      },
+      "place": {
+        "name": {
+          "en": "Tewkesbury, Gloucestershire",
+          "es": "Tewkesbury, Gloucestershire",
+          "zh": "格洛斯特郡蒂克斯伯里"
+        },
+        "lat": 51.9864,
+        "lon": -2.1614
+      },
+      "wikidataId": "Q1337059"
+    },
+    {
+      "id": "henry-tudor-lands-at-mill-bay",
+      "start": 1485,
+      "title": {
+        "en": "Henry Tudor lands at Mill Bay in Pembrokeshire with English and Welsh exiles and about 1,800 French mercenaries supplied by the French crown, and gathers Welsh recruits on his march east",
+        "es": "Enrique Tudor desembarca en Mill Bay, en Pembrokeshire, con exiliados ingleses y galeses y unos 1800 mercenarios franceses proporcionados por la Corona francesa, y suma reclutas galeses en su marcha hacia el este",
+        "zh": "亨利·都铎率英格兰和威尔士流亡者以及法国王室提供的约1800名法国雇佣兵在彭布罗克郡米尔湾登陆，并在东进途中招募威尔士士兵"
+      },
+      "sources": [
+        {
+          "citation": "HistoryPoints. \"Dale: Henry Tudor's landing site.\"",
+          "url": "https://historypoints.org/index.php?page=henry-tudor-s-landing-site"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Bosworth Field.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Bosworth_Field"
+        },
+        {
+          "citation": "\"Wars of the Roses.\" EBSCO Research Starters: History.",
+          "url": "https://www.ebsco.com/research-starters/history/wars-roses"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Wars of the Roses.\" World History Encyclopedia, 24 February 2020.",
+          "url": "https://www.worldhistory.org/Wars_of_the_Roses/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Philibert de Chandée\" (commander of the French contingent, 1,800 men).",
+          "url": "https://en.wikipedia.org/wiki/Philibert_de_Chand%C3%A9e"
+        }
+      ],
+      "note": {
+        "en": "Most sources give 7 August 1485; World History Encyclopedia gives 8 August and names the landing place more broadly as Milford Haven. The historian J. D. Mackie puts the French contingent, led by Philibert de Chandée, at 1,800 men. Rhys ap Thomas, Richard III's leading officer in west Wales, joined Henry on the march.",
+        "es": "La mayoría de las fuentes dan el 7 de agosto de 1485; la World History Encyclopedia da el 8 de agosto y sitúa el desembarco, de forma más general, en Milford Haven. El historiador J. D. Mackie cifra el contingente francés, al mando de Philibert de Chandée, en 1800 hombres. Rhys ap Thomas, principal oficial de Ricardo III en el oeste de Gales, se unió a Enrique durante la marcha.",
+        "zh": "多数资料记为1485年8月7日；《世界历史百科》记为8月8日，并笼统地称登陆地点为米尔福德港。历史学家J. D. 麦基估计由菲利贝尔·德·尚代率领的法国部队为1800人。理查三世在西威尔士的主要官员里斯·阿普·托马斯在行军途中投向亨利。"
+      },
+      "place": {
+        "name": {
+          "en": "Mill Bay, near Dale, Pembrokeshire",
+          "es": "Mill Bay, cerca de Dale, Pembrokeshire",
+          "zh": "彭布罗克郡戴尔附近的米尔湾"
+        },
+        "lat": 51.6861,
+        "lon": -5.1685
+      }
+    },
+    {
+      "id": "battle-of-bosworth",
+      "start": 1485,
+      "title": {
+        "en": "Henry Tudor's army defeats Richard III near Bosworth in Leicestershire; Sir William Stanley's men join the fight on Henry's side and Richard is killed",
+        "es": "El ejército de Enrique Tudor derrota a Ricardo III cerca de Bosworth, en Leicestershire; los hombres de sir William Stanley entran en combate del lado de Enrique y Ricardo muere",
+        "zh": "亨利·都铎的军队在莱斯特郡博斯沃思附近击败理查三世；威廉·斯坦利爵士的部队加入亨利一方作战，理查被杀"
+      },
+      "sources": [
+        {
+          "citation": "The Battlefields Trust. \"Battle of Bosworth, 1485.\" Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=8"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Bosworth Field.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Bosworth_Field"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Wars of the Roses.\" World History Encyclopedia, 24 February 2020.",
+          "url": "https://www.worldhistory.org/Wars_of_the_Roses/"
+        }
+      ],
+      "note": {
+        "en": "Polydore Vergil, Henry VII's historian, wrote that 1,000 of Richard's men and 100 of Henry's died; the historian S. B. Chrimes thought that ratio exaggerated. The fighting was long placed on Ambion Hill; a Battlefields Trust survey placed it south-west of the hill, near Fenn Lanes, and the pin uses the Trust's grid reference.",
+        "es": "Polidoro Virgilio, historiador de Enrique VII, escribió que murieron 1000 hombres de Ricardo y 100 de Enrique; el historiador S. B. Chrimes consideró exagerada esa proporción. Durante mucho tiempo se situó el combate en Ambion Hill; un estudio de la Battlefields Trust lo localizó al suroeste de la colina, cerca de Fenn Lanes, y el marcador usa la referencia de cuadrícula de la Trust.",
+        "zh": "亨利七世的史官波利多尔·维吉尔写道，理查一方死亡1000人，亨利一方死亡100人；历史学家S. B. 克赖姆斯认为这一比例有所夸大。战场长期被认为在安比恩山；战场信托的调查将其定位于该山西南的芬恩小路附近，地图标记采用该信托给出的网格坐标。"
+      },
+      "place": {
+        "name": {
+          "en": "Bosworth Field, near Stoke Golding and Dadlington",
+          "es": "Campo de Bosworth, cerca de Stoke Golding y Dadlington",
+          "zh": "博斯沃思原野（斯托克戈尔丁与达德灵顿附近）"
+        },
+        "lat": 52.584,
+        "lon": -1.4186
+      },
+      "wikidataId": "Q222013"
+    },
+    {
+      "id": "battle-of-stoke-field",
+      "start": 1487,
+      "title": {
+        "en": "Henry VII's army, led by the Earl of Oxford, defeats the Earl of Lincoln's Yorkist rising near East Stoke; Lincoln and Martin Schwartz are killed and Lambert Simnel is captured",
+        "es": "El ejército de Enrique VII, dirigido por el conde de Oxford, derrota el levantamiento yorkista del conde de Lincoln cerca de East Stoke; Lincoln y Martin Schwartz mueren y Lambert Simnel es capturado",
+        "zh": "由牛津伯爵指挥的亨利七世军队在东斯托克附近击败林肯伯爵领导的约克派起事；林肯伯爵和马丁·施瓦茨被杀，兰伯特·西姆内尔被俘"
+      },
+      "sources": [
+        {
+          "citation": "The Battlefields Trust. \"Battle of Stoke Field, 1487.\" Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=42"
+        },
+        {
+          "citation": "The Battlefields Trust. \"Battle of Stoke Field: The armies & the losses.\" Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battlepageview.asp?pageid=434"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Stoke Field.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Stoke_Field"
+        },
+        {
+          "citation": "Cannon, J. A. \"Stoke, battle of.\" The Oxford Companion to British History. Oxford University Press, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/stoke-battle"
+        },
+        {
+          "citation": "Bale, Ethan. \"Stoke Field, 1487: The 'forgotten' battle of the Wars of the Roses.\" Historia (Historical Writers' Association), 11 September 2024.",
+          "url": "https://historiamag.com/stoke-field-1487-the-forgotten-battle/"
+        }
+      ],
+      "note": {
+        "en": "The Battlefields Trust gives up to 4,000 rebel dead and possibly as few as 100 on the royal side; heralds' tallies counted some 4,000 rebels killed.",
+        "es": "La Battlefields Trust da hasta 4000 muertos rebeldes y quizá solo 100 en el bando real; los recuentos de los heraldos cifraron en unos 4000 los rebeldes muertos.",
+        "zh": "战场信托给出叛军死亡至多4000人、王军一方或仅100人；传令官的统计称约4000名叛军被杀。"
+      },
+      "place": {
+        "name": {
+          "en": "East Stoke, Nottinghamshire",
+          "es": "East Stoke, Nottinghamshire",
+          "zh": "诺丁汉郡东斯托克"
+        },
+        "lat": 53.035,
+        "lon": -0.888
+      },
+      "wikidataId": "Q1495481"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Henry VI",
+        "es": "Enrique VI",
+        "zh": "亨利六世"
+      },
+      "side": "lancaster",
+      "role": {
+        "en": "King of England 1422–1461 and 1470–1471; died in the Tower of London in May 1471",
+        "es": "Rey de Inglaterra en 1422–1461 y 1470–1471; murió en la Torre de Londres en mayo de 1471",
+        "zh": "英格兰国王（1422年至1461年、1470年至1471年在位）；1471年5月死于伦敦塔"
+      },
+      "wikidataId": "Q160337"
+    },
+    {
+      "name": {
+        "en": "Margaret of Anjou",
+        "es": "Margarita de Anjou",
+        "zh": "安茹的玛格丽特"
+      },
+      "side": "lancaster",
+      "role": {
+        "en": "Henry VI's queen; led the Lancastrian cause until she was captured after Tewkesbury in 1471",
+        "es": "Reina de Enrique VI; dirigió la causa lancasteriana hasta su captura tras Tewkesbury en 1471",
+        "zh": "亨利六世的王后；领导兰开斯特派，直至1471年蒂克斯伯里之战后被俘"
+      },
+      "wikidataId": "Q231145"
+    },
+    {
+      "name": {
+        "en": "Edmund Beaufort, Duke of Somerset",
+        "es": "Edmundo Beaufort, duque de Somerset",
+        "zh": "第二代萨默塞特公爵埃德蒙·博福特"
+      },
+      "side": "lancaster",
+      "role": {
+        "en": "Led Henry VI's court party; killed at St Albans in 1455",
+        "es": "Dirigía el partido cortesano de Enrique VI; murió en St Albans en 1455",
+        "zh": "亨利六世宫廷派的首领；1455年在圣奥尔本斯被杀"
+      },
+      "wikidataId": "Q459947"
+    },
+    {
+      "name": {
+        "en": "Jasper Tudor",
+        "es": "Jasper Tudor",
+        "zh": "贾斯珀·都铎"
+      },
+      "side": "lancaster",
+      "role": {
+        "en": "Henry VI's half-brother and Henry Tudor's uncle; raised Lancastrian troops in Wales and was a commander at Stoke Field in 1487",
+        "es": "Medio hermano de Enrique VI y tío de Enrique Tudor; reclutó tropas lancasterianas en Gales y fue uno de los jefes en Stoke Field en 1487",
+        "zh": "亨利六世的同母异父弟、亨利·都铎的叔父；在威尔士为兰开斯特派招募军队，1487年为斯托克菲尔德战役的指挥官之一"
+      },
+      "wikidataId": "Q385679"
+    },
+    {
+      "name": {
+        "en": "Henry Tudor (Henry VII)",
+        "es": "Enrique Tudor (Enrique VII)",
+        "zh": "亨利·都铎（亨利七世）"
+      },
+      "side": "lancaster",
+      "role": {
+        "en": "Heir to the Lancastrian claim; won at Bosworth in 1485 and reigned as Henry VII until 1509",
+        "es": "Heredero de la pretensión lancasteriana; venció en Bosworth en 1485 y reinó como Enrique VII hasta 1509",
+        "zh": "兰开斯特王位继承权的继承人；1485年在博斯沃思获胜，以亨利七世之名在位至1509年"
+      },
+      "wikidataId": "Q675493"
+    },
+    {
+      "name": {
+        "en": "John de Vere, Earl of Oxford",
+        "es": "John de Vere, conde de Oxford",
+        "zh": "第十三代牛津伯爵约翰·德维尔"
+      },
+      "side": "lancaster",
+      "role": {
+        "en": "Fought for Henry VI at Barnet in 1471; commanded Henry Tudor's army at Bosworth and at Stoke Field",
+        "es": "Combatió por Enrique VI en Barnet en 1471; mandó el ejército de Enrique Tudor en Bosworth y en Stoke Field",
+        "zh": "1471年在巴内特为亨利六世作战；在博斯沃思和斯托克菲尔德指挥亨利·都铎的军队"
+      },
+      "wikidataId": "Q1332495"
+    },
+    {
+      "name": {
+        "en": "Rhys ap Thomas",
+        "es": "Rhys ap Thomas",
+        "zh": "里斯·阿普·托马斯"
+      },
+      "side": "lancaster",
+      "role": {
+        "en": "Leading figure in west Wales; Richard III's lieutenant there, he joined Henry Tudor in 1485",
+        "es": "Figura principal del oeste de Gales; lugarteniente de Ricardo III en la región, se unió a Enrique Tudor en 1485",
+        "zh": "西威尔士的首要人物；曾任理查三世在当地的副官，1485年投向亨利·都铎"
+      },
+      "wikidataId": "Q7321859"
+    },
+    {
+      "name": {
+        "en": "Richard, Duke of York",
+        "es": "Ricardo, duque de York",
+        "zh": "第三代约克公爵理查"
+      },
+      "side": "york",
+      "role": {
+        "en": "Led the Yorkist cause from 1455; claimed the throne in 1460 and was killed at Wakefield that December",
+        "es": "Dirigió la causa yorkista desde 1455; reclamó el trono en 1460 y murió en Wakefield en diciembre de ese año",
+        "zh": "自1455年起领导约克派；1460年要求王位，同年12月在韦克菲尔德战死"
+      },
+      "wikidataId": "Q312137"
+    },
+    {
+      "name": {
+        "en": "Edward IV",
+        "es": "Eduardo IV",
+        "zh": "爱德华四世"
+      },
+      "side": "york",
+      "role": {
+        "en": "Son of Richard of York; king 1461–1470 and 1471–1483; won at Towton, Barnet and Tewkesbury",
+        "es": "Hijo de Ricardo de York; rey en 1461–1470 y 1471–1483; venció en Towton, Barnet y Tewkesbury",
+        "zh": "约克公爵理查之子；1461年至1470年、1471年至1483年在位；赢得陶顿、巴内特和蒂克斯伯里之战"
+      },
+      "wikidataId": "Q160341"
+    },
+    {
+      "name": {
+        "en": "Richard Neville, Earl of Warwick",
+        "es": "Ricardo Neville, conde de Warwick",
+        "zh": "第十六代沃里克伯爵理查·内维尔"
+      },
+      "side": "york",
+      "role": {
+        "en": "Yorkist commander known as the Kingmaker; turned against Edward IV in 1469, allied with Margaret of Anjou in 1470 and was killed fighting for Henry VI at Barnet in 1471",
+        "es": "Jefe yorkista conocido como el Hacedor de Reyes; se volvió contra Eduardo IV en 1469, se alió con Margarita de Anjou en 1470 y murió combatiendo por Enrique VI en Barnet en 1471",
+        "zh": "人称“造王者”的约克派将领；1469年反对爱德华四世，1470年与安茹的玛格丽特结盟，1471年在巴内特为亨利六世作战时被杀"
+      },
+      "wikidataId": "Q437571"
+    },
+    {
+      "name": {
+        "en": "George, Duke of Clarence",
+        "es": "Jorge, duque de Clarence",
+        "zh": "第一代克拉伦斯公爵乔治"
+      },
+      "side": "york",
+      "role": {
+        "en": "Edward IV's brother; joined Warwick against Edward in 1469–1470 and went back to Edward in 1471",
+        "es": "Hermano de Eduardo IV; se unió a Warwick contra Eduardo en 1469–1470 y volvió al lado de Eduardo en 1471",
+        "zh": "爱德华四世的弟弟；1469年至1470年随沃里克反对爱德华，1471年重归爱德华一方"
+      },
+      "wikidataId": "Q356173"
+    },
+    {
+      "name": {
+        "en": "William Herbert, Earl of Pembroke",
+        "es": "William Herbert, conde de Pembroke",
+        "zh": "第一代彭布罗克伯爵威廉·赫伯特"
+      },
+      "side": "york",
+      "role": {
+        "en": "Yorkist commander in Wales; his army took Harlech Castle in 1468",
+        "es": "Jefe yorkista en Gales; su ejército tomó el castillo de Harlech en 1468",
+        "zh": "约克派在威尔士的将领；其军队于1468年攻取哈莱克城堡"
+      },
+      "wikidataId": "Q1261083"
+    },
+    {
+      "name": {
+        "en": "Richard III",
+        "es": "Ricardo III",
+        "zh": "理查三世"
+      },
+      "side": "york",
+      "role": {
+        "en": "Edward IV's brother; king from 1483; killed at Bosworth in 1485",
+        "es": "Hermano de Eduardo IV; rey desde 1483; murió en Bosworth en 1485",
+        "zh": "爱德华四世的弟弟；1483年起在位；1485年在博斯沃思被杀"
+      },
+      "wikidataId": "Q133028"
+    },
+    {
+      "name": {
+        "en": "John de la Pole, Earl of Lincoln",
+        "es": "Juan de la Pole, conde de Lincoln",
+        "zh": "第一代林肯伯爵约翰·德拉波尔"
+      },
+      "side": "york",
+      "role": {
+        "en": "Richard III's nephew; led the Yorkist rising of 1487 and was killed at Stoke Field",
+        "es": "Sobrino de Ricardo III; encabezó el levantamiento yorkista de 1487 y murió en Stoke Field",
+        "zh": "理查三世的外甥；领导1487年约克派起事，在斯托克菲尔德战死"
+      },
+      "wikidataId": "Q957773"
+    }
+  ],
+  "casualties": [],
+  "cultures": [],
+  "sources": [
+    {
+      "citation": "Cartwright, Mark. \"Wars of the Roses.\" World History Encyclopedia, 24 February 2020.",
+      "url": "https://www.worldhistory.org/Wars_of_the_Roses/"
+    },
+    {
+      "citation": "Pollard, A. J. \"Roses, Wars of the.\" The Oxford Companion to British History, ed. John Cannon. Oxford University Press, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/roses-wars"
+    },
+    {
+      "citation": "\"Roses, Wars of the.\" World Encyclopedia. Oxford University Press, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/roses-wars"
+    },
+    {
+      "citation": "\"Wars of the Roses.\" EBSCO Research Starters: History.",
+      "url": "https://www.ebsco.com/research-starters/history/wars-roses"
+    },
+    {
+      "citation": "\"Margaret of Anjou.\" Encyclopedia of World Biography. Gale, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/margaret-anjou-0"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Henry VII of England.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Henry_VII_of_England/"
+    },
+    {
+      "citation": "The Battlefields Trust. \"Battle of Towton, 1461.\" Battlefields Hub.",
+      "url": "https://www.battlefieldstrust.com/resource-centre/warsoftheroses/battleview.asp?BattleFieldId=46"
+    },
+    {
+      "citation": "Wikipedia (English). \"Wars of the Roses.\"",
+      "url": "https://en.wikipedia.org/wiki/Wars_of_the_Roses"
+    },
+    {
+      "citation": "Wikipedia (español). \"Guerra de las Dos Rosas.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerra_de_las_Dos_Rosas"
+    },
+    {
+      "citation": "Wikipedia (中文). \"玫瑰战争.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/%E7%8E%AB%E7%91%B0%E6%88%98%E4%BA%89"
+    },
+    {
+      "citation": "Wikidata. \"Wars of the Roses\" (Q127751), start and end time.",
+      "url": "https://www.wikidata.org/wiki/Q127751"
+    }
+  ]
+}

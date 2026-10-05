@@ -1,0 +1,627 @@
+{
+  "id": "norman-conquest-of-england",
+  "wikidataId": "Q200485",
+  "name": {
+    "en": "Norman Conquest",
+    "es": "Conquista normanda de Inglaterra",
+    "zh": "诺曼征服英格兰"
+  },
+  "aliases": [
+    "Norman conquest of England",
+    "The Conquest",
+    "1066",
+    "Battle of Hastings",
+    "Hastings",
+    "William the Conqueror",
+    "Harrying of the North",
+    "Hereward",
+    "Conquista normanda",
+    "Batalla de Hastings",
+    "Guillermo el Conquistador",
+    "诺曼征服",
+    "黑斯廷斯战役",
+    "征服者威廉"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "In January 1066 Edward the Confessor died without children and Harold Godwinson was crowned king of England. William, Duke of Normandy, claimed the throne for himself. Harold first defeated a Norwegian army under Harald Hardrada at Stamford Bridge on 25 September; three days later William's army of Normans, Bretons, Flemings and other French landed at Pevensey in Sussex. On 14 October it defeated Harold's army near Hastings, and Harold was killed. William was crowned in Westminster Abbey on Christmas Day. Risings followed for five years. Exeter held out for 18 days in 1068. In 1069 English rebels and a Danish fleet took York, while Eadric the Wild and his Welsh allies attacked Shrewsbury; William's troops then laid waste to much of northern England through the winter. The rebels on the Isle of Ely surrendered in 1071, and in 1072 Malcolm III of Scotland, who had sheltered English exiles and raided Northumbria in 1070, made peace with William at Abernethy. Norman and other French lords took over most English estates and high offices.",
+    "es": "En enero de 1066 murió sin hijos Eduardo el Confesor y Haroldo Godwinson fue coronado rey de Inglaterra. Guillermo, duque de Normandía, reclamó el trono para sí. Haroldo derrotó primero a un ejército noruego al mando de Harald Hardrada en Stamford Bridge el 25 de septiembre; tres días después, el ejército de Guillermo, formado por normandos, bretones, flamencos y otros franceses, desembarcó en Pevensey, en Sussex. El 14 de octubre venció al ejército de Haroldo cerca de Hastings, y Haroldo murió en la batalla. Guillermo fue coronado en la abadía de Westminster el día de Navidad. Siguieron cinco años de levantamientos. Exeter resistió 18 días en 1068. En 1069, rebeldes ingleses y una flota danesa tomaron York, mientras Edric el Salvaje y sus aliados galeses atacaban Shrewsbury; las tropas de Guillermo arrasaron después gran parte del norte de Inglaterra durante el invierno. Los rebeldes de la isla de Ely se rindieron en 1071, y en 1072 Malcolm III de Escocia, que había acogido a exiliados ingleses y hecho incursiones en Northumbria en 1070, hizo la paz con Guillermo en Abernethy. Señores normandos y de otras regiones de Francia se quedaron con la mayoría de las tierras y los altos cargos de Inglaterra.",
+    "zh": "1066年1月，忏悔者爱德华去世，身后无子，哈罗德·戈德温森加冕为英格兰国王。诺曼底公爵威廉则声称王位应归自己。9月25日，哈罗德先在斯坦福桥击败哈拉尔·哈德拉达率领的挪威军队；三天后，由诺曼人、布列塔尼人、佛兰德人和其他法兰西人组成的威廉大军在萨塞克斯的佩文西登陆。10月14日，威廉的军队在黑斯廷斯附近击败哈罗德的军队，哈罗德战死。圣诞节当天，威廉在威斯敏斯特教堂加冕。此后五年间起事不断：1068年埃克塞特坚守了18天；1069年英格兰起事者与丹麦舰队攻占约克，“野人”埃德里克及其威尔士盟友则进攻什鲁斯伯里；随后威廉的军队在整个冬季使英格兰北部的大片地区沦为荒地。1071年伊利岛上的起事者投降；1072年，曾收留英格兰流亡者并于1070年劫掠诺森布里亚的苏格兰国王马尔科姆三世在阿伯内西与威廉议和。诺曼及其他法兰西领主接管了英格兰的大部分领地和高级职位。"
+  },
+  "outcome": {
+    "en": "William of Normandy became king of England in 1066, and open English resistance had ended by 1071–1072; Norman and other French lords replaced most of the English nobility.",
+    "es": "Guillermo de Normandía se convirtió en rey de Inglaterra en 1066, y la resistencia inglesa abierta había terminado hacia 1071–1072; señores normandos y de otras regiones de Francia sustituyeron a la mayor parte de la nobleza inglesa.",
+    "zh": "诺曼底的威廉于1066年成为英格兰国王，至1071年至1072年间英格兰人的公开抵抗已告结束；诺曼及其他法兰西领主取代了大部分英格兰贵族。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "conquest",
+    "earliestStart": 1066,
+    "latestStart": 1066,
+    "earliestEnd": 1071,
+    "latestEnd": 1075,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Norman Conquest.\"",
+        "url": "https://en.wikipedia.org/wiki/Norman_Conquest"
+      },
+      {
+        "citation": "Cartwright, Mark. \"Norman Conquest of England.\" World History Encyclopedia.",
+        "url": "https://www.worldhistory.org/Norman_Conquest_of_England/"
+      },
+      {
+        "citation": "Wikidata. \"Norman conquest of England\" (Q200485), start time 28 September 1066, end time 1075.",
+        "url": "https://www.wikidata.org/wiki/Q200485"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "Sources end the conquest at different points: the fall of Ely in 1071, which ended open English resistance; the peace with Malcolm III at Abernethy in 1072, after which William was secure on the throne; or the Revolt of the Earls in 1075, where Wikidata ends it.",
+      "es": "Las fuentes dan por terminada la conquista en distintos momentos: la caída de Ely en 1071, que puso fin a la resistencia inglesa abierta; la paz con Malcolm III en Abernethy en 1072, tras la cual Guillermo quedó seguro en el trono; o la rebelión de los condes de 1075, donde la termina Wikidata.",
+      "zh": "各方对征服结束时间的说法不一：1071年伊利陷落，英格兰人的公开抵抗随之结束；1072年威廉与马尔科姆三世在阿伯内西议和，此后他的王位才稳固；Wikidata则将终点定在1075年的伯爵叛乱。"
+    }
+  },
+  "sides": [
+    {
+      "id": "normandy",
+      "label": {
+        "en": "William of Normandy and his allies",
+        "es": "Guillermo de Normandía y sus aliados",
+        "zh": "诺曼底的威廉及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Duchy of Normandy",
+            "es": "Ducado de Normandía",
+            "zh": "诺曼底公国"
+          },
+          "role": "belligerent",
+          "today": ["FR"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Breton contingent",
+            "es": "Contingente bretón",
+            "zh": "布列塔尼部队"
+          },
+          "role": "belligerent",
+          "today": ["FR"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Flemish contingent",
+            "es": "Contingente flamenco",
+            "zh": "佛兰德部队"
+          },
+          "role": "belligerent",
+          "today": ["BE", "FR"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Contingents from other parts of France",
+            "es": "Contingentes de otras regiones de Francia",
+            "zh": "来自法兰西其他地区的部队"
+          },
+          "role": "belligerent",
+          "today": ["FR"]
+        }
+      ]
+    },
+    {
+      "id": "england",
+      "label": {
+        "en": "The English and those who rose with them",
+        "es": "Los ingleses y quienes se alzaron con ellos",
+        "zh": "英格兰人及与其一同起事者"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "anglo-saxon-england",
+          "role": "belligerent",
+          "today": ["GB-ENG"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "English rebels, 1067–1071",
+            "es": "Rebeldes ingleses, 1067–1071",
+            "zh": "英格兰起事者（1067—1071年）"
+          },
+          "role": "belligerent",
+          "today": ["GB-ENG"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Welsh allies of the rebels, among them Bleddyn ap Cynfyn and Rhiwallon, rulers of Gwynedd and Powys",
+            "es": "Aliados galeses de los rebeldes, entre ellos Bleddyn ap Cynfyn y Rhiwallon, gobernantes de Gwynedd y Powys",
+            "zh": "起事者的威尔士盟友，包括格温内斯和波伊斯的统治者布莱赞·阿普·金温与里瓦隆"
+          },
+          "role": "belligerent",
+          "today": ["GB-WLS"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Danish fleet sent by Sweyn II of Denmark (1069–1070)",
+            "es": "Flota danesa enviada por Svend II de Dinamarca (1069–1070)",
+            "zh": "丹麦国王斯文二世派出的舰队（1069—1070年）"
+          },
+          "role": "belligerent",
+          "today": ["DK"]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Scotland under Malcolm III, which sheltered Edgar Ætheling and raided Northumbria in 1070",
+            "es": "Reino de Escocia bajo Malcolm III, que acogió a Edgar Atheling e hizo incursiones en Northumbria en 1070",
+            "zh": "马尔科姆三世治下的苏格兰王国（收留显贵者埃德加，并于1070年劫掠诺森布里亚）"
+          },
+          "role": "belligerent",
+          "today": ["GB-SCT"]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "landing-at-pevensey",
+      "start": 1066,
+      "title": {
+        "en": "William's army crosses the Channel and lands at Pevensey on the Sussex coast",
+        "es": "El ejército de Guillermo cruza el canal de la Mancha y desembarca en Pevensey, en la costa de Sussex",
+        "zh": "威廉的军队渡过英吉利海峡，在萨塞克斯海岸的佩文西登陆"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Battle of Hastings.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Battle_of_Hastings/"
+        },
+        {
+          "citation": "English Heritage. \"History of Battle Abbey and Battlefield.\"",
+          "url": "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/history/"
+        },
+        {
+          "citation": "Bayeux Museum. \"The Battle of Hastings.\"",
+          "url": "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/the_battle_of_hastings/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Norman Conquest.\"",
+          "url": "https://en.wikipedia.org/wiki/Norman_Conquest"
+        }
+      ],
+      "note": {
+        "en": "The landing was on 28 September 1066, three days after Harold's victory over the Norwegians at Stamford Bridge.",
+        "es": "El desembarco fue el 28 de septiembre de 1066, tres días después de la victoria de Haroldo sobre los noruegos en Stamford Bridge.",
+        "zh": "登陆发生在1066年9月28日，即哈罗德在斯坦福桥战胜挪威人三天之后。"
+      },
+      "place": {
+        "name": {
+          "en": "Pevensey",
+          "es": "Pevensey",
+          "zh": "佩文西"
+        },
+        "lat": 50.8192,
+        "lon": 0.3331
+      }
+    },
+    {
+      "culture": "anglo-saxon-england",
+      "event": "battle-of-hastings"
+    },
+    {
+      "id": "coronation-of-william",
+      "start": 1066,
+      "title": {
+        "en": "Ealdred, Archbishop of York, crowns William king of England in Westminster Abbey on Christmas Day",
+        "es": "Ealdred, arzobispo de York, corona a Guillermo rey de Inglaterra en la abadía de Westminster el día de Navidad",
+        "zh": "约克大主教埃尔德雷德于圣诞节在威斯敏斯特教堂为威廉加冕，立其为英格兰国王"
+      },
+      "sources": [
+        {
+          "citation": "The Anglo-Saxon Chronicle, entries for 1066, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang11.asp"
+        },
+        {
+          "citation": "Bayeux Museum. \"The Battle of Hastings.\"",
+          "url": "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/the_battle_of_hastings/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Norman Conquest.\"",
+          "url": "https://en.wikipedia.org/wiki/Norman_Conquest"
+        }
+      ],
+      "note": {
+        "en": "Before the coronation the surviving English leaders, among them Edgar Ætheling and Earls Edwin and Morcar, submitted to William at Berkhamsted.",
+        "es": "Antes de la coronación, los dirigentes ingleses supervivientes, entre ellos Edgar Atheling y los condes Edwin y Morcar, se sometieron a Guillermo en Berkhamsted.",
+        "zh": "加冕之前，幸存的英格兰领袖，包括显贵者埃德加以及埃德文伯爵和莫尔卡伯爵，已在伯克姆斯特德向威廉臣服。"
+      },
+      "place": {
+        "name": {
+          "en": "Westminster Abbey",
+          "es": "Abadía de Westminster",
+          "zh": "威斯敏斯特教堂"
+        },
+        "lat": 51.4994,
+        "lon": -0.1274
+      }
+    },
+    {
+      "id": "siege-of-exeter",
+      "start": 1068,
+      "title": {
+        "en": "William besieges the rebel city of Exeter for 18 days until its citizens surrender",
+        "es": "Guillermo asedia durante 18 días la ciudad rebelde de Exeter hasta que sus habitantes se rinden",
+        "zh": "威廉围攻反叛的埃克塞特城18天，直至城中居民投降"
+      },
+      "sources": [
+        {
+          "citation": "The Anglo-Saxon Chronicle, entry for 1067, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang11.asp"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Norman Conquest of England.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Norman_Conquest_of_England/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Exeter (1068).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Exeter_(1068)"
+        }
+      ],
+      "note": {
+        "en": "The Anglo-Saxon Chronicle enters the siege under 1067; World History Encyclopedia and Wikipedia date it to 1068. The Chronicle says many of William's men were killed.",
+        "es": "La Crónica anglosajona registra el asedio en 1067; World History Encyclopedia y Wikipedia lo fechan en 1068. Según la Crónica, murieron muchos hombres del ejército de Guillermo.",
+        "zh": "《盎格鲁-撒克逊编年史》将此次围城记在1067年；《世界历史百科》和维基百科则定在1068年。据编年史记载，威廉的军队有许多人阵亡。"
+      },
+      "place": {
+        "name": {
+          "en": "Exeter",
+          "es": "Exeter",
+          "zh": "埃克塞特"
+        },
+        "lat": 50.7256,
+        "lon": -3.5269
+      },
+      "wikidataId": "Q7509995"
+    },
+    {
+      "id": "harrying-of-the-north",
+      "start": 1069,
+      "end": 1070,
+      "title": {
+        "en": "After English rebels and a Danish fleet take York's castles, William returns north and his troops lay waste to the land through the winter, destroying crops, livestock and farm tools",
+        "es": "Después de que rebeldes ingleses y una flota danesa tomen los castillos de York, Guillermo vuelve al norte y sus tropas arrasan la región durante el invierno, destruyendo cosechas, ganado y aperos",
+        "zh": "英格兰起事者与丹麦舰队攻占约克的城堡后，威廉挥师北上，其军队在整个冬季使当地沦为荒地，毁坏庄稼、牲畜和农具"
+      },
+      "sources": [
+        {
+          "citation": "The Anglo-Saxon Chronicle, entry for 1069, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang11.asp"
+        },
+        {
+          "citation": "Cartwright, Mark. \"William the Conqueror's Harrying of the North.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/article/1319/william-the-conquerors-harrying-of-the-north/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Harrying of the North.\"",
+          "url": "https://en.wikipedia.org/wiki/Harrying_of_the_North"
+        },
+        {
+          "citation": "Wikipedia (English). \"Norman Conquest.\"",
+          "url": "https://en.wikipedia.org/wiki/Norman_Conquest"
+        }
+      ],
+      "note": {
+        "en": "York's castles fell to the rebels and the Danes in September 1069, and William spent Christmas 1069 in York. Orderic Vitalis, an early 12th-century monk, says more than 100,000 people died in the famine that followed; historians disagree on how far to trust the figure. Domesday Book still recorded much of Yorkshire as waste in 1086.",
+        "es": "Los castillos de York cayeron en manos de los rebeldes y los daneses en septiembre de 1069, y Guillermo pasó la Navidad de 1069 en York. Orderico Vital, monje de principios del siglo XII, afirma que más de 100.000 personas murieron en la hambruna posterior; los historiadores discrepan sobre cuánto fiarse de la cifra. En 1086, el Domesday Book aún registraba gran parte de Yorkshire como tierra yerma.",
+        "zh": "1069年9月，约克的城堡落入起事者和丹麦人之手，威廉于1069年圣诞节驻跸约克。12世纪初的修士奥德里克·维塔利斯称，随后的饥荒造成逾10万人死亡；对于这一数字可信到什么程度，史学家看法不一。到1086年，《末日审判书》仍将约克郡的大片土地记为荒地。"
+      },
+      "place": {
+        "name": {
+          "en": "York",
+          "es": "York",
+          "zh": "约克"
+        },
+        "lat": 53.95,
+        "lon": -1.0833
+      },
+      "wikidataId": "Q1703402"
+    },
+    {
+      "id": "fall-of-ely",
+      "start": 1071,
+      "title": {
+        "en": "William's army and fleet surround the Isle of Ely and cross to it by a bridge; Earl Morcar and the rebels surrender, while Hereward leads his men away",
+        "es": "El ejército y la flota de Guillermo rodean la isla de Ely y llegan a ella por un puente; el conde Morcar y los rebeldes se rinden, mientras Hereward se retira con sus hombres",
+        "zh": "威廉的陆军和舰队包围伊利岛，并架桥登岛；莫尔卡伯爵和起事者投降，赫里沃德则率部众离去"
+      },
+      "sources": [
+        {
+          "citation": "The Anglo-Saxon Chronicle, entry for 1071, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang11.asp"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Norman Conquest of England.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Norman_Conquest_of_England/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Ely Rebellion.\"",
+          "url": "https://en.wikipedia.org/wiki/Ely_Rebellion"
+        }
+      ],
+      "note": {
+        "en": "Wikipedia and World History Encyclopedia treat this as the end of open English resistance. Later accounts disagree over how the Normans reached the island and over what became of Hereward.",
+        "es": "Wikipedia y World History Encyclopedia lo consideran el fin de la resistencia inglesa abierta. Los relatos posteriores discrepan sobre cómo llegaron los normandos a la isla y sobre el destino de Hereward.",
+        "zh": "维基百科和《世界历史百科》视此为英格兰人公开抵抗的终结。后世记载对诺曼人如何登岛以及赫里沃德的下落说法不一。"
+      },
+      "place": {
+        "name": {
+          "en": "Ely",
+          "es": "Ely",
+          "zh": "伊利"
+        },
+        "lat": 52.3981,
+        "lon": 0.2622
+      }
+    },
+    {
+      "id": "peace-of-abernethy",
+      "start": 1072,
+      "title": {
+        "en": "William leads an army and a fleet into Scotland; at Abernethy Malcolm III makes peace, gives hostages and becomes William's man",
+        "es": "Guillermo entra en Escocia con un ejército y una flota; en Abernethy, Malcolm III hace la paz, entrega rehenes y se declara vasallo de Guillermo",
+        "zh": "威廉率陆军和舰队进入苏格兰；马尔科姆三世在阿伯内西与其议和，交出人质，并成为威廉的封臣"
+      },
+      "sources": [
+        {
+          "citation": "The Anglo-Saxon Chronicle, entry for 1072, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang11.asp"
+        },
+        {
+          "citation": "Mackay, Aeneas James George. \"Malcolm III.\" Dictionary of National Biography, 1885–1900, vol. 35, via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Malcolm_III"
+        },
+        {
+          "citation": "Wikipedia (English). \"Treaty of Abernethy.\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Abernethy"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Norman Conquest of England.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Norman_Conquest_of_England/"
+        }
+      ],
+      "note": {
+        "en": "In 1070, while the English rebels and the Danes were in the field, Malcolm had ravaged Teesdale and Cleveland as far as Wearmouth. Under the peace Edgar Ætheling had to leave Scotland. No text of the agreement survives, and what it meant for Scotland itself is disputed.",
+        "es": "En 1070, mientras los rebeldes ingleses y los daneses estaban en campaña, Malcolm había asolado Teesdale y Cleveland hasta Wearmouth. Por esta paz, Edgar Atheling tuvo que abandonar Escocia. No se conserva el texto del acuerdo, y su alcance para la propia Escocia es discutido.",
+        "zh": "1070年，趁英格兰起事者和丹麦人仍在作战之际，马尔科姆曾蹂躏蒂斯代尔和克利夫兰，直至威尔茅斯。根据和约，显贵者埃德加被迫离开苏格兰。协议文本没有留存下来，其对苏格兰本身意味着什么也存在争议。"
+      },
+      "place": {
+        "name": {
+          "en": "Abernethy",
+          "es": "Abernethy",
+          "zh": "阿伯内西"
+        },
+        "lat": 56.3265,
+        "lon": -3.3109
+      },
+      "wikidataId": "Q17022407"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "William the Conqueror",
+        "es": "Guillermo el Conquistador",
+        "zh": "征服者威廉"
+      },
+      "side": "normandy",
+      "role": {
+        "en": "Duke of Normandy; crowned king of England on 25 December 1066",
+        "es": "Duque de Normandía; coronado rey de Inglaterra el 25 de diciembre de 1066",
+        "zh": "诺曼底公爵；1066年12月25日加冕为英格兰国王"
+      },
+      "wikidataId": "Q37594"
+    },
+    {
+      "name": {
+        "en": "Odo of Bayeux",
+        "es": "Odón de Bayeux",
+        "zh": "巴约的厄德"
+      },
+      "side": "normandy",
+      "role": {
+        "en": "William's half-brother and bishop of Bayeux; ran England with William fitzOsbern while William was in Normandy in 1067",
+        "es": "Medio hermano de Guillermo y obispo de Bayeux; gobernó Inglaterra con Guillermo FitzOsbern mientras Guillermo estaba en Normandía en 1067",
+        "zh": "威廉的同母异父弟、巴约主教；1067年威廉返回诺曼底期间与威廉·菲茨奥斯本共同治理英格兰"
+      },
+      "wikidataId": "Q49961"
+    },
+    {
+      "name": {
+        "en": "William fitzOsbern",
+        "es": "Guillermo FitzOsbern",
+        "zh": "威廉·菲茨奥斯本"
+      },
+      "side": "normandy",
+      "role": {
+        "en": "Commanded the right wing at Hastings; ran England with Odo in 1067",
+        "es": "Mandó el ala derecha en Hastings; gobernó Inglaterra con Odón en 1067",
+        "zh": "在黑斯廷斯指挥右翼；1067年与厄德共同治理英格兰"
+      },
+      "wikidataId": "Q1244579"
+    },
+    {
+      "name": {
+        "en": "Harold Godwinson",
+        "es": "Haroldo II de Inglaterra",
+        "zh": "哈罗德·戈德温森"
+      },
+      "side": "england",
+      "role": {
+        "en": "King of England from January 1066; killed at Hastings",
+        "es": "Rey de Inglaterra desde enero de 1066; murió en Hastings",
+        "zh": "1066年1月起任英格兰国王；在黑斯廷斯战死"
+      },
+      "wikidataId": "Q159597"
+    },
+    {
+      "name": {
+        "en": "Edgar Ætheling",
+        "es": "Edgar Atheling",
+        "zh": "显贵者埃德加"
+      },
+      "side": "england",
+      "role": {
+        "en": "Great-nephew of Edward the Confessor; chosen king after Hastings, he later joined the northern risings of 1068–1069",
+        "es": "Sobrino nieto de Eduardo el Confesor; elegido rey tras Hastings, se unió después a los levantamientos del norte de 1068–1069",
+        "zh": "忏悔者爱德华的侄孙；黑斯廷斯战役后被推举为王，后来参加了1068年至1069年的北方起事"
+      },
+      "wikidataId": "Q215224"
+    },
+    {
+      "name": {
+        "en": "Edwin, Earl of Mercia",
+        "es": "Edwin de Mercia",
+        "zh": "麦西亚伯爵埃德文"
+      },
+      "side": "england",
+      "role": {
+        "en": "Rose against William in 1068 and again in 1071, when his own men killed him",
+        "es": "Se alzó contra Guillermo en 1068 y de nuevo en 1071, cuando lo mataron sus propios hombres",
+        "zh": "1068年起兵反抗威廉，1071年再次起事，同年被自己的部下杀死"
+      },
+      "wikidataId": "Q1249648"
+    },
+    {
+      "name": {
+        "en": "Morcar",
+        "es": "Morcar",
+        "zh": "诺森布里亚的莫尔卡"
+      },
+      "side": "england",
+      "role": {
+        "en": "Edwin's brother and former earl of Northumbria; rose with him in 1068 and surrendered at Ely in 1071",
+        "es": "Hermano de Edwin y antiguo conde de Northumbria; se alzó con él en 1068 y se rindió en Ely en 1071",
+        "zh": "埃德文之弟、前诺森布里亚伯爵；1068年与其兄一同起事，1071年在伊利投降"
+      },
+      "wikidataId": "Q971752"
+    },
+    {
+      "name": {
+        "en": "Hereward",
+        "es": "Hereward el Proscrito",
+        "zh": "警觉的赫里沃德"
+      },
+      "side": "england",
+      "role": {
+        "en": "Led the Fenland rebels on the Isle of Ely, 1070–1071",
+        "es": "Dirigió a los rebeldes de los Fens en la isla de Ely, 1070–1071",
+        "zh": "1070年至1071年间在伊利岛率领沼泽地区的起事者"
+      },
+      "wikidataId": "Q37591"
+    },
+    {
+      "name": {
+        "en": "Eadric the Wild",
+        "es": "Edric el Salvaje",
+        "zh": "“野人”埃德里克"
+      },
+      "side": "england",
+      "role": {
+        "en": "Shropshire landowner who, with Welsh allies, attacked the Normans at Hereford in 1067 and Shrewsbury in 1069",
+        "es": "Terrateniente de Shropshire que, con aliados galeses, atacó a los normandos en Hereford en 1067 y en Shrewsbury en 1069",
+        "zh": "什罗普郡的地主，与威尔士盟友一起于1067年在赫里福德、1069年在什鲁斯伯里进攻诺曼人"
+      },
+      "wikidataId": "Q3443450"
+    },
+    {
+      "name": {
+        "en": "Bleddyn ap Cynfyn",
+        "es": "Bleddyn ap Cynfyn",
+        "zh": "布莱赞·阿普·金温"
+      },
+      "side": "england",
+      "role": {
+        "en": "Ruler of Gwynedd and Powys; raided Herefordshire with Eadric in 1067 and aided Edwin and Morcar in 1068",
+        "es": "Gobernante de Gwynedd y Powys; hizo incursiones en Herefordshire con Edric en 1067 y ayudó a Edwin y Morcar en 1068",
+        "zh": "格温内斯和波伊斯的统治者；1067年与埃德里克一同劫掠赫里福德郡，1068年援助埃德文和莫尔卡"
+      },
+      "wikidataId": "Q545850"
+    },
+    {
+      "name": {
+        "en": "Sweyn II of Denmark",
+        "es": "Svend II de Dinamarca",
+        "zh": "斯文二世"
+      },
+      "side": "england",
+      "role": {
+        "en": "King of Denmark; sent the fleet that joined the 1069 rising and came to England in person in 1070",
+        "es": "Rey de Dinamarca; envió la flota que se unió al levantamiento de 1069 y fue en persona a Inglaterra en 1070",
+        "zh": "丹麦国王；派出参与1069年起事的舰队，并于1070年亲临英格兰"
+      },
+      "wikidataId": "Q246812"
+    },
+    {
+      "name": {
+        "en": "Malcolm III of Scotland",
+        "es": "Malcolm III de Escocia",
+        "zh": "马尔科姆三世"
+      },
+      "side": "england",
+      "role": {
+        "en": "King of Scots; sheltered Edgar Ætheling, raided Northumbria in 1070 and made peace with William at Abernethy in 1072",
+        "es": "Rey de los escoceses; acogió a Edgar Atheling, hizo incursiones en Northumbria en 1070 e hizo la paz con Guillermo en Abernethy en 1072",
+        "zh": "苏格兰国王；收留显贵者埃德加，1070年劫掠诺森布里亚，1072年在阿伯内西与威廉议和"
+      },
+      "wikidataId": "Q68508"
+    }
+  ],
+  "casualties": [],
+  "cultures": ["anglo-saxon-england"],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Norman Conquest.\"",
+      "url": "https://en.wikipedia.org/wiki/Norman_Conquest"
+    },
+    {
+      "citation": "Cartwright, Mark. \"Norman Conquest of England.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Norman_Conquest_of_England/"
+    },
+    {
+      "citation": "The Anglo-Saxon Chronicle, entries for 1066–1072, trans. James Ingram, via the Avalon Project, Yale Law School.",
+      "url": "https://avalon.law.yale.edu/medieval/ang11.asp"
+    },
+    {
+      "citation": "Cannon, John (ed.). \"Norman Conquest.\" The Oxford Companion to British History, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/norman-conquest"
+    },
+    {
+      "citation": "English Heritage. \"History of Battle Abbey and Battlefield.\"",
+      "url": "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/history/"
+    },
+    {
+      "citation": "Bayeux Museum. \"The Battle of Hastings.\"",
+      "url": "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/the_battle_of_hastings/"
+    },
+    {
+      "citation": "Lloyd, John Edward. \"Bleddyn ap Cynfyn (died 1075), prince.\" Dictionary of Welsh Biography (1959).",
+      "url": "https://biography.wales/article/s-BLED-APC-1025.html"
+    },
+    {
+      "citation": "Wikidata. \"Norman conquest of England\" (Q200485).",
+      "url": "https://www.wikidata.org/wiki/Q200485"
+    }
+  ]
+}

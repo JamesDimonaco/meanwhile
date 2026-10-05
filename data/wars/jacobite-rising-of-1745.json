@@ -1,0 +1,540 @@
+{
+  "id": "jacobite-rising-of-1745",
+  "wikidataId": "Q1049945",
+  "name": {
+    "en": "Jacobite rising of 1745",
+    "es": "Rebelión jacobita de 1745",
+    "zh": "1745年詹姆斯党叛乱"
+  },
+  "aliases": [
+    "The Forty-five",
+    "The '45",
+    "Forty-five Rebellion",
+    "Jacobite Rebellion of 1745",
+    "Levantamiento jacobita de 1745",
+    "詹姆斯党起事",
+    "Bonnie Prince Charlie",
+    "Young Pretender",
+    "Charles Edward Stuart",
+    "Carlos Eduardo Estuardo",
+    "查尔斯·爱德华·斯图亚特",
+    "英俊王子查理",
+    "小王位觊觎者",
+    "Culloden",
+    "卡洛登"
+  ],
+  "altNames": [
+    {
+      "text": "Bliadhna Theàrlaich",
+      "lang": "gd",
+      "usedBy": {
+        "en": "Scottish Gaelic",
+        "es": "El gaélico escocés",
+        "zh": "苏格兰盖尔语"
+      },
+      "gloss": {
+        "en": "The Year of Charles",
+        "es": "El año de Carlos",
+        "zh": "查尔斯之年"
+      }
+    }
+  ],
+  "description": {
+    "en": "In July 1745 Charles Edward Stuart, grandson of the deposed James II and VII, landed in the Hebrides from a French ship to claim the British throne for his father. He raised his standard at Glenfinnan on 19 August, and Highland clans, chiefly Camerons and MacDonalds, joined him. In September his army entered Edinburgh unopposed, though the castle held out, and routed Sir John Cope's government army at Prestonpans. In November it crossed into England and took Carlisle. It reached Derby on 4 December, but few English recruits had joined beyond the Manchester Regiment, the hoped-for French landing had not come, and the council voted to turn back. In Scotland, reinforced by Scots and Irish troops of the French army, the Jacobites won at Falkirk Muir in January 1746. On 16 April the Duke of Cumberland's army, which included Scottish regiments and Highland militia, defeated them at Culloden. In the following months government troops killed wounded and fleeing Jacobites, executed prisoners, burned homes and drove off livestock across the Highlands. Charles left Scotland for France in September 1746.",
+    "es": "En julio de 1745 Carlos Eduardo Estuardo, nieto del depuesto Jacobo II y VII, desembarcó en las Hébridas desde un barco francés para reclamar el trono británico para su padre. Alzó su estandarte en Glenfinnan el 19 de agosto y se le unieron clanes de las Tierras Altas, sobre todo los Cameron y los MacDonald. En septiembre su ejército entró sin resistencia en Edimburgo, aunque el castillo resistió, y puso en fuga al ejército gubernamental de sir John Cope en Prestonpans. En noviembre cruzó a Inglaterra y tomó Carlisle. Llegó a Derby el 4 de diciembre, pero apenas se le habían unido reclutas ingleses aparte del Regimiento de Mánchester, el esperado desembarco francés no se había producido, y el consejo votó dar media vuelta. En Escocia, reforzados por soldados escoceses e irlandeses del ejército francés, los jacobitas vencieron en Falkirk Muir en enero de 1746. El 16 de abril el ejército del duque de Cumberland, que incluía regimientos escoceses y milicias de las Tierras Altas, los derrotó en Culloden. En los meses siguientes las tropas del gobierno mataron a jacobitas heridos y en fuga, ejecutaron a prisioneros, quemaron casas y se llevaron el ganado por todas las Tierras Altas. Carlos dejó Escocia rumbo a Francia en septiembre de 1746.",
+    "zh": "1745年7月，被废黜的詹姆斯二世（苏格兰称詹姆斯七世）之孙查尔斯·爱德华·斯图亚特乘法国船只在赫布里底群岛登陆，为其父争夺英国王位。8月19日他在格兰芬南竖起王旗，以卡梅伦和麦克唐纳氏族为主的高地氏族前来会合。9月，他的军队未遇抵抗进入爱丁堡（爱丁堡城堡仍在政府军手中），并在普雷斯顿潘斯击溃约翰·科普爵士率领的政府军。11月，军队越过边界进入英格兰，攻占卡莱尔。12月4日抵达德比，但除曼彻斯特团外几乎没有英格兰人加入，期待中的法军登陆也没有出现，军事会议遂决定回师。回到苏格兰后，詹姆斯党人得到法国军队中苏格兰和爱尔兰士兵的增援，于1746年1月在福尔柯克荒原获胜。4月16日，坎伯兰公爵统率的军队（其中包括苏格兰团和高地民兵）在卡洛登击败詹姆斯党人。此后数月，政府军在高地各地杀害受伤和逃散的詹姆斯党人，处决俘虏，焚烧房屋，赶走牲畜。查尔斯于1746年9月离开苏格兰前往法国。"
+  },
+  "outcome": {
+    "en": "The rising ended at Culloden; the government then banned Highland dress and the carrying of weapons and passed laws against the clan system, and no further Jacobite rising followed.",
+    "es": "El levantamiento terminó en Culloden; el gobierno prohibió después la vestimenta de las Tierras Altas y el porte de armas y aprobó leyes contra el sistema de clanes, y no hubo más levantamientos jacobitas.",
+    "zh": "起事在卡洛登终结；政府随后禁止高地服饰和携带武器，并立法打击氏族制度，此后再无詹姆斯党起事。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "rising",
+    "earliestStart": 1745,
+    "latestStart": 1745,
+    "earliestEnd": 1746,
+    "latestEnd": 1746,
+    "sources": [
+      {
+        "citation": "National Army Museum. \"Jacobite Risings.\"",
+        "url": "https://www.nam.ac.uk/explore/jacobites"
+      },
+      {
+        "citation": "Historic Environment Scotland. \"Battle of Culloden (BTL6).\" Inventory of Historic Battlefields.",
+        "url": "https://portal.historicenvironment.scot/designation/BTL6"
+      },
+      {
+        "citation": "Wikidata. \"Jacobite rising of 1745\" (Q1049945), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q1049945"
+      },
+      {
+        "citation": "Wikipedia (English). \"Jacobite rising of 1745.\"",
+        "url": "https://en.wikipedia.org/wiki/Jacobite_rising_of_1745"
+      }
+    ]
+  },
+  "sides": [
+    {
+      "id": "jacobites",
+      "label": {
+        "en": "Jacobites and French troops",
+        "es": "Jacobitas y tropas francesas",
+        "zh": "詹姆斯党人与法国军队"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Jacobite army of Charles Edward Stuart: Highland clans, Lowland regiments and the Manchester Regiment raised in England",
+            "es": "Ejército jacobita de Carlos Eduardo Estuardo: clanes de las Tierras Altas, regimientos de las Tierras Bajas y el Regimiento de Mánchester, reclutado en Inglaterra",
+            "zh": "查尔斯·爱德华·斯图亚特的詹姆斯党军队：高地氏族、低地部队以及在英格兰招募的曼彻斯特团"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-SCT",
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of France: Scots and Irish troops of the French army (the Royal Écossais and men of the Irish Brigade), with money and arms",
+            "es": "Reino de Francia: soldados escoceses e irlandeses del ejército francés (el Royal Écossais y hombres de la Brigada Irlandesa), además de dinero y armas",
+            "zh": "法兰西王国：法国军队中的苏格兰和爱尔兰士兵（皇家苏格兰团及爱尔兰旅官兵），并提供金钱和武器"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "government",
+      "label": {
+        "en": "British government",
+        "es": "Gobierno británico",
+        "zh": "英国政府"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of Great Britain: the British Army under the Duke of Cumberland, Sir John Cope and Henry Hawley",
+            "es": "Reino de Gran Bretaña: el ejército británico al mando del duque de Cumberland, sir John Cope y Henry Hawley",
+            "zh": "大不列颠王国：坎伯兰公爵、约翰·科普爵士和亨利·霍利统率的英国陆军"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-SCT",
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Scottish regiments of the British Army, Highland militia such as the Argyll Militia, and clans loyal to the government",
+            "es": "Regimientos escoceses del ejército británico, milicias de las Tierras Altas como la Milicia de Argyll y clanes leales al gobierno",
+            "zh": "英国陆军中的苏格兰团、阿盖尔民兵等高地民兵以及效忠政府的氏族"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-SCT"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [],
+  "events": [
+    {
+      "id": "standard-raised-at-glenfinnan",
+      "start": 1745,
+      "title": {
+        "en": "Charles Edward Stuart raises his standard at Glenfinnan; Highland clans, chiefly Camerons and MacDonalds, gather to him",
+        "es": "Carlos Eduardo Estuardo alza su estandarte en Glenfinnan; se le unen clanes de las Tierras Altas, sobre todo los Cameron y los MacDonald",
+        "zh": "查尔斯·爱德华·斯图亚特在格兰芬南竖起王旗；以卡梅伦和麦克唐纳氏族为主的高地氏族前来会合"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Jacobite Risings.\"",
+          "url": "https://www.nam.ac.uk/explore/jacobites"
+        },
+        {
+          "citation": "Historic Environment Scotland. \"Battle of Culloden (BTL6).\" Inventory of Historic Battlefields.",
+          "url": "https://portal.historicenvironment.scot/designation/BTL6"
+        }
+      ],
+      "note": {
+        "en": "He had arrived in the Hebrides from France on a French ship in July 1745.",
+        "es": "Había llegado a las Hébridas desde Francia en un barco francés en julio de 1745.",
+        "zh": "他于1745年7月乘法国船只从法国抵达赫布里底群岛。"
+      },
+      "place": {
+        "name": {
+          "en": "Glenfinnan",
+          "es": "Glenfinnan",
+          "zh": "格兰芬南"
+        },
+        "lat": 56.871,
+        "lon": -5.446
+      }
+    },
+    {
+      "id": "edinburgh-entered",
+      "start": 1745,
+      "title": {
+        "en": "The Jacobite army enters Edinburgh unopposed and proclaims Charles's father king, with Charles as regent; the castle stays in government hands",
+        "es": "El ejército jacobita entra sin resistencia en Edimburgo y proclama rey al padre de Carlos, con Carlos como regente; el castillo sigue en manos del gobierno",
+        "zh": "詹姆斯党军队未遇抵抗进入爱丁堡，宣布查尔斯之父为国王、查尔斯为摄政；爱丁堡城堡仍在政府军手中"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Jacobite Risings.\"",
+          "url": "https://www.nam.ac.uk/explore/jacobites"
+        },
+        {
+          "citation": "Historic Environment Scotland. \"Battle of Prestonpans (BTL16).\" Inventory of Historic Battlefields.",
+          "url": "https://portal.historicenvironment.scot/designation/BTL16"
+        },
+        {
+          "citation": "Wikipedia (English). \"Jacobite rising of 1745.\"",
+          "url": "https://en.wikipedia.org/wiki/Jacobite_rising_of_1745"
+        }
+      ],
+      "place": {
+        "name": {
+          "en": "Edinburgh",
+          "es": "Edimburgo",
+          "zh": "爱丁堡"
+        },
+        "lat": 55.953,
+        "lon": -3.189
+      }
+    },
+    {
+      "id": "battle-of-prestonpans",
+      "start": 1745,
+      "title": {
+        "en": "The Jacobites rout Sir John Cope's government army at Prestonpans, east of Edinburgh",
+        "es": "Los jacobitas ponen en fuga al ejército gubernamental de sir John Cope en Prestonpans, al este de Edimburgo",
+        "zh": "詹姆斯党人在爱丁堡以东的普雷斯顿潘斯击溃约翰·科普爵士率领的政府军"
+      },
+      "sources": [
+        {
+          "citation": "Historic Environment Scotland. \"Battle of Prestonpans (BTL16).\" Inventory of Historic Battlefields.",
+          "url": "https://portal.historicenvironment.scot/designation/BTL16"
+        },
+        {
+          "citation": "National Army Museum. \"Jacobite Risings.\"",
+          "url": "https://www.nam.ac.uk/explore/jacobites"
+        }
+      ],
+      "note": {
+        "en": "Historic Environment Scotland gives reported government losses of 150 to 300 killed, the higher figure the more likely, with more than a thousand taken prisoner; Jacobite losses were probably about 100 killed and wounded.",
+        "es": "Historic Environment Scotland da unas pérdidas gubernamentales declaradas de 150 a 300 muertos, siendo la cifra más alta la más probable, y más de mil prisioneros; las pérdidas jacobitas rondaron probablemente los 100 muertos y heridos.",
+        "zh": "据苏格兰历史环境局，政府军报告的阵亡人数为150至300人，较高的数字可能性更大，另有一千多人被俘；詹姆斯党的伤亡可能约为100人。"
+      },
+      "place": {
+        "name": {
+          "en": "Prestonpans",
+          "es": "Prestonpans",
+          "zh": "普雷斯顿潘斯"
+        },
+        "lat": 55.955,
+        "lon": -2.96
+      },
+      "wikidataId": "Q546317"
+    },
+    {
+      "id": "turn-back-at-derby",
+      "start": 1745,
+      "title": {
+        "en": "The Jacobite army reaches Derby, about 200 km from London; with few English recruits and no French landing, Charles's council of war decides to turn back",
+        "es": "El ejército jacobita llega a Derby, a unos 200 km de Londres; con pocos reclutas ingleses y sin desembarco francés, el consejo de guerra de Carlos decide dar media vuelta",
+        "zh": "詹姆斯党军队抵达距伦敦约200公里的德比；由于英格兰应募者寥寥、法军也未登陆，查尔斯的军事会议决定回师"
+      },
+      "sources": [
+        {
+          "citation": "National Army Museum. \"Jacobite Risings.\"",
+          "url": "https://www.nam.ac.uk/explore/jacobites"
+        },
+        {
+          "citation": "Historic Environment Scotland. \"Battle of Culloden (BTL6).\" Inventory of Historic Battlefields.",
+          "url": "https://portal.historicenvironment.scot/designation/BTL6"
+        },
+        {
+          "citation": "Wikipedia (English). \"Jacobite rising of 1745.\"",
+          "url": "https://en.wikipedia.org/wiki/Jacobite_rising_of_1745"
+        }
+      ],
+      "note": {
+        "en": "The army entered Derby on 4 December 1745. Sources differ on whether the decision and the start of the retreat came on 5 or 6 December.",
+        "es": "El ejército entró en Derby el 4 de diciembre de 1745. Las fuentes difieren sobre si la decisión y el inicio de la retirada fueron el 5 o el 6 de diciembre.",
+        "zh": "军队于1745年12月4日进入德比。关于作出决定和开始撤退是在12月5日还是6日，各来源说法不一。"
+      },
+      "place": {
+        "name": {
+          "en": "Derby",
+          "es": "Derby",
+          "zh": "德比"
+        },
+        "lat": 52.922,
+        "lon": -1.477
+      }
+    },
+    {
+      "id": "clifton-moor",
+      "start": 1745,
+      "title": {
+        "en": "The Jacobite rearguard under Lord George Murray holds off government dragoons at Clifton Moor, near Penrith; the army then crosses back into Scotland",
+        "es": "La retaguardia jacobita de lord George Murray contiene a los dragones del gobierno en Clifton Moor, cerca de Penrith; después el ejército vuelve a cruzar a Escocia",
+        "zh": "乔治·默里勋爵率领的詹姆斯党后卫在彭里斯附近的克利夫顿荒原挡住政府军龙骑兵；随后全军退回苏格兰"
+      },
+      "sources": [
+        {
+          "citation": "Historic Environment Scotland. \"Battle of Culloden (BTL6).\" Inventory of Historic Battlefields.",
+          "url": "https://portal.historicenvironment.scot/designation/BTL6"
+        },
+        {
+          "citation": "Wikipedia (English). \"Clifton Moor Skirmish.\"",
+          "url": "https://en.wikipedia.org/wiki/Clifton_Moor_Skirmish"
+        },
+        {
+          "citation": "Imperial War Museums, War Memorials Register. \"Battle of Clifton Moor\" (memorial 67331, Brougham Hall: 18–19 December 1745).",
+          "url": "https://memorials.iwm.org.uk/item/memorial/67331"
+        }
+      ],
+      "note": {
+        "en": "Fought in failing light on the evening of 18 December 1745; the Jacobite army crossed back into Scotland on 20 December.",
+        "es": "Se libró con poca luz la tarde del 18 de diciembre de 1745; el ejército jacobita volvió a cruzar a Escocia el 20 de diciembre.",
+        "zh": "战斗发生于1745年12月18日傍晚、天色渐暗之时；詹姆斯党军队于12月20日退回苏格兰。"
+      },
+      "place": {
+        "name": {
+          "en": "Clifton Moor",
+          "es": "Clifton Moor",
+          "zh": "克利夫顿荒原"
+        },
+        "lat": 54.627,
+        "lon": -2.718
+      },
+      "wikidataId": "Q5133284"
+    },
+    {
+      "id": "battle-of-falkirk-muir",
+      "start": 1746,
+      "title": {
+        "en": "The Jacobites defeat Henry Hawley's government army at Falkirk Muir, their last victory",
+        "es": "Los jacobitas derrotan al ejército gubernamental de Henry Hawley en Falkirk Muir, su última victoria",
+        "zh": "詹姆斯党人在福尔柯克荒原击败亨利·霍利率领的政府军，这是他们最后一次获胜"
+      },
+      "sources": [
+        {
+          "citation": "Historic Environment Scotland. \"Battle of Falkirk II (BTL9).\" Inventory of Historic Battlefields.",
+          "url": "https://portal.historicenvironment.scot/designation/BTL9"
+        },
+        {
+          "citation": "National Army Museum. \"Jacobite Risings.\"",
+          "url": "https://www.nam.ac.uk/explore/jacobites"
+        }
+      ],
+      "note": {
+        "en": "Losses are uncertain. The official Jacobite account put government losses at more than 600, with 700 captured, and its own at about 40; most government accounts claimed the reverse, and Historic Environment Scotland judges government losses the heavier.",
+        "es": "Las pérdidas son inciertas. El relato oficial jacobita cifró las pérdidas del gobierno en más de 600, con 700 prisioneros, y las propias en unas 40; la mayoría de los relatos del gobierno afirmaron lo contrario, y Historic Environment Scotland considera más graves las pérdidas gubernamentales.",
+        "zh": "伤亡数字并不确定。詹姆斯党官方记载称政府军损失600余人、被俘700人，己方损失约40人；政府方面的多数记载则称情况相反，苏格兰历史环境局认为政府军损失更重。"
+      },
+      "place": {
+        "name": {
+          "en": "Falkirk Muir",
+          "es": "Falkirk Muir",
+          "zh": "福尔柯克荒原"
+        },
+        "lat": 56.001,
+        "lon": -3.784
+      },
+      "wikidataId": "Q1417580"
+    },
+    {
+      "id": "battle-of-culloden",
+      "start": 1746,
+      "title": {
+        "en": "The Duke of Cumberland's army defeats the Jacobites at Culloden, near Inverness; government troops kill wounded and fleeing Jacobites",
+        "es": "El ejército del duque de Cumberland derrota a los jacobitas en Culloden, cerca de Inverness; las tropas del gobierno matan a jacobitas heridos y en fuga",
+        "zh": "坎伯兰公爵的军队在因弗内斯附近的卡洛登击败詹姆斯党人；政府军杀害受伤和逃散的詹姆斯党人"
+      },
+      "sources": [
+        {
+          "citation": "Historic Environment Scotland. \"Battle of Culloden (BTL6).\" Inventory of Historic Battlefields.",
+          "url": "https://portal.historicenvironment.scot/designation/BTL6"
+        },
+        {
+          "citation": "National Army Museum. \"Battle of Culloden.\"",
+          "url": "https://www.nam.ac.uk/explore/battle-culloden"
+        }
+      ],
+      "note": {
+        "en": "Jacobite dead are estimated at 1,000–1,500 (National Army Museum) or 1,200–1,500 (Historic Environment Scotland). The government's official return listed 50 killed and 259 wounded. Only the Scots and Irish soldiers in French service were treated as prisoners of war.",
+        "es": "Los muertos jacobitas se estiman en 1.000–1.500 (National Army Museum) o 1.200–1.500 (Historic Environment Scotland). El parte oficial del gobierno registró 50 muertos y 259 heridos. Solo los soldados escoceses e irlandeses al servicio de Francia fueron tratados como prisioneros de guerra.",
+        "zh": "詹姆斯党阵亡人数估计为1000至1500人（英国国家陆军博物馆）或1200至1500人（苏格兰历史环境局）。政府军官方报告列出阵亡50人、受伤259人。只有效力法国的苏格兰和爱尔兰士兵被当作战俘对待。"
+      },
+      "place": {
+        "name": {
+          "en": "Culloden",
+          "es": "Culloden",
+          "zh": "卡洛登"
+        },
+        "lat": 57.477,
+        "lon": -4.093
+      },
+      "wikidataId": "Q651919"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Charles Edward Stuart",
+        "es": "Carlos Eduardo Estuardo",
+        "zh": "查尔斯·爱德华·斯图亚特"
+      },
+      "side": "jacobites",
+      "role": {
+        "en": "Led the rising as regent for his father, the exiled James Francis Edward Stuart",
+        "es": "Dirigió el levantamiento como regente de su padre, el exiliado Jacobo Francisco Eduardo Estuardo",
+        "zh": "以其流亡的父亲詹姆斯·弗朗西斯·爱德华·斯图亚特的摄政身份领导起事"
+      },
+      "wikidataId": "Q312581"
+    },
+    {
+      "name": {
+        "en": "Lord George Murray",
+        "es": "Lord George Murray",
+        "zh": "乔治·默里勋爵"
+      },
+      "side": "jacobites",
+      "role": {
+        "en": "Lieutenant-general of the Jacobite army; argued for the retreat from Derby and commanded the rearguard",
+        "es": "Teniente general del ejército jacobita; defendió la retirada desde Derby y mandó la retaguardia",
+        "zh": "詹姆斯党军队中将；主张从德比撤退并指挥后卫"
+      },
+      "wikidataId": "Q348025"
+    },
+    {
+      "name": {
+        "en": "James Drummond, Duke of Perth",
+        "es": "James Drummond, duque de Perth",
+        "zh": "珀斯公爵詹姆斯·德拉蒙德"
+      },
+      "side": "jacobites",
+      "role": {
+        "en": "Jacobite commander; led the right wing at Prestonpans",
+        "es": "Comandante jacobita; mandó el ala derecha en Prestonpans",
+        "zh": "詹姆斯党将领；在普雷斯顿潘斯指挥右翼"
+      },
+      "wikidataId": "Q6132843"
+    },
+    {
+      "name": {
+        "en": "Lord John Drummond",
+        "es": "Lord John Drummond",
+        "zh": "约翰·德拉蒙德勋爵"
+      },
+      "side": "jacobites",
+      "role": {
+        "en": "Officer in French service; led the Royal Écossais, a Scots regiment of the French army, in the rising",
+        "es": "Oficial al servicio de Francia; dirigió en el levantamiento el Royal Écossais, un regimiento escocés del ejército francés",
+        "zh": "效力法国的军官；在起事中率领法国军队中的苏格兰团“皇家苏格兰团”"
+      },
+      "wikidataId": "Q7619173"
+    },
+    {
+      "name": {
+        "en": "Prince William, Duke of Cumberland",
+        "es": "Guillermo Augusto, duque de Cumberland",
+        "zh": "坎伯兰公爵威廉王子"
+      },
+      "side": "government",
+      "role": {
+        "en": "Son of George II and Captain-General of the British Army; commanded at Culloden",
+        "es": "Hijo de Jorge II y capitán general del ejército británico; mandó las tropas en Culloden",
+        "zh": "乔治二世之子、英国陆军总司令；在卡洛登指挥作战"
+      },
+      "wikidataId": "Q378088"
+    },
+    {
+      "name": {
+        "en": "Sir John Cope",
+        "es": "Sir John Cope",
+        "zh": "约翰·科普爵士"
+      },
+      "side": "government",
+      "role": {
+        "en": "Commander of government forces in Scotland in 1745; defeated at Prestonpans",
+        "es": "Comandante de las fuerzas del gobierno en Escocia en 1745; derrotado en Prestonpans",
+        "zh": "1745年苏格兰政府军指挥官；在普雷斯顿潘斯战败"
+      },
+      "wikidataId": "Q333803"
+    },
+    {
+      "name": {
+        "en": "Henry Hawley",
+        "es": "Henry Hawley",
+        "zh": "亨利·霍利"
+      },
+      "side": "government",
+      "role": {
+        "en": "Commanded the government army defeated at Falkirk Muir",
+        "es": "Mandó el ejército del gobierno derrotado en Falkirk Muir",
+        "zh": "指挥在福尔柯克荒原战败的政府军"
+      },
+      "wikidataId": "Q9287843"
+    }
+  ],
+  "casualties": [],
+  "cultures": [],
+  "sources": [
+    {
+      "citation": "National Army Museum. \"Jacobite Risings.\"",
+      "url": "https://www.nam.ac.uk/explore/jacobites"
+    },
+    {
+      "citation": "National Army Museum. \"Battle of Culloden.\"",
+      "url": "https://www.nam.ac.uk/explore/battle-culloden"
+    },
+    {
+      "citation": "Historic Environment Scotland. \"Battle of Culloden (BTL6).\" Inventory of Historic Battlefields.",
+      "url": "https://portal.historicenvironment.scot/designation/BTL6"
+    },
+    {
+      "citation": "Historic Environment Scotland. \"Battle of Prestonpans (BTL16).\" Inventory of Historic Battlefields.",
+      "url": "https://portal.historicenvironment.scot/designation/BTL16"
+    },
+    {
+      "citation": "Historic Environment Scotland. \"Battle of Falkirk II (BTL9).\" Inventory of Historic Battlefields.",
+      "url": "https://portal.historicenvironment.scot/designation/BTL9"
+    },
+    {
+      "citation": "Wikipedia (English). \"Jacobite rising of 1745.\"",
+      "url": "https://en.wikipedia.org/wiki/Jacobite_rising_of_1745"
+    },
+    {
+      "citation": "Wikidata. \"Jacobite rising of 1745\" (Q1049945).",
+      "url": "https://www.wikidata.org/wiki/Q1049945"
+    },
+    {
+      "citation": "Am Faclair Beag (Scottish Gaelic dictionary). \"Bliadhna Theàrlaich\": the Jacobite Rising (1745).",
+      "url": "https://www.faclair.com/ViewEntry.aspx?ID=6C05B5A9BCDD7D499581F30571845E41"
+    },
+    {
+      "citation": "Wikipedia (English). \"John Drummond, 4th Duke of Perth\" (Lord John Drummond: the Royal Écossais, landing at Montrose, Falkirk and Culloden).",
+      "url": "https://en.wikipedia.org/wiki/John_Drummond,_4th_Duke_of_Perth"
+    }
+  ]
+}

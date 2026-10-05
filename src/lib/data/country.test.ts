@@ -144,7 +144,25 @@ describe("countryCodes", () => {
   });
 
   it("never gives a page to a code that is not a UN member or is never shown", () => {
-    expect(countryCodes({ a: ["TW", "PE"], b: ["XK"] }, [war("w", ["HK", "PS"])])).toEqual(["MX", "PE"]);
+    expect(countryCodes({ a: ["TW", "PE"], b: ["XK"] }, [war("w", ["HK", "PS", "GB-NIR"])])).toEqual(["MX", "PE"]);
+  });
+
+  it("gives the UK a page wherever one of its nations has one", () => {
+    expect(countryCodes({ picts: ["GB-SCT"] }, [])).toEqual(["GB", "GB-SCT"]);
+  });
+});
+
+describe("the UK's nations", () => {
+  const base = loadCultures()[0];
+  const cultures = [{ ...base, id: "picts" }, { ...base, id: "anglo" }];
+  const heartland = { picts: ["GB-SCT"], anglo: ["GB-ENG"] };
+  const wars = [war("scots", ["GB-SCT"]), war("abroad", ["GB"])];
+  const ids = (code: string) => countryItems(code, cultures, heartland, wars).map(itemId).sort();
+
+  it("lists a nation's civilisations and wars on its own page and the UK's, never on another nation's", () => {
+    expect(ids("GB")).toEqual(["abroad", "anglo", "picts", "scots"]);
+    expect(ids("GB-SCT")).toEqual(["picts", "scots"]);
+    expect(ids("GB-ENG")).toEqual(["anglo"]);
   });
 });
 
@@ -201,9 +219,9 @@ describe("where a country's chart opens", () => {
     war: war(id, ["MX"], { period: { id: "p", earliestStart: start, latestStart: start, earliestEnd: end, latestEnd: end, sources: [], default: false, disputed: false } }),
   });
 
-  // Neolithic Britain alone would squeeze 21 wars into the last few pixels.
+  // Neolithic Britain alone would squeeze everything from the Romans on into the last few pixels.
   it("opens on the newest three-quarters of the items when that zooms in at least 4x", () => {
-    expect(view("GB").range).toEqual([1789, 2021]);
+    expect(view("GB").range).toEqual([1276, 2021]);
     expect(openingView([at("old", 0, 0), at("a", 300, 310), at("b", 350, 360), at("c", 390, 400)]).range).toEqual([300, 400]);
     expect(openingView([at("old", 1, 1), at("a", 300, 310), at("b", 350, 360), at("c", 390, 400)]).range).toEqual([1, 400]);
   });
@@ -217,7 +235,8 @@ describe("where a country's chart opens", () => {
     expect(view("CN").year).toBe(1858);
     // Moche, Nazca and Wari all stand in 600 CE; the Spanish conquest only meets the Inca.
     expect(view("PE").year).toBe(600);
-    expect(view("GB").year).toBe(2003);
+    // Scotland, Gwynedd and Edward I's war in Wales, as the conquest begins.
+    expect(view("GB").year).toBe(1277);
   });
 
   it("counts a handover year as one civilisation, not two at once", () => {

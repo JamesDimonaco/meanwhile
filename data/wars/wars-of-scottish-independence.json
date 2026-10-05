@@ -1,0 +1,789 @@
+{
+  "id": "wars-of-scottish-independence",
+  "wikidataId": "Q1368240",
+  "name": {
+    "en": "Wars of Scottish Independence",
+    "es": "Guerras de independencia de Escocia",
+    "zh": "苏格兰独立战争"
+  },
+  "aliases": [
+    "Scottish Wars of Independence",
+    "First War of Scottish Independence",
+    "Second War of Scottish Independence",
+    "Primera guerra de independencia de Escocia",
+    "Segunda guerra de independencia de Escocia",
+    "第一次苏格兰独立战争",
+    "第二次苏格兰独立战争",
+    "William Wallace",
+    "威廉·华莱士",
+    "Robert the Bruce",
+    "Roberto I de Escocia",
+    "罗伯特·布鲁斯",
+    "Bannockburn",
+    "班诺克本之战",
+    "Stirling Bridge",
+    "Puente de Stirling",
+    "斯特灵桥之战"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "Two wars, from 1296 to 1357, over English kings' claim to be overlords of Scotland. In 1296 Edward I of England stormed Berwick, defeated the Scots at Dunbar and forced King John Balliol to give up the crown. William Wallace and Andrew Moray routed an English army at Stirling Bridge in 1297, but Edward beat Wallace at Falkirk in 1298. Robert Bruce, crowned in 1306 and opposed by Scots such as the Comyns, drove out most English garrisons and defeated Edward II at Bannockburn in 1314; his brother Edward carried the war to Ireland and was killed there in 1318. In 1328 England recognised Robert as king. In 1332 Edward Balliol, backed by Edward III and by lords who had lost Scottish lands, landed in Fife; his force won at Dupplin Moor and Edward III's army at Halidon Hill, and the young David II took refuge in France. France, allied to Scotland since 1295, sent money, arms and, in 1355, a company of knights. David II was captured at Neville's Cross in 1346 and released under the Treaty of Berwick in 1357.",
+    "es": "Dos guerras (1296–1357) por la pretensión de los reyes ingleses de ser señores feudales de Escocia. En 1296 Eduardo I de Inglaterra tomó Berwick al asalto, derrotó a los escoceses en Dunbar y obligó al rey Juan de Balliol a renunciar a la corona. William Wallace y Andrew de Moray derrotaron a un ejército inglés en el puente de Stirling en 1297, pero Eduardo venció a Wallace en Falkirk en 1298. Roberto Bruce, coronado en 1306 y enfrentado a escoceses como los Comyn, expulsó a la mayoría de las guarniciones inglesas y derrotó a Eduardo II en Bannockburn en 1314; su hermano Edward llevó la guerra a Irlanda, donde murió en 1318. En 1328 Inglaterra reconoció a Roberto como rey. En 1332 Eduardo de Balliol, respaldado por Eduardo III y por señores que habían perdido tierras en Escocia, desembarcó en Fife; su fuerza venció en Dupplin Moor y el ejército de Eduardo III en Halidon Hill, y el joven David II se refugió en Francia. Francia, aliada de Escocia desde 1295, envió dinero, armas y, en 1355, una compañía de caballeros. David II fue capturado en Neville's Cross en 1346 y liberado por el Tratado de Berwick en 1357.",
+    "zh": "1296年至1357年间的两场战争，起因是英格兰国王自称苏格兰的宗主。1296年，英格兰国王爱德华一世攻破贝里克，在邓巴击败苏格兰人，迫使国王约翰·巴里奥放弃王位。1297年，威廉·华莱士和安德鲁·莫里在斯特灵桥击溃一支英格兰军队，但1298年爱德华在福尔柯克打败华莱士。罗伯特·布鲁斯于1306年加冕，遭到科明家族等苏格兰人的反对；他逐出了大部分英格兰驻军，1314年在班诺克本击败爱德华二世；他的弟弟爱德华把战火带到爱尔兰，1318年战死在那里。1328年，英格兰承认罗伯特为国王。1332年，爱德华·巴里奥在爱德华三世和在苏格兰失去领地的贵族支持下于法夫登陆；他的部队在杜普林沼地获胜，爱德华三世的军队又在哈利顿山获胜，年幼的大卫二世避往法国。自1295年起与苏格兰结盟的法国送来金钱和武器，1355年还派来一支骑士队伍。1346年大卫二世在内维尔十字被俘，1357年根据《贝里克条约》获释。"
+  },
+  "outcome": {
+    "en": "Scotland stayed a separate kingdom under its own king: David II was released in 1357 for a ransom of 100,000 merks, and the treaty left England's claim to overlordship unresolved.",
+    "es": "Escocia siguió siendo un reino aparte con su propio rey: David II fue liberado en 1357 a cambio de un rescate de 100 000 marcos, y el tratado dejó sin resolver la pretensión inglesa de soberanía feudal.",
+    "zh": "苏格兰仍是一个由本国君主统治、与英格兰分立的王国：大卫二世于1357年以10万马克的赎金获释，条约没有解决英格兰的宗主权主张。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1296,
+    "latestStart": 1296,
+    "earliestEnd": 1357,
+    "latestEnd": 1357,
+    "sources": [
+      {
+        "citation": "Webster, Bruce. \"Scottish Wars of Independence\" (1296–1357). The Oxford Companion to British History, via Encyclopedia.com.",
+        "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/scottish-wars-independence"
+      },
+      {
+        "citation": "Wikidata. \"Wars of Scottish Independence\" (Q1368240), end time 1357; \"First War of Scottish Independence\" (Q3242848), start time 1296.",
+        "url": "https://www.wikidata.org/wiki/Q1368240"
+      },
+      {
+        "citation": "Wikipedia (English). \"Wars of Scottish Independence.\"",
+        "url": "https://en.wikipedia.org/wiki/Wars_of_Scottish_Independence"
+      }
+    ],
+    "disputed": false,
+    "note": {
+      "en": "Four years of peace separate the two wars (1328–1332). The Oxford Companion to British History divides the whole into three stages: 1296–1304, 1306–1328 and 1332–1357.",
+      "es": "Cuatro años de paz separan las dos guerras (1328–1332). La Oxford Companion to British History divide el conjunto en tres etapas: 1296–1304, 1306–1328 y 1332–1357.",
+      "zh": "两场战争之间有四年和平（1328年至1332年）。《牛津英国史指南》把整个过程分为三个阶段：1296年至1304年、1306年至1328年、1332年至1357年。"
+    }
+  },
+  "sides": [
+    {
+      "id": "scotland",
+      "label": {
+        "en": "Kingdom of Scotland and its allies",
+        "es": "Reino de Escocia y sus aliados",
+        "zh": "苏格兰王国及其盟友"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "kingdom-of-scotland",
+          "role": "belligerent",
+          "today": [
+            "GB-SCT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of France: money and arms, and in 1355 a company of French knights",
+            "es": "Reino de Francia: dinero y armas, y en 1355 una compañía de caballeros franceses",
+            "zh": "法兰西王国：提供金钱和武器，1355年派来一支法国骑士队伍"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Gaelic Irish lords who fought beside Edward Bruce in Ireland (1315–1318), among them Domhnall Ó Néill of Tír Eoghain",
+            "es": "Señores gaélicos irlandeses que combatieron junto a Edward Bruce en Irlanda (1315–1318), entre ellos Domhnall Ó Néill de Tír Eoghain",
+            "zh": "1315年至1318年在爱尔兰与爱德华·布鲁斯并肩作战的盖尔裔爱尔兰领主，包括蒂龙的多姆纳尔·奥尼尔"
+          },
+          "role": "belligerent",
+          "today": [
+            "IE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "england",
+      "label": {
+        "en": "Kingdom of England and its allies",
+        "es": "Reino de Inglaterra y sus aliados",
+        "zh": "英格兰王国及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of England",
+            "es": "Reino de Inglaterra",
+            "zh": "英格兰王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Welsh foot soldiers raised by the English crown",
+            "es": "Infantería galesa reclutada por la corona inglesa",
+            "zh": "英格兰王室征召的威尔士步兵"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-WLS"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "English lordship of Ireland: troops for Edward I's campaigns in Scotland, and the forces that fought Edward Bruce in Ireland (1315–1318)",
+            "es": "Señorío inglés de Irlanda: tropas para las campañas de Eduardo I en Escocia y las fuerzas que combatieron a Edward Bruce en Irlanda (1315–1318)",
+            "zh": "英格兰治下的爱尔兰领地：为爱德华一世征战苏格兰提供兵力，并于1315年至1318年在爱尔兰与爱德华·布鲁斯作战"
+          },
+          "role": "belligerent",
+          "today": [
+            "IE"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Scottish opponents of Robert Bruce, among them the Comyn family (from 1306)",
+            "es": "Escoceses enemigos de Roberto Bruce, entre ellos la familia Comyn (desde 1306)",
+            "zh": "反对罗伯特·布鲁斯的苏格兰人，包括科明家族（1306年起）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-SCT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Edward Balliol and the \"Disinherited\", lords who had lost lands in Scotland (1332–1356)",
+            "es": "Eduardo de Balliol y los «desheredados», señores que habían perdido tierras en Escocia (1332–1356)",
+            "zh": "爱德华·巴里奥与“失地贵族”，即在苏格兰失去领地的贵族（1332年至1356年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-SCT"
+          ]
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "id": "first-war",
+      "name": {
+        "en": "First War of Scottish Independence",
+        "es": "Primera guerra de independencia de Escocia",
+        "zh": "第一次苏格兰独立战争"
+      },
+      "start": 1296,
+      "end": 1328,
+      "sources": [
+        {
+          "citation": "Wikidata. \"First War of Scottish Independence\" (Q3242848): 1296–1328.",
+          "url": "https://www.wikidata.org/wiki/Q3242848"
+        },
+        {
+          "citation": "Webster, Bruce. \"Scottish Wars of Independence.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/scottish-wars-independence"
+        },
+        {
+          "citation": "Wikipedia (English). \"First War of Scottish Independence.\"",
+          "url": "https://en.wikipedia.org/wiki/First_War_of_Scottish_Independence"
+        }
+      ]
+    },
+    {
+      "id": "second-war",
+      "name": {
+        "en": "Second War of Scottish Independence",
+        "es": "Segunda guerra de independencia de Escocia",
+        "zh": "第二次苏格兰独立战争"
+      },
+      "start": 1332,
+      "end": 1357,
+      "sources": [
+        {
+          "citation": "Wikidata. \"Second War of Scottish Independence\" (Q3310304): 1332–1357.",
+          "url": "https://www.wikidata.org/wiki/Q3310304"
+        },
+        {
+          "citation": "Webster, Bruce. \"Scottish Wars of Independence.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/scottish-wars-independence"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second War of Scottish Independence.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_War_of_Scottish_Independence"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sack-of-berwick",
+      "start": 1296,
+      "title": {
+        "en": "Edward I's army storms Berwick, then Scotland's chief trading port, and kills many of its townspeople",
+        "es": "El ejército de Eduardo I toma al asalto Berwick, entonces el principal puerto comercial de Escocia, y mata a muchos de sus habitantes",
+        "zh": "爱德华一世的军队攻破当时苏格兰的主要贸易港口贝里克，杀死大批居民"
+      },
+      "sources": [
+        {
+          "citation": "Maxwell, Herbert (trans.) (1913). The Chronicle of Lanercost, 1272–1346, pp. 115 and 134. Glasgow: Maclehose. Via Internet Archive.",
+          "url": "https://archive.org/details/chronicleoflaner00maxwuoft"
+        },
+        {
+          "citation": "Bower, Walter. Scotichronicon, Book XI, chapter 20 (\"septem milia et quingentas animas\", 7,500 of both sexes). Ed. N. F. Shead, W. B. Stevenson and D. E. R. Watt, vol. 6, pp. 58–59. Aberdeen University Press, 1991."
+        },
+        {
+          "citation": "Wikipedia (English). \"Sack of Berwick (1296).\"",
+          "url": "https://en.wikipedia.org/wiki/Sack_of_Berwick_(1296)"
+        },
+        {
+          "citation": "English Heritage. \"History of Berwick-upon-Tweed Castle and Ramparts\" (captured in 1296).",
+          "url": "https://www.english-heritage.org.uk/visit/places/berwick-upon-tweed-castle-and-ramparts/history/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Taken on 30 March 1296. The number killed is unknown, and the chronicles disagree. The English Lanercost Chronicle says about 7,000 men were put to the sword in its entry for the year, and no fewer than 15,000 of both sexes in a later passage; the Scottish chronicler Walter Bower gives 7,500. Berwick is in England today.",
+        "es": "Tomada el 30 de marzo de 1296. Se desconoce el número de muertos y las crónicas no coinciden. La Crónica de Lanercost, inglesa, dice en su entrada del año que unos 7000 hombres fueron pasados a cuchillo, y en un pasaje posterior que perecieron no menos de 15 000 personas de ambos sexos; el cronista escocés Walter Bower da 7500. Berwick está hoy en Inglaterra.",
+        "zh": "1296年3月30日被攻占。死亡人数不详，各编年史说法不一。英格兰的《拉纳科斯特编年史》在当年的条目中称约7000名男子被杀，在后文的一段记述中又称男女死者不下15000人；苏格兰编年史家沃尔特·鲍尔记为7500人。贝里克今属英格兰。"
+      },
+      "place": {
+        "name": {
+          "en": "Berwick-upon-Tweed",
+          "es": "Berwick-upon-Tweed",
+          "zh": "特威德河畔贝里克"
+        },
+        "lat": 55.775,
+        "lon": -2.013
+      },
+      "wikidataId": "Q5036985"
+    },
+    {
+      "id": "battle-of-stirling-bridge",
+      "start": 1297,
+      "title": {
+        "en": "Scots under Andrew Moray and William Wallace attack an English army as it crosses the narrow bridge over the Forth at Stirling and rout it; Hugh de Cressingham, one of its commanders, is killed",
+        "es": "Los escoceses de Andrew de Moray y William Wallace atacan a un ejército inglés mientras cruza el estrecho puente sobre el Forth en Stirling y lo derrotan; muere Hugh de Cressingham, uno de sus jefes",
+        "zh": "安德鲁·莫里和威廉·华莱士率领的苏格兰人趁一支英格兰军队通过斯特灵福斯河上的窄桥时发起攻击，将其击溃；英军指挥官之一休·德克雷辛厄姆被杀"
+      },
+      "sources": [
+        {
+          "citation": "Historic Environment Scotland. Inventory of Historic Battlefields, \"Battle of Stirling Bridge\" (BTL28).",
+          "url": "http://portal.historicenvironment.scot/designation/BTL28"
+        },
+        {
+          "citation": "Cannon, J. A. \"Stirling Bridge, battle of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/stirling-bridge-battle"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Fought on 11 September 1297. Historic Environment Scotland's inventory gives about 100 men-at-arms and 5,000 foot soldiers killed on the English side, 300 of them Welsh. Moray was badly wounded and died later that year.",
+        "es": "Librada el 11 de septiembre de 1297. El inventario de Historic Environment Scotland da unos 100 hombres de armas y 5000 infantes muertos en el bando inglés, 300 de ellos galeses. Moray quedó gravemente herido y murió ese mismo año.",
+        "zh": "1297年9月11日交战。据苏格兰历史环境局的战场名录，英格兰一方约有100名重装骑兵和5000名步兵阵亡，其中300人是威尔士人。莫里身受重伤，当年晚些时候去世。"
+      },
+      "place": {
+        "name": {
+          "en": "Stirling Bridge",
+          "es": "Puente de Stirling",
+          "zh": "斯特灵桥"
+        },
+        "lat": 56.13,
+        "lon": -3.935
+      },
+      "wikidataId": "Q499626"
+    },
+    {
+      "id": "battle-of-bannockburn",
+      "start": 1314,
+      "title": {
+        "en": "Over two days near Stirling, Robert I's Scots defeat the larger army of Edward II, who escapes",
+        "es": "En dos días de combate cerca de Stirling, los escoceses de Roberto I derrotan al ejército, más numeroso, de Eduardo II, que logra huir",
+        "zh": "罗伯特一世的苏格兰军队在斯特灵附近经两天交战，击败兵力更多的爱德华二世大军，爱德华二世逃脱"
+      },
+      "sources": [
+        {
+          "citation": "Historic Environment Scotland. Inventory of Historic Battlefields, \"Battle of Bannockburn\" (BTL4).",
+          "url": "https://portal.historicenvironment.scot/designation/BTL4"
+        },
+        {
+          "citation": "Cannon, J. A. \"Bannockburn, battle of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/bannockburn-battle"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Fought on 23–24 June 1314. Historic Environment Scotland estimates 6,000–7,000 Scottish spearmen and 500 cavalry against 2,000–3,000 English heavy cavalry, 16,000 infantry and up to 2,000 archers.",
+        "es": "Librada el 23 y 24 de junio de 1314. Historic Environment Scotland calcula entre 6000 y 7000 lanceros escoceses y 500 jinetes frente a 2000–3000 jinetes pesados ingleses, 16 000 infantes y hasta 2000 arqueros.",
+        "zh": "1314年6月23日至24日交战。据苏格兰历史环境局估计，苏格兰方有6000至7000名长矛兵和500名骑兵，英格兰方有2000至3000名重骑兵、16000名步兵和至多2000名弓箭手。"
+      },
+      "place": {
+        "name": {
+          "en": "Bannockburn, near Stirling",
+          "es": "Bannockburn, cerca de Stirling",
+          "zh": "斯特灵附近的班诺克本"
+        },
+        "lat": 56.0933,
+        "lon": -3.9378
+      },
+      "wikidataId": "Q222520"
+    },
+    {
+      "id": "treaty-of-edinburgh-northampton",
+      "start": 1328,
+      "title": {
+        "en": "Robert I seals a peace at Holyrood Abbey in Edinburgh, and at Northampton the English government of the young Edward III recognises him as king of Scots without homage",
+        "es": "Roberto I sella una paz en la abadía de Holyrood, en Edimburgo, y en Northampton el gobierno inglés del joven Eduardo III lo reconoce como rey de Escocia sin exigirle homenaje",
+        "zh": "罗伯特一世在爱丁堡霍利鲁德修道院签署和约，年轻的爱德华三世的英格兰政府随后在北安普敦承认他为苏格兰国王，不要求他称臣"
+      },
+      "sources": [
+        {
+          "citation": "Curry, Anne. \"Northampton, treaty of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/northampton-treaty"
+        },
+        {
+          "citation": "Wikipedia (English). \"Treaty of Edinburgh–Northampton.\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Edinburgh%E2%80%93Northampton"
+        },
+        {
+          "citation": "Wikidata. \"Holyrood Abbey\" (Q966862), coordinates.",
+          "url": "https://www.wikidata.org/wiki/Q966862"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Sealed in Edinburgh on 17 March 1328 and ratified at Northampton in early May; sources give 1, 3 or 4 May.",
+        "es": "Sellado en Edimburgo el 17 de marzo de 1328 y ratificado en Northampton a comienzos de mayo; las fuentes dan el 1, el 3 o el 4 de mayo.",
+        "zh": "1328年3月17日在爱丁堡签署，5月初在北安普敦批准；各史料给出的日期有5月1日、3日和4日。"
+      },
+      "place": {
+        "name": {
+          "en": "Holyrood Abbey, Edinburgh",
+          "es": "Abadía de Holyrood, Edimburgo",
+          "zh": "爱丁堡霍利鲁德修道院"
+        },
+        "lat": 55.9532,
+        "lon": -3.1716
+      },
+      "wikidataId": "Q321886"
+    },
+    {
+      "id": "battle-of-dupplin-moor",
+      "start": 1332,
+      "title": {
+        "en": "Having landed at Kinghorn, Edward Balliol and the Disinherited defeat a much larger Scottish army under the regent, Donald, Earl of Mar, on the River Earn near Perth; Mar is killed and Balliol is crowned at Scone the next month",
+        "es": "Tras desembarcar en Kinghorn, Eduardo de Balliol y los desheredados derrotan a un ejército escocés mucho mayor al mando del regente, Domhnall, conde de Mar, junto al río Earn, cerca de Perth; Mar muere y Balliol es coronado en Scone al mes siguiente",
+        "zh": "爱德华·巴里奥与失地贵族在金霍恩登陆后，在珀斯附近的厄恩河畔击败摄政马伯爵多姆纳尔率领的兵力远胜于己的苏格兰军队；马伯爵被杀，巴里奥于次月在斯昆加冕"
+      },
+      "sources": [
+        {
+          "citation": "Historic Environment Scotland. Inventory of Historic Battlefields, \"Battle of Dupplin Moor\" (BTL8).",
+          "url": "http://portal.historicenvironment.scot/designation/BTL8"
+        },
+        {
+          "citation": "Cannon, J. A. \"Dupplin Moor, battle of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dupplin-moor-battle"
+        },
+        {
+          "citation": "Webster, Bruce. \"Balliol, Edward.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/balliol-edward"
+        },
+        {
+          "citation": "The Battlefields Trust. \"Battle of Dupplin Moor.\" Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/medieval/battleview.asp?BattleFieldId=73"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Dated 10–11 August 1332 by Historic Environment Scotland and 11 August by the Oxford Companion (the Battlefields Trust gives 12 August). Historic Environment Scotland puts the Scottish dead in the thousands, many crushed in the press, against two knights and 33 squires of the Disinherited.",
+        "es": "Fechada el 10 y 11 de agosto de 1332 por Historic Environment Scotland y el 11 de agosto por la Oxford Companion (The Battlefields Trust da el 12 de agosto). Historic Environment Scotland cifra los muertos escoceses en miles, muchos aplastados en la aglomeración, frente a dos caballeros y 33 escuderos de los desheredados.",
+        "zh": "苏格兰历史环境局记为1332年8月10日至11日，《牛津英国史指南》记为8月11日（战场信托记为8月12日）。据苏格兰历史环境局，苏格兰方阵亡数以千计，许多人在拥挤中被挤压致死；失地贵族一方只损失两名骑士和33名侍从。"
+      },
+      "place": {
+        "name": {
+          "en": "Dupplin Moor, near Perth",
+          "es": "Dupplin Moor, cerca de Perth",
+          "zh": "珀斯附近的杜普林沼地"
+        },
+        "lat": 56.36,
+        "lon": -3.56
+      },
+      "wikidataId": "Q281648"
+    },
+    {
+      "id": "battle-of-halidon-hill",
+      "start": 1333,
+      "title": {
+        "en": "Edward III's army, besieging Berwick, defeats a Scottish relief army under Archibald Douglas on Halidon Hill; Douglas is killed and Berwick surrenders",
+        "es": "El ejército de Eduardo III, que asedia Berwick, derrota en Halidon Hill a un ejército escocés de socorro al mando de Archibald Douglas; Douglas muere y Berwick se rinde",
+        "zh": "围攻贝里克的爱德华三世军队在哈利顿山击败阿奇博尔德·道格拉斯率领的苏格兰援军；道格拉斯被杀，贝里克投降"
+      },
+      "sources": [
+        {
+          "citation": "The Battlefields Trust. \"Battle of Halidon Hill\" (19 July 1333). Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=16"
+        },
+        {
+          "citation": "Webster, Bruce. \"Balliol, Edward.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/balliol-edward"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second War of Scottish Independence.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_War_of_Scottish_Independence"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Fought on 19 July 1333. The Battlefields Trust describes English losses as few and Scottish losses as heavy. Afterwards Balliol ceded Berwick and much of southern Scotland to Edward III. The site is in England today.",
+        "es": "Librada el 19 de julio de 1333. The Battlefields Trust describe las bajas inglesas como pocas y las escocesas como cuantiosas. Después Balliol cedió Berwick y gran parte del sur de Escocia a Eduardo III. El lugar está hoy en Inglaterra.",
+        "zh": "1333年7月19日交战。据战场信托描述，英格兰方损失很小，苏格兰方损失惨重。此后巴里奥把贝里克和苏格兰南部大片土地割让给爱德华三世。战场今属英格兰。"
+      },
+      "place": {
+        "name": {
+          "en": "Halidon Hill, near Berwick-upon-Tweed",
+          "es": "Halidon Hill, cerca de Berwick-upon-Tweed",
+          "zh": "特威德河畔贝里克附近的哈利顿山"
+        },
+        "lat": 55.7875,
+        "lon": -2.05
+      },
+      "wikidataId": "Q1887057"
+    },
+    {
+      "id": "battle-of-nevilles-cross",
+      "start": 1346,
+      "title": {
+        "en": "At France's urging after Crécy, David II leads an army across the border; English forces from the north defeat it outside Durham and capture the king",
+        "es": "A instancias de Francia tras Crécy, David II cruza la frontera con un ejército; fuerzas inglesas del norte lo derrotan a las afueras de Durham y capturan al rey",
+        "zh": "克雷西之战后，应法国的敦促，大卫二世率军越过边境；英格兰北部的军队在达勒姆城外将其击败，俘虏了国王"
+      },
+      "sources": [
+        {
+          "citation": "Cannon, J. A. \"Neville's Cross, battle of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/nevilles-cross-battle"
+        },
+        {
+          "citation": "The Battlefields Trust. \"Battle of Neville's Cross\" (17 October 1346). Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/medieval/battleview.asp?BattleFieldId=28"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Fought on 17 October 1346. The Battlefields Trust estimates about 1,000 Scots killed and many captured, with English losses probably few. David II was held in England until 1357. The site is in England today.",
+        "es": "Librada el 17 de octubre de 1346. The Battlefields Trust calcula unos 1000 escoceses muertos y muchos prisioneros, con probablemente pocas bajas inglesas. David II estuvo preso en Inglaterra hasta 1357. El lugar está hoy en Inglaterra.",
+        "zh": "1346年10月17日交战。据战场信托估计，苏格兰方约有1000人阵亡，被俘者众多，英格兰方损失可能很小。大卫二世被囚于英格兰，直到1357年。战场今属英格兰。"
+      },
+      "place": {
+        "name": {
+          "en": "Neville's Cross, Durham",
+          "es": "Neville's Cross, Durham",
+          "zh": "达勒姆的内维尔十字"
+        },
+        "lat": 54.7725,
+        "lon": -1.5933
+      },
+      "wikidataId": "Q2204399"
+    },
+    {
+      "id": "treaty-of-berwick",
+      "start": 1357,
+      "title": {
+        "en": "At Berwick, England and Scotland agree to release David II for a ransom of 100,000 merks, payable over ten years, ending the war",
+        "es": "En Berwick, Inglaterra y Escocia acuerdan liberar a David II a cambio de un rescate de 100 000 marcos, pagadero en diez años, lo que pone fin a la guerra",
+        "zh": "英格兰与苏格兰在贝里克议定，以10万马克赎金（分十年付清）释放大卫二世，战争就此结束"
+      },
+      "sources": [
+        {
+          "citation": "Webster, Bruce. \"Scottish Wars of Independence\" and \"David II.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/scottish-wars-independence"
+        },
+        {
+          "citation": "Wikipedia (English). \"Treaty of Berwick (1357).\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Berwick_(1357)"
+        },
+        {
+          "citation": "Wikidata. \"Treaty of Berwick\" (Q3536756), 3 October 1357.",
+          "url": "https://www.wikidata.org/wiki/Q3536756"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Signed on 3 October 1357. Only the first two instalments of the ransom were paid. The Oxford Companion notes that the treaty left the question of Scottish independence aside, but England made no further attempt to subject Scotland until the 1540s.",
+        "es": "Firmado el 3 de octubre de 1357. Solo se pagaron los dos primeros plazos del rescate. La Oxford Companion señala que el tratado dejó de lado la cuestión de la independencia escocesa, pero Inglaterra no volvió a intentar someter a Escocia hasta la década de 1540.",
+        "zh": "1357年10月3日签订。赎金只付了头两期。《牛津英国史指南》指出，条约回避了苏格兰独立问题，但此后直到16世纪40年代，英格兰再未试图使苏格兰臣服。"
+      },
+      "place": {
+        "name": {
+          "en": "Berwick-upon-Tweed",
+          "es": "Berwick-upon-Tweed",
+          "zh": "特威德河畔贝里克"
+        },
+        "lat": 55.7692,
+        "lon": -2.0025
+      },
+      "wikidataId": "Q3536756"
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "William Wallace",
+        "es": "William Wallace",
+        "zh": "威廉·华莱士"
+      },
+      "side": "scotland",
+      "role": {
+        "en": "Guardian of Scotland; won at Stirling Bridge (1297), defeated at Falkirk (1298)",
+        "es": "Guardián de Escocia; venció en el puente de Stirling (1297) y fue derrotado en Falkirk (1298)",
+        "zh": "苏格兰护国主；1297年在斯特灵桥获胜，1298年在福尔柯克战败"
+      },
+      "wikidataId": "Q82457"
+    },
+    {
+      "name": {
+        "en": "Andrew Moray",
+        "es": "Andrew de Moray",
+        "zh": "安德鲁·莫里"
+      },
+      "side": "scotland",
+      "role": {
+        "en": "Led the rising in the north; commanded with Wallace at Stirling Bridge and died of his wounds in 1297",
+        "es": "Dirigió el levantamiento en el norte; mandó junto a Wallace en el puente de Stirling y murió de sus heridas en 1297",
+        "zh": "领导北方起事；与华莱士共同指挥斯特灵桥之战，1297年伤重去世"
+      },
+      "wikidataId": "Q472725"
+    },
+    {
+      "name": {
+        "en": "Robert I (Robert the Bruce)",
+        "es": "Roberto I de Escocia (Roberto Bruce)",
+        "zh": "罗伯特一世（罗伯特·布鲁斯）"
+      },
+      "side": "scotland",
+      "role": {
+        "en": "King of Scots from 1306; won at Bannockburn (1314)",
+        "es": "Rey de Escocia desde 1306; venció en Bannockburn (1314)",
+        "zh": "1306年起为苏格兰国王；1314年在班诺克本获胜"
+      },
+      "wikidataId": "Q187312"
+    },
+    {
+      "name": {
+        "en": "Edward Bruce",
+        "es": "Edward Bruce",
+        "zh": "爱德华·布鲁斯"
+      },
+      "side": "scotland",
+      "role": {
+        "en": "Robert I's brother; led the Scottish campaign in Ireland and was killed there in 1318",
+        "es": "Hermano de Roberto I; dirigió la campaña escocesa en Irlanda y murió allí en 1318",
+        "zh": "罗伯特一世之弟；率苏格兰军征战爱尔兰，1318年战死在那里"
+      },
+      "wikidataId": "Q385362"
+    },
+    {
+      "name": {
+        "en": "Donald, Earl of Mar",
+        "es": "Domhnall, conde de Mar",
+        "zh": "马伯爵多姆纳尔"
+      },
+      "side": "scotland",
+      "role": {
+        "en": "Regent for David II; killed at Dupplin Moor (1332)",
+        "es": "Regente de David II; murió en Dupplin Moor (1332)",
+        "zh": "大卫二世的摄政；1332年战死于杜普林沼地"
+      },
+      "wikidataId": "Q1237391"
+    },
+    {
+      "name": {
+        "en": "Archibald Douglas",
+        "es": "Archibald Douglas",
+        "zh": "阿奇博尔德·道格拉斯"
+      },
+      "side": "scotland",
+      "role": {
+        "en": "Led the Scottish army at Halidon Hill, where he was killed (1333)",
+        "es": "Mandó el ejército escocés en Halidon Hill, donde murió (1333)",
+        "zh": "在哈利顿山指挥苏格兰军队，并战死于此（1333年）"
+      },
+      "wikidataId": "Q528206"
+    },
+    {
+      "name": {
+        "en": "David II",
+        "es": "David II de Escocia",
+        "zh": "大卫二世"
+      },
+      "side": "scotland",
+      "role": {
+        "en": "King of Scots from 1329; captured at Neville's Cross (1346), released in 1357",
+        "es": "Rey de Escocia desde 1329; capturado en Neville's Cross (1346) y liberado en 1357",
+        "zh": "1329年起为苏格兰国王；1346年在内维尔十字被俘，1357年获释"
+      },
+      "wikidataId": "Q239486"
+    },
+    {
+      "name": {
+        "en": "Edward I",
+        "es": "Eduardo I de Inglaterra",
+        "zh": "爱德华一世"
+      },
+      "side": "england",
+      "role": {
+        "en": "King of England; led the 1296 campaign and won at Falkirk (1298)",
+        "es": "Rey de Inglaterra; dirigió la campaña de 1296 y venció en Falkirk (1298)",
+        "zh": "英格兰国王；率领1296年的战役，1298年在福尔柯克获胜"
+      },
+      "wikidataId": "Q57798"
+    },
+    {
+      "name": {
+        "en": "John de Warenne, Earl of Surrey",
+        "es": "John de Warenne, conde de Surrey",
+        "zh": "萨里伯爵约翰·德瓦伦"
+      },
+      "side": "england",
+      "role": {
+        "en": "Commanded the English army defeated at Stirling Bridge (1297)",
+        "es": "Mandó el ejército inglés derrotado en el puente de Stirling (1297)",
+        "zh": "1297年在斯特灵桥战败的英格兰军队的指挥官"
+      },
+      "wikidataId": "Q976367"
+    },
+    {
+      "name": {
+        "en": "Edward II",
+        "es": "Eduardo II de Inglaterra",
+        "zh": "爱德华二世"
+      },
+      "side": "england",
+      "role": {
+        "en": "King of England; defeated at Bannockburn (1314)",
+        "es": "Rey de Inglaterra; derrotado en Bannockburn (1314)",
+        "zh": "英格兰国王；1314年在班诺克本战败"
+      },
+      "wikidataId": "Q5236"
+    },
+    {
+      "name": {
+        "en": "Edward III",
+        "es": "Eduardo III de Inglaterra",
+        "zh": "爱德华三世"
+      },
+      "side": "england",
+      "role": {
+        "en": "King of England; backed Edward Balliol and won at Halidon Hill (1333)",
+        "es": "Rey de Inglaterra; respaldó a Eduardo de Balliol y venció en Halidon Hill (1333)",
+        "zh": "英格兰国王；支持爱德华·巴里奥，1333年在哈利顿山获胜"
+      },
+      "wikidataId": "Q129247"
+    },
+    {
+      "name": {
+        "en": "Edward Balliol",
+        "es": "Eduardo de Balliol",
+        "zh": "爱德华·巴里奥"
+      },
+      "side": "england",
+      "role": {
+        "en": "Son of John Balliol; led the Disinherited, crowned at Scone (1332), gave up his claim to Edward III (1356)",
+        "es": "Hijo de Juan de Balliol; encabezó a los desheredados, fue coronado en Scone (1332) y cedió su pretensión a Eduardo III (1356)",
+        "zh": "约翰·巴里奥之子；率领失地贵族，1332年在斯昆加冕，1356年把王位主张让给爱德华三世"
+      },
+      "wikidataId": "Q471796"
+    },
+    {
+      "name": {
+        "en": "Henry de Beaumont",
+        "es": "Enrique de Beaumont",
+        "zh": "亨利·德博蒙特"
+      },
+      "side": "england",
+      "role": {
+        "en": "Commanded the Disinherited at Dupplin Moor (1332)",
+        "es": "Mandó a los desheredados en Dupplin Moor (1332)",
+        "zh": "1332年在杜普林沼地指挥失地贵族的军队"
+      },
+      "wikidataId": "Q645900"
+    },
+    {
+      "name": {
+        "en": "Ralph Neville",
+        "es": "Ralph Neville",
+        "zh": "拉尔夫·内维尔"
+      },
+      "side": "england",
+      "role": {
+        "en": "One of the English commanders at Neville's Cross (1346)",
+        "es": "Uno de los jefes ingleses en Neville's Cross (1346)",
+        "zh": "1346年内维尔十字之战的英格兰指挥官之一"
+      },
+      "wikidataId": "Q4389604"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "kingdom-of-scotland"
+  ],
+  "sources": [
+    {
+      "citation": "Webster, Bruce. \"Scottish Wars of Independence.\" The Oxford Companion to British History, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/scottish-wars-independence"
+    },
+    {
+      "citation": "Tanner, Roland. \"Franco-Scottish alliance.\" The Oxford Companion to British History, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/franco-scottish-alliance"
+    },
+    {
+      "citation": "Skene, W. F. (ed.) (1872). John of Fordun's Chronicle of the Scottish Nation, annals 171–172 (French knights and gold, 1355). Edinburgh: Edmonston and Douglas. Via Internet Archive.",
+      "url": "https://archive.org/details/johnoffordunschr00fordrich"
+    },
+    {
+      "citation": "McNamee, Colm. \"The Bruce invasions of Ireland.\" History Ireland.",
+      "url": "https://historyireland.com/the-bruce-invasions-of-ireland-11/"
+    },
+    {
+      "citation": "Dictionary of Irish Biography. \"Wogan, John\" (troops from Ireland for Edward I's Scottish campaigns, 1296 and 1301).",
+      "url": "https://www.dib.ie/biography/wogan-john-a9102"
+    },
+    {
+      "citation": "The Battlefields Trust. \"Battle of Falkirk I\" (Welsh and Irish troops in Edward I's army, 1298). Battlefields Hub.",
+      "url": "https://www.battlefieldstrust.com/resource-centre/medieval/battleview.asp?BattleFieldId=62"
+    },
+    {
+      "citation": "Wikipedia (English). \"Wars of Scottish Independence.\"",
+      "url": "https://en.wikipedia.org/wiki/Wars_of_Scottish_Independence"
+    },
+    {
+      "citation": "Wikipedia (English). \"Bruce campaign in Ireland.\"",
+      "url": "https://en.wikipedia.org/wiki/Bruce_campaign_in_Ireland"
+    },
+    {
+      "citation": "Wikipedia (Spanish). \"Guerras de independencia de Escocia.\"",
+      "url": "https://es.wikipedia.org/wiki/Guerras_de_independencia_de_Escocia"
+    },
+    {
+      "citation": "Wikipedia (Chinese). \"苏格兰独立战争.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/苏格兰独立战争"
+    }
+  ]
+}

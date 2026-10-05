@@ -31,7 +31,7 @@
   "toltec": ["MX"],
   "mixtec": ["MX"],
   "aztec": ["MX"],
-  "neolithic-britain": ["GB"],
+  "neolithic-britain": ["GB-ENG", "GB-SCT", "GB-WLS"],
   "minoan": ["GR"],
   "mycenaean": ["GR"],
   "etruscan": ["IT"],
@@ -41,5 +41,9 @@
   "vikings": ["DK", "NO", "SE"],
   "carolingian-empire": ["FR", "DE"],
   "holy-roman-empire": ["DE", "AT"],
-  "egypt": ["EG"]
+  "egypt": ["EG"],
+  "anglo-saxon-england": ["GB-ENG"],
+  "picts": ["GB-SCT"],
+  "kingdom-of-scotland": ["GB-SCT"],
+  "gwynedd": ["GB-WLS"]
 }

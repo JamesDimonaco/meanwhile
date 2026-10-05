@@ -1,0 +1,382 @@
+{
+  "id": "kingdom-of-scotland",
+  "region": "europe",
+  "wikidataId": "Q230791",
+  "name": {
+    "en": "Kingdom of Scotland",
+    "es": "Reino de Escocia",
+    "zh": "苏格兰王国"
+  },
+  "nativeName": {
+    "text": "Rìoghachd na h-Alba",
+    "lang": "gd"
+  },
+  "aliases": [
+    "Alba",
+    "Kingdom of Alba",
+    "Reino de Alba",
+    "阿尔巴王国",
+    "Scotia",
+    "Kingdom of the Scots",
+    "Kinrick o Scotland",
+    "Scotland",
+    "Escocia",
+    "苏格兰"
+  ],
+  "description": {
+    "en": "The kingdom of the Scots in northern Britain. It grew out of the kingdom of the Picts, which a Gaelic dynasty founded by Kenneth MacAlpin took over in the 840s, and in Gaelic it was called Alba. It later took in Lothian and, in 1266, the Hebrides. Scotland kept its own kings through wars with England from 1296 to 1357, shared a monarch with England from 1603, and joined it in the Kingdom of Great Britain in 1707.",
+    "es": "El reino de los escoceses en el norte de Britania. Surgió del reino de los pictos, que una dinastía gaélica fundada por Kenneth MacAlpin tomó en la década de 840, y en gaélico se llamaba Alba. Más tarde incorporó Lothian y, en 1266, las Hébridas. Escocia conservó sus propios reyes durante las guerras con Inglaterra de 1296 a 1357, compartió monarca con Inglaterra desde 1603 y se unió a ella en el Reino de Gran Bretaña en 1707.",
+    "zh": "不列颠北部的苏格兰人王国。它由皮克特人的王国演变而来：9世纪40年代，肯尼思·麦克亚尔平开创的盖尔人王朝接管了皮克特王国，盖尔语称这个王国为阿尔巴。王国后来将洛锡安纳入版图，并于1266年取得赫布里底群岛。1296年至1357年与英格兰交战期间，苏格兰保住了本国的君主；1603年起与英格兰共戴一君，1707年与英格兰合并为大不列颠王国。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 843,
+      "latestStart": 900,
+      "earliestEnd": 1707,
+      "latestEnd": 1707,
+      "sources": [
+        {
+          "citation": "Wikidata. \"Kingdom of Scotland\" (Q230791): inception 843, dissolved 30 April 1707.",
+          "url": "https://www.wikidata.org/wiki/Q230791"
+        },
+        {
+          "citation": "The Royal Family. \"Kenneth I (r. 843–858).\"",
+          "url": "https://www.royal.uk/kenneth-i-r-843-858"
+        },
+        {
+          "citation": "Cannon, J. A. \"Alba, kingdom of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/alba-kingdom"
+        },
+        {
+          "citation": "Annals of Ulster, U858.2 (Cinaed son of Ailpín, \"rex Pictorum\") and U900.6 (Domnall son of Constantín, \"rí Alban\"). CELT, University College Cork: Irish text and English translation.",
+          "url": "https://celt.ucc.ie/published/G100001A.html"
+        },
+        {
+          "citation": "Historic Environment Scotland. Scottish Archaeological Periods & Ages (ScAPA), \"House of Alpin\" (848–1034), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0xxt6tm5h4"
+        },
+        {
+          "citation": "National Records of Scotland, Scottish Archives for Schools. \"The Union of 1707: Timeline\" (Act of Union came into effect 1 May 1707).",
+          "url": "https://www.scottisharchivesforschools.org/union1707/timeline.asp"
+        },
+        {
+          "citation": "Woolf, Alex (2007). From Pictland to Alba, 789–1070. The New Edinburgh History of Scotland, vol. 2. Edinburgh University Press."
+        },
+        {
+          "citation": "Wikipedia (English). \"Kingdom of Alba\" (900–1286).",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "843, when Kenneth MacAlpin is traditionally said to have become king of the Picts, is the usual start, but it is contested: the Irish annals still call him king of the Picts when he died in 858, Historic Environment Scotland starts his dynasty in 848, and the first king the annals call king of Alba died in 900. The kingdom ended when the Acts of Union took effect on 1 May 1707 (Wikidata gives 30 April, the last day before). It is one bar with no separate Alba phase, because historians end the Alba period in different places: the 11th century, 1070 or 1286.",
+        "es": "843, cuando según la tradición Kenneth MacAlpin se convirtió en rey de los pictos, es el inicio habitual, pero se discute: los anales irlandeses aún lo llaman rey de los pictos cuando murió en 858, Historic Environment Scotland hace empezar su dinastía en 848, y el primer rey al que los anales llaman rey de Alba murió en 900. El reino terminó cuando entraron en vigor las Actas de Unión, el 1 de mayo de 1707 (Wikidata da el 30 de abril, el último día anterior). Es una sola barra sin una fase separada de Alba, porque los historiadores cierran el período de Alba en momentos distintos: el siglo XI, 1070 o 1286.",
+        "zh": "通常以843年为起点，相传肯尼思·麦克亚尔平在这一年成为皮克特人的国王，但这一说法有争议：爱尔兰编年史在他858年去世时仍称他为皮克特人的国王；苏格兰历史环境局将其王朝的起点定在848年；编年史中第一位被称为阿尔巴国王的君主死于900年。王国终结于1707年5月1日《联合法令》生效之时（维基数据给出的是4月30日，即生效前的最后一天）。本条只画一条时间线，不单独分出阿尔巴阶段，因为历史学家对阿尔巴时期何时结束说法不一：11世纪、1070年或1286年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "kenneth-macalpin",
+      "start": 843,
+      "type": "founding",
+      "title": {
+        "en": "Kenneth MacAlpin (Cináed mac Ailpín), a Gaelic king from the west, becomes king of the Picts; later tradition counts him the first king of Scots",
+        "es": "Kenneth MacAlpin (Cináed mac Ailpín), un rey gaélico del oeste, se convierte en rey de los pictos; la tradición posterior lo cuenta como el primer rey de los escoceses",
+        "zh": "来自西部的盖尔人国王肯尼思·麦克亚尔平（Cináed mac Ailpín）成为皮克特人的国王；后世传统将他视为第一位苏格兰国王"
+      },
+      "sources": [
+        {
+          "citation": "The Royal Family. \"Kenneth I (r. 843–858).\"",
+          "url": "https://www.royal.uk/kenneth-i-r-843-858"
+        },
+        {
+          "citation": "Cannon, J. A. \"Alba, kingdom of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/alba-kingdom"
+        },
+        {
+          "citation": "Annals of Ulster, U858.2. CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/T100001A.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Kenneth MacAlpin.\"",
+          "url": "https://en.wikipedia.org/wiki/Kenneth_MacAlpin"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The year is uncertain: dates of 841, 842, 843 and 848 are all given, and no source describes how he took the Pictish kingdom. At his death in 858 the Annals of Ulster still call him king of the Picts.",
+        "es": "El año es incierto: se dan las fechas 841, 842, 843 y 848, y ninguna fuente describe cómo tomó el reino picto. A su muerte en 858, los Anales de Úlster aún lo llaman rey de los pictos.",
+        "zh": "年份不确定：841、842、843和848年等说法都有，也没有任何史料记载他如何取得皮克特王国。858年他去世时，《阿尔斯特编年史》仍称他为皮克特人的国王。"
+      }
+    },
+    {
+      "id": "first-king-of-alba",
+      "start": 900,
+      "type": "ruler",
+      "title": {
+        "en": "Donald II (Domnall son of Constantín) dies; the Annals of Ulster call him king of Alba, the first king to carry that title",
+        "es": "Muere Donald II (Domnall hijo de Constantín); los Anales de Úlster lo llaman rey de Alba, el primer rey con ese título",
+        "zh": "唐纳德二世（君士坦丁之子多姆纳尔）去世；《阿尔斯特编年史》称他为阿尔巴国王，他是第一位拥有这一称号的君主"
+      },
+      "sources": [
+        {
+          "citation": "Annals of Ulster, U900.6: \"Domnall m. Caustantin, ri Alban, moritur.\" CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/G100001A.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Kingdom of Alba.\"",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        },
+        {
+          "citation": "Wikipedia (English). \"Kenneth MacAlpin\" (contemporary annals call Kenneth and his first successors kings of the Picts).",
+          "url": "https://en.wikipedia.org/wiki/Kenneth_MacAlpin"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "battle-of-carham",
+      "start": 1018,
+      "type": "conflict",
+      "title": {
+        "en": "Malcolm II and his ally Owain of Strathclyde defeat the Northumbrians at Carham on the Tweed",
+        "es": "Malcolm II y su aliado Owain de Strathclyde derrotan a los northumbrios en Carham, junto al Tweed",
+        "zh": "马尔科姆二世与盟友斯特拉斯克莱德的欧文在特威德河畔的卡勒姆击败诺森布里亚人"
+      },
+      "sources": [
+        {
+          "citation": "Cannon, J. A. \"Carham, battle of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/carham-battle"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Carham.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Carham"
+        },
+        {
+          "citation": "Wikidata. \"Battle of Carham\" (Q2575960), coordinates.",
+          "url": "https://www.wikidata.org/wiki/Q2575960"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Durham sources give 1018; some historians have argued for 1016. The Oxford Companion says the victory confirmed Scotland's hold on Lothian and helped make the Tweed the border; more recent work finds no direct evidence for that link. Carham is in England today.",
+        "es": "Las fuentes de Durham dan 1018; algunos historiadores han defendido 1016. La Oxford Companion afirma que la victoria afianzó el dominio escocés sobre Lothian y contribuyó a fijar el Tweed como frontera; estudios más recientes no encuentran pruebas directas de ese vínculo. Carham está hoy en Inglaterra.",
+        "zh": "达勒姆的史料记为1018年，也有历史学家主张1016年。《牛津英国史指南》认为此役巩固了苏格兰对洛锡安的控制，并促成以特威德河为界；较新的研究则认为没有直接证据支持这种联系。卡勒姆今属英格兰。"
+      },
+      "place": {
+        "name": {
+          "en": "Carham, on the Tweed",
+          "es": "Carham, junto al Tweed",
+          "zh": "特威德河畔的卡勒姆"
+        },
+        "lat": 55.6369,
+        "lon": -2.3208
+      }
+    },
+    {
+      "id": "declaration-of-arbroath",
+      "start": 1320,
+      "type": "invention",
+      "title": {
+        "en": "Scotland's barons send Pope John XXII a letter, dated at Arbroath, asserting the kingdom's independence and Robert I's right to rule: the Declaration of Arbroath",
+        "es": "Los barones de Escocia envían al papa Juan XXII una carta, fechada en Arbroath, que afirma la independencia del reino y el derecho de Roberto I a reinar: la Declaración de Arbroath",
+        "zh": "苏格兰贵族致信教皇约翰二十二世，信末署于阿布罗斯，宣称王国独立、罗伯特一世有权为王，即《阿布罗斯宣言》"
+      },
+      "sources": [
+        {
+          "citation": "National Records of Scotland. \"What is the Declaration?\" (5 April 2023).",
+          "url": "https://blog.nrscotland.gov.uk/2023/04/05/what-is-the-declaration"
+        },
+        {
+          "citation": "Webster, Bruce. \"Arbroath, declaration of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/arbroath-declaration"
+        },
+        {
+          "citation": "Wikidata. \"Declaration of Arbroath\" (Q598496), date 6 April 1320; \"Arbroath Abbey\" (Q630683), coordinates.",
+          "url": "https://www.wikidata.org/wiki/Q598496"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The letter is dated 6 April 1320. It drew little notice until it was published in the late 17th century; the name \"Declaration of Arbroath\" is modern.",
+        "es": "La carta está fechada el 6 de abril de 1320. Llamó poco la atención hasta que se publicó a finales del siglo XVII; el nombre de \"Declaración de Arbroath\" es moderno.",
+        "zh": "此信落款日期为1320年4月6日。直到17世纪末刊印之前，它很少受到关注；“阿布罗斯宣言”这一名称是近代才有的。"
+      },
+      "place": {
+        "name": {
+          "en": "Arbroath Abbey",
+          "es": "Abadía de Arbroath",
+          "zh": "阿布罗斯修道院"
+        },
+        "lat": 56.5625,
+        "lon": -2.5822
+      }
+    },
+    {
+      "id": "battle-of-flodden",
+      "start": 1513,
+      "type": "conflict",
+      "title": {
+        "en": "Keeping his alliance with France, James IV leads an army across the Tweed into England and is killed at Flodden with many of Scotland's nobles",
+        "es": "Fiel a su alianza con Francia, Jacobo IV cruza el Tweed con un ejército hacia Inglaterra y muere en Flodden junto con muchos nobles escoceses",
+        "zh": "为履行与法国的盟约，詹姆斯四世率军渡过特威德河进入英格兰，与众多苏格兰贵族一同战死于弗洛登"
+      },
+      "sources": [
+        {
+          "citation": "Cannon, J. A. \"Flodden, battle of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/flodden-battle"
+        },
+        {
+          "citation": "The Battlefields Trust. \"Battle of Flodden\" (9 September 1513). Battlefields Hub.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/early-modern/battleview.asp?BattleFieldId=15"
+        },
+        {
+          "citation": "Wikidata. \"Battle of Flodden\" (Q1300742), date and coordinates.",
+          "url": "https://www.wikidata.org/wiki/Q1300742"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The Battlefields Trust estimates about 10,000 Scottish and 4,000 English dead. James IV was the last reigning monarch in Britain to be killed in battle. The field, near Branxton, is in England today.",
+        "es": "The Battlefields Trust calcula unos 10 000 muertos escoceses y 4000 ingleses. Jacobo IV fue el último monarca reinante de Britania muerto en combate. El campo, cerca de Branxton, está hoy en Inglaterra.",
+        "zh": "据战场信托（Battlefields Trust）估计，苏格兰方约有1万人、英格兰方约有4000人阵亡。詹姆斯四世是不列颠最后一位战死沙场的在位君主。战场位于布兰克斯顿附近，今属英格兰。"
+      },
+      "place": {
+        "name": {
+          "en": "Flodden, near Branxton",
+          "es": "Flodden, cerca de Branxton",
+          "zh": "布兰克斯顿附近的弗洛登"
+        },
+        "lat": 55.6269,
+        "lon": -2.1753
+      }
+    },
+    {
+      "id": "union-of-the-crowns",
+      "start": 1603,
+      "type": "ruler",
+      "title": {
+        "en": "James VI inherits the English throne on the death of Elizabeth I and moves to London as James I; the two kingdoms share a king but keep separate parliaments, laws and churches",
+        "es": "Jacobo VI hereda el trono inglés a la muerte de Isabel I y se traslada a Londres como Jacobo I; los dos reinos comparten rey pero mantienen parlamentos, leyes e iglesias separados",
+        "zh": "伊丽莎白一世去世，詹姆斯六世继承英格兰王位，以詹姆斯一世的身份移居伦敦；两国共戴一君，但议会、法律和教会仍各自独立"
+      },
+      "sources": [
+        {
+          "citation": "National Library of Scotland. \"James VI and the Union of the Crowns.\"",
+          "url": "https://www.nls.uk/collections/stories/scottish-history/james-vi-and-the-union-of-the-crowns/"
+        },
+        {
+          "citation": "National Records of Scotland, Scottish Archives for Schools. \"The Union of 1707: Timeline\" (1603, Union of the Crowns).",
+          "url": "https://www.scottisharchivesforschools.org/union1707/timeline.asp"
+        },
+        {
+          "citation": "Wikidata. \"Union of the Crowns\" (Q2732400): 24 March 1603.",
+          "url": "https://www.wikidata.org/wiki/Q2732400"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "acts-of-union",
+      "start": 1707,
+      "type": "collapse",
+      "title": {
+        "en": "The Acts of Union take effect: Scotland and England become one Kingdom of Great Britain with a single parliament at Westminster, while Scotland keeps its own law and church",
+        "es": "Entran en vigor las Actas de Unión: Escocia e Inglaterra pasan a ser un único Reino de Gran Bretaña con un solo parlamento en Westminster, mientras Escocia conserva su propio derecho y su iglesia",
+        "zh": "《联合法令》生效：苏格兰与英格兰合为大不列颠王国，在威斯敏斯特设立统一议会，苏格兰保留自己的法律和教会"
+      },
+      "sources": [
+        {
+          "citation": "National Records of Scotland, Scottish Archives for Schools. \"The Union of 1707: Timeline\" (Act of Union came into effect 1 May 1707).",
+          "url": "https://www.scottisharchivesforschools.org/union1707/timeline.asp"
+        },
+        {
+          "citation": "National Records of Scotland, Scottish Archives for Schools. \"The Union of 1707: The Union Achieved.\"",
+          "url": "https://www.scottisharchivesforschools.org/union1707/chapter7.asp"
+        },
+        {
+          "citation": "The Scottish Parliament. \"Origins of the Scottish Parliament.\"",
+          "url": "https://www.parliament.scot/about/history-of-the-scottish-parliament/origins-of-the-scottish-parliament"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The Scottish Parliament approved the treaty on 16 January 1707 by 110 votes to 67, with 46 members absent or abstaining.",
+        "es": "El Parlamento de Escocia aprobó el tratado el 16 de enero de 1707 por 110 votos contra 67, con 46 miembros ausentes o abstenidos.",
+        "zh": "苏格兰议会于1707年1月16日以110票对67票通过该条约，另有46名议员缺席或弃权。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "alba-still-gaelic-name",
+      "text": {
+        "en": "Alba, the kingdom's Gaelic name from about 900, is still what Scotland is called in Scottish Gaelic today.",
+        "es": "Alba, el nombre gaélico del reino desde hacia el año 900, sigue siendo el nombre de Escocia en gaélico escocés.",
+        "zh": "约公元900年起，这个王国的盖尔语名称是阿尔巴（Alba）；时至今日，苏格兰盖尔语仍这样称呼苏格兰。"
+      },
+      "start": 900,
+      "end": 1707,
+      "sources": [
+        {
+          "citation": "Cannon, J. A. \"Alba, kingdom of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/alba-kingdom"
+        },
+        {
+          "citation": "Annals of Ulster, U900.6 (\"ri Alban\"). CELT, University College Cork.",
+          "url": "https://celt.ucc.ie/published/G100001A.html"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "arbroath-file-copy",
+      "text": {
+        "en": "The Declaration of Arbroath survives only as the Scottish file copy: the letters actually sent to the pope in 1320 are lost.",
+        "es": "La Declaración de Arbroath solo se conserva en la copia de archivo escocesa: las cartas que realmente se enviaron al papa en 1320 se han perdido.",
+        "zh": "《阿布罗斯宣言》只有苏格兰留存的档案副本传世，1320年真正送交教皇的信件已经失传。"
+      },
+      "start": 1320,
+      "end": 1320,
+      "sources": [
+        {
+          "citation": "National Records of Scotland. \"What is the Declaration?\" (5 April 2023).",
+          "url": "https://blog.nrscotland.gov.uk/2023/04/05/what-is-the-declaration"
+        },
+        {
+          "citation": "Wikipedia (English). \"Declaration of Arbroath\" (the copy sent to Avignon is lost; the Scottish file copy survives).",
+          "url": "https://en.wikipedia.org/wiki/Declaration_of_Arbroath"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "one-king-two-kingdoms",
+      "text": {
+        "en": "From 1603 to 1707 Scotland and England had the same king but two parliaments, two legal systems and two churches.",
+        "es": "De 1603 a 1707 Escocia e Inglaterra tuvieron el mismo rey, pero dos parlamentos, dos sistemas jurídicos y dos iglesias.",
+        "zh": "1603年至1707年间，苏格兰与英格兰同属一位君主，却有两个议会、两套法律体系和两个教会。"
+      },
+      "start": 1603,
+      "end": 1707,
+      "sources": [
+        {
+          "citation": "National Library of Scotland. \"James VI and the Union of the Crowns.\"",
+          "url": "https://www.nls.uk/collections/stories/scottish-history/james-vi-and-the-union-of-the-crowns/"
+        },
+        {
+          "citation": "National Records of Scotland, Scottish Archives for Schools. \"The Union of 1707: Timeline\" (1603, Union of the Crowns; 1 May 1707, Union in force).",
+          "url": "https://www.scottisharchivesforschools.org/union1707/timeline.asp"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

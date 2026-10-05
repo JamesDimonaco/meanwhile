@@ -90,6 +90,14 @@ describe("countryIndex", () => {
     expect(countryIndex(wars, "zh").find((c) => c.code === "MX")?.name).toBe("墨西哥");
   });
 
+  it("leaves the UK's nations off the list and counts their wars for the UK", () => {
+    const wars = [war("scots", 1296, { today: [["GB-SCT"], ["GB-ENG"]] }), war("falklands", 1982, { today: [["GB"], ["AR"]] })];
+    expect(countryIndex(wars, "en").map(({ code, count }) => ({ code, count }))).toEqual([
+      { code: "AR", count: 1 },
+      { code: "GB", count: 2 },
+    ]);
+  });
+
   it("lets a country be found by its code or its name in any language, whatever the page's language", () => {
     const mexico = countryIndex([war("one", 1519)], "zh").find((c) => c.code === "MX");
     expect(mexico).toMatchObject({ name: "墨西哥", english: "Mexico", terms: ["MX", "México"] });
@@ -152,6 +160,10 @@ describe("countriesToday (the war page's line under the sides)", () => {
   it("is empty when the sides already show every country as a state", () => {
     expect(countriesToday(byId("gulf-war"), "en")).toEqual([]);
     expect(countriesToday(byId("falklands-war"), "en")).toEqual([]);
+  });
+
+  it("names the UK's nations a war lists, which have pages of their own", () => {
+    expect(countriesToday(war("scots", 1296, { today: [["GB-SCT"], ["GB-ENG"]] }), "en")).toEqual(["GB-ENG", "GB-SCT"]);
   });
 
   it("names only the countries the sides don't already show as states", () => {

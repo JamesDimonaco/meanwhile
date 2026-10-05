@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
+import { countryName } from "@/lib/data/nations";
 import today from "../../../data/today.json";
 
 // Tiny, and validated by validate-data before every build, so it ships with
@@ -31,8 +32,7 @@ export function HeartlandFlags({ cultureId, max }: { cultureId: string; max?: nu
   const codes = HEARTLAND[cultureId];
   if (!codes) return null;
 
-  const names = new Intl.DisplayNames([locale], { type: "region" });
-  const countries = new Intl.ListFormat(locale, { type: "conjunction" }).format(codes.map((c) => names.of(c) ?? c));
+  const countries = new Intl.ListFormat(locale, { type: "conjunction" }).format(codes.map((c) => countryName(c, locale)));
   const label = t("heartlandToday", { countries });
   return (
     <span role="img" aria-label={label} title={label} className="inline-flex shrink-0 items-center gap-0.5">

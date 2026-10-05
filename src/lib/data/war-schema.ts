@@ -21,14 +21,14 @@ const Text = z.string().trim().min(1);
 const WikidataId = z.string().regex(/^Q\d+$/, "Wikidata ids look like Q12345");
 const IsoDate = z.iso.date();
 const Today = z
-  .array(z.string().regex(/^[A-Z]{2}$/, "codes are upper-case ISO 3166-1 alpha-2, e.g. MX"))
+  .array(z.string().regex(/^[A-Z]{2}(-[A-Z0-9]{1,3})?$/, "codes are upper-case ISO 3166-1 alpha-2, e.g. MX, or GB-ENG, GB-SCT, GB-WLS"))
   .min(1)
   .max(MAX_TODAY_COUNTRIES);
 const Role = z.enum(MEMBER_ROLES);
 
 /**
- * One party on a side. `today` = the present-day countries whose wars page
- * lists this war for this member. Only a `state` member gets a flag.
+ * One party on a side. `today` = the present-day countries (or UK nations)
+ * whose pages list this war for this member. Only a `state` member gets a flag.
  */
 export const SideMember = z.discriminatedUnion("kind", [
   /** A culture from data/registry.json: linked to its page. */

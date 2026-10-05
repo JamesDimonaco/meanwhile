@@ -206,6 +206,21 @@ describe("wars", () => {
       }
     });
 
+    it("accepts England, Scotland and Wales, and no other subdivision", () => {
+      expect(errorsFor(withToday(["GB-ENG", "GB-SCT", "GB-WLS"]))).toBe("");
+      for (const code of ["GB-NIR", "CN-XZ", "CN-XJ"]) {
+        expect(errorsFor(withToday([code]))).toMatch(new RegExp(`"${code}" is not a UN member state`));
+      }
+    });
+
+    it("rejects a nation as a state member: states are UN members", () => {
+      const sides = [
+        { id: "a", label: t("A"), members: [{ kind: "state", code: "GB-SCT", role: "belligerent", today: ["GB-SCT"] }] },
+        warJson("w").sides[1],
+      ];
+      expect(errorsFor(warJson("w", { sides }))).toMatch(/code/);
+    });
+
     it("rejects a state member that is not a listable country, since it gets a flag", () => {
       const sides = [
         { id: "a", label: t("A"), members: [{ kind: "state", code: "TW", role: "belligerent", today: ["CN"] }] },

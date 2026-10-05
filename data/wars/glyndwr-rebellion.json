@@ -1,0 +1,619 @@
+{
+  "id": "glyndwr-rebellion",
+  "wikidataId": "Q4126360",
+  "name": {
+    "en": "Glyndŵr rebellion",
+    "es": "Rebelión de Glyndŵr",
+    "zh": "格兰道尔起义"
+  },
+  "noWikiTitle": [
+    "es",
+    "zh"
+  ],
+  "aliases": [
+    "Glyndŵr Rising",
+    "Glyndwr rebellion",
+    "Glyndwr rising",
+    "Owain Glyndŵr",
+    "Owain Glyn Dŵr",
+    "Owen Glendower",
+    "Glendower's rebellion",
+    "Welsh revolt of 1400",
+    "Gwrthryfel Glyndŵr",
+    "Revuelta de Owain Glyndŵr",
+    "格林杜尔起义",
+    "欧文·格林杜尔"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "In September 1400 Owain Glyndŵr, a Welsh landowner descended from the princes of Powys and Deheubarth, was proclaimed Prince of Wales by his kinsmen after a land dispute with his neighbour Reginald Grey, lord of Ruthin, and his followers attacked Ruthin and other English-held towns in north-east Wales. In 1401 his cousins took Conwy Castle. In 1402 his forces defeated and captured Sir Edmund Mortimer at Bryn Glas; Mortimer then joined Owain and married his daughter. Owain's English allies, the Percys, were defeated at Shrewsbury in 1403. In 1404 he took Harlech and Aberystwyth, held an assembly at Machynlleth and made a treaty with Charles VI of France, whose troops landed at Milford Haven in 1405. From 1405 his forces lost ground: English armies under Henry of Monmouth blockaded Wales and took Aberystwyth in 1408 and Harlech in 1409. Owain fought on from the hills, was last seen by his enemies in 1412 and was never captured. No reliable count of the dead survives.",
+    "es": "En septiembre de 1400 Owain Glyndŵr, un terrateniente galés descendiente de los príncipes de Powys y Deheubarth, fue proclamado príncipe de Gales por sus parientes tras una disputa de tierras con su vecino Reginald Grey, señor de Ruthin, y sus seguidores atacaron Ruthin y otras villas en manos inglesas del noreste de Gales. En 1401 sus primos tomaron el castillo de Conwy. En 1402 sus fuerzas derrotaron y capturaron a sir Edmund Mortimer en Bryn Glas; Mortimer se pasó después al bando de Owain y se casó con su hija. Los aliados ingleses de Owain, los Percy, fueron derrotados en Shrewsbury en 1403. En 1404 tomó Harlech y Aberystwyth, celebró una asamblea en Machynlleth y firmó un tratado con Carlos VI de Francia, cuyas tropas desembarcaron en Milford Haven en 1405. Desde 1405 sus fuerzas perdieron terreno: los ejércitos ingleses de Enrique de Monmouth bloquearon Gales y tomaron Aberystwyth en 1408 y Harlech en 1409. Owain siguió luchando desde las montañas, fue visto por última vez por sus enemigos en 1412 y nunca fue capturado. No se conserva un recuento fiable de los muertos.",
+    "zh": "1400年9月，出身波伊斯和德修巴斯亲王世系的威尔士地主欧文·格林杜尔，在与邻居鲁辛领主雷金纳德·格雷发生土地纠纷后，被亲族拥立为威尔士亲王，其追随者随即进攻鲁辛和威尔士东北部其他由英格兰人控制的城镇。1401年，他的表兄弟攻占康威城堡。1402年，他的军队在布林格拉斯击败并俘虏埃德蒙·莫蒂默爵士；莫蒂默随后倒向欧文，并娶了他的女儿。1403年，欧文的英格兰盟友珀西家族在什鲁斯伯里战败。1404年，他攻占哈莱克和阿伯里斯特威斯，在马汉莱斯召开会议，并与法国国王查理六世缔约，法军于1405年在米尔福德港登陆。1405年起他的军队节节失利：蒙茅斯的亨利率领的英格兰军队封锁威尔士，于1408年攻占阿伯里斯特威斯，1409年攻占哈莱克。欧文退入山区继续作战，1412年后敌人再未见到他，他始终未被俘获。这场战争的死亡人数没有可靠统计留存。"
+  },
+  "outcome": {
+    "en": "The English crown again held all of Wales between 1409 and about 1415; Owain disappeared around 1415, and his son Maredudd accepted a royal pardon in 1421.",
+    "es": "La corona inglesa volvió a dominar todo Gales entre 1409 y hacia 1415; Owain desapareció hacia 1415, y su hijo Maredudd aceptó un perdón real en 1421.",
+    "zh": "1409年至约1415年间，英格兰王室重新控制了威尔士全境；欧文约在1415年下落不明，其子马雷迪兹于1421年接受了王室赦免。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 1400,
+    "latestStart": 1400,
+    "earliestEnd": 1409,
+    "latestEnd": 1415,
+    "sources": [
+      {
+        "citation": "Cannon, John (ed.). \"Glyndŵr, Owain.\" The Oxford Companion to British History, via Encyclopedia.com.",
+        "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/glyndwr-owain"
+      },
+      {
+        "citation": "Pierce, Thomas Jones (1959). \"Owain Glyndŵr (c. 1354–1416), 'Prince of Wales'.\" Dictionary of Welsh Biography, National Library of Wales.",
+        "url": "https://biography.wales/article/s-OWAI-GLY-1354"
+      },
+      {
+        "citation": "Royal Commission on the Ancient and Historical Monuments of Wales. \"In the steps of Owain Glyndŵr.\"",
+        "url": "https://rcahmw.gov.uk/in-the-steps-of-owain-glyndwr/"
+      },
+      {
+        "citation": "Wikipedia (English). \"Glyndŵr rebellion.\"",
+        "url": "https://en.wikipedia.org/wiki/Glynd%C5%B5r_rebellion"
+      },
+      {
+        "citation": "Wikidata. \"Glyndŵr Rebellion\" (Q4126360), start and end time.",
+        "url": "https://www.wikidata.org/wiki/Q4126360"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "The rising has no agreed end. Harlech, Owain's last castle, fell in 1409 (the Oxford Companion says 1408); Owain raided Shropshire in 1410 and was last seen by his enemies in 1412. He did not answer Henry V's offer of a pardon in 1415 and probably died around 1415 or 1416; Wikidata ends the rising in 1415. His son Maredudd accepted a pardon in 1421.",
+      "es": "El levantamiento no tiene un final acordado. Harlech, el último castillo de Owain, cayó en 1409 (el Oxford Companion dice 1408); Owain atacó Shropshire en 1410 y sus enemigos lo vieron por última vez en 1412. No respondió a la oferta de perdón de Enrique V en 1415 y probablemente murió hacia 1415 o 1416; Wikidata da 1415 como final. Su hijo Maredudd aceptó un perdón en 1421.",
+      "zh": "这场起事没有公认的结束时间。欧文的最后一座城堡哈莱克于1409年陷落（《牛津英国史指南》作1408年）；欧文1410年袭击什罗普郡，1412年后敌人再未见到他。1415年他没有回应亨利五世的赦免提议，大约死于1415年或1416年；维基数据以1415年为终点。其子马雷迪兹于1421年接受赦免。"
+    }
+  },
+  "sides": [
+    {
+      "id": "welsh-rising",
+      "label": {
+        "en": "Owain Glyndŵr's Welsh forces and their allies",
+        "es": "Las fuerzas galesas de Owain Glyndŵr y sus aliados",
+        "zh": "欧文·格林杜尔的威尔士军队及其盟友"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Owain Glyndŵr's Welsh forces",
+            "es": "Fuerzas galesas de Owain Glyndŵr",
+            "zh": "欧文·格林杜尔的威尔士军队"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-WLS"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "English rebels allied with Owain: Sir Edmund Mortimer (from 1402), Henry 'Hotspur' Percy (1403) and the earl of Northumberland (1405)",
+            "es": "Rebeldes ingleses aliados de Owain: sir Edmund Mortimer (desde 1402), Henry Percy, «Hotspur» (1403), y el conde de Northumberland (1405)",
+            "zh": "与欧文结盟的英格兰叛军：埃德蒙·莫蒂默爵士（1402年起）、“热刺”亨利·珀西（1403年）和诺森伯兰伯爵（1405年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of France, which sent troops under Charles VI's treaty with Owain (1405)",
+            "es": "Reino de Francia, que envió tropas en virtud del tratado de Carlos VI con Owain (1405)",
+            "zh": "法兰西王国，依据查理六世与欧文的条约派兵（1405年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "FR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "england",
+      "label": {
+        "en": "Kingdom of England under Henry IV",
+        "es": "Reino de Inglaterra bajo Enrique IV",
+        "zh": "亨利四世治下的英格兰王国"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Kingdom of England under Henry IV and his son Henry of Monmouth",
+            "es": "Reino de Inglaterra bajo Enrique IV y su hijo Enrique de Monmouth",
+            "zh": "亨利四世及其子蒙茅斯的亨利治下的英格兰王国"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Supporters of the Crown in Wales, among them the Flemish, English and Welsh settlers of Pembrokeshire and Dafydd Gam of Brecon",
+            "es": "Partidarios de la Corona en Gales, entre ellos los colonos flamencos, ingleses y galeses de Pembrokeshire y Dafydd Gam de Brecon",
+            "zh": "威尔士境内支持王室的人，包括彭布罗克郡的佛兰芒、英格兰和威尔士定居者以及布雷肯的戴维兹·盖姆"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-WLS"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "proclaimed-prince",
+      "start": 1400,
+      "title": {
+        "en": "Owain Glyndŵr's kinsmen and followers proclaim him Prince of Wales at Glyndyfrdwy on 16 September; within days they attack Ruthin and other English-held towns",
+        "es": "Los parientes y seguidores de Owain Glyndŵr lo proclaman príncipe de Gales en Glyndyfrdwy el 16 de septiembre; en pocos días atacan Ruthin y otras villas en manos inglesas",
+        "zh": "9月16日，欧文·格林杜尔的亲族和追随者在格林德弗尔杜伊拥立他为威尔士亲王；几天之内他们便进攻鲁辛和其他由英格兰人控制的城镇"
+      },
+      "sources": [
+        {
+          "citation": "Cannon, John (ed.). \"Glyndŵr, Owain.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/glyndwr-owain"
+        },
+        {
+          "citation": "Royal Commission on the Ancient and Historical Monuments of Wales. \"In the steps of Owain Glyndŵr.\"",
+          "url": "https://rcahmw.gov.uk/in-the-steps-of-owain-glyndwr/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Glyndŵr rebellion.\"",
+          "url": "https://en.wikipedia.org/wiki/Glynd%C5%B5r_rebellion"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Oxford Companion and the Royal Commission name Glyndyfrdwy; English Wikipedia's article on Owain places the proclamation at his other house, Sycharth. The Dictionary of Welsh Biography dates the attack on Ruthin to 16 September itself, English Wikipedia to 18 September.",
+        "es": "El Oxford Companion y la Royal Commission señalan Glyndyfrdwy; el artículo de la Wikipedia en inglés sobre Owain sitúa la proclamación en su otra casa, Sycharth. El Dictionary of Welsh Biography fecha el ataque a Ruthin el mismo 16 de septiembre, y la Wikipedia en inglés el 18 de septiembre.",
+        "zh": "《牛津英国史指南》和威尔士皇家古迹委员会都说是在格林德弗尔杜伊；英文维基百科的欧文条目则说拥立发生在他的另一处宅邸西哈斯。《威尔士传记辞典》把进攻鲁辛的日期定在9月16日当天，英文维基百科则作9月18日。"
+      },
+      "place": {
+        "name": {
+          "en": "Glyndyfrdwy",
+          "es": "Glyndyfrdwy",
+          "zh": "格林德弗尔杜伊"
+        },
+        "lat": 52.9754,
+        "lon": -3.2679
+      }
+    },
+    {
+      "id": "conwy-castle-taken",
+      "start": 1401,
+      "title": {
+        "en": "Owain's cousins Rhys and Gwilym ap Tudur take Conwy Castle by surprise on Good Friday, 1 April, while most of the garrison is at church in the town",
+        "es": "Los primos de Owain, Rhys y Gwilym ap Tudur, toman por sorpresa el castillo de Conwy el Viernes Santo, 1 de abril, mientras la mayor parte de la guarnición está en la iglesia del pueblo",
+        "zh": "4月1日耶稣受难日，欧文的表兄弟里斯·阿普·图多尔和格威利姆·阿普·图多尔趁大部分守军在镇上教堂之际，突袭攻占康威城堡"
+      },
+      "sources": [
+        {
+          "citation": "Cannon, John (ed.). \"Glyndŵr, Owain.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/glyndwr-owain"
+        },
+        {
+          "citation": "Cartwright, Mark (2019). \"Conwy Castle.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Conwy_Castle/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Conwy Castle.\"",
+          "url": "https://en.wikipedia.org/wiki/Conwy_Castle"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "They held the castle for about three months, then gave it up in return for pardons.",
+        "es": "Retuvieron el castillo unos tres meses y después lo entregaron a cambio de perdones.",
+        "zh": "他们占据城堡约三个月，随后以获得赦免为条件交出城堡。"
+      },
+      "place": {
+        "name": {
+          "en": "Conwy Castle",
+          "es": "Castillo de Conwy",
+          "zh": "康威城堡"
+        },
+        "lat": 53.2801,
+        "lon": -3.8256
+      }
+    },
+    {
+      "id": "battle-of-bryn-glas",
+      "start": 1402,
+      "title": {
+        "en": "Owain's forces defeat an English army at Bryn Glas, near Pilleth, and capture its commander, Sir Edmund Mortimer; Welsh archers in Mortimer's army change sides",
+        "es": "Las fuerzas de Owain derrotan a un ejército inglés en Bryn Glas, cerca de Pilleth, y capturan a su comandante, sir Edmund Mortimer; los arqueros galeses del ejército de Mortimer cambian de bando",
+        "zh": "欧文的军队在皮莱斯附近的布林格拉斯击败一支英格兰军队，俘虏其指挥官埃德蒙·莫蒂默爵士；莫蒂默军中的威尔士弓箭手倒戈"
+      },
+      "sources": [
+        {
+          "citation": "Royal Commission on the Ancient and Historical Monuments of Wales (2017). \"Pilleth; Pyllalai; Battle at Bryn Glas; Battle of Pilleth\" (NPRN 306352). Inventory of Historic Battlefields in Wales, Coflein.",
+          "url": "https://coflein.gov.uk/en/site/306352"
+        },
+        {
+          "citation": "Royal Commission on the Ancient and Historical Monuments of Wales. \"In the steps of Owain Glyndŵr.\"",
+          "url": "https://rcahmw.gov.uk/in-the-steps-of-owain-glyndwr/"
+        },
+        {
+          "citation": "Cannon, John (ed.). \"Glyndŵr, Owain.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/glyndwr-owain"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Fought on 22 June 1402. A chronicle written at Evesham around 1413 says about 400 English were killed, four knights among them. The exact site is unknown; the pin marks Bryn Glas, the hill by Pilleth church that the Wigmore Chronicle names.",
+        "es": "Librada el 22 de junio de 1402. Una crónica escrita en Evesham hacia 1413 dice que murieron unos 400 ingleses, cuatro caballeros entre ellos. El lugar exacto se desconoce; el marcador señala Bryn Glas, la colina junto a la iglesia de Pilleth que nombra la crónica de Wigmore.",
+        "zh": "战斗发生于1402年6月22日。约1413年在伊夫舍姆写成的一部编年史称约400名英格兰人被杀，其中有四名骑士。确切地点不详；图钉标在威格莫尔编年史提到的布林格拉斯，即皮莱斯教堂旁的山丘。"
+      },
+      "place": {
+        "name": {
+          "en": "Bryn Glas, Pilleth",
+          "es": "Bryn Glas, Pilleth",
+          "zh": "皮莱斯的布林格拉斯"
+        },
+        "lat": 52.3068,
+        "lon": -3.097
+      },
+      "wikidataId": "Q2139756"
+    },
+    {
+      "id": "battle-of-shrewsbury",
+      "start": 1403,
+      "title": {
+        "en": "Henry IV's army defeats the rebel army of Henry 'Hotspur' Percy, Owain's ally, north of Shrewsbury; Hotspur is killed. Owain's own forces are not at the battle",
+        "es": "El ejército de Enrique IV derrota al ejército rebelde de Henry Percy, «Hotspur», aliado de Owain, al norte de Shrewsbury; Hotspur muere. Las fuerzas del propio Owain no están en la batalla",
+        "zh": "亨利四世的军队在什鲁斯伯里以北击败欧文的盟友“热刺”亨利·珀西率领的叛军，热刺被杀。欧文本人的军队没有参战"
+      },
+      "sources": [
+        {
+          "citation": "Battlefields Trust. \"The Battle of Shrewsbury.\" UK Battlefields Resource Centre.",
+          "url": "https://www.battlefieldstrust.com/resource-centre/medieval/battleview.asp?BattleFieldId=39"
+        },
+        {
+          "citation": "Cannon, John (ed.). \"Glyndŵr, Owain.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/glyndwr-owain"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Shrewsbury.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Shrewsbury"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Fought on 21 July 1403 (one account in English Wikipedia says 22 July). The Battlefields Trust gives the losses as uncertain.",
+        "es": "Librada el 21 de julio de 1403 (un artículo de la Wikipedia en inglés dice el 22 de julio). El Battlefields Trust considera inciertas las bajas.",
+        "zh": "战斗发生于1403年7月21日（英文维基百科有一处记为7月22日）。战场信托认为伤亡人数不详。"
+      },
+      "place": {
+        "name": {
+          "en": "Battlefield, north of Shrewsbury",
+          "es": "Battlefield, al norte de Shrewsbury",
+          "zh": "什鲁斯伯里以北的巴特尔菲尔德"
+        },
+        "lat": 52.7475,
+        "lon": -2.7185
+      },
+      "wikidataId": "Q166961"
+    },
+    {
+      "id": "harlech-taken",
+      "start": 1404,
+      "title": {
+        "en": "Owain's forces take Harlech Castle after a long siege; it becomes his court and headquarters",
+        "es": "Las fuerzas de Owain toman el castillo de Harlech tras un largo asedio; se convierte en su corte y su cuartel general",
+        "zh": "欧文的军队经长期围困攻占哈莱克城堡，此后这里成为他的宫廷和大本营"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark (2019). \"Harlech Castle.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Harlech_Castle/"
+        },
+        {
+          "citation": "Cannon, John (ed.). \"Glyndŵr, Owain.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/glyndwr-owain"
+        },
+        {
+          "citation": "Wikipedia (English). \"Harlech Castle.\"",
+          "url": "https://en.wikipedia.org/wiki/Harlech_Castle"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "French and Breton ships kept supplies from reaching the garrison by sea. Owain took Aberystwyth Castle the same year.",
+        "es": "Barcos franceses y bretones impidieron que los suministros llegaran por mar a la guarnición. Owain tomó el castillo de Aberystwyth ese mismo año.",
+        "zh": "法国和布列塔尼的船只阻断了守军的海上补给。同年欧文还攻占了阿伯里斯特威斯城堡。"
+      },
+      "place": {
+        "name": {
+          "en": "Harlech Castle",
+          "es": "Castillo de Harlech",
+          "zh": "哈莱克城堡"
+        },
+        "lat": 52.86,
+        "lon": -4.1092
+      }
+    },
+    {
+      "id": "machynlleth-assembly",
+      "start": 1404,
+      "title": {
+        "en": "Owain holds an assembly of all Wales at Machynlleth, with envoys from France, Scotland and Castile",
+        "es": "Owain celebra una asamblea de todo Gales en Machynlleth, con enviados de Francia, Escocia y Castilla",
+        "zh": "欧文在马汉莱斯召开全威尔士会议，法国、苏格兰和卡斯蒂利亚均派使节出席"
+      },
+      "sources": [
+        {
+          "citation": "Royal Commission on the Ancient and Historical Monuments of Wales. \"In the steps of Owain Glyndŵr.\"",
+          "url": "https://rcahmw.gov.uk/in-the-steps-of-owain-glyndwr/"
+        },
+        {
+          "citation": "Cannon, John (ed.). \"Glyndŵr, Owain.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/glyndwr-owain"
+        },
+        {
+          "citation": "Wikipedia (English). \"Owain Glyndŵr.\"",
+          "url": "https://en.wikipedia.org/wiki/Owain_Glynd%C5%B5r"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The Royal Commission says he was crowned Prince of Wales there before the bishops of Bangor and St Asaph. Tradition places the assembly in the building on Heol Maengwyn now called the Parliament House, whose roof timbers date from about 1470.",
+        "es": "La Royal Commission dice que allí fue coronado príncipe de Gales ante los obispos de Bangor y St Asaph. La tradición sitúa la asamblea en el edificio de Heol Maengwyn hoy llamado la Casa del Parlamento, cuyas vigas del tejado datan de hacia 1470.",
+        "zh": "威尔士皇家古迹委员会称他在此当着班戈和圣阿瑟夫两位主教的面加冕为威尔士亲王。传统认为会议在梅恩格温街上今称“议会楼”的建筑中举行，但该楼屋顶木梁的年代约为1470年。"
+      },
+      "place": {
+        "name": {
+          "en": "Machynlleth",
+          "es": "Machynlleth",
+          "zh": "马汉莱斯"
+        },
+        "lat": 52.5909,
+        "lon": -3.8494
+      }
+    },
+    {
+      "id": "french-landing",
+      "start": 1405,
+      "title": {
+        "en": "A French army sent by Charles VI lands at Milford Haven and joins Owain's forces; together they attack Haverfordwest and take Carmarthen",
+        "es": "Un ejército francés enviado por Carlos VI desembarca en Milford Haven y se une a las fuerzas de Owain; juntos atacan Haverfordwest y toman Carmarthen",
+        "zh": "查理六世派遣的法国军队在米尔福德港登陆，与欧文的军队会合；联军进攻哈弗福德韦斯特，并攻占卡马森"
+      },
+      "sources": [
+        {
+          "citation": "Cannon, John (ed.). \"Glyndŵr, Owain.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/glyndwr-owain"
+        },
+        {
+          "citation": "Wikipedia (English). \"Owain Glyndŵr\" (Letter to Charles VI of France; 1405).",
+          "url": "https://en.wikipedia.org/wiki/Owain_Glynd%C5%B5r"
+        },
+        {
+          "citation": "Wikipedia (English). \"Jean II de Rieux.\"",
+          "url": "https://en.wikipedia.org/wiki/Jean_II_de_Rieux"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The French were led by Jean de Rieux, Marshal of France. They took the town of Haverfordwest but not its castle. The later chronicler Monstrelet says the allies marched into Worcestershire and faced Henry IV's army for eight days without a battle; no other source confirms it.",
+        "es": "Los franceses iban al mando de Jean de Rieux, mariscal de Francia. Tomaron la villa de Haverfordwest, pero no su castillo. El cronista posterior Monstrelet dice que los aliados entraron en Worcestershire y se enfrentaron durante ocho días al ejército de Enrique IV sin llegar a combatir; ninguna otra fuente lo confirma.",
+        "zh": "法军由法国元帅让·德·里厄率领。他们攻下了哈弗福德韦斯特城镇，但未能攻下城堡。后来的编年史家蒙斯特勒莱称联军进入伍斯特郡，与亨利四世的军队对峙八天而未交战；没有其他来源证实这一说法。"
+      },
+      "place": {
+        "name": {
+          "en": "Milford Haven",
+          "es": "Milford Haven",
+          "zh": "米尔福德港"
+        },
+        "lat": 51.7,
+        "lon": -5.1167
+      }
+    },
+    {
+      "id": "harlech-retaken",
+      "start": 1409,
+      "title": {
+        "en": "After a siege with cannon begun in 1408 by Henry of Monmouth's forces, Harlech surrenders; Edmund Mortimer has died in the siege, and Owain's wife Margaret and two of his daughters are taken prisoner",
+        "es": "Tras un asedio con cañones iniciado en 1408 por las fuerzas de Enrique de Monmouth, Harlech se rinde; Edmund Mortimer ha muerto durante el asedio, y la esposa de Owain, Margaret, y dos de sus hijas son hechas prisioneras",
+        "zh": "蒙茅斯的亨利的军队自1408年起用大炮围攻哈莱克，城堡最终投降；埃德蒙·莫蒂默已死于围城期间，欧文的妻子玛格丽特和两个女儿被俘"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark (2019). \"Harlech Castle.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Harlech_Castle/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Harlech Castle.\"",
+          "url": "https://en.wikipedia.org/wiki/Harlech_Castle"
+        },
+        {
+          "citation": "Cannon, John (ed.). \"Glyndŵr, Owain.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/glyndwr-owain"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "English Wikipedia dates the surrender to February 1409 and the World History Encyclopedia to 1409; the Oxford Companion puts it in 1408. Sources differ on whether Mortimer was killed or died of hunger and exhaustion. Owain escaped.",
+        "es": "La Wikipedia en inglés fecha la rendición en febrero de 1409 y la World History Encyclopedia en 1409; el Oxford Companion la sitúa en 1408. Las fuentes no coinciden en si Mortimer murió en combate o de hambre y agotamiento. Owain escapó.",
+        "zh": "英文维基百科把投降时间定在1409年2月，《世界历史百科》作1409年，《牛津英国史指南》则作1408年。关于莫蒂默是战死还是死于饥饿和衰竭，各来源说法不一。欧文本人逃脱。"
+      },
+      "place": {
+        "name": {
+          "en": "Harlech Castle",
+          "es": "Castillo de Harlech",
+          "zh": "哈莱克城堡"
+        },
+        "lat": 52.86,
+        "lon": -4.1092
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Owain Glyndŵr",
+        "es": "Owain Glyndŵr",
+        "zh": "欧文·格林杜尔"
+      },
+      "side": "welsh-rising",
+      "role": {
+        "en": "Proclaimed Prince of Wales in 1400; led the rising",
+        "es": "Proclamado príncipe de Gales en 1400; dirigió el levantamiento",
+        "zh": "1400年被拥立为威尔士亲王；领导起事"
+      },
+      "wikidataId": "Q317279"
+    },
+    {
+      "name": {
+        "en": "Rhys ap Tudur",
+        "es": "Rhys ap Tudur",
+        "zh": "里斯·阿普·图多尔"
+      },
+      "side": "welsh-rising",
+      "role": {
+        "en": "Owain's cousin; took Conwy Castle with his brother Gwilym in 1401",
+        "es": "Primo de Owain; tomó el castillo de Conwy con su hermano Gwilym en 1401",
+        "zh": "欧文的表兄弟；1401年与兄弟格威利姆攻占康威城堡"
+      },
+      "wikidataId": "Q7321853"
+    },
+    {
+      "name": {
+        "en": "Edmund Mortimer",
+        "es": "Edmund Mortimer",
+        "zh": "埃德蒙·莫蒂默"
+      },
+      "side": "welsh-rising",
+      "role": {
+        "en": "Captured at Bryn Glas in 1402, then joined Owain and married his daughter Catrin; died during the siege of Harlech",
+        "es": "Capturado en Bryn Glas en 1402, se pasó al bando de Owain y se casó con su hija Catrin; murió durante el asedio de Harlech",
+        "zh": "1402年在布林格拉斯被俘，后倒向欧文并娶其女儿卡特琳；死于哈莱克围城期间"
+      },
+      "wikidataId": "Q3402270"
+    },
+    {
+      "name": {
+        "en": "Henry 'Hotspur' Percy",
+        "es": "Henry Percy, «Hotspur»",
+        "zh": "“热刺”亨利·珀西"
+      },
+      "side": "welsh-rising",
+      "role": {
+        "en": "Led the Percy rising of 1403 in alliance with Owain; killed at Shrewsbury",
+        "es": "Dirigió el levantamiento de los Percy de 1403 en alianza con Owain; murió en Shrewsbury",
+        "zh": "1403年与欧文结盟发动珀西家族的起事；在什鲁斯伯里被杀"
+      },
+      "wikidataId": "Q471421"
+    },
+    {
+      "name": {
+        "en": "Jean de Rieux",
+        "es": "Jean de Rieux",
+        "zh": "让·德·里厄"
+      },
+      "side": "welsh-rising",
+      "role": {
+        "en": "Marshal of France; led the French army sent to Wales in 1405",
+        "es": "Mariscal de Francia; dirigió el ejército francés enviado a Gales en 1405",
+        "zh": "法国元帅；率领1405年派往威尔士的法国军队"
+      },
+      "wikidataId": "Q2002437"
+    },
+    {
+      "name": {
+        "en": "Henry IV",
+        "es": "Enrique IV",
+        "zh": "亨利四世"
+      },
+      "side": "england",
+      "role": {
+        "en": "King of England; led several campaigns into Wales from 1400",
+        "es": "Rey de Inglaterra; dirigió varias campañas en Gales desde 1400",
+        "zh": "英格兰国王；1400年起多次率军进入威尔士"
+      },
+      "wikidataId": "Q161866"
+    },
+    {
+      "name": {
+        "en": "Henry of Monmouth (later Henry V)",
+        "es": "Enrique de Monmouth (después Enrique V)",
+        "zh": "蒙茅斯的亨利（后来的亨利五世）"
+      },
+      "side": "england",
+      "role": {
+        "en": "Henry IV's son; led English forces in Wales and the sieges of Aberystwyth and Harlech; king from 1413",
+        "es": "Hijo de Enrique IV; dirigió las fuerzas inglesas en Gales y los asedios de Aberystwyth y Harlech; rey desde 1413",
+        "zh": "亨利四世之子；指挥威尔士境内的英格兰军队及阿伯里斯特威斯和哈莱克的围城战；1413年即位"
+      },
+      "wikidataId": "Q131581"
+    },
+    {
+      "name": {
+        "en": "Dafydd Gam",
+        "es": "Dafydd Gam",
+        "zh": "戴维兹·盖姆"
+      },
+      "side": "england",
+      "role": {
+        "en": "Welsh supporter of the Crown from Brecon; captured by Owain in 1412 and ransomed",
+        "es": "Partidario galés de la Corona, de Brecon; capturado por Owain en 1412 y liberado a cambio de rescate",
+        "zh": "布雷肯的威尔士人，支持王室；1412年被欧文俘获，后被赎回"
+      },
+      "wikidataId": "Q679417"
+    }
+  ],
+  "casualties": [],
+  "cultures": [],
+  "sources": [
+    {
+      "citation": "Cannon, John (ed.). \"Glyndŵr, Owain.\" The Oxford Companion to British History, via Encyclopedia.com.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/glyndwr-owain"
+    },
+    {
+      "citation": "Pierce, Thomas Jones (1959). \"Owain Glyndŵr (c. 1354–1416), 'Prince of Wales'.\" Dictionary of Welsh Biography, National Library of Wales.",
+      "url": "https://biography.wales/article/s-OWAI-GLY-1354"
+    },
+    {
+      "citation": "Royal Commission on the Ancient and Historical Monuments of Wales. \"In the steps of Owain Glyndŵr.\"",
+      "url": "https://rcahmw.gov.uk/in-the-steps-of-owain-glyndwr/"
+    },
+    {
+      "citation": "Cartwright, Mark (2019). \"Harlech Castle.\" World History Encyclopedia.",
+      "url": "https://www.worldhistory.org/Harlech_Castle/"
+    },
+    {
+      "citation": "Battlefields Trust. \"The Battle of Shrewsbury.\" UK Battlefields Resource Centre.",
+      "url": "https://www.battlefieldstrust.com/resource-centre/medieval/battleview.asp?BattleFieldId=39"
+    },
+    {
+      "citation": "Wikipedia (English). \"Glyndŵr rebellion.\"",
+      "url": "https://en.wikipedia.org/wiki/Glynd%C5%B5r_rebellion"
+    },
+    {
+      "citation": "Wikipedia (English). \"Owain Glyndŵr.\"",
+      "url": "https://en.wikipedia.org/wiki/Owain_Glynd%C5%B5r"
+    },
+    {
+      "citation": "Wikidata. \"Glyndŵr Rebellion\" (Q4126360).",
+      "url": "https://www.wikidata.org/wiki/Q4126360"
+    }
+  ]
+}

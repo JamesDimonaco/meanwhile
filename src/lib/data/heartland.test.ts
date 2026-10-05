@@ -27,6 +27,14 @@ describe("validateHeartland (data/today.json)", () => {
     expect(run({ today: { ...today, inca: ["pe"] } })).toMatch(/inca/);
   });
 
+  it("accepts England, Scotland and Wales, and no other subdivision", () => {
+    const nations = { ...today, inca: ["GB-ENG", "GB-SCT", "GB-WLS"] };
+    expect(run({ today: nations, flagFiles: ["cn.svg", "gt.svg", "mx.svg", "gb-eng.svg", "gb-sct.svg", "gb-wls.svg"] })).toBe("");
+    for (const code of ["GB-NIR", "CN-XZ", "CN-XJ"]) {
+      expect(run({ today: { ...today, inca: [code] } })).toMatch(new RegExp(`inca: "${code}" is not an ISO 3166-1 alpha-2 code`));
+    }
+  });
+
   it("rejects a disputed territory even though it has an ISO code", () => {
     expect(run({ today: { ...today, shang: ["TW"] }, flagFiles: [...flagFiles, "tw.svg"] })).toMatch(/shang: "TW"/);
   });

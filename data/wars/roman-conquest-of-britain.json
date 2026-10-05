@@ -1,0 +1,770 @@
+{
+  "id": "roman-conquest-of-britain",
+  "wikidataId": "Q1258062",
+  "name": {
+    "en": "Roman conquest of Britain",
+    "es": "Conquista romana de Britania",
+    "zh": "罗马征服不列颠"
+  },
+  "aliases": [
+    "Claudian invasion of Britain",
+    "Roman invasion of Britain",
+    "Conquest of Britannia",
+    "Invasión romana de Britania",
+    "Conquista romana de Gran Bretaña",
+    "罗马入侵不列颠",
+    "Boudica",
+    "Boudicca",
+    "Boadicea",
+    "Boudican revolt",
+    "Revuelta de Boudica",
+    "布狄卡起义",
+    "Caratacus",
+    "Caractacus",
+    "Carataco",
+    "卡拉塔库斯",
+    "Agricola",
+    "Agrícola",
+    "阿古利可拉",
+    "Mons Graupius",
+    "Monte Graupius",
+    "格劳庇乌山战役",
+    "Britannia",
+    "Britania",
+    "不列颠尼亚"
+  ],
+  "altNames": [],
+  "description": {
+    "en": "In 43 CE the emperor Claudius sent four legions under Aulus Plautius across the Channel. They defeated the Catuvellauni led by the brothers Togodumnus and Caratacus, and Claudius came in person to take their capital, Camulodunum (Colchester). Vespasian's legion fought its way through the south-west. Caratacus fought on in Wales with the Silures and Ordovices until he was beaten and, in 51, handed to Rome by Cartimandua, queen of the Brigantes. In 60 or 61 the governor Suetonius Paulinus attacked Mona (Anglesey), an island of the druids; while he was there, the Iceni and Trinovantes rose under Boudica and burned Camulodunum, Londinium and Verulamium before Paulinus defeated them. Rome then fought the Brigantes in the north and the Silures in Wales. From 77 or 78 Agricola took the rest of Wales and Anglesey and marched into Scotland, where he defeated the Caledonians at Mons Graupius in 83 or 84. Within a few years Rome withdrew from most of Scotland.",
+    "es": "En el 43 e. c. el emperador Claudio envió cuatro legiones al mando de Aulo Plaucio a través del canal de la Mancha. Derrotaron a los catuvellaunos de los hermanos Togodumno y Carataco, y Claudio acudió en persona a tomar su capital, Camulodunum (Colchester). La legión de Vespasiano se abrió paso por el suroeste. Carataco siguió luchando en Gales con los siluros y los ordovicos hasta que fue derrotado y, en el 51, entregado a Roma por Cartimandua, reina de los brigantes. En el 60 o el 61 el gobernador Suetonio Paulino atacó Mona (Anglesey), isla de los druidas; mientras estaba allí, los icenos y los trinovantes se alzaron con Boudica e incendiaron Camulodunum, Londinium y Verulamium, hasta que Paulino los derrotó. Después Roma combatió a los brigantes en el norte y a los siluros en Gales. Desde el 77 o el 78 Agrícola tomó el resto de Gales y Anglesey y entró en Escocia, donde derrotó a los caledonios en el monte Graupius en el 83 o el 84. Pocos años después Roma se retiró de la mayor parte de Escocia.",
+    "zh": "公元43年，罗马皇帝克劳狄乌斯派奥鲁斯·普劳提乌斯率四个军团渡过英吉利海峡。罗马军队击败了多哥杜姆努斯和卡拉塔库斯兄弟率领的卡图维劳尼人，克劳狄乌斯亲临不列颠，攻占其首府卡姆罗多努姆（今科尔切斯特）。韦斯巴芗率领的军团在西南部一路作战。卡拉塔库斯在威尔士与西卢尔人和奥陶维斯人继续作战，战败后于51年被布里甘特女王卡蒂曼杜瓦交给罗马。60年或61年，总督苏埃托尼乌斯·保利努斯进攻德鲁伊所在的莫纳岛（安格尔西岛）；其间，爱西尼人和特里诺文特人在布狄卡率领下起事，焚毁卡姆罗多努姆、伦蒂尼恩和维鲁拉米恩，后被保利努斯击败。此后罗马在北方与布里甘特人作战，在威尔士与西卢尔人作战。自77年或78年起，阿古利可拉夺取威尔士其余地区和安格尔西岛，并进军苏格兰，于83年或84年在格劳庇乌山击败喀里多尼亚人。数年之内，罗马便从苏格兰大部分地区撤出。"
+  },
+  "outcome": {
+    "en": "Rome ruled most of what is now England and Wales as the province of Britannia; it pulled back from most of Scotland by about 87.",
+    "es": "Roma gobernó la mayor parte de lo que hoy son Inglaterra y Gales como la provincia de Britania; hacia el 87 se había retirado de la mayor parte de Escocia.",
+    "zh": "罗马将今英格兰和威尔士的大部分地区作为不列颠尼亚行省统治；约87年时已从苏格兰大部分地区撤出。"
+  },
+  "tier": "standard",
+  "sensitive": false,
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "period": {
+    "id": "war",
+    "earliestStart": 43,
+    "latestStart": 43,
+    "earliestEnd": 83,
+    "latestEnd": 87,
+    "sources": [
+      {
+        "citation": "Wikipedia (English). \"Roman conquest of Britain.\"",
+        "url": "https://en.wikipedia.org/wiki/Roman_conquest_of_Britain"
+      },
+      {
+        "citation": "Wikipedia (español). \"Conquista romana de Britania.\"",
+        "url": "https://es.wikipedia.org/wiki/Conquista_romana_de_Britania"
+      },
+      {
+        "citation": "English Heritage. \"History of Richborough Roman Fort and Amphitheatre.\"",
+        "url": "https://www.english-heritage.org.uk/visit/places/richborough-roman-fort-and-amphitheatre/history-and-stories/history/"
+      },
+      {
+        "citation": "Wikidata. \"Battle of Mons Graupius\" (Q1127337), point in time 83 or 84.",
+        "url": "https://www.wikidata.org/wiki/Q1127337"
+      },
+      {
+        "citation": "North Lanarkshire Museums. \"Inchtuthil: Buried on a Bed of Nails.\"",
+        "url": "https://www.northlanmuseums.co.uk/story/inchtuthil-buried-on-a-bed-of-nails/"
+      },
+      {
+        "citation": "World History Encyclopedia. \"Roman Britain.\"",
+        "url": "https://www.worldhistory.org/Roman_Britain/"
+      }
+    ],
+    "disputed": true,
+    "note": {
+      "en": "The war has no agreed end. Accounts usually close it with Agricola's victory at Mons Graupius and his recall, dated 83 or 84; the English and Spanish Wikipedias give 43–84. Rome had abandoned its new fortress at Inchtuthil and pulled back from most of Scotland by about 87, and the frontier later settled on Hadrian's Wall, begun in 122.",
+      "es": "La guerra no tiene un final acordado. Los relatos suelen cerrarla con la victoria de Agrícola en el monte Graupius y su llamada a Roma, fechadas en el 83 o el 84; las Wikipedias inglesa y española dan 43–84. Hacia el 87 Roma había abandonado su nueva fortaleza de Inchtuthil y se había retirado de la mayor parte de Escocia, y la frontera acabó fijándose en el Muro de Adriano, iniciado en el 122.",
+      "zh": "这场战争没有公认的结束时间。各种记载通常以阿古利可拉在格劳庇乌山的胜利及其被召回为终点，年代为83年或84年；英文和西班牙文维基百科均作43–84年。约87年时，罗马已放弃新建的因奇图希尔要塞并从苏格兰大部分地区撤出，边界后来定在122年开始修建的哈德良长城。"
+    }
+  },
+  "sides": [
+    {
+      "id": "rome",
+      "label": {
+        "en": "Rome and its British allies",
+        "es": "Roma y sus aliados britanos",
+        "zh": "罗马及其不列颠盟友"
+      },
+      "members": [
+        {
+          "kind": "culture",
+          "id": "rome",
+          "role": "belligerent",
+          "today": [
+            "IT"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Brigantes loyal to Queen Cartimandua, a client ally of Rome, until 69",
+            "es": "Brigantes fieles a la reina Cartimandua, aliada cliente de Roma, hasta el 69",
+            "zh": "效忠女王卡蒂曼杜瓦的布里甘特人，罗马的附庸盟友（至69年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "britons",
+      "label": {
+        "en": "British peoples who fought Rome",
+        "es": "Pueblos britanos que combatieron a Roma",
+        "zh": "与罗马交战的不列颠部族"
+      },
+      "members": [
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Catuvellauni and their allies under Togodumnus and Caratacus (43)",
+            "es": "Catuvellaunos y sus aliados de Togodumno y Carataco (43)",
+            "zh": "多哥杜姆努斯和卡拉塔库斯率领的卡图维劳尼人及其盟友（43年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Peoples of the south-west fought by Vespasian, thought to be the Durotriges and Dumnonii (43–47)",
+            "es": "Pueblos del suroeste combatidos por Vespasiano, probablemente los durotriges y los dumnonios (43–47)",
+            "zh": "韦斯巴芗所攻打的西南部族，一般认为是杜罗特里吉人和杜姆诺尼人（43–47年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Peoples of Wales, among them the Silures and Ordovices, and the defenders of Mona (Anglesey)",
+            "es": "Pueblos de Gales, entre ellos los siluros y los ordovicos, y los defensores de Mona (Anglesey)",
+            "zh": "威尔士各部族，包括西卢尔人和奥陶维斯人，以及莫纳岛（安格尔西岛）的守卫者"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-WLS"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Iceni and Trinovantes under Boudica (60–61)",
+            "es": "Icenos y trinovantes de Boudica (60–61)",
+            "zh": "布狄卡率领的爱西尼人和特里诺文特人（60–61年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Brigantes under Venutius, from 69",
+            "es": "Brigantes de Venucio, desde el 69",
+            "zh": "维努提乌斯率领的布里甘特人（69年起）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-ENG"
+          ]
+        },
+        {
+          "kind": "polity",
+          "name": {
+            "en": "Caledonians under Calgacus (83 or 84)",
+            "es": "Caledonios de Calgaco (83 u 84)",
+            "zh": "卡加库斯率领的喀里多尼亚人（83年或84年）"
+          },
+          "role": "belligerent",
+          "today": [
+            "GB-SCT"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "landing-at-rutupiae",
+      "start": 43,
+      "title": {
+        "en": "Four legions under Aulus Plautius cross from Gaul in three groups; the main landing is usually placed at Rutupiae (Richborough)",
+        "es": "Cuatro legiones al mando de Aulo Plaucio cruzan desde la Galia en tres grupos; el desembarco principal suele situarse en Rutupiae (Richborough)",
+        "zh": "奥鲁斯·普劳提乌斯率四个军团分三批从高卢渡海；主要登陆点一般认为是鲁图皮伊（今里奇伯勒）"
+      },
+      "sources": [
+        {
+          "citation": "English Heritage. \"History of Richborough Roman Fort and Amphitheatre.\"",
+          "url": "https://www.english-heritage.org.uk/visit/places/richborough-roman-fort-and-amphitheatre/history-and-stories/history/"
+        },
+        {
+          "citation": "Cassius Dio. Roman History 60.19–23 (Loeb Classical Library translation by E. Cary), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/60*.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Roman conquest of Britain.\"",
+          "url": "https://en.wikipedia.org/wiki/Roman_conquest_of_Britain"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Richborough, where the Romans dug two parallel defensive ditches in 43, is the usual identification; some historians argue that the landing was near Chichester instead. English Heritage gives the force as about 40,000 men.",
+        "es": "Richborough, donde los romanos cavaron dos fosos defensivos paralelos en el 43, es la identificación habitual; algunos historiadores sostienen que el desembarco fue cerca de Chichester. English Heritage cifra la fuerza en unos 40.000 hombres.",
+        "zh": "通常认为登陆地是里奇伯勒，罗马人于43年在那里挖了两道平行的防御壕沟；也有历史学家认为登陆点在奇切斯特附近。英格兰遗产委员会估计这支军队约有4万人。"
+      },
+      "place": {
+        "name": {
+          "en": "Rutupiae (Richborough)",
+          "es": "Rutupiae (Richborough)",
+          "zh": "鲁图皮伊（里奇伯勒）"
+        },
+        "lat": 51.294,
+        "lon": 1.332
+      }
+    },
+    {
+      "id": "camulodunum-taken",
+      "start": 43,
+      "title": {
+        "en": "Claudius joins the army with elephants, crosses the Thames and takes Camulodunum (Colchester), capital of the Catuvellauni",
+        "es": "Claudio se une al ejército con elefantes, cruza el Támesis y toma Camulodunum (Colchester), capital de los catuvellaunos",
+        "zh": "克劳狄乌斯带着战象与军队会合，渡过泰晤士河，攻占卡图维劳尼人的首府卡姆罗多努姆（今科尔切斯特）"
+      },
+      "sources": [
+        {
+          "citation": "Cassius Dio. Roman History 60.19–23 (Loeb Classical Library translation by E. Cary), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/60*.html"
+        },
+        {
+          "citation": "Suetonius. Life of Claudius 17 (Loeb Classical Library translation by J. C. Rolfe), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Claudius*.html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Roman conquest of Britain.\"",
+          "url": "https://en.wikipedia.org/wiki/Roman_conquest_of_Britain"
+        },
+        {
+          "citation": "Wikipedia (English). \"Arch of Claudius (British victory).\"",
+          "url": "https://en.wikipedia.org/wiki/Arch_of_Claudius_(British_victory)"
+        }
+      ],
+      "note": {
+        "en": "Before he arrived, Plautius's army defeated Togodumnus and Caratacus in a two-day battle at a river crossing, usually placed on the Medway near Rochester, though the exact site is unknown; Togodumnus died soon after. Claudius stayed in Britain only 16 days. The inscription on his arch in Rome later claimed that he received the surrender of eleven British kings without loss.",
+        "es": "Antes de su llegada, el ejército de Plaucio derrotó a Togodumno y Carataco en una batalla de dos días en el paso de un río, que suele situarse en el Medway cerca de Rochester, aunque el lugar exacto se desconoce; Togodumno murió poco después. Claudio solo pasó 16 días en Britania. La inscripción de su arco en Roma afirmó después que recibió la rendición de once reyes britanos sin pérdidas.",
+        "zh": "在他到来之前，普劳提乌斯的军队在一处渡河点与多哥杜姆努斯和卡拉塔库斯交战两天并取胜，此战一般认为发生在罗切斯特附近的梅德韦河，但确切地点不详；多哥杜姆努斯不久后死去。克劳狄乌斯在不列颠只停留了16天。罗马城中他的凯旋门铭文后来声称，他未损一兵便接受了11位不列颠国王的投降。"
+      },
+      "place": {
+        "name": {
+          "en": "Camulodunum (Colchester)",
+          "es": "Camulodunum (Colchester)",
+          "zh": "卡姆罗多努姆（科尔切斯特）"
+        },
+        "lat": 51.892,
+        "lon": 0.898
+      }
+    },
+    {
+      "id": "vespasian-in-the-south-west",
+      "start": 43,
+      "end": 47,
+      "title": {
+        "en": "Vespasian's Second Legion seizes the Isle of Wight (Vectis) and fights some thirty battles in the south-west, taking more than twenty strongholds",
+        "es": "La Segunda Legión de Vespasiano se apodera de la isla de Wight (Vectis) y libra unas treinta batallas en el suroeste, tomando más de veinte plazas fuertes",
+        "zh": "韦斯巴芗率第二军团夺取怀特岛（韦克蒂斯），并在西南部作战约三十次，攻取二十多处要塞"
+      },
+      "sources": [
+        {
+          "citation": "Suetonius. Life of Vespasian 4 (Loeb Classical Library translation by J. C. Rolfe), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Vespasian*.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Vespasian.\"",
+          "url": "https://www.worldhistory.org/Vespasian/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Roman conquest of Britain.\"",
+          "url": "https://en.wikipedia.org/wiki/Roman_conquest_of_Britain"
+        }
+      ],
+      "note": {
+        "en": "Suetonius gives these figures but does not name the two powerful peoples Vespasian defeated; historians identify them as the Durotriges and the Dumnonii. The pin marks the Isle of Wight (Vectis), the one place Suetonius names.",
+        "es": "Suetonio da estas cifras, pero no nombra a los dos pueblos poderosos que derrotó Vespasiano; los historiadores los identifican con los durotriges y los dumnonios. El marcador señala la isla de Wight (Vectis), el único lugar que nombra Suetonio.",
+        "zh": "苏埃托尼乌斯给出了这些数字，但没有说出韦斯巴芗击败的两个强大部族的名字；历史学家认为是杜罗特里吉人和杜姆诺尼人。地图标记为怀特岛（韦克蒂斯），这是苏埃托尼乌斯唯一点名的地方。"
+      },
+      "place": {
+        "name": {
+          "en": "Isle of Wight (Vectis)",
+          "es": "Isla de Wight (Vectis)",
+          "zh": "怀特岛（韦克蒂斯）"
+        },
+        "lat": 50.7,
+        "lon": -1.3
+      }
+    },
+    {
+      "id": "attack-on-mona",
+      "start": 60,
+      "end": 61,
+      "title": {
+        "en": "The governor Suetonius Paulinus ferries his infantry across the Menai Strait to Mona (Anglesey), defeats its defenders and druids, and cuts down their sacred groves",
+        "es": "El gobernador Suetonio Paulino hace cruzar a su infantería el estrecho de Menai hasta Mona (Anglesey), derrota a sus defensores y druidas y tala sus bosques sagrados",
+        "zh": "总督苏埃托尼乌斯·保利努斯用船将步兵运过梅奈海峡登上莫纳岛（安格尔西岛），击败岛上的守卫者和德鲁伊，砍伐了他们的圣林"
+      },
+      "sources": [
+        {
+          "citation": "Tacitus. Annals 14.29–39 (Loeb Classical Library translation by J. Jackson), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B*.html"
+        },
+        {
+          "citation": "Amgueddfa Cymru – Museum Wales. \"Ancient druids of Wales.\"",
+          "url": "https://museum.wales/blog/1016/Ancient-druids-of-Wales/"
+        },
+        {
+          "citation": "Amgueddfa Cymru – Museum Wales. \"Religious Spring Find from Anglesey Declared Treasure\" (Roman army on Anglesey in AD 60/61).",
+          "url": "https://museum.wales/news/1353/Religious-Spring-Find-from-Anglesey-Declared-Treasure/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Roman conquest of Britain.\"",
+          "url": "https://en.wikipedia.org/wiki/Roman_conquest_of_Britain"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date this to 60 or 61: Tacitus dates the revolt that broke out while Paulinus was on the island by the consuls of 61, while many modern accounts give 60. Paulinus left Mona to face the revolt; Agricola took the island again in 77 or 78.",
+        "es": "Las fuentes lo fechan en el 60 o el 61: Tácito fecha la revuelta que estalló mientras Paulino estaba en la isla por los cónsules del 61, mientras que muchos relatos modernos dan el 60. Paulino dejó Mona para hacer frente a la revuelta; Agrícola volvió a tomar la isla en el 77 o el 78.",
+        "zh": "史料将此事定于60年或61年：塔西佗以61年的执政官纪年记载保利努斯在岛上时爆发的起事，而许多现代著作作60年。保利努斯离开莫纳岛去应对起事；77年或78年阿古利可拉再次夺取该岛。"
+      },
+      "place": {
+        "name": {
+          "en": "Mona (Anglesey)",
+          "es": "Mona (Anglesey)",
+          "zh": "莫纳岛（安格尔西岛）"
+        },
+        "lat": 53.2939,
+        "lon": -4.3767
+      }
+    },
+    {
+      "id": "boudica-takes-camulodunum",
+      "start": 60,
+      "end": 61,
+      "title": {
+        "en": "The Iceni and Trinovantes rise under Boudica, take Camulodunum (Colchester) after a two-day siege and rout part of the Ninth Legion",
+        "es": "Los icenos y los trinovantes se alzan con Boudica, toman Camulodunum (Colchester) tras un asedio de dos días y derrotan a parte de la Novena Legión",
+        "zh": "爱西尼人和特里诺文特人在布狄卡率领下起事，围攻两天后攻占卡姆罗多努姆（今科尔切斯特），并击溃第九军团的一部"
+      },
+      "sources": [
+        {
+          "citation": "Tacitus. Annals 14.29–39 (Loeb Classical Library translation by J. Jackson), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B*.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Boudicca.\"",
+          "url": "https://www.worldhistory.org/Boudicca/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Boudican revolt.\"",
+          "url": "https://en.wikipedia.org/wiki/Boudican_revolt"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Tacitus says the revolt began after the Iceni king Prasutagus died and Roman officials seized his kingdom, flogged his widow Boudica and raped their daughters. Dated 60 or 61, as for the attack on Mona.",
+        "es": "Tácito cuenta que la revuelta empezó cuando murió Prasutago, rey de los icenos, y los funcionarios romanos se apoderaron de su reino, azotaron a su viuda Boudica y violaron a sus hijas. Fechada en el 60 o el 61, como el ataque a Mona.",
+        "zh": "塔西佗记载，爱西尼国王普拉苏塔古斯死后，罗马官员夺取了他的王国，鞭打其遗孀布狄卡，并强暴了他们的女儿，起事由此爆发。年代与进攻莫纳岛一样，为60年或61年。"
+      },
+      "place": {
+        "name": {
+          "en": "Camulodunum (Colchester)",
+          "es": "Camulodunum (Colchester)",
+          "zh": "卡姆罗多努姆（科尔切斯特）"
+        },
+        "lat": 51.892,
+        "lon": 0.898
+      }
+    },
+    {
+      "id": "londinium-and-verulamium-burned",
+      "start": 60,
+      "end": 61,
+      "title": {
+        "en": "Paulinus leaves Londinium and Verulamium undefended and Boudica's army burns both; he then defeats her forces at a site that has never been found",
+        "es": "Paulino deja indefensas Londinium y Verulamium, y el ejército de Boudica incendia ambas; después él derrota a sus fuerzas en un lugar que nunca se ha encontrado",
+        "zh": "保利努斯放弃伦蒂尼恩和维鲁拉米恩，布狄卡的军队将两城焚毁；随后保利努斯击败了她的军队，交战地点至今未能确定"
+      },
+      "sources": [
+        {
+          "citation": "Tacitus. Annals 14.29–39 (Loeb Classical Library translation by J. Jackson), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B*.html"
+        },
+        {
+          "citation": "Cassius Dio. Roman History 62.1–12 (Loeb Classical Library translation by E. Cary), via LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/62*.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Boudicca.\"",
+          "url": "https://www.worldhistory.org/Boudicca/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Boudican revolt.\"",
+          "url": "https://en.wikipedia.org/wiki/Boudican_revolt"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Tacitus puts the dead in the three towns at close to 70,000 Roman citizens and allies, and Cassius Dio at 80,000; for the final battle Tacitus reports, citing some accounts, almost 80,000 Britons and about 400 Romans killed. Modern historians treat these figures with scepticism. Tacitus says Boudica took poison; Dio says she fell ill and died.",
+        "es": "Tácito cifra los muertos en las tres ciudades en cerca de 70.000 ciudadanos romanos y aliados, y Casio Dión en 80.000; para la batalla final Tácito recoge, según algunos relatos, casi 80.000 britanos y unos 400 romanos muertos. Los historiadores actuales ven estas cifras con escepticismo. Tácito dice que Boudica se envenenó; Dión, que enfermó y murió.",
+        "zh": "塔西佗称三座城镇中死去的罗马公民和盟友近7万人，卡西乌斯·狄奥称8万人；关于最后一战，塔西佗援引一些说法称不列颠人死亡近8万、罗马人约400。现代历史学家对这些数字持怀疑态度。塔西佗说布狄卡服毒自尽，狄奥则说她病死。"
+      },
+      "place": {
+        "name": {
+          "en": "Londinium (London)",
+          "es": "Londinium (Londres)",
+          "zh": "伦蒂尼恩（伦敦）"
+        },
+        "lat": 51.5142,
+        "lon": -0.0885
+      }
+    },
+    {
+      "id": "isca-fortress",
+      "start": 74,
+      "end": 75,
+      "title": {
+        "en": "The governor Frontinus fights the Silures of south-east Wales; the Second Legion builds its fortress at Isca (Caerleon)",
+        "es": "El gobernador Frontino combate a los siluros del sureste de Gales; la Segunda Legión construye su fortaleza en Isca (Caerleon)",
+        "zh": "总督弗朗提努斯攻打威尔士东南部的西卢尔人；第二军团在伊斯卡（今卡利恩）修建要塞"
+      },
+      "sources": [
+        {
+          "citation": "Amgueddfa Cymru – Museum Wales. \"Caerleon – City of the Legion.\"",
+          "url": "https://museum.wales/articles/2007-05-09/Caerleon---City-of-the-Legion/"
+        },
+        {
+          "citation": "Tacitus. Agricola 14–40 (translation by A. S. Kline), Poetry in Translation.",
+          "url": "https://www.poetryintranslation.com/PITBR/Latin/TacitusAgricola.php"
+        },
+        {
+          "citation": "Wikipedia (English). \"Isca Augusta.\"",
+          "url": "https://en.wikipedia.org/wiki/Isca_Augusta"
+        }
+      ],
+      "note": {
+        "en": "Museum Wales dates the fortress to 74 or 75. Tacitus says Frontinus defeated the Silures but gives no year.",
+        "es": "El Museo de Gales fecha la fortaleza en el 74 o el 75. Tácito dice que Frontino derrotó a los siluros, pero no da el año.",
+        "zh": "威尔士国家博物馆将要塞的修建定于74年或75年。塔西佗说弗朗提努斯击败了西卢尔人，但没有给出年份。"
+      },
+      "place": {
+        "name": {
+          "en": "Isca Augusta (Caerleon)",
+          "es": "Isca Augusta (Caerleon)",
+          "zh": "伊斯卡·奥古斯塔（卡利恩）"
+        },
+        "lat": 51.6099,
+        "lon": -2.9565
+      }
+    },
+    {
+      "id": "inchtuthil",
+      "start": 83,
+      "end": 87,
+      "title": {
+        "en": "Rome builds a legionary fortress at Inchtuthil on the Tay to hold the north, then abandons it unfinished by 87, burying some 875,000 iron nails",
+        "es": "Roma construye una fortaleza legionaria en Inchtuthil, junto al Tay, para controlar el norte, y la abandona sin terminar hacia el 87, enterrando unos 875.000 clavos de hierro",
+        "zh": "罗马在泰河畔的因奇图希尔修建军团要塞以控制北方，约87年时在要塞尚未完工的情况下将其放弃，并埋下约87.5万枚铁钉"
+      },
+      "sources": [
+        {
+          "citation": "North Lanarkshire Museums. \"Inchtuthil: Buried on a Bed of Nails.\"",
+          "url": "https://www.northlanmuseums.co.uk/story/inchtuthil-buried-on-a-bed-of-nails/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Inchtuthil.\"",
+          "url": "https://en.wikipedia.org/wiki/Inchtuthil"
+        },
+        {
+          "citation": "Tacitus. Agricola 14–40 (translation by A. S. Kline), Poetry in Translation.",
+          "url": "https://www.poetryintranslation.com/PITBR/Latin/TacitusAgricola.php"
+        }
+      ],
+      "note": {
+        "en": "The fortress was begun around 82 or 83 under Agricola, whose army defeated the Caledonians under Calgacus at Mons Graupius in 83 or 84; that battlefield has never been located. Tacitus gives the British dead there as 10,000 and the Roman as 360.",
+        "es": "La fortaleza se empezó hacia el 82 o el 83 bajo Agrícola, cuyo ejército derrotó a los caledonios de Calgaco en el monte Graupius en el 83 o el 84; ese campo de batalla nunca se ha localizado. Tácito cifra allí los muertos britanos en 10.000 y los romanos en 360.",
+        "zh": "要塞约于82年或83年在阿古利可拉任内开工；他的军队于83年或84年在格劳庇乌山击败卡加库斯率领的喀里多尼亚人，但该战场至今未能找到。塔西佗称此战不列颠人死亡1万、罗马人死亡360人。"
+      },
+      "place": {
+        "name": {
+          "en": "Inchtuthil",
+          "es": "Inchtuthil",
+          "zh": "因奇图希尔"
+        },
+        "lat": 56.541,
+        "lon": -3.424
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": {
+        "en": "Claudius",
+        "es": "Claudio",
+        "zh": "克劳狄乌斯"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Roman emperor; came to Britain in 43 and took Camulodunum",
+        "es": "Emperador romano; llegó a Britania en el 43 y tomó Camulodunum",
+        "zh": "罗马皇帝；43年亲临不列颠并攻占卡姆罗多努姆"
+      },
+      "wikidataId": "Q1411"
+    },
+    {
+      "name": {
+        "en": "Aulus Plautius",
+        "es": "Aulo Plaucio",
+        "zh": "奥鲁斯·普劳提乌斯"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Commander of the force of 43 and first governor of Britain, 43–47",
+        "es": "Comandante de la fuerza del 43 y primer gobernador de Britania, 43–47",
+        "zh": "43年远征军统帅，首任不列颠总督（43–47年）"
+      },
+      "wikidataId": "Q352489"
+    },
+    {
+      "name": {
+        "en": "Vespasian",
+        "es": "Vespasiano",
+        "zh": "韦斯巴芗"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Commander of the Second Legion in the south-west, 43–47; later emperor",
+        "es": "Comandante de la Segunda Legión en el suroeste, 43–47; después emperador",
+        "zh": "43–47年在西南部指挥第二军团，后成为皇帝"
+      },
+      "wikidataId": "Q1419"
+    },
+    {
+      "name": {
+        "en": "Publius Ostorius Scapula",
+        "es": "Publio Ostorio Escápula",
+        "zh": "普布利乌斯·奥斯托里乌斯·斯卡普拉"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Governor, 47–52; defeated Caratacus",
+        "es": "Gobernador, 47–52; derrotó a Carataco",
+        "zh": "总督（47–52年）；击败卡拉塔库斯"
+      },
+      "wikidataId": "Q515834"
+    },
+    {
+      "name": {
+        "en": "Gaius Suetonius Paulinus",
+        "es": "Cayo Suetonio Paulino",
+        "zh": "盖乌斯·苏埃托尼乌斯·保利努斯"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Governor; attacked Mona and defeated Boudica, 60–61",
+        "es": "Gobernador; atacó Mona y derrotó a Boudica, 60–61",
+        "zh": "总督；60–61年进攻莫纳岛并击败布狄卡"
+      },
+      "wikidataId": "Q326600"
+    },
+    {
+      "name": {
+        "en": "Quintus Petillius Cerialis",
+        "es": "Quinto Petilio Cerial",
+        "zh": "昆图斯·佩蒂利乌斯·克里亚利斯"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Commanded the Ninth Legion in 60–61; as governor, 71–74, fought the Brigantes",
+        "es": "Mandó la Novena Legión en 60–61; como gobernador, 71–74, combatió a los brigantes",
+        "zh": "60–61年指挥第九军团；任总督期间（71–74年）与布里甘特人作战"
+      },
+      "wikidataId": "Q348926"
+    },
+    {
+      "name": {
+        "en": "Frontinus",
+        "es": "Sexto Julio Frontino",
+        "zh": "弗朗提努斯"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Governor, 74–78; fought the Silures",
+        "es": "Gobernador, 74–78; combatió a los siluros",
+        "zh": "总督（74–78年）；攻打西卢尔人"
+      },
+      "wikidataId": "Q297377"
+    },
+    {
+      "name": {
+        "en": "Gnaeus Julius Agricola",
+        "es": "Cneo Julio Agrícola",
+        "zh": "格涅乌斯·尤利乌斯·阿古利可拉"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Governor from 77 or 78 to 84; took north Wales and Anglesey and campaigned in Scotland",
+        "es": "Gobernador del 77 o 78 al 84; tomó el norte de Gales y Anglesey e hizo campaña en Escocia",
+        "zh": "77年或78年至84年任总督；夺取北威尔士和安格尔西岛，并在苏格兰作战"
+      },
+      "wikidataId": "Q272082"
+    },
+    {
+      "name": {
+        "en": "Cartimandua",
+        "es": "Cartimandua",
+        "zh": "卡蒂曼杜瓦"
+      },
+      "side": "rome",
+      "role": {
+        "en": "Queen of the Brigantes and Rome's ally; handed Caratacus over in 51",
+        "es": "Reina de los brigantes y aliada de Roma; entregó a Carataco en el 51",
+        "zh": "布里甘特女王，罗马的盟友；51年交出卡拉塔库斯"
+      },
+      "wikidataId": "Q186551"
+    },
+    {
+      "name": {
+        "en": "Togodumnus",
+        "es": "Togodumno",
+        "zh": "多哥杜姆努斯"
+      },
+      "side": "britons",
+      "role": {
+        "en": "Catuvellaunian leader; died in 43",
+        "es": "Caudillo catuvellauno; murió en el 43",
+        "zh": "卡图维劳尼人首领；43年死去"
+      },
+      "wikidataId": "Q878882"
+    },
+    {
+      "name": {
+        "en": "Caratacus",
+        "es": "Carataco",
+        "zh": "卡拉塔库斯"
+      },
+      "side": "britons",
+      "role": {
+        "en": "Catuvellaunian leader who fought on in Wales until 51",
+        "es": "Caudillo catuvellauno que siguió luchando en Gales hasta el 51",
+        "zh": "卡图维劳尼人首领，在威尔士坚持作战至51年"
+      },
+      "wikidataId": "Q335073"
+    },
+    {
+      "name": {
+        "en": "Boudica",
+        "es": "Boudica",
+        "zh": "布狄卡"
+      },
+      "side": "britons",
+      "role": {
+        "en": "Queen of the Iceni; led the revolt of 60–61",
+        "es": "Reina de los icenos; dirigió la revuelta de 60–61",
+        "zh": "爱西尼女王；领导60–61年的起事"
+      },
+      "wikidataId": "Q184634"
+    },
+    {
+      "name": {
+        "en": "Venutius",
+        "es": "Venucio",
+        "zh": "维努提乌斯"
+      },
+      "side": "britons",
+      "role": {
+        "en": "Cartimandua's husband, who turned against her and Rome and took power among the Brigantes in 69",
+        "es": "Esposo de Cartimandua, que se volvió contra ella y contra Roma y se hizo con el poder entre los brigantes en el 69",
+        "zh": "卡蒂曼杜瓦的丈夫，背弃她和罗马，69年在布里甘特人中夺取权力"
+      },
+      "wikidataId": "Q947619"
+    },
+    {
+      "name": {
+        "en": "Calgacus",
+        "es": "Calgaco",
+        "zh": "卡加库斯"
+      },
+      "side": "britons",
+      "role": {
+        "en": "Caledonian leader at Mons Graupius, known only from Tacitus",
+        "es": "Caudillo caledonio en el monte Graupius, conocido solo por Tácito",
+        "zh": "格劳庇乌山之战中的喀里多尼亚首领，仅见于塔西佗的记载"
+      },
+      "wikidataId": "Q559621"
+    }
+  ],
+  "casualties": [],
+  "cultures": [
+    "celtic-iron-age"
+  ],
+  "sources": [
+    {
+      "citation": "Wikipedia (English). \"Roman conquest of Britain.\"",
+      "url": "https://en.wikipedia.org/wiki/Roman_conquest_of_Britain"
+    },
+    {
+      "citation": "Wikipedia (español). \"Conquista romana de Britania.\"",
+      "url": "https://es.wikipedia.org/wiki/Conquista_romana_de_Britania"
+    },
+    {
+      "citation": "Wikipedia (中文). \"罗马征服不列颠.\"",
+      "url": "https://zh.wikipedia.org/zh-cn/%E7%BE%85%E9%A6%AC%E5%BE%81%E6%9C%8D%E4%B8%8D%E5%88%97%E9%A1%9B"
+    },
+    {
+      "citation": "English Heritage. \"History of Richborough Roman Fort and Amphitheatre.\"",
+      "url": "https://www.english-heritage.org.uk/visit/places/richborough-roman-fort-and-amphitheatre/history-and-stories/history/"
+    },
+    {
+      "citation": "Cassius Dio. Roman History 60.19–23 (Loeb Classical Library translation by E. Cary), via LacusCurtius.",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/60*.html"
+    },
+    {
+      "citation": "Tacitus. Annals 14.29–39 (Loeb Classical Library translation by J. Jackson), via LacusCurtius.",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B*.html"
+    },
+    {
+      "citation": "Tacitus. Agricola 14–40 (translation by A. S. Kline), Poetry in Translation.",
+      "url": "https://www.poetryintranslation.com/PITBR/Latin/TacitusAgricola.php"
+    },
+    {
+      "citation": "World History Encyclopedia. \"Roman Britain.\"",
+      "url": "https://www.worldhistory.org/Roman_Britain/"
+    },
+    {
+      "citation": "World History Encyclopedia. \"Boudicca.\"",
+      "url": "https://www.worldhistory.org/Boudicca/"
+    },
+    {
+      "citation": "Historic England Periods thesaurus, \"Iron Age\" (800 BC – AD 43) and \"Roman\" (AD 43 – 410), via PeriodO.",
+      "url": "http://n2t.net/ark:/99152/p0kh9dsj33x"
+    }
+  ]
+}

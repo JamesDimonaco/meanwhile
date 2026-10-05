@@ -3,7 +3,9 @@ import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { CountryItemCard } from "@/components/country/country-item-card";
 import { CountryTimeline } from "@/components/country/country-timeline";
+import { CountryLink } from "@/components/identity/country-link";
 import { CountryFlag } from "@/components/identity/heartland-flags";
+import { JoinedList } from "@/components/joined-list";
 import { toTimelineBar } from "@/components/timeline/timeline-layout";
 import { isLocale, LOCALES, type Locale } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
@@ -11,7 +13,7 @@ import { pageLocale } from "@/i18n/page-locale";
 import { countryCodes, countryItems, itemId, openingView, overlapping, type CountryItem } from "@/lib/data/country";
 import { loadCultures, loadHeartland, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
-import { countryName } from "@/lib/data/wars";
+import { countryName, isNation, NATIONS, UNION } from "@/lib/data/nations";
 import { openGraph, pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -65,6 +67,7 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
   const overlaps = overlapping(items);
   const cultureNames = Object.fromEntries(loadCultures().map((c) => [c.id, localize(c.name, locale)]));
   const listed = counts(items);
+  const nations = upper === UNION ? Object.keys(NATIONS).filter((n) => hasPage(n, locale)) : [];
 
   return (
     <section className="mx-auto flex w-full max-w-3xl flex-col gap-6 pt-4">
@@ -76,6 +79,23 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
           <CountryFlag code={upper} />
           {country}
         </h1>
+        {isNation(upper) && (
+          <p className="text-sm">
+            {t.rich("partOf", {
+              link: (chunks) => (
+                <Link href={`/country/${UNION.toLowerCase()}`} className="inline-flex items-center gap-1 underline underline-offset-2">
+                  <CountryFlag code={UNION} />
+                  {chunks}
+                </Link>
+              ),
+            })}
+          </p>
+        )}
+        {nations.length > 0 && (
+          <p className="text-sm">
+            {t.rich("nations", { items: () => <JoinedList items={nations.map((n) => <CountryLink key={n} code={n} />)} /> })}
+          </p>
+        )}
         <p className="font-medium">{t("summary", listed)}</p>
         <p className="text-sm text-muted-foreground">{t("intro", { country, ...listed })}</p>
       </header>

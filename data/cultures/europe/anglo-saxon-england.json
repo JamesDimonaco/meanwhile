@@ -1,0 +1,381 @@
+{
+  "id": "anglo-saxon-england",
+  "region": "europe",
+  "wikidataId": "Q784963",
+  "name": {
+    "en": "Anglo-Saxon England",
+    "es": "Inglaterra anglosajona",
+    "zh": "盎格鲁-撒克逊英格兰"
+  },
+  "nativeName": {
+    "text": "Engla land",
+    "lang": "ang"
+  },
+  "aliases": [
+    "Anglo-Saxons",
+    "Early medieval England",
+    "Heptarchy",
+    "Angelcynn",
+    "Englaland",
+    "Wessex",
+    "Mercia",
+    "Northumbria",
+    "East Anglia",
+    "Alfred the Great",
+    "Æthelstan",
+    "Athelstan",
+    "Anglosajones",
+    "Heptarquía anglosajona",
+    "盎格鲁-撒克逊人",
+    "七国时代"
+  ],
+  "description": {
+    "en": "Angles, Saxons and other Germanic settlers founded a patchwork of kingdoms in lowland Britain after Roman rule ended, among them Northumbria, Mercia, East Anglia and Wessex. They took up Christianity from 597, wrote in Old English and Latin, and fought Viking armies for two centuries. The kings of Wessex joined the kingdoms into one England in the 10th century, and Anglo-Saxon rule ended with William of Normandy's victory at Hastings in 1066.",
+    "es": "Anglos, sajones y otros pobladores germánicos fundaron un mosaico de reinos en las tierras bajas de Britania tras el fin del dominio romano, entre ellos Northumbria, Mercia, Estanglia y Wessex. Adoptaron el cristianismo a partir del 597, escribieron en inglés antiguo y en latín, y combatieron a ejércitos vikingos durante dos siglos. Los reyes de Wessex unieron esos reinos en una sola Inglaterra en el siglo X, y el dominio anglosajón terminó con la victoria de Guillermo de Normandía en Hastings en 1066.",
+    "zh": "罗马统治结束后，盎格鲁人、撒克逊人等日耳曼移民在不列颠低地建立起众多王国，其中包括诺森布里亚、麦西亚、东盎格利亚和威塞克斯。他们自597年起皈依基督教，用古英语和拉丁语书写，并与维京军队交战长达两个世纪。10世纪，威塞克斯诸王将这些王国合并为统一的英格兰；1066年诺曼底的威廉在黑斯廷斯获胜，盎格鲁-撒克逊人的统治随之终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "conventional",
+      "earliestStart": 410,
+      "latestStart": 449,
+      "earliestEnd": 1066,
+      "latestEnd": 1066,
+      "sources": [
+        {
+          "citation": "Historic England Periods thesaurus, \"Anglo-Saxon\" (410 – 1066 CE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0kh9ds8htw"
+        },
+        {
+          "citation": "Wikipedia (English). \"History of Anglo-Saxon England.\"",
+          "url": "https://en.wikipedia.org/wiki/History_of_Anglo-Saxon_England"
+        },
+        {
+          "citation": "The Anglo-Saxon Chronicle, entry for 449, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang05.asp"
+        },
+        {
+          "citation": "Wikidata. \"Anglo-Saxon England\" (Q784963), dissolved 1066.",
+          "url": "https://www.wikidata.org/wiki/Q784963"
+        }
+      ],
+      "periodoId": "p0kh9ds8htw",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Historic England dates the period from 410, when Roman rule in Britain ended, to 1066. Germanic settlement spread through the 5th century; the Anglo-Saxon Chronicle, compiled centuries later, puts the landing of the first settlers, Hengest and Horsa, in 449.",
+        "es": "Historic England fecha el período desde el 410, cuando terminó el dominio romano en Britania, hasta 1066. El asentamiento germánico se extendió a lo largo del siglo V; la Crónica anglosajona, compilada siglos después, sitúa el desembarco de los primeros pobladores, Hengest y Horsa, en el 449.",
+        "zh": "英格兰历史遗产委员会（Historic England）将这一时期定为公元410年（罗马在不列颠的统治结束）至1066年。日耳曼人的定居在5世纪逐步扩展；数百年后编成的《盎格鲁-撒克逊编年史》将首批移民亨吉斯特和霍萨的登陆记在449年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "augustine-mission",
+      "start": 597,
+      "type": "founding",
+      "title": {
+        "en": "Augustine and about 40 monks sent by Pope Gregory I reach Kent, and King Æthelberht lets them preach in Canterbury",
+        "es": "Agustín y unos 40 monjes enviados por el papa Gregorio I llegan a Kent, y el rey Ethelberto les permite predicar en Canterbury",
+        "zh": "教宗格列高利一世派遣的奥古斯丁与约40名修士抵达肯特，国王埃塞尔伯特允许他们在坎特伯雷传教"
+      },
+      "sources": [
+        {
+          "citation": "Canterbury Cathedral. \"Saint Augustine.\" A Walk Through Time, Canterbury Cathedral Learning.",
+          "url": "https://learning.canterbury-cathedral.org/a-walk-through-time/st-augustine/"
+        },
+        {
+          "citation": "Cannon, John (ed.). \"Augustine, St.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/people/philosophy-and-religion/saints/saint-augustine-canterbury"
+        },
+        {
+          "citation": "The Anglo-Saxon Chronicle, entry for 597, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang06.asp"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "They landed on the Isle of Thanet. Æthelberht's Frankish queen, Bertha, was already a Christian, and the king himself was later baptised.",
+        "es": "Desembarcaron en la isla de Thanet. La reina franca de Ethelberto, Berta, ya era cristiana, y el propio rey fue bautizado más tarde.",
+        "zh": "他们在萨尼特岛登陆。埃塞尔伯特的法兰克王后贝尔塔早已是基督徒，国王本人后来也受了洗。"
+      },
+      "place": {
+        "name": {
+          "en": "Canterbury",
+          "es": "Canterbury",
+          "zh": "坎特伯雷"
+        },
+        "lat": 51.2783,
+        "lon": 1.0775
+      }
+    },
+    {
+      "id": "sutton-hoo-ship-burial",
+      "start": 625,
+      "type": "ruler",
+      "title": {
+        "en": "A king, probably Rædwald of East Anglia, is buried in a 27-metre ship under a mound at Sutton Hoo, with his helmet, sword and gold and garnet fittings",
+        "es": "Un rey, probablemente Redvaldo de Estanglia, es enterrado en un barco de 27 metros bajo un túmulo en Sutton Hoo, con su yelmo, su espada y adornos de oro y granate",
+        "zh": "一位国王（很可能是东盎格利亚的雷德沃尔德）被葬于萨顿胡一座土丘下的27米长船中，随葬有头盔、剑以及金质镶石榴石饰物"
+      },
+      "sources": [
+        {
+          "citation": "National Trust. \"History of Sutton Hoo.\"",
+          "url": "https://www.nationaltrust.org.uk/visit/suffolk/sutton-hoo/history-of-sutton-hoo"
+        },
+        {
+          "citation": "Wikipedia (English). \"Sutton Hoo.\"",
+          "url": "https://en.wikipedia.org/wiki/Sutton_Hoo"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Coins in the burial chamber date it to about 610–635. Rædwald, who died around 624, is the likeliest candidate, but the identification is not certain. The ship was excavated in 1939.",
+        "es": "Las monedas de la cámara funeraria la datan hacia 610–635. Redvaldo, muerto hacia el 624, es el candidato más probable, pero la identificación no es segura. El barco se excavó en 1939.",
+        "zh": "墓室中的钱币将这座墓葬的年代定在约610年至635年间。约卒于624年的雷德沃尔德是最可能的墓主，但这一认定并不确定。这艘船于1939年发掘出土。"
+      },
+      "place": {
+        "name": {
+          "en": "Sutton Hoo",
+          "es": "Sutton Hoo",
+          "zh": "萨顿胡"
+        },
+        "lat": 52.0897,
+        "lon": 1.3389
+      }
+    },
+    {
+      "id": "bede-ecclesiastical-history",
+      "start": 731,
+      "type": "invention",
+      "title": {
+        "en": "At the monastery of Jarrow, the monk Bede finishes his Ecclesiastical History of the English People, a Latin history running from Julius Caesar to his own day",
+        "es": "En el monasterio de Jarrow, el monje Beda termina su Historia ecclesiastica gentis Anglorum, una historia en latín que va desde Julio César hasta su propia época",
+        "zh": "在贾罗修道院，修士比德完成《英吉利教会史》，这部拉丁文史书从尤利乌斯·凯撒一直写到他自己的时代"
+      },
+      "sources": [
+        {
+          "citation": "Persoon, James. \"Ecclesiastical History of the English People.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/ecclesiastical-history-english-people/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Ecclesiastical History of the English People.\"",
+          "url": "https://en.wikipedia.org/wiki/Ecclesiastical_History_of_the_English_People"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Jarrow",
+          "es": "Jarrow",
+          "zh": "贾罗"
+        },
+        "lat": 54.9814,
+        "lon": -1.49
+      }
+    },
+    {
+      "id": "lindisfarne-sacked",
+      "start": 793,
+      "type": "conflict",
+      "title": {
+        "en": "Viking raiders attack the monastery on Lindisfarne, the island shrine of St Cuthbert in Northumbria, killing and plundering",
+        "es": "Saqueadores vikingos atacan el monasterio de Lindisfarne, el santuario insular de san Cutberto en Northumbria, matando y saqueando",
+        "zh": "维京劫掠者袭击诺森布里亚的林迪斯法恩修道院，即圣卡斯伯特的岛上圣所，杀人并抢掠财物"
+      },
+      "sources": [
+        {
+          "citation": "Story, Joanna. \"The Viking Raid on Lindisfarne.\" English Heritage.",
+          "url": "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/History/viking-raid/"
+        },
+        {
+          "citation": "The Anglo-Saxon Chronicle, entry for 793, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang08.asp"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "English Heritage gives 8 June 793; the Anglo-Saxon Chronicle gives 8 January of the same year.",
+        "es": "English Heritage da el 8 de junio del 793; la Crónica anglosajona, el 8 de enero del mismo año.",
+        "zh": "英格兰遗产委员会（English Heritage）给出的日期是793年6月8日；《盎格鲁-撒克逊编年史》记为同年1月8日。"
+      },
+      "place": {
+        "name": {
+          "en": "Lindisfarne",
+          "es": "Lindisfarne",
+          "zh": "林迪斯法恩"
+        },
+        "lat": 55.68,
+        "lon": -1.8025
+      }
+    },
+    {
+      "id": "edington-and-guthrum",
+      "start": 878,
+      "type": "conflict",
+      "title": {
+        "en": "Alfred of Wessex defeats Guthrum's Danish army at Edington; Guthrum is baptised, with Alfred as his sponsor, and his army leaves Wessex",
+        "es": "Alfredo de Wessex derrota al ejército danés de Guthrum en Edington; Guthrum se bautiza, con Alfredo como padrino, y su ejército abandona Wessex",
+        "zh": "威塞克斯的阿尔弗雷德在爱丁顿击败古思伦的丹麦军队；古思伦受洗，由阿尔弗雷德担任教父，其军队撤出威塞克斯"
+      },
+      "sources": [
+        {
+          "citation": "The Anglo-Saxon Chronicle, entry for 878, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang09.asp"
+        },
+        {
+          "citation": "Cannon, John (ed.). \"Wedmore, treaty of.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/wedmore-treaty"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Edington.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Edington"
+        },
+        {
+          "citation": "Wikipedia (English). \"Treaty of Alfred and Guthrum.\"",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Alfred_and_Guthrum"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The battle is usually placed at Edington in Wiltshire. A written treaty between Alfred and Guthrum that sets a boundary between their lands survives but carries no date; historians place it between 878 and Guthrum's death in 890.",
+        "es": "La batalla suele situarse en Edington (Wiltshire). Se conserva un tratado escrito entre Alfredo y Guthrum que fija una frontera entre sus tierras, pero no lleva fecha; los historiadores lo sitúan entre el 878 y la muerte de Guthrum en el 890.",
+        "zh": "这场战役通常被认为发生在威尔特郡的爱丁顿。阿尔弗雷德与古思伦之间一份划定双方疆界的书面条约留存至今，但没有注明日期；史学家将其定在878年至古思伦去世的890年之间。"
+      }
+    },
+    {
+      "id": "athelstan-takes-york",
+      "start": 927,
+      "type": "ruler",
+      "title": {
+        "en": "Æthelstan, king of the Anglo-Saxons, takes Viking-ruled York and Northumbria and becomes the first king to rule all England",
+        "es": "Athelstan, rey de los anglosajones, toma York y Northumbria, gobernadas por vikingos, y se convierte en el primer rey de toda Inglaterra",
+        "zh": "盎格鲁-撒克逊人的国王埃塞尔斯坦夺取维京人统治的约克与诺森布里亚，成为首位统治整个英格兰的国王"
+      },
+      "sources": [
+        {
+          "citation": "McComb, Michael. \"Aethelstan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Aethelstan/"
+        },
+        {
+          "citation": "University of Cambridge. \"England's forgotten first king deserves to be famous, says Æthelstan biographer\" (on David Woodman, The First King of England, 2025).",
+          "url": "https://www.cam.ac.uk/stories/englands-first-king"
+        },
+        {
+          "citation": "The Anglo-Saxon Chronicle, entries for 926–927, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang10.asp"
+        },
+        {
+          "citation": "Wikipedia (English). \"Æthelstan.\"",
+          "url": "https://en.wikipedia.org/wiki/%C3%86thelstan"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "On 12 July 927 at Eamont, near Penrith, other rulers in Britain, among them Constantine II of Alba, accepted his overlordship. One version of the Anglo-Saxon Chronicle enters these events under 926.",
+        "es": "El 12 de julio del 927, en Eamont, cerca de Penrith, otros gobernantes de Britania, entre ellos Constantino II de Alba, aceptaron su supremacía. Una versión de la Crónica anglosajona registra estos hechos en el año 926.",
+        "zh": "927年7月12日，在彭里斯附近的伊蒙特，不列颠的其他统治者（包括阿尔巴国王康斯坦丁二世）承认了他的宗主地位。《盎格鲁-撒克逊编年史》的一个版本将这些事件记在926年。"
+      },
+      "place": {
+        "name": {
+          "en": "York",
+          "es": "York",
+          "zh": "约克"
+        },
+        "lat": 53.95,
+        "lon": -1.0833
+      }
+    },
+    {
+      "id": "battle-of-hastings",
+      "start": 1066,
+      "type": "collapse",
+      "title": {
+        "en": "William of Normandy's army defeats the English at Hastings; King Harold II and his brothers Gyrth and Leofwine are killed",
+        "es": "El ejército de Guillermo de Normandía derrota a los ingleses en Hastings; mueren el rey Haroldo II y sus hermanos Gyrth y Leofwine",
+        "zh": "诺曼底的威廉率军在黑斯廷斯击败英格兰军队；国王哈罗德二世及其兄弟戈斯和利奥夫温战死"
+      },
+      "sources": [
+        {
+          "citation": "English Heritage. \"History of Battle Abbey and Battlefield.\"",
+          "url": "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/history/"
+        },
+        {
+          "citation": "The Anglo-Saxon Chronicle, entries for 1066, trans. James Ingram, via the Avalon Project, Yale Law School.",
+          "url": "https://avalon.law.yale.edu/medieval/ang11.asp"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Battle of Hastings.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Battle_of_Hastings/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Hastings.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Hastings"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Fought on 14 October 1066 on the ridge where Battle Abbey now stands, about 11 km north-west of Hastings. English Heritage puts each army at 5,000–7,000 men. No count of the dead survives.",
+        "es": "Se libró el 14 de octubre de 1066 en la loma donde hoy se alza la abadía de Battle, a unos 11 km al noroeste de Hastings. English Heritage calcula entre 5.000 y 7.000 hombres por bando. No se conserva ningún recuento de los muertos.",
+        "zh": "战役于1066年10月14日在今战役修道院所在的山脊上进行，位于黑斯廷斯西北约11公里处。英格兰遗产委员会估计双方各有5000至7000人。阵亡人数没有留下任何统计。"
+      },
+      "place": {
+        "name": {
+          "en": "Battle, East Sussex",
+          "es": "Battle (Sussex Oriental)",
+          "zh": "东萨塞克斯郡巴特尔"
+        },
+        "lat": 50.9119,
+        "lon": 0.4875
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "seven-kingdoms",
+      "start": 600,
+      "end": 799,
+      "text": {
+        "en": "The ‘Heptarchy’, the seven kingdoms of East Anglia, Essex, Kent, Mercia, Northumbria, Sussex and Wessex, is a label from historians writing centuries later: the number of kingdoms rose and fell, and England was never neatly split seven ways.",
+        "es": "La «Heptarquía», los siete reinos de Estanglia, Essex, Kent, Mercia, Northumbria, Sussex y Wessex, es una etiqueta de historiadores que escribieron siglos después: el número de reinos subía y bajaba, e Inglaterra nunca estuvo repartida limpiamente en siete.",
+        "zh": "所谓“七国时代”，即东盎格利亚、埃塞克斯、肯特、麦西亚、诺森布里亚、苏塞克斯和威塞克斯七个王国，是数百年后的史家创造的说法：王国的数目时增时减，英格兰从未整齐地一分为七。"
+      },
+      "sources": [
+        {
+          "citation": "Cannon, John (ed.). \"heptarchy.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/heptarchy"
+        },
+        {
+          "citation": "Wikipedia (English). \"Heptarchy.\"",
+          "url": "https://en.wikipedia.org/wiki/Heptarchy"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "beowulf-manuscript",
+      "start": 975,
+      "end": 1025,
+      "text": {
+        "en": "Beowulf, the longest epic poem in Old English, survives in a single medieval manuscript, copied around the year 1000 and scorched in a library fire in 1731.",
+        "es": "Beowulf, el poema épico más largo en inglés antiguo, se conserva en un único manuscrito medieval, copiado hacia el año 1000 y chamuscado en el incendio de una biblioteca en 1731.",
+        "zh": "古英语最长的史诗《贝奥武夫》仅存一部中世纪抄本，约抄写于公元1000年前后，1731年曾在一场藏书楼大火中被烧焦。"
+      },
+      "sources": [
+        {
+          "citation": "British Library. \"Beowulf\" (Cotton MS Vitellius A XV).",
+          "url": "https://www.britishlibrary.cn/en/works/beowulf/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Beowulf.\"",
+          "url": "https://en.wikipedia.org/wiki/Beowulf"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
