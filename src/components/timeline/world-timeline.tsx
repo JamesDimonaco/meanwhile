@@ -24,8 +24,11 @@ const WAIT_STYLE_ID = "world-timeline-wait";
  * shift the page then. So in those cases it hides the timeline (keeping its
  * space) until the effect below has applied them, and the footer with it,
  * which a short filtered timeline would otherwise pull up into view.
+ * If the JS never runs (a chunk failed to load), it shows them again
+ * LOAD_GRACE_MS after the load event: the unfiltered view beats a blank one.
  */
-const HIDE_UNTIL_QUERY_READ = `(function(){var w=/[?&](year|regions)=/.test(location.search);try{w=w||JSON.parse(localStorage.getItem(${JSON.stringify(REGION_STORAGE_KEY)})||"[]").length>0}catch(e){}if(w){var s=document.createElement("style");s.id="${WAIT_STYLE_ID}";s.textContent="[data-world-timeline],footer{visibility:hidden}";document.head.appendChild(s)}})()`;
+const LOAD_GRACE_MS = 3000;
+const HIDE_UNTIL_QUERY_READ = `(function(){var w=/[?&](year|regions)=/.test(location.search);try{w=w||JSON.parse(localStorage.getItem(${JSON.stringify(REGION_STORAGE_KEY)})||"[]").length>0}catch(e){}if(w){var s=document.createElement("style");s.id="${WAIT_STYLE_ID}";s.textContent="[data-world-timeline],footer{visibility:hidden}";document.head.appendChild(s);addEventListener("load",function(){setTimeout(function(){s.remove()},${LOAD_GRACE_MS})})}})()`;
 
 /**
  * Every culture by region, with ?year= and ?regions= (e.g. china,europe;
