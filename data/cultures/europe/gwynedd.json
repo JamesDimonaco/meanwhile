@@ -419,16 +419,16 @@
     {
       "id": "cantiorix-stone",
       "text": {
-        "en": "The oldest known mention of Gwynedd is a Latin gravestone of the 5th or 6th century, now in Penmachno church, which names the dead man, Cantiorix, as a citizen of Venedos (Gwynedd) and a cousin of Maglos the magistrate.",
-        "es": "La mención más antigua conocida de Gwynedd es una lápida latina de los siglos V o VI, hoy en la iglesia de Penmachno, que presenta al difunto, Cantiorix, como ciudadano de Venedos (Gwynedd) y primo de Maglos el magistrado.",
-        "zh": "已知最早提到格温内斯的是一块5世纪或6世纪的拉丁文墓碑，今存于彭马赫诺教堂，碑文称死者坎蒂奥里克斯是维内多斯（格温内斯）的公民、地方长官马格洛斯的表亲。"
+        "en": "A Latin gravestone of the 5th or 6th century, now in Penmachno church, names the dead man, Cantiorix, as a citizen of Venedos (Gwynedd) and a cousin of Maglos the magistrate.",
+        "es": "Una lápida latina de los siglos V o VI, hoy en la iglesia de Penmachno, presenta al difunto, Cantiorix, como ciudadano de Venedos (Gwynedd) y primo de Maglos el magistrado.",
+        "zh": "彭马赫诺教堂今存一块5世纪或6世纪的拉丁文墓碑，碑文称死者坎蒂奥里克斯是维内多斯（格温内斯）的公民、地方长官马格洛斯的表亲。"
       },
       "start": 401,
       "end": 600,
       "sources": [
         {
-          "citation": "Royal Commission on the Ancient and Historical Monuments of Wales. \"Beddau Gwyr Ardudwy\" (NPRN 303044), Coflein.",
-          "url": "https://coflein.gov.uk/en/sites/303044"
+          "citation": "Royal Commission on the Ancient and Historical Monuments of Wales. \"Six Inscribed Stones in St Tudclud's Church, Penmachno\" (NPRN 275728), Coflein.",
+          "url": "https://coflein.gov.uk/en/sites/275728"
         },
         {
           "citation": "Wikipedia (English). \"Cantiorix Inscription.\"",

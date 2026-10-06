@@ -187,7 +187,7 @@ These follow the decisions above where they reach; James may change them at revi
 
 ### Checklist for a new war
 
-1. Write `data/wars/<id>.json`; every `today` code a UN member.
+1. Write `data/wars/<id>.json`; every `today` code a UN member or a UK nation (`GB-ENG`, `GB-SCT`, `GB-WLS` for a war fought in Britain).
 2. `pnpm sync-flags` if a new country code appears (the only way `public/flags/` changes).
 3. Pre-1800 flagship only: `WARS` config + `pnpm borders`.
 4. `pnpm validate-data`, `pnpm test`, then look at `/en/war/<id>/` and `/zh/war/<id>/` (a sensitive war has no zh page until James reviews it: check `/en/` only).
