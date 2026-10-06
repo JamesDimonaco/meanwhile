@@ -1,6 +1,6 @@
 import { HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
 import { COUNTRY_ALIASES, ENGLISH_ALIASES, isListableCountry, UN_MEMBERS, type Continent } from "./countries";
-import { countryName, isNation, withUnion } from "./nations";
+import { countryName, isNation, NATIONS, type Nation, UNION, withUnion } from "./nations";
 import type { Culture, Region } from "./schema";
 import type { Casualty, War, WarFile } from "./war-schema";
 
@@ -91,29 +91,46 @@ export function countrySearchNames(code: string, locale: Locale): CountrySearchN
  * The war page's "Countries today" line: the present-day countries whose
  * pages list the war that the sides don't already show as states (with their
  * flags), by name in the page's language. Empty when the sides show them all.
+ * The UK's nations stand for it (each one's page links to the UK's), so the
+ * UK is named only when the war lists no nation.
  */
 export function countriesToday(war: War, locale: Locale): string[] {
   const states = new Set(war.sides.flatMap((s) => s.members.flatMap((m) => (m.kind === "state" ? [m.code] : []))));
   const collator = new Intl.Collator(HTML_LANG[locale]);
-  return warCountryCodes([war])
-    .filter((code) => isListableCountry(code) && !states.has(code))
+  const codes = warCountryCodes([war]);
+  const nations = codes.some(isNation);
+  return codes
+    .filter((code) => isListableCountry(code) && !states.has(code) && !(nations && code === UNION))
     .sort((a, b) => collator.compare(countryName(a, locale), countryName(b, locale)));
+}
+
+/** The UK's search terms on the wars list, where its nations have no rows: every name each nation is found by. */
+function unionTerms(locale: Locale): string[] {
+  return (Object.keys(NATIONS) as Nation[]).flatMap((n) => {
+    const { name, english, terms } = countrySearchNames(n, locale);
+    return [name, english, ...terms];
+  });
 }
 
 /**
  * Every UN member some war lists, named in the page's language and sorted by
- * that name. The UK's nations are not on the list; their wars count for the UK.
+ * that name. The UK's nations are not on the list; their wars count for the
+ * UK, and their names find it.
  */
 export function countryIndex(wars: readonly War[], locale: Locale): CountryEntry[] {
   const listed = wars.map((w) => withUnion(warCountryCodes([w])));
   return [...new Set(listed.flat())]
     .filter((code) => !isNation(code))
-    .map((code) => ({
-      code,
-      ...countrySearchNames(code, locale),
-      continent: UN_MEMBERS[code],
-      count: listed.filter((codes) => codes.includes(code)).length,
-    }))
+    .map((code) => {
+      const names = countrySearchNames(code, locale);
+      return {
+        code,
+        ...names,
+        terms: code === UNION ? [...names.terms, ...unionTerms(locale)] : names.terms,
+        continent: UN_MEMBERS[code],
+        count: listed.filter((codes) => codes.includes(code)).length,
+      };
+    })
     .sort((a, b) => a.name.localeCompare(b.name, locale));
 }
 

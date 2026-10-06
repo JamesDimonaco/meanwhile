@@ -13,7 +13,7 @@ import { pageLocale } from "@/i18n/page-locale";
 import { countryCodes, countryItems, itemId, openingView, overlapping, type CountryItem } from "@/lib/data/country";
 import { loadCultures, loadHeartland, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
-import { countryName, isNation, NATIONS, UNION } from "@/lib/data/nations";
+import { countryName, isNation, UNION } from "@/lib/data/nations";
 import { openGraph, pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -67,7 +67,7 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
   const overlaps = overlapping(items);
   const cultureNames = Object.fromEntries(loadCultures().map((c) => [c.id, localize(c.name, locale)]));
   const listed = counts(items);
-  const nations = upper === UNION ? Object.keys(NATIONS).filter((n) => hasPage(n, locale)) : [];
+  const nations = upper === UNION ? countryCodes(loadHeartland(), loadWars(locale)).filter(isNation) : [];
 
   return (
     <section className="mx-auto flex w-full max-w-3xl flex-col gap-6 pt-4">

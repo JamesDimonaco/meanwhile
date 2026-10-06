@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { NEVER_SHOWN } from "./countries";
-import { isNation } from "./nations";
-import { duplicates } from "./schema";
+import { isNation, UNION, withUnion } from "./nations";
+import { duplicates, TodayCode } from "./schema";
 
 /** A heartland, not an empire's largest extent: rarely more than one country. */
 export const MAX_HEARTLAND_COUNTRIES = 3;
@@ -9,7 +9,7 @@ export const MAX_HEARTLAND_COUNTRIES = 3;
 /** data/today.json: culture id -> the countries its heartland lies in today: ISO 3166-1 alpha-2 codes, or a UK nation (GB-SCT). */
 export const Today = z.record(
   z.string(),
-  z.array(z.string().regex(/^[A-Z]{2}(-[A-Z0-9]{1,3})?$/, "codes are upper-case ISO 3166-1 alpha-2, e.g. PE, or GB-ENG, GB-SCT, GB-WLS")).min(1).max(MAX_HEARTLAND_COUNTRIES),
+  z.array(TodayCode).min(1).max(MAX_HEARTLAND_COUNTRIES),
 );
 
 export type HeartlandInput = {
@@ -41,13 +41,17 @@ export function validateHeartland({ today, registryIds, isoCodes, flagFiles, war
     for (const dup of duplicates(codes)) errors.push(`data/today.json: ${id}: "${dup}" listed twice`);
     for (const code of codes) {
       if (!iso.has(code) && !isNation(code)) errors.push(`data/today.json: ${id}: "${code}" is not an ISO 3166-1 alpha-2 code`);
+      if (code === UNION && codes.some(isNation)) {
+        errors.push(`data/today.json: ${id}: "${UNION}" is implied by ${codes.filter(isNation).join(", ")}; drop it`);
+      }
       if (NEVER_SHOWN.has(code)) {
         errors.push(`data/today.json: ${id}: "${code}" is never shown (disputed or politically loaded); use the undisputed heartland`);
       }
     }
   }
 
-  const used = new Set([...entries.flatMap(([, codes]) => codes), ...warCodes].map((c) => `${c.toLowerCase()}.svg`));
+  // withUnion: the UK page and the nations' "Part of the United Kingdom" line draw its flag.
+  const used = new Set(withUnion([...entries.flatMap(([, codes]) => codes), ...warCodes]).map((c) => `${c.toLowerCase()}.svg`));
   for (const file of [...used].sort()) {
     if (!flagFiles.includes(file)) errors.push(`public/flags/${file} is missing (run pnpm sync-flags)`);
   }

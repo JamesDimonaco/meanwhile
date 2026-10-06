@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
-import { countryName } from "@/lib/data/nations";
+import { countryName, isNation, UNION } from "@/lib/data/nations";
 import today from "../../../data/today.json";
 
 // Tiny, and validated by validate-data before every build, so it ships with
@@ -20,6 +20,10 @@ export function CountryFlag({ code }: { code: string }) {
   );
 }
 
+/** Trimmed below the number of UK nations listed, the Union Flag stands for them all, not the first one alone. */
+const flags = (codes: readonly string[], max?: number) =>
+  max !== undefined && codes.length > max && codes.every(isNation) ? [UNION] : codes.slice(0, max);
+
 /**
  * Flags of the present-day countries where a culture's heartland was, with
  * "Heartland today: Peru" as tooltip and accessible name. `max` trims the
@@ -36,7 +40,7 @@ export function HeartlandFlags({ cultureId, max }: { cultureId: string; max?: nu
   const label = t("heartlandToday", { countries });
   return (
     <span role="img" aria-label={label} title={label} className="inline-flex shrink-0 items-center gap-0.5">
-      {codes.slice(0, max).map((code) => (
+      {flags(codes, max).map((code) => (
         <CountryFlag key={code} code={code} />
       ))}
     </span>

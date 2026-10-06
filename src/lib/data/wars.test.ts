@@ -162,8 +162,11 @@ describe("countriesToday (the war page's line under the sides)", () => {
     expect(countriesToday(byId("falklands-war"), "en")).toEqual([]);
   });
 
-  it("names the UK's nations a war lists, which have pages of their own", () => {
+  it("names the UK's nations a war lists, and the UK only when it lists no nation", () => {
     expect(countriesToday(war("scots", 1296, { today: [["GB-SCT"], ["GB-ENG"]] }), "en")).toEqual(["GB-ENG", "GB-SCT"]);
+    // GB for Ulster beside the nations would read as the same country twice.
+    expect(countriesToday(war("ulster", 1641, { today: [["IE", "GB"], ["GB-SCT"]] }), "en")).toEqual(["IE", "GB-SCT"]);
+    expect(countriesToday(war("abroad", 1840, { today: [["GB"], ["CN"]] }), "en")).toEqual(["CN", "GB"]);
   });
 
   it("names only the countries the sides don't already show as states", () => {

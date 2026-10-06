@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { Today } from "../src/lib/data/heartland";
+import { withUnion } from "../src/lib/data/nations";
 import { WarFile } from "../src/lib/data/war-schema";
 import { warCountryCodes } from "../src/lib/data/wars";
 
@@ -34,7 +35,8 @@ const warCodes = warCountryCodes(
       return war.success ? [war.data] : [];
     }),
 );
-const wanted = new Set([...Object.values(today).flat(), ...warCodes].map((c) => `${c.toLowerCase()}.svg`));
+// withUnion: the UK page and the nations' "Part of the United Kingdom" line draw its flag.
+const wanted = new Set(withUnion([...Object.values(today).flat(), ...warCodes]).map((c) => `${c.toLowerCase()}.svg`));
 
 fs.mkdirSync(TARGET, { recursive: true });
 for (const file of fs.readdirSync(TARGET)) {

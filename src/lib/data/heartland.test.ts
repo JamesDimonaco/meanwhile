@@ -29,10 +29,19 @@ describe("validateHeartland (data/today.json)", () => {
 
   it("accepts England, Scotland and Wales, and no other subdivision", () => {
     const nations = { ...today, inca: ["GB-ENG", "GB-SCT", "GB-WLS"] };
-    expect(run({ today: nations, flagFiles: ["cn.svg", "gt.svg", "mx.svg", "gb-eng.svg", "gb-sct.svg", "gb-wls.svg"] })).toBe("");
+    expect(run({ today: nations, flagFiles: ["cn.svg", "gt.svg", "mx.svg", "gb.svg", "gb-eng.svg", "gb-sct.svg", "gb-wls.svg"] })).toBe("");
     for (const code of ["GB-NIR", "CN-XZ", "CN-XJ"]) {
       expect(run({ today: { ...today, inca: [code] } })).toMatch(new RegExp(`inca: "${code}" is not an ISO 3166-1 alpha-2 code`));
     }
+  });
+
+  // The UK page and the nations' "Part of the United Kingdom" line draw it.
+  it("keeps the UK's flag while a nation is listed, even with no GB code anywhere", () => {
+    expect(run({ today: { ...today, inca: ["GB-SCT"] }, flagFiles: ["cn.svg", "gt.svg", "mx.svg", "gb-sct.svg"] })).toMatch(/gb\.svg is missing/);
+  });
+
+  it("rejects GB beside a nation, which already puts the culture on the UK's page", () => {
+    expect(run({ today: { ...today, inca: ["GB", "GB-SCT"] }, flagFiles: [...flagFiles, "gb.svg", "gb-sct.svg"] })).toMatch(/inca: "GB" is implied by GB-SCT/);
   });
 
   it("rejects a disputed territory even though it has an ISO code", () => {

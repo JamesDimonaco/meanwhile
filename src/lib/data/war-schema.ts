@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { duplicates, LocalizedText, Period, Phase, Place, Source } from "./schema";
+import { duplicates, LocalizedText, Period, Phase, Place, Source, TodayCode } from "./schema";
 
 // data/wars/<id>.json. Reuses the culture shapes (LocalizedText, Source,
 // Period, Phase, Place), so years are astronomical and fuzzy dates, the
@@ -21,7 +21,7 @@ const Text = z.string().trim().min(1);
 const WikidataId = z.string().regex(/^Q\d+$/, "Wikidata ids look like Q12345");
 const IsoDate = z.iso.date();
 const Today = z
-  .array(z.string().regex(/^[A-Z]{2}(-[A-Z0-9]{1,3})?$/, "codes are upper-case ISO 3166-1 alpha-2, e.g. MX, or GB-ENG, GB-SCT, GB-WLS"))
+  .array(TodayCode)
   .min(1)
   .max(MAX_TODAY_COUNTRIES);
 const Role = z.enum(MEMBER_ROLES);

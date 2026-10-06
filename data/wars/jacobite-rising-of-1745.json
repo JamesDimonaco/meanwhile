@@ -21,24 +21,10 @@
     "英俊王子查理",
     "小王位觊觎者",
     "Culloden",
-    "卡洛登"
+    "卡洛登",
+    "Bliadhna Theàrlaich"
   ],
-  "altNames": [
-    {
-      "text": "Bliadhna Theàrlaich",
-      "lang": "gd",
-      "usedBy": {
-        "en": "Scottish Gaelic",
-        "es": "El gaélico escocés",
-        "zh": "苏格兰盖尔语"
-      },
-      "gloss": {
-        "en": "The Year of Charles",
-        "es": "El año de Carlos",
-        "zh": "查尔斯之年"
-      }
-    }
-  ],
+  "altNames": [],
   "description": {
     "en": "In July 1745 Charles Edward Stuart, grandson of the deposed James II and VII, landed in the Hebrides from a French ship to claim the British throne for his father. He raised his standard at Glenfinnan on 19 August, and Highland clans, chiefly Camerons and MacDonalds, joined him. In September his army entered Edinburgh unopposed, though the castle held out, and routed Sir John Cope's government army at Prestonpans. In November it crossed into England and took Carlisle. It reached Derby on 4 December, but few English recruits had joined beyond the Manchester Regiment, the hoped-for French landing had not come, and the council voted to turn back. In Scotland, reinforced by Scots and Irish troops of the French army, the Jacobites won at Falkirk Muir in January 1746. On 16 April the Duke of Cumberland's army, which included Scottish regiments and Highland militia, defeated them at Culloden. In the following months government troops killed wounded and fleeing Jacobites, executed prisoners, burned homes and drove off livestock across the Highlands. Charles left Scotland for France in September 1746.",
     "es": "En julio de 1745 Carlos Eduardo Estuardo, nieto del depuesto Jacobo II y VII, desembarcó en las Hébridas desde un barco francés para reclamar el trono británico para su padre. Alzó su estandarte en Glenfinnan el 19 de agosto y se le unieron clanes de las Tierras Altas, sobre todo los Cameron y los MacDonald. En septiembre su ejército entró sin resistencia en Edimburgo, aunque el castillo resistió, y puso en fuga al ejército gubernamental de sir John Cope en Prestonpans. En noviembre cruzó a Inglaterra y tomó Carlisle. Llegó a Derby el 4 de diciembre, pero apenas se le habían unido reclutas ingleses aparte del Regimiento de Mánchester, el esperado desembarco francés no se había producido, y el consejo votó dar media vuelta. En Escocia, reforzados por soldados escoceses e irlandeses del ejército francés, los jacobitas vencieron en Falkirk Muir en enero de 1746. El 16 de abril el ejército del duque de Cumberland, que incluía regimientos escoceses y milicias de las Tierras Altas, los derrotó en Culloden. En los meses siguientes las tropas del gobierno mataron a jacobitas heridos y en fuga, ejecutaron a prisioneros, quemaron casas y se llevaron el ganado por todas las Tierras Altas. Carlos dejó Escocia rumbo a Francia en septiembre de 1746.",

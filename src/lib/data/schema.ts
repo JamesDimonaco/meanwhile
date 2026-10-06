@@ -11,6 +11,9 @@ const Text = z.string().trim().min(1);
 export const Region = z.enum(REGIONS);
 export const EventType = z.enum(EVENT_TYPES);
 
+/** A present-day country in a `today` list: ISO 3166-1 alpha-2, or a UK nation (GB-SCT). Validation checks it against UN_MEMBERS and NATIONS. */
+export const TodayCode = z.string().regex(/^[A-Z]{2}(-[A-Z0-9]{1,3})?$/, "codes are upper-case ISO 3166-1 alpha-2, e.g. PE, or GB-ENG, GB-SCT, GB-WLS");
+
 /** English is required; es/zh fall back to English when missing. */
 export const LocalizedText = z.strictObject({
   en: Text,

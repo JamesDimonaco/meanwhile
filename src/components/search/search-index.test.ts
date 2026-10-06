@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import type { Locale } from "@/i18n/locales";
+import { LOCALES, type Locale } from "@/i18n/locales";
 import { countryCodes } from "@/lib/data/country";
 import { loadAllWars, loadCultures, loadHeartland, loadWars } from "@/lib/data/load";
 import { countryIndex } from "@/lib/data/wars";
@@ -329,6 +329,16 @@ describe("false positives", () => {
     for (const q of ["taiwan", "taiwa", "tiawan", "tawian", "chile", "oman", "hong kong", "ottoman"]) expect(labels(q, "en")).toEqual([]);
     for (const q of ["birmania", "imperio otomano", "otomano", "otomanos"]) expect(labels(q, "es")).toEqual([]);
     for (const q of ["taiwan", "tiawan"]) expect(labels(q, "zh")).toEqual([]);
+  });
+
+  it("finds the UK on the wars list by its nations' names, which have no rows there", () => {
+    for (const locale of LOCALES) {
+      const wars = loadWars(locale);
+      const warsList = searchIndex({ locale, countries: countryIndex(wars, locale), wars: warSearchEntries(wars, locale), countryInside: true });
+      for (const q of ["england", "inglaterra", "英格兰", "scotland", "cymru"]) {
+        expect(search(q, warsList).map(label), `${locale} ${q}`).toContain("country:GB");
+      }
+    }
   });
 
   // The wars list and the compare picker list only some places; a country they leave out may still have a page.
