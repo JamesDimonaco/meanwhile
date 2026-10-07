@@ -69,12 +69,16 @@
       },
       "sources": [
         {
-          "citation": "Library of Congress Country Studies, \"Iran: The Safavids, 1501–1722\".",
-          "url": "https://countrystudies.us/iran/11.htm"
+          "citation": "Encyclopedia.com, \"Isma'il I, Shah (1487–1524)\": crowned at Tabriz in 1501; established Twelver Shi'ism as the official state religion.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/ismail-i-shah-1487-1524"
         },
         {
-          "citation": "British Museum collection thesaurus, \"Safavid dynasty\", via PeriodO.",
-          "url": "http://n2t.net/ark:/99152/p08m57hkdk9"
+          "citation": "EBSCO Research Starters, \"Isma'il I\": coronation in Tabriz in 1501; Shia Islam the state religion.",
+          "url": "https://www.ebsco.com/research-starters/history/ismail-i/"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Iran: The Safavids, 1501-1722\" (the Safavids seize power in Tabriz in 1501 and declare Shia Islam the state religion).",
+          "url": "https://countrystudies.us/iran/11.htm"
         }
       ],
       "disputed": false,
@@ -99,12 +103,12 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Battles & Conquests of the Ottoman Empire (1299–1683)\".",
-          "url": "https://www.worldhistory.org/article/1791/battles--conquests-of-the-ottoman-empire-1299-1683/"
+          "citation": "EBSCO Research Starters, \"Reign of Selim I\": Ottoman victory at Chaldiran on 23 August 1514; Selim captured Tabriz for a time.",
+          "url": "https://www.ebsco.com/research-starters/history/reign-selim-i/"
         },
         {
-          "citation": "Library of Congress Country Studies, \"Iran: The Safavids, 1501–1722\".",
-          "url": "https://countrystudies.us/iran/11.htm"
+          "citation": "World History Encyclopedia, \"Battles & Conquests of the Ottoman Empire (1299-1683)\": Selim defeats the Shah at Chaldiran in 1514, takes Tabriz, then retreats.",
+          "url": "https://www.worldhistory.org/article/1791/battles--conquests-of-the-ottoman-empire-1299-1683/"
         }
       ],
       "disputed": false,
@@ -124,17 +128,17 @@
       "end": 1540,
       "type": "invention",
       "title": {
-        "en": "Maqsud Kashani oversees the Ardabil Carpet, the oldest dated carpet known, made for the Safavid family shrine",
-        "es": "Maqsud Kashani dirige la Alfombra de Ardabil, la alfombra fechada más antigua que se conoce, hecha para el santuario de la familia safávida",
-        "zh": "马克苏德·卡尚尼主持织造阿尔达比勒地毯，这是已知最早有明确纪年的地毯，为萨非王室的家族圣陵而作"
+        "en": "Maqsud Kashani oversees the Ardabil Carpet, the world's oldest dated carpet, believed to be made for the Safavid family shrine",
+        "es": "Maqsud Kashani dirige la Alfombra de Ardabil, la alfombra fechada más antigua del mundo, que se cree hecha para el santuario de la familia safávida",
+        "zh": "马克苏德·卡尚尼主持织造阿尔达比勒地毯，这是世界上最古老的有纪年地毯，据信为萨非王室的家族圣陵而作"
       },
       "sources": [
         {
-          "citation": "Victoria and Albert Museum, \"The Ardabil Carpet\".",
+          "citation": "Victoria and Albert Museum, \"The Ardabil Carpet\": the world's oldest dated carpet; signed by Maqsud Kashani and dated A.H. 946 (1539–40); believed commissioned for the shrine of Shaykh Safi.",
           "url": "https://www.vam.ac.uk/articles/the-ardabil-carpet"
         },
         {
-          "citation": "Los Angeles County Museum of Art, \"Maqsud Kashani, Ardabil Carpet, dated 1539–40 (A.H. 946)\".",
+          "citation": "Los Angeles County Museum of Art, \"Maqsud Kashani, Ardabil Carpet, dated 1539–40 (A.H. 946)\": a matched pair with the V&A carpet; place made Iran, possibly Tabriz.",
           "url": "https://collections.lacma.org/object/15378"
         }
       ],
@@ -157,19 +161,23 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Iranica, \"ʿAbbās I\".",
-          "url": "https://www.iranicaonline.org/articles/abbas-i/"
+          "citation": "EBSCO Research Starters, \"Reign of 'Abbas the Great\": Abbas moved the capital from Qazvin to Isfahan in 1598.",
+          "url": "https://www.ebsco.com/research-starters/history/reign-abbas-great/"
         },
         {
-          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History, \"Shah 'Abbas and the Arts of Isfahan\".",
-          "url": "https://www.metmuseum.org/essays/shah-cabbas-and-the-arts-of-isfahan"
+          "citation": "Encyclopedia.com, \"Empires: Safavid and Qajar\": capital transferred from Qazvin to Isfahan in the 1590s; Isfahan given a newly built administrative and commercial center.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/empires-safavid-and-qajar"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Abbas I\": under Shah Abbas, Isfahan became Iran's capital, with a new center around a great square.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/abbas-i-shah-1571-1629"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "note": {
-        "en": "Both sources give 1597–98 for the move.",
-        "es": "Ambas fuentes dan 1597–98 para el traslado.",
-        "zh": "两份来源都把迁都定在1597至1598年。"
+        "en": "EBSCO gives 1598 for the move from Qazvin; Encyclopedia.com says only the 1590s. The date is given here as 1597 to 1598 to cover both.",
+        "es": "EBSCO da 1598 para el traslado desde Qazvin; Encyclopedia.com dice solo la década de 1590. Aquí se da 1597 a 1598 para cubrir ambas.",
+        "zh": "EBSCO 把由加兹温迁都定在1598年；Encyclopedia.com 只说在1590年代。这里写作1597至1598年以涵盖两种说法。"
       },
       "place": {
         "name": {
@@ -192,15 +200,19 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Estado da India\".",
+          "citation": "EBSCO Research Starters, \"Reign of 'Abbas the Great\": Portuguese control of Hormuz removed in 1622 with British East India Company naval aid.",
+          "url": "https://www.ebsco.com/research-starters/history/reign-abbas-great/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Estado da India\": the Persians, with English assistance, took over Hormuz in 1622.",
           "url": "https://www.worldhistory.org/Estado_da_India/"
         },
         {
-          "citation": "World History Encyclopedia, \"Portuguese Empire\".",
-          "url": "https://www.worldhistory.org/Portuguese_Empire/"
+          "citation": "U.S. Library of Congress Country Studies, \"Iran: The Safavids, 1501-1722\" (Shah Abbas uses the British to expel the Portuguese from Hormoz in 1623).",
+          "url": "https://countrystudies.us/iran/11.htm"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "place": {
         "name": {
           "en": "Hormuz Island",
@@ -209,6 +221,11 @@
         },
         "lat": 27.06,
         "lon": 56.46
+      },
+      "note": {
+        "en": "World History Encyclopedia and EBSCO date the fall of Hormuz to 1622; the Library of Congress study says 1623. One World History Encyclopedia article calls the attackers Arabs; the other, and EBSCO, give the Persians with English naval help.",
+        "es": "La World History Encyclopedia y EBSCO fechan la caída de Ormuz en 1622; el estudio de la Biblioteca del Congreso dice 1623. Un artículo de la World History Encyclopedia llama árabes a los atacantes; el otro, y EBSCO, hablan de los persas con ayuda naval inglesa.",
+        "zh": "世界历史百科和 EBSCO 把霍尔木兹陷落定在1622年；美国国会图书馆的研究作1623年。世界历史百科有一篇文章称进攻者为阿拉伯人；另一篇和 EBSCO 则说是波斯人，得到英国海军协助。"
       }
     },
     {
@@ -222,11 +239,15 @@
       },
       "sources": [
         {
-          "citation": "Library of Congress Country Studies, \"Iran: The Safavids, 1501–1722\".",
+          "citation": "EBSCO Research Starters, \"Persian-Afghan Wars\": Mahmud Ghilzai besieges Isfahan in 1722, leading to the abdication of the last Safavid ruler, Husayn I.",
+          "url": "https://www.ebsco.com/research-starters/history/persian-afghan-wars"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Iran: The Safavids, 1501-1722\" (Afghan forces take Isfahan in 1722).",
           "url": "https://countrystudies.us/iran/11.htm"
         },
         {
-          "citation": "Library of Congress Country Studies, \"Afghanistan: Mughal-Safavid Rivalry, ca. 1500–1747\".",
+          "citation": "U.S. Library of Congress Country Studies, \"Afghanistan: Mughal-Safavid Rivalry, ca. 1500–1747\".",
           "url": "https://countrystudies.us/afghanistan/10.htm"
         }
       ],
@@ -246,14 +267,18 @@
       "start": 1736,
       "type": "collapse",
       "title": {
-        "en": "Tahmasp Quli takes power in his own name as Nader Shah, ending the Safavid line",
-        "es": "Tahmasp Quli toma el poder en nombre propio como Nader Sah y pone fin a la línea safávida",
-        "zh": "塔赫马斯普·库利以纳迪尔沙之名亲自掌权，萨非王室就此断绝"
+        "en": "Tahmasp Quli, who had ruled in the name of a Safavid prince, takes power in his own name as Nader Shah",
+        "es": "Tahmasp Quli, que gobernaba en nombre de un príncipe safávida, toma el poder en nombre propio como Nader Sah",
+        "zh": "此前以萨非王室成员之名执政的塔赫马斯普·库利，改以纳迪尔沙之名亲自掌权"
       },
       "sources": [
         {
-          "citation": "Library of Congress Country Studies, \"Iran: The Safavids, 1501–1722\".",
+          "citation": "U.S. Library of Congress Country Studies, \"Iran: The Safavids, 1501-1722\" (Tahmasp Quli expels the Afghans in the name of a Safavid and in 1736 assumes power in his own name as Nader Shah).",
           "url": "https://countrystudies.us/iran/11.htm"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Persian-Afghan Wars\": Nader Shah formally takes the throne in 1736.",
+          "url": "https://www.ebsco.com/research-starters/history/persian-afghan-wars"
         },
         {
           "citation": "Wikidata, \"Safavid Iran\" (Q18234383): dissolved 8 March 1736.",
@@ -275,8 +300,12 @@
       },
       "sources": [
         {
-          "citation": "British Museum collection thesaurus, \"Safavid dynasty\", via PeriodO.",
-          "url": "http://n2t.net/ark:/99152/p08m57hkdk9"
+          "citation": "Encyclopedia.com, \"Empires: Safavid and Qajar\": the Qizilbash, \"redheads\" from their red headgear, were the mainstay of the Safavid army.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/empires-safavid-and-qajar"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Iran: The Safavids, 1501-1722\" (the qizilbash fighting forces came from the Turkic-speaking tribes behind the Safavid bid for power).",
+          "url": "https://countrystudies.us/iran/11.htm"
         }
       ],
       "disputed": false

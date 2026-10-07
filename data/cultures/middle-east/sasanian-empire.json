@@ -19,9 +19,9 @@
     "萨珊波斯"
   ],
   "description": {
-    "en": "Ardashir I founded the Sasanian Empire in 224 CE after defeating the last Parthian king. It was the last native dynasty of Persia before the Arab conquest, made Zoroastrianism its state religion and fought Rome and Byzantium until 651.",
-    "es": "Ardashir I fundó el Imperio sasánida en 224 e. c. tras derrotar al último rey parto. Fue la última dinastía nativa de Persia antes de la conquista árabe, hizo del zoroastrismo su religión de Estado y combatió contra Roma y Bizancio hasta 651.",
-    "zh": "阿尔达希尔一世在击败末代安息王后，于公元224年建立萨珊王朝。它是阿拉伯征服前波斯的最后一个本土王朝，以琐罗亚斯德教为国教，并与罗马和拜占庭交战，直到651年。"
+    "en": "Ardashir I founded the Sasanian Empire in 224 CE after defeating the last Parthian king. Its kings promoted Zoroastrianism and fought Rome, then Byzantium, for four centuries. It was the last native dynasty of Persia before the Arab conquest, which ended it by 651.",
+    "es": "Ardashir I fundó el Imperio sasánida en 224 e. c. tras derrotar al último rey parto. Sus reyes promovieron el zoroastrismo y combatieron a Roma y luego a Bizancio durante cuatro siglos. Fue la última dinastía nativa de Persia antes de la conquista árabe, que acabó con ella en 651.",
+    "zh": "阿尔达希尔一世在击败末代安息王后，于公元224年建立萨珊王朝。其国王推崇琐罗亚斯德教，并先后与罗马和拜占庭交战达四个世纪。它是阿拉伯征服前波斯的最后一个本土王朝，至651年被阿拉伯人灭亡。"
   },
   "reviewed": {
     "es": false,
@@ -71,19 +71,23 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Sasanian Empire\".",
+          "citation": "World History Encyclopedia, \"Sasanian Empire\" (224 as the founding year).",
           "url": "https://www.worldhistory.org/Sasanian_Empire/"
         },
         {
-          "citation": "Livius.org, \"Sasanians\".",
+          "citation": "Livius.org, \"Sasanians\": the last Parthian defeated in 226 and Ctesiphon taken.",
           "url": "https://www.livius.org/articles/dynasty/sasanians/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Ardashir I Establishes the Sasanian Empire\": victory over Artabanus V in 224, coronation at Ctesiphon in 226.",
+          "url": "https://www.ebsco.com/research-starters/history/ardashir-i-establishes-sasanian-empire"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Most sources give 224 CE for the empire's start. Livius dates the defeat of the last Parthian king and the capture of Ctesiphon to 226.",
-        "es": "La mayoría de las fuentes dan 224 e. c. como inicio del imperio. Livius fecha la derrota del último rey parto y la toma de Ctesifonte en 226.",
-        "zh": "多数来源把帝国的开端定在公元224年。Livius 把击败末代安息王和攻占泰西封定在226年。"
+        "en": "Most sources give 224 CE for the defeat of the last Parthian king and so for the empire's start. Livius and EBSCO date the capture of Ctesiphon and Ardashir's coronation there to 226.",
+        "es": "La mayoría de las fuentes sitúan en 224 e. c. la derrota del último rey parto y, con ella, el inicio del imperio. Livius y EBSCO fechan en 226 la toma de Ctesifonte y la coronación de Ardashir allí.",
+        "zh": "多数来源把击败末代安息王、即帝国的开端定在公元224年。Livius 和 EBSCO 把攻占泰西封及阿尔达希尔在当地加冕定在226年。"
       },
       "place": {
         "name": {
@@ -128,7 +132,7 @@
       "sources": [
         {
           "citation": "World History Encyclopedia, \"Kosrau I\".",
-          "url": "https://www.worldhistory.org/Khosrow_I/"
+          "url": "https://www.worldhistory.org/Kosrau_I/"
         },
         {
           "citation": "Livius.org, \"Khusrau I Deathless Soul\".",
@@ -153,7 +157,11 @@
         },
         {
           "citation": "World History Encyclopedia, \"Kosrau I\".",
-          "url": "https://www.worldhistory.org/Khosrow_I/"
+          "url": "https://www.worldhistory.org/Kosrau_I/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Sasanian Empire\": Khosrow I invaded Syria in 540 and looted Antioch.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/sasanian-empire"
         }
       ],
       "disputed": false,
@@ -172,9 +180,9 @@
       "start": 614,
       "type": "conflict",
       "title": {
-        "en": "Sasanian forces under Shahrbaraz take Jerusalem and carry off the True Cross",
-        "es": "Las fuerzas sasánidas de Shahrbaraz toman Jerusalén y se llevan la Vera Cruz",
-        "zh": "沙赫尔巴拉兹率领的萨珊军队攻占耶路撒冷，并掠走真十字架"
+        "en": "Sasanian forces under Shahrbaraz take Jerusalem and carry off the relic of the True Cross",
+        "es": "Las fuerzas sasánidas de Shahrbaraz toman Jerusalén y se llevan la reliquia de la Vera Cruz",
+        "zh": "沙赫尔巴拉兹率领的萨珊军队攻占耶路撒冷，并掠走真十字架圣物"
       },
       "sources": [
         {
@@ -184,6 +192,10 @@
         {
           "citation": "World History Encyclopedia, \"Khosrow II\".",
           "url": "https://www.worldhistory.org/Khosrow_II/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Sasanian Empire\": Khosrow II captured Jerusalem in 614.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/sasanian-empire"
         }
       ],
       "disputed": false,
@@ -208,19 +220,23 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Yazdegerd III\".",
+          "citation": "World History Encyclopedia, \"Yazdegerd III\" (battle in 636, Rostam commanding).",
           "url": "https://www.worldhistory.org/Yazdegerd_III/"
         },
         {
-          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History, \"Iran, 500–1000 A.D.\"",
-          "url": "https://www.metmuseum.org/toah/ht/06/wai.html"
+          "citation": "U.S. Library of Congress Country Studies, \"Iraq: The Arab Conquest and the Coming of Islam\" (al-Qadisiyyah, May 636; Rustam killed).",
+          "url": "https://countrystudies.us/iraq/14.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Sasanian Empire\" (dates the battle to 637 and records Rostam's death).",
+          "url": "https://www.worldhistory.org/Sasanian_Empire/"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources date the battle to 636 or 637 CE.",
-        "es": "Las fuentes fechan la batalla en 636 o 637 e. c.",
-        "zh": "各来源把这场战役定在公元636年或637年。"
+        "en": "Sources date the battle to 636 or 637 CE: the Library of Congress and one World History Encyclopedia article say 636, another says 637.",
+        "es": "Las fuentes fechan la batalla en 636 o 637 e. c.: la Biblioteca del Congreso y un artículo de la World History Encyclopedia dicen 636, otro dice 637.",
+        "zh": "各来源把这场战役定在公元636年或637年：美国国会图书馆和世界历史百科的一篇文章作636年，另一篇作637年。"
       }
     },
     {
