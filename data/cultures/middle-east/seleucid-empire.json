@@ -167,12 +167,16 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Battle of Ipsus\" (301 BC).",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_Ipsus"
+          "citation": "Livius.org, \"Seleucus I Nicator\" (Ipsus 301; treaty with Chandragupta and 500 elephants, citing Strabo 15.2.9; founding of Antioch).",
+          "url": "https://www.livius.org/articles/person/seleucus-i-nicator/"
         },
         {
           "citation": "World History Encyclopedia, \"Seleucid Empire\" (301 BCE: victory at Ipsus).",
           "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        },
+        {
+          "citation": "Wikipedia, \"Battle of Ipsus\" (301 BC).",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Ipsus"
         }
       ],
       "disputed": false
@@ -188,8 +192,8 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Antioch\" (founded between 301 and 299 BC).",
-          "url": "https://en.wikipedia.org/wiki/Antioch"
+          "citation": "Livius.org, \"Seleucids\" (Antioch and Seleucia founded c. 300; Parthia and Bactria lost in the mid-240s).",
+          "url": "https://www.livius.org/articles/dynasty/seleucids/"
         },
         {
           "citation": "World History Encyclopedia, \"Seleucid Empire\" (300 BCE: Seleucus founds Antioch on the Orontes).",
@@ -221,6 +225,10 @@
         {
           "citation": "World History Encyclopedia, \"Seleucid Empire\" (Parthia revolts in 247 BCE; Diodotus of Bactria secedes).",
           "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        },
+        {
+          "citation": "Livius.org, \"Seleucids\" (Antioch and Seleucia founded c. 300; Parthia and Bactria lost in the mid-240s).",
+          "url": "https://www.livius.org/articles/dynasty/seleucids/"
         },
         {
           "citation": "Wikipedia, \"Greco-Bactrian Kingdom\" (Diodotus I's secession c. 255 or c. 246 BC).",
@@ -262,7 +270,8 @@
         },
         "lat": 38.6191,
         "lon": 27.4289
-      }
+      },
+      "end": -187
     },
     {
       "id": "maccabean-revolt",
@@ -270,18 +279,22 @@
       "end": -163,
       "type": "conflict",
       "title": {
-        "en": "The Maccabees rise against Antiochus IV in Judea, take Jerusalem and rededicate the Temple",
-        "es": "Los macabeos se alzan contra Antíoco IV en Judea, toman Jerusalén y reconsagran el Templo",
-        "zh": "马加比人在犹地亚起兵反抗安条克四世，攻占耶路撒冷并重新奉献圣殿"
+        "en": "The Maccabees rise against Antiochus IV in Judea, take control of the Temple in Jerusalem and rededicate it",
+        "es": "Los macabeos se alzan contra Antíoco IV en Judea, toman el control del Templo de Jerusalén y lo reconsagran",
+        "zh": "马加比人在犹地亚起兵反抗安条克四世，控制耶路撒冷圣殿并重新奉献"
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Maccabean Revolt\" (uprising from 167 BCE; Temple rededicated 164 BCE).",
-          "url": "https://en.wikipedia.org/wiki/Maccabean_Revolt"
+          "citation": "EBSCO Research Starters, \"Revolt of the Maccabees\" (uprising of 167 to 164 BCE; Temple rededicated in December 164 BCE).",
+          "url": "https://www.ebsco.com/research-starters/history/revolt-maccabees"
         },
         {
-          "citation": "World History Encyclopedia, \"Maccabean Revolt\" (167–160 BCE).",
-          "url": "https://www.worldhistory.org/Maccabean_Revolt/"
+          "citation": "World History Encyclopedia, \"Seleucid Empire\" (Maccabean Revolt c. 168/167 to c. 160 BCE, led by Judas Maccabaeus).",
+          "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        },
+        {
+          "citation": "Wikipedia, \"Maccabean Revolt\" (uprising from 167 BCE; Temple rededicated 164 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Maccabean_Revolt"
         }
       ],
       "disputed": false,
@@ -302,12 +315,12 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Mithridates I of Parthia\" (took Babylonia in 141 BC).",
-          "url": "https://en.wikipedia.org/wiki/Mithridates_I_of_Parthia"
-        },
-        {
           "citation": "World History Encyclopedia, \"Parthian Empire\" (took Seleucia c. 144 BCE and Babylon in 141 BCE).",
           "url": "https://www.worldhistory.org/Parthian_Empire/"
+        },
+        {
+          "citation": "Livius.org, \"Seleucia on the Tigris\" (conquered in 141 BCE by Mithradates I).",
+          "url": "https://www.livius.org/articles/place/seleucia-on-the-tigris/"
         }
       ],
       "disputed": false,
@@ -332,12 +345,12 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Antiochus XIII Asiaticus\" (Pompey ended his rule in 64 BC).",
-          "url": "https://en.wikipedia.org/wiki/Antiochus_XIII_Asiaticus"
-        },
-        {
           "citation": "World History Encyclopedia, \"Seleucid Empire\" (63 BCE: Pompey makes Syria and Anatolia Roman provinces).",
           "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        },
+        {
+          "citation": "Livius.org, \"Antiochus XIII Asiaticus\" (ruled 69 to 64; in 64 Pompey annexes Syria as a Roman province and dethrones him).",
+          "url": "https://www.livius.org/articles/person/antiochus-xiii-asiaticus/"
         }
       ],
       "disputed": true,
@@ -359,6 +372,14 @@
       "start": -304,
       "end": -302,
       "sources": [
+        {
+          "citation": "Livius.org, \"Seleucus I Nicator\" (Ipsus 301; treaty with Chandragupta and 500 elephants, citing Strabo 15.2.9; founding of Antioch).",
+          "url": "https://www.livius.org/articles/person/seleucus-i-nicator/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Seleucid Empire\" (305 BCE: treaty with Chandragupta, Punjab given in return for 500 war elephants).",
+          "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        },
         {
           "citation": "Wikipedia, \"Seleucid–Mauryan war\" (305–303 BCE; Strabo; no Indian source records the exchange).",
           "url": "https://en.wikipedia.org/wiki/Seleucid%E2%80%93Mauryan_war"
