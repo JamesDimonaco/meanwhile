@@ -1,0 +1,279 @@
+{
+  "id": "seljuk-empire",
+  "region": "middle-east",
+  "wikidataId": "Q3708094",
+  "name": {
+    "en": "Seljuk Empire",
+    "es": "Imperio selyúcida",
+    "zh": "塞尔柱帝国"
+  },
+  "nativeName": {
+    "text": "سلجوقیان",
+    "lang": "fa"
+  },
+  "aliases": [
+    "Great Seljuk Empire",
+    "Great Seljuks",
+    "Seljuks",
+    "Seljuq",
+    "Saljuq",
+    "Seljuk Turks",
+    "Selçuklu",
+    "Selyúcidas",
+    "塞尔柱王朝",
+    "大塞尔柱"
+  ],
+  "description": {
+    "en": "A Turkic dynasty that rose in Khorasan and took Baghdad in 1055, ruling Iran and Iraq as sultans under the Abbasid caliph. The victory at Manzikert in 1071 opened Anatolia to Turkish settlement. The empire split after 1092 and ended in 1194.",
+    "es": "Una dinastía turca que surgió en Jorasán y tomó Bagdad en 1055, gobernando Irán e Irak como sultanes bajo el califa abasí. La victoria de Manzikert en 1071 abrió Anatolia al asentamiento turco. El imperio se dividió tras 1092 y terminó en 1194.",
+    "zh": "一个兴起于呼罗珊的突厥王朝，1055年攻占巴格达，以苏丹身份在阿拔斯哈里发之下统治伊朗和伊拉克。1071年曼齐刻特之战的胜利使安纳托利亚向突厥人定居敞开。帝国在1092年后分裂，1194年终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "great-seljuk",
+      "earliestStart": 1037,
+      "latestStart": 1040,
+      "earliestEnd": 1194,
+      "latestEnd": 1194,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Seljuq dynasty\" (1040 – 1194), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hgs5w"
+        },
+        {
+          "citation": "Wikipedia, \"Seljuk Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+        }
+      ],
+      "periodoId": "p08m57hgs5w",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Tughril and Chaghri took Nishapur in 1037; the British Museum dates the dynasty from the victory at Dandanaqan in 1040. The Seljuks of Rum in Anatolia, a separate branch, lasted to 1307 and are not covered here.",
+        "es": "Tugril y Chagri tomaron Nishapur en 1037; el Museo Británico fecha la dinastía desde la victoria de Dandanqán en 1040. Los selyúcidas de Rum en Anatolia, una rama distinta, duraron hasta 1307 y no se tratan aquí.",
+        "zh": "图赫里勒和恰格里在1037年占领内沙布尔；大英博物馆则从1040年丹丹坎之战的胜利起算。安纳托利亚的罗姆塞尔柱是另一支，延续到1307年，不在此列。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "nishapur",
+      "start": 1037,
+      "type": "founding",
+      "title": {
+        "en": "Tughril and his brother Chaghri take Nishapur, and Tughril is proclaimed sultan",
+        "es": "Tugril y su hermano Chagri toman Nishapur, y Tugril es proclamado sultán",
+        "zh": "图赫里勒与其兄弟恰格里占领内沙布尔，图赫里勒被拥立为苏丹"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Tughril\".",
+          "url": "https://en.wikipedia.org/wiki/Tughril"
+        },
+        {
+          "citation": "Wikipedia, \"Seljuk Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Nishapur",
+          "es": "Nishapur",
+          "zh": "内沙布尔"
+        },
+        "lat": 36.2133,
+        "lon": 58.796
+      }
+    },
+    {
+      "id": "dandanaqan",
+      "start": 1040,
+      "type": "conflict",
+      "title": {
+        "en": "Seljuk forces defeat the Ghaznavid army of Mas'ud I at Dandanaqan, near Merv, and take Khorasan",
+        "es": "Las fuerzas selyúcidas derrotan al ejército gaznávida de Mas'ud I en Dandanqán, cerca de Merv, y toman Jorasán",
+        "zh": "塞尔柱军队在木鹿附近的丹丹坎击败马苏德一世的伽色尼军队，占领呼罗珊"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Dandanaqan\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Dandanaqan"
+        },
+        {
+          "citation": "Wikipedia, \"Tughril\".",
+          "url": "https://en.wikipedia.org/wiki/Tughril"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "baghdad-1055",
+      "start": 1055,
+      "type": "ruler",
+      "title": {
+        "en": "Tughril enters Baghdad at the caliph's invitation and ends Buyid rule there, with the caliph kept as head of state in name",
+        "es": "Tugril entra en Bagdad por invitación del califa y pone fin al dominio buyí, manteniendo al califa como jefe nominal",
+        "zh": "图赫里勒应哈里发之邀进入巴格达，终结白益王朝在当地的统治，哈里发仅保留名义上的元首地位"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        },
+        {
+          "citation": "Wikipedia, \"Buyid dynasty\".",
+          "url": "https://en.wikipedia.org/wiki/Buyid_dynasty"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.3152,
+        "lon": 44.3661
+      }
+    },
+    {
+      "id": "manzikert",
+      "start": 1071,
+      "type": "conflict",
+      "title": {
+        "en": "Sultan Alp Arslan defeats the Byzantine army at Manzikert and captures Emperor Romanos IV",
+        "es": "El sultán Alp Arslan derrota al ejército bizantino en Manzikert y captura al emperador Romano IV",
+        "zh": "苏丹阿尔普·阿尔斯兰在曼齐刻特击败拜占庭军队，俘获皇帝罗曼努斯四世"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Battle of Manzikert\".",
+          "url": "https://www.worldhistory.org/Battle_of_Manzikert/"
+        },
+        {
+          "citation": "Wikipedia, \"Battle of Manzikert\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Manzikert"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Historians disagree on how decisive the battle was. Byzantine civil war after it did much of the damage, and Turkish settlement of Anatolia was gradual.",
+        "es": "Los historiadores discrepan sobre cuán decisiva fue la batalla. La guerra civil bizantina posterior causó gran parte del daño, y el asentamiento turco en Anatolia fue gradual.",
+        "zh": "史学家对这场战役的决定性程度看法不一。此后拜占庭内战造成了大部分损害，突厥人在安纳托利亚的定居也是逐步进行的。"
+      }
+    },
+    {
+      "id": "jalali-calendar",
+      "start": 1079,
+      "type": "invention",
+      "title": {
+        "en": "Sultan Malik-Shah adopts the Jalali solar calendar, drawn up by a committee of astronomers that included Omar Khayyam",
+        "es": "El sultán Malik-Shah adopta el calendario solar jalalí, elaborado por un comité de astrónomos que incluía a Omar Jayam",
+        "zh": "苏丹马利克沙采用由天文学家委员会（包括欧玛尔·海亚姆）编制的贾拉里太阳历"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Jalali calendar\".",
+          "url": "https://en.wikipedia.org/wiki/Jalali_calendar"
+        },
+        {
+          "citation": "Wikipedia, \"Seljuk Empire\" (Malik-Shah section).",
+          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia gives 15 March 1079 for adoption, with work starting around 1073. Other sources date the reform slightly differently.",
+        "es": "Wikipedia da el 15 de marzo de 1079 para la adopción, con el trabajo iniciado hacia 1073. Otras fuentes fechan la reforma de forma algo distinta.",
+        "zh": "维基百科给出的采用日期为1079年3月15日，编制工作约始于1073年。其他来源对这次改历的年份略有出入。"
+      }
+    },
+    {
+      "id": "malik-shah-death",
+      "start": 1092,
+      "type": "ruler",
+      "title": {
+        "en": "The vizier Nizam al-Mulk is killed in October and Sultan Malik-Shah dies in November; rival heirs and governors divide the empire",
+        "es": "El visir Nizam al-Mulk muere asesinado en octubre y el sultán Malik-Shah fallece en noviembre; herederos y gobernadores rivales se reparten el imperio",
+        "zh": "宰相尼扎姆·穆勒克于十月被杀，苏丹马利克沙于十一月去世；竞争的继承人和总督瓜分了帝国"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Malik-Shah I\".",
+          "url": "https://en.wikipedia.org/wiki/Malik-Shah_I"
+        },
+        {
+          "citation": "Wikipedia, \"Seljuk Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "qatwan",
+      "start": 1141,
+      "type": "conflict",
+      "title": {
+        "en": "Sultan Sanjar is defeated by the Qara Khitai at the Battle of Qatwan, near Samarkand, and loses his eastern lands",
+        "es": "El sultán Sanjar es derrotado por los kara-kitai en la batalla de Qatwan, cerca de Samarcanda, y pierde sus tierras orientales",
+        "zh": "苏丹桑贾尔在撒马尔罕附近的卡特万之战中败于西辽，失去东部领土"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Qatwan\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Qatwan"
+        },
+        {
+          "citation": "Wikipedia, \"Seljuk Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "toghrul-iii-death",
+      "start": 1194,
+      "type": "collapse",
+      "title": {
+        "en": "Sultan Toghrul III is killed in battle against the Khwarazm Shah Tekish near Rayy, the last of the Great Seljuk line",
+        "es": "El sultán Tugril III muere en combate contra el sah corasmio Tekish cerca de Rayy, el último de la línea de los Grandes Selyúcidas",
+        "zh": "苏丹图赫里勒三世在赖伊附近与花剌子模沙铁勒克交战阵亡，大塞尔柱一系就此终结"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Toghrul III\".",
+          "url": "https://en.wikipedia.org/wiki/Toghrul_III"
+        },
+        {
+          "citation": "Wikipedia, \"Seljuk Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "romanos-released",
+      "start": 1071,
+      "end": 1071,
+      "text": {
+        "en": "After Manzikert, Alp Arslan held the captured Byzantine emperor for about a week, then released him in return for a ransom and territory.",
+        "es": "Tras Manzikert, Alp Arslan retuvo al emperador bizantino capturado durante una semana y lo liberó a cambio de un rescate y territorios.",
+        "zh": "曼齐刻特之战后，阿尔普·阿尔斯兰扣押被俘的拜占庭皇帝约一周，然后收下赎金并获得领土后将其释放。"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Manzikert\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Manzikert"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "id": "mamluk-sultanate",
+  "region": "middle-east",
+  "wikidataId": "Q282428",
+  "name": {
+    "en": "Mamluk Sultanate",
+    "es": "Sultanato mameluco de Egipto",
+    "zh": "马木留克苏丹国"
+  },
+  "nativeName": {
+    "text": "سلطنة المماليك",
+    "lang": "ar"
+  },
+  "aliases": [
+    "Mamluks",
+    "Mameluke",
+    "Mamluk Sultanate of Egypt",
+    "Mamluk dynasty",
+    "Bahri Mamluks",
+    "Burji Mamluks",
+    "Mamelucos",
+    "马穆鲁克苏丹国",
+    "马穆鲁克王朝"
+  ],
+  "description": {
+    "en": "A state ruled from Cairo by sultans who were mostly former slave soldiers. It held Egypt and Syria, stopped the Mongols at Ain Jalut in 1260, took Acre from the Crusaders in 1291, and fell to the Ottomans in 1517.",
+    "es": "Un estado gobernado desde El Cairo por sultanes que en su mayoría eran antiguos soldados esclavos. Dominó Egipto y Siria, detuvo a los mongoles en Ain Yalut en 1260, tomó Acre a los cruzados en 1291 y cayó ante los otomanos en 1517.",
+    "zh": "一个由开罗的苏丹统治的国家，苏丹大多出身奴隶兵。它控制埃及和叙利亚，1260年在艾因贾鲁特阻止了蒙古人，1291年从十字军手中夺取阿克，1517年被奥斯曼人灭亡。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "mamluk-sultanate",
+      "earliestStart": 1250,
+      "latestStart": 1250,
+      "earliestEnd": 1517,
+      "latestEnd": 1517,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Mamluk dynasty\" (1250 – 1517), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hhcgp"
+        },
+        {
+          "citation": "Wikipedia, \"Mamluk Sultanate\".",
+          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+        }
+      ],
+      "periodoId": "p08m57hhcgp",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "phases": [
+    {
+      "id": "bahri",
+      "name": {
+        "en": "Bahri period",
+        "es": "Período bahrí",
+        "zh": "巴赫里时期"
+      },
+      "start": 1250,
+      "end": 1382,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Mamluk Sultanate\" (Bahri and Burji periods).",
+          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Mamluk dynasty\", via PeriodO (notes two lines of sultans).",
+          "url": "http://n2t.net/ark:/99152/p08m57hhcgp"
+        }
+      ]
+    },
+    {
+      "id": "burji",
+      "name": {
+        "en": "Burji period",
+        "es": "Período burchí",
+        "zh": "布尔吉时期"
+      },
+      "start": 1382,
+      "end": 1517,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Mamluk Sultanate\" (Bahri and Burji periods).",
+          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+        },
+        {
+          "citation": "Wikipedia, \"Barquq\".",
+          "url": "https://en.wikipedia.org/wiki/Barquq"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "shajar-al-durr",
+      "start": 1250,
+      "type": "founding",
+      "title": {
+        "en": "Mamluk officers kill the Ayyubid sultan Turanshah and Shajar al-Durr takes the throne of Egypt",
+        "es": "Oficiales mamelucos matan al sultán ayubí Turanshah y Shayar al-Durr asciende al trono de Egipto",
+        "zh": "马木留克军官杀死阿尤布苏丹图兰沙，沙贾尔·杜尔登上埃及王位"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Mamluk Sultanate\".",
+          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Mamluk Sultanate\" (Shajar al-Durr as founder).",
+          "url": "https://www.worldhistory.org/Mamluk_Sultanate/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Cairo",
+          "es": "El Cairo",
+          "zh": "开罗"
+        },
+        "lat": 30.0444,
+        "lon": 31.2357
+      }
+    },
+    {
+      "id": "ain-jalut",
+      "start": 1260,
+      "type": "conflict",
+      "title": {
+        "en": "A Mamluk army under Qutuz and Baybars defeats the Mongol force of Kitbuqa at Ain Jalut",
+        "es": "Un ejército mameluco al mando de Qutuz y Baibars derrota a la fuerza mongola de Kitbuqa en Ain Yalut",
+        "zh": "库图兹与拜巴尔斯率领的马木留克军队在艾因贾鲁特击败怯的不花的蒙古军队"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Ain Jalut\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut"
+        },
+        {
+          "citation": "Wikipedia, \"Mamluk Sultanate\".",
+          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Historians debate how much the Mongol withdrawal owed to supply shortages, since Hulegu had already taken most of his troops away.",
+        "es": "Los historiadores debaten cuánto debió la retirada mongola a la escasez de suministros, pues Hulagu ya se había llevado a la mayor parte de sus tropas.",
+        "zh": "史学家对蒙古撤退在多大程度上源于补给不足有争论，因为旭烈兀此前已带走大部分军队。"
+      }
+    },
+    {
+      "id": "abbasid-caliph-cairo",
+      "start": 1261,
+      "type": "ruler",
+      "title": {
+        "en": "Sultan Baybars proclaims an Abbasid refugee as caliph in Cairo and receives investiture from him",
+        "es": "El sultán Baibars proclama califa en El Cairo a un refugiado abasí y recibe de él la investidura",
+        "zh": "苏丹拜巴尔斯在开罗拥立一名阿拔斯家族的流亡者为哈里发，并由他册封"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Baybars\".",
+          "url": "https://en.wikipedia.org/wiki/Baybars"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Most sources give 1261 for the first Cairo caliph, al-Mustansir II; the Wikipedia article on the Mamluk Sultanate gives 1263 for the line's re-establishment.",
+        "es": "La mayoría de las fuentes dan 1261 para el primer califa de El Cairo, al-Mustansir II; el artículo de Wikipedia sobre el sultanato mameluco da 1263 para el restablecimiento de la línea.",
+        "zh": "多数来源将开罗第一位哈里发穆斯坦绥尔二世定在1261年；维基百科的马木留克苏丹国条目则把这一系的重建定在1263年。"
+      },
+      "place": {
+        "name": {
+          "en": "Cairo",
+          "es": "El Cairo",
+          "zh": "开罗"
+        },
+        "lat": 30.0444,
+        "lon": 31.2357
+      }
+    },
+    {
+      "id": "acre",
+      "start": 1291,
+      "type": "conflict",
+      "title": {
+        "en": "Sultan al-Ashraf Khalil besieges and takes Acre, the last major Crusader stronghold on the Levant coast",
+        "es": "El sultán al-Ashraf Jalil sitia y toma Acre, la última gran plaza cruzada de la costa del Levante",
+        "zh": "苏丹阿什拉夫·哈利勒围攻并攻占阿克，这是十字军在黎凡特沿海的最后一个主要据点"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Siege of Acre, 1291\".",
+          "url": "https://www.worldhistory.org/Siege_of_Acre_(1291)/"
+        },
+        {
+          "citation": "Wikipedia, \"Siege of Acre (1291)\".",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Acre_(1291)"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Acre",
+          "es": "Acre",
+          "zh": "阿克"
+        },
+        "lat": 32.9234,
+        "lon": 35.0818
+      }
+    },
+    {
+      "id": "sultan-hasan",
+      "start": 1356,
+      "end": 1363,
+      "type": "invention",
+      "title": {
+        "en": "Sultan al-Nasir Hasan builds his mosque-madrasa in Cairo, with a minaret 84 metres tall, the tallest of the Mamluk era",
+        "es": "El sultán al-Nasir Hasan construye su mezquita-madrasa en El Cairo, con un alminar de 84 metros, el más alto de la época mameluca",
+        "zh": "苏丹纳绥尔·哈桑在开罗修建清真寺与经学院，宣礼塔高84米，为马木留克时期最高"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Mosque-Madrasa of Sultan Hasan\".",
+          "url": "https://en.wikipedia.org/wiki/Mosque-Madrasa_of_Sultan_Hasan"
+        },
+        {
+          "citation": "Wikipedia, \"Mamluk Sultanate\" (Bahri period).",
+          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Cairo",
+          "es": "El Cairo",
+          "zh": "开罗"
+        },
+        "lat": 30.0322,
+        "lon": 31.2564
+      }
+    },
+    {
+      "id": "barquq",
+      "start": 1382,
+      "type": "ruler",
+      "title": {
+        "en": "Barquq, a Circassian mamluk, becomes sultan and begins the Burji line",
+        "es": "Barquq, un mameluco circasiano, se convierte en sultán e inicia la línea burchí",
+        "zh": "切尔克斯人马木留克巴尔库克成为苏丹，开启布尔吉一系"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Barquq\".",
+          "url": "https://en.wikipedia.org/wiki/Barquq"
+        },
+        {
+          "citation": "Wikipedia, \"Mamluk Sultanate\".",
+          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "ottoman-conquest",
+      "start": 1516,
+      "end": 1517,
+      "type": "collapse",
+      "title": {
+        "en": "Ottoman forces under Selim I defeat the Mamluks at Marj Dabiq and Ridaniya and take Cairo; Sultan Tuman Bay II is executed",
+        "es": "Las fuerzas otomanas de Selim I derrotan a los mamelucos en Marj Dabiq y Ridaniya y toman El Cairo; el sultán Tuman Bay II es ejecutado",
+        "zh": "塞利姆一世率领的奥斯曼军队在马尔吉·达比克和里达尼耶击败马木留克并占领开罗，苏丹图曼贝二世被处死"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Ridaniya\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Ridaniya"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Ottoman Empire\".",
+          "url": "https://www.worldhistory.org/Ottoman_Empire/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Marj Dabiq was fought in 1516 and Ridaniya on 22 January 1517; Tuman Bay II was captured and executed in April 1517.",
+        "es": "Marj Dabiq se libró en 1516 y Ridaniya el 22 de enero de 1517; Tuman Bay II fue capturado y ejecutado en abril de 1517.",
+        "zh": "马尔吉·达比克之战发生在1516年，里达尼耶之战在1517年1月22日；图曼贝二世于1517年4月被俘处死。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "slave-born-sultans",
+      "start": 1382,
+      "end": 1399,
+      "text": {
+        "en": "Sultan Barquq, who took the throne in 1382, had been born in Circassia and brought to Egypt as an enslaved youth.",
+        "es": "El sultán Barquq, que subió al trono en 1382, había nacido en Circasia y fue llevado a Egipto siendo un joven esclavizado.",
+        "zh": "1382年即位的苏丹巴尔库克出生于切尔克斯，少年时被奴役并带到埃及。"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Barquq\".",
+          "url": "https://en.wikipedia.org/wiki/Barquq"
+        },
+        {
+          "citation": "Wikipedia, \"Mamluk Sultanate\".",
+          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
