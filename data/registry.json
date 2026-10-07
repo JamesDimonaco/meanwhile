@@ -234,6 +234,106 @@
       "id": "egypt",
       "region": "africa",
       "label": "Ancient Egypt: one culture, phases early-dynastic / old-kingdom / first-intermediate / middle-kingdom / second-intermediate / new-kingdom / third-intermediate / late-period / ptolemaic"
+    },
+    {
+      "id": "sumer",
+      "region": "middle-east",
+      "label": "Sumer"
+    },
+    {
+      "id": "akkadian-empire",
+      "region": "middle-east",
+      "label": "Akkadian Empire"
+    },
+    {
+      "id": "babylonia",
+      "region": "middle-east",
+      "label": "Babylonia"
+    },
+    {
+      "id": "assyria",
+      "region": "middle-east",
+      "label": "Assyria"
+    },
+    {
+      "id": "hittites",
+      "region": "middle-east",
+      "label": "Hittites"
+    },
+    {
+      "id": "elam",
+      "region": "middle-east",
+      "label": "Elam"
+    },
+    {
+      "id": "phoenicia",
+      "region": "middle-east",
+      "label": "Phoenicia"
+    },
+    {
+      "id": "israel-and-judah",
+      "region": "middle-east",
+      "label": "Israel and Judah"
+    },
+    {
+      "id": "achaemenid-empire",
+      "region": "middle-east",
+      "label": "Achaemenid Empire"
+    },
+    {
+      "id": "seleucid-empire",
+      "region": "middle-east",
+      "label": "Seleucid Empire"
+    },
+    {
+      "id": "parthian-empire",
+      "region": "middle-east",
+      "label": "Parthian Empire"
+    },
+    {
+      "id": "sasanian-empire",
+      "region": "middle-east",
+      "label": "Sasanian Empire"
+    },
+    {
+      "id": "nabataeans",
+      "region": "middle-east",
+      "label": "Nabataeans"
+    },
+    {
+      "id": "umayyad-caliphate",
+      "region": "middle-east",
+      "label": "Umayyad Caliphate"
+    },
+    {
+      "id": "abbasid-caliphate",
+      "region": "middle-east",
+      "label": "Abbasid Caliphate"
+    },
+    {
+      "id": "seljuk-empire",
+      "region": "middle-east",
+      "label": "Seljuk Empire"
+    },
+    {
+      "id": "mamluk-sultanate",
+      "region": "middle-east",
+      "label": "Mamluk Sultanate"
+    },
+    {
+      "id": "ottoman-empire",
+      "region": "middle-east",
+      "label": "Ottoman Empire"
+    },
+    {
+      "id": "safavid-empire",
+      "region": "middle-east",
+      "label": "Safavid Empire"
+    },
+    {
+      "id": "timurid-empire",
+      "region": "middle-east",
+      "label": "Timurid Empire"
     }
   ]
 }
