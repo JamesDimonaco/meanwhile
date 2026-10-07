@@ -1,0 +1,341 @@
+{
+  "id": "abbasid-caliphate",
+  "region": "middle-east",
+  "wikidataId": "Q12536",
+  "name": {
+    "en": "Abbasid Caliphate",
+    "es": "Califato abasí",
+    "zh": "阿拔斯哈里发国"
+  },
+  "nativeName": {
+    "text": "الخلافة العباسية",
+    "lang": "ar"
+  },
+  "aliases": [
+    "Abbasids",
+    "Abbasid dynasty",
+    "Abbasid Baghdad",
+    "Abasíes",
+    "Abbasside",
+    "阿拔斯王朝",
+    "黑衣大食"
+  ],
+  "description": {
+    "en": "The third Islamic caliphate. The Abbasids took power from the Umayyads in 750 and ruled from Baghdad, a city they founded in 762. From 945 the caliphs lived under Buyid and Seljuk overlords until the Mongols took Baghdad in 1258.",
+    "es": "El tercer califato islámico. Los abasíes tomaron el poder a los omeyas en 750 y gobernaron desde Bagdad, ciudad que fundaron en 762. Desde 945 los califas vivieron bajo señores buyíes y selyúcidas, hasta que los mongoles tomaron Bagdad en 1258.",
+    "zh": "第三个伊斯兰哈里发国。阿拔斯人于750年从奥玛亚人手中夺取政权，在762年建立的巴格达统治。945年起，哈里发处于白益王朝和塞尔柱人的控制之下，直到1258年蒙古人攻占巴格达。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "abbasid-caliphate",
+      "earliestStart": 749,
+      "latestStart": 750,
+      "earliestEnd": 1258,
+      "latestEnd": 1258,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Abbasid dynasty\" (749 – 1258), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hwwtz"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        }
+      ],
+      "periodoId": "p08m57hwwtz",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The British Museum dates the dynasty from 749, when al-Saffah was proclaimed in Kufa; most surveys give 750, the year of the Great Zab. A ceremonial line of Abbasid caliphs continued in Cairo under Mamluk protection from 1261 to 1517. This entry ends with the fall of Baghdad.",
+        "es": "El Museo Británico fecha la dinastía desde 749, cuando al-Saffah fue proclamado en Kufa; la mayoría de las síntesis dan 750, el año del Gran Zab. Una línea ceremonial de califas abasíes continuó en El Cairo bajo protección mameluca de 1261 a 1517. Esta ficha termina con la caída de Bagdad.",
+        "zh": "大英博物馆将该王朝的起点定在749年（萨法赫在库法被拥立）；多数通史取750年，即大扎卜河之战之年。1261至1517年间，阿拔斯家族的名义哈里发在马穆鲁克保护下继续存在于开罗。本条目止于巴格达陷落。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "early",
+      "name": {
+        "en": "Early Abbasid caliphate",
+        "es": "Califato abasí temprano",
+        "zh": "阿拔斯早期"
+      },
+      "start": 750,
+      "end": 945,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        },
+        {
+          "citation": "Wikipedia, \"Abbasid Caliphate\" (history sections).",
+          "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate"
+        }
+      ]
+    },
+    {
+      "id": "later",
+      "name": {
+        "en": "Later Abbasid caliphate",
+        "es": "Califato abasí tardío",
+        "zh": "阿拔斯后期"
+      },
+      "start": 945,
+      "end": 1258,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        },
+        {
+          "citation": "Wikipedia, \"Abbasid Caliphate\" (history sections).",
+          "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "saffah-caliph",
+      "start": 750,
+      "type": "founding",
+      "title": {
+        "en": "Abu al-Abbas al-Saffah is proclaimed caliph in Kufa, the first of the Abbasid line",
+        "es": "Abu al-Abbás al-Saffah es proclamado califa en Kufa, el primero de la línea abasí",
+        "zh": "阿布·阿拔斯·萨法赫在库法被拥立为哈里发，成为阿拔斯王朝第一位哈里发"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        },
+        {
+          "citation": "Wikipedia, \"Abbasid Caliphate\".",
+          "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources place the proclamation in 749 or 750, and the Abbasid victory at the Great Zab in January 750.",
+        "es": "Las fuentes sitúan la proclamación en 749 o 750, y la victoria abasí en el Gran Zab en enero de 750.",
+        "zh": "史料将拥立之事定在749或750年，阿拔斯人在大扎卜河的胜利则在750年1月。"
+      }
+    },
+    {
+      "id": "talas",
+      "start": 751,
+      "type": "conflict",
+      "title": {
+        "en": "An Abbasid army defeats a Tang Chinese army at the Talas river, in what is now Kazakhstan",
+        "es": "Un ejército abasí derrota a un ejército chino de la dinastía Tang en el río Talas, en el actual Kazajistán",
+        "zh": "阿拔斯军队在今哈萨克斯坦境内的怛罗斯河击败唐朝军队"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        },
+        {
+          "citation": "Wikipedia, \"Battle of Talas\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Talas"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The story that Chinese prisoners taken here introduced papermaking to Samarkand is doubted: paper was already in use in Central Asia earlier.",
+        "es": "Se duda de que los prisioneros chinos capturados aquí introdujeran el papel en Samarcanda: el papel ya se usaba antes en Asia Central.",
+        "zh": "关于被俘的中国工匠在此后把造纸术传到撒马尔罕的说法存疑：中亚更早就已使用纸张。"
+      }
+    },
+    {
+      "id": "baghdad-founded",
+      "start": 762,
+      "type": "founding",
+      "title": {
+        "en": "Caliph al-Mansur founds Baghdad on the Tigris as the new capital, laid out as a Round City",
+        "es": "El califa al-Mansur funda Bagdad en el Tigris como nueva capital, trazada como una Ciudad Redonda",
+        "zh": "哈里发曼苏尔在底格里斯河畔建立新都巴格达，城市布局为圆城"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        },
+        {
+          "citation": "Wikipedia, \"Baghdad\" (founding and Abbasid era sections).",
+          "url": "https://en.wikipedia.org/wiki/Baghdad"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Construction began in 762; the Round City itself took roughly 764 to 768.",
+        "es": "La construcción comenzó en 762; la propia Ciudad Redonda llevó aproximadamente de 764 a 768.",
+        "zh": "工程始于762年；圆城本身大约在764至768年间建成。"
+      },
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.3152,
+        "lon": 44.3661
+      }
+    },
+    {
+      "id": "house-of-wisdom",
+      "start": 813,
+      "end": 833,
+      "type": "invention",
+      "title": {
+        "en": "Under al-Ma'mun, Baghdad's House of Wisdom is described as a library and centre for translating Greek works into Arabic",
+        "es": "Bajo al-Ma'mun, la Casa de la Sabiduría de Bagdad se describe como biblioteca y centro de traducción de obras griegas al árabe",
+        "zh": "在马蒙治下，巴格达的智慧宫被描述为图书馆和把希腊著作译成阿拉伯语的中心"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        },
+        {
+          "citation": "Wikipedia, \"House of Wisdom\".",
+          "url": "https://en.wikipedia.org/wiki/House_of_Wisdom"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Some scholars, including Dimitri Gutas, doubt that the House of Wisdom was a formal institution. Translation and scholarship in Baghdad under al-Ma'mun (813 to 833) are not in dispute.",
+        "es": "Algunos estudiosos, entre ellos Dimitri Gutas, dudan de que la Casa de la Sabiduría fuera una institución formal. La traducción y el saber en Bagdad bajo al-Ma'mun (813 a 833) no se discuten.",
+        "zh": "包括迪米特里·古塔斯在内的一些学者怀疑智慧宫是否为正式机构。但马蒙时期（813至833年）巴格达的翻译与学术活动并无争议。"
+      },
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.3152,
+        "lon": 44.3661
+      }
+    },
+    {
+      "id": "samarra-capital",
+      "start": 836,
+      "end": 892,
+      "type": "founding",
+      "title": {
+        "en": "Caliph al-Mu'tasim moves the court to the new city of Samarra, which stays the caliphs' residence until 892",
+        "es": "El califa al-Mu'tasim traslada la corte a la nueva ciudad de Samarra, que sigue siendo residencia de los califas hasta 892",
+        "zh": "哈里发穆耳台绥姆将宫廷迁往新城萨迈拉，该城作为哈里发驻地一直到892年"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Samarra\".",
+          "url": "https://en.wikipedia.org/wiki/Samarra"
+        },
+        {
+          "citation": "Wikipedia, \"Abbasid Caliphate\" (Samarra and Anarchy at Samarra).",
+          "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Samarra",
+          "es": "Samarra",
+          "zh": "萨迈拉"
+        },
+        "lat": 34.1983,
+        "lon": 43.8742
+      }
+    },
+    {
+      "id": "buyids-baghdad",
+      "start": 945,
+      "type": "ruler",
+      "title": {
+        "en": "The Buyid ruler Ahmad ibn Buya enters Baghdad and takes secular power from the caliph",
+        "es": "El gobernante buyí Ahmad ibn Buya entra en Bagdad y quita el poder secular al califa",
+        "zh": "白益统治者艾哈迈德·本·布亚进入巴格达，夺走哈里发的世俗权力"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        },
+        {
+          "citation": "Wikipedia, \"Buyid dynasty\".",
+          "url": "https://en.wikipedia.org/wiki/Buyid_dynasty"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.3152,
+        "lon": 44.3661
+      }
+    },
+    {
+      "id": "mongol-baghdad",
+      "start": 1258,
+      "type": "collapse",
+      "title": {
+        "en": "A Mongol army under Hulegu besieges and takes Baghdad; the last Baghdad caliph, al-Musta'sim, is killed",
+        "es": "Un ejército mongol al mando de Hulagu sitia y toma Bagdad; el último califa de Bagdad, al-Musta'sim, es ejecutado",
+        "zh": "旭烈兀率领的蒙古军队围攻并攻占巴格达，巴格达最后一位哈里发穆斯台耳绥姆被处死"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
+          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+        },
+        {
+          "citation": "Wikipedia, \"Siege of Baghdad (1258)\".",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The siege ran from late January to 10 February 1258. Death tolls from the sack range from about 200,000 to 2,000,000 depending on the source, and modern historians treat the highest figures as inflated.",
+        "es": "El asedio duró de finales de enero al 10 de febrero de 1258. Las cifras de muertos del saqueo van de unos 200 000 a 2 000 000 según la fuente, y los historiadores modernos consideran exageradas las más altas.",
+        "zh": "围城从1月下旬持续到1258年2月10日。各来源给出的劫掠死亡人数从约20万到200万不等，现代史学家认为最高的数字有所夸大。"
+      },
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.3152,
+        "lon": 44.3661
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "malwiya-minaret",
+      "start": 848,
+      "end": 852,
+      "text": {
+        "en": "Caliph al-Mutawakkil's Great Mosque at Samarra, built from 848, had a 52-metre spiral minaret, the Malwiya, and was the largest mosque in the world when finished.",
+        "es": "La Gran Mezquita de Samarra del califa al-Mutawakkil, construida desde 848, tenía un alminar en espiral de 52 metros, la Malwiya, y era la mezquita más grande del mundo al terminarse.",
+        "zh": "哈里发穆塔瓦基勒从848年起修建萨迈拉大清真寺，其螺旋形宣礼塔马尔维亚高52米，建成时是世界上最大的清真寺。"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Great Mosque of Samarra\".",
+          "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Samarra"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
