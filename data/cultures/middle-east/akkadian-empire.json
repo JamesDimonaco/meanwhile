@@ -1,0 +1,222 @@
+{
+  "id": "akkadian-empire",
+  "region": "middle-east",
+  "wikidataId": "Q4461035",
+  "name": {
+    "en": "Akkadian Empire",
+    "es": "Imperio acadio",
+    "zh": "阿卡德帝国"
+  },
+  "aliases": [
+    "Akkad",
+    "Agade",
+    "Sargonic Empire",
+    "Sargonic period",
+    "Sargon of Akkad",
+    "Naram-Sin",
+    "Imperio de Acad",
+    "阿卡德",
+    "萨尔贡"
+  ],
+  "description": {
+    "en": "Founded by Sargon of Akkad, the Akkadian Empire brought the Sumerian and Akkadian-speaking cities of Mesopotamia under one king and sent armies toward the Mediterranean and the Iranian plateau. It lasted about 180 years before it fragmented.",
+    "es": "Fundado por Sargón de Acad, el Imperio acadio reunió bajo un solo rey a las ciudades sumerias y acadias de Mesopotamia y envió ejércitos hacia el Mediterráneo y la meseta iraní. Duró unos 180 años antes de fragmentarse.",
+    "zh": "阿卡德帝国由阿卡德的萨尔贡建立，使美索不达米亚的苏美尔城市与说阿卡德语的城市归于一位国王，并派军队前往地中海和伊朗高原。它延续约180年后分裂。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "akkadian-period",
+      "earliestStart": -2333,
+      "latestStart": -2333,
+      "earliestEnd": -2192,
+      "latestEnd": -2153,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Akkadian\" (2334 BC – 2190 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hjhm5"
+        },
+        {
+          "citation": "Ancient Mesopotamia: New Perspectives, \"Akkadian Empire\" (2334 B.C. – 2193 B.C.), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0njrb4hqj5"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Akkadian Empire.\" (Sargon from 2334 BCE; empire fell around 2154 BCE).",
+          "url": "https://www.worldhistory.org/Akkadian_Empire/"
+        }
+      ],
+      "periodoId": "p08m57hjhm5",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start follows the middle chronology; the short chronology places Sargon about 60 years later. Reference works put the end between 2193 and 2154 BCE, which is the fade.",
+        "es": "El inicio sigue la cronología media; la cronología corta sitúa a Sargón unos 60 años después. Las obras de referencia sitúan el final entre 2193 y 2154 a. e. c., que es el degradado.",
+        "zh": "起点依据中年表；短年表将萨尔贡推后约60年。各工具书把终点定在公元前2193至2154年之间，即渐变部分。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "sargon-takes-throne",
+      "start": -2333,
+      "type": "founding",
+      "title": {
+        "en": "Sargon becomes king of Akkad and begins building an empire across Mesopotamia",
+        "es": "Sargón se convierte en rey de Acad y comienza a construir un imperio por toda Mesopotamia",
+        "zh": "萨尔贡成为阿卡德国王，开始在美索不达米亚建立帝国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Akkadian Empire.\"",
+          "url": "https://www.worldhistory.org/Akkadian_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Sargon of Akkad.\" (reign c. 2334–2279 BCE in the middle chronology).",
+          "url": "https://en.wikipedia.org/wiki/Sargon_of_Akkad"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Middle-chronology date. The city of Akkad has never been located, so its site is not pinned.",
+        "es": "Fecha de la cronología media. La ciudad de Acad nunca se ha localizado, por lo que no se marca su emplazamiento.",
+        "zh": "此为中年表年代。阿卡德城的位置至今未能确定，因此不标注地点。"
+      }
+    },
+    {
+      "id": "enheduanna-priestess",
+      "start": -2299,
+      "type": "ruler",
+      "title": {
+        "en": "Sargon's daughter Enheduanna serves as high priestess at Ur and is later credited with hymns to Inanna",
+        "es": "La hija de Sargón, Enheduanna, sirve como suma sacerdotisa en Ur y más tarde se le atribuyen himnos a Inanna",
+        "zh": "萨尔贡之女恩赫杜安娜在乌尔担任大祭司，后世把献给伊南娜的赞歌归于她名下"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Enheduanna.\" (priestess of the moon god Nanna at Ur, fl. c. 2300 BCE; rediscovered when Woolley found her disc at Ur in 1927).",
+          "url": "https://en.wikipedia.org/wiki/Enheduanna"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Akkadian Empire.\" (Enheduanna, c. 2300 BCE).",
+          "url": "https://www.worldhistory.org/Akkadian_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date is approximate. Assyriologists debate whether she wrote the poems attributed to her.",
+        "es": "La fecha es aproximada. Los asiriólogos discuten si ella escribió los poemas que se le atribuyen.",
+        "zh": "年代为大致估计。亚述学家对她是否真的写了名下的诗作仍有争论。"
+      },
+      "place": {
+        "name": {
+          "en": "Ur, Iraq",
+          "es": "Ur, Irak",
+          "zh": "乌尔，伊拉克"
+        },
+        "lat": 30.963,
+        "lon": 46.103
+      }
+    },
+    {
+      "id": "naram-sin-greatest-extent",
+      "start": -2253,
+      "end": -2217,
+      "type": "ruler",
+      "title": {
+        "en": "Naram-Sin campaigns from the Zagros to the Mediterranean and takes the title god of Akkad",
+        "es": "Naram-Sin hace campañas desde los Zagros hasta el Mediterráneo y toma el título de dios de Acad",
+        "zh": "纳拉姆辛的军队从扎格罗斯山区打到地中海，他自称阿卡德之神"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Akkadian Empire.\" (Naram-Sin, 2254–2218 BCE; writes his name with the sign for a god).",
+          "url": "https://www.worldhistory.org/Akkadian_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Naram-Sin of Akkad.\" (reign c. 2255–2218 BCE; Victory Stele over the Lullubi; campaigns up to the Mediterranean).",
+          "url": "https://en.wikipedia.org/wiki/Naram-Sin_of_Akkad"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "stele-of-naram-sin",
+      "start": -2253,
+      "end": -2217,
+      "type": "conflict",
+      "title": {
+        "en": "Naram-Sin has a victory stele carved after defeating the Lullubi, a mountain people of the Zagros",
+        "es": "Naram-Sin manda tallar una estela de victoria tras derrotar a los lulubi, un pueblo de montaña de los Zagros",
+        "zh": "纳拉姆辛击败扎格罗斯山区的卢卢比人后，下令雕刻胜利石碑"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Victory Stele of Naram-Sin.\" (dated c. 2254–2218 BCE; now in the Louvre).",
+          "url": "https://en.wikipedia.org/wiki/Victory_Stele_of_Naram-Sin"
+        },
+        {
+          "citation": "French Ministry of Culture, Jacques de Morgan archive. \"Victory Stela of Naram-Sin.\" (found at Susa in 1898).",
+          "url": "https://archeologie.culture.gouv.fr/jacques-morgan/en/media/view/6478"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date the stele only to Naram-Sin's reign, so the bar covers the whole reign.",
+        "es": "Las fuentes datan la estela solo en el reinado de Naram-Sin, por lo que la barra abarca todo el reinado.",
+        "zh": "资料只把石碑定在纳拉姆辛在位期间，因此时间条涵盖其整个统治时期。"
+      }
+    },
+    {
+      "id": "akkad-collapse",
+      "start": -2153,
+      "type": "collapse",
+      "title": {
+        "en": "The empire breaks up as Gutian raiders, revolts and drought weaken the Akkadian kings",
+        "es": "El imperio se desintegra mientras los guteos, las revueltas y la sequía debilitan a los reyes acadios",
+        "zh": "古提人的侵袭、叛乱和旱灾削弱阿卡德诸王，帝国瓦解"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Akkadian Empire.\" (fall around 2154 BCE; Gutians traditionally blamed, climate change suggested by modern scholars).",
+          "url": "https://www.worldhistory.org/Akkadian_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Akkadian Empire.\" (collapse probably from internal unrest and a drought linked to the 4.2-kiloyear climate event).",
+          "url": "https://en.wikipedia.org/wiki/Akkadian_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Mesopotamian tradition blames the Gutians; modern scholars weigh drought and revolt as well. The end date varies between 2193 and 2154 BCE across sources.",
+        "es": "La tradición mesopotámica culpa a los guteos; los especialistas actuales también consideran la sequía y la revuelta. La fecha final varía entre 2193 y 2154 a. e. c. según las fuentes.",
+        "zh": "美索不达米亚传统归咎于古提人；现代学者还考虑旱灾与叛乱。各资料给出的终点在公元前2193至2154年之间。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "stele-looted-to-susa",
+      "start": -2253,
+      "end": -2217,
+      "text": {
+        "en": "Naram-Sin's victory stele was carried to Susa about 1,100 years later by an Elamite king, who added his own inscription to it.",
+        "es": "La estela de victoria de Naram-Sin fue llevada a Susa unos 1100 años después por un rey elamita, que le añadió su propia inscripción.",
+        "zh": "纳拉姆辛的胜利石碑约1100年后被一位埃兰国王运到苏萨，他还在碑上添刻了自己的铭文。"
+      },
+      "sources": [
+        {
+          "citation": "French Ministry of Culture, Jacques de Morgan archive. \"Victory Stela of Naram-Sin.\"",
+          "url": "https://archeologie.culture.gouv.fr/jacques-morgan/en/media/view/6478"
+        },
+        {
+          "citation": "Wikipedia. \"Shutruk-Nakhunte.\" (his Elamite inscription on the stele).",
+          "url": "https://en.wikipedia.org/wiki/Shutruk-Nakhunte"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

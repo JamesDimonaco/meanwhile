@@ -1,0 +1,337 @@
+{
+  "id": "sumer",
+  "region": "middle-east",
+  "wikidataId": "Q35355",
+  "name": {
+    "en": "Sumer",
+    "es": "Sumer",
+    "zh": "苏美尔"
+  },
+  "nativeName": {
+    "text": "Kengir",
+    "lang": "sux"
+  },
+  "aliases": [
+    "Sumerians",
+    "Sumerian civilization",
+    "Shumer",
+    "Ur III",
+    "Third Dynasty of Ur",
+    "Neo-Sumerian",
+    "Early Dynastic Mesopotamia",
+    "Uruk",
+    "Ur",
+    "sumerios",
+    "苏美尔人"
+  ],
+  "description": {
+    "en": "Sumer was a group of city-states in southern Mesopotamia, including Uruk, Ur and Lagash, where some of the earliest known writing appeared. Its scribes pressed accounts into clay in cuneiform, and its kings built stepped temple towers called ziggurats.",
+    "es": "Sumer fue un conjunto de ciudades-estado del sur de Mesopotamia, entre ellas Uruk, Ur y Lagash, donde apareció una de las escrituras más antiguas conocidas. Sus escribas registraban cuentas en arcilla en cuneiforme y sus reyes levantaron templos escalonados llamados zigurats.",
+    "zh": "苏美尔是美索不达米亚南部的一组城邦，包括乌鲁克、乌尔和拉加什，已知最早的文字之一出现于此。书吏用楔形文字在泥板上记账，国王修建了称为塔庙的阶梯式神庙。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "sumer-period",
+      "earliestStart": -3499,
+      "latestStart": -2999,
+      "earliestEnd": -2003,
+      "latestEnd": -1762,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Sumerian\" (circa 3000 BC – 2350 BC, southern Mesopotamia), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hbgb6"
+        },
+        {
+          "citation": "Handbook to Life in Ancient Mesopotamia, \"Neo-Sumerian\" (2112 BCE – 2004 BCE), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08tf6p65sx"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Sumer.\"",
+          "url": "https://www.worldhistory.org/sumer/"
+        }
+      ],
+      "periodoId": "p08m57hbgb6",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "No source fixes a start or an end for Sumer. The solid bar runs from the British Museum's Early Dynastic start (about 3000 BCE) to the fall of the Third Dynasty of Ur (2004 BCE). The fade covers the first Uruk cities and the last southern kingdoms, Isin and Larsa, which Babylon took in 1763 BCE. All dates before about 1500 BCE follow the middle chronology and could shift by decades.",
+        "es": "Ninguna fuente fija un inicio ni un final para Sumer. La barra sólida va del inicio del Dinástico Arcaico según el Museo Británico (hacia 3000 a. e. c.) a la caída de la Tercera Dinastía de Ur (2004 a. e. c.). El degradado cubre las primeras ciudades de Uruk y los últimos reinos del sur, Isin y Larsa, que Babilonia tomó en 1763 a. e. c. Todas las fechas anteriores a 1500 a. e. c. aproximadamente siguen la cronología media y podrían variar décadas.",
+        "zh": "没有任何资料为苏美尔确定起止年份。实线从大英博物馆给出的早王朝开端（约公元前3000年）延伸到乌尔第三王朝灭亡（公元前2004年）。渐变部分涵盖最初的乌鲁克城市，以及最后的南方王国伊辛和拉尔萨（巴比伦于公元前1763年攻取后者）。公元前1500年以前的年代大多依据中年表，可能相差数十年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "uruk-writing",
+      "start": -3299,
+      "end": -2999,
+      "type": "invention",
+      "title": {
+        "en": "Scribes at Uruk record grain, livestock and rations on clay tablets, the earliest known writing",
+        "es": "Los escribas de Uruk registran grano, ganado y raciones en tablillas de arcilla, la escritura más antigua conocida",
+        "zh": "乌鲁克的书吏在泥板上记录谷物、牲畜和口粮，这是已知最早的文字"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Cuneiform.\" (first unequivocal documents from the Uruk IV period, c. 3300 BCE; mostly accounting records).",
+          "url": "https://en.wikipedia.org/wiki/Cuneiform"
+        },
+        {
+          "citation": "SmartHistory, \"Ancient Near East\" (LibreTexts): writing begins in Uruk around 3200 BCE to track commodities.",
+          "url": "https://human.libretexts.org/Bookshelves/Art/SmartHistory_of_Art/02%3A_Ancient_Mediterranean/2.02%3A_Ancient_Near_East"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources place the first writing between about 3400 and 3200 BCE, depending on which Uruk tablets count as writing. The bar covers the proto-cuneiform phase to about 3000 BCE.",
+        "es": "Las fuentes sitúan la primera escritura entre 3400 y 3200 a. e. c. aproximadamente, según qué tablillas de Uruk se consideren escritura. La barra abarca la fase protocuneiforme hasta cerca de 3000 a. e. c.",
+        "zh": "各资料将最早的文字定在约公元前3400至3200年之间，取决于哪些乌鲁克泥板算作文字。时间条涵盖截至约公元前3000年的原始楔形文字阶段。"
+      },
+      "place": {
+        "name": {
+          "en": "Uruk (Warka), Iraq",
+          "es": "Uruk (Warka), Irak",
+          "zh": "乌鲁克（瓦尔卡），伊拉克"
+        },
+        "lat": 31.322,
+        "lon": 45.637
+      }
+    },
+    {
+      "id": "royal-cemetery-of-ur",
+      "start": -2599,
+      "end": -1999,
+      "type": "founding",
+      "title": {
+        "en": "Ur's Royal Cemetery fills with burials rich in gold, silver and lapis lazuli",
+        "es": "El Cementerio Real de Ur se llena de enterramientos ricos en oro, plata y lapislázuli",
+        "zh": "乌尔王陵中出现随葬大量黄金、白银和青金石的墓葬"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Sumer.\" (royal burials at Ur, c. 2600–2000 BCE).",
+          "url": "https://www.worldhistory.org/sumer/"
+        },
+        {
+          "citation": "Wikipedia. \"Royal Cemetery at Ur.\" (excavated 1922–1934 by Leonard Woolley for the British Museum and the Penn Museum; earliest royal tomb c. 2600 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Royal_Cemetery_at_Ur"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Ur, Iraq",
+          "es": "Ur, Irak",
+          "zh": "乌尔，伊拉克"
+        },
+        "lat": 30.963,
+        "lon": 46.103
+      }
+    },
+    {
+      "id": "sargon-takes-uruk",
+      "start": -2333,
+      "type": "conflict",
+      "title": {
+        "en": "Sargon of Akkad defeats Lugalzagesi and takes Uruk, ending the independent Sumerian city-states",
+        "es": "Sargón de Acad derrota a Lugalzagesi y toma Uruk, poniendo fin a las ciudades-estado sumerias independientes",
+        "zh": "阿卡德的萨尔贡击败卢伽尔扎吉西并攻占乌鲁克，苏美尔城邦的独立就此终结"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Akkadian Empire.\"",
+          "url": "https://www.worldhistory.org/Akkadian_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Sargon of Akkad.\" (his own inscription describes taking Uruk and leading Lugalzagesi in a collar to the gate of Enlil).",
+          "url": "https://en.wikipedia.org/wiki/Sargon_of_Akkad"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sargon's reign is dated from 2334 BCE (middle chronology). Sources do not say which year of his reign Uruk fell, so the date given is the start of his reign.",
+        "es": "El reinado de Sargón se fecha desde 2334 a. e. c. (cronología media). Las fuentes no dicen en qué año de su reinado cayó Uruk, así que la fecha dada es el inicio de su reinado.",
+        "zh": "萨尔贡的统治按中年表自公元前2334年算起。资料没有说明乌鲁克沦陷于其在位的哪一年，因此这里用的是其即位之年。"
+      },
+      "place": {
+        "name": {
+          "en": "Uruk (Warka), Iraq",
+          "es": "Uruk (Warka), Irak",
+          "zh": "乌鲁克（瓦尔卡），伊拉克"
+        },
+        "lat": 31.322,
+        "lon": 45.637
+      }
+    },
+    {
+      "id": "ur-iii-founded",
+      "start": -2111,
+      "type": "founding",
+      "title": {
+        "en": "Ur-Nammu founds the Third Dynasty of Ur and rebuilds the great ziggurat of Ur",
+        "es": "Ur-Nammu funda la Tercera Dinastía de Ur y reconstruye el gran zigurat de Ur",
+        "zh": "乌尔纳姆建立乌尔第三王朝，并重建乌尔的大塔庙"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Ur-Nammu.\"",
+          "url": "https://www.worldhistory.org/Ur-Nammu/"
+        },
+        {
+          "citation": "Wikipedia. \"Ur-Nammu.\" (cites Frayne 1997, Ur III Period (2112–2004 BC), Royal Inscriptions of Mesopotamia 32).",
+          "url": "https://en.wikipedia.org/wiki/Ur-Nammu"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Ur, Iraq",
+          "es": "Ur, Irak",
+          "zh": "乌尔，伊拉克"
+        },
+        "lat": 30.963,
+        "lon": 46.103
+      }
+    },
+    {
+      "id": "code-of-ur-nammu",
+      "start": -2099,
+      "end": -2049,
+      "type": "invention",
+      "title": {
+        "en": "The Code of Ur-Nammu is written in Sumerian, the oldest surviving law code",
+        "es": "El Código de Ur-Nammu se escribe en sumerio, el código de leyes más antiguo que se conserva",
+        "zh": "《乌尔纳姆法典》以苏美尔语写成，是现存最古老的法典"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Ur-Nammu.\" (code made c. 2100–2050 BCE).",
+          "url": "https://www.worldhistory.org/Ur-Nammu/"
+        },
+        {
+          "citation": "Wikipedia. \"Code of Ur-Nammu.\"",
+          "url": "https://en.wikipedia.org/wiki/Code_of_Ur-Nammu"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Scholars debate whether Ur-Nammu or his son Shulgi had the laws written down, so the date could fall anywhere in a half-century.",
+        "es": "Los especialistas discuten si fue Ur-Nammu o su hijo Shulgi quien mandó escribir las leyes, de modo que la fecha puede situarse en cualquier punto de medio siglo.",
+        "zh": "学者对法典是由乌尔纳姆还是其子舒尔吉下令写成尚有争论，因此年代可能落在半个世纪之内的任何时间。"
+      }
+    },
+    {
+      "id": "fall-of-ur",
+      "start": -2003,
+      "type": "collapse",
+      "title": {
+        "en": "Elamites capture Ur and carry off its last king, Ibbi-Sin, ending the Third Dynasty of Ur",
+        "es": "Los elamitas capturan Ur y se llevan a su último rey, Ibbi-Sin, poniendo fin a la Tercera Dinastía de Ur",
+        "zh": "埃兰人攻陷乌尔并掳走末代国王伊比辛，乌尔第三王朝灭亡"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Elam.\" (Shimashki and Elam sack Ur and take Ibbi-Sin prisoner, c. 2004 BCE).",
+          "url": "https://www.worldhistory.org/Elam/"
+        },
+        {
+          "citation": "Wikipedia. \"Ibbi-Sin.\" (cites the Lament for Sumer and Ur).",
+          "url": "https://en.wikipedia.org/wiki/Ibbi-Sin"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date is c. 2004 BCE in the middle chronology; other chronologies place it decades later.",
+        "es": "La fecha es c. 2004 a. e. c. en la cronología media; otras cronologías la sitúan décadas después.",
+        "zh": "按中年表约为公元前2004年；其他年表则将其推后数十年。"
+      },
+      "place": {
+        "name": {
+          "en": "Ur, Iraq",
+          "es": "Ur, Irak",
+          "zh": "乌尔，伊拉克"
+        },
+        "lat": 30.963,
+        "lon": 46.103
+      }
+    },
+    {
+      "id": "sumerian-king-list-prism",
+      "start": -1799,
+      "type": "invention",
+      "title": {
+        "en": "A scribe records the Sumerian King List on a clay prism, tracing kingship back to before the Flood",
+        "es": "Un escriba registra la Lista Real Sumeria en un prisma de arcilla, que remonta la realeza a antes del Diluvio",
+        "zh": "一名书吏把《苏美尔王表》刻在泥棱柱上，将王权追溯到洪水之前"
+      },
+      "sources": [
+        {
+          "citation": "Ashmolean Museum, Oxford. \"Sumerian King List\" (Weld-Blundell Prism, c. 1800 BC, probably from Larsa).",
+          "url": "https://ashmolean.org/node/178641"
+        },
+        {
+          "citation": "Wikipedia. \"Weld-Blundell Prism.\"",
+          "url": "https://en.wikipedia.org/wiki/Weld-Blundell_Prism"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Larsa, Iraq",
+          "es": "Larsa, Irak",
+          "zh": "拉尔萨，伊拉克"
+        },
+        "lat": 31.236,
+        "lon": 45.855
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "first-writing-accounts",
+      "start": -3299,
+      "end": -2999,
+      "text": {
+        "en": "The first writing was bookkeeping: clay tablets from Uruk count barley, livestock and rations, not stories or prayers.",
+        "es": "La primera escritura fue contabilidad: las tablillas de arcilla de Uruk cuentan cebada, ganado y raciones, no relatos ni oraciones.",
+        "zh": "最早的文字是记账：乌鲁克的泥板清点的是大麦、牲畜和口粮，而不是故事或祷词。"
+      },
+      "sources": [
+        {
+          "citation": "SmartHistory, \"Ancient Near East\" (LibreTexts).",
+          "url": "https://human.libretexts.org/Bookshelves/Art/SmartHistory_of_Art/02%3A_Ancient_Mediterranean/2.02%3A_Ancient_Near_East"
+        },
+        {
+          "citation": "Wikipedia. \"Cuneiform.\"",
+          "url": "https://en.wikipedia.org/wiki/Cuneiform"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "shulgi-run",
+      "start": -2093,
+      "end": -2045,
+      "text": {
+        "en": "King Shulgi of Ur claimed in a hymn that he ran from Nippur to Ur, over 150 kilometres, and back.",
+        "es": "El rey Shulgi de Ur afirmó en un himno que corrió de Nippur a Ur, más de 150 kilómetros, y volvió.",
+        "zh": "乌尔国王舒尔吉在一首赞歌中声称，他从尼普尔跑到乌尔，全程超过150公里，随后又跑了回来。"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Shulgi.\"",
+          "url": "https://en.wikipedia.org/wiki/Shulgi"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Sumer.\" (Shulgi, c. 2094–2046 BCE).",
+          "url": "https://www.worldhistory.org/sumer/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
