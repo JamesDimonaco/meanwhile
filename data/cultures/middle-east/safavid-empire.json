@@ -1,0 +1,285 @@
+{
+  "id": "safavid-empire",
+  "region": "middle-east",
+  "wikidataId": "Q18234383",
+  "name": {
+    "en": "Safavid Iran",
+    "es": "Imperio safávida",
+    "zh": "萨非帝国"
+  },
+  "aliases": [
+    "Safavid Empire",
+    "Safavid dynasty",
+    "Safavids",
+    "Safavid Persia",
+    "Safawid",
+    "Dinastía safávida",
+    "萨法维王朝",
+    "萨非王朝"
+  ],
+  "description": {
+    "en": "Ismail I was proclaimed shah at Tabriz in 1501 and made Twelver Shi'ism the state religion. The Safavids lost to the Ottomans at Chaldiran, moved the capital to Isfahan under Abbas I, and lost Isfahan to Afghan forces in 1722.",
+    "es": "Ismail I fue proclamado sah en Tabriz en 1501 e hizo del chiismo duodecimano la religión de Estado. Los safávidas perdieron ante los otomanos en Chaldirán, trasladaron la capital a Isfahán con Abás I y perdieron Isfahán ante fuerzas afganas en 1722.",
+    "zh": "伊斯迈尔一世于1501年在大不里士被拥立为沙阿，并以十二伊玛目派什叶派为国教。萨非王朝在恰尔迪兰败于奥斯曼人，阿拔斯一世时迁都伊斯法罕，1722年伊斯法罕被阿富汗军队攻占。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "safavid-period",
+      "earliestStart": 1501,
+      "latestStart": 1501,
+      "earliestEnd": 1722,
+      "latestEnd": 1736,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Safavid dynasty\" (1501–1722), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hkdk9"
+        },
+        {
+          "citation": "Wikidata, \"Safavid Iran\" (Q18234383): start 1501, end 8 March 1736.",
+          "url": "https://www.wikidata.org/wiki/Q18234383"
+        },
+        {
+          "citation": "Library of Congress Country Studies, \"Iran: The Safavids, 1501–1722\".",
+          "url": "https://countrystudies.us/iran/11.htm"
+        }
+      ],
+      "periodoId": "p08m57hkdk9",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Afghan forces took Isfahan in 1722, which ends the dynasty in the British Museum's dating. Safavid princes still held the throne in name until Nader Shah took it in 1736, the end date Wikidata uses.",
+        "es": "Fuerzas afganas tomaron Isfahán en 1722, lo que cierra la dinastía en la cronología del Museo Británico. Príncipes safávidas siguieron en el trono nominalmente hasta que Nader Sah lo tomó en 1736, la fecha final que usa Wikidata.",
+        "zh": "1722年阿富汗军队攻占伊斯法罕，大英博物馆的断代即以此为王朝终点。萨非王室成员名义上仍在位，直到1736年纳迪尔沙夺取王位，这是维基数据采用的终点。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "ismail",
+      "start": 1501,
+      "type": "founding",
+      "title": {
+        "en": "Ismail I is proclaimed shah at Tabriz and makes Twelver Shi'ism the state religion",
+        "es": "Ismail I es proclamado sah en Tabriz y hace del chiismo duodecimano la religión de Estado",
+        "zh": "伊斯迈尔一世在大不里士被拥立为沙阿，并定十二伊玛目派什叶派为国教"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, \"Iran: The Safavids, 1501–1722\".",
+          "url": "https://countrystudies.us/iran/11.htm"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Safavid dynasty\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hkdk9"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Tabriz",
+          "es": "Tabriz",
+          "zh": "大不里士"
+        },
+        "lat": 38.08,
+        "lon": 46.29
+      }
+    },
+    {
+      "id": "chaldiran",
+      "start": 1514,
+      "type": "conflict",
+      "title": {
+        "en": "The Ottoman sultan Selim I defeats Ismail I at Chaldiran and briefly occupies Tabriz",
+        "es": "El sultán otomano Selim I derrota a Ismail I en Chaldirán y ocupa brevemente Tabriz",
+        "zh": "奥斯曼苏丹塞利姆一世在恰尔迪兰击败伊斯迈尔一世，并短暂占领大不里士"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Battles & Conquests of the Ottoman Empire (1299–1683)\".",
+          "url": "https://www.worldhistory.org/article/1791/battles--conquests-of-the-ottoman-empire-1299-1683/"
+        },
+        {
+          "citation": "Library of Congress Country Studies, \"Iran: The Safavids, 1501–1722\".",
+          "url": "https://countrystudies.us/iran/11.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Chaldiran plain",
+          "es": "Llanura de Chaldirán",
+          "zh": "恰尔迪兰平原"
+        },
+        "lat": 39.1,
+        "lon": 44.4
+      }
+    },
+    {
+      "id": "ardabil-carpet",
+      "start": 1539,
+      "end": 1540,
+      "type": "invention",
+      "title": {
+        "en": "Maqsud Kashani oversees the Ardabil Carpet, the oldest dated carpet known, made for the Safavid family shrine",
+        "es": "Maqsud Kashani dirige la Alfombra de Ardabil, la alfombra fechada más antigua que se conoce, hecha para el santuario de la familia safávida",
+        "zh": "马克苏德·卡尚尼主持织造阿尔达比勒地毯，这是已知最早有明确纪年的地毯，为萨非王室的家族圣陵而作"
+      },
+      "sources": [
+        {
+          "citation": "Victoria and Albert Museum, \"The Ardabil Carpet\".",
+          "url": "https://www.vam.ac.uk/articles/the-ardabil-carpet"
+        },
+        {
+          "citation": "Los Angeles County Museum of Art, \"Maqsud Kashani, Ardabil Carpet, dated 1539–40 (A.H. 946)\".",
+          "url": "https://collections.lacma.org/object/15378"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The carpet is dated A.H. 946, which spans 1539 and 1540. It was woven as one of a matched pair, now split between the V&A and LACMA. LACMA says it was possibly made in Tabriz.",
+        "es": "La alfombra está fechada en el año 946 de la hégira, que abarca 1539 y 1540. Se tejió como una de un par, hoy repartido entre el V&A y el LACMA. El LACMA dice que posiblemente se hizo en Tabriz.",
+        "zh": "地毯的纪年为伊斯兰历946年，横跨1539年和1540年。它是成对织造的两张之一，如今分藏于维多利亚与阿尔伯特博物馆和洛杉矶郡立艺术博物馆。洛杉矶郡立艺术博物馆称其可能织于大不里士。"
+      }
+    },
+    {
+      "id": "isfahan-capital",
+      "start": 1597,
+      "end": 1598,
+      "type": "founding",
+      "title": {
+        "en": "Abbas I moves the capital from Qazvin to Isfahan and builds a new city beside the old one",
+        "es": "Abás I traslada la capital de Qazvin a Isfahán y construye una ciudad nueva junto a la antigua",
+        "zh": "阿拔斯一世把都城从加兹温迁到伊斯法罕，并在旧城旁兴建新城"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Iranica, \"ʿAbbās I\".",
+          "url": "https://www.iranicaonline.org/articles/abbas-i/"
+        },
+        {
+          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History, \"Shah 'Abbas and the Arts of Isfahan\".",
+          "url": "https://www.metmuseum.org/essays/shah-cabbas-and-the-arts-of-isfahan"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Both sources give 1597–98 for the move.",
+        "es": "Ambas fuentes dan 1597–98 para el traslado.",
+        "zh": "两份来源都把迁都定在1597至1598年。"
+      },
+      "place": {
+        "name": {
+          "en": "Isfahan",
+          "es": "Isfahán",
+          "zh": "伊斯法罕"
+        },
+        "lat": 32.65,
+        "lon": 51.67
+      }
+    },
+    {
+      "id": "hormuz",
+      "start": 1622,
+      "type": "conflict",
+      "title": {
+        "en": "Safavid forces, with English help, take Hormuz from the Portuguese",
+        "es": "Las fuerzas safávidas, con ayuda inglesa, toman Ormuz a los portugueses",
+        "zh": "萨非军队在英国人协助下从葡萄牙人手中夺取霍尔木兹"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Estado da India\".",
+          "url": "https://www.worldhistory.org/Estado_da_India/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Portuguese Empire\".",
+          "url": "https://www.worldhistory.org/Portuguese_Empire/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Hormuz Island",
+          "es": "Isla de Ormuz",
+          "zh": "霍尔木兹岛"
+        },
+        "lat": 27.06,
+        "lon": 56.46
+      }
+    },
+    {
+      "id": "isfahan-falls",
+      "start": 1722,
+      "type": "collapse",
+      "title": {
+        "en": "Afghan Ghilzai forces take Isfahan, ending effective Safavid rule",
+        "es": "Las fuerzas afganas ghilzai toman Isfahán y ponen fin al dominio safávida efectivo",
+        "zh": "阿富汗吉尔扎伊军队攻占伊斯法罕，萨非王朝实际统治终结"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, \"Iran: The Safavids, 1501–1722\".",
+          "url": "https://countrystudies.us/iran/11.htm"
+        },
+        {
+          "citation": "Library of Congress Country Studies, \"Afghanistan: Mughal-Safavid Rivalry, ca. 1500–1747\".",
+          "url": "https://countrystudies.us/afghanistan/10.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Isfahan",
+          "es": "Isfahán",
+          "zh": "伊斯法罕"
+        },
+        "lat": 32.65,
+        "lon": 51.67
+      }
+    },
+    {
+      "id": "nader-shah",
+      "start": 1736,
+      "type": "collapse",
+      "title": {
+        "en": "Tahmasp Quli takes power in his own name as Nader Shah, ending the Safavid line",
+        "es": "Tahmasp Quli toma el poder en nombre propio como Nader Sah y pone fin a la línea safávida",
+        "zh": "塔赫马斯普·库利以纳迪尔沙之名亲自掌权，萨非王室就此断绝"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, \"Iran: The Safavids, 1501–1722\".",
+          "url": "https://countrystudies.us/iran/11.htm"
+        },
+        {
+          "citation": "Wikidata, \"Safavid Iran\" (Q18234383): dissolved 8 March 1736.",
+          "url": "https://www.wikidata.org/wiki/Q18234383"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "qizilbash",
+      "start": 1501,
+      "end": 1524,
+      "text": {
+        "en": "Ismail I's Turkmen soldiers were called Qizilbash, \"red heads\", after their red caps.",
+        "es": "Los soldados turcomanos de Ismail I se llamaban qizilbash, \"cabezas rojas\", por sus gorros rojos.",
+        "zh": "伊斯迈尔一世麾下的突厥语部落士兵因戴红帽而被称为“红头”（克孜勒巴什）。"
+      },
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Safavid dynasty\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hkdk9"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

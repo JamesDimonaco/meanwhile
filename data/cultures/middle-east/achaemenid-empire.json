@@ -1,0 +1,330 @@
+{
+  "id": "achaemenid-empire",
+  "region": "middle-east",
+  "wikidataId": "Q389688",
+  "name": {
+    "en": "Achaemenid Empire",
+    "es": "Imperio aqueménida",
+    "zh": "阿契美尼德王朝"
+  },
+  "aliases": [
+    "Persian Empire",
+    "First Persian Empire",
+    "Achaemenids",
+    "Achaemenian Empire",
+    "Imperio persa",
+    "阿契美尼德帝国",
+    "波斯帝国"
+  ],
+  "description": {
+    "en": "Founded by Cyrus II around 550 BCE, the Achaemenid Empire absorbed Media, Lydia, Babylonia and Egypt and reached from Anatolia to the Indus valley. Alexander of Macedon ended it after defeating Darius III.",
+    "es": "Fundado por Ciro II hacia 550 a. e. c., el Imperio aqueménida absorbió Media, Lidia, Babilonia y Egipto y se extendió desde Anatolia hasta el valle del Indo. Alejandro de Macedonia lo puso fin tras derrotar a Darío III.",
+    "zh": "公元前550年前后由居鲁士二世建立的阿契美尼德帝国，先后吞并米底、吕底亚、巴比伦和埃及，疆域西起安纳托利亚，东至印度河流域。亚历山大击败大流士三世后，帝国灭亡。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "achaemenid-period",
+      "earliestStart": -549,
+      "latestStart": -548,
+      "earliestEnd": -330,
+      "latestEnd": -329,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Achaemenid Dynasty\" (550 BC – 331 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hsmnr"
+        },
+        {
+          "citation": "Livius.org, \"Achaemenids\": Cyrus defeats Astyages in 550 BCE; Darius III is murdered and the dynasty ends in 330 BCE.",
+          "url": "https://www.livius.org/articles/dynasty/achaemenids/"
+        },
+        {
+          "citation": "Wikidata, \"Achaemenid Empire\" (Q389688): start 550 BCE, end 330 BCE.",
+          "url": "https://www.wikidata.org/wiki/Q389688"
+        }
+      ],
+      "periodoId": "p08m57hsmnr",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The start is Cyrus II's defeat of Astyages. The end runs from Alexander's victory at Gaugamela in 331 BCE to the death of Darius III in 330 BCE.",
+        "es": "El inicio es la derrota de Astiages por Ciro II. El final va desde la victoria de Alejandro en Gaugamela, en 331 a. e. c., hasta la muerte de Darío III en 330 a. e. c.",
+        "zh": "起点是居鲁士二世击败阿斯提阿格斯。终点从公元前331年亚历山大在高加米拉获胜，延续到公元前330年大流士三世去世。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "median-conquest",
+      "start": -549,
+      "type": "founding",
+      "title": {
+        "en": "Cyrus II defeats Astyages of Media and takes Ecbatana, putting Medes and Persians under one king",
+        "es": "Ciro II derrota a Astiages de Media y toma Ecbatana, con lo que medos y persas quedan bajo un mismo rey",
+        "zh": "居鲁士二世击败米底国王阿斯提阿格斯并占领埃克巴坦那，米底人与波斯人归于一位国王统治"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Cyrus the Great\".",
+          "url": "https://www.worldhistory.org/Cyrus_the_Great/"
+        },
+        {
+          "citation": "Livius.org, \"Achaemenids\".",
+          "url": "https://www.livius.org/articles/dynasty/achaemenids/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Ecbatana (Hamadan)",
+          "es": "Ecbatana (Hamadán)",
+          "zh": "埃克巴坦那（哈马丹）"
+        },
+        "lat": 34.8,
+        "lon": 48.51
+      }
+    },
+    {
+      "id": "babylon",
+      "start": -538,
+      "type": "conflict",
+      "title": {
+        "en": "Cyrus II takes Babylon; the Cyrus Cylinder, now in the British Museum, records his rule there",
+        "es": "Ciro II toma Babilonia; el Cilindro de Ciro, hoy en el Museo Británico, deja constancia de su gobierno allí",
+        "zh": "居鲁士二世占领巴比伦；现藏大英博物馆的居鲁士圆柱记载了他在当地的统治"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Cyrus the Great\".",
+          "url": "https://www.worldhistory.org/Cyrus_the_Great/"
+        },
+        {
+          "citation": "Livius.org, \"Cyrus Cylinder\": Cyrus conquered Babylon in October 539 BCE.",
+          "url": "https://www.livius.org/sources/content/cyrus-cylinder/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Babylon",
+          "es": "Babilonia",
+          "zh": "巴比伦"
+        },
+        "lat": 32.54,
+        "lon": 44.43
+      }
+    },
+    {
+      "id": "egypt",
+      "start": -524,
+      "type": "conflict",
+      "title": {
+        "en": "Cambyses II defeats the Egyptians at Pelusium and takes Memphis, adding Egypt to the empire",
+        "es": "Cambises II derrota a los egipcios en Pelusio y toma Menfis, con lo que Egipto se suma al imperio",
+        "zh": "冈比西斯二世在培琉喜阿姆击败埃及军队并攻占孟菲斯，埃及并入帝国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Cambyses II\".",
+          "url": "https://www.worldhistory.org/Cambyses_II/"
+        },
+        {
+          "citation": "Livius.org, \"Cambyses II\".",
+          "url": "https://livius.org/articles/person/cambyses-ii"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Pelusium",
+          "es": "Pelusio",
+          "zh": "培琉喜阿姆"
+        },
+        "lat": 31.04,
+        "lon": 32.55
+      }
+    },
+    {
+      "id": "behistun",
+      "start": -519,
+      "type": "ruler",
+      "title": {
+        "en": "Darius I has his accession and the defeat of the revolts carved at Behistun in Old Persian, Elamite and Babylonian",
+        "es": "Darío I hace grabar en Behistún su ascenso al trono y la derrota de las revueltas, en persa antiguo, elamita y babilonio",
+        "zh": "大流士一世在贝希斯敦以古波斯语、埃兰语和巴比伦语刻下自己登基及平定叛乱的经过"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Darius I\".",
+          "url": "https://www.worldhistory.org/Darius_I/"
+        },
+        {
+          "citation": "Livius.org, \"Behistun\".",
+          "url": "https://www.livius.org/articles/place/behistun/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The carving was made in stages and scholars date its versions to within a few years of 520 BCE.",
+        "es": "El relieve se hizo por etapas y los especialistas fechan sus versiones en pocos años en torno a 520 a. e. c.",
+        "zh": "浮雕分阶段完成，学者将各语种版本的年代定在公元前520年前后数年之内。"
+      },
+      "place": {
+        "name": {
+          "en": "Behistun",
+          "es": "Behistún",
+          "zh": "贝希斯敦"
+        },
+        "lat": 34.39,
+        "lon": 47.44
+      }
+    },
+    {
+      "id": "persepolis",
+      "start": -517,
+      "type": "founding",
+      "title": {
+        "en": "Darius I begins Persepolis, a royal complex of halls and palaces on a vast stone terrace",
+        "es": "Darío I inicia Persépolis, un complejo real de salas y palacios sobre una enorme terraza de piedra",
+        "zh": "大流士一世开始兴建波斯波利斯，在巨大的石砌平台上建起王家殿堂与宫殿群"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Persepolis\".",
+          "url": "https://www.worldhistory.org/Persepolis/"
+        },
+        {
+          "citation": "Livius.org, \"Persepolis\".",
+          "url": "https://www.livius.org/articles/place/persepolis/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources place the start of building around 518 BCE; some give 515 BCE. Work went on under Darius's successors.",
+        "es": "Las fuentes sitúan el comienzo de las obras hacia 518 a. e. c.; algunas dan 515 a. e. c. Los trabajos continuaron con los sucesores de Darío.",
+        "zh": "史料把动工时间定在公元前518年前后，也有说法为前515年。工程在大流士的继任者手中继续进行。"
+      },
+      "place": {
+        "name": {
+          "en": "Persepolis",
+          "es": "Persépolis",
+          "zh": "波斯波利斯"
+        },
+        "lat": 29.93,
+        "lon": 52.89
+      }
+    },
+    {
+      "id": "marathon",
+      "start": -489,
+      "type": "conflict",
+      "title": {
+        "en": "Athenian forces beat the Persian landing at Marathon, ending Darius I's expedition against Athens",
+        "es": "Las fuerzas atenienses derrotan el desembarco persa en Maratón y ponen fin a la expedición de Darío I contra Atenas",
+        "zh": "雅典军队在马拉松击败登陆的波斯军，大流士一世远征雅典的行动就此告终"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Darius I\".",
+          "url": "https://www.worldhistory.org/Darius_I/"
+        },
+        {
+          "citation": "Livius.org, \"Marathon (490 BCE)\".",
+          "url": "https://www.livius.org/articles/battle/marathon-490-bce/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Sources agree on the year but not the month: Livius gives August, the Greek tradition September.",
+        "es": "Las fuentes coinciden en el año pero no en el mes: Livius da agosto y la tradición griega septiembre.",
+        "zh": "各来源对年份一致，月份不同：Livius 作八月，希腊传统作九月。"
+      },
+      "place": {
+        "name": {
+          "en": "Marathon",
+          "es": "Maratón",
+          "zh": "马拉松"
+        },
+        "lat": 38.15,
+        "lon": 23.96
+      }
+    },
+    {
+      "id": "gaugamela",
+      "start": -330,
+      "type": "collapse",
+      "title": {
+        "en": "Alexander of Macedon defeats Darius III at Gaugamela, and Darius leaves the field",
+        "es": "Alejandro de Macedonia derrota a Darío III en Gaugamela, y Darío abandona el campo",
+        "zh": "马其顿的亚历山大在高加米拉击败大流士三世，大流士弃战而走"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Battle of Gaugamela\".",
+          "url": "https://www.worldhistory.org/Battle_of_Gaugamela/"
+        },
+        {
+          "citation": "Livius.org, \"Gaugamela (331 BCE)\".",
+          "url": "https://www.livius.org/articles/battle/gaugamela-331-bce/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "persepolis-burned",
+      "start": -329,
+      "type": "collapse",
+      "title": {
+        "en": "Alexander burns buildings at Persepolis; Darius III is murdered the same year and the dynasty ends",
+        "es": "Alejandro incendia edificios de Persépolis; Darío III es asesinado ese mismo año y la dinastía termina",
+        "zh": "亚历山大焚毁波斯波利斯的部分建筑；大流士三世同年被害，王朝终结"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Persepolis\": Alexander captured the city in early 330 BCE and burned several palaces in April.",
+          "url": "https://www.livius.org/articles/place/persepolis/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Persepolis\".",
+          "url": "https://www.worldhistory.org/Persepolis/"
+        },
+        {
+          "citation": "Livius.org, \"Achaemenids\": Darius III was murdered in 330 BCE.",
+          "url": "https://www.livius.org/articles/dynasty/achaemenids/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Persepolis",
+          "es": "Persépolis",
+          "zh": "波斯波利斯"
+        },
+        "lat": 29.93,
+        "lon": 52.89
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "twenty-three-nations",
+      "start": -517,
+      "end": -329,
+      "text": {
+        "en": "The stairway reliefs at Persepolis show people from twenty-three subject nations bringing gifts to the king.",
+        "es": "Los relieves de la escalera de Persépolis muestran a gentes de veintitrés naciones sometidas que llevan regalos al rey.",
+        "zh": "波斯波利斯阶梯上的浮雕，刻画了二十三个属国的人民向国王献礼的场面。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Persepolis\".",
+          "url": "https://www.worldhistory.org/Persepolis/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
