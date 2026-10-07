@@ -1,0 +1,370 @@
+{
+  "id": "seleucid-empire",
+  "region": "middle-east",
+  "wikidataId": "Q93180",
+  "name": {
+    "en": "Seleucid Empire",
+    "es": "Imperio seléucida",
+    "zh": "塞琉古帝国"
+  },
+  "aliases": [
+    "Seleucids",
+    "Seleucid kingdom",
+    "Seleucus I Nicator",
+    "Antioch",
+    "Seleucia",
+    "Seleúcidas",
+    "Imperio seleúcida",
+    "塞琉古王朝",
+    "塞琉西帝国"
+  ],
+  "description": {
+    "en": "A Greek-ruled Hellenistic state founded by Seleucus I from Alexander's conquests. At its height it stretched from Anatolia to Afghanistan. It lost the east to Parthia and Bactria, Anatolia to Rome, and ended when Pompey made Syria a Roman province.",
+    "es": "Un estado helenístico de gobierno griego fundado por Seleuco I a partir de las conquistas de Alejandro. En su apogeo se extendía desde Anatolia hasta Afganistán. Perdió el este ante Partia y Bactria, Anatolia ante Roma, y terminó cuando Pompeyo convirtió Siria en provincia romana.",
+    "zh": "由塞琉古一世在亚历山大征服地基础上建立的希腊化国家，由希腊人统治。鼎盛时疆域东西横跨安纳托利亚至阿富汗。它的东部被帕提亚和巴克特里亚夺走，安纳托利亚被罗马夺走，最终因庞培将叙利亚设为罗马行省而灭亡。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "seleucid-era",
+      "earliestStart": -311,
+      "latestStart": -300,
+      "earliestEnd": -83,
+      "latestEnd": -62,
+      "sources": [
+        {
+          "citation": "The Land of the Elephant Kings: Space, Territory, and Ideology in the Seleucid Empire (2018), via PeriodO: \"Seleucid Empire\" (311 – 64 BCE).",
+          "url": "http://n2t.net/ark:/99152/p0jgnvq47w4"
+        },
+        {
+          "citation": "Toumanoff, Cyrille (1963). Studies in Christian Caucasian History, via PeriodO: \"Seleucid Monarchy\" (301 – 84 BC).",
+          "url": "http://n2t.net/ark:/99152/p0kj6dj8rr9"
+        }
+      ],
+      "periodoId": "p0jgnvq47w4",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start runs from Seleucus I's takeover of Babylon in 312/311 BCE to 301 BCE, the date Toumanoff gives for the monarchy. The end runs from 84/83 BCE, when Tigranes of Armenia took Syria, to 64/63 BCE, when Pompey made Syria a Roman province.",
+        "es": "El inicio va desde la toma de Babilonia por Seleuco I en 312/311 a. e. c. hasta 301 a. e. c., fecha que da Toumanoff para la monarquía. El final va de 84/83 a. e. c., cuando Tigranes de Armenia tomó Siria, a 64/63 a. e. c., cuando Pompeyo convirtió Siria en provincia romana.",
+        "zh": "起点从塞琉古一世于公元前312/311年夺取巴比伦，到公元前301年（图马诺夫给出的王国开端）。终点从公元前84/83年亚美尼亚的提格兰夺取叙利亚，一直到公元前64/63年庞培将叙利亚设为罗马行省。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "first-period",
+      "name": {
+        "en": "Seleucus I and the founding",
+        "es": "Seleuco I y la fundación",
+        "zh": "塞琉古一世与建国"
+      },
+      "start": -310,
+      "end": -280,
+      "sources": [
+        {
+          "citation": "The Land of the Elephant Kings (2018), via PeriodO: \"First Period of Seleucid Political History\" (311 – 281 BCE).",
+          "url": "http://n2t.net/ark:/99152/p0jgnvqz83v"
+        }
+      ]
+    },
+    {
+      "id": "second-period",
+      "name": {
+        "en": "Second period (281–223 BCE)",
+        "es": "Segundo periodo (281–223 a. e. c.)",
+        "zh": "第二时期（公元前281—前223年）"
+      },
+      "start": -280,
+      "end": -222,
+      "sources": [
+        {
+          "citation": "The Land of the Elephant Kings (2018), via PeriodO: \"Second Period of Seleucid Political History\" (281 – 223 BCE).",
+          "url": "http://n2t.net/ark:/99152/p0jgnvq7wjq"
+        }
+      ]
+    },
+    {
+      "id": "third-period",
+      "name": {
+        "en": "Third period (223–164 BCE)",
+        "es": "Tercer periodo (223–164 a. e. c.)",
+        "zh": "第三时期（公元前223—前164年）"
+      },
+      "start": -222,
+      "end": -163,
+      "sources": [
+        {
+          "citation": "The Land of the Elephant Kings (2018), via PeriodO: \"Third Period of Seleucid Political History\" (223 – 164 BCE).",
+          "url": "http://n2t.net/ark:/99152/p0jgnvqkqhc"
+        }
+      ]
+    },
+    {
+      "id": "fourth-period",
+      "name": {
+        "en": "Fourth period (164–64 BCE)",
+        "es": "Cuarto periodo (164–64 a. e. c.)",
+        "zh": "第四时期（公元前164—前64年）"
+      },
+      "start": -163,
+      "end": -63,
+      "sources": [
+        {
+          "citation": "The Land of the Elephant Kings (2018), via PeriodO: \"Fourth Period of Seleucid Political History\" (164 – 64/63 BCE).",
+          "url": "http://n2t.net/ark:/99152/p0jgnvqq27x"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "seleucus-takes-babylon",
+      "start": -311,
+      "type": "founding",
+      "title": {
+        "en": "Seleucus I takes Babylon, the starting point of the Seleucid era",
+        "es": "Seleuco I toma Babilonia, punto de partida de la era seléucida",
+        "zh": "塞琉古一世夺取巴比伦，这是塞琉古纪元的起点"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Seleucid Empire\" (312 BCE: Seleucus conquers Babylon and founds the dynasty).",
+          "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        },
+        {
+          "citation": "The Land of the Elephant Kings (2018), via PeriodO: \"Seleucid Era\" (312/311 BCE – 64 BCE).",
+          "url": "http://n2t.net/ark:/99152/p0jgnvqsm8t"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources count the Seleucid era from 312 or 311 BCE.",
+        "es": "Las fuentes cuentan la era seléucida desde 312 o 311 a. e. c.",
+        "zh": "各资料将塞琉古纪元定在公元前312年或311年。"
+      },
+      "place": {
+        "name": {
+          "en": "Babylon",
+          "es": "Babilonia",
+          "zh": "巴比伦"
+        },
+        "lat": 32.5363,
+        "lon": 44.4208
+      }
+    },
+    {
+      "id": "ipsus",
+      "start": -300,
+      "type": "conflict",
+      "title": {
+        "en": "Seleucus I and his allies defeat Antigonus I at Ipsus; Seleucus's war elephants block the enemy cavalry",
+        "es": "Seleuco I y sus aliados derrotan a Antígono I en Ipso; los elefantes de guerra de Seleuco bloquean a la caballería enemiga",
+        "zh": "塞琉古一世及其盟友在伊普苏斯击败安提柯一世；塞琉古的战象挡住了敌方骑兵"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Ipsus\" (301 BC).",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Ipsus"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Seleucid Empire\" (301 BCE: victory at Ipsus).",
+          "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "antioch-founded",
+      "start": -299,
+      "type": "founding",
+      "title": {
+        "en": "Seleucus I founds Antioch on the Orontes, which becomes the Seleucid capital",
+        "es": "Seleuco I funda Antioquía del Orontes, que se convierte en la capital seléucida",
+        "zh": "塞琉古一世建立奥龙特斯河畔的安条克，后成为塞琉古王朝的都城"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Antioch\" (founded between 301 and 299 BC).",
+          "url": "https://en.wikipedia.org/wiki/Antioch"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Seleucid Empire\" (300 BCE: Seleucus founds Antioch on the Orontes).",
+          "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Antioch on the Orontes (Antakya)",
+          "es": "Antioquía del Orontes (Antakya)",
+          "zh": "奥龙特斯河畔的安条克（安塔基亚）"
+        },
+        "lat": 36.2021,
+        "lon": 36.1603
+      }
+    },
+    {
+      "id": "parthia-and-bactria-break-away",
+      "start": -254,
+      "end": -245,
+      "type": "collapse",
+      "title": {
+        "en": "Parthia and Bactria break away from Seleucid rule",
+        "es": "Partia y Bactria se separan del dominio seléucida",
+        "zh": "帕提亚和巴克特里亚脱离塞琉古统治"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Seleucid Empire\" (Parthia revolts in 247 BCE; Diodotus of Bactria secedes).",
+          "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        },
+        {
+          "citation": "Wikipedia, \"Greco-Bactrian Kingdom\" (Diodotus I's secession c. 255 or c. 246 BC).",
+          "url": "https://en.wikipedia.org/wiki/Greco-Bactrian_Kingdom"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Parthia's revolt is dated about 247 BCE. Historians date Diodotus's secession of Bactria to about 255 BCE (high chronology) or about 246 BCE (low chronology), and the question is not settled.",
+        "es": "La rebelión de Partia se fecha hacia 247 a. e. c. Los historiadores datan la secesión de Bactria de Diodoto hacia 255 a. e. c. (cronología alta) o hacia 246 a. e. c. (cronología baja), y la cuestión no está resuelta.",
+        "zh": "帕提亚的叛离约在公元前247年。史家将狄奥多图斯使巴克特里亚独立的时间定在约公元前255年（高年表）或约前246年（低年表），尚无定论。"
+      }
+    },
+    {
+      "id": "magnesia",
+      "start": -189,
+      "type": "conflict",
+      "title": {
+        "en": "Rome defeats Antiochus III at Magnesia; the Treaty of Apamea strips the Seleucids of Anatolia west of the Taurus",
+        "es": "Roma derrota a Antíoco III en Magnesia; el Tratado de Apamea priva a los seléucidas de Anatolia al oeste del Tauro",
+        "zh": "罗马在马格尼西亚击败安条克三世；《阿帕梅亚和约》使塞琉古失去托罗斯山以西的安纳托利亚"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Magnesia\" (December 190 or January 189 BC; Treaty of Apamea, 188 BC).",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Magnesia"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Seleucid Empire\" (190 BCE: Antiochus III defeated at Magnesia; 188 BCE: Treaty of Apamea).",
+          "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Magnesia ad Sipylum (Manisa)",
+          "es": "Magnesia del Sípilo (Manisa)",
+          "zh": "西庇洛斯山下的马格尼西亚（马尼萨）"
+        },
+        "lat": 38.6191,
+        "lon": 27.4289
+      }
+    },
+    {
+      "id": "maccabean-revolt",
+      "start": -166,
+      "end": -163,
+      "type": "conflict",
+      "title": {
+        "en": "The Maccabees rise against Antiochus IV in Judea, take Jerusalem and rededicate the Temple",
+        "es": "Los macabeos se alzan contra Antíoco IV en Judea, toman Jerusalén y reconsagran el Templo",
+        "zh": "马加比人在犹地亚起兵反抗安条克四世，攻占耶路撒冷并重新奉献圣殿"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Maccabean Revolt\" (uprising from 167 BCE; Temple rededicated 164 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Maccabean_Revolt"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Maccabean Revolt\" (167–160 BCE).",
+          "url": "https://www.worldhistory.org/Maccabean_Revolt/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The main accounts are 1 and 2 Maccabees and Josephus, which favour the Maccabees. The wider revolt ran from 167 to 160 BCE.",
+        "es": "Los relatos principales son 1 y 2 Macabeos y Flavio Josefo, que favorecen a los macabeos. La revuelta en sentido amplio duró de 167 a 160 a. e. c.",
+        "zh": "主要记载是《玛加伯上》《玛加伯下》和约瑟夫斯的著作，它们都偏向马加比人。整场起义从公元前167年持续到前160年。"
+      }
+    },
+    {
+      "id": "parthians-take-babylonia",
+      "start": -140,
+      "type": "collapse",
+      "title": {
+        "en": "Mithridates I of Parthia takes Babylonia from the Seleucids",
+        "es": "Mitrídates I de Partia arrebata Babilonia a los seléucidas",
+        "zh": "帕提亚的米特里达梯一世从塞琉古人手中夺取巴比伦尼亚"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Mithridates I of Parthia\" (took Babylonia in 141 BC).",
+          "url": "https://en.wikipedia.org/wiki/Mithridates_I_of_Parthia"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Parthian Empire\" (took Seleucia c. 144 BCE and Babylon in 141 BCE).",
+          "url": "https://www.worldhistory.org/Parthian_Empire/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Seleucia on the Tigris",
+          "es": "Seleucia del Tigris",
+          "zh": "底格里斯河畔的塞琉西亚"
+        },
+        "lat": 33.0944,
+        "lon": 44.5183
+      }
+    },
+    {
+      "id": "pompey-makes-syria-roman",
+      "start": -63,
+      "type": "collapse",
+      "title": {
+        "en": "Pompey removes Antiochus XIII and makes Syria a Roman province, ending Seleucid rule",
+        "es": "Pompeyo depone a Antíoco XIII y convierte Siria en provincia romana, poniendo fin al dominio seléucida",
+        "zh": "庞培废黜安条克十三世，将叙利亚设为罗马行省，塞琉古统治就此终结"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Antiochus XIII Asiaticus\" (Pompey ended his rule in 64 BC).",
+          "url": "https://en.wikipedia.org/wiki/Antiochus_XIII_Asiaticus"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Seleucid Empire\" (63 BCE: Pompey makes Syria and Anatolia Roman provinces).",
+          "url": "https://www.worldhistory.org/Seleucid_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date the end to 64 or 63 BCE.",
+        "es": "Las fuentes datan el final en 64 o 63 a. e. c.",
+        "zh": "各资料将终结定在公元前64年或63年。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "five-hundred-elephants",
+      "text": {
+        "en": "Ancient writers say Seleucus I gave Chandragupta Maurya lands in the east in return for 500 war elephants.",
+        "es": "Los autores antiguos dicen que Seleuco I cedió a Chandragupta Maurya tierras del este a cambio de 500 elefantes de guerra.",
+        "zh": "古代作家称，塞琉古一世把东部的土地让给旃陀罗笈多·孔雀，换取500头战象。"
+      },
+      "start": -304,
+      "end": -302,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Seleucid–Mauryan war\" (305–303 BCE; Strabo; no Indian source records the exchange).",
+          "url": "https://en.wikipedia.org/wiki/Seleucid%E2%80%93Mauryan_war"
+        }
+      ],
+      "disputed": true
+    }
+  ]
+}

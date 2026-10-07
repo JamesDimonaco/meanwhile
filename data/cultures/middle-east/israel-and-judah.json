@@ -1,0 +1,350 @@
+{
+  "id": "israel-and-judah",
+  "region": "middle-east",
+  "wikidataId": "Q193748",
+  "name": {
+    "en": "Israel and Judah",
+    "es": "Israel y Judá",
+    "zh": "以色列与犹大"
+  },
+  "aliases": [
+    "Kingdom of Israel",
+    "Kingdom of Judah",
+    "Israelites",
+    "Samaria",
+    "Jerusalem",
+    "Iron Age Israel",
+    "ancient Israel",
+    "Reino de Israel",
+    "Reino de Judá",
+    "古以色列",
+    "犹大王国"
+  ],
+  "description": {
+    "en": "Two neighbouring kingdoms of the southern Levant: Israel in the north, with its capital at Samaria, and Judah in the south, around Jerusalem. Assyria ended Israel around 722 BCE and Babylon ended Judah in 586 BCE. The Bible's account and the archaeology differ on their early years.",
+    "es": "Dos reinos vecinos del Levante meridional: Israel al norte, con capital en Samaria, y Judá al sur, en torno a Jerusalén. Asiria puso fin a Israel hacia 722 a. e. c. y Babilonia a Judá en 586 a. e. c. El relato bíblico y la arqueología difieren sobre sus primeros años.",
+    "zh": "黎凡特南部相邻的两个王国：北方的以色列，都城撒玛利亚；南方的犹大，以耶路撒冷为中心。亚述约在公元前722年灭亡以色列，巴比伦于公元前586年灭亡犹大。《圣经》的叙述与考古发现在其早期历史上并不一致。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kingdoms",
+      "earliestStart": -929,
+      "latestStart": -874,
+      "earliestEnd": -586,
+      "latestEnd": -585,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (the kingdom splits in two after Solomon's death, c. 930 BCE).",
+          "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
+        },
+        {
+          "citation": "Wikipedia, \"Kingdom of Israel (Samaria)\" (c. 930–720 BCE) and \"Kingdom of Judah\" (c. 930–587 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Judah"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The Bible dates the two kingdoms from a split c. 930 BCE after a united kingdom under David and Solomon. Archaeologists disagree on whether that united state existed: Israel Finkelstein's low chronology moves the 10th-century monumental buildings into the 9th century, while William Dever and others read the 10th-century evidence as consistent with one. Israel is firmly attested by Assyrian records from the 9th century BCE, and most evidence puts Judah's rise as a substantial state in the 8th century BCE.",
+        "es": "La Biblia fecha los dos reinos a partir de una división hacia 930 a. e. c., tras un reino unido bajo David y Salomón. Los arqueólogos discrepan sobre si ese estado unido existió: la cronología baja de Israel Finkelstein traslada al siglo IX los edificios monumentales del siglo X, mientras que William Dever y otros consideran que las pruebas del siglo X son compatibles con él. Israel está bien atestiguado por registros asirios desde el siglo IX a. e. c., y la mayoría de las pruebas sitúan el auge de Judá como estado importante en el siglo VIII a. e. c.",
+        "zh": "《圣经》认为，在大卫和所罗门治下的统一王国之后，两个王国于约公元前930年分裂。考古学家对这个统一国家是否存在意见不一：以色列·芬克尔斯坦的“低年代学”把10世纪的宏伟建筑移到9世纪，而威廉·德弗等人认为10世纪的证据与统一国家相符。以色列自公元前9世纪起就有亚述记录确证，多数证据认为犹大到公元前8世纪才成为较大的国家。"
+      }
+    },
+    {
+      "id": "israelite-age",
+      "label": {
+        "en": "Israelite Age (archaeological period)",
+        "es": "Edad israelita (periodo arqueológico)",
+        "zh": "以色列时代（考古分期）"
+      },
+      "earliestStart": -1199,
+      "latestStart": -1199,
+      "earliestEnd": -585,
+      "latestEnd": -585,
+      "sources": [
+        {
+          "citation": "International Congress on Biblical Archaeology (1985). Biblical Archaeology Today, via PeriodO: \"Israelite Age\" (1200 – 586 BCE).",
+          "url": "http://n2t.net/ark:/99152/p0kgptqfs5b"
+        }
+      ],
+      "periodoId": "p0kgptqfs5b",
+      "default": false,
+      "disputed": false
+    }
+  ],
+  "phases": [
+    {
+      "id": "israel-and-judah",
+      "name": {
+        "en": "Israel and Judah side by side",
+        "es": "Israel y Judá, lado a lado",
+        "zh": "以色列与犹大并存"
+      },
+      "start": -929,
+      "end": -721,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Kingdom of Israel (Samaria)\" (c. 930–720 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria)"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (northern kingdom destroyed in 722 BCE).",
+          "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
+        }
+      ]
+    },
+    {
+      "id": "judah-alone",
+      "name": {
+        "en": "Judah alone",
+        "es": "Solo Judá",
+        "zh": "仅余犹大"
+      },
+      "start": -721,
+      "end": -585,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Kingdom of Judah\" (c. 930–587 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Judah"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Nebuchadnezzar II\" (destruction of Jerusalem 587/586 BCE).",
+          "url": "https://www.worldhistory.org/Nebuchadnezzar_II/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "merneptah-stele",
+      "start": -1207,
+      "type": "founding",
+      "title": {
+        "en": "Pharaoh Merneptah's victory stele names a people called Israel in Canaan, the earliest known mention",
+        "es": "La estela de victoria del faraón Merenptah nombra a un pueblo llamado Israel en Canaán, la mención más antigua conocida",
+        "zh": "法老美楞普塔的胜利碑文提到迦南有一个名为以色列的民族，这是已知最早的记载"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Merneptah Stele\" (c. 1208 BCE; Egyptian Museum, Cairo).",
+          "url": "https://en.wikipedia.org/wiki/Merneptah_Stele"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Merneptah\" (stele dating to 1208 BCE, found by Petrie in 1896).",
+          "url": "https://www.worldhistory.org/Merneptah/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The sign after the name marks a people, not a city or state, and most scholars place this Israel among the people of Canaan's hill country. It is about 350 years before Israel's king Ahab appears in Assyrian records (853 BCE).",
+        "es": "El signo tras el nombre indica un pueblo, no una ciudad ni un estado, y la mayoría de los especialistas sitúan a este Israel entre la población de la región montañosa de Canaán. Es unos 350 años anterior a la aparición del rey Acab de Israel en los registros asirios (853 a. e. c.).",
+        "zh": "名字后的限定符表示这是一个民族，而非城市或国家，多数学者认为这个以色列属于迦南山地的居民。它比以色列国王亚哈出现在亚述记录中（公元前853年）早约350年。"
+      }
+    },
+    {
+      "id": "division",
+      "start": -929,
+      "type": "founding",
+      "title": {
+        "en": "In the Bible's account, the kingdom of David and Solomon splits into Israel in the north and Judah in the south",
+        "es": "Según el relato bíblico, el reino de David y Salomón se divide en Israel, al norte, y Judá, al sur",
+        "zh": "据《圣经》记载，大卫和所罗门的王国分裂为北方的以色列与南方的犹大"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Kingdom of Israel\".",
+          "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
+        },
+        {
+          "citation": "Wikipedia, \"United Monarchy\" (traditional dates c. 1047–930 BCE; historicity debated).",
+          "url": "https://en.wikipedia.org/wiki/United_Monarchy"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Whether one kingdom existed before the split is debated. The earliest mention outside the Bible of a 'House of David' is the Tel Dan stele, from the 9th century BCE.",
+        "es": "Se discute si existió un solo reino antes de la división. La mención más antigua fuera de la Biblia de una 'Casa de David' es la estela de Tel Dan, del siglo IX a. e. c.",
+        "zh": "分裂之前是否存在一个统一王国尚有争论。《圣经》之外最早提到“大卫之家”的是公元前9世纪的特尔但碑。"
+      }
+    },
+    {
+      "id": "omri-samaria",
+      "start": -879,
+      "type": "ruler",
+      "title": {
+        "en": "Omri makes Samaria the capital of Israel; Assyrian records call the kingdom the House of Omri",
+        "es": "Omrí convierte Samaria en capital de Israel; los registros asirios llaman al reino la Casa de Omrí",
+        "zh": "暗利定撒玛利亚为以色列都城；亚述记录称这个王国为“暗利之家”"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Samaria\" (Omri, 884–873, founded Samaria in the sixth year of his reign).",
+          "url": "https://www.livius.org/articles/place/samaria/"
+        },
+        {
+          "citation": "Wikipedia, \"Kingdom of Israel (Samaria)\" (capital moved from Tirzah to Samaria around 880 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria)"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Samaria (Sebastia)",
+          "es": "Samaria (Sebaste)",
+          "zh": "撒玛利亚（塞巴斯蒂亚）"
+        },
+        "lat": 32.2763,
+        "lon": 35.1942
+      }
+    },
+    {
+      "id": "qarqar",
+      "start": -852,
+      "type": "conflict",
+      "title": {
+        "en": "Ahab of Israel joins a coalition against Shalmaneser III of Assyria at Qarqar; only Assyrian records mention it",
+        "es": "Acab de Israel se une a una coalición contra Salmanasar III de Asiria en Qarqar; solo los registros asirios la mencionan",
+        "zh": "以色列的亚哈在卡尔卡尔加入对抗亚述沙勒马内色三世的联军；只有亚述记录提到这场战役"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Qarqar\" (853 BC; Kurkh Monolith).",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Qarqar"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (Assyrian records give Ahab 2,000 chariots and 10,000 infantry).",
+          "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Kurkh Monolith credits Ahab with 2,000 chariots and 10,000 soldiers; some scholars think the chariot figure is too high. The date is 853 BCE or, by another chronology, 854 BCE. The Hebrew Bible does not mention the battle.",
+        "es": "El Monolito de Kurkh atribuye a Acab 2000 carros y 10 000 soldados; algunos especialistas consideran excesiva la cifra de carros. La fecha es 853 a. e. c. o, según otra cronología, 854 a. e. c. La Biblia hebrea no menciona la batalla.",
+        "zh": "库尔赫巨石碑称亚哈出动2000辆战车和1万名士兵；一些学者认为战车数字偏高。年代为公元前853年，按另一种年表则为公元前854年。《希伯来圣经》没有提到这场战役。"
+      }
+    },
+    {
+      "id": "fall-of-samaria",
+      "start": -721,
+      "type": "collapse",
+      "title": {
+        "en": "Assyria takes Samaria and ends the kingdom of Israel; many of its people are deported",
+        "es": "Asiria toma Samaria y pone fin al reino de Israel; muchos de sus habitantes son deportados",
+        "zh": "亚述攻占撒玛利亚，灭亡以色列王国，许多居民被迁走"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (northern kingdom destroyed by the Assyrians in 722 BCE).",
+          "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
+        },
+        {
+          "citation": "Wikipedia, \"Kingdom of Israel (Samaria)\" (conquered around 720 BCE; Sargon II's record of carrying off 27,280 people).",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria)"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date the fall between about 724 and 720 BCE (Livius c. 724, the World History Encyclopedia 722, Wikipedia c. 720). Scholars estimate that far fewer people were resettled than Assyrian records claim.",
+        "es": "Las fuentes datan la caída entre c. 724 y 720 a. e. c. (Livius c. 724, la World History Encyclopedia 722, Wikipedia c. 720). Los especialistas calculan que se reasentó a muchas menos personas de las que afirman los registros asirios.",
+        "zh": "各资料将陷落定在约公元前724年至前720年之间（Livius约前724年，《世界历史百科全书》前722年，维基百科约前720年）。学者估计，实际迁走的人数远少于亚述记录所称。"
+      },
+      "place": {
+        "name": {
+          "en": "Samaria (Sebastia)",
+          "es": "Samaria (Sebaste)",
+          "zh": "撒玛利亚（塞巴斯蒂亚）"
+        },
+        "lat": 32.2763,
+        "lon": 35.1942
+      }
+    },
+    {
+      "id": "sennacherib-judah",
+      "start": -700,
+      "type": "conflict",
+      "title": {
+        "en": "Sennacherib of Assyria takes Lachish and besieges Jerusalem under Hezekiah, but does not take the city",
+        "es": "Senaquerib de Asiria toma Laquis y asedia Jerusalén bajo Ezequías, pero no conquista la ciudad",
+        "zh": "亚述的西拿基立攻占拉吉，并围攻希西家治下的耶路撒冷，但未能攻下该城"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Sennacherib\".",
+          "url": "https://www.worldhistory.org/Sennacherib/"
+        },
+        {
+          "citation": "Wikipedia, \"Siege of Lachish\" (701 BC; Lachish reliefs from Nineveh, British Museum).",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Lachish"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lachish (Tel Lachish)",
+          "es": "Laquis (Tel Laquis)",
+          "zh": "拉吉（拉吉丘）"
+        },
+        "lat": 31.5642,
+        "lon": 34.8478
+      }
+    },
+    {
+      "id": "fall-of-jerusalem",
+      "start": -586,
+      "type": "collapse",
+      "title": {
+        "en": "Nebuchadnezzar II of Babylon destroys Jerusalem and its Temple, ending the kingdom of Judah",
+        "es": "Nabucodonosor II de Babilonia destruye Jerusalén y su Templo, y pone fin al reino de Judá",
+        "zh": "巴比伦的尼布甲尼撒二世毁灭耶路撒冷及其圣殿，犹大王国灭亡"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Nebuchadnezzar II\" (destruction of Jerusalem in 587/586 BCE).",
+          "url": "https://www.worldhistory.org/Nebuchadnezzar_II/"
+        },
+        {
+          "citation": "Wikipedia, \"Siege of Jerusalem (587 BC)\" (burn layer; 587 versus 586 BC).",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(587_BC)"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Historians put the fall of Jerusalem in 587 or 586 BCE, depending on how they count the years of King Zedekiah's reign.",
+        "es": "Los historiadores sitúan la caída de Jerusalén en 587 o 586 a. e. c., según cómo cuenten los años del reinado de Sedecías.",
+        "zh": "历史学家将耶路撒冷陷落定在公元前587年或586年，取决于如何计算西底家在位的年数。"
+      },
+      "place": {
+        "name": {
+          "en": "Jerusalem",
+          "es": "Jerusalén",
+          "zh": "耶路撒冷"
+        },
+        "lat": 31.7767,
+        "lon": 35.2345
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "hezekiahs-tunnel",
+      "text": {
+        "en": "Hezekiah's Tunnel under Jerusalem, traditionally dated to about 700 BCE, is about 533 metres long; its inscription says two teams dug from opposite ends and met in the middle.",
+        "es": "El túnel de Ezequías bajo Jerusalén, fechado tradicionalmente hacia 700 a. e. c., mide unos 533 metros; su inscripción dice que dos equipos excavaron desde extremos opuestos y se encontraron en el centro.",
+        "zh": "耶路撒冷地下的希西家水道，传统上定在约公元前700年，长约533米；其铭文称两队人马从两端相向开凿，在中间会合。"
+      },
+      "start": -729,
+      "end": -699,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Hezekiah's Tunnel\" (533 m; traditionally c. 700 BCE, a 2011 study suggests several decades earlier).",
+          "url": "https://en.wikipedia.org/wiki/Hezekiah%27s_Tunnel"
+        }
+      ],
+      "disputed": true
+    }
+  ]
+}
