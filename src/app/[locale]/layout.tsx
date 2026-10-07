@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -46,6 +47,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
     <html lang={HTML_LANG[locale]} dir="ltr">
       <body className="flex min-h-dvh flex-col">
         <RegisterServiceWorker />
+        <Analytics />
         <NextIntlClientProvider>
           <ExplainerProvider>
             <header className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1 px-4 py-3">
