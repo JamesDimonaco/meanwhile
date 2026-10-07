@@ -1,0 +1,323 @@
+{
+  "id": "hittites",
+  "region": "middle-east",
+  "wikidataId": "Q5406",
+  "name": {
+    "en": "Hittites",
+    "es": "Hititas",
+    "zh": "赫梯"
+  },
+  "aliases": [
+    "Hittite Empire",
+    "Hittite kingdom",
+    "Hatti",
+    "Hattusa",
+    "Hattusha",
+    "Boğazköy",
+    "Imperio hitita",
+    "赫梯帝国",
+    "哈图沙"
+  ],
+  "description": {
+    "en": "An Anatolian kingdom ruled from Hattusa in central Turkey. Its kings sacked Babylon, fought Egypt at Kadesh and signed what is usually called the oldest surviving peace treaty. Its clay-tablet archives preserve the oldest written Indo-European language.",
+    "es": "Un reino de Anatolia gobernado desde Hattusa, en el centro de Turquía. Sus reyes saquearon Babilonia, combatieron a Egipto en Kadesh y firmaron lo que suele llamarse el tratado de paz más antiguo que se conserva. Sus archivos de tablillas de arcilla guardan la lengua indoeuropea escrita más antigua.",
+    "zh": "以今土耳其中部的哈图沙为都的安纳托利亚王国。赫梯诸王洗劫巴比伦，在卡迭石与埃及交战，并签订了通常被称为现存最古老的和平条约。其泥板档案保存了最古老的印欧语系书面语言。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kingdom-and-empire",
+      "earliestStart": -1649,
+      "latestStart": -1574,
+      "earliestEnd": -1199,
+      "latestEnd": -1179,
+      "sources": [
+        {
+          "citation": "Gates, Charles (2003). Ancient Cities, via PeriodO: \"Old Hittite Kingdom\" (ca. 1575 – 1400 BC) and \"Hittite Empire\" (ca. 1350 – 1200 BC).",
+          "url": "http://n2t.net/ark:/99152/p083p5r9zvn"
+        },
+        {
+          "citation": "Pleiades, \"Old Hittite Anatolia (1650–1450 BC)\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p03wskdtwgw"
+        },
+        {
+          "citation": "Wikipedia, \"Hittites\" (Old Kingdom c. 1650 BC; empire collapse c. 1180 BC).",
+          "url": "https://en.wikipedia.org/wiki/Hittites"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Hittite dates are approximate and depend on links to Egyptian and Mesopotamian chronologies. Sources start the kingdom between about 1650 and 1575 BCE and end the empire between about 1200 and 1180 BCE. Small Neo-Hittite city-states in northern Syria and south-east Anatolia lasted into the 8th century BCE.",
+        "es": "Las fechas hititas son aproximadas y dependen de su relación con las cronologías de Egipto y Mesopotamia. Las fuentes sitúan el inicio del reino entre c. 1650 y 1575 a. e. c. y el fin del imperio entre c. 1200 y 1180 a. e. c. Pequeñas ciudades-estado neohititas del norte de Siria y el sureste de Anatolia perduraron hasta el siglo VIII a. e. c.",
+        "zh": "赫梯的年代只是大致推算，依赖于与埃及和美索不达米亚纪年的对照。各种资料将王国的开端定在约公元前1650年至前1575年之间，将帝国的终结定在约公元前1200年至前1180年之间。叙利亚北部和安纳托利亚东南部的新赫梯小城邦一直延续到公元前8世纪。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "old-kingdom",
+      "name": {
+        "en": "Old Kingdom",
+        "es": "Reino Antiguo",
+        "zh": "古王国"
+      },
+      "start": -1574,
+      "end": -1399,
+      "sources": [
+        {
+          "citation": "Gates, Charles (2003). Ancient Cities, via PeriodO: \"Old Hittite Kingdom\" (ca. 1575 – 1400 BC).",
+          "url": "http://n2t.net/ark:/99152/p083p5r9zvn"
+        }
+      ]
+    },
+    {
+      "id": "middle-kingdom",
+      "name": {
+        "en": "Middle Kingdom",
+        "es": "Reino Medio",
+        "zh": "中王国"
+      },
+      "start": -1399,
+      "end": -1349,
+      "sources": [
+        {
+          "citation": "Gates, Charles (2003). Ancient Cities, via PeriodO: \"Middle Hittite Kingdom\" (ca. 1400 – 1350 BC).",
+          "url": "http://n2t.net/ark:/99152/p083p5r5nk9"
+        }
+      ]
+    },
+    {
+      "id": "empire",
+      "name": {
+        "en": "Empire",
+        "es": "Imperio",
+        "zh": "帝国"
+      },
+      "start": -1349,
+      "end": -1199,
+      "sources": [
+        {
+          "citation": "Gates, Charles (2003). Ancient Cities, via PeriodO: \"Hittite Empire\" (ca. 1350 – 1200 BC).",
+          "url": "http://n2t.net/ark:/99152/p083p5rmv3r"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hattusili-hattusa",
+      "start": -1649,
+      "type": "founding",
+      "title": {
+        "en": "Hattusili I moves the Hittite capital to Hattusa and founds the kingdom",
+        "es": "Hattusili I traslada la capital hitita a Hattusa y funda el reino",
+        "zh": "哈图西利一世将赫梯都城迁往哈图沙，建立王国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Hittites\".",
+          "url": "https://www.worldhistory.org/Hittites/"
+        },
+        {
+          "citation": "Wikipedia, \"Hattusa\".",
+          "url": "https://en.wikipedia.org/wiki/Hattusa"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date is approximate. Wikipedia gives c. 1650 BCE for the move to Hattusa; PeriodO's Gates (2003) starts the Old Kingdom around 1575 BCE.",
+        "es": "La fecha es aproximada. Wikipedia da c. 1650 a. e. c. para el traslado a Hattusa; Gates (2003), en PeriodO, sitúa el inicio del Reino Antiguo hacia 1575 a. e. c.",
+        "zh": "年代只是大致推算。维基百科将迁都哈图沙定在约公元前1650年；PeriodO收录的盖茨（2003）则将古王国的开端定在约公元前1575年。"
+      },
+      "place": {
+        "name": {
+          "en": "Hattusa (Boğazkale)",
+          "es": "Hattusa (Boğazkale)",
+          "zh": "哈图沙（博阿兹卡莱）"
+        },
+        "lat": 40.0197,
+        "lon": 34.6153
+      }
+    },
+    {
+      "id": "sack-of-babylon",
+      "start": -1594,
+      "type": "conflict",
+      "title": {
+        "en": "Mursili I raids down the Euphrates and sacks Aleppo and Babylon",
+        "es": "Mursili I avanza por el Éufrates y saquea Alepo y Babilonia",
+        "zh": "穆尔西利一世沿幼发拉底河南下，洗劫阿勒颇和巴比伦"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Hittites\".",
+          "url": "https://www.worldhistory.org/Hittites/"
+        },
+        {
+          "citation": "Wikipedia, \"Hittites\".",
+          "url": "https://en.wikipedia.org/wiki/Hittites"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "1595 BCE follows the middle chronology of Mesopotamia; Hittite records give no absolute date.",
+        "es": "1595 a. e. c. sigue la cronología media de Mesopotamia; los registros hititas no dan una fecha absoluta.",
+        "zh": "公元前1595年依据美索不达米亚的“中年表”；赫梯文献没有给出绝对年代。"
+      }
+    },
+    {
+      "id": "suppiluliuma-mitanni",
+      "start": -1343,
+      "end": -1321,
+      "type": "conflict",
+      "title": {
+        "en": "Suppiluliuma I reduces the kingdom of Mitanni to a Hittite vassal and takes Carchemish",
+        "es": "Suppiluliuma I convierte el reino de Mitani en vasallo hitita y toma Carquemish",
+        "zh": "苏庇路里乌玛一世使米坦尼王国沦为赫梯附庸，并攻占卡赫美士"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Suppiluliuma I\".",
+          "url": "https://www.worldhistory.org/Suppiluliuma_I/"
+        },
+        {
+          "citation": "Wikipedia, \"Hittites\" (Šuppiluliuma I expanded the empire to its greatest extent around 1350 BC).",
+          "url": "https://en.wikipedia.org/wiki/Hittites"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "kadesh",
+      "start": -1273,
+      "type": "conflict",
+      "title": {
+        "en": "Muwatalli II's army meets Ramesses II of Egypt at Kadesh; both sides claim victory",
+        "es": "El ejército de Muwatalli II se enfrenta a Ramsés II de Egipto en Kadesh; ambos bandos proclaman la victoria",
+        "zh": "穆瓦塔利二世的军队在卡迭石与埃及的拉美西斯二世交战，双方都宣称获胜"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Battle of Kadesh\".",
+          "url": "https://www.worldhistory.org/Battle_of_Kadesh/"
+        },
+        {
+          "citation": "Wikipedia, \"Battle of Kadesh\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Kadesh"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kadesh on the Orontes (Tell Nebi Mend)",
+          "es": "Kadesh del Orontes (Tell Nebi Mend)",
+          "zh": "奥龙特斯河畔的卡迭石（奈比门德丘）"
+        },
+        "lat": 34.5648,
+        "lon": 36.5159
+      }
+    },
+    {
+      "id": "treaty-with-egypt",
+      "start": -1258,
+      "type": "ruler",
+      "title": {
+        "en": "Hattusili III and Ramesses II agree a peace treaty, kept in Akkadian cuneiform at Hattusa and in hieroglyphs at Karnak",
+        "es": "Hattusili III y Ramsés II acuerdan un tratado de paz, conservado en cuneiforme acadio en Hattusa y en jeroglíficos en Karnak",
+        "zh": "哈图西利三世与拉美西斯二世订立和约，阿卡德楔形文字本存于哈图沙，象形文字本刻于卡纳克"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Egyptian–Hittite peace treaty\".",
+          "url": "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Treaty of Kadesh\".",
+          "url": "https://www.worldhistory.org/Treaty_of_Kadesh/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Sources date the treaty to 1259 BCE (year 21 of Ramesses II) or 1258 BCE.",
+        "es": "Las fuentes datan el tratado en 1259 a. e. c. (año 21 de Ramsés II) o en 1258 a. e. c.",
+        "zh": "各资料将和约定在公元前1259年（拉美西斯二世第21年）或公元前1258年。"
+      }
+    },
+    {
+      "id": "collapse",
+      "start": -1199,
+      "end": -1179,
+      "type": "collapse",
+      "title": {
+        "en": "The Hittite empire breaks up and Hattusa is abandoned in the Late Bronze Age collapse",
+        "es": "El imperio hitita se desintegra y Hattusa es abandonada durante el colapso de la Edad del Bronce Final",
+        "zh": "赫梯帝国在青铜时代晚期崩溃中瓦解，哈图沙被废弃"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Hattusa\" (destroyed around 1200 BC; abandoned gradually over several decades).",
+          "url": "https://en.wikipedia.org/wiki/Hattusa"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Hittites\" (the empire fell about 1200 BCE).",
+          "url": "https://www.worldhistory.org/Hittites/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give about 1200 BCE for the fall and about 1180 BCE for the end of the kingdom. Wikipedia says Hattusa was abandoned gradually over several decades; the causes are debated.",
+        "es": "Las fuentes dan c. 1200 a. e. c. para la caída y c. 1180 a. e. c. para el fin del reino. Wikipedia indica que Hattusa fue abandonada poco a poco a lo largo de varias décadas; las causas se discuten.",
+        "zh": "各资料将陷落定在约公元前1200年，将王国终结定在约公元前1180年。维基百科称哈图沙在数十年间逐渐被废弃；原因仍有争论。"
+      },
+      "place": {
+        "name": {
+          "en": "Hattusa (Boğazkale)",
+          "es": "Hattusa (Boğazkale)",
+          "zh": "哈图沙（博阿兹卡莱）"
+        },
+        "lat": 40.0197,
+        "lon": 34.6153
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "tablet-archives",
+      "text": {
+        "en": "Excavators have recovered about 30,000 clay tablets from the royal archives at Hattusa.",
+        "es": "Los excavadores han recuperado unas 30 000 tablillas de arcilla de los archivos reales de Hattusa.",
+        "zh": "发掘者已从哈图沙的王室档案中取出约三万块泥板。"
+      },
+      "start": -1649,
+      "end": -1199,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Hattusa\".",
+          "url": "https://en.wikipedia.org/wiki/Hattusa"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "oldest-indo-european",
+      "text": {
+        "en": "Hittite is the oldest historically attested Indo-European language; the Czech scholar Bedřich Hrozný first read it in the 1910s.",
+        "es": "El hitita es la lengua indoeuropea más antigua con documentación histórica; el erudito checo Bedřich Hrozný la descifró en la década de 1910.",
+        "zh": "赫梯语是有史可考的最古老的印欧语言；捷克学者赫罗兹尼于20世纪10年代首次释读了它。"
+      },
+      "start": -1649,
+      "end": -1199,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Hittites\".",
+          "url": "https://en.wikipedia.org/wiki/Hittites"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

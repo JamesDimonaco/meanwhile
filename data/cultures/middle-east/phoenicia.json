@@ -1,0 +1,216 @@
+{
+  "id": "phoenicia",
+  "region": "middle-east",
+  "wikidataId": "Q41642",
+  "name": {
+    "en": "Phoenicia",
+    "es": "Fenicia",
+    "zh": "腓尼基"
+  },
+  "aliases": [
+    "Phoenician",
+    "Phoenicians",
+    "Canaanites",
+    "Tyre",
+    "Sidon",
+    "Byblos",
+    "Fenicios",
+    "腓尼基人"
+  ],
+  "description": {
+    "en": "Independent port cities on the coast of today's Lebanon, led by Tyre, Sidon and Byblos. Phoenician sailors traded across the Mediterranean, settled colonies including Carthage, and wrote with a 22-letter alphabet from which the Greek alphabet developed.",
+    "es": "Ciudades-puerto independientes en la costa del actual Líbano, lideradas por Tiro, Sidón y Biblos. Los marinos fenicios comerciaron por todo el Mediterráneo, fundaron colonias como Cartago y escribían con un alfabeto de 22 letras del que derivó el alfabeto griego.",
+    "zh": "位于今黎巴嫩海岸的一组独立港口城邦，以推罗、西顿和比布鲁斯为首。腓尼基水手往来于整个地中海，建立了包括迦太基在内的殖民地，并使用22个字母的字母表，希腊字母即由其发展而来。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "city-states",
+      "earliestStart": -1499,
+      "latestStart": -1199,
+      "earliestEnd": -331,
+      "latestEnd": -63,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Phoenicia\" (thrived as a maritime trading and manufacturing centre c. 1500 – 332 BCE).",
+          "url": "https://www.worldhistory.org/Phoenicia/"
+        },
+        {
+          "citation": "Wikipedia, \"Phoenicia\" (Iron Age after 1200 BC the period of greatest prominence; Roman annexation of Syria 64 BC).",
+          "url": "https://en.wikipedia.org/wiki/Phoenicia"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Phoenicia has no founding or end date. Its cities grew out of the Late Bronze Age Canaanite coast and were most prominent after about 1200 BCE. The World History Encyclopedia ends the culture with Alexander's conquest in 332 BCE; Wikipedia carries the story to the Roman annexation of Syria in 64 BCE.",
+        "es": "Fenicia no tiene fecha de fundación ni de final. Sus ciudades surgieron de la costa cananea de la Edad del Bronce Final y alcanzaron su mayor protagonismo después de c. 1200 a. e. c. La World History Encyclopedia sitúa el final de la cultura en la conquista de Alejandro en 332 a. e. c.; Wikipedia prolonga la historia hasta la anexión romana de Siria en 64 a. e. c.",
+        "zh": "腓尼基没有确切的建立或终结年份。其城邦由青铜时代晚期的迦南沿海发展而来，约公元前1200年后最为突出。《世界历史百科全书》以公元前332年亚历山大的征服为这一文化的终点；维基百科则一直讲到公元前64年罗马吞并叙利亚。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "alphabet",
+      "start": -1049,
+      "type": "invention",
+      "title": {
+        "en": "Phoenician scribes use a 22-letter alphabet that Greeks later adapt into their own",
+        "es": "Los escribas fenicios usan un alfabeto de 22 letras que los griegos adaptarán después al suyo",
+        "zh": "腓尼基书吏使用22个字母的字母表，希腊人后来将其改造为自己的字母"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Phoenician alphabet\".",
+          "url": "https://en.wikipedia.org/wiki/Phoenician_alphabet"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Phoenicia\" (timeline entry: Phoenician alphabet, 1100 BCE).",
+          "url": "https://www.worldhistory.org/Phoenicia/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date c. 1050 BCE is conventional. No Phoenician inscription is securely dated to the 11th century; the oldest firmly dated ones are from the 10th century, and the dating of the Ahiram sarcophagus from Byblos is controversial.",
+        "es": "La fecha c. 1050 a. e. c. es convencional. Ninguna inscripción fenicia está fechada con seguridad en el siglo XI; las más antiguas con fecha firme son del siglo X, y la datación del sarcófago de Ahiram, de Biblos, es controvertida.",
+        "zh": "约公元前1050年只是惯例。没有任何腓尼基铭文能可靠地断代到11世纪；年代确凿的最早铭文属于10世纪，比布鲁斯出土的亚希兰石棺的年代则有争议。"
+      }
+    },
+    {
+      "id": "carthage",
+      "start": -813,
+      "type": "founding",
+      "title": {
+        "en": "Settlers from Tyre found Carthage in North Africa, by tradition in 814 BCE",
+        "es": "Colonos de Tiro fundan Cartago en el norte de África, según la tradición en 814 a. e. c.",
+        "zh": "来自推罗的移民在北非建立迦太基，传统上定在公元前814年"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Carthage\".",
+          "url": "https://www.livius.org/articles/place/carthage/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Carthage\".",
+          "url": "https://www.worldhistory.org/Carthage/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date comes from the Greek historian Timaeus (814 or 813 BCE). The oldest finds at Carthage date to the last quarter of the 9th century BCE; the story of the Tyrian princess Elissa (Dido) as founder is legend.",
+        "es": "La fecha procede del historiador griego Timeo (814 u 813 a. e. c.). Los hallazgos más antiguos de Cartago datan del último cuarto del siglo IX a. e. c.; la historia de la princesa tiria Elisa (Dido) como fundadora es una leyenda.",
+        "zh": "这一年代出自希腊史家蒂迈欧（公元前814或813年）。迦太基最早的出土物属于公元前9世纪最后25年；推罗公主伊莉莎（狄多）为建城者的故事属于传说。"
+      },
+      "place": {
+        "name": {
+          "en": "Carthage",
+          "es": "Cartago",
+          "zh": "迦太基"
+        },
+        "lat": 36.8528,
+        "lon": 10.3233
+      }
+    },
+    {
+      "id": "assyrian-tribute",
+      "start": -744,
+      "end": -726,
+      "type": "conflict",
+      "title": {
+        "en": "Tyre and other Phoenician cities pay tribute to Assyria under Tiglath-Pileser III",
+        "es": "Tiro y otras ciudades fenicias pagan tributo a Asiria bajo Tiglat-Piléser III",
+        "zh": "推罗和其他腓尼基城邦在提格拉特-帕拉萨三世治下向亚述纳贡"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Tyre\" (Tiglath-pileser III, r. 745–727, received tribute on at least two occasions).",
+          "url": "https://www.livius.org/articles/place/tyre/"
+        },
+        {
+          "citation": "Wikipedia, \"Phoenicia\" (most of the Levant, including northern Phoenicia, annexed by 738 BC).",
+          "url": "https://en.wikipedia.org/wiki/Phoenicia"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "africa-voyage",
+      "start": -609,
+      "end": -594,
+      "type": "invention",
+      "title": {
+        "en": "Phoenician crews sent by Pharaoh Necho II reportedly sail round Africa in about three years",
+        "es": "Tripulaciones fenicias enviadas por el faraón Necao II navegan, según se cuenta, alrededor de África en unos tres años",
+        "zh": "据说，法老尼科二世派出的腓尼基船员用约三年时间环绕非洲航行"
+      },
+      "sources": [
+        {
+          "citation": "Herodotus, Histories 4.42 (trans. A. D. Godley), Perseus Digital Library.",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+4.42"
+        },
+        {
+          "citation": "Wikipedia, \"Necho II\" (reign 610–595 BCE; scholarly debate on the voyage).",
+          "url": "https://en.wikipedia.org/wiki/Necho_II"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Only Herodotus, writing about 170 years later, reports the voyage, and he doubted one detail (the sun on their right hand), which later readers take as a sign it was real. Modern scholars disagree on whether it happened.",
+        "es": "Solo Heródoto, que escribió unos 170 años después, relata el viaje, y dudaba de un detalle (el sol a su derecha), que los lectores posteriores toman como señal de que fue real. Los especialistas actuales discrepan sobre si ocurrió.",
+        "zh": "只有约170年后写作的希罗多德记载了这次航行，他对其中一个细节（太阳在他们右手边）表示怀疑，而后世读者反而视其为真实的迹象。现代学者对其是否发生看法不一。"
+      }
+    },
+    {
+      "id": "alexander-takes-tyre",
+      "start": -331,
+      "type": "collapse",
+      "title": {
+        "en": "Alexander the Great besieges Tyre for about seven months and takes the island city",
+        "es": "Alejandro Magno asedia Tiro durante unos siete meses y toma la ciudad insular",
+        "zh": "亚历山大大帝围攻推罗约七个月，攻占这座岛城"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Phoenicia\".",
+          "url": "https://www.worldhistory.org/Phoenicia/"
+        },
+        {
+          "citation": "Wikipedia, \"Siege of Tyre (332 BC)\".",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Tyre_(332_BC)"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Tyre",
+          "es": "Tiro",
+          "zh": "推罗"
+        },
+        "lat": 33.2705,
+        "lon": 35.2038
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "tyrian-purple",
+      "text": {
+        "en": "Tyre sold a purple dye made from sea snails; one source puts it at 10,000 shellfish for a gram of dye. Some historians derive the name Phoenicia from the Greek word for dark red.",
+        "es": "Tiro vendía un tinte púrpura hecho con caracoles de mar; una fuente calcula 10 000 moluscos por gramo de tinte. Algunos historiadores derivan el nombre Fenicia de la palabra griega para el rojo oscuro.",
+        "zh": "推罗出售一种用海螺制成的紫色染料；有资料称一克染料需要一万只贝类。一些历史学家认为“腓尼基”之名源自希腊语中表示暗红色的词。"
+      },
+      "start": -1399,
+      "end": -331,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Tyrian Purple\".",
+          "url": "https://www.worldhistory.org/Tyrian_Purple/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
