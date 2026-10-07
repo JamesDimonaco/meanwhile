@@ -1,14 +1,14 @@
 "use client";
 
-import { geoAzimuthalEqualArea, geoBounds, geoPath, type GeoGeometryObjects } from "d3-geo";
+import { geoPath } from "d3-geo";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { useEffect, useId, useMemo, useState } from "react";
 import { YearText } from "@/components/settings/year-text";
 import { localize } from "@/lib/data/localize";
-import type { Borders, Geometry, Place, Region } from "@/lib/data/schema";
-import { boundsCentre, forD3, snapshotAt } from "./geo";
-import { MapFrame, MAP_HEIGHT, MAP_WIDTH } from "./map-frame";
+import type { Borders, Geometry, Place } from "@/lib/data/schema";
+import { forD3, MAP_HEIGHT, MAP_WIDTH, mapExtent, mapProjection, snapshotAt } from "@/lib/map/geo";
+import { MapFrame } from "./map-frame";
 
 type GeoData = { land: Geometry; borders: Borders | null };
 
@@ -57,32 +57,13 @@ function fetchJson(url: string): Promise<unknown> {
   return request;
 }
 
-// Natural Earth land clipped to each part of the world, so a page downloads
-// only the coastline its map can show rather than the whole globe. Pins-only
-// wars range anywhere, so they use the coarser whole-world file.
-const LAND: Record<Region | "world", string> = {
-  europe: "/geo/land-europe.json",
-  china: "/geo/land-east-asia.json",
-  "south-america": "/geo/land-americas.json",
-  mesoamerica: "/geo/land-americas.json",
-  africa: "/geo/land-europe.json",
-  "middle-east": "/geo/land-world.json",
-  "south-asia": "/geo/land-world.json",
-  "asia-pacific": "/geo/land-world.json",
-  "north-america": "/geo/land-americas.json",
-  world: "/geo/land-world.json",
-};
-
-/** Degrees of margin around the pins, so a single pin or a tight cluster still shows its surroundings. */
-const PIN_MARGIN = 3;
-
-// Both files are written by us: the land file is a prepared Natural Earth
-// MultiPolygon, and the borders file is served from data/borders, which
-// validate-data checks against the schema at build time.
-async function loadGeoData(bordersId: string | null, land: Region | "world"): Promise<GeoData> {
+// Both files are written by us: the land file is Natural Earth cut and
+// simplified for this map's frame by scripts/build-land.ts, and the borders
+// file is served from data/borders; validate-data checks both at build time.
+async function loadGeoData(id: string, hasBorders: boolean): Promise<GeoData> {
   const [landData, borders] = await Promise.all([
-    fetchJson(LAND[land]),
-    bordersId ? fetchJson(`/geo/borders/${bordersId}.json`) : null,
+    fetchJson(`/geo/land/${id}.json`),
+    hasBorders ? fetchJson(`/geo/borders/${id}.json`) : null,
   ]);
   return { land: landData as Geometry, borders: borders as Borders | null };
 }
@@ -91,9 +72,9 @@ async function loadGeoData(bordersId: string | null, land: Region | "world"): Pr
 const NO_PINS: readonly Place[] = [];
 
 type Props = {
-  /** A culture or war id with a borders file; null for pins on plain land. */
-  bordersId: string | null;
-  land: Region | "world";
+  /** The culture or war id: names its land file, and its borders file when it has one. */
+  id: string;
+  hasBorders: boolean;
   year: number;
   pin: Place | null;
   /** Every place in the story, drawn faintly so the one in view stands out; the frame fits them too. */
@@ -103,20 +84,20 @@ type Props = {
 };
 
 /** Borders for the year over a land basemap, rivals in grey, a pin for the event in view. */
-export function TerritoryMap({ bordersId, land, year, pin, pins = NO_PINS, nameSelf = false }: Props) {
+export function TerritoryMap({ id, hasBorders, year, pin, pins = NO_PINS, nameSelf = false }: Props) {
   const t = useTranslations("map");
   const [data, setData] = useState<GeoData | "error" | null>(null);
 
   useEffect(() => {
     let live = true;
-    loadGeoData(bordersId, land).then(
+    loadGeoData(id, hasBorders).then(
       (d) => live && setData(d),
       () => live && setData("error"),
     );
     return () => {
       live = false;
     };
-  }, [bordersId, land]);
+  }, [id, hasBorders]);
 
   if (data === "error") return <MapFrame>{t("unavailable")}</MapFrame>;
   if (!data) return <MapFrame>{t("loading")}</MapFrame>;
@@ -143,31 +124,7 @@ function MapSvg({
   const filterId = useId();
 
   const { project, landPath, snapshots } = useMemo(() => {
-    const own: GeoGeometryObjects[] = (borders?.snapshots ?? []).flatMap((s) =>
-      s.polities.filter((p) => p.role === "self").map((p) => forD3(p.geometry)),
-    );
-    if (pins.length > 0) {
-      own.push({
-        type: "MultiPoint",
-        coordinates: pins.flatMap((p) => [
-          [p.lon - PIN_MARGIN, p.lat - PIN_MARGIN],
-          [p.lon + PIN_MARGIN, p.lat + PIN_MARGIN],
-        ]),
-      });
-    }
-    const everywhere = { type: "GeometryCollection" as const, geometries: own };
-    const [lon, lat] = boundsCentre(geoBounds(everywhere));
-    // Equal-area, centred on every "self" polity in every snapshot plus every
-    // pin, so sizes compare fairly and the frame never moves between years.
-    const projection = geoAzimuthalEqualArea()
-      .rotate([-lon, -lat])
-      .fitExtent(
-        [
-          [16, 16],
-          [MAP_WIDTH - 16, MAP_HEIGHT - 16],
-        ],
-        everywhere,
-      );
+    const projection = mapProjection(mapExtent(borders, pins));
     const toPath = geoPath(projection);
     return {
       project: (p: Place) => projection([p.lon, p.lat]),
