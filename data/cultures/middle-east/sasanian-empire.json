@@ -1,0 +1,310 @@
+{
+  "id": "sasanian-empire",
+  "region": "middle-east",
+  "wikidataId": "Q83891",
+  "name": {
+    "en": "Sasanian Empire",
+    "es": "Imperio sasánida",
+    "zh": "萨珊王朝"
+  },
+  "aliases": [
+    "Sassanid Empire",
+    "Sassanian Empire",
+    "Sasanids",
+    "Sassanids",
+    "Sasanians",
+    "Iranshahr",
+    "Eranshahr",
+    "萨珊帝国",
+    "萨珊波斯"
+  ],
+  "description": {
+    "en": "Ardashir I founded the Sasanian Empire in 224 CE after defeating the last Parthian king. It was the last native dynasty of Persia before the Arab conquest, made Zoroastrianism its state religion and fought Rome and Byzantium until 651.",
+    "es": "Ardashir I fundó el Imperio sasánida en 224 e. c. tras derrotar al último rey parto. Fue la última dinastía nativa de Persia antes de la conquista árabe, hizo del zoroastrismo su religión de Estado y combatió contra Roma y Bizancio hasta 651.",
+    "zh": "阿尔达希尔一世在击败末代安息王后，于公元224年建立萨珊王朝。它是阿拉伯征服前波斯的最后一个本土王朝，以琐罗亚斯德教为国教，并与罗马和拜占庭交战，直到651年。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "sasanian-period",
+      "earliestStart": 224,
+      "latestStart": 226,
+      "earliestEnd": 642,
+      "latestEnd": 651,
+      "sources": [
+        {
+          "citation": "Daryaee, Touraj (2008). Sasanian Iran (224–651 CE): Portrait of a Late Antique Empire, p. xxi, via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p0vrf7bbb88"
+        },
+        {
+          "citation": "Livius.org, \"Sasanians\": Ardashir I defeated the last Parthian ruler in 226 and took Ctesiphon; the empire fell completely by 651.",
+          "url": "https://www.livius.org/articles/dynasty/sasanians/"
+        },
+        {
+          "citation": "Wikidata, \"Sasanian Empire\" (Q83891): start 224 CE, end 651 CE.",
+          "url": "https://www.wikidata.org/wiki/Q83891"
+        }
+      ],
+      "periodoId": "p0vrf7bbb88",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The end is blurred on purpose: the army broke at Nahavand in 642, and the last king, Yazdegerd III, was killed in 651.",
+        "es": "El final se deja difuso a propósito: el ejército se quebró en Nahavand en 642 y el último rey, Yazdgerd III, murió en 651.",
+        "zh": "终点有意保持模糊：军队于642年在尼哈万德溃败，末代国王亚兹德格德三世于651年被杀。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "ardashir",
+      "start": 224,
+      "end": 226,
+      "type": "founding",
+      "title": {
+        "en": "Ardashir I defeats the last Parthian king, takes Ctesiphon and founds the Sasanian dynasty",
+        "es": "Ardashir I derrota al último rey parto, toma Ctesifonte y funda la dinastía sasánida",
+        "zh": "阿尔达希尔一世击败末代安息王、攻占泰西封，建立萨珊王朝"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Sasanian Empire\".",
+          "url": "https://www.worldhistory.org/Sasanian_Empire/"
+        },
+        {
+          "citation": "Livius.org, \"Sasanians\".",
+          "url": "https://www.livius.org/articles/dynasty/sasanians/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Most sources give 224 CE for the empire's start. Livius dates the defeat of the last Parthian king and the capture of Ctesiphon to 226.",
+        "es": "La mayoría de las fuentes dan 224 e. c. como inicio del imperio. Livius fecha la derrota del último rey parto y la toma de Ctesifonte en 226.",
+        "zh": "多数来源把帝国的开端定在公元224年。Livius 把击败末代安息王和攻占泰西封定在226年。"
+      },
+      "place": {
+        "name": {
+          "en": "Ctesiphon",
+          "es": "Ctesifonte",
+          "zh": "泰西封"
+        },
+        "lat": 33.09,
+        "lon": 44.58
+      }
+    },
+    {
+      "id": "valerian",
+      "start": 260,
+      "type": "conflict",
+      "title": {
+        "en": "Shapur I takes the Roman emperor Valerian prisoner",
+        "es": "Sapor I toma prisionero al emperador romano Valeriano",
+        "zh": "沙普尔一世俘虏罗马皇帝瓦勒良"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Shapur I\".",
+          "url": "https://www.worldhistory.org/Shapur_I/"
+        },
+        {
+          "citation": "Livius.org, \"Valerian\".",
+          "url": "https://www.livius.org/articles/person/valerian/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "khosrow-i",
+      "start": 531,
+      "type": "ruler",
+      "title": {
+        "en": "Khosrow I becomes king and reforms taxation and the army",
+        "es": "Cosroes I se convierte en rey y reforma los impuestos y el ejército",
+        "zh": "库思老一世即位，改革税制和军队"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Kosrau I\".",
+          "url": "https://www.worldhistory.org/Khosrow_I/"
+        },
+        {
+          "citation": "Livius.org, \"Khusrau I Deathless Soul\".",
+          "url": "https://www.livius.org/articles/person/khusrau-i-deathless-soul/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "antioch",
+      "start": 540,
+      "type": "conflict",
+      "title": {
+        "en": "Khosrow I takes Antioch from the Byzantines and settles its people in a new city near Ctesiphon",
+        "es": "Cosroes I toma Antioquía a los bizantinos y asienta a sus habitantes en una ciudad nueva cerca de Ctesifonte",
+        "zh": "库思老一世从拜占庭手中夺取安条克，并把居民安置在泰西封附近的新城"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Khusrau I Deathless Soul\".",
+          "url": "https://www.livius.org/articles/person/khusrau-i-deathless-soul/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Kosrau I\".",
+          "url": "https://www.worldhistory.org/Khosrow_I/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Antioch",
+          "es": "Antioquía",
+          "zh": "安条克"
+        },
+        "lat": 36.2,
+        "lon": 36.16
+      }
+    },
+    {
+      "id": "jerusalem",
+      "start": 614,
+      "type": "conflict",
+      "title": {
+        "en": "Sasanian forces under Shahrbaraz take Jerusalem and carry off the True Cross",
+        "es": "Las fuerzas sasánidas de Shahrbaraz toman Jerusalén y se llevan la Vera Cruz",
+        "zh": "沙赫尔巴拉兹率领的萨珊军队攻占耶路撒冷，并掠走真十字架"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Khusrau II the Victorious\".",
+          "url": "https://www.livius.org/articles/person/khusrau-ii-the-victorious/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Khosrow II\".",
+          "url": "https://www.worldhistory.org/Khosrow_II/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Jerusalem",
+          "es": "Jerusalén",
+          "zh": "耶路撒冷"
+        },
+        "lat": 31.78,
+        "lon": 35.23
+      }
+    },
+    {
+      "id": "qadisiyyah",
+      "start": 636,
+      "type": "conflict",
+      "title": {
+        "en": "Arab forces defeat the Sasanian army at al-Qadisiyyah and kill its commander, Rostam",
+        "es": "Las fuerzas árabes derrotan al ejército sasánida en al-Qadisiyya y matan a su comandante, Rostam",
+        "zh": "阿拉伯军队在卡迪西亚击败萨珊军队，击杀其统帅鲁斯塔姆"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Yazdegerd III\".",
+          "url": "https://www.worldhistory.org/Yazdegerd_III/"
+        },
+        {
+          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History, \"Iran, 500–1000 A.D.\"",
+          "url": "https://www.metmuseum.org/toah/ht/06/wai.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date the battle to 636 or 637 CE.",
+        "es": "Las fuentes fechan la batalla en 636 o 637 e. c.",
+        "zh": "各来源把这场战役定在公元636年或637年。"
+      }
+    },
+    {
+      "id": "nahavand",
+      "start": 642,
+      "type": "conflict",
+      "title": {
+        "en": "Yazdegerd III's army is destroyed at Nahavand and he retreats north-east",
+        "es": "El ejército de Yazdgerd III es destruido en Nahavand y el rey se retira hacia el noreste",
+        "zh": "亚兹德格德三世的军队在尼哈万德被击溃，他向东北撤退"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Yazdegerd III\".",
+          "url": "https://www.worldhistory.org/Yazdegerd_III/"
+        },
+        {
+          "citation": "Livius.org, \"Yazdgard III\".",
+          "url": "https://www.livius.org/articles/person/yazdgard-iii/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Nahavand",
+          "es": "Nahavand",
+          "zh": "尼哈万德"
+        },
+        "lat": 34.19,
+        "lon": 48.37
+      }
+    },
+    {
+      "id": "yazdegerd-iii",
+      "start": 651,
+      "type": "collapse",
+      "title": {
+        "en": "Yazdegerd III, the last Sasanian king, is killed at Merv",
+        "es": "Yazdgerd III, el último rey sasánida, es asesinado en Merv",
+        "zh": "末代萨珊国王亚兹德格德三世在木鹿被杀"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Yazdegerd III\".",
+          "url": "https://www.worldhistory.org/Yazdegerd_III/"
+        },
+        {
+          "citation": "Livius.org, \"Yazdgard III\".",
+          "url": "https://www.livius.org/articles/person/yazdgard-iii/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Merv",
+          "es": "Merv",
+          "zh": "木鹿"
+        },
+        "lat": 37.66,
+        "lon": 62.19
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "valerian-captive",
+      "start": 260,
+      "end": 262,
+      "text": {
+        "en": "Shapur I took the Roman emperor Valerian prisoner in 260. Valerian died in captivity two years later.",
+        "es": "Sapor I tomó prisionero al emperador romano Valeriano en 260. Valeriano murió en cautiverio dos años después.",
+        "zh": "沙普尔一世于260年俘虏罗马皇帝瓦勒良。两年后，瓦勒良死于囚禁之中。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Shapur I\".",
+          "url": "https://www.worldhistory.org/Shapur_I/"
+        },
+        {
+          "citation": "Livius.org, \"Valerian\".",
+          "url": "https://www.livius.org/articles/person/valerian/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

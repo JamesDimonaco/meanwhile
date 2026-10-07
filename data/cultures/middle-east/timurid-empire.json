@@ -1,0 +1,284 @@
+{
+  "id": "timurid-empire",
+  "region": "middle-east",
+  "wikidataId": "Q484195",
+  "name": {
+    "en": "Timurid Empire",
+    "es": "Imperio timúrida",
+    "zh": "帖木儿帝国"
+  },
+  "aliases": [
+    "Timurids",
+    "Timurid dynasty",
+    "Timur",
+    "Tamerlane",
+    "Tamerlane's empire",
+    "Timurid Renaissance",
+    "Timúridas",
+    "帖木儿王朝",
+    "帖木尔帝国"
+  ],
+  "description": {
+    "en": "Timur took control of Transoxiana in 1370 and led armies from Delhi to Anatolia. After his death in 1405, his descendants ruled Khurasan and Transoxiana from Herat and Samarkand and patronised scholars and artists, until Shaybani Khan took Herat in 1507.",
+    "es": "Timur tomó el control de Transoxiana en 1370 y dirigió ejércitos desde Delhi hasta Anatolia. Tras su muerte en 1405, sus descendientes gobernaron Jorasán y Transoxiana desde Herat y Samarcanda y protegieron a sabios y artistas, hasta que Shaybani Jan tomó Herat en 1507.",
+    "zh": "帖木儿于1370年掌控河中地区，率军从德里一直打到安纳托利亚。他于1405年去世后，后代以赫拉特和撒马尔罕为中心统治呼罗珊和河中地区，资助学者与艺术家，直到1507年昔班尼汗攻占赫拉特。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "timurid-period",
+      "earliestStart": 1370,
+      "latestStart": 1370,
+      "earliestEnd": 1507,
+      "latestEnd": 1507,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Timurid dynasty\" (1370–1507), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hvfzk"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Timur\": Timur took control of Transoxiana in 1370.",
+          "url": "https://www.worldhistory.org/Timur/"
+        },
+        {
+          "citation": "Wikidata, \"Timurid Empire\" (Q484195): start 1370, end 1507.",
+          "url": "https://www.wikidata.org/wiki/Q484195"
+        }
+      ],
+      "periodoId": "p08m57hvfzk",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "timur-rises",
+      "start": 1370,
+      "type": "founding",
+      "title": {
+        "en": "Timur takes sole control of Transoxiana and makes Samarkand his capital",
+        "es": "Timur toma el control único de Transoxiana y hace de Samarcanda su capital",
+        "zh": "帖木儿独掌河中地区，并以撒马尔罕为都城"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Timur\".",
+          "url": "https://www.worldhistory.org/Timur/"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Timurid dynasty\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hvfzk"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Samarkand",
+          "es": "Samarcanda",
+          "zh": "撒马尔罕"
+        },
+        "lat": 39.65,
+        "lon": 66.96
+      }
+    },
+    {
+      "id": "delhi",
+      "start": 1398,
+      "type": "conflict",
+      "title": {
+        "en": "Timur's army sacks Delhi, the capital of the Tughluq sultans",
+        "es": "El ejército de Timur saquea Delhi, la capital de los sultanes tughluq",
+        "zh": "帖木儿的军队洗劫图格鲁克苏丹的都城德里"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Tughlaq Dynasty\".",
+          "url": "https://www.worldhistory.org/Tughlaq_Dynasty/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Timur\".",
+          "url": "https://www.worldhistory.org/Timur/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Delhi",
+          "es": "Delhi",
+          "zh": "德里"
+        },
+        "lat": 28.61,
+        "lon": 77.21
+      }
+    },
+    {
+      "id": "baghdad",
+      "start": 1401,
+      "type": "conflict",
+      "title": {
+        "en": "Timur sacks Baghdad and kills many of its inhabitants",
+        "es": "Timur saquea Bagdad y mata a muchos de sus habitantes",
+        "zh": "帖木儿洗劫巴格达，杀害大批居民"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, \"Iraq: The Mongol Invasion\".",
+          "url": "https://countrystudies.us/iraq/17.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Timur\".",
+          "url": "https://www.worldhistory.org/Timur/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.31,
+        "lon": 44.37
+      }
+    },
+    {
+      "id": "ankara",
+      "start": 1402,
+      "type": "conflict",
+      "title": {
+        "en": "Timur defeats the Ottoman sultan Bayezid I at Ankara and takes him prisoner",
+        "es": "Timur derrota al sultán otomano Bayaceto I en Ankara y lo toma prisionero",
+        "zh": "帖木儿在安卡拉击败奥斯曼苏丹巴耶济德一世并将其俘虏"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Ottoman Empire\".",
+          "url": "https://www.worldhistory.org/Ottoman_Empire/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Timur\".",
+          "url": "https://www.worldhistory.org/Timur/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "timur-dies",
+      "start": 1405,
+      "type": "ruler",
+      "title": {
+        "en": "Timur dies at Otrar while preparing to invade Ming China, and his realm is divided among his heirs",
+        "es": "Timur muere en Otrar mientras prepara la invasión de la China Ming, y su reino se reparte entre sus herederos",
+        "zh": "帖木儿在讹答剌病逝，当时正筹备入侵明朝，他的疆域由继承人分割"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Timur\".",
+          "url": "https://www.worldhistory.org/Timur/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Mongol Empire\".",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Otrar",
+          "es": "Otrar",
+          "zh": "讹答剌"
+        },
+        "lat": 42.85,
+        "lon": 68.3
+      }
+    },
+    {
+      "id": "ulugh-beg-observatory",
+      "start": 1420,
+      "end": 1429,
+      "type": "invention",
+      "title": {
+        "en": "Ulugh Beg builds an observatory at Samarkand, where astronomers map about a thousand stars",
+        "es": "Ulugh Beg construye un observatorio en Samarcanda, donde los astrónomos cartografían unas mil estrellas",
+        "zh": "兀鲁伯在撒马尔罕建造天文台，天文学家在此测绘约一千颗恒星"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History, \"Central and North Asia, 1400–1600 A.D.\"",
+          "url": "https://www.metmuseum.org/toah/ht/08/nc.html"
+        },
+        {
+          "citation": "Luminet, Jean-Pierre (2018). \"Ulugh Beg, Prince of Stars\". arXiv:1804.08352.",
+          "url": "https://arxiv.org/abs/1804.08352"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Met dates the building to about 1420. Luminet describes the observatory as inaugurated by 1429.",
+        "es": "El Met fecha la construcción hacia 1420. Luminet describe el observatorio como inaugurado en 1429.",
+        "zh": "大都会博物馆把建造时间定在约1420年。吕米奈（Luminet）称天文台于1429年落成。"
+      },
+      "place": {
+        "name": {
+          "en": "Samarkand",
+          "es": "Samarcanda",
+          "zh": "撒马尔罕"
+        },
+        "lat": 39.65,
+        "lon": 66.96
+      }
+    },
+    {
+      "id": "herat-falls",
+      "start": 1507,
+      "type": "collapse",
+      "title": {
+        "en": "Shaybani Khan takes Herat, the Timurid capital in Khurasan, and Timurid rule there ends",
+        "es": "Shaybani Jan toma Herat, la capital timúrida en Jorasán, y el dominio timúrida allí termina",
+        "zh": "昔班尼汗攻占帖木儿王朝在呼罗珊的都城赫拉特，王朝在当地的统治结束"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History, \"Central and North Asia, 1400–1600 A.D.\"",
+          "url": "https://www.metmuseum.org/toah/ht/08/nc.html"
+        },
+        {
+          "citation": "Metropolitan Museum of Art, \"Portrait of Muhammad Khan Shaibani, the Uzbek (d. 1510)\".",
+          "url": "https://www.metmuseum.org/art/collection/search/451408"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Herat",
+          "es": "Herat",
+          "zh": "赫拉特"
+        },
+        "lat": 34.34,
+        "lon": 62.2
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "royal-son-in-law",
+      "start": 1370,
+      "end": 1405,
+      "text": {
+        "en": "Timur took the title güregen, Mongolian for \"royal son-in-law\", because he had married a Genghisid princess.",
+        "es": "Timur tomó el título de güregen, en mongol \"yerno real\", porque se había casado con una princesa chingisida.",
+        "zh": "帖木儿取了“古列干”（蒙古语“皇家女婿”）的称号，因为他娶了一位成吉思汗后裔的公主。"
+      },
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Timurid dynasty\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hvfzk"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
