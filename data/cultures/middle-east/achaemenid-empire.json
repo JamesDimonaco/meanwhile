@@ -238,9 +238,9 @@
       ],
       "disputed": false,
       "note": {
-        "en": "Sources agree on the year but not the month: Livius gives August, the Greek tradition September.",
-        "es": "Las fuentes coinciden en el año pero no en el mes: Livius da agosto y la tradición griega septiembre.",
-        "zh": "各来源对年份一致，月份不同：Livius 作八月，希腊传统作九月。"
+        "en": "Sources agree on the year but not the date: Livius works out 12 August or 10 September 490 BCE from the Greek lunar calendar.",
+        "es": "Las fuentes coinciden en el año pero no en la fecha: Livius deduce del calendario lunar griego el 12 de agosto o el 10 de septiembre de 490 a. e. c.",
+        "zh": "各来源对年份一致，具体日期不一：Livius 根据希腊历法中的月相推算为公元前490年8月12日或9月10日。"
       },
       "place": {
         "name": {
@@ -284,11 +284,11 @@
       },
       "sources": [
         {
-          "citation": "Livius.org, \"Persepolis\": Alexander captured the city in early 330 BCE and burned several palaces in April.",
+          "citation": "Livius.org, \"Persepolis\": Alexander captured the city in the first weeks of 330 BCE and destroyed several palace buildings in April.",
           "url": "https://www.livius.org/articles/place/persepolis/"
         },
         {
-          "citation": "World History Encyclopedia, \"Persepolis\".",
+          "citation": "World History Encyclopedia, \"Persepolis\" (Alexander sacked and burned it in 330 BCE).",
           "url": "https://www.worldhistory.org/Persepolis/"
         },
         {

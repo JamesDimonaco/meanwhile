@@ -39,8 +39,8 @@
           "url": "https://www.worldhistory.org/Phoenicia/"
         },
         {
-          "citation": "Wikipedia, \"Phoenicia\" (Iron Age after 1200 BC the period of greatest prominence; Roman annexation of Syria 64 BC).",
-          "url": "https://en.wikipedia.org/wiki/Phoenicia"
+          "citation": "Wikidata, Phoenicia (Q41642): inception c. 2500 BCE, dissolved 64 BCE (Roman annexation of Syria).",
+          "url": "https://www.wikidata.org/wiki/Q41642"
         }
       ],
       "default": true,
@@ -64,12 +64,16 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Phoenician alphabet\".",
-          "url": "https://en.wikipedia.org/wiki/Phoenician_alphabet"
+          "citation": "World History Encyclopedia, \"The Phoenician Alphabet & Language\" (22 letters standardised by the end of the 12th century BCE; adopted and given vowels by the Greeks).",
+          "url": "https://www.worldhistory.org/article/17/the-phoenician-alphabet--language/"
         },
         {
           "citation": "World History Encyclopedia, \"Phoenicia\" (timeline entry: Phoenician alphabet, 1100 BCE).",
           "url": "https://www.worldhistory.org/Phoenicia/"
+        },
+        {
+          "citation": "Wikipedia, \"Phoenician alphabet\" (1050 BCE as a conventional date; no inscription securely dated to the 11th century).",
+          "url": "https://en.wikipedia.org/wiki/Phoenician_alphabet"
         }
       ],
       "disputed": true,
@@ -117,7 +121,7 @@
     {
       "id": "assyrian-tribute",
       "start": -744,
-      "end": -726,
+      "end": -736,
       "type": "conflict",
       "title": {
         "en": "Tyre and other Phoenician cities pay tribute to Assyria under Tiglath-Pileser III",
@@ -130,11 +134,16 @@
           "url": "https://www.livius.org/articles/place/tyre/"
         },
         {
-          "citation": "Wikipedia, \"Phoenicia\" (most of the Levant, including northern Phoenicia, annexed by 738 BC).",
-          "url": "https://en.wikipedia.org/wiki/Phoenicia"
+          "citation": "Livius.org, \"The Annals of Tiglath-pileser\" (ANET 283, trans. Leo Oppenheim): tribute from Hiram of Tyre and Sibitti-bi'li of Byblos in a year between 745 and 737.",
+          "url": "https://livius.org/sources/content/anet/283-the-annals-of-tiglath-pileser"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "note": {
+        "en": "The Assyrian annals fragment that lists Hiram of Tyre and Sibitti-bi'li of Byblos among tribute-payers belongs to an unknown year between 745 and 737 BCE, so the range is that window.",
+        "es": "El fragmento de los anales asirios que menciona a Hiram de Tiro y Sibitti-bi'li de Biblos entre los tributarios corresponde a un año desconocido entre 745 y 737 a. e. c.; por eso el intervalo es esa ventana.",
+        "zh": "亚述年代记残片把推罗的希兰和比布鲁斯的西比蒂-比伊里列为纳贡者，但残片所属年份不详，只知在公元前745至737年之间，故此处取这一区间。"
+      }
     },
     {
       "id": "africa-voyage",
@@ -152,8 +161,8 @@
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+4.42"
         },
         {
-          "citation": "Wikipedia, \"Necho II\" (reign 610–595 BCE; scholarly debate on the voyage).",
-          "url": "https://en.wikipedia.org/wiki/Necho_II"
+          "citation": "Livius.org, \"Herodotus on the first circumnavigation of Africa\" (Necho II ruled 610–595 BCE; context and doubts).",
+          "url": "https://www.livius.org/sources/content/herodotus/herodotus-on-the-first-circumnavigation-of-africa"
         }
       ],
       "disputed": true,
@@ -174,8 +183,12 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Phoenicia\".",
+          "citation": "World History Encyclopedia, \"Phoenicia\" (after seven months Alexander breached the walls of Tyre).",
           "url": "https://www.worldhistory.org/Phoenicia/"
+        },
+        {
+          "citation": "Arrian, Anabasis 2.24 (Tyre taken in the month Hecatombaeon, archonship of Nicetus), translation hosted by J. D. Clare.",
+          "url": "http://www.johndclare.net/AncientHistory/Alexander_Sources5.html"
         },
         {
           "citation": "Wikipedia, \"Siege of Tyre (332 BC)\".",

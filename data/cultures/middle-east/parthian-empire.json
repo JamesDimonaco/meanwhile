@@ -19,7 +19,7 @@
   ],
   "description": {
     "en": "Ruled by the Arsacid dynasty from about 247 BCE, Parthia took Mesopotamia from the Seleucids, made Ctesiphon its capital and fought Rome for centuries. It ended in 224 CE, when Ardashir overthrew Artabanus IV.",
-    "es": "Gobernado por la dinastía arsácida desde hacia 247 a. e. c., el Imperio parto arrebató Mesopotamia a los seléucidas, hizo de Ctesifonte su capital y combatió a Roma durante siglos. Terminó en 224 e. c., cuando Ardashir derrocó a Artabano IV.",
+    "es": "Gobernado por la dinastía arsácida desde aproximadamente 247 a. e. c., el Imperio parto arrebató Mesopotamia a los seléucidas, hizo de Ctesifonte su capital y combatió a Roma durante siglos. Terminó en 224 e. c., cuando Ardashir derrocó a Artabano IV.",
     "zh": "安息自约公元前247年起由阿萨息斯王朝统治，从塞琉古人手中夺取美索不达米亚，以泰西封为都城，并与罗马交战数百年。公元224年，阿尔达希尔推翻阿尔达班四世，安息终结。"
   },
   "reviewed": {
@@ -190,21 +190,26 @@
       "start": -19,
       "type": "conflict",
       "title": {
-        "en": "Parthia and Rome agree a peace that sets the Euphrates as their border",
-        "es": "Partia y Roma acuerdan una paz que fija el Éufrates como frontera",
-        "zh": "安息与罗马达成和约，以幼发拉底河为两国边界"
+        "en": "Rome and Parthia agree a peace treaty under Augustus and Phraates IV",
+        "es": "Roma y Partia acuerdan un tratado de paz bajo Augusto y Fraates IV",
+        "zh": "罗马与安息在奥古斯都和弗拉特斯四世在位时缔结和约"
       },
       "sources": [
         {
-          "citation": "Livius.org, \"Parthian Empire\": Tiberius negotiated a treaty with Phraates in 20 BCE.",
+          "citation": "Livius.org, \"Parthian Empire\": Tiberius negotiated a peace treaty with Phraates in 20 BCE.",
           "url": "https://www.livius.org/articles/misc/parthian-empire/"
         },
         {
-          "citation": "World History Encyclopedia, \"Parthia (Empire)\".",
+          "citation": "World History Encyclopedia, \"Parthia (Empire)\" (in 20 BCE Augustus secured a long-term peace agreement with Phraates IV).",
           "url": "https://www.worldhistory.org/Parthia_(Empire)/"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "note": {
+        "en": "Livius credits Tiberius with negotiating the treaty on Augustus's behalf; World History Encyclopedia credits Augustus. Both date it to 20 BCE.",
+        "es": "Livius atribuye a Tiberio la negociación del tratado en nombre de Augusto; la World History Encyclopedia lo atribuye a Augusto. Ambas lo fechan en 20 a. e. c.",
+        "zh": "Livius 称提比略代表奥古斯都谈成和约；世界历史百科全书则归于奥古斯都本人。两者都把和约定在公元前20年。"
+      }
     },
     {
       "id": "trajan",

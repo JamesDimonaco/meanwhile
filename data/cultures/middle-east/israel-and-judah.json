@@ -21,9 +21,9 @@
     "犹大王国"
   ],
   "description": {
-    "en": "Two neighbouring kingdoms of the southern Levant: Israel in the north, with its capital at Samaria, and Judah in the south, around Jerusalem. Assyria ended Israel around 722 BCE and Babylon ended Judah in 586 BCE. The Bible's account and the archaeology differ on their early years.",
-    "es": "Dos reinos vecinos del Levante meridional: Israel al norte, con capital en Samaria, y Judá al sur, en torno a Jerusalén. Asiria puso fin a Israel hacia 722 a. e. c. y Babilonia a Judá en 586 a. e. c. El relato bíblico y la arqueología difieren sobre sus primeros años.",
-    "zh": "黎凡特南部相邻的两个王国：北方的以色列，都城撒玛利亚；南方的犹大，以耶路撒冷为中心。亚述约在公元前722年灭亡以色列，巴比伦于公元前586年灭亡犹大。《圣经》的叙述与考古发现在其早期历史上并不一致。"
+    "en": "Two neighbouring kingdoms of the southern Levant: Israel in the north, with its capital at Samaria, and Judah in the south, around Jerusalem. Assyria ended Israel around 722 BCE and Babylon ended Judah in 587 or 586 BCE. The Bible's account and the archaeology differ on their early years.",
+    "es": "Dos reinos vecinos del Levante meridional: Israel al norte, con capital en Samaria, y Judá al sur, en torno a Jerusalén. Asiria puso fin a Israel hacia 722 a. e. c. y Babilonia a Judá en 587 o 586 a. e. c. El relato bíblico y la arqueología difieren sobre sus primeros años.",
+    "zh": "黎凡特南部相邻的两个王国：北方的以色列，都城撒玛利亚；南方的犹大，以耶路撒冷为中心。亚述约在公元前722年灭亡以色列，巴比伦于公元前587或586年灭亡犹大。《圣经》的叙述与考古发现在其早期历史上并不一致。"
   },
   "reviewed": {
     "es": false,
@@ -38,20 +38,24 @@
       "latestEnd": -585,
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (the kingdom splits in two after Solomon's death, c. 930 BCE).",
+          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (northern kingdom destroyed by the Assyrians in 722 BCE; split after Solomon's death).",
           "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
         },
         {
-          "citation": "Wikipedia, \"Kingdom of Israel (Samaria)\" (c. 930–720 BCE) and \"Kingdom of Judah\" (c. 930–587 BCE).",
-          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Judah"
+          "citation": "Livius.org, \"Samaria\" (Solomon's kingdom divided after his death c. 931; Omri, 884–873, founded Samaria; Israel became an Assyrian province c. 724).",
+          "url": "https://www.livius.org/articles/place/samaria/"
+        },
+        {
+          "citation": "Livius.org, \"Jerusalem\" (siege by Sennacherib in 701 bought off; city captured by Nebuchadnezzar in 587).",
+          "url": "https://www.livius.org/articles/place/jerusalem/"
         }
       ],
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The Bible dates the two kingdoms from a split c. 930 BCE after a united kingdom under David and Solomon. Archaeologists disagree on whether that united state existed: Israel Finkelstein's low chronology moves the 10th-century monumental buildings into the 9th century, while William Dever and others read the 10th-century evidence as consistent with one. Israel is firmly attested by Assyrian records from the 9th century BCE, and most evidence puts Judah's rise as a substantial state in the 8th century BCE.",
-        "es": "La Biblia fecha los dos reinos a partir de una división hacia 930 a. e. c., tras un reino unido bajo David y Salomón. Los arqueólogos discrepan sobre si ese estado unido existió: la cronología baja de Israel Finkelstein traslada al siglo IX los edificios monumentales del siglo X, mientras que William Dever y otros consideran que las pruebas del siglo X son compatibles con él. Israel está bien atestiguado por registros asirios desde el siglo IX a. e. c., y la mayoría de las pruebas sitúan el auge de Judá como estado importante en el siglo VIII a. e. c.",
-        "zh": "《圣经》认为，在大卫和所罗门治下的统一王国之后，两个王国于约公元前930年分裂。考古学家对这个统一国家是否存在意见不一：以色列·芬克尔斯坦的“低年代学”把10世纪的宏伟建筑移到9世纪，而威廉·德弗等人认为10世纪的证据与统一国家相符。以色列自公元前9世纪起就有亚述记录确证，多数证据认为犹大到公元前8世纪才成为较大的国家。"
+        "en": "The Bible dates the two kingdoms from a split c. 930 BCE after a united kingdom under David and Solomon. Archaeologists disagree on whether that united state existed: Israel Finkelstein's low chronology moves the 10th-century monumental buildings into the 9th century, while William Dever and others read the 10th-century evidence as consistent with one. Israel is firmly attested by Assyrian records from the 9th century BCE, and many archaeologists place Judah's rise as a substantial state in the 8th century BCE.",
+        "es": "La Biblia fecha los dos reinos a partir de una división hacia 930 a. e. c., tras un reino unido bajo David y Salomón. Los arqueólogos discrepan sobre si ese estado unido existió: la cronología baja de Israel Finkelstein traslada al siglo IX los edificios monumentales del siglo X, mientras que William Dever y otros consideran que las pruebas del siglo X son compatibles con él. Israel está bien atestiguado por registros asirios desde el siglo IX a. e. c., y muchos arqueólogos sitúan el auge de Judá como estado importante en el siglo VIII a. e. c.",
+        "zh": "《圣经》认为，在大卫和所罗门治下的统一王国之后，两个王国于约公元前930年分裂。考古学家对这个统一国家是否存在意见不一：以色列·芬克尔斯坦的“低年代学”把10世纪的宏伟建筑移到9世纪，而威廉·德弗等人认为10世纪的证据与统一国家相符。以色列自公元前9世纪起就有亚述记录确证，许多考古学家认为犹大到公元前8世纪才成为较大的国家。"
       }
     },
     {
@@ -88,12 +92,12 @@
       "end": -721,
       "sources": [
         {
-          "citation": "Wikipedia, \"Kingdom of Israel (Samaria)\" (c. 930–720 BCE).",
-          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria)"
+          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (northern kingdom destroyed by the Assyrians in 722 BCE; split after Solomon's death).",
+          "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
         },
         {
-          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (northern kingdom destroyed in 722 BCE).",
-          "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
+          "citation": "Livius.org, \"Samaria\" (Solomon's kingdom divided after his death c. 931; Omri, 884–873, founded Samaria; Israel became an Assyrian province c. 724).",
+          "url": "https://www.livius.org/articles/place/samaria/"
         }
       ]
     },
@@ -108,11 +112,11 @@
       "end": -585,
       "sources": [
         {
-          "citation": "Wikipedia, \"Kingdom of Judah\" (c. 930–587 BCE).",
-          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Judah"
+          "citation": "Livius.org, \"Jerusalem\" (siege by Sennacherib in 701 bought off; city captured by Nebuchadnezzar in 587).",
+          "url": "https://www.livius.org/articles/place/jerusalem/"
         },
         {
-          "citation": "World History Encyclopedia, \"Nebuchadnezzar II\" (destruction of Jerusalem 587/586 BCE).",
+          "citation": "World History Encyclopedia, \"Nebuchadnezzar II\" (destruction of Jerusalem in 587/586 BCE).",
           "url": "https://www.worldhistory.org/Nebuchadnezzar_II/"
         }
       ]
@@ -130,12 +134,16 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Merneptah Stele\" (c. 1208 BCE; Egyptian Museum, Cairo).",
-          "url": "https://en.wikipedia.org/wiki/Merneptah_Stele"
+          "citation": "World History Encyclopedia, Jacob Wright (Emory University), \"The Oldest Reference to Israel\" (stele dating to 1208 BCE, found by Petrie in 1896).",
+          "url": "https://www.worldhistory.org/video/490/"
         },
         {
-          "citation": "World History Encyclopedia, \"Merneptah\" (stele dating to 1208 BCE, found by Petrie in 1896).",
-          "url": "https://www.worldhistory.org/Merneptah/"
+          "citation": "Egypt Museum, \"Victory Stele of Merneptah\" (Egyptian Museum, Cairo, JE 31408; the name Israel in line 27 refers to a people; found by Petrie in 1896).",
+          "url": "https://egypt-museum.com/victory-stele-of-merneptah/"
+        },
+        {
+          "citation": "Wikipedia, \"Merneptah Stele\" (c. 1208 BCE; Egyptian Museum, Cairo).",
+          "url": "https://en.wikipedia.org/wiki/Merneptah_Stele"
         }
       ],
       "disputed": false,
@@ -156,12 +164,12 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Kingdom of Israel\".",
+          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (northern kingdom destroyed by the Assyrians in 722 BCE; split after Solomon's death).",
           "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
         },
         {
-          "citation": "Wikipedia, \"United Monarchy\" (traditional dates c. 1047–930 BCE; historicity debated).",
-          "url": "https://en.wikipedia.org/wiki/United_Monarchy"
+          "citation": "Livius.org, \"Samaria\" (Solomon's kingdom divided after his death c. 931; Omri, 884–873, founded Samaria; Israel became an Assyrian province c. 724).",
+          "url": "https://www.livius.org/articles/place/samaria/"
         }
       ],
       "disputed": true,
@@ -190,7 +198,7 @@
           "url": "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria)"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "place": {
         "name": {
           "en": "Samaria (Sebastia)",
@@ -199,6 +207,11 @@
         },
         "lat": 32.2763,
         "lon": 35.1942
+      },
+      "note": {
+        "en": "Omri's reign is dated 884–873 BCE by Livius and about 876–869 BCE by other chronologies, so founding Samaria in his sixth year falls between about 879 and 871 BCE. The year here is a middle estimate.",
+        "es": "Livius fecha el reinado de Omrí en 884–873 a. e. c. y otras cronologías en c. 876–869 a. e. c., de modo que la fundación de Samaria, en su sexto año, cae entre c. 879 y 871 a. e. c. El año indicado es una estimación intermedia.",
+        "zh": "Livius将暗利在位定为公元前884至873年，其他年表则为约公元前876至869年，因此他在位第六年建立撒玛利亚，约在公元前879至871年之间。此处的年份是折中的估计。"
       }
     },
     {
@@ -212,19 +225,23 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Battle of Qarqar\" (853 BC; Kurkh Monolith).",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_Qarqar"
+          "citation": "Encyclopaedia Judaica, \"Karkar\" (via Encyclopedia.com): battle in Shalmaneser III's sixth year, 853 BCE; Ahab the Israelite listed with 2,000 chariots and 10,000 foot soldiers; the Bible does not mention it.",
+          "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/karkar"
         },
         {
-          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (Assyrian records give Ahab 2,000 chariots and 10,000 infantry).",
+          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (Assyrian records give Ahab 2,000 chariots and 10,000 infantry; modern scholarship contests the numbers).",
           "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
+        },
+        {
+          "citation": "Wikipedia, \"Battle of Qarqar\" (853 BC; Kurkh Monolith).",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Qarqar"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The Kurkh Monolith credits Ahab with 2,000 chariots and 10,000 soldiers; some scholars think the chariot figure is too high. The date is 853 BCE or, by another chronology, 854 BCE. The Hebrew Bible does not mention the battle.",
-        "es": "El Monolito de Kurkh atribuye a Acab 2000 carros y 10 000 soldados; algunos especialistas consideran excesiva la cifra de carros. La fecha es 853 a. e. c. o, según otra cronología, 854 a. e. c. La Biblia hebrea no menciona la batalla.",
-        "zh": "库尔赫巨石碑称亚哈出动2000辆战车和1万名士兵；一些学者认为战车数字偏高。年代为公元前853年，按另一种年表则为公元前854年。《希伯来圣经》没有提到这场战役。"
+        "en": "The Kurkh Monolith credits Ahab with 2,000 chariots and 10,000 soldiers; some scholars think the chariot figure is too high. The date, 853 BCE, comes from Shalmaneser III's sixth regnal year. The Hebrew Bible does not mention the battle.",
+        "es": "El Monolito de Kurkh atribuye a Acab 2000 carros y 10 000 soldados; algunos especialistas consideran excesiva la cifra de carros. La fecha, 853 a. e. c., procede del sexto año de reinado de Salmanasar III. La Biblia hebrea no menciona la batalla.",
+        "zh": "库尔赫巨石碑称亚哈出动2000辆战车和1万名士兵；一些学者认为战车数字偏高。公元前853年这一年代来自沙勒马内色三世在位第六年。《希伯来圣经》没有提到这场战役。"
       }
     },
     {
@@ -238,8 +255,12 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (northern kingdom destroyed by the Assyrians in 722 BCE).",
+          "citation": "World History Encyclopedia, \"Kingdom of Israel\" (northern kingdom destroyed by the Assyrians in 722 BCE; split after Solomon's death).",
           "url": "https://www.worldhistory.org/Kingdom_of_Israel/"
+        },
+        {
+          "citation": "Livius.org, \"Samaria\" (Solomon's kingdom divided after his death c. 931; Omri, 884–873, founded Samaria; Israel became an Assyrian province c. 724).",
+          "url": "https://www.livius.org/articles/place/samaria/"
         },
         {
           "citation": "Wikipedia, \"Kingdom of Israel (Samaria)\" (conquered around 720 BCE; Sargon II's record of carrying off 27,280 people).",
@@ -273,12 +294,12 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Sennacherib\".",
+          "citation": "World History Encyclopedia, \"Sennacherib\" (701 BCE campaign; Lachish besieged and taken while envoys demanded Jerusalem's surrender).",
           "url": "https://www.worldhistory.org/Sennacherib/"
         },
         {
-          "citation": "Wikipedia, \"Siege of Lachish\" (701 BC; Lachish reliefs from Nineveh, British Museum).",
-          "url": "https://en.wikipedia.org/wiki/Siege_of_Lachish"
+          "citation": "Livius.org, \"Jerusalem\" (siege by Sennacherib in 701 bought off; city captured by Nebuchadnezzar in 587).",
+          "url": "https://www.livius.org/articles/place/jerusalem/"
         }
       ],
       "disputed": false,
@@ -307,6 +328,10 @@
           "url": "https://www.worldhistory.org/Nebuchadnezzar_II/"
         },
         {
+          "citation": "Livius.org, \"Jerusalem\" (siege by Sennacherib in 701 bought off; city captured by Nebuchadnezzar in 587).",
+          "url": "https://www.livius.org/articles/place/jerusalem/"
+        },
+        {
           "citation": "Wikipedia, \"Siege of Jerusalem (587 BC)\" (burn layer; 587 versus 586 BC).",
           "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(587_BC)"
         }
@@ -332,15 +357,19 @@
     {
       "id": "hezekiahs-tunnel",
       "text": {
-        "en": "Hezekiah's Tunnel under Jerusalem, traditionally dated to about 700 BCE, is about 533 metres long; its inscription says two teams dug from opposite ends and met in the middle.",
-        "es": "El túnel de Ezequías bajo Jerusalén, fechado tradicionalmente hacia 700 a. e. c., mide unos 533 metros; su inscripción dice que dos equipos excavaron desde extremos opuestos y se encontraron en el centro.",
-        "zh": "耶路撒冷地下的希西家水道，传统上定在约公元前700年，长约533米；其铭文称两队人马从两端相向开凿，在中间会合。"
+        "en": "Hezekiah's Tunnel under Jerusalem is about 533 metres long; its inscription says two teams dug from opposite ends and met in the middle. It is traditionally dated to about 700 BCE, but a 2011 study argues for the late 9th or early 8th century.",
+        "es": "El túnel de Ezequías bajo Jerusalén mide unos 533 metros; su inscripción dice que dos equipos excavaron desde extremos opuestos y se encontraron en el centro. Tradicionalmente se fecha hacia 700 a. e. c., pero un estudio de 2011 propone finales del siglo IX o principios del VIII.",
+        "zh": "耶路撒冷地下的希西家水道长约533米；其铭文称两队人马从两端相向开凿，在中间会合。传统上定在约公元前700年，但2011年的一项研究认为应在公元前9世纪末或8世纪初。"
       },
-      "start": -729,
+      "start": -809,
       "end": -699,
       "sources": [
         {
-          "citation": "Wikipedia, \"Hezekiah's Tunnel\" (533 m; traditionally c. 700 BCE, a 2011 study suggests several decades earlier).",
+          "citation": "Livius.org, \"The Siloam Inscription\" (533 m tunnel to the Siloam pool; inscription now in the Istanbul Archaeological Museum).",
+          "url": "https://www.livius.org/sources/content/anet/321-the-siloam-inscription/"
+        },
+        {
+          "citation": "Wikipedia, \"Hezekiah's Tunnel\" (533 m; traditionally c. 700 BCE; 2011 excavations suggest the late 9th or early 8th century BCE).",
           "url": "https://en.wikipedia.org/wiki/Hezekiah%27s_Tunnel"
         }
       ],
