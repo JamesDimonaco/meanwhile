@@ -5,7 +5,7 @@
   "name": {
     "en": "Umayyad Caliphate",
     "es": "Califato omeya",
-    "zh": "奥玛亚哈里发国"
+    "zh": "倭马亚哈里发国"
   },
   "aliases": [
     "Umayyads",
@@ -16,13 +16,12 @@
     "Damascus caliphate",
     "Omeyas",
     "倭马亚王朝",
-    "倭马亚哈里发国",
     "白衣大食"
   ],
   "description": {
-    "en": "The second Islamic caliphate, ruled from Damascus by the Umayyad family. Its armies reached Iberia and the Indus, and its rulers made Arabic the language of administration, before the Abbasids overthrew the dynasty in 750.",
-    "es": "El segundo califato islámico, gobernado desde Damasco por la familia omeya. Sus ejércitos llegaron a Iberia y al Indo, y sus gobernantes hicieron del árabe la lengua de la administración, hasta que los abasíes derrocaron a la dinastía en 750.",
-    "zh": "第二个伊斯兰哈里发国，由奥玛亚家族在大马士革统治。其军队远达伊比利亚半岛和印度河，统治者将阿拉伯语定为行政语言，750年被阿拔斯人推翻。"
+    "en": "The second Islamic caliphate, ruled from Damascus by the Umayyad family. Its armies reached Iberia and the Indus, and its rulers made Arabic the language of government, before the Abbasids overthrew the dynasty in 750.",
+    "es": "El segundo califato islámico, gobernado desde Damasco por la familia omeya. Sus ejércitos llegaron a Iberia y al Indo, y sus gobernantes hicieron del árabe la lengua de gobierno, hasta que los abasíes derrocaron a la dinastía en 750.",
+    "zh": "第二个伊斯兰哈里发国，由倭马亚家族在大马士革统治。其军队远达伊比利亚半岛和印度河，统治者把阿拉伯语定为官方语言，750年被阿拔斯人推翻。"
   },
   "reviewed": {
     "es": false,
@@ -41,8 +40,12 @@
           "url": "http://n2t.net/ark:/99152/p08m57hz828"
         },
         {
-          "citation": "World History Encyclopedia, \"Umayyad Caliphate\".",
-          "url": "https://www.worldhistory.org/Umayyad_Caliphate/"
+          "citation": "World History Encyclopedia, \"Umayyad Dynasty\" (661-750 CE).",
+          "url": "https://www.worldhistory.org/Umayyad_Dynasty/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Umayyad Dynasty\": the dynasty took the caliphate in 661.",
+          "url": "https://www.ebsco.com/research-starters/history/umayyad-dynasty/"
         }
       ],
       "periodoId": "p08m57hz828",
@@ -58,16 +61,20 @@
       "title": {
         "en": "Muawiya, governor of Syria, becomes caliph and rules from Damascus, founding the Umayyad dynasty",
         "es": "Muawiya, gobernador de Siria, se convierte en califa y gobierna desde Damasco, fundando la dinastía omeya",
-        "zh": "叙利亚总督穆阿维叶成为哈里发，在大马士革执政，奠定奥玛亚王朝"
+        "zh": "叙利亚总督穆阿维叶成为哈里发，在大马士革执政，奠定倭马亚王朝"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Umayyad Caliphate\".",
-          "url": "https://www.worldhistory.org/Umayyad_Caliphate/"
+          "citation": "World History Encyclopedia, \"Umayyad Dynasty\".",
+          "url": "https://www.worldhistory.org/Umayyad_Dynasty/"
         },
         {
-          "citation": "Wikipedia, \"Umayyad Caliphate\" (infobox and early history sections).",
-          "url": "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
+          "citation": "U.S. Library of Congress Country Studies, \"Iraq: The Sunni-Shia Controversy\" (Muawiya's rule from Damascus after Ali's death in 661).",
+          "url": "https://countrystudies.us/iraq/15.htm"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Umayyad Dynasty\".",
+          "url": "https://www.ebsco.com/research-starters/history/umayyad-dynasty/"
         }
       ],
       "disputed": false,
@@ -88,16 +95,16 @@
       "title": {
         "en": "Umayyad troops kill Husayn ibn Ali and his small band of followers at Karbala",
         "es": "Tropas omeyas matan a Husayn ibn Ali y a su pequeño grupo de seguidores en Kerbala",
-        "zh": "奥玛亚军队在卡尔巴拉杀死侯赛因·本·阿里及其少数追随者"
+        "zh": "倭马亚军队在卡尔巴拉杀死侯赛因·本·阿里及其少数追随者"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Umayyad Caliphate\".",
-          "url": "https://www.worldhistory.org/Umayyad_Caliphate/"
+          "citation": "World History Encyclopedia, \"Umayyad Dynasty\".",
+          "url": "https://www.worldhistory.org/Umayyad_Dynasty/"
         },
         {
-          "citation": "Wikipedia, \"Battle of Karbala\".",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_Karbala"
+          "citation": "U.S. Library of Congress Country Studies, \"Iraq: The Sunni-Shia Controversy\" (Husayn's band cut down at Karbala by Umayyad troops).",
+          "url": "https://countrystudies.us/iraq/15.htm"
         }
       ],
       "disputed": false,
@@ -118,15 +125,19 @@
       "title": {
         "en": "Caliph Abd al-Malik completes the Dome of the Rock in Jerusalem, the oldest surviving major work of Islamic architecture",
         "es": "El califa Abd al-Malik concluye la Cúpula de la Roca en Jerusalén, la obra monumental islámica más antigua que se conserva",
-        "zh": "哈里发阿卜杜·马利克在耶路撒冷建成圆顶清真寺（岩石圆顶），这是现存最古老的伊斯兰大型建筑"
+        "zh": "哈里发阿卜杜勒-马利克在耶路撒冷建成圆顶清真寺（岩石圆顶），这是现存最古老的伊斯兰大型建筑"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Umayyad Caliphate\".",
-          "url": "https://www.worldhistory.org/Umayyad_Caliphate/"
+          "citation": "World History Encyclopedia, \"Umayyad Dynasty\" (Dome of the Rock built 691-692 under Abd al-Malik).",
+          "url": "https://www.worldhistory.org/Umayyad_Dynasty/"
         },
         {
-          "citation": "Wikipedia, \"Dome of the Rock\".",
+          "citation": "EBSCO Research Starters, \"Abd al-Malik\": the caliph oversaw the Dome of the Rock.",
+          "url": "https://www.ebsco.com/research-starters/biography/abd-al-malik/"
+        },
+        {
+          "citation": "Wikipedia, \"Dome of the Rock\" (dated inscription, oldest surviving Islamic monument).",
           "url": "https://en.wikipedia.org/wiki/Dome_of_the_Rock"
         }
       ],
@@ -143,25 +154,33 @@
       "end": 706,
       "type": "invention",
       "title": {
-        "en": "Arabic replaces Persian, Greek and Coptic as the language of the tax offices in Iraq, Syria and Egypt",
-        "es": "El árabe sustituye al persa, al griego y al copto como lengua de las oficinas fiscales de Irak, Siria y Egipto",
-        "zh": "阿拉伯语取代波斯语、希腊语和科普特语，成为伊拉克、叙利亚和埃及税务官署的语言"
+        "en": "Tax registers in Iraq, Syria and Egypt begin to be kept in Arabic instead of Persian and Greek",
+        "es": "Los registros fiscales de Irak, Siria y Egipto empiezan a llevarse en árabe en lugar de persa y griego",
+        "zh": "伊拉克、叙利亚和埃及的税务登记册开始改用阿拉伯语，不再使用波斯语和希腊语"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Umayyad Caliphate\".",
-          "url": "https://www.worldhistory.org/Umayyad_Caliphate/"
+          "citation": "EBSCO Research Starters, \"Abd al-Malik\": Arabic made the official language of administration under him.",
+          "url": "https://www.ebsco.com/research-starters/biography/abd-al-malik/"
         },
         {
-          "citation": "Wikipedia, \"Umayyad Caliphate\" (administration section).",
+          "citation": "University of Edinburgh, Caliphal Finances blog, \"Accounting practices in the multilingual administration of the Abbasid era\" (the reform as translation of fiscal registers in provincial capitals).",
+          "url": "https://blogs.ed.ac.uk/caliphalfinances/2025/04/05/accounting-practices-in-the-multilingual-administration-of-the-abbasid-era/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Umayyad Dynasty\" (Abd al-Malik Arabized his dominion).",
+          "url": "https://www.worldhistory.org/Umayyad_Dynasty/"
+        },
+        {
+          "citation": "Wikipedia, \"Umayyad Caliphate\" (infobox: administrative languages and dates).",
           "url": "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "note": {
-        "en": "Wikipedia gives 697 for Iraq, 700 for Syria and 705 or 706 for Egypt; the change took place province by province.",
-        "es": "Wikipedia da 697 para Irak, 700 para Siria y 705 o 706 para Egipto; el cambio se hizo provincia por provincia.",
-        "zh": "维基百科给出的年份为伊拉克697年、叙利亚700年、埃及705或706年；这一转变是逐个行省推进的。"
+        "en": "Traditional accounts credit Caliph Abd al-Malik (685 to 705) with a language reform: Wikipedia gives about 697 for Persian, 700 to 705 for Greek and about 705 for Coptic. Recent research argues that the change was the translation of fiscal registers in provincial capitals, province by province, and that Greek stayed in use in Egyptian offices long afterwards.",
+        "es": "Los relatos tradicionales atribuyen al califa Abd al-Malik (685 a 705) una reforma lingüística: Wikipedia da hacia 697 para el persa, 700 a 705 para el griego y hacia 705 para el copto. Investigaciones recientes sostienen que el cambio fue la traducción de los registros fiscales en las capitales provinciales, provincia por provincia, y que el griego siguió usándose en las oficinas egipcias mucho después.",
+        "zh": "传统叙述把一场语言改革归于哈里发阿卜杜勒-马利克（685至705年在位）：维基百科给出的年份为波斯语约697年、希腊语约700至705年、科普特语约705年。近年研究认为，实际发生的是各省首府把税务登记册逐省译成阿拉伯语，而埃及的官署此后很久仍在使用希腊语。"
       }
     },
     {
@@ -170,21 +189,21 @@
       "end": 715,
       "type": "founding",
       "title": {
-        "en": "Caliph al-Walid I replaces the cathedral of Damascus with the Great Mosque, built between 706 and 715",
-        "es": "El califa al-Walid I sustituye la catedral de Damasco por la Gran Mezquita, construida entre 706 y 715",
-        "zh": "哈里发瓦利德一世用大马士革大教堂的旧址建起大清真寺，于706至715年间建成"
+        "en": "Caliph al-Walid I replaces the cathedral of Damascus with the Great Mosque, built from about 706 to 715",
+        "es": "El califa al-Walid I sustituye la catedral de Damasco por la Gran Mezquita, construida entre 706 y 715 aproximadamente",
+        "zh": "哈里发瓦利德一世用大马士革大教堂的旧址建起大清真寺，约在706至715年间建成"
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Umayyad Mosque\".",
-          "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Damascus"
+          "citation": "Holy See Press Office, \"The Umayyad Mosque of Damascus: history\" (al-Walid ordered the mosque in 706; finished in under ten years).",
+          "url": "https://www.vatican.va/news_services/press/servizio/documents/viaggi/0093sapo/viaggi_santo_padre_0093sapo_documentazione_mosque-damasco_history_en.html"
         },
         {
-          "citation": "Wikipedia, \"Umayyad Caliphate\" (al-Walid I section).",
-          "url": "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
+          "citation": "EBSCO Research Starters, \"Umayyad Mosque (Great Mosque of Damascus)\": built 705 to 715 on the site of a Roman temple and the cathedral of John the Baptist.",
+          "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/umayyad-mosque-great-mosque-damascus"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "place": {
         "name": {
           "en": "Damascus",
@@ -193,6 +212,11 @@
         },
         "lat": 33.5114,
         "lon": 36.3066
+      },
+      "note": {
+        "en": "Sources date the start of work to 705 or 706 and the end to 715.",
+        "es": "Las fuentes sitúan el inicio de las obras en 705 o 706 y el final en 715.",
+        "zh": "各来源把开工定在705年或706年，竣工定在715年。"
       }
     },
     {
@@ -206,11 +230,15 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Umayyad Caliphate\".",
-          "url": "https://www.worldhistory.org/Umayyad_Caliphate/"
+          "citation": "World History Encyclopedia, \"Umayyad Dynasty\".",
+          "url": "https://www.worldhistory.org/Umayyad_Dynasty/"
         },
         {
-          "citation": "Wikipedia, \"Umayyad conquest of Hispania\".",
+          "citation": "U.S. Library of Congress Country Studies, \"Spain: Al Andalus\" (Tariq ibn Ziyad crosses into Spain in 711; Roderic dies in battle).",
+          "url": "https://countrystudies.us/spain/5.htm"
+        },
+        {
+          "citation": "Wikipedia, \"Umayyad conquest of Hispania\" (reliability of the sources).",
           "url": "https://en.wikipedia.org/wiki/Umayyad_conquest_of_Hispania"
         }
       ],
@@ -228,16 +256,16 @@
       "title": {
         "en": "Abbasid forces rout the army of the last Umayyad caliph, Marwan II, at the Great Zab river",
         "es": "Las fuerzas abasíes derrotan al ejército del último califa omeya, Marwán II, en el río Gran Zab",
-        "zh": "阿拔斯军队在大扎卜河击溃末代奥玛亚哈里发马尔万二世的军队"
+        "zh": "阿拔斯军队在大扎卜河击溃末代倭马亚哈里发马尔万二世的军队"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Umayyad Caliphate\".",
-          "url": "https://www.worldhistory.org/Umayyad_Caliphate/"
+          "citation": "World History Encyclopedia, \"Umayyad Dynasty\".",
+          "url": "https://www.worldhistory.org/Umayyad_Dynasty/"
         },
         {
-          "citation": "Wikipedia, \"Battle of the Zab\".",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Zab"
+          "citation": "Encyclopedia.com, \"Revolution: Classical Islam\" (Marwan II beaten near the Zab in 750).",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/revolution-classical-islam"
         }
       ],
       "disputed": false
@@ -249,18 +277,18 @@
       "start": 697,
       "end": 706,
       "text": {
-        "en": "Within a decade, officials in Iraq, Syria and Egypt were keeping the caliphate's tax records in Arabic instead of Persian, Greek and Coptic.",
-        "es": "En una década, los funcionarios de Irak, Siria y Egipto llevaban los registros fiscales del califato en árabe en lugar de persa, griego y copto.",
-        "zh": "不到十年间，伊拉克、叙利亚和埃及的官员改用阿拉伯语记录哈里发国的税务，不再使用波斯语、希腊语和科普特语。"
+        "en": "Around 700, tax registers in Iraq, Syria and Egypt began to be kept in Arabic instead of Persian and Greek.",
+        "es": "Hacia 700, los registros fiscales de Irak, Siria y Egipto empezaron a llevarse en árabe en lugar de persa y griego.",
+        "zh": "大约在700年，伊拉克、叙利亚和埃及的税务登记册开始改用阿拉伯语，不再使用波斯语和希腊语。"
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Umayyad Caliphate\" (administration section).",
-          "url": "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
+          "citation": "University of Edinburgh, Caliphal Finances blog, \"Accounting practices in the multilingual administration of the Abbasid era\".",
+          "url": "https://blogs.ed.ac.uk/caliphalfinances/2025/04/05/accounting-practices-in-the-multilingual-administration-of-the-abbasid-era/"
         },
         {
-          "citation": "World History Encyclopedia, \"Umayyad Caliphate\".",
-          "url": "https://www.worldhistory.org/Umayyad_Caliphate/"
+          "citation": "EBSCO Research Starters, \"Umayyad Dynasty\": Arabic made the language of government.",
+          "url": "https://www.ebsco.com/research-starters/history/umayyad-dynasty/"
         }
       ],
       "disputed": false

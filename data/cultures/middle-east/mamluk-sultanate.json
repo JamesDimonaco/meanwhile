@@ -40,8 +40,12 @@
           "url": "http://n2t.net/ark:/99152/p08m57hhcgp"
         },
         {
-          "citation": "Wikipedia, \"Mamluk Sultanate\".",
-          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+          "citation": "Encyclopedia.com, \"Sultanates: Mamluk\": the Mamluk Sultanate of Egypt and Syria, 1250 to 1517.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sultanates-mamluk"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Egypt: The Mamluks, 1250-1517\"",
+          "url": "https://countrystudies.us/egypt/17.htm"
         }
       ],
       "periodoId": "p08m57hhcgp",
@@ -61,12 +65,12 @@
       "end": 1382,
       "sources": [
         {
-          "citation": "Wikipedia, \"Mamluk Sultanate\" (Bahri and Burji periods).",
-          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+          "citation": "Encyclopedia.com, \"Sultanates: Mamluk\": the first period ended in 1382, with mostly Turkish sultans.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sultanates-mamluk"
         },
         {
-          "citation": "British Museum collection thesaurus, \"Mamluk dynasty\", via PeriodO (notes two lines of sultans).",
-          "url": "http://n2t.net/ark:/99152/p08m57hhcgp"
+          "citation": "Encyclopedia.com, \"Mamluk\": the Bahri period (1250–1382) and the Circassian period (1382–1517).",
+          "url": "https://www.encyclopedia.com/history/asia-and-africa/egyptian-history/mamluk"
         }
       ]
     },
@@ -81,12 +85,12 @@
       "end": 1517,
       "sources": [
         {
-          "citation": "Wikipedia, \"Mamluk Sultanate\" (Bahri and Burji periods).",
-          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+          "citation": "Encyclopedia.com, \"Sultanates: Mamluk\": the second period, 1382 to 1517, with mostly Circassian sultans.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sultanates-mamluk"
         },
         {
-          "citation": "Wikipedia, \"Barquq\".",
-          "url": "https://en.wikipedia.org/wiki/Barquq"
+          "citation": "Encyclopedia.com, \"Mamluk\": the Bahri period (1250–1382) and the Circassian period (1382–1517).",
+          "url": "https://www.encyclopedia.com/history/asia-and-africa/egyptian-history/mamluk"
         }
       ]
     }
@@ -103,12 +107,12 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Mamluk Sultanate\".",
-          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+          "citation": "World History Encyclopedia, \"Shajara al-Durr\": Turan Shah assassinated on 2 May 1250; the Mamluks put Shajara al-Durr in his place.",
+          "url": "https://www.worldhistory.org/Shajara_al-Durr/"
         },
         {
-          "citation": "World History Encyclopedia, \"Mamluk Sultanate\" (Shajar al-Durr as founder).",
-          "url": "https://www.worldhistory.org/Mamluk_Sultanate/"
+          "citation": "Encyclopedia.com, \"Sultanates: Mamluk\": the Mamluks murdered Turanshah.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sultanates-mamluk"
         }
       ],
       "disputed": false,
@@ -133,12 +137,16 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Battle of Ain Jalut\".",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut"
+          "citation": "EBSCO Research Starters, \"Battle of Ain Jalut\": Mamluk army under Qutuz and Baybars defeats the Mongols under Kitbuqa on 3 September 1260.",
+          "url": "https://www.ebsco.com/research-starters/history/battle-ain-jalut/"
         },
         {
-          "citation": "Wikipedia, \"Mamluk Sultanate\".",
-          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+          "citation": "U.S. Library of Congress Country Studies, \"Egypt: The Mamluks, 1250-1517\" (Qutuz's forces defeat the Mongol army at Ayn Jalut, 1260).",
+          "url": "https://countrystudies.us/egypt/17.htm"
+        },
+        {
+          "citation": "Wikipedia, \"Battle of Ain Jalut\" (the debate over the Mongol withdrawal).",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut"
         }
       ],
       "disputed": false,
@@ -159,19 +167,23 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Baybars\".",
-          "url": "https://en.wikipedia.org/wiki/Baybars"
+          "citation": "Encyclopedia.com, \"Baybars, al-Zahir\": in 1261 Baybars invited the uncle of the last Abbasid caliph to Cairo, where he was named caliph.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/baybars-al-zahir"
         },
         {
-          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
-          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+          "citation": "World History Encyclopedia, \"Abbasid Dynasty\": a series of shadow caliphs continued under Mamluk suzerainty until 1517.",
+          "url": "https://www.worldhistory.org/Abbasid_Dynasty/"
+        },
+        {
+          "citation": "Wikipedia, \"Baybars\" (the refugee proclaimed caliph; the Cairo caliphs' dates in the Mamluk Sultanate infobox).",
+          "url": "https://en.wikipedia.org/wiki/Baybars"
         }
       ],
-      "disputed": true,
+      "disputed": false,
       "note": {
-        "en": "Most sources give 1261 for the first Cairo caliph, al-Mustansir II; the Wikipedia article on the Mamluk Sultanate gives 1263 for the line's re-establishment.",
-        "es": "La mayoría de las fuentes dan 1261 para el primer califa de El Cairo, al-Mustansir II; el artículo de Wikipedia sobre el sultanato mameluco da 1263 para el restablecimiento de la línea.",
-        "zh": "多数来源将开罗第一位哈里发穆斯坦绥尔二世定在1261年；维基百科的马木留克苏丹国条目则把这一系的重建定在1263年。"
+        "en": "Al-Mustansir, an uncle of the last Baghdad caliph, was the first Abbasid caliph in Cairo (1261). Baybars installed a second, al-Hakim I, in 1262, and his line lasted under Mamluk protection until 1517.",
+        "es": "Al-Mustansir, tío del último califa de Bagdad, fue el primer califa abasí en El Cairo (1261). Baibars instaló a un segundo, al-Hakim I, en 1262, y su línea duró bajo protección mameluca hasta 1517.",
+        "zh": "穆斯坦绥尔是巴格达末代哈里发的叔父，为开罗第一位阿拔斯哈里发（1261年）。拜巴尔斯于1262年又扶立第二位哈里发哈基姆一世，其世系在马木留克保护下延续到1517年。"
       },
       "place": {
         "name": {
@@ -194,12 +206,12 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Siege of Acre, 1291\".",
-          "url": "https://www.worldhistory.org/Siege_of_Acre_(1291)/"
+          "citation": "World History Encyclopedia, \"The Siege of Acre, 1291 CE\": Acre fell on 18 May 1291 to Sultan al-Ashraf Khalil.",
+          "url": "https://www.worldhistory.org/article/1267/the-siege-of-acre-1291-ce/"
         },
         {
-          "citation": "Wikipedia, \"Siege of Acre (1291)\".",
-          "url": "https://en.wikipedia.org/wiki/Siege_of_Acre_(1291)"
+          "citation": "Encyclopedia.com, \"End of the Crusades: Mongols, Mamluks, and Muslims\": siege of Acre began on 6 April 1291 under al-Ashraf Khalil.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/end-crusades-mongols-mamluks-and-muslims"
         }
       ],
       "disputed": false,
@@ -225,15 +237,19 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Mosque-Madrasa of Sultan Hasan\".",
-          "url": "https://en.wikipedia.org/wiki/Mosque-Madrasa_of_Sultan_Hasan"
+          "citation": "Saudi Aramco World, \"A City Adorned\" (2005): Sultan Hasan's complex, the largest and most luxurious of its kind, nearly finished when he lost his throne in 1361.",
+          "url": "https://archive.aramcoworld.com/issue/200501/a.city.adorned.htm"
         },
         {
-          "citation": "Wikipedia, \"Mamluk Sultanate\" (Bahri period).",
-          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+          "citation": "Encyclopedia.com, \"Later Masjid Architecture in the Arab World and Africa\": the Masjid of Sultan Hasan, built 1356–1361, as school, tomb and mosque.",
+          "url": "https://www.encyclopedia.com/history/news-wires-white-papers-and-books/later-masjid-architecture-arab-world-and-africa"
+        },
+        {
+          "citation": "Wikipedia, \"Mosque-Madrasa of Sultan Hasan\" (1356 to 1363; 84-metre minaret, the highest of Mamluk architecture).",
+          "url": "https://en.wikipedia.org/wiki/Mosque-Madrasa_of_Sultan_Hasan"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "place": {
         "name": {
           "en": "Cairo",
@@ -242,6 +258,11 @@
         },
         "lat": 30.0322,
         "lon": 31.2564
+      },
+      "note": {
+        "en": "Work began in 1356. Sources give completion in 1361 or 1363: the sultan was deposed in 1361 and the building was finished after his fall. The 84-metre height of the surviving minaret comes from Wikipedia.",
+        "es": "Las obras comenzaron en 1356. Las fuentes dan la conclusión en 1361 o 1363: el sultán fue depuesto en 1361 y el edificio se terminó tras su caída. La altura de 84 metros del alminar que se conserva procede de Wikipedia.",
+        "zh": "工程始于1356年。各来源把竣工定在1361年或1363年：苏丹于1361年被废，建筑在他倒台后才完工。现存宣礼塔高84米的数据来自维基百科。"
       }
     },
     {
@@ -255,12 +276,16 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Barquq\".",
-          "url": "https://en.wikipedia.org/wiki/Barquq"
+          "citation": "Encyclopedia.com, \"Sultanates: Mamluk\": the second period, 1382 to 1517, with mostly Circassian sultans.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sultanates-mamluk"
         },
         {
-          "citation": "Wikipedia, \"Mamluk Sultanate\".",
-          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+          "citation": "Encyclopedia.com, \"Ibn Khaldun\": in 1382 he moved to Cairo as counsellor of Sultan Barquq.",
+          "url": "https://www.encyclopedia.com/people/history/historians-miscellaneous-biographies/ibn-khaldun"
+        },
+        {
+          "citation": "Wikipedia, \"Barquq\" (first sultan of the Circassian Burji line, from 1382).",
+          "url": "https://en.wikipedia.org/wiki/Barquq"
         }
       ],
       "disputed": false
@@ -277,19 +302,23 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Battle of Ridaniya\".",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_Ridaniya"
+          "citation": "EBSCO Research Starters, \"Mamluk-Ottoman Wars\": Ottoman victory at Marj Dabiq (24 August 1516), then Raydaniyah near Cairo on 22 January 1517.",
+          "url": "https://www.ebsco.com/research-starters/history/mamluk-ottoman-wars"
         },
         {
-          "citation": "World History Encyclopedia, \"Ottoman Empire\".",
-          "url": "https://www.worldhistory.org/Ottoman_Empire/"
+          "citation": "EBSCO Research Starters, \"Reign of Selim I\": Selim defeated the Mamluks north of Cairo in January 1517 and ordered the sultan Tuman Bay II executed.",
+          "url": "https://www.ebsco.com/research-starters/history/reign-selim-i/"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Egypt: The Ottoman Empire\" (Selim I conquered Egypt in 1517 at Ar Raydaniyah, outside Cairo).",
+          "url": "https://countrystudies.us/egypt/18.htm"
         }
       ],
       "disputed": false,
       "note": {
-        "en": "Marj Dabiq was fought in 1516 and Ridaniya on 22 January 1517; Tuman Bay II was captured and executed in April 1517.",
-        "es": "Marj Dabiq se libró en 1516 y Ridaniya el 22 de enero de 1517; Tuman Bay II fue capturado y ejecutado en abril de 1517.",
-        "zh": "马尔吉·达比克之战发生在1516年，里达尼耶之战在1517年1月22日；图曼贝二世于1517年4月被俘处死。"
+        "en": "Marj Dabiq was fought on 24 August 1516 and Ridaniya on 22 January 1517 (23 January in some accounts); Tuman Bay II was executed in April 1517.",
+        "es": "Marj Dabiq se libró el 24 de agosto de 1516 y Ridaniya el 22 de enero de 1517 (el 23 en algunos relatos); Tuman Bay II fue ejecutado en abril de 1517.",
+        "zh": "马尔吉·达比克之战发生在1516年8月24日，里达尼耶之战在1517年1月22日（有些记载作23日）；图曼贝二世于1517年4月被处死。"
       }
     }
   ],
@@ -305,12 +334,12 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Barquq\".",
+          "citation": "Wikipedia, \"Barquq\" (born in Circassia, enslaved, later arrived in Egypt).",
           "url": "https://en.wikipedia.org/wiki/Barquq"
         },
         {
-          "citation": "Wikipedia, \"Mamluk Sultanate\".",
-          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+          "citation": "Encyclopedia.com, \"Sultanates: Mamluk\": the Mamluks were recruited military slaves; most sultans after 1382 were ethnic Circassians.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sultanates-mamluk"
         }
       ],
       "disputed": false

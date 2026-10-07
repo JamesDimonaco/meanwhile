@@ -41,17 +41,21 @@
           "url": "http://n2t.net/ark:/99152/p08m57hgs5w"
         },
         {
-          "citation": "Wikipedia, \"Seljuk Empire\".",
-          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+          "citation": "Encyclopedia.com, \"Sultanates: Seljuk\": the empire of the Great Seljuks; last mainline sultan, Tughril III, died in 1194.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sultanates-seljuk"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Seljuk Turks\" (empire established in 1040).",
+          "url": "https://www.ebsco.com/research-starters/history/seljuk-turks/"
         }
       ],
       "periodoId": "p08m57hgs5w",
       "default": true,
       "disputed": false,
       "note": {
-        "en": "Tughril and Chaghri took Nishapur in 1037; the British Museum dates the dynasty from the victory at Dandanaqan in 1040. The Seljuks of Rum in Anatolia, a separate branch, lasted to 1307 and are not covered here.",
-        "es": "Tugril y Chagri tomaron Nishapur en 1037; el Museo Británico fecha la dinastía desde la victoria de Dandanqán en 1040. Los selyúcidas de Rum en Anatolia, una rama distinta, duraron hasta 1307 y no se tratan aquí.",
-        "zh": "图赫里勒和恰格里在1037年占领内沙布尔；大英博物馆则从1040年丹丹坎之战的胜利起算。安纳托利亚的罗姆塞尔柱是另一支，延续到1307年，不在此列。"
+        "en": "The Seljuks took Nishapur in 1037 or 1038, depending on the source; the British Museum dates the dynasty from the victory at Dandanaqan in 1040. The Seljuks of Rum in Anatolia, a separate branch, lasted to 1307 and are not covered here.",
+        "es": "Los selyúcidas tomaron Nishapur en 1037 o 1038, según la fuente; el Museo Británico fecha la dinastía desde la victoria de Dandanqán en 1040. Los selyúcidas de Rum en Anatolia, una rama distinta, duraron hasta 1307 y no se tratan aquí.",
+        "zh": "塞尔柱人占领内沙布尔的时间，据不同来源为1037年或1038年；大英博物馆则从1040年丹丹坎之战的胜利起算。安纳托利亚的罗姆塞尔柱是另一支，延续到1307年，不在此列。"
       }
     }
   ],
@@ -61,21 +65,21 @@
       "start": 1037,
       "type": "founding",
       "title": {
-        "en": "Tughril and his brother Chaghri take Nishapur, and Tughril is proclaimed sultan",
-        "es": "Tugril y su hermano Chagri toman Nishapur, y Tugril es proclamado sultán",
-        "zh": "图赫里勒与其兄弟恰格里占领内沙布尔，图赫里勒被拥立为苏丹"
+        "en": "Tughril and his brother Chaghri take Nishapur from the Ghaznavids",
+        "es": "Tugril y su hermano Chagri toman Nishapur a los gaznávidas",
+        "zh": "图赫里勒与其兄弟恰格里从伽色尼人手中夺取内沙布尔"
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Tughril\".",
-          "url": "https://en.wikipedia.org/wiki/Tughril"
+          "citation": "Encyclopedia.com, \"Expansion of Islam (600–1200)\" (1037 takeover; Toghril seizes Nishapur in 1038).",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/expansion-islam-600-1200"
         },
         {
-          "citation": "Wikipedia, \"Seljuk Empire\".",
-          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+          "citation": "EBSCO Research Starters, \"Seljuk Turks\" (Toghril and Chaghri against Mas'ud I in 1038).",
+          "url": "https://www.ebsco.com/research-starters/history/seljuk-turks/"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "place": {
         "name": {
           "en": "Nishapur",
@@ -84,6 +88,11 @@
         },
         "lat": 36.2133,
         "lon": 58.796
+      },
+      "note": {
+        "en": "Encyclopedia.com's survey dates the Seljuk takeover of Nishapur, Merv and Herat to 1037 and Tughril's seizure of Nishapur itself to 1038; EBSCO gives 1038.",
+        "es": "El repaso de Encyclopedia.com fecha en 1037 la toma selyúcida de Nishapur, Merv y Herat y en 1038 la toma de la propia Nishapur por Tugril; EBSCO da 1038.",
+        "zh": "Encyclopedia.com 的概述把塞尔柱人夺取内沙布尔、木鹿和赫拉特定在1037年，把图赫里勒攻占内沙布尔城本身定在1038年；EBSCO 作1038年。"
       }
     },
     {
@@ -97,12 +106,16 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Battle of Dandanaqan\".",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_Dandanaqan"
+          "citation": "EBSCO Research Starters, \"Seljuk Turks\": decisive Seljuk victory at Dandanqan near Merv on 24 May 1040.",
+          "url": "https://www.ebsco.com/research-starters/history/seljuk-turks/"
         },
         {
-          "citation": "Wikipedia, \"Tughril\".",
-          "url": "https://en.wikipedia.org/wiki/Tughril"
+          "citation": "Encyclopedia.com, \"Central Asia, Islam in\": the Ghaznavid presence in Khurasan crushed at Dandanqan in 1040.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/central-asia-islam"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Expansion of Islam (600–1200)\" (Ghaznavid Persian lands lost after Dandanqan).",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/expansion-islam-600-1200"
         }
       ],
       "disputed": false
@@ -112,18 +125,22 @@
       "start": 1055,
       "type": "ruler",
       "title": {
-        "en": "Tughril enters Baghdad at the caliph's invitation and ends Buyid rule there, with the caliph kept as head of state in name",
-        "es": "Tugril entra en Bagdad por invitación del califa y pone fin al dominio buyí, manteniendo al califa como jefe nominal",
-        "zh": "图赫里勒应哈里发之邀进入巴格达，终结白益王朝在当地的统治，哈里发仅保留名义上的元首地位"
+        "en": "Tughril enters Baghdad and ends Buyid rule there, with the caliph kept as head of state in name",
+        "es": "Tugril entra en Bagdad y pone fin al dominio buyí, manteniendo al califa como jefe nominal",
+        "zh": "图赫里勒进入巴格达，终结白益王朝在当地的统治，哈里发仅保留名义上的元首地位"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Abbasid Caliphate\".",
-          "url": "https://www.worldhistory.org/Abbasid_Caliphate/"
+          "citation": "World History Encyclopedia, \"Abbasid Dynasty\" (timeline: Seljuks oust the Buyids and take Baghdad in 1055).",
+          "url": "https://www.worldhistory.org/Abbasid_Dynasty/"
         },
         {
-          "citation": "Wikipedia, \"Buyid dynasty\".",
-          "url": "https://en.wikipedia.org/wiki/Buyid_dynasty"
+          "citation": "U.S. Library of Congress Country Studies, \"Iraq: The Abbasid Caliphate, 750-1258\" (the Buwayhids ousted in 1055; the caliph gives Tughril robes and a title).",
+          "url": "https://countrystudies.us/iraq/16.htm"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Seljuk Turks\": Toghril led his army into Baghdad and seized power from the Buyids in 1055.",
+          "url": "https://www.ebsco.com/research-starters/history/seljuk-turks/"
         }
       ],
       "disputed": false,
@@ -148,19 +165,23 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Battle of Manzikert\".",
-          "url": "https://www.worldhistory.org/Battle_of_Manzikert/"
+          "citation": "World History Encyclopedia, \"Romanos IV Diogenes\" (defeat at Manzikert in 1071, then civil war in Byzantium).",
+          "url": "https://www.worldhistory.org/Romanos_IV_Diogenes/"
         },
         {
-          "citation": "Wikipedia, \"Battle of Manzikert\".",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_Manzikert"
+          "citation": "EBSCO Research Starters, \"Alp Arslan\": victory at Manzikert in 1071 and capture of the emperor.",
+          "url": "https://www.ebsco.com/research-starters/biography/alp-arslan/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Sultanates: Seljuk\" (Alp Arslan captured the emperor and opened Anatolia to Turkish migration).",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sultanates-seljuk"
         }
       ],
       "disputed": false,
       "note": {
-        "en": "Historians disagree on how decisive the battle was. Byzantine civil war after it did much of the damage, and Turkish settlement of Anatolia was gradual.",
-        "es": "Los historiadores discrepan sobre cuán decisiva fue la batalla. La guerra civil bizantina posterior causó gran parte del daño, y el asentamiento turco en Anatolia fue gradual.",
-        "zh": "史学家对这场战役的决定性程度看法不一。此后拜占庭内战造成了大部分损害，突厥人在安纳托利亚的定居也是逐步进行的。"
+        "en": "Historians disagree on how decisive the battle was. The World History Encyclopedia notes that most of the Byzantine army survived and that the Byzantine civil war after it did much of the damage; Turkish settlement of Anatolia was gradual.",
+        "es": "Los historiadores discrepan sobre cuán decisiva fue la batalla. La World History Encyclopedia señala que la mayor parte del ejército bizantino sobrevivió y que la guerra civil bizantina posterior causó gran parte del daño; el asentamiento turco en Anatolia fue gradual.",
+        "zh": "史学家对这场战役的决定性程度看法不一。世界历史百科指出，拜占庭军队大部分得以幸存，此后的拜占庭内战造成了大部分损害；突厥人在安纳托利亚的定居也是逐步进行的。"
       }
     },
     {
@@ -174,19 +195,23 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Jalali calendar\".",
-          "url": "https://en.wikipedia.org/wiki/Jalali_calendar"
+          "citation": "Encyclopedia.com, \"Omar Khayyam\": invited by Malik-Shah in 1074 to a group of eight scholars reforming the calendar; the result was the Jalali solar calendar.",
+          "url": "https://www.encyclopedia.com/people/literature-and-arts/asian-literature-biographies/omar-khayyam"
         },
         {
-          "citation": "Wikipedia, \"Seljuk Empire\" (Malik-Shah section).",
-          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+          "citation": "World History Encyclopedia, \"Omar Khayyam\": Khayyam went to the new Isfahan observatory in 1074 and helped perfect the Jalali calendar.",
+          "url": "https://www.worldhistory.org/Omar_Khayyam/"
+        },
+        {
+          "citation": "Wikipedia, \"Jalali calendar\" (adoption on 15 March 1079).",
+          "url": "https://en.wikipedia.org/wiki/Jalali_calendar"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Wikipedia gives 15 March 1079 for adoption, with work starting around 1073. Other sources date the reform slightly differently.",
-        "es": "Wikipedia da el 15 de marzo de 1079 para la adopción, con el trabajo iniciado hacia 1073. Otras fuentes fechan la reforma de forma algo distinta.",
-        "zh": "维基百科给出的采用日期为1079年3月15日，编制工作约始于1073年。其他来源对这次改历的年份略有出入。"
+        "en": "Work on the calendar began around 1074. Wikipedia gives 15 March 1079 for its adoption; other sources date the reform slightly differently.",
+        "es": "El trabajo sobre el calendario comenzó hacia 1074. Wikipedia da el 15 de marzo de 1079 para su adopción; otras fuentes fechan la reforma de forma algo distinta.",
+        "zh": "编历工作约始于1074年。维基百科给出的采用日期为1079年3月15日；其他来源对这次改历的年份略有出入。"
       }
     },
     {
@@ -200,12 +225,16 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Malik-Shah I\".",
-          "url": "https://en.wikipedia.org/wiki/Malik-Shah_I"
+          "citation": "EBSCO Research Starters, \"Nizam al-Mulk\": stabbed to death near Nahavand on 14 October 1092.",
+          "url": "https://www.ebsco.com/research-starters/biography/nizam-al-mulk"
         },
         {
-          "citation": "Wikipedia, \"Seljuk Empire\".",
-          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+          "citation": "Encyclopedia.com, \"Sultanates: Seljuk\": Malik-Shah's rule ended in 1092; his sons fought among themselves.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sultanates-seljuk"
+        },
+        {
+          "citation": "Wikipedia, \"Malik-Shah I\" (death in November 1092).",
+          "url": "https://en.wikipedia.org/wiki/Malik-Shah_I"
         }
       ],
       "disputed": false
@@ -221,12 +250,12 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Battle of Qatwan\".",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_Qatwan"
+          "citation": "Encyclopedia.com, \"Central Asia, Islam in\": Sanjar defeated by the Qarakhitays on the Qatvan steppe near Samarkand in 1141, the final blow to Seljuk power in the east.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/central-asia-islam"
         },
         {
-          "citation": "Wikipedia, \"Seljuk Empire\".",
-          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+          "citation": "EBSCO Research Starters, \"Karakitai Empire\": the Battle of Qatwan near Samarqand, 1141.",
+          "url": "https://www.ebsco.com/research-starters/history/karakitai-empire/"
         }
       ],
       "disputed": false
@@ -242,31 +271,44 @@
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Toghrul III\".",
+          "citation": "Encyclopedia.com, \"Sultanates: Seljuk\": Tughril III, the last mainline Seljuk sultan, died in 1194.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sultanates-seljuk"
+        },
+        {
+          "citation": "Wikipedia, \"Toghrul III\" (killed in battle near Rayy by the Khwarazm Shah Tekish).",
           "url": "https://en.wikipedia.org/wiki/Toghrul_III"
         },
         {
-          "citation": "Wikipedia, \"Seljuk Empire\".",
-          "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+          "citation": "Blue Domes, \"The Great Seljuks, rulers of the East and West (part II)\": Tekish defeated Tughril III, who was killed in battle in 1194.",
+          "url": "https://bluedomes.net/2021/01/12/the-great-seljuks-rulers-of-the-east-and-west-part-ii/"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "note": {
+        "en": "The sultan fell on 19 March 1194. Wikipedia names Qutlugh Inanj, an Ildeguzid commander fighting on Tekish's side, as the man who beheaded him; Blue Domes likewise says an Ildeguzid killed him.",
+        "es": "El sultán cayó el 19 de marzo de 1194. Wikipedia nombra a Qutlugh Inanj, un comandante ildeguzí que luchaba del lado de Tekish, como quien lo decapitó; Blue Domes dice igualmente que lo mató un ildeguzí.",
+        "zh": "苏丹于1194年3月19日阵亡。维基百科称砍下他首级的是站在铁勒克一方作战的伊尔德古兹系将领库特卢格·伊南奇；Blue Domes 同样说是一名伊尔德古兹系人物杀死了他。"
+      }
     }
   ],
   "facts": [
     {
       "id": "romanos-released",
       "start": 1071,
-      "end": 1071,
+      "end": 1072,
       "text": {
-        "en": "After Manzikert, Alp Arslan held the captured Byzantine emperor for about a week, then released him in return for a ransom and territory.",
-        "es": "Tras Manzikert, Alp Arslan retuvo al emperador bizantino capturado durante una semana y lo liberó a cambio de un rescate y territorios.",
-        "zh": "曼齐刻特之战后，阿尔普·阿尔斯兰扣押被俘的拜占庭皇帝约一周，然后收下赎金并获得领土后将其释放。"
+        "en": "After Manzikert, Alp Arslan treated the captured emperor Romanos IV with honour and let him go. Back in Byzantium, rivals deposed and blinded him.",
+        "es": "Tras Manzikert, Alp Arslan trató con honores al emperador capturado, Romano IV, y lo dejó marchar. De vuelta en Bizancio, sus rivales lo depusieron y lo cegaron.",
+        "zh": "曼齐刻特之战后，阿尔普·阿尔斯兰礼遇被俘的皇帝罗曼努斯四世并放他离去。回到拜占庭后，政敌废黜并弄瞎了他。"
       },
       "sources": [
         {
-          "citation": "Wikipedia, \"Battle of Manzikert\".",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_Manzikert"
+          "citation": "EBSCO Research Starters, \"Alp Arslan\": the captive treated honourably and released; the arrangements voided by his deposition and blinding.",
+          "url": "https://www.ebsco.com/research-starters/biography/alp-arslan/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Romanos IV Diogenes\" (released after a treaty; deposed by the Doukas family and blinded).",
+          "url": "https://www.worldhistory.org/Romanos_IV_Diogenes/"
         }
       ],
       "disputed": false

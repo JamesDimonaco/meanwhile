@@ -46,6 +46,10 @@
         {
           "citation": "Wikidata, \"Timurid Empire\" (Q484195): start 1370, end 1507.",
           "url": "https://www.wikidata.org/wiki/Q484195"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Timurid Dynasty\": the Shaybani Uzbeks brought the Timurid Empire to a close in 1507.",
+          "url": "https://www.ebsco.com/research-starters/history/timurid-dynasty/"
         }
       ],
       "periodoId": "p08m57hvfzk",
@@ -65,12 +69,16 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Timur\".",
+          "citation": "World History Encyclopedia, \"Timur\": founder of the Timurid Empire (1370-1507), with its capital at Samarkand.",
           "url": "https://www.worldhistory.org/Timur/"
         },
         {
-          "citation": "British Museum collection thesaurus, \"Timurid dynasty\", via PeriodO.",
-          "url": "http://n2t.net/ark:/99152/p08m57hvfzk"
+          "citation": "EBSCO Research Starters, \"Tamerlane\": at Balkh in 1370 he took the throne of Central Asia; Samarqand his capital.",
+          "url": "https://www.ebsco.com/research-starters/biography/tamerlane/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Timur\": Husayn captured and executed at Balkh in 1370; Tamerlane builds up Samarkand.",
+          "url": "https://www.encyclopedia.com/people/history/central-asian-history-biographies/timur"
         }
       ],
       "disputed": false,
@@ -95,12 +103,16 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Tughlaq Dynasty\".",
+          "citation": "World History Encyclopedia, \"Timur\": invaded the Delhi Sultanate in the winter of 1398-99 and sacked Delhi.",
+          "url": "https://www.worldhistory.org/Timur/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Tughlaq Dynasty\": the sack of Delhi by Timur in 1398 was the dynasty's last blow.",
           "url": "https://www.worldhistory.org/Tughlaq_Dynasty/"
         },
         {
-          "citation": "World History Encyclopedia, \"Timur\".",
-          "url": "https://www.worldhistory.org/Timur/"
+          "citation": "Encyclopedia.com, \"Timur\": burned and looted Delhi in 1398.",
+          "url": "https://www.encyclopedia.com/people/history/central-asian-history-biographies/timur"
         }
       ],
       "disputed": false,
@@ -125,12 +137,16 @@
       },
       "sources": [
         {
-          "citation": "Library of Congress Country Studies, \"Iraq: The Mongol Invasion\".",
+          "citation": "U.S. Library of Congress Country Studies, \"Iraq: The Mongol Invasion\": in 1401 Tamerlane sacked Baghdad and massacred many of its inhabitants.",
           "url": "https://countrystudies.us/iraq/17.htm"
         },
         {
-          "citation": "World History Encyclopedia, \"Timur\".",
+          "citation": "World History Encyclopedia, \"Timur\": Baghdad sacked in 1401.",
           "url": "https://www.worldhistory.org/Timur/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Tamerlane\": campaigns into Baghdad and Damascus in 1401.",
+          "url": "https://www.ebsco.com/research-starters/biography/tamerlane/"
         }
       ],
       "disputed": false,
@@ -150,17 +166,17 @@
       "type": "conflict",
       "title": {
         "en": "Timur defeats the Ottoman sultan Bayezid I at Ankara and takes him prisoner",
-        "es": "Timur derrota al sultán otomano Bayaceto I en Ankara y lo toma prisionero",
+        "es": "Timur derrota al sultán otomano Bayezid I en Ankara y lo toma prisionero",
         "zh": "帖木儿在安卡拉击败奥斯曼苏丹巴耶济德一世并将其俘虏"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Ottoman Empire\".",
-          "url": "https://www.worldhistory.org/Ottoman_Empire/"
+          "citation": "World History Encyclopedia, \"Timur\": the Battle of Ankara, 28 July 1402, a victory for Timur over Bayezid I.",
+          "url": "https://www.worldhistory.org/Timur/"
         },
         {
-          "citation": "World History Encyclopedia, \"Timur\".",
-          "url": "https://www.worldhistory.org/Timur/"
+          "citation": "EBSCO Research Starters, \"Battle of Ankara\": Bayezid captured after his breakout failed.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/battle-ankara/"
         }
       ],
       "disputed": false
@@ -176,12 +192,16 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Timur\".",
+          "citation": "World History Encyclopedia, \"Timur\": died at Otrar on 19 February 1405 on his way to attack Ming China.",
           "url": "https://www.worldhistory.org/Timur/"
         },
         {
-          "citation": "World History Encyclopedia, \"Mongol Empire\".",
-          "url": "https://www.worldhistory.org/Mongol_Empire/"
+          "citation": "Encyclopedia.com, \"Timur\": fell ill and died in February 1405 on the way to conquer China.",
+          "url": "https://www.encyclopedia.com/people/history/central-asian-history-biographies/timur"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Empires: Timurid\": the empire devolved into disunited dynasties after his death.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/empires-timurid"
         }
       ],
       "disputed": false,
@@ -197,7 +217,7 @@
     },
     {
       "id": "ulugh-beg-observatory",
-      "start": 1420,
+      "start": 1424,
       "end": 1429,
       "type": "invention",
       "title": {
@@ -207,19 +227,19 @@
       },
       "sources": [
         {
-          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History, \"Central and North Asia, 1400–1600 A.D.\"",
-          "url": "https://www.metmuseum.org/toah/ht/08/nc.html"
+          "citation": "Luminet, Jean-Pierre (2018). \"Ulugh Beg, Prince of Stars\". arXiv:1804.08352: observatory started in 1424 and inaugurated in 1429.",
+          "url": "https://arxiv.org/abs/1804.08352"
         },
         {
-          "citation": "Luminet, Jean-Pierre (2018). \"Ulugh Beg, Prince of Stars\". arXiv:1804.08352.",
-          "url": "https://arxiv.org/abs/1804.08352"
+          "citation": "Encyclopedia.com, \"Ulugh-beg\": observatory raised four years after the 1420 madrasa; star catalogue of 1,018 stars.",
+          "url": "https://www.encyclopedia.com/people/science-and-technology/astronomy-biographies/ulugh-beg"
         }
       ],
-      "disputed": true,
+      "disputed": false,
       "note": {
-        "en": "The Met dates the building to about 1420. Luminet describes the observatory as inaugurated by 1429.",
-        "es": "El Met fecha la construcción hacia 1420. Luminet describe el observatorio como inaugurado en 1429.",
-        "zh": "大都会博物馆把建造时间定在约1420年。吕米奈（Luminet）称天文台于1429年落成。"
+        "en": "Luminet dates the start of work to 1424 and the inauguration to 1429. Encyclopedia.com has Ulugh Beg found his madrasa in 1420 and build the observatory four years later. His star catalogue lists 1,018 stars.",
+        "es": "Luminet fecha el comienzo de las obras en 1424 y la inauguración en 1429. Encyclopedia.com cuenta que Ulugh Beg fundó su madrasa en 1420 y construyó el observatorio cuatro años después. Su catálogo estelar recoge 1018 estrellas.",
+        "zh": "吕米奈（Luminet）把动工定在1424年，落成启用定在1429年。Encyclopedia.com 称兀鲁伯1420年创办经学院，四年后建起天文台。他的星表载有1018颗恒星。"
       },
       "place": {
         "name": {
@@ -242,12 +262,12 @@
       },
       "sources": [
         {
-          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History, \"Central and North Asia, 1400–1600 A.D.\"",
-          "url": "https://www.metmuseum.org/toah/ht/08/nc.html"
+          "citation": "Encyclopedia.com, \"Central Asia, Islam in\": Shibani Khan seized the Timurid capital Herat in 1507.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/central-asia-islam"
         },
         {
-          "citation": "Metropolitan Museum of Art, \"Portrait of Muhammad Khan Shaibani, the Uzbek (d. 1510)\".",
-          "url": "https://www.metmuseum.org/art/collection/search/451408"
+          "citation": "EBSCO Research Starters, \"Timurid Dynasty\": Herat capitulated on 27 May 1507 after a three-day defence.",
+          "url": "https://www.ebsco.com/research-starters/history/timurid-dynasty/"
         }
       ],
       "disputed": false,
@@ -274,8 +294,16 @@
       },
       "sources": [
         {
-          "citation": "British Museum collection thesaurus, \"Timurid dynasty\", via PeriodO.",
-          "url": "http://n2t.net/ark:/99152/p08m57hvfzk"
+          "citation": "Encyclopedia.com, \"Timur\": by marrying a daughter of a former Chagatai khan he claimed a link to Genghis; he used the title Kurgan, \"son-in-law\" of the khan.",
+          "url": "https://www.encyclopedia.com/people/history/central-asian-history-biographies/timur"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Empires: Timurid\": associated with the khans only by marriage, as a guregen, or imperial son-in-law.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/empires-timurid"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Tamerlane\": the royal marriage added the honorific gurakan, son-in-law of the ruler's family.",
+          "url": "https://www.ebsco.com/research-starters/biography/tamerlane/"
         }
       ],
       "disputed": false
