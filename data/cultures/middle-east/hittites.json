@@ -189,7 +189,12 @@
           "url": "https://en.wikipedia.org/wiki/Hittites"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "The sources date his reign (c. 1344–1322 BCE) but not the year of each campaign, so the bar covers the whole reign.",
+        "es": "Las fuentes datan su reinado (c. 1344–1322 a. e. c.) pero no el año de cada campaña, por lo que la barra abarca todo el reinado.",
+        "zh": "资料给出了他的在位年份（约公元前1344至1322年），但没有给出每次战役的具体年份，因此时间条涵盖其整个统治时期。"
+      }
     },
     {
       "id": "kadesh",
@@ -202,8 +207,8 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Battle of Kadesh\".",
-          "url": "https://www.worldhistory.org/Battle_of_Kadesh/"
+          "citation": "World History Encyclopedia, \"The Battle of Kadesh & the First Peace Treaty\" (battle in 1274 BCE; Ramesses II claimed a great victory, and Muwatalli II's account differed).",
+          "url": "https://www.worldhistory.org/article/78/the-battle-of-kadesh--the-first-peace-treaty/"
         },
         {
           "citation": "Wikipedia, \"Battle of Kadesh\".",
@@ -236,11 +241,11 @@
           "url": "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty"
         },
         {
-          "citation": "World History Encyclopedia, \"Treaty of Kadesh\".",
-          "url": "https://www.worldhistory.org/Treaty_of_Kadesh/"
+          "citation": "World History Encyclopedia, \"The Battle of Kadesh & the First Peace Treaty\" (treaty dated 1258 BCE).",
+          "url": "https://www.worldhistory.org/article/78/the-battle-of-kadesh--the-first-peace-treaty/"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "note": {
         "en": "Sources date the treaty to 1259 BCE (year 21 of Ramesses II) or 1258 BCE.",
         "es": "Las fuentes datan el tratado en 1259 a. e. c. (año 21 de Ramsés II) o en 1258 a. e. c.",
@@ -263,7 +268,7 @@
           "url": "https://en.wikipedia.org/wiki/Hattusa"
         },
         {
-          "citation": "World History Encyclopedia, \"Hittites\" (the empire fell about 1200 BCE).",
+          "citation": "World History Encyclopedia, \"Hittites\" (the New Kingdom or empire is dated 1400–1200 BCE; repeated attacks by the Sea Peoples and the Kaska preceded its fall).",
           "url": "https://www.worldhistory.org/Hittites/"
         }
       ],
@@ -288,16 +293,20 @@
     {
       "id": "tablet-archives",
       "text": {
-        "en": "Excavators have recovered about 30,000 clay tablets from the royal archives at Hattusa.",
-        "es": "Los excavadores han recuperado unas 30 000 tablillas de arcilla de los archivos reales de Hattusa.",
-        "zh": "发掘者已从哈图沙的王室档案中取出约三万块泥板。"
+        "en": "Excavators have recovered about 25,000 clay tablets from the royal archives at Hattusa.",
+        "es": "Los excavadores han recuperado unas 25 000 tablillas de arcilla de los archivos reales de Hattusa.",
+        "zh": "发掘者已从哈图沙的王室档案中取出约两万五千块泥板。"
       },
       "start": -1649,
       "end": -1199,
       "sources": [
         {
-          "citation": "Wikipedia, \"Hattusa\".",
-          "url": "https://en.wikipedia.org/wiki/Hattusa"
+          "citation": "Wikipedia, \"Boğazköy Archive\" (the archive contains approximately 25,000 tablets).",
+          "url": "https://en.wikipedia.org/wiki/Bogazk%C3%B6y_Archive"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Hittites\" (Winckler had recovered 10,000 tablets from the royal archives by 1912, with excavation continuing since).",
+          "url": "https://www.worldhistory.org/Hittites/"
         }
       ],
       "disputed": false
@@ -313,8 +322,12 @@
       "end": -1199,
       "sources": [
         {
-          "citation": "Wikipedia, \"Hittites\".",
+          "citation": "Wikipedia, \"Hittites\" (the oldest historically attested Indo-European language; Hrozný announced his decipherment on 24 November 1915).",
           "url": "https://en.wikipedia.org/wiki/Hittites"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Hittites\" (Hrozný's work showed the language was Indo-European).",
+          "url": "https://www.worldhistory.org/Hittites/"
         }
       ],
       "disputed": false

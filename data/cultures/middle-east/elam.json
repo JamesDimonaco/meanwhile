@@ -40,7 +40,7 @@
       "id": "elam-period",
       "earliestStart": -3199,
       "latestStart": -2999,
-      "earliestEnd": -645,
+      "earliestEnd": -646,
       "latestEnd": -538,
       "sources": [
         {
@@ -60,9 +60,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The bar follows the British Museum's span for Elamite culture (about 3000 to 539 BCE). The fade at the end separates the Assyrian sack of Susa (about 647 BCE), after which Elam had no independent kings, from its absorption into Cyrus's Persian empire in 539 BCE. Dates before about 1500 BCE follow the middle chronology.",
-        "es": "La barra sigue el marco del Museo Británico para la cultura elamita (de hacia 3000 a 539 a. e. c.). El degradado final separa el saqueo asirio de Susa (hacia 647 a. e. c.), tras el cual Elam no tuvo reyes independientes, de su absorción en el imperio persa de Ciro en 539 a. e. c. Las fechas anteriores a 1500 a. e. c. aproximadamente siguen la cronología media.",
-        "zh": "时间条依据大英博物馆对埃兰文化的断代（约公元前3000年至539年）。末端的渐变部分区分两件事：亚述洗劫苏萨（约公元前647年）之后埃兰再无独立国王，而它并入居鲁士的波斯帝国是在公元前539年。公元前1500年以前的年代大多依据中年表。"
+        "en": "The bar follows the British Museum's span for Elamite culture (about 3000 to 539 BCE). The fade at the end separates the Assyrian sack of Susa (about 647 BCE), which broke Elamite power although Elamite cities and culture continued, from its absorption into Cyrus's Persian empire in 539 BCE. Dates before about 1500 BCE follow the middle chronology.",
+        "es": "La barra sigue el marco del Museo Británico para la cultura elamita (de hacia 3000 a 539 a. e. c.). El degradado final separa el saqueo asirio de Susa (hacia 647 a. e. c.), que quebró el poder elamita aunque las ciudades y la cultura elamitas continuaron, de su absorción en el imperio persa de Ciro en 539 a. e. c. Las fechas anteriores a 1500 a. e. c. aproximadamente siguen la cronología media.",
+        "zh": "时间条依据大英博物馆对埃兰文化的断代（约公元前3000年至539年）。末端的渐变部分区分两件事：亚述洗劫苏萨（约公元前647年）打垮了埃兰的势力（但埃兰的城市和文化仍在延续），而它并入居鲁士的波斯帝国是在公元前539年。公元前1500年以前的年代大多依据中年表。"
       }
     }
   ],
@@ -108,13 +108,13 @@
       "start": -2299,
       "type": "conflict",
       "title": {
-        "en": "Sargon of Akkad attacks Elam and Awan, making Elam a vassal of Akkad",
-        "es": "Sargón de Acad ataca Elam y Awan, y convierte a Elam en vasallo de Acad",
-        "zh": "阿卡德的萨尔贡进攻埃兰和阿万，使埃兰成为阿卡德的附庸"
+        "en": "Sargon of Akkad conquers Awan and takes Susa, bringing Elam under Akkadian rule",
+        "es": "Sargón de Acad conquista Awan y toma Susa, con lo que Elam pasa a dominio acadio",
+        "zh": "阿卡德的萨尔贡攻占阿万和苏萨，埃兰归于阿卡德统治"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia. \"Elam.\" (Sargon of Akkad conquered Awan around 2300 BCE).",
+          "citation": "World History Encyclopedia. \"Elam.\" (Sargon of Akkad conquered Awan under its king Luh-Ishan, around 2300 BCE, and took Susa).",
           "url": "https://www.worldhistory.org/Elam/"
         },
         {
@@ -239,13 +239,13 @@
       "start": -646,
       "type": "collapse",
       "title": {
-        "en": "Ashurbanipal of Assyria sacks Susa and ends Elam as an independent kingdom",
-        "es": "Asurbanipal de Asiria saquea Susa y pone fin a Elam como reino independiente",
-        "zh": "亚述的亚述巴尼拔洗劫苏萨，埃兰作为独立王国就此终结"
+        "en": "Ashurbanipal of Assyria sacks Susa, the Elamite capital, ending the long wars between Assyria and Elam",
+        "es": "Asurbanipal de Asiria saquea Susa, la capital elamita, y pone fin a las largas guerras entre Asiria y Elam",
+        "zh": "亚述的亚述巴尼拔洗劫埃兰都城苏萨，亚述与埃兰之间的长期战争就此结束"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia. \"Elam.\" (Ashurbanipal destroyed Susa around 646 BCE; Elam absorbed into the Persian empire c. 539 BCE).",
+          "citation": "World History Encyclopedia. \"Elam.\" (Ashurbanipal's inscription claims he destroyed the cities of Elam c. 647–646 BCE, though Elamite cities and culture continued afterwards; Elam stayed part of the Persian empire after 539 BCE).",
           "url": "https://www.worldhistory.org/Elam/"
         },
         {

@@ -98,8 +98,8 @@
           "url": "http://n2t.net/ark:/99152/p08m57hbdv4"
         },
         {
-          "citation": "World History Encyclopedia. \"Kassites.\"",
-          "url": "https://www.worldhistory.org/Kassites/"
+          "citation": "World History Encyclopedia. \"Kassite.\" (Kassites held power in Babylon from 1595 to 1155 BCE).",
+          "url": "https://www.worldhistory.org/Kassite/"
         }
       ]
     },
@@ -114,8 +114,8 @@
       "end": -625,
       "sources": [
         {
-          "citation": "British Museum collection thesaurus, \"Middle Babylonian\" (1600 BC – 1000 BC), via PeriodO.",
-          "url": "http://n2t.net/ark:/99152/p08m57hjzt9"
+          "citation": "World History Encyclopedia. \"Babylon.\" (the city passed to the Neo-Assyrian Empire before Nabopolassar founded the Neo-Babylonian Empire in 626 BCE).",
+          "url": "https://www.worldhistory.org/Babylon/"
         },
         {
           "citation": "Wikipedia. \"Babylonia.\" (Babylonia after the Kassites: later dynasties, Chaldean tribes and Assyrian overlordship).",
@@ -160,15 +160,15 @@
           "url": "https://en.wikipedia.org/wiki/Hammurabi"
         },
         {
-          "citation": "World History Encyclopedia. \"Hammurabi.\" (Larsa taken around 1755 BCE).",
+          "citation": "World History Encyclopedia. \"Hammurabi.\" (Hammurabi took Uruk and Isin in 1787 BCE and ruled all Mesopotamia from Babylon by 1755 BCE; no year given for Larsa).",
           "url": "https://www.worldhistory.org/Hammurabi/"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources give 1763 BCE and about 1755 BCE for the fall of Larsa. The year shown is 1763 BCE.",
-        "es": "Las fuentes dan 1763 y hacia 1755 a. e. c. para la caída de Larsa. El año indicado es 1763 a. e. c.",
-        "zh": "各资料给出拉尔萨陷落的年份为公元前1763年和约公元前1755年。这里采用公元前1763年。"
+        "en": "Wikipedia's Hammurabi article gives 1763 BCE for the fall of Larsa, though one passage says 1764. World History Encyclopedia names no year for Larsa and dates his rule over all Mesopotamia to 1755 BCE. The year shown is 1763 BCE.",
+        "es": "El artículo de Wikipedia sobre Hammurabi da 1763 a. e. c. para la caída de Larsa, aunque un pasaje dice 1764. La World History Encyclopedia no da año para Larsa y fecha su dominio sobre toda Mesopotamia en 1755 a. e. c. El año indicado es 1763 a. e. c.",
+        "zh": "维基百科的汉谟拉比条目给出拉尔萨陷落于公元前1763年，但其中一处写作公元前1764年。世界历史百科没有给出拉尔萨的年份，只把他统治整个美索不达米亚定在公元前1755年。这里采用公元前1763年。"
       },
       "place": {
         "name": {
@@ -196,8 +196,8 @@
           "url": "https://collections.louvre.fr/en/ark:/53355/cl010174436"
         },
         {
-          "citation": "World History Encyclopedia. \"Hammurabi.\" (282 laws).",
-          "url": "https://www.worldhistory.org/Hammurabi/"
+          "citation": "World History Encyclopedia. \"Code of Hammurabi.\" (282 laws inscribed in stone; found at Susa in 1901).",
+          "url": "https://www.worldhistory.org/Code_of_Hammurabi/"
         }
       ],
       "disputed": true,
@@ -218,8 +218,8 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia. \"Kassites.\" (Kassite leaders rise after the Hittite destruction of Babylon in 1595 BCE).",
-          "url": "https://www.worldhistory.org/Kassites/"
+          "citation": "World History Encyclopedia. \"Babylon.\" (the city was sacked by the Hittites in 1595 BCE, then taken by the Kassites).",
+          "url": "https://www.worldhistory.org/Babylon/"
         },
         {
           "citation": "Wikipedia. \"Babylonia.\" (Hittite attack under Mursili I; 1595 BCE in the middle chronology).",
@@ -258,8 +258,8 @@
           "url": "https://en.wikipedia.org/wiki/Middle_Babylonian_period"
         },
         {
-          "citation": "Wikipedia. \"Amarna letters.\" (letters from Kadashman-Enlil I anchor Akhenaten's reign to the mid-14th century BCE).",
-          "url": "https://en.wikipedia.org/wiki/Amarna_letters"
+          "citation": "World History Encyclopedia. \"Kassite.\" (the Amarna letters include correspondence from the Kassite kings of Babylon to the pharaohs of the mid-14th century BCE).",
+          "url": "https://www.worldhistory.org/Kassite/"
         }
       ],
       "disputed": false
@@ -369,14 +369,14 @@
       "start": -538,
       "type": "collapse",
       "title": {
-        "en": "Persian forces under Cyrus enter Babylon and end the last native dynasty of Mesopotamia",
-        "es": "Las fuerzas persas de Ciro entran en Babilonia y ponen fin a la última dinastía nativa de Mesopotamia",
-        "zh": "居鲁士率领的波斯军队进入巴比伦，美索不达米亚最后一个本土王朝终结"
+        "en": "Persian forces under Cyrus enter Babylon, ending the Neo-Babylonian Empire",
+        "es": "Las fuerzas persas de Ciro entran en Babilonia y ponen fin al Imperio neobabilónico",
+        "zh": "居鲁士率领的波斯军队进入巴比伦，新巴比伦帝国灭亡"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia. \"Cyrus Cylinder.\" (Cyrus conquers Babylon in 539 BCE; cylinder found at Babylon in 1879).",
-          "url": "https://www.worldhistory.org/Cyrus_Cylinder/"
+          "citation": "World History Encyclopedia. \"Babylon.\" (in 539 BCE the Neo-Babylonian Empire fell to the Persians under Cyrus the Great).",
+          "url": "https://www.worldhistory.org/Babylon/"
         },
         {
           "citation": "Wikipedia. \"Fall of Babylon.\" (Persian forces entered the city on 12 October 539 BCE).",

@@ -58,8 +58,8 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "No source fixes a start or an end for Sumer. The solid bar runs from the British Museum's Early Dynastic start (about 3000 BCE) to the fall of the Third Dynasty of Ur (2004 BCE). The fade covers the first Uruk cities and the last southern kingdoms, Isin and Larsa, which Babylon took in 1763 BCE. All dates before about 1500 BCE follow the middle chronology and could shift by decades.",
-        "es": "Ninguna fuente fija un inicio ni un final para Sumer. La barra sólida va del inicio del Dinástico Arcaico según el Museo Británico (hacia 3000 a. e. c.) a la caída de la Tercera Dinastía de Ur (2004 a. e. c.). El degradado cubre las primeras ciudades de Uruk y los últimos reinos del sur, Isin y Larsa, que Babilonia tomó en 1763 a. e. c. Todas las fechas anteriores a 1500 a. e. c. aproximadamente siguen la cronología media y podrían variar décadas.",
+        "en": "No source fixes a start or an end for Sumer. The solid bar runs from the British Museum's Early Dynastic start (about 3000 BCE) to the fall of the Third Dynasty of Ur (2004 BCE). The fade covers the first Uruk cities and the last southern kingdoms, Isin and Larsa; Babylon took Larsa in 1763 BCE. All dates before about 1500 BCE follow the middle chronology and could shift by decades.",
+        "es": "Ninguna fuente fija un inicio ni un final para Sumer. La barra sólida va del inicio del Dinástico Arcaico según el Museo Británico (hacia 3000 a. e. c.) a la caída de la Tercera Dinastía de Ur (2004 a. e. c.). El degradado cubre las primeras ciudades de Uruk y los últimos reinos del sur, Isin y Larsa; Babilonia tomó Larsa en 1763 a. e. c. Todas las fechas anteriores a 1500 a. e. c. aproximadamente siguen la cronología media y podrían variar décadas.",
         "zh": "没有任何资料为苏美尔确定起止年份。实线从大英博物馆给出的早王朝开端（约公元前3000年）延伸到乌尔第三王朝灭亡（公元前2004年）。渐变部分涵盖最初的乌鲁克城市，以及最后的南方王国伊辛和拉尔萨（巴比伦于公元前1763年攻取后者）。公元前1500年以前的年代大多依据中年表，可能相差数十年。"
       }
     }
@@ -77,6 +77,10 @@
       },
       "sources": [
         {
+          "citation": "World History Encyclopedia. \"Cuneiform.\" (first developed by the Sumerians c. 3600/3500 BCE; developed further at Uruk c. 3200 BCE).",
+          "url": "https://www.worldhistory.org/cuneiform/"
+        },
+        {
           "citation": "Wikipedia. \"Cuneiform.\" (first unequivocal documents from the Uruk IV period, c. 3300 BCE; mostly accounting records).",
           "url": "https://en.wikipedia.org/wiki/Cuneiform"
         },
@@ -87,9 +91,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Sources place the first writing between about 3400 and 3200 BCE, depending on which Uruk tablets count as writing. The bar covers the proto-cuneiform phase to about 3000 BCE.",
-        "es": "Las fuentes sitúan la primera escritura entre 3400 y 3200 a. e. c. aproximadamente, según qué tablillas de Uruk se consideren escritura. La barra abarca la fase protocuneiforme hasta cerca de 3000 a. e. c.",
-        "zh": "各资料将最早的文字定在约公元前3400至3200年之间，取决于哪些乌鲁克泥板算作文字。时间条涵盖截至约公元前3000年的原始楔形文字阶段。"
+        "en": "Sources place the first writing between about 3500 and 3200 BCE, depending on which Uruk tablets count as writing. The bar covers the proto-cuneiform phase to about 3000 BCE.",
+        "es": "Las fuentes sitúan la primera escritura entre 3500 y 3200 a. e. c. aproximadamente, según qué tablillas de Uruk se consideren escritura. La barra abarca la fase protocuneiforme hasta cerca de 3000 a. e. c.",
+        "zh": "各资料将最早的文字定在约公元前3500至3200年之间，取决于哪些乌鲁克泥板算作文字。时间条涵盖截至约公元前3000年的原始楔形文字阶段。"
       },
       "place": {
         "name": {
@@ -104,7 +108,7 @@
     {
       "id": "royal-cemetery-of-ur",
       "start": -2599,
-      "end": -1999,
+      "end": -2499,
       "type": "founding",
       "title": {
         "en": "Ur's Royal Cemetery fills with burials rich in gold, silver and lapis lazuli",
@@ -113,15 +117,24 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia. \"Sumer.\" (royal burials at Ur, c. 2600–2000 BCE).",
+          "citation": "Archaeology magazine (Archaeological Institute of America). \"Wonders of Ur\", Ellen Herscher, March/April 2000. (the Royal Cemetery dates mainly to Early Dynastic IIIA, about 2600–2500 BCE; Woolley judged 16 of its tombs royal; the finds include a lyre of wood, gold, copper, shell and lapis lazuli).",
+          "url": "https://archive.archaeology.org/0003/abstracts/museum.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Sumer.\" (timeline: the Royal Graves of Ur in use c. 2600–2000 BCE).",
           "url": "https://www.worldhistory.org/sumer/"
         },
         {
-          "citation": "Wikipedia. \"Royal Cemetery at Ur.\" (excavated 1922–1934 by Leonard Woolley for the British Museum and the Penn Museum; earliest royal tomb c. 2600 BCE).",
+          "citation": "Wikipedia. \"Royal Cemetery at Ur.\" (excavated 1922–1934 by Leonard Woolley for the British Museum and the Penn Museum; earliest royal tomb c. 2600 BCE; silver and gold grave goods).",
           "url": "https://en.wikipedia.org/wiki/Royal_Cemetery_at_Ur"
         }
       ],
-      "disputed": false,
+      "disputed": true,
+      "note": {
+        "en": "The cemetery held some 2,000 burials over several centuries, but the rich royal tombs date mainly to about 2600–2500 BCE. One source runs the cemetery's use to about 2000 BCE.",
+        "es": "El cementerio reunió unos 2000 enterramientos a lo largo de varios siglos, pero las ricas tumbas reales se fechan sobre todo hacia 2600–2500 a. e. c. Una fuente prolonga el uso del cementerio hasta hacia 2000 a. e. c.",
+        "zh": "墓地在数个世纪里容纳了约2000座墓葬，但富有的王室墓葬主要属于约公元前2600至2500年。有一种资料把墓地的使用延至约公元前2000年。"
+      },
       "place": {
         "name": {
           "en": "Ur, Iraq",
@@ -172,9 +185,9 @@
       "start": -2111,
       "type": "founding",
       "title": {
-        "en": "Ur-Nammu founds the Third Dynasty of Ur and rebuilds the great ziggurat of Ur",
-        "es": "Ur-Nammu funda la Tercera Dinastía de Ur y reconstruye el gran zigurat de Ur",
-        "zh": "乌尔纳姆建立乌尔第三王朝，并重建乌尔的大塔庙"
+        "en": "Ur-Nammu founds the Third Dynasty of Ur and commissions the great ziggurat of Ur",
+        "es": "Ur-Nammu funda la Tercera Dinastía de Ur y manda construir el gran zigurat de Ur",
+        "zh": "乌尔纳姆建立乌尔第三王朝，并下令修建乌尔的大塔庙"
       },
       "sources": [
         {
