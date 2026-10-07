@@ -28,7 +28,7 @@ const hitKey = (hit: SearchHit) => (hit.type === "year" ? "year" : hit.type === 
 /** One result: what it is on the first line beside its kind, details under it. */
 function ResultLink({ href, kind, children, details }: { href: Parameters<typeof Link>[0]["href"]; kind: string; children: ReactNode; details?: ReactNode }) {
   return (
-    <Link href={href} className="grid grid-cols-[1fr_auto] items-start gap-x-2 gap-y-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted">
+    <Link prefetch={false} href={href} className="grid grid-cols-[1fr_auto] items-start gap-x-2 gap-y-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted">
       <span className="flex min-w-0 flex-wrap items-center gap-x-1.5">{children}</span>
       <span className="mt-0.5 rounded-full border border-border px-1.5 text-xs text-muted-foreground">{kind}</span>
       {details && <span className="col-span-2 text-sm text-muted-foreground">{details}</span>}

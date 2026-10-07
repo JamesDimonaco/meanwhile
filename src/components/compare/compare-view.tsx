@@ -110,10 +110,11 @@ export function CompareView({ entries }: { entries: SearchEntry[] }) {
                 className="flex items-center gap-1 rounded-full border border-border bg-card py-0.5 ps-3 pe-0.5 text-sm"
               >
                 <span aria-hidden className={`size-2.5 rounded-full ${SLOTS[i].bg}`} />
-                <Link href={`/c/${entry.id}`} className="ms-1 font-medium underline-offset-2 hover:underline">
+                <Link prefetch={false} href={`/c/${entry.id}`} className="ms-1 font-medium underline-offset-2 hover:underline">
                   {localize(entry.name, locale)}
                 </Link>
                 <Link
+                  prefetch={false}
                   href={compareHref(ids.filter((id) => id !== entry.id))}
                   aria-label={t("remove", { name: localize(entry.name, locale) })}
                   className="relative flex size-7 items-center justify-center rounded-full text-muted-foreground after:absolute after:-inset-1 hover:bg-muted hover:text-foreground"
@@ -219,10 +220,11 @@ function EventSheet({
       <div className="flex flex-col gap-3 text-sm">
         <EventDetail event={event} world={world} />
         <div className="flex flex-col gap-1.5 border-t border-border pt-3">
-          <Link href={`/c/${culture.id}`} className="underline underline-offset-2">
+          <Link prefetch={false} href={`/c/${culture.id}`} className="underline underline-offset-2">
             {t("aboutCulture", { name })}
           </Link>
           <Link
+            prefetch={false}
             href={{ pathname: "/timeline", query: { year: String(event.start) } }}
             className="underline underline-offset-2"
           >

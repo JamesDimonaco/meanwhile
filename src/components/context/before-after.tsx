@@ -18,7 +18,7 @@ export async function BeforeAfter({ lines, locale }: { lines: BeforeAfterLine[];
   const item = (ref: CultureRef, side: "before" | "after") => (
     <span key={`${side}-${ref.id}`}>
       <span className="sr-only">{t(side === "before" ? "cameBefore" : "cameAfter")} </span>
-      <Link href={`/c/${ref.id}`} className="font-medium underline-offset-2 hover:underline">
+      <Link prefetch={false} href={`/c/${ref.id}`} className="font-medium underline-offset-2 hover:underline">
         {side === "before" && <span aria-hidden="true">← </span>}
         {localize(ref.name, locale)}
         {side === "after" && <span aria-hidden="true"> →</span>}

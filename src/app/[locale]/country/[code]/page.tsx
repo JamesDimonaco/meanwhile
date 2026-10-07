@@ -72,7 +72,7 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
   return (
     <section className="mx-auto flex w-full max-w-3xl flex-col gap-6 pt-4">
       <header className="flex flex-col gap-2">
-        <Link href="/wars" className="self-start text-sm text-muted-foreground underline-offset-2 hover:underline">
+        <Link prefetch={false} href="/wars" className="self-start text-sm text-muted-foreground underline-offset-2 hover:underline">
           {tWars("allCountries")}
         </Link>
         <h1 className="flex items-center gap-2 text-2xl font-semibold tracking-tight">
@@ -83,7 +83,7 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
           <p className="text-sm">
             {t.rich("partOf", {
               link: (chunks) => (
-                <Link href={`/country/${UNION.toLowerCase()}`} className="inline-flex items-center gap-1 underline underline-offset-2">
+                <Link prefetch={false} href={`/country/${UNION.toLowerCase()}`} className="inline-flex items-center gap-1 underline underline-offset-2">
                   <CountryFlag code={UNION} />
                   {chunks}
                 </Link>

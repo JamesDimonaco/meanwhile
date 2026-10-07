@@ -108,7 +108,7 @@ export function EventDetail({ event, world }: { event: CultureEvent; world: Even
           <ul className="mt-1 flex flex-col gap-1">
             {world.map(({ culture: ref, certain }) => (
               <li key={ref.id}>
-                <Link href={`/c/${ref.id}`} className="flex items-baseline gap-1.5 hover:underline">
+                <Link prefetch={false} href={`/c/${ref.id}`} className="flex items-baseline gap-1.5 hover:underline">
                   <span className="font-medium text-foreground">{localize(ref.name, locale)}</span>
                   <span className="text-muted-foreground">
                     {tCommon(`regions.${ref.region}`)}

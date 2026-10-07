@@ -68,7 +68,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
               <Link href="/wars" className="underline-offset-2 hover:underline">
                 {t("nav.wars")}
               </Link>
-              <Link href="/credits" className="underline-offset-2 hover:underline">
+              <Link href="/credits" prefetch={false} className="underline-offset-2 hover:underline">
                 {t("nav.credits")}
               </Link>
             </footer>

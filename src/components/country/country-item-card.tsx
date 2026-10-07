@@ -46,7 +46,7 @@ export function CountryItemCard({
         items: () => (
           <JoinedList
             items={overlaps.map((other) => (
-              <Link key={itemId(other)} href={href(other)} className="underline underline-offset-2">
+              <Link prefetch={false} key={itemId(other)} href={href(other)} className="underline underline-offset-2">
                 {name(other, locale)}
               </Link>
             ))}
@@ -67,7 +67,7 @@ export function CountryItemCard({
   return (
     <article className="flex flex-col gap-1.5 rounded-lg border border-border px-4 py-3">
       {kind}
-      <Link href={href(item)} className="font-medium underline-offset-2 hover:underline">
+      <Link prefetch={false} href={href(item)} className="font-medium underline-offset-2 hover:underline">
         {name(item, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">

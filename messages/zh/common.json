@@ -22,7 +22,11 @@
     "south-america": "南美洲",
     "mesoamerica": "中美洲",
     "europe": "欧洲",
-    "africa": "非洲"
+    "africa": "非洲",
+    "middle-east": "中东与中亚",
+    "south-asia": "南亚",
+    "asia-pacific": "东亚与太平洋",
+    "north-america": "北美洲"
   },
   "heartlandToday": "核心地区今属：{countries}",
   "heartlandTodayLinked": "核心地区今属：<countries></countries>",

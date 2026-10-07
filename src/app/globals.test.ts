@@ -67,7 +67,7 @@ const simulate = (rgb: Rgb, m: number[][]): Rgb =>
 /** OKLab distance ×100, the scale categorical-palette guidance uses. */
 const deltaE = (x: Rgb, y: Rgb) => 100 * Math.hypot(...oklab(x).map((v, i) => v - oklab(y)[i]));
 
-const BAR_TOKENS = ["chart-1", "chart-2", "chart-3", "chart-4", "chart-5", "war"];
+const BAR_TOKENS = ["chart-1", "chart-2", "chart-3", "chart-4", "chart-5", "chart-6", "chart-7", "chart-8", "chart-9", "war"];
 // Below these, two bars read as one: 15 for full colour vision, 8 under simulated colour blindness.
 const MIN_DELTA_E = 15;
 const MIN_CVD_DELTA_E = 8;

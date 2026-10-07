@@ -85,6 +85,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             region: c.region,
             node: (
               <Link
+                prefetch={false}
                 href={`/c/${c.id}`}
                 className="flex min-w-0 flex-col gap-0.5 rounded-lg border border-border px-4 py-3 hover:bg-muted"
               >

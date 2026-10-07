@@ -106,6 +106,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           </p>
         )}
         <Link
+          prefetch={false}
           href={compareHref([culture.id])}
           className={buttonVariants({ variant: "outline", className: "self-start" })}
         >
@@ -138,7 +139,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           <ul className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
             {alive.map((c) => (
               <li key={c.id}>
-                <Link href={`/c/${c.id}`} className="underline underline-offset-2">
+                <Link prefetch={false} href={`/c/${c.id}`} className="underline underline-offset-2">
                   {localize(c.name, locale)}
                 </Link>{" "}
                 <span className="text-muted-foreground">

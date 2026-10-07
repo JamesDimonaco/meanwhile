@@ -22,7 +22,11 @@
     "south-america": "South America",
     "mesoamerica": "Mesoamerica",
     "europe": "Europe",
-    "africa": "Africa"
+    "africa": "Africa",
+    "middle-east": "Middle East & Central Asia",
+    "south-asia": "South Asia",
+    "asia-pacific": "East Asia & Pacific",
+    "north-america": "North America"
   },
   "heartlandToday": "Heartland today: {countries}",
   "heartlandTodayLinked": "Heartland today: <countries></countries>",
