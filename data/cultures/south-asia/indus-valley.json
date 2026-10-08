@@ -1,0 +1,303 @@
+{
+  "id": "indus-valley",
+  "region": "south-asia",
+  "wikidataId": "Q42534",
+  "name": {
+    "en": "Indus Valley Civilisation",
+    "es": "Civilización del valle del Indo",
+    "zh": "印度河流域文明"
+  },
+  "aliases": [
+    "Harappan civilisation",
+    "Harappan civilization",
+    "Indus Valley Civilization",
+    "Indus civilisation",
+    "Indus-Sarasvati civilisation",
+    "Harappa",
+    "Mohenjo-daro",
+    "Civilización harappa",
+    "哈拉帕文明"
+  ],
+  "description": {
+    "en": "Along the Indus and its tributaries, the Harappans built grid-planned cities with brick drains and standardised weights, and wrote on seals in a script nobody has yet read. Their towns emptied after about 1900 BCE.",
+    "es": "A lo largo del Indo y sus afluentes, los harappa levantaron ciudades de trazado reticular con desagües de ladrillo y pesas normalizadas, y escribieron en sellos con una escritura que nadie ha logrado leer. Sus ciudades se fueron vaciando desde hacia 1900 a. e. c.",
+    "zh": "哈拉帕人沿印度河及其支流建起按网格规划的城市，修有砖砌排水渠，使用统一的砝码，并在印章上刻写至今无人读懂的文字。约公元前1900年之后，他们的城镇逐渐空了。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "indus-valley-civilisation",
+      "earliestStart": -3299,
+      "latestStart": -2599,
+      "earliestEnd": -1899,
+      "latestEnd": -1299,
+      "sources": [
+        {
+          "citation": "Ancient Cities (Indus Valley) PeriodO definition, \"Harappan, or Mature\" (c. 2600 BC to 1900 BC), the solid core of this bar.",
+          "url": "http://n2t.net/ark:/99152/p083p5rwkfs"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization\" (about 3300 to 1300 BCE).",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        }
+      ],
+      "periodoId": "p083p5rwkfs",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Sources disagree on every boundary. Reference works date the mature cities from 2800, 2700 or 2600 BCE and the end of urban life between about 1900 and 1700 BCE. The bar is solid for the mature phase, 2600 to 1900 BCE.",
+        "es": "Las fuentes discrepan en todos los límites. Las obras de referencia sitúan el inicio de las ciudades maduras en 2800, 2700 o 2600 a. e. c., y el fin de la vida urbana entre hacia 1900 y 1700 a. e. c. La barra es sólida en la fase madura, de 2600 a 1900 a. e. c.",
+        "zh": "各种资料对每个界线的说法都不一致。参考著作把成熟城市的起点定在公元前2800年、2700年或2600年，把城市生活的终结定在约公元前1900年至1700年之间。色条的实心部分取成熟期，即公元前2600年至1900年。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "early-harappan",
+      "name": {
+        "en": "Early Harappan",
+        "es": "Harappa temprano",
+        "zh": "早期哈拉帕"
+      },
+      "start": -3299,
+      "end": -2599,
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization.\"",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Indus Valley Civilization.\" Gives the Early Harappan as c. 5500 to 2800 BCE, a much earlier start than this bar uses.",
+          "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
+        }
+      ]
+    },
+    {
+      "id": "mature-harappan",
+      "name": {
+        "en": "Mature Harappan",
+        "es": "Harappa maduro",
+        "zh": "成熟哈拉帕"
+      },
+      "start": -2599,
+      "end": -1899,
+      "sources": [
+        {
+          "citation": "Ancient Cities (Indus Valley) PeriodO definition, \"Harappan, or Mature\" (c. 2600 BC to 1900 BC).",
+          "url": "http://n2t.net/ark:/99152/p083p5rwkfs"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization\" (mature phase c. 2700 to 1800 BCE).",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        }
+      ]
+    },
+    {
+      "id": "late-harappan",
+      "name": {
+        "en": "Late Harappan",
+        "es": "Harappa tardío",
+        "zh": "晚期哈拉帕"
+      },
+      "start": -1899,
+      "end": -1299,
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization\" (cities abandoned c. 1800 to 1700 BCE; the civilisation runs to about 1300 BCE).",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Indus Valley Civilization\" (Late Harappan c. 1900 to 1500 BCE).",
+          "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "planned-cities",
+      "start": -2599,
+      "type": "founding",
+      "title": {
+        "en": "Harappa, Mohenjo-daro and Dholavira flourish as planned cities laid out on grids",
+        "es": "Harappa, Mohenjo-daro y Dholavira florecen como ciudades planificadas con trazado reticular",
+        "zh": "哈拉帕、摩亨佐-达罗和多拉维拉作为按网格规划的城市兴盛起来"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization.\"",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Indus Valley Civilization.\"",
+          "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "reach-of-the-cities",
+      "start": -2599,
+      "type": "founding",
+      "title": {
+        "en": "Indus settlements spread from Baluchistan to the Rajasthan desert and south to the Gulf of Kutch",
+        "es": "Los asentamientos del Indo se extienden desde Baluchistán hasta el desierto de Rajastán y, al sur, hasta el golfo de Kutch",
+        "zh": "印度河流域的聚落西起俾路支，东至拉贾斯坦沙漠，南达库奇湾"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization.\"",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Indus Valley Civilization.\" Gives the territory as about 1,500 km along the Indus, with sites reaching Afghanistan, the Indian coast and the Delhi area.",
+          "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "bricks-and-drains",
+      "start": -2599,
+      "end": -1899,
+      "type": "invention",
+      "title": {
+        "en": "Cities are built of uniform fired bricks and served by terracotta sewers",
+        "es": "Las ciudades se construyen con ladrillos cocidos uniformes y cuentan con alcantarillas de terracota",
+        "zh": "城市用规格统一的烧砖建成，并配有陶管排污系统"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization.\" Describes sewers of terracotta conduits and bricks of precise, uniform size.",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Indus Valley Civilization.\" Describes the drainage system and the modular brick and street plan.",
+          "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "seals-and-script",
+      "start": -2599,
+      "end": -1899,
+      "type": "invention",
+      "title": {
+        "en": "Thousands of steatite seals carry an Indus script that has never been deciphered",
+        "es": "Miles de sellos de esteatita llevan una escritura del Indo que nunca se ha descifrado",
+        "zh": "数以千计的皂石印章上刻有印度河文字，这种文字至今未被释读"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Indus Script.\" States that the script remains undeciphered, that no agreement exists on its language and that no bilingual text has been found.",
+          "url": "https://www.worldhistory.org/Indus_Script/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization.\" Many inscriptions are thought to mark ownership.",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "What the signs say, and which language they write, is unknown. Claims of decipherment have not won agreement.",
+        "es": "Se desconoce qué dicen los signos y qué lengua escriben. Las propuestas de desciframiento no han logrado consenso.",
+        "zh": "这些符号写的是什么、属于哪种语言，目前都不清楚。各种释读主张都没有得到公认。"
+      }
+    },
+    {
+      "id": "near-east-trade",
+      "start": -2599,
+      "end": -1899,
+      "type": "invention",
+      "title": {
+        "en": "Indus traders exchange goods with the Persian Gulf and Mesopotamia, where Indus objects are found",
+        "es": "Los comerciantes del Indo intercambian bienes con el golfo Pérsico y Mesopotamia, donde se han hallado objetos del Indo",
+        "zh": "印度河商人与波斯湾和美索不达米亚互通货物，那里出土了印度河流域的器物"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization.\" Indus relics have been found in Near Eastern cities and Persian Gulf settlements.",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Indus Valley Civilization.\" Discusses trade with Mesopotamia and lapis lazuli.",
+          "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "decline",
+      "start": -1899,
+      "end": -1699,
+      "type": "collapse",
+      "title": {
+        "en": "The cities empty out as the monsoon weakens and the rivers change course",
+        "es": "Las ciudades se vacían a medida que el monzón se debilita y los ríos cambian de curso",
+        "zh": "季风减弱、河流改道，城市逐渐空了"
+      },
+      "sources": [
+        {
+          "citation": "Giosan, L. et al. (2012). Fluvial landscapes of the Harappan civilization. Proceedings of the National Academy of Sciences 109(26).",
+          "url": "https://doi.org/10.1073/pnas.1112743109"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization.\" Cities abandoned about 1800 to 1700 BCE; several explanations under review.",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Indus Valley Civilization.\" Calls the cause unknown and says the old invasion explanation has been discredited.",
+          "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The cause is argued. Giosan and colleagues tie the decline to a weaker monsoon and shifting river courses. Reference works also list flooding, earthquakes and trade loss. The older idea of an Aryan invasion is no longer accepted.",
+        "es": "La causa se discute. Giosan y sus colegas relacionan el declive con un monzón más débil y con cambios en el curso de los ríos. Las obras de referencia citan además inundaciones, terremotos y pérdida de comercio. La antigua idea de una invasión aria ya no se acepta.",
+        "zh": "原因仍有争论。乔桑（Giosan）等人把衰落与季风减弱和河道变迁联系起来。参考著作还提到洪水、地震和贸易减少。过去所谓雅利安人入侵的说法已不再被接受。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "weights",
+      "start": -2599,
+      "end": -1899,
+      "text": {
+        "en": "Harappan traders weighed goods with stone cubes in a fixed series of sizes, the same at every site.",
+        "es": "Los comerciantes harappa pesaban sus mercancías con cubos de piedra de una serie fija de tamaños, los mismos en todos los yacimientos.",
+        "zh": "哈拉帕商人用成系列、尺寸固定的石方块称量货物，各处遗址的做法一致。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Indus Valley Civilization.\"",
+          "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization.\" Systems of precise weights and measures.",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
+        }
+      ]
+    },
+    {
+      "id": "great-bath",
+      "start": -2599,
+      "end": -1899,
+      "text": {
+        "en": "Mohenjo-daro has a large brick pool called the Great Bath. It may have been used for ritual washing, but that is a guess.",
+        "es": "Mohenjo-daro tiene una gran piscina de ladrillo llamada el Gran Baño. Pudo usarse para abluciones rituales, pero es solo una conjetura.",
+        "zh": "摩亨佐-达罗有一座大型砖砌水池，称为大浴场。它可能用于仪式性沐浴，但这只是推测。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Indus Valley Civilization.\" Calls the ritual use conjecture and notes it may equally have been a public pool.",
+          "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
+        }
+      ]
+    }
+  ]
+}
