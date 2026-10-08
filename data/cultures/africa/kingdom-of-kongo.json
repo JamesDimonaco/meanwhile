@@ -1,0 +1,400 @@
+{
+  "id": "kingdom-of-kongo",
+  "region": "africa",
+  "wikidataId": "Q796583",
+  "name": {
+    "en": "Kingdom of Kongo",
+    "es": "Reino del Congo",
+    "zh": "刚果王国"
+  },
+  "nativeName": {
+    "text": "Kongo dia Ntotila",
+    "lang": "kg"
+  },
+  "aliases": [
+    "Kongo",
+    "Congo kingdom",
+    "Manikongo",
+    "Mani Kongo",
+    "Mbanza Kongo",
+    "São Salvador",
+    "Nzinga Mbemba",
+    "Afonso I",
+    "Kongo dia Ntotila",
+    "Lukeni lua Nimi"
+  ],
+  "description": {
+    "en": "A kingdom in west-central Africa with its capital at Mbanza Kongo, in today's northern Angola. Its elected kings, the Mani Kongo, met Portuguese envoys in 1483 and accepted Christianity. Slave raiding and the defeat at Mbwila in 1665 broke its power. Portugal ended the kingship in 1914.",
+    "es": "Un reino de África centro-occidental con capital en Mbanza Kongo, en el norte de la actual Angola. Sus reyes electos, los Mani Kongo, recibieron a enviados portugueses en 1483 y aceptaron el cristianismo. Las capturas de esclavos y la derrota de Mbwila en 1665 quebraron su poder. Portugal abolió la monarquía en 1914.",
+    "zh": "位于中西非的王国，都城姆班扎刚果在今安哥拉北部。其选举产生的国王“马尼刚果”于1483年接见葡萄牙使者，并接受了基督教。奴隶掠夺和1665年姆比拉战役的失败削弱了王国的力量。葡萄牙于1914年废除了王位。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kingdom",
+      "earliestStart": 1380,
+      "latestStart": 1390,
+      "earliestEnd": 1710,
+      "latestEnd": 1914,
+      "sources": [
+        {
+          "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
+          "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
+        },
+        {
+          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
+          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The founding date is traditional, c. 1390. Real central power ended after Mbwila (1665) and the civil wars that followed; World History Encyclopedia says Kongo had all but disintegrated as an independent state by 1710. A titular kingship under Portuguese influence lasted until 1914.",
+        "es": "La fecha de fundación es tradicional, c. 1390. El poder central efectivo terminó tras Mbwila (1665) y las guerras civiles posteriores; World History Encyclopedia dice que hacia 1710 Kongo se había desintegrado casi por completo como Estado independiente. Una monarquía nominal bajo influencia portuguesa duró hasta 1914.",
+        "zh": "建国年份出自传说，约为1390年。中央的实际权力在姆比拉战役（1665年）及随后的内战后终结；《世界历史百科全书》称，到1710年刚果作为独立国家已近瓦解。名义上的王位在葡萄牙的影响下延续到1914年。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "kingdom",
+      "name": {
+        "en": "Kingdom of Kongo",
+        "es": "Reino del Congo",
+        "zh": "刚果王国"
+      },
+      "start": 1390,
+      "end": 1665,
+      "sources": [
+        {
+          "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
+          "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
+        }
+      ]
+    },
+    {
+      "id": "civil-wars",
+      "name": {
+        "en": "Civil wars and Portuguese pressure",
+        "es": "Guerras civiles y presión portuguesa",
+        "zh": "内战与葡萄牙的压力"
+      },
+      "start": 1665,
+      "end": 1914,
+      "sources": [
+        {
+          "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
+          "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+        },
+        {
+          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
+          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 1390,
+      "type": "founding",
+      "title": {
+        "en": "Kongo is founded around Mbanza Kongo, traditionally by Lukeni lua Nimi, uniting the Mpemba Kasi and Mbata peoples",
+        "es": "Se funda Kongo en torno a Mbanza Kongo, tradicionalmente por Lukeni lua Nimi, uniendo a los pueblos mpemba kasi y mbata",
+        "zh": "刚果在姆班扎刚果周围建立，传统上归功于卢肯尼·卢阿·尼米，联合了姆彭巴卡西和姆巴塔两个族群"
+      },
+      "sources": [
+        {
+          "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
+          "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+        },
+        {
+          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
+          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date and the story are traditional. SAHO describes a political marriage between the two ruling houses; The Collector says Lukeni lua Nimi conquered the Mbanza Kongo region.",
+        "es": "La fecha y el relato son tradicionales. SAHO describe una alianza matrimonial entre las dos casas gobernantes; The Collector dice que Lukeni lua Nimi conquistó la región de Mbanza Kongo.",
+        "zh": "年份和故事都出自传说。SAHO称是两个统治家族的政治联姻；The Collector则称卢肯尼·卢阿·尼米征服了姆班扎刚果一带。"
+      },
+      "place": {
+        "name": {
+          "en": "Mbanza Kongo",
+          "es": "Mbanza Kongo",
+          "zh": "姆班扎刚果"
+        },
+        "lat": -6.2667,
+        "lon": 14.25
+      }
+    },
+    {
+      "id": "portuguese-contact",
+      "start": 1483,
+      "type": "invention",
+      "title": {
+        "en": "Portuguese sailors under Diogo Cão reach Kongo and meet its king, Nzinga a Nkuwu",
+        "es": "Marinos portugueses al mando de Diogo Cão llegan a Kongo y se reúnen con su rey, Nzinga a Nkuwu",
+        "zh": "迪奥戈·卡奥（Diogo Cão）率领的葡萄牙水手抵达刚果，会见国王恩津加·阿·恩库乌"
+      },
+      "sources": [
+        {
+          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
+          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+        },
+        {
+          "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
+          "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give 1482 or 1483 for the first meeting.",
+        "es": "Las fuentes dan 1482 o 1483 para el primer encuentro.",
+        "zh": "各来源对首次会面给出1482年或1483年。"
+      },
+      "place": {
+        "name": {
+          "en": "Mbanza Kongo",
+          "es": "Mbanza Kongo",
+          "zh": "姆班扎刚果"
+        },
+        "lat": -6.2667,
+        "lon": 14.25
+      }
+    },
+    {
+      "id": "baptism",
+      "start": 1491,
+      "type": "ruler",
+      "title": {
+        "en": "Portuguese missionaries arrive and King Nzinga a Nkuwu is baptised as João I",
+        "es": "Llegan misioneros portugueses y el rey Nzinga a Nkuwu es bautizado como João I",
+        "zh": "葡萄牙传教士抵达，国王恩津加·阿·恩库乌受洗，教名若昂一世"
+      },
+      "sources": [
+        {
+          "citation": "The Collector. \"7 Facts About the Kingdom of Kongo: Africa's Great Catholic State.\"",
+          "url": "https://www.thecollector.com/kingdom-of-kongo-great-catholic-state/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
+        },
+        {
+          "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
+          "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "SAHO places the baptism in 1490; The Collector and World History Encyclopedia give 1491.",
+        "es": "SAHO sitúa el bautismo en 1490; The Collector y World History Encyclopedia dan 1491.",
+        "zh": "SAHO把受洗定在1490年；The Collector和《世界历史百科全书》给出的是1491年。"
+      },
+      "place": {
+        "name": {
+          "en": "Mbanza Kongo",
+          "es": "Mbanza Kongo",
+          "zh": "姆班扎刚果"
+        },
+        "lat": -6.2667,
+        "lon": 14.25
+      }
+    },
+    {
+      "id": "afonso-i",
+      "start": 1506,
+      "end": 1543,
+      "type": "ruler",
+      "title": {
+        "en": "Afonso I (Nzinga Mbemba) becomes king and rules until about 1543, promoting Christianity across the kingdom",
+        "es": "Afonso I (Nzinga Mbemba) se convierte en rey y gobierna hasta hacia 1543, y promueve el cristianismo en todo el reino",
+        "zh": "阿丰索一世（恩津加·姆本巴）即位，在位至约1543年，在全国推广基督教"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
+        },
+        {
+          "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
+          "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+        },
+        {
+          "citation": "The Collector. \"7 Facts About the Kingdom of Kongo: Africa's Great Catholic State.\"",
+          "url": "https://www.thecollector.com/kingdom-of-kongo-great-catholic-state/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources agree on 1506 for his accession and give his death as 1542 or 1543; some accounts date the accession to 1509.",
+        "es": "Las fuentes coinciden en 1506 para su ascenso y dan su muerte en 1542 o 1543; algunos relatos fechan el ascenso en 1509.",
+        "zh": "各来源均把他即位定在1506年，卒年为1542年或1543年；也有说法把即位定在1509年。"
+      },
+      "place": {
+        "name": {
+          "en": "Mbanza Kongo",
+          "es": "Mbanza Kongo",
+          "zh": "姆班扎刚果"
+        },
+        "lat": -6.2667,
+        "lon": 14.25
+      }
+    },
+    {
+      "id": "letter-1526",
+      "start": 1526,
+      "type": "ruler",
+      "title": {
+        "en": "Afonso I writes to King João III of Portugal that traders are seizing his people, even nobles' sons, and asks him to end the slave trade in Kongo",
+        "es": "Afonso I escribe al rey João III de Portugal que los traficantes se llevan a su gente, incluso a hijos de nobles, y le pide que acabe con la trata de esclavos en Kongo",
+        "zh": "阿丰索一世致信葡萄牙国王若昂三世，说商人正在掳走他的子民，连贵族之子也不放过，请求终止刚果的奴隶贸易"
+      },
+      "sources": [
+        {
+          "citation": "Afonso I (Nzinga Mbemba) to King João III of Portugal, 6 July 1526, Religion and Slavery project.",
+          "url": "https://religionandslavery.org/ps%3A-afonso-i-to-portugal"
+        },
+        {
+          "citation": "Nzinga Mbemba's 1526 letter to King João III, World History Commons.",
+          "url": "https://worldhistorycommons.org/node/2382"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Mbanza Kongo",
+          "es": "Mbanza Kongo",
+          "zh": "姆班扎刚果"
+        },
+        "lat": -6.2667,
+        "lon": 14.25
+      }
+    },
+    {
+      "id": "mbwila",
+      "start": 1665,
+      "type": "collapse",
+      "title": {
+        "en": "A Portuguese army defeats Kongo at Mbwila (Ambuila) and King António I is killed; civil war follows",
+        "es": "Un ejército portugués derrota a Kongo en Mbwila (Ambuila) y muere el rey António I; sigue una guerra civil",
+        "zh": "葡萄牙军队在姆比拉（安布伊拉）击败刚果，国王安东尼奥一世阵亡；随后爆发内战"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Battle of Mbwila.\"",
+          "url": "https://ebsco.com/research-starters/military-history-and-science/battle-mbwila"
+        },
+        {
+          "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
+          "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The battle took place on 29 October 1665. Sources differ on the size of both armies, so none is given here.",
+        "es": "La batalla tuvo lugar el 29 de octubre de 1665. Las fuentes difieren sobre el tamaño de ambos ejércitos, por lo que no se da ninguna cifra.",
+        "zh": "战役发生于1665年10月29日。各来源对双方兵力的说法不一，故此处不列数字。"
+      }
+    },
+    {
+      "id": "abolition",
+      "start": 1914,
+      "type": "collapse",
+      "title": {
+        "en": "After a failed revolt, Portugal abolishes the Kongo kingship and rules the territory as part of Angola",
+        "es": "Tras una revuelta fallida, Portugal abole la monarquía de Kongo y gobierna el territorio como parte de Angola",
+        "zh": "一场起义失败后，葡萄牙废除刚果王位，把这片土地作为安哥拉的一部分来统治"
+      },
+      "sources": [
+        {
+          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
+          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+        },
+        {
+          "citation": "The Collector. \"7 Facts About the Kingdom of Kongo: Africa's Great Catholic State.\"",
+          "url": "https://www.thecollector.com/kingdom-of-kongo-great-catholic-state/"
+        },
+        {
+          "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
+          "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Mbanza Kongo",
+          "es": "Mbanza Kongo",
+          "zh": "姆班扎刚果"
+        },
+        "lat": -6.2667,
+        "lon": 14.25
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "elected-kings",
+      "text": {
+        "en": "Kongo's kings were elected, not born to the throne, which made succession disputes a recurring risk.",
+        "es": "Los reyes de Kongo eran elegidos, no heredaban el trono, lo que hacía de las disputas de sucesión un riesgo constante.",
+        "zh": "刚果的国王由选举产生，并非世袭，因此王位继承之争反复出现。"
+      },
+      "start": 1390,
+      "end": 1914,
+      "sources": [
+        {
+          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
+          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "afonso-letters",
+      "text": {
+        "en": "Afonso I wrote some two dozen letters to Portuguese kings, objecting to the growing slave trade and asking for priests and teachers instead.",
+        "es": "Afonso I escribió una veintena de cartas a los reyes de Portugal, en las que se oponía a la creciente trata de esclavos y pedía sacerdotes y maestros en su lugar.",
+        "zh": "阿丰索一世给葡萄牙国王写了约二十四封信，反对日益扩大的奴隶贸易，并请求派来神父和教师。"
+      },
+      "start": 1506,
+      "end": 1543,
+      "sources": [
+        {
+          "citation": "The Collector. \"7 Facts About the Kingdom of Kongo: Africa's Great Catholic State.\"",
+          "url": "https://www.thecollector.com/kingdom-of-kongo-great-catholic-state/"
+        },
+        {
+          "citation": "Afonso I (Nzinga Mbemba) to King João III of Portugal, 6 July 1526, Religion and Slavery project.",
+          "url": "https://religionandslavery.org/ps%3A-afonso-i-to-portugal"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
