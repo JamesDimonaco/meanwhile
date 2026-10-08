@@ -1,0 +1,288 @@
+{
+  "id": "chola-dynasty",
+  "region": "south-asia",
+  "wikidataId": "Q151148",
+  "name": {
+    "en": "Chola dynasty",
+    "es": "Dinastía Chola",
+    "zh": "朱罗王朝"
+  },
+  "aliases": [
+    "Cholas",
+    "Chola Empire",
+    "Imperial Cholas",
+    "Chozha"
+  ],
+  "description": {
+    "en": "A Tamil dynasty based at Thanjavur that grew from a regional power into a sea-going empire, reaching Sri Lanka, the Ganges and Srivijaya before the Pandyas overran it in the 13th century.",
+    "es": "Dinastía tamil con sede en Thanjavur que pasó de potencia regional a imperio marítimo, y llegó hasta Sri Lanka, el Ganges y Srivijaya antes de que los pandya la arrollaran en el siglo XIII.",
+    "zh": "以坦贾武尔为中心的泰米尔王朝，由地方势力发展为海上帝国，势力远及斯里兰卡、恒河和室利佛逝，13世纪被潘迪亚人击垮。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "chola-period",
+      "earliestStart": 848,
+      "latestStart": 850,
+      "earliestEnd": 1250,
+      "latestEnd": 1279,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Chola\" (8th – 12th century), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hz6wt"
+        },
+        {
+          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The start is Vijayalaya's capture of Thanjavur. Chola power faded through the 13th century under Pandya pressure, and 1279 is the end of the last ruler, Rajendra III.",
+        "es": "El inicio es la toma de Thanjavur por Vijayalaya. El poder chola se fue apagando a lo largo del siglo XIII bajo la presión pandya, y 1279 es el final del último soberano, Rajendra III.",
+        "zh": "起点是维贾亚拉亚夺取坦贾武尔。13世纪朱罗在潘迪亚的压力下逐渐衰落，1279年是末代君主拉金德拉三世统治的终结。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "rise",
+      "name": {
+        "en": "Rise",
+        "es": "Ascenso",
+        "zh": "崛起"
+      },
+      "start": 848,
+      "end": 985,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
+        },
+        {
+          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+        }
+      ]
+    },
+    {
+      "id": "imperial",
+      "name": {
+        "en": "Imperial Cholas",
+        "es": "Cholas imperiales",
+        "zh": "帝国时期"
+      },
+      "start": 985,
+      "end": 1070,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
+        },
+        {
+          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+        }
+      ]
+    },
+    {
+      "id": "later",
+      "name": {
+        "en": "Later Cholas",
+        "es": "Cholas tardíos",
+        "zh": "后期"
+      },
+      "start": 1070,
+      "end": 1279,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
+        },
+        {
+          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "vijayalaya-thanjavur",
+      "start": 850,
+      "type": "founding",
+      "title": {
+        "en": "Vijayalaya takes Thanjavur and begins the Chola recovery in the Kaveri delta",
+        "es": "Vijayalaya toma Thanjavur y da comienzo a la recuperación chola en el delta del Kaveri",
+        "zh": "维贾亚拉亚夺取坦贾武尔，朱罗人在卡弗里河三角洲开始复兴"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
+        },
+        {
+          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date the capture between about 846 and 850.",
+        "es": "Las fuentes fechan la toma entre hacia 846 y 850.",
+        "zh": "各来源将夺取坦贾武尔的时间定在约846至850年之间。"
+      }
+    },
+    {
+      "id": "uttaramerur",
+      "start": 920,
+      "type": "invention",
+      "title": {
+        "en": "Inscriptions at Uttaramerur, under Parantaka I, record the rules for electing a village assembly by lot",
+        "es": "Las inscripciones de Uttaramerur, bajo Parantaka I, registran las reglas para elegir por sorteo una asamblea de aldea",
+        "zh": "帕兰塔卡一世时期，乌塔拉梅鲁尔的铭文记录了以抽签方式选举村议会的规则"
+      },
+      "sources": [
+        {
+          "citation": "Madras Musings. \"The new Assembly complex and Uttaramerur.\" Vol. 20, no. 1.",
+          "url": "http://madrasmusings.com/Vol%2020%20No%201/the-new-assembly-complex-and-uttaramerur.html"
+        },
+        {
+          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The inscriptions are dated by Parantaka I's regnal years, which gives c. 920.",
+        "es": "Las inscripciones se fechan por los años de reinado de Parantaka I, lo que da hacia 920.",
+        "zh": "铭文以帕兰塔卡一世的在位年份纪年，对应约920年。"
+      }
+    },
+    {
+      "id": "rajaraja-sri-lanka",
+      "start": 993,
+      "type": "conflict",
+      "title": {
+        "en": "Rajaraja I sends a Chola army to northern Sri Lanka, which takes Anuradhapura",
+        "es": "Rajaraja I envía un ejército chola al norte de Sri Lanka, que toma Anuradhapura",
+        "zh": "拉贾拉贾一世派朱罗军队进攻斯里兰卡北部，攻占阿努拉德普勒"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Rajaraja I.\""
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Sacred City of Anuradhapura\" (video description).",
+          "url": "https://whc.unesco.org/en/documents/124444"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "brihadisvara",
+      "start": 1003,
+      "end": 1010,
+      "type": "invention",
+      "title": {
+        "en": "Rajaraja I builds the Brihadisvara temple at Thanjavur, topped by a 13-storey stone tower",
+        "es": "Rajaraja I construye el templo Brihadisvara en Thanjavur, coronado por una torre de piedra de trece pisos",
+        "zh": "拉贾拉贾一世在坦贾武尔建造布里哈迪斯瓦拉神庙，其上矗立着十三层石塔"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Great Living Chola Temples\" (video description).",
+          "url": "https://whc.unesco.org/en/documents/122141"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Chola Art & Architecture.\"",
+          "url": "https://www.worldhistory.org/article/1992/chola-art--architecture/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "ganges-expedition",
+      "start": 1021,
+      "end": 1024,
+      "type": "conflict",
+      "title": {
+        "en": "Rajendra I sends a Chola army north to the Ganges, through Bengal, where it meets the Pala king Mahipala I",
+        "es": "Rajendra I envía un ejército chola al norte hasta el Ganges, a través de Bengala, donde se encuentra con el rey pala Mahipala I",
+        "zh": "拉金德拉一世派朱罗军队北上恒河，途经孟加拉，与波罗王摩希波罗一世相遇"
+      },
+      "sources": [
+        {
+          "citation": "Banglapedia. \"Mahipala I.\"",
+          "url": "https://en.banglapedia.org/index.php/Mahipala_I"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Rajendra I.\""
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The expedition is dated c. 1021–1024 from the Chola Tirumalai inscription. Mahipala I stayed on his throne afterwards.",
+        "es": "La expedición se fecha hacia 1021–1024 a partir de la inscripción chola de Tirumalai. Mahipala I siguió en el trono después.",
+        "zh": "这次远征依据朱罗的蒂鲁马莱铭文，定在约1021至1024年。此后摩希波罗一世仍保有王位。"
+      }
+    },
+    {
+      "id": "srivijaya-raid",
+      "start": 1025,
+      "type": "conflict",
+      "title": {
+        "en": "Rajendra I sends a Chola fleet across the Bay of Bengal against Srivijaya and its port of Kadaram",
+        "es": "Rajendra I envía una flota chola a través de la bahía de Bengala contra Srivijaya y su puerto de Kadaram",
+        "zh": "拉金德拉一世派朱罗舰队横渡孟加拉湾，攻击室利佛逝及其港口卡达拉姆"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Srivijaya.\""
+        },
+        {
+          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "end-of-dynasty",
+      "start": 1279,
+      "type": "collapse",
+      "title": {
+        "en": "The reign of Rajendra III, the last Chola king, ends and the dynasty disappears from the record, its lands held by the Pandyas",
+        "es": "Termina el reinado de Rajendra III, el último rey chola, y la dinastía desaparece del registro, con sus tierras en manos de los pandya",
+        "zh": "末代朱罗王拉金德拉三世的统治结束，王朝从记载中消失，其领土由潘迪亚人掌握"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
+        },
+        {
+          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "brihadisvara-height",
+      "start": 1003,
+      "end": 1279,
+      "text": {
+        "en": "The vimana tower of the Brihadisvara temple at Thanjavur is about 60 metres tall, built from granite.",
+        "es": "La torre vimana del templo Brihadisvara de Thanjavur mide unos 60 metros de altura y está construida en granito.",
+        "zh": "坦贾武尔布里哈迪斯瓦拉神庙的塔楼（毗摩那）高约60米，由花岗岩建成。"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Great Living Chola Temples\" (video description).",
+          "url": "https://whc.unesco.org/en/documents/122141"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Chola Art & Architecture.\"",
+          "url": "https://www.worldhistory.org/article/1992/chola-art--architecture/"
+        }
+      ]
+    }
+  ]
+}

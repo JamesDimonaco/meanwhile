@@ -1,0 +1,247 @@
+{
+  "id": "kushan-empire",
+  "region": "south-asia",
+  "wikidataId": "Q25979",
+  "name": {
+    "en": "Kushan Empire",
+    "es": "Imperio kushán",
+    "zh": "贵霜帝国"
+  },
+  "aliases": [
+    "Kushana",
+    "Kushan",
+    "Kushans",
+    "Kanishka",
+    "Kujula Kadphises",
+    "Guishuang",
+    "Da Yuezhi",
+    "贵霜",
+    "大月氏"
+  ],
+  "description": {
+    "en": "Descended from Yuezhi nomads who settled in Bactria, the Kushans ruled from Peshawar over Gandhara, the upper Indus and the upper Ganges. Their coins carried Greek, Iranian and Indian gods, and their workshops made early Buddha images.",
+    "es": "Descendientes de nómadas yuezhi asentados en Bactria, los kushán gobernaron desde Peshawar sobre Gandhara, el alto Indo y el alto Ganges. Sus monedas llevaban dioses griegos, iranios e indios, y sus talleres produjeron las primeras imágenes de Buda.",
+    "zh": "贵霜人是定居大夏的月氏游牧人的后裔，以白沙瓦为中心，统治犍陀罗、上印度河和上恒河流域。他们的钱币上印有希腊、伊朗和印度诸神，工匠还制作了最早的佛像。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kushan-period",
+      "earliestStart": 30,
+      "latestStart": 80,
+      "earliestEnd": 233,
+      "latestEnd": 375,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Kushan\" (1st century AD to 4th century AD), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hnqc9"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Kanishka.\" Kujula reigned about 30 to 80 CE.",
+          "url": "https://www.ebsco.com/research-starters/history/kanishka/"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Kushano-Sasanian\" (c. 233 to 370), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h36r4"
+        }
+      ],
+      "periodoId": "p08m57hnqc9",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Kushan dates are uncertain. Kanishka's reign is placed at 78 to 103 CE in older work and 127 to 151 CE in more recent work, and Sasanian rule pushed in from the west from the 230s, with Kushan-style rulers lasting in the east until about 370.",
+        "es": "Las fechas kushán son inciertas. El reinado de Kanishka se sitúa en 78 a 103 d. e. c. en trabajos antiguos y en 127 a 151 d. e. c. en los más recientes, y el dominio sasánida avanzó desde el oeste a partir de la década de 230, mientras gobernantes de estilo kushán duraron en el este hasta hacia 370.",
+        "zh": "贵霜的年代并不确定。较早的研究把迦腻色迦在位时间定在公元78年至103年，较新的研究定在公元127年至151年；萨珊势力从230年代起自西向东推进，东部仍有贵霜式统治者延续到约370年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "kujula-unites-yuezhi",
+      "start": 30,
+      "type": "founding",
+      "title": {
+        "en": "Kujula Kadphises defeats the other four Yuezhi chiefs and founds the kingdom of Guishuang",
+        "es": "Kujula Kadphises vence a los otros cuatro jefes yuezhi y funda el reino de Guishuang",
+        "zh": "丘就却（库周拉·卡德菲塞斯）击败其余四部翕侯，建立贵霜王国"
+      },
+      "sources": [
+        {
+          "citation": "Hill, John E. (trans.). Hou Hanshu, chapter 88, section 13 on the Da Yuezhi. Describes the five xihou, Qiujiu Que (Kujula Kadphises) destroying four of them, and his taking of Kabul.",
+          "url": "https://depts.washington.edu/silkroad/texts/hhshu/hou_han_shu.html"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Kanishka.\" Kujula reigned about 30 to 80 CE.",
+          "url": "https://www.ebsco.com/research-starters/history/kanishka/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Hou Hanshu gives no year, only \"more than a hundred years\" after the Yuezhi split into five. Modern dates for Kujula's reign vary.",
+        "es": "El Hou Hanshu no da ninguna fecha, solo \"más de cien años\" después de que los yuezhi se dividieran en cinco. Las fechas modernas del reinado de Kujula varían.",
+        "zh": "《后汉书》没有给出年份，只说月氏分为五部后“百余年”。现代学者对丘就却在位时间的推算不一。"
+      }
+    },
+    {
+      "id": "conquest-of-gandhara",
+      "start": 80,
+      "type": "conflict",
+      "title": {
+        "en": "The Kushans take Gandhara and defeat the kingdom of Tianzhu in northwest India",
+        "es": "Los kushán toman Gandhara y derrotan al reino de Tianzhu, en el noroeste de la India",
+        "zh": "贵霜人夺取犍陀罗，并击败印度西北部的天竺"
+      },
+      "sources": [
+        {
+          "citation": "Hill, John E. (trans.). Hou Hanshu, chapter 88. Kujula's son Yan Gaozhen (Vima Takto) defeats Tianzhu and installs a general there.",
+          "url": "https://depts.washington.edu/silkroad/texts/hhshu/hou_han_shu.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Gandhara.\" The Kushans take Gandhara from the Scytho-Parthians in 80 CE and make Peshawar their seat.",
+          "url": "https://www.worldhistory.org/Gandhara/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Hou Hanshu is undated. The year 80 CE is one reference work's date for the taking of Gandhara, and it matches the usual start of Vima Takto's reign.",
+        "es": "El Hou Hanshu no tiene fechas. El año 80 d. e. c. es la fecha que da una obra de referencia para la toma de Gandhara, y coincide con el inicio habitual del reinado de Vima Takto.",
+        "zh": "《后汉书》没有标年份。公元80年是一部参考著作给出的夺取犍陀罗的时间，与阎高珍（维马·塔克图）通常的即位时间相合。"
+      },
+      "place": {
+        "name": {
+          "en": "Peshawar",
+          "es": "Peshawar",
+          "zh": "白沙瓦"
+        },
+        "lat": 34.0151,
+        "lon": 71.5249
+      }
+    },
+    {
+      "id": "kanishka",
+      "start": 127,
+      "end": 151,
+      "type": "ruler",
+      "title": {
+        "en": "Kanishka rules the empire at its height from Purushapura, modern Peshawar",
+        "es": "Kanishka gobierna el imperio en su apogeo desde Purushapura, la actual Peshawar",
+        "zh": "迦腻色迦在位，帝国达到鼎盛，都城在布路沙布逻（今白沙瓦）"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Kanishka.\" Dates the reign 78 to 103 CE (older) or 127 to 151 CE (recent), with the capital at Purushapura.",
+          "url": "https://www.ebsco.com/research-starters/history/kanishka/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Gandhara.\" Peshawar as the Kushan seat; Gandharan art flourishes under Kanishka.",
+          "url": "https://www.worldhistory.org/Gandhara/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Two scholarly conferences, in 1913 and 1960, failed to settle the date. The 127 to 151 CE reckoning is used here. The 78 CE start once linked to Kanishka is thought to be a mistake. The Gandhara article places him in the 1st century CE.",
+        "es": "Dos congresos académicos, en 1913 y 1960, no lograron fijar la fecha. Aquí se usa el cómputo de 127 a 151 d. e. c. Se cree que el comienzo en 78 d. e. c. asociado antes a Kanishka es un error. El artículo sobre Gandhara lo sitúa en el siglo I d. e. c.",
+        "zh": "1913年和1960年两次学术会议都没能确定年代。此处采用公元127年至151年的算法。过去与迦腻色迦联系起来的公元78年起点，现被认为多半是误会。犍陀罗一文则把他放在公元1世纪。"
+      },
+      "place": {
+        "name": {
+          "en": "Peshawar",
+          "es": "Peshawar",
+          "zh": "白沙瓦"
+        },
+        "lat": 34.0151,
+        "lon": 71.5249
+      }
+    },
+    {
+      "id": "buddha-images",
+      "start": 127,
+      "end": 151,
+      "type": "invention",
+      "title": {
+        "en": "Workshops in Gandhara and Mathura make Buddha images in two styles, in schist and in sandstone",
+        "es": "Los talleres de Gandhara y Mathura hacen imágenes de Buda en dos estilos, en esquisto y en arenisca",
+        "zh": "犍陀罗和马图拉的工坊以两种风格制作佛像，分别用片岩和砂岩"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Gandhara.\" Thousands of Buddha images were made in the Kushan era, especially under Kanishka.",
+          "url": "https://www.worldhistory.org/Gandhara/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Kanishka.\" The Gandhara school made naturalistic Buddhas mostly in schist; the Mathura school made more stylised images in sandstone.",
+          "url": "https://www.ebsco.com/research-starters/history/kanishka/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Scholars debate whether Gandhara or Mathura made the first Buddha image, and exactly when. The dates here follow Kanishka's reign.",
+        "es": "Los estudiosos debaten si la primera imagen de Buda se hizo en Gandhara o en Mathura, y cuándo exactamente. Las fechas siguen el reinado de Kanishka.",
+        "zh": "学者对第一尊佛像出自犍陀罗还是马图拉，以及具体年代，意见不一。此处年代依迦腻色迦在位时间而定。"
+      }
+    },
+    {
+      "id": "sasanian-conquest",
+      "start": 241,
+      "type": "collapse",
+      "title": {
+        "en": "Shapur I of Persia defeats the rulers of Gandhara, and Sasanian power spreads into Kushan lands",
+        "es": "Sapor I de Persia derrota a los gobernantes de Gandhara y el poder sasánida se extiende por tierras kushán",
+        "zh": "波斯的沙普尔一世击败犍陀罗的统治者，萨珊势力扩展到贵霜故地"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Gandhara.\" Around 241 CE the area's rulers were defeated by the Sasanians under Shapur I.",
+          "url": "https://www.worldhistory.org/Gandhara/"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Kushano-Sasanian\" (c. 233 to 370), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h36r4"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The British Museum dates the Kushano-Sasanian period from about 233 CE, a few years before this date.",
+        "es": "El Museo Británico fecha el periodo kushano-sasánida desde hacia 233 d. e. c., unos años antes de esta fecha.",
+        "zh": "大英博物馆把贵霜-萨珊时期定在约公元233年起，比此处的年份早几年。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "four-titles",
+      "start": 127,
+      "end": 151,
+      "text": {
+        "en": "Kushan emperors took royal titles from four regions: King of Kings from Bactria, Great King from India, Son of Heaven from China and Emperor from Rome.",
+        "es": "Los emperadores kushán tomaron títulos reales de cuatro regiones: Rey de Reyes de Bactria, Gran Rey de la India, Hijo del Cielo de China y Emperador de Roma.",
+        "zh": "贵霜皇帝借用了四个地区的王号：大夏的“万王之王”、印度的“大王”、中国的“天子”和罗马的“皇帝”。"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Kanishka.\"",
+          "url": "https://www.ebsco.com/research-starters/history/kanishka/"
+        }
+      ]
+    },
+    {
+      "id": "han-name",
+      "start": 30,
+      "end": 127,
+      "text": {
+        "en": "Every kingdom in the region called the ruler the Guishuang king, but the Han court kept calling the people by their old name, Da Yuezhi.",
+        "es": "Todos los reinos de la región llamaban al soberano rey de Guishuang, pero la corte han siguió llamando al pueblo por su antiguo nombre, Da Yuezhi.",
+        "zh": "该地区各国都称其君主为贵霜王，汉朝却仍沿用旧名，称这个民族为大月氏。"
+      },
+      "sources": [
+        {
+          "citation": "Hill, John E. (trans.). Hou Hanshu, chapter 88, section 13.",
+          "url": "https://depts.washington.edu/silkroad/texts/hhshu/hou_han_shu.html"
+        }
+      ]
+    }
+  ]
+}

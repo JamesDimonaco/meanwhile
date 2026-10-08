@@ -28,15 +28,21 @@ function strings(value: unknown, out: string[]): string[] {
   return out;
 }
 
+function hanIn(texts: string[]): Set<string> {
+  return new Set(texts.join("").match(/\p{Script=Han}/gu));
+}
+
+function jsonStrings(dir: string, pick: (doc: Record<string, unknown>) => unknown = (doc) => doc): string[] {
+  const texts: string[] = [];
+  for (const file of fs.readdirSync(path.join(ROOT, dir), { recursive: true, encoding: "utf8" })) {
+    if (file.endsWith(".json")) strings(pick(JSON.parse(fs.readFileSync(path.join(ROOT, dir, file), "utf8"))), texts);
+  }
+  return texts;
+}
+
 /** Every Han character a page can draw from messages/zh and data/**. */
 function shownHan(): Set<string> {
-  const texts: string[] = [];
-  for (const dir of ["messages/zh", "data"]) {
-    for (const file of fs.readdirSync(path.join(ROOT, dir), { recursive: true, encoding: "utf8" })) {
-      if (file.endsWith(".json")) strings(JSON.parse(fs.readFileSync(path.join(ROOT, dir, file), "utf8")), texts);
-    }
-  }
-  return new Set(texts.join("").match(/\p{Script=Han}/gu));
+  return hanIn([...jsonStrings("messages/zh"), ...jsonStrings("data")]);
 }
 
 // Noto Sans SC has no glyph for these, so no subset can carry them; they show in the system font.
@@ -45,29 +51,54 @@ const NOT_IN_NOTO_SANS_SC = new Set(["𣴓"]);
 
 describe("the Chinese web font", () => {
   const main = font("noto-sans-sc-subset.woff2");
+  const culture = font("noto-sans-sc-culture.woff2");
   const wars = font("noto-sans-sc-wars.woff2");
+  const cultureRange = unicodeRange("noto-sans-sc-culture.woff2");
   const warsRange = unicodeRange("noto-sans-sc-wars.woff2");
+  const faces = [main, culture, wars];
 
-  // A character neither subset has is drawn in whatever CJK font the system has, mid-sentence beside Noto (else run pnpm subset-cjk-font).
-  it("covers every Han character in messages/zh and data with one of its two subsets", () => {
+  // A character no subset has is drawn in whatever CJK font the system has, mid-sentence beside Noto (else run pnpm subset-cjk-font).
+  it("covers every Han character in messages/zh and data with one of its subsets", () => {
     const missing = [...shownHan()].filter((ch) => {
       const cp = ch.codePointAt(0)!;
-      return !main.has(cp) && !(wars.has(cp) && warsRange.has(cp)) && !NOT_IN_NOTO_SANS_SC.has(ch);
+      return !main.has(cp) && !(culture.has(cp) && cultureRange.has(cp)) && !(wars.has(cp) && warsRange.has(cp)) && !NOT_IN_NOTO_SANS_SC.has(ch);
     });
     expect(missing.join("")).toBe("");
   });
 
-  // The browser fetches the war subset only for a character in its unicode-range: a character missing from the range
+  // Every page loads the main face, so what the zh UI text and culture names draw must not make a page fetch a second one.
+  it("keeps the characters of messages/zh and culture names in the main subset", () => {
+    const common = hanIn([...jsonStrings("messages/zh"), ...jsonStrings("data/cultures", (doc) => doc.name)]);
+    const missing = [...common].filter((ch) => !main.has(ch.codePointAt(0)!) && !NOT_IN_NOTO_SANS_SC.has(ch));
+    expect(missing.join("")).toBe("");
+  });
+
+  // The browser fetches a narrow subset only for a character in its unicode-range: a character missing from the range
   // falls back to the main subset, which lacks it; one the file lacks downloads it for nothing.
-  it("declares the war subset for exactly the characters it has", () => {
-    expect([...warsRange].sort((a, b) => a - b)).toEqual([...wars].sort((a, b) => a - b));
+  it("declares each narrow subset for exactly the characters it has", () => {
+    for (const [subset, range] of [[culture, cultureRange], [wars, warsRange]] as const) {
+      expect([...range].sort((a, b) => a - b)).toEqual([...subset].sort((a, b) => a - b));
+    }
+  });
+
+  // A character in two files is downloaded twice by a page that draws it in both faces' reach.
+  it("puts no character in two subsets", () => {
+    const seen = new Set<number>();
+    const twice: string[] = [];
+    for (const face of faces) {
+      for (const cp of face) {
+        if (seen.has(cp)) twice.push(String.fromCodePoint(cp));
+        seen.add(cp);
+      }
+    }
+    expect(twice.join("")).toBe("");
   });
 
   it("lists only characters still shown and still missing from Noto Sans SC as exceptions", () => {
     const shown = shownHan();
     for (const ch of NOT_IN_NOTO_SANS_SC) {
       expect(shown.has(ch)).toBe(true);
-      expect(main.has(ch.codePointAt(0)!) || wars.has(ch.codePointAt(0)!)).toBe(false);
+      expect(faces.some((face) => face.has(ch.codePointAt(0)!))).toBe(false);
     }
   });
 });

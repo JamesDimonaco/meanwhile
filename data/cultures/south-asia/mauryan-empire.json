@@ -1,0 +1,232 @@
+{
+  "id": "mauryan-empire",
+  "region": "south-asia",
+  "wikidataId": "Q62943",
+  "name": {
+    "en": "Maurya Empire",
+    "es": "Imperio Maurya",
+    "zh": "孔雀王朝"
+  },
+  "aliases": [
+    "Mauryan Empire",
+    "Mauryan dynasty",
+    "Mauryas",
+    "Ashoka",
+    "Asoka",
+    "Chandragupta Maurya",
+    "Pataliputra",
+    "阿育王",
+    "孔雀帝国"
+  ],
+  "description": {
+    "en": "From Pataliputra, the Mauryas ruled most of the Indian subcontinent. Ashoka, the third king, left edicts cut in rock and stone across his lands, in which he describes the Kalinga war and the moral rule he called dhamma.",
+    "es": "Desde Pataliputra, los maurya gobernaron la mayor parte del subcontinente indio. Ashoka, el tercer rey, dejó edictos grabados en roca y piedra por todo su territorio, en los que describe la guerra de Kalinga y el gobierno moral al que llamó dhamma.",
+    "zh": "孔雀王朝以华氏城为都，统治印度次大陆的大部分地区。第三位国王阿育王在国内各地的岩石和石柱上刻下诏令，讲述羯陵伽战争，也讲述他所说的“法”。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "maurya-period",
+      "earliestStart": -321,
+      "latestStart": -320,
+      "earliestEnd": -184,
+      "latestEnd": -184,
+      "sources": [
+        {
+          "citation": "PeriodO, \"Maurya Period\" (322 to 185 BCE), art-history periodisation.",
+          "url": "http://n2t.net/ark:/99152/p0z5nvhpsq5"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Maurya dynasty\" (ca. 322 B.C.-ca. 185 B.C.), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3k6mc"
+        }
+      ],
+      "periodoId": "p0z5nvhpsq5",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "chandragupta-takes-magadha",
+      "start": -320,
+      "type": "founding",
+      "title": {
+        "en": "Chandragupta Maurya replaces the Nanda king of Magadha and founds the dynasty",
+        "es": "Chandragupta Maurya sustituye al rey nanda de Magadha y funda la dinastía",
+        "zh": "旃陀罗笈多·孔雀取代摩揭陀的难陀王，建立王朝"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Chandragupta Maurya.\" Gives his reign as c. 321 to c. 297 BCE and the last Nanda king, Dhanananda, as ruling to 322/321 BCE.",
+          "url": "https://www.worldhistory.org/Chandragupta_Maurya/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Maurya Empire.\" Dates the empire from 322 BCE.",
+          "url": "https://www.worldhistory.org/Maurya_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "No account from the time survives. Indian chroniclers tell the story differently, and they disagree about Chandragupta's origins. The year is approximate.",
+        "es": "No se conserva ningún relato de la época. Los cronistas indios cuentan la historia de formas distintas y discrepan sobre los orígenes de Chandragupta. El año es aproximado.",
+        "zh": "当时的记述没有留存下来。印度的编年史家讲法各异，对旃陀罗笈多的出身也有分歧。年份只是大致的。"
+      },
+      "place": {
+        "name": {
+          "en": "Pataliputra (Patna)",
+          "es": "Pataliputra (Patna)",
+          "zh": "华氏城（巴特那）"
+        },
+        "lat": 25.6093,
+        "lon": 85.1376
+      }
+    },
+    {
+      "id": "treaty-with-seleucus",
+      "start": -300,
+      "type": "conflict",
+      "title": {
+        "en": "Seleucus I gives up lands along the Indus to Chandragupta in return for 500 elephants",
+        "es": "Seleuco I cede a Chandragupta tierras a lo largo del Indo a cambio de 500 elefantes",
+        "zh": "塞琉古一世将印度河沿岸土地让给旃陀罗笈多，换取五百头战象"
+      },
+      "sources": [
+        {
+          "citation": "Strabo, Geography 15.2.9 (trans. H. L. Jones). Seleucus Nicator gave the Indus-side lands of the Paropamisadae, Arachosia and Gedrosia to Sandrocottus on terms of intermarriage and five hundred elephants.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/15B*.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Chandragupta Maurya.\" Dates the treaty to 301 BCE.",
+          "url": "https://www.worldhistory.org/Chandragupta_Maurya/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Strabo gives no date, and modern accounts place the treaty at about 305 to 301 BCE. The exact lands handed over are also argued over.",
+        "es": "Estrabón no da fecha, y los relatos modernos sitúan el tratado entre hacia 305 y 301 a. e. c. También se discute qué tierras se entregaron exactamente.",
+        "zh": "斯特拉波没有给出年代，现代说法把这项条约放在约公元前305年至301年之间。具体割让了哪些土地同样有争论。"
+      }
+    },
+    {
+      "id": "ashoka-accession",
+      "start": -267,
+      "type": "ruler",
+      "title": {
+        "en": "Ashoka becomes the third Maurya king after his father Bindusara",
+        "es": "Ashoka se convierte en el tercer rey maurya tras su padre Bindusara",
+        "zh": "阿育王继父亲宾头娑罗之后，成为孔雀王朝第三位国王"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Ashoka.\" Gives his reign as 268 to 232 BCE.",
+          "url": "https://www.worldhistory.org/Ashoka/"
+        },
+        {
+          "citation": "Dhammika, Ven. S. (1993). The Edicts of King Asoka, introduction. Says the dates of his life are disputed and notes a two-year war of succession.",
+          "url": "https://www.accesstoinsight.org/lib/authors/dhammika/wheel386.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The exact dates of Ashoka's life are a matter of dispute. Dhammika's account puts his conquest of Kalinga eight years after his coronation, which does not fit 268 BCE exactly.",
+        "es": "Las fechas exactas de la vida de Ashoka son objeto de disputa. El relato de Dhammika sitúa su conquista de Kalinga ocho años después de su coronación, lo que no encaja del todo con 268 a. e. c.",
+        "zh": "阿育王生平的确切年代存在争议。达米卡（Dhammika）的叙述称他在加冕八年后征服羯陵伽，这与公元前268年并不完全吻合。"
+      }
+    },
+    {
+      "id": "kalinga-war",
+      "start": -261,
+      "type": "conflict",
+      "title": {
+        "en": "Ashoka's army conquers Kalinga; his Rock Edict 13 says 100,000 were killed and 150,000 deported",
+        "es": "El ejército de Ashoka conquista Kalinga; su Edicto de Roca 13 dice que murieron 100 000 personas y 150 000 fueron deportadas",
+        "zh": "阿育王的军队征服羯陵伽；他在第十三号摩崖诏令中称，十万人被杀，十五万人被掳走"
+      },
+      "sources": [
+        {
+          "citation": "Dhammika, Ven. S. (1993). The Edicts of King Asoka, Rock Edict 13. Ashoka's own account: one hundred and fifty thousand deported, one hundred thousand killed and many more died. The introduction dates the conquest to 262 BCE.",
+          "url": "https://www.accesstoinsight.org/lib/authors/dhammika/wheel386.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Edicts of Ashoka.\" Dates the Kalinga campaign to c. 260 BCE.",
+          "url": "https://www.worldhistory.org/Edicts_of_Ashoka/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The year is 262 BCE in Dhammika and about 260 BCE in World History Encyclopedia. The casualty numbers are Ashoka's own, and no independent count exists.",
+        "es": "El año es 262 a. e. c. según Dhammika y hacia 260 a. e. c. según la World History Encyclopedia. Las cifras de víctimas son del propio Ashoka y no existe un recuento independiente.",
+        "zh": "达米卡把年份定为公元前262年，《世界历史百科全书》则定为约公元前260年。伤亡数字出自阿育王本人，没有独立的统计。"
+      }
+    },
+    {
+      "id": "edicts-in-stone",
+      "start": -255,
+      "type": "invention",
+      "title": {
+        "en": "Ashoka has edicts cut into rock and pillars at more than thirty places, mostly in Brahmi script",
+        "es": "Ashoka manda grabar edictos en rocas y pilares en más de treinta lugares, la mayoría en escritura brahmi",
+        "zh": "阿育王下令在三十多处的岩石和石柱上刻写诏令，大多使用婆罗米文"
+      },
+      "sources": [
+        {
+          "citation": "Dhammika, Ven. S. (1993). The Edicts of King Asoka, introduction. Edicts at more than thirty places in India, Nepal, Pakistan and Afghanistan, mostly in Brahmi, with one bilingual Greek and Aramaic edict in Afghanistan; the Kalsi version is dated 256 BCE.",
+          "url": "https://www.accesstoinsight.org/lib/authors/dhammika/wheel386.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Edicts of Ashoka.\" Counts 33 inscriptions on pillars, rocks and cave walls.",
+          "url": "https://www.worldhistory.org/Edicts_of_Ashoka/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The edicts were cut over many years. The year is that Dhammika gives for the Kalsi version, and others are earlier or later.",
+        "es": "Los edictos se grabaron a lo largo de muchos años. El año es el que da Dhammika para la versión de Kalsi; otros son anteriores o posteriores.",
+        "zh": "这些诏令是在多年间陆续刻成的。此处年份是达米卡为卡尔西版本给出的时间，其他诏令有的更早，有的更晚。"
+      }
+    },
+    {
+      "id": "shunga-coup",
+      "start": -184,
+      "type": "collapse",
+      "title": {
+        "en": "The general Pushyamitra kills the last Maurya king and founds the Shunga dynasty",
+        "es": "El general Pushyamitra mata al último rey maurya y funda la dinastía shunga",
+        "zh": "将军弗沙蜜多罗杀死孔雀王朝末代国王，建立巽伽王朝"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Maurya Empire.\" The last Mauryan ruler was killed by his commander-in-chief in 185 BCE, and Pushyamitra founded the Shunga dynasty.",
+          "url": "https://www.worldhistory.org/Maurya_Empire/"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Maurya dynasty\" (ca. 322 B.C.-ca. 185 B.C.), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3k6mc"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "five-greek-kings",
+      "start": -261,
+      "end": -231,
+      "text": {
+        "en": "In Rock Edict 13, Ashoka names five Greek-ruled kingdoms where he says conquest by Dhamma had been won: those of Antiochos, Ptolemy, Antigonos, Magas and Alexander.",
+        "es": "En el Edicto de Roca 13, Ashoka nombra cinco reinos de gobernantes griegos donde dice que se había logrado la conquista por el Dhamma: los de Antíoco, Ptolomeo, Antígono, Magas y Alejandro.",
+        "zh": "阿育王在第十三号摩崖诏令中点名五位希腊系君主的国度，称“以法征服”已在那里实现：安条克、托勒密、安提柯、马伽斯和亚历山大。"
+      },
+      "sources": [
+        {
+          "citation": "Dhammika, Ven. S. (1993). The Edicts of King Asoka, Rock Edict 13 and note 28. Identifies them as Antiochos II of Syria, Ptolemy II of Egypt, Antigonos Gonatas of Macedonia, Magas of Cyrene and Alexander of Epirus.",
+          "url": "https://www.accesstoinsight.org/lib/authors/dhammika/wheel386.html"
+        }
+      ]
+    }
+  ]
+}

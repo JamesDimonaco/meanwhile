@@ -1,0 +1,339 @@
+{
+  "id": "mughal-empire",
+  "region": "south-asia",
+  "wikidataId": "Q33296",
+  "name": {
+    "en": "Mughal Empire",
+    "es": "Imperio mogol",
+    "zh": "莫卧儿帝国"
+  },
+  "aliases": [
+    "Mughals",
+    "Moghul Empire",
+    "Mogul Empire",
+    "Timurid India"
+  ],
+  "description": {
+    "en": "Founded by Babur, a descendant of Timur, after he won at Panipat in 1526. At its widest around 1700 it held most of the subcontinent. It lost real power through the 1700s, and the British deposed its last emperor in 1857.",
+    "es": "Fundado por Babur, descendiente de Tamerlán, tras su victoria en Panipat en 1526. En su máxima extensión, hacia 1700, abarcaba la mayor parte del subcontinente. Perdió poder real durante el siglo XVIII y los británicos depusieron a su último emperador en 1857.",
+    "zh": "由帖木儿的后裔巴布尔在1526年帕尼帕特之战获胜后建立。约1700年鼎盛时控制次大陆大部分地区。18世纪实权丧失，1857年英国人废黜了最后一位皇帝。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "mughal-period",
+      "earliestStart": 1526,
+      "latestStart": 1526,
+      "earliestEnd": 1857,
+      "latestEnd": 1857,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Mughal dynasty\" (1526 – 1805), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h3bpj"
+        },
+        {
+          "citation": "\"Mughal Empire.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mughal-empire"
+        }
+      ],
+      "periodoId": "p08m57h3bpj",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Dated here to 1857, when the British deposed Bahadur Shah II. The British Museum definition ends in 1805. After the East India Company took Delhi in 1803 the emperor was a figurehead under its control.",
+        "es": "Se fecha aquí en 1857, cuando los británicos depusieron a Bahadur Shah II. La definición del Museo Británico termina en 1805. Tras la toma de Delhi por la Compañía de las Indias Orientales en 1803, el emperador fue una figura sin poder bajo su control.",
+        "zh": "此处断至1857年，即英国人废黜巴哈杜尔·沙二世之时。大英博物馆的定义止于1805年。1803年东印度公司攻占德里后，皇帝成为受其控制的傀儡。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "great-mughals",
+      "name": {
+        "en": "The Great Mughals",
+        "es": "Los grandes mogoles",
+        "zh": "大莫卧儿时期"
+      },
+      "start": 1526,
+      "end": 1707,
+      "sources": [
+        {
+          "citation": "\"Mughal Empire.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mughal-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mughal Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        }
+      ]
+    },
+    {
+      "id": "decline",
+      "name": {
+        "en": "Decline",
+        "es": "Decadencia",
+        "zh": "衰落时期"
+      },
+      "start": 1707,
+      "end": 1857,
+      "sources": [
+        {
+          "citation": "\"Mughal Empire.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mughal-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mughal Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "panipat-1526",
+      "start": 1526,
+      "type": "founding",
+      "title": {
+        "en": "Babur defeats Ibrahim Lodi at the First Battle of Panipat with guns and cannon, and takes Delhi",
+        "es": "Babur derrota a Ibrahim Lodi en la primera batalla de Panipat con armas de fuego y cañones, y toma Delhi",
+        "zh": "巴布尔在第一次帕尼帕特战役中以火器和火炮击败易卜拉欣·洛迪，占领德里"
+      },
+      "sources": [
+        {
+          "citation": "\"Mughal Empire.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mughal-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mughal Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Panipat",
+          "es": "Panipat",
+          "zh": "帕尼帕特"
+        },
+        "lat": 29.3909,
+        "lon": 76.9635
+      }
+    },
+    {
+      "id": "akbar",
+      "start": 1556,
+      "end": 1605,
+      "type": "ruler",
+      "title": {
+        "en": "Akbar becomes emperor at thirteen and rules until 1605, extending the empire across most of India north of the Godavari",
+        "es": "Akbar se convierte en emperador a los trece años y reina hasta 1605, extendiendo el imperio por la mayor parte de la India al norte del Godavari",
+        "zh": "阿克巴十三岁即位，在位至1605年，将帝国扩展到戈达瓦里河以北的印度大部分地区"
+      },
+      "sources": [
+        {
+          "citation": "\"Mughal Empire.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mughal-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mughal Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "fatehpur-sikri",
+      "start": 1571,
+      "end": 1585,
+      "type": "invention",
+      "title": {
+        "en": "Akbar founds Fatehpur Sikri in red sandstone as his capital, and leaves it for the Punjab around 1585",
+        "es": "Akbar funda Fatehpur Sikri en piedra arenisca roja como su capital y la deja por el Punyab hacia 1585",
+        "zh": "阿克巴以红砂岩建造法塔赫布尔·西格里作为都城，约1585年前往旁遮普后离开"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Fatehpur Sikri.\"",
+          "url": "https://en.wikipedia.org/wiki/Fatehpur_Sikri"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mughal Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Fatehpur Sikri",
+          "es": "Fatehpur Sikri",
+          "zh": "法塔赫布尔·西格里"
+        },
+        "lat": 27.094,
+        "lon": 77.6619
+      }
+    },
+    {
+      "id": "taj-mahal",
+      "start": 1632,
+      "type": "invention",
+      "title": {
+        "en": "Shah Jahan begins the Taj Mahal at Agra as a tomb for his wife Mumtaz Mahal, who died in 1631",
+        "es": "Shah Jahan comienza el Taj Mahal en Agra como tumba para su esposa Mumtaz Mahal, fallecida en 1631",
+        "zh": "沙·贾汉在阿格拉开始修建泰姬陵，作为其妻慕塔芝·玛哈尔的陵墓，她于1631年去世"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Taj Mahal.\"",
+          "url": "https://www.worldhistory.org/Taj_Mahal/"
+        },
+        {
+          "citation": "\"Mughal Empire.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mughal-empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Agra",
+          "es": "Agra",
+          "zh": "阿格拉"
+        },
+        "lat": 27.1751,
+        "lon": 78.0421
+      }
+    },
+    {
+      "id": "aurangzeb",
+      "start": 1658,
+      "end": 1707,
+      "type": "ruler",
+      "title": {
+        "en": "Aurangzeb wins the war of succession and rules until 1707; the empire reaches its greatest extent around 1700",
+        "es": "Aurangzeb gana la guerra de sucesión y reina hasta 1707; el imperio alcanza su mayor extensión hacia 1700",
+        "zh": "奥朗则布赢得继位之战，在位至1707年；帝国约在1700年达到最大疆域"
+      },
+      "sources": [
+        {
+          "citation": "\"Mughal Empire.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mughal-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mughal Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "nader-shah",
+      "start": 1739,
+      "type": "conflict",
+      "title": {
+        "en": "Nader Shah of Persia loots Delhi and carries off the Peacock Throne and other imperial treasures",
+        "es": "Nader Shah de Persia saquea Delhi y se lleva el Trono del Pavo Real y otros tesoros imperiales",
+        "zh": "波斯的纳迪尔沙洗劫德里，掠走孔雀宝座及其他皇家珍宝"
+      },
+      "sources": [
+        {
+          "citation": "\"Mughal Empire.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mughal-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Mughal Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Delhi",
+          "es": "Delhi",
+          "zh": "德里"
+        },
+        "lat": 28.6562,
+        "lon": 77.241
+      }
+    },
+    {
+      "id": "delhi-1803",
+      "start": 1803,
+      "type": "conflict",
+      "title": {
+        "en": "Gerard Lake's army defeats the Marathas at Delhi on 11 September and puts the emperor Shah Alam II under Company control",
+        "es": "El ejército de Gerard Lake derrota a los maratas en Delhi el 11 de septiembre y pone al emperador Shah Alam II bajo control de la Compañía",
+        "zh": "杰拉德·莱克的军队于9月11日在德里击败马拉塔人，将皇帝沙·阿拉姆二世置于东印度公司控制之下"
+      },
+      "sources": [
+        {
+          "citation": "\"Marāṭhā Wars.\" EBSCO Research Starters.",
+          "url": "https://www.ebsco.com/research-starters/history/maratha-wars"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Delhi (1803).\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Delhi_(1803)"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Delhi",
+          "es": "Delhi",
+          "zh": "德里"
+        },
+        "lat": 28.6562,
+        "lon": 77.241
+      }
+    },
+    {
+      "id": "deposition-1857",
+      "start": 1857,
+      "type": "collapse",
+      "title": {
+        "en": "After the Indian Rebellion the British take Delhi, depose the last emperor Bahadur Shah II, and exile him to Rangoon",
+        "es": "Tras la rebelión india, los británicos toman Delhi, deponen al último emperador Bahadur Shah II y lo exilian a Rangún",
+        "zh": "印度民族起义之后，英国人攻占德里，废黜末代皇帝巴哈杜尔·沙二世，并将其流放至仰光"
+      },
+      "sources": [
+        {
+          "citation": "\"Mughal Empire.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mughal-empire"
+        },
+        {
+          "citation": "Wikipedia (English). \"Indian Rebellion of 1857.\"",
+          "url": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Delhi",
+          "es": "Delhi",
+          "zh": "德里"
+        },
+        "lat": 28.6562,
+        "lon": 77.241
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "taj-materials",
+      "start": 1632,
+      "end": 1649,
+      "text": {
+        "en": "The Taj Mahal took 17 years to build; its white Makrana marble came from Rajasthan and is inlaid with amethyst, coral, garnet, jade, lapis lazuli and turquoise.",
+        "es": "El Taj Mahal tardó 17 años en construirse; su mármol blanco de Makrana procedía de Rajastán y está incrustado de amatista, coral, granate, jade, lapislázuli y turquesa.",
+        "zh": "泰姬陵历时17年建成；其白色马克拉纳大理石产自拉贾斯坦，镶嵌有紫水晶、珊瑚、石榴石、玉、青金石和绿松石。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Taj Mahal.\"",
+          "url": "https://www.worldhistory.org/Taj_Mahal/"
+        }
+      ]
+    }
+  ]
+}
