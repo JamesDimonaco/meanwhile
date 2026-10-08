@@ -334,6 +334,66 @@
       "id": "timurid-empire",
       "region": "middle-east",
       "label": "Timurid Empire"
+    },
+    {
+      "id": "indus-valley",
+      "region": "south-asia",
+      "label": "Indus Valley civilisation"
+    },
+    {
+      "id": "mauryan-empire",
+      "region": "south-asia",
+      "label": "Mauryan Empire"
+    },
+    {
+      "id": "kushan-empire",
+      "region": "south-asia",
+      "label": "Kushan Empire"
+    },
+    {
+      "id": "gupta-empire",
+      "region": "south-asia",
+      "label": "Gupta Empire"
+    },
+    {
+      "id": "pala-empire",
+      "region": "south-asia",
+      "label": "Pala Empire"
+    },
+    {
+      "id": "chola-dynasty",
+      "region": "south-asia",
+      "label": "Chola dynasty"
+    },
+    {
+      "id": "anuradhapura-kingdom",
+      "region": "south-asia",
+      "label": "Anuradhapura Kingdom"
+    },
+    {
+      "id": "delhi-sultanate",
+      "region": "south-asia",
+      "label": "Delhi Sultanate"
+    },
+    {
+      "id": "vijayanagara-empire",
+      "region": "south-asia",
+      "label": "Vijayanagara Empire"
+    },
+    {
+      "id": "mughal-empire",
+      "region": "south-asia",
+      "label": "Mughal Empire"
+    },
+    {
+      "id": "maratha-empire",
+      "region": "south-asia",
+      "label": "Maratha Empire"
+    },
+    {
+      "id": "sikh-empire",
+      "region": "south-asia",
+      "label": "Sikh Empire"
     }
   ]
 }

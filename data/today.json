@@ -65,5 +65,17 @@
   "mamluk-sultanate": ["EG", "SY"],
   "ottoman-empire": ["TR"],
   "safavid-empire": ["IR"],
-  "timurid-empire": ["UZ"]
+  "timurid-empire": ["UZ"],
+  "indus-valley": ["PK", "IN"],
+  "mauryan-empire": ["IN"],
+  "kushan-empire": ["PK", "AF"],
+  "gupta-empire": ["IN"],
+  "pala-empire": ["BD", "IN"],
+  "chola-dynasty": ["IN"],
+  "anuradhapura-kingdom": ["LK"],
+  "delhi-sultanate": ["IN"],
+  "vijayanagara-empire": ["IN"],
+  "mughal-empire": ["IN", "PK"],
+  "maratha-empire": ["IN"],
+  "sikh-empire": ["PK", "IN"]
 }
