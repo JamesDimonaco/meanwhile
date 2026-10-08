@@ -4,10 +4,11 @@
   "wikidataId": "Q184536",
   "name": {
     "en": "Mali Empire",
-    "es": "Imperio de Malí",
+    "es": "Imperio de Mali",
     "zh": "马里帝国"
   },
   "aliases": [
+    "Imperio de Malí",
     "Mali",
     "Manden",
     "Mandinka Empire",
@@ -20,9 +21,9 @@
     "Malinke"
   ],
   "description": {
-    "en": "Founded by the Mandinka leader Sundiata after he defeated the Sosso, Mali controlled the gold and salt routes of the western Sahel. Under Mansa Musa it reached Timbuktu and Gao. Songhai took most of its lands in the 15th century.",
-    "es": "Fundado por el líder mandinga Sundiata tras derrotar a los sosso, Malí controló las rutas del oro y la sal del Sahel occidental. Con Mansa Musa alcanzó Tombuctú y Gao. Los songhai se hicieron con la mayor parte de sus tierras en el siglo XV.",
-    "zh": "马里由曼丁卡首领松迪亚塔在击败苏苏人后建立，控制着西萨赫勒的黄金与食盐商路。曼萨·穆萨时期，其势力抵达廷巴克图和加奥。15世纪，桑海夺取了它的大部分领土。"
+    "en": "Founded by the Mandinka leader Sundiata after he defeated the Sosso, Mali controlled the gold and salt routes of the western Sahel. Under Mansa Musa it reached Timbuktu and Gao. From the 1460s Songhai took over much of what remained of its territory.",
+    "es": "Fundado por el líder mandinga Sundiata tras derrotar a los sosso, Malí controló las rutas del oro y la sal del Sahel occidental. Con Mansa Musa alcanzó Tombuctú y Gao. A partir de la década de 1460, los songhai se hicieron con buena parte de lo que quedaba de su territorio.",
+    "zh": "马里由曼丁卡首领松迪亚塔在击败苏苏人后建立，控制着西萨赫勒的黄金与食盐商路。曼萨·穆萨时期，其势力抵达廷巴克图和加奥。自1460年代起，桑海夺取了它剩余领土的大部分。"
   },
   "reviewed": {
     "es": false,
@@ -31,7 +32,7 @@
   "periods": [
     {
       "id": "mali-empire",
-      "earliestStart": 1215,
+      "earliestStart": 1230,
       "latestStart": 1235,
       "earliestEnd": 1600,
       "latestEnd": 1670,
@@ -41,8 +42,8 @@
           "url": "https://www.worldhistory.org/Mali_Empire/"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Mali empire.\"",
-          "url": "https://www.britannica.com/place/Mali-historical-empire-Africa"
+          "citation": "Wikipedia. \"Mali Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mali_Empire"
         },
         {
           "citation": "Wikidata item Q184536.",
@@ -52,9 +53,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The founding date is c. 1230 to 1240 (the Kirina battle is dated 1230 or 1235). Mali lost most of its territory to Songhai from the 1460s, and its last rulers survive in the sources into the 1600s; end dates in the literature range from c. 1600 to 1670.",
-        "es": "La fecha de fundación se sitúa entre 1230 y 1240 (la batalla de Kirina se fecha en 1230 o 1235). Malí perdió la mayor parte de su territorio ante los songhai desde la década de 1460, y sus últimos gobernantes aparecen en las fuentes hasta el siglo XVII; la bibliografía fija el final entre hacia 1600 y 1670.",
-        "zh": "建国年代约在1230至1240年之间（基里纳之战定于1230年或1235年）。自1460年代起，马里大部分领土被桑海夺取，其末代统治者在史料中延续到17世纪；文献给出的终点从约1600年到1670年不等。"
+        "en": "Wikidata dates the empire c. 1230 to 1670. World History Encyclopedia gives 1240 to 1645 and says the empire collapsed in the 1460s; Wikipedia puts the battle of Kirina at c. 1235 and the end of the empire at about 1610, after a Moroccan victory at Djenné in 1599.",
+        "es": "Wikidata fecha el imperio entre hacia 1230 y 1670. La World History Encyclopedia da 1240-1645 y dice que el imperio se derrumbó en la década de 1460; Wikipedia sitúa la batalla de Kirina hacia 1235 y el final del imperio hacia 1610, tras una victoria marroquí en Djenné en 1599.",
+        "zh": "维基数据将该帝国定为约1230年至1670年。世界历史百科全书给出1240至1645年，并称帝国在1460年代崩溃；维基百科把基里纳之战定在约1235年，把帝国的终结定在约1610年，此前摩洛哥人于1599年在杰内获胜。"
       }
     }
   ],
@@ -74,15 +75,15 @@
           "url": "https://www.worldhistory.org/Sundiata_Keita/"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Mali empire.\"",
-          "url": "https://www.britannica.com/place/Mali-historical-empire-Africa"
+          "citation": "Wikipedia. \"Sundiata Keita.\"",
+          "url": "https://en.wikipedia.org/wiki/Sundiata_Keita"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The account comes from griot oral tradition and the Sundiata epic, written down only in modern times. Britannica dates the victory to 1230, World History Encyclopedia to 1235.",
-        "es": "El relato procede de la tradición oral de los griots y de la epopeya de Sundiata, puesta por escrito solo en época moderna. Britannica fecha la victoria en 1230 y la World History Encyclopedia en 1235.",
-        "zh": "这一叙述出自说唱艺人的口述传统和《松迪亚塔史诗》，近代才被记录成文。大英百科全书将胜利定在1230年，世界历史百科全书定在1235年。"
+        "en": "The account comes from griot oral tradition and the Sundiata epic, put into writing later. Wikidata dates the empire's start to c. 1230; World History Encyclopedia and Wikipedia give c. 1235 for Kirina.",
+        "es": "El relato procede de la tradición oral de los griots y de la epopeya de Sundiata, puesta por escrito más tarde. Wikidata fecha el inicio del imperio hacia 1230; la World History Encyclopedia y Wikipedia dan hacia 1235 para Kirina.",
+        "zh": "这一叙述出自说唱艺人的口述传统和《松迪亚塔史诗》，后来才被记录成文。维基数据把帝国的开端定在约1230年；世界历史百科全书和维基百科则把基里纳之战定在约1235年。"
       }
     },
     {
@@ -90,9 +91,9 @@
       "start": 1240,
       "type": "conflict",
       "title": {
-        "en": "Sundiata's forces take the old Ghana capital",
-        "es": "Las fuerzas de Sundiata toman la antigua capital de Ghana",
-        "zh": "松迪亚塔的军队攻占加纳旧都"
+        "en": "Mali takes over the lands of the old Ghana Empire; one account dates Sundiata's capture of its capital to 1240",
+        "es": "Malí se hace con las tierras del antiguo Imperio de Ghana; un relato fecha en 1240 la toma de su capital por Sundiata",
+        "zh": "马里接管古加纳帝国的土地；有一种说法把松迪亚塔攻占其都城定在1240年"
       },
       "sources": [
         {
@@ -100,14 +101,15 @@
           "url": "https://www.worldhistory.org/Mali_Empire/"
         },
         {
-          "citation": "Levtzion, Nehemia (1973). Ancient Ghana and Mali. Methuen."
+          "citation": "Wikipedia. \"Sundiata Keita.\"",
+          "url": "https://en.wikipedia.org/wiki/Sundiata_Keita"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Traditional dating; sources vary between 1235 and 1240.",
-        "es": "Datación tradicional; las fuentes varían entre 1235 y 1240.",
-        "zh": "传统纪年；各来源在1235至1240年之间不一。"
+        "en": "Only World History Encyclopedia gives 1240 for the capture of the capital. Wikipedia says only that the lands of the old Ghana Empire were conquered, without a date.",
+        "es": "Solo la World History Encyclopedia da 1240 para la toma de la capital. Wikipedia dice únicamente que las tierras del antiguo Imperio de Ghana fueron conquistadas, sin fecha.",
+        "zh": "只有世界历史百科全书把攻占都城定在1240年。维基百科只说古加纳帝国的土地被征服，没有给出年份。"
       }
     },
     {
@@ -126,11 +128,20 @@
           "url": "https://www.ebsco.com/research-starters/history/mansa-musas-pilgrimage-mecca"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Mūsā I of Mali.\"",
-          "url": "https://www.britannica.com/summary/Musa-I-of-Mali"
+          "citation": "World History Encyclopedia. \"Mansa Musa I.\"",
+          "url": "https://www.worldhistory.org/Mansa_Musa_I/"
+        },
+        {
+          "citation": "Wikipedia. \"Mansa Musa.\"",
+          "url": "https://en.wikipedia.org/wiki/Mansa_Musa"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "EBSCO and Wikipedia's Mansa Musa article give 1324 to 1325; Wikipedia's Mali Empire article gives 1324 to 1326. The effect on Egypt's gold price comes from al-Umari, who wrote in Cairo some years later.",
+        "es": "EBSCO y el artículo de Wikipedia sobre Mansa Musa dan 1324-1325; el artículo de Wikipedia sobre el Imperio de Mali da 1324-1326. El efecto sobre el precio del oro en Egipto procede de al-Umari, que escribió en El Cairo unos años después.",
+        "zh": "EBSCO和维基百科的曼萨·穆萨条目给出1324至1325年；维基百科的马里帝国条目给出1324至1326年。黄金价格受到的影响出自几年后在开罗写作的乌马里。"
+      }
     },
     {
       "id": "timbuktu-mosques",
@@ -150,9 +161,18 @@
         {
           "citation": "EBSCO Research Starters. \"Mansa Musa's Pilgrimage to Mecca.\"",
           "url": "https://www.ebsco.com/research-starters/history/mansa-musas-pilgrimage-mecca"
+        },
+        {
+          "citation": "Wikipedia. \"Mansa Musa.\"",
+          "url": "https://en.wikipedia.org/wiki/Mansa_Musa"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia credits architects Musa brought back with building mosques at Gao and Timbuktu, with the Djinguereber mosque finished by 1330. Wikipedia notes that modern scholarship questions whether his Andalusian recruit al-Sahili designed it and points to existing West African building traditions.",
+        "es": "La World History Encyclopedia atribuye a arquitectos traídos por Musa la construcción de mezquitas en Gao y Tombuctú, con la mezquita de Djinguereber terminada hacia 1330. Wikipedia señala que la investigación actual duda de que su reclutado andalusí al-Sahili la diseñara y apunta a las tradiciones constructivas de África occidental.",
+        "zh": "世界历史百科全书称穆萨带回的建筑师在加奥和廷巴克图修建了清真寺，金古雷伯清真寺至1330年建成。维基百科指出，现代研究质疑他招募的安达卢斯人萨希利是否设计了该寺，并强调当地既有的西非建筑传统。"
+      }
     },
     {
       "id": "ibn-battuta",
@@ -160,29 +180,39 @@
       "end": 1353,
       "type": "ruler",
       "title": {
-        "en": "Ibn Battuta stays in Mali under Mansa Sulayman and records a peaceful, orderly country",
-        "es": "Ibn Battuta permanece en Malí bajo Mansa Sulayman y describe un país pacífico y ordenado",
-        "zh": "伊本·白图泰在曼萨·苏莱曼治下的马里逗留，记下一个和平有序的国家"
+        "en": "Ibn Battuta stays in Mali under Mansa Sulayman and writes that there is complete security in the country",
+        "es": "Ibn Battuta permanece en Malí bajo Mansa Sulayman y escribe que en el país reina una seguridad total",
+        "zh": "伊本·白图泰在曼萨·苏莱曼治下的马里逗留，并写道该国十分安全"
       },
       "sources": [
         {
-          "citation": "Orosz, Kenneth J., \"Ibn Battuta on Mali\" (extracts from the Rihla, 1352-53), Buffalo State University.",
+          "citation": "Ibn Battuta, Travels in Africa 1325-1354 (extracts from the Rihla, Mali 1352-53), hosted by T. Corse, Tennessee State University.",
+          "url": "https://faculty.tnstate.edu/tcorse/h120/ibn_battuta.htm"
+        },
+        {
+          "citation": "Orosz, Kenneth J., \"Ibn Battuta on Mali\" (extracts from the Rihla), Buffalo State University.",
           "url": "https://faculty.buffalostate.edu/oroszkj/Global%20I/Ibn%20Batuta%20on%20Mali.pdf"
         },
         {
-          "citation": "Hamdun, Said & King, Noël (1975). Ibn Battuta in Black Africa. Rex Collings."
+          "citation": "Wikipedia. \"Mali Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mali_Empire"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "note": {
+        "en": "Ibn Battuta reached the capital on 28 June 1352 and left on 27 February 1353, by the dates in the translation. He also called Sulayman a miserly king.",
+        "es": "Ibn Battuta llegó a la capital el 28 de junio de 1352 y la dejó el 27 de febrero de 1353, según las fechas de la traducción. También describió a Sulayman como un rey avaro.",
+        "zh": "依译本所给日期，伊本·白图泰于1352年6月28日抵达都城，1353年2月27日离开。他还称苏莱曼是个吝啬的国王。"
+      }
     },
     {
       "id": "songhai-takes-over",
       "start": 1468,
       "type": "collapse",
       "title": {
-        "en": "Songhai under Sunni Ali takes Timbuktu and most of Mali's northern and eastern lands",
-        "es": "Los songhai de Sunni Ali toman Tombuctú y la mayor parte de las tierras septentrionales y orientales de Malí",
-        "zh": "桑海在松尼·阿里率领下夺取廷巴克图以及马里北部和东部的大部分领土"
+        "en": "Songhai under Sunni Ali takes Timbuktu and takes over much of what remained of Mali's territory",
+        "es": "Los songhai de Sunni Ali toman Tombuctú y se hacen con buena parte de lo que quedaba del territorio de Malí",
+        "zh": "桑海在松尼·阿里率领下夺取廷巴克图，并接管马里剩余领土的大部分"
       },
       "sources": [
         {
@@ -196,9 +226,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Sources give 1468 or 1469 for Timbuktu, which the Tuareg had held since the 1430s. How much of Mali's heartland fell to Songhai is debated, and a Mali state continued on the upper Niger into the 1600s.",
-        "es": "Las fuentes dan 1468 o 1469 para Tombuctú, que los tuareg tenían desde la década de 1430. Se discute cuánto del núcleo de Malí cayó ante los songhai, y un Estado de Malí continuó en el alto Níger hasta el siglo XVII.",
-        "zh": "各来源将廷巴克图的陷落定在1468年或1469年，该城自1430年代起由图阿雷格人控制。马里腹地有多少落入桑海之手尚有争议，上尼日尔河一带的马里政权延续到17世纪。"
+        "en": "EBSCO and Wikipedia give 1468 for Timbuktu; World History Encyclopedia's Songhai article says Songhai held it by 1469. Wikipedia says the Tuareg took the city from Mali in 1433 to 1434. How much of Mali's heartland fell is debated: World History Encyclopedia says Sunni Ali conquered the rump of Mali around 1468, while Wikipedia has Songhai sacking Mali's capital in 1544 to 1545 and a Mali state surviving into the 1600s.",
+        "es": "EBSCO y Wikipedia dan 1468 para Tombuctú; el artículo de la World History Encyclopedia sobre los songhai dice que la controlaban en 1469. Wikipedia dice que los tuareg se la quitaron a Malí en 1433-1434. Se discute cuánto del núcleo de Malí cayó: la World History Encyclopedia dice que Sunni Ali conquistó el resto de Malí hacia 1468, mientras que Wikipedia sitúa el saqueo de la capital maliense por los songhai en 1544-1545 y un Estado de Malí que sobrevive hasta el siglo XVII.",
+        "zh": "EBSCO和维基百科把廷巴克图的陷落定在1468年；世界历史百科全书的桑海条目称桑海至1469年已控制该城。维基百科称图阿雷格人于1433至1434年从马里手中夺走该城。马里腹地有多少落入桑海之手尚有争议：世界历史百科全书称松尼·阿里约在1468年征服了马里残余部分，维基百科则称桑海于1544至1545年洗劫马里都城，马里政权延续到17世纪。"
       }
     }
   ],
