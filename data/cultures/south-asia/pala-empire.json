@@ -1,0 +1,254 @@
+{
+  "id": "pala-empire",
+  "region": "south-asia",
+  "wikidataId": "Q668412",
+  "name": {
+    "en": "Pala Empire",
+    "es": "Dinastía Pala",
+    "zh": "波罗王朝"
+  },
+  "aliases": [
+    "Pala dynasty",
+    "Palas",
+    "Pala Empire of Bengal"
+  ],
+  "description": {
+    "en": "Buddhist kings of Bengal and Bihar from the 8th to the 12th century. The Palas fought for Kanauj, founded the Somapura monastery at Paharpur and lost Bengal to the Senas.",
+    "es": "Reyes budistas de Bengala y Bihar entre los siglos VIII y XII. Los pala disputaron Kanauj, fundaron el monasterio de Somapura en Paharpur y perdieron Bengala ante los sena.",
+    "zh": "8至12世纪统治孟加拉和比哈尔的佛教王朝。波罗诸王争夺过曲女城，在帕哈尔布尔建立了苏摩补罗寺，最终在孟加拉被塞纳人取代。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "pala-period",
+      "earliestStart": 750,
+      "latestStart": 756,
+      "earliestEnd": 1130,
+      "latestEnd": 1174,
+      "sources": [
+        {
+          "citation": "Banglapedia. \"Pala Dynasty.\"",
+          "url": "https://en.banglapedia.org/index.php/Pala_Dynasty"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Gopala.\""
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates Gopala's reign from about 750 and Banglapedia from about 756. The last Pala kings are dated unevenly, and a Pala line lingered in Bihar after the Senas held Bengal, so the end is a range.",
+        "es": "Britannica sitúa el reinado de Gopala desde hacia 750 y Banglapedia desde hacia 756. Los últimos reyes pala se fechan de forma desigual y una línea pala subsistió en Bihar cuando los sena ya dominaban Bengala, así que el final es un intervalo.",
+        "zh": "《大英百科全书》将戈帕拉的统治定在约750年，Banglapedia则定在约756年。末代波罗诸王的年代说法不一，塞纳人控制孟加拉后，波罗的一支仍在比哈尔延续，因此终点是一个区间。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "gopala-chosen",
+      "start": 756,
+      "type": "founding",
+      "title": {
+        "en": "Regional chiefs choose Gopala as king to end the anarchy known as matsyanyaya, starting the Pala line",
+        "es": "Los jefes regionales eligen rey a Gopala para acabar con la anarquía llamada matsyanyaya, y comienza la dinastía pala",
+        "zh": "各地首领推选戈帕拉为王，以结束被称为“鱼律”（matsyanyaya）的无政府状态，波罗王朝由此开始"
+      },
+      "sources": [
+        {
+          "citation": "Banglapedia. \"Gopala.\"",
+          "url": "https://en.banglapedia.org/index.php/Gopala"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Gopala.\""
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The accession is dated between about 750 and 756. The election story comes from the Khalimpur copper plate, issued under his son Dharmapala.",
+        "es": "La subida al trono se fecha entre hacia 750 y 756. El relato de la elección procede de la placa de cobre de Khalimpur, emitida bajo su hijo Dharmapala.",
+        "zh": "即位时间在约750年至756年之间。推选之说出自其子达摩波罗时期颁行的卡利姆布尔铜板铭文。"
+      }
+    },
+    {
+      "id": "kanauj-struggle",
+      "start": 780,
+      "end": 810,
+      "type": "conflict",
+      "title": {
+        "en": "Dharmapala fights the Gurjara-Pratiharas and Rashtrakutas for Kanauj and installs his own candidate, Chakrayudha, on its throne",
+        "es": "Dharmapala combate a los gurjara-pratihara y a los rashtrakuta por Kanauj e instala en su trono a su candidato, Chakrayudha",
+        "zh": "达摩波罗与古尔扎拉-普拉蒂哈拉人和拉施特拉库塔人争夺曲女城，并扶植自己属意的查克拉尤达登上王位"
+      },
+      "sources": [
+        {
+          "citation": "Banglapedia. \"Dharmapala.\"",
+          "url": "https://en.banglapedia.org/index.php/Dharmapala"
+        },
+        {
+          "citation": "Banglapedia. \"Pala Dynasty.\"",
+          "url": "https://en.banglapedia.org/index.php/Pala_Dynasty"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date Dharmapala's reign to about 770–810 (Britannica) or 781–821 (Banglapedia), so the span of the struggle is approximate.",
+        "es": "Las fuentes fechan el reinado de Dharmapala hacia 770–810 (Britannica) o 781–821 (Banglapedia), por lo que la duración de la lucha es aproximada.",
+        "zh": "各来源将达摩波罗在位时间定为约770至810年（《大英百科全书》）或781至821年（Banglapedia），因此这场争夺的起讫年份只是大致估计。"
+      }
+    },
+    {
+      "id": "somapura",
+      "start": 790,
+      "type": "invention",
+      "title": {
+        "en": "Dharmapala founds the Somapura monastery at Paharpur, which grows into a leading centre of Buddhist learning",
+        "es": "Dharmapala funda el monasterio de Somapura en Paharpur, que se convierte en un importante centro de estudios budistas",
+        "zh": "达摩波罗在帕哈尔布尔创建苏摩补罗寺，该寺后来发展为佛教学问的重要中心"
+      },
+      "sources": [
+        {
+          "citation": "Banglapedia. \"Paharpur.\"",
+          "url": "https://en.banglapedia.org/index.php/Paharpur"
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Ruins of the Buddhist Vihara at Paharpur, Bangladesh.\"",
+          "url": "https://whc.unesco.org/en/list/322"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The foundation is placed at the end of the 8th century, within Dharmapala's uncertain reign dates.",
+        "es": "La fundación se sitúa a finales del siglo VIII, dentro de las fechas inciertas del reinado de Dharmapala.",
+        "zh": "创建时间被定在8世纪末，处于达摩波罗在位年代并不确定的范围内。"
+      }
+    },
+    {
+      "id": "nalanda-grant",
+      "start": 860,
+      "type": "ruler",
+      "title": {
+        "en": "Devapala grants five villages to a monastery built at Nalanda by Balaputradeva, king of the Shailendras of Java and Sumatra",
+        "es": "Devapala concede cinco aldeas a un monasterio construido en Nalanda por Balaputradeva, rey de los shailendra de Java y Sumatra",
+        "zh": "提婆波罗将五个村庄赐给爪哇和苏门答腊的夏连特拉王巴拉普特拉在那烂陀所建的寺院"
+      },
+      "sources": [
+        {
+          "citation": "Banglapedia. \"Devapala.\"",
+          "url": "https://en.banglapedia.org/index.php/Devapala"
+        },
+        {
+          "citation": "Sastri, Hirananda (1923–24). The Nalanda Copper-plate of Devapaladeva. Epigraphia Indica, vol. 17."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The grant is dated by Devapala's regnal year, and his reign is placed at c. 810–850 (Britannica) or c. 821–861 (Banglapedia), so c. 860 is approximate.",
+        "es": "La concesión se data por el año de reinado de Devapala, y su reinado se sitúa hacia 810–850 (Britannica) o 821–861 (Banglapedia), por lo que hacia 860 es una fecha aproximada.",
+        "zh": "这次赐赠以提婆波罗的在位年份纪年，而他的统治时间被定为约810至850年（《大英百科全书》）或约821至861年（Banglapedia），因此约860年只是近似值。"
+      }
+    },
+    {
+      "id": "chola-raid",
+      "start": 1021,
+      "end": 1024,
+      "type": "conflict",
+      "title": {
+        "en": "A Chola army under Rajendra I marches to the Ganges, crosses Bengal and meets Mahipala I's forces",
+        "es": "Un ejército chola al mando de Rajendra I marcha hasta el Ganges, atraviesa Bengala y se enfrenta a las fuerzas de Mahipala I",
+        "zh": "拉金德拉一世率领的朱罗军队北上恒河，穿过孟加拉，与摩希波罗一世的军队交手"
+      },
+      "sources": [
+        {
+          "citation": "Banglapedia. \"Mahipala I.\"",
+          "url": "https://en.banglapedia.org/index.php/Mahipala_I"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Rajendra I.\""
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The expedition is dated c. 1021–1024 from the Chola Tirumalai inscription. Mahipala I stayed on his throne afterwards.",
+        "es": "La expedición se fecha hacia 1021–1024 a partir de la inscripción chola de Tirumalai. Mahipala I siguió en el trono después.",
+        "zh": "这次远征依据朱罗的蒂鲁马莱铭文，定在约1021至1024年。此后摩希波罗一世仍保有王位。"
+      }
+    },
+    {
+      "id": "varendra-rebellion",
+      "start": 1075,
+      "type": "conflict",
+      "title": {
+        "en": "The Kaivarta chief Divya seizes Varendra from the Pala king Mahipala II; Ramapala later retakes it and founds Ramavati",
+        "es": "El jefe kaivarta Divya toma Varendra al rey pala Mahipala II; Ramapala la recupera después y funda Ramavati",
+        "zh": "凯瓦尔塔首领迪维亚从波罗王摩希波罗二世手中夺取瓦伦德拉；罗摩波罗后来夺回该地并建立罗摩瓦蒂"
+      },
+      "sources": [
+        {
+          "citation": "Banglapedia. \"Varendra Rebellion.\"",
+          "url": "https://en.banglapedia.org/index.php/Varendra_Rebellion"
+        },
+        {
+          "citation": "Banglapedia. \"Ramapala.\"",
+          "url": "https://en.banglapedia.org/index.php/Ramapala"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The rising is dated c. 1075–1080. The main account of Ramapala's reconquest is the Sanskrit poem Ramacharitam by Sandhyakar Nandi.",
+        "es": "El levantamiento se fecha hacia 1075–1080. El relato principal de la reconquista de Ramapala es el poema sánscrito Ramacharitam, de Sandhyakar Nandi.",
+        "zh": "这场起事的时间定在约1075至1080年。关于罗摩波罗收复失地的主要记载是桑迪亚卡尔·南迪所作的梵文长诗《罗摩传》（Ramacharitam）。"
+      }
+    },
+    {
+      "id": "sena-takeover",
+      "start": 1150,
+      "type": "collapse",
+      "title": {
+        "en": "The Senas, rising under Vijayasena, displace the Palas in Bengal; a Pala line survives only in parts of Bihar",
+        "es": "Los sena, que ascienden con Vijayasena, desplazan a los pala en Bengala; una línea pala subsiste solo en partes de Bihar",
+        "zh": "塞纳人在维贾亚塞纳治下崛起，取代了孟加拉的波罗王朝；波罗的一支只在比哈尔部分地区延续"
+      },
+      "sources": [
+        {
+          "citation": "Banglapedia. \"Sena Dynasty.\"",
+          "url": "https://en.banglapedia.org/index.php/Sena_Dynasty"
+        },
+        {
+          "citation": "Banglapedia. \"Pala Dynasty.\"",
+          "url": "https://en.banglapedia.org/index.php/Pala_Dynasty"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Vijayasena's reign is dated c. 1095–1158 (Britannica). Madanapala is the last known Pala emperor and sources disagree on when Sena rule replaced Pala rule in each region, so 1150 marks a transition, not a single event.",
+        "es": "El reinado de Vijayasena se fecha hacia 1095–1158 (Britannica). Madanapala es el último emperador pala conocido y las fuentes discrepan sobre cuándo el dominio sena sustituyó al pala en cada región, así que 1150 señala una transición, no un hecho único.",
+        "zh": "维贾亚塞纳的统治时间约为1095至1158年（《大英百科全书》）。摩丹波罗是已知最后一位波罗皇帝，各来源对塞纳统治在各地取代波罗统治的时间说法不一，因此1150年标示的是一段过渡，而非单一事件。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "somapura-size",
+      "start": 790,
+      "end": 1150,
+      "text": {
+        "en": "The Somapura monastery at Paharpur had 177 cells around a central temple and measured about 274 metres on each side.",
+        "es": "El monasterio de Somapura, en Paharpur, tenía 177 celdas alrededor de un templo central y medía unos 274 metros por lado.",
+        "zh": "帕哈尔布尔的苏摩补罗寺环绕中央神庙设有177间僧房，每边长约274米。"
+      },
+      "sources": [
+        {
+          "citation": "Banglapedia. \"Paharpur.\"",
+          "url": "https://en.banglapedia.org/index.php/Paharpur"
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Ruins of the Buddhist Vihara at Paharpur, Bangladesh.\"",
+          "url": "https://whc.unesco.org/en/list/322"
+        }
+      ]
+    }
+  ]
+}
