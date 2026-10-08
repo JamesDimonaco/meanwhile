@@ -474,6 +474,131 @@
       "id": "ethiopian-empire",
       "region": "africa",
       "label": "Ethiopian Empire"
+    },
+    {
+      "id": "jomon",
+      "region": "asia-pacific",
+      "label": "Jōmon period"
+    },
+    {
+      "id": "yayoi",
+      "region": "asia-pacific",
+      "label": "Yayoi period"
+    },
+    {
+      "id": "yamato-kofun",
+      "region": "asia-pacific",
+      "label": "Kofun period and Yamato state"
+    },
+    {
+      "id": "heian-japan",
+      "region": "asia-pacific",
+      "label": "Heian period"
+    },
+    {
+      "id": "kamakura-shogunate",
+      "region": "asia-pacific",
+      "label": "Kamakura shogunate"
+    },
+    {
+      "id": "ashikaga-shogunate",
+      "region": "asia-pacific",
+      "label": "Ashikaga shogunate (Muromachi period)"
+    },
+    {
+      "id": "tokugawa-shogunate",
+      "region": "asia-pacific",
+      "label": "Tokugawa shogunate (Edo period)"
+    },
+    {
+      "id": "goguryeo",
+      "region": "asia-pacific",
+      "label": "Goguryeo"
+    },
+    {
+      "id": "baekje",
+      "region": "asia-pacific",
+      "label": "Baekje"
+    },
+    {
+      "id": "silla",
+      "region": "asia-pacific",
+      "label": "Silla"
+    },
+    {
+      "id": "goryeo",
+      "region": "asia-pacific",
+      "label": "Goryeo"
+    },
+    {
+      "id": "joseon",
+      "region": "asia-pacific",
+      "label": "Joseon"
+    },
+    {
+      "id": "xiongnu",
+      "region": "asia-pacific",
+      "label": "Xiongnu"
+    },
+    {
+      "id": "mongol-empire",
+      "region": "asia-pacific",
+      "label": "Mongol Empire"
+    },
+    {
+      "id": "funan",
+      "region": "asia-pacific",
+      "label": "Funan"
+    },
+    {
+      "id": "khmer-empire",
+      "region": "asia-pacific",
+      "label": "Khmer Empire"
+    },
+    {
+      "id": "srivijaya",
+      "region": "asia-pacific",
+      "label": "Srivijaya"
+    },
+    {
+      "id": "majapahit",
+      "region": "asia-pacific",
+      "label": "Majapahit"
+    },
+    {
+      "id": "pagan-empire",
+      "region": "asia-pacific",
+      "label": "Pagan Kingdom"
+    },
+    {
+      "id": "dai-viet",
+      "region": "asia-pacific",
+      "label": "Đại Việt"
+    },
+    {
+      "id": "ayutthaya-kingdom",
+      "region": "asia-pacific",
+      "label": "Ayutthaya Kingdom"
+    },
+    {
+      "id": "champa",
+      "region": "asia-pacific",
+      "label": "Champa"
+    },
+    {
+      "id": "lan-xang",
+      "region": "asia-pacific",
+      "label": "Lan Xang"
+    },
+    {
+      "id": "sogdiana",
+      "region": "middle-east",
+      "label": "Sogdiana"
+    },
+    {
+      "id": "khwarazmian-empire",
+      "region": "middle-east",
+      "label": "Khwarazmian Empire"
     }
   ]
 }
