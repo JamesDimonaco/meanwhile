@@ -4,7 +4,7 @@
   "wikidataId": "Q2739014",
   "name": {
     "en": "Swahili coast",
-    "es": "Costa suajili",
+    "es": "Zanguebar",
     "zh": "斯瓦希里海岸"
   },
   "aliases": [
@@ -17,7 +17,8 @@
     "Lamu",
     "Zanguebar",
     "Mogadishu",
-    "Kilwa Sultanate"
+    "Kilwa Sultanate",
+    "Costa suajili"
   ],
   "description": {
     "en": "A string of Muslim trading towns along the coast of Kenya and Tanzania, among them Kilwa, Mombasa and Zanzibar. They shipped East African gold and ivory across the Indian Ocean. Portuguese ships arrived in 1498, and Oman took Mombasa in 1698.",
@@ -143,6 +144,10 @@
           "url": "https://www.worldhistory.org/Kilwa/"
         },
         {
+          "citation": "Wikipedia. \"Kilwa Sultanate.\"",
+          "url": "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
+        },
+        {
           "citation": "Brown University, Joukowsky Institute, Islamic Civilizations course notes on Kilwa.",
           "url": "https://webhelper.brown.edu/joukowsky/courses/islamiccivilizations/8553.html"
         }
@@ -186,6 +191,11 @@
         },
         "lat": -8.9583,
         "lon": 39.5156
+      },
+      "note": {
+        "en": "Translations of Ibn Battuta's description vary; World History Encyclopedia gives \"one of the most beautiful towns in the world\".",
+        "es": "Las traducciones de la descripción de Ibn Battuta varían; World History Encyclopedia da \"una de las ciudades más hermosas del mundo\".",
+        "zh": "伊本·白图泰这段描述的译法不一；《世界历史百科全书》作“世界上最美丽的城镇之一”。"
       }
     },
     {
@@ -226,6 +236,10 @@
         {
           "citation": "\"The Voyage and Acts of Dom Francisco d'Almeida\" (1505), Fordham University Internet History Sourcebooks.",
           "url": "https://sourcebooks.web.fordham.edu/mod/1505mayr.asp"
+        },
+        {
+          "citation": "Wikipedia. \"Kilwa Sultanate.\"",
+          "url": "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
         }
       ],
       "disputed": false,
@@ -255,15 +269,15 @@
           "url": "https://www.worldhistory.org/article/1798/the-portuguese-in-east-africa/"
         },
         {
-          "citation": "PBS, Wonders of the African World. \"The Swahili Coast.\"",
-          "url": "https://www.pbs.org/wonders/Episodes/Epi2/swahi_2.htm"
+          "citation": "Wikipedia. \"Fort Jesus.\"",
+          "url": "https://en.wikipedia.org/wiki/Fort_Jesus"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "World History Encyclopedia dates the fort to the capture in 1593; PBS gives 1593 to 1596 for its construction.",
-        "es": "World History Encyclopedia data el fuerte en la toma de 1593; PBS da de 1593 a 1596 para su construcción.",
-        "zh": "《世界历史百科全书》把要塞定在1593年的夺城之时；PBS给出的建造时间为1593年至1596年。"
+        "en": "World History Encyclopedia dates the capture of Mombasa to 1593; Wikipedia gives 1593 to 1596 for building the fort.",
+        "es": "World History Encyclopedia data la toma de Mombasa en 1593; Wikipedia da de 1593 a 1596 para la construcción del fuerte.",
+        "zh": "《世界历史百科全书》把夺取蒙巴萨定在1593年；维基百科给出的要塞建造时间为1593年至1596年。"
       },
       "place": {
         "name": {
@@ -310,9 +324,9 @@
     {
       "id": "husuni-kubwa",
       "text": {
-        "en": "Kilwa's Husuni Kubwa palace covered nearly 10,000 square metres, and pieces of Chinese porcelain were set into its plaster.",
-        "es": "El palacio de Husuni Kubwa, en Kilwa, ocupaba casi 10 000 metros cuadrados y tenía fragmentos de porcelana china incrustados en el yeso.",
-        "zh": "基尔瓦的胡苏尼·库布瓦宫占地近一万平方米，灰泥墙面嵌有中国瓷片。"
+        "en": "Kilwa's Husuni Kubwa, a coral-stone palace built in the 14th century, had more than 100 rooms and pieces of Chinese porcelain set into its plaster.",
+        "es": "Husuni Kubwa, en Kilwa, un palacio de piedra de coral construido en el siglo XIV, tenía más de 100 habitaciones y fragmentos de porcelana china incrustados en el yeso.",
+        "zh": "基尔瓦的胡苏尼·库布瓦宫是14世纪建造的珊瑚石宫殿，有一百多个房间，灰泥墙面嵌有中国瓷片。"
       },
       "start": 1300,
       "end": 1400,
@@ -320,6 +334,10 @@
         {
           "citation": "World History Encyclopedia. \"Kilwa.\"",
           "url": "https://www.worldhistory.org/Kilwa/"
+        },
+        {
+          "citation": "Wikipedia. \"Kilwa Kisiwani.\"",
+          "url": "https://en.wikipedia.org/wiki/Kilwa_Kisiwani"
         }
       ],
       "disputed": false
@@ -337,6 +355,10 @@
         {
           "citation": "World History Encyclopedia. \"Kilwa.\"",
           "url": "https://www.worldhistory.org/Kilwa/"
+        },
+        {
+          "citation": "Wikipedia. \"Kilwa Sultanate.\"",
+          "url": "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
         }
       ],
       "disputed": false

@@ -49,18 +49,14 @@
         {
           "citation": "World History Encyclopedia. \"Solomonic Descent in Ethiopian History.\"",
           "url": "https://www.worldhistory.org/article/1875/solomonic-descent-in-ethiopian-history/"
-        },
-        {
-          "citation": "Library of Congress Country Studies, Ethiopia: \"The 'Restoration' of the 'Solomonic' Line.\"",
-          "url": "https://countrystudies.us/ethiopia/8.htm"
         }
       ],
       "default": true,
       "disputed": false,
       "note": {
-        "en": "Yekuno Amlak began to gain power in the 1260s and overthrew the last Zagwe king in about 1270. The Derg deposed Haile Selassie on 12 September 1974 and proclaimed the end of the dynasty that November.",
-        "es": "Yekuno Amlak empezó a ganar poder en la década de 1260 y derrocó al último rey zagwe hacia 1270. El Derg depuso a Haile Selassie el 12 de septiembre de 1974 y proclamó el fin de la dinastía en noviembre.",
-        "zh": "耶库诺·阿姆拉克在1260年代开始掌握权力，约1270年推翻了最后一位扎格维国王。1974年9月12日，德格废黜海尔·塞拉西，并于当年11月宣布王朝终结。"
+        "en": "Yekuno Amlak began to gain power in the 1260s and overthrew the last Zagwe king in about 1270. The Derg deposed Haile Selassie on 12 September 1974 and proclaimed the end of the dynasty that November; it formally abolished the monarchy on 27 March 1975.",
+        "es": "Yekuno Amlak empezó a ganar poder en la década de 1260 y derrocó al último rey zagwe hacia 1270. El Derg depuso a Haile Selassie el 12 de septiembre de 1974 y proclamó el fin de la dinastía en noviembre; abolió formalmente la monarquía el 27 de marzo de 1975.",
+        "zh": "耶库诺·阿姆拉克在1260年代开始掌握权力，约1270年推翻了最后一位扎格维国王。1974年9月12日，德格废黜海尔·塞拉西，并于当年11月宣布王朝终结；1975年3月27日正式废除君主制。"
       }
     }
   ],
@@ -82,10 +78,6 @@
         {
           "citation": "World History Encyclopedia. \"Kingdom of Abyssinia.\"",
           "url": "https://www.worldhistory.org/Kingdom_of_Abyssinia/"
-        },
-        {
-          "citation": "Zamani Project. \"Fasil Ghebbi, Gondar.\"",
-          "url": "https://www.zamaniproject.org/site-ethiopia-gondar-fasil-ghebbi.html"
         }
       ]
     },
@@ -126,10 +118,6 @@
         {
           "citation": "World History Encyclopedia. \"Solomonic Descent in Ethiopian History.\"",
           "url": "https://www.worldhistory.org/article/1875/solomonic-descent-in-ethiopian-history/"
-        },
-        {
-          "citation": "Ethiopian Royal Hats. \"Part V: Overthrow and the Royal House Today\" (2021).",
-          "url": "https://royalhats.net/2021/08/12/ethiopian-royal-hats-part-v-overthrow-and-the-royal-house-today/"
         }
       ]
     }
@@ -137,7 +125,7 @@
   "events": [
     {
       "id": "lalibela",
-      "start": 1150,
+      "start": 1100,
       "end": 1250,
       "type": "invention",
       "title": {
@@ -147,8 +135,8 @@
       },
       "sources": [
         {
-          "citation": "Africa Tembelea. \"Lalibela's Rock-Hewn Churches: Ethiopia's Sacred Site.\"",
-          "url": "https://africatembelea.com/african-history/lalibelas-rock-hewn-churches-ethiopias-sacred-site-2/"
+          "citation": "Wikipedia. \"Rock-Hewn Churches, Lalibela.\"",
+          "url": "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela"
         },
         {
           "citation": "World History Encyclopedia. \"Kingdom of Abyssinia.\"",
@@ -157,9 +145,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "These churches predate the Solomonic dynasty and were kept in use by it. Sources date them to the late 12th and early 13th centuries (Africa Tembelea) or the 11th and 12th centuries (World History Encyclopedia); the range shown covers both readings.",
-        "es": "Estas iglesias son anteriores a la dinastía salomónica, que las mantuvo en uso. Las fuentes las fechan a finales del siglo XII y principios del XIII (Africa Tembelea) o en los siglos XI y XII (World History Encyclopedia); el intervalo mostrado cubre ambas lecturas.",
-        "zh": "这些教堂早于所罗门王朝，并在该王朝治下继续使用。来源把它们定在12世纪末至13世纪初（Africa Tembelea）或11至12世纪（《世界历史百科全书》）；所示区间涵盖两种说法。"
+        "en": "These churches predate the Solomonic dynasty and were kept in use by it. Wikipedia gives the 7th to 13th centuries and traditionally dates them to the reign of the Zagwe king Lalibela (about 1181-1221), noting the carving probably took longer; World History Encyclopedia gives the 11th and 12th centuries. The range shown covers the main readings.",
+        "es": "Estas iglesias son anteriores a la dinastía salomónica, que las mantuvo en uso. Wikipedia da los siglos VII a XIII y las fecha por tradición en el reinado del rey zagwe Lalibela (hacia 1181-1221), y señala que la talla probablemente llevó más tiempo; World History Encyclopedia da los siglos XI y XII. El intervalo mostrado cubre las lecturas principales.",
+        "zh": "这些教堂早于所罗门王朝，并在该王朝治下继续使用。维基百科给出7至13世纪，并按传统把它们归于扎格维国王拉利贝拉在位期间（约1181至1221年），同时指出开凿可能耗时更长；《世界历史百科全书》给出11至12世纪。所示区间涵盖主要说法。"
       },
       "place": {
         "name": {
@@ -188,17 +176,13 @@
         {
           "citation": "World History Encyclopedia. \"Solomonic Descent in Ethiopian History.\"",
           "url": "https://www.worldhistory.org/article/1875/solomonic-descent-in-ethiopian-history/"
-        },
-        {
-          "citation": "The Collector. \"Medieval Ethiopia: The Origins of the Solomonic Dynasty.\"",
-          "url": "https://www.thecollector.com/solomonic-dynasty-origins-medieval-ethiopia/"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources say about 1270. The Solomonic descent is a legitimising claim; the Kebra Nagast, which sets it out, was written decades later.",
-        "es": "Las fuentes dicen hacia 1270. La ascendencia salomónica es una pretensión legitimadora; el Kebra Nagast, que la expone, se escribió décadas después.",
-        "zh": "来源称约在1270年。所罗门世系是一种用以确立正统的说法；阐述这一说法的《国王荣耀》成书于数十年之后。"
+        "en": "Sources say about 1270. The Solomonic descent is a legitimising claim; the Kebra Nagast, which sets it out, was written decades later (World History Encyclopedia).",
+        "es": "Las fuentes dicen hacia 1270. La ascendencia salomónica es una pretensión legitimadora; el Kebra Nagast, que la expone, se escribió décadas después (World History Encyclopedia).",
+        "zh": "来源称约在1270年。所罗门世系是一种用以确立正统的说法；阐述这一说法的《国王荣耀》成书于数十年之后（《世界历史百科全书》）。"
       }
     },
     {
@@ -219,6 +203,10 @@
         {
           "citation": "Encyclopaedia Universalis. \"Ahmed ibn Ibrahim al-Ghazi, dit Gragne.\"",
           "url": "https://www.universalis.fr/encyclopedie/ahmed-ibn-ibrahim-al-ghazi-gragne/"
+        },
+        {
+          "citation": "Wikipedia. \"Ethiopian–Adal War.\"",
+          "url": "https://en.wikipedia.org/wiki/Ethiopian%E2%80%93Adal_War"
         }
       ],
       "disputed": false,
@@ -351,12 +339,8 @@
           "url": "https://royalhats.net/2021/08/12/ethiopian-royal-hats-part-v-overthrow-and-the-royal-house-today/"
         },
         {
-          "citation": "World History Encyclopedia. \"Solomonic Descent in Ethiopian History.\"",
-          "url": "https://www.worldhistory.org/article/1875/solomonic-descent-in-ethiopian-history/"
-        },
-        {
-          "citation": "World History Encyclopedia. \"Ethiopia.\"",
-          "url": "https://www.worldhistory.org/Ethiopia/"
+          "citation": "Wikipedia. \"1974 Ethiopian coup d'état.\"",
+          "url": "https://en.wikipedia.org/wiki/1974_Ethiopian_coup_d%27%C3%A9tat"
         }
       ],
       "disputed": false
@@ -366,16 +350,20 @@
     {
       "id": "jerusalem-names",
       "text": {
-        "en": "Lalibela's landscape carries names from Jerusalem, including a river called the Jordan, a Mount of Olives and a Golgotha.",
-        "es": "El paisaje de Lalibela lleva nombres de Jerusalén, entre ellos un río llamado Jordán, un monte de los Olivos y un Gólgota.",
-        "zh": "拉利贝拉的地貌沿用了耶路撒冷的地名，包括一条名为约旦的河、一座橄榄山和一处各各他。"
+        "en": "Lalibela's churches were laid out as a symbolic Jerusalem: a river called the Jordan runs between the two groups, and one church is named Golgotha.",
+        "es": "Las iglesias de Lalibela se trazaron como una Jerusalén simbólica: un río llamado Jordán separa los dos grupos y una iglesia se llama Gólgota.",
+        "zh": "拉利贝拉的教堂群按象征性的耶路撒冷布局：一条名为约旦的河从两组教堂之间流过，其中一座教堂名为各各他。"
       },
       "start": 1150,
       "end": 1250,
       "sources": [
         {
-          "citation": "Africa Tembelea. \"Lalibela's Rock-Hewn Churches: Ethiopia's Sacred Site.\"",
-          "url": "https://africatembelea.com/african-history/lalibelas-rock-hewn-churches-ethiopias-sacred-site-2/"
+          "citation": "Wikipedia. \"Rock-Hewn Churches, Lalibela.\"",
+          "url": "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela"
+        },
+        {
+          "citation": "Zamani Project. \"Lalibela Rock-Hewn Churches.\"",
+          "url": "https://www.zamaniproject.org/site-ethiopia-lalibela-rock-hewn-churches.html"
         }
       ],
       "disputed": false
@@ -383,20 +371,20 @@
     {
       "id": "solomon-claim",
       "text": {
-        "en": "Ethiopia's emperors traced their line to Menelik I, said to be the son of Solomon and the Queen of Sheba, and Haile Selassie promoted the story worldwide.",
-        "es": "Los emperadores de Etiopía hacían remontar su linaje a Menelik I, hijo, según la tradición, de Salomón y la reina de Saba, y Haile Selassie difundió el relato por el mundo.",
-        "zh": "埃塞俄比亚的皇帝把世系追溯到孟尼利克一世，传说他是所罗门与示巴女王之子；海尔·塞拉西把这个故事传播到世界各地。"
+        "en": "Ethiopia's emperors traced their line to Menelik I, said to be the son of Solomon and the Queen of Sheba, and the 1955 constitution declared that the emperor descended from him without interruption.",
+        "es": "Los emperadores de Etiopía hacían remontar su linaje a Menelik I, hijo, según la tradición, de Salomón y la reina de Saba, y la Constitución de 1955 declaró que el emperador descendía de él sin interrupción.",
+        "zh": "埃塞俄比亚的皇帝把世系追溯到孟尼利克一世，传说他是所罗门与示巴女王之子；1955年宪法宣布皇帝一脉相承，源自孟尼利克一世。"
       },
       "start": 1270,
       "end": 1974,
       "sources": [
         {
-          "citation": "The Collector. \"Medieval Ethiopia: The Origins of the Solomonic Dynasty.\"",
-          "url": "https://www.thecollector.com/solomonic-dynasty-origins-medieval-ethiopia/"
-        },
-        {
           "citation": "World History Encyclopedia. \"Solomonic Descent in Ethiopian History.\"",
           "url": "https://www.worldhistory.org/article/1875/solomonic-descent-in-ethiopian-history/"
+        },
+        {
+          "citation": "Wikipedia. \"Solomonic dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Solomonic_dynasty"
         }
       ],
       "disputed": false
