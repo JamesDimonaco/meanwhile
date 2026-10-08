@@ -1,0 +1,338 @@
+{
+  "id": "delhi-sultanate",
+  "region": "south-asia",
+  "wikidataId": "Q229411",
+  "name": {
+    "en": "Delhi Sultanate",
+    "es": "Sultanato de Delhi",
+    "zh": "德里苏丹国"
+  },
+  "aliases": [
+    "Sultanate of Delhi",
+    "Delhi sultans",
+    "Slave dynasty",
+    "Khalji",
+    "Tughlaq",
+    "Lodi"
+  ],
+  "description": {
+    "en": "A run of five Muslim dynasties that ruled northern India from Delhi between 1206 and 1526. It beat back Mongol armies, was sacked by Timur and fell to Babur at Panipat.",
+    "es": "Una sucesión de cinco dinastías musulmanas que gobernaron el norte de la India desde Delhi entre 1206 y 1526. Rechazó a los ejércitos mongoles, fue saqueada por Timur y cayó ante Babur en Panipat.",
+    "zh": "五个穆斯林王朝相继从德里统治印度北部，时间为1206年至1526年。它击退过蒙古军队，被帖木儿洗劫，最终在帕尼帕特败于巴布尔。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "delhi-sultanate-period",
+      "earliestStart": 1206,
+      "latestStart": 1206,
+      "earliestEnd": 1526,
+      "latestEnd": 1526,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Qutb al-Din Aibak.\"",
+          "url": "https://www.britannica.com/biography/Qutb-ud-Din-Aibak"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"List of Sultanate and Mughal Dynastic Rulers of South Asia.\"",
+          "url": "https://www.metmuseum.org/toah/hd/ssar/hd_ssar.htm"
+        }
+      ],
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "phases": [
+    {
+      "id": "mamluk",
+      "name": {
+        "en": "Mamluk dynasty",
+        "es": "Dinastía mameluca",
+        "zh": "奴隶王朝"
+      },
+      "start": 1206,
+      "end": 1290,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Mamluk dynasty.\"",
+          "url": "https://kids.britannica.com/students/article/Mamluk-dynasty/623383"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"List of Sultanate and Mughal Dynastic Rulers of South Asia.\"",
+          "url": "https://www.metmuseum.org/toah/hd/ssar/hd_ssar.htm"
+        }
+      ]
+    },
+    {
+      "id": "khalji",
+      "name": {
+        "en": "Khalji dynasty",
+        "es": "Dinastía Khalji",
+        "zh": "卡尔吉王朝"
+      },
+      "start": 1290,
+      "end": 1320,
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"List of Sultanate and Mughal Dynastic Rulers of South Asia.\"",
+          "url": "https://www.metmuseum.org/toah/hd/ssar/hd_ssar.htm"
+        },
+        {
+          "citation": "Jackson, Peter (1999). The Delhi Sultanate: A Political and Military History. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "tughlaq",
+      "name": {
+        "en": "Tughlaq dynasty",
+        "es": "Dinastía Tughlaq",
+        "zh": "图格鲁克王朝"
+      },
+      "start": 1320,
+      "end": 1414,
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"List of Sultanate and Mughal Dynastic Rulers of South Asia.\"",
+          "url": "https://www.metmuseum.org/toah/hd/ssar/hd_ssar.htm"
+        },
+        {
+          "citation": "Jackson, Peter (1999). The Delhi Sultanate: A Political and Military History. Cambridge University Press."
+        }
+      ]
+    },
+    {
+      "id": "sayyid",
+      "name": {
+        "en": "Sayyid dynasty",
+        "es": "Dinastía Sayyid",
+        "zh": "赛义德王朝"
+      },
+      "start": 1414,
+      "end": 1451,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Sayyid dynasty.\"",
+          "url": "https://www.britannica.com/topic/Sayyid-dynasty"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. \"List of Sultanate and Mughal Dynastic Rulers of South Asia.\"",
+          "url": "https://www.metmuseum.org/toah/hd/ssar/hd_ssar.htm"
+        }
+      ]
+    },
+    {
+      "id": "lodi",
+      "name": {
+        "en": "Lodi dynasty",
+        "es": "Dinastía Lodi",
+        "zh": "洛迪王朝"
+      },
+      "start": 1451,
+      "end": 1526,
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. \"List of Sultanate and Mughal Dynastic Rulers of South Asia.\"",
+          "url": "https://www.metmuseum.org/toah/hd/ssar/hd_ssar.htm"
+        },
+        {
+          "citation": "Jackson, Peter (1999). The Delhi Sultanate: A Political and Military History. Cambridge University Press."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "aibak-founds-sultanate",
+      "start": 1206,
+      "type": "founding",
+      "title": {
+        "en": "Qutb al-Din Aibak, an enslaved lieutenant of Muhammad of Ghur, founds the first dynasty of the Delhi sultanate after his master's death",
+        "es": "Qutb al-Din Aibak, lugarteniente esclavizado de Muhammad de Ghur, funda la primera dinastía del sultanato de Delhi tras la muerte de su señor",
+        "zh": "库特布丁·艾伯克原是古尔王穆罕默德麾下的奴隶出身的将领，在主人去世后建立了德里苏丹国的第一个王朝"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Qutb al-Din Aibak.\"",
+          "url": "https://www.britannica.com/biography/Qutb-ud-Din-Aibak"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Who established the Delhi sultanate?\"",
+          "url": "https://www.britannica.com/question/Who-established-the-Delhi-sultanate"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "qutb-minar",
+      "start": 1199,
+      "end": 1220,
+      "type": "invention",
+      "title": {
+        "en": "Work on the Qutb Minar, a 72.5-metre red sandstone tower, begins under Aibak and is completed by Iltutmish",
+        "es": "Comienzan las obras del Qutb Minar, una torre de arenisca roja de 72,5 metros, bajo Aibak, y las termina Iltutmish",
+        "zh": "高72.5米的红砂岩库特布塔在艾伯克治下动工，由伊勒图特米什完成"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Qutb Minar and its Monuments, Delhi.\"",
+          "url": "https://whc.unesco.org/en/list/233"
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Qutb Minar and its Monuments, Delhi (UNESCO/NHK).\"",
+          "url": "https://whc.unesco.org/en/documents/104074"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give the start as 1192 or 1199 and the completion as about 1220. Later sultans repaired and added to the upper floors.",
+        "es": "Las fuentes dan el inicio en 1192 o 1199 y la conclusión hacia 1220. Sultanes posteriores repararon y ampliaron los pisos superiores.",
+        "zh": "各来源把动工时间定在1192年或1199年，竣工时间约为1220年。后来的苏丹还修缮并增建了上部几层。"
+      }
+    },
+    {
+      "id": "razia-sultan",
+      "start": 1236,
+      "end": 1240,
+      "type": "ruler",
+      "title": {
+        "en": "Razia, daughter of Iltutmish, rules in Delhi as sultan, the only woman to hold the throne",
+        "es": "Razia, hija de Iltutmish, gobierna en Delhi como sultán, la única mujer que ocupó el trono",
+        "zh": "伊勒图特米什之女拉齐娅以苏丹身份在德里执政，是唯一登上王位的女性"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Razia Sultan.\"",
+          "url": "https://www.worldhistory.org/Razia_Sultan/"
+        },
+        {
+          "citation": "Minhāj-i Sirāj Jūzjānī. Ṭabaqāt-i Nāṣirī, trans. H. G. Raverty (1881). Asiatic Society of Bengal."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "mongol-attacks",
+      "start": 1299,
+      "end": 1303,
+      "type": "conflict",
+      "title": {
+        "en": "Alauddin Khalji's armies defeat a Mongol invasion at Kili in 1299, and his camp at Siri outlasts a two-month Mongol siege of Delhi in 1303",
+        "es": "Los ejércitos de Alauddin Khalji derrotan una invasión mongola en Kili en 1299, y su campamento en Siri resiste un asedio mongol de dos meses a Delhi en 1303",
+        "zh": "1299年，阿拉乌丁·卡尔吉的军队在基利击败蒙古入侵；1303年，他在西里的营地顶住了蒙古军对德里长达两个月的围困"
+      },
+      "sources": [
+        {
+          "citation": "Jackson, Peter (1999). The Delhi Sultanate: A Political and Military History. Cambridge University Press."
+        },
+        {
+          "citation": "Lal, K. S. (1950). History of the Khaljis, A.D. 1290–1320. Asia Publishing House."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "daulatabad-capital",
+      "start": 1327,
+      "end": 1334,
+      "type": "ruler",
+      "title": {
+        "en": "Muhammad bin Tughluq orders the court and much of Delhi's population to move to Daulatabad in the Deccan, then returns the capital to Delhi",
+        "es": "Muhammad bin Tughluq ordena trasladar la corte y buena parte de la población de Delhi a Daulatabad, en el Decán, y luego devuelve la capital a Delhi",
+        "zh": "穆罕默德·宾·图格鲁克下令王廷和德里大部分居民迁往德干的道拉塔巴德，随后又把首都迁回德里"
+      },
+      "sources": [
+        {
+          "citation": "Jackson, Peter (1999). The Delhi Sultanate: A Political and Military History. Cambridge University Press."
+        },
+        {
+          "citation": "Husain, Agha Mahdi (1938). The Rise and Fall of Muhammad bin Tughluq. Luzac."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Historians differ on the exact years of the move and the return, and on how many people were forced to go.",
+        "es": "Los historiadores discrepan sobre los años exactos del traslado y del regreso, y sobre cuántas personas fueron obligadas a ir.",
+        "zh": "史家对迁都和迁回的确切年份，以及被迫迁移的人数，说法不一。"
+      }
+    },
+    {
+      "id": "timur-sack",
+      "start": 1398,
+      "type": "conflict",
+      "title": {
+        "en": "Timur reaches Delhi after a four-month campaign and sacks the city, leaving it in ruins",
+        "es": "Timur llega a Delhi tras una campaña de cuatro meses y saquea la ciudad, que queda en ruinas",
+        "zh": "帖木儿经过四个月的征战抵达德里，洗劫全城，使其沦为废墟"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Sack of Delhi (1398).\"",
+          "url": "https://www.britannica.com/event/Sack-of-Delhi-1398"
+        },
+        {
+          "citation": "Jackson, Peter (1999). The Delhi Sultanate: A Political and Military History. Cambridge University Press."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "panipat",
+      "start": 1526,
+      "type": "collapse",
+      "title": {
+        "en": "Babur defeats and kills the last Lodi sultan, Ibrahim, at the First Battle of Panipat on 21 April",
+        "es": "Babur derrota y mata al último sultán lodi, Ibrahim, en la primera batalla de Panipat, el 21 de abril",
+        "zh": "4月21日，巴布尔在第一次帕尼帕特战役中击败并杀死末代洛迪苏丹易卜拉欣"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"First Battle of Panipat.\""
+        },
+        {
+          "citation": "Babur. Baburnama: Memoirs of Babur, Prince and Emperor, trans. Wheeler M. Thackston (2002). Modern Library."
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "ibn-battuta",
+      "start": 1334,
+      "end": 1341,
+      "text": {
+        "en": "The Moroccan traveller Ibn Battuta served as a judge in Delhi under Muhammad bin Tughluq for several years before the sultan sent him to China.",
+        "es": "El viajero marroquí Ibn Battuta sirvió como juez en Delhi bajo Muhammad bin Tughluq durante varios años antes de que el sultán lo enviara a China.",
+        "zh": "摩洛哥旅行家伊本·白图泰在穆罕默德·宾·图格鲁克治下于德里任法官数年，之后被苏丹派往中国。"
+      },
+      "sources": [
+        {
+          "citation": "Dunn, Ross E. (1986). The Adventures of Ibn Battuta, a Muslim Traveler of the 14th Century. University of California Press."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Ibn Battuta.\""
+        }
+      ]
+    },
+    {
+      "id": "alai-darwaza",
+      "start": 1311,
+      "end": 1526,
+      "text": {
+        "en": "The Alai Darwaza, a gate built in 1311 beside the Qutb Minar, is described by UNESCO as a masterpiece of Indo-Muslim art.",
+        "es": "La Alai Darwaza, una puerta construida en 1311 junto al Qutb Minar, es descrita por la UNESCO como una obra maestra del arte indomusulmán.",
+        "zh": "1311年建于库特布塔旁的阿莱门，被联合国教科文组织称为印度－穆斯林艺术的杰作。"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Qutb Minar and its Monuments, Delhi.\"",
+          "url": "https://whc.unesco.org/en/list/233"
+        }
+      ]
+    }
+  ]
+}

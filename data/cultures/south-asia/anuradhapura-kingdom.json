@@ -1,0 +1,293 @@
+{
+  "id": "anuradhapura-kingdom",
+  "region": "south-asia",
+  "wikidataId": "Q1965597",
+  "name": {
+    "en": "Anuradhapura Kingdom",
+    "es": "Reino de Anuradhapura",
+    "zh": "阿努拉德普勒王国"
+  },
+  "aliases": [
+    "Anuradhapura",
+    "Anuradhapura period",
+    "Rajarata"
+  ],
+  "description": {
+    "en": "The first long-lived kingdom of Sri Lanka, ruled from Anuradhapura for about 1,300 years. It took Buddhism from Ashoka's India and kept the Bodhi tree there until Chola armies ended it around 1000.",
+    "es": "El primer reino duradero de Sri Lanka, gobernado desde Anuradhapura durante unos 1300 años. Recibió el budismo de la India de Ashoka y conservó allí el árbol Bodhi hasta que los ejércitos chola lo pusieron fin hacia el año 1000.",
+    "zh": "斯里兰卡第一个长期存续的王国，在阿努拉德普勒统治约1300年。它从阿育王时代的印度接受佛教，并在当地保存菩提树，直到约1000年被朱罗军队终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "anuradhapura-period",
+      "earliestStart": -379,
+      "latestStart": -376,
+      "earliestEnd": 993,
+      "latestEnd": 1017,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Anuradhapura.\""
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Sacred City of Anuradhapura\" (video description).",
+          "url": "https://whc.unesco.org/en/documents/124444"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start follows the Sri Lankan chronicles (377 or 380 BCE), which later historians treat with caution. The end runs from the Chola conquest of the capital in 993 to Rajendra I's capture of the island's king in 1017.",
+        "es": "El inicio sigue las crónicas de Sri Lanka (377 o 380 a. e. c.), que los historiadores posteriores tratan con cautela. El final va de la conquista chola de la capital en 993 a la captura del rey de la isla por Rajendra I en 1017.",
+        "zh": "起点依据斯里兰卡编年史（公元前377或380年），后世史家对此持谨慎态度。终点从993年朱罗征服都城，延伸到1017年拉金德拉一世俘获岛上国王。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "early-kingdom",
+      "name": {
+        "en": "Early kingdom",
+        "es": "Reino temprano",
+        "zh": "早期王国"
+      },
+      "start": -376,
+      "end": -250,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Anuradhapura.\""
+        },
+        {
+          "citation": "Geiger, Wilhelm (trans.) (1912). The Mahāvaṃsa, or the Great Chronicle of Ceylon. Pali Text Society."
+        }
+      ]
+    },
+    {
+      "id": "buddhist-capital",
+      "name": {
+        "en": "Buddhist capital",
+        "es": "Capital budista",
+        "zh": "佛教都城"
+      },
+      "start": -250,
+      "end": 993,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Anuradhapura.\""
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Sacred City of Anuradhapura\" (video description).",
+          "url": "https://whc.unesco.org/en/documents/124444"
+        }
+      ]
+    },
+    {
+      "id": "chola-conquest",
+      "name": {
+        "en": "Chola conquest",
+        "es": "Conquista chola",
+        "zh": "朱罗征服"
+      },
+      "start": 993,
+      "end": 1017,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Anuradhapura.\""
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Sacred City of Anuradhapura\" (video description).",
+          "url": "https://whc.unesco.org/en/documents/124444"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "pandukabhaya-capital",
+      "start": -376,
+      "type": "founding",
+      "title": {
+        "en": "Anuradhapura becomes the capital of the island's first kingdom, and the chronicles credit King Pandukabhaya",
+        "es": "Anuradhapura se convierte en la capital del primer reino de la isla, y las crónicas lo atribuyen al rey Pandukabhaya",
+        "zh": "阿努拉德普勒成为岛上第一个王国的都城，编年史将此归功于潘杜迦巴耶王"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Anuradhapura.\""
+        },
+        {
+          "citation": "Geiger, Wilhelm (trans.) (1912). The Mahāvaṃsa, or the Great Chronicle of Ceylon, ch. 10. Pali Text Society."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date (377 or 380 BCE) comes from the Mahavamsa, written centuries later, and is not independently confirmed.",
+        "es": "La fecha (377 o 380 a. e. c.) procede del Mahavamsa, escrito siglos después, y no está confirmada de forma independiente.",
+        "zh": "这一年代（公元前377或380年）出自数百年后写成的《大史》，没有得到独立证实。"
+      }
+    },
+    {
+      "id": "buddhism-arrives",
+      "start": -250,
+      "type": "invention",
+      "title": {
+        "en": "Mahinda and Sanghamitta, sent by Ashoka, bring Buddhism to the island, with a cutting of the Bodhi tree that is planted at Anuradhapura",
+        "es": "Mahinda y Sanghamitta, enviados por Ashoka, llevan el budismo a la isla, junto con un esqueje del árbol Bodhi que se planta en Anuradhapura",
+        "zh": "摩哂陀与僧伽蜜多受阿育王派遣，把佛教带到岛上，所携菩提树枝被种在阿努拉德普勒"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Anuradhapura.\""
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Sacred City of Anuradhapura\" (video description).",
+          "url": "https://whc.unesco.org/en/documents/124444"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates the mission to about 251 BCE and the planting to about 245 BCE. Other chronologies differ by a few decades.",
+        "es": "Britannica fecha la misión hacia 251 a. e. c. y la plantación hacia 245 a. e. c. Otras cronologías difieren en unas décadas.",
+        "zh": "《大英百科全书》将传教时间定在约公元前251年，种植时间定在约公元前245年。其他年表相差数十年。"
+      }
+    },
+    {
+      "id": "dutugemunu",
+      "start": -160,
+      "type": "conflict",
+      "title": {
+        "en": "Dutugemunu defeats the Tamil king Elara and rules the whole island from Anuradhapura",
+        "es": "Dutugemunu derrota al rey tamil Elara y gobierna toda la isla desde Anuradhapura",
+        "zh": "杜图伽摩尼击败泰米尔国王埃拉拉，从阿努拉德普勒统治全岛"
+      },
+      "sources": [
+        {
+          "citation": "Geiger, Wilhelm (trans.) (1912). The Mahāvaṃsa, or the Great Chronicle of Ceylon, chs. 22–25. Pali Text Society."
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Sri Lanka: History.\""
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date (161 BCE) is the chronicle tradition. The Mahavamsa was written in the Buddhist monastic community some centuries afterwards and treats Elara as a just ruler who was nonetheless a foreigner.",
+        "es": "La fecha (161 a. e. c.) es la tradición de las crónicas. El Mahavamsa se escribió en la comunidad monástica budista algunos siglos después y presenta a Elara como un gobernante justo que, aun así, era extranjero.",
+        "zh": "公元前161年这一年代出自编年史传统。《大史》由佛教僧团在数百年后写成，把埃拉拉写成一位公正却是外来的统治者。"
+      }
+    },
+    {
+      "id": "tipitaka-written",
+      "start": -28,
+      "type": "invention",
+      "title": {
+        "en": "Sri Lankan monks write down the Pali Buddhist canon for the first time, at Aluvihara near Matale",
+        "es": "Los monjes de Sri Lanka ponen por escrito por primera vez el canon budista pali, en Aluvihara, cerca de Matale",
+        "zh": "斯里兰卡僧人在马特莱附近的阿卢寺首次把巴利文佛典写成文字"
+      },
+      "sources": [
+        {
+          "citation": "Gombrich, Richard (1988). Theravāda Buddhism: A Social History from Ancient Benares to Modern Colombo. Routledge."
+        },
+        {
+          "citation": "Norman, K. R. (1983). Pāli Literature. Otto Harrassowitz."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The chronicles place this under King Vattagamani Abhaya, 29–17 BCE. A revised chronology puts his reign about a century earlier, still in the 1st century BCE or just before it.",
+        "es": "Las crónicas lo sitúan bajo el rey Vattagamani Abhaya, 29–17 a. e. c. Una cronología revisada adelanta su reinado cerca de un siglo, hacia el siglo I a. e. c. o poco antes.",
+        "zh": "编年史把这件事放在瓦塔伽马尼·阿巴亚王时期（公元前29至17年）。一种修订的年表把他的统治提前约一个世纪，仍在公元前1世纪或稍早。"
+      }
+    },
+    {
+      "id": "sigiriya",
+      "start": 477,
+      "end": 495,
+      "type": "ruler",
+      "title": {
+        "en": "Kassapa I seizes the throne from his father and moves the royal court from Anuradhapura to a fortress palace on Sigiriya rock",
+        "es": "Kassapa I arrebata el trono a su padre y traslada la corte real de Anuradhapura a un palacio fortaleza sobre la roca de Sigiriya",
+        "zh": "迦叶波一世从父亲手中夺取王位，并将王廷从阿努拉德普勒迁到锡吉里耶岩上的堡垒宫殿"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Ancient City of Sigiriya.\"",
+          "url": "https://whc.unesco.org/en/list/202"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Sigiriya.\""
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "pandya-sack",
+      "start": 850,
+      "type": "conflict",
+      "title": {
+        "en": "A Pandya army from southern India sacks Anuradhapura, and the Sinhalese king leaves the city for the hills",
+        "es": "Un ejército pandya del sur de la India saquea Anuradhapura, y el rey cingalés abandona la ciudad hacia las colinas",
+        "zh": "来自南印度的潘迪亚军队洗劫阿努拉德普勒，僧伽罗国王弃城退入山区"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Anuradhapura.\""
+        },
+        {
+          "citation": "Geiger, Wilhelm (trans.) (1930). Cūḷavaṃsa, being the more recent part of the Mahāvaṃsa, ch. 50. Pali Text Society."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources place the sack in the 9th century, under Sena I. The exact year is not fixed, so c. 850 is approximate.",
+        "es": "Las fuentes sitúan el saqueo en el siglo IX, bajo Sena I. El año exacto no está fijado, así que hacia 850 es aproximado.",
+        "zh": "各来源把这次洗劫放在9世纪、塞纳一世在位期间。确切年份没有定论，约850年只是近似值。"
+      }
+    },
+    {
+      "id": "chola-conquest-event",
+      "start": 993,
+      "end": 1017,
+      "type": "collapse",
+      "title": {
+        "en": "Chola armies take Anuradhapura and the rest of the island, and the capital moves to Polonnaruwa",
+        "es": "Los ejércitos chola toman Anuradhapura y el resto de la isla, y la capital se traslada a Polonnaruwa",
+        "zh": "朱罗军队攻占阿努拉德普勒和全岛其余地区，都城迁往波隆纳鲁沃"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Anuradhapura.\""
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Sacred City of Anuradhapura\" (video description).",
+          "url": "https://whc.unesco.org/en/documents/124444"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "bodhi-tree",
+      "start": -250,
+      "end": 1017,
+      "text": {
+        "en": "A cutting of the Bodhi tree, brought by Sanghamitta in the 3rd century BCE, was planted at Anuradhapura, where the tree is still venerated.",
+        "es": "Un esqueje del árbol Bodhi, traído por Sanghamitta en el siglo III a. e. c., se plantó en Anuradhapura, donde el árbol sigue venerándose.",
+        "zh": "僧伽蜜多在公元前3世纪带来的菩提树枝被种在阿努拉德普勒，这棵树至今仍受人敬奉。"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Sacred City of Anuradhapura\" (video description).",
+          "url": "https://whc.unesco.org/en/documents/124444"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Anuradhapura.\""
+        }
+      ]
+    }
+  ]
+}
