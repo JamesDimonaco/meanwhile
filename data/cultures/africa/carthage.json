@@ -41,20 +41,21 @@
       "latestEnd": -145,
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Carthage.\"",
-          "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+          "citation": "PeriodO. \"Punic\" (British Museum), p08m57hph3k.",
+          "url": "https://n2t.net/ark:/99152/p08m57hph3k"
         },
         {
-          "citation": "Aubet, Maria Eugenia (2001). The Phoenicians and the West: Politics, Colonies and Trade, 2nd ed. Cambridge University Press."
+          "citation": "World History Encyclopedia. \"Carthage\".",
+          "url": "https://www.worldhistory.org/carthage/"
         }
       ],
       "periodoId": "p08m57hph3k",
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The British Museum's PeriodO definition runs from the 9th century BCE to 146 BCE. Ancient writers give 814 BCE for the founding, but the earliest dated remains on the site are from the later 8th century BCE, so the solid bar starts at 750 BCE.",
-        "es": "La definición del Museo Británico en PeriodO va del siglo IX a. e. c. a 146 a. e. c. Los autores antiguos dan 814 a. e. c. para la fundación, pero los restos fechados más antiguos del lugar son de finales del siglo VIII a. e. c., por lo que la barra sólida empieza en 750 a. e. c.",
-        "zh": "大英博物馆在PeriodO中的定义是公元前9世纪至公元前146年。古代作家给出的建城年份是公元前814年，但遗址上最早有年代可考的遗存属于公元前8世纪后期，因此实线从公元前750年开始。"
+        "en": "The British Museum's PeriodO definition runs from the 9th century BCE to 146 BCE. Ancient writers give 814 or 813 BCE for the founding, but the World History Encyclopedia dates the earliest finds of Greek pottery and housing to the mid-8th century BCE, so the solid bar starts at 750 BCE.",
+        "es": "La definición del Museo Británico en PeriodO va del siglo IX a. e. c. a 146 a. e. c. Los autores antiguos dan 814 o 813 a. e. c. para la fundación, pero la World History Encyclopedia data los hallazgos más antiguos de cerámica griega y viviendas a mediados del siglo VIII a. e. c., por lo que la barra sólida empieza en 750 a. e. c.",
+        "zh": "大英博物馆在PeriodO中的定义是公元前9世纪至公元前146年。古代作家给出的建城年份是公元前814年或813年，但世界历史百科把最早的希腊陶器和住宅遗存定在公元前8世纪中叶，因此实线从公元前750年开始。"
       }
     }
   ],
@@ -70,8 +71,8 @@
       "end": -263,
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Carthage.\"",
-          "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+          "citation": "World History Encyclopedia. \"Carthage\".",
+          "url": "https://www.worldhistory.org/carthage/"
         },
         {
           "citation": "Lendering, Jona. \"Carthaginian Empire.\" Livius.org.",
@@ -90,12 +91,12 @@
       "end": -145,
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Punic Wars.\"",
-          "url": "https://www.britannica.com/event/Punic-Wars"
+          "citation": "World History Encyclopedia. \"First Punic War\".",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
         },
         {
-          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia.",
-          "url": "https://www.worldhistory.org/First_Punic_War/"
+          "citation": "World History Encyclopedia. \"Third Punic War\".",
+          "url": "https://www.worldhistory.org/Third_Punic_War/"
         }
       ]
     }
@@ -112,18 +113,19 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Carthage.\"",
-          "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+          "citation": "World History Encyclopedia. \"Carthage\".",
+          "url": "https://www.worldhistory.org/carthage/"
         },
         {
-          "citation": "Aubet, Maria Eugenia (2001). The Phoenicians and the West: Politics, Colonies and Trade, 2nd ed. Cambridge University Press."
+          "citation": "World History Encyclopedia. \"Dido: Legendary Queen of Tyre\".",
+          "url": "https://www.worldhistory.org/Dido/"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The date and the founding story of Dido come from later Greek and Roman writers. The earliest dated finds are about half a century to a century later.",
-        "es": "La fecha y la historia fundacional de Dido proceden de autores griegos y romanos posteriores. Los hallazgos fechados más antiguos son de medio siglo a un siglo después.",
-        "zh": "这一年份和狄多建城的故事出自后来的希腊和罗马作家。最早有年代可考的出土物要晚半个世纪至一个世纪。"
+        "en": "The date and the story of Dido come from later Greek writers; Timaeus is the first known to give 814 or 813 BCE. The earliest dated finds are from the mid-8th century BCE.",
+        "es": "La fecha y la historia de Dido proceden de autores griegos posteriores; Timeo es el primero conocido que da 814 o 813 a. e. c. Los hallazgos fechados más antiguos son de mediados del siglo VIII a. e. c.",
+        "zh": "这一年份和狄多的故事出自后来的希腊作家；提麦奥斯是已知最早给出公元前814年或813年的人。最早有年代可考的出土物属于公元前8世纪中叶。"
       }
     },
     {
@@ -141,8 +143,8 @@
           "url": "https://www.livius.org/articles/battle/himera-480-bce/"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Himera.\"",
-          "url": "https://www.britannica.com/place/Himera"
+          "citation": "Herodotus. Histories 7.165-167 (Godley translation), Perseus Digital Library.",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0125:book=7:chapter=167"
         }
       ],
       "disputed": false
@@ -158,12 +160,12 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Hannibal.\"",
-          "url": "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE"
+          "citation": "World History Encyclopedia. \"Hamilcar Barca\".",
+          "url": "https://www.worldhistory.org/Hamilcar_Barca/"
         },
         {
-          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
-          "url": "https://www.worldhistory.org/Second_Punic_War/"
+          "citation": "Polybius. Histories 2.1 (Loeb translation), LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/2*.html"
         }
       ],
       "disputed": false
@@ -179,12 +181,12 @@
       },
       "sources": [
         {
-          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia.",
+          "citation": "World History Encyclopedia. \"First Punic War\".",
           "url": "https://www.worldhistory.org/First_Punic_War/"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Punic Wars.\"",
-          "url": "https://www.britannica.com/event/Punic-Wars"
+          "citation": "Polybius. Histories 1.60-63 (Loeb translation), LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/1*.html"
         }
       ],
       "disputed": false
@@ -200,15 +202,16 @@
       },
       "sources": [
         {
-          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "citation": "World History Encyclopedia. \"Second Punic War\".",
           "url": "https://www.worldhistory.org/Second_Punic_War/"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Hannibal.\"",
-          "url": "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE"
+          "citation": "Polybius. Histories 3 (Loeb translation), LacusCurtius.",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3*.html"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "end": -217
     },
     {
       "id": "battle-of-zama",
@@ -221,12 +224,12 @@
       },
       "sources": [
         {
-          "citation": "Cartwright, Mark. \"Battle of Zama.\" World History Encyclopedia.",
+          "citation": "World History Encyclopedia. \"Battle of Zama\".",
           "url": "https://www.worldhistory.org/Battle_of_Zama/"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Hannibal.\"",
-          "url": "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE"
+          "citation": "World History Encyclopedia. \"Second Punic War\".",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
         }
       ],
       "disputed": false
@@ -237,18 +240,18 @@
       "end": -145,
       "type": "collapse",
       "title": {
-        "en": "Rome besieges Carthage for three years, takes it after a week of street fighting in 146 BCE, burns it and enslaves the survivors",
-        "es": "Roma sitia Cartago durante tres años, la toma en 146 a. e. c. tras una semana de combates callejeros, la incendia y esclaviza a los supervivientes",
-        "zh": "罗马围攻迦太基三年，于公元前146年经过一周巷战攻占该城，将其焚毁并奴役幸存者"
+        "en": "Rome besieges Carthage for three years, takes it in 146 BCE after seven days of street fighting, destroys the city and enslaves its people",
+        "es": "Roma sitia Cartago durante tres años, la toma en 146 a. e. c. tras siete días de combates callejeros, destruye la ciudad y esclaviza a sus habitantes",
+        "zh": "罗马围攻迦太基三年，于公元前146年经过七天巷战攻占该城，将其摧毁并奴役全城居民"
       },
       "sources": [
         {
-          "citation": "Cartwright, Mark. \"Third Punic War.\" World History Encyclopedia.",
+          "citation": "World History Encyclopedia. \"Third Punic War\".",
           "url": "https://www.worldhistory.org/Third_Punic_War/"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Carthage.\"",
-          "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+          "citation": "World History Encyclopedia. \"Carthage\".",
+          "url": "https://www.worldhistory.org/carthage/"
         }
       ],
       "disputed": false
@@ -260,14 +263,18 @@
       "start": -145,
       "end": -145,
       "text": {
-        "en": "When Rome took Carthage, its libraries went to Numidian kings. Mago's 28 books on farming were kept and are known today only through translations and quotations, as in Columella.",
-        "es": "Cuando Roma tomó Cartago, sus bibliotecas pasaron a reyes númidas. Los 28 libros de Magón sobre agricultura se conservaron y hoy solo se conocen por traducciones y citas, como las de Columela.",
-        "zh": "罗马攻占迦太基后，城中的图书馆被交给努米底亚诸王。马戈的28卷农书得以保存，如今只能通过译本和后人的引用得知，例如科鲁迈拉的著作。"
+        "en": "When Rome destroyed Carthage, its libraries were handed to African princes, but the Senate ordered Mago's 28 books on farming translated into Latin.",
+        "es": "Cuando Roma destruyó Cartago, sus bibliotecas se repartieron entre príncipes africanos, pero el Senado ordenó traducir al latín los 28 libros de Magón sobre agricultura.",
+        "zh": "罗马摧毁迦太基后，城中的图书馆被分给非洲诸侯，但元老院下令把马戈的28卷农书译成拉丁文。"
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Carthage.\"",
-          "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+          "citation": "World History Encyclopedia. \"Carthage\".",
+          "url": "https://www.worldhistory.org/carthage/"
+        },
+        {
+          "citation": "Smith, William, ed. A Dictionary of Greek and Roman Biography and Mythology (1867), \"Mago\" (writer on agriculture).",
+          "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:alphabetic+letter%3DM:entry+group%3D5:entry%3Dmago-bio-15"
         }
       ]
     }
