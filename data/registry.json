@@ -394,6 +394,86 @@
       "id": "sikh-empire",
       "region": "south-asia",
       "label": "Sikh Empire"
+    },
+    {
+      "id": "kingdom-of-kush",
+      "region": "africa",
+      "label": "Kingdom of Kush"
+    },
+    {
+      "id": "carthage",
+      "region": "africa",
+      "label": "Carthage"
+    },
+    {
+      "id": "kingdom-of-aksum",
+      "region": "africa",
+      "label": "Kingdom of Aksum"
+    },
+    {
+      "id": "ghana-empire",
+      "region": "africa",
+      "label": "Ghana Empire"
+    },
+    {
+      "id": "mali-empire",
+      "region": "africa",
+      "label": "Mali Empire"
+    },
+    {
+      "id": "songhai-empire",
+      "region": "africa",
+      "label": "Songhai Empire"
+    },
+    {
+      "id": "kanem-bornu",
+      "region": "africa",
+      "label": "Kanem–Bornu Empire"
+    },
+    {
+      "id": "great-zimbabwe",
+      "region": "africa",
+      "label": "Great Zimbabwe"
+    },
+    {
+      "id": "swahili-coast",
+      "region": "africa",
+      "label": "Swahili city-states"
+    },
+    {
+      "id": "kingdom-of-kongo",
+      "region": "africa",
+      "label": "Kingdom of Kongo"
+    },
+    {
+      "id": "kingdom-of-benin",
+      "region": "africa",
+      "label": "Kingdom of Benin"
+    },
+    {
+      "id": "oyo-empire",
+      "region": "africa",
+      "label": "Oyo Empire"
+    },
+    {
+      "id": "ashanti-empire",
+      "region": "africa",
+      "label": "Ashanti Empire"
+    },
+    {
+      "id": "zulu-kingdom",
+      "region": "africa",
+      "label": "Zulu Kingdom"
+    },
+    {
+      "id": "fatimid-caliphate",
+      "region": "africa",
+      "label": "Fatimid Caliphate"
+    },
+    {
+      "id": "ethiopian-empire",
+      "region": "africa",
+      "label": "Ethiopian Empire"
     }
   ]
 }

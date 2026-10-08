@@ -77,5 +77,21 @@
   "vijayanagara-empire": ["IN"],
   "mughal-empire": ["IN", "PK"],
   "maratha-empire": ["IN"],
-  "sikh-empire": ["PK", "IN"]
+  "sikh-empire": ["PK", "IN"],
+  "kingdom-of-kush": ["SD"],
+  "carthage": ["TN"],
+  "kingdom-of-aksum": ["ET", "ER"],
+  "ghana-empire": ["MR", "ML"],
+  "mali-empire": ["ML", "GN"],
+  "songhai-empire": ["ML", "NE"],
+  "kanem-bornu": ["TD", "NG"],
+  "great-zimbabwe": ["ZW"],
+  "swahili-coast": ["KE", "TZ"],
+  "kingdom-of-kongo": ["AO", "CD"],
+  "kingdom-of-benin": ["NG"],
+  "oyo-empire": ["NG", "BJ"],
+  "ashanti-empire": ["GH"],
+  "zulu-kingdom": ["ZA"],
+  "fatimid-caliphate": ["EG", "TN"],
+  "ethiopian-empire": ["ET"]
 }
