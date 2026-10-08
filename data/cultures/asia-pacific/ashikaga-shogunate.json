@@ -1,0 +1,285 @@
+{
+  "id": "ashikaga-shogunate",
+  "region": "asia-pacific",
+  "wikidataId": "Q1154406",
+  "name": {
+    "en": "Ashikaga shogunate (Muromachi period)",
+    "es": "Shogunato Ashikaga (período Muromachi)",
+    "zh": "室町幕府"
+  },
+  "nativeName": {
+    "text": "室町幕府",
+    "lang": "ja"
+  },
+  "aliases": [
+    "Muromachi period",
+    "Muromachi bakufu",
+    "Ashikaga bakufu",
+    "Muromachi jidai",
+    "Sengoku period",
+    "Warring States period of Japan",
+    "Ashikaga Takauji",
+    "Ashikaga Yoshimitsu",
+    "足利幕府",
+    "室町时代"
+  ],
+  "description": {
+    "en": "Ashikaga Takauji drove Emperor Go-Daigo from Kyoto in 1336 and set up a shogunate headquartered in the city's Muromachi district. The Ōnin War, from 1467, wrecked Kyoto and shogunal authority. Oda Nobunaga banished the last Ashikaga shogun in 1573.",
+    "es": "Ashikaga Takauji expulsó al emperador Go-Daigo de Kioto en 1336 y fundó un shogunato con sede en el distrito de Muromachi de la ciudad. La guerra de Ōnin, desde 1467, arrasó Kioto y la autoridad de los shogunes. Oda Nobunaga expulsó al último shogun Ashikaga en 1573.",
+    "zh": "足利尊氏在1336年将后醍醐天皇逐出京都，建立幕府，幕府设在京都的室町一带。1467年起的应仁之乱使京都遭到破坏，幕府权威随之瓦解。1573年，织田信长放逐了最后一任足利将军。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "ashikaga-shogunate",
+      "earliestStart": 1336,
+      "latestStart": 1338,
+      "earliestEnd": 1568,
+      "latestEnd": 1573,
+      "sources": [
+        {
+          "citation": "Library of Congress Subject Headings, \"Muromachi period, 1336-1573\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g36rqx"
+        },
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Ashikaga Bakufu\".",
+          "url": "http://countrystudies.us/japan/15.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Muromachi Period\".",
+          "url": "https://www.worldhistory.org/Muromachi_Period/"
+        }
+      ],
+      "periodoId": "p06c6g36rqx",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Start dates run from 1336, when Takauji drove out Go-Daigo, to 1338, when he became shogun. The end is 1573, when Nobunaga banished the last shogun; some chronologies stop in 1568, when Nobunaga marched on Kyoto.",
+        "es": "Las fechas de inicio van de 1336, cuando Takauji expulsó a Go-Daigo, a 1338, cuando fue shogun. El final es 1573, cuando Nobunaga expulsó al último shogun; algunas cronologías lo sitúan en 1568, cuando Nobunaga marchó sobre Kioto.",
+        "zh": "起点从1336年（尊氏逐出后醍醐天皇）到1338年（尊氏就任将军）不等。终点为1573年织田信长放逐末代将军；也有年表止于1568年，即信长进军京都之年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "takauji-drives-out-go-daigo",
+      "start": 1336,
+      "type": "conflict",
+      "title": {
+        "en": "Ashikaga Takauji drives Emperor Go-Daigo from Kyoto and installs a rival emperor; the two courts fight until 1392",
+        "es": "Ashikaga Takauji expulsa al emperador Go-Daigo de Kioto e instala a un emperador rival; las dos cortes combaten hasta 1392",
+        "zh": "足利尊氏将后醍醐天皇逐出京都并另立天皇，南北两朝对峙交战，直至1392年"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Civil War\".",
+          "url": "http://countrystudies.us/japan/14.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Muromachi Period\".",
+          "url": "https://www.worldhistory.org/Muromachi_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kyoto",
+          "es": "Kioto",
+          "zh": "京都"
+        },
+        "lat": 35.0116,
+        "lon": 135.7681
+      }
+    },
+    {
+      "id": "courts-reunited",
+      "start": 1392,
+      "type": "ruler",
+      "title": {
+        "en": "Shogun Ashikaga Yoshimitsu reunites the Northern and Southern Courts",
+        "es": "El shogun Ashikaga Yoshimitsu reunifica las cortes del Norte y del Sur",
+        "zh": "将军足利义满促成南北朝合一"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Ashikaga Bakufu\".",
+          "url": "http://countrystudies.us/japan/15.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Muromachi Period\".",
+          "url": "https://www.worldhistory.org/Muromachi_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kyoto",
+          "es": "Kioto",
+          "zh": "京都"
+        },
+        "lat": 35.0116,
+        "lon": 135.7681
+      }
+    },
+    {
+      "id": "kitayama-villa",
+      "start": 1397,
+      "type": "invention",
+      "title": {
+        "en": "Ashikaga Yoshimitsu establishes his Kitayama villa in Kyoto, later the Zen temple Kinkaku-ji with its Golden Pavilion",
+        "es": "Ashikaga Yoshimitsu establece su villa de Kitayama en Kioto, más tarde el templo zen Kinkaku-ji con su Pabellón Dorado",
+        "zh": "足利义满在京都营建北山殿，后来成为禅寺金阁寺及其金阁"
+      },
+      "sources": [
+        {
+          "citation": "North American Japanese Garden Association, \"Kinkaku-ji\".",
+          "url": "https://najga.org/kinkaku-ji/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Muromachi Period\".",
+          "url": "https://www.worldhistory.org/Muromachi_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kinkaku-ji, Kyoto",
+          "es": "Kinkaku-ji, Kioto",
+          "zh": "金阁寺，京都"
+        },
+        "lat": 35.0394,
+        "lon": 135.7292
+      }
+    },
+    {
+      "id": "onin-war",
+      "start": 1467,
+      "end": 1477,
+      "type": "conflict",
+      "title": {
+        "en": "The Ōnin War, rooted in succession disputes in the Ashikaga family, devastates Kyoto and ends the shogunate's national authority",
+        "es": "La guerra de Ōnin, nacida de disputas sucesorias en la familia Ashikaga, devasta Kioto y acaba con la autoridad nacional del shogunato",
+        "zh": "应仁之乱源于足利家的继承之争，京都遭到破坏，幕府的全国权威就此终结"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Ashikaga Bakufu\".",
+          "url": "http://countrystudies.us/japan/15.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Muromachi Period\".",
+          "url": "https://www.worldhistory.org/Muromachi_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kyoto",
+          "es": "Kioto",
+          "zh": "京都"
+        },
+        "lat": 35.0116,
+        "lon": 135.7681
+      }
+    },
+    {
+      "id": "portuguese-at-tanegashima",
+      "start": 1543,
+      "type": "founding",
+      "title": {
+        "en": "Portuguese traders reach Tanegashima, the first European contact with Japan",
+        "es": "Comerciantes portugueses llegan a Tanegashima, el primer contacto europeo con Japón",
+        "zh": "葡萄牙商人抵达种子岛，这是欧洲人与日本的首次接触"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Provincial Wars and Foreign Contacts\".",
+          "url": "http://countrystudies.us/japan/17.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Muromachi Period\".",
+          "url": "https://www.worldhistory.org/Muromachi_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Tanegashima",
+          "es": "Tanegashima",
+          "zh": "种子岛"
+        },
+        "lat": 30.65,
+        "lon": 130.98
+      }
+    },
+    {
+      "id": "nobunaga-banishes-yoshiaki",
+      "start": 1573,
+      "type": "collapse",
+      "title": {
+        "en": "Oda Nobunaga banishes the last Ashikaga shogun, Yoshiaki",
+        "es": "Oda Nobunaga destierra al último shogun Ashikaga, Yoshiaki",
+        "zh": "织田信长放逐末代足利将军义昭"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Reunification\".",
+          "url": "http://countrystudies.us/japan/18.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Muromachi Period\".",
+          "url": "https://www.worldhistory.org/Muromachi_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kyoto",
+          "es": "Kioto",
+          "zh": "京都"
+        },
+        "lat": 35.0116,
+        "lon": 135.7681
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "golden-pavilion",
+      "start": 1397,
+      "end": 1573,
+      "text": {
+        "en": "The top two floors of Yoshimitsu's Golden Pavilion in Kyoto were covered in gold leaf.",
+        "es": "Los dos pisos superiores del Pabellón Dorado de Yoshimitsu, en Kioto, estaban recubiertos de pan de oro.",
+        "zh": "义满在京都建造的金阁，上面两层贴满了金箔。"
+      },
+      "sources": [
+        {
+          "citation": "North American Japanese Garden Association, \"Kinkaku-ji\".",
+          "url": "https://najga.org/kinkaku-ji/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "xavier-at-kagoshima",
+      "start": 1549,
+      "end": 1573,
+      "text": {
+        "en": "Francis Xavier reached Kagoshima in 1549, and Jesuit missions soon won converts among daimyo, merchants and peasants.",
+        "es": "Francisco Javier llegó a Kagoshima en 1549, y las misiones jesuitas pronto ganaron conversos entre daimyo, comerciantes y campesinos.",
+        "zh": "方济·沙勿略于1549年抵达鹿儿岛，耶稣会传教很快在大名、商人和农民中赢得了信徒。"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Provincial Wars and Foreign Contacts\".",
+          "url": "http://countrystudies.us/japan/17.htm"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
