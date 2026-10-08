@@ -1,0 +1,305 @@
+{
+  "id": "fatimid-caliphate",
+  "region": "africa",
+  "wikidataId": "Q160307",
+  "name": {
+    "en": "Fatimid Caliphate",
+    "es": "Califato fatimí",
+    "zh": "法蒂玛哈里发国"
+  },
+  "aliases": [
+    "Fatimids",
+    "Fatimid dynasty",
+    "Fatimid",
+    "Ismaili caliphate",
+    "Cairo",
+    "Al-Azhar",
+    "Al-Mu'izz",
+    "Califato fatimita",
+    "Fatimíes",
+    "Fatimitas",
+    "法蒂玛王朝",
+    "法蒂玛",
+    "开罗",
+    "爱资哈尔"
+  ],
+  "description": {
+    "en": "An Ismaili Shia caliphate that began in Tunisia in 909, conquered Egypt in 969 and ruled from Cairo, a city it founded. At its height it held North Africa, Sicily, the Hejaz and parts of Syria, until Saladin ended it in 1171.",
+    "es": "Califato chií ismailí que nació en Túnez en 909, conquistó Egipto en 969 y gobernó desde El Cairo, ciudad que fundó. En su apogeo dominó el norte de África, Sicilia, el Hiyaz y parte de Siria, hasta que Saladino lo puso fin en 1171.",
+    "zh": "一个伊斯玛仪派什叶派哈里发国，909年在突尼斯建立，969年征服埃及，并从自己建造的开罗统治。鼎盛时期控制北非、西西里、汉志和叙利亚部分地区，1171年被萨拉丁终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "fatimid",
+      "earliestStart": 909,
+      "latestStart": 909,
+      "earliestEnd": 1171,
+      "latestEnd": 1171,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty.\"",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Yalman, Suzan. \"The Art of the Fatimid Period (909-1171).\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+          "url": "https://www.metmuseum.org/toah/hd/fati/hd_fati.htm"
+        }
+      ],
+      "periodoId": "p08m57hgwp5",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "phases": [
+    {
+      "id": "ifriqiya",
+      "name": {
+        "en": "Ifriqiya",
+        "es": "Ifriquiya",
+        "zh": "伊弗里基叶"
+      },
+      "start": 909,
+      "end": 969,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty.\"",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Halm, Heinz (1996). The Empire of the Mahdi: The Rise of the Fatimids. Brill."
+        }
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": {
+        "en": "Egypt and Cairo",
+        "es": "Egipto y El Cairo",
+        "zh": "埃及与开罗"
+      },
+      "start": 969,
+      "end": 1171,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty.\"",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Yalman, Suzan. \"The Art of the Fatimid Period (909-1171).\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+          "url": "https://www.metmuseum.org/toah/hd/fati/hd_fati.htm"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "al-mahdi-proclaimed",
+      "start": 909,
+      "type": "founding",
+      "title": {
+        "en": "Al-Mahdi is proclaimed caliph in Ifriqiya after Ismaili missionaries win the Kutama Berbers to his cause",
+        "es": "Al-Mahdi es proclamado califa en Ifriquiya después de que misioneros ismailíes ganen a los bereberes kutama para su causa",
+        "zh": "伊斯玛仪派传教士争取到库塔马柏柏尔人的支持后，马赫迪在伊弗里基叶被拥立为哈里发"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty.\"",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Yalman, Suzan. \"The Art of the Fatimid Period (909-1171).\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+          "url": "https://www.metmuseum.org/toah/hd/fati/hd_fati.htm"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "mahdia-founded",
+      "start": 920,
+      "type": "founding",
+      "title": {
+        "en": "Al-Mahdi founds Mahdia on the Tunisian coast as the Fatimid capital",
+        "es": "Al-Mahdi funda Mahdia, en la costa tunecina, como capital fatimí",
+        "zh": "马赫迪在突尼斯海岸建立马赫迪耶，作为法蒂玛王朝的都城"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty.\"",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Halm, Heinz (1996). The Empire of the Mahdi: The Rise of the Fatimids. Brill."
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "conquest-of-egypt-and-cairo",
+      "start": 969,
+      "type": "conflict",
+      "title": {
+        "en": "Fatimid armies under al-Mu'izz take Egypt and found Cairo beside al-Fustat; the caliph moves there in 972 or 973",
+        "es": "Los ejércitos fatimíes de al-Muizz toman Egipto y fundan El Cairo junto a al-Fustat; el califa se traslada allí en 972 o 973",
+        "zh": "穆伊兹麾下的法蒂玛军队攻占埃及，并在福斯塔特旁建立开罗；哈里发于972或973年迁到那里"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty.\"",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Yalman, Suzan. \"The Art of the Fatimid Period (909-1171).\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+          "url": "https://www.metmuseum.org/toah/hd/fati/hd_fati.htm"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give 972 or 973 for the caliph's arrival in Cairo; the conquest and the founding are dated 969.",
+        "es": "Las fuentes dan 972 o 973 para la llegada del califa a El Cairo; la conquista y la fundación se datan en 969.",
+        "zh": "关于哈里发抵达开罗的时间，各来源给出972年或973年；征服和建城则定在969年。"
+      }
+    },
+    {
+      "id": "al-azhar-founded",
+      "start": 970,
+      "type": "founding",
+      "title": {
+        "en": "The mosque of al-Azhar is founded in Cairo; it is organised for formal teaching by 988",
+        "es": "Se funda en El Cairo la mezquita de al-Azhar, que en 988 ya está organizada para la enseñanza reglada",
+        "zh": "爱资哈尔清真寺在开罗落成；到988年已设有正式的教学"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Al-Azhar University.\"",
+          "url": "https://www.britannica.com/topic/al-Azhar-University"
+        },
+        {
+          "citation": "Yalman, Suzan. \"The Art of the Fatimid Period (909-1171).\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+          "url": "https://www.metmuseum.org/toah/hd/fati/hd_fati.htm"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates the founding to 970. The Met gives the years 969 to 973 for the building.",
+        "es": "Britannica data la fundación en 970. El Met da los años 969 a 973 para la construcción.",
+        "zh": "大英百科全书把创建时间定在970年。大都会博物馆给出的建造时间是969年至973年。"
+      }
+    },
+    {
+      "id": "al-hakim-vanishes",
+      "start": 1021,
+      "type": "ruler",
+      "title": {
+        "en": "Caliph al-Hakim rides out of Cairo one night and does not return; the Druze faith grows from teaching that he was divine",
+        "es": "El califa al-Hakim sale de El Cairo una noche a caballo y no regresa; la fe drusa nace de la enseñanza de que era divino",
+        "zh": "哈里发哈基姆一夜骑马离开开罗后再未回来；德鲁兹信仰源于认为他是神的教义"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"al-Hakim.\"",
+          "url": "https://www.britannica.com/biography/al-Hakim"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Druze.\"",
+          "url": "https://www.britannica.com/topic/Druze"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "What happened to al-Hakim is unknown. Sources agree only on the night of 13 February 1021.",
+        "es": "Se ignora qué le ocurrió a al-Hakim. Las fuentes solo coinciden en la noche del 13 de febrero de 1021.",
+        "zh": "哈基姆的下落不明。各来源只在1021年2月13日夜晚这一点上一致。"
+      }
+    },
+    {
+      "id": "zirids-break-away",
+      "start": 1048,
+      "end": 1052,
+      "type": "collapse",
+      "title": {
+        "en": "The Zirids, the Fatimids' governors in Ifriqiya, declare independence; the Fatimids send the Banu Hilal and Banu Sulaym into the Maghrib in 1052",
+        "es": "Los ziríes, gobernadores fatimíes en Ifriquiya, declaran su independencia; los fatimíes envían a los Banu Hilal y los Banu Sulaym al Magreb en 1052",
+        "zh": "法蒂玛王朝在伊弗里基叶的总督齐里德人宣布独立；1052年法蒂玛人派希拉尔部和苏莱姆部进入马格里布"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Zirid dynasty.\"",
+          "url": "https://www.britannica.com/topic/Zirid-Dynasty"
+        },
+        {
+          "citation": "Brett, Michael (2017). The Fatimid Empire. Edinburgh University Press."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "How far the Fatimids directed the movement of the Banu Hilal, and how much damage it did, is debated.",
+        "es": "Se debate hasta qué punto los fatimíes dirigieron el movimiento de los Banu Hilal y cuánto daño causó.",
+        "zh": "法蒂玛人在多大程度上主导了希拉尔部的迁移，以及造成了多大破坏，学界有争论。"
+      }
+    },
+    {
+      "id": "badr-al-jamali-vizier",
+      "start": 1073,
+      "type": "ruler",
+      "title": {
+        "en": "Caliph al-Mustansir calls the general Badr al-Jamali to Cairo; he executes rival commanders and officials and restores order",
+        "es": "El califa al-Mustansir llama a El Cairo al general Badr al-Yamali, que ejecuta a comandantes y funcionarios rivales y restablece el orden",
+        "zh": "哈里发穆斯坦绥尔召将军白德尔·贾马利入开罗；他处决对立的将领和官员，恢复了秩序"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Badr al-Jamali.\"",
+          "url": "https://www.britannica.com/biography/Badr-al-Jamali"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"al-Mustansir.\"",
+          "url": "https://www.britannica.com/biography/al-Mustansir-Fatimid-caliph"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "saladin-ends-caliphate",
+      "start": 1171,
+      "type": "collapse",
+      "title": {
+        "en": "Saladin has the Friday prayer said in the name of the Abbasid caliph, ending the Fatimid caliphate and restoring Sunni Islam in Egypt",
+        "es": "Saladino hace rezar la oración del viernes en nombre del califa abasí, con lo que termina el califato fatimí y se restablece el islam suní en Egipto",
+        "zh": "萨拉丁下令在主麻日礼拜中以阿拔斯哈里发的名义祈祷，法蒂玛哈里发国就此终结，埃及恢复逊尼派伊斯兰教"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Saladin.\"",
+          "url": "https://www.britannica.com/biography/Saladin"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty.\"",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "mosque-of-al-aqmar",
+      "start": 1125,
+      "end": 1125,
+      "text": {
+        "en": "The Mosque of al-Aqmar, built in Cairo in 1125, has a carved stone front on the street.",
+        "es": "La mezquita de al-Aqmar, construida en El Cairo en 1125, tiene una fachada de piedra tallada sobre la calle.",
+        "zh": "1125年在开罗建成的阿克马尔清真寺临街一面是雕刻石墙。"
+      },
+      "sources": [
+        {
+          "citation": "Yalman, Suzan. \"The Art of the Fatimid Period (909-1171).\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+          "url": "https://www.metmuseum.org/toah/hd/fati/hd_fati.htm"
+        }
+      ]
+    }
+  ]
+}

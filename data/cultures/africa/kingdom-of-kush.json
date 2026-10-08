@@ -1,0 +1,320 @@
+{
+  "id": "kingdom-of-kush",
+  "region": "africa",
+  "wikidataId": "Q241790",
+  "name": {
+    "en": "Kingdom of Kush",
+    "es": "Reino de Kush",
+    "zh": "库施王国"
+  },
+  "aliases": [
+    "Kush",
+    "Cush",
+    "Nubia",
+    "Napata",
+    "Napatan",
+    "Meroe",
+    "Meroë",
+    "Meroitic",
+    "Kushites",
+    "Black Pharaohs",
+    "25th Dynasty",
+    "Nubian pharaohs",
+    "Reino de Kush",
+    "Reino de Meroé",
+    "库施",
+    "麦罗埃",
+    "纽帕塔",
+    "努比亚"
+  ],
+  "description": {
+    "en": "A kingdom on the Middle Nile in what is now Sudan. From Napata its kings ruled Egypt as the 25th Dynasty, then moved their court south to Meroë, where they raised pyramids and temples and traded luxury goods until about 350 CE.",
+    "es": "Reino del Nilo medio, en lo que hoy es Sudán. Desde Napata sus reyes gobernaron Egipto como la dinastía XXV y después trasladaron la corte al sur, a Meroé, donde levantaron pirámides y templos y comerciaron con bienes de lujo hasta hacia el 350 e. c.",
+    "zh": "位于尼罗河中游、今苏丹境内的王国。其国王从纳帕塔出发统治埃及，建立第二十五王朝，后来将王廷南迁至麦罗埃，在那里修建金字塔和神庙，经营奢例品贸易，直到约公元350年。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kush",
+      "earliestStart": -1069,
+      "latestStart": -759,
+      "earliestEnd": 330,
+      "latestEnd": 370,
+      "sources": [
+        {
+          "citation": "The Metropolitan Museum of Art. \"Sudan, 1000 B.C.–1 A.D.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/ht/?period=04&region=afs"
+        },
+        {
+          "citation": "Wikidata. \"Kingdom of Kush\" (Q241790), start and end times.",
+          "url": "https://www.wikidata.org/wiki/Q241790"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Wikidata starts Kush about 1070 BCE, when Egypt's New Kingdom ends and Nubia is independent again. The Met dates the kingdom from about 760 BCE, when Kashta united Nubia. The end, about 350 CE, is a round figure: Meroë broke up over several decades.",
+        "es": "Wikidata sitúa el inicio de Kush hacia 1070 a. e. c., cuando termina el Reino Nuevo de Egipto y Nubia vuelve a ser independiente. El Met data el reino desde hacia 760 a. e. c., cuando Kashta unificó Nubia. El final, hacia 350 e. c., es una cifra redonda: Meroé se disgregó a lo largo de varias décadas.",
+        "zh": "维基数据将库施的起点定在约公元前1070年，即埃及新王国结束、努比亚重获独立之时。大都会博物馆从约公元前760年卡什塔统一努比亚算起。约公元350年的终点是个整数：麦罗埃经数十年才瓦解。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "napatan",
+      "name": {
+        "en": "Napatan period",
+        "es": "Período napateo",
+        "zh": "纳帕塔时期"
+      },
+      "start": -999,
+      "end": -249,
+      "sources": [
+        {
+          "citation": "The Metropolitan Museum of Art. \"Sudan, 1000 B.C.–1 A.D.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/ht/?period=04&region=afs"
+        },
+        {
+          "citation": "Lendering, Jona. \"Napata.\" Livius.org.",
+          "url": "https://www.livius.org/articles/place/nubia/napata/"
+        }
+      ]
+    },
+    {
+      "id": "meroitic",
+      "name": {
+        "en": "Meroitic period",
+        "es": "Período meroítico",
+        "zh": "麦罗埃时期"
+      },
+      "start": -249,
+      "end": 350,
+      "sources": [
+        {
+          "citation": "The Metropolitan Museum of Art. \"Sudan, 1000 B.C.–1 A.D.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/ht/?period=04&region=afs"
+        },
+        {
+          "citation": "Lendering, Jona. \"Meroe.\" Livius.org.",
+          "url": "https://www.livius.org/articles/place/nubia/meroe/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "kashta-unites-nubia",
+      "start": -759,
+      "type": "founding",
+      "title": {
+        "en": "Kashta unites Nubia under one king, from the First to the Sixth Cataract",
+        "es": "Kashta une Nubia bajo un solo rey, desde la primera hasta la sexta catarata",
+        "zh": "卡什塔统一努比亚，从第一瀑布到第六瀑布均归一位国王统治"
+      },
+      "sources": [
+        {
+          "citation": "The Metropolitan Museum of Art. \"Sudan, 1000 B.C.–1 A.D.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/ht/?period=04&region=afs"
+        },
+        {
+          "citation": "Lendering, Jona. \"25th Dynasty (Nubians).\" Livius.org.",
+          "url": "https://www.livius.org/articles/dynasty/25-dynasty-nubians/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "piye-conquers-egypt",
+      "start": -727,
+      "type": "conflict",
+      "title": {
+        "en": "Piye marches north from Napata, takes Memphis and receives the submission of the Delta princes",
+        "es": "Piye marcha al norte desde Napata, toma Menfis y recibe la sumisión de los príncipes del Delta",
+        "zh": "皮耶从纳帕塔北上，攻占孟菲斯，三角洲诸侯向他称臣"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"25th Dynasty (Nubians).\" Livius.org.",
+          "url": "https://www.livius.org/articles/dynasty/25-dynasty-nubians/"
+        },
+        {
+          "citation": "Lendering, Jona. \"Napata.\" Livius.org.",
+          "url": "https://www.livius.org/articles/place/nubia/napata/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Victory Stela gives no date. Sources place the conquest between about 730 and 725 BCE.",
+        "es": "La estela de la victoria no da fecha. Las fuentes sitúan la conquista entre c. 730 y 725 a. e. c.",
+        "zh": "胜利碑没有记载年份。各种资料把这次征服定在约公元前730年至前725年之间。"
+      }
+    },
+    {
+      "id": "assyrians-end-kushite-rule",
+      "start": -662,
+      "type": "collapse",
+      "title": {
+        "en": "Assyrian armies take Memphis, sack Thebes and drive Taharqo back to Napata: Kushite rule over Egypt ends",
+        "es": "Los ejércitos asirios toman Menfis, saquean Tebas y empujan a Taharqo de vuelta a Napata: termina el dominio kushita sobre Egipto",
+        "zh": "亚述军队攻占孟菲斯、洗劫底比斯，将塔哈尔卡驱回纳帕塔：库施对埃及的统治结束"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"25th Dynasty (Nubians).\" Livius.org.",
+          "url": "https://www.livius.org/articles/dynasty/25-dynasty-nubians/"
+        },
+        {
+          "citation": "The Metropolitan Museum of Art. \"Sudan, 1000 B.C.–1 A.D.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/ht/?period=04&region=afs"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Livius dates the Assyrian campaign that sacked Thebes to 667/666 BCE. Other accounts put the sack of Thebes at 663 BCE, the year used here. Taharqo died in 664 BCE, and his successor Tanutamani held parts of Egypt only briefly.",
+        "es": "Livius data la campaña asiria que saqueó Tebas en 667/666 a. e. c. Otros relatos sitúan el saqueo de Tebas en 663 a. e. c., el año que se usa aquí. Taharqo murió en 664 a. e. c. y su sucesor Tanutamani solo conservó partes de Egipto por poco tiempo.",
+        "zh": "Livius把洗劫底比斯的亚述远征定在公元前667/666年。其他说法把底比斯被洗劫定在公元前663年，本条采用该年。塔哈尔卡于公元前664年去世，继任者坦加巴尼仅短暂控制埃及部分地区。"
+      }
+    },
+    {
+      "id": "psamtik-ii-raid",
+      "start": -592,
+      "type": "conflict",
+      "title": {
+        "en": "Psamtik II of Egypt sends an army up the Nile into Kush and has Kushite kings' images destroyed on monuments in Egypt",
+        "es": "Psamético II de Egipto envía un ejército nilo arriba hacia Kush y manda destruir las imágenes de los reyes kushitas en los monumentos de Egipto",
+        "zh": "埃及的普萨美提克二世派军沿尼罗河南下进入库施，并下令毁坏埃及各处纪念物上的库施国王形象"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"Psammetichus II.\" Livius.org.",
+          "url": "https://www.livius.org/articles/person/psammetichus-ii/"
+        },
+        {
+          "citation": "Herodotus. Histories 2.161, on the expedition of Psammis (Psamtik II) against Ethiopia."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Livius's pages differ on how far the army went: to Kerma on one, to Napata, which it sacked, on another. The date, about 593 BCE, falls in Psamtik II's reign (595 to 589 BCE).",
+        "es": "Las páginas de Livius difieren sobre hasta dónde llegó el ejército: hasta Kerma en una, hasta Napata, que saqueó, en otra. La fecha, hacia 593 a. e. c., cae en el reinado de Psamético II (595 a 589 a. e. c.).",
+        "zh": "Livius的不同页面对军队到达的范围说法不一：一处说到达克尔玛，另一处说攻到并洗劫了纳帕塔。时间约为公元前593年，属于普萨美提克二世在位期间（公元前595年至前589年）。"
+      }
+    },
+    {
+      "id": "royal-cemetery-moves-to-meroe",
+      "start": -249,
+      "type": "founding",
+      "title": {
+        "en": "The royal cemetery moves from Napata to Meroë, between the Fifth and Sixth Cataracts, which becomes the capital",
+        "es": "El cementerio real pasa de Napata a Meroé, entre la quinta y la sexta catarata, que se convierte en la capital",
+        "zh": "王家墓地从纳帕塔迁到第五瀑布与第六瀑布之间的麦罗埃，麦罗埃成为都城"
+      },
+      "sources": [
+        {
+          "citation": "The Metropolitan Museum of Art. \"Sudan, 1000 B.C.–1 A.D.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/ht/?period=04&region=afs"
+        },
+        {
+          "citation": "Lendering, Jona. \"Meroe.\" Livius.org.",
+          "url": "https://www.livius.org/articles/place/nubia/meroe/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Met dates the move of the royal cemetery to about 250 BCE, under Arkamani I. Livius places the move of the royal residence much earlier, after Psamtik II's raid or under Aspelta. Meroë was already an important centre, and Napata kept some royal burials.",
+        "es": "El Met data el traslado del cementerio real hacia 250 a. e. c., con Arkamani I. Livius sitúa el traslado de la residencia real mucho antes, tras la incursión de Psamético II o con Aspelta. Meroé ya era un centro importante, y Napata conservó algunos enterramientos reales.",
+        "zh": "大都会博物馆把王家墓地迁移定在约公元前250年阿尔卡马尼一世时期。Livius则把王室住所迁移的时间定得早得多，在普萨美提克二世突进之后或阿斯佩塔时期。麦罗埃当时已是重要中心，纳帕塔也保留了一些王家墓葬。"
+      }
+    },
+    {
+      "id": "rome-and-kush",
+      "start": -24,
+      "end": -20,
+      "type": "conflict",
+      "title": {
+        "en": "Kushite forces raid southern Egypt; a Roman army under Petronius razes Napata, and Augustus grants the queen's envoys peace on Samos",
+        "es": "Fuerzas kushitas atacan el sur de Egipto; un ejército romano al mando de Petronio arrasa Napata y Augusto concede la paz a los enviados de la reina en Samos",
+        "zh": "库施军队袭击埃及南部；佩特罗尼乌斯率罗马军队夷平纳帕塔，奥古斯都在萨摩斯岛接见女王的使者并同意媒和"
+      },
+      "sources": [
+        {
+          "citation": "Strabo. Geography 17.1.54 (Greek text, Meineke edition), Perseus Digital Library.",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0197:book=17:chapter=1:section=54"
+        },
+        {
+          "citation": "Lendering, Jona. \"Meroe.\" Livius.org.",
+          "url": "https://www.livius.org/articles/place/nubia/meroe/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Strabo gives no years. Livius dates the Kushite raid to 23 BCE. The span shown, about 25 to 21 BCE, is approximate.",
+        "es": "Estrabón no da fechas. Livius data la incursión kushita en 23 a. e. c. El período que se muestra, c. 25 a 21 a. e. c., es aproximado.",
+        "zh": "斯特拉布没有给出年份。Livius把库施的突进定在公元前23年。所示的约公元前25年至前21年是个大致范围。"
+      }
+    },
+    {
+      "id": "kush-breaks-up",
+      "start": 350,
+      "type": "collapse",
+      "title": {
+        "en": "The kingdom of Kush breaks up after invasions and decline; Nobatia, Makuria and Alodia take its place",
+        "es": "El reino de Kush se disgrega tras invasiones y declive; Nobatia, Makuria y Alodia ocupan su lugar",
+        "zh": "库施王国在入侵和衰落之后瓦解，诺巴塔、马库拉和阿洛迪亚取而代之"
+      },
+      "sources": [
+        {
+          "citation": "The Metropolitan Museum of Art. \"Sudan, 1000 B.C.–1 A.D.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/ht/?period=04&region=afs"
+        },
+        {
+          "citation": "Lendering, Jona. \"Late Ancient Nubia.\" Livius.org.",
+          "url": "https://www.livius.org/articles/place/nubia/late-ancient-nubia/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date is a round figure. Causes are debated: invasion by the Nobatae and other peoples, a fall in trade, and an Aksumite raid are all proposed.",
+        "es": "La fecha es una cifra redonda. Las causas se discuten: se han propuesto la invasión de los nobatae y otros pueblos, la caída del comercio y una incursión aksumita.",
+        "zh": "这一年份是个整数。原因存在争论：诺巴塔人等民族的入侵、贸易衰落以及阿克苏姆的突进都曾被提出。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "kandake",
+      "start": -24,
+      "end": -20,
+      "text": {
+        "en": "Strabo calls the Kushite queen who faced Rome Kandake and describes her as a man-like woman, blind in one eye.",
+        "es": "Estrabón llama Kandake a la reina kushita que se enfrentó a Roma y la describe como una mujer de aire varónil, ciega de un ojo.",
+        "zh": "斯特拉布把与罗马交战的库施女王称为坎达刻，并描述她是个像男人一样的女子，一只眼睛失明。"
+      },
+      "sources": [
+        {
+          "citation": "Strabo. Geography 17.1.54 (Greek text, Meineke edition), Perseus Digital Library.",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0197:book=17:chapter=1:section=54"
+        }
+      ]
+    },
+    {
+      "id": "largest-state",
+      "start": -715,
+      "end": -663,
+      "text": {
+        "en": "Under the 25th Dynasty, Egypt and Nubia formed the largest unified state then in existence, according to the Met.",
+        "es": "Bajo la dinastía XXV, Egipto y Nubia formaron el mayor estado unificado de su época, según el Met.",
+        "zh": "根据大都会博物馆的说法，第二十五王朝时期的埃及与努比亚组成了当时最大的统一国家。"
+      },
+      "sources": [
+        {
+          "citation": "The Metropolitan Museum of Art. \"Sudan, 1000 B.C.–1 A.D.\" Heilbrunn Timeline of Art History.",
+          "url": "https://www.metmuseum.org/toah/ht/?period=04&region=afs"
+        }
+      ]
+    }
+  ]
+}

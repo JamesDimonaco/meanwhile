@@ -1,0 +1,275 @@
+{
+  "id": "carthage",
+  "region": "africa",
+  "wikidataId": "Q2429397",
+  "name": {
+    "en": "Ancient Carthage",
+    "es": "Estado púnico",
+    "zh": "古迦太基"
+  },
+  "aliases": [
+    "Carthage",
+    "Carthaginian",
+    "Carthaginians",
+    "Punic",
+    "Phoenician Carthage",
+    "Qart-hadasht",
+    "Hannibal",
+    "Cartago",
+    "Cartaginés",
+    "Púnico",
+    "Estado cartaginés",
+    "迦太基",
+    "布匿",
+    "汉尼拔"
+  ],
+  "description": {
+    "en": "A Phoenician colony on the coast of present-day Tunisia that grew into the leading sea power of the western Mediterranean. Its traders and soldiers reached Sicily, Sardinia and Iberia, until three wars with Rome ended in 146 BCE, when Roman troops destroyed the city.",
+    "es": "Colonia fenicia en la costa de la actual Túnez que se convirtió en la principal potencia marítima del Mediterráneo occidental. Sus comerciantes y soldados llegaron a Sicilia, Cerdeña e Iberia, hasta que tres guerras con Roma terminaron en 146 a. e. c., cuando tropas romanas destruyeron la ciudad.",
+    "zh": "位于今突尼斯海岸的腓尼基殖民地，后来成为西地中海的头号海上强国。其商人和士兵远至西西里、撒丁岛和伊比利亚，直到与罗马的三次战争在公元前146年结束，罗马军队摧毁了这座城市。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "carthage",
+      "earliestStart": -899,
+      "latestStart": -750,
+      "earliestEnd": -145,
+      "latestEnd": -145,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Carthage.\"",
+          "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+        },
+        {
+          "citation": "Aubet, Maria Eugenia (2001). The Phoenicians and the West: Politics, Colonies and Trade, 2nd ed. Cambridge University Press."
+        }
+      ],
+      "periodoId": "p08m57hph3k",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The British Museum's PeriodO definition runs from the 9th century BCE to 146 BCE. Ancient writers give 814 BCE for the founding, but the earliest dated remains on the site are from the later 8th century BCE, so the solid bar starts at 750 BCE.",
+        "es": "La definición del Museo Británico en PeriodO va del siglo IX a. e. c. a 146 a. e. c. Los autores antiguos dan 814 a. e. c. para la fundación, pero los restos fechados más antiguos del lugar son de finales del siglo VIII a. e. c., por lo que la barra sólida empieza en 750 a. e. c.",
+        "zh": "大英博物馆在PeriodO中的定义是公元前9世纪至公元前146年。古代作家给出的建城年份是公元前814年，但遗址上最早有年代可考的遗存属于公元前8世纪后期，因此实线从公元前750年开始。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "rise",
+      "name": {
+        "en": "Rise of a sea power",
+        "es": "Auge de una potencia marítima",
+        "zh": "海上强国的崛起"
+      },
+      "start": -813,
+      "end": -263,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Carthage.\"",
+          "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+        },
+        {
+          "citation": "Lendering, Jona. \"Carthaginian Empire.\" Livius.org.",
+          "url": "https://www.livius.org/articles/place/carthage/carthaginian-empire/"
+        }
+      ]
+    },
+    {
+      "id": "wars-with-rome",
+      "name": {
+        "en": "Wars with Rome",
+        "es": "Guerras con Roma",
+        "zh": "与罗马的战争"
+      },
+      "start": -263,
+      "end": -145,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Punic Wars.\"",
+          "url": "https://www.britannica.com/event/Punic-Wars"
+        },
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "founding-of-carthage",
+      "start": -813,
+      "type": "founding",
+      "title": {
+        "en": "Colonists from Tyre found Carthage on the Bay of Tunis, by later tradition in 814 BCE",
+        "es": "Colonos de Tiro fundan Cartago en la bahía de Túnez, según la tradición posterior en 814 a. e. c.",
+        "zh": "来自提尔的殖民者在突尼斯湾建立迦太基，据后世传说在公元前814年"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Carthage.\"",
+          "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+        },
+        {
+          "citation": "Aubet, Maria Eugenia (2001). The Phoenicians and the West: Politics, Colonies and Trade, 2nd ed. Cambridge University Press."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date and the founding story of Dido come from later Greek and Roman writers. The earliest dated finds are about half a century to a century later.",
+        "es": "La fecha y la historia fundacional de Dido proceden de autores griegos y romanos posteriores. Los hallazgos fechados más antiguos son de medio siglo a un siglo después.",
+        "zh": "这一年份和狄多建城的故事出自后来的希腊和罗马作家。最早有年代可考的出土物要晚半个世纪至一个世纪。"
+      }
+    },
+    {
+      "id": "battle-of-himera",
+      "start": -479,
+      "type": "conflict",
+      "title": {
+        "en": "Gelon of Syracuse and Theron of Acragas defeat a Carthaginian army at Himera; its commander Hamilcar dies",
+        "es": "Gelón de Siracusa y Terón de Acragas derrotan a un ejército cartaginés en Himera; muere su comandante Amílcar",
+        "zh": "叙拉古的格隆与阿克拉加斯的塞隆在希梅拉击败迦太基军队，其统帅哈米尔卡阵亡"
+      },
+      "sources": [
+        {
+          "citation": "Lendering, Jona. \"Himera (480 BCE).\" Livius.org.",
+          "url": "https://www.livius.org/articles/battle/himera-480-bce/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Himera.\"",
+          "url": "https://www.britannica.com/place/Himera"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "hamilcar-barca-in-iberia",
+      "start": -236,
+      "type": "conflict",
+      "title": {
+        "en": "Hamilcar Barca crosses to Iberia and begins building a Carthaginian base in the south of the peninsula",
+        "es": "Amílcar Barca pasa a Iberia y empieza a crear una base cartaginesa en el sur de la península",
+        "zh": "哈米尔卡·巴卡渡海进入伊比利亚，开始在半岛南部建立迦太基的基地"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Hannibal.\"",
+          "url": "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "aegates-islands-and-peace",
+      "start": -240,
+      "type": "conflict",
+      "title": {
+        "en": "Carthage loses its fleet off the Aegates Islands, leaves Sicily and agrees to pay Rome an indemnity",
+        "es": "Cartago pierde su flota frente a las islas Égadas, abandona Sicilia y acepta pagar una indemnización a Roma",
+        "zh": "迦太基舰队在埃加迪群岛外海被歼，撤出西西里，并同意向罗马支付赔款"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"First Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/First_Punic_War/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Punic Wars.\"",
+          "url": "https://www.britannica.com/event/Punic-Wars"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "hannibal-takes-saguntum",
+      "start": -218,
+      "type": "conflict",
+      "title": {
+        "en": "Hannibal takes Saguntum, then leads his army over the Alps into Italy: the Second Punic War begins",
+        "es": "Aníbal toma Sagunto y luego lleva a su ejército por los Alpes hasta Italia: comienza la segunda guerra púnica",
+        "zh": "汉尼拔攻占萨贡托，随后率军越过阿尔卑斯山进入意大利：第二次布匿战争开始"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Second Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Second_Punic_War/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Hannibal.\"",
+          "url": "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "battle-of-zama",
+      "start": -201,
+      "type": "conflict",
+      "title": {
+        "en": "Scipio defeats Hannibal at Zama, in North Africa, and the war ends on Rome's terms",
+        "es": "Escipión derrota a Aníbal en Zama, en el norte de África, y la guerra termina en los términos de Roma",
+        "zh": "西庇阿在北非的扎马击败汉尼拔，战争以罗马开出的条件结束"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Battle of Zama.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Battle_of_Zama/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Hannibal.\"",
+          "url": "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "destruction-of-carthage",
+      "start": -148,
+      "end": -145,
+      "type": "collapse",
+      "title": {
+        "en": "Rome besieges Carthage for three years, takes it after a week of street fighting in 146 BCE, burns it and enslaves the survivors",
+        "es": "Roma sitia Cartago durante tres años, la toma en 146 a. e. c. tras una semana de combates callejeros, la incendia y esclaviza a los supervivientes",
+        "zh": "罗马围攻迦太基三年，于公元前146年经过一周巷战攻占该城，将其焚毁并奴役幸存者"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Third Punic War.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Third_Punic_War/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Carthage.\"",
+          "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "mago-on-farming",
+      "start": -145,
+      "end": -145,
+      "text": {
+        "en": "When Rome took Carthage, its libraries went to Numidian kings. Mago's 28 books on farming were kept and are known today only through translations and quotations, as in Columella.",
+        "es": "Cuando Roma tomó Cartago, sus bibliotecas pasaron a reyes númidas. Los 28 libros de Magón sobre agricultura se conservaron y hoy solo se conocen por traducciones y citas, como las de Columela.",
+        "zh": "罗马攻占迦太基后，城中的图书馆被交给努米底亚诸王。马戈的28卷农书得以保存，如今只能通过译本和后人的引用得知，例如科鲁迈拉的著作。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Carthage.\"",
+          "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+        }
+      ]
+    }
+  ]
+}
