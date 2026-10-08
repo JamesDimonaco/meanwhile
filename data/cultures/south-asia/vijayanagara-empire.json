@@ -1,0 +1,246 @@
+{
+  "id": "vijayanagara-empire",
+  "region": "south-asia",
+  "wikidataId": "Q167639",
+  "name": {
+    "en": "Vijayanagara Empire",
+    "es": "Imperio vijayanagara",
+    "zh": "毗奢耶那伽罗帝国"
+  },
+  "aliases": [
+    "Vijayanagar",
+    "Karnata Empire",
+    "Kingdom of Bisnaga",
+    "Hampi"
+  ],
+  "description": {
+    "en": "A Hindu empire of the Deccan founded in 1336 by the brothers Harihara and Bukka. From its capital at Hampi it ruled much of southern India until the armies of the Deccan sultanates beat it at Talikota in 1565 and sacked the city.",
+    "es": "Imperio hindú del Decán fundado en 1336 por los hermanos Harihara y Bukka. Desde su capital, Hampi, gobernó buena parte del sur de la India hasta que los ejércitos de los sultanatos del Decán lo derrotaron en Talikota en 1565 y saquearon la ciudad.",
+    "zh": "德干高原上的印度教帝国，1336年由哈里哈拉与布卡兄弟建立。它以亨比为都，统治南印度大部分地区，直到1565年在塔利科塔败于德干各苏丹国联军，都城遭洗劫。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "vijayanagara-period",
+      "earliestStart": 1336,
+      "latestStart": 1336,
+      "earliestEnd": 1565,
+      "latestEnd": 1646,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Vijayanagara\" (1336 – early 17th century), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hn92h"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vijayanagara Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+        }
+      ],
+      "periodoId": "p08m57hn92h",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The empire's power broke at Talikota in 1565, but a reduced state continued until about 1646. The British Museum definition runs to the early 17th century (1601 to 1634).",
+        "es": "El poder del imperio se quebró en Talikota en 1565, pero un estado reducido continuó hasta cerca de 1646. La definición del Museo Británico llega hasta principios del siglo XVII (1601 a 1634).",
+        "zh": "帝国的实力在1565年的塔利科塔战役中崩溃，但缩小后的国家一直延续到约1646年。大英博物馆的定义则止于17世纪初（1601至1634年）。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 1336,
+      "type": "founding",
+      "title": {
+        "en": "Harihara I and his brother Bukka Raya I found Vijayanagara on the Tungabhadra river in or about 1336",
+        "es": "Harihara I y su hermano Bukka Raya I fundan Vijayanagara a orillas del río Tungabhadra en 1336 o hacia esa fecha",
+        "zh": "哈里哈拉一世与其兄弟布卡·拉亚一世约在1336年于东加巴德拉河畔建立毗奢耶那伽罗"
+      },
+      "sources": [
+        {
+          "citation": "Sewell, Robert (1900). A Forgotten Empire (Vijayanagar): A Contribution to the History of India. Swan Sonnenschein.",
+          "url": "https://www.gutenberg.org/ebooks/3310"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vijayanagara Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Traditions differ on the brothers' origins and on the exact year; 1336 is the conventional date.",
+        "es": "Las tradiciones difieren sobre el origen de los hermanos y sobre el año exacto; 1336 es la fecha convencional.",
+        "zh": "关于兄弟二人的出身和确切年份，各种传说不一；1336年是通行的说法。"
+      },
+      "place": {
+        "name": {
+          "en": "Hampi",
+          "es": "Hampi",
+          "zh": "亨比"
+        },
+        "lat": 15.335,
+        "lon": 76.462
+      }
+    },
+    {
+      "id": "krishnadevaraya",
+      "start": 1509,
+      "end": 1529,
+      "type": "ruler",
+      "title": {
+        "en": "Krishnadevaraya takes the throne; his reign, to about 1529, is when the empire reaches its greatest extent",
+        "es": "Krishnadevaraya asciende al trono; su reinado, hasta cerca de 1529, es cuando el imperio alcanza su mayor extensión",
+        "zh": "克里希纳提婆罗耶登上王位；他在位至约1529年，帝国在此期间达到最大疆域"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Vijayanagara Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+        },
+        {
+          "citation": "Sewell, Robert (1900). A Forgotten Empire (Vijayanagar): A Contribution to the History of India. Swan Sonnenschein.",
+          "url": "https://www.gutenberg.org/ebooks/3310"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sewell dates the reign from 1509 to 1530; later references give 1529.",
+        "es": "Sewell fecha el reinado de 1509 a 1530; referencias posteriores dan 1529.",
+        "zh": "休厄尔将其在位时间定为1509至1530年；后来的著作多作1529年。"
+      }
+    },
+    {
+      "id": "raichur",
+      "start": 1520,
+      "type": "conflict",
+      "title": {
+        "en": "Krishnadevaraya besieges Raichur and beats the Bijapur army sent to relieve it, taking the fortress",
+        "es": "Krishnadevaraya sitia Raichur y derrota al ejército de Bijapur enviado en su auxilio, y toma la fortaleza",
+        "zh": "克里希纳提婆罗耶围攻赖久尔，击败前来解围的比贾布尔军队，夺取该要塞"
+      },
+      "sources": [
+        {
+          "citation": "Sewell, Robert (1900). A Forgotten Empire (Vijayanagar): A Contribution to the History of India. Swan Sonnenschein.",
+          "url": "https://www.gutenberg.org/ebooks/3310"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vijayanagara Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Raichur",
+          "es": "Raichur",
+          "zh": "赖久尔"
+        },
+        "lat": 16.2076,
+        "lon": 77.3463
+      }
+    },
+    {
+      "id": "paes-visit",
+      "start": 1520,
+      "type": "invention",
+      "title": {
+        "en": "The Portuguese traveller Domingos Paes visits Vijayanagara and writes a detailed eyewitness account of the city",
+        "es": "El viajero portugués Domingos Paes visita Vijayanagara y escribe un relato detallado de la ciudad como testigo directo",
+        "zh": "葡萄牙旅行家多明戈斯·派斯访问毗奢耶那伽罗，并亲笔写下对该城的详细见闻"
+      },
+      "sources": [
+        {
+          "citation": "Sewell, Robert (1900). A Forgotten Empire (Vijayanagar): A Contribution to the History of India. Swan Sonnenschein.",
+          "url": "https://www.gutenberg.org/ebooks/3310"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vijayanagara Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sewell places Paes's visit at about 1520.",
+        "es": "Sewell sitúa la visita de Paes hacia 1520.",
+        "zh": "休厄尔将派斯的访问定在约1520年。"
+      }
+    },
+    {
+      "id": "talikota",
+      "start": 1565,
+      "type": "collapse",
+      "title": {
+        "en": "An alliance of Deccan sultanates defeats Vijayanagara's army at Talikota in January 1565, then plunders Hampi",
+        "es": "Una alianza de sultanatos del Decán derrota al ejército de Vijayanagara en Talikota en enero de 1565 y después saquea Hampi",
+        "zh": "德干各苏丹国联军于1565年1月在塔利科塔击败毗奢耶那伽罗军队，随后洗劫亨比"
+      },
+      "sources": [
+        {
+          "citation": "Sewell, Robert (1900). A Forgotten Empire (Vijayanagar): A Contribution to the History of India. Swan Sonnenschein.",
+          "url": "https://www.gutenberg.org/ebooks/3310"
+        },
+        {
+          "citation": "Wikipedia (English). \"Vijayanagara Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Talikota",
+          "es": "Talikota",
+          "zh": "塔利科塔"
+        },
+        "lat": 16.4733,
+        "lon": 76.31
+      }
+    },
+    {
+      "id": "dissolution",
+      "start": 1646,
+      "type": "collapse",
+      "title": {
+        "en": "The last remnants of the empire dissolve around 1646, leaving regional successor states",
+        "es": "Los últimos restos del imperio se disuelven hacia 1646 y quedan estados sucesores regionales",
+        "zh": "帝国最后的残余约在1646年瓦解，留下若干地方继承政权"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Vijayanagara Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Vijayanagara,\" via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hn92h"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The British Museum places the end in the early 17th century (1601 to 1634); Wikipedia gives 1646.",
+        "es": "El Museo Británico sitúa el final a principios del siglo XVII (1601 a 1634); Wikipedia da 1646.",
+        "zh": "大英博物馆将终结定在17世纪初（1601至1634年）；维基百科作1646年。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "paes-rome",
+      "start": 1520,
+      "end": 1520,
+      "text": {
+        "en": "Domingos Paes climbed a hill to look over Vijayanagara and wrote that what he saw seemed as large as Rome.",
+        "es": "Domingos Paes subió a una colina para contemplar Vijayanagara y escribió que lo que veía le parecía tan grande como Roma.",
+        "zh": "多明戈斯·派斯登上山丘俯瞰毗奢耶那伽罗，写道所见之城似乎和罗马一样大。"
+      },
+      "sources": [
+        {
+          "citation": "Sewell, Robert (1900). A Forgotten Empire (Vijayanagar): A Contribution to the History of India. Swan Sonnenschein.",
+          "url": "https://www.gutenberg.org/ebooks/3310"
+        }
+      ]
+    }
+  ]
+}
