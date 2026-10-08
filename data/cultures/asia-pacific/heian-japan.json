@@ -1,0 +1,303 @@
+{
+  "id": "heian-japan",
+  "region": "asia-pacific",
+  "wikidataId": "Q193292",
+  "name": {
+    "en": "Heian period",
+    "es": "Período Heian",
+    "zh": "平安时代"
+  },
+  "nativeName": {
+    "text": "平安",
+    "lang": "ja"
+  },
+  "aliases": [
+    "Heian",
+    "Heian Japan",
+    "Heian-kyo",
+    "Heiankyo",
+    "Kyoto court",
+    "Tale of Genji",
+    "Genpei War",
+    "Fujiwara regents"
+  ],
+  "description": {
+    "en": "From the move of the capital to Kyoto in 794, a court led by the Fujiwara family produced the Tale of Genji and the first poetry anthologies in kana. Provincial warrior clans then rose, and the Taira lost to the Minamoto at Dan-no-ura in 1185.",
+    "es": "Desde el traslado de la capital a Kioto en 794, una corte dirigida por la familia Fujiwara produjo el Genji monogatari y las primeras antologías poéticas en kana. Después ascendieron los clanes guerreros provinciales y los Taira perdieron ante los Minamoto en Dan-no-ura en 1185.",
+    "zh": "自794年迁都京都起，以藤原氏为首的朝廷创作出《源氏物语》和最早的假名诗歌选集。此后地方武士家族崛起，1185年平氏在坛之浦败给源氏。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "heian-period",
+      "earliestStart": 794,
+      "latestStart": 794,
+      "earliestEnd": 1185,
+      "latestEnd": 1185,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Heian\" (AD 794 – AD 1185), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hj3pm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Heian period.\"",
+          "url": "https://www.britannica.com/event/Heian-period"
+        }
+      ],
+      "periodoId": "p08m57hj3pm",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "capital-to-heian-kyo",
+      "start": 794,
+      "type": "founding",
+      "title": {
+        "en": "Emperor Kammu moves the capital to Heian-kyō, now Kyoto, after leaving Nara",
+        "es": "El emperador Kammu traslada la capital a Heian-kyō, hoy Kioto, tras dejar Nara",
+        "zh": "桓武天皇离开奈良，迁都平安京，即今天的京都"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Heian period.\"",
+          "url": "https://www.britannica.com/event/Heian-period"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Heiankyo.\"",
+          "url": "https://www.worldhistory.org/Heiankyo/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Heian-kyō (Kyoto)",
+          "es": "Heian-kyō (Kioto)",
+          "zh": "平安京（京都）"
+        },
+        "lat": 35.01,
+        "lon": 135.77
+      }
+    },
+    {
+      "id": "saicho-kukai-return",
+      "start": 805,
+      "end": 806,
+      "type": "invention",
+      "title": {
+        "en": "Saichō and Kūkai return from China and found the Tendai and Shingon schools of Buddhism",
+        "es": "Saichō y Kūkai regresan de China y fundan las escuelas budistas Tendai y Shingon",
+        "zh": "最澄与空海从中国归来，分别创立天台宗和真言宗"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Kūkai.\"",
+          "url": "https://www.britannica.com/biography/Kukai"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Saicho.\"",
+          "url": "https://www.worldhistory.org/Saicho/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kukai.\"",
+          "url": "https://www.worldhistory.org/Kukai/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "kokinshu",
+      "start": 905,
+      "type": "invention",
+      "title": {
+        "en": "Ki no Tsurayuki and other court poets compile the Kokinshū, the first poetry anthology ordered by an emperor",
+        "es": "Ki no Tsurayuki y otros poetas de la corte compilan el Kokinshū, la primera antología poética encargada por un emperador",
+        "zh": "纪贯之等宫廷歌人编成《古今和歌集》，这是第一部奉天皇敕命编纂的和歌选集"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Kokinshū.\"",
+          "url": "https://www.britannica.com/topic/Kokinshu"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Heian Period.\"",
+          "url": "https://www.worldhistory.org/Heian_Period/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "masakado-revolt",
+      "start": 935,
+      "end": 940,
+      "type": "conflict",
+      "title": {
+        "en": "Taira no Masakado rebels in the Kantō, proclaims himself New Emperor and is killed in 940",
+        "es": "Taira no Masakado se rebela en el Kantō, se proclama Nuevo Emperador y muere en 940",
+        "zh": "平将门在关东起兵，自称新皇，940年被杀"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Taira Masakado.\"",
+          "url": "https://www.britannica.com/biography/Taira-Masakado"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Heian Period.\"",
+          "url": "https://www.worldhistory.org/Heian_Period/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia dates the Kantō rebellion from 935. Britannica dates Masakado's open revolt and his claim to the throne to 939 to 940.",
+        "es": "La World History Encyclopedia fecha la rebelión del Kantō desde 935. Britannica fecha la revuelta abierta de Masakado y su pretensión al trono en 939 y 940.",
+        "zh": "《世界历史百科全书》把关东叛乱定在935年起。不列颠百科全书则把平将门的公开叛乱和称帝定在939至940年。"
+      },
+      "place": {
+        "name": {
+          "en": "Kantō plain",
+          "es": "Llanura de Kantō",
+          "zh": "关东平原"
+        },
+        "lat": 36.1,
+        "lon": 139.9
+      }
+    },
+    {
+      "id": "michinaga-rule",
+      "start": 995,
+      "end": 1027,
+      "type": "ruler",
+      "title": {
+        "en": "Fujiwara no Michinaga dominates the court from 995, with emperors who are his grandsons",
+        "es": "Fujiwara no Michinaga domina la corte desde 995, con emperadores que son sus nietos",
+        "zh": "藤原道长自995年起把持朝政，在位的天皇都是他的外孙"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Heian period.\"",
+          "url": "https://www.britannica.com/event/Heian-period"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Fujiwara Clan.\"",
+          "url": "https://www.worldhistory.org/Fujiwara_Clan/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "tale-of-genji",
+      "start": 1010,
+      "type": "invention",
+      "title": {
+        "en": "Murasaki Shikibu, a lady at court, completes the Tale of Genji, often called the world's first novel",
+        "es": "Murasaki Shikibu, dama de la corte, completa el Genji monogatari, a menudo llamado la primera novela del mundo",
+        "zh": "宫廷女官紫式部写成《源氏物语》，常被称为世界上第一部小说"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"The Tale of Genji.\"",
+          "url": "https://www.britannica.com/topic/The-Tale-of-Genji"
+        },
+        {
+          "citation": "World History Encyclopedia. \"The Tale of Genji.\"",
+          "url": "https://www.worldhistory.org/The_Tale_of_Genji/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica says she likely finished it about 1010. The World History Encyclopedia gives about 1020.",
+        "es": "Britannica dice que probablemente la terminó hacia 1010. La World History Encyclopedia da hacia 1020.",
+        "zh": "不列颠百科全书称她很可能在约1010年完成。《世界历史百科全书》则给出约1020年。"
+      }
+    },
+    {
+      "id": "phoenix-hall",
+      "start": 1052,
+      "end": 1053,
+      "type": "founding",
+      "title": {
+        "en": "Fujiwara no Yorimichi founds the Byōdō-in temple on his father's estate at Uji and builds its Phoenix Hall",
+        "es": "Fujiwara no Yorimichi funda el templo Byōdō-in en la propiedad de su padre en Uji y construye su Salón del Fénix",
+        "zh": "藤原赖通在其父位于宇治的庄园上创建平等院，并建成凤凰堂"
+      },
+      "sources": [
+        {
+          "citation": "Japan Tourism Agency multilingual database, \"Visiting the Phoenix Hall\".",
+          "url": "https://www.mlit.go.jp/tagengo-db/common/001545970.docx"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Byodo-in.\"",
+          "url": "https://www.worldhistory.org/Byodo-in/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Byōdō-in, Uji, Kyoto",
+          "es": "Byōdō-in, Uji, Kioto",
+          "zh": "京都府宇治市平等院"
+        },
+        "lat": 34.89,
+        "lon": 135.81
+      }
+    },
+    {
+      "id": "genpei-war",
+      "start": 1180,
+      "end": 1185,
+      "type": "conflict",
+      "title": {
+        "en": "The Genpei War ends at the naval battle of Dan-no-ura, where the Minamoto defeat the Taira and the child emperor Antoku dies",
+        "es": "La guerra Genpei termina en la batalla naval de Dan-no-ura, donde los Minamoto derrotan a los Taira y muere el emperador niño Antoku",
+        "zh": "源平合战在坛之浦海战中结束，源氏击败平氏，年幼的安德天皇死去"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Battle of Dannoura.\"",
+          "url": "https://www.britannica.com/event/Battle-of-Dannoura"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Genpei War.\"",
+          "url": "https://www.worldhistory.org/Genpei_War/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Dan-no-ura, Shimonoseki Strait",
+          "es": "Dan-no-ura, estrecho de Shimonoseki",
+          "zh": "下关海峡坛之浦"
+        },
+        "lat": 33.96,
+        "lon": 130.93
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "genji-chapters",
+      "text": {
+        "en": "The Tale of Genji runs to 54 chapters, written in Japanese rather than the Chinese that courtiers used for scholarship.",
+        "es": "El Genji monogatari tiene 54 capítulos y está escrito en japonés, no en el chino que los cortesanos usaban para la erudición.",
+        "zh": "《源氏物语》共54回，用日语写成，而不是朝臣们用于学问的汉文。"
+      },
+      "start": 1010,
+      "end": 1020,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"The Tale of Genji.\"",
+          "url": "https://www.britannica.com/topic/The-Tale-of-Genji"
+        },
+        {
+          "citation": "World History Encyclopedia. \"The Tale of Genji.\"",
+          "url": "https://www.worldhistory.org/The_Tale_of_Genji/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
