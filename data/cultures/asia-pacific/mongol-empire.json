@@ -1,0 +1,345 @@
+{
+  "id": "mongol-empire",
+  "region": "asia-pacific",
+  "wikidataId": "Q12557",
+  "name": {
+    "en": "Mongol Empire",
+    "es": "Imperio mongol",
+    "zh": "蒙古帝国"
+  },
+  "aliases": [
+    "Mongols",
+    "Genghis Khan's empire",
+    "Imperio de Gengis Kan",
+    "Golden Horde",
+    "Ilkhanate",
+    "成吉思汗帝国"
+  ],
+  "description": {
+    "en": "Founded by Genghis Khan in 1206, the empire spread from Mongolia across Asia into eastern Europe, taking Beijing, Samarkand, Kyiv and Baghdad. After 1260 it was in effect four khanates, and Mongol rule in China ended in 1368.",
+    "es": "Fundado por Gengis Kan en 1206, el imperio se extendió desde Mongolia por Asia hasta Europa oriental y tomó Pekín, Samarcanda, Kiev y Bagdad. Desde 1260 fue en la práctica cuatro kanatos, y el dominio mongol en China terminó en 1368.",
+    "zh": "成吉思汗1206年建立，帝国从蒙古高原扩展到整个亚洲和东欧，攻占了北京、撒马尔罕、基辅和巴格达。1260年后实际上分为四个汗国，1368年蒙古人在中国的统治结束。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "mongol-empire",
+      "earliestStart": 1206,
+      "latestStart": 1206,
+      "earliestEnd": 1368,
+      "latestEnd": 1370,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Mongol Empire\" (AD 1206 – AD 1370), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hdh7z"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Mongol empire\".",
+          "url": "https://www.britannica.com/place/Mongol-empire"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "periodoId": "p08m57hdh7z",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Britannica and World History Encyclopedia end the empire in 1368, when Mongol rule in China ended. PeriodO ends it in 1370. After 1260 the empire was divided into khanates, so the end date depends on which successor state is counted.",
+        "es": "Britannica y World History Encyclopedia terminan el imperio en 1368, cuando acabó el dominio mongol en China. PeriodO lo termina en 1370. Después de 1260 el imperio estaba dividido en kanatos, así que la fecha final depende de qué Estado sucesor se cuente.",
+        "zh": "《大英百科全书》和World History Encyclopedia把帝国的终点定在1368年，即蒙古人在中国的统治结束之时。PeriodO定为1370年。1260年后帝国分成了若干汗国，所以终点取决于计入哪个继承国。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "unified-empire",
+      "name": {
+        "en": "Unified empire",
+        "es": "Imperio unido",
+        "zh": "统一帝国"
+      },
+      "start": 1206,
+      "end": 1260,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ]
+    },
+    {
+      "id": "four-khanates",
+      "name": {
+        "en": "Four khanates",
+        "es": "Cuatro kanatos",
+        "zh": "四大汗国"
+      },
+      "start": 1260,
+      "end": 1368,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Kublai Khan\".",
+          "url": "https://www.britannica.com/biography/Kublai-Khan"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "genghis-khan-proclaimed",
+      "start": 1206,
+      "type": "founding",
+      "title": {
+        "en": "A kurultai of tribal leaders proclaims Genghis Khan ruler of the Mongols",
+        "es": "Un kurultai de jefes tribales proclama a Gengis Kan gobernante de los mongoles",
+        "zh": "各部首领的忽里勒台大会拥立成吉思汗为蒙古大汗"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Genghis Khan\".",
+          "url": "https://www.britannica.com/biography/Genghis-Khan"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "fall-of-zhongdu",
+      "start": 1215,
+      "type": "conflict",
+      "title": {
+        "en": "The Mongols take Zhongdu (Beijing) from the Jin dynasty",
+        "es": "Los mongoles toman Zhongdu (Pekín) a la dinastía Jin",
+        "zh": "蒙古人从金朝手中夺取中都（北京）"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Mongol empire\".",
+          "url": "https://www.britannica.com/place/Mongol-empire"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Genghis Khan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Genghis_Khan/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Beijing",
+          "es": "Pekín",
+          "zh": "北京"
+        },
+        "lat": 39.9,
+        "lon": 116.4
+      }
+    },
+    {
+      "id": "khwarazm-campaign",
+      "start": 1219,
+      "end": 1225,
+      "type": "conflict",
+      "title": {
+        "en": "The Mongols attack the Khwarazmian empire and take Bukhara, Samarkand and Urgench",
+        "es": "Los mongoles atacan el imperio joresmio y toman Bujará, Samarcanda y Urgench",
+        "zh": "蒙古进攻花剌子模，攻占布哈拉、撒马尔罕和玉龙杰赤"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Mongol empire\".",
+          "url": "https://www.britannica.com/place/Mongol-empire"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates the war to 1219–25, after Khwarazmians killed Muslim subjects of Genghis Khan at Otrar. World History Encyclopedia has the attack beginning in 1218.",
+        "es": "Britannica fecha la guerra en 1219–25, tras el asesinato en Otrar de súbditos musulmanes de Gengis Kan por los joresmios. World History Encyclopedia sitúa el inicio del ataque en 1218.",
+        "zh": "《大英百科全书》把这场战争定在1219至1225年，起因是花剌子模人在讹答剌杀害了成吉思汗的穆斯林属民。World History Encyclopedia则说进攻始于1218年。"
+      },
+      "place": {
+        "name": {
+          "en": "Samarkand",
+          "es": "Samarcanda",
+          "zh": "撒马尔罕"
+        },
+        "lat": 39.65,
+        "lon": 66.96
+      }
+    },
+    {
+      "id": "sack-of-kyiv",
+      "start": 1240,
+      "type": "conflict",
+      "title": {
+        "en": "Batu's army takes and sacks Kyiv",
+        "es": "El ejército de Batu toma y saquea Kiev",
+        "zh": "拔都的大军攻占并洗劫基辅"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia of Ukraine, \"Tatars\".",
+          "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CT%5CA%5CTatars.htm"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The Encyclopedia of Ukraine dates the fall of the city to 6 December 1240.",
+        "es": "La Encyclopedia of Ukraine fecha la caída de la ciudad el 6 de diciembre de 1240.",
+        "zh": "《乌克兰百科全书》把该城陷落定在1240年12月6日。"
+      },
+      "place": {
+        "name": {
+          "en": "Kyiv",
+          "es": "Kiev",
+          "zh": "基辅"
+        },
+        "lat": 50.45,
+        "lon": 30.52
+      }
+    },
+    {
+      "id": "sack-of-baghdad",
+      "start": 1258,
+      "type": "conflict",
+      "title": {
+        "en": "Hülegü's army takes Baghdad and executes the last Abbasid caliph",
+        "es": "El ejército de Hülegü toma Bagdad y ejecuta al último califa abasí",
+        "zh": "旭烈兀的大军攻占巴格达，处死末代阿拔斯哈里发"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Hülegü\".",
+          "url": "https://www.britannica.com/biography/Hulegu"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Mongol Empire\", via PeriodO (note on the 1258 sack of Baghdad).",
+          "url": "http://n2t.net/ark:/99152/p08m57hdh7z"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.31,
+        "lon": 44.37
+      }
+    },
+    {
+      "id": "ain-jalut",
+      "start": 1260,
+      "type": "conflict",
+      "title": {
+        "en": "A Mamluk army defeats the Mongols at Ain Jalut",
+        "es": "Un ejército mameluco derrota a los mongoles en Ain Yalut",
+        "zh": "马穆鲁克军队在艾因·扎鲁特击败蒙古人"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Battle of Ain Jalut\".",
+          "url": "https://www.ebsco.com/research-starters/history/battle-ain-jalut/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Hülegü\".",
+          "url": "https://www.britannica.com/biography/Hulegu"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "EBSCO dates the battle to 3 September 1260.",
+        "es": "EBSCO fecha la batalla el 3 de septiembre de 1260.",
+        "zh": "EBSCO把这场战役定在1260年9月3日。"
+      },
+      "place": {
+        "name": {
+          "en": "Ain Jalut",
+          "es": "Ain Yalut",
+          "zh": "艾因·扎鲁特"
+        },
+        "lat": 32.55,
+        "lon": 35.38
+      }
+    },
+    {
+      "id": "kublai-khan-succeeds",
+      "start": 1260,
+      "type": "ruler",
+      "title": {
+        "en": "Kublai beats his brother Ariq Böke for the throne, and the empire divides into four khanates",
+        "es": "Kublai vence a su hermano Ariq Böke por el trono, y el imperio se divide en cuatro kanatos",
+        "zh": "忽必烈击败其弟阿里不哥夺得汗位，帝国分为四大汗国"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Kublai Khan\".",
+          "url": "https://www.britannica.com/biography/Kublai-Khan"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "end-of-yuan-rule",
+      "start": 1368,
+      "type": "collapse",
+      "title": {
+        "en": "Zhu Yuanzhang founds the Ming dynasty, and Mongol rule in China ends",
+        "es": "Zhu Yuanzhang funda la dinastía Ming, y termina el dominio mongol en China",
+        "zh": "朱元璋建立明朝，蒙古人在中国的统治结束"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Hongwu\".",
+          "url": "https://www.britannica.com/biography/Hongwu"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Mongol empire\".",
+          "url": "https://www.britannica.com/place/Mongol-empire"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "karakorum-and-yam",
+      "start": 1235,
+      "end": 1235,
+      "text": {
+        "en": "In 1235 the Mongols chose Karakorum in Mongolia as their capital. The Yam relay network was expanded, wells along trade routes were protected, and travelling merchants got military protection.",
+        "es": "En 1235 los mongoles eligieron Karakórum, en Mongolia, como capital. Se amplió la red de postas Yam, se protegieron los pozos de las rutas comerciales y los mercaderes viajeros recibieron protección militar.",
+        "zh": "1235年，蒙古人选定蒙古的哈拉和林为都城。驿站网络得到扩展，商路沿线的水井受到保护，过往商人获得军队保护。"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ]
+    }
+  ]
+}

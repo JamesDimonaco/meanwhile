@@ -1,0 +1,248 @@
+{
+  "id": "goryeo",
+  "region": "asia-pacific",
+  "wikidataId": "Q28208",
+  "name": {
+    "en": "Goryeo",
+    "es": "Goryeo",
+    "zh": "高丽"
+  },
+  "aliases": [
+    "Koryo",
+    "Koryŏ",
+    "Goryeo dynasty",
+    "高麗"
+  ],
+  "description": {
+    "en": "The dynasty that ruled Korea from Kaesong after Wang Geon took power in 918. The name Korea comes from it. It carved the Tripitaka Koreana, printed with movable metal type, and became a vassal of the Mongol Yuan before Yi Seong-gye ended it in 1392.",
+    "es": "La dinastía que gobernó Corea desde Kaesong tras la toma del poder de Wang Geon en 918. De ella viene el nombre de Corea. Grabó la Tripitaka Koreana, imprimió con tipos móviles de metal y fue vasalla de los Yuan mongoles hasta que Yi Seong-gye la derrocó en 1392.",
+    "zh": "918年王建掌权后，以开京为都城统治朝鲜半岛的王朝，“Korea”之名即源于它。高丽刻成《高丽大藏经》，用金属活字印书，13世纪成为蒙古元朝的附庸，1392年被李成桂推翻。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "goryeo-dynasty",
+      "earliestStart": 918,
+      "latestStart": 918,
+      "earliestEnd": 1392,
+      "latestEnd": 1392,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Goryeo\" (AD 918 – AD 1392), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h8h3w"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Goryeo dynasty\".",
+          "url": "https://www.britannica.com/topic/Goryeo-dynasty"
+        }
+      ],
+      "periodoId": "p08m57h8h3w",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "wang-geon-founds-goryeo",
+      "start": 918,
+      "type": "founding",
+      "title": {
+        "en": "Wang Geon takes the throne from Taebong and founds Goryeo, with its capital at Songdo (Kaesong)",
+        "es": "Wang Geon toma el trono de Taebong y funda Goryeo, con capital en Songdo (Kaesong)",
+        "zh": "王建取代泰封即位，建立高丽，定都松岳（开京）"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Goryeo dynasty\".",
+          "url": "https://www.britannica.com/topic/Goryeo-dynasty"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Goryeo.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Goryeo/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kaesong",
+          "es": "Kaesong",
+          "zh": "开城"
+        },
+        "lat": 37.97,
+        "lon": 126.55
+      }
+    },
+    {
+      "id": "mongol-invasions-begin",
+      "start": 1231,
+      "type": "conflict",
+      "title": {
+        "en": "The Mongols invade Goryeo, and in 1232 the court retreats to Ganghwa Island",
+        "es": "Los mongoles invaden Goryeo, y en 1232 la corte se refugia en la isla de Ganghwa",
+        "zh": "蒙古入侵高丽，1232年朝廷迁往江华岛"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Goryeo.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Goryeo/"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol invasions of Korea\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Korea"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Ganghwa Island",
+          "es": "Isla de Ganghwa",
+          "zh": "江华岛"
+        },
+        "lat": 37.75,
+        "lon": 126.49
+      }
+    },
+    {
+      "id": "tripitaka-koreana",
+      "start": 1237,
+      "end": 1248,
+      "type": "invention",
+      "title": {
+        "en": "Craftsmen carve the Tripitaka Koreana on about 80,000 woodblocks",
+        "es": "Artesanos graban la Tripitaka Koreana en unas 80.000 tablillas de madera",
+        "zh": "工匠把《高丽大藏经》刻在约8万块木板上"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre, \"Haeinsa Temple Janggyeong Panjeon, the Depositories for the Tripitaka Koreana Woodblocks\".",
+          "url": "https://whc.unesco.org/en/list/737"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol invasions of Korea\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Korea"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Haeinsa",
+          "es": "Haeinsa",
+          "zh": "海印寺"
+        },
+        "lat": 35.8,
+        "lon": 128.1
+      }
+    },
+    {
+      "id": "peace-with-the-mongols",
+      "start": 1259,
+      "type": "conflict",
+      "title": {
+        "en": "Goryeo makes peace with the Mongols and becomes a vassal of the Yuan",
+        "es": "Goryeo hace la paz con los mongoles y se convierte en vasalla de los Yuan",
+        "zh": "高丽与蒙古议和，成为元朝的附庸"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Goryeo.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Goryeo/"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol invasions of Korea\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Korea"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia puts the peace in 1258, Wikipedia gives 1259 for the end of the main fighting, and the last campaign ended with a treaty in 1270. The vassalage lasted about 80 years.",
+        "es": "World History Encyclopedia sitúa la paz en 1258, Wikipedia da 1259 para el fin de los combates principales, y la última campaña terminó con un tratado en 1270. El vasallaje duró unos 80 años.",
+        "zh": "World History Encyclopedia把议和定在1258年，维基百科以1259年为主要战事的结束，最后一次战役则以1270年的条约告终。附庸关系持续了约80年。"
+      }
+    },
+    {
+      "id": "jikji-printed",
+      "start": 1377,
+      "type": "invention",
+      "title": {
+        "en": "The Jikji, the oldest known book printed with movable metal type, is printed at Heungdeoksa temple",
+        "es": "Se imprime el Jikji, el libro más antiguo conocido impreso con tipos móviles de metal, en el templo de Heungdeoksa",
+        "zh": "现存最早的金属活字印刷书籍《直指》在兴德寺印成"
+      },
+      "sources": [
+        {
+          "citation": "Bibliothèque nationale de France, \"Jikji, a treasure of the world of printing\".",
+          "url": "https://www.bnf.fr/en/jikji-treasure-world-printing"
+        },
+        {
+          "citation": "Jikji Global, \"Publication of Jikji: Composition of Jikji\".",
+          "url": "https://globaljikji.org/en/sub.do?menukey=4202"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Cheongju",
+          "es": "Cheongju",
+          "zh": "清州"
+        },
+        "lat": 36.64,
+        "lon": 127.49
+      }
+    },
+    {
+      "id": "yi-seong-gye-overthrows-goryeo",
+      "start": 1392,
+      "type": "collapse",
+      "title": {
+        "en": "General Yi Seong-gye overthrows the Goryeo king and founds Joseon",
+        "es": "El general Yi Seong-gye derroca al rey de Goryeo y funda Joseon",
+        "zh": "李成桂将军推翻高丽王，建立朝鲜"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Goryeo dynasty\".",
+          "url": "https://www.britannica.com/topic/Goryeo-dynasty"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Goryeo.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Goryeo/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kaesong",
+          "es": "Kaesong",
+          "zh": "开城"
+        },
+        "lat": 37.97,
+        "lon": 126.55
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "name-korea",
+      "start": 918,
+      "end": 1392,
+      "text": {
+        "en": "The name Korea comes from Goryeo, the name of this dynasty.",
+        "es": "El nombre de Corea viene de Goryeo, el nombre de esta dinastía.",
+        "zh": "“Korea”这个名称源于这个王朝的国名高丽。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Goryeo dynasty\".",
+          "url": "https://www.britannica.com/topic/Goryeo-dynasty"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Goryeo.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Goryeo/"
+        }
+      ]
+    }
+  ]
+}

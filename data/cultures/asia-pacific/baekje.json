@@ -1,0 +1,251 @@
+{
+  "id": "baekje",
+  "region": "asia-pacific",
+  "wikidataId": "Q28428",
+  "name": {
+    "en": "Baekje",
+    "es": "Baekje",
+    "zh": "百济"
+  },
+  "aliases": [
+    "Paekche",
+    "Kudara",
+    "百濟"
+  ],
+  "description": {
+    "en": "A kingdom in the south-west of the Korean peninsula, one of the Three Kingdoms with Goguryeo and Silla. Its capital moved south from the Han River to Gongju and then Buyeo. It sent Buddhist images and sutras to Japan until Silla and Tang forces ended it in 660.",
+    "es": "Reino del suroeste de la península de Corea, uno de los Tres Reinos junto con Goguryeo y Silla. Su capital bajó desde el río Han hasta Gongju y luego Buyeo. Envió imágenes y sutras budistas a Japón hasta que Silla y las fuerzas Tang lo acabaron en 660.",
+    "zh": "朝鲜半岛西南部的王国，与高句丽、新罗并称三国。都城从汉江流域南迁至熊津（公州），再迁至泗沘（扶余）。它曾向日本传去佛像和佛经，660年被新罗与唐朝联军灭亡。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "baekje-kingdom",
+      "earliestStart": -17,
+      "latestStart": 234,
+      "earliestEnd": 660,
+      "latestEnd": 663,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Paekche Kingdom\" (18 BC – AD 663), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h222w"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Baekje\".",
+          "url": "https://www.britannica.com/place/Baekje"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Baekje/"
+        }
+      ],
+      "periodoId": "p08m57h222w",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Tradition dates the founding to 18 BCE, a date historians consider unlikely to be accurate. Britannica's first reliably dated king is Goi (234–286), so the solid bar starts there. The capital fell in 660; PeriodO ends the kingdom in 663, when the last rebels were crushed.",
+        "es": "La tradición fecha la fundación en 18 a. e. c., una fecha que los historiadores consideran poco probable. El primer rey con fechas fiables en Britannica es Goi (234–286), así que la barra sólida empieza ahí. La capital cayó en 660; PeriodO sitúa el fin del reino en 663, cuando se aplastó a los últimos rebeldes.",
+        "zh": "传统上把建国定在公元前18年，史学家认为这一年份不太可信。《大英百科全书》中年代可靠的第一位国王是古尔王（234–286年），所以实线从这里开始。都城在660年陷落，PeriodO把王国的终点定在663年，即最后的复国军被镇压之时。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "traditional-founding",
+      "start": -17,
+      "type": "founding",
+      "title": {
+        "en": "Tradition says Onjo founds Baekje",
+        "es": "Según la tradición, Onjo funda Baekje",
+        "zh": "相传温祚建立百济"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Baekje\".",
+          "url": "https://www.britannica.com/place/Baekje"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Baekje/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "18 BCE is the date in the Samguk sagi, a chronicle written centuries later. World History Encyclopedia calls it unlikely to be accurate.",
+        "es": "18 a. e. c. es la fecha del Samguk sagi, una crónica escrita siglos después. World History Encyclopedia la considera poco probable.",
+        "zh": "公元前18年出自数百年后写成的《三国史记》。World History Encyclopedia认为这一年份不太可信。"
+      }
+    },
+    {
+      "id": "capital-moves-to-ungjin",
+      "start": 475,
+      "type": "conflict",
+      "title": {
+        "en": "Goguryeo kills King Gaero and Baekje moves its capital to Ungjin (Gongju)",
+        "es": "Goguryeo mata al rey Gaero y Baekje traslada su capital a Ungjin (Gongju)",
+        "zh": "高句丽杀死盖卤王，百济迁都熊津（公州）"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Baekje/"
+        },
+        {
+          "citation": "UNESCO World Heritage Centre, \"Baekje Historic Areas\" (Gongju, Buyeo, Iksan).",
+          "url": "https://whc.unesco.org/en/list/1477"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Gongju",
+          "es": "Gongju",
+          "zh": "公州"
+        },
+        "lat": 36.46,
+        "lon": 127.12
+      }
+    },
+    {
+      "id": "muryeong-buried",
+      "start": 525,
+      "type": "ruler",
+      "title": {
+        "en": "King Muryeong is buried in a brick tomb at Gongju",
+        "es": "El rey Muryeong es enterrado en una tumba de ladrillo en Gongju",
+        "zh": "武宁王葬入公州的砖室墓"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Baekje/"
+        },
+        {
+          "citation": "Korea JoongAng Daily, \"Entire contents of King Muryeong's tomb on display for first time\".",
+          "url": "https://www.koreajoongangdaily.com/lifestyle/entire-contents-of-king-muryeongs-tomb-on-display-for-first-time/10102640"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Songsan-ri, Gongju",
+          "es": "Songsan-ri, Gongju",
+          "zh": "公州宋山里"
+        },
+        "lat": 36.46,
+        "lon": 127.11
+      }
+    },
+    {
+      "id": "capital-moves-to-sabi",
+      "start": 538,
+      "type": "founding",
+      "title": {
+        "en": "King Seong moves the capital to Sabi (Buyeo)",
+        "es": "El rey Seong traslada la capital a Sabi (Buyeo)",
+        "zh": "圣王迁都泗沘（扶余）"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Baekje/"
+        },
+        {
+          "citation": "UNESCO World Heritage Centre, \"Baekje Historic Areas\" (Gongju, Buyeo, Iksan).",
+          "url": "https://whc.unesco.org/en/list/1477"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Buyeo",
+          "es": "Buyeo",
+          "zh": "扶余"
+        },
+        "lat": 36.28,
+        "lon": 126.91
+      }
+    },
+    {
+      "id": "buddhism-sent-to-japan",
+      "start": 552,
+      "type": "ruler",
+      "title": {
+        "en": "King Seong sends a Buddhist image and sutras to the Japanese court",
+        "es": "El rey Seong envía una imagen budista y sutras a la corte japonesa",
+        "zh": "圣王向日本朝廷赠送佛像和佛经"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Buddhism Arrives in Japan\".",
+          "url": "https://www.ebsco.com/research-starters/history/buddhism-arrives-japan/"
+        },
+        {
+          "citation": "National Museum of Asian Art (Smithsonian), \"The Beginnings of Buddhism in Japan\".",
+          "url": "https://asia.si.edu/whats-on/exhibitions/the-beginnings-of-buddhism-in-japan/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Nihon shoki gives 552. Many scholars prefer 538, which EBSCO calls widely regarded as likelier.",
+        "es": "El Nihon shoki da 552. Muchos estudiosos prefieren 538, que EBSCO considera más probable según la opinión general.",
+        "zh": "《日本书纪》记为552年。许多学者倾向于538年，EBSCO称这一年份被普遍认为更可能。"
+      }
+    },
+    {
+      "id": "fall-to-silla-and-tang",
+      "start": 660,
+      "type": "collapse",
+      "title": {
+        "en": "Silla and Tang forces take Baekje's capital and capture King Uija",
+        "es": "Las fuerzas de Silla y Tang toman la capital de Baekje y capturan al rey Uija",
+        "zh": "新罗与唐军攻陷百济都城，俘获义慈王"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Baekje\".",
+          "url": "https://www.britannica.com/place/Baekje"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Baekje/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Buyeo",
+          "es": "Buyeo",
+          "zh": "扶余"
+        },
+        "lat": 36.28,
+        "lon": 126.91
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "muryeong-tomb-intact",
+      "start": 501,
+      "end": 523,
+      "text": {
+        "en": "King Muryeong's brick tomb at Gongju stayed sealed for almost 1,450 years. A worker laying drainage found it in July 1971, with both coffins and the grave goods still inside.",
+        "es": "La tumba de ladrillo del rey Muryeong en Gongju permaneció sellada casi 1450 años. Un obrero que instalaba un drenaje la encontró en julio de 1971, con los dos ataúdes y el ajuar todavía dentro.",
+        "zh": "公州武宁王的砖室墓封闭了近1450年。1971年7月，一名施工排水的工人发现了它，两具棺木和随葬品都还在里面。"
+      },
+      "sources": [
+        {
+          "citation": "Korea JoongAng Daily, \"Entire contents of King Muryeong's tomb on display for first time\".",
+          "url": "https://www.koreajoongangdaily.com/lifestyle/entire-contents-of-king-muryeongs-tomb-on-display-for-first-time/10102640"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Baekje/"
+        }
+      ]
+    }
+  ]
+}
