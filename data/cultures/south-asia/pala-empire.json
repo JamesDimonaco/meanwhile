@@ -52,9 +52,9 @@
       "start": 756,
       "type": "founding",
       "title": {
-        "en": "Regional chiefs choose Gopala as king to end the anarchy known as matsyanyaya, starting the Pala line",
-        "es": "Los jefes regionales eligen rey a Gopala para acabar con la anarquía llamada matsyanyaya, y comienza la dinastía pala",
-        "zh": "各地首领推选戈帕拉为王，以结束被称为“鱼律”（matsyanyaya）的无政府状态，波罗王朝由此开始"
+        "en": "Gopala becomes ruler of Bengal after a period of disorder and starts the Pala line",
+        "es": "Gopala se convierte en gobernante de Bengala tras un periodo de desorden y da comienzo a la dinastía pala",
+        "zh": "戈帕拉在一段混乱时期之后成为孟加拉的统治者，波罗王朝由此开始"
       },
       "sources": [
         {
@@ -67,20 +67,20 @@
       ],
       "disputed": true,
       "note": {
-        "en": "The accession is dated between about 750 and 756. The election story comes from the Khalimpur copper plate, issued under his son Dharmapala.",
-        "es": "La subida al trono se fecha entre hacia 750 y 756. El relato de la elección procede de la placa de cobre de Khalimpur, emitida bajo su hijo Dharmapala.",
-        "zh": "即位时间在约750年至756年之间。推选之说出自其子达摩波罗时期颁行的卡利姆布尔铜板铭文。"
+        "en": "The accession is dated between about 750 and 756. A later Pala copper plate (Khalimpur, issued under his son Dharmapala) says the people's leaders made him king after a period of anarchy; that account is the dynasty's own.",
+        "es": "La subida al trono se fecha entre hacia 750 y 756. Una placa de cobre pala posterior (Khalimpur, emitida bajo su hijo Dharmapala) dice que los dirigentes del pueblo lo hicieron rey tras un periodo de anarquía; ese relato es el de la propia dinastía.",
+        "zh": "即位时间在约750年至756年之间。后来的一块波罗铜板铭文（卡利姆布尔铜板，由其子达摩波罗时期颁行）称，在一段无政府状态之后，民众首领拥立他为王；这一说法出自王朝自身。"
       }
     },
     {
       "id": "kanauj-struggle",
-      "start": 780,
-      "end": 810,
+      "start": 790,
+      "end": 801,
       "type": "conflict",
       "title": {
-        "en": "Dharmapala fights the Gurjara-Pratiharas and Rashtrakutas for Kanauj and installs his own candidate, Chakrayudha, on its throne",
-        "es": "Dharmapala combate a los gurjara-pratihara y a los rashtrakuta por Kanauj e instala en su trono a su candidato, Chakrayudha",
-        "zh": "达摩波罗与古尔扎拉-普拉蒂哈拉人和拉施特拉库塔人争夺曲女城，并扶植自己属意的查克拉尤达登上王位"
+        "en": "Dharmapala fights the Gurjara-Pratiharas and Rashtrakutas for Kanauj and for a time places his own candidate, Chakrayudha, on its throne",
+        "es": "Dharmapala combate a los gurjara-pratihara y a los rashtrakuta por Kanauj y durante un tiempo instala en su trono a su candidato, Chakrayudha",
+        "zh": "达摩波罗与古尔扎拉-普拉蒂哈拉人和拉施特拉库塔人争夺曲女城，并一度扶植自己属意的查克拉尤达登上王位"
       },
       "sources": [
         {
@@ -88,15 +88,15 @@
           "url": "https://en.banglapedia.org/index.php/Dharmapala"
         },
         {
-          "citation": "Banglapedia. \"Pala Dynasty.\"",
-          "url": "https://en.banglapedia.org/index.php/Pala_Dynasty"
+          "citation": "Wikipedia. \"Pala Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources date Dharmapala's reign to about 770–810 (Britannica) or 781–821 (Banglapedia), so the span of the struggle is approximate.",
-        "es": "Las fuentes fechan el reinado de Dharmapala hacia 770–810 (Britannica) o 781–821 (Banglapedia), por lo que la duración de la lucha es aproximada.",
-        "zh": "各来源将达摩波罗在位时间定为约770至810年（《大英百科全书》）或781至821年（Banglapedia），因此这场争夺的起讫年份只是大致估计。"
+        "en": "The campaigns are placed about 790–801, ending when the Rashtrakuta king Govinda III returned south in 801. Sources date Dharmapala's reign to about 770–810 (Britannica) or 781–821 (Banglapedia), so the span is approximate.",
+        "es": "Las campañas se sitúan hacia 790–801, y terminan cuando el rey rashtrakuta Govinda III regresó al sur en 801. Las fuentes fechan el reinado de Dharmapala hacia 770–810 (Britannica) o 781–821 (Banglapedia), por lo que el intervalo es aproximado.",
+        "zh": "这些战事大致发生在790至801年，以拉施特拉库塔王戈文达三世801年南返而告终。各来源将达摩波罗在位时间定为约770至810年（《大英百科全书》）或781至821年（Banglapedia），因此起讫年份只是大致估计。"
       }
     },
     {
@@ -104,9 +104,9 @@
       "start": 790,
       "type": "invention",
       "title": {
-        "en": "Dharmapala founds the Somapura monastery at Paharpur, which grows into a leading centre of Buddhist learning",
-        "es": "Dharmapala funda el monasterio de Somapura en Paharpur, que se convierte en un importante centro de estudios budistas",
-        "zh": "达摩波罗在帕哈尔布尔创建苏摩补罗寺，该寺后来发展为佛教学问的重要中心"
+        "en": "Dharmapala founds the Somapura monastery at Paharpur, later a major centre of Buddhist learning",
+        "es": "Dharmapala funda el monasterio de Somapura en Paharpur, más tarde un importante centro de estudios budistas",
+        "zh": "达摩波罗在帕哈尔布尔创建苏摩补罗寺，该寺后来成为佛教学问的重要中心"
       },
       "sources": [
         {
@@ -114,15 +114,15 @@
           "url": "https://en.banglapedia.org/index.php/Paharpur"
         },
         {
-          "citation": "UNESCO World Heritage Centre. \"Ruins of the Buddhist Vihara at Paharpur, Bangladesh.\"",
-          "url": "https://whc.unesco.org/en/list/322"
+          "citation": "Wikipedia. \"Somapura Mahavihara.\"",
+          "url": "https://en.wikipedia.org/wiki/Somapura_Mahavihara"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The foundation is placed at the end of the 8th century, within Dharmapala's uncertain reign dates.",
-        "es": "La fundación se sitúa a finales del siglo VIII, dentro de las fechas inciertas del reinado de Dharmapala.",
-        "zh": "创建时间被定在8世纪末，处于达摩波罗在位年代并不确定的范围内。"
+        "en": "The foundation is placed at the end of the 8th century, within Dharmapala's uncertain reign dates. Seals found at the site name Dharmapala, but Tibetan sources credit Devapala.",
+        "es": "La fundación se sitúa a finales del siglo VIII, dentro de las fechas inciertas del reinado de Dharmapala. Los sellos hallados en el yacimiento nombran a Dharmapala, pero las fuentes tibetanas atribuyen la obra a Devapala.",
+        "zh": "创建时间被定在8世纪末，处于达摩波罗在位年代并不确定的范围内。遗址出土的印章提到达摩波罗，但藏文史料将创建归于提婆波罗。"
       }
     },
     {
@@ -140,7 +140,8 @@
           "url": "https://en.banglapedia.org/index.php/Devapala"
         },
         {
-          "citation": "Sastri, Hirananda (1923–24). The Nalanda Copper-plate of Devapaladeva. Epigraphia Indica, vol. 17."
+          "citation": "Wikipedia. \"Nalanda inscription of Devapaladeva.\"",
+          "url": "https://en.wikipedia.org/wiki/Nalanda_inscription_of_Devapaladeva"
         }
       ],
       "disputed": true,
@@ -166,7 +167,7 @@
           "url": "https://en.banglapedia.org/index.php/Mahipala_I"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Rajendra I.\""
+          "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
         }
       ],
       "disputed": true,
@@ -181,9 +182,9 @@
       "start": 1075,
       "type": "conflict",
       "title": {
-        "en": "The Kaivarta chief Divya seizes Varendra from the Pala king Mahipala II; Ramapala later retakes it and founds Ramavati",
-        "es": "El jefe kaivarta Divya toma Varendra al rey pala Mahipala II; Ramapala la recupera después y funda Ramavati",
-        "zh": "凯瓦尔塔首领迪维亚从波罗王摩希波罗二世手中夺取瓦伦德拉；罗摩波罗后来夺回该地并建立罗摩瓦蒂"
+        "en": "The Kaivarta chief Divya takes Varendra after the Pala king Mahipala II dies fighting a revolt of chiefs; Ramapala later retakes it and founds Ramavati",
+        "es": "El jefe kaivarta Divya toma Varendra tras morir el rey pala Mahipala II combatiendo una revuelta de jefes; Ramapala la recupera después y funda Ramavati",
+        "zh": "波罗王摩希波罗二世在镇压众首领叛乱的战斗中阵亡后，凯瓦尔塔首领迪维亚夺取瓦伦德拉；罗摩波罗后来夺回该地并建立罗摩瓦蒂"
       },
       "sources": [
         {
@@ -191,15 +192,15 @@
           "url": "https://en.banglapedia.org/index.php/Varendra_Rebellion"
         },
         {
-          "citation": "Banglapedia. \"Ramapala.\"",
-          "url": "https://en.banglapedia.org/index.php/Ramapala"
+          "citation": "Wikipedia. \"Ramapala.\"",
+          "url": "https://en.wikipedia.org/wiki/Ramapala"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The rising is dated c. 1075–1080. The main account of Ramapala's reconquest is the Sanskrit poem Ramacharitam by Sandhyakar Nandi.",
-        "es": "El levantamiento se fecha hacia 1075–1080. El relato principal de la reconquista de Ramapala es el poema sánscrito Ramacharitam, de Sandhyakar Nandi.",
-        "zh": "这场起事的时间定在约1075至1080年。关于罗摩波罗收复失地的主要记载是桑迪亚卡尔·南迪所作的梵文长诗《罗摩传》（Ramacharitam）。"
+        "en": "The rising is dated c. 1075–1080. The only detailed account is the Sanskrit poem Ramacharitam by Sandhyakar Nandi, a court poet of Ramapala's line. Banglapedia argues the event was not a Kaivarta caste rising.",
+        "es": "El levantamiento se fecha hacia 1075–1080. El único relato detallado es el poema sánscrito Ramacharitam, de Sandhyakar Nandi, poeta de la corte de la línea de Ramapala. Banglapedia sostiene que no fue un levantamiento de la casta kaivarta.",
+        "zh": "这场起事的时间定在约1075至1080年。唯一详细的记载是罗摩波罗一系宫廷诗人桑迪亚卡尔·南迪所作的梵文长诗《罗摩传》（Ramacharitam）。Banglapedia认为这并非凯瓦尔塔种姓的起事。"
       }
     },
     {
@@ -217,8 +218,7 @@
           "url": "https://en.banglapedia.org/index.php/Sena_Dynasty"
         },
         {
-          "citation": "Banglapedia. \"Pala Dynasty.\"",
-          "url": "https://en.banglapedia.org/index.php/Pala_Dynasty"
+          "citation": "Encyclopaedia Britannica. \"Sena dynasty.\""
         }
       ],
       "disputed": true,
@@ -245,8 +245,8 @@
           "url": "https://en.banglapedia.org/index.php/Paharpur"
         },
         {
-          "citation": "UNESCO World Heritage Centre. \"Ruins of the Buddhist Vihara at Paharpur, Bangladesh.\"",
-          "url": "https://whc.unesco.org/en/list/322"
+          "citation": "Wikipedia. \"Somapura Mahavihara.\"",
+          "url": "https://en.wikipedia.org/wiki/Somapura_Mahavihara"
         }
       ]
     }
