@@ -1,0 +1,246 @@
+{
+  "id": "oyo-empire",
+  "region": "africa",
+  "wikidataId": "Q849623",
+  "name": {
+    "en": "Oyo Empire",
+    "es": "Imperio oyo",
+    "zh": "奥约帝国"
+  },
+  "aliases": [
+    "Oyo",
+    "Old Oyo",
+    "Oyo-Ile",
+    "Alaafin of Oyo",
+    "Yoruba empire"
+  ],
+  "description": {
+    "en": "A Yoruba state in the savannah of what is now southwest Nigeria, ruled by an alaafin from Oyo-Ile. Its cavalry won it control of trade routes to the coast. Civil strife and the loss of Ilorin broke it apart in the early 1800s.",
+    "es": "Un estado yoruba en la sabana del actual suroeste de Nigeria, gobernado por un alaafin desde Oyo-Ile. Su caballería le dio el control de las rutas comerciales hacia la costa. Las luchas internas y la pérdida de Ilorin lo deshicieron a comienzos del siglo XIX.",
+    "zh": "约鲁巴人在今尼日利亚西南部稀树草原上建立的国家，由居于奥约老城的阿拉芬统治。骑兵使其掌控通往海岸的商路。内乱和伊洛林的丧失使它在19世纪初瓦解。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "oyo-empire-period",
+      "earliestStart": 1300,
+      "latestStart": 1400,
+      "earliestEnd": 1835,
+      "latestEnd": 1840,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Oyo empire.\"",
+          "url": "https://www.britannica.com/place/Oyo-empire"
+        },
+        {
+          "citation": "BlackPast. \"Oyo (c. 1300s-1896).\" Founded in the 1300s.",
+          "url": "https://www.blackpast.org/global-african-history/oyo/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\"",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Founding dates come from Yoruba tradition and are not firmly fixed. The bar fades from 1300 to 1400 for the start. The 1835 end is the destruction of Old Oyo; the title of alaafin continued at a new capital.",
+        "es": "Las fechas de fundación proceden de la tradición yoruba y no están firmemente establecidas. La barra se difumina de 1300 a 1400 al inicio. El final en 1835 es la destrucción de Oyo-Ile; el título de alaafin continuó en una nueva capital.",
+        "zh": "建国年代来自约鲁巴传统，并无确切定论，因此起始处从1300年到1400年渐变。1835年的终点指奥约老城被毁；阿拉芬的称号在新都继续沿用。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 1300,
+      "type": "founding",
+      "title": {
+        "en": "Yoruba tradition names a descendant of Oduduwa of Ife as Oyo's first alaafin",
+        "es": "La tradición yoruba nombra a un descendiente de Oduduwa de Ife como el primer alaafin de Oyo",
+        "zh": "约鲁巴传统称伊费的奥杜杜瓦的一位后裔是奥约的第一位阿拉芬"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Oyo empire.\"",
+          "url": "https://www.britannica.com/place/Oyo-empire"
+        },
+        {
+          "citation": "BlackPast. \"Oyo (c. 1300s-1896).\" Names Oranmiyan as founder.",
+          "url": "https://www.blackpast.org/global-african-history/oyo/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "This is oral tradition. Britannica names a son of Oduduwa; BlackPast names Oranmiyan.",
+        "es": "Es tradición oral. Britannica nombra a un hijo de Oduduwa; BlackPast nombra a Oranmiyan.",
+        "zh": "这是口述传统。《大英百科全书》称是奥杜杜瓦之子；BlackPast 称是奥兰米扬。"
+      }
+    },
+    {
+      "id": "nupe-conquest",
+      "start": 1535,
+      "type": "conflict",
+      "title": {
+        "en": "Nupe forces take Old Oyo and the ruling line withdraws into exile",
+        "es": "Las fuerzas nupe toman Oyo-Ile y la dinastía gobernante se refugia en el exilio",
+        "zh": "努佩军队攻占奥约老城，王室退入流亡"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" Nupe conquest around 1535; Oyo kings regained the city around 1610.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Oyo empire.\" Conquered by Borgu and Nupe in 1550.",
+          "url": "https://www.britannica.com/place/Oyo-empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia dates the conquest to about 1535; Britannica says 1550 and names both Borgu and Nupe. BlackPast instead says Oyo had conquered both by 1550.",
+        "es": "La World History Encyclopedia fecha la conquista hacia 1535; Britannica dice 1550 y nombra a Borgu y Nupe. BlackPast afirma, en cambio, que Oyo había conquistado a ambos hacia 1550.",
+        "zh": "《世界历史百科全书》把征服定在约1535年；《大英百科全书》称为1550年，并同时提到博尔古和努佩。BlackPast 则说奥约在1550年前已征服二者。"
+      }
+    },
+    {
+      "id": "cavalry",
+      "start": 1590,
+      "type": "invention",
+      "title": {
+        "en": "Alaafin Orompoto uses trade wealth to raise a cavalry force and a trained army",
+        "es": "El alaafin Orompoto usa la riqueza del comercio para formar una fuerza de caballería y un ejército entrenado",
+        "zh": "阿拉芬奥龙波托用贸易财富组建骑兵和一支训练有素的军队"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Oyo empire.\" Growing by the end of the 16th century.",
+          "url": "https://www.britannica.com/place/Oyo-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" Cavalry and archers; horses imported from the north.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "dahomey",
+      "start": 1724,
+      "end": 1748,
+      "type": "conflict",
+      "title": {
+        "en": "Oyo subdues Dahomey in two campaigns and gains access to the sea through the port of Ajase",
+        "es": "Oyo somete a Dahomey en dos campañas y obtiene acceso al mar por el puerto de Ajase",
+        "zh": "奥约经两次战役征服达荷美，并通过阿贾塞港获得出海口"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Oyo empire.\" Two phases, 1724–30 and 1738–48.",
+          "url": "https://www.britannica.com/place/Oyo-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" War between 1726 and 1730; Dahomey accepts Oyo's authority.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica gives campaigns in 1724–30 and 1738–48; World History Encyclopedia gives a war from 1726 to 1730.",
+        "es": "Britannica da campañas en 1724–30 y 1738–48; la World History Encyclopedia da una guerra de 1726 a 1730.",
+        "zh": "《大英百科全书》记有1724至1730年和1738至1748年两次战役；《世界历史百科全书》记为1726至1730年的一场战争。"
+      }
+    },
+    {
+      "id": "fulani-and-ilorin",
+      "start": 1820,
+      "type": "conflict",
+      "title": {
+        "en": "Fulani forces take the northern province of Ilorin, which becomes an emirate of the Sokoto Caliphate, and Oyo starts to break up",
+        "es": "Las fuerzas fulani toman la provincia norteña de Ilorin, que se convierte en un emirato del Califato de Sokoto, y Oyo comienza a fragmentarse",
+        "zh": "富拉尼势力夺取北部的伊洛林省，该地成为索科托哈里发国的一个酋长国，奥约开始分裂"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" Ilorin conquered in the 1820s.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Oyo empire.\" Captured by Fulani Muslims soon after 1800.",
+          "url": "https://www.britannica.com/place/Oyo-empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates the Fulani capture to soon after 1800; World History Encyclopedia puts the conquest of Ilorin in the 1820s.",
+        "es": "Britannica fecha la captura fulani poco después de 1800; la World History Encyclopedia sitúa la conquista de Ilorin en la década de 1820.",
+        "zh": "《大英百科全书》把富拉尼人的占领定在1800年后不久；《世界历史百科全书》则把征服伊洛林放在1820年代。"
+      }
+    },
+    {
+      "id": "old-oyo-destroyed",
+      "start": 1835,
+      "type": "collapse",
+      "title": {
+        "en": "Ilorin forces destroy Old Oyo, and the capital moves south",
+        "es": "Las fuerzas de Ilorin destruyen Oyo-Ile y la capital se traslada al sur",
+        "zh": "伊洛林军队摧毁奥约老城，都城南迁"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Oyo Empire.\" Capital destroyed in 1835; capital moved south to Ago d'Oyo.",
+          "url": "https://en.wikipedia.org/wiki/Oyo_Empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" The empire broke into smaller rival states by the mid-19th century.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Only one source gives the year 1835 for the destruction; other accounts say the 1830s.",
+        "es": "Solo una fuente da el año 1835 para la destrucción; otros relatos dicen la década de 1830.",
+        "zh": "只有一个来源给出1835年这一毁城年份；其他说法只称在1830年代。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "slave-coast",
+      "start": 1700,
+      "end": 1800,
+      "text": {
+        "en": "Oyo helped move enslaved people from the interior to coastal ports, and many of its own officials and soldiers were of slave origin.",
+        "es": "Oyo ayudó a trasladar a personas esclavizadas del interior a los puertos de la costa, y muchos de sus propios funcionarios y soldados eran de origen esclavo.",
+        "zh": "奥约参与把被奴役者从内陆转运到沿海港口，其官员和士兵中有许多本身出身奴隶。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\"",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "cavalry-limits",
+      "start": 1600,
+      "end": 1800,
+      "text": {
+        "en": "Oyo's horsemen ruled the savannah but could not fight well in the forests of the Ijesha and Ekiti, where trees and tsetse flies stopped them.",
+        "es": "Los jinetes de Oyo dominaban la sabana, pero no podían combatir bien en los bosques de los ijesha y los ekiti, donde los árboles y la mosca tse-tsé los detenían.",
+        "zh": "奥约骑兵称雄稀树草原，但在伊杰萨人和埃基蒂人的森林里难以作战，树木和采采蝇阻住了他们。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\"",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

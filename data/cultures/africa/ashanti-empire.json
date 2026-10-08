@@ -1,0 +1,279 @@
+{
+  "id": "ashanti-empire",
+  "region": "africa",
+  "wikidataId": "Q722071",
+  "name": {
+    "en": "Ashanti Empire",
+    "es": "Imperio asante",
+    "zh": "阿散蒂王国"
+  },
+  "nativeName": {
+    "text": "Asanteman",
+    "lang": "tw"
+  },
+  "aliases": [
+    "Asante Empire",
+    "Asante",
+    "Ashanti",
+    "Asanteman",
+    "Asante Kingdom"
+  ],
+  "description": {
+    "en": "An Akan state in what is now southern Ghana, ruled from Kumasi by the Asantehene, whose authority rested on the Golden Stool. It grew on gold and the trade in enslaved people, fought Britain for most of a century, and became a British colony in 1902.",
+    "es": "Un estado akan en el actual sur de Ghana, gobernado desde Kumasi por el asantehene, cuya autoridad descansaba en el Trono de Oro. Creció con el oro y el comercio de personas esclavizadas, combatió a Gran Bretaña durante casi un siglo y pasó a ser colonia británica en 1902.",
+    "zh": "阿坎人在今加纳南部建立的国家，由阿散蒂赫内在库马西统治，其权威以黄金凳为象征。它依靠黄金和奴隶贸易壮大，与英国交战近一个世纪，1902年成为英国殖民地。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "ashanti-empire-period",
+      "earliestStart": 1670,
+      "latestStart": 1701,
+      "earliestEnd": 1896,
+      "latestEnd": 1902,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Asante empire.\" Osei Tutu king from the 1670s; crown colony 1 January 1902.",
+          "url": "https://www.britannica.com/place/Asante-empire"
+        },
+        {
+          "citation": "BlackPast. \"Ashanti Empire/Asante Kingdom (18th to late 19th century).\" Osei Tutu Asantehene 1701–17; conquered 1896, annexed 1902.",
+          "url": "https://www.blackpast.org/global-african-history/ashanti-empire/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates Osei Tutu's accession to the 1670s; BlackPast gives 1701 as the start of his rule. The bar fades from 1670 to 1701 and from 1896 (Prempeh I's arrest) to 1902 (annexation).",
+        "es": "Britannica fecha la llegada al trono de Osei Tutu en la década de 1670; BlackPast da 1701 como inicio de su gobierno. La barra se difumina de 1670 a 1701 y de 1896 (arresto de Prempeh I) a 1902 (anexión).",
+        "zh": "《大英百科全书》把奥塞·图图即位定在1670年代；BlackPast 则以1701年为其统治之始。起始处从1670年到1701年渐变，终点处从1896年（普伦佩一世被捕）到1902年（被吞并）渐变。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "osei-tutu-union",
+      "start": 1695,
+      "type": "founding",
+      "title": {
+        "en": "Osei Tutu unites the Asante chiefdoms around Kumasi, and the Golden Stool becomes the symbol of the new state",
+        "es": "Osei Tutu une las jefaturas asante en torno a Kumasi, y el Trono de Oro se convierte en el símbolo del nuevo estado",
+        "zh": "奥塞·图图以库马西为中心统一阿散蒂各酋邦，黄金凳成为新国家的象征"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Asante empire.\" By 1695 a capital region, state councils and a reorganised army.",
+          "url": "https://www.britannica.com/place/Asante-empire"
+        },
+        {
+          "citation": "BlackPast. \"Ashanti Empire/Asante Kingdom (18th to late 19th century).\"",
+          "url": "https://www.blackpast.org/global-african-history/ashanti-empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Dates for Osei Tutu's rule differ: Britannica says he became king in the 1670s, BlackPast says 1701–17. Asante tradition holds that the priest Okomfo Anokye brought the Golden Stool down from heaven; historians treat this as legend.",
+        "es": "Las fechas del gobierno de Osei Tutu difieren: Britannica dice que fue rey desde la década de 1670, BlackPast dice 1701–17. La tradición asante sostiene que el sacerdote Okomfo Anokye hizo bajar el Trono de Oro del cielo; los historiadores lo tratan como leyenda.",
+        "zh": "关于奥塞·图图统治的年代说法不一：《大英百科全书》称他在1670年代成为国王，BlackPast 称为1701至1717年。阿散蒂传统认为祭司奥孔福·阿诺奇把黄金凳从天上召下；历史学者视之为传说。"
+      },
+      "place": {
+        "name": {
+          "en": "Kumasi",
+          "es": "Kumasi",
+          "zh": "库马西"
+        },
+        "lat": 6.6885,
+        "lon": -1.6244
+      }
+    },
+    {
+      "id": "firearms-for-captives",
+      "start": 1700,
+      "end": 1807,
+      "type": "invention",
+      "title": {
+        "en": "Asante sells enslaved captives to British and Dutch coastal traders and buys firearms, which fund its expansion",
+        "es": "Asante vende cautivos esclavizados a comerciantes británicos y neerlandeses de la costa y compra armas de fuego, que financian su expansión",
+        "zh": "阿散蒂向沿海的英国和荷兰商人出售被奴役的俘虏，换取火器，支撑其扩张"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Asante empire.\" From the early 1700s; Britain outlawed the slave trade in 1807.",
+          "url": "https://www.britannica.com/place/Asante-empire"
+        },
+        {
+          "citation": "BlackPast. \"Ashanti Empire/Asante Kingdom (18th to late 19th century).\"",
+          "url": "https://www.blackpast.org/global-african-history/ashanti-empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica places the coastal trade in the early 1700s. BlackPast says the trade first ran north to Mande and Hausa traders and shifted south toward the coast by about 1800.",
+        "es": "Britannica sitúa el comercio costero a comienzos del siglo XVIII. BlackPast dice que el comercio primero iba hacia el norte, a comerciantes mande y hausa, y se desplazó hacia la costa hacia 1800.",
+        "zh": "《大英百科全书》把沿海贸易定在18世纪初。BlackPast 称该贸易起初向北通往曼德和豪萨商人，约在1800年转向南部沿海。"
+      }
+    },
+    {
+      "id": "nsamankow",
+      "start": 1824,
+      "type": "conflict",
+      "title": {
+        "en": "An Asante army defeats a British force at Nsamankow and kills the governor, Sir Charles MacCarthy",
+        "es": "Un ejército asante derrota a una fuerza británica en Nsamankow y mata al gobernador, sir Charles MacCarthy",
+        "zh": "阿散蒂军队在恩萨曼科击败英军，并杀死总督查尔斯·麦卡锡爵士"
+      },
+      "sources": [
+        {
+          "citation": "BlackPast. \"The Anglo-Ashanti Wars (1823-1900).\" Battle of Nsamankow, 22 January 1824.",
+          "url": "https://blackpast.org/gah/anglo-ashanti-wars-1823-1900"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Asante empire.\" The Asante defeated a British force in 1824.",
+          "url": "https://www.britannica.com/place/Asante-empire"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "wolseley-takes-kumasi",
+      "start": 1874,
+      "type": "conflict",
+      "title": {
+        "en": "A British expedition under Sir Garnet Wolseley takes Kumasi and burns it, then withdraws; northern provinces begin to break away",
+        "es": "Una expedición británica al mando de sir Garnet Wolseley toma Kumasi y la incendia, y luego se retira; las provincias del norte empiezan a separarse",
+        "zh": "加内特·沃尔斯利爵士率领的英国远征军攻占并焚烧库马西，随后撤出；北部各省开始脱离"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Asante empire.\" Wolseley held the capital for one day.",
+          "url": "https://www.britannica.com/place/Asante-empire"
+        },
+        {
+          "citation": "BlackPast. \"The Anglo-Ashanti Wars (1823-1900).\" Treaty of Fomena signed in July 1874.",
+          "url": "https://blackpast.org/gah/anglo-ashanti-wars-1823-1900"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kumasi",
+          "es": "Kumasi",
+          "zh": "库马西"
+        },
+        "lat": 6.6885,
+        "lon": -1.6244
+      }
+    },
+    {
+      "id": "prempeh-exiled",
+      "start": 1896,
+      "type": "conflict",
+      "title": {
+        "en": "British troops enter Kumasi, arrest the Asantehene Prempeh I and send him and other leaders into exile in the Seychelles",
+        "es": "Las tropas británicas entran en Kumasi, arrestan al asantehene Prempeh I y lo envían al exilio en las Seychelles junto con otros dirigentes",
+        "zh": "英军进入库马西，逮捕阿散蒂赫内普伦佩一世，并把他和其他首领流放到塞舌尔"
+      },
+      "sources": [
+        {
+          "citation": "BlackPast. \"The Anglo-Ashanti Wars (1823-1900).\" Troops reached Kumasi in January 1896.",
+          "url": "https://blackpast.org/gah/anglo-ashanti-wars-1823-1900"
+        },
+        {
+          "citation": "BlackPast. \"Ashanti Empire/Asante Kingdom (18th to late 19th century).\" Conquered again in 1896.",
+          "url": "https://www.blackpast.org/global-african-history/ashanti-empire/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "war-of-the-golden-stool",
+      "start": 1900,
+      "type": "conflict",
+      "title": {
+        "en": "After the British governor Frederick Hodgson demands the Golden Stool, the queen mother Yaa Asantewaa leads a rising that the British put down by September",
+        "es": "Tras la exigencia del Trono de Oro por el gobernador británico Frederick Hodgson, la reina madre Yaa Asantewaa dirige un levantamiento que los británicos sofocan en septiembre",
+        "zh": "英国总督弗雷德里克·霍奇森索要黄金凳后，王太后雅·阿散蒂娃领导起义，英军于9月将其镇压"
+      },
+      "sources": [
+        {
+          "citation": "BlackPast. \"The Anglo-Ashanti Wars (1823-1900).\" War of the Golden Stool, March to September 1900.",
+          "url": "https://blackpast.org/gah/anglo-ashanti-wars-1823-1900"
+        },
+        {
+          "citation": "Wikipedia. \"War of the Golden Stool.\"",
+          "url": "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Accounts of what Hodgson did differ: Wikipedia reports a speech demanding the Stool, BlackPast says he sat on it. Both agree the act set off the rising.",
+        "es": "Los relatos sobre lo que hizo Hodgson difieren: Wikipedia recoge un discurso exigiendo el Trono, BlackPast dice que se sentó en él. Ambos coinciden en que el acto desencadenó el levantamiento.",
+        "zh": "关于霍奇森的举动说法不同：维基百科记载他发表讲话索要黄金凳，BlackPast 称他坐了上去。两者都认为这一举动引发了起义。"
+      }
+    },
+    {
+      "id": "crown-colony",
+      "start": 1902,
+      "type": "collapse",
+      "title": {
+        "en": "On 1 January Britain declares Asante a crown colony and sets up the Northern Territories as a separate protectorate",
+        "es": "El 1 de enero Gran Bretaña declara a Asante colonia de la Corona y crea los Territorios del Norte como protectorado aparte",
+        "zh": "1月1日，英国宣布阿散蒂为直辖殖民地，并把北方领地另设为保护国"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Asante empire.\"",
+          "url": "https://www.britannica.com/place/Asante-empire"
+        },
+        {
+          "citation": "BlackPast. \"Ashanti Empire/Asante Kingdom (18th to late 19th century).\" Annexed into the Gold Coast colony in 1902.",
+          "url": "https://www.blackpast.org/global-african-history/ashanti-empire/"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "golden-stool",
+      "start": 1695,
+      "end": 1902,
+      "text": {
+        "en": "Asante kings were enthroned on the Golden Stool, which tradition says the priest Okomfo Anokye called down from heaven as the spirit of the nation.",
+        "es": "Los reyes asante eran entronizados sobre el Trono de Oro, que según la tradición el sacerdote Okomfo Anokye hizo bajar del cielo como espíritu de la nación.",
+        "zh": "阿散蒂国王在黄金凳上登基；传说祭司奥孔福·阿诺奇把它从天上召下，作为民族的灵魂。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Osei Tutu.\"",
+          "url": "https://www.britannica.com/biography/Osei-Tutu"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Asante empire.\"",
+          "url": "https://www.britannica.com/place/Asante-empire"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "gold-dust-currency",
+      "start": 1701,
+      "end": 1896,
+      "text": {
+        "en": "Gold dust circulated as currency across the empire, and the gold mines were royal property.",
+        "es": "El polvo de oro circulaba como moneda en todo el imperio, y las minas de oro eran propiedad real.",
+        "zh": "金粉在整个帝国作为货币流通，金矿属于王室。"
+      },
+      "sources": [
+        {
+          "citation": "BlackPast. \"Ashanti Empire/Asante Kingdom (18th to late 19th century).\"",
+          "url": "https://www.blackpast.org/global-african-history/ashanti-empire/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
