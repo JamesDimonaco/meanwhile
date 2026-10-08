@@ -205,7 +205,7 @@ These follow the decisions above where they reach; James may change them at revi
 3. Pre-1800 flagship only: `WARS` config + `pnpm borders`.
 4. `pnpm land <ne_10m_land.shp> <id>` for the map's land file (again after any change to its pins or borders; validate-data says when).
 5. `pnpm validate-data`, `pnpm test`, then look at `/en/war/<id>/` and `/zh/war/<id>/` (a sensitive war has no zh page until James reviews it: check `/en/` only).
-5. BCE wars: check every year against the sources and Wikidata P580/P582 by hand; validation can't see a consistent off-by-one.
+6. BCE wars: check every year against the sources and Wikidata P580/P582 by hand; validation can't see a consistent off-by-one.
 
 ## Country pages
 
