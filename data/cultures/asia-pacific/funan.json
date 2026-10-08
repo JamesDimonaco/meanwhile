@@ -1,0 +1,201 @@
+{
+  "id": "funan",
+  "region": "asia-pacific",
+  "wikidataId": "Q867782",
+  "name": {
+    "en": "Funan",
+    "es": "Reino de Funan",
+    "zh": "扶南"
+  },
+  "nativeName": {
+    "text": "扶南",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Kingdom of Funan",
+    "Fu Nan",
+    "Oc Eo"
+  ],
+  "description": {
+    "en": "A trading state in the Mekong delta that linked India and China by sea. It is known mostly from Chinese accounts and from the port of Oc Eo, and it gave way to Chenla by about 550 to 650 CE.",
+    "es": "Estado comercial del delta del Mekong que unió India y China por mar. Se conoce sobre todo por fuentes chinas y por el puerto de Oc Eo, y cedió ante Chenla entre los años 550 y 650 d. C. aproximadamente.",
+    "zh": "湄公河三角洲的贸易国家，以海路连接印度与中国。我们主要通过中国史籍和俄厄港口遗址了解它，约公元550至650年间被真腊取代。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "funan-period",
+      "earliestStart": 1,
+      "latestStart": 100,
+      "earliestEnd": 550,
+      "latestEnd": 650,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Funan.\" (c. 50 to c. 550 CE; absorbed by Chenla in the 6th century).",
+          "url": "https://www.britannica.com/place/Funan"
+        },
+        {
+          "citation": "chinaknowledge.de. \"Funan 扶南.\" (1st to 7th century; taken over by Zhenla around 650).",
+          "url": "http://www.chinaknowledge.de/History/Altera/funan.html"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Funan's origins and extent are debated, and it is known mainly through Chinese records. Sources place its end between about 550 and 650.",
+        "es": "Los orígenes y la extensión de Funan son objeto de debate, y se conoce sobre todo por registros chinos. Las fuentes sitúan su final entre los años 550 y 650 aproximadamente.",
+        "zh": "扶南的起源和疆域尚有争议，主要依靠中国史籍了解。各种资料把它的终结定在约公元550年至650年之间。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 50,
+      "type": "founding",
+      "title": {
+        "en": "A kingdom known to the Chinese as Funan arises in the Mekong delta",
+        "es": "Surge en el delta del Mekong un reino que los chinos llamaron Funan",
+        "zh": "湄公河三角洲出现了中国人称为扶南的王国"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Funan.\"",
+          "url": "https://www.britannica.com/place/Funan"
+        },
+        {
+          "citation": "chinaknowledge.de. \"Funan 扶南.\"",
+          "url": "http://www.chinaknowledge.de/History/Altera/funan.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date is approximate. The founding stories come from Chinese writers, not from Funan's own records.",
+        "es": "La fecha es aproximada. Los relatos de fundación proceden de autores chinos, no de registros del propio Funan.",
+        "zh": "这一年代只是大致估计。建国传说出自中国文献，而非扶南自身的记录。"
+      }
+    },
+    {
+      "id": "oc-eo",
+      "start": 100,
+      "end": 500,
+      "type": "invention",
+      "title": {
+        "en": "The port of Oc Eo trades with India, China and the wider Indian Ocean",
+        "es": "El puerto de Oc Eo comercia con la India, China y el océano Índico",
+        "zh": "俄厄港与印度、中国及印度洋各地通商"
+      },
+      "sources": [
+        {
+          "citation": "The Archaeologist. \"Oc Eo: the Mekong Delta's Funan Empire port.\"",
+          "url": "https://www.thearchaeologist.org/blog/c-eo-mekong-deltas-funan-empire-port"
+        },
+        {
+          "citation": "Bad Ancient. \"Did the Romans reach Vietnam?\" (settlements dated AD 100 to 500).",
+          "url": "https://www.badancient.com/claims/romans-reach-vietnam/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "tribute-to-china",
+      "start": 223,
+      "end": 588,
+      "type": "ruler",
+      "title": {
+        "en": "Funan's kings send tribute missions to the Chinese courts",
+        "es": "Los reyes de Funan envían misiones de tributo a las cortes chinas",
+        "zh": "扶南国王多次遣使向中国朝廷朝贡"
+      },
+      "sources": [
+        {
+          "citation": "chinaknowledge.de. \"Funan 扶南.\" (missions recorded 223 to 588).",
+          "url": "http://www.chinaknowledge.de/History/Altera/funan.html"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Funan.\" (tribute to China from the 3rd to the 6th century).",
+          "url": "https://www.britannica.com/place/Funan"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "wu-envoys",
+      "start": 250,
+      "type": "ruler",
+      "title": {
+        "en": "The Wu court sends the envoys Kang Tai and Zhu Ying to Funan",
+        "es": "La corte de Wu envía a los embajadores Kang Tai y Zhu Ying a Funan",
+        "zh": "吴国朝廷派康泰和朱应出使扶南"
+      },
+      "sources": [
+        {
+          "citation": "chinaknowledge.de. \"Funan 扶南.\" (around 250).",
+          "url": "http://www.chinaknowledge.de/History/Altera/funan.html"
+        },
+        {
+          "citation": "Angkor Database. \"Early China and the Indian Ocean networks.\" (mid-third century).",
+          "url": "https://angkordatabase.asia/publications/early-china-and-the-indian-ocean-networks"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Scholars date the mission to somewhere between about 243 and 252.",
+        "es": "Los estudiosos fechan la misión en algún momento entre los años 243 y 252 aproximadamente.",
+        "zh": "学者把这次出使的时间定在约243年至252年之间。"
+      }
+    },
+    {
+      "id": "absorbed-by-chenla",
+      "start": 550,
+      "end": 650,
+      "type": "collapse",
+      "title": {
+        "en": "Funan is absorbed by Chenla",
+        "es": "Funan es absorbido por Chenla",
+        "zh": "扶南被真腊吞并"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Funan.\" (incorporated into Chenla in the 6th century).",
+          "url": "https://www.britannica.com/place/Funan"
+        },
+        {
+          "citation": "chinaknowledge.de. \"Funan 扶南.\" (swallowed by Zhenla around 650).",
+          "url": "http://www.chinaknowledge.de/History/Altera/funan.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources disagree on whether this was a conquest or a gradual shift of power, and on whether it happened nearer 550 or 650.",
+        "es": "Las fuentes discrepan sobre si fue una conquista o un traspaso gradual de poder, y sobre si ocurrió más cerca del 550 o del 650.",
+        "zh": "各种资料对这是征服还是权力的逐步转移存在分歧，对发生在550年前后还是650年前后也说法不一。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "roman-medallions",
+      "start": 138,
+      "end": 180,
+      "text": {
+        "en": "Gold medallions struck for the Roman emperors Antoninus Pius and Marcus Aurelius were found at Oc Eo.",
+        "es": "En Oc Eo se hallaron medallones de oro acuñados para los emperadores romanos Antonino Pío y Marco Aurelio.",
+        "zh": "俄厄出土了为罗马皇帝安敦尼·庇护和马可·奥勒留铸造的金质纪念章。"
+      },
+      "sources": [
+        {
+          "citation": "Bad Ancient. \"Did the Romans reach Vietnam?\"",
+          "url": "https://www.badancient.com/claims/romans-reach-vietnam/"
+        },
+        {
+          "citation": "The Archaeologist. \"Oc Eo: the Mekong Delta's Funan Empire port.\"",
+          "url": "https://www.thearchaeologist.org/blog/c-eo-mekong-deltas-funan-empire-port"
+        }
+      ]
+    }
+  ]
+}

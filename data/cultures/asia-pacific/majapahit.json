@@ -1,0 +1,217 @@
+{
+  "id": "majapahit",
+  "region": "asia-pacific",
+  "wikidataId": "Q49326",
+  "name": {
+    "en": "Majapahit",
+    "es": "Imperio mayapajit",
+    "zh": "满者伯夷"
+  },
+  "aliases": [
+    "Majapahit Empire",
+    "Madjapahit",
+    "Trowulan",
+    "Nagarakretagama"
+  ],
+  "description": {
+    "en": "The last major Hindu-Buddhist kingdom of Java, founded in 1293 and based at Trowulan. At its height under Hayam Wuruk and Gajah Mada it claimed supremacy across the archipelago, though it directly ruled only its core.",
+    "es": "El último gran reino hindú-budista de Java, fundado en 1293 y con sede en Trowulan. En su apogeo, con Hayam Wuruk y Gajah Mada, reclamó la supremacía en el archipiélago, aunque solo gobernaba directamente su núcleo.",
+    "zh": "爪哇最后一个大型印度教与佛教王国，建于1293年，都城位于特罗武兰。在哈奄·乌鲁克和加札马达治下的鼎盛期，它声称对整个群岛拥有宗主权，但只直接统治核心地区。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "majapahit-period",
+      "earliestStart": 1293,
+      "latestStart": 1293,
+      "earliestEnd": 1478,
+      "latestEnd": 1527,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Kertarajasa.\"",
+          "url": "https://www.britannica.com/biography/Kertarajasa"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Majapahit empire.\" (13th to 16th century; ended in the late 15th or early 16th century).",
+          "url": "https://www.britannica.com/place/Majapahit-empire"
+        },
+        {
+          "citation": "New World Encyclopedia. \"Majapahit.\" (1293; end dated between 1478 and 1527).",
+          "url": "https://www.newworldencyclopedia.org/entry/Majapahit"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start is firmly dated. Sources put the end anywhere from 1478 to about 1527, depending on whether the fall of the Hindu-Buddhist court or the rise of the north-coast Islamic states is counted.",
+        "es": "El comienzo está bien fechado. Las fuentes sitúan el final entre 1478 y hacia 1527, según se cuente la caída de la corte hindú-budista o el ascenso de los estados islámicos de la costa norte.",
+        "zh": "起点年份较为确定。各种资料把终结定在1478年至约1527年之间，取决于以印度教与佛教宫廷的覆灭，还是以北部沿海伊斯兰国家的崛起为准。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 1293,
+      "type": "founding",
+      "title": {
+        "en": "Raden Wijaya uses a Mongol force to defeat Jayakatwang, then expels the Mongols and founds Majapahit",
+        "es": "Raden Wijaya usa una fuerza mongola para derrotar a Jayakatwang, expulsa después a los mongoles y funda Majapahit",
+        "zh": "拉登·维查雅借助蒙古军队击败查亚卡特旺，随后驱逐蒙古人并建立满者伯夷"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Kertarajasa.\"",
+          "url": "https://www.britannica.com/biography/Kertarajasa"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Majapahit empire.\" (Mongol troops came to Java in 1292).",
+          "url": "https://www.britannica.com/place/Majapahit-empire"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Srivijaya.\" (Mongols reached Java a year after Marco Polo's visit; Majapahit emerged).",
+          "url": "https://www.ebsco.com/research-starters/history/srivijaya/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "hayam-wuruk-and-gajah-mada",
+      "start": 1350,
+      "end": 1364,
+      "type": "ruler",
+      "title": {
+        "en": "Under King Hayam Wuruk and the minister Gajah Mada, Majapahit extends its power across the archipelago",
+        "es": "Bajo el rey Hayam Wuruk y el ministro Gajah Mada, Majapahit extiende su poder por el archipiélago",
+        "zh": "在国王哈奄·乌鲁克和大臣加札马达治下，满者伯夷的势力扩展到整个群岛"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Hayam Wuruk.\"",
+          "url": "https://www.britannica.com/biography/Hayam-Wuruk"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Gajah Mada.\" (died 1364).",
+          "url": "https://www.britannica.com/summary/Gajah-Mada"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The core was ruled directly. The outlying territory acknowledged the king's supremacy but was under little direct control, and how far Majapahit's authority reached is debated.",
+        "es": "El núcleo se gobernaba directamente. Los territorios periféricos reconocían la supremacía del rey pero estaban bajo escaso control directo, y se debate hasta dónde llegaba la autoridad de Majapahit.",
+        "zh": "核心地区由国王直接统治，外围领土承认国王的宗主权，但很少受直接控制；满者伯夷的权威究竟到达多远，学界仍有争论。"
+      }
+    },
+    {
+      "id": "nagarakretagama",
+      "start": 1365,
+      "type": "invention",
+      "title": {
+        "en": "The poet Prapanca completes the Nagarakretagama, a poem describing King Hayam Wuruk's realm",
+        "es": "El poeta Prapanca termina el Nagarakretagama, un poema que describe el reino del rey Hayam Wuruk",
+        "zh": "诗人普拉潘查完成长诗《爪哇史颂》，描述国王哈奄·乌鲁克的王国"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO Memory of the World. \"Nagarakretagama or Description of the Country (1365 AD).\"",
+          "url": "https://www.unesco.org/en/memory-world/nagarakretagama-or-description-country-1365-ad"
+        },
+        {
+          "citation": "UNESCO Memory of the World nomination form, Indonesia: Nagarakretagama. (Saka year 1287, 30 October 1365 in the Julian calendar).",
+          "url": "https://media.unesco.org/sites/default/files/webform/mow001/indonesia_nagarakretagama.pdf"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "palembang-attack",
+      "start": 1377,
+      "type": "conflict",
+      "title": {
+        "en": "Majapahit attacks Palembang",
+        "es": "Majapahit ataca Palembang",
+        "zh": "满者伯夷进攻巨港"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Srivijaya.\" (1377).",
+          "url": "https://www.ebsco.com/research-starters/history/srivijaya/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Palembang.\" (destroyed in the late 14th century after rejecting Javanese authority).",
+          "url": "https://www.britannica.com/place/Palembang"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "hayam-wuruk-dies",
+      "start": 1389,
+      "type": "ruler",
+      "title": {
+        "en": "Hayam Wuruk dies after dividing the kingdom between a nephew and his son, and Majapahit declines",
+        "es": "Hayam Wuruk muere tras dividir el reino entre un sobrino y su hijo, y Majapahit declina",
+        "zh": "哈奄·乌鲁克去世，他生前把王国分给一位侄子和自己的儿子，满者伯夷由此衰落"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Hayam Wuruk.\"",
+          "url": "https://www.britannica.com/biography/Hayam-Wuruk"
+        },
+        {
+          "citation": "New World Encyclopedia. \"Majapahit.\" (succession conflict; civil war of 1405 to 1406).",
+          "url": "https://www.newworldencyclopedia.org/entry/Majapahit"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "end-of-majapahit",
+      "start": 1478,
+      "end": 1527,
+      "type": "collapse",
+      "title": {
+        "en": "Majapahit ends as the Islamic states of Java's north coast grow in power",
+        "es": "Majapahit llega a su fin mientras crece el poder de los estados islámicos de la costa norte de Java",
+        "zh": "随着爪哇北岸伊斯兰国家势力增长，满者伯夷走向终结"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Majapahit empire.\" (ended in the late 15th or early 16th century).",
+          "url": "https://www.britannica.com/place/Majapahit-empire"
+        },
+        {
+          "citation": "New World Encyclopedia. \"Majapahit.\" (end dated between 1478 and 1527).",
+          "url": "https://www.newworldencyclopedia.org/entry/Majapahit"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Dates for the end range from 1478 to about 1527.",
+        "es": "Las fechas del final van de 1478 a 1527 aproximadamente.",
+        "zh": "关于终结的年份，说法从1478年到约1527年不等。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "trowulan",
+      "start": 1293,
+      "end": 1478,
+      "text": {
+        "en": "The ruins of Trowulan, the Majapahit capital, cover an area of 11 by 9 kilometres and include a canal system and 18 dams.",
+        "es": "Las ruinas de Trowulan, capital de Majapahit, ocupan una superficie de 11 por 9 kilómetros e incluyen un sistema de canales y 18 presas.",
+        "zh": "满者伯夷都城特罗武兰的遗址占地11公里乘9公里，包括一套运河系统和18座水坝。"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Trowulan - Majapahit Capital City Site.\" Tentative List.",
+          "url": "https://whc.unesco.org/en/tentativelists/5466/"
+        }
+      ]
+    }
+  ]
+}
