@@ -1,0 +1,330 @@
+{
+  "id": "tokugawa-shogunate",
+  "region": "asia-pacific",
+  "wikidataId": "Q205662",
+  "name": {
+    "en": "Tokugawa shogunate (Edo period)",
+    "es": "Shogunato Tokugawa (período Edo)",
+    "zh": "江户幕府"
+  },
+  "nativeName": {
+    "text": "江戸幕府",
+    "lang": "ja"
+  },
+  "aliases": [
+    "Edo period",
+    "Edo shogunate",
+    "Edo bakufu",
+    "Tokugawa bakufu",
+    "Tokugawa period",
+    "Edo jidai",
+    "Tokugawa Ieyasu",
+    "德川幕府",
+    "江户时代"
+  ],
+  "description": {
+    "en": "Tokugawa Ieyasu won at Sekigahara in 1600, took the title of shogun in 1603 and ruled from Edo. His heirs limited foreign trade to Nagasaki for over two centuries. Perry's squadron arrived in 1853, and the shogunate ended in 1868.",
+    "es": "Tokugawa Ieyasu venció en Sekigahara en 1600, tomó el título de shogun en 1603 y gobernó desde Edo. Sus herederos limitaron el comercio exterior a Nagasaki durante más de dos siglos. La escuadra de Perry llegó en 1853 y el shogunato terminó en 1868.",
+    "zh": "德川家康1600年在关原获胜，1603年就任将军，在江户执政。其后继者两个多世纪里把对外贸易限定在长崎。1853年佩里舰队抵达，幕府于1868年终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "tokugawa-shogunate",
+      "earliestStart": 1600,
+      "latestStart": 1603,
+      "earliestEnd": 1867,
+      "latestEnd": 1868,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Edo Period\" (AD 1603 – AD 1868), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hwrbs"
+        },
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Tokugawa Period\".",
+          "url": "http://countrystudies.us/japan/19.htm"
+        },
+        {
+          "citation": "Columbia University, Asia for Educators, \"Japan: Timeline\".",
+          "url": "https://afe.easia.columbia.edu/timelines/japan_timeline.htm"
+        }
+      ],
+      "periodoId": "p08m57hwrbs",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Chronologies start in 1600 (Sekigahara) or 1603 (Ieyasu named shogun) and end in 1867 (the last shogun resigns) or 1868 (the new government abolishes the shogunate).",
+        "es": "Las cronologías comienzan en 1600 (Sekigahara) o 1603 (Ieyasu nombrado shogun) y terminan en 1867 (dimite el último shogun) o 1868 (el nuevo gobierno abole el shogunato).",
+        "zh": "年表的起点为1600年（关原之战）或1603年（家康就任将军），终点为1867年（末代将军辞职）或1868年（新政府废除幕府）。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "sekigahara",
+      "start": 1600,
+      "type": "conflict",
+      "title": {
+        "en": "Tokugawa Ieyasu leads a coalition of eastern daimyo to victory over western daimyo at Sekigahara",
+        "es": "Tokugawa Ieyasu lidera una coalición de daimyo orientales que vence a los daimyo occidentales en Sekigahara",
+        "zh": "德川家康率东国大名联军在关原击败西国大名"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Tokugawa Period\".",
+          "url": "http://countrystudies.us/japan/19.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Edo Period\".",
+          "url": "https://www.worldhistory.org/Edo_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Sekigahara",
+          "es": "Sekigahara",
+          "zh": "关原"
+        },
+        "lat": 35.3667,
+        "lon": 136.4667
+      }
+    },
+    {
+      "id": "ieyasu-shogun",
+      "start": 1603,
+      "type": "founding",
+      "title": {
+        "en": "Ieyasu has the emperor appoint him shogun and governs from Edo",
+        "es": "Ieyasu hace que el emperador lo nombre shogun y gobierna desde Edo",
+        "zh": "家康请天皇任命自己为将军，在江户执政"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Edo Period\".",
+          "url": "https://www.worldhistory.org/Edo_Period/"
+        },
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Tokugawa Period\".",
+          "url": "http://countrystudies.us/japan/19.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Edo (Tokyo)",
+          "es": "Edo (Tokio)",
+          "zh": "江户（东京）"
+        },
+        "lat": 35.6852,
+        "lon": 139.7528
+      }
+    },
+    {
+      "id": "siege-of-osaka",
+      "start": 1615,
+      "type": "conflict",
+      "title": {
+        "en": "Tokugawa forces destroy Osaka Castle, the last Toyotomi stronghold",
+        "es": "Las fuerzas Tokugawa destruyen el castillo de Osaka, el último bastión de los Toyotomi",
+        "zh": "德川军攻陷并毁掉大阪城，这是丰臣氏的最后据点"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Tokugawa Period\".",
+          "url": "http://countrystudies.us/japan/19.htm"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Siege of Ōsaka\".",
+          "url": "https://ebsco.com/research-starters/history/siege-osaka"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Osaka Castle",
+          "es": "Castillo de Osaka",
+          "zh": "大阪城"
+        },
+        "lat": 34.6873,
+        "lon": 135.5262
+      }
+    },
+    {
+      "id": "alternate-attendance",
+      "start": 1635,
+      "type": "ruler",
+      "title": {
+        "en": "Daimyo must spend alternate years in Edo, and their families stay there",
+        "es": "Los daimyo deben pasar años alternos en Edo, y sus familias permanecen allí",
+        "zh": "大名须隔年轮流在江户居住，家眷长期留在江户"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Edo Period\".",
+          "url": "https://www.worldhistory.org/Edo_Period/"
+        },
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Tokugawa Period\".",
+          "url": "http://countrystudies.us/japan/19.htm"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources say only that the rule dates from the 1630s; this entry uses 1635.",
+        "es": "Las fuentes solo dicen que la norma data de la década de 1630; esta entrada usa 1635.",
+        "zh": "史料只说这一制度始于1630年代；本条目采用1635年。"
+      },
+      "place": {
+        "name": {
+          "en": "Edo (Tokyo)",
+          "es": "Edo (Tokio)",
+          "zh": "江户（东京）"
+        },
+        "lat": 35.6852,
+        "lon": 139.7528
+      }
+    },
+    {
+      "id": "seclusion-edicts",
+      "start": 1635,
+      "end": 1641,
+      "type": "ruler",
+      "title": {
+        "en": "Edicts bar Japanese from travelling abroad and confine foreign trade to Nagasaki, with the Dutch at Dejima",
+        "es": "Unos edictos prohíben a los japoneses viajar al extranjero y limitan el comercio exterior a Nagasaki, con los holandeses en Dejima",
+        "zh": "多道法令禁止日本人出国，并把对外贸易限于长崎，荷兰人被限定在出岛"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Seclusion and Social Control\".",
+          "url": "http://countrystudies.us/japan/20.htm"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State, Milestones: 1830-1860, \"Opening to Japan\".",
+          "url": "https://history.state.gov/milestones/1830-1860/opening-to-japan"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Trade also continued with Korea and the Ryukyu Islands, so historians debate how closed Japan was.",
+        "es": "El comercio también continuó con Corea y las islas Ryukyu, por lo que los historiadores debaten cuán cerrado estuvo Japón.",
+        "zh": "日本仍与朝鲜和琉球通商，因此史家对其封闭程度存在争论。"
+      },
+      "place": {
+        "name": {
+          "en": "Dejima, Nagasaki",
+          "es": "Dejima, Nagasaki",
+          "zh": "出岛，长崎"
+        },
+        "lat": 32.7436,
+        "lon": 129.8728
+      }
+    },
+    {
+      "id": "perry-expedition",
+      "start": 1853,
+      "end": 1854,
+      "type": "ruler",
+      "title": {
+        "en": "Commodore Perry's squadron anchors in Edo Bay; in 1854 Japan signs the Treaty of Kanagawa, opening two ports to American ships",
+        "es": "La escuadra del comodoro Perry fondea en la bahía de Edo; en 1854 Japón firma el Tratado de Kanagawa, que abre dos puertos a los barcos estadounidenses",
+        "zh": "佩里准将的舰队驶入江户湾；1854年日本签订《神奈川条约》，向美国船只开放两个港口"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State, Milestones: 1830-1860, \"Opening to Japan\".",
+          "url": "https://history.state.gov/milestones/1830-1860/opening-to-japan"
+        },
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Decline of the Tokugawa\".",
+          "url": "http://countrystudies.us/japan/21.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Edo Bay",
+          "es": "Bahía de Edo",
+          "zh": "江户湾"
+        },
+        "lat": 35.4,
+        "lon": 139.8
+      }
+    },
+    {
+      "id": "end-of-the-shogunate",
+      "start": 1867,
+      "end": 1868,
+      "type": "collapse",
+      "title": {
+        "en": "The last shogun, Tokugawa Yoshinobu, resigns, and on 3 January 1868 the new government announces an imperial restoration and abolishes the shogunate",
+        "es": "El último shogun, Tokugawa Yoshinobu, dimite, y el 3 de enero de 1868 el nuevo gobierno proclama una restauración imperial y abole el shogunato",
+        "zh": "末代将军德川庆喜辞职；1868年1月3日新政府宣布王政复古，废除幕府"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Decline of the Tokugawa\".",
+          "url": "http://countrystudies.us/japan/21.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Edo Period\".",
+          "url": "https://www.worldhistory.org/Edo_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kyoto",
+          "es": "Kioto",
+          "zh": "京都"
+        },
+        "lat": 35.0116,
+        "lon": 135.7681
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "dejima",
+      "start": 1641,
+      "end": 1853,
+      "text": {
+        "en": "For about two centuries the only Europeans allowed to trade in Japan were the Dutch, kept on Dejima, a small artificial island in Nagasaki harbour.",
+        "es": "Durante unos dos siglos, los únicos europeos autorizados a comerciar en Japón fueron los holandeses, confinados en Dejima, una pequeña isla artificial del puerto de Nagasaki.",
+        "zh": "约两个世纪里，获准在日本通商的欧洲人只有荷兰人，他们被限定在长崎港内的人工小岛出岛上。"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Seclusion and Social Control\".",
+          "url": "http://countrystudies.us/japan/20.htm"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State, Milestones: 1830-1860, \"Opening to Japan\".",
+          "url": "https://history.state.gov/milestones/1830-1860/opening-to-japan"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "census-of-1721",
+      "start": 1721,
+      "end": 1721,
+      "text": {
+        "en": "Japan's first nationwide census, in 1721, counted at least 26 million commoners and about 4 million members of samurai families and their attendants.",
+        "es": "El primer censo nacional de Japón, en 1721, contó al menos 26 millones de plebeyos y unos 4 millones de miembros de familias samuráis y sus criados.",
+        "zh": "1721年日本首次全国人口普查，统计出至少2600万平民，以及约400万武士家族成员及其随从。"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Decline of the Tokugawa\".",
+          "url": "http://countrystudies.us/japan/21.htm"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
