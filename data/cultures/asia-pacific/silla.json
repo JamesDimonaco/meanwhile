@@ -1,0 +1,303 @@
+{
+  "id": "silla",
+  "region": "asia-pacific",
+  "wikidataId": "Q28456",
+  "name": {
+    "en": "Silla",
+    "es": "Silla",
+    "zh": "新罗"
+  },
+  "aliases": [
+    "Shilla",
+    "Unified Silla",
+    "Silla Unificado",
+    "统一新罗",
+    "新羅"
+  ],
+  "description": {
+    "en": "A kingdom ruled from Gyeongju in the south-east of the Korean peninsula. It grew from one of the Three Kingdoms into the state that ruled most of the peninsula after 668, with an aristocracy ranked by birth, until it surrendered to Goryeo in 935.",
+    "es": "Reino gobernado desde Gyeongju, en el sureste de la península de Corea. Pasó de ser uno de los Tres Reinos a gobernar la mayor parte de la península desde 668, con una aristocracia jerarquizada por nacimiento, hasta que se rindió a Goryeo en 935.",
+    "zh": "以庆州为都城、位于朝鲜半岛东南部的王国。它由三国之一发展为668年后统治半岛大部分地区的国家，贵族按出身分等级，935年向高丽投降。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "silla-kingdom",
+      "earliestStart": -56,
+      "latestStart": 356,
+      "earliestEnd": 935,
+      "latestEnd": 935,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Silla Kingdom\" (57 BC – AD 668), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h9dkh"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Unified Silla\" (AD 668 – AD 935), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hktmp"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Silla\".",
+          "url": "https://www.britannica.com/place/Silla"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Silla.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Silla/"
+        }
+      ],
+      "periodoId": "p08m57h9dkh",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Tradition dates the founding to 57 BCE, which World History Encyclopedia calls unlikely to be accurate. Britannica's first reliably dated king is Naemul (356–402), so the solid bar starts there. PeriodO splits the span into Silla (to 668) and Unified Silla (668–935); both are one culture here.",
+        "es": "La tradición fecha la fundación en 57 a. e. c., algo que World History Encyclopedia considera poco probable. El primer rey con fechas fiables en Britannica es Naemul (356–402), así que la barra sólida empieza ahí. PeriodO divide el lapso en Silla (hasta 668) y Silla Unificado (668–935); aquí son una sola cultura.",
+        "zh": "传统上把建国定在公元前57年，World History Encyclopedia认为这一年份不太可信。《大英百科全书》中年代可靠的第一位国王是奈勿王（356–402年），所以实线从这里开始。PeriodO把这段时间分为新罗（至668年）和统一新罗（668–935年），这里合为一个文化。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "silla-kingdom",
+      "name": {
+        "en": "Silla kingdom",
+        "es": "Reino de Silla",
+        "zh": "新罗王国"
+      },
+      "start": -56,
+      "end": 668,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Silla.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Silla/"
+        }
+      ]
+    },
+    {
+      "id": "unified-silla",
+      "name": {
+        "en": "Unified Silla",
+        "es": "Silla Unificado",
+        "zh": "统一新罗"
+      },
+      "start": 668,
+      "end": 935,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Unified Silla Kingdom.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Unified_Silla_Kingdom/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "traditional-founding",
+      "start": -56,
+      "type": "founding",
+      "title": {
+        "en": "Tradition says Hyeokgeose founds Silla",
+        "es": "Según la tradición, Hyeokgeose funda Silla",
+        "zh": "相传赫居世建立新罗"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Silla\".",
+          "url": "https://www.britannica.com/place/Silla"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Silla.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Silla/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "57 BCE is the traditional date. World History Encyclopedia calls it unlikely to be accurate.",
+        "es": "57 a. e. c. es la fecha tradicional. World History Encyclopedia la considera poco probable.",
+        "zh": "公元前57年是传统说法。World History Encyclopedia认为这一年份不太可信。"
+      },
+      "place": {
+        "name": {
+          "en": "Gyeongju",
+          "es": "Gyeongju",
+          "zh": "庆州"
+        },
+        "lat": 35.84,
+        "lon": 129.22
+      }
+    },
+    {
+      "id": "geumgwan-gaya-falls",
+      "start": 532,
+      "type": "conflict",
+      "title": {
+        "en": "Silla takes Geumgwan Gaya under King Beopheung",
+        "es": "Silla toma Geumgwan Gaya bajo el rey Beopheung",
+        "zh": "法兴王时期新罗吞并金官伽倻"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Silla.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Silla/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Silla\".",
+          "url": "https://www.britannica.com/place/Silla"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Gimhae",
+          "es": "Gimhae",
+          "zh": "金海"
+        },
+        "lat": 35.23,
+        "lon": 128.88
+      }
+    },
+    {
+      "id": "conquest-of-goguryeo",
+      "start": 668,
+      "type": "conflict",
+      "title": {
+        "en": "Silla and Tang defeat Goguryeo, and Silla begins to rule the peninsula",
+        "es": "Silla y Tang derrotan a Goguryeo, y Silla empieza a gobernar la península",
+        "zh": "新罗与唐朝灭高句丽，新罗开始统治半岛"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Silla\".",
+          "url": "https://www.britannica.com/place/Silla"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Unified Silla Kingdom.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Unified_Silla_Kingdom/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "gibolpo",
+      "start": 676,
+      "type": "conflict",
+      "title": {
+        "en": "Silla beats Tang forces at Gibolpo and keeps the peninsula",
+        "es": "Silla vence a las fuerzas Tang en Gibolpo y conserva la península",
+        "zh": "新罗在伎伐浦击败唐军，保住半岛"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Unified Silla Kingdom.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Unified_Silla_Kingdom/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Silla\".",
+          "url": "https://www.britannica.com/place/Silla"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "seokguram",
+      "start": 751,
+      "end": 774,
+      "type": "invention",
+      "title": {
+        "en": "Seokguram grotto and Bulguksa temple are built near Gyeongju",
+        "es": "Se construyen la gruta de Seokguram y el templo de Bulguksa cerca de Gyeongju",
+        "zh": "庆州附近建造石窟庵和佛国寺"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre, \"Seokguram Grotto and Bulguksa Temple\".",
+          "url": "https://whc.unesco.org/en/list/736"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Unified Silla Kingdom.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Unified_Silla_Kingdom/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Seokguram, Gyeongju",
+          "es": "Seokguram, Gyeongju",
+          "zh": "庆州石窟庵"
+        },
+        "lat": 35.79,
+        "lon": 129.35
+      }
+    },
+    {
+      "id": "gyeongsun-surrenders",
+      "start": 935,
+      "type": "collapse",
+      "title": {
+        "en": "Silla's last king, Gyeongsun, surrenders to Wang Geon of Goryeo",
+        "es": "El último rey de Silla, Gyeongsun, se rinde a Wang Geon de Goryeo",
+        "zh": "新罗末代国王敬顺王向高丽王建投降"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Unified Silla Kingdom.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Unified_Silla_Kingdom/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Goryeo dynasty\".",
+          "url": "https://www.britannica.com/topic/Goryeo-dynasty"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Gyeongju",
+          "es": "Gyeongju",
+          "zh": "庆州"
+        },
+        "lat": 35.84,
+        "lon": 129.22
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "gold-crown",
+      "start": 500,
+      "end": 500,
+      "text": {
+        "en": "A Silla gold crown from about 500 CE, found in the great tomb at Hwangnamdong in Gyeongju, stands only 27.5 cm tall. It is now in the Gyeongju National Museum.",
+        "es": "Una corona de oro de Silla de hacia 500 e. c., hallada en la gran tumba de Hwangnamdong, en Gyeongju, mide solo 27,5 cm de alto. Hoy está en el Museo Nacional de Gyeongju.",
+        "zh": "庆州皇南洞大墓出土的新罗金冠，约制于公元500年，只有27.5厘米高，现藏庆州国立博物馆。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Silla\".",
+          "url": "https://www.britannica.com/place/Silla"
+        }
+      ]
+    },
+    {
+      "id": "bone-rank-system",
+      "start": 520,
+      "end": 520,
+      "text": {
+        "en": "Silla ranked people by birth in a bone-rank system, said to date from 520: sacred bone, true bone and head ranks. Rank decided which offices a person could hold.",
+        "es": "Silla clasificaba a las personas por nacimiento en un sistema de rangos de hueso, que se dice data de 520: hueso sagrado, hueso verdadero y rangos de cabeza. El rango decidía qué cargos se podían ocupar.",
+        "zh": "新罗按出身把人分等级，即骨品制，据说始于520年，分圣骨、真骨和头品。品级决定一个人能担任哪些官职。"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Silla.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Silla/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Silla\".",
+          "url": "https://www.britannica.com/place/Silla"
+        }
+      ]
+    }
+  ]
+}

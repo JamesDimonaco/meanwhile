@@ -1,0 +1,312 @@
+{
+  "id": "joseon",
+  "region": "asia-pacific",
+  "wikidataId": "Q28179",
+  "name": {
+    "en": "Joseon",
+    "es": "Dinastía Joseon",
+    "zh": "朝鲜王朝"
+  },
+  "aliases": [
+    "Chosŏn",
+    "Choson",
+    "Yi dynasty",
+    "Dinastía Yi",
+    "Korean Empire",
+    "Imperio coreano",
+    "大韩帝国",
+    "李氏朝鲜"
+  ],
+  "description": {
+    "en": "The dynasty Yi Seong-gye founded in 1392, ruling Korea from Hanyang (Seoul) for five centuries. Under it Hangul was devised, the state survived the Japanese invasions of 1592–98, and Korea became an empire in 1897 before Japan annexed it in 1910.",
+    "es": "La dinastía que Yi Seong-gye fundó en 1392 y que gobernó Corea desde Hanyang (Seúl) durante cinco siglos. En ella se creó el hangul, el Estado sobrevivió a las invasiones japonesas de 1592–98 y Corea pasó a ser un imperio en 1897, antes de que Japón la anexara en 1910.",
+    "zh": "李成桂1392年建立的王朝，以汉阳（首尔）为都城统治朝鲜半岛五个世纪。谚文创制于此时，王朝挺过了1592至1598年日本的入侵，1897年改称帝国，1910年被日本吞并。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "joseon-dynasty",
+      "earliestStart": 1392,
+      "latestStart": 1392,
+      "earliestEnd": 1897,
+      "latestEnd": 1910,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Choson\" (AD 1392 – AD 1910), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hh3s9"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
+          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Early Joseon Period.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Early_Joseon_Period/"
+        }
+      ],
+      "periodoId": "p08m57hh3s9",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Most references end the dynasty in 1910, when Japan annexed Korea. In 1897 King Gojong renamed the state the Korean Empire and took the title of emperor, and World History Encyclopedia ends its Joseon account there. The solid bar stops at 1897.",
+        "es": "La mayoría de las obras terminan la dinastía en 1910, cuando Japón anexó Corea. En 1897 el rey Gojong rebautizó el Estado como Imperio coreano y tomó el título de emperador, y World History Encyclopedia termina ahí su relato de Joseon. La barra sólida se detiene en 1897.",
+        "zh": "多数资料把王朝的终点定在1910年，即日本吞并朝鲜之时。1897年高宗把国号改为大韩帝国并称帝，World History Encyclopedia对朝鲜王朝的叙述止于这一年。实线止于1897年。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "joseon-kingdom",
+      "name": {
+        "en": "Joseon kingdom",
+        "es": "Reino de Joseon",
+        "zh": "朝鲜王国"
+      },
+      "start": 1392,
+      "end": 1897,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Gojong\".",
+          "url": "https://www.britannica.com/biography/Gojong"
+        }
+      ]
+    },
+    {
+      "id": "korean-empire",
+      "name": {
+        "en": "Korean Empire",
+        "es": "Imperio coreano",
+        "zh": "大韩帝国"
+      },
+      "start": 1897,
+      "end": 1910,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Gojong\".",
+          "url": "https://www.britannica.com/biography/Gojong"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yi-seong-gye-founds-joseon",
+      "start": 1392,
+      "type": "founding",
+      "title": {
+        "en": "Yi Seong-gye founds Joseon and moves the capital from Kaesong to Hanyang (Seoul)",
+        "es": "Yi Seong-gye funda Joseon y traslada la capital de Kaesong a Hanyang (Seúl)",
+        "zh": "李成桂建立朝鲜，把都城从开城迁往汉阳（首尔）"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
+          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Early Joseon Period.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Early_Joseon_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Seoul (Hanyang)",
+          "es": "Seúl (Hanyang)",
+          "zh": "首尔（汉阳）"
+        },
+        "lat": 37.57,
+        "lon": 126.98
+      }
+    },
+    {
+      "id": "hangul",
+      "start": 1443,
+      "type": "invention",
+      "title": {
+        "en": "King Sejong's scholars complete the Hangul alphabet",
+        "es": "Los letrados del rey Sejong completan el alfabeto hangul",
+        "zh": "世宗的学者们完成谚文字母"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Sejong the Great.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Sejong_the_Great/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
+          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The alphabet was finished in 1443 and published in 1446 as the Hunminjeongeum.",
+        "es": "El alfabeto se terminó en 1443 y se publicó en 1446 como Hunminjeongeum.",
+        "zh": "字母于1443年完成，1446年以《训民正音》之名公布。"
+      }
+    },
+    {
+      "id": "imjin-war",
+      "start": 1592,
+      "end": 1598,
+      "type": "conflict",
+      "title": {
+        "en": "Japan invades Korea in the Imjin War, and Chinese troops come to Korea's aid",
+        "es": "Japón invade Corea en la guerra Imjin, y tropas chinas acuden en ayuda de Corea",
+        "zh": "日本发动壬辰战争入侵朝鲜，中国军队援朝"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
+          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+        },
+        {
+          "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study, \"The Choson Dynasty\". Library of Congress.",
+          "url": "https://countrystudies.us/south-korea/5.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Busan",
+          "es": "Busan",
+          "zh": "釜山"
+        },
+        "lat": 35.18,
+        "lon": 129.08
+      }
+    },
+    {
+      "id": "yi-sun-sin-noryang",
+      "start": 1598,
+      "type": "conflict",
+      "title": {
+        "en": "Admiral Yi Sun-sin is killed at Noryang, the last major battle of the Imjin War",
+        "es": "El almirante Yi Sun-sin muere en Noryang, la última gran batalla de la guerra Imjin",
+        "zh": "李舜臣将军在露梁海战中阵亡，这是壬辰战争的最后一场大战"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Yi Sun-shin\".",
+          "url": "https://www.britannica.com/biography/Yi-Sun-shin"
+        },
+        {
+          "citation": "Wikipedia, \"Yi Sun-sin\".",
+          "url": "https://en.wikipedia.org/wiki/Yi_Sun-sin"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "manchu-invasions",
+      "start": 1627,
+      "type": "conflict",
+      "title": {
+        "en": "Manchu forces invade Korea, and attack again in 1636",
+        "es": "Fuerzas manchúes invaden Corea y atacan de nuevo en 1636",
+        "zh": "满洲军队入侵朝鲜，1636年再度进攻"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
+          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+        },
+        {
+          "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study, \"The Choson Dynasty\". Library of Congress.",
+          "url": "https://countrystudies.us/south-korea/5.htm"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "korean-empire-proclaimed",
+      "start": 1897,
+      "type": "founding",
+      "title": {
+        "en": "Gojong takes the title of emperor and renames Joseon the Korean Empire",
+        "es": "Gojong toma el título de emperador y rebautiza Joseon como Imperio coreano",
+        "zh": "高宗称帝，把朝鲜改称大韩帝国"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Gojong\".",
+          "url": "https://www.britannica.com/biography/Gojong"
+        },
+        {
+          "citation": "Wikipedia, \"Korean Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Korean_Empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Seoul",
+          "es": "Seúl",
+          "zh": "首尔"
+        },
+        "lat": 37.57,
+        "lon": 126.98
+      }
+    },
+    {
+      "id": "annexation",
+      "start": 1910,
+      "type": "collapse",
+      "title": {
+        "en": "Japan annexes Korea by a treaty signed in August",
+        "es": "Japón anexa Corea mediante un tratado firmado en agosto",
+        "zh": "日本通过8月签署的条约吞并朝鲜"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
+          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+        },
+        {
+          "citation": "Office of the Historian, Foreign Relations of the United States, 1910, document 705.",
+          "url": "https://history.state.gov/historicaldocuments/frus1910/d705"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The treaty was signed on 22 August 1910 and took effect on 29 August.",
+        "es": "El tratado se firmó el 22 de agosto de 1910 y entró en vigor el 29 de agosto.",
+        "zh": "条约于1910年8月22日签署，8月29日生效。"
+      },
+      "place": {
+        "name": {
+          "en": "Seoul",
+          "es": "Seúl",
+          "zh": "首尔"
+        },
+        "lat": 37.57,
+        "lon": 126.98
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "veritable-records",
+      "start": 1392,
+      "end": 1865,
+      "text": {
+        "en": "Court historians kept the Veritable Records of the Joseon Dynasty from 1392 to 1865. The set runs to 1,893 volumes and is on UNESCO's Memory of the World register.",
+        "es": "Los historiadores de la corte llevaron los Anales de la dinastía Joseon de 1392 a 1865. La colección suma 1893 volúmenes y figura en el registro Memoria del Mundo de la UNESCO.",
+        "zh": "宫廷史官从1392年到1865年编修《朝鲜王朝实录》，全书1893卷，已列入联合国教科文组织《世界记忆名录》。"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Veritable Records of the Joseon Dynasty\".",
+          "url": "https://en.wikipedia.org/wiki/Veritable_Records_of_the_Joseon_Dynasty"
+        },
+        {
+          "citation": "The Korea Times, \"Joseon Dynasty's royal archives take center stage in Busan\".",
+          "url": "https://www.koreatimes.co.kr/lifestyle/koreanheritage/20260706/joseon-dynastys-royal-archives-take-center-stage-in-busan"
+        }
+      ]
+    }
+  ]
+}
