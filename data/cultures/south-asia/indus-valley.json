@@ -20,7 +20,7 @@
   ],
   "description": {
     "en": "Along the Indus and its tributaries, the Harappans built grid-planned cities with brick drains and standardised weights, and wrote on seals in a script nobody has yet read. Their towns emptied after about 1900 BCE.",
-    "es": "A lo largo del Indo y sus afluentes, los harappa levantaron ciudades de trazado reticular con desagües de ladrillo y pesas normalizadas, y escribieron en sellos con una escritura que nadie ha logrado leer. Sus ciudades se fueron vaciando desde hacia 1900 a. e. c.",
+    "es": "A lo largo del Indo y sus afluentes, los harappa levantaron ciudades de trazado reticular con desagües de ladrillo y pesas normalizadas, y escribieron en sellos con una escritura que nadie ha logrado leer. Sus ciudades se fueron vaciando desde alrededor de 1900 a. e. c.",
     "zh": "哈拉帕人沿印度河及其支流建起按网格规划的城市，修有砖砌排水渠，使用统一的砝码，并在印章上刻写至今无人读懂的文字。约公元前1900年之后，他们的城镇逐渐空了。"
   },
   "reviewed": {
@@ -49,7 +49,7 @@
       "disputed": true,
       "note": {
         "en": "Sources disagree on every boundary. Reference works date the mature cities from 2800, 2700 or 2600 BCE and the end of urban life between about 1900 and 1700 BCE. The bar is solid for the mature phase, 2600 to 1900 BCE.",
-        "es": "Las fuentes discrepan en todos los límites. Las obras de referencia sitúan el inicio de las ciudades maduras en 2800, 2700 o 2600 a. e. c., y el fin de la vida urbana entre hacia 1900 y 1700 a. e. c. La barra es sólida en la fase madura, de 2600 a 1900 a. e. c.",
+        "es": "Las fuentes discrepan en todos los límites. Las obras de referencia sitúan el inicio de las ciudades maduras en 2800, 2700 o 2600 a. e. c., y el fin de la vida urbana entre cerca de 1900 y 1700 a. e. c. La barra es sólida en la fase madura, de 2600 a 1900 a. e. c.",
         "zh": "各种资料对每个界线的说法都不一致。参考著作把成熟城市的起点定在公元前2800年、2700年或2600年，把城市生活的终结定在约公元前1900年至1700年之间。色条的实心部分取成熟期，即公元前2600年至1900年。"
       }
     }
@@ -236,14 +236,14 @@
       "end": -1699,
       "type": "collapse",
       "title": {
-        "en": "The cities empty out as the monsoon weakens and the rivers change course",
-        "es": "Las ciudades se vacían a medida que el monzón se debilita y los ríos cambian de curso",
-        "zh": "季风减弱、河流改道，城市逐渐空了"
+        "en": "The cities empty out as the monsoon weakens and monsoon-fed rivers dry or run only in season",
+        "es": "Las ciudades se vacían a medida que el monzón se debilita y los ríos alimentados por él se secan o solo corren en temporada",
+        "zh": "季风减弱，依靠季风补给的河流干涸或只在雨季有水，城市逐渐空了"
       },
       "sources": [
         {
-          "citation": "Giosan, L. et al. (2012). Fluvial landscapes of the Harappan civilization. Proceedings of the National Academy of Sciences 109(26).",
-          "url": "https://doi.org/10.1073/pnas.1112743109"
+          "citation": "Giosan, L. et al. (2012). Fluvial landscapes of the Harappan civilization. Proceedings of the National Academy of Sciences 109(26). Weaker monsoon rains dried or made seasonal the rivers of the Harappan heartland, and settlements downsized.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3387054/"
         },
         {
           "citation": "EBSCO Research Starters. \"Indus Valley Civilization.\" Cities abandoned about 1800 to 1700 BCE; several explanations under review.",
@@ -256,9 +256,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "The cause is argued. Giosan and colleagues tie the decline to a weaker monsoon and shifting river courses. Reference works also list flooding, earthquakes and trade loss. The older idea of an Aryan invasion is no longer accepted.",
-        "es": "La causa se discute. Giosan y sus colegas relacionan el declive con un monzón más débil y con cambios en el curso de los ríos. Las obras de referencia citan además inundaciones, terremotos y pérdida de comercio. La antigua idea de una invasión aria ya no se acepta.",
-        "zh": "原因仍有争论。乔桑（Giosan）等人把衰落与季风减弱和河道变迁联系起来。参考著作还提到洪水、地震和贸易减少。过去所谓雅利安人入侵的说法已不再被接受。"
+        "en": "The cause is argued. Giosan and colleagues tie the decline to a weaker monsoon that left the monsoon-fed rivers dry or seasonal. Reference works also list flooding, earthquakes and trade loss. The older idea of an Aryan invasion is no longer accepted.",
+        "es": "La causa se discute. Giosan y sus colegas relacionan el declive con un monzón más débil que dejó secos o estacionales los ríos que dependían de él. Las obras de referencia citan además inundaciones, terremotos y pérdida de comercio. La antigua idea de una invasión aria ya no se acepta.",
+        "zh": "原因仍有争论。乔桑（Giosan）等人把衰落与季风减弱联系起来，季风减弱使依靠季风补给的河流干涸或变成季节性河流。参考著作还提到洪水、地震和贸易减少。过去所谓雅利安人入侵的说法已不再被接受。"
       }
     }
   ],
@@ -268,13 +268,13 @@
       "start": -2599,
       "end": -1899,
       "text": {
-        "en": "Harappan traders weighed goods with stone cubes in a fixed series of sizes, the same at every site.",
-        "es": "Los comerciantes harappa pesaban sus mercancías con cubos de piedra de una serie fija de tamaños, los mismos en todos los yacimientos.",
-        "zh": "哈拉帕商人用成系列、尺寸固定的石方块称量货物，各处遗址的做法一致。"
+        "en": "Harappan traders weighed goods with stone cubes in standard sizes.",
+        "es": "Los comerciantes harappa pesaban sus mercancías con cubos de piedra de tamaños normalizados.",
+        "zh": "哈拉帕商人用尺寸统一的石方块称量货物。"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia. \"Indus Valley Civilization.\"",
+          "citation": "World History Encyclopedia. \"Indus Valley Civilization.\" The stone cubes used to measure weights are standard and based on a modular system.",
           "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
         },
         {
@@ -296,6 +296,10 @@
         {
           "citation": "World History Encyclopedia. \"Indus Valley Civilization.\" Calls the ritual use conjecture and notes it may equally have been a public pool.",
           "url": "https://www.worldhistory.org/Indus_Valley_Civilization/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Indus Valley Civilization.\" Says the Great Bath may have been used for ritual purposes.",
+          "url": "https://www.ebsco.com/research-starters/history/indus-valley-civilization/"
         }
       ]
     }
