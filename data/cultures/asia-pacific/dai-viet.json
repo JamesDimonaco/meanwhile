@@ -1,0 +1,279 @@
+{
+  "id": "dai-viet",
+  "region": "asia-pacific",
+  "wikidataId": "Q430309",
+  "name": {
+    "en": "Đại Việt",
+    "es": "Dai Viet",
+    "zh": "大越"
+  },
+  "nativeName": {
+    "text": "Đại Việt",
+    "lang": "vi"
+  },
+  "aliases": [
+    "Dai Viet",
+    "Đại Cồ Việt",
+    "Dai Co Viet",
+    "Ly dynasty",
+    "Lý",
+    "Tran dynasty",
+    "Trần",
+    "Later Le dynasty",
+    "Lê",
+    "Nguyen lords",
+    "Thang Long",
+    "Vietnam before 1804"
+  ],
+  "description": {
+    "en": "Vietnamese state under the Đinh, Lý, Trần, Lê and Nguyễn rulers, centred on Thăng Long (Hanoi). It turned back Mongol armies in the 13th century, took the Cham capital Vijaya in 1471, and was renamed Việt Nam in 1804.",
+    "es": "Estado vietnamita bajo los gobernantes Đinh, Lý, Trần, Lê y Nguyễn, con centro en Thăng Long (Hanói). Rechazó a los ejércitos mongoles en el siglo XIII, tomó la capital cham de Vijaya en 1471 y pasó a llamarse Việt Nam en 1804.",
+    "zh": "越南国家，历经丁、李、陈、黎、阮各朝，以升龙（今河内）为中心。13世纪击退蒙古军队，1471年攻占占婆都城毗阇耶，1804年改称越南。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "dai-viet",
+      "earliestStart": 968,
+      "latestStart": 1054,
+      "earliestEnd": 1802,
+      "latestEnd": 1804,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Đại Việt.\"",
+          "url": "https://en.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+        },
+        {
+          "citation": "Wikidata, Đại Việt (Q430309), description \"Name of Vietnamese monarchy (1054 - 1400; 1428 - 1804)\".",
+          "url": "https://www.wikidata.org/wiki/Q430309"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Gia Long.\"",
+          "url": "https://www.ebsco.com/research-starters/history/gia-long"
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Starts with Đinh Bộ Lĩnh's state of Đại Cồ Việt (968); the name Đại Việt dates from 1054. Ends when Nguyễn Ánh takes the throne as Gia Long (1802) and renames the country Việt Nam (1804). The Ming occupation of 1407-1428 falls inside the span.",
+        "es": "Empieza con el Đại Cồ Việt de Đinh Bộ Lĩnh (968); el nombre Đại Việt data de 1054. Termina cuando Nguyễn Ánh asciende al trono como Gia Long (1802) y rebautiza el país como Việt Nam (1804). La ocupación Ming de 1407-1428 queda dentro del periodo.",
+        "zh": "始于丁部领的大瞿越国（968年），大越之名始于1054年。终于阮映即位为嘉隆帝（1802年），并于1804年将国名改为越南。1407年至1428年的明朝占领期包含在内。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "thang-long",
+      "start": 1010,
+      "type": "founding",
+      "title": {
+        "en": "Lý Thái Tổ moves the capital from Hoa Lư to Đại La and names it Thăng Long, \"Flying-up Dragon\"",
+        "es": "Lý Thái Tổ traslada la capital de Hoa Lư a Đại La y la llama Thăng Long, \"Dragón que asciende\"",
+        "zh": "李太祖将都城从华闾迁往大罗城，并命名为升龙，意为“腾飞之龙”"
+      },
+      "sources": [
+        {
+          "citation": "Hoàng Thành Thăng Long Heritage Conservation Centre, \"Moving the capital: a historic decision.\"",
+          "url": "https://hoangthanhthanglong.vn/en/moving-the-capital-a-historic-decision/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Hanoi, Vietnam.\"",
+          "url": "https://www.ebsco.com/research-starters/geography-and-cartography/hanoi-vietnam"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Thăng Long (Hanoi)",
+          "es": "Thăng Long (Hanói)",
+          "zh": "升龙（河内）"
+        },
+        "lat": 21.0367,
+        "lon": 105.8372
+      }
+    },
+    {
+      "id": "renamed-dai-viet",
+      "start": 1054,
+      "type": "ruler",
+      "title": {
+        "en": "Lý Thánh Tông renames his kingdom Đại Việt and declares himself emperor",
+        "es": "Lý Thánh Tông rebautiza su reino como Đại Việt y se proclama emperador",
+        "zh": "李圣宗将国号改为大越，并称帝"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Đại Việt.\"",
+          "url": "https://en.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+        },
+        {
+          "citation": "Wikidata, Đại Việt (Q430309), description \"Name of Vietnamese monarchy (1054 - 1400; 1428 - 1804)\".",
+          "url": "https://www.wikidata.org/wiki/Q430309"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Both sources are reference summaries; neither gives a primary account.",
+        "es": "Ambas fuentes son resúmenes de referencia; ninguna ofrece un relato primario.",
+        "zh": "两处来源均为参考性概述，没有一手记载。"
+      }
+    },
+    {
+      "id": "mongol-invasions",
+      "start": 1257,
+      "end": 1288,
+      "type": "conflict",
+      "title": {
+        "en": "Trần forces turn back Mongol armies sent by Kublai Khan, from 1257 to the Bạch Đằng River victory",
+        "es": "Las fuerzas Trần rechazan a los ejércitos mongoles enviados por Kublai Kan, desde 1257 hasta la victoria del río Bạch Đằng",
+        "zh": "陈朝军队击退忽必烈派来的蒙古军队，从1257年一直持续到白藤江之战的胜利"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Tran Dynasty.\"",
+          "url": "https://www.ebsco.com/research-starters/history/tran-dynasty/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Reign of Ngo Quyen.\"",
+          "url": "https://www.ebsco.com/research-starters/history/reign-ngo-quyen"
+        },
+        {
+          "citation": "Wikipedia, \"Đại Việt.\"",
+          "url": "https://en.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Mongols withdrew in 1258 under Trần Thái Tông's command. The decisive Bạch Đằng River battle is dated 1288 in Wikipedia and 1287 in EBSCO's article on Ngô Quyền.",
+        "es": "Los mongoles se retiraron en 1258 bajo el mando de Trần Thái Tông. La batalla decisiva del río Bạch Đằng se data en 1288 en Wikipedia y en 1287 en el artículo de EBSCO sobre Ngô Quyền.",
+        "zh": "1258年，蒙古军在陈太宗的指挥下撤出。决定性的白藤江之战，维基百科记为1288年，EBSCO关于吴权的文章记为1287年。"
+      },
+      "place": {
+        "name": {
+          "en": "Bạch Đằng River",
+          "es": "Río Bạch Đằng",
+          "zh": "白藤江"
+        },
+        "lat": 20.9,
+        "lon": 106.8
+      }
+    },
+    {
+      "id": "le-loi",
+      "start": 1428,
+      "type": "ruler",
+      "title": {
+        "en": "Lê Lợi proclaims himself emperor, ending the Ming rule that began in 1407",
+        "es": "Lê Lợi se proclama emperador y pone fin al dominio Ming iniciado en 1407",
+        "zh": "黎利称帝，结束了1407年开始的明朝统治"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Le Dynasty.\"",
+          "url": "https://www.ebsco.com/research-starters/history/le-dynasty"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Jiajing Threatens Vietnam.\"",
+          "url": "https://www.ebsco.com/research-starters/history/jiajing-threatens-vietnam"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "vijaya",
+      "start": 1471,
+      "type": "conflict",
+      "title": {
+        "en": "Lê Thánh Tông's army takes Vijaya, the Cham capital, and annexes Cham land along the coast",
+        "es": "El ejército de Lê Thánh Tông toma Vijaya, la capital cham, y anexiona tierras cham a lo largo de la costa",
+        "zh": "黎圣宗的军队攻占占婆都城毗阇耶，并吞并沿海的占婆领土"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Battle of Vijaya.\"",
+          "url": "https://www.ebsco.com/research-starters/history/battle-vijaya"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Le Thanh Tong.\"",
+          "url": "https://www.ebsco.com/research-starters/history/le-thanh-tong"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Vijaya (Bình Định)",
+          "es": "Vijaya (Bình Định)",
+          "zh": "毗阇耶（平定）"
+        },
+        "lat": 13.85,
+        "lon": 109.05
+      }
+    },
+    {
+      "id": "trinh-nguyen",
+      "start": 1627,
+      "end": 1673,
+      "type": "conflict",
+      "title": {
+        "en": "The Trịnh in the north and the Nguyễn in the south fight for control, ending in a truce in 1673 that lasts a century",
+        "es": "Los Trịnh en el norte y los Nguyễn en el sur se disputan el control, hasta una tregua en 1673 que dura un siglo",
+        "zh": "北方的郑氏与南方的阮氏争夺控制权，1673年达成休战，此后和平持续了一个世纪"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"17th Century Civil War in Vietnam.\"",
+          "url": "https://www.ebsco.com/research-starters/history/17th-century-civil-war-vietnam"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Nguyen Hue.\"",
+          "url": "https://www.ebsco.com/research-starters/history/nguyen-hue"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "gia-long",
+      "start": 1802,
+      "end": 1804,
+      "type": "ruler",
+      "title": {
+        "en": "Nguyễn Ánh defeats the Tây Sơn and takes the throne as Gia Long; in 1804 he renames the country Việt Nam",
+        "es": "Nguyễn Ánh derrota a los Tây Sơn y asciende al trono como Gia Long; en 1804 rebautiza el país como Việt Nam",
+        "zh": "阮映击败西山军，即位为嘉隆帝；1804年他将国名改为越南"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Gia Long.\"",
+          "url": "https://www.ebsco.com/research-starters/history/gia-long"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Nguyen Hue.\"",
+          "url": "https://www.ebsco.com/research-starters/history/nguyen-hue"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "bach-dang-stakes",
+      "text": {
+        "en": "Iron-tipped stakes planted in the Bạch Đằng riverbed to wreck enemy boats were used in 938 and again in 1287, and some survive in a Hanoi museum.",
+        "es": "Las estacas con punta de hierro clavadas en el lecho del río Bạch Đằng para destrozar barcos enemigos se usaron en 938 y de nuevo en 1287, y algunas se conservan en un museo de Hanói.",
+        "zh": "为击毁敌船而打在白藤江河床上的铁头木桩，在938年和1287年两次使用，其中一些保存在河内的一家博物馆中。"
+      },
+      "start": 1287,
+      "end": 1288,
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Reign of Ngo Quyen.\"",
+          "url": "https://www.ebsco.com/research-starters/history/reign-ngo-quyen"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

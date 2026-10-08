@@ -1,0 +1,249 @@
+{
+  "id": "champa",
+  "region": "asia-pacific",
+  "wikidataId": "Q216786",
+  "name": {
+    "en": "Champa",
+    "es": "Champa",
+    "zh": "占婆"
+  },
+  "aliases": [
+    "Cham",
+    "Chams",
+    "Linyi",
+    "Lin-yi",
+    "Lam Ap",
+    "Chiêm Thành",
+    "Campa",
+    "林邑",
+    "Mỹ Sơn",
+    "My Son",
+    "Vijaya",
+    "Indrapura"
+  ],
+  "description": {
+    "en": "Series of Cham coastal kingdoms in what is now central and southern Vietnam, from about 192 CE. Cham rulers built the Hindu temples of Mỹ Sơn and fought Đại Việt and the Khmer until Vijaya fell in 1471.",
+    "es": "Serie de reinos costeros cham en lo que hoy es el centro y el sur de Vietnam, desde hacia el 192 d. C. Los gobernantes cham construyeron los templos hindúes de Mỹ Sơn y lucharon contra Đại Việt y los jemeres hasta la caída de Vijaya en 1471.",
+    "zh": "占婆人在今越南中部和南部沿海建立的一系列王国，始于约公元192年。占婆统治者修建了美山的印度教寺庙，并与大越和高棉交战，直到1471年毗阇耶陷落。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "champa",
+      "earliestStart": 192,
+      "latestStart": 192,
+      "earliestEnd": 1471,
+      "latestEnd": 1832,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Deciphering Ancient Cham Art (interview).\"",
+          "url": "https://etc.worldhistory.org/interviews/deciphering-ancient-cham-art/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Le Dai Hanh Invades Champa.\"",
+          "url": "https://www.ebsco.com/research-starters/history/le-dai-hanh-invades-champa"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Battle of Vijaya.\"",
+          "url": "https://www.ebsco.com/research-starters/history/battle-vijaya"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Vietnamese-Cham Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/history/vietnamese-cham-wars"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "192 is the traditional start of the first Cham kingdom, called Linyi by the Chinese. One reference work puts Champa's origin in the 1st or 2nd century BCE. 1471 is the fall of Vijaya; a small Cham state survived south of Cape Varella until the Nguyễn lords annexed it, in 1832 by the commonly cited date.",
+        "es": "192 es el comienzo tradicional del primer reino cham, llamado Linyi por los chinos. Una obra de referencia sitúa el origen de Champa en el siglo I o II a. C. 1471 es la caída de Vijaya; un pequeño Estado cham sobrevivió al sur del cabo Varella hasta que los señores Nguyễn lo anexionaron, en 1832 según la fecha más citada.",
+        "zh": "192年是第一个占婆王国（中国称林邑）的传统建立年份。有一部参考著作把占婆的起源定在公元前1世纪或2世纪。1471年是毗阇耶陷落之年；此后一个小的占婆国家在华列拉角以南延续，直到被阮氏政权吞并，通行的说法是1832年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "linyi",
+      "start": 192,
+      "type": "founding",
+      "title": {
+        "en": "Rebels against Chinese rule found the first Cham kingdom, called Linyi by the Chinese and Lâm Ấp by the Vietnamese",
+        "es": "Rebeldes contra el dominio chino fundan el primer reino cham, llamado Linyi por los chinos y Lâm Ấp por los vietnamitas",
+        "zh": "反抗中国统治的起义者建立了第一个占婆王国，中国称其为林邑，越南称其为Lâm Ấp"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Le Dai Hanh Invades Champa.\"",
+          "url": "https://www.ebsco.com/research-starters/history/le-dai-hanh-invades-champa"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Deciphering Ancient Cham Art (interview).\"",
+          "url": "https://etc.worldhistory.org/interviews/deciphering-ancient-cham-art/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "EBSCO's article on the Champa civil wars dates Champa's origin to the 1st or 2nd century BCE.",
+        "es": "El artículo de EBSCO sobre las guerras civiles de Champa data el origen de Champa en el siglo I o II a. C.",
+        "zh": "EBSCO关于占婆内战的文章把占婆的起源定在公元前1世纪或2世纪。"
+      }
+    },
+    {
+      "id": "my-son",
+      "start": 301,
+      "end": 1300,
+      "type": "invention",
+      "title": {
+        "en": "Cham rulers build the Hindu tower-temples of Mỹ Sơn, over some nine centuries",
+        "es": "Los gobernantes cham construyen los templos-torre hindúes de Mỹ Sơn, a lo largo de unos nueve siglos",
+        "zh": "占婆统治者在大约九个世纪里修建了美山的印度教塔庙"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre, My Son Sanctuary, advisory body evaluation.",
+          "url": "https://whc.unesco.org/en/documents/104054"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Deciphering Ancient Cham Art (interview).\"",
+          "url": "https://etc.worldhistory.org/interviews/deciphering-ancient-cham-art/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The dates are the first year of the 4th century and the last year of the 13th, the span both sources give.",
+        "es": "Las fechas son el primer año del siglo IV y el último del siglo XIII, el periodo que dan ambas fuentes.",
+        "zh": "起止年份取自4世纪的第一年和13世纪的最后一年，即两处来源给出的时间跨度。"
+      },
+      "place": {
+        "name": {
+          "en": "Mỹ Sơn",
+          "es": "Mỹ Sơn",
+          "zh": "美山"
+        },
+        "lat": 15.7644,
+        "lon": 108.1253
+      }
+    },
+    {
+      "id": "indrapura",
+      "start": 982,
+      "type": "conflict",
+      "title": {
+        "en": "Lê Đại Hành captures and destroys the Cham capital Indrapura",
+        "es": "Lê Đại Hành captura y destruye la capital cham, Indrapura",
+        "zh": "黎大行攻占并毁掉占婆都城因陀罗补罗"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Le Dai Hanh Invades Champa.\"",
+          "url": "https://www.ebsco.com/research-starters/history/le-dai-hanh-invades-champa"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Champa Wins Independence from Dai Viet.\"",
+          "url": "https://www.ebsco.com/research-starters/history/champa-wins-independence-dai-viet"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "yasodharapura",
+      "start": 1177,
+      "type": "conflict",
+      "title": {
+        "en": "A Cham fleet sails up the Mekong and takes the Khmer capital Yaśodharapura",
+        "es": "Una flota cham remonta el Mekong y toma la capital jemer, Yaśodharapura",
+        "zh": "占婆舰队沿湄公河而上，攻占高棉都城耶输陀罗补罗"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Khmer-Cham Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/history/khmer-cham-wars/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Jayavarman VII.\"",
+          "url": "https://www.ebsco.com/research-starters/biography/jayavarman-vii"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "vijaya",
+      "start": 1471,
+      "type": "collapse",
+      "title": {
+        "en": "Đại Việt forces take Vijaya, the Cham capital, and annex more than a third of Champa's territory",
+        "es": "Las fuerzas de Đại Việt toman Vijaya, la capital cham, y anexionan más de un tercio del territorio de Champa",
+        "zh": "大越军队攻占占婆都城毗阇耶，并吞并占婆超过三分之一的领土"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Battle of Vijaya.\"",
+          "url": "https://www.ebsco.com/research-starters/history/battle-vijaya"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Champa Civil Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/history/champa-civil-wars/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Vijaya (Bình Định)",
+          "es": "Vijaya (Bình Định)",
+          "zh": "毗阇耶（平定）"
+        },
+        "lat": 13.85,
+        "lon": 109.05
+      }
+    },
+    {
+      "id": "remnant",
+      "start": 1471,
+      "end": 1832,
+      "type": "collapse",
+      "title": {
+        "en": "A small Cham state survives south of Cape Varella until the Nguyễn lords annex it",
+        "es": "Un pequeño Estado cham sobrevive al sur del cabo Varella hasta que los señores Nguyễn lo anexionan",
+        "zh": "一个小的占婆国家在华列拉角以南延续，直到被阮氏政权吞并"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Vietnamese-Cham Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/history/vietnamese-cham-wars"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Deciphering Ancient Cham Art (interview).\"",
+          "url": "https://etc.worldhistory.org/interviews/deciphering-ancient-cham-art/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "EBSCO gives no year for the annexation. 1832 is the end date in World History Encyclopedia's interview with a Cham art historian.",
+        "es": "EBSCO no da año para la anexión. 1832 es la fecha final en la entrevista de World History Encyclopedia con una historiadora del arte cham.",
+        "zh": "EBSCO没有给出吞并的年份。1832年出自世界历史百科对一位占婆艺术史学者的访谈中给出的终点年份。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "my-son-capital",
+      "text": {
+        "en": "Mỹ Sơn was the religious and political capital of the Champa kingdom for most of its existence.",
+        "es": "Mỹ Sơn fue la capital religiosa y política del reino de Champa durante la mayor parte de su existencia.",
+        "zh": "在占婆王国存在的大部分时间里，美山既是宗教中心，也是政治中心。"
+      },
+      "start": 301,
+      "end": 1300,
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre, My Son Sanctuary, advisory body evaluation.",
+          "url": "https://whc.unesco.org/en/documents/104054"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
