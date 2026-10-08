@@ -1,0 +1,245 @@
+{
+  "id": "yayoi",
+  "region": "asia-pacific",
+  "wikidataId": "Q207858",
+  "name": {
+    "en": "Yayoi period",
+    "es": "Período Yayoi",
+    "zh": "弥生时代"
+  },
+  "nativeName": {
+    "text": "弥生",
+    "lang": "ja"
+  },
+  "aliases": [
+    "Yayoi",
+    "Yayoi culture",
+    "Yoshinogari",
+    "Himiko",
+    "Yamatai",
+    "Wa"
+  ],
+  "description": {
+    "en": "Irrigated rice, bronze and iron reached the Japanese islands from the Korean peninsula, villages grew into walled and moated towns, and Chinese records name the queen Himiko. The start date is disputed, from about 900 to 300 BCE.",
+    "es": "El arroz de regadío, el bronce y el hierro llegaron a las islas japonesas desde la península de Corea, las aldeas se convirtieron en poblados con murallas y fosos, y las crónicas chinas mencionan a la reina Himiko. La fecha de inicio es discutida, entre el 900 y el 300 a. e. c.",
+    "zh": "水稻灌溉、青铜和铁器从朝鲜半岛传入日本列岛，村落发展为有壕沟环绕的城镇，中国史书中记载了女王卑弥呼。开始年代存在争议，从约公元前900年到前300年不等。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "yayoi-period",
+      "earliestStart": -899,
+      "latestStart": -299,
+      "earliestEnd": 201,
+      "latestEnd": 300,
+      "sources": [
+        {
+          "citation": "PeriodO, \"Yayoi\" (8th century BCE – 3rd century CE).",
+          "url": "http://n2t.net/ark:/99152/p0fbfthbjz2"
+        },
+        {
+          "citation": "Curry, A. (2008). Insider: Turning Japanese. Archaeology, January/February 2008.",
+          "url": "https://archive.archaeology.org/0801/abstracts/insider.html"
+        }
+      ],
+      "periodoId": "p0fbfthbjz2",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The traditional start is 300 to 400 BCE. Radiocarbon dating of rice grains, announced in 2003, pushed it back about 500 years, and scholars still argue over it.",
+        "es": "El inicio tradicional es entre el 300 y el 400 a. e. c. La datación por radiocarbono de granos de arroz, anunciada en 2003, lo retrasó unos 500 años, y los especialistas siguen debatiéndolo.",
+        "zh": "传统上认为开始于公元前300至前400年。2003年公布的稻米碳十四测年结果将其提前了约500年，学者至今仍有争论。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "rice-farming",
+      "start": -899,
+      "type": "invention",
+      "title": {
+        "en": "Wet-rice farming reaches northern Kyushu from the Korean peninsula",
+        "es": "El cultivo de arroz en campos inundados llega al norte de Kyūshū desde la península de Corea",
+        "zh": "水稻田耕作从朝鲜半岛传入九州北部"
+      },
+      "sources": [
+        {
+          "citation": "Curry, A. (2008). Insider: Turning Japanese. Archaeology, January/February 2008.",
+          "url": "https://archive.archaeology.org/0801/abstracts/insider.html"
+        },
+        {
+          "citation": "Shoda, S. (2010). Radiocarbon 52(2), 421–427. doi:10.1017/S0033822200045471.",
+          "url": "https://doi.org/10.1017/S0033822200045471"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Radiocarbon dates suggest about 900 to 800 BCE. The older view puts it near 400 BCE, which is where the Jōmon site guide places it.",
+        "es": "Las fechas de radiocarbono sugieren entre el 900 y el 800 a. e. c. La visión tradicional lo sitúa hacia el 400 a. e. c., que es la fecha que da la guía de sitios jōmon.",
+        "zh": "碳十四测年显示约在公元前900至前800年。传统观点则认为在约公元前400年，绳文遗址指南采用的就是这一说法。"
+      },
+      "place": {
+        "name": {
+          "en": "Fukuoka plain, northern Kyushu",
+          "es": "Llanura de Fukuoka, norte de Kyūshū",
+          "zh": "九州北部福冈平原"
+        },
+        "lat": 33.6,
+        "lon": 130.4
+      }
+    },
+    {
+      "id": "yoshinogari",
+      "start": 1,
+      "end": 300,
+      "type": "founding",
+      "title": {
+        "en": "Yoshinogari in Saga grows into one of the largest moated villages of the Yayoi period",
+        "es": "Yoshinogari, en Saga, crece hasta ser una de las mayores aldeas con foso del período Yayoi",
+        "zh": "佐贺的吉野里发展为弥生时代规模最大的环壕聚落之一"
+      },
+      "sources": [
+        {
+          "citation": "Yoshinogari Historical Park, \"History of the Yoshinogari site\".",
+          "url": "https://www.yoshinogari.jp/en/introduction/history/"
+        },
+        {
+          "citation": "Japan Up Close (Ministry of Foreign Affairs of Japan), \"The Yoshinogari Remains\", 3 March 2023.",
+          "url": "https://japanupclose.web-japan.org/spot/s20230303_1.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Yoshinogari, Saga",
+          "es": "Yoshinogari, Saga",
+          "zh": "佐贺县吉野里"
+        },
+        "lat": 33.32,
+        "lon": 130.38
+      }
+    },
+    {
+      "id": "kamo-iwakura-bells",
+      "start": 1,
+      "end": 100,
+      "type": "invention",
+      "title": {
+        "en": "Villagers at Kamo-Iwakura in Shimane bury 39 bronze bells in nested pairs, the largest single find of bells in Japan",
+        "es": "Aldeanos de Kamo-Iwakura, en Shimane, entierran 39 campanas de bronce en pares encajados, el mayor hallazgo de campanas de Japón",
+        "zh": "岛根加茂岩仓的村民将39口铜铎成对套叠掩埋，是日本单次出土铜铎数量最多的一例"
+      },
+      "sources": [
+        {
+          "citation": "Shimane Museum of Ancient Izumo, \"Bronze bells from the Kamo-Iwakura site\", Google Arts & Culture.",
+          "url": "https://artsandculture.google.com/asset/bronze-bells-from-the-kamo-iwakura-site/LQGsjyVm6jViSg"
+        },
+        {
+          "citation": "Shimane Museum of Ancient Izumo, \"The World of Bronze Implements and Great Swords\" (English text by the Japan Tourism Agency).",
+          "url": "https://www.izm.ed.jp/english/seidoki.html"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Yayoi Period\" (bronze bells as ceremonial objects).",
+          "url": "https://www.worldhistory.org/Yayoi_Period/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The museum dates the bells to about the 1st century. Why they were buried is unknown, and offerings to deities is one proposal.",
+        "es": "El museo fecha las campanas hacia el siglo I. Se desconoce por qué se enterraron, y una de las propuestas es que fueran ofrendas a las deidades.",
+        "zh": "博物馆将铜铎定在约1世纪。掩埋原因不明，一种推测是作为献给神灵的供品。"
+      },
+      "place": {
+        "name": {
+          "en": "Kamo-Iwakura, Unnan, Shimane",
+          "es": "Kamo-Iwakura, Unnan, Shimane",
+          "zh": "岛根县云南市加茂岩仓"
+        },
+        "lat": 35.3,
+        "lon": 132.9
+      }
+    },
+    {
+      "id": "gold-seal-of-na",
+      "start": 57,
+      "type": "ruler",
+      "title": {
+        "en": "Emperor Guangwu of Han gives a gold seal to the king of Na in Wa, found in 1784 on Shikanoshima",
+        "es": "El emperador Guangwu de los Han entrega un sello de oro al rey de Na en Wa, hallado en 1784 en Shikanoshima",
+        "zh": "汉光武帝赐给倭奴国王一枚金印，1784年在志贺岛出土"
+      },
+      "sources": [
+        {
+          "citation": "Fukuoka City Museum, \"The gold seal 'Kan no Wa no Na no Kokuo'\", Google Arts & Culture.",
+          "url": "https://artsandculture.google.com/asset/the-gold-seal%E2%80%9Ckan-no-wa-no-na-no-kokuou%E2%80%9D-han-dynasty/-gG-6FNFVDNmvQ"
+        },
+        {
+          "citation": "Hanko.co.jp, \"The Gold Seal of Na\".",
+          "url": "https://hanko.co.jp/en/history/the-gold-seal-of-na.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Shikanoshima, Fukuoka",
+          "es": "Shikanoshima, Fukuoka",
+          "zh": "福冈县志贺岛"
+        },
+        "lat": 33.67,
+        "lon": 130.32
+      }
+    },
+    {
+      "id": "himiko-embassy",
+      "start": 238,
+      "type": "ruler",
+      "title": {
+        "en": "Queen Himiko of Wa sends an embassy to the Wei court and receives a gold seal and bronze mirrors",
+        "es": "La reina Himiko de Wa envía una embajada a la corte de Wei y recibe un sello de oro y espejos de bronce",
+        "zh": "倭女王卑弥呼遣使前往魏国朝廷，获赐金印和铜镜"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Queen Himiko\".",
+          "url": "https://www.worldhistory.org/Queen_Himiko/"
+        },
+        {
+          "citation": "Edwards, W. (1996). In Pursuit of Himiko: Postwar Archaeology and the Location of Yamatai. Monumenta Nipponica 51(1), 53–79. doi:10.2307/2385316.",
+          "url": "https://doi.org/10.2307/2385316"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Chinese record Wei Zhi gives the year as 238 in some editions and 239 in others. Scholars place Yamatai either in the Nara basin or in northern Kyushu.",
+        "es": "La crónica china Wei Zhi da el año 238 en algunas ediciones y 239 en otras. Los especialistas sitúan Yamatai en la cuenca de Nara o en el norte de Kyūshū.",
+        "zh": "中国史书《魏志》的不同版本记为238年或239年。学者对邪马台国的位置有奈良盆地和九州北部两种看法。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "gold-seal-size",
+      "text": {
+        "en": "The gold seal from Shikanoshima is only about 2.3 cm square and weighs 108.7 g.",
+        "es": "El sello de oro de Shikanoshima mide apenas unos 2,3 cm de lado y pesa 108,7 g.",
+        "zh": "志贺岛出土的金印边长只有约2.3厘米，重108.7克。"
+      },
+      "start": 57,
+      "end": 57,
+      "sources": [
+        {
+          "citation": "Fukuoka City Museum, \"The gold seal 'Kan no Wa no Na no Kokuo'\", Google Arts & Culture.",
+          "url": "https://artsandculture.google.com/asset/the-gold-seal%E2%80%9Ckan-no-wa-no-na-no-kokuou%E2%80%9D-han-dynasty/-gG-6FNFVDNmvQ"
+        },
+        {
+          "citation": "Hanko.co.jp, \"The Gold Seal of Na\".",
+          "url": "https://hanko.co.jp/en/history/the-gold-seal-of-na.html"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

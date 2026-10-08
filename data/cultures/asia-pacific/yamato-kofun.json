@@ -1,0 +1,294 @@
+{
+  "id": "yamato-kofun",
+  "region": "asia-pacific",
+  "wikidataId": "Q459939",
+  "name": {
+    "en": "Kofun period and Yamato state",
+    "es": "Período Kofun y Estado de Yamato",
+    "zh": "古坟时代与大和政权"
+  },
+  "aliases": [
+    "Kofun",
+    "Kofun period",
+    "Yamato",
+    "Yamato court",
+    "Yamato period",
+    "Asuka",
+    "Asuka period",
+    "Daisen Kofun",
+    "keyhole tomb",
+    "古墳"
+  ],
+  "description": {
+    "en": "Rulers in the Nara basin and Osaka plain built huge keyhole-shaped tombs and formed the Yamato court. Buddhism arrived from Korea, and by 645 the Soga were overthrown and rule turned to Chinese models.",
+    "es": "Los gobernantes de la cuenca de Nara y la llanura de Osaka levantaron enormes tumbas con forma de ojo de cerradura y formaron la corte de Yamato. El budismo llegó desde Corea y en 645 los Soga fueron derrocados y el gobierno adoptó modelos chinos.",
+    "zh": "奈良盆地和大阪平原的统治者修建了巨大的前方后圆坟，并形成大和政权。佛教从朝鲜传入，645年苏我氏被推翻，统治转向仿效中国的制度。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kofun-yamato",
+      "earliestStart": 201,
+      "latestStart": 300,
+      "earliestEnd": 645,
+      "latestEnd": 710,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Kofun\" (AD 250 – AD 552), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hkp2w"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Asuka period.\"",
+          "url": "https://www.britannica.com/event/Asuka-period"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kofun.\"",
+          "url": "https://www.worldhistory.org/Kofun/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "This entry joins the Kofun tomb period (from about 250 to 300) with the Asuka period that follows. The end is 645 for art historians and 710, when the capital moved to Nara, for others. The Nara period from 710 has no entry here.",
+        "es": "Esta ficha une el período de las tumbas Kofun (desde alrededor de 250 a 300) con el período Asuka que le sigue. El final es 645 para los historiadores del arte y 710, cuando la capital se trasladó a Nara, para otros. El período Nara desde 710 no tiene ficha aquí.",
+        "zh": "本条目把古坟时代（约自250至300年起）与随后的飞鸟时代合在一起。结束时间在美术史上是645年，另一些说法定在710年迁都奈良之时。710年起的奈良时代这里没有单独条目。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "first-mounded-tombs",
+      "start": 250,
+      "type": "founding",
+      "title": {
+        "en": "Elite mounded tombs begin to appear in the Nara basin, marking the rise of the Yamato court",
+        "es": "Comienzan a aparecer tumbas con túmulo de la élite en la cuenca de Nara, señal del auge de la corte de Yamato",
+        "zh": "奈良盆地开始出现统治阶层的墓丘，标志着大和政权的兴起"
+      },
+      "sources": [
+        {
+          "citation": "The Japan Journal, \"Kofun: The Mounded Tombs of Ancient Japan\".",
+          "url": "https://www.japanjournal.jp/society/culture/pt201908051123.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kofun.\"",
+          "url": "https://www.worldhistory.org/Kofun/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources start the tomb-building age anywhere from about 250 to 300 CE, with 250 the earliest.",
+        "es": "Las fuentes sitúan el inicio de la era de las tumbas entre alrededor del 250 y el 300 e. c., siendo 250 la fecha más temprana.",
+        "zh": "各种资料把造墓时代的开始定在约250至300年之间，250年是最早的说法。"
+      },
+      "place": {
+        "name": {
+          "en": "Nara basin",
+          "es": "Cuenca de Nara",
+          "zh": "奈良盆地"
+        },
+        "lat": 34.55,
+        "lon": 135.83
+      }
+    },
+    {
+      "id": "daisen-kofun",
+      "start": 401,
+      "type": "founding",
+      "title": {
+        "en": "Builders raise the Daisen Kofun at Sakai, a keyhole-shaped tomb 486 m long, the largest in Japan",
+        "es": "Los constructores levantan el Daisen Kofun en Sakai, una tumba con forma de ojo de cerradura de 486 m de largo, la mayor de Japón",
+        "zh": "工匠在堺市修建大仙陵古坟，这座前方后圆坟长486米，是日本最大的古坟"
+      },
+      "sources": [
+        {
+          "citation": "The Japan Journal, \"Kofun: The Mounded Tombs of Ancient Japan\".",
+          "url": "https://www.japanjournal.jp/society/culture/pt201908051123.html"
+        },
+        {
+          "citation": "Nippon.com, \"Mozu-Furuichi Kofun Group\" (Japan Data).",
+          "url": "https://www.nippon.com/en/japan-data/h00492/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Construction is dated to the early fifth century. The Imperial Household Agency names the tomb as Emperor Nintoku's and bars entry for research, so the occupant is unproven.",
+        "es": "La construcción se fecha a principios del siglo V. La Agencia de la Casa Imperial señala la tumba como la del emperador Nintoku y prohíbe el acceso para investigar, así que el ocupante no está comprobado.",
+        "zh": "修建年代定在5世纪初。宫内厅称该墓为仁德天皇陵，并禁止入内研究，因此墓主并无定论。"
+      },
+      "place": {
+        "name": {
+          "en": "Sakai, Osaka",
+          "es": "Sakai, Osaka",
+          "zh": "大阪府堺市"
+        },
+        "lat": 34.56,
+        "lon": 135.49
+      }
+    },
+    {
+      "id": "inariyama-sword",
+      "start": 471,
+      "type": "ruler",
+      "title": {
+        "en": "A gold-inlaid iron sword from Inariyama in Saitama carries a 115-character inscription naming a Yamato king",
+        "es": "Una espada de hierro con incrustaciones de oro de Inariyama, en Saitama, lleva una inscripción de 115 caracteres que nombra a un rey de Yamato",
+        "zh": "埼玉稻荷山古坟出土的金错铭铁剑刻有115字铭文，提到一位大和大王"
+      },
+      "sources": [
+        {
+          "citation": "Museum of the Sakitama Ancient Burial Mounds, \"The Inariyama Sword\", Google Arts & Culture.",
+          "url": "https://artsandculture.google.com/story/-wVRNOAGEvhjLQ"
+        },
+        {
+          "citation": "Wikipedia, \"Inariyama Sword\".",
+          "url": "https://en.wikipedia.org/wiki/Inariyama_Sword"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The sword gives its date only as the year shingai. That is 471 or 531, and most readings take 471. The king named is read as Wakatakeru.",
+        "es": "La espada solo da la fecha como el año shingai. Eso corresponde a 471 o 531, y la mayoría de las lecturas toman 471. El rey nombrado se lee como Wakatakeru.",
+        "zh": "剑上只标注了辛亥年，即471年或531年，多数解读取471年。铭文中的大王读作获加多支卤。"
+      },
+      "place": {
+        "name": {
+          "en": "Inariyama Kofun, Gyoda, Saitama",
+          "es": "Inariyama Kofun, Gyōda, Saitama",
+          "zh": "埼玉县行田市稻荷山古坟"
+        },
+        "lat": 36.12,
+        "lon": 139.46
+      }
+    },
+    {
+      "id": "buddhism-introduced",
+      "start": 552,
+      "type": "invention",
+      "title": {
+        "en": "Buddhism arrives at the Yamato court from Korea",
+        "es": "El budismo llega a la corte de Yamato desde Corea",
+        "zh": "佛教从朝鲜半岛传入大和朝廷"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Asuka period.\"",
+          "url": "https://www.britannica.com/event/Asuka-period"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Asuka Period.\"",
+          "url": "https://www.worldhistory.org/Asuka_Period/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The traditional date is 552. Some sources give 538, and the World History Encyclopedia says only that it came in the 6th century.",
+        "es": "La fecha tradicional es 552. Algunas fuentes dan 538, y la World History Encyclopedia solo dice que ocurrió en el siglo VI.",
+        "zh": "传统年份是552年。有些资料给出538年，《世界历史百科全书》只说发生在6世纪。"
+      }
+    },
+    {
+      "id": "soga-victory",
+      "start": 587,
+      "type": "conflict",
+      "title": {
+        "en": "The Soga clan defeats the Mononobe in a dispute over the succession",
+        "es": "El clan Soga derrota a los Mononobe en una disputa por la sucesión",
+        "zh": "苏我氏在继承权之争中击败物部氏"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Asuka period.\"",
+          "url": "https://www.britannica.com/event/Asuka-period"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Prince Shotoku.\"",
+          "url": "https://www.worldhistory.org/Prince_Shotoku/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "seventeen-article-constitution",
+      "start": 604,
+      "type": "ruler",
+      "title": {
+        "en": "Seventeen Article Constitution, a Buddhist and Confucian code of conduct for officials, is credited to Prince Shōtoku",
+        "es": "La Constitución de los diecisiete artículos, un código de conducta budista y confuciano para los funcionarios, se atribuye al príncipe Shōtoku",
+        "zh": "《十七条宪法》是面向官员的佛教与儒家行为准则，相传出自圣德太子之手"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Asuka period.\"",
+          "url": "https://www.britannica.com/event/Asuka-period"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Prince Shotoku.\"",
+          "url": "https://www.worldhistory.org/Prince_Shotoku/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Tradition names Shōtoku as author, and the text is closer to an ethical code than to a constitution.",
+        "es": "La tradición señala a Shōtoku como autor, y el texto se parece más a un código ético que a una constitución.",
+        "zh": "传统上认为作者是圣德太子，其内容更接近道德准则而非宪法。"
+      }
+    },
+    {
+      "id": "taika-coup",
+      "start": 645,
+      "type": "collapse",
+      "title": {
+        "en": "Nakatomi no Kamatari and Prince Naka no Ōe destroy the Soga in a coup, and the Taika reforms follow",
+        "es": "Nakatomi no Kamatari y el príncipe Naka no Ōe destruyen a los Soga en un golpe y siguen las reformas Taika",
+        "zh": "中臣镰足与中大兄皇子发动政变消灭苏我氏，随后推行大化改新"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Asuka period.\"",
+          "url": "https://www.britannica.com/event/Asuka-period"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Asuka Period.\"",
+          "url": "https://www.worldhistory.org/Asuka_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Asuka, Nara",
+          "es": "Asuka, Nara",
+          "zh": "奈良县飞鸟"
+        },
+        "lat": 34.47,
+        "lon": 135.82
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "daisen-length",
+      "text": {
+        "en": "The Daisen Kofun is about 486 m long, the biggest tomb in Japan by length.",
+        "es": "El Daisen Kofun mide unos 486 m de largo, la mayor tumba de Japón por longitud.",
+        "zh": "大仙陵古坟长约486米，是日本长度最大的古坟。"
+      },
+      "start": 401,
+      "end": 500,
+      "sources": [
+        {
+          "citation": "The Japan Journal, \"Kofun: The Mounded Tombs of Ancient Japan\".",
+          "url": "https://www.japanjournal.jp/society/culture/pt201908051123.html"
+        },
+        {
+          "citation": "Nippon.com, \"Mozu-Furuichi Kofun Group\" (Japan Data).",
+          "url": "https://www.nippon.com/en/japan-data/h00492/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

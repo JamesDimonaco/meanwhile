@@ -1,0 +1,236 @@
+{
+  "id": "jomon",
+  "region": "asia-pacific",
+  "wikidataId": "Q52824",
+  "name": {
+    "en": "Jōmon period",
+    "es": "Período Jōmon",
+    "zh": "绳文时代"
+  },
+  "aliases": [
+    "Jomon",
+    "Jomon culture",
+    "Jōmon culture",
+    "Sannai-Maruyama",
+    "縄文"
+  ],
+  "description": {
+    "en": "Hunter-gatherer-fishers of the Japanese islands who made some of the world's earliest pottery, lived in large villages such as Sannai-Maruyama, and shaped cord-marked and flame-style vessels over about 13,000 years.",
+    "es": "Cazadores, recolectores y pescadores de las islas japonesas que fabricaron una de las cerámicas más antiguas del mundo, vivieron en grandes aldeas como Sannai-Maruyama y modelaron vasijas con marcas de cuerda y de estilo llama durante unos 13.000 años.",
+    "zh": "日本列岛上的狩猎采集渔猎人群，制作了世界上最早的陶器之一，居住在三内丸山等大型聚落，在约一万三千年间塑造出绳纹陶器与火焰式陶器。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "jomon-period",
+      "earliestStart": -13999,
+      "latestStart": -12999,
+      "earliestEnd": -899,
+      "latestEnd": -299,
+      "sources": [
+        {
+          "citation": "PeriodO, \"Jōmon\" (ca. 14000 BCE – ca. 800 BCE).",
+          "url": "http://n2t.net/ark:/99152/p0fbfthzkbx"
+        },
+        {
+          "citation": "Jomon Japan, \"About the Jomon period\", Jomon Prehistoric Sites in Northern Japan.",
+          "url": "https://jomon-japan.jp/en/learn/jomon-culture"
+        }
+      ],
+      "periodoId": "p0fbfthzkbx",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The end falls between about 900 and 300 BCE because archaeologists disagree on when rice farming began in the Yayoi period.",
+        "es": "El final se sitúa entre alrededor del 900 y el 300 a. e. c. porque los arqueólogos no coinciden en cuándo comenzó el cultivo del arroz en el período Yayoi.",
+        "zh": "结束时间介于约公元前900年至前300年之间，因为考古学家对弥生时代稻作农业的开始时间看法不一。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "odai-yamamoto-pottery",
+      "start": -12999,
+      "type": "invention",
+      "title": {
+        "en": "Potters at Odai Yamamoto in Aomori make plain clay vessels, the earliest known pottery in Northeast Asia",
+        "es": "Alfareros de Odai Yamamoto, en Aomori, fabrican vasijas de arcilla lisas, la cerámica más antigua conocida del noreste de Asia",
+        "zh": "青森大平山元遗址的陶工制作素面陶器，这是东北亚已知最早的陶器"
+      },
+      "sources": [
+        {
+          "citation": "Jomon Japan, \"Odai Yamamoto Site\", Jomon Prehistoric Sites in Northern Japan.",
+          "url": "https://jomon-japan.jp/en/learn/jomon-sites/odai-yamamoto"
+        },
+        {
+          "citation": "Craig, O. E. et al. (2013). Earliest evidence for the use of pottery. Nature 496, 351–354. doi:10.1038/nature12109.",
+          "url": "https://doi.org/10.1038/nature12109"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Odai Yamamoto, Sotogahama, Aomori",
+          "es": "Odai Yamamoto, Sotogahama, Aomori",
+          "zh": "青森县外滨町大平山元"
+        },
+        "lat": 41.03,
+        "lon": 140.63
+      }
+    },
+    {
+      "id": "kikai-akahoya-eruption",
+      "start": -5349,
+      "type": "collapse",
+      "title": {
+        "en": "The Kikai caldera erupts off southern Kyushu, the largest eruption in Japan in 10,000 years, and empties nearby islands",
+        "es": "La caldera de Kikai entra en erupción frente al sur de Kyūshū, la mayor erupción de Japón en 10.000 años, y despuebla islas cercanas",
+        "zh": "九州南方海域的鬼界火山口喷发，是日本近一万年来最大的一次喷发，附近岛屿因此无人居住"
+      },
+      "sources": [
+        {
+          "citation": "Japan Tourism Agency multilingual database, \"Yakushima and the Kikai Caldera\".",
+          "url": "https://www.mlit.go.jp/tagengo-db/zhCN/R2-00883.html"
+        },
+        {
+          "citation": "Uchiyama, J. et al. (2023). Antiquity 97, 557–575. doi:10.15184/aqy.2023.31.",
+          "url": "https://doi.org/10.15184/aqy.2023.31"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The date is about 7,300 years ago in calibrated radiocarbon years, so the calendar year is approximate.",
+        "es": "La fecha es de hace unos 7300 años en años de radiocarbono calibrados, así que el año del calendario es aproximado.",
+        "zh": "该时间约为校正放射性碳年代的7300年前，因此对应的公历年份只是近似值。"
+      },
+      "place": {
+        "name": {
+          "en": "Kikai caldera, Kagoshima",
+          "es": "Caldera de Kikai, Kagoshima",
+          "zh": "鹿儿岛县鬼界火山口"
+        },
+        "lat": 30.78,
+        "lon": 130.28
+      }
+    },
+    {
+      "id": "sannai-maruyama",
+      "start": -3899,
+      "end": -2199,
+      "type": "founding",
+      "title": {
+        "en": "Sannai-Maruyama in Aomori grows into a planned settlement of pit dwellings, tall pillared buildings and burial mounds",
+        "es": "Sannai-Maruyama, en Aomori, se convierte en un asentamiento planificado de viviendas semisubterráneas, edificios altos sobre pilares y túmulos funerarios",
+        "zh": "青森的三内丸山发展为规划有序的聚落，有竖穴住居、高大的柱式建筑和墓丘"
+      },
+      "sources": [
+        {
+          "citation": "Jomon Japan, \"Sannai-Maruyama Site\", Jomon Prehistoric Sites in Northern Japan.",
+          "url": "https://jomon-japan.jp/en/learn/jomon-sites/sannai-maruyama"
+        },
+        {
+          "citation": "Aomori Prefecture, Sannai-Maruyama Site, visitor information.",
+          "url": "https://sannaimaruyama.pref.aomori.jp/english/information/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Sannai-Maruyama, Aomori",
+          "es": "Sannai-Maruyama, Aomori",
+          "zh": "青森市三内丸山遗迹"
+        },
+        "lat": 40.81,
+        "lon": 140.7
+      }
+    },
+    {
+      "id": "flame-style-pottery",
+      "start": -3499,
+      "end": -2499,
+      "type": "invention",
+      "title": {
+        "en": "Potters in the Shinano River valley of Niigata build flame-style vessels with tall, blazing rims",
+        "es": "Alfareros del valle del río Shinano, en Niigata, modelan vasijas de estilo llama con bordes altos en forma de llamarada",
+        "zh": "新潟信浓川流域的陶工制作火焰式陶器，器口装饰高耸，形似火焰"
+      },
+      "sources": [
+        {
+          "citation": "Japan Tourism Agency multilingual database, \"Tokamachi City and the Flame-Style Pottery\".",
+          "url": "https://www.mlit.go.jp/tagengo-db/en/R5-00098.html"
+        },
+        {
+          "citation": "Japan Tourism Agency multilingual database, \"Flame-Style Pottery\".",
+          "url": "https://www.mlit.go.jp/tagengo-db/R1-02188.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Tokamachi, Niigata",
+          "es": "Tōkamachi, Niigata",
+          "zh": "新潟县十日町市"
+        },
+        "lat": 37.13,
+        "lon": 138.75
+      }
+    },
+    {
+      "id": "stone-circles",
+      "start": -1999,
+      "end": -1499,
+      "type": "founding",
+      "title": {
+        "en": "Communities in Akita lay out the Oyu and Isedotai stone circles, large rings of set stones used for ritual and burial",
+        "es": "Comunidades de Akita trazan los círculos de piedra de Oyu e Isedotai, grandes anillos de piedras usados para el ritual y el entierro",
+        "zh": "秋田的聚落修建大汤和伊势堂岱两处环状列石，由大块立石围成，用于祭祀和埋葬"
+      },
+      "sources": [
+        {
+          "citation": "Jomon Japan, \"Oyu Stone Circles\", Jomon Prehistoric Sites in Northern Japan.",
+          "url": "https://jomon-japan.jp/en/learn/jomon-sites/oyu"
+        },
+        {
+          "citation": "Jomon Japan, \"Isedotai Site\", Jomon Prehistoric Sites in Northern Japan.",
+          "url": "https://jomon-japan.jp/en/learn/jomon-sites/isedotai"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Oyu, Kazuno, Akita",
+          "es": "Oyu, Kazuno, Akita",
+          "zh": "秋田县鹿角市大汤"
+        },
+        "lat": 40.27,
+        "lon": 140.8
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "rope-pattern-name",
+      "text": {
+        "en": "The earliest Jōmon pots were plain. The cord impressions that gave the period its name, \"rope pattern\", came later.",
+        "es": "Las primeras vasijas jōmon eran lisas. Las impresiones de cuerda que dieron nombre al período, \"patrón de cuerda\", llegaron después.",
+        "zh": "最早的绳文陶器是素面的。后来出现的绳纹印痕，才使这个时代得名，意为“绳子的纹样”。"
+      },
+      "start": -12999,
+      "end": -299,
+      "sources": [
+        {
+          "citation": "Jomon Japan, \"About the Jomon period\", Jomon Prehistoric Sites in Northern Japan.",
+          "url": "https://jomon-japan.jp/en/learn/jomon-culture"
+        },
+        {
+          "citation": "Japan Tourism Agency multilingual database, \"Flame-Style Pottery\".",
+          "url": "https://www.mlit.go.jp/tagengo-db/R1-02188.html"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
