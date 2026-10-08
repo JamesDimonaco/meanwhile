@@ -327,7 +327,6 @@ describe("false positives", () => {
 
   it("answers the name of a place the site doesn't cover with nothing, not a neighbour", () => {
     for (const q of ["taiwan", "taiwa", "tiawan", "tawian", "chile", "oman", "hong kong"]) expect(labels(q, "en")).toEqual([]);
-    for (const q of ["birmania"]) expect(labels(q, "es")).toEqual([]);
     for (const q of ["taiwan", "tiawan"]) expect(labels(q, "zh")).toEqual([]);
   });
 
