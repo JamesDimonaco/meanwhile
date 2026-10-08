@@ -1,0 +1,224 @@
+{
+  "id": "pagan-empire",
+  "region": "asia-pacific",
+  "wikidataId": "Q888574",
+  "name": {
+    "en": "Pagan Kingdom",
+    "es": "Reino de Pagan",
+    "zh": "蒲甘王国"
+  },
+  "aliases": [
+    "Pagan Empire",
+    "Bagan",
+    "Bagan Kingdom",
+    "Pagan dynasty",
+    "First Burmese Empire"
+  ],
+  "description": {
+    "en": "The kingdom on the Irrawaddy that first united much of present-day Myanmar. Its kings and their subjects raised thousands of Buddhist temples and stupas at Bagan before Mongol armies ended its power in the late 13th century.",
+    "es": "El reino del Irrawaddy que unió por primera vez buena parte del actual Myanmar. Sus reyes y súbditos levantaron miles de templos y estupas budistas en Bagan antes de que los ejércitos mongoles acabaran con su poder a finales del siglo XIII.",
+    "zh": "伊洛瓦底江畔的王国，首次统一了今缅甸的大部分地区。国王和臣民在蒲甘建起数以千计的佛寺与佛塔，13世纪末蒙古军队终结了它的势力。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "pagan-period",
+      "earliestStart": 849,
+      "latestStart": 849,
+      "earliestEnd": 1287,
+      "latestEnd": 1297,
+      "sources": [
+        {
+          "citation": "Library of Congress Subject Headings, \"Pagan period, 849-1287\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g32jqh"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Pagan kingdom.\"",
+          "url": "https://www.britannica.com/place/Pagan-kingdom"
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Bagan.\" (Bagan Period, 11th to 13th century).",
+          "url": "https://whc.unesco.org/en/list/1588"
+        }
+      ],
+      "periodoId": "p06c6g32jqh",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Britannica says Pagan was probably first built in 849. Sources end the kingdom between 1287 and 1297. The 1297 date appears only in secondary summaries.",
+        "es": "Britannica dice que Pagan se construyó probablemente en 849. Las fuentes sitúan el fin del reino entre 1287 y 1297. La fecha de 1297 solo aparece en resúmenes secundarios.",
+        "zh": "大英百科全书称蒲甘城可能始建于849年。各种资料把王国的终结定在1287年至1297年之间。1297年这一说法只见于二手概述。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 849,
+      "type": "founding",
+      "title": {
+        "en": "Pagan is established on the Irrawaddy River",
+        "es": "Se establece Pagan a orillas del río Irrawaddy",
+        "zh": "蒲甘在伊洛瓦底江畔建立"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Pagan kingdom.\"",
+          "url": "https://www.britannica.com/place/Pagan-kingdom"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Pagan (Myanmar).\" (first built probably in 849).",
+          "url": "https://www.britannica.com/place/Pagan-Myanmar"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica words the date cautiously: Pagan was \"probably\" first built in 849.",
+        "es": "Britannica formula la fecha con cautela: Pagan se construyó \"probablemente\" en 849.",
+        "zh": "大英百科全书对这一年份措辞谨慎：蒲甘“可能”始建于849年。"
+      }
+    },
+    {
+      "id": "anawrahta",
+      "start": 1044,
+      "type": "ruler",
+      "title": {
+        "en": "Anawrahta takes the throne and begins to unite the lands of present-day Myanmar",
+        "es": "Anawrahta asciende al trono y comienza a unificar las tierras del actual Myanmar",
+        "zh": "阿奴律陀登上王位，开始统一今缅甸一带的土地"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Anawrahta.\" (reigned 1044 to 1077).",
+          "url": "https://www.britannica.com/biography/Anawrahta"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Anawrahta.\"",
+          "url": "https://www.ebsco.com/research-starters/history/anawrahta/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "thaton",
+      "start": 1057,
+      "type": "conflict",
+      "title": {
+        "en": "Anawrahta takes the Mon capital of Thaton and brings about 30,000 captives to Pagan",
+        "es": "Anawrahta toma Thaton, la capital mon, y lleva unos 30 000 cautivos a Pagan",
+        "zh": "阿奴律陀攻占孟人都城直通，把约三万名俘虏带回蒲甘"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Pagan kingdom.\" (30,000 Mon captives, including Theravada monks).",
+          "url": "https://www.britannica.com/place/Pagan-kingdom"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Anawrahta.\"",
+          "url": "https://www.britannica.com/biography/Anawrahta"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Anawrahta.\" (conquest of Thaton in 1057).",
+          "url": "https://www.ebsco.com/research-starters/history/anawrahta/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "ananda-temple",
+      "start": 1090,
+      "end": 1091,
+      "type": "invention",
+      "title": {
+        "en": "King Kyanzittha founds the Ananda Temple at Pagan",
+        "es": "El rey Kyanzittha funda el templo de Ananda en Pagan",
+        "zh": "国王觉苏瓦在蒲甘创建阿难陀寺"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Pagan (Myanmar).\" (Ananda Temple founded in 1091 under King Kyanzittha).",
+          "url": "https://www.britannica.com/place/Pagan-Myanmar"
+        },
+        {
+          "citation": "Facts and Details. \"King Anawrahta and the rise and fall of Bagan.\" (Kyanzittha as builder of the Ananda).",
+          "url": "https://factsanddetails.com/southeast-asia/Myanmar/sub5_5a/entry-2999.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica gives 1091 for the founding. Other accounts say about 1090.",
+        "es": "Britannica da 1091 para la fundación. Otros relatos dicen hacia 1090.",
+        "zh": "大英百科全书给出的创建年份是1091年，其他说法为约1090年。"
+      }
+    },
+    {
+      "id": "ngasaunggyan",
+      "start": 1277,
+      "type": "conflict",
+      "title": {
+        "en": "A Mongol army defeats King Narathihapate's forces at the Battle of Ngasaunggyan in Yunnan",
+        "es": "Un ejército mongol derrota a las fuerzas del rey Narathihapate en la batalla de Ngasaunggyan, en Yunnan",
+        "zh": "蒙古军队在云南击败国王那罗梯诃波帝的军队"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Battle of Ngasaunggyan.\"",
+          "url": "https://www.britannica.com/event/Battle-of-Ngasaunggyan"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Narathihapate.\"",
+          "url": "https://www.britannica.com/biography/Narathihapate"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "mongol-end",
+      "start": 1287,
+      "end": 1297,
+      "type": "collapse",
+      "title": {
+        "en": "Narathihapate's reign ends as Mongol armies advance, and the power of the Pagan kings ends",
+        "es": "El reinado de Narathihapate termina mientras avanzan los ejércitos mongoles, y el poder de los reyes de Pagan se acaba",
+        "zh": "那罗梯诃波帝的统治在蒙古军队进逼中结束，蒲甘诸王的权力就此终结"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Narathihapate.\" (reigned 1254 to 1287).",
+          "url": "https://www.britannica.com/biography/Narathihapate"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Pagan (Myanmar).\" (overrun by the Mongols in 1287).",
+          "url": "https://www.britannica.com/place/Pagan-Myanmar"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Accounts differ on how the king died, on whether Mongol forces took the city, and on the end date, which runs from 1287 to 1297.",
+        "es": "Los relatos difieren sobre cómo murió el rey, sobre si las fuerzas mongolas tomaron la ciudad y sobre la fecha final, que va de 1287 a 1297.",
+        "zh": "各种记述对国王如何去世、蒙古军队是否攻占该城，以及终结年份（从1287年到1297年不等）说法不一。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "bagan-monuments",
+      "start": 1044,
+      "end": 1287,
+      "text": {
+        "en": "UNESCO lists 3,595 recorded monuments at Bagan, including stupas and temples built mostly between the 11th and 13th centuries.",
+        "es": "La UNESCO registra 3595 monumentos en Bagan, entre ellos estupas y templos construidos sobre todo entre los siglos XI y XIII.",
+        "zh": "联合国教科文组织记录了蒲甘的3595处古迹，包括主要建于11至13世纪的佛塔和寺庙。"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Bagan.\"",
+          "url": "https://whc.unesco.org/en/list/1588"
+        }
+      ]
+    }
+  ]
+}

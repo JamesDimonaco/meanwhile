@@ -1,0 +1,187 @@
+{
+  "id": "khmer-empire",
+  "region": "asia-pacific",
+  "wikidataId": "Q201705",
+  "name": {
+    "en": "Khmer Empire",
+    "es": "Imperio jemer",
+    "zh": "高棉帝国"
+  },
+  "aliases": [
+    "Angkor",
+    "Angkorian Empire",
+    "Kambuja",
+    "Cambodian Empire"
+  ],
+  "description": {
+    "en": "The Cambodian state centred on Angkor from 802 to 1431. Its kings raised Angkor Wat and the Bayon and managed water with reservoirs and canals, until a Tai army sacked the capital.",
+    "es": "Estado camboyano con centro en Angkor entre 802 y 1431. Sus reyes levantaron Angkor Wat y el Bayon y gestionaron el agua con embalses y canales, hasta que un ejército tai saqueó la capital.",
+    "zh": "公元802年至1431年以吴哥为中心的柬埔寨国家。其国王修建了吴哥窟和巴戎寺，并用水库和运河管理水源，直到泰人军队攻陷都城。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "khmer-empire-period",
+      "earliestStart": 800,
+      "latestStart": 802,
+      "earliestEnd": 1431,
+      "latestEnd": 1431,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Khmer empire.\" (about 802 to 1431).",
+          "url": "https://www.britannica.com/topic/Khmer-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Khmer Empire.\" (802 to 1431).",
+          "url": "https://www.worldhistory.org/Khmer_Empire/"
+        }
+      ],
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "jayavarman-ii",
+      "start": 802,
+      "type": "founding",
+      "title": {
+        "en": "Jayavarman II is consecrated at Indrapura as the first king of the Khmer empire",
+        "es": "Jayavarman II es consagrado en Indrapura como primer rey del imperio jemer",
+        "zh": "阇耶跋摩二世在因陀罗补罗受封，成为高棉帝国的第一位国王"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Khmer empire.\"",
+          "url": "https://www.britannica.com/topic/Khmer-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Khmer Empire.\"",
+          "url": "https://www.worldhistory.org/Khmer_Empire/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "angkor-wat",
+      "start": 1122,
+      "end": 1150,
+      "type": "invention",
+      "title": {
+        "en": "Suryavarman II builds Angkor Wat as a temple to Vishnu",
+        "es": "Suryavarman II construye Angkor Wat como templo dedicado a Vishnú",
+        "zh": "苏利耶跋摩二世建造吴哥窟，作为供奉毗湿奴的神庙"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Khmer empire.\"",
+          "url": "https://www.britannica.com/topic/Khmer-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Angkor Wat.\"",
+          "url": "https://www.worldhistory.org/Angkor_Wat/"
+        },
+        {
+          "citation": "UNESCO World Heritage Centre. \"Angkor.\"",
+          "url": "https://whc.unesco.org/en/list/668"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates Suryavarman II's reign from 1113 and gives about 30 years for the work. World History Encyclopedia puts the start around 1122. The end date is approximate.",
+        "es": "Britannica fecha el reinado de Suryavarman II desde 1113 y da unos 30 años para la obra. World History Encyclopedia sitúa el comienzo hacia 1122. La fecha final es aproximada.",
+        "zh": "大英百科全书把苏利耶跋摩二世的统治定在1113年起，工程约持续30年；世界历史百科全书则把开工定在约1122年。竣工年份只是估计。"
+      }
+    },
+    {
+      "id": "cham-sack",
+      "start": 1177,
+      "type": "conflict",
+      "title": {
+        "en": "Cham forces loot Angkor",
+        "es": "Fuerzas chamas saquean Angkor",
+        "zh": "占婆军队洗劫吴哥"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Khmer empire.\"",
+          "url": "https://www.britannica.com/topic/Khmer-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Khmer Empire.\" (looting of Angkor in 1177).",
+          "url": "https://www.worldhistory.org/Khmer_Empire/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "jayavarman-vii",
+      "start": 1181,
+      "end": 1220,
+      "type": "ruler",
+      "title": {
+        "en": "Jayavarman VII drives out the Chams and builds Angkor Thom and the Bayon at the empire's peak",
+        "es": "Jayavarman VII expulsa a los chamas y construye Angkor Thom y el Bayon en el apogeo del imperio",
+        "zh": "阇耶跋摩七世驱逐占婆人，在帝国鼎盛时期修建吴哥通王城和巴戎寺"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Khmer empire.\"",
+          "url": "https://www.britannica.com/topic/Khmer-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Khmer Empire.\"",
+          "url": "https://www.worldhistory.org/Khmer_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica gives his reign as 1181 to about 1220. World History Encyclopedia gives 1181 to 1215.",
+        "es": "Britannica da su reinado como 1181 a hacia 1220. World History Encyclopedia lo da como 1181 a 1215.",
+        "zh": "大英百科全书把他的统治定在1181年至约1220年，世界历史百科全书则定在1181年至1215年。"
+      }
+    },
+    {
+      "id": "ayutthaya-sack",
+      "start": 1431,
+      "type": "collapse",
+      "title": {
+        "en": "A Tai army from Ayutthaya sacks Angkor and the Khmer capital moves away",
+        "es": "Un ejército tai de Ayutthaya saquea Angkor y la capital jemer se traslada",
+        "zh": "阿瑜陀耶的泰人军队攻陷吴哥，高棉都城随之迁离"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Khmer empire.\"",
+          "url": "https://www.britannica.com/topic/Khmer-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Khmer Empire.\"",
+          "url": "https://www.worldhistory.org/Khmer_Empire/"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "angkor-extent",
+      "start": 1100,
+      "end": 1300,
+      "text": {
+        "en": "The Angkor site spreads over about 400 square kilometres of temples, reservoirs, dykes and canals.",
+        "es": "El sitio de Angkor se extiende por unos 400 kilómetros cuadrados de templos, embalses, diques y canales.",
+        "zh": "吴哥遗址占地约400平方公里，分布着神庙、水库、堤坝和运河。"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Angkor.\"",
+          "url": "https://whc.unesco.org/en/list/668"
+        }
+      ]
+    }
+  ]
+}

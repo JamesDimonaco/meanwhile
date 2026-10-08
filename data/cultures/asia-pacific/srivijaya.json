@@ -1,0 +1,212 @@
+{
+  "id": "srivijaya",
+  "region": "asia-pacific",
+  "wikidataId": "Q234197",
+  "name": {
+    "en": "Srivijaya",
+    "es": "Srivijaya",
+    "zh": "三佛齐"
+  },
+  "aliases": [
+    "Sriwijaya",
+    "Shrivijaya",
+    "Śrīvijaya",
+    "Shilifoshi",
+    "室利佛逝",
+    "Palembang"
+  ],
+  "description": {
+    "en": "A Buddhist maritime power on Sumatra, centred on Palembang, that controlled shipping through the Strait of Malacca. It is known from inscriptions, Chinese pilgrims and archaeology, and its extent is uncertain.",
+    "es": "Potencia marítima budista de Sumatra, con centro en Palembang, que controló el tráfico por el estrecho de Malaca. Se conoce por inscripciones, peregrinos chinos y la arqueología, y su extensión es incierta.",
+    "zh": "苏门答腊岛上以巨港为中心的佛教海上强国，控制着马六甲海峡的航运。我们通过碑铭、中国朝圣者的记述和考古了解它，其疆域尚不确定。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "srivijaya-period",
+      "earliestStart": 650,
+      "latestStart": 683,
+      "earliestEnd": 1025,
+      "latestEnd": 1377,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Indonesia: The Malay kingdom of Srivijaya (Palembang).\"",
+          "url": "https://www.britannica.com/place/Indonesia/The-Malay-kingdom-of-Srivijaya-Palembang"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Palembang.\"",
+          "url": "https://www.britannica.com/place/Palembang"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Srivijaya.\" (682 to 1377).",
+          "url": "https://www.ebsco.com/research-starters/history/srivijaya/"
+        },
+        {
+          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History. \"Srivijaya.\"",
+          "url": "https://www.metmuseum.org/toah/ht/06/sse.html"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start rests on Yijing's visit in 671 and inscriptions of the 680s. How far Srivijaya reached is unknown. Sources date the loss of Palembang's primacy from the late 11th to the late 12th century, and the end either to the Chola raid of 1025 or to Majapahit's attack in 1377.",
+        "es": "El comienzo se apoya en la visita de Yijing en 671 y en inscripciones de la década de 680. Se ignora hasta dónde llegó Srivijaya. Las fuentes sitúan la pérdida del primado de Palembang entre finales del siglo XI y finales del XII, y el final en la incursión chola de 1025 o en el ataque de Majapahit en 1377.",
+        "zh": "起点依据义净于671年的到访和680年代的碑铭。三佛齐势力究竟到达何处尚不清楚。各种资料把巨港失去主导地位的时间定在11世纪末至12世纪末，把终结定在1025年朱罗人的袭击或1377年满者伯夷的进攻。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "yijing-visit",
+      "start": 671,
+      "type": "invention",
+      "title": {
+        "en": "The Chinese pilgrim Yijing stays about six months at Palembang, a Buddhist centre with over a thousand monks",
+        "es": "El peregrino chino Yijing pasa unos seis meses en Palembang, un centro budista con más de mil monjes",
+        "zh": "中国僧人义净在佛教中心巨港停留约六个月，当地有一千多名僧人"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Indonesia: The Malay kingdom of Srivijaya (Palembang).\"",
+          "url": "https://www.britannica.com/place/Indonesia/The-Malay-kingdom-of-Srivijaya-Palembang"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Srivijaya.\"",
+          "url": "https://www.ebsco.com/research-starters/history/srivijaya/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "jayanasa-campaigns",
+      "start": 682,
+      "end": 686,
+      "type": "founding",
+      "title": {
+        "en": "King Jayanasa begins military campaigns, and Old Malay inscriptions record Srivijaya's rise",
+        "es": "El rey Jayanasa inicia campañas militares, y las inscripciones en malayo antiguo registran el ascenso de Srivijaya",
+        "zh": "国王阇耶那萨发动军事远征，古马来语碑铭记录了三佛齐的崛起"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Srivijaya.\" (campaigns from 682).",
+          "url": "https://www.ebsco.com/research-starters/history/srivijaya/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Indonesia: The Malay kingdom of Srivijaya (Palembang).\" (Talang Tuwo inscription).",
+          "url": "https://www.britannica.com/place/Indonesia/The-Malay-kingdom-of-Srivijaya-Palembang"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Scholars debate whether the kingdom grew from native people at Palembang or began with invaders who took the city.",
+        "es": "Los estudiosos debaten si el reino surgió de la población local de Palembang o de invasores que tomaron la ciudad.",
+        "zh": "学者对这个王国是由巨港本地人发展而来，还是由攻占该城的外来者建立，意见不一。"
+      }
+    },
+    {
+      "id": "chola-raid",
+      "start": 1025,
+      "type": "conflict",
+      "title": {
+        "en": "A Chola fleet sent by Rajendra Chola I captures the king of Kadaram and raids Srivijaya's ports",
+        "es": "Una flota chola enviada por Rajendra Chola I captura al rey de Kadaram y ataca los puertos de Srivijaya",
+        "zh": "拉金德拉·朱罗一世派出的舰队俘虏了卡达拉姆国王，并袭击三佛齐的港口"
+      },
+      "sources": [
+        {
+          "citation": "Kulke, Hermann; Kesavapany, K. & Sakhuja, Vijay (eds.) (2009). Nagapattinam to Suvarnadwipa: Reflections on the Chola Naval Expeditions to Southeast Asia. Institute of Southeast Asian Studies. (Tanjavur inscription of 1025).",
+          "url": "https://dokumen.pub/nagapattinam-to-suvarnadwipa-reflections-on-the-chola-naval-expeditions-to-southeast-asia-9789812309389.html"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Srivijaya.\" (Rajendracola Deva I attacked in 1025).",
+          "url": "https://www.ebsco.com/research-starters/history/srivijaya/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Historians also discuss an earlier Chola raid around 1017 and a smaller one around 1070. Srivijaya survived and paid tribute for some years.",
+        "es": "Los historiadores también discuten una incursión chola anterior hacia 1017 y otra menor hacia 1070. Srivijaya sobrevivió y pagó tributo durante algunos años.",
+        "zh": "历史学家还讨论过约1017年一次更早的朱罗袭击和约1070年一次规模较小的远征。三佛齐幸存下来，并在数年间向朱罗纳贡。"
+      }
+    },
+    {
+      "id": "move-to-jambi",
+      "start": 1080,
+      "end": 1190,
+      "type": "collapse",
+      "title": {
+        "en": "Primacy among the Sumatran kingdoms passes from Palembang to Jambi",
+        "es": "El primado entre los reinos de Sumatra pasa de Palembang a Jambi",
+        "zh": "苏门答腊诸王国的主导地位由巨港转到占碑"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Indonesia: The Malay kingdom of Srivijaya (Palembang).\" (toward the end of the 11th century).",
+          "url": "https://www.britannica.com/place/Indonesia/The-Malay-kingdom-of-Srivijaya-Palembang"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Palembang.\" (late 12th century).",
+          "url": "https://www.britannica.com/place/Palembang"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The two Britannica entries date the shift to the late 11th and the late 12th century. The reasons are unknown.",
+        "es": "Las dos entradas de Britannica sitúan el cambio a finales del siglo XI y a finales del XII. Se desconocen los motivos.",
+        "zh": "大英百科全书的两个条目分别把这一转变定在11世纪末和12世纪末，原因不明。"
+      }
+    },
+    {
+      "id": "majapahit-attack",
+      "start": 1377,
+      "type": "conflict",
+      "title": {
+        "en": "Majapahit attacks and destroys Palembang, the old Srivijayan capital",
+        "es": "Majapahit ataca y destruye Palembang, la antigua capital de Srivijaya",
+        "zh": "满者伯夷进攻并摧毁三佛齐旧都巨港"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Srivijaya.\" (1377).",
+          "url": "https://www.ebsco.com/research-starters/history/srivijaya/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Palembang.\" (late 14th century).",
+          "url": "https://www.britannica.com/place/Palembang"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "EBSCO gives 1377. Britannica says only the late 14th century.",
+        "es": "EBSCO da 1377. Britannica dice solo finales del siglo XIV.",
+        "zh": "EBSCO给出1377年，大英百科全书只说14世纪末。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "yijing-advice",
+      "start": 671,
+      "end": 685,
+      "text": {
+        "en": "Yijing advised Chinese monks to study Buddhist texts at Palembang before travelling on to Nalanda in India.",
+        "es": "Yijing aconsejó a los monjes chinos estudiar los textos budistas en Palembang antes de seguir hacia Nalanda, en la India.",
+        "zh": "义净建议中国僧人先在巨港研习佛经，再前往印度的那烂陀。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Indonesia: The Malay kingdom of Srivijaya (Palembang).\"",
+          "url": "https://www.britannica.com/place/Indonesia/The-Malay-kingdom-of-Srivijaya-Palembang"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Srivijaya.\"",
+          "url": "https://www.ebsco.com/research-starters/history/srivijaya/"
+        }
+      ]
+    }
+  ]
+}
