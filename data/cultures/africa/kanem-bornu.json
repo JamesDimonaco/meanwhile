@@ -1,0 +1,228 @@
+{
+  "id": "kanem-bornu",
+  "region": "africa",
+  "wikidataId": "Q1139762",
+  "name": {
+    "en": "Kanem–Bornu Empire",
+    "es": "Imperio Kanem-Bornu",
+    "zh": "加涅姆-博尔努帝国"
+  },
+  "aliases": [
+    "Kanem",
+    "Bornu",
+    "Borno",
+    "Kanem-Borno",
+    "Kanem-Bornu",
+    "Sayfawa",
+    "Sefuwa",
+    "Kanuri",
+    "Idris Alooma",
+    "Idris Aluma",
+    "Ngazargamu",
+    "Njimi",
+    "卡内姆-博尔努帝国",
+    "加奈姆-博尔努帝国"
+  ],
+  "description": {
+    "en": "Ruled by the Sayfawa dynasty from the lands around Lake Chad, Kanem first controlled the Saharan routes north to Fezzan, then moved west to Bornu. Under Idris Aluma it used Ottoman-trained musketeers. The Sayfawa line ended in 1846.",
+    "es": "Gobernado por la dinastía sayfawa desde las tierras en torno al lago Chad, Kanem controló primero las rutas saharianas hacia el norte hasta Fezzan y luego se trasladó al oeste, a Bornu. Con Idris Aluma empleó mosqueteros instruidos por los otomanos. La dinastía sayfawa terminó en 1846.",
+    "zh": "加涅姆由萨伊法瓦王朝统治，位于乍得湖周边，最初控制通往北方费赞的撒哈拉商路，后西迁至博尔努。伊德里斯·阿卢马时期，它使用由奥斯曼军事顾问训练的火枪手。萨伊法瓦王朝于1846年终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kanem-bornu",
+      "earliestStart": 700,
+      "latestStart": 900,
+      "earliestEnd": 1846,
+      "latestEnd": 1900,
+      "sources": [
+        {
+          "citation": "U.S. Library of Congress, Country Studies: Chad. \"Kanem-Borno.\"",
+          "url": "https://countrystudies.us/chad/6.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Kanem-Bornu.\"",
+          "url": "https://www.britannica.com/place/Kanem-Bornu"
+        },
+        {
+          "citation": "Wikidata item Q1139762.",
+          "url": "https://www.wikidata.org/wiki/Q1139762"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Kanem's origins are unwritten: sources give the 9th century, and some place the Zaghawa beginnings as early as about 700. The state's end is dated to the Sayfawa dynasty's fall in 1846, or to Rabih az-Zubayr's conquest (1893) and the French defeat of Rabih in 1900.",
+        "es": "Los orígenes de Kanem no están documentados: las fuentes dan el siglo IX, y algunas sitúan el comienzo zaghawa hacia el 700. El final del Estado se fecha en la caída de la dinastía sayfawa en 1846, o en la conquista de Rabih az-Zubayr (1893) y su derrota ante Francia en 1900.",
+        "zh": "加涅姆的起源没有文字记载：各来源给出9世纪，也有人把扎加瓦人的开端上推到约700年。国家的终点或定于1846年萨伊法瓦王朝覆灭，或定于1893年拉比赫·祖拜尔的征服与1900年法国击败拉比赫。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "humai-islam",
+      "start": 1085,
+      "type": "ruler",
+      "title": {
+        "en": "Mai Humai of the Sayfawa dynasty converts to Islam",
+        "es": "El mai Humai, de la dinastía sayfawa, se convierte al islam",
+        "zh": "萨伊法瓦王朝的迈·胡迈皈依伊斯兰教"
+      },
+      "sources": [
+        {
+          "citation": "U.S. Library of Congress, Country Studies: Chad. \"Kanem-Borno.\"",
+          "url": "https://countrystudies.us/chad/6.htm"
+        },
+        {
+          "citation": "Lange, Dierk (1977). Le Dīwān des sultans du Kānem-Bornū: chronologie et histoire d'un royaume africain. Franz Steiner."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources say only the end of the 11th century; the exact year is approximate.",
+        "es": "Las fuentes solo dicen finales del siglo XI; el año exacto es aproximado.",
+        "zh": "各来源只说11世纪末，具体年份为大致推算。"
+      }
+    },
+    {
+      "id": "dunama-dabbalemi",
+      "start": 1221,
+      "end": 1259,
+      "type": "ruler",
+      "title": {
+        "en": "Under Mai Dunama Dabbalemi Kanem's authority reaches Fezzan in the north and Kano in the west",
+        "es": "Bajo el mai Dunama Dabbalemi, la autoridad de Kanem llega a Fezzan por el norte y a Kano por el oeste",
+        "zh": "在迈·杜纳马·达巴莱米治下，加涅姆的权力北达费赞，西至卡诺"
+      },
+      "sources": [
+        {
+          "citation": "U.S. Library of Congress, Country Studies: Chad. \"Kanem-Borno.\"",
+          "url": "https://countrystudies.us/chad/6.htm"
+        },
+        {
+          "citation": "Lange, Dierk (1977). Le Dīwān des sultans du Kānem-Bornū: chronologie et histoire d'un royaume africain. Franz Steiner."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Library of Congress study dates his reign c. 1221 to 1259; other histories place it c. 1210 to 1248.",
+        "es": "El estudio de la Biblioteca del Congreso fecha su reinado hacia 1221-1259; otras historias lo sitúan hacia 1210-1248.",
+        "zh": "美国国会图书馆的研究将其在位时间定为约1221至1259年；其他史著则定为约1210至1248年。"
+      }
+    },
+    {
+      "id": "move-to-bornu",
+      "start": 1380,
+      "end": 1396,
+      "type": "collapse",
+      "title": {
+        "en": "The Bulala force the Sayfawa mai out of Njimi, and the court moves west of Lake Chad to Bornu",
+        "es": "Los bulala expulsan al mai sayfawa de Njimi y la corte se traslada al oeste del lago Chad, a Bornu",
+        "zh": "布拉拉人迫使萨伊法瓦迈离开尼吉米，王廷西迁至乍得湖以西的博尔努"
+      },
+      "sources": [
+        {
+          "citation": "U.S. Library of Congress, Country Studies: Chad. \"Kanem-Borno.\"",
+          "url": "https://countrystudies.us/chad/6.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Kanem-Bornu.\"",
+          "url": "https://www.britannica.com/place/Kanem-Bornu"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Library of Congress study gives about 1396; other accounts give about 1380.",
+        "es": "El estudio de la Biblioteca del Congreso da hacia 1396; otros relatos dan hacia 1380.",
+        "zh": "美国国会图书馆的研究给出约1396年；其他记述给出约1380年。"
+      }
+    },
+    {
+      "id": "idris-aluma",
+      "start": 1571,
+      "end": 1603,
+      "type": "ruler",
+      "title": {
+        "en": "Mai Idris Aluma consolidates Bornu with walled camps, armoured cavalry and musketeers trained by Turkish advisers",
+        "es": "El mai Idris Aluma consolida Bornu con campamentos amurallados, caballería acorazada y mosqueteros instruidos por asesores turcos",
+        "zh": "迈·伊德里斯·阿卢马以设防营地、披甲骑兵和由土耳其顾问训练的火枪手巩固博尔努"
+      },
+      "sources": [
+        {
+          "citation": "U.S. Library of Congress, Country Studies: Chad. \"Kanem-Borno.\"",
+          "url": "https://countrystudies.us/chad/6.htm"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Kanem-Bornu.\"",
+          "url": "https://www.britannica.com/place/Kanem-Bornu"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "fulani-ngazargamu",
+      "start": 1808,
+      "type": "collapse",
+      "title": {
+        "en": "Fulani forces take and destroy Ngazargamu; Muhammad al-Kanemi rallies resistance and founds Kukawa in 1814",
+        "es": "Fuerzas fulani toman y destruyen Ngazargamu; Muhammad al-Kanemi organiza la resistencia y funda Kukawa en 1814",
+        "zh": "富拉尼军队攻占并摧毁恩加扎尔加穆；穆罕默德·卡奈米组织抵抗，并于1814年建立库卡瓦"
+      },
+      "sources": [
+        {
+          "citation": "New World Encyclopedia. \"Bornu Empire.\"",
+          "url": "https://www.newworldencyclopedia.org/entry/Bornu_Empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Kanem-Bornu.\"",
+          "url": "https://www.britannica.com/place/Kanem-Bornu"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "sayfawa-end",
+      "start": 1846,
+      "type": "collapse",
+      "title": {
+        "en": "The Sayfawa dynasty ends after a civil war, and al-Kanemi's son Umar rules as the first sultan of a new line",
+        "es": "La dinastía sayfawa termina tras una guerra civil, y Umar, hijo de al-Kanemi, gobierna como primer sultán de una nueva dinastía",
+        "zh": "萨伊法瓦王朝在内战后终结，卡奈米之子奥马尔成为新王朝的首位苏丹"
+      },
+      "sources": [
+        {
+          "citation": "U.S. Library of Congress, Country Studies: Chad. \"Kanem-Borno.\"",
+          "url": "https://countrystudies.us/chad/6.htm"
+        },
+        {
+          "citation": "New World Encyclopedia. \"Bornu Empire.\"",
+          "url": "https://www.newworldencyclopedia.org/entry/Bornu_Empire"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "ottoman-embassy",
+      "start": 1571,
+      "end": 1603,
+      "text": {
+        "en": "Mai Idris Aluma's court received an Ottoman embassy of about 200 people.",
+        "es": "La corte del mai Idris Aluma recibió una embajada otomana de unas 200 personas.",
+        "zh": "迈·伊德里斯·阿卢马的宫廷接待过一个约200人的奥斯曼使团。"
+      },
+      "sources": [
+        {
+          "citation": "U.S. Library of Congress, Country Studies: Chad. \"Kanem-Borno.\"",
+          "url": "https://countrystudies.us/chad/6.htm"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

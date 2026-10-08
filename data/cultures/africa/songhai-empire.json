@@ -1,0 +1,218 @@
+{
+  "id": "songhai-empire",
+  "region": "africa",
+  "wikidataId": "Q202687",
+  "name": {
+    "en": "Songhai Empire",
+    "es": "Imperio songhai",
+    "zh": "桑海帝国"
+  },
+  "aliases": [
+    "Songhay",
+    "Songhay Empire",
+    "Sonni Ali",
+    "Sunni Ali",
+    "Askia Muhammad",
+    "Askia the Great",
+    "Gao",
+    "Askia dynasty",
+    "Tondibi"
+  ],
+  "description": {
+    "en": "From Gao on the Niger bend, Sunni Ali and then Askia Muhammad built the largest state in the western Sahel, holding Timbuktu and Djenné. A Moroccan army with firearms defeated it at Tondibi in 1591.",
+    "es": "Desde Gao, en el meandro del Níger, Sunni Ali y después Askia Muhammad construyeron el mayor Estado del Sahel occidental, con Tombuctú y Djenné bajo su control. Un ejército marroquí con armas de fuego lo derrotó en Tondibi en 1591.",
+    "zh": "桑海从尼日尔河湾的加奥崛起，松尼·阿里及其后的阿斯基亚·穆罕默德建立了西萨赫勒最大的国家，控制廷巴克图和杰内。1591年，装备火器的摩洛哥军队在通迪比击败了它。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "songhai-empire",
+      "earliestStart": 1375,
+      "latestStart": 1464,
+      "earliestEnd": 1591,
+      "latestEnd": 1600,
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Songhai Empire.\"",
+          "url": "https://ebsco.com/research-starters/history/songhai-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Songhai empire.\"",
+          "url": "https://www.britannica.com/place/Songhai-empire"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "A Songhai state at Gao existed from about the 11th century and was a tributary of Mali in the 13th and 14th. The empire proper dates from Sunni Ali's reign (1464). After Tondibi in 1591 Songhai rulers kept smaller states in the south.",
+        "es": "Existía un Estado songhai en Gao desde alrededor del siglo XI, tributario de Malí en los siglos XIII y XIV. El imperio propiamente dicho data del reinado de Sunni Ali (1464). Tras Tondibi, en 1591, los gobernantes songhai conservaron Estados menores en el sur.",
+        "zh": "桑海国家自约11世纪起已在加奥存在，13至14世纪向马里进贡。真正的帝国始于松尼·阿里在位期间（1464年）。1591年通迪比之战后，桑海统治者在南方保有较小的政权。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "sunni-ali",
+      "start": 1464,
+      "type": "ruler",
+      "title": {
+        "en": "Sunni Ali becomes ruler of Songhai and begins sustained conquests along the Niger",
+        "es": "Sunni Ali asciende al trono de Songhai e inicia conquistas sostenidas a lo largo del Níger",
+        "zh": "松尼·阿里成为桑海统治者，开始沿尼日尔河持续征服"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Songhai Empire.\"",
+          "url": "https://ebsco.com/research-starters/history/songhai-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Songhai empire.\"",
+          "url": "https://www.britannica.com/place/Songhai-empire"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "timbuktu",
+      "start": 1468,
+      "type": "conflict",
+      "title": {
+        "en": "Sunni Ali takes Timbuktu from the Tuareg",
+        "es": "Sunni Ali toma Tombuctú a los tuareg",
+        "zh": "松尼·阿里从图阿雷格人手中夺取廷巴克图"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Songhai Empire.\"",
+          "url": "https://ebsco.com/research-starters/history/songhai-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Songhai Empire.\"",
+          "url": "https://www.worldhistory.org/Songhai_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give 1468 or 1469.",
+        "es": "Las fuentes dan 1468 o 1469.",
+        "zh": "各来源定为1468年或1469年。"
+      }
+    },
+    {
+      "id": "djenne",
+      "start": 1473,
+      "type": "conflict",
+      "title": {
+        "en": "Djenné surrenders to Sunni Ali after a siege of several years",
+        "es": "Djenné se rinde a Sunni Ali tras un asedio de varios años",
+        "zh": "杰内在围困数年后向松尼·阿里投降"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Songhai Empire.\"",
+          "url": "https://ebsco.com/research-starters/history/songhai-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Songhai empire.\"",
+          "url": "https://www.britannica.com/place/Songhai-empire"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "askia-coup",
+      "start": 1493,
+      "type": "ruler",
+      "title": {
+        "en": "Muhammad Ture overthrows Sunni Ali's son and rules as Askia Muhammad, founding the Askia dynasty",
+        "es": "Muhammad Ture derroca al hijo de Sunni Ali y gobierna como Askia Muhammad, fundador de la dinastía Askia",
+        "zh": "穆罕默德·图雷推翻松尼·阿里之子，以阿斯基亚·穆罕默德之名称王，开创阿斯基亚王朝"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Songhai Empire.\"",
+          "url": "https://ebsco.com/research-starters/history/songhai-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Songhai Empire.\"",
+          "url": "https://www.worldhistory.org/Songhai_Empire/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "askia-hajj",
+      "start": 1496,
+      "end": 1497,
+      "type": "ruler",
+      "title": {
+        "en": "Askia Muhammad makes the pilgrimage to Mecca and is named caliph of the Sudan",
+        "es": "Askia Muhammad peregrina a La Meca y es nombrado califa del Sudán",
+        "zh": "阿斯基亚·穆罕默德前往麦加朝觐，被授予“苏丹哈里发”称号"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Songhai Empire.\"",
+          "url": "https://www.worldhistory.org/Songhai_Empire/"
+        },
+        {
+          "citation": "Hunwick, John O. (1999). Timbuktu and the Songhay Empire: Al-Sa'di's Ta'rikh al-sudan down to 1613. Brill."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Dates for the pilgrimage vary; the title is reported by the Timbuktu chronicles.",
+        "es": "Las fechas de la peregrinación varían; el título lo recogen las crónicas de Tombuctú.",
+        "zh": "朝觐的年份说法不一；这一称号见于廷巴克图编年史。"
+      }
+    },
+    {
+      "id": "tondibi",
+      "start": 1591,
+      "type": "collapse",
+      "title": {
+        "en": "A Moroccan army with firearms defeats Askia Ishaq II at Tondibi and takes Gao",
+        "es": "Un ejército marroquí con armas de fuego derrota a Askia Ishaq II en Tondibi y toma Gao",
+        "zh": "装备火器的摩洛哥军队在通迪比击败阿斯基亚·伊沙克二世，并占领加奥"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Fall of the Songhai Empire\" (Battle of Tondibi).",
+          "url": "https://www.ebsco.com/research-starters/history/fall-songhai-empire/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Songhai empire.\"",
+          "url": "https://www.britannica.com/place/Songhai-empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "EBSCO gives 12 March 1591; World History Encyclopedia says 1590 to 1591.",
+        "es": "EBSCO da el 12 de marzo de 1591; la World History Encyclopedia indica 1590-1591.",
+        "zh": "EBSCO给出的日期为1591年3月12日；世界历史百科全书写作1590至1591年。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "tondibi-weapons",
+      "start": 1591,
+      "end": 1591,
+      "text": {
+        "en": "At Tondibi, Songhai troops with spears, arrows and leather shields faced Moroccan soldiers armed with harquebuses.",
+        "es": "En Tondibi, las tropas songhai, con lanzas, flechas y escudos de cuero, se enfrentaron a soldados marroquíes armados con arcabuces.",
+        "zh": "在通迪比，手持长矛、弓箭和皮盾的桑海士兵，面对的是装备火绳枪的摩洛哥军队。"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Fall of the Songhai Empire\" (Battle of Tondibi).",
+          "url": "https://www.ebsco.com/research-starters/history/fall-songhai-empire/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
