@@ -77,7 +77,12 @@
           "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html"
         }
       ],
-      "disputed": false,
+      "disputed": true,
+      "note": {
+        "en": "Which island Columbus reached is still debated; San Salvador is the traditional identification, and other Bahamian islands have been proposed.",
+        "es": "Qué isla alcanzó Colón sigue en debate; San Salvador es la identificación tradicional y se han propuesto otras islas de las Bahamas.",
+        "zh": "哥伦布究竟登上哪座岛屿至今仍有争论；圣萨尔瓦多岛是传统认定，也有人提出巴哈马的其他岛屿。"
+      },
       "place": {
         "name": {
           "en": "San Salvador (Guanahani), Bahamas",
@@ -189,7 +194,7 @@
           "url": "https://www.worldhistory.org/Spanish_Armada/"
         },
         {
-          "citation": "Encyclopedia.com, \"Spanish Armada\": the fireship attack and battle off Gravelines; over half the crews lost to battle, shipwreck and disease.",
+          "citation": "Encyclopedia.com, \"Spanish Armada\": the fireship attack and the battle off Gravelines on 8 August; heavy losses to battle, shipwreck and storms on the route round Scotland and Ireland.",
           "url": "https://www.encyclopedia.com/history/modern-europe/spanish-and-portuguese-history/spanish-armada"
         }
       ],

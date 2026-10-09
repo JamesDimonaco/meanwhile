@@ -71,7 +71,7 @@
           "url": "https://www.worldhistory.org/Napoleon_Bonaparte/"
         },
         {
-          "citation": "Encyclopedia.com, \"Napoleon I\": in 1804 Napoleon crowned himself emperor at Notre Dame, with Pope Pius VII present.",
+          "citation": "Encyclopedia.com, \"Emperor Of France Napoleon I\": in 1804 Napoleon crowned himself emperor at Notre Dame Cathedral, with Pope Pius VII present.",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/napoleon-bonaparte"
         }
       ],
@@ -97,8 +97,8 @@
       },
       "sources": [
         {
-          "citation": "Encyclopedia.com, \"Napoleon I\": in 1804 the Civil Code, also known as the Code Napoléon, took effect.",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/napoleon-bonaparte"
+          "citation": "Britannica, \"Napoleonic Code\": the Code civil des Français was enacted on 21 March 1804.",
+          "url": "https://www.britannica.com/topic/Napoleonic-Code"
         },
         {
           "citation": "Encyclopedia.com, \"Napoleonic Code\": the code as promulgated in 1804 drew on Roman and customary law; Article 213 gave the husband protection over his wife and the wife obedience to her husband, creating legal incapacity for married women.",
@@ -202,15 +202,15 @@
           "url": "https://www.worldhistory.org/Napoleon's_Invasion_of_Russia/"
         },
         {
-          "citation": "Encyclopedia.com, \"Napoleon I\": Alexander I's decision to end Russia's cooperation with the Continental System led Napoleon to launch the 1812 invasion; he reached Moscow, but the tsar refused to negotiate.",
+          "citation": "Encyclopedia.com, \"Emperor Of France Napoleon I\": Alexander I's decision to end Russia's cooperation with the Continental System led Napoleon to launch the 1812 invasion; he reached Moscow, but the tsar refused to negotiate.",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/napoleon-bonaparte"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The troop and death figures are World History Encyclopedia's estimates, which count both sides and civilians; other historians give different numbers.",
-        "es": "Las cifras de tropas y muertes son estimaciones de World History Encyclopedia, que cuentan a ambos bandos y a civiles; otros historiadores dan cifras distintas.",
-        "zh": "兵力和死亡人数是World History Encyclopedia的估算，包括双方和平民；其他史家给出的数字不同。"
+        "en": "The troop and death figures are World History Encyclopedia's estimates. The death figure counts both sides and civilians, and the article says it likely surpassed one million.",
+        "es": "Las cifras de tropas y muertes son estimaciones de World History Encyclopedia. La cifra de muertes cuenta a ambos bandos y a civiles, y el artículo dice que probablemente superó el millón.",
+        "zh": "兵力和死亡人数是World History Encyclopedia的估算。死亡人数包括双方和平民，该文称其很可能超过一百万。"
       },
       "place": {
         "name": {
@@ -243,9 +243,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Sources give different days in April 1814: 4 April for the abdication in favour of his son, 6 April, and 11 April for the unconditional abdication.",
-        "es": "Las fuentes dan días distintos de abril de 1814: el 4 de abril para la abdicación en favor de su hijo, el 6 de abril y el 11 de abril para la abdicación incondicional.",
-        "zh": "各来源给出的1814年4月日期不同：4月4日为让位于其子，另有4月6日，4月11日为无条件退位。"
+        "en": "Sources give different days in April 1814: Encyclopedia.com dates the abdication in favour of his son to 4 April, and World History Encyclopedia dates his abdication to 11 April.",
+        "es": "Las fuentes dan días distintos de abril de 1814: Encyclopedia.com fecha la abdicación en favor de su hijo el 4 de abril, y World History Encyclopedia fecha su abdicación el 11 de abril.",
+        "zh": "各来源给出的1814年4月日期不同：Encyclopedia.com把让位于其子的退位定在4月4日，World History Encyclopedia则把他的退位定在4月11日。"
       },
       "place": {
         "name": {
@@ -304,8 +304,8 @@
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/napoleonic-code"
         },
         {
-          "citation": "Encyclopedia.com, \"Napoleon I\": the Civil Code of 1804, known as the Code Napoléon, was Napoleon's most important legacy.",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/napoleon-bonaparte"
+          "citation": "Britannica, \"Napoleonic Code\": Louisiana's civil code of 1825, revised in 1870 and still in force, is closely connected with the Napoleonic Code, which was the main influence on the 19th-century civil codes of most of continental Europe and Latin America.",
+          "url": "https://www.britannica.com/topic/Napoleonic-Code"
         }
       ],
       "disputed": false
