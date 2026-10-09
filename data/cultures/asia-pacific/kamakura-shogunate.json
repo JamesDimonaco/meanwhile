@@ -33,7 +33,7 @@
   "periods": [
     {
       "id": "kamakura-shogunate",
-      "earliestStart": 1185,
+      "earliestStart": 1180,
       "latestStart": 1192,
       "earliestEnd": 1333,
       "latestEnd": 1333,
@@ -49,15 +49,19 @@
         {
           "citation": "World History Encyclopedia, \"Kamakura Period\".",
           "url": "https://www.worldhistory.org/Kamakura_Period/"
+        },
+        {
+          "citation": "Nippon.com, \"Historical Landmarks of the Kamakura Lords\".",
+          "url": "https://www.nippon.com/en/japan-topics/c10901/"
         }
       ],
       "periodoId": "p08m57h78dj",
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Sources start the shogunate in 1185, when Yoritomo defeated the Taira, or in 1192, when the court named him shogun. The bar is solid from 1192.",
-        "es": "Las fuentes sitúan el inicio del shogunato en 1185, cuando Yoritomo venció a los Taira, o en 1192, cuando la corte lo nombró shogun. La barra es sólida desde 1192.",
-        "zh": "史料把幕府的起点定在1185年（源赖朝击败平氏）或1192年（朝廷任命其为征夷大将军）。条形图自1192年起为实线。"
+        "en": "Sources date the start differently: 1180, when Yoritomo set up his own government at Kamakura (the view of the historian Hongō Kazuto); 1185, when the Taira fell at Dan-no-ura (the period start in the British Museum and Library of Congress dates); and 1192, when the court named him shogun (the traditional date). The bar is solid from 1192.",
+        "es": "Las fuentes fechan el inicio de formas distintas: 1180, cuando Yoritomo estableció su propio gobierno en Kamakura (la postura del historiador Hongō Kazuto); 1185, cuando los Taira cayeron en Dan-no-ura (el inicio del período según el Museo Británico y la Biblioteca del Congreso); y 1192, cuando la corte lo nombró shogun (la fecha tradicional). La barra es sólida desde 1192.",
+        "zh": "史料对起点的断代不同：1180年，源赖朝在镰仓建立自己的政权（历史学者本乡和人的看法）；1185年，平氏在坛之浦覆灭（大英博物馆与美国国会图书馆采用的时代起点）；1192年，朝廷任命他为征夷大将军（传统说法）。条形图自1192年起为实线。"
       }
     }
   ],
@@ -67,9 +71,9 @@
       "start": 1185,
       "type": "conflict",
       "title": {
-        "en": "Minamoto forces under Yoritomo defeat the Taira at Dan-no-ura, ending the Genpei War",
-        "es": "Las fuerzas Minamoto de Yoritomo derrotan a los Taira en Dan-no-ura y ponen fin a la guerra Genpei",
-        "zh": "源赖朝麾下的源氏军队在坛之浦击败平氏，源平合战就此结束"
+        "en": "Minamoto forces defeat the Taira at Dan-no-ura, ending the Genpei War",
+        "es": "Las fuerzas Minamoto derrotan a los Taira en Dan-no-ura y ponen fin a la guerra Genpei",
+        "zh": "源氏军队在坛之浦击败平氏，源平合战就此结束"
       },
       "sources": [
         {
@@ -77,8 +81,8 @@
           "url": "https://www.worldhistory.org/Kamakura_Period/"
         },
         {
-          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"The Rise of the Military Class\".",
-          "url": "http://countrystudies.us/japan/10.htm"
+          "citation": "Nippon.com, \"Historical Landmarks of the Kamakura Lords\".",
+          "url": "https://www.nippon.com/en/japan-topics/c10901/"
         }
       ],
       "disputed": false,
@@ -127,9 +131,9 @@
       "start": 1221,
       "type": "conflict",
       "title": {
-        "en": "Retired Emperor Go-Toba rises against the Hōjō regent and loses, putting the Kyoto court under shogunate control",
-        "es": "El emperador retirado Go-Toba se alza contra el regente Hōjō y pierde, y la corte de Kioto queda bajo control del shogunato",
-        "zh": "后鸟羽上皇起兵对抗北条执权而告失败，京都朝廷由此受幕府控制"
+        "en": "Retired Emperor Go-Toba rises against the Hōjō regent and loses within a month; the shogunate's hold on the Kyoto court grows",
+        "es": "El emperador retirado Go-Toba se alza contra el regente Hōjō y pierde en un mes; el control del shogunato sobre la corte de Kioto se afianza",
+        "zh": "后鸟羽上皇起兵对抗北条执权，一个月内失败；幕府对京都朝廷的控制随之加强"
       },
       "sources": [
         {
@@ -279,9 +283,9 @@
       "start": 1252,
       "end": 1333,
       "text": {
-        "en": "The bronze Great Buddha of Kamakura, begun in 1252, stands about 11 metres tall, and its hall was lost by 1498, so it has sat in the open air since.",
-        "es": "El Gran Buda de bronce de Kamakura, iniciado en 1252, mide unos 11 metros, y su pabellón se perdió antes de 1498, por lo que desde entonces está al aire libre.",
-        "zh": "镰仓大佛为青铜铸像，始建于1252年，高约11米，供奉它的殿堂在1498年前已经损毁，此后大佛一直露天而坐。"
+        "en": "The bronze Great Buddha of Kamakura, begun in 1252, stands about 11 metres tall, and an earthquake destroyed its hall in 1498, so it has sat in the open air since.",
+        "es": "El Gran Buda de bronce de Kamakura, iniciado en 1252, mide unos 11 metros, y un terremoto destruyó su pabellón en 1498, por lo que desde entonces está al aire libre.",
+        "zh": "镰仓大佛为青铜铸像，始建于1252年，高约11米，供奉它的殿堂在1498年毁于地震，此后大佛一直露天而坐。"
       },
       "sources": [
         {

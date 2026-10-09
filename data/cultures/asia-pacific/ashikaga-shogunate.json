@@ -24,9 +24,9 @@
     "室町时代"
   ],
   "description": {
-    "en": "Ashikaga Takauji drove Emperor Go-Daigo from Kyoto in 1336 and set up a shogunate headquartered in the city's Muromachi district. The Ōnin War, from 1467, wrecked Kyoto and shogunal authority. Oda Nobunaga banished the last Ashikaga shogun in 1573.",
-    "es": "Ashikaga Takauji expulsó al emperador Go-Daigo de Kioto en 1336 y fundó un shogunato con sede en el distrito de Muromachi de la ciudad. La guerra de Ōnin, desde 1467, arrasó Kioto y la autoridad de los shogunes. Oda Nobunaga expulsó al último shogun Ashikaga en 1573.",
-    "zh": "足利尊氏在1336年将后醍醐天皇逐出京都，建立幕府，幕府设在京都的室町一带。1467年起的应仁之乱使京都遭到破坏，幕府权威随之瓦解。1573年，织田信长放逐了最后一任足利将军。"
+    "en": "Ashikaga Takauji drove Emperor Go-Daigo from Kyoto in 1336 and founded a shogunate there, which moved its headquarters to the city's Muromachi district in 1378. The Ōnin War, from 1467, wrecked Kyoto and shogunal authority. Oda Nobunaga banished the last Ashikaga shogun in 1573.",
+    "es": "Ashikaga Takauji expulsó al emperador Go-Daigo de Kioto en 1336 y fundó allí un shogunato, que trasladó su sede al distrito de Muromachi de la ciudad en 1378. La guerra de Ōnin, desde 1467, arrasó Kioto y la autoridad de los shogunes. Oda Nobunaga expulsó al último shogun Ashikaga en 1573.",
+    "zh": "足利尊氏在1336年将后醍醐天皇逐出京都，在京都建立幕府，幕府于1378年迁到京都的室町一带。1467年起的应仁之乱使京都遭到破坏，幕府权威随之瓦解。1573年，织田信长放逐了最后一任足利将军。"
   },
   "reviewed": {
     "es": false,
@@ -57,9 +57,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Start dates run from 1336, when Takauji drove out Go-Daigo, to 1338, when he became shogun. The end is 1573, when Nobunaga banished the last shogun; some chronologies stop in 1568, when Nobunaga marched on Kyoto.",
-        "es": "Las fechas de inicio van de 1336, cuando Takauji expulsó a Go-Daigo, a 1338, cuando fue shogun. El final es 1573, cuando Nobunaga expulsó al último shogun; algunas cronologías lo sitúan en 1568, cuando Nobunaga marchó sobre Kioto.",
-        "zh": "起点从1336年（尊氏逐出后醍醐天皇）到1338年（尊氏就任将军）不等。终点为1573年织田信长放逐末代将军；也有年表止于1568年，即信长进军京都之年。"
+        "en": "Start dates run from 1336, when Takauji drove out Go-Daigo, to 1338, when he became shogun. The end is 1573, when Nobunaga banished the last shogun; some chronologies stop in 1568, when Nobunaga marched on Kyoto. After the Ōnin War the shogun's national authority was gone and provincial wars spread, so the last century of the shogunate overlaps the age of the warring daimyo.",
+        "es": "Las fechas de inicio van de 1336, cuando Takauji expulsó a Go-Daigo, a 1338, cuando fue shogun. El final es 1573, cuando Nobunaga expulsó al último shogun; algunas cronologías lo sitúan en 1568, cuando Nobunaga marchó sobre Kioto. Tras la guerra de Ōnin el shogun perdió su autoridad nacional y las guerras provinciales se extendieron, así que el último siglo del shogunato coincide con la era de los daimyo en guerra.",
+        "zh": "起点从1336年（尊氏逐出后醍醐天皇）到1338年（尊氏就任将军）不等。终点为1573年织田信长放逐末代将军；也有年表止于1568年，即信长进军京都之年。应仁之乱后将军失去全国权威，各地战乱蔓延，因此幕府的最后一个世纪与群雄争战的时代重叠。"
       }
     }
   ],
@@ -247,23 +247,6 @@
     }
   ],
   "facts": [
-    {
-      "id": "golden-pavilion",
-      "start": 1397,
-      "end": 1573,
-      "text": {
-        "en": "The top two floors of Yoshimitsu's Golden Pavilion in Kyoto were covered in gold leaf.",
-        "es": "Los dos pisos superiores del Pabellón Dorado de Yoshimitsu, en Kioto, estaban recubiertos de pan de oro.",
-        "zh": "义满在京都建造的金阁，上面两层贴满了金箔。"
-      },
-      "sources": [
-        {
-          "citation": "North American Japanese Garden Association, \"Kinkaku-ji\".",
-          "url": "https://najga.org/kinkaku-ji/"
-        }
-      ],
-      "disputed": false
-    },
     {
       "id": "xavier-at-kagoshima",
       "start": 1549,

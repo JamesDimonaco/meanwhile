@@ -24,9 +24,9 @@
     "Three Kingdoms of Korea"
   ],
   "description": {
-    "en": "Goguryeo rose along the Yalu River and by 391 held northern Korea and much of Manchuria. It destroyed a Sui army at the Salsu River in 612 and held off a Tang army at Ansi in 645, then fell to Tang and Silla forces in 668. Its painted tombs survive.",
-    "es": "Goguryeo surgió a orillas del río Yalu y hacia 391 dominaba el norte de Corea y buena parte de Manchuria. Destruyó a un ejército Sui en el río Salsu en 612 y resistió a un ejército Tang en Ansi en 645, y cayó ante las fuerzas Tang y Silla en 668. Se conservan sus tumbas pintadas.",
-    "zh": "高句丽兴起于鸭绿江流域，391年前后控制了朝鲜半岛北部和满洲大部。612年在萨水歼灭隋军，645年在安市城击退唐军，668年亡于唐朝与新罗联军。其壁画古墓留存至今。"
+    "en": "Goguryeo rose along the Yalu River and, under Gwanggaeto (r. 391-413) and his son Jangsu, held northern Korea and much of Manchuria. It destroyed a Sui army at the Salsu River in 612 and held off a Tang army at Ansi in 645, then fell to Tang and Silla forces in 668. Its painted tombs survive.",
+    "es": "Goguryeo surgió a orillas del río Yalu y, bajo Gwanggaeto (r. 391-413) y su hijo Jangsu, dominó el norte de Corea y buena parte de Manchuria. Destruyó a un ejército Sui en el río Salsu en 612 y resistió a un ejército Tang en Ansi en 645, y cayó ante las fuerzas Tang y Silla en 668. Se conservan sus tumbas pintadas.",
+    "zh": "高句丽兴起于鸭绿江流域，在广开土王（391—413年在位）及其子长寿王治下控制了朝鲜半岛北部和满洲大部。612年在萨水歼灭隋军，645年在安市城击退唐军，668年亡于唐朝与新罗联军。其壁画古墓留存至今。"
   },
   "reviewed": {
     "es": false,
@@ -51,15 +51,23 @@
         {
           "citation": "World History Encyclopedia, \"Goguryeo\".",
           "url": "https://www.worldhistory.org/Goguryeo/"
+        },
+        {
+          "citation": "New World Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.newworldencyclopedia.org/entry/Goguryeo"
+        },
+        {
+          "citation": "Rising Powers Initiative, George Washington University, on the Goguryeo dispute between China and Korea.",
+          "url": "https://www.risingpowersinitiative.org/?p=16224"
         }
       ],
       "periodoId": "p08m57hxw49",
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The traditional founding date is 37 BCE; one standard history puts the independent kingdom at 53 CE, and others a centralised state in the 4th century. Scholars and governments in Korea and China also disagree over whether Goguryeo belongs to Korean or Chinese history. This entry records its dates and events only.",
-        "es": "La fecha tradicional de fundación es 37 a. e. c.; una historia de referencia sitúa el reino independiente en 53 e. c., y otras un estado centralizado en el siglo IV. Además, académicos y gobiernos de Corea y China discrepan sobre si Goguryeo pertenece a la historia coreana o a la china. Esta entrada solo recoge sus fechas y acontecimientos.",
-        "zh": "传统上认为建国于公元前37年；一部权威通史把独立王国定在公元53年，另有说法认为中央集权国家形成于4世纪。此外，朝鲜半岛与中国的学者和政府对高句丽属于朝鲜史还是中国史也有分歧。本条目只记录其年代与事件。"
+        "en": "The traditional founding date, from the 12th-century Samguk sagi, is 37 BCE. The Library of Congress country study says an independent centralised kingdom had formed by 53 CE, and some scholars put the origins in the 2nd century BCE on archaeological grounds. Chinese state scholarship, notably the Northeast Project from 2002, treats Goguryeo as a local regime within Chinese history; Korean scholars and the South Korean government treat it as part of Korean history. This entry records its dates and events only.",
+        "es": "La fecha tradicional de fundación, tomada del Samguk sagi del siglo XII, es 37 a. e. c. El estudio de país de la Biblioteca del Congreso afirma que hacia 53 e. c. ya existía un reino independiente y centralizado, y algunos especialistas sitúan los orígenes en el siglo II a. e. c. por motivos arqueológicos. La erudición estatal china, en particular el Proyecto del Noreste desde 2002, considera a Goguryeo un régimen local dentro de la historia china; los especialistas coreanos y el gobierno surcoreano lo consideran parte de la historia coreana. Esta entrada solo recoge sus fechas y acontecimientos.",
+        "zh": "传统建国年份出自12世纪的《三国史记》，为公元前37年。美国国会图书馆的国别研究称，公元53年时已形成独立的中央集权王国；也有学者根据考古材料把起源上推到公元前2世纪。中国官方学界，尤其是2002年起的东北工程，把高句丽视为中国历史上的地方政权；朝鲜半岛学者和韩国政府则把它视为朝鲜半岛历史的一部分。本条目只记录其年代与事件。"
       }
     }
   ],
@@ -85,9 +93,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "The date comes from the Samguk sagi, a 12th-century chronicle; other sources date the kingdom's independence to 53 CE or its centralisation to the 4th century.",
-        "es": "La fecha procede del Samguk sagi, una crónica del siglo XII; otras fuentes sitúan la independencia del reino en 53 e. c. o su centralización en el siglo IV.",
-        "zh": "该年份出自12世纪的《三国史记》；其他材料把王国独立定在公元53年，或把中央集权定在4世纪。"
+        "en": "The date comes from the Samguk sagi, a 12th-century chronicle; the Library of Congress country study dates an independent centralised kingdom to 53 CE, and some scholars place the origins in the 2nd century BCE.",
+        "es": "La fecha procede del Samguk sagi, una crónica del siglo XII; el estudio de país de la Biblioteca del Congreso sitúa un reino independiente y centralizado en 53 e. c., y algunos especialistas ubican los orígenes en el siglo II a. e. c.",
+        "zh": "该年份出自12世纪的《三国史记》；美国国会图书馆的国别研究把独立的中央集权王国定在公元53年，也有学者把起源上推到公元前2世纪。"
       }
     },
     {
@@ -95,9 +103,9 @@
       "start": 313,
       "type": "conflict",
       "title": {
-        "en": "Goguryeo destroys Lelang, the last Chinese commandery on the Korean peninsula",
-        "es": "Goguryeo destruye Lelang, la última comandancia china en la península de Corea",
-        "zh": "高句丽攻灭乐浪郡，这是中原王朝在朝鲜半岛的最后一个郡"
+        "en": "Goguryeo takes Lelang, the last Chinese commandery on the Korean peninsula",
+        "es": "Goguryeo toma Lelang, la última comandancia china en la península de Corea",
+        "zh": "高句丽攻取乐浪郡，这是中原王朝在朝鲜半岛的最后一个郡"
       },
       "sources": [
         {
@@ -135,7 +143,7 @@
     {
       "id": "gwanggaeto-stele",
       "start": 414,
-      "type": "founding",
+      "type": "ruler",
       "title": {
         "en": "King Jangsu erects a stele for his father Gwanggaeto, listing the king's campaigns",
         "es": "El rey Jangsu erige una estela para su padre Gwanggaeto con las campañas del rey",
@@ -233,15 +241,15 @@
           "url": "https://www.newworldencyclopedia.org/entry/Yeon_Gaesomun"
         },
         {
-          "citation": "Wikipedia, \"Battle of Ansi\" (citing Graff, Medieval Chinese Warfare 300-900, 2003).",
-          "url": "https://en.wikipedia.org/wiki/Battle_of_Ansi"
+          "citation": "World History Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.worldhistory.org/Goguryeo/"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "note": {
-        "en": "The World History Encyclopedia dates this victory to 644; the campaign began in 644 and the siege fell in 645.",
-        "es": "La World History Encyclopedia fecha esta victoria en 644; la campaña comenzó en 644 y el asedio ocurrió en 645.",
-        "zh": "《世界历史百科》把这次胜利系于644年；战役准备始于644年，围城发生在645年。"
+        "en": "The World History Encyclopedia dates the siege to 644; the New World Encyclopedia dates Taizong's invasion to 645, the year this entry uses. The World History Encyclopedia names the Goguryeo commander as Yang Manchun and gives a three-month siege.",
+        "es": "La World History Encyclopedia fecha el asedio en 644; la New World Encyclopedia fecha la invasión de Taizong en 645, el año que usa esta entrada. La World History Encyclopedia nombra al comandante de Goguryeo como Yang Manchun y habla de un asedio de tres meses.",
+        "zh": "《世界历史百科》把围城系于644年；《新世界百科全书》把太宗的入侵系于645年，本条目采用645年。《世界历史百科》称高句丽守将为杨万春，围城持续三个月。"
       }
     },
     {
@@ -249,9 +257,9 @@
       "start": 668,
       "type": "collapse",
       "title": {
-        "en": "Tang and Silla forces take Pyongyang; King Bojang is taken to China",
-        "es": "Las fuerzas Tang y Silla toman Pionyang; el rey Bojang es llevado a China",
-        "zh": "唐军与新罗军攻占平壤，宝藏王被带往中国"
+        "en": "Tang and Silla forces defeat Goguryeo, and King Bojang is taken to China",
+        "es": "Las fuerzas Tang y Silla derrotan a Goguryeo y el rey Bojang es llevado a China",
+        "zh": "唐军与新罗军击败高句丽，宝藏王被带往中国"
       },
       "sources": [
         {
@@ -310,6 +318,10 @@
         {
           "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study. Library of Congress Federal Research Division, \"The Three Kingdoms Period\".",
           "url": "http://countrystudies.us/south-korea/3.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Gwanggaeto the Great\".",
+          "url": "https://www.worldhistory.org/Gwanggaeto_the_Great/"
         }
       ],
       "disputed": false
