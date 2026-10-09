@@ -38,15 +38,19 @@
         {
           "citation": "Jomon Japan, \"About the Jomon period\", Jomon Prehistoric Sites in Northern Japan.",
           "url": "https://jomon-japan.jp/en/learn/jomon-culture"
+        },
+        {
+          "citation": "Wikipedia, \"Jōmon period\" (about 14,000 to 300 BCE).",
+          "url": "https://en.wikipedia.org/wiki/J%C5%8Dmon_period"
         }
       ],
       "periodoId": "p0fbfthzkbx",
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The end falls between about 900 and 300 BCE because archaeologists disagree on when rice farming began in the Yayoi period.",
-        "es": "El final se sitúa entre alrededor del 900 y el 300 a. e. c. porque los arqueólogos no coinciden en cuándo comenzó el cultivo del arroz en el período Yayoi.",
-        "zh": "结束时间介于约公元前900年至前300年之间，因为考古学家对弥生时代稻作农业的开始时间看法不一。"
+        "en": "PeriodO ends the period about 800 BCE, while Wikipedia and the traditional chronology end it about 300 BCE. The gap follows the Yayoi dating dispute: radiocarbon dates from the National Museum of Japanese History (2003) put the first Yayoi rice farming in northern Kyushu at about 1000 to 800 BCE, and the older view puts it at about 300 BCE.",
+        "es": "PeriodO fija el final del período hacia el 800 a. e. c., mientras que Wikipedia y la cronología tradicional lo fijan hacia el 300 a. e. c. La diferencia viene de la disputa sobre la datación Yayoi: las fechas de radiocarbono del Museo Nacional de Historia de Japón (2003) sitúan el primer cultivo de arroz Yayoi en el norte de Kyūshū hacia el 1000 a 800 a. e. c., y la visión anterior lo sitúa hacia el 300 a. e. c.",
+        "zh": "PeriodO把该时代的结束定在约公元前800年，而维基百科和传统年代学定在约公元前300年。差异源于弥生时代的年代之争：日本国立历史民俗博物馆2003年的碳十四测年把九州北部最早的弥生稻作定在约公元前1000至前800年，旧说则定在约公元前300年。"
       }
     }
   ],
@@ -66,11 +70,16 @@
           "url": "https://jomon-japan.jp/en/learn/jomon-sites/odai-yamamoto"
         },
         {
-          "citation": "Craig, O. E. et al. (2013). Earliest evidence for the use of pottery. Nature 496, 351–354. doi:10.1038/nature12109.",
-          "url": "https://doi.org/10.1038/nature12109"
+          "citation": "Wikipedia, \"Ōdai Yamamoto I Site\".",
+          "url": "https://en.wikipedia.org/wiki/%C5%8Cdai_Yamamoto_I_Site"
         }
       ],
-      "disputed": false,
+      "disputed": true,
+      "note": {
+        "en": "The Jomon Japan site guide dates the pottery to about 13,000 BCE. Wikipedia gives as early as about 14,500 BCE (16,500 years ago in calibrated radiocarbon years).",
+        "es": "La guía de sitios Jomon Japan fecha la cerámica hacia el 13.000 a. e. c. Wikipedia da una fecha tan temprana como alrededor del 14.500 a. e. c. (hace 16.500 años en años de radiocarbono calibrados).",
+        "zh": "绳文日本网站的遗址指南把这些陶器定在约公元前13000年。维基百科给出最早约公元前14500年（校正放射性碳年代的16500年前）。"
+      },
       "place": {
         "name": {
           "en": "Odai Yamamoto, Sotogahama, Aomori",
@@ -86,9 +95,9 @@
       "start": -5349,
       "type": "collapse",
       "title": {
-        "en": "The Kikai caldera erupts off southern Kyushu, the largest eruption in Japan in 10,000 years, and empties nearby islands",
-        "es": "La caldera de Kikai entra en erupción frente al sur de Kyūshū, la mayor erupción de Japón en 10.000 años, y despuebla islas cercanas",
-        "zh": "九州南方海域的鬼界火山口喷发，是日本近一万年来最大的一次喷发，附近岛屿因此无人居住"
+        "en": "The Kikai caldera erupts off southern Kyushu, the largest eruption in Japan in 10,000 years, and Tanegashima Island is left empty for several centuries",
+        "es": "La caldera de Kikai entra en erupción frente al sur de Kyūshū, la mayor erupción de Japón en 10.000 años, y la isla de Tanegashima queda despoblada durante varios siglos",
+        "zh": "九州南方海域的鬼界火山口喷发，是日本近一万年来最大的一次喷发，种子岛随后空无人迹达数百年"
       },
       "sources": [
         {
@@ -96,7 +105,7 @@
           "url": "https://www.mlit.go.jp/tagengo-db/zhCN/R2-00883.html"
         },
         {
-          "citation": "Uchiyama, J. et al. (2023). Antiquity 97, 557–575. doi:10.15184/aqy.2023.31.",
+          "citation": "Uchiyama, J. et al. (2023). Disaster, survival and recovery: the resettlement of Tanegashima Island following the Kikai-Akahoya 'super-eruption', 7.3ka cal BP. Antiquity 97, 557–575. doi:10.15184/aqy.2023.31.",
           "url": "https://doi.org/10.15184/aqy.2023.31"
         }
       ],
@@ -122,9 +131,9 @@
       "end": -2199,
       "type": "founding",
       "title": {
-        "en": "Sannai-Maruyama in Aomori grows into a planned settlement of pit dwellings, tall pillared buildings and burial mounds",
-        "es": "Sannai-Maruyama, en Aomori, se convierte en un asentamiento planificado de viviendas semisubterráneas, edificios altos sobre pilares y túmulos funerarios",
-        "zh": "青森的三内丸山发展为规划有序的聚落，有竖穴住居、高大的柱式建筑和墓丘"
+        "en": "Sannai-Maruyama in Aomori grows into a planned settlement of pit dwellings, pillared buildings and burial mounds",
+        "es": "Sannai-Maruyama, en Aomori, se convierte en un asentamiento planificado de viviendas semisubterráneas, edificios sobre pilares y túmulos funerarios",
+        "zh": "青森的三内丸山发展为规划有序的聚落，有竖穴住居、柱式建筑和墓丘"
       },
       "sources": [
         {
@@ -184,9 +193,9 @@
       "end": -1499,
       "type": "founding",
       "title": {
-        "en": "Communities in Akita lay out the Oyu and Isedotai stone circles, large rings of set stones used for ritual and burial",
-        "es": "Comunidades de Akita trazan los círculos de piedra de Oyu e Isedotai, grandes anillos de piedras usados para el ritual y el entierro",
-        "zh": "秋田的聚落修建大汤和伊势堂岱两处环状列石，由大块立石围成，用于祭祀和埋葬"
+        "en": "Communities in Akita lay out the Oyu and Isedotai stone circles, rings of set stones used for ritual and burial",
+        "es": "Comunidades de Akita trazan los círculos de piedra de Oyu e Isedotai, anillos de piedras usados para el ritual y el entierro",
+        "zh": "秋田的聚落修建大汤和伊势堂岱两处环状列石，由立石围成，用于祭祀和埋葬"
       },
       "sources": [
         {
@@ -226,8 +235,8 @@
           "url": "https://jomon-japan.jp/en/learn/jomon-culture"
         },
         {
-          "citation": "Japan Tourism Agency multilingual database, \"Flame-Style Pottery\".",
-          "url": "https://www.mlit.go.jp/tagengo-db/R1-02188.html"
+          "citation": "Wikipedia, \"Jōmon pottery\".",
+          "url": "https://en.wikipedia.org/wiki/J%C5%8Dmon_pottery"
         }
       ],
       "disputed": false
