@@ -18,9 +18,9 @@
     "Zimbabue"
   ],
   "description": {
-    "en": "A stone-walled capital in the hills of southern Zimbabwe, built by the ancestors of the Shona from about 1100. Its rulers traded gold and ivory through the Swahili coast for glass, Persian bowls and Chinese ceramics. The city declined from about 1450.",
-    "es": "Una capital de muros de piedra en las colinas del sur de Zimbabue, levantada por los antepasados de los shona desde aproximadamente 1100. Sus gobernantes vendían oro y marfil a través de la costa suajili y recibían vidrio, cuencos persas y cerámica china. La ciudad declinó desde aproximadamente 1450.",
-    "zh": "位于津巴布韦南部丘陵的石墙都城，由绍纳人的祖先自约1100年起修建。统治者通过斯瓦希里海岸出口黄金和象牙，换取玻璃器、波斯碗和中国瓷器。这座城市自约1450年起衰落。"
+    "en": "A stone-walled capital in the hills of southern Zimbabwe, built by the ancestors of the Shona from about 1100. Its rulers traded gold and ivory through the Swahili coast for glass beads, Persian faience and Chinese porcelain. The city declined from about 1450.",
+    "es": "Una capital de muros de piedra en las colinas del sur de Zimbabue, levantada por los antepasados de los shona desde aproximadamente 1100. Sus gobernantes vendían oro y marfil a través de la costa suajili y recibían cuentas de vidrio, loza persa y porcelana china. La ciudad declinó desde aproximadamente 1450.",
+    "zh": "位于津巴布韦南部丘陵的石墙都城，由绍纳人的祖先自约1100年起修建。统治者通过斯瓦希里海岸出口黄金和象牙，换取玻璃珠、波斯彩陶和中国瓷器。这座城市自约1450年起衰落。"
   },
   "reviewed": {
     "es": false,
@@ -98,9 +98,9 @@
       "end": 1450,
       "type": "invention",
       "title": {
-        "en": "The Great Enclosure rises: a dry-stone wall about 250 metres around and up to about 10 metres high",
-        "es": "Se alza el Gran Recinto: un muro de piedra seca de unos 250 metros de perímetro y hasta unos 10 metros de altura",
-        "zh": "大围场建成：一道周长约250米、最高约10米的干砌石墙"
+        "en": "The Great Enclosure rises: a dry-stone wall about 250 metres around and roughly 10 metres high",
+        "es": "Se alza el Gran Recinto: un muro de piedra seca de unos 250 metros de perímetro y unos 10 metros de altura",
+        "zh": "大围场建成：一道周长约250米、高约10米的干砌石墙"
       },
       "sources": [
         {
@@ -110,13 +110,17 @@
         {
           "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
           "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Great Zimbabwe Urbanism and Architecture.\"",
+          "url": "https://www.ebsco.com/research-starters/anthropology/great-zimbabwe-urbanism-and-architecture/"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Heights are given as 9.7 metres (World History Encyclopedia) or 32 feet (Scientific American). The Collector dates the Great Enclosure to the 13th to 15th centuries.",
-        "es": "La altura se da como 9,7 metros (World History Encyclopedia) o 32 pies (Scientific American). The Collector fecha el Gran Recinto entre los siglos XIII y XV.",
-        "zh": "高度在《世界历史百科全书》中为9.7米，在《科学美国人》中为32英尺。The Collector将大围场定在13至15世纪。"
+        "en": "Sources give the wall height as 9.7 metres (World History Encyclopedia), 32 feet (Scientific American) or 11 metres (EBSCO, Wikipedia). The Collector dates the Great Enclosure to the 13th to 15th centuries.",
+        "es": "Las fuentes dan la altura del muro como 9,7 metros (World History Encyclopedia), 32 pies (Scientific American) u 11 metros (EBSCO, Wikipedia). The Collector fecha el Gran Recinto entre los siglos XIII y XV.",
+        "zh": "各来源给出的墙高为9.7米（《世界历史百科全书》）、32英尺（《科学美国人》）或11米（EBSCO、维基百科）。The Collector将大围场定在13至15世纪。"
       },
       "place": {
         "name": {
@@ -134,9 +138,9 @@
       "end": 1450,
       "type": "invention",
       "title": {
-        "en": "Gold, ivory and copper leave for Kilwa and Sofala; Chinese celadon, Persian bowls and Syrian glass arrive",
-        "es": "El oro, el marfil y el cobre salen hacia Kilwa y Sofala; llegan celadón chino, cuencos persas y vidrio sirio",
-        "zh": "黄金、象牙和铜运往基尔瓦和索法拉；中国青瓷、波斯碗和叙利亚玻璃器则运入"
+        "en": "Gold, ivory and copper leave for the Swahili coast, through Kilwa and Sofala; Chinese porcelain and Persian faience arrive",
+        "es": "El oro, el marfil y el cobre salen hacia la costa suajili, por Kilwa y Sofala; llegan porcelana china y loza persa",
+        "zh": "黄金、象牙和铜经基尔瓦和索法拉运往斯瓦希里海岸；中国瓷器和波斯彩陶则运入"
       },
       "sources": [
         {
@@ -144,8 +148,8 @@
           "url": "https://www.worldhistory.org/Great_Zimbabwe/"
         },
         {
-          "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
-          "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+          "citation": "Wikipedia. \"Great Zimbabwe.\"",
+          "url": "https://en.wikipedia.org/wiki/Great_Zimbabwe"
         }
       ],
       "disputed": false,
@@ -164,9 +168,9 @@
       "start": 1450,
       "type": "collapse",
       "title": {
-        "en": "Trade and population fall away, and people move north; the site is largely empty by 1700",
-        "es": "El comercio y la población disminuyen y la gente se traslada al norte; hacia 1700 el sitio está en gran parte vacío",
-        "zh": "贸易和人口减少，人们向北迁移；到1700年遗址基本无人居住"
+        "en": "The city declines from about 1450, and the site is largely abandoned by about 1700",
+        "es": "La ciudad declina desde hacia 1450 y hacia 1700 el sitio está en gran parte abandonado",
+        "zh": "这座城市自约1450年起衰落，到约1700年遗址基本被废弃"
       },
       "sources": [
         {
@@ -184,9 +188,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Causes are debated: World History Encyclopedia lists exhausted gold, rival centres, drought and overpopulation; Scientific American and The Collector stress shifting trade routes and resource shortages.",
-        "es": "Las causas se debaten: World History Encyclopedia menciona oro agotado, centros rivales, sequía y exceso de población; Scientific American y The Collector destacan el cambio de rutas comerciales y la escasez de recursos.",
-        "zh": "原因仍有争论：《世界历史百科全书》列举金矿枯竭、对手崛起、干旱和人口过多；《科学美国人》和The Collector则强调贸易路线转移和资源短缺。"
+        "en": "Causes are debated. World History Encyclopedia lists rival states, exhausted gold deposits, overpopulation and drought; Scientific American lists exhausted gold, cattle damaging the land, drought and population pressure; The Collector names resource shortages and competition from northern trade networks. Wikipedia says the site was abandoned in the 16th or 17th century.",
+        "es": "Las causas se debaten. World History Encyclopedia menciona estados rivales, oro agotado, exceso de población y sequía; Scientific American, oro agotado, ganado que dañaba la tierra, sequía y presión demográfica; The Collector, escasez de recursos y competencia de las redes comerciales del norte. Wikipedia dice que el sitio se abandonó en el siglo XVI o XVII.",
+        "zh": "原因仍有争论。《世界历史百科全书》列举对手国家、金矿枯竭、人口过多和干旱；《科学美国人》列举金矿枯竭、牛群损害土地、干旱和人口压力；The Collector提到资源短缺和北方贸易网络的竞争。维基百科称遗址在16或17世纪被废弃。"
       },
       "place": {
         "name": {
@@ -264,14 +268,18 @@
       "end": 1980,
       "type": "conflict",
       "title": {
-        "en": "Rhodesia's government censors writing on Great Zimbabwe and acts against archaeologists who argue for African builders",
-        "es": "El gobierno de Rodesia censura lo escrito sobre Gran Zimbabue y actúa contra los arqueólogos que defienden a constructores africanos",
-        "zh": "罗得西亚政府审查有关大津巴布韦的著述，并对主张建造者为非洲人的考古学家采取行动"
+        "en": "Rhodesia's government censors information on Great Zimbabwe's African builders, and archaeologist Peter Garlake is forced to leave in 1970",
+        "es": "El gobierno de Rodesia censura la información sobre los constructores africanos de Gran Zimbabue y obliga al arqueólogo Peter Garlake a marcharse en 1970",
+        "zh": "罗得西亚政府审查有关大津巴布韦非洲建造者的信息，考古学家彼得·加拉克于1970年被迫离开"
       },
       "sources": [
         {
           "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
           "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        },
+        {
+          "citation": "Wikipedia. \"Peter Garlake.\"",
+          "url": "https://en.wikipedia.org/wiki/Peter_Garlake"
         },
         {
           "citation": "The Collector. \"Great Zimbabwe: Center of a Mysterious African Civilization.\"",
@@ -280,9 +288,9 @@
       ],
       "disputed": false,
       "note": {
-        "en": "Scientific American says the Rhodesian Front censored books and other material from 1965 to 1980 and that archaeologists such as Peter Garlake were imprisoned or deported.",
-        "es": "Scientific American afirma que el Frente Rodesiano censuró libros y otros materiales de 1965 a 1980 y que arqueólogos como Peter Garlake fueron encarcelados o deportados.",
-        "zh": "《科学美国人》称，罗得西亚阵线在1965年至1980年间审查书籍和其他材料，彼得·加拉克等考古学家被监禁或驱逐。"
+        "en": "Scientific American dates the censorship 1965 to 1980 and says Garlake faced imprisonment and deportation; Wikipedia says only that the government opposed his research and he was forced to leave in 1970.",
+        "es": "Scientific American fecha la censura de 1965 a 1980 y dice que Garlake sufrió encarcelamiento y deportación; Wikipedia solo dice que el gobierno se opuso a su investigación y que fue obligado a irse en 1970.",
+        "zh": "《科学美国人》把审查定在1965年至1980年，并称加拉克面临监禁和驱逐；维基百科则只说政府反对他的研究，他于1970年被迫离开。"
       },
       "place": {
         "name": {
@@ -299,9 +307,9 @@
     {
       "id": "zimbabwe-bird",
       "text": {
-        "en": "The soapstone Zimbabwe Bird, carved here and set on tall columns, now appears on Zimbabwe's national flag.",
-        "es": "El Pájaro de Zimbabue, tallado aquí en esteatita y colocado sobre altas columnas, aparece hoy en la bandera nacional de Zimbabue.",
-        "zh": "此地雕刻、立于高柱之上的皂石“津巴布韦鸟”，如今出现在津巴布韦国旗上。"
+        "en": "The soapstone Zimbabwe Bird, one of eight bird carvings found at the site, now appears on Zimbabwe's national flag.",
+        "es": "El Pájaro de Zimbabue, de esteatita y una de las ocho aves talladas halladas en el sitio, aparece hoy en la bandera nacional de Zimbabue.",
+        "zh": "皂石“津巴布韦鸟”是遗址中发现的八件鸟形雕刻之一，如今出现在津巴布韦国旗上。"
       },
       "start": 1100,
       "end": 1450,
@@ -320,16 +328,20 @@
     {
       "id": "million-blocks",
       "text": {
-        "en": "Builders stacked an estimated one million stone blocks to form the Great Enclosure's wall.",
-        "es": "Los constructores apilaron, según las estimaciones, un millón de bloques de piedra para levantar el muro del Gran Recinto.",
-        "zh": "据估计，建造者堆叠了约一百万块石头来砌成大围场的围墙。"
+        "en": "Great Zimbabwe's mortarless granite walls are estimated to hold a million blocks or more.",
+        "es": "Se calcula que los muros de granito sin argamasa de Gran Zimbabue contienen un millón de bloques o más.",
+        "zh": "据估计，大津巴布韦用花岗岩干砌而成的墙体共用了一百万块或更多石块。"
       },
-      "start": 1300,
+      "start": 1100,
       "end": 1450,
       "sources": [
         {
           "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
           "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Great Zimbabwe Urbanism and Architecture.\"",
+          "url": "https://www.ebsco.com/research-starters/anthropology/great-zimbabwe-urbanism-and-architecture/"
         }
       ],
       "disputed": false

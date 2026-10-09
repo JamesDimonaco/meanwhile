@@ -65,15 +65,15 @@
           "url": "https://www.worldhistory.org/Chandragupta_Maurya/"
         },
         {
-          "citation": "World History Encyclopedia. \"Maurya Empire.\" Dates the empire from 322 BCE.",
-          "url": "https://www.worldhistory.org/Maurya_Empire/"
+          "citation": "EBSCO Research Starters. \"Chandragupta Maurya.\" By 321 BCE he had defeated Dhanananda and founded the Mauryan dynasty.",
+          "url": "https://www.ebsco.com/research-starters/history/chandragupta-maurya"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "No account from the time survives. Indian chroniclers tell the story differently, and they disagree about Chandragupta's origins. The year is approximate.",
-        "es": "No se conserva ningún relato de la época. Los cronistas indios cuentan la historia de formas distintas y discrepan sobre los orígenes de Chandragupta. El año es aproximado.",
-        "zh": "当时的记述没有留存下来。印度的编年史家讲法各异，对旃陀罗笈多的出身也有分歧。年份只是大致的。"
+        "en": "Much of what is known comes from legends rather than firm records, and the only definite inscription naming Chandragupta dates to the 2nd century CE. Indian traditions tell the story differently and disagree about his origins. The year is approximate: 321 BCE in EBSCO, 322 or 321 BCE in World History Encyclopedia.",
+        "es": "Gran parte de lo que se sabe procede de leyendas y no de registros firmes, y la única inscripción segura que nombra a Chandragupta es del siglo II e. c. Las tradiciones indias cuentan la historia de formas distintas y discrepan sobre sus orígenes. El año es aproximado: 321 a. e. c. en EBSCO, 322 o 321 a. e. c. en la World History Encyclopedia.",
+        "zh": "关于他的许多说法来自传说，而不是确凿的记录，明确提到旃陀罗笈多的铭文只有公元2世纪的一方。印度各种传统对这段历史讲法不一，对他的出身也有分歧。年份只是大致的：EBSCO为公元前321年，《世界历史百科全书》为公元前322年或321年。"
       },
       "place": {
         "name": {
@@ -96,18 +96,18 @@
       },
       "sources": [
         {
-          "citation": "Strabo, Geography 15.2.9 (trans. H. L. Jones). Seleucus Nicator gave the Indus-side lands of the Paropamisadae, Arachosia and Gedrosia to Sandrocottus on terms of intermarriage and five hundred elephants.",
+          "citation": "Strabo, Geography 15.2.9 (trans. H. L. Jones). Seleucus Nicator gave lands along the Indus, taken earlier from the Persians and Arians, to Sandrocottus on terms of intermarriage and five hundred elephants.",
           "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/15B*.html"
         },
         {
-          "citation": "World History Encyclopedia. \"Chandragupta Maurya.\" Dates the treaty to 301 BCE.",
+          "citation": "World History Encyclopedia. \"Chandragupta Maurya.\" Dates the treaty to 301 BCE and names Arachosia, Gedrosia and Paropamisadai as the lands; its timeline gives 305 BCE.",
           "url": "https://www.worldhistory.org/Chandragupta_Maurya/"
         }
       ],
       "disputed": true,
       "note": {
         "en": "Strabo gives no date, and modern accounts place the treaty at about 305 to 301 BCE. The exact lands handed over are also argued over.",
-        "es": "Estrabón no da fecha, y los relatos modernos sitúan el tratado entre hacia 305 y 301 a. e. c. También se discute qué tierras se entregaron exactamente.",
+        "es": "Estrabón no da fecha, y los relatos modernos sitúan el tratado entre cerca de 305 y 301 a. e. c. También se discute qué tierras se entregaron exactamente.",
         "zh": "斯特拉波没有给出年代，现代说法把这项条约放在约公元前305年至301年之间。具体割让了哪些土地同样有争论。"
       }
     },
@@ -204,11 +204,16 @@
           "url": "https://www.worldhistory.org/Maurya_Empire/"
         },
         {
-          "citation": "Library of Congress Subject Headings, \"Maurya dynasty\" (ca. 322 B.C.-ca. 185 B.C.), via PeriodO.",
-          "url": "http://n2t.net/ark:/99152/p06c6g3k6mc"
+          "citation": "Wikipedia. \"Shunga Empire.\" Brihadratha, the last Maurya ruler, was assassinated by his commander-in-chief Pushyamitra while reviewing his troops; the Shunga dynasty dates from 185 or 184 BCE.",
+          "url": "https://en.wikipedia.org/wiki/Shunga_Empire"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "The year is 185 BCE in World History Encyclopedia and 184 BCE in Wikipedia's reconstruction.",
+        "es": "El año es 185 a. e. c. en la World History Encyclopedia y 184 a. e. c. en la reconstrucción de Wikipedia.",
+        "zh": "《世界历史百科全书》定为公元前185年，维基百科的重建则为公元前184年。"
+      }
     }
   ],
   "facts": [
@@ -225,6 +230,10 @@
         {
           "citation": "Dhammika, Ven. S. (1993). The Edicts of King Asoka, Rock Edict 13 and note 28. Identifies them as Antiochos II of Syria, Ptolemy II of Egypt, Antigonos Gonatas of Macedonia, Magas of Cyrene and Alexander of Epirus.",
           "url": "https://www.accesstoinsight.org/lib/authors/dhammika/wheel386.html"
+        },
+        {
+          "citation": "Wikipedia. \"Major Rock Edicts.\" Lists the Greek rulers named in Rock Edict 13 as Antiochus II, Ptolemy III (Dhammika says Ptolemy II), Antigonus Gonatas, Magas and possibly Alexander II of Epirus.",
+          "url": "https://en.wikipedia.org/wiki/Major_Rock_Edicts"
         }
       ]
     }

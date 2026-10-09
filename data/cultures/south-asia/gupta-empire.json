@@ -17,9 +17,9 @@
     "笈多帝国"
   ],
   "description": {
-    "en": "From the Ganges plain, the Gupta kings ruled much of northern India from about 320 CE. Chinese pilgrims and Sanskrit inscriptions describe the realm, and the astronomer Aryabhata worked in the capital region before Hun raids weakened the dynasty.",
-    "es": "Desde la llanura del Ganges, los reyes gupta gobernaron gran parte del norte de la India desde hacia 320 d. e. c. Peregrinos chinos e inscripciones en sánscrito describen el reino, y el astrónomo Aryabhata trabajó en la región de la capital antes de que las incursiones de los hunos debilitaran la dinastía.",
-    "zh": "笈多诸王自公元320年前后起，以恒河平原为根基，统治印度北部大部分地区。中国朝圣者的记载和梵文铭文描述了这个王国；天文学家阿耶波多在都城一带工作，其后匈人的入侵削弱了王朝。"
+    "en": "From the Ganges plain, the Gupta kings ruled much of northern India from about 320 CE. Chinese pilgrims and Sanskrit inscriptions describe the realm, the astronomer Aryabhata wrote in the capital region, and Hun raids weakened the dynasty in its last decades.",
+    "es": "Desde la llanura del Ganges, los reyes gupta gobernaron gran parte del norte de la India desde alrededor del año 320 e. c. Peregrinos chinos e inscripciones en sánscrito describen el reino, el astrónomo Aryabhata escribió en la región de la capital y las incursiones de los hunos debilitaron la dinastía en sus últimas décadas.",
+    "zh": "笈多诸王自公元320年前后起，以恒河平原为根基，统治印度北部大部分地区。中国朝圣者的记载和梵文铭文描述了这个王国；天文学家阿耶波多在都城一带写作，匈人的入侵则在王朝末期削弱了它。"
   },
   "reviewed": {
     "es": false,
@@ -31,7 +31,7 @@
       "earliestStart": 319,
       "latestStart": 320,
       "earliestEnd": 467,
-      "latestEnd": 535,
+      "latestEnd": 550,
       "sources": [
         {
           "citation": "British Museum collection thesaurus, \"Gupta\" (c. AD 319/320 to 535), via PeriodO.",
@@ -44,15 +44,19 @@
         {
           "citation": "World History Encyclopedia. \"Gupta Empire.\" Skandagupta (455 to 467) was the last of the sovereign rulers; the empire runs to c. 550.",
           "url": "https://www.worldhistory.org/Gupta_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Gupta Empire.\" Lists kings down to Vishnugupta (540 to 550) and says the Guptas lost control of much of western India after about 467.",
+          "url": "https://en.wikipedia.org/wiki/Gupta_Empire"
         }
       ],
       "periodoId": "p08m57hwx9s",
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The end is argued. Skandagupta, the last strong ruler, died in 467 CE. The British Museum ends the period in 535 and World History Encyclopedia in about 550, while later kings kept ruling a smaller realm.",
-        "es": "El final se discute. Skandagupta, el último soberano fuerte, murió en 467 d. e. c. El Museo Británico termina el periodo en 535 y la World History Encyclopedia hacia 550, mientras reyes posteriores siguieron gobernando un reino menor.",
-        "zh": "终点存在争议。最后一位强势君主塞建陀笈多死于公元467年。大英博物馆把这一时期结束定在535年，《世界历史百科全书》则定在约550年，此后仍有国王统治着缩小的王国。"
+        "en": "The end is argued. Skandagupta, the last of the sovereign rulers by World History Encyclopedia's count, died in 467 CE. The British Museum ends the period in 535 and World History Encyclopedia in about 550, and Wikipedia lists kings to about 550 ruling a smaller realm.",
+        "es": "El final se discute. Skandagupta, el último de los soberanos según la World History Encyclopedia, murió en 467 e. c. El Museo Británico termina el periodo en 535 y la World History Encyclopedia hacia 550, y Wikipedia enumera reyes hasta cerca de 550 que gobernaron un reino menor.",
+        "zh": "终点存在争议。按《世界历史百科全书》的说法，最后一位独立君主塞建陀笈多死于公元467年。大英博物馆把这一时期结束定在535年，《世界历史百科全书》则定在约550年，维基百科列出的国王则延续到约550年，统治着缩小的王国。"
       }
     }
   ],
@@ -62,9 +66,9 @@
       "start": 319,
       "type": "founding",
       "title": {
-        "en": "Chandragupta I becomes king and the Gupta line begins to expand",
-        "es": "Chandragupta I se convierte en rey y la dinastía gupta empieza a expandirse",
-        "zh": "旃陀罗笈多一世即位，笈多家族开始扩张"
+        "en": "Chandragupta I takes the throne, at about the start of the Gupta era",
+        "es": "Chandragupta I accede al trono, hacia el comienzo de la era gupta",
+        "zh": "旃陀罗·笈多一世即位，约在笈多纪元之始"
       },
       "sources": [
         {
@@ -74,23 +78,27 @@
         {
           "citation": "World History Encyclopedia. \"Samudragupta.\" Chandragupta I reigned 319 to 335 CE.",
           "url": "https://www.worldhistory.org/Samudragupta/"
+        },
+        {
+          "citation": "Wikipedia. \"Chandragupta I.\" Reign c. 319 to 335, coronation 26 February 320; ties him to the start of the Gupta era only as an assumption.",
+          "url": "https://en.wikipedia.org/wiki/Chandragupta_I"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources give 319 or 320 CE for the start of Chandragupta I's rule.",
-        "es": "Las fuentes dan 319 o 320 d. e. c. para el inicio del gobierno de Chandragupta I.",
-        "zh": "关于旃陀罗笈多一世统治的起点，资料给出的是公元319年或320年。"
+        "en": "Sources give 319 or 320 CE. Several historians link Chandragupta I's accession to the start of the Gupta era, but that is an assumption, and others tie the era to Samudragupta or Chandragupta II.",
+        "es": "Las fuentes dan 319 o 320 e. c. Varios historiadores vinculan el ascenso de Chandragupta I con el comienzo de la era gupta, pero es una suposición, y otros la asocian con Samudragupta o Chandragupta II.",
+        "zh": "资料给出的年份是公元319年或320年。若干历史学家把旃陀罗·笈多一世即位与笈多纪元之始联系起来，但这只是推测，也有人认为该纪元与沙摩陀罗·笈多或旃陀罗笈多二世相关。"
       }
     },
     {
       "id": "samudragupta-campaigns",
-      "start": 350,
+      "start": 335,
       "type": "conflict",
       "title": {
         "en": "Samudragupta attacks the kings of the Ganges plain and sends armies south",
         "es": "Samudragupta ataca a los reyes de la llanura del Ganges y envía ejércitos hacia el sur",
-        "zh": "沙摩陀罗笈多进攻恒河平原的诸王，并派兵南下"
+        "zh": "沙摩陀罗·笈多进攻恒河平原的诸王，并派兵南下"
       },
       "sources": [
         {
@@ -98,16 +106,17 @@
           "url": "https://www.worldhistory.org/Samudragupta/"
         },
         {
-          "citation": "World History Encyclopedia. \"Gupta Empire.\" He conquered the rest of North India and added part of the south.",
-          "url": "https://www.worldhistory.org/Gupta_Empire/"
+          "citation": "Wikipedia. \"Samudragupta.\" The Allahabad inscription credits him with defeating several northern kings and marching down the south-east coast as far as Kanchipuram.",
+          "url": "https://en.wikipedia.org/wiki/Samudragupta"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Almost everything comes from one praise poem, the Allahabad inscription. The campaign dates are unknown, and his reign is placed at 335 or 350 to 370 or 380 CE.",
-        "es": "Casi todo procede de un solo poema de alabanza, la inscripción de Allahabad. Se desconocen las fechas de las campañas, y su reinado se sitúa entre 335 o 350 y 370 o 380 d. e. c.",
-        "zh": "几乎所有内容都出自一首颂诗，即阿拉哈巴德铭文。战事发生的年份不详，他的在位时间被定在公元335年或350年至370年或380年。"
-      }
+        "en": "Almost everything comes from one praise poem, the Allahabad inscription, and the campaign dates are unknown. The span shown is the widest reign given, 335 to 380 CE (World History Encyclopedia gives 335 or 350 to 370 or 380).",
+        "es": "Casi todo procede de un solo poema de alabanza, la inscripción de Allahabad, y se desconocen las fechas de las campañas. El intervalo mostrado es el reinado más amplio que se da, de 335 a 380 e. c. (la World History Encyclopedia da de 335 o 350 a 370 o 380).",
+        "zh": "几乎所有内容都出自一首颂诗，即阿拉哈巴德铭文，战事发生的年份不详。这里取所给在位时间中最宽的范围，即公元335年至380年（《世界历史百科全书》给出的是335年或350年至370年或380年）。"
+      },
+      "end": 380
     },
     {
       "id": "faxian-visit",
@@ -153,13 +162,17 @@
         {
           "citation": "World History Encyclopedia. \"Gupta Empire.\" Skandagupta (455 to 467) prevented the invasion of the Huns.",
           "url": "https://www.worldhistory.org/Gupta_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Skandagupta.\" His Bhitari pillar inscription points to a repulsed Hun invasion, probably by the Kidarites.",
+          "url": "https://en.wikipedia.org/wiki/Skandagupta"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The Huns here are the Indo-Hephthalites, probably the Kidarites. The year is the start of Skandagupta's reign, since the fight is placed early in it.",
-        "es": "Los hunos aquí son los indohefalitas, probablemente los kidaritas. El año es el inicio del reinado de Skandagupta, ya que el combate se sitúa al principio de este.",
-        "zh": "这里的匈人指印度－嚈哒人，很可能是寄多罗人。年份取塞建陀笈多即位之年，因为这场战斗被认为发生在他在位早期。"
+        "en": "World History Encyclopedia calls the Huns Hephthalites; Wikipedia says Indo-Hephthalites, probably the Kidarites. Which group is argued. The year is the start of Skandagupta's reign (455 to 457 in World History Encyclopedia's timeline), since the fight is placed early in it.",
+        "es": "La World History Encyclopedia llama heftalitas a los hunos; Wikipedia dice indohefalitas, probablemente kidaritas. Se discute de qué grupo se trata. El año es el inicio del reinado de Skandagupta (de 455 a 457 en la cronología de la World History Encyclopedia), ya que el combate se sitúa al principio de este.",
+        "zh": "《世界历史百科全书》称这些匈人为嚈哒人；维基百科称印度－嚈哒人，很可能是寄多罗人。究竟属于哪一支尚有争论。年份取塞建陀笈多即位之年（《世界历史百科全书》的年表为455至457年），因为这场战斗被认为发生在他在位早期。"
       }
     },
     {
@@ -179,24 +192,28 @@
         {
           "citation": "EBSCO Research Starters. \"Aryabhata the Elder.\" The book says it was written in 499 when he was twenty-three.",
           "url": "https://www.ebsco.com/research-starters/biography/aryabhata-elder"
+        },
+        {
+          "citation": "Wikipedia. \"Aryabhata.\" The text mentions he was 23 in 3600 Kali Yuga (499 CE), which need not date its composition.",
+          "url": "https://en.wikipedia.org/wiki/Aryabhata"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "note": {
-        "en": "The 499 date comes from the text itself. Scholars argue about whether Kusumapura was his birthplace or only where he worked.",
-        "es": "La fecha de 499 procede del propio texto. Los estudiosos discuten si Kusumapura fue su lugar de nacimiento o solo donde trabajó.",
-        "zh": "499年这一年份来自书中自述。学者争论的是，库苏玛普拉是他的出生地，还是只是他工作的地方。"
+        "en": "The text gives his age, 23, in the year 3600 of the Kali Yuga, which is 499 CE. MacTutor and EBSCO read this as the year he finished writing; Wikipedia cautions that it need not date the composition. Scholars also argue about whether Kusumapura was his birthplace or only where he worked.",
+        "es": "El texto da su edad, 23 años, en el año 3600 de la Kali Yuga, que es 499 e. c. MacTutor y EBSCO lo leen como el año en que terminó de escribir; Wikipedia advierte de que no tiene por qué fechar la composición. Los estudiosos también discuten si Kusumapura fue su lugar de nacimiento o solo donde trabajó.",
+        "zh": "书中在迦利纪元3600年（即公元499年）给出了他的年龄，23岁。MacTutor和EBSCO把它理解为他完成写作的年份；维基百科提醒，这未必是成书年份。学者还争论库苏玛普拉是他的出生地，还是只是他工作的地方。"
       }
     },
     {
       "id": "huna-advance",
-      "start": 515,
+      "start": 497,
       "end": 540,
       "type": "collapse",
       "title": {
-        "en": "Huna rulers Toramana and Mihirakula push deep into northern India as Gupta power fades",
-        "es": "Los gobernantes hunos Toramana y Mihirakula penetran en el norte de la India mientras el poder gupta se debilita",
-        "zh": "匈人首领头罗曼和摩醯逻矩罗深入印度北部，笈多势力随之衰退"
+        "en": "Huna rulers Toramana and Mihirakula push deep into northern India during the Gupta decline",
+        "es": "Los gobernantes hunos Toramana y Mihirakula penetran en el norte de la India durante el declive gupta",
+        "zh": "匈人首领头罗曼和密希拉古拉在笈多衰落期间深入印度北部"
       },
       "sources": [
         {
@@ -206,13 +223,17 @@
         {
           "citation": "World History Encyclopedia. \"Gupta Empire.\" After Skandagupta's death the dynasty was torn by internal conflict and plagued by Hun attacks.",
           "url": "https://www.worldhistory.org/Gupta_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Toramana.\" Seals suggest the sack of Kausambi in 497 to 500; the Eran boar inscription dates to 510 to 513.",
+          "url": "https://en.wikipedia.org/wiki/Toramana"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The dates are those given for Mihirakula's reign. Sources disagree on when the Gupta empire ended and how much the Huns caused its decline.",
-        "es": "Las fechas son las que se dan para el reinado de Mihirakula. Las fuentes discrepan sobre cuándo terminó el imperio gupta y cuánto contribuyeron los hunos a su declive.",
-        "zh": "这里的年份是学界给出的摩醯逻矩罗在位时间。关于笈多帝国何时结束，以及匈人对其衰落起了多大作用，资料说法不一。"
+        "en": "The start is the earliest date Wikipedia gives for Toramana's sack of Kausambi (497 to 500). World History Encyclopedia dates the Hun conquest of western and central India to 484 to 510. The end is Mihirakula's last year in Live History India (515 to 540; Wikipedia says 542). Wikipedia adds that Narasimhagupta and Yashodharman reversed his campaign by about 530. Sources disagree on when the Gupta empire ended and how much the Huns caused its decline.",
+        "es": "El inicio es la fecha más temprana que da Wikipedia para el saqueo de Kausambi por Toramana (497 a 500). La World History Encyclopedia fecha la conquista huna del oeste y el centro de la India entre 484 y 510. El final es el último año de Mihirakula en Live History India (515 a 540; Wikipedia dice 542). Wikipedia añade que Narasimhagupta y Yashodharman revirtieron su campaña hacia 530. Las fuentes discrepan sobre cuándo terminó el imperio gupta y cuánto contribuyeron los hunos a su declive.",
+        "zh": "起点取维基百科给出的头罗曼洗劫憍赏弥的最早年份（497至500年）。《世界历史百科全书》把匈人征服印度西部和中部定在484至510年。终点是Live History India所说的密希拉古拉在位最后一年（515至540年；维基百科为542年）。维基百科还说，那罗辛哈笈多和亚索达曼约在530年前后扭转了他的攻势。关于笈多帝国何时结束，以及匈人对其衰落起了多大作用，资料说法不一。"
       }
     }
   ],
@@ -232,8 +253,12 @@
           "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/"
         },
         {
-          "citation": "EBSCO Research Starters. \"Aryabhata the Elder.\"",
+          "citation": "EBSCO Research Starters. \"Aryabhata the Elder.\" Describes the pi approximation in the Aryabhatiya as good to four decimal places.",
           "url": "https://www.ebsco.com/research-starters/biography/aryabhata-elder"
+        },
+        {
+          "citation": "Wikipedia. \"Aryabhata.\" 62,832 over 20,000, about 3.1416.",
+          "url": "https://en.wikipedia.org/wiki/Aryabhata"
         }
       ]
     }

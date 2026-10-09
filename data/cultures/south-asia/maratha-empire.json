@@ -15,7 +15,7 @@
   "description": {
     "en": "A Marathi-speaking state founded by Shivaji, crowned in 1674. From 1713 the Peshwas ran it as a confederacy across much of India, until defeat at Panipat in 1761 checked it and the British ended it in 1818.",
     "es": "Estado de lengua marathi fundado por Shivaji, coronado en 1674. Desde 1713 los peshwas lo dirigieron como una confederación por buena parte de la India, hasta que la derrota de Panipat en 1761 lo frenó y los británicos lo pusieron fin en 1818.",
-    "zh": "由西瓦吉建立的马拉地语国家，他于1674年加冕。1713年起，佩什瓦以联盟形式统治印度大部分地区，1761年帕尼帕特之败使其扩张受阻，1818年被英国终结。"
+    "zh": "由希瓦吉建立的马拉地语国家，他于1674年加冕。1713年起，佩什瓦以联盟形式统治印度大部分地区，1761年帕尼帕特之败使其扩张受阻，1818年被英国终结。"
   },
   "reviewed": {
     "es": false,
@@ -50,7 +50,7 @@
       "title": {
         "en": "Shivaji is crowned chhatrapati at Raigad on 6 June, proclaiming a new era and issuing his own gold coin",
         "es": "Shivaji es coronado chhatrapati en Raigad el 6 de junio, proclama una nueva era y emite su propia moneda de oro",
-        "zh": "西瓦吉于6月6日在赖加德加冕为恰特拉帕蒂，宣布启用新纪元并发行自己的金币"
+        "zh": "希瓦吉于6月6日在赖加德加冕为恰特拉帕蒂，宣布启用新纪元并发行自己的金币"
       },
       "sources": [
         {
@@ -58,8 +58,8 @@
           "url": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/shivaji-bhonsle-and-heirs"
         },
         {
-          "citation": "\"Sivaji.\" Encyclopedia.com.",
-          "url": "https://www.encyclopedia.com/people/history/south-asian-history-biographies/sivaji"
+          "citation": "Wikipedia (English). \"Shivaji.\"",
+          "url": "https://en.wikipedia.org/wiki/Shivaji"
         }
       ],
       "disputed": false,
@@ -78,9 +78,9 @@
       "start": 1665,
       "type": "conflict",
       "title": {
-        "en": "Shivaji signs the Treaty of Purandar with the Mughal commander Jai Singh on 11 June, giving up 23 forts and keeping 12",
-        "es": "Shivaji firma el Tratado de Purandar con el general mogol Jai Singh el 11 de junio, cede 23 fuertes y conserva 12",
-        "zh": "西瓦吉于6月11日与莫卧儿统帅贾伊·辛格签订《普兰达尔条约》，交出23座要塞，保留12座"
+        "en": "Shivaji signs the Treaty of Purandar with the Mughal commander Jai Singh in June, giving up 23 forts and keeping 12",
+        "es": "Shivaji firma el Tratado de Purandar con el general mogol Jai Singh en junio, cede 23 fuertes y conserva 12",
+        "zh": "希瓦吉于6月与莫卧儿统帅贾伊·辛格签订《普兰达尔条约》，交出23座要塞，保留12座"
       },
       "sources": [
         {
@@ -92,7 +92,12 @@
           "url": "https://en.wikipedia.org/wiki/Shivaji"
         }
       ],
-      "disputed": false,
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia gives 11 June 1665; Encyclopedia.com gives 12 June.",
+        "es": "Wikipedia da el 11 de junio de 1665; Encyclopedia.com da el 12 de junio.",
+        "zh": "维基百科作1665年6月11日；Encyclopedia.com作6月12日。"
+      },
       "place": {
         "name": {
           "en": "Purandar",
@@ -110,12 +115,12 @@
       "title": {
         "en": "Shivaji dies at Raigad in April, and his heirs fight over the succession",
         "es": "Shivaji muere en Raigad en abril y sus herederos se disputan la sucesión",
-        "zh": "西瓦吉四月在赖加德去世，其继承人为王位展开争夺"
+        "zh": "希瓦吉四月在赖加德去世，其继承人为王位展开争夺"
       },
       "sources": [
         {
-          "citation": "\"Sivaji.\" Encyclopedia.com.",
-          "url": "https://www.encyclopedia.com/people/history/south-asian-history-biographies/sivaji"
+          "citation": "\"Shivaji Bhonsle and Heirs.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/shivaji-bhonsle-and-heirs"
         },
         {
           "citation": "Wikipedia (English). \"Shivaji.\"",
@@ -153,8 +158,8 @@
           "url": "https://www.encyclopedia.com/social-sciences-and-law/anthropology-and-archaeology/people/marathas"
         },
         {
-          "citation": "Wikipedia (English). \"Maratha Empire.\"",
-          "url": "https://en.wikipedia.org/wiki/Maratha_Empire"
+          "citation": "Wikipedia (English). \"Balaji Vishwanath.\"",
+          "url": "https://en.wikipedia.org/wiki/Balaji_Vishwanath"
         }
       ],
       "disputed": false
@@ -164,9 +169,9 @@
       "start": 1761,
       "type": "conflict",
       "title": {
-        "en": "Afghan forces defeat the Marathas at the Third Battle of Panipat on 14 January, ending their northward expansion",
-        "es": "Las fuerzas afganas derrotan a los maratas en la tercera batalla de Panipat el 14 de enero y ponen fin a su expansión hacia el norte",
-        "zh": "阿富汗军队于1月14日在第三次帕尼帕特战役中击败马拉塔人，终结其北进扩张"
+        "en": "Afghan forces defeat the Marathas at the Third Battle of Panipat on 14 January, greatly weakening Maratha power",
+        "es": "Las fuerzas afganas derrotan a los maratas en la tercera batalla de Panipat el 14 de enero y debilitan gravemente el poder maratha",
+        "zh": "阿富汗军队于1月14日在第三次帕尼帕特战役中击败马拉塔人，使马拉塔势力大为削弱"
       },
       "sources": [
         {
@@ -215,9 +220,9 @@
       "start": 1803,
       "type": "conflict",
       "title": {
-        "en": "Gerard Lake's army takes Aligarh and defeats the Marathas at Delhi, ending their hold on the north",
-        "es": "El ejército de Gerard Lake toma Aligarh y derrota a los maratas en Delhi, con lo que pierden su dominio del norte",
-        "zh": "杰拉德·莱克的军队攻占阿利格尔，并在德里击败马拉塔人，终结其对北方的控制"
+        "en": "Gerard Lake's army takes Aligarh in September and defeats Scindia's Maratha army at Patparganj, across the Yamuna from Delhi",
+        "es": "El ejército de Gerard Lake toma Aligarh en septiembre y derrota al ejército maratha de Scindia en Patparganj, al otro lado del Yamuna desde Delhi",
+        "zh": "杰拉德·雷克的军队9月攻占阿利格尔，并在亚穆纳河对岸德里近旁的帕特帕尔甘杰击败辛迪亚的马拉塔军队"
       },
       "sources": [
         {
@@ -245,9 +250,9 @@
       "start": 1818,
       "type": "collapse",
       "title": {
-        "en": "Peshwa Baji Rao II surrenders to the British; the East India Company abolishes the office and annexes much of his territory",
-        "es": "El peshwa Baji Rao II se rinde a los británicos; la Compañía de las Indias Orientales abole el cargo y anexiona gran parte de su territorio",
-        "zh": "佩什瓦巴吉·拉奥二世向英国投降；东印度公司废除该职位，并吞并其大部分领土"
+        "en": "Peshwa Baji Rao II surrenders to the British on 3 June; the East India Company abolishes the office and annexes much of his territory",
+        "es": "El peshwa Bajirao II se rinde a los británicos el 3 de junio; la Compañía de las Indias Orientales abole el cargo y anexiona gran parte de su territorio",
+        "zh": "佩什瓦巴吉·拉奥二世于6月3日向英国投降；东印度公司废除该职位，并吞并其大部分领土"
       },
       "sources": [
         {
@@ -270,7 +275,7 @@
       "text": {
         "en": "At his coronation Shivaji proclaimed a new calendar era, the Raj Shaka, and issued a gold coin called the Shivarai hon.",
         "es": "En su coronación, Shivaji proclamó una nueva era del calendario, la Raj Shaka, y emitió una moneda de oro llamada Shivarai hon.",
-        "zh": "西瓦吉在加冕时宣布启用新纪年“拉吉·沙卡”，并发行名为“西瓦赖·洪”的金币。"
+        "zh": "希瓦吉在加冕时宣布启用新纪年“拉吉·沙卡”，并发行名为“西瓦赖·洪”的金币。"
       },
       "sources": [
         {

@@ -49,16 +49,16 @@
           "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
         },
         {
-          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
-          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+          "citation": "EBSCO Research Starters. \"Kongo (historical kingdom).\"",
+          "url": "https://www.ebsco.com/research-starters/history/kongo-historical-kingdom/"
         }
       ],
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The founding date is traditional, c. 1390. Real central power ended after Mbwila (1665) and the civil wars that followed; World History Encyclopedia says Kongo had all but disintegrated as an independent state by 1710. A titular kingship under Portuguese influence lasted until 1914.",
-        "es": "La fecha de fundación es tradicional, c. 1390. El poder central efectivo terminó tras Mbwila (1665) y las guerras civiles posteriores; World History Encyclopedia dice que hacia 1710 Kongo se había desintegrado casi por completo como Estado independiente. Una monarquía nominal bajo influencia portuguesa duró hasta 1914.",
-        "zh": "建国年份出自传说，约为1390年。中央的实际权力在姆比拉战役（1665年）及随后的内战后终结；《世界历史百科全书》称，到1710年刚果作为独立国家已近瓦解。名义上的王位在葡萄牙的影响下延续到1914年。"
+        "en": "The founding date is traditional, c. 1390 (EBSCO says about 1380). Real central power ended after Mbwila (1665) and the civil wars that followed; World History Encyclopedia says Kongo had all but disintegrated as an independent state by 1710. A titular kingship under Portuguese influence lasted until 1914.",
+        "es": "La fecha de fundación es tradicional, c. 1390 (EBSCO dice hacia 1380). El poder central efectivo terminó tras Mbwila (1665) y las guerras civiles posteriores; World History Encyclopedia dice que hacia 1710 Kongo se había desintegrado casi por completo como Estado independiente. Una monarquía nominal bajo influencia portuguesa duró hasta 1914.",
+        "zh": "建国年份出自传说，约为1390年（EBSCO称约1380年）。中央的实际权力在姆比拉战役（1665年）及随后的内战后终结；《世界历史百科全书》称，到1710年刚果作为独立国家已近瓦解。名义上的王位在葡萄牙的影响下延续到1914年。"
       }
     }
   ],
@@ -98,8 +98,8 @@
           "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
         },
         {
-          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
-          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+          "citation": "EBSCO Research Starters. \"Kongo (historical kingdom).\"",
+          "url": "https://www.ebsco.com/research-starters/history/kongo-historical-kingdom/"
         }
       ]
     }
@@ -120,19 +120,19 @@
           "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
         },
         {
-          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
-          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+          "citation": "Wikipedia. \"Kingdom of Kongo.\"",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
         },
         {
-          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
-          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
+          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
+          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The date and the story are traditional. SAHO describes a political marriage between the two ruling houses; The Collector says Lukeni lua Nimi conquered the Mbanza Kongo region.",
-        "es": "La fecha y el relato son tradicionales. SAHO describe una alianza matrimonial entre las dos casas gobernantes; The Collector dice que Lukeni lua Nimi conquistó la región de Mbanza Kongo.",
-        "zh": "年份和故事都出自传说。SAHO称是两个统治家族的政治联姻；The Collector则称卢肯尼·卢阿·尼米征服了姆班扎刚果一带。"
+        "en": "The date and the story are traditional. SAHO and Wikipedia describe a political marriage between the Mpemba Kasi and Mbata ruling houses; The Collector credits Lukeni lua Nimi with the founding.",
+        "es": "La fecha y el relato son tradicionales. SAHO y Wikipedia describen una alianza matrimonial entre las casas gobernantes mpemba kasi y mbata; The Collector atribuye la fundación a Lukeni lua Nimi.",
+        "zh": "年份和故事都出自传说。SAHO和维基百科称是姆彭巴卡西与姆巴塔两个统治家族的政治联姻；The Collector则把建国归于卢肯尼·卢阿·尼米。"
       },
       "place": {
         "name": {
@@ -163,15 +163,15 @@
           "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
         },
         {
-          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
-          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
+          "citation": "Wikipedia. \"Kingdom of Kongo.\"",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources give 1482 or 1483 for the first meeting.",
-        "es": "Las fuentes dan 1482 o 1483 para el primer encuentro.",
-        "zh": "各来源对首次会面给出1482年或1483年。"
+        "en": "SAHO gives 1482, Wikipedia 1483 and The Collector 1482-3 for the first meeting.",
+        "es": "SAHO da 1482, Wikipedia 1483 y The Collector 1482-3 para el primer encuentro.",
+        "zh": "SAHO给出1482年，维基百科给出1483年，The Collector给出1482至1483年，指首次会面。"
       },
       "place": {
         "name": {
@@ -194,23 +194,23 @@
       },
       "sources": [
         {
-          "citation": "The Collector. \"7 Facts About the Kingdom of Kongo: Africa's Great Catholic State.\"",
-          "url": "https://www.thecollector.com/kingdom-of-kongo-great-catholic-state/"
-        },
-        {
-          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
-          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
+          "citation": "Wikipedia. \"Kingdom of Kongo.\"",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
         },
         {
           "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
           "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Kongo.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Kongo/"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "SAHO places the baptism in 1490; The Collector and World History Encyclopedia give 1491.",
-        "es": "SAHO sitúa el bautismo en 1490; The Collector y World History Encyclopedia dan 1491.",
-        "zh": "SAHO把受洗定在1490年；The Collector和《世界历史百科全书》给出的是1491年。"
+        "en": "SAHO places the baptism in 1490; Wikipedia gives 3 May 1491, the year World History Encyclopedia gives for the missionaries' arrival.",
+        "es": "SAHO sitúa el bautismo en 1490; Wikipedia da el 3 de mayo de 1491, el año en que World History Encyclopedia sitúa la llegada de los misioneros.",
+        "zh": "SAHO把受洗定在1490年；维基百科给出1491年5月3日，《世界历史百科全书》把传教士抵达也定在1491年。"
       },
       "place": {
         "name": {
@@ -242,15 +242,15 @@
           "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
         },
         {
-          "citation": "The Collector. \"7 Facts About the Kingdom of Kongo: Africa's Great Catholic State.\"",
-          "url": "https://www.thecollector.com/kingdom-of-kongo-great-catholic-state/"
+          "citation": "Wikipedia. \"Afonso I of Kongo.\"",
+          "url": "https://en.wikipedia.org/wiki/Afonso_I_of_Kongo"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources agree on 1506 for his accession and give his death as 1542 or 1543; some accounts date the accession to 1509.",
-        "es": "Las fuentes coinciden en 1506 para su ascenso y dan su muerte en 1542 o 1543; algunos relatos fechan el ascenso en 1509.",
-        "zh": "各来源均把他即位定在1506年，卒年为1542年或1543年；也有说法把即位定在1509年。"
+        "en": "World History Encyclopedia and SAHO give 1506 for his accession; Wikipedia gives 1509. His death is dated 1542 or 1543.",
+        "es": "World History Encyclopedia y SAHO dan 1506 para su ascenso; Wikipedia da 1509. Su muerte se fecha en 1542 o 1543.",
+        "zh": "《世界历史百科全书》和SAHO把他即位定在1506年，维基百科则定在1509年。卒年为1542年或1543年。"
       },
       "place": {
         "name": {
@@ -317,9 +317,9 @@
       ],
       "disputed": false,
       "note": {
-        "en": "The battle took place on 29 October 1665. Sources differ on the size of both armies, so none is given here.",
-        "es": "La batalla tuvo lugar el 29 de octubre de 1665. Las fuentes difieren sobre el tamaño de ambos ejércitos, por lo que no se da ninguna cifra.",
-        "zh": "战役发生于1665年10月29日。各来源对双方兵力的说法不一，故此处不列数字。"
+        "en": "The battle took place on 29 October 1665.",
+        "es": "La batalla tuvo lugar el 29 de octubre de 1665.",
+        "zh": "战役发生于1665年10月29日。"
       }
     },
     {
@@ -333,16 +333,12 @@
       },
       "sources": [
         {
-          "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
-          "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+          "citation": "EBSCO Research Starters. \"Kongo (historical kingdom).\"",
+          "url": "https://www.ebsco.com/research-starters/history/kongo-historical-kingdom/"
         },
         {
-          "citation": "The Collector. \"7 Facts About the Kingdom of Kongo: Africa's Great Catholic State.\"",
-          "url": "https://www.thecollector.com/kingdom-of-kongo-great-catholic-state/"
-        },
-        {
-          "citation": "South African History Online. \"Kingdom of Kongo, 1390-1914.\"",
-          "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914"
+          "citation": "Wikipedia. \"Kingdom of Kongo.\"",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
         }
       ],
       "disputed": false,
@@ -361,9 +357,9 @@
     {
       "id": "elected-kings",
       "text": {
-        "en": "Kongo's kings were elected, not born to the throne, which made succession disputes a recurring risk.",
-        "es": "Los reyes de Kongo eran elegidos, no heredaban el trono, lo que hacía de las disputas de sucesión un riesgo constante.",
-        "zh": "刚果的国王由选举产生，并非世袭，因此王位继承之争反复出现。"
+        "en": "Kongo's kings were chosen by electors, not born to the throne, which made succession disputes a recurring risk.",
+        "es": "Los reyes de Kongo eran elegidos por electores, no heredaban el trono, lo que hacía de las disputas de sucesión un riesgo constante.",
+        "zh": "刚果的国王由选侯推选产生，并非世袭，因此王位继承之争反复出现。"
       },
       "start": 1390,
       "end": 1914,
@@ -371,6 +367,10 @@
         {
           "citation": "The Collector. \"The Turbulent History of the Kingdom of Kongo.\"",
           "url": "https://www.thecollector.com/kongo-africa-catholic-kingdom/"
+        },
+        {
+          "citation": "Wikipedia. \"Kingdom of Kongo.\"",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
         }
       ],
       "disputed": false
@@ -378,16 +378,16 @@
     {
       "id": "afonso-letters",
       "text": {
-        "en": "Afonso I wrote some two dozen letters to Portuguese kings, objecting to the growing slave trade and asking for priests and teachers instead.",
-        "es": "Afonso I escribió una veintena de cartas a los reyes de Portugal, en las que se oponía a la creciente trata de esclavos y pedía sacerdotes y maestros en su lugar.",
-        "zh": "阿丰索一世给葡萄牙国王写了约二十四封信，反对日益扩大的奴隶贸易，并请求派来神父和教师。"
+        "en": "Afonso I wrote long series of letters to the kings of Portugal, objecting to the growing slave trade and asking for priests and teachers instead of goods.",
+        "es": "Afonso I escribió largas series de cartas a los reyes de Portugal, en las que se oponía a la creciente trata de esclavos y pedía sacerdotes y maestros en lugar de mercancías.",
+        "zh": "阿丰索一世给葡萄牙国王写了大量书信，反对日益扩大的奴隶贸易，并请求派来神父和教师，而不是货物。"
       },
       "start": 1506,
       "end": 1543,
       "sources": [
         {
-          "citation": "The Collector. \"7 Facts About the Kingdom of Kongo: Africa's Great Catholic State.\"",
-          "url": "https://www.thecollector.com/kingdom-of-kongo-great-catholic-state/"
+          "citation": "Wikipedia. \"Afonso I of Kongo.\"",
+          "url": "https://en.wikipedia.org/wiki/Afonso_I_of_Kongo"
         },
         {
           "citation": "Afonso I (Nzinga Mbemba) to King João III of Portugal, 6 July 1526, Religion and Slavery project.",
