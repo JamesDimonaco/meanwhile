@@ -1,0 +1,290 @@
+{
+  "id": "polish-lithuanian-commonwealth",
+  "region": "europe",
+  "wikidataId": "Q172107",
+  "name": {
+    "en": "Polish–Lithuanian Commonwealth",
+    "es": "República de las Dos Naciones",
+    "zh": "波兰立陶宛联邦"
+  },
+  "aliases": [
+    "Poland-Lithuania",
+    "Rzeczpospolita",
+    "Commonwealth of Both Nations",
+    "Rzeczpospolita Obojga Narodow",
+    "Polonia-Lituania",
+    "波兰-立陶宛",
+    "波立联邦"
+  ],
+  "description": {
+    "en": "A state joining the Kingdom of Poland and the Grand Duchy of Lithuania under one elected king and one parliament, the Sejm, from the Union of Lublin in 1569. Its nobles held wide rights, and a single deputy could stop a session with a veto. Russia, Prussia and Austria divided it in three partitions, the last in 1795.",
+    "es": "Un Estado que unió el Reino de Polonia y el Gran Ducado de Lituania bajo un rey electo y un parlamento, la Dieta, desde la Unión de Lublin en 1569. Su nobleza tenía amplios derechos y un solo diputado podía detener una sesión con su veto. Rusia, Prusia y Austria lo repartieron en tres particiones, la última en 1795.",
+    "zh": "由波兰王国与立陶宛大公国组成的国家，自1569年卢布林联合起，共有一位选举产生的国王和一个议会，即议会下院。贵族权利广泛，任何一名议员都能以否决权中止会期。俄国、普鲁士和奥地利分三次将其瓜分，最后一次在1795年。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "commonwealth",
+      "earliestStart": 1569,
+      "latestStart": 1569,
+      "earliestEnd": 1795,
+      "latestEnd": 1795,
+      "sources": [
+        {
+          "citation": "Wikidata. \"Polish–Lithuanian Commonwealth\" (Q172107): inception 11 June 1569, dissolved 24 October 1795.",
+          "url": "https://www.wikidata.org/wiki/Q172107"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Poland-Lithuania, Commonwealth of, 1569-1795.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/poland-lithuania-commonwealth-1569-1795"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Partitions of Poland.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/polish-history/partitions-poland"
+        }
+      ],
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "union-of-lublin",
+      "start": 1569,
+      "type": "founding",
+      "title": {
+        "en": "The Sejm at Lublin joins Poland and Lithuania as one Commonwealth with one elected king and one parliament, while each keeps its own administration and army",
+        "es": "La Dieta de Lublin une Polonia y Lituania en una sola república con un rey electo y un parlamento, y cada una conserva su administración y su ejército",
+        "zh": "卢布林议会把波兰与立陶宛合为一个联邦，共有一位选举产生的国王和一个议会，两国各自保留自己的行政机构和军队"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Poland-Lithuania, Commonwealth of, 1569-1795.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/poland-lithuania-commonwealth-1569-1795"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Sigismund II Augustus (Poland, Lithuania) (1520-1572; ruled 1530-1572).\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/sigismund-ii-augustus-poland-lithuania-1520-1572-ruled-1530-1572"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lublin",
+          "es": "Lublin",
+          "zh": "卢布林"
+        },
+        "lat": 51.2465,
+        "lon": 22.5684
+      }
+    },
+    {
+      "id": "henrician-articles",
+      "start": 1573,
+      "type": "founding",
+      "title": {
+        "en": "Under the Henrician Articles, sworn first by the elected king Henry of Valois, every later king must swear to uphold the Commonwealth's basic political rules",
+        "es": "Según los Artículos Enriquianos, que jura Enrique de Valois, primer rey electo, todo rey posterior debe jurar respetar las reglas políticas básicas de la República",
+        "zh": "依据《亨利条款》，首位当选国王瓦卢瓦的亨利宣誓遵守，此后每位国王都必须宣誓维护联邦的基本政治规则"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Poland-Lithuania, Commonwealth of, 1569-1795.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/poland-lithuania-commonwealth-1569-1795"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Why Poland-Lithuania Disappeared.\"",
+          "url": "https://www.worldhistory.org/article/2754/why-poland-lithuania-disappeared/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "liberum-veto",
+      "start": 1652,
+      "type": "invention",
+      "title": {
+        "en": "From 1652 the liberum veto is used systematically: a single deputy can cancel every law a Sejm session has passed",
+        "es": "Desde 1652 se usa de forma sistemática el liberum veto: un solo diputado puede anular todas las leyes aprobadas en una sesión de la Dieta",
+        "zh": "自1652年起，自由否决权被系统性地使用：一名议员即可废除议会一个会期通过的所有法律"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Poland-Lithuania, Commonwealth of, 1569-1795.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/poland-lithuania-commonwealth-1569-1795"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Why Poland-Lithuania Disappeared.\"",
+          "url": "https://www.worldhistory.org/article/2754/why-poland-lithuania-disappeared/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "According to Encyclopedia.com, 60 percent of all Sejm sessions between 1582 and 1762 were dissolved this way.",
+        "es": "Según Encyclopedia.com, el 60 por ciento de todas las sesiones de la Dieta entre 1582 y 1762 se disolvieron de este modo.",
+        "zh": "据Encyclopedia.com，1582年至1762年间60%的议会会期因此被中止。"
+      }
+    },
+    {
+      "id": "relief-of-vienna",
+      "start": 1683,
+      "type": "conflict",
+      "title": {
+        "en": "King John III Sobieski and Charles of Lorraine lead the relief army that destroys the Ottoman camp outside Vienna on 12 September",
+        "es": "El rey Juan III Sobieski y Carlos de Lorena dirigen el ejército de socorro que destruye el campamento otomano ante Viena el 12 de septiembre",
+        "zh": "国王扬三世·索别斯基与洛林公爵查理率领的援军于9月12日在维也纳城外摧毁奥斯曼军营"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Vienna, Sieges of.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/vienna-sieges"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Why Poland-Lithuania Disappeared.\"",
+          "url": "https://www.worldhistory.org/article/2754/why-poland-lithuania-disappeared/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Vienna",
+          "es": "Viena",
+          "zh": "维也纳"
+        },
+        "lat": 48.2082,
+        "lon": 16.3738
+      }
+    },
+    {
+      "id": "first-partition",
+      "start": 1772,
+      "end": 1773,
+      "type": "collapse",
+      "title": {
+        "en": "Russia, Prussia and Austria annex about a third of the Commonwealth's territory",
+        "es": "Rusia, Prusia y Austria se anexionan cerca de un tercio del territorio de la República",
+        "zh": "俄国、普鲁士和奥地利吞并联邦约三分之一的领土"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Partitions of Poland.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/polish-history/partitions-poland"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Poland-Lithuania, Commonwealth of, 1569-1795.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/poland-lithuania-commonwealth-1569-1795"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Dated 1772 to 1773: the powers agreed in 1772, and in April 1773 the Sejm debated ratification while Tadeusz Rejtan blocked the chamber door in protest. Encyclopedia.com says Poland lost 5 of its 14 million inhabitants.",
+        "es": "Se fecha entre 1772 y 1773: las potencias acordaron en 1772 y en abril de 1773 la Dieta debatió la ratificación mientras Tadeusz Rejtan bloqueaba la puerta de la sala en protesta. Encyclopedia.com dice que Polonia perdió 5 de sus 14 millones de habitantes.",
+        "zh": "时间为1772年至1773年：三国于1772年达成协议，1773年4月议会审议批准时，塔德乌什·雷伊坦堵住议事厅大门以示抗议。Encyclopedia.com称波兰1400万居民中有500万被划走。"
+      }
+    },
+    {
+      "id": "constitution-of-3-may",
+      "start": 1791,
+      "type": "invention",
+      "title": {
+        "en": "The Four-Year Sejm adopts the Constitution of 3 May, which ends the liberum veto and the election of kings",
+        "es": "La Dieta de los Cuatro Años adopta la Constitución del 3 de mayo, que pone fin al liberum veto y a la elección de reyes",
+        "zh": "四年议会通过《五三宪法》，废除了自由否决权和国王选举制"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"3 May Constitution.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/3-may-constitution"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Poland-Lithuania, Commonwealth of, 1569-1795.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/poland-lithuania-commonwealth-1569-1795"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Warsaw",
+          "es": "Varsovia",
+          "zh": "华沙"
+        },
+        "lat": 52.2297,
+        "lon": 21.0122
+      }
+    },
+    {
+      "id": "second-partition",
+      "start": 1793,
+      "type": "collapse",
+      "title": {
+        "en": "After the Targowica confederation asks Russia to intervene against the 3 May Constitution, Russia and Prussia take more land",
+        "es": "Tras pedir la confederación de Targowica la intervención de Rusia contra la Constitución del 3 de mayo, Rusia y Prusia toman más tierras",
+        "zh": "塔尔戈维察联盟请俄国出兵反对《五三宪法》之后，俄国与普鲁士又夺取了更多土地"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Partitions of Poland.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/polish-history/partitions-poland"
+        },
+        {
+          "citation": "Encyclopedia.com. \"3 May Constitution.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/3-may-constitution"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Encyclopedia.com dates the treaty to 4 January 1793. Russia took Lithuanian lands and Prussia took Danzig, Thorn and Wielkopolska.",
+        "es": "Encyclopedia.com fecha el tratado el 4 de enero de 1793. Rusia tomó tierras lituanas y Prusia tomó Danzig, Thorn y Gran Polonia.",
+        "zh": "Encyclopedia.com把条约日期记为1793年1月4日。俄国取得立陶宛的土地，普鲁士取得但泽、托伦和大波兰。"
+      }
+    },
+    {
+      "id": "third-partition",
+      "start": 1795,
+      "type": "collapse",
+      "title": {
+        "en": "Russia, Prussia and Austria divide what remains of the Commonwealth, and the state ends",
+        "es": "Rusia, Prusia y Austria se reparten lo que queda de la República, y el Estado desaparece",
+        "zh": "俄国、普鲁士和奥地利瓜分联邦所剩土地，国家就此灭亡"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Partitions of Poland.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/polish-history/partitions-poland"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Poland-Lithuania, Commonwealth of, 1569-1795.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/poland-lithuania-commonwealth-1569-1795"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Encyclopedia.com dates the treaty to 3 January 1795 and says King Stanisław August abdicated a month later. Wikidata dates the end of the state to 24 October 1795.",
+        "es": "Encyclopedia.com fecha el tratado el 3 de enero de 1795 y dice que el rey Estanislao Augusto abdicó un mes después. Wikidata fija el fin del Estado el 24 de octubre de 1795.",
+        "zh": "Encyclopedia.com把条约日期记为1795年1月3日，并称国王斯坦尼斯瓦夫·奥古斯特一个月后退位。维基数据把国家的终结定在1795年10月24日。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "noble-share",
+      "text": {
+        "en": "About 9 percent of the Commonwealth's people were nobles, against roughly 2 percent in England.",
+        "es": "Cerca del 9 por ciento de la población de la República era noble, frente a cerca del 2 por ciento en Inglaterra.",
+        "zh": "联邦约9%的人口是贵族，英格兰这一比例约为2%。"
+      },
+      "start": 1569,
+      "end": 1795,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Why Poland-Lithuania Disappeared.\"",
+          "url": "https://www.worldhistory.org/article/2754/why-poland-lithuania-disappeared/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
