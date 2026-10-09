@@ -31,18 +31,18 @@
   "periods": [
     {
       "id": "ghana-empire",
-      "earliestStart": 500,
-      "latestStart": 700,
+      "earliestStart": 300,
+      "latestStart": 800,
       "earliestEnd": 1200,
       "latestEnd": 1250,
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Ghana empire.\"",
-          "url": "https://www.britannica.com/place/Ghana-ancient-kingdom-Africa"
-        },
-        {
           "citation": "World History Encyclopedia. \"Ghana Empire.\"",
           "url": "https://www.worldhistory.org/Ghana_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Ghana Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Ghana_Empire"
         },
         {
           "citation": "Wikidata item Q206789.",
@@ -52,21 +52,21 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Ghana's beginnings are undocumented: Britannica gives the 7th century, World History Encyclopedia the 6th or earlier, and Arabic sources only mention it from about 830. The end is placed between the Sosso takeover (c. 1200s) and Mali's capture of the capital (c. 1240).",
-        "es": "Los comienzos de Ghana no están documentados: Britannica indica el siglo VII, la World History Encyclopedia el VI o antes, y las fuentes árabes solo la mencionan desde alrededor del 830. El final se sitúa entre la toma sosso (siglo XIII, hacia 1200) y la captura de la capital por Malí (hacia 1240).",
-        "zh": "加纳的起源缺乏文献记载：大英百科全书称其始于7世纪，世界历史百科全书称6世纪或更早，阿拉伯文献则约从830年起才提到它。其终点介于苏苏人接管（约1200年代）与马里攻占都城（约1240年）之间。"
+        "en": "Ghana's beginnings are undocumented. Wikipedia gives c. 300 CE (Wikidata c. 200), World History Encyclopedia the 6th century or earlier, and Arab writers already describe a wealthy state in the 8th century. The end falls between the Sosso conquest (by 1203, in Wikipedia's account) and Mali's takeover of the old capital (1240, World History Encyclopedia).",
+        "es": "Los comienzos de Ghana no están documentados. Wikipedia indica hacia 300 d. C. (Wikidata, hacia 200), la World History Encyclopedia el siglo VI o antes, y los escritores árabes ya describen un Estado rico en el siglo VIII. El final se sitúa entre la conquista sosso (en 1203, según Wikipedia) y la toma de la antigua capital por Malí (1240, según la World History Encyclopedia).",
+        "zh": "加纳的起源缺乏文献记载。维基百科给出约公元300年（维基数据为约200年），世界历史百科全书称6世纪或更早，阿拉伯作家在8世纪已描述这个富庶的国家。其终点介于苏苏人的征服（维基百科称1203年之前）与马里接管旧都（1240年，世界历史百科全书）之间。"
       }
     }
   ],
   "events": [
     {
       "id": "awdaghust",
-      "start": 990,
+      "start": 992,
       "type": "conflict",
       "title": {
-        "en": "Wagadu's king takes Awdaghust, the southern end of the Saharan caravan routes",
-        "es": "El rey de Wagadu toma Awdagost, el extremo sur de las rutas caravaneras del Sáhara",
-        "zh": "瓦加杜国王夺取奥达戈斯特，这是撒哈拉商队路线的南端"
+        "en": "Wagadu's king gains control of trade at Awdaghust, a key Saharan trading town",
+        "es": "El rey de Wagadu se hace con el control del comercio en Awdagost, una plaza comercial clave del Sáhara",
+        "zh": "瓦加杜国王控制了奥达戈斯特的贸易，这是撒哈拉的一座重要商贸城镇"
       },
       "sources": [
         {
@@ -74,14 +74,15 @@
           "url": "https://ebsco.com/research-starters/history/ghana-takes-control-awdaghust"
         },
         {
-          "citation": "Levtzion, Nehemia (1973). Ancient Ghana and Mali. Methuen."
+          "citation": "Wikipedia. \"Ghana Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Ghana_Empire"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources date the capture to c. 990 or 992.",
-        "es": "Las fuentes fechan la toma hacia 990 o 992.",
-        "zh": "各来源将此事定在约990年或992年。"
+        "en": "EBSCO dates this to 992; Wikipedia gives 990 and mentions 992 as an alternative.",
+        "es": "EBSCO lo fecha en 992; Wikipedia da 990 y menciona 992 como alternativa.",
+        "zh": "EBSCO定为992年；维基百科给出990年，并提到992年的说法。"
       }
     },
     {
@@ -99,20 +100,25 @@
           "url": "https://ebsco.com/research-starters/history/ghana-takes-control-awdaghust"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Ghana empire.\"",
-          "url": "https://www.britannica.com/place/Ghana-ancient-kingdom-Africa"
+          "citation": "Wikipedia. \"Ghana Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Ghana_Empire"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "EBSCO says the Sanhaja army had taken Awdaghust by 1055; Wikipedia gives 1054.",
+        "es": "EBSCO dice que el ejército sanhaja ya había tomado Awdagost en 1055; Wikipedia da 1054.",
+        "zh": "EBSCO称桑哈贾军队至1055年已攻占奥达戈斯特；维基百科给出1054年。"
+      }
     },
     {
       "id": "al-bakri",
       "start": 1068,
       "type": "invention",
       "title": {
-        "en": "Al-Bakri, writing in Córdoba from merchants' reports, describes Ghana's king, his gold and his taxes",
-        "es": "Al-Bakri, desde Córdoba y a partir de relatos de mercaderes, describe al rey de Ghana, su oro y sus impuestos",
-        "zh": "巴克里在科尔多瓦依据商人的讲述，记下了加纳国王、他的黄金与税收"
+        "en": "Al-Bakri, writing in Córdoba from merchants' and travellers' reports, describes Ghana's king, his gold and his taxes",
+        "es": "Al-Bakri, desde Córdoba y a partir de relatos de mercaderes y viajeros, describe al rey de Ghana, su oro y sus impuestos",
+        "zh": "巴克里在科尔多瓦依据商人和旅行者的讲述，记下了加纳国王、他的黄金与税收"
       },
       "sources": [
         {
@@ -120,14 +126,15 @@
           "url": "https://www.bu.edu/africa/outreach/resources/k_o_ghana"
         },
         {
-          "citation": "Levtzion, N. & Hopkins, J.F.P. (eds) (1981). Corpus of Early Arabic Sources for West African History. Cambridge University Press."
+          "citation": "Wikipedia. \"Al-Bakri.\"",
+          "url": "https://en.wikipedia.org/wiki/Al-Bakri"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "note": {
-        "en": "Al-Bakri never visited Ghana; his account is second-hand.",
-        "es": "Al-Bakri nunca visitó Ghana; su relato es de segunda mano.",
-        "zh": "巴克里从未到过加纳，他的记述得自他人转述。"
+        "en": "Al-Bakri never visited Ghana; his account is second-hand. Wikipedia dates his book to 1068; the Boston University extracts date it to 1057.",
+        "es": "Al-Bakri nunca visitó Ghana; su relato es de segunda mano. Wikipedia fecha su libro en 1068; los extractos de la Universidad de Boston lo fechan en 1057.",
+        "zh": "巴克里从未到过加纳，他的记述得自他人转述。维基百科将其著作定于1068年；波士顿大学的节选则定为1057年。"
       }
     },
     {
@@ -145,14 +152,19 @@
           "url": "https://ebsco.com/research-starters/history/almoravids-sack-kumbi"
         },
         {
-          "citation": "Conrad, David C. & Fisher, Humphrey J. (1982). \"The Conquest That Never Was: Ghana and the Almoravids, 1076.\" History in Africa 9."
+          "citation": "Conrad, David C. & Fisher, Humphrey J. (1982). \"The Conquest That Never Was: Ghana and the Almoravids, 1076. I. The External Arabic Sources.\" History in Africa 9 (abstract).",
+          "url": "https://www.cambridge.org/core/journals/history-in-africa/article/conquest-that-never-was-ghana-and-the-almoravids-1076-i-the-external-arabic-sources/4C43B158FD3D74BE744D8634781A4E0A"
+        },
+        {
+          "citation": "Wikipedia. \"Ghana Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Ghana_Empire"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Conrad and Fisher (1982) argue the conquest rests on a misreading of Arabic sources; others accept that the Almoravids took control of the trade routes without an outright capture.",
-        "es": "Conrad y Fisher (1982) sostienen que la conquista se basa en una lectura errónea de las fuentes árabes; otros admiten que los almorávides controlaron las rutas comerciales sin una captura directa.",
-        "zh": "康拉德与费舍尔（1982）认为这次征服源于对阿拉伯文献的误读；也有人认为阿尔穆拉比德人控制了贸易路线，但并未真正攻占都城。"
+        "en": "EBSCO calls an outright capture contested. Conrad and Fisher (1982) found no source, external or internal, that clearly points to a conquest. Wikipedia reports that Lange agrees but allows for Almoravid political pressure.",
+        "es": "EBSCO considera discutida una captura directa. Conrad y Fisher (1982) no hallaron ninguna fuente, externa ni interna, que apunte con claridad a una conquista. Wikipedia indica que Lange coincide, pero admite una presión política almorávide.",
+        "zh": "EBSCO称直接攻占一事存在争议。康拉德与费舍尔（1982）未发现任何外部或内部文献明确指向一次征服。维基百科称朗厄对此表示同意，但认为不能排除阿尔穆拉比德人的政治压力。"
       }
     },
     {
@@ -170,14 +182,15 @@
           "url": "https://www.worldhistory.org/Ghana_Empire/"
         },
         {
-          "citation": "Levtzion, Nehemia (1973). Ancient Ghana and Mali. Methuen."
+          "citation": "Wikipedia. \"Sosso Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Sosso_Empire"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The date is approximate; World History Encyclopedia places the Sosso rise around 1200.",
-        "es": "La fecha es aproximada; la World History Encyclopedia sitúa el ascenso sosso hacia 1200.",
-        "zh": "年份为大致推算；世界历史百科全书将苏苏的崛起定在约1200年。"
+        "en": "The date is approximate: Wikipedia's Sosso article cites Heinrich Barth for about 1203, and World History Encyclopedia has Sumanguru ruling from about 1200.",
+        "es": "La fecha es aproximada: el artículo de Wikipedia sobre los sosso cita a Heinrich Barth para hacia 1203, y la World History Encyclopedia sitúa a Sumanguru en el poder desde hacia 1200.",
+        "zh": "年份为大致推算：维基百科的苏苏条目引海因里希·巴特的说法，约为1203年；世界历史百科全书则称苏曼古鲁约自1200年起统治。"
       }
     },
     {
@@ -185,9 +198,9 @@
       "start": 1240,
       "type": "collapse",
       "title": {
-        "en": "Sundiata's army takes the Ghana capital and brings the region under Mali",
-        "es": "El ejército de Sundiata toma la capital de Ghana e integra la región en Malí",
-        "zh": "松迪亚塔的军队攻占加纳都城，将该地区纳入马里"
+        "en": "Mali takes over the old Ghana lands; one account dates Sundiata's capture of the capital to 1240",
+        "es": "Malí se hace con las antiguas tierras de Ghana; un relato fecha en 1240 la toma de la capital por Sundiata",
+        "zh": "马里接管加纳旧地；有一种说法把松迪亚塔攻占都城定在1240年"
       },
       "sources": [
         {
@@ -195,26 +208,27 @@
           "url": "https://www.worldhistory.org/Mali_Empire/"
         },
         {
-          "citation": "Levtzion, Nehemia (1973). Ancient Ghana and Mali. Methuen."
+          "citation": "Wikipedia. \"Ghana Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Ghana_Empire"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Traditional dating; sources give 1235 to 1240 for Sundiata's victory and the fall of the old capital.",
-        "es": "Datación tradicional; las fuentes dan entre 1235 y 1240 para la victoria de Sundiata y la caída de la antigua capital.",
-        "zh": "传统纪年；各来源将松迪亚塔的胜利与旧都陷落定在1235至1240年之间。"
+        "en": "Only World History Encyclopedia gives 1240 for the capture. Wikipedia says Ghana became Mali's ally after Kirina (c. 1235) and later a vassal, and the date of the old capital's fall is uncertain.",
+        "es": "Solo la World History Encyclopedia da 1240 para la toma. Wikipedia dice que Ghana pasó a ser aliada de Malí tras Kirina (hacia 1235) y luego vasalla, y la fecha de la caída de la antigua capital es incierta.",
+        "zh": "只有世界历史百科全书把攻占定在1240年。维基百科称加纳在基里纳之战（约1235年）后成为马里的盟友，后来沦为附庸，旧都陷落的年代并不确定。"
       }
     }
   ],
   "facts": [
     {
       "id": "gold-nuggets",
-      "start": 950,
+      "start": 1000,
       "end": 1100,
       "text": {
-        "en": "Ghana's king kept every gold nugget for himself and let his subjects trade only gold dust, so the supply stayed scarce.",
-        "es": "El rey de Ghana se reservaba todas las pepitas de oro y solo permitía a sus súbditos comerciar con polvo de oro, de modo que la oferta se mantenía escasa.",
-        "zh": "加纳国王把所有金块据为己有，只许臣民交易金粉，使黄金供应始终稀缺。"
+        "en": "According to al-Bakri, Ghana's king kept every gold nugget for himself and left only gold dust to his people.",
+        "es": "Según al-Bakri, el rey de Ghana se reservaba todas las pepitas de oro y dejaba a su pueblo solo el polvo de oro.",
+        "zh": "据巴克里记载，加纳国王把所有金块据为己有，只给臣民留下金粉。"
       },
       "sources": [
         {
