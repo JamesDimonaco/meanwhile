@@ -1,0 +1,267 @@
+{
+  "id": "visigothic-kingdom",
+  "region": "europe",
+  "wikidataId": "Q126936",
+  "name": {
+    "en": "Visigothic Kingdom",
+    "es": "Reino visigodo",
+    "zh": "西哥特王国"
+  },
+  "aliases": [
+    "Visigoths",
+    "Kingdom of Toulouse",
+    "Kingdom of Toledo",
+    "Regnum Gothorum",
+    "Visigodos",
+    "Reino de Toledo",
+    "西哥特人"
+  ],
+  "description": {
+    "en": "A Gothic kingdom set up in Roman Aquitaine in 418, with Toulouse as its capital. After losing most of Gaul to the Franks in 507 it ruled Hispania from Toledo until an Arab and Berber army crossed from Africa in 711.",
+    "es": "Reino godo establecido en la Aquitania romana en 418, con capital en Tolosa. Tras perder casi toda la Galia ante los francos en 507, gobernó Hispania desde Toledo hasta que un ejército árabe y bereber cruzó desde África en 711.",
+    "zh": "418年在罗马阿基坦建立的哥特王国，都城图卢兹。507年被法兰克人夺去高卢大部后，它以托莱多为中心统治伊比利亚，直到711年阿拉伯和柏柏尔军队从非洲渡海而来。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "visigothic-kingdom",
+      "earliestStart": 414,
+      "latestStart": 418,
+      "earliestEnd": 711,
+      "latestEnd": 721,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Visigoths.\"",
+          "url": "https://www.worldhistory.org/Visigoths/"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Gallo-Visigothic\" (AD 414–507) and \"Hispano-Visigothic\" (AD 507–711), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h6x3k"
+        },
+        {
+          "citation": "Spain Then and Now. \"The Visigoths and the Quest for Unity.\"",
+          "url": "https://www.spainthenandnow.com/spanish-history/visigoths-and-unity"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The British Museum starts the Gothic realm in 414 and the World History Encyclopedia in 418, the year of the settlement in Aquitaine. Most sources end it in 711 with the Arab and Berber invasion. The World History Encyclopedia gives 418–721.",
+        "es": "El Museo Británico inicia el reino godo en 414 y la World History Encyclopedia en 418, el año del asentamiento en Aquitania. La mayoría de las fuentes lo terminan en 711 con la invasión árabe y bereber. La World History Encyclopedia da 418-721.",
+        "zh": "大英博物馆把哥特王国的起点定在414年，《世界历史百科全书》定在418年，即在阿基坦定居的那一年。多数来源把终点定在711年阿拉伯和柏柏尔人入侵之时。《世界历史百科全书》给出的是418至721年。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "toulouse",
+      "name": {
+        "en": "Kingdom of Toulouse",
+        "es": "Reino de Tolosa",
+        "zh": "图卢兹王国"
+      },
+      "start": 418,
+      "end": 507,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Gallo-Visigothic\" (AD 414–507), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h6x3k"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Wallia.\"",
+          "url": "https://ebsco.com/research-starters/history/wallia"
+        }
+      ]
+    },
+    {
+      "id": "toledo",
+      "name": {
+        "en": "Kingdom of Toledo",
+        "es": "Reino de Toledo",
+        "zh": "托莱多王国"
+      },
+      "start": 507,
+      "end": 711,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Hispano-Visigothic\" (AD 507–711), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hvg52"
+        },
+        {
+          "citation": "Spain Then and Now. \"The Visigoths and the Quest for Unity.\"",
+          "url": "https://www.spainthenandnow.com/spanish-history/visigoths-and-unity"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wallia-campaigns",
+      "start": 416,
+      "end": 418,
+      "type": "conflict",
+      "title": {
+        "en": "Wallia's Goths destroy the Siling Vandals and the Alans in Hispania for Rome",
+        "es": "Los godos de Walia destruyen en Hispania a los vándalos silingos y a los alanos por encargo de Roma",
+        "zh": "瓦利亚的哥特人受罗马之托，在西班牙消灭了西林汪达尔人和阿兰人"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Wallia.\"",
+          "url": "https://ebsco.com/research-starters/history/wallia"
+        },
+        {
+          "citation": "Novo Scriptorium. \"Wallia and the Visigothic Settlement in Gaul.\"",
+          "url": "https://novoscriptorium.com/2020/12/10/wallia-and-the-visigothic-settlement-in-gaul/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "aquitaine-settlement",
+      "start": 418,
+      "type": "founding",
+      "title": {
+        "en": "The Goths settle in Aquitaine under a treaty with Rome, with Toulouse as their capital",
+        "es": "Los godos se asientan en Aquitania por un tratado con Roma, con Tolosa como capital",
+        "zh": "哥特人依据与罗马的条约在阿基坦定居，以图卢兹为都"
+      },
+      "place": {
+        "name": {
+          "en": "Toulouse",
+          "es": "Tolosa",
+          "zh": "图卢兹"
+        },
+        "lat": 43.6047,
+        "lon": 1.4442
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Wallia.\"",
+          "url": "https://ebsco.com/research-starters/history/wallia"
+        },
+        {
+          "citation": "Novo Scriptorium. \"Wallia and the Visigothic Settlement in Gaul.\"",
+          "url": "https://novoscriptorium.com/2020/12/10/wallia-and-the-visigothic-settlement-in-gaul/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "vouille",
+      "start": 507,
+      "type": "conflict",
+      "title": {
+        "en": "Clovis's Franks defeat and kill Alaric II at Vouillé and take Toulouse and most of Gaul",
+        "es": "Los francos de Clodoveo derrotan y matan a Alarico II en Vouillé y toman Tolosa y casi toda la Galia",
+        "zh": "克洛维的法兰克人在武耶击败并杀死阿拉里克二世，夺取图卢兹和高卢大部"
+      },
+      "sources": [
+        {
+          "citation": "Gregory of Tours, History of the Franks 2.37 (Fordham Internet History Sourcebooks).",
+          "url": "https://sourcebooks.fordham.edu/basis/gregory-hist.asp"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Visigoths.\"",
+          "url": "https://www.worldhistory.org/Visigoths/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "reccared-converts",
+      "start": 587,
+      "type": "ruler",
+      "title": {
+        "en": "King Reccared gives up Arian Christianity and adopts Catholicism",
+        "es": "El rey Recaredo abandona el arrianismo y adopta el catolicismo",
+        "zh": "国王雷卡雷德一世放弃阿里乌派，改信天主教"
+      },
+      "sources": [
+        {
+          "citation": "Gregory of Tours, History of the Franks 9.15 (Fordham Internet History Sourcebooks).",
+          "url": "https://sourcebooks.fordham.edu/basis/gregory-hist.asp"
+        },
+        {
+          "citation": "Spain Then and Now. \"The Visigoths and the Quest for Unity.\"",
+          "url": "https://www.spainthenandnow.com/spanish-history/visigoths-and-unity"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Reccared acted within a year of taking the throne in 586, under the guidance of Bishop Leander of Seville. The Third Council of Toledo ratified the conversion in 589, and sources differ on which year to give.",
+        "es": "Recaredo actuó dentro del año siguiente a su llegada al trono en 586, guiado por el obispo Leandro de Sevilla. El III Concilio de Toledo ratificó la conversión en 589, y las fuentes difieren sobre qué año indicar.",
+        "zh": "雷卡雷德在586年即位后一年内采取行动，受塞维利亚主教莱安德指引。589年第三次托莱多会议确认了这次改宗，各来源对取哪一年看法不一。"
+      }
+    },
+    {
+      "id": "liber-iudiciorum",
+      "start": 654,
+      "type": "invention",
+      "title": {
+        "en": "The Visigothic law code, the Liber Iudiciorum, is issued",
+        "es": "Se promulga el código legal visigodo, el Liber Iudiciorum",
+        "zh": "西哥特法典《审判书》颁布"
+      },
+      "sources": [
+        {
+          "citation": "Spain Then and Now. \"The Visigoths and the Quest for Unity.\"",
+          "url": "https://www.spainthenandnow.com/spanish-history/visigoths-and-unity"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Visigoths.\"",
+          "url": "https://www.worldhistory.org/Visigoths/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Spain Then and Now dates the code to 654, under King Reccesuinth. The World History Encyclopedia places it in 642–643, under Chindasuinth.",
+        "es": "Spain Then and Now fecha el código en 654, bajo el rey Recesvinto. La World History Encyclopedia lo sitúa en 642-643, bajo Chindasvinto.",
+        "zh": "Spain Then and Now 把法典定在654年，国王雷塞斯温特在位时。《世界历史百科全书》则定在642至643年，钦达斯温特在位时。"
+      }
+    },
+    {
+      "id": "arab-conquest",
+      "start": 711,
+      "type": "collapse",
+      "title": {
+        "en": "Tariq ibn Ziyad crosses from Africa during a Gothic civil war, and the kingdom falls",
+        "es": "Tariq ibn Ziyad cruza desde África durante una guerra civil goda, y el reino cae",
+        "zh": "塔里克·本·齐亚德在哥特内战期间从非洲渡海而来，王国覆灭"
+      },
+      "sources": [
+        {
+          "citation": "Spain Then and Now. \"The Visigoths and the Quest for Unity.\"",
+          "url": "https://www.spainthenandnow.com/spanish-history/visigoths-and-unity"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Visigoths.\"",
+          "url": "https://www.worldhistory.org/Visigoths/"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "wallia-grain-deal",
+      "start": 416,
+      "end": 418,
+      "text": {
+        "en": "Wallia handed Galla Placidia, the emperor's half-sister, back to Rome and received 600,000 measures of grain for the Goths in return.",
+        "es": "Walia devolvió a Roma a Gala Placidia, hermanastra del emperador, y recibió a cambio 600 000 medidas de grano para los godos.",
+        "zh": "瓦利亚把皇帝的异母妹加拉·普拉西提娅交还罗马，换得60万量粮食给哥特人。"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Wallia.\"",
+          "url": "https://ebsco.com/research-starters/history/wallia"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
