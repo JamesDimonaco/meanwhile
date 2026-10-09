@@ -20,9 +20,9 @@
     "Wa"
   ],
   "description": {
-    "en": "Irrigated rice, bronze and iron reached the Japanese islands from the Korean peninsula, villages grew into walled and moated towns, and Chinese records name the queen Himiko. The start date is disputed, from about 900 to 300 BCE.",
-    "es": "El arroz de regadío, el bronce y el hierro llegaron a las islas japonesas desde la península de Corea, las aldeas se convirtieron en poblados con murallas y fosos, y las crónicas chinas mencionan a la reina Himiko. La fecha de inicio es discutida, entre el 900 y el 300 a. e. c.",
-    "zh": "水稻灌溉、青铜和铁器从朝鲜半岛传入日本列岛，村落发展为有壕沟环绕的城镇，中国史书中记载了女王卑弥呼。开始年代存在争议，从约公元前900年到前300年不等。"
+    "en": "Irrigated rice reached the Japanese islands from the Korean peninsula, bronze and iron came into use, villages grew into walled and moated towns, and Chinese records name the queen Himiko. The start date is disputed, from about 1000 to 300 BCE.",
+    "es": "El arroz de regadío llegó a las islas japonesas desde la península de Corea, se empezaron a usar el bronce y el hierro, las aldeas se convirtieron en poblados con murallas y fosos, y las crónicas chinas mencionan a la reina Himiko. La fecha de inicio es discutida, entre el 1000 y el 300 a. e. c.",
+    "zh": "水稻灌溉从朝鲜半岛传入日本列岛，青铜和铁器开始使用，村落发展为有壕沟环绕的城镇，中国史书中记载了女王卑弥呼。开始年代存在争议，从约公元前1000年到前300年不等。"
   },
   "reviewed": {
     "es": false,
@@ -31,7 +31,7 @@
   "periods": [
     {
       "id": "yayoi-period",
-      "earliestStart": -899,
+      "earliestStart": -999,
       "latestStart": -299,
       "earliestEnd": 201,
       "latestEnd": 300,
@@ -43,15 +43,19 @@
         {
           "citation": "Curry, A. (2008). Insider: Turning Japanese. Archaeology, January/February 2008.",
           "url": "https://archive.archaeology.org/0801/abstracts/insider.html"
+        },
+        {
+          "citation": "Wikipedia, \"Yayoi period\" (about 300 BCE to 300 CE; radiocarbon start between about 1000 and 800 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Yayoi_period"
         }
       ],
       "periodoId": "p0fbfthbjz2",
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The traditional start is 300 to 400 BCE. Radiocarbon dating of rice grains, announced in 2003, pushed it back about 500 years, and scholars still argue over it.",
-        "es": "El inicio tradicional es entre el 300 y el 400 a. e. c. La datación por radiocarbono de granos de arroz, anunciada en 2003, lo retrasó unos 500 años, y los especialistas siguen debatiéndolo.",
-        "zh": "传统上认为开始于公元前300至前400年。2003年公布的稻米碳十四测年结果将其提前了约500年，学者至今仍有争论。"
+        "en": "The traditional start is about 400 to 300 BCE. Radiocarbon dates on rice-farming remains, announced in 2003 by researchers at the National Museum of Japanese History (Fujio, Imamura and colleagues), put it at about 1000 to 800 BCE. PeriodO gives the 8th century BCE, and scholars still argue over the start.",
+        "es": "El inicio tradicional es hacia el 400 a 300 a. e. c. Las fechas de radiocarbono de restos de cultivo de arroz, anunciadas en 2003 por investigadores del Museo Nacional de Historia de Japón (Fujio, Imamura y colaboradores), lo sitúan hacia el 1000 a 800 a. e. c. PeriodO da el siglo VIII a. e. c., y los especialistas siguen debatiendo el inicio.",
+        "zh": "传统上认为开始于约公元前400至前300年。2003年日本国立历史民俗博物馆的研究者（藤尾、今村等人）公布稻作遗存的碳十四测年，把开始时间定在约公元前1000至前800年。PeriodO给出公元前8世纪，学者至今仍在争论开始年代。"
       }
     }
   ],
@@ -71,15 +75,19 @@
           "url": "https://archive.archaeology.org/0801/abstracts/insider.html"
         },
         {
-          "citation": "Shoda, S. (2010). Radiocarbon 52(2), 421–427. doi:10.1017/S0033822200045471.",
+          "citation": "Shoda, S. (2010). Radiocarbon and Archaeology in Japan and Korea: What has Changed Because of the Yayoi Dating Controversy? Radiocarbon 52(2), 421–427. doi:10.1017/S0033822200045471.",
           "url": "https://doi.org/10.1017/S0033822200045471"
+        },
+        {
+          "citation": "Wikipedia, \"Yayoi period\" (rice cultivation introduced from Korea).",
+          "url": "https://en.wikipedia.org/wiki/Yayoi_period"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Radiocarbon dates suggest about 900 to 800 BCE. The older view puts it near 400 BCE, which is where the Jōmon site guide places it.",
-        "es": "Las fechas de radiocarbono sugieren entre el 900 y el 800 a. e. c. La visión tradicional lo sitúa hacia el 400 a. e. c., que es la fecha que da la guía de sitios jōmon.",
-        "zh": "碳十四测年显示约在公元前900至前800年。传统观点则认为在约公元前400年，绳文遗址指南采用的就是这一说法。"
+        "en": "Radiocarbon dates suggest about 1000 to 800 BCE. The older view puts it near 400 BCE, which is where the Jōmon site guide places it. The start year here is the middle of the radiocarbon range.",
+        "es": "Las fechas de radiocarbono sugieren entre el 1000 y el 800 a. e. c. La visión tradicional lo sitúa hacia el 400 a. e. c., que es la fecha que da la guía de sitios jōmon. El año de inicio aquí es el punto medio del rango de radiocarbono.",
+        "zh": "碳十四测年显示约在公元前1000至前800年。传统观点则认为在约公元前400年，绳文遗址指南采用的就是这一说法。这里的开始年份取碳十四范围的中间值。"
       },
       "place": {
         "name": {
@@ -107,8 +115,8 @@
           "url": "https://www.yoshinogari.jp/en/introduction/history/"
         },
         {
-          "citation": "Japan Up Close (Ministry of Foreign Affairs of Japan), \"The Yoshinogari Remains\", 3 March 2023.",
-          "url": "https://japanupclose.web-japan.org/spot/s20230303_1.html"
+          "citation": "Wikipedia, \"Yoshinogari site\" (settlement from the 3rd century BCE to the 3rd century CE).",
+          "url": "https://en.wikipedia.org/wiki/Yoshinogari_site"
         }
       ],
       "disputed": false,
@@ -128,9 +136,9 @@
       "end": 100,
       "type": "invention",
       "title": {
-        "en": "Villagers at Kamo-Iwakura in Shimane bury 39 bronze bells in nested pairs, the largest single find of bells in Japan",
-        "es": "Aldeanos de Kamo-Iwakura, en Shimane, entierran 39 campanas de bronce en pares encajados, el mayor hallazgo de campanas de Japón",
-        "zh": "岛根加茂岩仓的村民将39口铜铎成对套叠掩埋，是日本单次出土铜铎数量最多的一例"
+        "en": "Villagers at Kamo-Iwakura in Shimane bury 39 bronze bells, many of them nested in pairs, the largest single find of bells in Japan",
+        "es": "Aldeanos de Kamo-Iwakura, en Shimane, entierran 39 campanas de bronce, muchas de ellas encajadas en pares, el mayor hallazgo de campanas de Japón",
+        "zh": "岛根加茂岩仓的村民掩埋39口铜铎，其中许多成对套叠，是日本单次出土铜铎数量最多的一例"
       },
       "sources": [
         {
@@ -148,9 +156,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "The museum dates the bells to about the 1st century. Why they were buried is unknown, and offerings to deities is one proposal.",
-        "es": "El museo fecha las campanas hacia el siglo I. Se desconoce por qué se enterraron, y una de las propuestas es que fueran ofrendas a las deidades.",
-        "zh": "博物馆将铜铎定在约1世纪。掩埋原因不明，一种推测是作为献给神灵的供品。"
+        "en": "The museum dates the bells to about the 1st century. Why they were buried is unknown. The museum says one of several proposals is offerings to deities.",
+        "es": "El museo fecha las campanas hacia el siglo I. Se desconoce por qué se enterraron. El museo dice que una de varias propuestas es que fueran ofrendas a las deidades.",
+        "zh": "博物馆将铜铎定在约1世纪。掩埋原因不明。博物馆称几种推测之一是作为献给神灵的供品。"
       },
       "place": {
         "name": {
@@ -209,13 +217,17 @@
         {
           "citation": "Edwards, W. (1996). In Pursuit of Himiko: Postwar Archaeology and the Location of Yamatai. Monumenta Nipponica 51(1), 53–79. doi:10.2307/2385316.",
           "url": "https://doi.org/10.2307/2385316"
+        },
+        {
+          "citation": "Wikipedia, \"Himiko\".",
+          "url": "https://en.wikipedia.org/wiki/Himiko"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The Chinese record Wei Zhi gives the year as 238 in some editions and 239 in others. Scholars place Yamatai either in the Nara basin or in northern Kyushu.",
-        "es": "La crónica china Wei Zhi da el año 238 en algunas ediciones y 239 en otras. Los especialistas sitúan Yamatai en la cuenca de Nara o en el norte de Kyūshū.",
-        "zh": "中国史书《魏志》的不同版本记为238年或239年。学者对邪马台国的位置有奈良盆地和九州北部两种看法。"
+        "en": "The Chinese record Wei Zhi dates the embassy to 238, and the Nihon Shoki dates it to 239. Scholars place Yamatai either in the Nara basin or in northern Kyushu.",
+        "es": "La crónica china Wei Zhi fecha la embajada en 238, y el Nihon Shoki la fecha en 239. Los especialistas sitúan Yamatai en la cuenca de Nara o en el norte de Kyūshū.",
+        "zh": "中国史书《魏志》把这次遣使记在238年，《日本书纪》则记在239年。学者对邪马台国的位置有奈良盆地和九州北部两种看法。"
       }
     }
   ],
@@ -235,8 +247,8 @@
           "url": "https://artsandculture.google.com/asset/the-gold-seal%E2%80%9Ckan-no-wa-no-na-no-kokuou%E2%80%9D-han-dynasty/-gG-6FNFVDNmvQ"
         },
         {
-          "citation": "Hanko.co.jp, \"The Gold Seal of Na\".",
-          "url": "https://hanko.co.jp/en/history/the-gold-seal-of-na.html"
+          "citation": "Japan Heritage, Fukuoka, \"Gold Seal (Seal 'Kan-no-Wa-no-Na-no-Kokuo')\".",
+          "url": "https://japanheritage.jp/fukuoka/heritage/gold-sealseal-kan-koku-kou"
         }
       ],
       "disputed": false
