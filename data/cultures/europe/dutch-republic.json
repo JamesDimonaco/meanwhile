@@ -1,0 +1,267 @@
+{
+  "id": "dutch-republic",
+  "region": "europe",
+  "wikidataId": "Q170072",
+  "name": {
+    "en": "Dutch Republic",
+    "es": "Provincias Unidas de los Países Bajos",
+    "zh": "荷兰共和国"
+  },
+  "nativeName": {
+    "text": "Republiek der Zeven Verenigde Nederlanden",
+    "lang": "nl"
+  },
+  "aliases": [
+    "United Provinces",
+    "Republic of the Seven United Netherlands",
+    "Dutch Golden Age",
+    "Provincias Unidas",
+    "República de los Siete Países Bajos Unidos",
+    "联省共和国",
+    "尼德兰联省共和国"
+  ],
+  "description": {
+    "en": "The republic of seven northern provinces that broke from Spanish rule in the Dutch Revolt. It ran two chartered trading companies, the East India Company from 1602 and the West India Company from 1621, with trading posts, forts and plantations in Asia, Africa and the Americas, some worked by enslaved people. It ended in January 1795, when French troops entered and the Batavian Republic replaced it.",
+    "es": "La república de siete provincias del norte que se separó del dominio español durante la Revuelta de los Países Bajos. Tuvo dos compañías comerciales con carta real: la Compañía de las Indias Orientales desde 1602 y la de las Indias Occidentales desde 1621, con factorías, fuertes y plantaciones en Asia, África y América, algunas trabajadas por personas esclavizadas. Terminó en enero de 1795, cuando entraron tropas francesas y la República Bátava la sustituyó.",
+    "zh": "由北方七个省组成的共和国，在尼德兰起义中脱离西班牙统治。它设有两家特许贸易公司，1602年的东印度公司和1621年的西印度公司，在亚洲、非洲和美洲拥有商站、要塞和种植园，其中一些由被奴役者耕作。1795年1月法军入境，巴达维亚共和国取而代之，共和国就此终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "dutch-republic",
+      "earliestStart": 1579,
+      "latestStart": 1581,
+      "earliestEnd": 1795,
+      "latestEnd": 1795,
+      "sources": [
+        {
+          "citation": "Wikidata, \"Dutch Republic\" (Q170072): \"predecessor state of the Netherlands (1581–1795)\".",
+          "url": "https://www.wikidata.org/wiki/Q170072"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Dutch Revolt (1568–1648)\": the northern provinces concluded the Union of Utrecht in January 1579, effectively establishing the United Provinces, and deposed Philip II in the Act of Abjuration on 26 July 1581.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-revolt-1568-1648"
+        },
+        {
+          "citation": "World History Encyclopedia, \"French Revolutionary Wars\": in January 1795 the Dutch Republic fell and the Batavian Republic replaced it.",
+          "url": "https://www.worldhistory.org/French_Revolutionary_Wars/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start is dated to the Union of Utrecht in January 1579, which set up the United Provinces, or to the Act of Abjuration in July 1581, when they deposed Philip II. Wikidata uses 1581. The end, January 1795, is not in dispute.",
+        "es": "El inicio se fecha en la Unión de Utrecht de enero de 1579, que creó las Provincias Unidas, o en el Acta de Abjuración de julio de 1581, cuando depusieron a Felipe II. Wikidata usa 1581. El final, enero de 1795, no se discute.",
+        "zh": "起点或定为1579年1月的乌得勒支同盟，该同盟建立了联省，或定为1581年7月的《废黜誓词》，联省在该文件中废黜腓力二世。维基数据采用1581年。终点1795年1月没有争议。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "act-of-abjuration",
+      "start": 1581,
+      "type": "founding",
+      "title": {
+        "en": "The provinces of the Union of Utrecht depose Philip II as their sovereign in the Act of Abjuration on 26 July",
+        "es": "Las provincias de la Unión de Utrecht deponen a Felipe II como soberano mediante el Acta de Abjuración, el 26 de julio",
+        "zh": "乌得勒支同盟各省于7月26日通过《废黜誓词》，废黜腓力二世的君主身份"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Dutch Revolt (1568–1648)\": the provinces of the Union of Utrecht deposed Philip II as sovereign of the Netherlands in the Act of Abjuration (26 July 1581).",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-revolt-1568-1648"
+        },
+        {
+          "citation": "Britannica, \"Act of Abjuration\": in 1581 the States General declared that Philip had forfeited his sovereignty over the provinces by persistent tyranny.",
+          "url": "https://www.britannica.com/topic/Act-of-Abjuration"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "voc-chartered",
+      "start": 1602,
+      "type": "founding",
+      "title": {
+        "en": "The States General grant the Dutch East India Company (VOC) a 21-year charter on 20 March",
+        "es": "Los Estados Generales conceden a la Compañía Neerlandesa de las Indias Orientales (VOC) una carta de 21 años el 20 de marzo",
+        "zh": "荷兰联省议会于3月20日授予荷兰东印度公司（VOC）为期21年的特许状"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Dutch East India Company\": granted a 21-year charter on 20 March 1602 with 6.4 million guilders of capital.",
+          "url": "https://www.worldhistory.org/Dutch_East_India_Company/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Dutch United East India Company\": on 20 March 1602 the States-General of the Dutch Republic granted the company its charter.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-united-east-india-company"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "twelve-years-truce",
+      "start": 1609,
+      "type": "founding",
+      "title": {
+        "en": "Spain agrees the Twelve Years' Truce, halting the fighting with the northern provinces",
+        "es": "España acuerda la Tregua de los Doce Años, que detiene los combates con las provincias del norte",
+        "zh": "西班牙同意签订十二年停战协定，与北方各省停止交战"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Dutch Republic\": the independence of the northern provinces was confirmed in a Twelve Years' Truce in 1609.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-republic"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Eighty Years' War\": a truce was called in 1609, the Twelve Years' Truce, with hostilities resuming in 1621.",
+          "url": "https://www.worldhistory.org/Eighty_Years'_War/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "voc-takes-banda-islands",
+      "start": 1621,
+      "type": "conflict",
+      "title": {
+        "en": "VOC forces take the Banda Islands, the centre of nutmeg production, and run them as plantations worked by enslaved people",
+        "es": "Fuerzas de la VOC toman las islas Banda, centro de la producción de nuez moscada, y las gestionan como plantaciones trabajadas por personas esclavizadas",
+        "zh": "荷兰东印度公司军队占领肉豆蔻产地班达群岛，并将其变为由被奴役者耕作的种植园"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Dutch United East India Company\": in 1621 the VOC took the Banda Islands, which became a plantation economy run by slaves.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-united-east-india-company"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Dutch East India Company\": in May 1621 44 Bandanese leaders were killed, and captured or fleeing Bandanese were sold into slavery.",
+          "url": "https://www.worldhistory.org/Dutch_East_India_Company/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Banda Islands, Maluku",
+          "es": "Islas Banda, Molucas",
+          "zh": "班达群岛，马鲁古"
+        },
+        "lat": -4.52,
+        "lon": 129.9
+      }
+    },
+    {
+      "id": "peace-of-munster",
+      "start": 1648,
+      "type": "founding",
+      "title": {
+        "en": "Spain recognises the independence of the Dutch Republic in the Peace of Münster, signed on 30 January and later folded into the Peace of Westphalia",
+        "es": "España reconoce la independencia de la República Neerlandesa en la Paz de Münster, firmada el 30 de enero e incorporada después a la Paz de Westfalia",
+        "zh": "西班牙在1月30日签订的《明斯特和约》中承认荷兰共和国独立，该和约后来并入威斯特伐利亚和约"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Dutch Revolt (1568–1648)\": on 30 January 1648 the Peace of Münster, later part of the Peace of Westphalia, ended the war between Spain and the United Provinces and guaranteed the Republic's independence.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-revolt-1568-1648"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Eighty Years' War\": the Peace of Münster (January 1648) stipulated Dutch independence and took effect in the Peace of Westphalia in October 1648.",
+          "url": "https://www.worldhistory.org/Eighty_Years'_War/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Sources date the end of the war to January 1648, when the Peace of Münster was agreed, or to October 1648, when it was included in the Peace of Westphalia.",
+        "es": "Las fuentes fechan el fin de la guerra en enero de 1648, cuando se acordó la Paz de Münster, o en octubre de 1648, cuando se incluyó en la Paz de Westfalia.",
+        "zh": "各来源将战争的结束定在1648年1月《明斯特和约》达成时，或定在1648年10月和约并入威斯特伐利亚和约时。"
+      },
+      "place": {
+        "name": {
+          "en": "Münster",
+          "es": "Münster",
+          "zh": "明斯特"
+        },
+        "lat": 51.9607,
+        "lon": 7.6261
+      }
+    },
+    {
+      "id": "patriot-revolution-ends",
+      "start": 1787,
+      "type": "conflict",
+      "title": {
+        "en": "A Prussian army enters the Republic, with British diplomatic backing, ends the Patriot Revolution and restores the Orangist regime",
+        "es": "Un ejército prusiano entra en la República, con respaldo diplomático británico, pone fin a la Revolución Patriota y restablece el régimen orangista",
+        "zh": "普鲁士军队在英国的外交支持下进入共和国，结束爱国者革命，恢复奥兰治派政权"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Patriot Revolution\": the revolution ended abruptly when British and Prussian military intervention restored the Orangist regime in the fall of 1787.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/patriot-revolution"
+        },
+        {
+          "citation": "Britannica, \"Patriot Movement\": Prussia sent an army into the United Provinces after Princess Wilhelmina was held at the provincial border, swept away the Holland and Utrecht militias and restored the stadtholder; Wilhelmina had arranged the crisis with the English ambassador.",
+          "url": "https://www.britannica.com/topic/Patriot-Movement-Dutch-political-movement"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Encyclopedia.com calls the intervention British and Prussian and military. Britannica describes Prussian troops, with Britain acting through its ambassador, so the title names British backing as diplomatic.",
+        "es": "Encyclopedia.com habla de una intervención militar británica y prusiana. Britannica describe tropas prusianas, con Gran Bretaña actuando a través de su embajador, por lo que el título habla de respaldo diplomático británico.",
+        "zh": "Encyclopedia.com称这是英国和普鲁士的军事干预。大英百科全书则描述为普鲁士军队行动，英国通过其大使施加影响，因此标题将英国的支持表述为外交支持。"
+      }
+    },
+    {
+      "id": "batavian-revolution",
+      "start": 1795,
+      "type": "collapse",
+      "title": {
+        "en": "French troops overrun the Republic in January and the Batavian Republic replaces it",
+        "es": "Tropas francesas ocupan la República en enero y la República Bátava la sustituye",
+        "zh": "法军于1月攻入共和国，巴达维亚共和国取而代之"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"French Revolutionary Wars\": French troops overran Holland in 1795 and set up the Batavian Republic; the Dutch Republic fell in January 1795.",
+          "url": "https://www.worldhistory.org/French_Revolutionary_Wars/"
+        },
+        {
+          "citation": "Rijksmuseum, \"Batavian Republic\": the Patriots enlisted French help; in January 1795 William V was forced to flee to England and the Batavian Republic was founded soon afterwards.",
+          "url": "https://www.rijksmuseum.nl/en/collection/node/Batavian-Republic--95fc6c7312c04ee4a38083f2a4626258"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Dutch Patriots asked for French help and took part in the change of government, which the Rijksmuseum describes as a sister state to revolutionary France.",
+        "es": "Los patriotas neerlandeses pidieron la ayuda francesa y participaron en el cambio de gobierno, que el Rijksmuseum describe como un estado hermano de la Francia revolucionaria.",
+        "zh": "荷兰爱国者请求法国援助并参与了政权更迭，国立博物馆（Rijksmuseum）称新政权是革命法国的姊妹国家。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "wic-slave-shipments",
+      "text": {
+        "en": "Encyclopedia.com gives the Dutch West India Company's shipments of enslaved Africans as about 84,000 between 1630 and 1674, to Brazil, Guyana and Curaçao, and about 187,000 between 1674 and 1739, to the western colonies.",
+        "es": "Encyclopedia.com cifra los envíos de africanos esclavizados de la Compañía Neerlandesa de las Indias Occidentales en unos 84 000 entre 1630 y 1674, a Brasil, Guyana y Curazao, y en unos 187 000 entre 1674 y 1739, a las colonias occidentales.",
+        "zh": "Encyclopedia.com给出荷兰西印度公司运送被奴役非洲人的数字：1630至1674年约8.4万人，运往巴西、圭亚那和库拉索；1674至1739年约18.7万人，运往西部各殖民地。"
+      },
+      "start": 1630,
+      "end": 1739,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Dutch West India Company\": shipped approximately 84,000 slaves from Africa between 1630 and 1674 and approximately 187,000 between 1674 and 1739.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-west-india-company"
+        },
+        {
+          "citation": "Britannica, \"Dutch West India Company\": the labour needs of Brazilian plantations made it imperative for the company to buy slaves in Africa, and it seized Portuguese bases on the West African coast to do so.",
+          "url": "https://www.britannica.com/topic/Dutch-West-India-Company"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

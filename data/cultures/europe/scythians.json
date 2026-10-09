@@ -1,0 +1,252 @@
+{
+  "id": "scythians",
+  "region": "europe",
+  "wikidataId": "Q131802",
+  "name": {
+    "en": "Scythians",
+    "es": "Escitas",
+    "zh": "斯基泰人"
+  },
+  "aliases": [
+    "Scythia",
+    "Scyths",
+    "Skythians",
+    "Escitia",
+    "斯基泰",
+    "Pontic Scythians"
+  ],
+  "description": {
+    "en": "Mounted nomads who held the steppe north of the Black Sea. Herodotus described their customs, and their kurgans hold some of the finest gold work of the ancient world. Sarmatians and then Goths displaced them by the 3rd century CE.",
+    "es": "Nómadas a caballo que dominaron la estepa al norte del mar Negro. Heródoto describió sus costumbres, y sus kurganes guardan algunas de las mejores piezas de orfebrería del mundo antiguo. Sármatas y después godos los desplazaron hacia el siglo III e. c.",
+    "zh": "称雄黑海以北草原的骑马游牧人。希罗多德记述了他们的习俗，他们的库尔干墓中出土了古代世界最精美的一批金器。到公元3世纪，萨尔马提亚人和哥特人取代了他们。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "scythian-period",
+      "earliestStart": -809,
+      "latestStart": -649,
+      "earliestEnd": -149,
+      "latestEnd": 275,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Scythian\" (7th century BC – 2nd century BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hvx6p"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Scythians.\"",
+          "url": "https://www.worldhistory.org/Scythians/"
+        },
+        {
+          "citation": "Encyclopedia of Ukraine. \"Scythians.\"",
+          "url": "https://www.encyclopediaofukraine.com/pages%5CS%5CC%5CScythians.htm"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Origins are debated. Excavations at Tuva date Scythian settlement to the late 9th century BCE, while the British Museum dates the Scythian period from the 7th century BCE. Their power on the steppe faded from the 3rd to the 2nd century BCE, and a Crimean kingdom lasted until the 3rd century CE. The World History Encyclopedia has the Scythians vanish from the record in the 4th century CE.",
+        "es": "Los orígenes son objeto de debate. Las excavaciones en Tuvá datan el asentamiento escita a fines del siglo IX a. e. c., mientras que el Museo Británico fecha el periodo escita desde el siglo VII a. e. c. Su poder en la estepa decayó entre los siglos III y II a. e. c., y un reino en Crimea duró hasta el siglo III e. c. La World History Encyclopedia hace desaparecer a los escitas de las fuentes en el siglo IV e. c.",
+        "zh": "其起源尚有争议。图瓦的发掘把斯基泰人的定居定在公元前9世纪晚期，而大英博物馆把斯基泰时期定在公元前7世纪起。他们在草原上的势力在公元前3至前2世纪衰落，克里米亚的一个王国延续到公元3世纪。《世界历史百科全书》称斯基泰人在公元4世纪从史料中消失。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "steppe-rise",
+      "start": -699,
+      "type": "founding",
+      "title": {
+        "en": "Scythian horsemen establish themselves on the Pontic steppe north of the Black Sea",
+        "es": "Los jinetes escitas se establecen en la estepa póntica, al norte del mar Negro",
+        "zh": "斯基泰骑手在黑海以北的蓬蒂克草原站稳脚跟"
+      },
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Scythian\" (7th century BC – 2nd century BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hvx6p"
+        },
+        {
+          "citation": "Encyclopedia of Ukraine. \"Scythians.\"",
+          "url": "https://www.encyclopediaofukraine.com/pages%5CS%5CC%5CScythians.htm"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Herodotus and most modern scholars have the Scythians arrive from Asia. Dates for the move range from the late 9th century BCE (Tuva) through the late 8th century BCE (Encyclopedia of Ukraine) to the 7th century BCE (British Museum).",
+        "es": "Heródoto y la mayoría de los estudiosos actuales hacen llegar a los escitas desde Asia. Las fechas de la migración van desde fines del siglo IX a. e. c. (Tuvá), pasando por fines del siglo VIII a. e. c. (Encyclopedia of Ukraine), hasta el siglo VII a. e. c. (Museo Británico).",
+        "zh": "希罗多德和多数现代学者认为斯基泰人从亚洲迁来。迁徙年代从公元前9世纪晚期（图瓦），经公元前8世纪晚期（《乌克兰百科全书》），到公元前7世纪（大英博物馆）不等。"
+      }
+    },
+    {
+      "id": "darius-campaign",
+      "start": -512,
+      "end": -511,
+      "type": "conflict",
+      "title": {
+        "en": "Darius I leads a Persian army against the Scythians, who retreat and strip the land until he withdraws",
+        "es": "Darío I lleva un ejército persa contra los escitas, que se retiran y arrasan el terreno hasta que él se marcha",
+        "zh": "大流士一世率波斯军队进攻斯基泰人，对方后撤并焚毁沿途土地，直到他撤军"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia of Ukraine. \"Scythians.\"",
+          "url": "https://www.encyclopediaofukraine.com/pages%5CS%5CC%5CScythians.htm"
+        },
+        {
+          "citation": "Herodotus, Histories 4.120-142 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+4.120"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Encyclopedia of Ukraine dates the campaign to about 513–512 BCE. Herodotus gives no year.",
+        "es": "La Encyclopedia of Ukraine fecha la campaña hacia 513-512 a. e. c. Heródoto no da año.",
+        "zh": "《乌克兰百科全书》把这次远征定在约公元前513至前512年。希罗多德没有给出年份。"
+      }
+    },
+    {
+      "id": "ateas-and-philip",
+      "start": -338,
+      "type": "conflict",
+      "title": {
+        "en": "King Ateas fights Philip II of Macedon and is killed in the battle",
+        "es": "El rey Ateas combate contra Filipo II de Macedonia y muere en la batalla",
+        "zh": "阿提亚斯国王与马其顿的腓力二世交战并战死"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Scythians.\"",
+          "url": "https://www.worldhistory.org/Scythians/"
+        },
+        {
+          "citation": "Encyclopedia of Ukraine. \"Scythians.\"",
+          "url": "https://www.encyclopediaofukraine.com/pages%5CS%5CC%5CScythians.htm"
+        },
+        {
+          "citation": "Strabo, Geography 7.3.18 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0198%3Abook%3D7%3Achapter%3D3%3Asection%3D18"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The World History Encyclopedia and the Encyclopedia of Ukraine both date Ateas's death in battle against Philip to 339 BCE. Strabo records the war but gives no year, and a later author, Lucian, is the source for Ateas dying in it.",
+        "es": "La World History Encyclopedia y la Encyclopedia of Ukraine fechan en 339 a. e. c. la muerte de Ateas en combate contra Filipo. Estrabón registra la guerra sin dar año, y Luciano, un autor posterior, es la fuente de que Ateas muriera en ella.",
+        "zh": "《世界历史百科全书》和《乌克兰百科全书》都把阿提亚斯与腓力交战阵亡定在公元前339年。斯特拉波记载了这场战争但没有给出年份，阿提亚斯战死之说出自后世作家琉善。"
+      }
+    },
+    {
+      "id": "royal-kurgans",
+      "start": -399,
+      "end": -300,
+      "type": "invention",
+      "title": {
+        "en": "Scythian elites are buried in steppe mounds with gold vessels and ornaments, as at Kul-Oba in Crimea",
+        "es": "Las élites escitas son enterradas en túmulos de la estepa con vasijas y adornos de oro, como en Kul-Oba, en Crimea",
+        "zh": "斯基泰精英被葬入草原土丘，随葬金器和饰品，如克里米亚的库尔奥巴墓"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Scythians.\"",
+          "url": "https://www.worldhistory.org/Scythians/"
+        },
+        {
+          "citation": "Encyclopedia of Ukraine. \"Scythians.\"",
+          "url": "https://www.encyclopediaofukraine.com/pages%5CS%5CC%5CScythians.htm"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "neapolis-capital",
+      "start": -249,
+      "type": "founding",
+      "title": {
+        "en": "The Royal Scythians make Neapolis in Crimea their capital",
+        "es": "Los escitas reales hacen de Neápolis, en Crimea, su capital",
+        "zh": "王族斯基泰人以克里米亚的内阿波利斯为都"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Neapolis Scythica.\"",
+          "url": "https://www.ebsco.com/research-starters/anthropology/neapolis-scythica"
+        },
+        {
+          "citation": "Encyclopedia of Ukraine. \"Scythians.\"",
+          "url": "https://www.encyclopediaofukraine.com/pages%5CS%5CC%5CScythians.htm"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "EBSCO dates the capital to the 3rd century BCE. The Encyclopedia of Ukraine has the Scythians re-established around Neapolis in the 2nd century BCE.",
+        "es": "EBSCO fecha la capital en el siglo III a. e. c. La Encyclopedia of Ukraine sitúa el restablecimiento de los escitas en torno a Neápolis en el siglo II a. e. c.",
+        "zh": "EBSCO把这座都城定在公元前3世纪。《乌克兰百科全书》则说斯基泰人在公元前2世纪于内阿波利斯一带重新立足。"
+      }
+    },
+    {
+      "id": "goths-overrun-crimea",
+      "start": 250,
+      "type": "collapse",
+      "title": {
+        "en": "Sarmatians, Alans and Goths overrun the Crimean Scythian kingdom",
+        "es": "Sármatas, alanos y godos arrasan el reino escita de Crimea",
+        "zh": "萨尔马提亚人、阿兰人和哥特人攻陷克里米亚的斯基泰王国"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Neapolis Scythica.\"",
+          "url": "https://www.ebsco.com/research-starters/anthropology/neapolis-scythica"
+        },
+        {
+          "citation": "Encyclopedia of Ukraine. \"Scythians.\"",
+          "url": "https://www.encyclopediaofukraine.com/pages%5CS%5CC%5CScythians.htm"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Both sources give only the 3rd century CE. After this the Scythians disappear as a distinct people, assimilated mainly by the Sarmatians.",
+        "es": "Ambas fuentes dan solo el siglo III e. c. Después los escitas desaparecen como pueblo diferenciado, asimilados sobre todo por los sármatas.",
+        "zh": "两种来源都只说是公元3世纪。此后斯基泰人不再作为独立族群出现，主要被萨尔马提亚人同化。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "idanthyrsus-reply",
+      "start": -512,
+      "end": -511,
+      "text": {
+        "en": "Herodotus has the Scythian king Idanthyrsus tell Darius that the Scythians had no towns or fields to defend, only their fathers' graves, and would fight if Darius tried to dig them up.",
+        "es": "Heródoto cuenta que el rey escita Idantirso respondió a Darío que los escitas no tenían ciudades ni campos que defender, solo las tumbas de sus padres, y que lucharían si Darío intentaba destruirlas.",
+        "zh": "希罗多德记载，斯基泰国王伊丹图尔苏斯对大流士说，斯基泰人没有城镇和田地需要守卫，只有先人的坟墓，若大流士去毁坟，他们才会开战。"
+      },
+      "sources": [
+        {
+          "citation": "Herodotus, Histories 4.127 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+4.127"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "hemp-steam",
+      "start": -449,
+      "end": -399,
+      "text": {
+        "en": "Herodotus says the Scythians threw hemp seed on red-hot stones inside a felt tent and howled with pleasure in the fumes, which they used in place of washing with water.",
+        "es": "Heródoto dice que los escitas arrojaban semillas de cáñamo sobre piedras al rojo dentro de una tienda de fieltro y aullaban de placer entre los vapores, que usaban en lugar de lavarse con agua.",
+        "zh": "希罗多德说，斯基泰人在毡帐里把大麻籽撒在烧红的石头上，在烟气中欢呼嚎叫，并以此代替用水洗澡。"
+      },
+      "sources": [
+        {
+          "citation": "Herodotus, Histories 4.75 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+4.75"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

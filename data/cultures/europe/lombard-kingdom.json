@@ -1,0 +1,216 @@
+{
+  "id": "lombard-kingdom",
+  "region": "europe",
+  "wikidataId": "Q854415",
+  "name": {
+    "en": "Lombard Kingdom",
+    "es": "Reino lombardo",
+    "zh": "伦巴第王国"
+  },
+  "nativeName": {
+    "text": "Regnum Langobardorum",
+    "lang": "la"
+  },
+  "aliases": [
+    "Kingdom of the Lombards",
+    "Lombards",
+    "Langobards",
+    "Longobards",
+    "Regnum Italiae",
+    "Lombardos",
+    "伦巴第人",
+    "伦巴底"
+  ],
+  "description": {
+    "en": "A Germanic kingdom in northern and central Italy, founded when Alboin led the Lombards across the Alps in 568. Pavia was its capital. Charlemagne took Pavia in 774 and added the kingdom to the Frankish realm.",
+    "es": "Reino germánico del norte y centro de Italia, fundado cuando Alboíno condujo a los lombardos a través de los Alpes en 568. Su capital fue Pavía. Carlomagno tomó Pavía en 774 y sumó el reino al dominio franco.",
+    "zh": "意大利北部和中部的日耳曼王国，568年阿尔博因率伦巴第人翻越阿尔卑斯山后建立，以帕维亚为都。774年查理曼攻取帕维亚，把这个王国并入法兰克王国。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "lombard-kingdom",
+      "earliestStart": 568,
+      "latestStart": 568,
+      "earliestEnd": 774,
+      "latestEnd": 774,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Lombards.\"",
+          "url": "https://www.worldhistory.org/Lombards/"
+        },
+        {
+          "citation": "Wikidata, \"Kingdom of the Lombards\" (Q854415): start 568, end 774.",
+          "url": "https://www.wikidata.org/wiki/Q854415"
+        },
+        {
+          "citation": "Einhard, Life of Charlemagne, ch. 6 (Fordham Internet History Sourcebooks).",
+          "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
+        }
+      ],
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "gepids-destroyed",
+      "start": 567,
+      "type": "conflict",
+      "title": {
+        "en": "The Lombards and the Avars destroy the Gepid kingdom",
+        "es": "Los lombardos y los ávaros destruyen el reino de los gépidos",
+        "zh": "伦巴第人和阿瓦尔人灭掉格皮德王国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Lombards.\"",
+          "url": "https://www.worldhistory.org/Lombards/"
+        },
+        {
+          "citation": "Wikipedia. \"Alboin.\"",
+          "url": "https://en.wikipedia.org/wiki/Alboin"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources agree on the alliance with the Avars and the year 567, but differ on who killed the Gepid king Cunimund.",
+        "es": "Las fuentes coinciden en la alianza con los ávaros y en el año 567, pero difieren sobre quién mató al rey gépido Cunimundo.",
+        "zh": "各来源在与阿瓦尔人的联盟和567年这一年份上一致，但对格皮德国王库尼蒙德是被谁杀死的看法不一。"
+      }
+    },
+    {
+      "id": "invasion-of-italy",
+      "start": 568,
+      "type": "founding",
+      "title": {
+        "en": "Alboin leads the Lombards into Italy and founds their kingdom",
+        "es": "Alboíno conduce a los lombardos a Italia y funda su reino",
+        "zh": "阿尔博因率伦巴第人进入意大利并建立王国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Lombards.\"",
+          "url": "https://www.worldhistory.org/Lombards/"
+        },
+        {
+          "citation": "Wikipedia. \"Alboin.\"",
+          "url": "https://en.wikipedia.org/wiki/Alboin"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "alboin-killed",
+      "start": 572,
+      "type": "ruler",
+      "title": {
+        "en": "Alboin is assassinated at Verona in a plot involving his wife Rosamund and his foster brother Helmichis",
+        "es": "Alboíno es asesinado en Verona en una conjura en la que participan su esposa Rosamunda y su hermano de leche Helmichis",
+        "zh": "阿尔博因在维罗纳被刺杀，参与阴谋的有妻子罗莎蒙德和义兄赫尔米奇斯"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Alboin.\"",
+          "url": "https://www.worldhistory.org/Alboin/"
+        },
+        {
+          "citation": "Wikipedia. \"Alboin.\"",
+          "url": "https://en.wikipedia.org/wiki/Alboin"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The World History Encyclopedia, following Paul the Deacon, says Rosamund set the plot in motion to avenge her father. Wikipedia names Helmichis as its organiser, with Rosamund's support, and notes an account that has the Byzantines instigating it. Wikipedia dates the killing to 28 June 572.",
+        "es": "La World History Encyclopedia, siguiendo a Pablo el Diácono, dice que Rosamunda puso en marcha la conjura para vengar a su padre. Wikipedia nombra a Helmichis como su organizador, con el apoyo de Rosamunda, y menciona un relato que atribuye la instigación a los bizantinos. Wikipedia fecha el asesinato el 28 de junio de 572.",
+        "zh": "《世界历史百科全书》依据执事保罗，称罗莎蒙德为替父报仇发动了这场阴谋。维基百科称赫尔米奇斯是组织者，罗莎蒙德予以支持，并提到一种说法认为拜占庭人是幕后推手。维基百科把刺杀定在572年6月28日。"
+      }
+    },
+    {
+      "id": "pepin-besieges-pavia",
+      "start": 755,
+      "type": "conflict",
+      "title": {
+        "en": "Pepin III of the Franks besieges King Aistulf in Pavia",
+        "es": "Pipino III de los francos sitia al rey Astolfo en Pavía",
+        "zh": "法兰克的丕平三世在帕维亚围攻国王艾斯图尔夫"
+      },
+      "sources": [
+        {
+          "citation": "Einhard, Life of Charlemagne, ch. 6 (Fordham Internet History Sourcebooks).",
+          "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
+        },
+        {
+          "citation": "Wikipedia. \"Donation of Pepin.\"",
+          "url": "https://en.wikipedia.org/wiki/Donation_of_Pepin"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Einhard's translator brackets 754 beside the war. Wikipedia dates Pepin's first invasion and his siege of Pavia to 755, and a second campaign to 756.",
+        "es": "El traductor de Eginardo anota 754 junto a la guerra. Wikipedia fecha la primera invasión de Pipino y su sitio de Pavía en 755, y una segunda campaña en 756.",
+        "zh": "艾因哈德译本的编者在这场战争旁标注了754年。维基百科把丕平的第一次入侵和围攻帕维亚定在755年，第二次出征定在756年。"
+      }
+    },
+    {
+      "id": "charlemagne-takes-pavia",
+      "start": 774,
+      "type": "collapse",
+      "title": {
+        "en": "Charlemagne takes Pavia and defeats King Desiderius, ending the Lombard kingdom",
+        "es": "Carlomagno toma Pavía y derrota al rey Desiderio, y el reino lombardo termina",
+        "zh": "查理曼攻取帕维亚，击败国王德西迪里乌斯，伦巴第王国覆灭"
+      },
+      "place": {
+        "name": {
+          "en": "Pavia",
+          "es": "Pavía",
+          "zh": "帕维亚"
+        },
+        "lat": 45.1847,
+        "lon": 9.1582
+      },
+      "sources": [
+        {
+          "citation": "Einhard, Life of Charlemagne, ch. 6 (Fordham Internet History Sourcebooks).",
+          "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
+        },
+        {
+          "citation": "Wikipedia. \"Siege of Pavia (773–774).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Pavia_(773%E2%80%93774)"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Lombards.\"",
+          "url": "https://www.worldhistory.org/Lombards/"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "alboin-skull-cup",
+      "start": 567,
+      "end": 572,
+      "text": {
+        "en": "Paul the Deacon, writing later, says Alboin had a drinking cup made from the skull of the Gepid king Cunimund.",
+        "es": "Pablo el Diácono, que escribió tiempo después, dice que Alboíno hizo fabricar una copa con el cráneo del rey gépido Cunimundo.",
+        "zh": "后世的执事保罗说，阿尔博因用格皮德国王库尼蒙德的头骨做了一只酒杯。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Alboin.\"",
+          "url": "https://www.worldhistory.org/Alboin/"
+        },
+        {
+          "citation": "Wikipedia. \"Alboin.\"",
+          "url": "https://en.wikipedia.org/wiki/Alboin"
+        }
+      ],
+      "disputed": true
+    }
+  ]
+}

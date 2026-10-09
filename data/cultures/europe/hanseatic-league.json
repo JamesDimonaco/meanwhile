@@ -1,0 +1,259 @@
+{
+  "id": "hanseatic-league",
+  "region": "europe",
+  "wikidataId": "Q42908",
+  "name": {
+    "en": "Hanseatic League",
+    "es": "Liga Hanseática",
+    "zh": "汉萨同盟"
+  },
+  "nativeName": {
+    "text": "Hanse",
+    "lang": "de"
+  },
+  "aliases": [
+    "Hansa",
+    "Hanse",
+    "Hanseatic",
+    "German Hansa",
+    "Hansa teutónica",
+    "汉萨"
+  ],
+  "description": {
+    "en": "A network of north German towns and merchant communities abroad that protected shared trade across the Baltic and North Seas. Lübeck led it, and its trading posts at Bruges, Bergen, London and Novgorod handled goods from fur to grain.",
+    "es": "Red de ciudades del norte de Alemania y comunidades de mercaderes en el extranjero que protegió el comercio común en el Báltico y el mar del Norte. Lideraba Lübeck, y sus factorías de Brujas, Bergen, Londres y Nóvgorod movían mercancías desde pieles hasta cereales.",
+    "zh": "由德意志北部城市和海外商人团体组成的网络，保护波罗的海与北海的共同贸易。吕贝克居于领导地位，同盟在布鲁日、卑尔根、伦敦和诺夫哥罗德的商站经手从毛皮到谷物的各种货物。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "league",
+      "earliestStart": 1241,
+      "latestStart": 1356,
+      "earliestEnd": 1669,
+      "latestEnd": 1669,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Hanseatic League.\"",
+          "url": "https://www.britannica.com/topic/Hanseatic-League"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Hanseatic League.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The league had no founding act. Britannica dates the formal alliance of Lübeck and Hamburg to 1241 and lists the league as 1175–1669. The 1911 Britannica puts the completed unification of the towns between 1356 and 1377. It names 1669 as the date of the last general assembly.",
+        "es": "La liga no tuvo un acto fundacional. La Britannica fecha la alianza formal de Lübeck y Hamburgo en 1241 y da la liga como 1175–1669. La Britannica de 1911 sitúa la unificación de las ciudades entre 1356 y 1377. Señala 1669 como la fecha de la última asamblea general.",
+        "zh": "同盟没有正式的创立文件。《大英百科全书》把吕贝克与汉堡的正式联盟定在1241年，并把同盟存续期列为1175–1669年。1911年版《大英百科全书》认为城市联合在1356至1377年间完成，并把1669年作为最后一次全体会议的时间。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "lubeck-hamburg-pact",
+      "start": 1241,
+      "type": "founding",
+      "title": {
+        "en": "Lübeck and Hamburg form a formal alliance against robbers and pirates, one of the league's earliest agreements",
+        "es": "Lübeck y Hamburgo forman una alianza formal contra bandoleros y piratas, uno de los primeros acuerdos de la liga",
+        "zh": "吕贝克与汉堡结成防范盗匪和海盗的正式联盟，是同盟最早的协定之一"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Hanseatic League.\"",
+          "url": "https://www.britannica.com/topic/Hanseatic-League"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Hanseatic League.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lübeck",
+          "es": "Lübeck",
+          "zh": "吕贝克"
+        },
+        "lat": 53.8655,
+        "lon": 10.6866
+      }
+    },
+    {
+      "id": "bruges-privileges",
+      "start": 1252,
+      "end": 1253,
+      "type": "founding",
+      "title": {
+        "en": "Treaty privileges for German merchants in Flanders open the way for the Hanseatic trading post at Bruges",
+        "es": "Los privilegios por tratado para los mercaderes alemanes en Flandes abren el camino a la factoría hanseática de Brujas",
+        "zh": "弗兰德斯给予德意志商人的条约特权，为汉萨同盟在布鲁日设立商站铺平道路"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Hanseatic League.\"",
+          "url": "https://www.britannica.com/topic/Hanseatic-League"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Hanseatic League.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Bruges",
+          "es": "Brujas",
+          "zh": "布鲁日"
+        },
+        "lat": 51.2093,
+        "lon": 3.2247
+      }
+    },
+    {
+      "id": "london-hanse",
+      "start": 1282,
+      "type": "founding",
+      "title": {
+        "en": "The Cologne and Lübeck–Hamburg merchants in London join in one German Hanse, the post later known as the Steelyard",
+        "es": "Los mercaderes de Colonia y los de Lübeck y Hamburgo en Londres se unen en una sola Hansa alemana, la factoría llamada después Steelyard",
+        "zh": "在伦敦的科隆商人与吕贝克—汉堡商人合为同一个德意志汉萨，这处商站后来被称为钢院"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Hanseatic League.\"",
+          "url": "https://www.britannica.com/topic/Hanseatic-League"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Hanseatic League.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "London",
+          "es": "Londres",
+          "zh": "伦敦"
+        },
+        "lat": 51.5113,
+        "lon": -0.09
+      }
+    },
+    {
+      "id": "bergen-privileges",
+      "start": 1343,
+      "type": "founding",
+      "title": {
+        "en": "Hanseatic merchants win special trade privileges at Bergen, the last of the main trading posts to be organised",
+        "es": "Los mercaderes hanseáticos obtienen privilegios comerciales especiales en Bergen, la última de las factorías principales en organizarse",
+        "zh": "汉萨商人在卑尔根获得特别贸易特权，卑尔根是最后一处组织起来的主要商站"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Hanseatic League.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
+        },
+        {
+          "citation": "Wikipedia. \"Bryggen.\"",
+          "url": "https://en.wikipedia.org/wiki/Bryggen"
+        }
+      ],
+      "disputed": true,
+      "place": {
+        "name": {
+          "en": "Bergen",
+          "es": "Bergen",
+          "zh": "卑尔根"
+        },
+        "lat": 60.3913,
+        "lon": 5.3221
+      },
+      "note": {
+        "en": "The 1911 Britannica gives 1343 for the Hanseatic merchants' special privileges at Bergen. Wikipedia says German merchants held trading rights in Norway from 1294 and puts the formal Kontor around 1350; other accounts say 1366.",
+        "es": "La Britannica de 1911 da 1343 para los privilegios especiales de los mercaderes hanseáticos en Bergen. Wikipedia indica que los mercaderes alemanes tenían derechos comerciales en Noruega desde 1294 y sitúa el Kontor formal hacia 1350; otros relatos dicen 1366.",
+        "zh": "1911年版《大英百科全书》把汉萨商人在卑尔根的特别特权定在1343年。维基百科称德意志商人自1294年起在挪威享有贸易权，并把正式商站定在约1350年；另有说法是1366年。"
+      }
+    },
+    {
+      "id": "peace-of-stralsund",
+      "start": 1370,
+      "type": "conflict",
+      "title": {
+        "en": "After defeating Denmark's King Valdemar IV, the Hanseatic towns sign the Peace of Stralsund, gaining trade privileges and four castles on the Sound for a time",
+        "es": "Tras derrotar al rey Valdemar IV de Dinamarca, las ciudades hanseáticas firman la Paz de Stralsund y obtienen privilegios comerciales y, por un tiempo, cuatro castillos en el Sund",
+        "zh": "击败丹麦国王瓦尔德马四世后，汉萨城市签订《施特拉尔松德和约》，获得贸易特权，并在一段时间内控制松德海峡的四座城堡"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Valdemar IV Atterdag.\"",
+          "url": "https://www.britannica.com/biography/Valdemar-IV-Atterdag"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Hanseatic League.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Stralsund",
+          "es": "Stralsund",
+          "zh": "施特拉尔松德"
+        },
+        "lat": 54.309,
+        "lon": 13.0818
+      }
+    },
+    {
+      "id": "last-general-assembly",
+      "start": 1669,
+      "type": "collapse",
+      "title": {
+        "en": "The last general assembly meets; Lübeck, Bremen and Hamburg keep the Hanseatic name alone",
+        "es": "Se reúne la última asamblea general; Lübeck, Bremen y Hamburgo conservan solas el nombre hanseático",
+        "zh": "最后一次全体会议召开；此后只有吕贝克、不来梅和汉堡保留汉萨之名"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Hanseatic League.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Hanseatic League.\"",
+          "url": "https://www.britannica.com/topic/Hanseatic-League"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "four-trading-posts",
+      "start": 1252,
+      "end": 1669,
+      "text": {
+        "en": "The league ran four main trading posts abroad, at Bruges, Bergen, London and Novgorod.",
+        "es": "La liga mantuvo cuatro factorías principales en el extranjero, en Brujas, Bergen, Londres y Nóvgorod.",
+        "zh": "同盟在海外设有四处主要商站，分别在布鲁日、卑尔根、伦敦和诺夫哥罗德。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Hanseatic League.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
+        },
+        {
+          "citation": "Wikipedia. \"Hanseatic League.\"",
+          "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

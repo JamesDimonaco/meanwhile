@@ -1,0 +1,368 @@
+{
+  "id": "kingdom-of-france",
+  "region": "europe",
+  "wikidataId": "Q70972",
+  "name": {
+    "en": "Kingdom of France",
+    "es": "Reino de Francia",
+    "zh": "法兰西王国"
+  },
+  "nativeName": {
+    "text": "Royaume de France",
+    "lang": "fr"
+  },
+  "aliases": [
+    "France",
+    "French monarchy",
+    "Monarchie française",
+    "Capetian France",
+    "House of Capet",
+    "House of Valois",
+    "House of Bourbon",
+    "Ancien Régime",
+    "West Francia",
+    "法国",
+    "旧制度"
+  ],
+  "description": {
+    "en": "The monarchy that followed West Francia, usually dated from Hugh Capet's election in 987. Capetian, Valois and Bourbon kings fought the Hundred Years' War, moved the court to Versailles in 1682, and lost the throne when the Convention proclaimed a republic on 21 September 1792.",
+    "es": "La monarquía que sucedió a la Francia Occidental, fechada por lo común desde la elección de Hugo Capeto en 987. Los reyes capetos, Valois y Borbones libraron la guerra de los Cien Años, trasladaron la corte a Versalles en 1682 y perdieron el trono cuando la Convención proclamó la república el 21 de septiembre de 1792.",
+    "zh": "继西法兰克王国而起的君主国，通常从987年于格·卡佩当选算起。卡佩、瓦卢瓦和波旁诸王打过百年战争，1682年把宫廷迁到凡尔赛，1792年9月21日国民公会宣布共和后王位终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kingdom-of-france",
+      "earliestStart": 843,
+      "latestStart": 987,
+      "earliestEnd": 1792,
+      "latestEnd": 1792,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of West Francia\" (Verdun gives Charles the Bald West Francia in 843; Hugh Capet establishes the Kingdom of France in 987).",
+          "url": "https://www.worldhistory.org/Kingdom_of_West_Francia/"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Capetians, 987-1328\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3tqzr"
+        },
+        {
+          "citation": "Assemblée nationale (juniors). \"1789-1799: la Révolution française\" (the Convention proclaims the republic on 21 September 1792).",
+          "url": "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/juniors/histoire/1789-1799-la-revolution-francaise"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start is a convention. 843 is the Treaty of Verdun, which created the western Frankish realm, but sources call that realm West Francia. 987 is Hugh Capet and the first Capetian king, the date used for the Kingdom of France. The bar is solid from 987. It ends with the first republic in 1792 (Wikidata uses 1791, the constitutional monarchy); the Bourbon monarchy that returned in 1814 is not covered.",
+        "es": "El comienzo es una convención. 843 es el Tratado de Verdún, que creó el reino franco occidental, pero las fuentes llaman a ese reino Francia Occidental. 987 es Hugo Capeto y el primer rey capeto, la fecha que se usa para el Reino de Francia. La barra es sólida desde 987. Termina con la primera república en 1792 (Wikidata usa 1791, la monarquía constitucional); la monarquía borbónica que volvió en 1814 no se cubre.",
+        "zh": "起点只是一种惯例。843年的《凡尔登条约》创立了西部法兰克王国，但史料称其为西法兰克王国。987年是于格·卡佩，即第一位卡佩国王，通常用作法兰西王国的起点。色条自987年起为实线。终点是1792年的第一共和国（维基数据采用1791年，即君主立宪制）；1814年复辟的波旁王朝不在此范围内。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "hugh-capet",
+      "start": 987,
+      "type": "founding",
+      "title": {
+        "en": "Hugh Capet is elected king and crowned at Noyon in 987, the first Capetian king",
+        "es": "Hugo Capeto es elegido rey y coronado en Noyon en 987, primer rey capeto",
+        "zh": "987年于格·卡佩当选国王并在努瓦永加冕，成为第一位卡佩国王"
+      },
+      "sources": [
+        {
+          "citation": "New World Encyclopedia. \"Hugh Capet\" (elected and crowned at Noyon in 987, which it dates to 3 July).",
+          "url": "https://www.newworldencyclopedia.org/entry/Hugh_Capet"
+        },
+        {
+          "citation": "Wikipedia. \"Hugh Capet\" (elected at Senlis; crowned at Noyon on 1 June 987 and again on 3 July).",
+          "url": "https://en.wikipedia.org/wiki/Hugh_Capet"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of West Francia\" (Hugh Capet establishes the Kingdom of France in 987).",
+          "url": "https://www.worldhistory.org/Kingdom_of_West_Francia/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources disagree on the day of the crowning: 3 July or 1 June. The election was at Senlis in May. Some also reckon the realm from the Treaty of Verdun in 843, when it was West Francia.",
+        "es": "Las fuentes no coinciden en el día de la coronación: 3 de julio o 1 de junio. La elección fue en Senlis, en mayo. Algunos cuentan además el reino desde el Tratado de Verdún de 843, cuando era la Francia Occidental.",
+        "zh": "各种资料对加冕日期说法不一：7月3日或6月1日。选举于5月在桑利斯举行。也有人从843年《凡尔登条约》算起，当时它叫西法兰克王国。"
+      },
+      "place": {
+        "name": {
+          "en": "Noyon",
+          "es": "Noyon",
+          "zh": "努瓦永"
+        },
+        "lat": 49.5826,
+        "lon": 2.9998
+      }
+    },
+    {
+      "id": "bouvines",
+      "start": 1214,
+      "type": "conflict",
+      "title": {
+        "en": "Philip II defeats Otto IV and his allies at Bouvines on 27 July",
+        "es": "Felipe II derrota a Otón IV y a sus aliados en Bouvines el 27 de julio",
+        "zh": "腓力二世于7月27日在布汶击败奥托四世及其盟军"
+      },
+      "sources": [
+        {
+          "citation": "History of War. \"Battle of Bouvines\" (27 July 1214; Philip II beats Otto IV).",
+          "url": "https://www.historyofwar.org/articles/battles_bouvines.html"
+        },
+        {
+          "citation": "Wikipedia. \"Battle of Bouvines\" (27 July 1214; Philip II's army beats a larger allied army led by Otto IV).",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Bouvines"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Bouvines",
+          "es": "Bouvines",
+          "zh": "布汶"
+        },
+        "lat": 50.5833,
+        "lon": 3.1833
+      }
+    },
+    {
+      "id": "templars-arrested",
+      "start": 1307,
+      "type": "conflict",
+      "title": {
+        "en": "Philip IV has every Templar in France arrested on 13 October",
+        "es": "Felipe IV hace detener a todos los templarios de Francia el 13 de octubre",
+        "zh": "腓力四世于10月13日下令逮捕法国境内所有圣殿骑士"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Knights Templar\" (arrests on Friday 13 October 1307; motives unclear).",
+          "url": "https://www.worldhistory.org/Knights_Templar/"
+        },
+        {
+          "citation": "Library of Congress, In Custodia Legis. \"Templar secrets at the Law Library of Congress\" (the arrests; Molay burned in 1314).",
+          "url": "https://blogs.loc.gov/law/2011/09/templar-secrets-at-the-law-library-of-congress/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "hundred-years-war",
+      "start": 1337,
+      "end": 1453,
+      "type": "conflict",
+      "title": {
+        "en": "The Hundred Years' War between the French and English crowns, begun over Gascony and Edward III's claim to the French throne, ends with the French victory at Castillon",
+        "es": "La guerra de los Cien Años entre las coronas francesa e inglesa, empezada por Gascuña y por la pretensión de Eduardo III al trono francés, termina con la victoria francesa en Castillon",
+        "zh": "法国与英国王室之间的百年战争因加斯科涅和爱德华三世对法国王位的主张而起，以法军在卡斯蒂永取胜告终"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Hundred Years' War\" (begins in 1337; final French victory at Castillon in 1453).",
+          "url": "https://www.worldhistory.org/Hundred_Years'_War/"
+        },
+        {
+          "citation": "Wikipedia. \"Hundred Years' War\" (1337 to 1453; Philip VI moves on Gascony in 1337, Edward III claims the throne; Castillon ends it with no peace treaty).",
+          "url": "https://en.wikipedia.org/wiki/Hundred_Years%27_War"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "1453 is a convention: no peace treaty was signed, and England held Calais until 1558.",
+        "es": "1453 es una convención: no se firmó ningún tratado de paz, e Inglaterra conservó Calais hasta 1558.",
+        "zh": "1453年只是一种惯例：双方没有签订和约，英格兰直到1558年仍占有加来。"
+      }
+    },
+    {
+      "id": "joan-of-arc",
+      "start": 1429,
+      "end": 1431,
+      "type": "conflict",
+      "title": {
+        "en": "French forces under Joan of Arc end the siege of Orléans in 1429, and she is burned at Rouen on 30 May 1431",
+        "es": "Las fuerzas francesas de Juana de Arco ponen fin al sitio de Orleans en 1429, y ella es quemada en Ruan el 30 de mayo de 1431",
+        "zh": "1429年贞德率法军解除奥尔良之围，1431年5月30日她在鲁昂被烧死"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Joan of Arc\" (Reims coronation in July 1429; burned on 30 May 1431).",
+          "url": "https://www.worldhistory.org/Joan_of_Arc/"
+        },
+        {
+          "citation": "Library of Congress. Feminism and French women's history guide, \"Joan of Arc\" (Orléans in 1429; burned in 1431).",
+          "url": "https://guides.loc.gov/feminism-french-women-history/famous/joan-of-arc"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Rouen",
+          "es": "Ruan",
+          "zh": "鲁昂"
+        },
+        "lat": 49.4432,
+        "lon": 1.0993
+      }
+    },
+    {
+      "id": "villers-cotterets",
+      "start": 1539,
+      "type": "ruler",
+      "title": {
+        "en": "Francis I's ordinance of Villers-Cotterêts requires French, not Latin, in legal and civil acts",
+        "es": "La ordenanza de Villers-Cotterêts de Francisco I exige el francés, y no el latín, en los actos jurídicos y civiles",
+        "zh": "弗朗索瓦一世的《维莱-科特雷法令》规定法律和民事文书须用法语而非拉丁语"
+      },
+      "sources": [
+        {
+          "citation": "Ministère de la Culture. \"La langue française, un bien commun\" (1539; French for legal and civil-status acts).",
+          "url": "https://www.culture.gouv.fr/thematiques/langue-francaise-et-langues-de-france/la-langue-francaise-un-bien-commun"
+        },
+        {
+          "citation": "Académie française. \"Le français aujourd'hui\" (article 111 of the ordinance).",
+          "url": "https://www.academie-francaise.fr/la-langue-francaise/le-francais-aujourdhui"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "nantes-and-revocation",
+      "start": 1598,
+      "end": 1685,
+      "type": "ruler",
+      "title": {
+        "en": "Henry IV grants Huguenots toleration by the Edict of Nantes on 13 April 1598, and Louis XIV revokes it on 18 October 1685",
+        "es": "Enrique IV concede tolerancia a los hugonotes con el edicto de Nantes el 13 de abril de 1598, y Luis XIV lo revoca el 18 de octubre de 1685",
+        "zh": "亨利四世于1598年4月13日颁布《南特敕令》，给予胡格诺派宽容；路易十四于1685年10月18日将其废止"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Edict of Nantes\" (13 April 1598; revoked 18 October 1685).",
+          "url": "https://www.encyclopedia.com/history/modern-europe/french-history/edict-nantes"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Louis XIV and the revocation of the Edict of Nantes\" (18 October 1685; over 200,000 Protestants leave between 1685 and 1715).",
+          "url": "https://www.worldhistory.org/article/2046/louis-xiv-and-the-revocation-of-the-edict-of-nante/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "versailles-court",
+      "start": 1682,
+      "type": "ruler",
+      "title": {
+        "en": "Louis XIV moves the court and government to Versailles on 6 May",
+        "es": "Luis XIV traslada la corte y el gobierno a Versalles el 6 de mayo",
+        "zh": "路易十四于5月6日把宫廷和政府迁到凡尔赛"
+      },
+      "sources": [
+        {
+          "citation": "Château de Versailles. \"Versailles, capital of the kingdom, 1682\" (6 May 1682).",
+          "url": "https://en.chateauversailles.fr/discover/history/key-dates/versailles-capital-kingdom-1682"
+        },
+        {
+          "citation": "Château de Versailles. \"Louis XIV\" (moves the court in 1682).",
+          "url": "https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The palace's own site gives 6 May 1682, and says the move had been under way since 1677. The World History Encyclopedia gives March 1682.",
+        "es": "El sitio oficial del palacio da el 6 de mayo de 1682, y señala que el traslado se preparaba desde 1677. La World History Encyclopedia da marzo de 1682.",
+        "zh": "凡尔赛宫官方网站给出的是1682年5月6日，并说迁移自1677年起就在进行。世界历史百科给出的是1682年3月。"
+      },
+      "place": {
+        "name": {
+          "en": "Versailles",
+          "es": "Versalles",
+          "zh": "凡尔赛"
+        },
+        "lat": 48.8049,
+        "lon": 2.1204
+      }
+    },
+    {
+      "id": "revolution-1789",
+      "start": 1789,
+      "type": "conflict",
+      "title": {
+        "en": "The Estates-General meets at Versailles on 5 May, and a crowd takes the Bastille in Paris on 14 July",
+        "es": "Los Estados Generales se reúnen en Versalles el 5 de mayo, y una multitud toma la Bastilla en París el 14 de julio",
+        "zh": "三级会议于5月5日在凡尔赛召开，7月14日人群在巴黎攻占巴士底狱"
+      },
+      "sources": [
+        {
+          "citation": "Assemblée nationale. \"Assemblée nationale constituante\" (Estates-General open at Versailles on 5 May 1789).",
+          "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/assemblee-nationale-constituante"
+        },
+        {
+          "citation": "World History Encyclopedia. \"French Revolution\" (the Bastille on 14 July 1789).",
+          "url": "https://www.worldhistory.org/French_Revolution/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Paris",
+          "es": "París",
+          "zh": "巴黎"
+        },
+        "lat": 48.8566,
+        "lon": 2.3522
+      }
+    },
+    {
+      "id": "end-of-the-monarchy",
+      "start": 1792,
+      "type": "collapse",
+      "title": {
+        "en": "The Convention proclaims the republic on 21 September 1792, and Louis XVI is guillotined on 21 January 1793",
+        "es": "La Convención proclama la república el 21 de septiembre de 1792, y Luis XVI es guillotinado el 21 de enero de 1793",
+        "zh": "国民公会于1792年9月21日宣布共和，路易十六于1793年1月21日被送上断头台"
+      },
+      "sources": [
+        {
+          "citation": "Assemblée nationale (juniors). \"1789-1799: la Révolution française\" (Convention meets 21 September 1792; king guillotined 21 January 1793).",
+          "url": "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/juniors/histoire/1789-1799-la-revolution-francaise"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Louis XVI of France\" (the assembly declares a republic on 21 September).",
+          "url": "https://www.worldhistory.org/Louis_XVI_of_France/"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "louis-xiv-reign",
+      "text": {
+        "en": "Louis XIV reigned for 72 years, until his death on 1 September 1715.",
+        "es": "Luis XIV reinó durante 72 años, hasta su muerte el 1 de septiembre de 1715.",
+        "zh": "路易十四在位72年，1715年9月1日去世。"
+      },
+      "start": 1643,
+      "end": 1715,
+      "sources": [
+        {
+          "citation": "Château de Versailles. \"Louis XIV\" (reign of 72 years, ending on 1 September 1715).",
+          "url": "https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Louis XIV of France\" (dies on 1 September 1715).",
+          "url": "https://www.worldhistory.org/Louis_XIV_of_France/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

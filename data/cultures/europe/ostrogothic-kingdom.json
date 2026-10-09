@@ -1,0 +1,361 @@
+{
+  "id": "ostrogothic-kingdom",
+  "region": "europe",
+  "wikidataId": "Q583038",
+  "name": {
+    "en": "Ostrogothic Kingdom",
+    "es": "Reino ostrogodo",
+    "zh": "东哥特王国"
+  },
+  "aliases": [
+    "Ostrogoths",
+    "Kingdom of Italy (Ostrogothic)",
+    "Theodoric the Great",
+    "Regnum Italiae",
+    "Ostrogodos",
+    "东哥特人"
+  ],
+  "description": {
+    "en": "A Gothic kingdom in Italy under Theodoric, who defeated Odoacer and ruled from Ravenna from 493. After his death in 526 Justinian's generals fought the Goths in the Gothic War until Italy returned to imperial rule in the 550s.",
+    "es": "Reino godo de Italia bajo Teodorico, que derrotó a Odoacro y gobernó desde Rávena a partir de 493. Tras su muerte en 526, los generales de Justiniano combatieron a los godos en la guerra gótica hasta que Italia volvió al dominio imperial en la década de 550.",
+    "zh": "狄奥多里克治下的意大利哥特王国，他击败奥多亚克，自493年起在拉文纳统治。526年他去世后，查士丁尼的将领在哥特战争中与哥特人交战，直到550年代意大利重归帝国统治。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "ostrogothic-kingdom",
+      "earliestStart": 489,
+      "latestStart": 493,
+      "earliestEnd": 552,
+      "latestEnd": 555,
+      "sources": [
+        {
+          "citation": "Smith, W. (ed.), Dictionary of Greek and Roman Biography and Mythology, \"Theodoricus\" (Perseids).",
+          "url": "https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/T.theodoricus_3"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Theodoric the Great.\"",
+          "url": "https://www.worldhistory.org/Theodoric_the_Great/"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Ostrogothic\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hr9km"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Gothic War, 535-555\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3h9qk"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Belisarius.\"",
+          "url": "https://www.worldhistory.org/Belisarius/"
+        },
+        {
+          "citation": "Wikidata, \"Ostrogothic Kingdom\" (Q583038): start 493, end 553.",
+          "url": "https://www.wikidata.org/wiki/Q583038"
+        },
+        {
+          "citation": "Wikipedia. \"Gothic War (535–554).\"",
+          "url": "https://en.wikipedia.org/wiki/Gothic_War_(535%E2%80%93554)"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Theodoric defeated Odoacer in 489 and killed him in 493, which marks the start of undisputed Gothic rule. The end is dated 552 to 555: Totila died at Taginae in 552, Wikidata ends the kingdom in 553, and a Gothic garrison at Campsa held out until spring 555. Frankish, Alemannic and Gothic strongholds north of the Po fell only in 562. The British Museum entry gives only 493.",
+        "es": "Teodorico derrotó a Odoacro en 489 y lo mató en 493, lo que marca el inicio del dominio godo indiscutido. El final se fecha entre 552 y 555: Totila murió en Taginas en 552, Wikidata termina el reino en 553, y una guarnición goda en Campsa resistió hasta la primavera de 555. Las plazas fuertes francas, alamanas y godas al norte del Po cayeron solo en 562. La entrada del Museo Británico da solo 493.",
+        "zh": "狄奥多里克在489年击败奥多亚克，493年杀死他，这标志着哥特统治不再有争议的开端。终点定在552至555年：托提拉552年死于塔吉纳，维基数据把王国终点定在553年，坎普萨的一支哥特守军坚持到555年春。波河以北法兰克人、阿勒曼尼人和哥特人的据点直到562年才陷落。大英博物馆的条目只给出493年。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "theodoric",
+      "name": {
+        "en": "Theodoric's reign",
+        "es": "Reinado de Teodorico",
+        "zh": "狄奥多里克的统治"
+      },
+      "start": 493,
+      "end": 526,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Theodoric the Great.\"",
+          "url": "https://www.worldhistory.org/Theodoric_the_Great/"
+        },
+        {
+          "citation": "Smith, W. (ed.), Dictionary of Greek and Roman Biography and Mythology, \"Theodoricus\" (Perseids).",
+          "url": "https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/T.theodoricus_3"
+        }
+      ]
+    },
+    {
+      "id": "successors",
+      "name": {
+        "en": "Theodoric's successors",
+        "es": "Sucesores de Teodorico",
+        "zh": "狄奥多里克的继承者"
+      },
+      "start": 526,
+      "end": 535,
+      "sources": [
+        {
+          "citation": "Procopius, History of the Wars, Books V–VI (Dewing translation, Project Gutenberg).",
+          "url": "https://www.gutenberg.org/cache/epub/20298/pg20298.txt"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Theodoric the Great.\"",
+          "url": "https://www.worldhistory.org/Theodoric_the_Great/"
+        }
+      ]
+    },
+    {
+      "id": "gothic-war",
+      "name": {
+        "en": "Gothic War",
+        "es": "Guerra gótica",
+        "zh": "哥特战争"
+      },
+      "start": 535,
+      "end": 554,
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Gothic War (535–554).\"",
+          "url": "https://en.wikipedia.org/wiki/Gothic_War_(535%E2%80%93554)"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Gothic War, 535-555\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3h9qk"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "isonzo-and-verona",
+      "start": 489,
+      "type": "conflict",
+      "title": {
+        "en": "Theodoric defeats Odoacer at the Isonzo and at Verona",
+        "es": "Teodorico derrota a Odoacro en el Isonzo y en Verona",
+        "zh": "狄奥多里克在伊松佐河和维罗纳击败奥多亚克"
+      },
+      "sources": [
+        {
+          "citation": "Smith, W. (ed.), Dictionary of Greek and Roman Biography and Mythology, \"Theodoricus\" (Perseids).",
+          "url": "https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/T.theodoricus_3"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Theodoric the Great.\"",
+          "url": "https://www.worldhistory.org/Theodoric_the_Great/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "ravenna-and-odoacer",
+      "start": 493,
+      "type": "founding",
+      "title": {
+        "en": "Theodoric takes Ravenna, kills Odoacer, and rules Italy",
+        "es": "Teodorico toma Rávena, mata a Odoacro y gobierna Italia",
+        "zh": "狄奥多里克攻取拉文纳，杀死奥多亚克，统治意大利"
+      },
+      "place": {
+        "name": {
+          "en": "Ravenna",
+          "es": "Rávena",
+          "zh": "拉文纳"
+        },
+        "lat": 44.4184,
+        "lon": 12.2035
+      },
+      "sources": [
+        {
+          "citation": "Smith, W. (ed.), Dictionary of Greek and Roman Biography and Mythology, \"Theodoricus\" (Perseids).",
+          "url": "https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/T.theodoricus_3"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Theodoric the Great.\"",
+          "url": "https://www.worldhistory.org/Theodoric_the_Great/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "boethius-executed",
+      "start": 524,
+      "type": "ruler",
+      "title": {
+        "en": "Theodoric has the senator Boethius put to death",
+        "es": "Teodorico manda ejecutar al senador Boecio",
+        "zh": "狄奥多里克处死元老波爱修斯"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Justinian I.\"",
+          "url": "https://www.worldhistory.org/Justinian_I/"
+        },
+        {
+          "citation": "Wikipedia. \"Boethius.\"",
+          "url": "https://en.wikipedia.org/wiki/Boethius"
+        },
+        {
+          "citation": "Procopius, History of the Wars, Books V–VI (Dewing translation, Project Gutenberg).",
+          "url": "https://www.gutenberg.org/cache/epub/20298/pg20298.txt"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The World History Encyclopedia and Wikipedia date the death of Boethius to 524. Procopius says Theodoric also had Boethius's father-in-law Symmachus killed and gives no year for either; Wikipedia dates Symmachus's death to 526.",
+        "es": "La World History Encyclopedia y Wikipedia fechan la muerte de Boecio en 524. Procopio dice que Teodorico mandó matar también al suegro de Boecio, Símaco, y no da año para ninguno; Wikipedia fecha la muerte de Símaco en 526.",
+        "zh": "《世界历史百科全书》和维基百科把波爱修斯之死定在524年。普罗柯比说狄奥多里克还处死了波爱修斯的岳父辛马库斯，两人都没有给出年份；维基百科把辛马库斯之死定在526年。"
+      }
+    },
+    {
+      "id": "theodoric-dies",
+      "start": 526,
+      "type": "ruler",
+      "title": {
+        "en": "Theodoric dies, and his grandson Athalaric succeeds him under the regency of Amalasuntha",
+        "es": "Teodorico muere, y le sucede su nieto Atalarico bajo la regencia de Amalasunta",
+        "zh": "狄奥多里克去世，外孙阿塔拉里克在阿马拉逊莎摄政下继位"
+      },
+      "sources": [
+        {
+          "citation": "Procopius, History of the Wars, Books V–VI (Dewing translation, Project Gutenberg).",
+          "url": "https://www.gutenberg.org/cache/epub/20298/pg20298.txt"
+        },
+        {
+          "citation": "Smith, W. (ed.), Dictionary of Greek and Roman Biography and Mythology, \"Theodoricus\" (Perseids).",
+          "url": "https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/T.theodoricus_3"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "belisarius-sicily",
+      "start": 535,
+      "type": "conflict",
+      "title": {
+        "en": "Belisarius lands in Sicily for Justinian and takes Catana and Syracuse",
+        "es": "Belisario desembarca en Sicilia por orden de Justiniano y toma Catania y Siracusa",
+        "zh": "贝利撒留奉查士丁尼之命在西西里登陆，攻取卡塔纳和叙拉古"
+      },
+      "sources": [
+        {
+          "citation": "Procopius, History of the Wars, Books V–VI (Dewing translation, Project Gutenberg).",
+          "url": "https://www.gutenberg.org/cache/epub/20298/pg20298.txt"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Belisarius.\"",
+          "url": "https://www.worldhistory.org/Belisarius/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "ravenna-taken",
+      "start": 540,
+      "type": "conflict",
+      "title": {
+        "en": "Belisarius takes Ravenna and captures King Witigis",
+        "es": "Belisario toma Rávena y captura al rey Vitiges",
+        "zh": "贝利撒留攻取拉文纳，俘获国王维蒂吉斯"
+      },
+      "place": {
+        "name": {
+          "en": "Ravenna",
+          "es": "Rávena",
+          "zh": "拉文纳"
+        },
+        "lat": 44.4184,
+        "lon": 12.2035
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Belisarius.\"",
+          "url": "https://www.worldhistory.org/Belisarius/"
+        },
+        {
+          "citation": "Wikipedia. \"Gothic War (535–554).\"",
+          "url": "https://en.wikipedia.org/wiki/Gothic_War_(535%E2%80%93554)"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "totila-proclaimed",
+      "start": 541,
+      "type": "ruler",
+      "title": {
+        "en": "The Goths proclaim Totila king",
+        "es": "Los godos proclaman rey a Totila",
+        "zh": "哥特人拥立托提拉为王"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Justinian I.\"",
+          "url": "https://www.worldhistory.org/Justinian_I/"
+        },
+        {
+          "citation": "Wikipedia. \"Gothic War (535–554).\"",
+          "url": "https://en.wikipedia.org/wiki/Gothic_War_(535%E2%80%93554)"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "taginae-and-end",
+      "start": 552,
+      "end": 554,
+      "type": "collapse",
+      "title": {
+        "en": "Narses defeats Totila at Taginae, and organised Gothic resistance in Italy ends",
+        "es": "Narsés derrota a Totila en Taginas, y la resistencia goda organizada en Italia termina",
+        "zh": "纳尔西斯在塔吉纳击败托提拉，哥特人在意大利的有组织抵抗结束"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Battle of Taginae.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Taginae"
+        },
+        {
+          "citation": "Wikipedia. \"Gothic War (535–554).\"",
+          "url": "https://en.wikipedia.org/wiki/Gothic_War_(535%E2%80%93554)"
+        },
+        {
+          "citation": "Library of Congress Subject Headings, \"Gothic War, 535-555\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g3h9qk"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia dates the battle of Taginae to 552, where Totila was mortally wounded. The World History Encyclopedia says only that Narses defeated Totila in 553. Gothic garrisons held out at Campsa until 555, and the Library of Congress dates the war to 535–555.",
+        "es": "Wikipedia fecha la batalla de Taginas en 552, donde Totila resultó herido de muerte. La World History Encyclopedia dice solo que Narsés derrotó a Totila en 553. Las guarniciones godas resistieron en Campsa hasta 555, y la Biblioteca del Congreso fecha la guerra en 535-555.",
+        "zh": "维基百科把塔吉纳之战定在552年，托提拉在此役身受致命伤。《世界历史百科全书》只说纳尔西斯在553年击败托提拉。哥特守军在坎普萨坚持到555年，美国国会图书馆把战争定在535至555年。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "theodoric-mausoleum",
+      "start": 526,
+      "end": 526,
+      "text": {
+        "en": "Theodoric's mausoleum at Ravenna still stands.",
+        "es": "El mausoleo de Teodorico en Rávena sigue en pie.",
+        "zh": "狄奥多里克在拉文纳的陵墓至今仍然屹立。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Theodoric the Great.\"",
+          "url": "https://www.worldhistory.org/Theodoric_the_Great/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

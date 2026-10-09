@@ -1,0 +1,380 @@
+{
+  "id": "al-andalus",
+  "region": "europe",
+  "wikidataId": "Q123559",
+  "name": {
+    "en": "Al-Andalus",
+    "es": "Al-Ándalus",
+    "zh": "安达卢斯"
+  },
+  "aliases": [
+    "Muslim Spain",
+    "Moorish Spain",
+    "Islamic Iberia",
+    "Andalus",
+    "Caliphate of Córdoba",
+    "Emirate of Granada",
+    "Nasrid Granada",
+    "España musulmana",
+    "Califato de Córdoba",
+    "西班牙穆斯林",
+    "科尔多瓦哈里发国"
+  ],
+  "description": {
+    "en": "The Muslim-ruled lands of the Iberian peninsula, from a North African crossing in 711 to the surrender of Granada in 1492. Córdoba was its capital under the Umayyads. The realm split into taifa kingdoms in 1031, and Nasrid Granada outlasted the rest.",
+    "es": "Las tierras de la península ibérica bajo dominio musulmán, desde un desembarco norteafricano en 711 hasta la entrega de Granada en 1492. Córdoba fue su capital con los omeyas. El territorio se fragmentó en reinos de taifas en 1031 y la Granada nazarí sobrevivió a los demás.",
+    "zh": "伊比利亚半岛上由穆斯林统治的地区，从711年北非军队渡海登陆，到1492年格拉纳达投降。后倭马亚王朝时期以科尔多瓦为都。1031年分裂为若干泰法王国，纳斯尔王朝的格拉纳达存续最久。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "al-andalus",
+      "earliestStart": 711,
+      "latestStart": 711,
+      "earliestEnd": 1492,
+      "latestEnd": 1492,
+      "sources": [
+        {
+          "citation": "Library of Congress Subject Headings, \"Arab period, Spain, 711-1492\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g33fsj"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Reconquista\" (Muslim rule in the peninsula lasts until Granada falls in 1492).",
+          "url": "https://www.worldhistory.org/Reconquista/"
+        }
+      ],
+      "periodoId": "p06c6g33fsj",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "guadalete",
+      "start": 711,
+      "type": "conflict",
+      "title": {
+        "en": "A Muslim army under Tariq ibn Ziyad crosses from North Africa and defeats the Visigothic king Roderic at the Guadalete",
+        "es": "Un ejército musulmán al mando de Tariq ibn Ziyad cruza desde el norte de África y derrota al rey visigodo Rodrigo en el Guadalete",
+        "zh": "塔里克·伊本·齐亚德率穆斯林军队从北非渡海，在瓜达莱特河击败西哥特国王罗德里克"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Spain, \"The Muslim Conquest\" (Tariq's crossing and the defeat of Roderic in 711).",
+          "url": "http://countrystudies.us/spain/5.htm"
+        },
+        {
+          "citation": "Ibn Abd al-Hakam, History of the Conquest of Spain (Tariq's crossing; Musa follows), Fordham University Internet Medieval Sourcebook.",
+          "url": "https://sourcebooks.web.fordham.edu/source/conqspain.asp"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Umayyad Dynasty\" (Roderic defeated at the Guadalete in 711).",
+          "url": "https://www.worldhistory.org/Umayyad_Dynasty/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources agree on 711 for the crossing and the battle, but the day (traditionally mid-July) and the exact site are uncertain; the medieval Arabic account names a different place from the Guadalete. Musa ibn Nusayr arrived the next year, 712, and the conquest of the peninsula took several years.",
+        "es": "Las fuentes coinciden en 711 para el desembarco y la batalla, pero el día (tradicionalmente mediados de julio) y el lugar exacto son inciertos; el relato árabe medieval nombra un lugar distinto del Guadalete. Musa ibn Nusayr llegó al año siguiente, 712, y la conquista de la península llevó varios años.",
+        "zh": "各种史料都把渡海和战役定在711年，但具体日期（传统上为7月中旬）和确切地点并不确定；中世纪阿拉伯文记载所称的地点与瓜达莱特河不同。穆萨·伊本·努赛尔次年（712年）抵达，征服整个半岛又用了数年。"
+      }
+    },
+    {
+      "id": "abd-al-rahman-i-emir",
+      "start": 756,
+      "type": "founding",
+      "title": {
+        "en": "Abd al-Rahman I, an Umayyad prince who escaped the Abbasid takeover in the east, becomes emir at Córdoba",
+        "es": "Abderramán I, un príncipe omeya que escapó de la toma del poder abasí en Oriente, se convierte en emir en Córdoba",
+        "zh": "逃脱东方阿拔斯王朝夺权的倭马亚王子阿卜杜勒·拉赫曼一世在科尔多瓦称埃米尔"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Spain, \"The Umayyad Emirate and Caliphate\" (Abd al-Rahman I establishes an independent emirate at Córdoba in 756).",
+          "url": "http://countrystudies.us/spain/5.htm"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Abd al-Rahman I\" (lands in 755, becomes emir in 756).",
+          "url": "https://www.worldhistory.org/Abd_al-Rahman_I/"
+        },
+        {
+          "citation": "Bridging Cultures, Muslim Journeys. \"Al-Andalus\" item note on the Umayyad emirate in Córdoba.",
+          "url": "https://bridgingcultures-muslimjourneys.org/items/show/217.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Córdoba",
+          "es": "Córdoba",
+          "zh": "科尔多瓦"
+        },
+        "lat": 37.8882,
+        "lon": -4.7794
+      }
+    },
+    {
+      "id": "great-mosque-of-cordoba",
+      "start": 785,
+      "type": "founding",
+      "title": {
+        "en": "Abd al-Rahman I begins the Great Mosque of Córdoba",
+        "es": "Abderramán I inicia la Gran Mezquita de Córdoba",
+        "zh": "阿卜杜勒·拉赫曼一世开始修建科尔多瓦大清真寺"
+      },
+      "sources": [
+        {
+          "citation": "Lumen Learning (SUNY Nassau), \"Great Mosque of Cordoba\" (begun 786 under Abd al-Rahman I).",
+          "url": "https://courses.lumenlearning.com/suny-ncc-zeliart/chapter/great-mosque-of-cordoba/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Abd al-Rahman I\" (the mosque is begun in the mid 780s).",
+          "url": "https://www.worldhistory.org/Abd_al-Rahman_I/"
+        },
+        {
+          "citation": "Wikipedia. \"Mosque-Cathedral of Córdoba\" (earliest parts built under Abd al-Rahman I in 784-786; the Christian half of the site bought in 785).",
+          "url": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date the start between 784 and 786.",
+        "es": "Las fuentes sitúan el comienzo entre 784 y 786.",
+        "zh": "各种资料把动工时间定在784年至786年之间。"
+      },
+      "place": {
+        "name": {
+          "en": "Córdoba",
+          "es": "Córdoba",
+          "zh": "科尔多瓦"
+        },
+        "lat": 37.8789,
+        "lon": -4.7794
+      }
+    },
+    {
+      "id": "caliphate-of-cordoba",
+      "start": 929,
+      "type": "ruler",
+      "title": {
+        "en": "Abd al-Rahman III takes the title of caliph, making Córdoba the seat of a caliphate",
+        "es": "Abderramán III toma el título de califa y hace de Córdoba la sede de un califato",
+        "zh": "阿卜杜勒·拉赫曼三世自称哈里发，科尔多瓦成为哈里发国的都城"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Spain, \"The Umayyad Emirate and Caliphate\" (Abd al-Rahman III proclaims the caliphate in 929).",
+          "url": "http://countrystudies.us/spain/5.htm"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Abd al-Rahman III\" (takes the title of caliph in 929).",
+          "url": "https://www.worldhistory.org/Abd_al-Rahman_III/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Córdoba",
+          "es": "Córdoba",
+          "zh": "科尔多瓦"
+        },
+        "lat": 37.8882,
+        "lon": -4.7794
+      }
+    },
+    {
+      "id": "end-of-the-caliphate",
+      "start": 1031,
+      "type": "collapse",
+      "title": {
+        "en": "The Caliphate of Córdoba is abolished and al-Andalus breaks into some thirty to fifty taifa kingdoms",
+        "es": "Se abole el califato de Córdoba y al-Ándalus se fragmenta en entre treinta y cincuenta reinos de taifas",
+        "zh": "科尔多瓦哈里发国被废除，安达卢斯分裂为三十至五十个泰法王国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Taifa\" (the Umayyad caliphate collapses in 1031 after unrest from 1008).",
+          "url": "https://www.worldhistory.org/Taifa/"
+        },
+        {
+          "citation": "Bridging Cultures, Muslim Journeys. \"Al-Andalus\" item note on the end of the caliphate and the rise of the taifas.",
+          "url": "https://bridgingcultures-muslimjourneys.org/items/show/217.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The break-up was gradual, from about 1008. 1031 is the year the caliphate was formally abolished.",
+        "es": "La fragmentación fue gradual, desde alrededor de 1008. 1031 es el año en que se abolió formalmente el califato.",
+        "zh": "分裂是逐步发生的，约从1008年开始。1031年是哈里发国被正式废除的年份。"
+      }
+    },
+    {
+      "id": "almoravids-called-in",
+      "start": 1085,
+      "end": 1090,
+      "type": "conflict",
+      "title": {
+        "en": "After Alfonso VI takes Toledo, the taifa rulers call in the Almoravids from Morocco, who then take over their kingdoms",
+        "es": "Tras la toma de Toledo por Alfonso VI, los reyes de taifas llaman a los almorávides de Marruecos, que acaban anexionando sus reinos",
+        "zh": "阿方索六世攻占托莱多后，泰法诸王请来摩洛哥的穆拉比特人，后者随即接管了他们的王国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Taifa\" (taifa rulers petition Yusuf ibn Tashfin after Toledo falls in 1085; the Almoravids absorb the taifas by about 1090).",
+          "url": "https://www.worldhistory.org/Taifa/"
+        },
+        {
+          "citation": "Library of Congress Country Studies, Spain, \"The Reconquest\" (the emirs appeal to the Almoravids when Toledo is lost in 1085).",
+          "url": "http://countrystudies.us/spain/6.htm"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "las-navas-de-tolosa",
+      "start": 1212,
+      "type": "conflict",
+      "title": {
+        "en": "Castile, Aragon and Navarre defeat the Almohad army at Las Navas de Tolosa",
+        "es": "Castilla, Aragón y Navarra derrotan al ejército almohade en las Navas de Tolosa",
+        "zh": "卡斯蒂利亚、阿拉贡和纳瓦拉联军在拉斯纳瓦斯-德托洛萨击败阿尔穆瓦希德军队"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Reconquista\" (three Spanish kings defeat the Muslims at Las Navas de Tolosa in 1212).",
+          "url": "https://www.worldhistory.org/Reconquista/"
+        },
+        {
+          "citation": "Jaén Paraíso Interior. \"Museum of the Battle of Las Navas de Tolosa\" (date, the three kings and the outcome).",
+          "url": "http://jaenparaisointerior.es/en/points-of-interest/museum-batalla-de-las-navas-de-tolosa"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "alhambra-begun",
+      "start": 1238,
+      "type": "founding",
+      "title": {
+        "en": "Muhammad I, the first Nasrid emir, lays out the Alhambra above Granada",
+        "es": "Mohamed I, primer emir nazarí, traza la Alhambra sobre Granada",
+        "zh": "纳斯尔王朝首位埃米尔穆罕默德一世在格拉纳达上方开始营建阿尔罕布拉宫"
+      },
+      "sources": [
+        {
+          "citation": "Nazari Viajes. \"Alhambra of Granada: historical background\" (Ibn Nasr lays out the castle foundations in 1238; the palaces follow under Yusuf I and Muhammad V).",
+          "url": "https://nazariviajes.com/languages/english/alhambra-granada/alhambra-granada-historical-background-in-depth.aspx?lang=eng"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Alhambra\" (built from 1238 to 1358 under Ibn al-Ahmar, founder of the Nasrid dynasty, and his successors).",
+          "url": "https://www.britannica.com/topic/Alhambra-fortress-Granada-Spain"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Some accounts date the start to 1237 and others to 1238; Britannica and the Nasrid chronicle quoted by Nazari Viajes give 1238. The best-known palaces were built in the 14th century.",
+        "es": "Algunos relatos fechan el inicio en 1237 y otros en 1238; la Britannica y la crónica nazarí que cita Nazari Viajes dan 1238. Los palacios más conocidos se construyeron en el siglo XIV.",
+        "zh": "有的记述把动工定在1237年，有的定在1238年；大英百科全书和Nazari Viajes所引的纳斯尔王朝编年史都作1238年。最著名的宫殿建于14世纪。"
+      },
+      "place": {
+        "name": {
+          "en": "Granada",
+          "es": "Granada",
+          "zh": "格拉纳达"
+        },
+        "lat": 37.1761,
+        "lon": -3.5881
+      }
+    },
+    {
+      "id": "seville-1248",
+      "start": 1248,
+      "type": "conflict",
+      "title": {
+        "en": "Ferdinand III of Castile takes Seville after a long siege, leaving the emirate of Granada as the last Muslim state in the peninsula",
+        "es": "Fernando III de Castilla toma Sevilla tras un largo asedio y deja al emirato de Granada como último estado musulmán de la península",
+        "zh": "卡斯蒂利亚的费尔南多三世经长期围困攻占塞维利亚，格拉纳达埃米尔国成为半岛上最后的穆斯林国家"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Spain, \"The Reconquest\" (Ferdinand III takes Seville in 1248, reducing al-Andalus to the emirate of Granada).",
+          "url": "http://countrystudies.us/spain/6.htm"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Reconquista\" (Seville falls after a long siege in 1248).",
+          "url": "https://www.worldhistory.org/Reconquista/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Seville",
+          "es": "Sevilla",
+          "zh": "塞维利亚"
+        },
+        "lat": 37.3891,
+        "lon": -5.9845
+      }
+    },
+    {
+      "id": "fall-of-granada",
+      "start": 1492,
+      "type": "collapse",
+      "title": {
+        "en": "Boabdil, the last Nasrid emir, surrenders Granada to Ferdinand and Isabella",
+        "es": "Boabdil, último emir nazarí, entrega Granada a Fernando e Isabel",
+        "zh": "纳斯尔王朝末代埃米尔布阿卜迪勒向费尔南多和伊莎贝拉交出格拉纳达"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Reconquista\" (Granada, the last Muslim territory, falls in 1492).",
+          "url": "https://www.worldhistory.org/Reconquista/"
+        },
+        {
+          "citation": "Christian History Institute. \"Granada fell, bringing all of Spain under Christian rule\" (Granada surrenders on 2 January 1492).",
+          "url": "https://christianhistoryinstitute.org/dailystory/permalink/granada-fell-bringing-all-of-spain-under-christian-rule"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Boabdil\" (secret handover on 1 January, public surrender on 2 January, keys presented on 6 January 1492).",
+          "url": "https://www.ebsco.com/research-starters/history/boabdil/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Granada",
+          "es": "Granada",
+          "zh": "格拉纳达"
+        },
+        "lat": 37.1761,
+        "lon": -3.5881
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "madinat-al-zahra",
+      "text": {
+        "en": "Abd al-Rahman III had a palace city, Madinat al-Zahra, built outside Córdoba for the caliphal court. Sources date its start to 936 or 940.",
+        "es": "Abderramán III hizo construir a las afueras de Córdoba una ciudad palatina para la corte califal: Madinat al-Zahra. Las fuentes fechan su inicio en 936 o en 940.",
+        "zh": "阿卜杜勒·拉赫曼三世在科尔多瓦城外为哈里发宫廷修建了一座宫城，名为扎哈拉城。资料把动工时间定在936年或940年。"
+      },
+      "start": 936,
+      "end": 940,
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. News on Medina Azahara (the palace city commissioned in 940).",
+          "url": "https://whc.unesco.org/en/news/2711"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Abd al-Rahman III\" (construction of Madinat al-Zahra begins in 936).",
+          "url": "https://www.worldhistory.org/Abd_al-Rahman_III/"
+        }
+      ],
+      "disputed": true
+    }
+  ]
+}

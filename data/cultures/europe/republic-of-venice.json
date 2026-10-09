@@ -1,0 +1,282 @@
+{
+  "id": "republic-of-venice",
+  "region": "europe",
+  "wikidataId": "Q4948",
+  "name": {
+    "en": "Republic of Venice",
+    "es": "República de Venecia",
+    "zh": "威尼斯共和国"
+  },
+  "nativeName": {
+    "text": "Repubblica di Venezia",
+    "lang": "it"
+  },
+  "aliases": [
+    "Venice",
+    "Venetian Republic",
+    "La Serenissima",
+    "Serenissima Repubblica di Venezia",
+    "Venecia",
+    "República veneciana",
+    "威尼斯"
+  ],
+  "description": {
+    "en": "A maritime republic ruled from a lagoon city by elected doges and a closed circle of noble families. It traded across the Mediterranean, took part in the Fourth Crusade, fought the Ottomans, and ended in 1797 under Napoleon.",
+    "es": "República marítima gobernada desde una ciudad de la laguna por dogos electos y un círculo cerrado de familias nobles. Comerció por todo el Mediterráneo, participó en la Cuarta Cruzada, combatió a los otomanos y terminó en 1797 con Napoleón.",
+    "zh": "一个从潟湖城市统治的海洋共和国，由选举产生的总督和封闭的贵族家族掌权。它在地中海各地通商，参与了第四次十字军东征，与奥斯曼帝国交战，并在1797年被拿破仑终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "republic",
+      "earliestStart": 697,
+      "latestStart": 727,
+      "earliestEnd": 1797,
+      "latestEnd": 1797,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Venice: History.\"",
+          "url": "https://www.britannica.com/place/Venice/History"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Venice.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Venice"
+        },
+        {
+          "citation": "Wikidata. \"Republic of Venice\" (Q4948), start 697, end 1797.",
+          "url": "https://www.wikidata.org/wiki/Q4948"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Tradition names Paoluccio Anafesto as the first doge in 697. Britannica dates the first elected doge, Orso, to 727. The end is firm: the last doge, Ludovico Manin, was deposed on 12 May 1797.",
+        "es": "La tradición nombra a Paoluccio Anafesto como primer dogo en 697. La Britannica fecha en 727 al primer dogo elegido, Orso. El final es seguro: el último dogo, Ludovico Manin, fue depuesto el 12 de mayo de 1797.",
+        "zh": "传统上认为首任总督是697年的保卢乔·阿纳费斯托。《大英百科全书》把第一位选举产生的总督奥尔索定在727年。终点没有争议：末代总督卢多维科·马宁于1797年5月12日被废黜。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "first-doge",
+      "start": 697,
+      "end": 727,
+      "type": "founding",
+      "title": {
+        "en": "Venice chooses its first doge, traditionally Paoluccio Anafesto in 697 and, by Britannica's dating, Orso in 727",
+        "es": "Venecia elige a su primer dogo: según la tradición, Paoluccio Anafesto en 697 y, según la Britannica, Orso en 727",
+        "zh": "威尼斯选出第一位总督：传统上是697年的保卢乔·阿纳费斯托，按《大英百科全书》的断代则是727年的奥尔索"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Venice: History.\"",
+          "url": "https://www.britannica.com/place/Venice/History"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Venice.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Venice"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The 1911 Britannica gives 697 for the first doge, Anafesto. Britannica gives 727 for Orso, \"chosen in an anti-Byzantine military declaration\".",
+        "es": "La Britannica de 1911 da 697 para el primer dogo, Anafesto. La Britannica actual da 727 para Orso, \"elegido en una declaración militar antibizantina\".",
+        "zh": "1911年版《大英百科全书》把首任总督阿纳费斯托定在697年。《大英百科全书》现行条目把“在反拜占庭的军事宣言中被选出”的奥尔索定在727年。"
+      },
+      "place": {
+        "name": {
+          "en": "Venice",
+          "es": "Venecia",
+          "zh": "威尼斯"
+        },
+        "lat": 45.4408,
+        "lon": 12.3155
+      }
+    },
+    {
+      "id": "arsenal",
+      "start": 1104,
+      "type": "invention",
+      "title": {
+        "en": "The Arsenal, founded about 1104, grows into a state shipyard of basins, yards and workshops for sails, rope and guns",
+        "es": "El Arsenal, fundado hacia 1104, crece hasta ser un astillero estatal de dársenas, talleres y almacenes de velas, cuerdas y cañones",
+        "zh": "威尼斯兵工厂约于1104年创立，逐渐发展成由船坞、场地和作坊组成的国营造船厂，生产船帆、缆绳和火炮"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Venice.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Venice"
+        },
+        {
+          "citation": "Teresa Fava Thomas. \"Arsenale: The Shipyard and Arsenal of Venice.\" World History Encyclopedia, 2025.",
+          "url": "https://www.worldhistory.org/article/2776/arsenale/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Venice: Economy.\"",
+          "url": "https://www.britannica.com/place/Venice/Economy"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The 1911 Britannica and the World History Encyclopedia both give about 1104, under Doge Ordelaffo Falier. Wikipedia says there is no evidence for so precise a date and that a shipyard may have existed earlier, so the date is approximate.",
+        "es": "La Britannica de 1911 y la World History Encyclopedia dan ambas hacia 1104, bajo el dogo Ordelaffo Falier. Wikipedia señala que no hay pruebas de una fecha tan precisa y que quizá existía un astillero antes, así que la fecha es aproximada.",
+        "zh": "1911年版《大英百科全书》和《世界历史百科全书》都给出约1104年，总督奥尔德拉福·法列罗在位时。维基百科指出没有证据支持如此精确的年份，更早可能已有造船厂，所以该年份只是大致时间。"
+      },
+      "place": {
+        "name": {
+          "en": "Arsenal of Venice",
+          "es": "Arsenal de Venecia",
+          "zh": "威尼斯兵工厂"
+        },
+        "lat": 45.4338,
+        "lon": 12.3547
+      }
+    },
+    {
+      "id": "fourth-crusade",
+      "start": 1204,
+      "type": "conflict",
+      "title": {
+        "en": "Doge Enrico Dandolo leads Venice into the Fourth Crusade, which takes Constantinople and gives Venice part of the Byzantine lands",
+        "es": "El dogo Enrico Dandolo lleva a Venecia a la Cuarta Cruzada, que toma Constantinopla y da a Venecia parte de las tierras bizantinas",
+        "zh": "总督恩里科·丹多洛带领威尼斯参加第四次十字军东征；十字军攻占君士坦丁堡，威尼斯分得部分拜占庭领土"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Enrico Dandolo.\"",
+          "url": "https://www.britannica.com/biography/Enrico-Dandolo"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Venice.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Venice"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Constantinople",
+          "es": "Constantinopla",
+          "zh": "君士坦丁堡"
+        },
+        "lat": 41.0082,
+        "lon": 28.9784
+      }
+    },
+    {
+      "id": "cyprus-invaded",
+      "start": 1570,
+      "type": "conflict",
+      "title": {
+        "en": "Ottoman forces invade the Venetian island of Cyprus after Venice refuses to give it up",
+        "es": "Las fuerzas otomanas invaden la isla veneciana de Chipre después de que Venecia se niegue a cederla",
+        "zh": "威尼斯拒绝交出塞浦路斯后，奥斯曼军队入侵这座威尼斯属岛"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Battle of Lepanto.\"",
+          "url": "https://www.britannica.com/event/Battle-of-Lepanto"
+        },
+        {
+          "citation": "Wikipedia. \"Ottoman–Venetian War (1570–1573).\"",
+          "url": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Venetian_War_(1570%E2%80%931573)"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Nicosia",
+          "es": "Nicosia",
+          "zh": "尼科西亚"
+        },
+        "lat": 35.1856,
+        "lon": 33.3823
+      }
+    },
+    {
+      "id": "lepanto",
+      "start": 1571,
+      "type": "conflict",
+      "title": {
+        "en": "A Holy League fleet with over 100 Venetian galleys defeats the Ottoman fleet off Lepanto on 7 October",
+        "es": "Una flota de la Santa Liga con más de 100 galeras venecianas derrota a la flota otomana frente a Lepanto el 7 de octubre",
+        "zh": "10月7日，神圣同盟舰队（含逾百艘威尼斯桨帆船）在勒班陀外海击败奥斯曼舰队"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Battle of Lepanto.\"",
+          "url": "https://www.britannica.com/event/Battle-of-Lepanto"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Lepanto, Battle of.\"",
+          "url": "https://encyclopedia.com/history/modern-europe/wars-and-battles/battle-lepanto"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Gulf of Patras (Lepanto)",
+          "es": "Golfo de Patras (Lepanto)",
+          "zh": "帕特雷湾（勒班陀）"
+        },
+        "lat": 38.3914,
+        "lon": 21.8296
+      }
+    },
+    {
+      "id": "end-of-republic",
+      "start": 1797,
+      "type": "collapse",
+      "title": {
+        "en": "Without an ally against Napoleon, Venice deposes its last doge, Ludovico Manin, on 12 May; France later hands the city to Austria",
+        "es": "Sin aliados frente a Napoleón, Venecia depone a su último dogo, Ludovico Manin, el 12 de mayo; Francia entrega después la ciudad a Austria",
+        "zh": "面对拿破仑，威尼斯孤立无援，5月12日废黜末代总督卢多维科·马宁；法国随后把这座城市交给奥地利"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Ludovico Manin.\"",
+          "url": "https://www.britannica.com/biography/Ludovico-Manin"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Treaty of Campo Formio.\"",
+          "url": "https://www.britannica.com/event/Treaty-of-Campo-Formio"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Venice",
+          "es": "Venecia",
+          "zh": "威尼斯"
+        },
+        "lat": 45.4408,
+        "lon": 12.3155
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "arsenal-fire-and-fleet",
+      "start": 1569,
+      "end": 1571,
+      "text": {
+        "en": "The Arsenal's gunpowder store exploded in 1569, and the next year Venice still sent to sea the fleet that fought at Lepanto.",
+        "es": "El polvorín del Arsenal explotó en 1569 y, al año siguiente, Venecia aún lanzó al mar la flota que combatió en Lepanto.",
+        "zh": "1569年兵工厂的火药库爆炸，次年威尼斯仍然派出了参加勒班陀海战的舰队。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Venice.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Venice"
+        },
+        {
+          "citation": "van Gelder, M. & de Vivo, F. (2023). \"Papering Over Protest: Contentious Politics and Archival Suppression in Early Modern Venice.\" Past & Present 258(1).",
+          "url": "https://academic.oup.com/past/article/258/1/44/6532405"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

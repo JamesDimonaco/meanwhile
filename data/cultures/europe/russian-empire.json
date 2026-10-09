@@ -1,0 +1,277 @@
+{
+  "id": "russian-empire",
+  "region": "europe",
+  "wikidataId": "Q34266",
+  "name": {
+    "en": "Russian Empire",
+    "es": "Imperio ruso",
+    "zh": "俄罗斯帝国"
+  },
+  "aliases": [
+    "Imperial Russia",
+    "Tsarist Russia",
+    "Russia",
+    "Rusia imperial",
+    "Rusia zarista",
+    "沙皇俄国",
+    "帝俄"
+  ],
+  "description": {
+    "en": "The state ruled by Russia's emperors from Peter I's proclamation in 1721 until Nicholas II's abdication in 1917. It took in Crimea in 1783 and much of Poland-Lithuania in the partitions, and it kept most of its peasants in serfdom until 1861.",
+    "es": "El Estado gobernado por los emperadores de Rusia desde la proclamación de Pedro I en 1721 hasta la abdicación de Nicolás II en 1917. Incorporó Crimea en 1783 y gran parte de Polonia-Lituania en las particiones, y mantuvo a la mayoría de sus campesinos en la servidumbre hasta 1861.",
+    "zh": "由俄国皇帝统治的国家，从1721年彼得一世称帝到1917年尼古拉二世退位。1783年吞并克里米亚，并在瓜分波兰的过程中取得波兰-立陶宛的大片土地，直到1861年仍让大多数农民处于农奴地位。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "imperial",
+      "earliestStart": 1721,
+      "latestStart": 1721,
+      "earliestEnd": 1917,
+      "latestEnd": 1917,
+      "sources": [
+        {
+          "citation": "Wikidata. \"Russian Empire\" (Q34266): inception 22 October 1721, dissolved 1 September 1917.",
+          "url": "https://www.wikidata.org/wiki/Q34266"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Russian Empire.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/russian-empire"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Muscovy.\" Peter I renamed his realm the Russian Empire in 1721.",
+          "url": "https://www.encyclopedia.com/history/modern-europe/russian-soviet-and-cis-history/muscovy"
+        }
+      ],
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "peter-emperor",
+      "start": 1721,
+      "type": "founding",
+      "title": {
+        "en": "After a peace treaty ends the war with Sweden, Peter I takes the title of emperor and Russia becomes an empire",
+        "es": "Tras un tratado de paz que pone fin a la guerra con Suecia, Pedro I toma el título de emperador y Rusia se convierte en imperio",
+        "zh": "结束对瑞典战争的和约签订后，彼得一世称皇帝，俄国成为帝国"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Russian Empire.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/russian-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Peter the Great.\" Took the title of emperor after the Treaty of Nystad.",
+          "url": "https://www.worldhistory.org/Peter_the_Great/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "St Petersburg",
+          "es": "San Petersburgo",
+          "zh": "圣彼得堡"
+        },
+        "lat": 59.9343,
+        "lon": 30.3351
+      }
+    },
+    {
+      "id": "pugachev-revolt",
+      "start": 1773,
+      "end": 1775,
+      "type": "conflict",
+      "title": {
+        "en": "Emelian Pugachev, a Don Cossack posing as the dead Peter III, leads Cossacks and serfs against Catherine II until his own Cossacks hand him over in 1774 and he is executed in 1775",
+        "es": "Yemelián Pugachov, un cosaco del Don que se hace pasar por el difunto Pedro III, encabeza a cosacos y siervos contra Catalina II hasta que sus propios cosacos lo entregan en 1774 y es ejecutado en 1775",
+        "zh": "顿河哥萨克叶梅利扬·普加乔夫冒充已死的彼得三世，率领哥萨克和农奴反抗叶卡捷琳娜二世，直到1774年被自己的哥萨克交出，1775年被处决"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Pugachev Revolt (1773-1775).\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/pugachev-revolt-1773-1775"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Pugachev, Emelyan Ivanovich.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/emelyan-ivanovich-pugachev"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "napoleon-1812",
+      "start": 1812,
+      "type": "conflict",
+      "title": {
+        "en": "Napoleon's army fights the Russians at Borodino on 7 September and takes Moscow, then loses most of its men on the retreat",
+        "es": "El ejército de Napoleón combate a los rusos en Borodinó el 7 de septiembre y toma Moscú, y luego pierde a la mayoría de sus hombres en la retirada",
+        "zh": "拿破仑的军队9月7日在博罗季诺与俄军交战并占领莫斯科，随后在撤退中损失了大部分兵员"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Borodino, Battle of.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/russian-soviet-and-cis-history/battle-borodino"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Napoleonic Wars.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/wars-and-battles/napoleonic-wars"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources disagree on who won at Borodino: Encyclopedia.com's Borodino entry calls it effectively a Russian victory, while its Napoleonic Wars entry says Napoleon defeated the Russians there.",
+        "es": "Las fuentes discrepan sobre quién ganó en Borodinó: la entrada sobre Borodinó de Encyclopedia.com la considera en la práctica una victoria rusa, mientras que su entrada sobre las guerras napoleónicas dice que Napoleón derrotó allí a los rusos.",
+        "zh": "各种资料对博罗季诺谁获胜看法不一：Encyclopedia.com的“博罗季诺”词条认为实际上是俄军获胜，而其“拿破仑战争”词条则说拿破仑在那里击败了俄军。"
+      },
+      "place": {
+        "name": {
+          "en": "Borodino",
+          "es": "Borodinó",
+          "zh": "博罗季诺"
+        },
+        "lat": 55.5167,
+        "lon": 35.8167
+      }
+    },
+    {
+      "id": "caucasian-war-end",
+      "start": 1859,
+      "type": "conflict",
+      "title": {
+        "en": "Russian forces capture Shamil at Gunib; over the following years they burn forests and villages in the western Caucasus, and many Circassians are forcibly resettled or leave for the Ottoman Empire",
+        "es": "Las fuerzas rusas capturan a Shamil en Gunib; en los años siguientes queman bosques y aldeas del Cáucaso occidental, y muchos circasianos son reasentados por la fuerza o parten hacia el Imperio otomano",
+        "zh": "俄军在古尼布俘获沙米尔；随后几年里在西高加索焚烧森林和村庄，许多切尔克斯人被强制迁走或前往奥斯曼帝国"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Caucasian Wars.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/caucasian-wars"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Adyge.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/adyge"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Encyclopedia.com's Caucasian Wars entry says as many as half a million Muslim highlanders, above all Circassians in the west, were relocated, and describes the method as clearing and burning forests, destroying villages and forcibly resettling tribes under Baryatinsky and Milyutin. The Adyge entry says the Adyge left for the Ottoman Empire after the Russian conquest. The total, the end date of the western campaign and the right word for the Circassian exodus remain contested.",
+        "es": "La entrada de Caucasian Wars de Encyclopedia.com dice que hasta medio millón de montañeses musulmanes, sobre todo circasianos del oeste, fueron reubicados, y describe el método como despejar y quemar bosques, destruir aldeas y reasentar por la fuerza a tribus bajo Bariatinski y Miliutin. La entrada Adyge dice que los adigué partieron hacia el Imperio otomano tras la conquista rusa. La cifra total, la fecha final de la campaña occidental y la palabra adecuada para el éxodo circasiano siguen en disputa.",
+        "zh": "Encyclopedia.com的“高加索战争”词条称，多达50万穆斯林山民，尤其是西部的切尔克斯人，被迁离故土，并称其手段是在巴里亚京斯基和米柳京主持下清理并焚烧森林、毁坏村庄、强制迁移部族。“阿迪格”词条称阿迪格人在俄国征服后前往奥斯曼帝国。总数、西部战事的结束年份以及对切尔克斯人外迁的恰当称呼仍有争议。"
+      }
+    },
+    {
+      "id": "emancipation-of-the-serfs",
+      "start": 1861,
+      "type": "ruler",
+      "title": {
+        "en": "Alexander II's manifesto of 3 March ends serfdom for over twenty million peasants, who must pay redemption for their land over 49 years",
+        "es": "El manifiesto de Alejandro II del 3 de marzo pone fin a la servidumbre de más de veinte millones de campesinos, que deben pagar la redención de su tierra durante 49 años",
+        "zh": "亚历山大二世3月3日的诏书结束了两千多万农民的农奴身份，他们须在49年内为所得土地缴纳赎金"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Serfs, Emancipation of.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/serfs-emancipation"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Emancipation Act.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/emancipation-act"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "St Petersburg",
+          "es": "San Petersburgo",
+          "zh": "圣彼得堡"
+        },
+        "lat": 59.9343,
+        "lon": 30.3351
+      }
+    },
+    {
+      "id": "revolution-of-1905",
+      "start": 1905,
+      "type": "conflict",
+      "title": {
+        "en": "Troops fire on a workers' march to the Winter Palace on 22 January, strikes spread, and in October Nicholas II promises a Duma and civil liberties",
+        "es": "Las tropas disparan contra una marcha obrera hacia el Palacio de Invierno el 22 de enero, las huelgas se extienden y en octubre Nicolás II promete una Duma y libertades civiles",
+        "zh": "1月22日军队向前往冬宫的工人游行队伍开枪，罢工蔓延，10月尼古拉二世许诺设立杜马并给予公民自由"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Russian Revolution of 1905.\"",
+          "url": "https://www.worldhistory.org/Russian_Revolution_of_1905/"
+        },
+        {
+          "citation": "Encyclopedia.com. \"October Manifesto (Russia, 1905).\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/russian-soviet-and-cis-history/october-manifesto-russia-1905"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "St Petersburg",
+          "es": "San Petersburgo",
+          "zh": "圣彼得堡"
+        },
+        "lat": 59.9343,
+        "lon": 30.3351
+      }
+    },
+    {
+      "id": "abdication-of-nicholas-ii",
+      "start": 1917,
+      "type": "collapse",
+      "title": {
+        "en": "After bread riots and a soldiers' mutiny in Petrograd, Nicholas II abdicates in March, ending the Romanov rule that began in 1613",
+        "es": "Tras los disturbios por el pan y un motín de soldados en Petrogrado, Nicolás II abdica en marzo y pone fin al gobierno de los Románov iniciado en 1613",
+        "zh": "彼得格勒爆发面包骚乱和士兵哗变后，尼古拉二世于3月退位，始于1613年的罗曼诺夫王朝统治就此结束"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Tsar Nicholas II.\"",
+          "url": "https://www.worldhistory.org/Tsar_Nicholas_II/"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Russian Revolution.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/russian-soviet-and-cis-history/russian-revolution"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Petrograd (St Petersburg)",
+          "es": "Petrogrado (San Petersburgo)",
+          "zh": "彼得格勒（圣彼得堡）"
+        },
+        "lat": 59.9343,
+        "lon": 30.3351
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "redemption-payments",
+      "text": {
+        "en": "Freed serfs received land assigned to village communes and had paid about 680 million rubles in redemption by 1905.",
+        "es": "Los siervos liberados recibieron tierra asignada a las comunas aldeanas y hacia 1905 habían pagado unos 680 millones de rublos en redención.",
+        "zh": "获得解放的农奴分到的土地归村社所有，到1905年已缴纳约6.8亿卢布的赎金。"
+      },
+      "start": 1861,
+      "end": 1905,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Serfs, Emancipation of.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/serfs-emancipation"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

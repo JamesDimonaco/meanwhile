@@ -1,0 +1,314 @@
+{
+  "id": "first-french-empire",
+  "region": "europe",
+  "wikidataId": "Q71084",
+  "name": {
+    "en": "First French Empire",
+    "es": "Primer Imperio francés",
+    "zh": "法兰西第一帝国"
+  },
+  "aliases": [
+    "Napoleonic Empire",
+    "French Empire",
+    "Napoleonic France",
+    "Imperio napoleónico",
+    "Imperio francés",
+    "拿破仑帝国",
+    "法兰西帝国"
+  ],
+  "description": {
+    "en": "The empire Napoleon Bonaparte ruled as Emperor of the French. It began with his coronation in December 1804 and ended with his abdication in 1814, interrupted by his return in 1815 and his defeat at Waterloo. Its armies fought coalitions of Britain, Austria, Russia and Prussia across Europe, and it left behind the Napoleonic Code.",
+    "es": "El imperio que Napoleón Bonaparte gobernó como emperador de los franceses. Empezó con su coronación en diciembre de 1804 y terminó con su abdicación en 1814, con la interrupción de su regreso en 1815 y su derrota en Waterloo. Sus ejércitos combatieron a coaliciones de Gran Bretaña, Austria, Rusia y Prusia por toda Europa, y dejó tras de sí el Código Napoleónico.",
+    "zh": "拿破仑·波拿巴以法国人的皇帝身份统治的帝国。它始于1804年12月的加冕，终于1814年的退位，其间1815年他重返权力，随后在滑铁卢战败。帝国的军队在欧洲各地与英国、奥地利、俄国和普鲁士组成的联盟作战，并留下了《拿破仑法典》。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "napoleonic-empire",
+      "earliestStart": 1804,
+      "latestStart": 1804,
+      "earliestEnd": 1814,
+      "latestEnd": 1815,
+      "sources": [
+        {
+          "citation": "Wikidata, \"First French Empire\" (Q71084): \"empire of Napoleon I of France, from 1804 to 1815\".",
+          "url": "https://www.wikidata.org/wiki/Q71084"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Napoleon Bonaparte\": coronation at Notre-Dame on 2 December 1804; abdication on 11 April 1814; return on 1 March 1815 and defeat at Waterloo on 18 June 1815.",
+          "url": "https://www.worldhistory.org/Napoleon_Bonaparte/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Napoleon I\": the Waterloo campaign lasted from 12 to 18 June 1815; Napoleon abdicated a second time on 22 June.",
+          "url": "https://www.encyclopedia.com/people/history/french-history-biographies/napoleon-i"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The end is dated to Napoleon's first abdication in April 1814, or to 1815, after his return and his defeat at Waterloo, which is the end Wikidata uses.",
+        "es": "El final se fecha en la primera abdicación de Napoleón en abril de 1814, o en 1815, tras su regreso y su derrota en Waterloo, que es el final que usa Wikidata.",
+        "zh": "终点或定为1814年4月拿破仑第一次退位，或定为1815年他重返权力并在滑铁卢战败之后，后者是维基数据采用的终点。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "napoleon-crowned",
+      "start": 1804,
+      "type": "founding",
+      "title": {
+        "en": "Napoleon crowns himself Emperor of the French at Notre-Dame on 2 December, with Pope Pius VII present",
+        "es": "Napoleón se corona a sí mismo emperador de los franceses en Notre-Dame el 2 de diciembre, con el papa Pío VII presente",
+        "zh": "12月2日，拿破仑在巴黎圣母院亲手为自己加冕为法国人的皇帝，教皇庇护七世在场"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Napoleon Bonaparte\": the coronation was held at Notre-Dame de Paris on 2 December, where Napoleon took the crown and placed it on his own head.",
+          "url": "https://www.worldhistory.org/Napoleon_Bonaparte/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Emperor Of France Napoleon I\": in 1804 Napoleon crowned himself emperor at Notre Dame Cathedral, with Pope Pius VII present.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/napoleon-bonaparte"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Notre-Dame de Paris",
+          "es": "Notre-Dame de París",
+          "zh": "巴黎圣母院"
+        },
+        "lat": 48.853,
+        "lon": 2.3499
+      }
+    },
+    {
+      "id": "civil-code",
+      "start": 1804,
+      "type": "invention",
+      "title": {
+        "en": "The Civil Code, known as the Napoleonic Code, takes effect",
+        "es": "Entra en vigor el Código Civil, conocido como Código Napoleónico",
+        "zh": "《民法典》（又称《拿破仑法典》）生效"
+      },
+      "sources": [
+        {
+          "citation": "Britannica, \"Napoleonic Code\": the Code civil des Français was enacted on 21 March 1804.",
+          "url": "https://www.britannica.com/topic/Napoleonic-Code"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Napoleonic Code\": the code as promulgated in 1804 drew on Roman and customary law; Article 213 gave the husband protection over his wife and the wife obedience to her husband, creating legal incapacity for married women.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/napoleonic-code"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The code restricted the legal rights of married women: under its Article 213 the wife owed obedience to her husband.",
+        "es": "El código restringió los derechos legales de las mujeres casadas: según su artículo 213, la esposa debía obediencia al marido.",
+        "zh": "该法典限制了已婚妇女的法律权利：按其第213条，妻子须服从丈夫。"
+      },
+      "place": {
+        "name": {
+          "en": "Paris",
+          "es": "París",
+          "zh": "巴黎"
+        },
+        "lat": 48.8566,
+        "lon": 2.3522
+      }
+    },
+    {
+      "id": "battle-of-austerlitz",
+      "start": 1805,
+      "type": "conflict",
+      "title": {
+        "en": "Napoleon defeats an Austrian-Russian army at Austerlitz on 2 December",
+        "es": "Napoleón derrota a un ejército austro-ruso en Austerlitz el 2 de diciembre",
+        "zh": "12月2日，拿破仑在奥斯特里茨击败奥俄联军"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Austerlitz\": the battle was fought on 2 December 1805 between the armies of France, Austria and Russia, commanded in person by Napoleon, Francis II and Alexander I.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/austerlitz-battle"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Napoleon Bonaparte\": he decisively defeated an Austro-Russian army at the Battle of Austerlitz (2 December 1805).",
+          "url": "https://www.worldhistory.org/Napoleon_Bonaparte/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Austerlitz (Slavkov u Brna)",
+          "es": "Austerlitz (Slavkov u Brna)",
+          "zh": "奥斯特里茨（斯拉夫科夫）"
+        },
+        "lat": 49.1525,
+        "lon": 16.8756
+      }
+    },
+    {
+      "id": "continental-system",
+      "start": 1806,
+      "end": 1814,
+      "type": "founding",
+      "title": {
+        "en": "The Berlin Decree of 21 November starts the Continental System, a blockade of British trade",
+        "es": "El Decreto de Berlín del 21 de noviembre inicia el Sistema Continental, un bloqueo del comercio británico",
+        "zh": "11月21日的《柏林敕令》开始实行大陆封锁，封锁英国贸易"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Continental System\": officially proclaimed by Napoleon's Berlin Decree of 21 November 1806, declaring the British Isles in a state of blockade; the system lasted 1806 to 1813.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/continental-system"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Continental System\": a blockade of British trade imposed from 21 November 1806 to 11 April 1814.",
+          "url": "https://www.worldhistory.org/Continental_System/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Encyclopedia.com dates the system 1806 to 1813; World History Encyclopedia gives 11 April 1814, the date of Napoleon's abdication, as its end.",
+        "es": "Encyclopedia.com fecha el sistema entre 1806 y 1813; World History Encyclopedia da como final el 11 de abril de 1814, la fecha de la abdicación de Napoleón.",
+        "zh": "Encyclopedia.com将该体系定在1806至1813年；World History Encyclopedia则以1814年4月11日，即拿破仑退位之日，为其终点。"
+      },
+      "place": {
+        "name": {
+          "en": "Berlin",
+          "es": "Berlín",
+          "zh": "柏林"
+        },
+        "lat": 52.52,
+        "lon": 13.405
+      }
+    },
+    {
+      "id": "russian-campaign",
+      "start": 1812,
+      "type": "conflict",
+      "title": {
+        "en": "Napoleon crosses the Niemen into Russia on 23 and 24 June with an army of about 615,000 French and allied troops",
+        "es": "Napoleón cruza el Niemen hacia Rusia el 23 y 24 de junio con un ejército de unos 615 000 soldados franceses y aliados",
+        "zh": "6月23日至24日，拿破仑率约61.5万法军和盟军渡过涅曼河进入俄国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Napoleon's Invasion of Russia\": Napoleon crossed the Niemen on 23-24 June 1812; of the 615,000 French and allied troops who crossed, fewer than 100,000 came back, and the campaign caused approximately 1,000,000 total deaths.",
+          "url": "https://www.worldhistory.org/Napoleon's_Invasion_of_Russia/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Emperor Of France Napoleon I\": Alexander I's decision to end Russia's cooperation with the Continental System led Napoleon to launch the 1812 invasion; he reached Moscow, but the tsar refused to negotiate.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/napoleon-bonaparte"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The troop and death figures are World History Encyclopedia's estimates. The death figure counts both sides and civilians, and the article says it likely surpassed one million.",
+        "es": "Las cifras de tropas y muertes son estimaciones de World History Encyclopedia. La cifra de muertes cuenta a ambos bandos y a civiles, y el artículo dice que probablemente superó el millón.",
+        "zh": "兵力和死亡人数是World History Encyclopedia的估算。死亡人数包括双方和平民，该文称其很可能超过一百万。"
+      },
+      "place": {
+        "name": {
+          "en": "Niemen River, near Kaunas",
+          "es": "Río Niemen, cerca de Kaunas",
+          "zh": "涅曼河，考纳斯附近"
+        },
+        "lat": 54.9,
+        "lon": 23.9
+      }
+    },
+    {
+      "id": "napoleon-abdicates",
+      "start": 1814,
+      "type": "collapse",
+      "title": {
+        "en": "Napoleon abdicates at Fontainebleau in April after Allied armies take Paris, and is exiled to Elba",
+        "es": "Napoleón abdica en Fontainebleau en abril, tras la toma de París por los ejércitos aliados, y es desterrado a Elba",
+        "zh": "4月，盟军攻占巴黎后，拿破仑在枫丹白露退位，被流放到厄尔巴岛"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Napoleon Bonaparte\": the Coalition invaded France, leaving Napoleon no choice but to abdicate on 11 April 1814.",
+          "url": "https://www.worldhistory.org/Napoleon_Bonaparte/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Napoleon I\": Paris fell to the Allies on 31 March 1814 and Napoleon abdicated at Fontainebleau (4 April 1814) in favour of his son; in April 1814 he was exiled to Elba.",
+          "url": "https://www.encyclopedia.com/people/history/french-history-biographies/napoleon-i"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give different days in April 1814: Encyclopedia.com dates the abdication in favour of his son to 4 April, and World History Encyclopedia dates his abdication to 11 April.",
+        "es": "Las fuentes dan días distintos de abril de 1814: Encyclopedia.com fecha la abdicación en favor de su hijo el 4 de abril, y World History Encyclopedia fecha su abdicación el 11 de abril.",
+        "zh": "各来源给出的1814年4月日期不同：Encyclopedia.com把让位于其子的退位定在4月4日，World History Encyclopedia则把他的退位定在4月11日。"
+      },
+      "place": {
+        "name": {
+          "en": "Fontainebleau",
+          "es": "Fontainebleau",
+          "zh": "枫丹白露"
+        },
+        "lat": 48.4048,
+        "lon": 2.701
+      }
+    },
+    {
+      "id": "battle-of-waterloo",
+      "start": 1815,
+      "type": "collapse",
+      "title": {
+        "en": "Napoleon, back in power since March, is defeated by Wellington and Blücher at Waterloo on 18 June and abdicates again",
+        "es": "Napoleón, de nuevo en el poder desde marzo, es derrotado por Wellington y Blücher en Waterloo el 18 de junio y abdica otra vez",
+        "zh": "拿破仑自3月起重掌权力，6月18日在滑铁卢被威灵顿和布吕歇尔击败，再次退位"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Napoleon Bonaparte\": Napoleon landed in southern France on 1 March 1815 and was decisively defeated at the Battle of Waterloo (18 June 1815) by the forces of Wellington and Blücher.",
+          "url": "https://www.worldhistory.org/Napoleon_Bonaparte/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Napoleon I\": the Hundred Days ended when the emperor lost the Battle of Waterloo (18 June); he abdicated a second time on 22 June.",
+          "url": "https://www.encyclopedia.com/people/history/french-history-biographies/napoleon-i"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Waterloo, Belgium",
+          "es": "Waterloo, Bélgica",
+          "zh": "滑铁卢，比利时"
+        },
+        "lat": 50.68,
+        "lon": 4.41
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "code-in-louisiana-and-quebec",
+      "text": {
+        "en": "Encyclopedia.com says the Napoleonic Code inspired the civil codes of Louisiana and Quebec, whose vestiges still govern there today.",
+        "es": "Encyclopedia.com afirma que el Código Napoleónico inspiró los códigos civiles de Luisiana y Quebec, cuyos vestigios siguen rigiendo allí hoy.",
+        "zh": "Encyclopedia.com称，《拿破仑法典》启发了路易斯安那和魁北克的民法典，其遗迹至今仍在当地适用。"
+      },
+      "start": 1804,
+      "end": 1815,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Napoleonic Code\": the code was transported to the New World, and the civil codes of Louisiana and Quebec in force today were inspired by it.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/napoleonic-code"
+        },
+        {
+          "citation": "Britannica, \"Napoleonic Code\": Louisiana's civil code of 1825, revised in 1870 and still in force, is closely connected with the Napoleonic Code, which was the main influence on the 19th-century civil codes of most of continental Europe and Latin America.",
+          "url": "https://www.britannica.com/topic/Napoleonic-Code"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
