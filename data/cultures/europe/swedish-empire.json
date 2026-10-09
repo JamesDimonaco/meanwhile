@@ -140,9 +140,9 @@
       "start": 1630,
       "type": "conflict",
       "title": {
-        "en": "A Swedish army lands at Peenemünde in June and joins the Thirty Years' War in Germany",
-        "es": "Un ejército sueco desembarca en Peenemünde en junio y entra en la guerra de los Treinta Años en Alemania",
-        "zh": "6月，一支瑞典军队在佩讷明德登陆，加入德意志境内的三十年战争"
+        "en": "A Swedish army lands at Peenemünde in late June (Old Style; early July in the Gregorian calendar) and joins the Thirty Years' War in Germany",
+        "es": "Un ejército sueco desembarca en Peenemünde a finales de junio (estilo antiguo; principios de julio en el calendario gregoriano) y entra en la guerra de los Treinta Años en Alemania",
+        "zh": "6月下旬（旧历；公历为7月初），一支瑞典军队在佩讷明德登陆，加入德意志境内的三十年战争"
       },
       "sources": [
         {
@@ -170,9 +170,9 @@
       "start": 1632,
       "type": "conflict",
       "title": {
-        "en": "Swedish forces fight Wallenstein's imperial army at Lützen on 6 November, and Gustavus Adolphus is killed there",
-        "es": "Las fuerzas suecas combaten al ejército imperial de Wallenstein en Lützen el 6 de noviembre, y allí muere Gustavo Adolfo",
-        "zh": "11月6日，瑞典军队在吕岑与华伦斯坦的帝国军队交战，古斯塔夫·阿道夫在此阵亡"
+        "en": "Swedish forces fight Wallenstein's imperial army at Lützen on 6 November (Old Style; 16 November in the Gregorian calendar), and Gustavus Adolphus is killed there",
+        "es": "Las fuerzas suecas combaten al ejército imperial de Wallenstein en Lützen el 6 de noviembre (estilo antiguo; 16 de noviembre en el calendario gregoriano), y allí muere Gustavo Adolfo",
+        "zh": "11月6日（旧历；公历为11月16日），瑞典军队在吕岑与华伦斯坦的帝国军队交战，古斯塔夫·阿道夫在此阵亡"
       },
       "sources": [
         {
@@ -200,9 +200,9 @@
       "start": 1648,
       "type": "founding",
       "title": {
-        "en": "The Peace of Westphalia ends the German phase of the Thirty Years' War, and Sweden gains most of Pomerania and Bremen and Verden",
-        "es": "La Paz de Westfalia pone fin a la fase alemana de la guerra de los Treinta Años, y Suecia obtiene la mayor parte de Pomerania, además de Bremen y Verden",
-        "zh": "《威斯特伐利亚和约》结束三十年战争的德意志阶段，瑞典获得波美拉尼亚的大部分地区以及不来梅和费尔登"
+        "en": "The Peace of Westphalia ends the German phase of the Thirty Years' War, and Sweden gains western Pomerania, Wismar, Bremen and Verden",
+        "es": "La Paz de Westfalia pone fin a la fase alemana de la guerra de los Treinta Años, y Suecia obtiene la Pomerania occidental, Wismar, Bremen y Verden",
+        "zh": "《威斯特伐利亚和约》结束三十年战争的德意志阶段，瑞典获得西波美拉尼亚、维斯马以及不来梅和费尔登"
       },
       "sources": [
         {
@@ -225,9 +225,9 @@
       "start": 1700,
       "type": "conflict",
       "title": {
-        "en": "Denmark, Saxony and Russia attack Swedish provinces in February; Charles XII lands on Zealand in August and defeats the Russians at Narva in November",
-        "es": "Dinamarca, Sajonia y Rusia atacan provincias suecas en febrero; Carlos XII desembarca en Selandia en agosto y derrota a los rusos en Narva en noviembre",
-        "zh": "2月，丹麦、萨克森和俄国进攻瑞典的行省；8月，卡尔十二世在西兰岛登陆，11月在纳尔瓦击败俄军"
+        "en": "Denmark, Saxony and Russia attack Sweden in 1700; Charles XII lands on Zealand in August and defeats the Russians at Narva in November",
+        "es": "Dinamarca, Sajonia y Rusia atacan Suecia en 1700; Carlos XII desembarca en Selandia en agosto y derrota a los rusos en Narva en noviembre",
+        "zh": "1700年，丹麦、萨克森和俄国进攻瑞典；8月，卡尔十二世在西兰岛登陆，11月在纳尔瓦击败俄军"
       },
       "sources": [
         {
@@ -325,6 +325,10 @@
         {
           "citation": "Encyclopaedia Britannica. \"Gustavus Adolphus.\"",
           "url": "https://www.britannica.com/biography/Gustav-II-Adolf"
+        },
+        {
+          "citation": "Wikipedia. \"Gustavus Adolphus.\"",
+          "url": "https://en.wikipedia.org/wiki/Gustavus_Adolphus"
         }
       ],
       "disputed": false

@@ -216,15 +216,15 @@
           "url": "https://www.britannica.com/topic/Cyrillic-alphabet"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Bulgaria: The First Bulgarian empire.\"",
-          "url": "https://www.britannica.com/place/Bulgaria/The-First-Bulgarian-empire"
+          "citation": "Wikipedia. \"Cyrillic script.\"",
+          "url": "https://en.wikipedia.org/wiki/Cyrillic_script"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Britannica dates the script to the 9th–10th century and says Saints Naum and Clement of Ohrid are sometimes credited with devising it.",
-        "es": "La Britannica la sitúa entre los siglos IX y X y señala que a veces se atribuye su creación a los santos Naum y Clemente de Ohrid.",
-        "zh": "《大英百科全书》把这种文字的出现定在9至10世纪，并指出有时认为是奥赫里德的圣纳翁和圣克莱门特创制的。"
+        "en": "Britannica dates the script to the 9th–10th century and says Saints Naum and Clement of Ohrid are sometimes credited with devising it. Wikipedia places it at the Preslav Literary School, in the 9th century or the 890s by one scholar's account, and credits Cyril and Methodius's disciples.",
+        "es": "La Britannica la sitúa entre los siglos IX y X y señala que a veces se atribuye su creación a los santos Naum y Clemente de Ohrid. Wikipedia la sitúa en la Escuela Literaria de Preslav, en el siglo IX o en la década de 890 según un estudioso, y la atribuye a los discípulos de Cirilo y Metodio.",
+        "zh": "《大英百科全书》把这种文字的出现定在9至10世纪，并指出有时认为是奥赫里德的圣纳翁和圣克莱门特创制的。维基百科把它放在普雷斯拉夫文学学校，称在9世纪，或如一位学者所说在890年代，并认为是西里尔与美多德的弟子所创。"
       }
     },
     {
@@ -351,6 +351,14 @@
         {
           "citation": "Encyclopaedia Britannica. \"Bulgaria: The First Bulgarian empire.\"",
           "url": "https://www.britannica.com/place/Bulgaria/The-First-Bulgarian-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        },
+        {
+          "citation": "Wikipedia. \"Veliki Preslav.\"",
+          "url": "https://en.wikipedia.org/wiki/Veliki_Preslav"
         }
       ],
       "disputed": false
