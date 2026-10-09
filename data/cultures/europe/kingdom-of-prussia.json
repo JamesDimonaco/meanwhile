@@ -1,0 +1,288 @@
+{
+  "id": "kingdom-of-prussia",
+  "region": "europe",
+  "wikidataId": "Q27306",
+  "name": {
+    "en": "Kingdom of Prussia",
+    "es": "Reino de Prusia",
+    "zh": "普鲁士王国"
+  },
+  "aliases": [
+    "Prussia",
+    "Preussen",
+    "Preußen",
+    "Prusia",
+    "Hohenzollern monarchy",
+    "普鲁士"
+  ],
+  "description": {
+    "en": "A kingdom ruled by the Hohenzollern dynasty from Berlin, crowned in 1701. Under Frederick the Great it won Silesia and became a leading military power. After defeat at Jena in 1806 it reformed, and from 1871 it led the German Empire.",
+    "es": "Reino gobernado desde Berlín por la dinastía Hohenzollern, coronado en 1701. Con Federico el Grande ganó Silesia y se convirtió en una potencia militar de primer orden. Tras la derrota de Jena en 1806 se reformó, y desde 1871 dirigió el Imperio alemán.",
+    "zh": "由霍亨索伦王朝在柏林统治的王国，1701年加冕建国。在腓特烈大王治下，它夺得西里西亚，成为一流的军事强国。1806年耶拿战败后，它进行改革，1871年起主导德意志帝国。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kingdom",
+      "earliestStart": 1701,
+      "latestStart": 1701,
+      "earliestEnd": 1918,
+      "latestEnd": 1947,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Prussia.\"",
+          "url": "https://www.britannica.com/place/Prussia"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"German Empire.\"",
+          "url": "https://www.britannica.com/place/German-Empire"
+        },
+        {
+          "citation": "Wikidata. \"Kingdom of Prussia\" (Q27306): former European state (1701–1918).",
+          "url": "https://www.wikidata.org/wiki/Q27306"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The kingdom began with the coronation of 18 January 1701. Britannica says Prussia stayed the dominant state in Germany until the German Empire fell in 1918. A Prussian state continued after the Hohenzollerns fell in 1918 and was abolished by the Allies in 1947, so the end is 1918 or 1947 depending on what counts as the kingdom.",
+        "es": "El reino comenzó con la coronación del 18 de enero de 1701. La Britannica afirma que Prusia siguió siendo el Estado dominante de Alemania hasta la caída del Imperio alemán en 1918. Un Estado prusiano continuó tras la caída de los Hohenzollern en 1918 y fue abolido por los aliados en 1947, así que el final es 1918 o 1947 según qué se considere el reino.",
+        "zh": "王国始于1701年1月18日的加冕。《大英百科全书》称，普鲁士在德意志帝国于1918年覆灭之前一直是德意志的主导邦国。1918年霍亨索伦王朝倒台后，普鲁士邦继续存在，直到1947年被同盟国废除，所以终点是1918年还是1947年，取决于怎样界定这个王国。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "absolutist-kingdom",
+      "name": {
+        "en": "Absolutist kingdom",
+        "es": "Reino absolutista",
+        "zh": "专制王国"
+      },
+      "start": 1701,
+      "end": 1806,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Prussia.\"",
+          "url": "https://www.britannica.com/place/Prussia"
+        }
+      ]
+    },
+    {
+      "id": "reform-and-unification",
+      "name": {
+        "en": "Reform and unification",
+        "es": "Reformas y unificación",
+        "zh": "改革与统一"
+      },
+      "start": 1806,
+      "end": 1871,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Prussia.\"",
+          "url": "https://www.britannica.com/place/Prussia"
+        }
+      ]
+    },
+    {
+      "id": "within-the-german-empire",
+      "name": {
+        "en": "Within the German Empire",
+        "es": "Dentro del Imperio alemán",
+        "zh": "德意志帝国之内"
+      },
+      "start": 1871,
+      "end": 1918,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"German Empire.\"",
+          "url": "https://www.britannica.com/place/German-Empire"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "coronation-of-frederick-i",
+      "start": 1701,
+      "type": "founding",
+      "title": {
+        "en": "Frederick I crowns himself king in Prussia at Königsberg on 18 January, with Austria's consent",
+        "es": "Federico I se corona rey en Prusia en Königsberg el 18 de enero, con el consentimiento de Austria",
+        "zh": "1月18日，腓特烈一世在柯尼斯堡自行加冕为普鲁士国王，奥地利对此表示同意"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Frederick I.\"",
+          "url": "https://www.britannica.com/biography/Frederick-I-king-of-Prussia"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Prussia.\"",
+          "url": "https://www.britannica.com/place/Prussia"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Königsberg (now Kaliningrad)",
+          "es": "Königsberg (hoy Kaliningrado)",
+          "zh": "柯尼斯堡（今加里宁格勒）"
+        },
+        "lat": 54.7104,
+        "lon": 20.4522
+      }
+    },
+    {
+      "id": "silesian-wars",
+      "start": 1740,
+      "end": 1745,
+      "type": "conflict",
+      "title": {
+        "en": "Frederick II takes the throne and attacks Habsburg Silesia; the Treaty of Dresden of December 1745 confirms Prussian rule there",
+        "es": "Federico II asciende al trono y ataca la Silesia de los Habsburgo; el Tratado de Dresde de diciembre de 1745 confirma allí el dominio prusiano",
+        "zh": "腓特烈二世即位后进攻哈布斯堡的西里西亚；1745年12月的《德累斯顿和约》确认普鲁士对该地的统治"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Frederick II.\"",
+          "url": "https://www.britannica.com/biography/Frederick-II-king-of-Prussia"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Prussia.\"",
+          "url": "https://www.britannica.com/place/Prussia"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "seven-years-war",
+      "start": 1756,
+      "end": 1763,
+      "type": "conflict",
+      "title": {
+        "en": "Frederick II invades Saxony in August 1756 and starts the Seven Years' War in Europe, which lasts until 1763",
+        "es": "Federico II invade Sajonia en agosto de 1756 y desencadena la guerra de los Siete Años en Europa, que dura hasta 1763",
+        "zh": "1756年8月，腓特烈二世入侵萨克森，在欧洲引发七年战争，战事持续到1763年"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Frederick II.\"",
+          "url": "https://www.britannica.com/biography/Frederick-II-king-of-Prussia"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Prussia.\"",
+          "url": "https://www.britannica.com/place/Prussia"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "jena",
+      "start": 1806,
+      "type": "conflict",
+      "title": {
+        "en": "Napoleon's army defeats the Prussian army at Jena and Auerstedt on 14 October",
+        "es": "El ejército de Napoleón derrota al ejército prusiano en Jena y Auerstedt el 14 de octubre",
+        "zh": "10月14日，拿破仑的军队在耶拿和奥尔施泰特击败普鲁士军队"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Battle of Jena.\"",
+          "url": "https://www.britannica.com/event/Battle-of-Jena"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Stein, Heinrich Friedrich Karl, Baron vom und zum.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Stein,_Heinrich_Friedrich_Karl,_Baron_vom_und_zum"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Jena",
+          "es": "Jena",
+          "zh": "耶拿"
+        },
+        "lat": 50.9278,
+        "lon": 11.5892
+      }
+    },
+    {
+      "id": "stein-hardenberg-reforms",
+      "start": 1807,
+      "type": "invention",
+      "title": {
+        "en": "After the Treaty of Tilsit, Stein and Hardenberg reform the Prussian state, starting with an October 1807 edict that ends serfdom from 1810",
+        "es": "Tras el Tratado de Tilsit, Stein y Hardenberg reforman el Estado prusiano, empezando por un edicto de octubre de 1807 que acaba con la servidumbre desde 1810",
+        "zh": "《提尔西特和约》之后，施泰因和哈登贝格改革普鲁士国家，首项措施是1807年10月的敕令，规定自1810年起废除农奴制"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Stein, Heinrich Friedrich Karl, Baron vom und zum.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Stein,_Heinrich_Friedrich_Karl,_Baron_vom_und_zum"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Frederick William III.\"",
+          "url": "https://www.britannica.com/biography/Frederick-William-III"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Britannica says the reforms changed the higher bureaucracy, not the king's own powers.",
+        "es": "La Britannica señala que las reformas cambiaron la alta administración, no las prerrogativas del propio rey.",
+        "zh": "《大英百科全书》指出，这些改革改变的是高级官僚体制，没有触及国王本人的权力。"
+      }
+    },
+    {
+      "id": "german-empire",
+      "start": 1871,
+      "type": "founding",
+      "title": {
+        "en": "The German Empire is founded on 18 January from the North German Confederation led by Prussia and the south German states; Prussia stays its dominant state",
+        "es": "El Imperio alemán se funda el 18 de enero a partir de la Confederación de Alemania del Norte, dirigida por Prusia, y los Estados del sur; Prusia sigue siendo su Estado dominante",
+        "zh": "1月18日，由普鲁士领导的北德意志邦联与南德各邦合并成立德意志帝国；普鲁士仍是帝国中占主导地位的邦"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"German Empire.\"",
+          "url": "https://www.britannica.com/place/German-Empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Germany.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Germany"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Berlin",
+          "es": "Berlín",
+          "zh": "柏林"
+        },
+        "lat": 52.52,
+        "lon": 13.405
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "sanssouci",
+      "start": 1740,
+      "end": 1786,
+      "text": {
+        "en": "Frederick the Great, who preferred French language and art, built the Rococo palace of Sanssouci near Berlin.",
+        "es": "Federico el Grande, que prefería la lengua y el arte franceses, hizo construir el palacio rococó de Sanssouci cerca de Berlín.",
+        "zh": "腓特烈大王偏爱法国的语言和艺术，他在柏林附近修建了洛可可风格的无忧宫。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Frederick II.\"",
+          "url": "https://www.britannica.com/biography/Frederick-II-king-of-Prussia"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

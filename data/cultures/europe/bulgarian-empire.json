@@ -1,0 +1,359 @@
+{
+  "id": "bulgarian-empire",
+  "region": "europe",
+  "wikidataId": "Q2067184",
+  "name": {
+    "en": "Bulgarian Empire",
+    "es": "Imperio búlgaro",
+    "zh": "保加利亚帝国"
+  },
+  "aliases": [
+    "First Bulgarian Empire",
+    "Second Bulgarian Empire",
+    "Bulgarian Tsardom",
+    "Bulgaria in the Middle Ages",
+    "Tsardom of Bulgaria",
+    "Primer Imperio búlgaro",
+    "Segundo Imperio búlgaro"
+  ],
+  "description": {
+    "en": "Medieval Bulgaria in two states: the First Empire (681–1018), from Pliska and Preslav, and the Second (1185–1396), from Tarnovo. Between them lay 167 years of Byzantine control. The empires spread the Slavic script that became Cyrillic.",
+    "es": "La Bulgaria medieval en dos estados: el Primer Imperio (681–1018), con capital en Pliska y Preslav, y el Segundo (1185–1396), desde Tarnovo. Entre ambos hubo 167 años de control bizantino. Los imperios difundieron la escritura eslava que dio origen al cirílico.",
+    "zh": "中世纪保加利亚的两个国家：第一帝国（681–1018年）以普利斯卡和普雷斯拉夫为都，第二帝国（1185–1396年）以特尔诺沃为都，两者之间有167年的拜占庭统治。这两个帝国推广了后来发展成西里尔字母的斯拉夫文字。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "medieval-bulgaria",
+      "earliestStart": 679,
+      "latestStart": 681,
+      "earliestEnd": 1393,
+      "latestEnd": 1396,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The First Bulgarian empire\" and \"Bulgaria: The Second Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-First-Bulgarian-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The bar runs from the Bulgars' crossing of the Danube (679, treaty with Byzantium 681) to the fall of Tarnovo (1393) and Vidin (1396). Bulgaria was under Byzantine control from 1018 to 1185, shown as its own phase.",
+        "es": "La barra va desde el cruce del Danubio por los búlgaros (679, tratado con Bizancio en 681) hasta la caída de Tarnovo (1393) y Vidin (1396). Bulgaria estuvo bajo control bizantino de 1018 a 1185, lo que se muestra como una fase aparte.",
+        "zh": "时间条自保加尔人渡过多瑙河（679年，681年与拜占庭订约）起，至特尔诺沃（1393年）和维丁（1396年）陷落止。1018年至1185年保加利亚处于拜占庭控制之下，单列为一个阶段。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "first-empire",
+      "name": {
+        "en": "First Empire",
+        "es": "Primer Imperio",
+        "zh": "第一帝国"
+      },
+      "start": 681,
+      "end": 1018,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The First Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-First-Bulgarian-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ]
+    },
+    {
+      "id": "byzantine-control",
+      "name": {
+        "en": "Under Byzantine control",
+        "es": "Bajo control bizantino",
+        "zh": "拜占庭统治时期"
+      },
+      "start": 1018,
+      "end": 1185,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The First Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-First-Bulgarian-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ]
+    },
+    {
+      "id": "second-empire",
+      "name": {
+        "en": "Second Empire",
+        "es": "Segundo Imperio",
+        "zh": "第二帝国"
+      },
+      "start": 1185,
+      "end": 1396,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The Second Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-Second-Bulgarian-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "treaty-with-byzantium",
+      "start": 681,
+      "type": "founding",
+      "title": {
+        "en": "Byzantium recognises Bulgar rule between the Balkan range and the Danube by treaty, after Khan Asparuh's people cross the river",
+        "es": "Bizancio reconoce por tratado el dominio búlgaro entre los Balcanes y el Danubio, tras cruzar el río el pueblo del kan Asparuj",
+        "zh": "在阿斯帕鲁赫汗率部渡过多瑙河后，拜占庭以条约承认保加尔人对巴尔干山脉与多瑙河之间地区的统治"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: History.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/History"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The 1911 Britannica puts the crossing of the Danube in 679. Britannica dates the treaty to 681.",
+        "es": "La Britannica de 1911 sitúa el cruce del Danubio en 679. La Britannica actual fecha el tratado en 681.",
+        "zh": "1911年版《大英百科全书》把渡过多瑙河定在679年；《大英百科全书》现行条目把条约定在681年。"
+      },
+      "place": {
+        "name": {
+          "en": "Pliska",
+          "es": "Pliska",
+          "zh": "普利斯卡"
+        },
+        "lat": 43.3667,
+        "lon": 27.1167
+      }
+    },
+    {
+      "id": "baptism-of-boris",
+      "start": 864,
+      "type": "ruler",
+      "title": {
+        "en": "Boris I is baptised and brings Christianity to Bulgaria, later moving the capital from Pliska to Preslav",
+        "es": "Boris I se bautiza e introduce el cristianismo en Bulgaria; más tarde traslada la capital de Pliska a Preslav",
+        "zh": "鲍里斯一世受洗，把基督教引入保加利亚，后来将都城从普利斯卡迁往普雷斯拉夫"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The First Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-First-Bulgarian-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "simeon-reign",
+      "start": 893,
+      "end": 927,
+      "type": "ruler",
+      "title": {
+        "en": "Simeon I reigns from Preslav and takes the title of emperor of the Bulgars and Greeks, the First Empire's high point",
+        "es": "Simeón I reina desde Preslav y toma el título de emperador de los búlgaros y los griegos, el apogeo del Primer Imperio",
+        "zh": "西美昂一世在普雷斯拉夫统治，并取“保加尔人与希腊人皇帝”之号，是第一帝国的鼎盛时期"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The First Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-First-Bulgarian-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Preslav",
+          "es": "Preslav",
+          "zh": "普雷斯拉夫"
+        },
+        "lat": 43.1667,
+        "lon": 26.8167
+      }
+    },
+    {
+      "id": "cyrillic-script",
+      "start": 900,
+      "type": "invention",
+      "title": {
+        "en": "Disciples of Cyril and Methodius in the First Empire build the script later called Cyrillic from Greek capital letters",
+        "es": "Discípulos de Cirilo y Metodio en el Primer Imperio crean, a partir de mayúsculas griegas, la escritura que luego se llamó cirílica",
+        "zh": "第一帝国境内西里尔与美多德的弟子以希腊大写字母为基础创制了后来称为西里尔字母的文字"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Cyrillic alphabet.\"",
+          "url": "https://www.britannica.com/topic/Cyrillic-alphabet"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The First Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-First-Bulgarian-empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates the script to the 9th–10th century and says Saints Naum and Clement of Ohrid are sometimes credited with devising it.",
+        "es": "La Britannica la sitúa entre los siglos IX y X y señala que a veces se atribuye su creación a los santos Naum y Clemente de Ohrid.",
+        "zh": "《大英百科全书》把这种文字的出现定在9至10世纪，并指出有时认为是奥赫里德的圣纳翁和圣克莱门特创制的。"
+      }
+    },
+    {
+      "id": "end-of-first-empire",
+      "start": 1018,
+      "type": "collapse",
+      "title": {
+        "en": "After years of campaigns, Basil II brings Bulgaria under Byzantine control",
+        "es": "Tras años de campañas, Basilio II somete Bulgaria al control bizantino",
+        "zh": "经过多年征战，巴西尔二世使保加利亚归于拜占庭控制之下"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Basil II.\"",
+          "url": "https://www.britannica.com/biography/Basil-II"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "asen-revolt",
+      "start": 1185,
+      "type": "founding",
+      "title": {
+        "en": "The brothers Ivan and Peter Asen of Tarnovo lead a revolt against Byzantine rule and restore Bulgarian independence",
+        "es": "Los hermanos Iván y Pedro Asen de Tarnovo encabezan una revuelta contra el dominio bizantino y restauran la independencia búlgara",
+        "zh": "特尔诺沃的伊万与彼得·阿森兄弟发动反抗拜占庭统治的起义，恢复了保加利亚的独立"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The Second Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-Second-Bulgarian-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica gives 1185 for the revolt; the 1911 Britannica gives 1186.",
+        "es": "La Britannica actual da 1185 para la revuelta; la de 1911 da 1186.",
+        "zh": "《大英百科全书》现行条目把起义定在1185年，1911年版则定在1186年。"
+      },
+      "place": {
+        "name": {
+          "en": "Tarnovo",
+          "es": "Tarnovo",
+          "zh": "特尔诺沃"
+        },
+        "lat": 43.0757,
+        "lon": 25.6172
+      }
+    },
+    {
+      "id": "ivan-asen-ii",
+      "start": 1218,
+      "end": 1241,
+      "type": "ruler",
+      "title": {
+        "en": "Tsar Ivan Asen II rules from Tarnovo, when the Second Empire reaches its greatest extent and prosperity",
+        "es": "El zar Iván Asen II gobierna desde Tarnovo, cuando el Segundo Imperio alcanza su mayor extensión y prosperidad",
+        "zh": "沙皇伊万·阿森二世在特尔诺沃统治，第二帝国在此期间达到最盛"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The Second Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-Second-Bulgarian-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Tarnovo",
+          "es": "Tarnovo",
+          "zh": "特尔诺沃"
+        },
+        "lat": 43.0757,
+        "lon": 25.6172
+      }
+    },
+    {
+      "id": "ottoman-conquest",
+      "start": 1393,
+      "end": 1396,
+      "type": "collapse",
+      "title": {
+        "en": "Ottoman forces take Tarnovo in 1393 and Vidin in 1396, ending Bulgarian independence",
+        "es": "Las fuerzas otomanas toman Tarnovo en 1393 y Vidin en 1396, y ponen fin a la independencia búlgara",
+        "zh": "奥斯曼军队于1393年攻占特尔诺沃，1396年攻占维丁，保加利亚的独立就此终结"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The Second Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-Second-Bulgarian-empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Bulgaria: History.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bulgaria/History"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "preslav-rivals-constantinople",
+      "start": 893,
+      "end": 927,
+      "text": {
+        "en": "Under Simeon I, observers compared Preslav with Constantinople, and its tile workshops supplied Byzantium and Kievan Rus.",
+        "es": "Bajo Simeón I, los observadores comparaban Preslav con Constantinopla, y sus talleres de azulejos abastecían a Bizancio y a la Rus de Kiev.",
+        "zh": "西美昂一世时期，时人把普雷斯拉夫比作君士坦丁堡，当地的瓷砖作坊向拜占庭和基辅罗斯供货。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Bulgaria: The First Bulgarian empire.\"",
+          "url": "https://www.britannica.com/place/Bulgaria/The-First-Bulgarian-empire"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

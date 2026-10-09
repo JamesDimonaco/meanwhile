@@ -1,0 +1,246 @@
+{
+  "id": "kalmar-union",
+  "region": "europe",
+  "wikidataId": "Q62623",
+  "name": {
+    "en": "Kalmar Union",
+    "es": "Unión de Kalmar",
+    "zh": "卡尔马联盟"
+  },
+  "nativeName": {
+    "text": "Kalmarunionen",
+    "lang": "da"
+  },
+  "aliases": [
+    "Scandinavian union",
+    "Union of Kalmar",
+    "Kalmarunionen",
+    "Unión kalmarina"
+  ],
+  "description": {
+    "en": "A union of Denmark, Norway and Sweden under one monarch, agreed at Kalmar in 1397. Margaret I built it and Denmark led it. Swedish revolts weakened it from the 1430s, and Gustav Vasa's election as Sweden's king in 1523 ended it.",
+    "es": "Unión de Dinamarca, Noruega y Suecia bajo un solo monarca, acordada en Kalmar en 1397. La impulsó Margarita I y la lideró Dinamarca. Las revueltas suecas la debilitaron desde la década de 1430, y la elección de Gustavo Vasa como rey de Suecia en 1523 la puso fin.",
+    "zh": "丹麦、挪威和瑞典在同一位君主之下的联合，1397年在卡尔马议定。玛格丽特一世促成了联盟，丹麦居于主导地位。瑞典人的反抗自1430年代起削弱了它，1523年古斯塔夫·瓦萨当选瑞典国王，联盟随之终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "union",
+      "earliestStart": 1397,
+      "latestStart": 1397,
+      "earliestEnd": 1523,
+      "latestEnd": 1523,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Margaret I.\"",
+          "url": "https://www.britannica.com/biography/Margaret-I"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Christian II.\"",
+          "url": "https://www.britannica.com/biography/Christian-II-Scandinavian-king"
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The union holds Sweden only in part: the Swedes first broke away in 1434 and were ruled by separate regents for long spells. Norway stayed linked to Denmark until 1814.",
+        "es": "La unión mantuvo a Suecia solo en parte: los suecos se separaron por primera vez en 1434 y largos periodos tuvieron regentes propios. Noruega permaneció unida a Dinamarca hasta 1814.",
+        "zh": "联盟对瑞典的控制并不完整：瑞典人1434年首次脱离，此后很长时间由自己的摄政统治。挪威则一直与丹麦相连，直到1814年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "margaret-regent-of-sweden",
+      "start": 1388,
+      "end": 1389,
+      "type": "conflict",
+      "title": {
+        "en": "Margaret, regent of Denmark and Norway, drives out King Albert of Sweden and becomes regent there too",
+        "es": "Margarita, regente de Dinamarca y Noruega, expulsa al rey Alberto de Suecia y pasa a ser también regente de ese país",
+        "zh": "丹麦和挪威的摄政玛格丽特驱逐瑞典国王阿尔布雷希特，同时成为瑞典的摄政"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Margaret I.\"",
+          "url": "https://www.britannica.com/biography/Margaret-I"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Sweden.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sweden"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates Margaret's regency in Sweden from 1389. The 1911 Britannica says Albert was driven out in 1388 at the request of the Swedes.",
+        "es": "La Britannica fecha la regencia de Margarita en Suecia desde 1389. La de 1911 dice que Alberto fue expulsado en 1388 a petición de los propios suecos.",
+        "zh": "《大英百科全书》把玛格丽特在瑞典的摄政定在1389年起。1911年版称阿尔布雷希特于1388年应瑞典人自己的请求被逐。"
+      }
+    },
+    {
+      "id": "kalmar-union-agreed",
+      "start": 1397,
+      "type": "founding",
+      "title": {
+        "en": "Representatives of Denmark, Norway and Sweden meet at Kalmar and elect Erik of Pomerania common king, each realm keeping its own laws",
+        "es": "Representantes de Dinamarca, Noruega y Suecia se reúnen en Kalmar y eligen a Erico de Pomerania rey común, conservando cada reino sus leyes",
+        "zh": "丹麦、挪威和瑞典的代表在卡尔马集会，选举波美拉尼亚的埃里克为共同国王，各王国保留各自的法律"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Erik VII.\"",
+          "url": "https://www.britannica.com/biography/Erik-VII"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Sweden.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sweden"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kalmar",
+          "es": "Kalmar",
+          "zh": "卡尔马"
+        },
+        "lat": 56.6634,
+        "lon": 16.3568
+      }
+    },
+    {
+      "id": "margaret-dies",
+      "start": 1412,
+      "type": "ruler",
+      "title": {
+        "en": "Margaret I dies at Flensburg, having ruled as the effective head of all three realms since Erik's election",
+        "es": "Margarita I muere en Flensburgo, tras gobernar como cabeza efectiva de los tres reinos desde la elección de Erico",
+        "zh": "玛格丽特一世在弗伦斯堡去世；自埃里克当选以来，她一直是三个王国的实际统治者"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Margaret I.\"",
+          "url": "https://www.britannica.com/biography/Margaret-I"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Erik VII.\"",
+          "url": "https://www.britannica.com/biography/Erik-VII"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "erik-deposed",
+      "start": 1434,
+      "end": 1439,
+      "type": "conflict",
+      "title": {
+        "en": "The Swedes first break away in 1434 under Engelbrekt, and by 1439 Erik of Pomerania has lost the throne in all three realms",
+        "es": "Los suecos se separan por primera vez en 1434 bajo Engelbrekt, y en 1439 Erico de Pomerania ha perdido el trono en los tres reinos",
+        "zh": "瑞典人于1434年在恩格尔布雷克特领导下首次脱离联盟，到1439年，波美拉尼亚的埃里克已在三个王国同时失去王位"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Sweden.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sweden"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Erik VII.\"",
+          "url": "https://www.britannica.com/biography/Erik-VII"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Britannica lists Erik as king of Norway until 1442.",
+        "es": "La Britannica da a Erico como rey de Noruega hasta 1442.",
+        "zh": "《大英百科全书》称埃里克的挪威王位保持到1442年。"
+      }
+    },
+    {
+      "id": "stockholm-bloodbath",
+      "start": 1520,
+      "type": "conflict",
+      "title": {
+        "en": "In Stockholm, after his coronation as king of Sweden, Christian II has more than 80 leaders of the Swedish party executed",
+        "es": "En Estocolmo, tras su coronación como rey de Suecia, Cristián II manda ejecutar a más de 80 dirigentes del partido sueco",
+        "zh": "克里斯蒂安二世在斯德哥尔摩加冕为瑞典国王后，下令处决80多名瑞典派领袖"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Christian II.\"",
+          "url": "https://www.britannica.com/biography/Christian-II-Scandinavian-king"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Christian II.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Christian_II."
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Britannica gives the toll as more than 80 executions, carried out after the leaders were accused of heresy.",
+        "es": "La Britannica da una cifra de más de 80 ejecuciones, llevadas a cabo tras acusar de herejía a los dirigentes.",
+        "zh": "《大英百科全书》称处决人数超过80人，这些领袖事先被指控为异端。"
+      },
+      "place": {
+        "name": {
+          "en": "Stockholm",
+          "es": "Estocolmo",
+          "zh": "斯德哥尔摩"
+        },
+        "lat": 59.3293,
+        "lon": 18.0686
+      }
+    },
+    {
+      "id": "gustav-vasa-elected",
+      "start": 1523,
+      "type": "collapse",
+      "title": {
+        "en": "Swedes elect Gustav Vasa king at Strängnäs on 6 June, ending the Kalmar Union",
+        "es": "Los suecos eligen rey a Gustavo Vasa en Strängnäs el 6 de junio, lo que pone fin a la Unión de Kalmar",
+        "zh": "6月6日，瑞典人在斯特伦奈斯选举古斯塔夫·瓦萨为国王，卡尔马联盟就此终结"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Christian II.\"",
+          "url": "https://www.britannica.com/biography/Christian-II-Scandinavian-king"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Sweden.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sweden"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Strängnäs",
+          "es": "Strängnäs",
+          "zh": "斯特伦奈斯"
+        },
+        "lat": 59.3777,
+        "lon": 17.0313
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "one-king-three-laws",
+      "start": 1397,
+      "end": 1523,
+      "text": {
+        "en": "At Kalmar in 1397, the three realms chose one king but wrote down that each would keep its own liberties.",
+        "es": "En Kalmar, en 1397, los tres reinos eligieron un solo rey pero dejaron escrito que cada uno conservaría sus propias libertades.",
+        "zh": "1397年在卡尔马，三个王国选出同一位国王，同时写明各自保留自己的自由权利。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Sweden.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sweden"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
