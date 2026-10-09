@@ -27,26 +27,23 @@
       "id": "chola-period",
       "earliestStart": 848,
       "latestStart": 850,
-      "earliestEnd": 1250,
+      "earliestEnd": 1257,
       "latestEnd": 1279,
       "sources": [
         {
           "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
         },
         {
-          "citation": "British Museum collection thesaurus, \"Chola\" (8th – 12th century), via PeriodO.",
-          "url": "http://n2t.net/ark:/99152/p08m57hz6wt"
-        },
-        {
-          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+          "citation": "Wikipedia. \"Chola dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
         }
       ],
       "default": true,
-      "disputed": false,
+      "disputed": true,
       "note": {
-        "en": "The start is Vijayalaya's capture of Thanjavur. Chola power faded through the 13th century under Pandya pressure, and 1279 is the end of the last ruler, Rajendra III.",
-        "es": "El inicio es la toma de Thanjavur por Vijayalaya. El poder chola se fue apagando a lo largo del siglo XIII bajo la presión pandya, y 1279 es el final del último soberano, Rajendra III.",
-        "zh": "起点是维贾亚拉亚夺取坦贾武尔。13世纪朱罗在潘迪亚的压力下逐渐衰落，1279年是末代君主拉金德拉三世统治的终结。"
+        "en": "The start is Vijayalaya's founding of the Chola state, dated 848 (Wikipedia) or about 850 (Britannica). The Pandyas conquered the Chola country in 1257 (Britannica), and 1279 is the end of the last ruler, Rajendra III.",
+        "es": "El inicio es la fundación del estado chola por Vijayalaya, fechada en 848 (Wikipedia) o hacia 850 (Britannica). Los pandya conquistaron el país chola en 1257 (Britannica), y 1279 es el final del último soberano, Rajendra III.",
+        "zh": "起点是维贾亚拉亚建立朱罗政权，维基百科作848年，《大英百科全书》作约850年。潘迪亚人于1257年征服朱罗地区（《大英百科全书》），1279年是末代君主拉金德拉三世统治的终结。"
       }
     }
   ],
@@ -65,7 +62,8 @@
           "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
         },
         {
-          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+          "citation": "Wikipedia. \"Chola dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
         }
       ]
     },
@@ -83,7 +81,8 @@
           "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
         },
         {
-          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+          "citation": "Wikipedia. \"Chola dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
         }
       ]
     },
@@ -101,44 +100,46 @@
           "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
         },
         {
-          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+          "citation": "Wikipedia. \"Chola dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
         }
       ]
     }
   ],
   "events": [
     {
-      "id": "vijayalaya-thanjavur",
-      "start": 850,
+      "id": "vijayalaya-founding",
+      "start": 848,
       "type": "founding",
       "title": {
-        "en": "Vijayalaya takes Thanjavur and begins the Chola recovery in the Kaveri delta",
-        "es": "Vijayalaya toma Thanjavur y da comienzo a la recuperación chola en el delta del Kaveri",
-        "zh": "维贾亚拉亚夺取坦贾武尔，朱罗人在卡弗里河三角洲开始复兴"
+        "en": "Vijayalaya re-establishes independent Chola rule in the Kaveri delta, overthrowing the Pallavas and Pandyas",
+        "es": "Vijayalaya restablece el dominio chola independiente en el delta del Kaveri, derrocando a los pallava y a los pandya",
+        "zh": "维贾亚拉亚在卡弗里河三角洲重建独立的朱罗政权，推翻了帕拉瓦人和潘迪亚人"
       },
       "sources": [
         {
           "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
         },
         {
-          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+          "citation": "Wikipedia. \"Chola dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources date the capture between about 846 and 850.",
-        "es": "Las fuentes fechan la toma entre hacia 846 y 850.",
-        "zh": "各来源将夺取坦贾武尔的时间定在约846至850年之间。"
+        "en": "Wikipedia dates the founding to 848 and Britannica begins Vijayalaya's reign about 850.",
+        "es": "Wikipedia fecha la fundación en 848 y Britannica sitúa el comienzo del reinado de Vijayalaya hacia 850.",
+        "zh": "维基百科将建立时间定为848年，《大英百科全书》则将维贾亚拉亚的统治定在约850年开始。"
       }
     },
     {
       "id": "uttaramerur",
-      "start": 920,
+      "start": 919,
       "type": "invention",
       "title": {
-        "en": "Inscriptions at Uttaramerur, under Parantaka I, record the rules for electing a village assembly by lot",
-        "es": "Las inscripciones de Uttaramerur, bajo Parantaka I, registran las reglas para elegir por sorteo una asamblea de aldea",
-        "zh": "帕兰塔卡一世时期，乌塔拉梅鲁尔的铭文记录了以抽签方式选举村议会的规则"
+        "en": "An inscription at Uttaramerur, under Parantaka I, records the rules for choosing village committee members by lot",
+        "es": "Una inscripción de Uttaramerur, bajo Parantaka I, registra las reglas para elegir por sorteo a los miembros de los comités de la aldea",
+        "zh": "帕兰塔卡一世时期，乌塔拉梅鲁尔的一块铭文记录了以抽签方式选出村委员会成员的规则"
       },
       "sources": [
         {
@@ -146,14 +147,15 @@
           "url": "http://madrasmusings.com/Vol%2020%20No%201/the-new-assembly-complex-and-uttaramerur.html"
         },
         {
-          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+          "citation": "Wikipedia. \"Uthiramerur.\"",
+          "url": "https://en.wikipedia.org/wiki/Uthiramerur"
         }
       ],
       "disputed": false,
       "note": {
-        "en": "The inscriptions are dated by Parantaka I's regnal years, which gives c. 920.",
-        "es": "Las inscripciones se fechan por los años de reinado de Parantaka I, lo que da hacia 920.",
-        "zh": "铭文以帕兰塔卡一世的在位年份纪年，对应约920年。"
+        "en": "Wikipedia dates the inscription with the election rules to 919, Madras Musings to about 920; both follow Parantaka I's regnal years.",
+        "es": "Wikipedia fecha la inscripción con las reglas de elección en 919 y Madras Musings hacia 920; ambas siguen los años de reinado de Parantaka I.",
+        "zh": "维基百科将载有选举规则的铭文定在919年，Madras Musings定在约920年；两者都依据帕兰塔卡一世的在位年份。"
       }
     },
     {
@@ -161,20 +163,26 @@
       "start": 993,
       "type": "conflict",
       "title": {
-        "en": "Rajaraja I sends a Chola army to northern Sri Lanka, which takes Anuradhapura",
-        "es": "Rajaraja I envía un ejército chola al norte de Sri Lanka, que toma Anuradhapura",
-        "zh": "拉贾拉贾一世派朱罗军队进攻斯里兰卡北部，攻占阿努拉德普勒"
+        "en": "Rajaraja I sends a Chola army to Sri Lanka, which takes Anuradhapura and northern Sri Lanka",
+        "es": "Rajaraja I envía un ejército chola a Sri Lanka, que toma Anuradhapura y el norte de la isla",
+        "zh": "拉贾拉贾一世派朱罗军队进攻斯里兰卡，攻占阿努拉德普勒和斯里兰卡北部"
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Rajaraja I.\""
+          "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
         },
         {
           "citation": "UNESCO World Heritage Centre. \"Sacred City of Anuradhapura\" (video description).",
           "url": "https://whc.unesco.org/en/documents/124444"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "end": 996,
+      "note": {
+        "en": "UNESCO dates the invasion to 993; Britannica says northern Sri Lanka was acquired by 996.",
+        "es": "La UNESCO fecha la invasión en 993; Britannica dice que el norte de Sri Lanka se había adquirido hacia 996.",
+        "zh": "联合国教科文组织将入侵定在993年；《大英百科全书》称到996年已获得斯里兰卡北部。"
+      }
     },
     {
       "id": "brihadisvara",
@@ -182,9 +190,9 @@
       "end": 1010,
       "type": "invention",
       "title": {
-        "en": "Rajaraja I builds the Brihadisvara temple at Thanjavur, topped by a 13-storey stone tower",
-        "es": "Rajaraja I construye el templo Brihadisvara en Thanjavur, coronado por una torre de piedra de trece pisos",
-        "zh": "拉贾拉贾一世在坦贾武尔建造布里哈迪斯瓦拉神庙，其上矗立着十三层石塔"
+        "en": "Rajaraja I builds the Brihadisvara temple at Thanjavur, with a pyramidal tower about 60 metres high",
+        "es": "Rajaraja I construye el templo Brihadisvara en Thanjavur, con una torre piramidal de unos 60 metros de altura",
+        "zh": "拉贾拉贾一世在坦贾武尔建造布里哈迪斯瓦拉神庙，塔楼呈金字塔形，高约60米"
       },
       "sources": [
         {
@@ -214,7 +222,7 @@
           "url": "https://en.banglapedia.org/index.php/Mahipala_I"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Rajendra I.\""
+          "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
         }
       ],
       "disputed": true,
@@ -229,38 +237,50 @@
       "start": 1025,
       "type": "conflict",
       "title": {
-        "en": "Rajendra I sends a Chola fleet across the Bay of Bengal against Srivijaya and its port of Kadaram",
-        "es": "Rajendra I envía una flota chola a través de la bahía de Bengala contra Srivijaya y su puerto de Kadaram",
-        "zh": "拉金德拉一世派朱罗舰队横渡孟加拉湾，攻击室利佛逝及其港口卡达拉姆"
+        "en": "Rajendra I sends a Chola fleet across the Bay of Bengal to raid the ports of Srivijaya",
+        "es": "Rajendra I envía una flota chola a través de la bahía de Bengala para atacar los puertos de Srivijaya",
+        "zh": "拉金德拉一世派朱罗舰队横渡孟加拉湾，袭击室利佛逝的港口"
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Srivijaya.\""
+          "citation": "Wikipedia. \"Chola dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
         },
         {
-          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+          "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "The date 1025 comes from Wikipedia. Britannica says only that Rajendra I conquered parts of the Malay Peninsula and Archipelago, with no date.",
+        "es": "La fecha 1025 procede de Wikipedia. Britannica dice solo que Rajendra I conquistó partes de la península y el archipiélago malayos, sin fecha.",
+        "zh": "1025年这一时间来自维基百科。《大英百科全书》只说拉金德拉一世征服了马来半岛和马来群岛的部分地区，没有给出年份。"
+      }
     },
     {
       "id": "end-of-dynasty",
       "start": 1279,
       "type": "collapse",
       "title": {
-        "en": "The reign of Rajendra III, the last Chola king, ends and the dynasty disappears from the record, its lands held by the Pandyas",
-        "es": "Termina el reinado de Rajendra III, el último rey chola, y la dinastía desaparece del registro, con sus tierras en manos de los pandya",
-        "zh": "末代朱罗王拉金德拉三世的统治结束，王朝从记载中消失，其领土由潘迪亚人掌握"
+        "en": "The Pandyas conquer the Chola country in 1257, and the reign of Rajendra III, the last Chola king, ends in 1279",
+        "es": "Los pandya conquistan el país chola en 1257 y el reinado de Rajendra III, el último rey chola, termina en 1279",
+        "zh": "潘迪亚人于1257年征服朱罗地区，末代朱罗王拉金德拉三世的统治于1279年结束"
       },
       "sources": [
         {
           "citation": "Encyclopaedia Britannica. \"Chola dynasty.\""
         },
         {
-          "citation": "Nilakanta Sastri, K. A. (1955). The Cōḷas. 2nd ed. University of Madras."
+          "citation": "Wikipedia. \"Chola dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates the Pandya conquest to 1257 and the end of the dynasty to 1279; Wikipedia gives Rajendra III's reign as 1246–1279.",
+        "es": "Britannica fecha la conquista pandya en 1257 y el fin de la dinastía en 1279; Wikipedia da el reinado de Rajendra III como 1246–1279.",
+        "zh": "《大英百科全书》将潘迪亚人的征服定在1257年、王朝终结定在1279年；维基百科将拉金德拉三世的在位时间定为1246至1279年。"
+      }
     }
   ],
   "facts": [
@@ -269,9 +289,9 @@
       "start": 1003,
       "end": 1279,
       "text": {
-        "en": "The vimana tower of the Brihadisvara temple at Thanjavur is about 60 metres tall, built from granite.",
-        "es": "La torre vimana del templo Brihadisvara de Thanjavur mide unos 60 metros de altura y está construida en granito.",
-        "zh": "坦贾武尔布里哈迪斯瓦拉神庙的塔楼（毗摩那）高约60米，由花岗岩建成。"
+        "en": "The vimana tower of the Brihadisvara temple at Thanjavur is about 60 metres tall and built mainly of granite.",
+        "es": "La torre vimana del templo Brihadisvara de Thanjavur mide unos 60 metros de altura y está construida principalmente en granito.",
+        "zh": "坦贾武尔布里哈迪斯瓦拉神庙的塔楼（毗摩那）高约60米，主要由花岗岩建成。"
       },
       "sources": [
         {
