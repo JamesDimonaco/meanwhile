@@ -1,0 +1,333 @@
+{
+  "id": "swedish-empire",
+  "region": "europe",
+  "wikidataId": "Q215443",
+  "name": {
+    "en": "Swedish Empire",
+    "es": "Imperio sueco",
+    "zh": "瑞典帝国"
+  },
+  "nativeName": {
+    "text": "Stormaktstiden",
+    "lang": "sv"
+  },
+  "aliases": [
+    "Sweden as a great power",
+    "Age of Greatness",
+    "Swedish great power era",
+    "Stormaktstiden",
+    "Suecia imperial",
+    "瑞典大国时代"
+  ],
+  "description": {
+    "en": "The years when Sweden held lands around the Baltic Sea, from the accession of Gustavus Adolphus in 1611 to the Peace of Nystad in 1721. Swedish armies fought in the Thirty Years' War and the Great Northern War, and lost most of the Baltic provinces after Poltava.",
+    "es": "Los años en que Suecia dominó tierras alrededor del mar Báltico, desde la subida al trono de Gustavo Adolfo en 1611 hasta la Paz de Nystad en 1721. Los ejércitos suecos combatieron en la guerra de los Treinta Años y en la Gran Guerra del Norte, y tras Poltava perdieron la mayor parte de las provincias bálticas.",
+    "zh": "瑞典在波罗的海周围占有土地的时期，从1611年古斯塔夫·阿道夫即位，到1721年《尼斯塔德条约》。瑞典军队参加了三十年战争和大北方战争，波尔塔瓦战役之后丢失了大部分波罗的海行省。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "great-power-era",
+      "earliestStart": 1611,
+      "latestStart": 1611,
+      "earliestEnd": 1721,
+      "latestEnd": 1721,
+      "sources": [
+        {
+          "citation": "Wikidata. \"Swedish Empire\" (Q215443): the years 1611–1721 in the history of Sweden.",
+          "url": "https://www.wikidata.org/wiki/Q215443"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Sweden: History.\"",
+          "url": "https://www.britannica.com/place/Sweden/History"
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The dates mark Gustavus Adolphus's accession and the Peace of Nystad. Sweden had held lands across the Baltic before 1611, and the empire shrank in stages after 1709.",
+        "es": "Las fechas marcan la subida al trono de Gustavo Adolfo y la Paz de Nystad. Suecia ya tenía tierras al otro lado del Báltico antes de 1611, y el imperio se redujo por etapas después de 1709.",
+        "zh": "这两个年份分别对应古斯塔夫·阿道夫即位和《尼斯塔德条约》。1611年之前瑞典已在波罗的海对岸占有土地，1709年之后帝国是分阶段缩小的。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "rise",
+      "name": {
+        "en": "Rise and the Thirty Years' War",
+        "es": "Ascenso y guerra de los Treinta Años",
+        "zh": "崛起与三十年战争"
+      },
+      "start": 1611,
+      "end": 1648,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Sweden: History.\"",
+          "url": "https://www.britannica.com/place/Sweden/History"
+        }
+      ]
+    },
+    {
+      "id": "great-power",
+      "name": {
+        "en": "Great power",
+        "es": "Gran potencia",
+        "zh": "大国时期"
+      },
+      "start": 1648,
+      "end": 1700,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Sweden: History.\"",
+          "url": "https://www.britannica.com/place/Sweden/History"
+        }
+      ]
+    },
+    {
+      "id": "great-northern-war",
+      "name": {
+        "en": "Great Northern War",
+        "es": "Gran Guerra del Norte",
+        "zh": "大北方战争"
+      },
+      "start": 1700,
+      "end": 1721,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Sweden: History.\"",
+          "url": "https://www.britannica.com/place/Sweden/History"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "gustavus-adolphus-accession",
+      "start": 1611,
+      "type": "ruler",
+      "title": {
+        "en": "Gustavus Adolphus becomes king at sixteen, in the middle of three wars, and the Estates make him accept limits on his power",
+        "es": "Gustavo Adolfo es rey con dieciséis años, en plena guerra con tres vecinos, y los Estados le obligan a aceptar límites a su poder",
+        "zh": "古斯塔夫·阿道夫16岁即位，当时瑞典正同时打着三场对外战争，等级会议迫使他接受对王权的限制"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Gustavus Adolphus.\"",
+          "url": "https://www.britannica.com/biography/Gustav-II-Adolf"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Sweden: History.\"",
+          "url": "https://www.britannica.com/place/Sweden/History"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Stockholm",
+          "es": "Estocolmo",
+          "zh": "斯德哥尔摩"
+        },
+        "lat": 59.3293,
+        "lon": 18.0686
+      }
+    },
+    {
+      "id": "swedes-land-in-germany",
+      "start": 1630,
+      "type": "conflict",
+      "title": {
+        "en": "A Swedish army lands at Peenemünde in June and joins the Thirty Years' War in Germany",
+        "es": "Un ejército sueco desembarca en Peenemünde en junio y entra en la guerra de los Treinta Años en Alemania",
+        "zh": "6月，一支瑞典军队在佩讷明德登陆，加入德意志境内的三十年战争"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Gustavus Adolphus.\"",
+          "url": "https://www.britannica.com/biography/Gustav-II-Adolf"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Sweden: History.\"",
+          "url": "https://www.britannica.com/place/Sweden/History"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Peenemünde",
+          "es": "Peenemünde",
+          "zh": "佩讷明德"
+        },
+        "lat": 54.1436,
+        "lon": 13.7767
+      }
+    },
+    {
+      "id": "lutzen",
+      "start": 1632,
+      "type": "conflict",
+      "title": {
+        "en": "Swedish forces fight Wallenstein's imperial army at Lützen on 6 November, and Gustavus Adolphus is killed there",
+        "es": "Las fuerzas suecas combaten al ejército imperial de Wallenstein en Lützen el 6 de noviembre, y allí muere Gustavo Adolfo",
+        "zh": "11月6日，瑞典军队在吕岑与华伦斯坦的帝国军队交战，古斯塔夫·阿道夫在此阵亡"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Gustavus Adolphus.\"",
+          "url": "https://www.britannica.com/biography/Gustav-II-Adolf"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Sweden: History.\"",
+          "url": "https://www.britannica.com/place/Sweden/History"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lützen",
+          "es": "Lützen",
+          "zh": "吕岑"
+        },
+        "lat": 51.2589,
+        "lon": 12.1383
+      }
+    },
+    {
+      "id": "peace-of-westphalia",
+      "start": 1648,
+      "type": "founding",
+      "title": {
+        "en": "The Peace of Westphalia ends the German phase of the Thirty Years' War, and Sweden gains most of Pomerania and Bremen and Verden",
+        "es": "La Paz de Westfalia pone fin a la fase alemana de la guerra de los Treinta Años, y Suecia obtiene la mayor parte de Pomerania, además de Bremen y Verden",
+        "zh": "《威斯特伐利亚和约》结束三十年战争的德意志阶段，瑞典获得波美拉尼亚的大部分地区以及不来梅和费尔登"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Peace of Westphalia.\"",
+          "url": "https://www.britannica.com/event/Peace-of-Westphalia"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Sweden: History.\"",
+          "url": "https://www.britannica.com/place/Sweden/History"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Sweden.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sweden"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "narva",
+      "start": 1700,
+      "type": "conflict",
+      "title": {
+        "en": "Denmark, Saxony and Russia attack Swedish provinces in February; Charles XII lands on Zealand in August and defeats the Russians at Narva in November",
+        "es": "Dinamarca, Sajonia y Rusia atacan provincias suecas en febrero; Carlos XII desembarca en Selandia en agosto y derrota a los rusos en Narva en noviembre",
+        "zh": "2月，丹麦、萨克森和俄国进攻瑞典的行省；8月，卡尔十二世在西兰岛登陆，11月在纳尔瓦击败俄军"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Charles XII.\"",
+          "url": "https://www.britannica.com/biography/Charles-XII"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Sweden: History.\"",
+          "url": "https://www.britannica.com/place/Sweden/History"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Narva",
+          "es": "Narva",
+          "zh": "纳尔瓦"
+        },
+        "lat": 59.3797,
+        "lon": 28.1791
+      }
+    },
+    {
+      "id": "poltava",
+      "start": 1709,
+      "type": "conflict",
+      "title": {
+        "en": "Charles XII attacks the Russian camp at Poltava on 8 July (27 June, Old Style); the Swedish army is crushed and he flees into Ottoman territory",
+        "es": "Carlos XII ataca el campamento ruso en Poltava el 8 de julio (27 de junio, estilo antiguo); el ejército sueco es aplastado y el rey huye a territorio otomano",
+        "zh": "7月8日（旧历6月27日），卡尔十二世进攻波尔塔瓦的俄军营地；瑞典军队惨败，他逃入奥斯曼境内"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Charles XII.\"",
+          "url": "https://www.britannica.com/biography/Charles-XII"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Sweden.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sweden"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Poltava",
+          "es": "Poltava",
+          "zh": "波尔塔瓦"
+        },
+        "lat": 49.5883,
+        "lon": 34.5514
+      }
+    },
+    {
+      "id": "peace-of-nystad",
+      "start": 1721,
+      "type": "collapse",
+      "title": {
+        "en": "In the Peace of Nystad, Sweden gives Russia Ingria, Estonia, Livonia, part of Karelia and Vyborg",
+        "es": "En la Paz de Nystad, Suecia cede a Rusia Ingria, Estonia, Livonia, parte de Carelia y Vyborg",
+        "zh": "根据《尼斯塔德条约》，瑞典把英格里亚、爱沙尼亚、利沃尼亚、卡累利阿的一部分和维堡让给俄国"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Sweden: History.\"",
+          "url": "https://www.britannica.com/place/Sweden/History"
+        },
+        {
+          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Sweden.\" Via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sweden"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Uusikaupunki (Nystad)",
+          "es": "Uusikaupunki (Nystad)",
+          "zh": "乌西考普基（尼斯塔德）"
+        },
+        "lat": 60.8,
+        "lon": 21.4083
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "university-of-tartu",
+      "start": 1611,
+      "end": 1632,
+      "text": {
+        "en": "Gustavus Adolphus founded the University of Tartu, the first centre of higher learning in the Baltic provinces.",
+        "es": "Gustavo Adolfo fundó la Universidad de Tartu, el primer centro de enseñanza superior de las provincias bálticas.",
+        "zh": "古斯塔夫·阿道夫创办了塔尔图大学，这是波罗的海行省的第一所高等学府。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Gustavus Adolphus.\"",
+          "url": "https://www.britannica.com/biography/Gustav-II-Adolf"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
