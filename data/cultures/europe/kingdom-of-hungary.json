@@ -15,9 +15,9 @@
     "匈牙利"
   ],
   "description": {
-    "en": "The Christian kingdom Stephen I founded in 1000 on the middle Danube, ruled by the Árpád dynasty and later by Angevin and elected kings. It survived the Mongol invasion of 1241 and peaked under Matthias Corvinus. This entry ends at Mohács in 1526, when the Ottomans destroyed its army and killed its king.",
-    "es": "El reino cristiano que Esteban I fundó en 1000 en el Danubio medio, gobernado por la dinastía Árpád y luego por reyes angevinos y electos. Sobrevivió a la invasión mongola de 1241 y alcanzó su apogeo con Matías Corvino. Esta entrada termina en Mohács en 1526, cuando los otomanos destruyeron su ejército y mataron a su rey.",
-    "zh": "斯蒂芬一世于1000年在多瑙河中游建立的基督教王国，先由阿尔帕德王朝统治，后来由安茹王朝和选举产生的国王统治。它挺过了1241年蒙古人的入侵，在马蒂亚斯·科文努斯治下达到鼎盛。本条目止于1526年的摩哈赤，奥斯曼军队在那里歼灭了匈牙利军队并杀死了国王。"
+    "en": "The Christian kingdom Stephen I founded in 1000 on the middle Danube, ruled by the Árpád dynasty and later by Angevin and elected kings. It survived the Mongol invasion of 1241 and peaked under Matthias Corvinus. This entry ends at Mohács in 1526, when the Ottomans destroyed its army and its king drowned while fleeing.",
+    "es": "El reino cristiano que Esteban I fundó en 1000 en el Danubio medio, gobernado por la dinastía Árpád y luego por reyes angevinos y electos. Sobrevivió a la invasión mongola de 1241 y alcanzó su apogeo con Matías Corvino. Esta entrada termina en Mohács en 1526, cuando los otomanos destruyeron su ejército y su rey se ahogó mientras huía.",
+    "zh": "斯蒂芬一世于1000年在多瑙河中游建立的基督教王国，先由阿尔帕德王朝统治，后来由安茹王朝和选举产生的国王统治。它挺过了1241年蒙古人的入侵，在马蒂亚斯·科文努斯治下达到鼎盛。本条目止于1526年的摩哈赤，奥斯曼军队在那里歼灭了匈牙利军队，国王在逃跑时溺水而死。"
   },
   "reviewed": {
     "es": false,
@@ -147,9 +147,9 @@
       "end": 1242,
       "type": "conflict",
       "title": {
-        "en": "A Mongol army beats Béla IV at Mohi on 10 and 11 April and devastates the kingdom until it withdraws in 1242",
-        "es": "Un ejército mongol derrota a Béla IV en Mohi el 10 y 11 de abril y devasta el reino hasta que se retira en 1242",
-        "zh": "蒙古军队于4月10日至11日在莫希击败贝拉四世，并蹂躏王国，直到1242年撤走"
+        "en": "A Mongol army beats Béla IV at Mohi on 11 April and devastates the kingdom until it withdraws in 1242",
+        "es": "Un ejército mongol derrota a Béla IV en Mohi el 11 de abril y devasta el reino hasta que se retira en 1242",
+        "zh": "蒙古军队于4月11日在莫希击败贝拉四世，并蹂躏王国，直到1242年撤走"
       },
       "sources": [
         {
@@ -165,7 +165,7 @@
           "url": "https://www.encyclopedia.com/places/germany-scandinavia-and-central-europe/hungarian-political-geography/hungary"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "place": {
         "name": {
           "en": "Mohi (Muhi)",
@@ -174,6 +174,11 @@
         },
         "lat": 47.9833,
         "lon": 20.9333
+      },
+      "note": {
+        "en": "World History Encyclopedia gives 10 to 11 April 1241 for the battle; Encyclopedia.com's Hungary entry gives 11 April.",
+        "es": "World History Encyclopedia da el 10 y 11 de abril de 1241 para la batalla; la entrada sobre Hungría de Encyclopedia.com da el 11 de abril.",
+        "zh": "World History Encyclopedia把这场战役记为1241年4月10日至11日；Encyclopedia.com的“匈牙利”词条记为4月11日。"
       }
     },
     {
@@ -182,9 +187,9 @@
       "end": 1490,
       "type": "ruler",
       "title": {
-        "en": "Nobles elect Matthias Corvinus, about 15 years old and the son of John Hunyadi, king of Hungary",
-        "es": "Los nobles eligen rey de Hungría a Matías Corvino, de unos 15 años e hijo de Juan Hunyadi",
-        "zh": "贵族推选约15岁的马蒂亚斯·科文努斯为匈牙利国王，他是匈雅提·亚诺什之子"
+        "en": "The Hungarians elect Matthias Corvinus, about 15 years old and the son of John Hunyadi, king",
+        "es": "Los húngaros eligen rey a Matías Corvino, de unos 15 años e hijo de Juan Hunyadi",
+        "zh": "匈牙利人推选约15岁的马蒂亚斯·科文努斯为国王，他是匈雅提·亚诺什之子"
       },
       "sources": [
         {
@@ -196,16 +201,21 @@
           "url": "https://www.encyclopedia.com/people/history/austria-and-hungary-history-biographies/john-hunyadi"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Encyclopedia.com's Matthias entry dates the election to 1458; its John Hunyadi entry places Ladislaus V's death, and so the election, in 1457.",
+        "es": "La entrada sobre Matías de Encyclopedia.com fecha la elección en 1458; su entrada sobre Juan Hunyadi sitúa la muerte de Ladislao V, y por tanto la elección, en 1457.",
+        "zh": "Encyclopedia.com的“马蒂亚斯”词条把选举定在1458年；其“匈雅提·亚诺什”词条把拉迪斯劳斯五世去世，即选举，定在1457年。"
+      }
     },
     {
       "id": "mohacs",
       "start": 1526,
       "type": "collapse",
       "title": {
-        "en": "Süleyman I destroys the Hungarian army at Mohács on 28 August, and King Louis II drowns while fleeing",
-        "es": "Solimán I destruye al ejército húngaro en Mohács el 28 de agosto, y el rey Luis II se ahoga mientras huye",
-        "zh": "苏莱曼一世于8月28日在摩哈赤歼灭匈牙利军队，国王路易二世在逃跑时溺水而死"
+        "en": "Süleyman I destroys the Hungarian army at Mohács in August, and King Louis II drowns while fleeing",
+        "es": "Solimán I destruye al ejército húngaro en Mohács en agosto, y el rey Luis II se ahoga mientras huye",
+        "zh": "苏莱曼一世于8月在摩哈赤歼灭匈牙利军队，国王路易二世在逃跑时溺水而死"
       },
       "sources": [
         {
@@ -213,19 +223,19 @@
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ottoman-empire-france-and-austria-hungary"
         },
         {
-          "citation": "World History Encyclopedia. \"Suleiman the Magnificent.\"",
-          "url": "https://www.worldhistory.org/Suleiman_the_Magnificent/"
+          "citation": "Wikipedia. \"Battle of Mohács\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Moh%C3%A1cs"
         },
         {
           "citation": "Encyclopedia.com. \"Hungary.\"",
           "url": "https://www.encyclopedia.com/places/germany-scandinavia-and-central-europe/hungarian-political-geography/hungary"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "note": {
-        "en": "Encyclopedia.com's Ottoman entry says over 10,000 Hungarian foot soldiers were killed, along with most of the nobility and bishops. Two kings were then elected, John Zápolya and Ferdinand of Austria, and Hungary split into Ottoman, Habsburg and Zápolya zones.",
-        "es": "La entrada otomana de Encyclopedia.com dice que murieron más de 10.000 soldados de infantería húngaros, junto con la mayoría de la nobleza y los obispos. Luego se eligieron dos reyes, Juan Zápolya y Fernando de Austria, y Hungría se dividió en zonas otomana, habsburgo y de Zápolya.",
-        "zh": "Encyclopedia.com的奥斯曼词条称，有一万多名匈牙利步兵阵亡，大部分贵族和主教也死于此役。随后有两人被推举为王，即扎波利亚·亚诺什和奥地利的斐迪南，匈牙利分裂为奥斯曼、哈布斯堡和扎波利亚三个区域。"
+        "en": "Encyclopedia.com's Ottoman entry gives 28 August 1526; Wikipedia gives 29 August. Encyclopedia.com's Ottoman entry says over 10,000 Hungarian foot soldiers were killed, along with most of the nobility and bishops. Two kings were then elected, John Zápolya and Ferdinand of Austria, and Hungary split into Ottoman, Habsburg and Zápolya zones.",
+        "es": "La entrada otomana de Encyclopedia.com da el 28 de agosto de 1526; Wikipedia da el 29 de agosto. La entrada otomana de Encyclopedia.com dice que murieron más de 10.000 soldados de infantería húngaros, junto con la mayoría de la nobleza y los obispos. Luego se eligieron dos reyes, Juan Zápolya y Fernando de Austria, y Hungría se dividió en zonas otomana, habsburgo y de Zápolya.",
+        "zh": "Encyclopedia.com的奥斯曼词条记为1526年8月28日；维基百科记为8月29日。Encyclopedia.com的奥斯曼词条称，有一万多名匈牙利步兵阵亡，大部分贵族和主教也死于此役。随后有两人被推举为王，即扎波利亚·亚诺什和奥地利的斐迪南，匈牙利分裂为奥斯曼、哈布斯堡和扎波利亚三个区域。"
       },
       "place": {
         "name": {

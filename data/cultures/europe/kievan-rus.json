@@ -50,9 +50,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The early dates rest on the Primary Chronicle, compiled around 1113, long after the events. The realm split into rival principalities after Yaroslav's death in 1054, so 1240, the fall of Kyiv, is the end of the state centred on Kyiv, not a single political end. World History Encyclopedia puts the Mongol conquest at 1237 to 1242.",
-        "es": "Las fechas tempranas se apoyan en la Crónica Primaria, compilada hacia 1113, mucho después de los hechos. El reino se dividió en principados rivales tras la muerte de Yaroslav en 1054, así que 1240, la caída de Kiev, marca el fin del Estado centrado en Kiev, no un final político único. World History Encyclopedia sitúa la conquista mongola entre 1237 y 1242.",
-        "zh": "早期年代依据约1113年才编成的《往年纪事》，距事件已很久。雅罗斯拉夫于1054年去世后，国土分裂为相互竞争的公国，所以1240年基辅陷落标志的是以基辅为中心的国家的终结，而不是单一的政治终点。《世界史百科全书》把蒙古征服定在1237年至1242年。"
+        "en": "The early dates rest on the Primary Chronicle, compiled around 1113, long after the events. The realm split into rival principalities after Yaroslav's death in 1054, so 1240, the fall of Kyiv, is the end of the state centred on Kyiv, not a single political end. World History Encyclopedia puts the Mongol conquest at 1237 to 1242, and gives Rurik's rule at Novgorod as 862 to 879, where the bar begins to fade in.",
+        "es": "Las fechas tempranas se apoyan en la Crónica Primaria, compilada hacia 1113, mucho después de los hechos. El reino se dividió en principados rivales tras la muerte de Yaroslav en 1054, así que 1240, la caída de Kiev, marca el fin del Estado centrado en Kiev, no un final político único. World History Encyclopedia sitúa la conquista mongola entre 1237 y 1242, y el gobierno de Rurik en Nóvgorod entre 862 y 879, donde la barra empieza a aparecer.",
+        "zh": "早期年代依据约1113年才编成的《往年纪事》，距事件已很久。雅罗斯拉夫于1054年去世后，国土分裂为相互竞争的公国，所以1240年基辅陷落标志的是以基辅为中心的国家的终结，而不是单一的政治终点。《世界史百科全书》把蒙古征服定在1237年至1242年，并把留里克在诺夫哥罗德的统治定在862年至879年，色条从这里开始逐渐变实。"
       }
     }
   ],
@@ -78,9 +78,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "The year and Oleg's rule are known only from the Primary Chronicle, compiled about 230 years later. Encyclopedia.com marks the dates of Oleg's rule as uncertain.",
-        "es": "El año y el gobierno de Oleg solo se conocen por la Crónica Primaria, compilada unos 230 años después. Encyclopedia.com marca como inciertas las fechas del gobierno de Oleg.",
-        "zh": "年份和奥列格的统治只见于约230年后编成的《往年纪事》。Encyclopedia.com称奥列格统治的年代并不确定。"
+        "en": "The year and Oleg's rule rest on the Primary Chronicle, compiled about 230 years later. Encyclopedia.com gives Oleg's reign as starting in 879 or 882.",
+        "es": "El año y el gobierno de Oleg se apoyan en la Crónica Primaria, compilada unos 230 años después. Encyclopedia.com da el comienzo del reinado de Oleg en 879 u 882.",
+        "zh": "年份和奥列格的统治依据约230年后编成的《往年纪事》。Encyclopedia.com给出的奥列格统治起点是879年或882年。"
       },
       "place": {
         "name": {
@@ -113,9 +113,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Sources give 987, 988 or 989, and disagree on whether Vladimir was baptized in Kyiv or at Chersonesos. His baptism was tied to marriage with Anna, sister of Emperor Basil II.",
-        "es": "Las fuentes dan 987, 988 o 989 y discrepan sobre si Vladimiro fue bautizado en Kiev o en Quersoneso. Su bautizo estuvo ligado a su matrimonio con Ana, hermana del emperador Basilio II.",
-        "zh": "史料给出987、988或989年，并且对弗拉基米尔是在基辅还是在克森尼索受洗有分歧。他受洗与迎娶巴西尔二世之妹安娜相关联。"
+        "en": "Sources give 987 or 988, and disagree on whether Vladimir was baptized in Kyiv or at Chersonesos. His baptism was tied to marriage with Anna, sister of Emperor Basil II.",
+        "es": "Las fuentes dan 987 o 988 y discrepan sobre si Vladimiro fue bautizado en Kiev o en Quersoneso. Su bautizo estuvo ligado a su matrimonio con Ana, hermana del emperador Basilio II.",
+        "zh": "史料给出987年或988年，并且对弗拉基米尔是在基辅还是在克森尼索受洗有分歧。他受洗与迎娶巴西尔二世之妹安娜相关联。"
       },
       "place": {
         "name": {
@@ -133,9 +133,9 @@
       "end": 1054,
       "type": "ruler",
       "title": {
-        "en": "Yaroslav becomes sole ruler of the Rus after defeating the Pechenegs and reigns until 1054",
-        "es": "Yaroslav se convierte en único gobernante de los rus tras vencer a los pechenegos y reina hasta 1054",
-        "zh": "雅罗斯拉夫在击败佩切涅格人后成为罗斯唯一的统治者，在位至1054年"
+        "en": "Yaroslav becomes sole ruler of the Rus when his brother Mstislav dies in 1036, and reigns until 1054",
+        "es": "Yaroslav se convierte en único gobernante de los rus cuando muere su hermano Mstislav en 1036, y reina hasta 1054",
+        "zh": "1036年其兄弟姆斯季斯拉夫去世后，雅罗斯拉夫成为罗斯唯一的统治者，在位至1054年"
       },
       "sources": [
         {
@@ -198,9 +198,9 @@
       "start": 1169,
       "type": "conflict",
       "title": {
-        "en": "A coalition of princes led by Andrei Bogolyubsky of Vladimir plunders Kyiv",
-        "es": "Una coalición de príncipes encabezada por Andréi Bogoliubski de Vladímir saquea Kiev",
-        "zh": "以弗拉基米尔的安德烈·博戈柳布斯基为首的诸公联军洗劫基辅"
+        "en": "A coalition of princes sent by Andrei Bogolyubsky of Vladimir plunders Kyiv",
+        "es": "Una coalición de príncipes enviada por Andréi Bogoliubski de Vladímir saquea Kiev",
+        "zh": "弗拉基米尔的安德烈·博戈柳布斯基派出的诸公联军洗劫基辅"
       },
       "sources": [
         {
@@ -258,19 +258,23 @@
     {
       "id": "st-sophia-library",
       "text": {
-        "en": "St Sophia Cathedral in Kyiv, begun around 1037, housed the first known library in Rus.",
-        "es": "La catedral de Santa Sofía de Kiev, iniciada hacia 1037, albergó la primera biblioteca conocida de los rus.",
-        "zh": "基辅圣索菲亚大教堂约于1037年动工，里面设有罗斯已知最早的图书馆。"
+        "en": "St Sophia Cathedral in Kyiv, begun around 1037 by the usual dating, housed the first known library in Rus.",
+        "es": "La catedral de Santa Sofía de Kiev, iniciada hacia 1037 según la datación habitual, albergó la primera biblioteca conocida de los rus.",
+        "zh": "基辅圣索菲亚大教堂按通常的年代约于1037年动工，里面设有罗斯已知最早的图书馆。"
       },
       "start": 1037,
       "end": 1054,
       "sources": [
         {
-          "citation": "World History Encyclopedia. \"Saint Sophia Cathedral.\"",
+          "citation": "World History Encyclopedia. \"Saint Sophia Cathedral.\" Also gives a rival founding in 1011 under Vladimir, the date UNESCO accepts.",
           "url": "https://www.worldhistory.org/Saint_Sophia_Cathedral/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kievan Rus.\" Yaroslav began St Sophia around 1037.",
+          "url": "https://www.worldhistory.org/Kievan_Rus/"
         }
       ],
-      "disputed": false
+      "disputed": true
     },
     {
       "id": "carpini-on-kyiv",

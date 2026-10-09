@@ -44,14 +44,18 @@
         {
           "citation": "Encyclopedia.com. \"Ivan IV, 'The Terrible' (Russia) (1530-1584; Ruled 1533-1584).\"",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ivan-iv-terrible-russia-1530-1584-ruled-1533-1584"
+        },
+        {
+          "citation": "Wikipedia. \"Daniel of Moscow.\" Received Moscow in 1263 aged two; independent ruler from about 1282.",
+          "url": "https://en.wikipedia.org/wiki/Daniel_of_Moscow"
         }
       ],
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Wikidata gives 1263 for the start and 1478 or 1547 for the end. Moscow was first recorded in 1147 and became a real power when Daniel seized neighbouring towns in 1301 to 1304, so the bar fades in until 1303. It ends with Ivan IV's coronation as tsar in 1547.",
-        "es": "Wikidata da 1263 para el inicio y 1478 o 1547 para el final. Moscú se menciona por primera vez en 1147 y se volvió una potencia cuando Daniel tomó las ciudades vecinas entre 1301 y 1304, por eso la barra aparece gradualmente hasta 1303. Termina con la coronación de Iván IV como zar en 1547.",
-        "zh": "维基数据给出的起点是1263年，终点是1478年或1547年。莫斯科最早见于1147年的记载，直到1301年至1304年丹尼尔夺取邻近城镇才成为一方势力，所以色条逐渐变实到1303年。终点是1547年伊凡四世加冕为沙皇。"
+        "en": "Wikidata gives 1263 for the start and 1478 or 1547 for the end. Daniel received Moscow in 1263 as a two-year-old under a regent and is not recorded as an independent prince until 1282. Moscow became a real power when Daniel and his son Yuri seized neighbouring towns in 1301 to 1304, so the bar fades in until 1303. It ends with Ivan IV's coronation as tsar in 1547.",
+        "es": "Wikidata da 1263 para el inicio y 1478 o 1547 para el final. Daniel recibió Moscú en 1263, con dos años y bajo un regente, y no consta como príncipe independiente hasta 1282. Moscú se volvió una potencia cuando Daniel y su hijo Yuri tomaron las ciudades vecinas entre 1301 y 1304, por eso la barra aparece gradualmente hasta 1303. Termina con la coronación de Iván IV como zar en 1547.",
+        "zh": "维基数据给出的起点是1263年，终点是1478年或1547年。丹尼尔于1263年两岁时在摄政者监护下得到莫斯科，直到1282年才见于记载为独立的公爵。1301年至1304年丹尼尔和儿子尤里夺取邻近城镇，莫斯科才成为一方势力，所以色条逐渐变实到1303年。终点是1547年伊凡四世加冕为沙皇。"
       }
     }
   ],
@@ -216,9 +220,9 @@
       "start": 1480,
       "type": "conflict",
       "title": {
-        "en": "Ivan III's army and Khan Ahmad's face each other across the Ugra River until the khan withdraws on 11 November",
-        "es": "El ejército de Iván III y el del kan Ajmat se enfrentan a ambos lados del río Ugra hasta que el kan se retira el 11 de noviembre",
-        "zh": "伊凡三世的军队与阿合马汗的军队隔乌格拉河对峙，直到11月11日可汗撤兵"
+        "en": "Ivan III's army and Khan Ahmad's face each other across the Ugra River until the khan withdraws in November",
+        "es": "El ejército de Iván III y el del kan Ajmat se enfrentan a ambos lados del río Ugra hasta que el kan se retira en noviembre",
+        "zh": "伊凡三世的军队与阿合马汗的军队隔乌格拉河对峙，直到11月可汗撤兵"
       },
       "sources": [
         {
@@ -226,15 +230,15 @@
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ugra-river-battle"
         },
         {
-          "citation": "World History Encyclopedia. \"Golden Horde.\"",
-          "url": "https://www.worldhistory.org/Golden_Horde/"
+          "citation": "Wikipedia. \"Great Stand on the Ugra River.\" Standoff from 8 October 1480; the khan began withdrawing on 8 November.",
+          "url": "https://en.wikipedia.org/wiki/Great_Stand_on_the_Ugra_River"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Russian tradition calls it the end of Mongol rule, but historians disagree. Some deny a battle took place, and others date the end of tribute to the 1450s or 1472.",
-        "es": "La tradición rusa lo llama el fin del dominio mongol, pero los historiadores discrepan. Algunos niegan que hubiera batalla y otros sitúan el fin del tributo en la década de 1450 o en 1472.",
-        "zh": "俄罗斯传统称之为蒙古统治的终结，但史学家有分歧。有人否认发生过战斗，也有人把贡赋的终止定在15世纪50年代或1472年。"
+        "en": "Russian tradition calls it the end of Mongol rule, but historians disagree. Some deny a battle took place, and others date the end of tribute to the 1450s or 1472. Sources also differ on the withdrawal: Encyclopedia.com gives 11 November, Wikipedia says it began on 8 November.",
+        "es": "La tradición rusa lo llama el fin del dominio mongol, pero los historiadores discrepan. Algunos niegan que hubiera batalla y otros sitúan el fin del tributo en la década de 1450 o en 1472. Las fuentes también difieren sobre la retirada: Encyclopedia.com da el 11 de noviembre y Wikipedia dice que empezó el 8 de noviembre.",
+        "zh": "俄罗斯传统称之为蒙古统治的终结，但史学家有分歧。有人否认发生过战斗，也有人把贡赋的终止定在15世纪50年代或1472年。关于撤兵，各来源也不一致：Encyclopedia.com给出11月11日，维基百科则说11月8日开始撤退。"
       }
     },
     {

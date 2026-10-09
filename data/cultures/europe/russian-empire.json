@@ -66,8 +66,8 @@
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/russian-empire"
         },
         {
-          "citation": "Encyclopedia.com. \"Muscovy.\"",
-          "url": "https://www.encyclopedia.com/history/modern-europe/russian-soviet-and-cis-history/muscovy"
+          "citation": "World History Encyclopedia. \"Peter the Great.\" Took the title of emperor after the Treaty of Nystad.",
+          "url": "https://www.worldhistory.org/Peter_the_Great/"
         }
       ],
       "disputed": false,
@@ -87,9 +87,9 @@
       "end": 1775,
       "type": "conflict",
       "title": {
-        "en": "Emelian Pugachev, a Don Cossack posing as the dead Peter III, leads Cossacks and serfs against Catherine II until his capture and execution in 1775",
-        "es": "Yemelián Pugachov, un cosaco del Don que se hace pasar por el difunto Pedro III, encabeza a cosacos y siervos contra Catalina II hasta su captura y ejecución en 1775",
-        "zh": "顿河哥萨克叶梅利扬·普加乔夫冒充已死的彼得三世，率领哥萨克和农奴反抗叶卡捷琳娜二世，直到1775年被俘处决"
+        "en": "Emelian Pugachev, a Don Cossack posing as the dead Peter III, leads Cossacks and serfs against Catherine II until his own Cossacks hand him over in 1774 and he is executed in 1775",
+        "es": "Yemelián Pugachov, un cosaco del Don que se hace pasar por el difunto Pedro III, encabeza a cosacos y siervos contra Catalina II hasta que sus propios cosacos lo entregan en 1774 y es ejecutado en 1775",
+        "zh": "顿河哥萨克叶梅利扬·普加乔夫冒充已死的彼得三世，率领哥萨克和农奴反抗叶卡捷琳娜二世，直到1774年被自己的哥萨克交出，1775年被处决"
       },
       "sources": [
         {
@@ -124,9 +124,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Sources disagree on who won at Borodino: one calls it effectively a Russian victory, another says Napoleon's forces defeated the Russian army with heavy losses.",
-        "es": "Las fuentes discrepan sobre quién ganó en Borodinó: una la considera en la práctica una victoria rusa y otra dice que las fuerzas de Napoleón derrotaron al ejército ruso con grandes pérdidas.",
-        "zh": "各种资料对博罗季诺谁获胜看法不一：一种说法认为实际上是俄军获胜，另一种说法是拿破仑的军队击败俄军，但自身损失惨重。"
+        "en": "Sources disagree on who won at Borodino: Encyclopedia.com's Borodino entry calls it effectively a Russian victory, while its Napoleonic Wars entry says Napoleon defeated the Russians there.",
+        "es": "Las fuentes discrepan sobre quién ganó en Borodinó: la entrada sobre Borodinó de Encyclopedia.com la considera en la práctica una victoria rusa, mientras que su entrada sobre las guerras napoleónicas dice que Napoleón derrotó allí a los rusos.",
+        "zh": "各种资料对博罗季诺谁获胜看法不一：Encyclopedia.com的“博罗季诺”词条认为实际上是俄军获胜，而其“拿破仑战争”词条则说拿破仑在那里击败了俄军。"
       },
       "place": {
         "name": {
@@ -136,6 +136,32 @@
         },
         "lat": 55.5167,
         "lon": 35.8167
+      }
+    },
+    {
+      "id": "caucasian-war-end",
+      "start": 1859,
+      "type": "conflict",
+      "title": {
+        "en": "Russian forces capture Shamil at Gunib; over the following years they burn forests and villages in the western Caucasus, and many Circassians are forcibly resettled or leave for the Ottoman Empire",
+        "es": "Las fuerzas rusas capturan a Shamil en Gunib; en los años siguientes queman bosques y aldeas del Cáucaso occidental, y muchos circasianos son reasentados por la fuerza o parten hacia el Imperio otomano",
+        "zh": "俄军在古尼布俘获沙米尔；随后几年里在西高加索焚烧森林和村庄，许多切尔克斯人被强制迁走或前往奥斯曼帝国"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Caucasian Wars.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/caucasian-wars"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Adyge.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/adyge"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Encyclopedia.com's Caucasian Wars entry says as many as half a million Muslim highlanders, above all Circassians in the west, were relocated, and describes the method as clearing and burning forests, destroying villages and forcibly resettling tribes under Baryatinsky and Milyutin. The Adyge entry says the Adyge left for the Ottoman Empire after the Russian conquest. The total, the end date of the western campaign and the right word for the Circassian exodus remain contested.",
+        "es": "La entrada de Caucasian Wars de Encyclopedia.com dice que hasta medio millón de montañeses musulmanes, sobre todo circasianos del oeste, fueron reubicados, y describe el método como despejar y quemar bosques, destruir aldeas y reasentar por la fuerza a tribus bajo Bariatinski y Miliutin. La entrada Adyge dice que los adigué partieron hacia el Imperio otomano tras la conquista rusa. La cifra total, la fecha final de la campaña occidental y la palabra adecuada para el éxodo circasiano siguen en disputa.",
+        "zh": "Encyclopedia.com的“高加索战争”词条称，多达50万穆斯林山民，尤其是西部的切尔克斯人，被迁离故土，并称其手段是在巴里亚京斯基和米柳京主持下清理并焚烧森林、毁坏村庄、强制迁移部族。“阿迪格”词条称阿迪格人在俄国征服后前往奥斯曼帝国。总数、西部战事的结束年份以及对切尔克斯人外迁的恰当称呼仍有争议。"
       }
     },
     {
@@ -166,32 +192,6 @@
         },
         "lat": 59.9343,
         "lon": 30.3351
-      }
-    },
-    {
-      "id": "caucasian-war-end",
-      "start": 1859,
-      "type": "conflict",
-      "title": {
-        "en": "Russian forces capture Shamil at Gunib and clear the western Caucasus over the following years; many Circassians are moved off their land or leave for the Ottoman Empire",
-        "es": "Las fuerzas rusas capturan a Shamil en Gunib y despejan el Cáucaso occidental en los años siguientes; muchos circasianos son desplazados de sus tierras o parten hacia el Imperio otomano",
-        "zh": "俄军在古尼布俘获沙米尔，并在随后几年清除了西高加索的抵抗；许多切尔克斯人被迁离故土或前往奥斯曼帝国"
-      },
-      "sources": [
-        {
-          "citation": "Encyclopedia.com. \"Caucasian Wars.\"",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/caucasian-wars"
-        },
-        {
-          "citation": "Encyclopedia.com. \"Adyge.\"",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/adyge"
-        }
-      ],
-      "disputed": true,
-      "note": {
-        "en": "Encyclopedia.com's Caucasian Wars entry says as many as half a million Muslim highlanders, above all Circassians in the west, were relocated, and describes it as relocation by Russian commanders. The Adyge entry says the Adyge left for the Ottoman Empire after the Russian conquest. The total, the end date of the western campaign and the right word for the Circassian exodus remain contested.",
-        "es": "La entrada de Caucasian Wars de Encyclopedia.com dice que hasta medio millón de montañeses musulmanes, sobre todo circasianos del oeste, fueron reubicados, y lo describe como una reubicación decidida por los mandos rusos. La entrada Adyge dice que los adigué partieron hacia el Imperio otomano tras la conquista rusa. La cifra total, la fecha final de la campaña occidental y la palabra adecuada para el éxodo circasiano siguen en disputa.",
-        "zh": "Encyclopedia.com的“高加索战争”词条称，多达50万穆斯林山民，尤其是西部的切尔克斯人，被迁离故土，并将其描述为俄军将领下令的迁移。“阿迪格”词条称阿迪格人在俄国征服后前往奥斯曼帝国。总数、西部战事的结束年份以及对切尔克斯人外迁的恰当称呼仍有争议。"
       }
     },
     {
