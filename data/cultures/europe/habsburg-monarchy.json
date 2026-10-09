@@ -1,0 +1,437 @@
+{
+  "id": "habsburg-monarchy",
+  "region": "europe",
+  "wikidataId": "Q153136",
+  "name": {
+    "en": "Habsburg monarchy",
+    "es": "Imperio Habsburgo",
+    "zh": "哈布斯堡君主国"
+  },
+  "nativeName": {
+    "text": "Habsburgermonarchie",
+    "lang": "de"
+  },
+  "aliases": [
+    "Austrian Empire",
+    "Austria-Hungary",
+    "Austro-Hungarian Empire",
+    "Danube Monarchy",
+    "Monarquía de los Habsburgo",
+    "Imperio austríaco",
+    "Austria-Hungría",
+    "奥地利帝国",
+    "奥匈帝国"
+  ],
+  "description": {
+    "en": "The realm of the House of Habsburg in Central Europe, built around Austria, Bohemia and Hungary from 1526. It became the Austrian Empire in 1804 and Austria-Hungary in 1867, and broke up at the end of the First World War in 1918.",
+    "es": "El dominio de la Casa de Habsburgo en Europa Central, formado en torno a Austria, Bohemia y Hungría desde 1526. Pasó a ser el Imperio austríaco en 1804 y Austria-Hungría en 1867, y se disolvió al terminar la Primera Guerra Mundial, en 1918.",
+    "zh": "哈布斯堡家族在中欧的统治领地，自1526年起以奥地利、波希米亚和匈牙利为核心。1804年成为奥地利帝国，1867年成为奥匈帝国，1918年第一次世界大战结束时解体。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "habsburg-lands",
+      "earliestStart": 1521,
+      "latestStart": 1526,
+      "earliestEnd": 1918,
+      "latestEnd": 1918,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Ferdinand I (Holy Roman Empire)\": Ferdinand received the dynasty's central European holdings by family treaties of 1521-1522 and became king of Bohemia and Hungary in 1526.",
+          "url": "https://www.encyclopedia.com/people/history/spanish-and-portuguese-history-biographies/ferdinand-i-holy-roman-empire"
+        },
+        {
+          "citation": "Die Welt der Habsburger, \"Emperor Karl the Last – downfall and exile\" (11 November 1918).",
+          "url": "https://www.habsburger.net/en/chapter/emperor-karl-last-downfall-and-exile"
+        },
+        {
+          "citation": "Wikidata, \"Habsburg monarchy\" (Q153136): \"monarchy in Europe (1282–1918)\".",
+          "url": "https://www.wikidata.org/wiki/Q153136"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Historians date the start differently: 1521-1522, when Ferdinand received the Austrian lands from his brother Charles V; 1526, when he was elected king of Bohemia and Hungary; or earlier still, from the dynasty's rise in Austria in 1282, which is the start Wikidata uses. The end in November 1918 is not disputed.",
+        "es": "Los historiadores fechan el inicio de formas distintas: 1521-1522, cuando Fernando recibió las tierras austríacas de su hermano Carlos V; 1526, cuando fue elegido rey de Bohemia y Hungría; o antes aún, desde el ascenso de la dinastía en Austria en 1282, que es el inicio que usa Wikidata. El final, en noviembre de 1918, no se discute.",
+        "zh": "史家对起点的断代不一：1521至1522年，斐迪南从其兄查理五世处获得奥地利领地；1526年，他当选波希米亚和匈牙利国王；或者更早，从王朝1282年在奥地利崛起算起，这也是维基数据采用的起点。终点1918年11月则没有争议。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "habsburg-monarchy",
+      "name": {
+        "en": "Habsburg monarchy",
+        "es": "Monarquía de los Habsburgo",
+        "zh": "哈布斯堡君主国"
+      },
+      "start": 1526,
+      "end": 1804,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Ferdinand I (Holy Roman Empire)\".",
+          "url": "https://www.encyclopedia.com/people/history/spanish-and-portuguese-history-biographies/ferdinand-i-holy-roman-empire"
+        }
+      ]
+    },
+    {
+      "id": "austrian-empire",
+      "name": {
+        "en": "Austrian Empire",
+        "es": "Imperio austríaco",
+        "zh": "奥地利帝国"
+      },
+      "start": 1804,
+      "end": 1867,
+      "sources": [
+        {
+          "citation": "Die Welt der Habsburger, \"The foundation of the Empire of Austria in 1804\".",
+          "url": "https://www.habsburger.net/en/events/foundation-empire-austria-1804"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Austro-Hungarian Monarchy\" (Compromise of 1867).",
+          "url": "https://www.encyclopedia.com/history/modern-europe/austria-and-hungary-history/austro-hungarian-monarchy"
+        }
+      ]
+    },
+    {
+      "id": "austria-hungary",
+      "name": {
+        "en": "Austria-Hungary",
+        "es": "Austria-Hungría",
+        "zh": "奥匈帝国"
+      },
+      "start": 1867,
+      "end": 1918,
+      "sources": [
+        {
+          "citation": "Die Welt der Habsburger, \"An empire in two halves: the Compromise with Hungary\".",
+          "url": "https://www.habsburger.net/en/chapter/empire-two-halves-compromise-hungary"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Austro-Hungarian Monarchy\".",
+          "url": "https://www.encyclopedia.com/history/modern-europe/austria-and-hungary-history/austro-hungarian-monarchy"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ferdinand-elected-bohemia-hungary",
+      "start": 1526,
+      "type": "founding",
+      "title": {
+        "en": "After Louis II dies at Mohács, Ferdinand of Austria is elected king of Bohemia and then of Hungary",
+        "es": "Tras la muerte de Luis II en Mohács, Fernando de Austria es elegido rey de Bohemia y después de Hungría",
+        "zh": "路易二世在摩哈赤战死后，奥地利的斐迪南先后当选波希米亚国王和匈牙利国王"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Ferdinand I (Holy Roman Empire)\".",
+          "url": "https://www.encyclopedia.com/people/history/spanish-and-portuguese-history-biographies/ferdinand-i-holy-roman-empire"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Bohemia\": the Habsburgs' accession in 1526.",
+          "url": "https://www.encyclopedia.com/places/germany-scandinavia-and-central-europe/czech-political-geography/bohemia"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "John Zápolya also claimed the Hungarian crown and had Ottoman backing, so Ferdinand's rule in Hungary was contested.",
+        "es": "Juan Zápolya también reclamó la corona húngara y contó con apoyo otomano, de modo que el gobierno de Fernando en Hungría fue disputado.",
+        "zh": "约翰·扎波利亚同样主张匈牙利王位并得到奥斯曼支持，因此斐迪南在匈牙利的统治受到争议。"
+      },
+      "place": {
+        "name": {
+          "en": "Prague",
+          "es": "Praga",
+          "zh": "布拉格"
+        },
+        "lat": 50.0755,
+        "lon": 14.4378
+      }
+    },
+    {
+      "id": "first-siege-of-vienna",
+      "start": 1529,
+      "type": "conflict",
+      "title": {
+        "en": "An Ottoman army under Suleiman besieges Vienna and withdraws in October",
+        "es": "Un ejército otomano bajo Solimán sitia Viena y se retira en octubre",
+        "zh": "苏莱曼率领的奥斯曼军队围攻维也纳，10月撤军"
+      },
+      "sources": [
+        {
+          "citation": "Wien Geschichte Wiki, \"Erste Türkenbelagerung (1529)\".",
+          "url": "https://www.geschichtewiki.wien.gv.at/Erste_T%C3%BCrkenbelagerung_(1529)"
+        },
+        {
+          "citation": "City of Vienna, \"The Turkish Sieges\".",
+          "url": "https://www.wien.gv.at/english/history/overview/turks.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Vienna",
+          "es": "Viena",
+          "zh": "维也纳"
+        },
+        "lat": 48.2082,
+        "lon": 16.3738
+      }
+    },
+    {
+      "id": "second-siege-of-vienna",
+      "start": 1683,
+      "type": "conflict",
+      "title": {
+        "en": "An Ottoman siege of Vienna, begun in July, ends when a relief army under John III Sobieski forces the Ottomans to retreat on 12 September",
+        "es": "Un sitio otomano de Viena, iniciado en julio, termina cuando un ejército de socorro al mando de Juan III Sobieski obliga a los otomanos a retirarse el 12 de septiembre",
+        "zh": "奥斯曼军队7月开始围攻维也纳，9月12日约翰三世·索别斯基率援军迫使奥斯曼军撤退，围城结束"
+      },
+      "sources": [
+        {
+          "citation": "Wien Geschichte Wiki, \"Zweite Türkenbelagerung (1683)\".",
+          "url": "https://www.geschichtewiki.wien.gv.at/index.php?title=Zweite_T%C3%BCrkenbelagerung_%281683%29"
+        },
+        {
+          "citation": "Wien Museum Online Sammlung, \"Die Entsatzschlacht bei Wien am 12. September 1683\".",
+          "url": "https://sammlung.wienmuseum.at/en/object/56637-die-entsatzschlacht-bei-wien-am-12-september-1683/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Vienna",
+          "es": "Viena",
+          "zh": "维也纳"
+        },
+        "lat": 48.2082,
+        "lon": 16.3738
+      }
+    },
+    {
+      "id": "maria-theresa-succeeds",
+      "start": 1740,
+      "type": "ruler",
+      "title": {
+        "en": "Maria Theresa inherits the Habsburg lands under the Pragmatic Sanction, and Prussia invades Silesia in December",
+        "es": "María Teresa hereda las tierras de los Habsburgo según la Pragmática Sanción, y Prusia invade Silesia en diciembre",
+        "zh": "玛丽亚·特蕾西亚依《国事诏书》继承哈布斯堡领地，12月普鲁士入侵西里西亚"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Maria Theresa: The Great Habsburg Empress\".",
+          "url": "https://www.worldhistory.org/Maria_Theresa/"
+        },
+        {
+          "citation": "Die Welt der Habsburger, \"Maria Theresa\".",
+          "url": "https://www.habsburger.net/en/persons/habsburg-emperor/maria-theresa"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Vienna",
+          "es": "Viena",
+          "zh": "维也纳"
+        },
+        "lat": 48.2082,
+        "lon": 16.3738
+      }
+    },
+    {
+      "id": "joseph-ii-patents",
+      "start": 1781,
+      "type": "ruler",
+      "title": {
+        "en": "Joseph II issues an edict of toleration for Protestants and Orthodox subjects and a patent easing serfdom in Bohemia and Austria",
+        "es": "José II promulga un edicto de tolerancia para sus súbditos protestantes y ortodoxos y una patente que alivia la servidumbre en Bohemia y Austria",
+        "zh": "约瑟夫二世颁布针对新教徒和东正教徒的宽容敕令，以及减轻波希米亚和奥地利农奴制的诏书"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Joseph II (Holy Roman Empire)\": toleration edict of 13 October 1781; serfdom patent of 1 November 1781.",
+          "url": "https://www.encyclopedia.com/people/history/german-history-biographies/joseph-ii"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Joseph II, Holy Roman Emperor: The Great Enlightened Despot\".",
+          "url": "https://www.worldhistory.org/Joseph_II,_Holy_Roman_Emperor/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The serfdom patent ended the worst legal disabilities, not the peasants' labour and money obligations to their lords.",
+        "es": "La patente sobre la servidumbre puso fin a las peores restricciones legales, pero no a las obligaciones de trabajo y de dinero de los campesinos hacia sus señores.",
+        "zh": "该农奴制诏书废除了最严重的法律限制，但没有取消农民对领主的劳役和金钱义务。"
+      },
+      "place": {
+        "name": {
+          "en": "Vienna",
+          "es": "Viena",
+          "zh": "维也纳"
+        },
+        "lat": 48.2082,
+        "lon": 16.3738
+      }
+    },
+    {
+      "id": "empire-of-austria",
+      "start": 1804,
+      "type": "founding",
+      "title": {
+        "en": "Francis II takes the title Emperor of Austria, two years before the Holy Roman Empire ends",
+        "es": "Francisco II adopta el título de emperador de Austria, dos años antes del fin del Sacro Imperio",
+        "zh": "弗朗茨二世采用奥地利皇帝头衔，两年后神圣罗马帝国终结"
+      },
+      "sources": [
+        {
+          "citation": "Die Welt der Habsburger, \"The foundation of the Empire of Austria in 1804\".",
+          "url": "https://www.habsburger.net/en/events/foundation-empire-austria-1804"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Francis II (Holy Roman Empire)\".",
+          "url": "https://www.encyclopedia.com/people/history/german-history-biographies/francis-ii-holy-roman-empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Vienna",
+          "es": "Viena",
+          "zh": "维也纳"
+        },
+        "lat": 48.2082,
+        "lon": 16.3738
+      }
+    },
+    {
+      "id": "congress-of-vienna",
+      "start": 1814,
+      "end": 1815,
+      "type": "founding",
+      "title": {
+        "en": "Delegates meet at the Congress of Vienna, hosted by Francis I, to redraw Europe after Napoleon",
+        "es": "Los delegados se reúnen en el Congreso de Viena, anfitrionado por Francisco I, para rehacer el mapa de Europa tras Napoleón",
+        "zh": "各国代表在弗朗茨一世主办的维也纳会议上聚首，在拿破仑之后重划欧洲版图"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Congress of Vienna\": met September 1814 to June 1815; Metternich secured Lombardy and Venetia for Austria.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/congress-vienna"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Francis I (Austria)\": Francis ended the French wars as host of the Vienna Congress.",
+          "url": "https://www.encyclopedia.com/people/history/austria-and-hungary-history-biographies/francis-i-france"
+        },
+        {
+          "citation": "Die Welt der Habsburger, \"The new ordering of Europe in 1814/15\".",
+          "url": "https://www.habsburger.net/en/chapter/new-ordering-europe-181415"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Vienna",
+          "es": "Viena",
+          "zh": "维也纳"
+        },
+        "lat": 48.2082,
+        "lon": 16.3738
+      }
+    },
+    {
+      "id": "compromise-of-1867",
+      "start": 1867,
+      "type": "founding",
+      "title": {
+        "en": "The Compromise of 1867 splits the realm into Austria and Hungary under one ruler, and Franz Joseph is crowned king of Hungary on 8 June",
+        "es": "El Compromiso de 1867 divide el reino en Austria y Hungría bajo un mismo soberano, y Francisco José es coronado rey de Hungría el 8 de junio",
+        "zh": "1867年《奥匈折衷方案》使帝国分为奥地利和匈牙利两部分，由同一君主统治，弗朗茨·约瑟夫于6月8日加冕为匈牙利国王"
+      },
+      "sources": [
+        {
+          "citation": "Die Welt der Habsburger, \"An empire in two halves: the Compromise with Hungary\".",
+          "url": "https://www.habsburger.net/en/chapter/empire-two-halves-compromise-hungary"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Austro-Hungarian Monarchy\".",
+          "url": "https://www.encyclopedia.com/history/modern-europe/austria-and-hungary-history/austro-hungarian-monarchy"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Budapest",
+          "es": "Budapest",
+          "zh": "布达佩斯"
+        },
+        "lat": 47.4979,
+        "lon": 19.0402
+      }
+    },
+    {
+      "id": "end-of-the-monarchy",
+      "start": 1918,
+      "type": "collapse",
+      "title": {
+        "en": "On 11 November Emperor Charles I signs a declaration giving up any part in government, ending Habsburg rule",
+        "es": "El 11 de noviembre el emperador Carlos I firma una declaración en la que renuncia a toda participación en el gobierno, y termina el dominio de los Habsburgo",
+        "zh": "11月11日，皇帝卡尔一世签署声明，放弃参与国家政务，哈布斯堡的统治就此终结"
+      },
+      "sources": [
+        {
+          "citation": "Die Welt der Habsburger, \"Emperor Karl the Last – downfall and exile\".",
+          "url": "https://www.habsburger.net/en/chapter/emperor-karl-last-downfall-and-exile"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Austro-Hungarian Monarchy\".",
+          "url": "https://www.encyclopedia.com/history/modern-europe/austria-and-hungary-history/austro-hungarian-monarchy"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Charles signed the declaration for the Austrian half on 11 November 1918 and for the Hungarian half two days later. He did not formally abdicate, and he later withdrew his declarations in the Feldkirch Manifesto.",
+        "es": "Carlos firmó la declaración para la mitad austríaca el 11 de noviembre de 1918 y para la mitad húngara dos días después. No abdicó formalmente y más tarde retiró sus declaraciones en el Manifiesto de Feldkirch.",
+        "zh": "卡尔于1918年11月11日签署针对奥地利部分的声明，两天后签署针对匈牙利部分的声明。他并未正式退位，后来在《费尔德基希宣言》中撤回了这些声明。"
+      },
+      "place": {
+        "name": {
+          "en": "Schönbrunn Palace, Vienna",
+          "es": "Palacio de Schönbrunn, Viena",
+          "zh": "维也纳美泉宫"
+        },
+        "lat": 48.1845,
+        "lon": 16.3122
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "sixteen-children",
+      "start": 1740,
+      "end": 1780,
+      "text": {
+        "en": "Maria Theresa bore sixteen children, among them the emperor Joseph II and Marie Antoinette, who became queen of France.",
+        "es": "María Teresa tuvo dieciséis hijos, entre ellos el emperador José II y María Antonieta, que llegó a ser reina de Francia.",
+        "zh": "玛丽亚·特蕾西亚生育了十六个孩子，其中有皇帝约瑟夫二世，以及后来成为法国王后的玛丽·安托瓦内特。"
+      },
+      "sources": [
+        {
+          "citation": "Die Welt der Habsburger, \"Maria Theresa\".",
+          "url": "https://www.habsburger.net/en/persons/habsburg-emperor/maria-theresa"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Maria Theresa: The Great Habsburg Empress\".",
+          "url": "https://www.worldhistory.org/Maria_Theresa/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": "spanish-empire",
+  "region": "europe",
+  "wikidataId": "Q80702",
+  "name": {
+    "en": "Spanish Empire",
+    "es": "Imperio español",
+    "zh": "西班牙帝国"
+  },
+  "aliases": [
+    "Spanish Monarchy",
+    "Hispanic Monarchy",
+    "Monarquía Hispánica",
+    "Monarquía Católica",
+    "西班牙殖民帝国"
+  ],
+  "description": {
+    "en": "The overseas realm ruled by the Spanish crown, from Columbus's first voyage in 1492 to the end of Spanish control of the Spanish Sahara in 1976. It held much of the Americas until the 1810s and 1820s, and Cuba, Puerto Rico and the Philippines until 1898.",
+    "es": "El dominio de ultramar gobernado por la corona española, desde el primer viaje de Colón en 1492 hasta el fin del control español sobre el Sáhara Español en 1976. Poseyó gran parte de América hasta las décadas de 1810 y 1820, y Cuba, Puerto Rico y Filipinas hasta 1898.",
+    "zh": "由西班牙王室统治的海外领地，始于1492年哥伦布首次航行，止于1976年西班牙结束对西属撒哈拉的控制。1810至1820年代之前，它拥有美洲的大部分地区；古巴、波多黎各和菲律宾则保留到1898年。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "spanish-overseas-rule",
+      "earliestStart": 1492,
+      "latestStart": 1516,
+      "earliestEnd": 1898,
+      "latestEnd": 1976,
+      "sources": [
+        {
+          "citation": "Wikidata, \"Spanish Empire\" (Q80702): \"colonial empire governed by Spain between 1492 and 1976\".",
+          "url": "https://www.wikidata.org/wiki/Q80702"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Charles V, Holy Roman Emperor\": Charles inherited the crowns of Castile and Aragon in 1516.",
+          "url": "https://www.worldhistory.org/Charles_V,_Holy_Roman_Emperor/"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State, \"The Spanish-American War, 1898\": the war ended Spain's colonial empire in the Western Hemisphere.",
+          "url": "https://history.state.gov/milestones/1866-1898/spanish-american-war"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Western Sahara\": Spain's formal termination of control came on 26 February 1976.",
+          "url": "https://www.encyclopedia.com/places/africa/morocco-political-geography/western-sahara"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start is dated to Columbus's landfall in 1492, or to 1516, when Charles I took both the Castilian and the Aragonese crowns. The end is dated to 1898, when Spain lost Cuba, Puerto Rico, Guam and the Philippines, or to 1976, when it left the Spanish Sahara, which is the end Wikidata uses.",
+        "es": "El inicio se fecha en el desembarco de Colón en 1492, o en 1516, cuando Carlos I reunió las coronas de Castilla y Aragón. El final se fecha en 1898, cuando España perdió Cuba, Puerto Rico, Guam y Filipinas, o en 1976, cuando dejó el Sáhara Español, que es el final que usa Wikidata.",
+        "zh": "起点或定为1492年哥伦布登陆，或定为1516年查理一世同时继承卡斯蒂利亚和阿拉贡王位。终点或定为1898年西班牙失去古巴、波多黎各、关岛和菲律宾，或定为1976年撤出西属撒哈拉，后者是维基数据采用的终点。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "columbus-first-voyage",
+      "start": 1492,
+      "type": "founding",
+      "title": {
+        "en": "Columbus, sailing for Ferdinand and Isabella, reaches an island in the Bahamas on 12 October and claims it for Spain",
+        "es": "Colón, al servicio de Fernando e Isabel, llega el 12 de octubre a una isla de las Bahamas y la reclama para España",
+        "zh": "哥伦布受费迪南德和伊莎贝拉派遣，10月12日抵达巴哈马的一座岛屿，并宣布其归属西班牙"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Christopher Columbus\": first voyage to the Bahamas on 12 October 1492, claimed for Ferdinand and Isabella.",
+          "url": "https://www.worldhistory.org/Christopher_Columbus/"
+        },
+        {
+          "citation": "Library of Congress, \"Columbus and the Taíno\" (Exploring the Early Americas): Columbus's account of the 1492 voyage, sent to Ferdinand and Isabella.",
+          "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "San Salvador (Guanahani), Bahamas",
+          "es": "San Salvador (Guanahani), Bahamas",
+          "zh": "圣萨尔瓦多岛（瓜纳阿尼），巴哈马"
+        },
+        "lat": 24.05,
+        "lon": -74.5
+      }
+    },
+    {
+      "id": "treaty-of-tordesillas",
+      "start": 1494,
+      "type": "founding",
+      "title": {
+        "en": "Spain and Portugal sign the Treaty of Tordesillas on 7 June, dividing the Atlantic world along a line 370 leagues west of the Cape Verde islands",
+        "es": "España y Portugal firman el Tratado de Tordesillas el 7 de junio y reparten el mundo atlántico por una línea situada 370 leguas al oeste de las islas de Cabo Verde",
+        "zh": "6月7日，西班牙与葡萄牙签订《托尔德西里亚斯条约》，以佛得角群岛以西370里格处的一条线划分大西洋世界"
+      },
+      "sources": [
+        {
+          "citation": "The Avalon Project (Yale Law School), \"Treaty between Spain and Portugal concluded at Tordesillas; June 7, 1494\".",
+          "url": "https://avalon.law.yale.edu/15th_century/mod001.asp"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Treaty of Tordesillas\": signed 7 June 1494, with the line 370 leagues west of Cape Verde.",
+          "url": "https://www.worldhistory.org/Treaty_of_Tordesillas/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Tordesillas",
+          "es": "Tordesillas",
+          "zh": "托尔德西里亚斯"
+        },
+        "lat": 41.5,
+        "lon": -4.9
+      }
+    },
+    {
+      "id": "new-laws-of-the-indies",
+      "start": 1542,
+      "type": "ruler",
+      "title": {
+        "en": "Charles V issues the New Laws, which forbid enslaving Indians and curb the encomienda; colonists resist, and the crown later rescinds parts of them",
+        "es": "Carlos V promulga las Leyes Nuevas, que prohíben esclavizar a los indígenas y limitan la encomienda; los colonos se resisten y la corona revoca después parte de ellas",
+        "zh": "查理五世颁布《新法》，禁止奴役印第安人并限制监护征赋制；殖民者抵制，王室其后撤销了部分条款"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress, \"Interpreting the Conquest\" (Exploring the Early Americas): the New Laws of 1542-1543 protect Indians against enslavement; the crown later rescinded them under colonial resistance.",
+          "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/interpreting-the-conquest.html"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Encomienda\": the crown issued protective legislation in the Laws of Burgos (1512) and the New Laws (1542).",
+          "url": "https://www.encyclopedia.com/history/latin-america-and-caribbean/latin-american-history/encomienda"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "potosi-silver",
+      "start": 1545,
+      "type": "founding",
+      "title": {
+        "en": "Silver is found at Cerro Rico and Potosí grows into the main silver mine of the empire; from 1573 a forced-labour draft, the mita, supplies its workers",
+        "es": "Se descubre plata en el Cerro Rico y Potosí se convierte en la principal mina de plata del imperio; desde 1573 un reclutamiento forzoso, la mita, aporta sus trabajadores",
+        "zh": "在富饶山（塞罗里科）发现银矿，波托西成为帝国最主要的银矿；自1573年起，强制征派劳役的米塔制为矿场提供劳力"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Potosí\": silver at the Cerro Rico in 1545; Viceroy Toledo adapted the Inca mita for the mines in 1573.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/potosi"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Mita\": Toledo set up a formal mita for the Potosí mines and mills between 1572 and 1575.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mita"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The two sources date Toledo's mita to 1573 and to 1572-1575.",
+        "es": "Las dos fuentes fechan la mita de Toledo en 1573 y en 1572-1575.",
+        "zh": "两种资料把托莱多的米塔制分别定在1573年和1572至1575年。"
+      },
+      "place": {
+        "name": {
+          "en": "Potosí",
+          "es": "Potosí",
+          "zh": "波托西"
+        },
+        "lat": -19.5836,
+        "lon": -65.7531
+      }
+    },
+    {
+      "id": "spanish-armada",
+      "start": 1588,
+      "type": "conflict",
+      "title": {
+        "en": "Philip II's Armada of 132 ships is attacked off Gravelines and loses more ships on the voyage home round Scotland",
+        "es": "La Armada de 132 navíos de Felipe II es atacada frente a Gravelinas y pierde más barcos en el viaje de regreso por Escocia",
+        "zh": "腓力二世的132艘舰船组成的无敌舰队在格拉沃利讷外海遭到攻击，归途绕过苏格兰时又损失了更多船只"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Spanish Armada\": a fleet of 132 ships; the English attack off Gravelines; losses on the route home round Scotland.",
+          "url": "https://www.worldhistory.org/Spanish_Armada/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Spanish Armada\": the fireship attack and battle off Gravelines; over half the crews lost to battle, shipwreck and disease.",
+          "url": "https://www.encyclopedia.com/history/modern-europe/spanish-and-portuguese-history/spanish-armada"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Sources date the battle to 29 July (English calendar) or 8 August (the Gregorian calendar Spain used): the same day, in two calendars.",
+        "es": "Las fuentes fechan la batalla el 29 de julio (calendario inglés) o el 8 de agosto (calendario gregoriano, que usaba España): el mismo día en dos calendarios.",
+        "zh": "各种资料把这场战斗定在7月29日（英国历法）或8月8日（西班牙使用的格里高利历）：同一天，两种历法。"
+      },
+      "place": {
+        "name": {
+          "en": "Gravelines",
+          "es": "Gravelinas",
+          "zh": "格拉沃利讷"
+        },
+        "lat": 51.0,
+        "lon": 2.1
+      }
+    },
+    {
+      "id": "battle-of-ayacucho",
+      "start": 1824,
+      "type": "collapse",
+      "title": {
+        "en": "Sucre's army defeats the last royal army in South America at Ayacucho on 9 December, effectively ending Spanish rule on the mainland",
+        "es": "El ejército de Sucre derrota al último ejército realista de Sudamérica en Ayacucho el 9 de diciembre, y pone fin en la práctica al dominio español en el continente",
+        "zh": "12月9日，苏克雷的军队在阿亚库乔击败南美洲最后一支保王派军队，西班牙在大陆上的统治实际结束"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Junín, Battle of\": Sucre defeated the royalist army at Ayacucho on 9 December 1824, effectively ending three hundred years of Spanish rule in America.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/junin-battle"
+        },
+        {
+          "citation": "Encyclopedia.com, \"La Serna, José de\": on 9 December 1824 he led the last royal army in South America against Sucre.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/la-serna-jose-de-1770-1832"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Quinua, near Ayacucho",
+          "es": "Quinua, cerca de Ayacucho",
+          "zh": "基努阿，阿亚库乔附近"
+        },
+        "lat": -13.05,
+        "lon": -74.13
+      }
+    },
+    {
+      "id": "treaty-of-paris-1898",
+      "start": 1898,
+      "type": "collapse",
+      "title": {
+        "en": "In the Treaty of Paris, signed 10 December, Spain gives up Cuba and cedes Puerto Rico, Guam and the Philippines to the United States, which pays 20 million dollars for the Philippines",
+        "es": "En el Tratado de París, firmado el 10 de diciembre, España renuncia a Cuba y cede Puerto Rico, Guam y Filipinas a Estados Unidos, que paga 20 millones de dólares por Filipinas",
+        "zh": "12月10日签订的《巴黎条约》中，西班牙放弃古巴，并把波多黎各、关岛和菲律宾割让给美国，美国为菲律宾支付2000万美元"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State, \"The Spanish-American War, 1898\".",
+          "url": "https://history.state.gov/milestones/1866-1898/spanish-american-war"
+        },
+        {
+          "citation": "Library of Congress, \"Treaty of Paris of 1898\" (World of 1898 research guide).",
+          "url": "https://guides.loc.gov/world-of-1898/treaty-of-paris"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Paris",
+          "es": "París",
+          "zh": "巴黎"
+        },
+        "lat": 48.8566,
+        "lon": 2.3522
+      }
+    },
+    {
+      "id": "spain-leaves-spanish-sahara",
+      "start": 1975,
+      "end": 1976,
+      "type": "collapse",
+      "title": {
+        "en": "Spain, Morocco and Mauritania sign the Madrid Accords on 14 November 1975, and Spain's control of the Spanish Sahara ends on 26 February 1976",
+        "es": "España, Marruecos y Mauritania firman los Acuerdos de Madrid el 14 de noviembre de 1975, y el control español del Sáhara Español termina el 26 de febrero de 1976",
+        "zh": "1975年11月14日，西班牙、摩洛哥和毛里塔尼亚签署《马德里协议》；1976年2月26日，西班牙对西属撒哈拉的控制结束"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Western Sahara\": the Madrid Accords of 14 November 1975; Spain's formal termination of control on 26 February 1976.",
+          "url": "https://www.encyclopedia.com/places/africa/morocco-political-geography/western-sahara"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Green March\": the Madrid Accords of 14 November 1975 ceded the territory from Spain to Mauritania and Morocco.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/green-march"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The status of Western Sahara is still contested. Morocco has held most of the territory since 1979.",
+        "es": "El estatuto del Sáhara Occidental sigue en disputa. Marruecos controla la mayor parte del territorio desde 1979.",
+        "zh": "西撒哈拉的地位至今仍有争议。1979年起，摩洛哥控制了该地区的大部分。"
+      },
+      "place": {
+        "name": {
+          "en": "Madrid",
+          "es": "Madrid",
+          "zh": "马德里"
+        },
+        "lat": 40.4168,
+        "lon": -3.7038
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "potosi-mita",
+      "text": {
+        "en": "From 1573 the mita rotated Andean men through the Potosí silver mines under compulsion. Spain's cortes abolished it in 1812, but it survived into the nineteenth century.",
+        "es": "Desde 1573 la mita obligó a hombres andinos a turnarse en las minas de plata de Potosí. Las cortes españolas la abolieron en 1812, pero sobrevivió hasta el siglo XIX.",
+        "zh": "自1573年起，米塔制强制安第斯男子轮流到波托西的银矿服役。西班牙议会1812年废除了它，但它延续到了19世纪。"
+      },
+      "start": 1573,
+      "end": 1812,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Mita\": the cortes abolished the mita in 1812; it survived at least into the nineteenth century.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mita"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Potosí\": in 1573 Toledo adapted the Inca mita of rotating forced indigenous labour for the mines.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/potosi"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

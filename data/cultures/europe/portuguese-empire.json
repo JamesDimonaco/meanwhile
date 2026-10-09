@@ -1,0 +1,376 @@
+{
+  "id": "portuguese-empire",
+  "region": "europe",
+  "wikidataId": "Q200464",
+  "name": {
+    "en": "Portuguese Empire",
+    "es": "Imperio portugués",
+    "zh": "葡萄牙帝国"
+  },
+  "nativeName": {
+    "text": "Império Português",
+    "lang": "pt"
+  },
+  "aliases": [
+    "Portuguese Colonial Empire",
+    "Portuguese Seaborne Empire",
+    "Imperio colonial portugués",
+    "Estado da Índia",
+    "葡萄牙海上帝国",
+    "葡萄牙殖民帝国"
+  ],
+  "description": {
+    "en": "The overseas realm of the Portuguese crown, which began with the seizure of Ceuta in 1415. It held coastal posts in Africa, India and East Asia, and Brazil until 1822. Most of what remained left Portuguese rule in 1975, and Macau did in 1999.",
+    "es": "El dominio de ultramar de la corona portuguesa, que comenzó con la toma de Ceuta en 1415. Tuvo puestos costeros en África, la India y Asia oriental, y Brasil hasta 1822. Casi todo lo que quedaba salió del dominio portugués en 1975, y Macao en 1999.",
+    "zh": "葡萄牙王室的海外领地，始于1415年夺取休达。它在非洲、印度和东亚拥有沿海据点，并统治巴西至1822年。剩余领地大多在1975年脱离葡萄牙统治，澳门则在1999年。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "portuguese-overseas-rule",
+      "earliestStart": 1415,
+      "latestStart": 1415,
+      "earliestEnd": 1975,
+      "latestEnd": 1999,
+      "sources": [
+        {
+          "citation": "Wikidata, \"Portuguese Empire\" (Q200464): \"global empire centered in Portugal (1415–1999)\".",
+          "url": "https://www.wikidata.org/wiki/Q200464"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Empire, Portuguese\": Portuguese expansion began in 1415 with the conquest of Ceuta.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/empire-portuguese"
+        },
+        {
+          "citation": "Office of the Historian, U.S. Department of State, \"The Angola Crisis, 1974-75\": after the coup of 25 April 1974 the new rulers in Lisbon sought to divest the country of its colonial empire.",
+          "url": "https://history.state.gov/milestones/1969-1976/angola"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Macao\": returned to Chinese rule in 1999.",
+          "url": "https://www.encyclopedia.com/places/asia/chinese-political-geography/macao"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The end is dated to 1975, when Angola, Mozambique, Cape Verde and São Tomé and Príncipe became independent, or to 1999, when Macau was handed over to China, which is the end Wikidata uses. The bar is solid to 1975 and fades to 1999.",
+        "es": "El final se fecha en 1975, cuando Angola, Mozambique, Cabo Verde y Santo Tomé y Príncipe se independizaron, o en 1999, cuando Macao pasó a China, que es el final que usa Wikidata. La barra es sólida hasta 1975 y se desvanece hasta 1999.",
+        "zh": "终点或定为1975年，当年安哥拉、莫桑比克、佛得角以及圣多美和普林西比独立；或定为1999年澳门移交中国，后者是维基数据采用的终点。色条到1975年为实心，之后渐隐至1999年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "capture-of-ceuta",
+      "start": 1415,
+      "type": "founding",
+      "title": {
+        "en": "King John I seizes Ceuta in Morocco with Prince Henry among the commanders, the start of Portuguese expansion overseas",
+        "es": "El rey Juan I toma Ceuta, en Marruecos, con el infante Enrique entre los jefes: es el comienzo de la expansión portuguesa de ultramar",
+        "zh": "国王若昂一世夺取摩洛哥的休达，恩里克王子是指挥官之一，葡萄牙的海外扩张由此开始"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, \"Portugal - Early Voyages\": maritime expansion began in 1415 when João I seized Ceuta.",
+          "url": "https://countrystudies.us/portugal/22.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Prince Henry the Navigator\": in 1415 the Portuguese attacked Ceuta; Henry helped capture it.",
+          "url": "https://www.worldhistory.org/Prince_Henry_the_Navigator/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Ceuta",
+          "es": "Ceuta",
+          "zh": "休达"
+        },
+        "lat": 35.8894,
+        "lon": -5.3213
+      }
+    },
+    {
+      "id": "african-slave-trade-begins",
+      "start": 1440,
+      "type": "founding",
+      "title": {
+        "en": "Portuguese ships begin carrying enslaved Africans from West Africa to Portugal; the first large shipments to Brazil follow from about 1526",
+        "es": "Los barcos portugueses empiezan a llevar africanos esclavizados desde África occidental a Portugal; los primeros grandes envíos a Brasil llegan hacia 1526",
+        "zh": "葡萄牙船只开始把被奴役的非洲人从西非运往葡萄牙；大规模运往巴西的船运约从1526年开始"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Transatlantic Slave Trade: The Shame of Nations\": Portugal began exporting slaves from Africa to Europe in 1440; the first large-scale transport to Brazil is dated to 1526.",
+          "url": "https://www.worldhistory.org/Transatlantic_Slave_Trade/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Atlantic Slave Trade\": the Portuguese started the African slave trade in the early fifteenth century and bought slaves from African coastal rulers.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/atlantic-slave-trade"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia gives 1440 for the start. Encyclopedia.com says only \"the early fifteenth century\".",
+        "es": "World History Encyclopedia da 1440 para el inicio. Encyclopedia.com dice solo \"a principios del siglo XV\".",
+        "zh": "世界历史百科全书把开端定在1440年，而Encyclopedia.com只说“15世纪初”。"
+      }
+    },
+    {
+      "id": "da-gama-reaches-calicut",
+      "start": 1498,
+      "type": "founding",
+      "title": {
+        "en": "Vasco da Gama, having rounded the Cape of Good Hope, reaches Calicut in May: the first Portuguese voyage to India",
+        "es": "Vasco da Gama, tras doblar el cabo de Buena Esperanza, llega a Calicut en mayo: el primer viaje portugués a la India",
+        "zh": "瓦斯科·达·伽马绕过好望角，5月抵达卡利卡特，这是葡萄牙人首次航抵印度"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Vasco da Gama\": arrived near Calicut on 18 May 1498.",
+          "url": "https://www.worldhistory.org/Vasco_da_Gama/"
+        },
+        {
+          "citation": "Internet History Sourcebooks (Fordham University), \"Vasco da Gama\": reached Calicut on 20 May 1498.",
+          "url": "https://sourcebooks.fordham.edu/mod/1497degama.asp"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The two sources give 18 May and 20 May for the arrival.",
+        "es": "Las dos fuentes dan el 18 y el 20 de mayo para la llegada.",
+        "zh": "两种资料对抵达日期分别给出5月18日和5月20日。"
+      },
+      "place": {
+        "name": {
+          "en": "Calicut (Kozhikode)",
+          "es": "Calicut (Kozhikode)",
+          "zh": "卡利卡特（科泽科德）"
+        },
+        "lat": 11.2588,
+        "lon": 75.7804
+      }
+    },
+    {
+      "id": "cabral-reaches-brazil",
+      "start": 1500,
+      "type": "founding",
+      "title": {
+        "en": "Pedro Álvares Cabral's fleet, bound for India, sights the coast of Brazil on 22 April and stays eight days",
+        "es": "La flota de Pedro Álvares Cabral, rumbo a la India, avista la costa de Brasil el 22 de abril y permanece ocho días",
+        "zh": "佩德罗·阿尔瓦雷斯·卡布拉尔的舰队驶往印度途中，4月22日望见巴西海岸，并停留了八天"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Cabral, Pedro Álvares\": the first recorded Portuguese sighting of Brazil, on 22 April 1500.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/cabral-pedro-alvares-1468-c-1520"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Portuguese Brazil\": Cabral stayed eight days at Baía Cabrália.",
+          "url": "https://www.worldhistory.org/Portuguese_Brazil/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Some accounts say Cabral sailed too far west by accident. World History Encyclopedia notes the landfall may have been planned.",
+        "es": "Algunos relatos dicen que Cabral se desvió demasiado al oeste por accidente. World History Encyclopedia señala que la llegada pudo estar planeada.",
+        "zh": "有些记述说卡布拉尔是意外偏西航行。世界历史百科全书指出，这次登陆也可能是事先计划好的。"
+      },
+      "place": {
+        "name": {
+          "en": "Baía Cabrália, near Porto Seguro",
+          "es": "Baía Cabrália, cerca de Porto Seguro",
+          "zh": "卡布拉利亚湾，靠近塞古罗港"
+        },
+        "lat": -16.3,
+        "lon": -39.0
+      }
+    },
+    {
+      "id": "albuquerque-takes-goa",
+      "start": 1510,
+      "type": "conflict",
+      "title": {
+        "en": "Afonso de Albuquerque takes Goa, first in March and, after a Muslim army drove him out in May, again in November",
+        "es": "Afonso de Albuquerque toma Goa, primero en marzo y, tras ser expulsado en mayo por un ejército musulmán, de nuevo en noviembre",
+        "zh": "阿方索·德·阿尔布克尔克攻占果阿，3月首次占领，5月被穆斯林军队逐出，11月再度夺回"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Portuguese Goa\": Albuquerque seized the port in 1510.",
+          "url": "https://www.worldhistory.org/Portuguese_Goa/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Afonso de Albuquerque\": occupied Goa in March 1510, forced out in May, took it again in November.",
+          "url": "https://www.encyclopedia.com/people/history/south-asian-history-biographies/afonso-de-albuquerque"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Goa",
+          "es": "Goa",
+          "zh": "果阿"
+        },
+        "lat": 15.5009,
+        "lon": 73.9116
+      }
+    },
+    {
+      "id": "portuguese-settlement-at-macau",
+      "start": 1557,
+      "type": "founding",
+      "title": {
+        "en": "Portuguese traders settle at Macau, on the Pearl River estuary, and the port becomes their base for trade with China and Japan",
+        "es": "Comerciantes portugueses se establecen en Macao, en el estuario del río de las Perlas, y el puerto se convierte en su base para el comercio con China y Japón",
+        "zh": "葡萄牙商人在珠江口的澳门定居，该港成为他们与中国和日本贸易的基地"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Macao\": founded in 1557 by Portuguese traders seeking a permanent commercial settlement; Portugal leased the peninsula from China from 1670.",
+          "url": "https://www.encyclopedia.com/places/asia/chinese-political-geography/macao"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Portuguese Macao\": in 1557 the Ming dynasty grants the Portuguese a trading base, according to one version.",
+          "url": "https://www.worldhistory.org/Portuguese_Macao/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Accounts differ on the terms. One version says the Chinese authorities granted a trading base. Another says Portugal leased the peninsula from 1670, and that China never ratified the 1862 Treaty of Tianjin that made Macau a Portuguese colony.",
+        "es": "Los relatos difieren sobre las condiciones. Una versión dice que las autoridades chinas concedieron una base comercial. Otra dice que Portugal arrendó la península desde 1670 y que China nunca ratificó el Tratado de Tianjin de 1862, que hacía de Macao una colonia portuguesa.",
+        "zh": "各种记述对条件说法不一。一种说法是中国官府给予一处贸易据点；另一种说法是葡萄牙自1670年起租借该半岛，而中国从未批准1862年使澳门成为葡萄牙殖民地的《天津条约》。"
+      },
+      "place": {
+        "name": {
+          "en": "Macau",
+          "es": "Macao",
+          "zh": "澳门"
+        },
+        "lat": 22.1987,
+        "lon": 113.5439
+      }
+    },
+    {
+      "id": "brazilian-independence",
+      "start": 1822,
+      "type": "collapse",
+      "title": {
+        "en": "Prince Regent Pedro declares Brazil independent of Portugal on 7 September and is acclaimed emperor",
+        "es": "El príncipe regente Pedro declara a Brasil independiente de Portugal el 7 de septiembre y es aclamado emperador",
+        "zh": "摄政王佩德罗于9月7日宣布巴西脱离葡萄牙独立，并被拥立为皇帝"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"1808–1889\" (Brazil): independence was declared by the prince regent himself on 7 September 1822.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/1808-1889"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Portuguese Brazil\": Brazil achieved independence in 1822, declaring Pedro I its first emperor.",
+          "url": "https://www.worldhistory.org/Portuguese_Brazil/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Rio de Janeiro",
+          "es": "Río de Janeiro",
+          "zh": "里约热内卢"
+        },
+        "lat": -22.9068,
+        "lon": -43.1729
+      }
+    },
+    {
+      "id": "decolonisation-1974-1975",
+      "start": 1974,
+      "end": 1975,
+      "type": "collapse",
+      "title": {
+        "en": "After the coup in Lisbon on 25 April 1974, Portugal grants independence to Mozambique on 25 June 1975 and to Angola in November 1975",
+        "es": "Tras el golpe de Lisboa del 25 de abril de 1974, Portugal concede la independencia a Mozambique el 25 de junio de 1975 y a Angola en noviembre de 1975",
+        "zh": "1974年4月25日里斯本政变后，葡萄牙于1975年6月25日给予莫桑比克独立，同年11月给予安哥拉独立"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State, \"The Angola Crisis, 1974-75\".",
+          "url": "https://history.state.gov/milestones/1969-1976/angola"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Mozambique: Independence and a Dirty War\": independence granted on 25 June 1975.",
+          "url": "https://www.encyclopedia.com/history/energy-government-and-defense-magazines/mozambique-independence-and-dirty-war"
+        },
+        {
+          "citation": "Library of Congress Country Studies, \"Angola - History\": in November 1975, after nearly five centuries as a Portuguese colony, Angola became independent.",
+          "url": "https://countrystudies.us/angola/3.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lisbon",
+          "es": "Lisboa",
+          "zh": "里斯本"
+        },
+        "lat": 38.7223,
+        "lon": -9.1393
+      }
+    },
+    {
+      "id": "macau-handover",
+      "start": 1999,
+      "type": "collapse",
+      "title": {
+        "en": "Under the 1987 Sino-Portuguese Joint Declaration, Portugal hands Macau over to China on 20 December, and it becomes a special administrative region",
+        "es": "En virtud de la Declaración Conjunta chino-portuguesa de 1987, Portugal entrega Macao a China el 20 de diciembre y pasa a ser una región administrativa especial",
+        "zh": "依据1987年《中葡联合声明》，葡萄牙于12月20日把澳门交给中国，澳门成为特别行政区"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Macao\": the Sino-Portuguese Joint Declaration made Macao a special administrative region, effective 20 December 1999.",
+          "url": "https://www.encyclopedia.com/places/asia/chinese-political-geography/macao"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Portuguese Macao\": handed back to the Chinese in 1999 as a special administrative region; the Portuguese government agreed in 1987.",
+          "url": "https://www.worldhistory.org/Portuguese_Macao/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Macau",
+          "es": "Macao",
+          "zh": "澳门"
+        },
+        "lat": 22.1987,
+        "lon": 113.5439
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "goa-450-years",
+      "text": {
+        "en": "Goa stayed under Portuguese rule for about 450 years, from 1510 until Indian troops entered in December 1961.",
+        "es": "Goa estuvo bajo dominio portugués unos 450 años, desde 1510 hasta que las tropas indias entraron en diciembre de 1961.",
+        "zh": "果阿处于葡萄牙统治之下约450年，从1510年一直到1961年12月印度军队进入。"
+      },
+      "start": 1510,
+      "end": 1961,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Portuguese Goa\": a Portuguese colony from 1510 to 1961.",
+          "url": "https://www.worldhistory.org/Portuguese_Goa/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Goa\": a Portuguese colony for 450 years; Indian troops took Goa on 19 December 1961.",
+          "url": "https://www.encyclopedia.com/places/asia/indian-political-geography/goa"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
