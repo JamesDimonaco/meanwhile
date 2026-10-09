@@ -11,7 +11,7 @@ elsewhere and keep their own licences.
 | Inter, subset | `public/fonts/inter-*.woff2`, `assets/og-fonts/inter-*.ttf` | SIL Open Font License 1.1 | Copyright 2016 The Inter Project Authors. Licence text: `inter-LICENSE.txt` beside the fonts |
 | Noto Sans SC, subset | `public/fonts/noto-sans-sc-subset.woff2`, `public/fonts/noto-sans-sc-wars.woff2`, `assets/og-fonts/noto-sans-sc-og.otf` | SIL Open Font License 1.1 | © 2014-2021 Adobe (in the font's metadata). Licence text: `noto-sans-sc-LICENSE.txt` beside the fonts |
 | flag-icons | `public/flags/*.svg` | MIT | Copyright (c) 2013 Panayiotis Lipiridis. Licence text: `public/flags/LICENSE` |
-| Natural Earth 1:50m land, clipped and simplified | `public/geo/` | Public domain | Made with Natural Earth, https://www.naturalearthdata.com |
+| Natural Earth 1:10m land (v5.1.1), cut to each map's frame and simplified to its scale by `scripts/build-land.ts` | `public/geo/land/` | Public domain | Made with Natural Earth, https://www.naturalearthdata.com |
 | Cliopatria border polygons, simplified | `data/borders/` | CC BY 4.0 | Cited, with the changes made, in each file's `sources` |
 | UCDP battle-death figures and conflict dates | `data/wars/` | CC BY 4.0 | Cited on each figure; the datasets themselves are not included |
 | shadcn/ui components | `src/components/ui/` | MIT | Copyright (c) 2023 shadcn |

@@ -56,7 +56,7 @@
       "name": "Natural Earth",
       "licence": "Public domain",
       "used": "The coastlines and land shapes under the territory maps and the war maps.",
-      "changes": "The 1:50m land layer is clipped to three regions (Europe, the Mediterranean, the Near East and the Nile valley; East Asia; the Americas) and simplified, so each map loads only its own region. A war map with territory borders uses its region's land; a war map with pins only uses the whole world's land, simplified the same way."
+      "changes": "The 1:10m land layer is cut to the part of the world each map shows and simplified to that map's scale, so a map of one strait draws its coast in detail and a map of an empire loads only a few kilobytes. Islands too small to see at a map's scale are left out."
     },
     "fonts": {
       "name": "Inter and Noto Sans SC",

@@ -6,7 +6,7 @@ import { readJsonFiles } from "./files";
 import { localeGaps, type Heartland } from "./country";
 import { Today, validateHeartland } from "./heartland";
 import { Registry, type Borders, type Culture, type SuccessionLink } from "./schema";
-import { validateDataset, type DatasetResult } from "./validate";
+import { validateDataset, type DatasetInput, type DatasetResult } from "./validate";
 import type { War } from "./war-schema";
 import { warCountryCodes, warsShownIn } from "./wars";
 
@@ -18,19 +18,25 @@ const DATA_DIR = path.join(process.cwd(), "data");
 
 const readJson = (file: string) => JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "utf8")) as unknown;
 
-export function readDataset(): DatasetResult {
-  const registry = readJson("registry.json");
-  const result = validateDataset({
-    registry,
+/** The data files as validateDataset takes them, land files aside: scripts/build-land.ts builds those from the rest. */
+export function readDataInput(): DatasetInput {
+  return {
+    registry: readJson("registry.json"),
     cultureFiles: readJsonFiles(path.join(DATA_DIR, "cultures")),
     borderFiles: readJsonFiles(path.join(DATA_DIR, "borders")),
     popular: readJson("popular.json"),
     succession: readJson("succession.json"),
     warFiles: readJsonFiles(path.join(DATA_DIR, "wars")),
-  });
+  };
+}
+
+export function readDataset(): DatasetResult {
+  const input = readDataInput();
+  // Spelt out rather than LAND_DIR: a path Turbopack can't read statically makes it trace the whole project into every function.
+  const result = validateDataset({ ...input, landFiles: readJsonFiles(path.join(process.cwd(), "public", "geo", "land")) });
   const heartlandErrors = validateHeartland({
     today: readJson("today.json"),
-    registryIds: Registry.safeParse(registry).data?.cultures.map((c) => c.id) ?? [],
+    registryIds: Registry.safeParse(input.registry).data?.cultures.map((c) => c.id) ?? [],
     isoCodes: countries.filter((c) => c.iso).map((c) => c.code.toUpperCase()),
     flagFiles: fs.readdirSync(path.join(process.cwd(), "public/flags")).filter((f) => f.endsWith(".svg")),
     warCodes: warCountryCodes(result.wars),

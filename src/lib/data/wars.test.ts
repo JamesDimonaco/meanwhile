@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { loadAllWars } from "./load";
 import type { Casualty, War } from "./war-schema";
-import { casualtyGroups, countriesToday, countryIndex, isShownIn, warCountryCodes, warLand, warsForCulture, warsShownIn } from "./wars";
+import { casualtyGroups, countriesToday, countryIndex, isShownIn, warCountryCodes, warsForCulture, warsShownIn } from "./wars";
 
 const t = (en: string) => ({ en });
 const src = [{ citation: "s" }];
@@ -101,25 +101,6 @@ describe("countryIndex", () => {
   it("lets a country be found by its code or its name in any language, whatever the page's language", () => {
     const mexico = countryIndex([war("one", 1519)], "zh").find((c) => c.code === "MX");
     expect(mexico).toMatchObject({ name: "墨西哥", english: "Mexico", terms: ["MX", "México"] });
-  });
-});
-
-describe("warLand", () => {
-  const cultures = [
-    { id: "aztec", region: "mesoamerica" },
-    { id: "inca", region: "south-america" },
-  ] as const;
-
-  it("draws a war with a borders file on its cultures' own region, not the whole world", () => {
-    expect(warLand(war("w", 1519), cultures, true)).toBe("mesoamerica");
-  });
-
-  it("keeps a pins-only war on the whole world", () => {
-    expect(warLand(war("w", 1519), cultures, false)).toBe("world");
-  });
-
-  it("falls back to the whole world when the war's cultures span two regions", () => {
-    expect(warLand(war("w", 1519, { cultures: ["inca"] }), cultures, true)).toBe("world");
   });
 });
 

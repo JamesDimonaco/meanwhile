@@ -21,7 +21,7 @@ import { hasTerritoryMap, loadCultures, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { activeAt, meanwhileAtYear } from "@/lib/data/queries";
 import type { War } from "@/lib/data/war-schema";
-import { countriesToday, isShownIn, warLand, warSpan } from "@/lib/data/wars";
+import { countriesToday, isShownIn, warSpan } from "@/lib/data/wars";
 import { openGraph, pageAlternates } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -172,8 +172,8 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
           <EventStory
             events={war.events}
             eventWorld={eventWorld}
-            bordersId={hasBorders ? war.id : null}
-            land={warLand(war, cultures, hasBorders)}
+            id={war.id}
+            hasBorders={hasBorders}
             allPins
             nameSelf
           />

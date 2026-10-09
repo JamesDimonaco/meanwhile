@@ -12,6 +12,7 @@
     "lint": "eslint",
     "validate-data": "tsx scripts/validate-data.ts",
     "borders": "tsx scripts/build-borders.ts",
+    "land": "tsx scripts/build-land.ts",
     "subset-cjk-font": "tsx scripts/subset-cjk-font.ts",
     "subset-latin-font": "tsx scripts/subset-latin-font.ts",
     "build-og-fonts": "tsx scripts/build-og-fonts.ts",

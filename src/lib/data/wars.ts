@@ -1,7 +1,6 @@
 import { HTML_LANG, LOCALES, type Locale } from "@/i18n/locales";
 import { COUNTRY_ALIASES, ENGLISH_ALIASES, isListableCountry, UN_MEMBERS, type Continent } from "./countries";
 import { countryName, isNation, NATIONS, type Nation, UNION, withUnion } from "./nations";
-import type { Culture, Region } from "./schema";
 import type { Casualty, War, WarFile } from "./war-schema";
 
 type Dated = Pick<WarFile, "period" | "ongoing">;
@@ -50,22 +49,6 @@ export function warsShownIn<W extends Pick<War, "sensitive" | "reviewed">>(wars:
 }
 
 const oldestFirst = (a: War, b: War) => warSpan(a).start - warSpan(b).start || a.id.localeCompare(b.id);
-
-/**
- * The land a war's map draws on. A borders file is cut to its war's part of
- * the world, so it takes the region file its cultures share (a third of the
- * download); pins-only wars range anywhere and take the whole world.
- */
-export function warLand(
-  war: Pick<War, "cultures" | "sides">,
-  cultures: readonly Pick<Culture, "id" | "region">[],
-  hasBorders: boolean,
-): Region | "world" {
-  if (!hasBorders) return "world";
-  const own = new Set([...war.cultures, ...war.sides.flatMap((s) => s.members.flatMap((m) => (m.kind === "culture" ? [m.id] : [])))]);
-  const regions = new Set(cultures.filter((c) => own.has(c.id)).map((c) => c.region));
-  return regions.size === 1 ? [...regions][0] : "world";
-}
 
 /** The wars a culture's page lists: those naming it in cultures[], oldest first. */
 export function warsForCulture(wars: readonly War[], cultureId: string): War[] {

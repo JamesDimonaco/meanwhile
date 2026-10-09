@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { geoContains } from "d3-geo";
 import { describe, expect, it } from "vitest";
-import { forD3, snapshotAt } from "@/components/territory-map/geo";
+import { forD3, snapshotAt } from "@/lib/map/geo";
 import { readDataset } from "./load";
 
 // Egypt is the second flagship: its events are pinned on the territory map and

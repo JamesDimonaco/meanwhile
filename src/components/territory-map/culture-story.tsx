@@ -9,7 +9,7 @@ import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { ActiveCulture } from "@/lib/data/queries";
-import type { CultureEvent, Region } from "@/lib/data/schema";
+import type { CultureEvent } from "@/lib/data/schema";
 import { MapFrame } from "./map-frame";
 
 /** How far below the sticky map an event's top must pass to take over the map. */
@@ -29,22 +29,23 @@ export type StoryEvent = Pick<CultureEvent, "id" | "start" | "end" | "title" | "
  * place. Rendered instead of CultureEvents when hasTerritoryMap(id).
  */
 export function CultureStory({ culture, eventWorld }: CultureEventsProps) {
-  return <EventStory events={culture.events} eventWorld={eventWorld} bordersId={culture.id} land={culture.region} />;
+  return <EventStory events={culture.events} eventWorld={eventWorld} id={culture.id} hasBorders />;
 }
 
 type EventStoryProps = {
   events: readonly StoryEvent[];
   eventWorld: CultureEventsProps["eventWorld"];
-  /** null: pins on plain land, no borders. */
-  bordersId: string | null;
-  land: Region | "world";
+  /** The culture or war id: names its land file, and its borders file when it has one. */
+  id: string;
+  /** false: pins on plain land, no borders. */
+  hasBorders: boolean;
   /** Draw every event's place faintly and fit the frame to them (a war's battles). */
   allPins?: boolean;
   nameSelf?: boolean;
 };
 
 /** CultureStory's map and list for any dated, placed events: a culture's, or a war's. */
-export function EventStory({ events: unsorted, eventWorld, bordersId, land, allPins = false, nameSelf = false }: EventStoryProps) {
+export function EventStory({ events: unsorted, eventWorld, id, hasBorders, allPins = false, nameSelf = false }: EventStoryProps) {
   const events = [...unsorted].sort((a, b) => a.start - b.start);
   const [activeId, setActiveId] = useState(events[0].id);
   const [openId, setOpenId] = useState<string | null>(null);
@@ -111,8 +112,8 @@ export function EventStory({ events: unsorted, eventWorld, bordersId, land, allP
       <div ref={mapSlot} className="sticky top-0 z-10 bg-background py-2">
         {mapWanted ? (
           <TerritoryMap
-            bordersId={bordersId}
-            land={land}
+            id={id}
+            hasBorders={hasBorders}
             year={active.end ?? active.start}
             pin={active.place ?? null}
             pins={allPins ? pins : undefined}
