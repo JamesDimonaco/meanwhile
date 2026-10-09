@@ -148,8 +148,8 @@
           "url": "https://countrystudies.us/portugal/16.htm"
         },
         {
-          "citation": "Museus e Monumentos de Portugal. \"Monastery of Batalha\" (built in thanks for the victory of 14 August 1385).",
-          "url": "https://museusemonumentos.pt/en/museus-e-monumentos/mosteiro-da-batalha"
+          "citation": "Wikipedia. \"Battle of Aljubarrota\" (the Cortes of Coimbra acclaim John of Aviz on 6 April 1385; the battle on 14 August 1385).",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Aljubarrota"
         }
       ],
       "disputed": false,
@@ -230,11 +230,16 @@
           "url": "https://countrystudies.us/portugal/28.htm"
         },
         {
-          "citation": "History Atlas. \"Battle of Alcácer Quibir\" (4 August 1578; the end of the Aviz dynasty; a sixty-year union).",
-          "url": "https://www.historyatlas.com/topics/alcacer-quibir-battle-of/"
+          "citation": "Wikipedia. \"Iberian Union\" (Sebastian dies at Alcácer Quibir in 1578; Henry dies in 1580; Philip is recognised by the Cortes of Tomar in 1581).",
+          "url": "https://en.wikipedia.org/wiki/Iberian_Union"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Philip took the Portuguese throne by force in 1580 after Cardinal Henrique died, and the cortes at Tomar recognised him in 1581.",
+        "es": "Felipe se hizo con el trono portugués por la fuerza en 1580, tras la muerte del cardenal Enrique, y las cortes de Tomar lo reconocieron en 1581.",
+        "zh": "1580年亨利克枢机去世后，腓力以武力夺取了葡萄牙王位，托马尔科尔特斯于1581年承认了他。"
+      }
     },
     {
       "id": "restoration-1640",
@@ -331,16 +336,20 @@
     {
       "id": "all-saints-1755",
       "text": {
-        "en": "The 1755 earthquake struck on All Saints' Day, when many of Lisbon's roughly 250,000 people were in church.",
-        "es": "El terremoto de 1755 llegó el día de Todos los Santos, cuando muchos de los unos 250.000 habitantes de Lisboa estaban en la iglesia.",
-        "zh": "1755年的地震发生在诸圣节，当时里斯本约25万居民中有许多人正在教堂里。"
+        "en": "The 1755 earthquake struck on All Saints' Day, when many people in Lisbon were in church.",
+        "es": "El terremoto de 1755 llegó el día de Todos los Santos, cuando muchos habitantes de Lisboa estaban en la iglesia.",
+        "zh": "1755年的地震发生在诸圣节，当时里斯本有许多人正在教堂里。"
       },
       "start": 1755,
       "end": 1755,
       "sources": [
         {
-          "citation": "U.S. Geological Survey. \"Today in earthquake history, 1 November\" (All Saints' Day; Lisbon's population).",
+          "citation": "U.S. Geological Survey. \"Today in earthquake history, 1 November\" (All Saints' Day; many people in church).",
           "url": "https://earthquake.usgs.gov/learn/today/index.php?day=1&month=11"
+        },
+        {
+          "citation": "History.com. \"Earthquake takes heavy toll on Lisbon\" (worshippers filling churches for All Saints' Day Mass).",
+          "url": "https://www.history.com/this-day-in-history/november-1/earthquake-takes-heavy-toll-on-lisbon"
         }
       ],
       "disputed": false
@@ -358,6 +367,10 @@
         {
           "citation": "Museus e Monumentos de Portugal. \"Monastery of Batalha\" (built in thanks for the victory of 14 August 1385).",
           "url": "https://museusemonumentos.pt/en/museus-e-monumentos/mosteiro-da-batalha"
+        },
+        {
+          "citation": "Wikipedia. \"Battle of Aljubarrota\" (John I orders the monastery built to mark the victory).",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Aljubarrota"
         }
       ],
       "disputed": false

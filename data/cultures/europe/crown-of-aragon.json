@@ -35,6 +35,10 @@
       "latestEnd": 1716,
       "sources": [
         {
+          "citation": "Wikipedia. \"Petronilla of Aragon\" (betrothal contract at Barbastro on 11 August 1137; wedding in August 1150).",
+          "url": "https://en.wikipedia.org/wiki/Petronilla_of_Aragon"
+        },
+        {
           "citation": "Personajes ilustres de las lenguas de Aragón. \"Petronila de Aragón\" (years of waiting before the 1150 wedding; she gives the kingdom to her son in 1164).",
           "url": "https://personajesilustres.lenguasdearagon.org/petronila-de-aragon-en/"
         },
@@ -50,9 +54,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "There is no single start. The agreement between Aragon and Barcelona came years before the 1150 wedding (1137 is the year usually given), and 1162 is the year Wikidata uses. It was a union under one ruler, not one state. The end runs from the first Nueva Planta decree (1707) to the last (Catalonia, 1716).",
-        "es": "No hay un único comienzo. El pacto entre Aragón y Barcelona precedió en años a la boda de 1150 (1137 es el año que se suele dar), y 1162 es el año que usa Wikidata. Fue una unión bajo un mismo soberano, no un solo estado. El final va del primer decreto de Nueva Planta (1707) al último (Cataluña, 1716).",
-        "zh": "起点没有定论。阿拉贡与巴塞罗那的协议早于1150年的婚礼数年（通常给出的年份是1137年），维基数据采用1162年。这是同一位君主之下的联合，而不是单一国家。终点从第一道新基本法令（1707年）延续到最后一道（加泰罗尼亚，1716年）。"
+        "en": "There is no single start. The betrothal of Petronilla to Ramon Berenguer IV was agreed at Barbastro on 11 August 1137, the wedding followed in August 1150, and Wikidata uses 1162, two years before their son took the throne. It was a union under one ruler, not one state. The end runs from the first Nueva Planta decree (1707) to the last (Catalonia, 1716).",
+        "es": "No hay un único comienzo. El compromiso de Petronila con Ramón Berenguer IV se pactó en Barbastro el 11 de agosto de 1137, la boda llegó en agosto de 1150, y Wikidata usa 1162, dos años antes de que su hijo subiera al trono. Fue una unión bajo un mismo soberano, no un solo estado. El final va del primer decreto de Nueva Planta (1707) al último (Cataluña, 1716).",
+        "zh": "起点没有定论。佩特罗妮拉与拉蒙·贝伦格尔四世的婚约于1137年8月11日在巴尔瓦斯特罗订立，婚礼在1150年8月举行，维基数据采用1162年，比其子登基早两年。这是同一位君主之下的联合，而不是单一国家。终点从第一道新基本法令（1707年）延续到最后一道（加泰罗尼亚，1716年）。"
       }
     }
   ],
@@ -132,8 +136,8 @@
           "url": "https://www.masmallorca.es/en/our-people/the-conquest-of-the-kingdom-of-valencia.html"
         },
         {
-          "citation": "World History Encyclopedia. \"Reconquista\" timeline (1238).",
-          "url": "https://worldhistory.org/timeline/Reconquista"
+          "citation": "Britannica. \"James I\" (the capital of Valencia is taken in 1238, after a campaign begun in 1233).",
+          "url": "https://www.britannica.com/biography/James-I-king-of-Aragon"
         }
       ],
       "disputed": false,
@@ -161,6 +165,10 @@
         {
           "citation": "Historia Scripta. \"Sicilian Vespers, March 30, 1282\" (the rising at Palermo and Peter III's landing at Trapani on 30 August).",
           "url": "https://www.historiascripta.org/the-middle-ages/sicilian-vespers-march-30-1282-the-sicilians-cut-down-the-french-angevins/"
+        },
+        {
+          "citation": "Wikipedia. \"Sicilian Vespers\" (the 1282 rising; Peter III lands at Trapani on 30 August and is acclaimed at Palermo on 4 September).",
+          "url": "https://en.wikipedia.org/wiki/Sicilian_Vespers"
         },
         {
           "citation": "Brown University, Decameron Web. \"Frederick III\" (Frederick keeps Sicily as King of Trinacria under the 1302 Peace of Caltabellotta).",
@@ -255,8 +263,8 @@
           "url": "https://www.galeriadelascoleccionesreales.es/en/monarch/isabella-i-of-castile/46c42cc8-bdd9-4a79-074a-e551d5ea1ab3"
         },
         {
-          "citation": "Encyclopedia.com. \"Isabella I (1451-1504)\" (the kingdoms stay separate under the two monarchs).",
-          "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/isabella-i-1451-1504"
+          "citation": "Wikipedia. \"Catholic Monarchs\" (Ferdinand succeeds in January 1479; the two kingdoms keep their own laws and governments until the Nueva Planta decrees).",
+          "url": "https://en.wikipedia.org/wiki/Catholic_Monarchs"
         }
       ],
       "disputed": false

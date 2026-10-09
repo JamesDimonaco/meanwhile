@@ -48,14 +48,18 @@
         {
           "citation": "Cervantes Virtual blog. \"Decret de Nova Planta\" (Philip V's decrees of 1707 to 1716 abolish the separate laws of the Crown of Aragon's realms).",
           "url": "https://blog.cervantesvirtual.com/decret-de-nova-planta/"
+        },
+        {
+          "citation": "Wikipedia. \"Nueva Planta decrees\" (decrees signed 1707 to 1716; the Aragonese realms are incorporated into the Crown of Castile, which is not formally abolished).",
+          "url": "https://en.wikipedia.org/wiki/Nueva_Planta_decrees"
         }
       ],
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Ferdinand III ruled Castile from 1217 and joined León to it in 1230. There is no single end date. Castile and Aragon kept separate laws and institutions after 1479, even under Charles I (1516), until the Nueva Planta decrees of 1707 to 1716. Wikidata gives 1715.",
-        "es": "Fernando III reinaba en Castilla desde 1217 y le unió León en 1230. No hay una sola fecha de final. Castilla y Aragón conservaron leyes e instituciones separadas después de 1479, incluso con Carlos I (1516), hasta los decretos de Nueva Planta de 1707 a 1716. Wikidata da 1715.",
-        "zh": "费尔南多三世自1217年统治卡斯蒂利亚，1230年并入莱昂。结束年份没有定论。1479年之后，即使在查理一世（1516年）治下，卡斯蒂利亚与阿拉贡仍保留各自的法律和机构，直到1707年至1716年的新基本法令。维基数据给出的是1715年。"
+        "en": "Ferdinand III ruled Castile from 1217 and joined León to it in 1230. There is no single end date. The Nueva Planta decrees of 1707 to 1716 put the Aragonese realms under Castilian law, but they did not formally abolish the Crown of Castile, so 1707 to 1716 marks when it stops being a separate crown by convention. Wikidata gives 1715.",
+        "es": "Fernando III reinaba en Castilla desde 1217 y le unió León en 1230. No hay una sola fecha de final. Los decretos de Nueva Planta de 1707 a 1716 sometieron los reinos aragoneses al derecho castellano, pero no abolieron formalmente la Corona de Castilla, así que 1707 a 1716 marca por convención el momento en que deja de ser una corona separada. Wikidata da 1715.",
+        "zh": "费尔南多三世自1217年统治卡斯蒂利亚，1230年并入莱昂。结束年份没有定论。1707年至1716年的新基本法令使阿拉贡各王国改用卡斯蒂利亚法律，但并未正式废除卡斯蒂利亚王室，因此1707年至1716年只是按惯例标示它不再是独立王室的时间。维基数据给出的是1715年。"
       }
     }
   ],
@@ -270,13 +274,17 @@
         {
           "citation": "Generalitat de Catalunya. National Day of Catalonia, \"Historical events\" (Barcelona falls on 11 September 1714; the 1716 decree abolishes Catalan institutions).",
           "url": "https://tramits.gencat.cat/en/diada-nacional-de-catalunya/historia/efemeride/"
+        },
+        {
+          "citation": "Wikipedia. \"Nueva Planta decrees\" (the decrees end the Crown of Aragon's realms as separate states and incorporate them into the Crown of Castile; Majorca 1715, Catalonia 16 January 1716).",
+          "url": "https://en.wikipedia.org/wiki/Nueva_Planta_decrees"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "This is the end convention chosen here. No source opened for this file says the Crown of Castile itself ended in these years.",
-        "es": "Esta es la convención de final elegida aquí. Ninguna fuente consultada para este archivo dice que la Corona de Castilla terminara en estos años.",
-        "zh": "这是本条目采用的结束惯例。为本文件查阅的资料中，没有一份说卡斯蒂利亚王室本身在这几年终结。"
+        "en": "This is the end convention chosen here. The decrees placed the Aragonese realms under Castilian law and did not formally abolish the Crown of Castile.",
+        "es": "Esta es la convención de final elegida aquí. Los decretos sometieron los reinos aragoneses al derecho castellano y no abolieron formalmente la Corona de Castilla.",
+        "zh": "这是本条目采用的结束惯例。这些法令使阿拉贡各王国改用卡斯蒂利亚法律，并未正式废除卡斯蒂利亚王室。"
       }
     }
   ],
@@ -296,8 +304,8 @@
           "url": "https://historyrise.com/article/castiles-legal-innovations-and-the-development-of-its-royal-laws/"
         },
         {
-          "citation": "Encyclopedia.com. \"Alfonso X\" (the Partidas, a learned work on law).",
-          "url": "https://www.encyclopedia.com/people/history/spanish-and-portuguese-history-biographies/alfonso-x"
+          "citation": "Wikipedia. \"Siete Partidas\" (written between 26 June 1256 and 28 August 1265; local fueros keep governing; enacted as supplementary law in 1348).",
+          "url": "https://en.wikipedia.org/wiki/Siete_Partidas"
         }
       ],
       "disputed": false
