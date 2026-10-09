@@ -408,9 +408,9 @@ describe("false positives", () => {
 
   it("never offers a country or war the page's language has no page for", () => {
     for (const locale of ["es", "zh"] as const) {
-      expect(labels("ukraine", locale)).not.toContain("country:UA");
+      expect(labels("argentina", locale)).not.toContain("country:AR");
       expect(labels("korean war", locale)).not.toContain("war:korean-war");
     }
-    expect(labels("ukraine", "en")).toContain("country:UA");
+    expect(labels("argentina", "en")).toContain("country:AR");
   });
 });

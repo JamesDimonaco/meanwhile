@@ -235,8 +235,8 @@ describe("where a country's chart opens", () => {
     expect(view("CN").year).toBe(1858);
     // Moche, Nazca and Wari all stand in 600 CE; the Spanish conquest only meets the Inca.
     expect(view("PE").year).toBe(600);
-    // Scotland, Gwynedd and Edward I's war in Wales, as the conquest begins.
-    expect(view("GB").year).toBe(1277);
+    // The busiest year of the UK's span; moves when a new civilisation or war lands on it.
+    expect(view("GB").year).toBe(1639);
   });
 
   it("counts a handover year as one civilisation, not two at once", () => {
