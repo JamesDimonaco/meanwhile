@@ -152,6 +152,14 @@ export const Geometry = z.discriminatedUnion("type", [
   z.strictObject({ type: z.literal("MultiPolygon"), coordinates: z.array(z.array(Ring).min(1)).min(1) }),
 ]);
 
+/** public/geo/land/<id>.json: Natural Earth land cut to one map's frame by scripts/build-land.ts; bbox is the cut. */
+export const Land = z.strictObject({
+  type: z.literal("MultiPolygon"),
+  /** [west, south, east, north]; the whole globe when the map's frame reached off it. */
+  bbox: z.tuple([z.number(), z.number(), z.number(), z.number()]),
+  coordinates: z.array(z.array(Ring).min(1)).min(1),
+});
+
 export const BorderPolity = z.strictObject({
   id: Id,
   label: LocalizedText,
@@ -218,6 +226,7 @@ export type CultureEvent = z.infer<typeof CultureEvent>;
 export type Fact = z.infer<typeof Fact>;
 export type Culture = z.infer<typeof Culture>;
 export type Geometry = z.infer<typeof Geometry>;
+export type Land = z.infer<typeof Land>;
 export type BorderPolity = z.infer<typeof BorderPolity>;
 export type Borders = z.infer<typeof Borders>;
 export type SuccessionLink = z.infer<typeof SuccessionLink>;

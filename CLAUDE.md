@@ -20,13 +20,14 @@ data/registry.json                   canonical culture ids + region (add an id h
 data/cultures/<region>/<id>.json     one culture per file; region is the folder
 data/borders/<cultureId|warId>.json territory-map snapshots (Rome, the Carolingian and Holy Roman empires, seven Chinese dynasties, Inca, Aztec, Egypt; pre-1800 flagship wars)
 data/wars/<id>.json                  one war per file (see Wars)
-public/geo/land-<area>.json          Natural Earth land (europe, east-asia, americas, world); LAND in territory-map.tsx maps each region to one; a war with a borders file uses its cultures' region (`warLand`), a pins-only war uses world
+public/geo/land/<cultureId|warId>.json Natural Earth land under one map, cut to the frame that map draws and simplified to its scale (see Maps); never edit by hand: pnpm land
 data/succession.json                 "before and after in the same place" links (from, to, place, sources)
 data/popular.json                    home page starting points, in display order (ids must have a culture file)
 data/today.json                      culture id -> present-day countries of its heartland (ISO 3166-1 alpha-2), for flags
 public/flags/                        flag-icons SVGs (MIT), only the codes today.json and the wars use; regenerate with pnpm sync-flags
 messages/<locale>/<namespace>.json   UI text, one file per namespace per locale
-scripts/                             validate-data.ts, check-no-google.ts, build-borders.ts
+scripts/                             validate-data.ts, check-no-google.ts, build-borders.ts, build-land.ts
+src/lib/map/                         geo.ts: the map frame (size, projection, fit, frameBounds), shared by the map component, build-land.ts and validation; land.ts: which maps have land files and what each must cover
 src/app/(root)/page.tsx              "/" : inline script picks a locale, redirects to /<locale>/
 src/app/[locale]/layout.tsx          html, header (scan button, explainer trigger, language switcher), providers
 src/app/[locale]/page.tsx            home: scan, search (prefilled from ?q=)
@@ -183,7 +184,8 @@ These follow the decisions above where they reach; James may change them at revi
 ### Maps
 
 - Pre-1800 flagship: add the war to `WARS` in `scripts/build-borders.ts` (same shape as a culture config; `self` = the polities whose lands the war was fought over, drawn red and named in the caption; `rivals` = neighbours, grey; cut with `extent`), add any new polity name to `LABELS`, then `pnpm borders <cliopatria_polities_only.geojson> <war-id>`. Cliopatria's BCE years are converted by `fromCliopatriaYear`; still check the snapshot years. Never edit the output by hand.
-- Everything else: no borders file. The page draws every event pin on `public/geo/land-world.json` and fits the frame to them.
+- Everything else: no borders file. The page draws every event pin on plain land and fits the frame to them.
+- **Land**: every map (a culture with a borders file, every war) has `public/geo/land/<id>.json`, Natural Earth 1:10m land cut to the lon/lat box its frame can show and simplified to half a pixel at its scale, with islands under 1.5 px dropped; a frame that reaches off the globe gets the whole globe, coarse. The frame is computed by `src/lib/map/geo.ts`, the same code the page draws with. Never edit one by hand: `pnpm land <ne_10m_land.shp> [id ...]` (the script's header says where to download Natural Earth; it stays out of the repo; no ids rebuilds every map and deletes orphans). `validate-data` fails when a map has no land file or its pins or borders have moved outside the file's cut, and warns when the cut is far wider than the frame (rerun for a sharper coast).
 
 ### Sources
 
@@ -201,8 +203,9 @@ These follow the decisions above where they reach; James may change them at revi
 1. Write `data/wars/<id>.json`; every `today` code a UN member or a UK nation (`GB-ENG`, `GB-SCT`, `GB-WLS` for a war fought in Britain).
 2. `pnpm sync-flags` if a new country code appears (the only way `public/flags/` changes).
 3. Pre-1800 flagship only: `WARS` config + `pnpm borders`.
-4. `pnpm validate-data`, `pnpm test`, then look at `/en/war/<id>/` and `/zh/war/<id>/` (a sensitive war has no zh page until James reviews it: check `/en/` only).
-5. BCE wars: check every year against the sources and Wikidata P580/P582 by hand; validation can't see a consistent off-by-one.
+4. `pnpm land <ne_10m_land.shp> <id>` for the map's land file (again after any change to its pins or borders; validate-data says when).
+5. `pnpm validate-data`, `pnpm test`, then look at `/en/war/<id>/` and `/zh/war/<id>/` (a sensitive war has no zh page until James reviews it: check `/en/` only).
+6. BCE wars: check every year against the sources and Wikidata P580/P582 by hand; validation can't see a consistent off-by-one.
 
 ## Country pages
 

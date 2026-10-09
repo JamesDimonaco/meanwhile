@@ -1,6 +1,8 @@
+import { landMaps } from "@/lib/map/land";
 import { countMissing, issues } from "./issues";
 import { defaultPeriod, likelyRange } from "./queries";
 import { Borders, Culture, Popular, Registry, Succession, duplicates, type SuccessionLink } from "./schema";
+import { validateLand } from "./validate-land";
 import { validateWars } from "./validate-wars";
 import type { War } from "./war-schema";
 
@@ -14,6 +16,8 @@ export type DatasetInput = {
   succession?: unknown;
   /** data/wars/*.json; omitted means no wars. */
   warFiles?: DataFile[];
+  /** public/geo/land/*.json; omitted skips the check that every map has a land file cut for its frame. */
+  landFiles?: DataFile[];
   /** YYYY-MM-DD; omitted means latestDateOnEarth(). */
   buildDate?: string;
 };
@@ -148,6 +152,12 @@ export function validateDataset(input: DatasetInput): DatasetResult {
   });
   errors.push(...wars.errors);
   warnings.push(...wars.warnings);
+
+  if (input.landFiles) {
+    const land = validateLand(input.landFiles, landMaps(borders, wars.wars));
+    errors.push(...land.errors);
+    warnings.push(...land.warnings);
+  }
 
   cultures.sort((a, b) => (a.id < b.id ? -1 : 1));
   return { errors, warnings, cultures, borders, popular, succession, wars: wars.wars };
