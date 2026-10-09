@@ -46,9 +46,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Counted from Athelstan's control of York in 927, the start Wikidata gives. Anglo-Saxon England is a separate entry here and most readers mean the kingdom after 1066, so the bar fades in across those years. It ends with the Acts of Union, in force on 1 May 1707.",
-        "es": "Se cuenta desde el control de Athelstan sobre York en 927, el inicio que da Wikidata. Inglaterra anglosajona es otra entrada y la mayoría piensa en el reino posterior a 1066, así que la barra aparece gradualmente en esos años. Termina con las Actas de Unión, en vigor el 1 de mayo de 1707.",
-        "zh": "从阿瑟尔斯坦控制约克的927年算起，这是维基数据给出的起点。盎格鲁-撒克逊英格兰在这里另有条目，多数读者所说的英格兰王国指1066年之后，所以色条在这些年份中逐渐变实。终点是《联合法案》，1707年5月1日生效。"
+        "en": "Counted from Athelstan's control of York in 927, the start Wikidata gives. Anglo-Saxon England is a separate entry here and most readers mean the kingdom after 1066, so the bar fades in across those years. It ends with the Acts of Union, in force on 1 May 1707, and runs through the republic of 1649 to 1660.",
+        "es": "Se cuenta desde el control de Athelstan sobre York en 927, el inicio que da Wikidata. Inglaterra anglosajona es otra entrada y la mayoría piensa en el reino posterior a 1066, así que la barra aparece gradualmente en esos años. Termina con las Actas de Unión, en vigor el 1 de mayo de 1707, y atraviesa la república de 1649 a 1660.",
+        "zh": "从阿瑟尔斯坦控制约克的927年算起，这是维基数据给出的起点。盎格鲁-撒克逊英格兰在这里另有条目，多数读者所说的英格兰王国指1066年之后，所以色条在这些年份中逐渐变实。终点是《联合法案》，1707年5月1日生效，中间包括1649年至1660年的共和时期。"
       }
     }
   ],
@@ -68,8 +68,8 @@
           "url": "https://www.worldhistory.org/Battle_of_Hastings/"
         },
         {
-          "citation": "English Heritage. \"1066 and the Norman Conquest.\"",
-          "url": "https://preproduction.english-heritage.org.uk/learn/histories/1066-and-the-norman-conquest/"
+          "citation": "Westminster Abbey. \"William I (the Conqueror).\" Crowned in the Abbey on Christmas Day 1066.",
+          "url": "https://westminster-abbey.org/our-history/royals/william-the-conqueror"
         }
       ],
       "disputed": false,
@@ -118,9 +118,9 @@
       "start": 1215,
       "type": "conflict",
       "title": {
-        "en": "Rebel barons force King John to seal Magna Carta at Runnymede on 15 June; the pope annuls it within weeks",
-        "es": "Los barones rebeldes obligan al rey Juan a sellar la Carta Magna en Runnymede el 15 de junio; el papa la anula pocas semanas después",
-        "zh": "叛乱的贵族迫使约翰王于6月15日在兰尼米德签署《大宪章》；几周后教宗宣布其无效"
+        "en": "Rebel barons force King John to seal Magna Carta at Runnymede on 15 June; the pope annuls it in August",
+        "es": "Los barones rebeldes obligan al rey Juan a sellar la Carta Magna en Runnymede el 15 de junio; el papa la anula en agosto",
+        "zh": "叛乱的贵族迫使约翰王于6月15日在兰尼米德签署《大宪章》；8月教宗宣布其无效"
       },
       "sources": [
         {
@@ -320,8 +320,8 @@
           "url": "https://www.scottisharchivesforschools.org/union1707/timeline.asp"
         },
         {
-          "citation": "Encyclopedia.com. \"Acts of Union.\"",
-          "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/acts-union"
+          "citation": "UK Parliament, Living Heritage. \"Act of Union 1707: United into One Kingdom.\"",
+          "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/united-into-one-kingdom/"
         }
       ],
       "disputed": false,
@@ -365,7 +365,11 @@
       "end": 1485,
       "sources": [
         {
-          "citation": "Encyclopedia.com. \"Bosworth Field.\"",
+          "citation": "World History Encyclopedia. \"Richard III of England.\" Calls him the last English monarch to fall on the battlefield.",
+          "url": "https://www.worldhistory.org/Richard_III_of_England/"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Bosworth Field.\" Richard III killed there in 1485.",
           "url": "https://www.encyclopedia.com/places/britain-ireland-france-and-low-countries/british-and-irish-political-geography/bosworth-field"
         }
       ],

@@ -66,8 +66,8 @@
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/poland-lithuania-commonwealth-1569-1795"
         },
         {
-          "citation": "Encyclopedia.com. \"Sigismund II Augustus (Poland, Lithuania) (1520-1572; ruled 1530-1572).\"",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/sigismund-ii-augustus-poland-lithuania-1520-1572-ruled-1530-1572"
+          "citation": "Wikipedia. \"Union of Lublin\"",
+          "url": "https://en.wikipedia.org/wiki/Union_of_Lublin"
         }
       ],
       "disputed": false,
@@ -174,15 +174,15 @@
           "url": "https://www.encyclopedia.com/history/modern-europe/polish-history/partitions-poland"
         },
         {
-          "citation": "Encyclopedia.com. \"Poland-Lithuania, Commonwealth of, 1569-1795.\"",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/poland-lithuania-commonwealth-1569-1795"
+          "citation": "Wikipedia. \"Partitions of Poland\"",
+          "url": "https://en.wikipedia.org/wiki/Partitions_of_Poland"
         }
       ],
       "disputed": false,
       "note": {
-        "en": "Dated 1772 to 1773: the powers agreed in 1772, and in April 1773 the Sejm debated ratification while Tadeusz Rejtan blocked the chamber door in protest. Encyclopedia.com says Poland lost 5 of its 14 million inhabitants.",
-        "es": "Se fecha entre 1772 y 1773: las potencias acordaron en 1772 y en abril de 1773 la Dieta debatió la ratificación mientras Tadeusz Rejtan bloqueaba la puerta de la sala en protesta. Encyclopedia.com dice que Polonia perdió 5 de sus 14 millones de habitantes.",
-        "zh": "时间为1772年至1773年：三国于1772年达成协议，1773年4月议会审议批准时，塔德乌什·雷伊坦堵住议事厅大门以示抗议。Encyclopedia.com称波兰1400万居民中有500万被划走。"
+        "en": "Dated 1772 to 1773: the three powers agreed the division in 1772, and the Sejm, with Russian troops threatening the opposition, signed the treaties of cession in September 1773. Tadeusz Rejtan protested in April 1773 as the Sejm was made to ratify. Encyclopedia.com says Poland lost 5 of its 14 million inhabitants.",
+        "es": "Se fecha entre 1772 y 1773: las tres potencias acordaron el reparto en 1772 y la Dieta, con tropas rusas amenazando a la oposición, firmó los tratados de cesión en septiembre de 1773. Tadeusz Rejtan protestó en abril de 1773 cuando se obligó a la Dieta a ratificar. Encyclopedia.com dice que Polonia perdió 5 de sus 14 millones de habitantes.",
+        "zh": "时间为1772年至1773年：三国于1772年议定瓜分，议会在俄军威胁反对派的情况下于1773年9月签署割让条约。1773年4月议会被迫批准时，塔德乌什·雷伊坦提出抗议。Encyclopedia.com称波兰1400万居民中有500万被划走。"
       }
     },
     {
@@ -230,15 +230,19 @@
           "url": "https://www.encyclopedia.com/history/modern-europe/polish-history/partitions-poland"
         },
         {
+          "citation": "Wikipedia. \"Second Partition of Poland\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Partition_of_Poland"
+        },
+        {
           "citation": "Encyclopedia.com. \"3 May Constitution.\"",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/3-may-constitution"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "note": {
-        "en": "Encyclopedia.com dates the treaty to 4 January 1793. Russia took Lithuanian lands and Prussia took Danzig, Thorn and Wielkopolska.",
-        "es": "Encyclopedia.com fecha el tratado el 4 de enero de 1793. Rusia tomó tierras lituanas y Prusia tomó Danzig, Thorn y Gran Polonia.",
-        "zh": "Encyclopedia.com把条约日期记为1793年1月4日。俄国取得立陶宛的土地，普鲁士取得但泽、托伦和大波兰。"
+        "en": "Encyclopedia.com dates the treaty to 4 January 1793; Wikipedia dates the Russia-Prussia treaty to 23 January 1793, and the Grodno Sejm approved the claims later that year in the presence of Russian troops. Russia took eastern lands including Kyiv, Bracław and Podolia and parts of Lithuania; Prussia took Danzig, Thorn and Greater Poland.",
+        "es": "Encyclopedia.com fecha el tratado el 4 de enero de 1793; Wikipedia fecha el tratado entre Rusia y Prusia el 23 de enero de 1793, y la Dieta de Grodno aprobó las exigencias más tarde ese año en presencia de tropas rusas. Rusia tomó tierras orientales, entre ellas Kiev, Bracław y Podolia, y partes de Lituania; Prusia tomó Danzig, Thorn y Gran Polonia.",
+        "zh": "Encyclopedia.com把条约日期记为1793年1月4日；维基百科把俄普条约定在1793年1月23日，格罗德诺议会随后在同年于俄军在场的情况下批准了这些要求。俄国取得包括基辅、布拉茨拉夫和波多利亚在内的东部土地以及立陶宛的一部分；普鲁士取得但泽、托伦和大波兰。"
       }
     },
     {
@@ -256,15 +260,15 @@
           "url": "https://www.encyclopedia.com/history/modern-europe/polish-history/partitions-poland"
         },
         {
-          "citation": "Encyclopedia.com. \"Poland-Lithuania, Commonwealth of, 1569-1795.\"",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/poland-lithuania-commonwealth-1569-1795"
+          "citation": "Wikipedia. \"Partitions of Poland\"",
+          "url": "https://en.wikipedia.org/wiki/Partitions_of_Poland"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "note": {
-        "en": "Encyclopedia.com dates the treaty to 3 January 1795 and says King Stanisław August abdicated a month later. Wikidata dates the end of the state to 24 October 1795.",
-        "es": "Encyclopedia.com fecha el tratado el 3 de enero de 1795 y dice que el rey Estanislao Augusto abdicó un mes después. Wikidata fija el fin del Estado el 24 de octubre de 1795.",
-        "zh": "Encyclopedia.com把条约日期记为1795年1月3日，并称国王斯坦尼斯瓦夫·奥古斯特一个月后退位。维基数据把国家的终结定在1795年10月24日。"
+        "en": "Encyclopedia.com dates the treaty to 3 January 1795 and says King Stanisław August abdicated a month later. Wikipedia and Wikidata give 24 October 1795 for the treaty and the end of the state, and Wikipedia gives 25 November 1795 for the abdication.",
+        "es": "Encyclopedia.com fecha el tratado el 3 de enero de 1795 y dice que el rey Estanislao Augusto abdicó un mes después. Wikipedia y Wikidata dan el 24 de octubre de 1795 para el tratado y el fin del Estado, y Wikipedia da el 25 de noviembre de 1795 para la abdicación.",
+        "zh": "Encyclopedia.com把条约日期记为1795年1月3日，并称国王斯坦尼斯瓦夫·奥古斯特一个月后退位。维基百科和维基数据把条约和国家终结定在1795年10月24日，维基百科把退位定在1795年11月25日。"
       }
     }
   ],
