@@ -1,0 +1,375 @@
+{
+  "id": "kingdom-of-england",
+  "region": "europe",
+  "wikidataId": "Q179876",
+  "name": {
+    "en": "Kingdom of England",
+    "es": "Reino de Inglaterra",
+    "zh": "英格兰王国"
+  },
+  "aliases": [
+    "England",
+    "Inglaterra",
+    "Medieval England",
+    "英格兰"
+  ],
+  "description": {
+    "en": "The kingdom of the English, counted from Athelstan's control of York in 927. Norman kings took the crown in 1066, King John sealed Magna Carta in 1215, and a king was tried and beheaded in 1649. In 1707 England joined Scotland in the Kingdom of Great Britain.",
+    "es": "El reino de los ingleses, contado desde el control de Athelstan sobre York en 927. Los reyes normandos tomaron la corona en 1066, el rey Juan selló la Carta Magna en 1215 y un rey fue juzgado y decapitado en 1649. En 1707 Inglaterra se unió a Escocia en el Reino de Gran Bretaña.",
+    "zh": "英格兰人的王国，从927年阿瑟尔斯坦控制约克算起。诺曼国王于1066年取得王位，约翰王在1215年签署《大宪章》，1649年一位国王受审并被斩首。1707年，英格兰与苏格兰合并为大不列颠王国。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kingdom",
+      "earliestStart": 927,
+      "latestStart": 1066,
+      "earliestEnd": 1707,
+      "latestEnd": 1707,
+      "sources": [
+        {
+          "citation": "Wikidata. \"Kingdom of England\" (Q179876): inception 927, dissolved 30 April 1707.",
+          "url": "https://www.wikidata.org/wiki/Q179876"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Athelstan.\" Athelstan took direct control of York in 927.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/athelstan"
+        },
+        {
+          "citation": "National Records of Scotland, Scottish Archives for Schools. \"The Union of 1707: Timeline\" (Act of Union in force 1 May 1707).",
+          "url": "https://www.scottisharchivesforschools.org/union1707/timeline.asp"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Counted from Athelstan's control of York in 927, the start Wikidata gives. Anglo-Saxon England is a separate entry here and most readers mean the kingdom after 1066, so the bar fades in across those years. It ends with the Acts of Union, in force on 1 May 1707.",
+        "es": "Se cuenta desde el control de Athelstan sobre York en 927, el inicio que da Wikidata. Inglaterra anglosajona es otra entrada y la mayoría piensa en el reino posterior a 1066, así que la barra aparece gradualmente en esos años. Termina con las Actas de Unión, en vigor el 1 de mayo de 1707.",
+        "zh": "从阿瑟尔斯坦控制约克的927年算起，这是维基数据给出的起点。盎格鲁-撒克逊英格兰在这里另有条目，多数读者所说的英格兰王国指1066年之后，所以色条在这些年份中逐渐变实。终点是《联合法案》，1707年5月1日生效。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "norman-coronation",
+      "start": 1066,
+      "type": "ruler",
+      "title": {
+        "en": "William of Normandy, who beat Harold at Hastings on 14 October, is crowned king in Westminster Abbey on Christmas Day",
+        "es": "Guillermo de Normandía, vencedor de Harold en Hastings el 14 de octubre, es coronado rey en la abadía de Westminster el día de Navidad",
+        "zh": "击败哈罗德的诺曼底公爵威廉（黑斯廷斯之战在10月14日），于圣诞节在威斯敏斯特大教堂加冕为英格兰国王"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Battle of Hastings.\"",
+          "url": "https://www.worldhistory.org/Battle_of_Hastings/"
+        },
+        {
+          "citation": "English Heritage. \"1066 and the Norman Conquest.\"",
+          "url": "https://preproduction.english-heritage.org.uk/learn/histories/1066-and-the-norman-conquest/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Westminster Abbey, London",
+          "es": "Abadía de Westminster, Londres",
+          "zh": "伦敦威斯敏斯特大教堂"
+        },
+        "lat": 51.4994,
+        "lon": -0.1273
+      }
+    },
+    {
+      "id": "domesday-survey",
+      "start": 1086,
+      "type": "ruler",
+      "title": {
+        "en": "William's commissioners survey the landholders of England for the Domesday Book",
+        "es": "Los comisionados de Guillermo hacen un registro de los terratenientes de Inglaterra para el Libro del Juicio Final",
+        "zh": "威廉的专员调查英格兰各地的土地持有者，编成《末日审判书》"
+      },
+      "sources": [
+        {
+          "citation": "The National Archives. \"Domesday Book\" (research guide).",
+          "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/domesday-book/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Domesday Book.\"",
+          "url": "https://www.worldhistory.org/Domesday_Book/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Winchester",
+          "es": "Winchester",
+          "zh": "温彻斯特"
+        },
+        "lat": 51.0632,
+        "lon": -1.3081
+      }
+    },
+    {
+      "id": "magna-carta",
+      "start": 1215,
+      "type": "conflict",
+      "title": {
+        "en": "Rebel barons force King John to seal Magna Carta at Runnymede on 15 June; the pope annuls it within weeks",
+        "es": "Los barones rebeldes obligan al rey Juan a sellar la Carta Magna en Runnymede el 15 de junio; el papa la anula pocas semanas después",
+        "zh": "叛乱的贵族迫使约翰王于6月15日在兰尼米德签署《大宪章》；几周后教宗宣布其无效"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Magna Carta.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/magna-carta"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Magna Carta.\"",
+          "url": "https://www.worldhistory.org/Magna_Carta/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Runnymede",
+          "es": "Runnymede",
+          "zh": "兰尼米德"
+        },
+        "lat": 51.4442,
+        "lon": -0.565
+      }
+    },
+    {
+      "id": "black-death-arrives",
+      "start": 1348,
+      "type": "collapse",
+      "title": {
+        "en": "The Black Death comes ashore at Melcombe Regis in June and spreads to most of England within a year",
+        "es": "La peste negra llega a Melcombe Regis en junio y en un año se extiende por casi toda Inglaterra",
+        "zh": "黑死病于6月在梅尔科姆里吉斯登陆，一年内传遍英格兰大部分地区"
+      },
+      "sources": [
+        {
+          "citation": "The National Archives. \"Living in the 14th century,\" currency converter.",
+          "url": "https://www.nationalarchives.gov.uk/currency-converter/living-in-the-14th-century/"
+        },
+        {
+          "citation": "Prestwich, Michael. \"Black Death.\" The Oxford Companion to British History, via Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/medicine/diseases-and-conditions/pathology/black-death"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Estimates of the dead differ: the National Archives says around a third of the population by 1349, and the Oxford Companion says the first outbreak probably killed between a third and a half.",
+        "es": "Las estimaciones de muertos difieren: los Archivos Nacionales hablan de cerca de un tercio de la población hacia 1349, y el Oxford Companion dice que el primer brote probablemente mató entre un tercio y la mitad.",
+        "zh": "死亡人数的估计不一：英国国家档案馆称到1349年约有三分之一的人口死亡，《牛津英国史指南》则认为第一次疫情很可能夺去了三分之一到一半的人口。"
+      },
+      "place": {
+        "name": {
+          "en": "Melcombe Regis (Weymouth)",
+          "es": "Melcombe Regis (Weymouth)",
+          "zh": "梅尔科姆里吉斯（韦茅斯）"
+        },
+        "lat": 50.6144,
+        "lon": -2.4576
+      }
+    },
+    {
+      "id": "wars-of-the-roses",
+      "start": 1455,
+      "end": 1487,
+      "type": "conflict",
+      "title": {
+        "en": "Lancaster and York fight for the crown from St Albans in 1455; Richard III dies at Bosworth in 1485 and Henry Tudor takes the throne",
+        "es": "Lancaster y York se disputan la corona desde St Albans en 1455; Ricardo III muere en Bosworth en 1485 y Enrique Tudor toma el trono",
+        "zh": "兰开斯特与约克自1455年的圣奥尔本斯之战起争夺王位；理查三世于1485年战死博斯沃思，亨利·都铎夺得王位"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Wars of the Roses.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/wars-roses"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Richard III of England.\"",
+          "url": "https://www.worldhistory.org/Richard_III_of_England/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The conflict is dated 1455 to 1487, with the last resistance ending at Stoke.",
+        "es": "El conflicto se fecha entre 1455 y 1487, y la última resistencia termina en Stoke.",
+        "zh": "这场冲突通常定为1455年至1487年，最后的抵抗在斯托克结束。"
+      },
+      "place": {
+        "name": {
+          "en": "Bosworth Field, Leicestershire",
+          "es": "Campo de Bosworth, Leicestershire",
+          "zh": "莱斯特郡博斯沃思"
+        },
+        "lat": 52.5958,
+        "lon": -1.4101
+      }
+    },
+    {
+      "id": "act-of-supremacy",
+      "start": 1534,
+      "type": "ruler",
+      "title": {
+        "en": "Parliament makes Henry VIII supreme head of the Church of England, ending the pope's authority over it",
+        "es": "El Parlamento convierte a Enrique VIII en jefe supremo de la Iglesia de Inglaterra y pone fin a la autoridad del papa sobre ella",
+        "zh": "议会立亨利八世为英格兰教会的最高首脑，终结教宗对英格兰教会的权威"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Henry VIII of England.\"",
+          "url": "https://www.worldhistory.org/Henry_VIII_of_England/"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Henry VIII.\"",
+          "url": "https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/henry-viii"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Westminster",
+          "es": "Westminster",
+          "zh": "威斯敏斯特"
+        },
+        "lat": 51.4995,
+        "lon": -0.1248
+      }
+    },
+    {
+      "id": "execution-of-charles-i",
+      "start": 1649,
+      "type": "collapse",
+      "title": {
+        "en": "Charles I is tried by a court Parliament creates and beheaded outside the Banqueting House on 30 January; England becomes a republic",
+        "es": "Carlos I es juzgado por un tribunal creado por el Parlamento y decapitado frente a la Banqueting House el 30 de enero; Inglaterra se convierte en república",
+        "zh": "查理一世被议会设立的法庭审判，于1月30日在白厅宴会厅外被斩首；英格兰成为共和国"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Charles I (England).\"",
+          "url": "https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/charles-i-england"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Charles I of England.\"",
+          "url": "https://www.worldhistory.org/Charles_I_of_England/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Whitehall, London",
+          "es": "Whitehall, Londres",
+          "zh": "伦敦白厅"
+        },
+        "lat": 51.5042,
+        "lon": -0.1262
+      }
+    },
+    {
+      "id": "glorious-revolution",
+      "start": 1688,
+      "end": 1689,
+      "type": "ruler",
+      "title": {
+        "en": "William of Orange lands at Torbay in November, James II flees, and Parliament crowns William and Mary in 1689 under a Bill of Rights",
+        "es": "Guillermo de Orange desembarca en Torbay en noviembre, Jacobo II huye y el Parlamento corona a Guillermo y María en 1689 con una Declaración de Derechos",
+        "zh": "奥兰治的威廉于11月在托贝登陆，詹姆斯二世出逃，议会于1689年依据《权利法案》为威廉与玛丽加冕"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Glorious Revolution.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/glorious-revolution"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Glorious Revolution.\"",
+          "url": "https://www.worldhistory.org/Glorious_Revolution/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Torbay, Devon",
+          "es": "Torbay, Devon",
+          "zh": "德文郡托贝"
+        },
+        "lat": 50.4619,
+        "lon": -3.5253
+      }
+    },
+    {
+      "id": "acts-of-union",
+      "start": 1707,
+      "type": "collapse",
+      "title": {
+        "en": "The Acts of Union take effect on 1 May: England and Scotland become the Kingdom of Great Britain with one parliament",
+        "es": "Las Actas de Unión entran en vigor el 1 de mayo: Inglaterra y Escocia forman el Reino de Gran Bretaña con un solo parlamento",
+        "zh": "《联合法案》于5月1日生效：英格兰与苏格兰合并为大不列颠王国，共用一个议会"
+      },
+      "sources": [
+        {
+          "citation": "National Records of Scotland, Scottish Archives for Schools. \"The Union of 1707: Timeline.\"",
+          "url": "https://www.scottisharchivesforschools.org/union1707/timeline.asp"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Acts of Union.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/british-and-irish-history/acts-union"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Westminster",
+          "es": "Westminster",
+          "zh": "威斯敏斯特"
+        },
+        "lat": 51.4995,
+        "lon": -0.1248
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "domesday-not-a-census",
+      "text": {
+        "en": "Domesday Book is a survey of landholders, not a census, and it leaves out London and Winchester.",
+        "es": "El Libro del Juicio Final es un registro de terratenientes, no un censo, y deja fuera Londres y Winchester.",
+        "zh": "《末日审判书》是对土地持有者的调查，不是人口普查，其中没有伦敦和温彻斯特。"
+      },
+      "start": 1086,
+      "end": 1086,
+      "sources": [
+        {
+          "citation": "The National Archives. \"Domesday Book\" (research guide).",
+          "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/domesday-book/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "last-king-killed-in-battle",
+      "text": {
+        "en": "Richard III, killed at Bosworth in 1485, is the last English king to die on a battlefield.",
+        "es": "Ricardo III, muerto en Bosworth en 1485, es el último rey inglés que murió en un campo de batalla.",
+        "zh": "1485年战死于博斯沃思的理查三世，是最后一位死在战场上的英格兰国王。"
+      },
+      "start": 1485,
+      "end": 1485,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Bosworth Field.\"",
+          "url": "https://www.encyclopedia.com/places/britain-ireland-france-and-low-countries/british-and-irish-political-geography/bosworth-field"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

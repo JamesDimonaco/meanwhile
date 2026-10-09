@@ -1,0 +1,260 @@
+{
+  "id": "kingdom-of-hungary",
+  "region": "europe",
+  "wikidataId": "Q171150",
+  "name": {
+    "en": "Kingdom of Hungary",
+    "es": "Reino de Hungría",
+    "zh": "匈牙利王国"
+  },
+  "aliases": [
+    "Hungary",
+    "Hungria",
+    "Medieval Hungary",
+    "Regnum Hungariae",
+    "匈牙利"
+  ],
+  "description": {
+    "en": "The Christian kingdom Stephen I founded in 1000 on the middle Danube, ruled by the Árpád dynasty and later by Angevin and elected kings. It survived the Mongol invasion of 1241 and peaked under Matthias Corvinus. This entry ends at Mohács in 1526, when the Ottomans destroyed its army and killed its king.",
+    "es": "El reino cristiano que Esteban I fundó en 1000 en el Danubio medio, gobernado por la dinastía Árpád y luego por reyes angevinos y electos. Sobrevivió a la invasión mongola de 1241 y alcanzó su apogeo con Matías Corvino. Esta entrada termina en Mohács en 1526, cuando los otomanos destruyeron su ejército y mataron a su rey.",
+    "zh": "斯蒂芬一世于1000年在多瑙河中游建立的基督教王国，先由阿尔帕德王朝统治，后来由安茹王朝和选举产生的国王统治。它挺过了1241年蒙古人的入侵，在马蒂亚斯·科文努斯治下达到鼎盛。本条目止于1526年的摩哈赤，奥斯曼军队在那里歼灭了匈牙利军队并杀死了国王。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "independent-kingdom",
+      "earliestStart": 1000,
+      "latestStart": 1001,
+      "earliestEnd": 1526,
+      "latestEnd": 1526,
+      "sources": [
+        {
+          "citation": "Wikidata. \"Kingdom of Hungary\" (Q171150): inception 1000, dissolved 1 February 1946.",
+          "url": "https://www.wikidata.org/wiki/Q171150"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Stephen I, King of Hungary, St.\"",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/stephen-i-king-hungary-st"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Hungary.\"",
+          "url": "https://www.encyclopedia.com/places/germany-scandinavia-and-central-europe/hungarian-political-geography/hungary"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Ottoman Empire: France and Austria-Hungary.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ottoman-empire-france-and-austria-hungary"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Framing: this entry covers the kingdom from Stephen's coronation to the defeat at Mohács in 1526. Wikidata runs the kingdom to 1946, but after 1526 it split between Ottoman and Habsburg rule, and the 1867 dual monarchy and the post-1920 regency are different states. The start is 1000 or 1001, as sources differ.",
+        "es": "Enfoque: esta entrada cubre el reino desde la coronación de Esteban hasta la derrota de Mohács en 1526. Wikidata extiende el reino hasta 1946, pero tras 1526 se dividió entre dominio otomano y habsburgo, y la monarquía dual de 1867 y la regencia posterior a 1920 son Estados distintos. El inicio es 1000 o 1001, según las fuentes.",
+        "zh": "取舍：本条目涵盖从斯蒂芬加冕到1526年摩哈赤战败的王国。维基数据把王国延续到1946年，但1526年后王国分属奥斯曼和哈布斯堡统治，1867年的二元君主国和1920年后的摄政时期是另外的国家形态。起点因史料不同而为1000年或1001年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "stephen-crowned",
+      "start": 1000,
+      "type": "founding",
+      "title": {
+        "en": "Stephen I is crowned king at Christmas with a crown sent at his request by Pope Sylvester II",
+        "es": "Esteban I es coronado rey por Navidad con una corona enviada, a petición suya, por el papa Silvestre II",
+        "zh": "斯蒂芬一世在圣诞节加冕为国王，王冠是应他的请求由教宗西尔维斯特二世送来的"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Stephen I, King of Hungary, St.\"",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/stephen-i-king-hungary-st"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Hungary.\"",
+          "url": "https://www.encyclopedia.com/places/germany-scandinavia-and-central-europe/hungarian-political-geography/hungary"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Encyclopedia.com's biography gives Christmas Day 1000, while its Hungary entry gives Stephen's reign as 1001 to 1038. Both dates appear in the literature.",
+        "es": "La biografía de Encyclopedia.com da el día de Navidad de 1000, mientras que su entrada sobre Hungría fecha el reinado de Esteban entre 1001 y 1038. Ambas fechas aparecen en la bibliografía.",
+        "zh": "Encyclopedia.com的传记给出1000年圣诞节，而其“匈牙利”词条把斯蒂芬在位时间记为1001年至1038年。两种年份在文献中都出现。"
+      },
+      "place": {
+        "name": {
+          "en": "Esztergom",
+          "es": "Esztergom",
+          "zh": "埃斯泰尔戈姆"
+        },
+        "lat": 47.7928,
+        "lon": 18.74
+      }
+    },
+    {
+      "id": "church-organised",
+      "start": 1001,
+      "end": 1038,
+      "type": "founding",
+      "title": {
+        "en": "Stephen sets up two archbishoprics, Esztergom and Kalocsa, and eight bishoprics, and brings in Benedictine monks to convert the country",
+        "es": "Esteban crea dos arzobispados, Esztergom y Kalocsa, y ocho obispados, y trae monjes benedictinos para convertir el país",
+        "zh": "斯蒂芬设立埃斯泰尔戈姆和卡洛乔两个大主教区及八个主教区，并请来本笃会修士使国人皈依"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Stephen I, King of Hungary, St.\"",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/stephen-i-king-hungary-st"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Hungary, The Catholic Church in.\"",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hungary-catholic-church"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The structure was in place by Stephen's death in 1038.",
+        "es": "La estructura estaba completa a la muerte de Esteban en 1038.",
+        "zh": "到1038年斯蒂芬去世时，这一体系已经建成。"
+      }
+    },
+    {
+      "id": "golden-bull",
+      "start": 1222,
+      "type": "ruler",
+      "title": {
+        "en": "Lesser nobles force Andrew II to issue the Golden Bull, which protects nobles from arbitrary arrest and gives them a right of resistance",
+        "es": "Los nobles menores obligan a Andrés II a emitir la Bula de Oro, que protege a los nobles de detenciones arbitrarias y les da derecho de resistencia",
+        "zh": "小贵族迫使安德烈二世颁布《金玺诏书》，保护贵族免遭任意逮捕，并赋予他们抵抗的权利"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Andrew II.\"",
+          "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/andrew-ii"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Hungary.\"",
+          "url": "https://www.encyclopedia.com/places/germany-scandinavia-and-central-europe/hungarian-political-geography/hungary"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "mongol-invasion",
+      "start": 1241,
+      "end": 1242,
+      "type": "conflict",
+      "title": {
+        "en": "A Mongol army beats Béla IV at Mohi on 10 and 11 April and devastates the kingdom until it withdraws in 1242",
+        "es": "Un ejército mongol derrota a Béla IV en Mohi el 10 y 11 de abril y devasta el reino hasta que se retira en 1242",
+        "zh": "蒙古军队于4月10日至11日在莫希击败贝拉四世，并蹂躏王国，直到1242年撤走"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"The Mongol Invasion of Europe.\"",
+          "url": "https://www.worldhistory.org/article/1453/the-mongol-invasion-of-europe/"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Bela IV.\"",
+          "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/bela-iv"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Hungary.\"",
+          "url": "https://www.encyclopedia.com/places/germany-scandinavia-and-central-europe/hungarian-political-geography/hungary"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Mohi (Muhi)",
+          "es": "Mohi (Muhi)",
+          "zh": "莫希（穆希）"
+        },
+        "lat": 47.9833,
+        "lon": 20.9333
+      }
+    },
+    {
+      "id": "matthias-elected",
+      "start": 1458,
+      "end": 1490,
+      "type": "ruler",
+      "title": {
+        "en": "Nobles elect Matthias Corvinus, about 15 years old and the son of John Hunyadi, king of Hungary",
+        "es": "Los nobles eligen rey de Hungría a Matías Corvino, de unos 15 años e hijo de Juan Hunyadi",
+        "zh": "贵族推选约15岁的马蒂亚斯·科文努斯为匈牙利国王，他是匈雅提·亚诺什之子"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Matthias Corvinus.\"",
+          "url": "https://www.encyclopedia.com/people/history/austria-and-hungary-history-biographies/matthias-corvinus"
+        },
+        {
+          "citation": "Encyclopedia.com. \"John Hunyadi.\"",
+          "url": "https://www.encyclopedia.com/people/history/austria-and-hungary-history-biographies/john-hunyadi"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "mohacs",
+      "start": 1526,
+      "type": "collapse",
+      "title": {
+        "en": "Süleyman I destroys the Hungarian army at Mohács on 28 August, and King Louis II drowns while fleeing",
+        "es": "Solimán I destruye al ejército húngaro en Mohács el 28 de agosto, y el rey Luis II se ahoga mientras huye",
+        "zh": "苏莱曼一世于8月28日在摩哈赤歼灭匈牙利军队，国王路易二世在逃跑时溺水而死"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Ottoman Empire: France and Austria-Hungary.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ottoman-empire-france-and-austria-hungary"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Suleiman the Magnificent.\"",
+          "url": "https://www.worldhistory.org/Suleiman_the_Magnificent/"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Hungary.\"",
+          "url": "https://www.encyclopedia.com/places/germany-scandinavia-and-central-europe/hungarian-political-geography/hungary"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Encyclopedia.com's Ottoman entry says over 10,000 Hungarian foot soldiers were killed, along with most of the nobility and bishops. Two kings were then elected, John Zápolya and Ferdinand of Austria, and Hungary split into Ottoman, Habsburg and Zápolya zones.",
+        "es": "La entrada otomana de Encyclopedia.com dice que murieron más de 10.000 soldados de infantería húngaros, junto con la mayoría de la nobleza y los obispos. Luego se eligieron dos reyes, Juan Zápolya y Fernando de Austria, y Hungría se dividió en zonas otomana, habsburgo y de Zápolya.",
+        "zh": "Encyclopedia.com的奥斯曼词条称，有一万多名匈牙利步兵阵亡，大部分贵族和主教也死于此役。随后有两人被推举为王，即扎波利亚·亚诺什和奥地利的斐迪南，匈牙利分裂为奥斯曼、哈布斯堡和扎波利亚三个区域。"
+      },
+      "place": {
+        "name": {
+          "en": "Mohács",
+          "es": "Mohács",
+          "zh": "摩哈赤"
+        },
+        "lat": 45.993,
+        "lon": 18.683
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "corvina-library",
+      "text": {
+        "en": "Matthias Corvinus's library in Buda, the Corvina, was the second largest in Europe after the papal library.",
+        "es": "La biblioteca de Matías Corvino en Buda, la Corvina, era la segunda más grande de Europa después de la biblioteca papal.",
+        "zh": "马蒂亚斯·科文努斯在布达的藏书馆“科维纳图书馆”，规模仅次于教宗的图书馆，居欧洲第二。"
+      },
+      "start": 1458,
+      "end": 1490,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"King Of Hungary Matthias I.\"",
+          "url": "https://www.encyclopedia.com/people/history/austria-and-hungary-history-biographies/king-hungary-matthias-i"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

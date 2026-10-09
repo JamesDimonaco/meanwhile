@@ -1,0 +1,290 @@
+{
+  "id": "grand-duchy-of-moscow",
+  "region": "europe",
+  "wikidataId": "Q170770",
+  "name": {
+    "en": "Grand Principality of Moscow",
+    "es": "Principado de Moscú",
+    "zh": "莫斯科大公国"
+  },
+  "aliases": [
+    "Grand Duchy of Moscow",
+    "Muscovy",
+    "Moscovia",
+    "Moscú",
+    "Muscovite Russia",
+    "莫斯科公国",
+    "莫斯科"
+  ],
+  "description": {
+    "en": "A small principality on the upper Volga lands that grew into the centre of northeastern Rus. Its princes collected tribute for the Golden Horde, took Novgorod in 1478, and in 1547 Ivan IV was crowned tsar in the Kremlin.",
+    "es": "Un pequeño principado en las tierras del alto Volga que llegó a ser el centro del noreste de la Rus. Sus príncipes recaudaron tributo para la Horda de Oro, tomaron Nóvgorod en 1478 y en 1547 Iván IV fue coronado zar en el Kremlin.",
+    "zh": "伏尔加河上游一带的小公国，后来成为罗斯东北部的中心。它的公爵为金帐汗国收取贡赋，1478年吞并诺夫哥罗德，1547年伊凡四世在克里姆林宫加冕为沙皇。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "principality",
+      "earliestStart": 1263,
+      "latestStart": 1303,
+      "earliestEnd": 1547,
+      "latestEnd": 1547,
+      "sources": [
+        {
+          "citation": "Wikidata. \"Grand Principality of Moscow\" (Q170770): inception 1263; end dates 1478 and 1547.",
+          "url": "https://www.wikidata.org/wiki/Q170770"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Muscovy.\"",
+          "url": "https://www.encyclopedia.com/history/modern-europe/russian-soviet-and-cis-history/muscovy"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Ivan IV, 'The Terrible' (Russia) (1530-1584; Ruled 1533-1584).\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ivan-iv-terrible-russia-1530-1584-ruled-1533-1584"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Wikidata gives 1263 for the start and 1478 or 1547 for the end. Moscow was first recorded in 1147 and became a real power when Daniel seized neighbouring towns in 1301 to 1304, so the bar fades in until 1303. It ends with Ivan IV's coronation as tsar in 1547.",
+        "es": "Wikidata da 1263 para el inicio y 1478 o 1547 para el final. Moscú se menciona por primera vez en 1147 y se volvió una potencia cuando Daniel tomó las ciudades vecinas entre 1301 y 1304, por eso la barra aparece gradualmente hasta 1303. Termina con la coronación de Iván IV como zar en 1547.",
+        "zh": "维基数据给出的起点是1263年，终点是1478年或1547年。莫斯科最早见于1147年的记载，直到1301年至1304年丹尼尔夺取邻近城镇才成为一方势力，所以色条逐渐变实到1303年。终点是1547年伊凡四世加冕为沙皇。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "ivan-i-grand-prince",
+      "start": 1328,
+      "type": "ruler",
+      "title": {
+        "en": "After Tver's uprising against the Horde, Khan Uzbek names Ivan I of Moscow grand prince and gives him a Tatar force that devastates Tver",
+        "es": "Tras la revuelta de Tver contra la Horda, el kan Uzbek nombra gran príncipe a Iván I de Moscú y le da una fuerza tártara que devasta Tver",
+        "zh": "特维尔反抗金帐汗国起义后，月即别汗任命莫斯科的伊凡一世为大公，并给他一支鞑靼军队，用来蹂躏特维尔"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Ivan I.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ivan-i"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Alexander Mikhailovich.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/alexander-mikhailovich"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Moscow",
+          "es": "Moscú",
+          "zh": "莫斯科"
+        },
+        "lat": 55.7558,
+        "lon": 37.6173
+      }
+    },
+    {
+      "id": "kulikovo",
+      "start": 1380,
+      "type": "conflict",
+      "title": {
+        "en": "Dmitry of Moscow and allied Rus princes beat the army of the emir Mamai at Kulikovo Field on 8 September",
+        "es": "Dmitri de Moscú y los príncipes rus aliados vencen al ejército del emir Mamái en el campo de Kulikovo el 8 de septiembre",
+        "zh": "莫斯科的德米特里与结盟的罗斯诸公在9月8日的库利科沃战役中击败埃米尔马麦的军队"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Kulikovo Field, Battle of.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/kulikovo-field-battle"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Donskoy, Dmitry Ivanovich.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/donskoy-dmitry-ivanovich"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Some scholars debate whether Mamai was beaten or withdrew. The battle did not end the Rus princes' vassalage to the khan.",
+        "es": "Algunos estudiosos discuten si Mamái fue derrotado o se retiró. La batalla no puso fin al vasallaje de los príncipes rus ante el kan.",
+        "zh": "有学者争论马麦是战败还是撤退。这场战斗没有结束罗斯诸公对可汗的臣属地位。"
+      },
+      "place": {
+        "name": {
+          "en": "Kulikovo Field",
+          "es": "Campo de Kulikovo",
+          "zh": "库利科沃原野"
+        },
+        "lat": 53.65,
+        "lon": 38.65
+      }
+    },
+    {
+      "id": "tokhtamysh-sacks-moscow",
+      "start": 1382,
+      "type": "conflict",
+      "title": {
+        "en": "Khan Tokhtamysh gets into the Kremlin by deceit, sacks Moscow, and Dmitry agrees to pay higher tribute",
+        "es": "El kan Tojtamish entra en el Kremlin con engaños, saquea Moscú y Dmitri acepta pagar un tributo mayor",
+        "zh": "脱脱迷失汗用欺骗手段进入克里姆林宫，洗劫莫斯科，德米特里同意缴纳更高的贡赋"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kremlin.\"",
+          "url": "https://www.worldhistory.org/Kremlin/"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Donskoy, Dmitry Ivanovich.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/donskoy-dmitry-ivanovich"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Moscow Kremlin",
+          "es": "Kremlin de Moscú",
+          "zh": "莫斯科克里姆林宫"
+        },
+        "lat": 55.752,
+        "lon": 37.6175
+      }
+    },
+    {
+      "id": "novgorod-annexed",
+      "start": 1478,
+      "type": "conflict",
+      "title": {
+        "en": "Ivan III takes the veche bell and ends Novgorod's independence, replacing its officials with his own governors",
+        "es": "Iván III retira la campana del veche y pone fin a la independencia de Nóvgorod, sustituyendo a sus funcionarios por gobernadores propios",
+        "zh": "伊凡三世取走议事钟，结束诺夫哥罗德的独立，并以自己的总督取代当地官员"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Novgorod, Great.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/novgorod-great"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Novgorod Republic.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/novgorod-republic"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Novgorod",
+          "es": "Nóvgorod",
+          "zh": "诺夫哥罗德"
+        },
+        "lat": 58.5214,
+        "lon": 31.2755
+      }
+    },
+    {
+      "id": "dormition-cathedral",
+      "start": 1479,
+      "type": "invention",
+      "title": {
+        "en": "The Italian architect Aristotele Fioravanti finishes the Dormition Cathedral in the Kremlin for Ivan III",
+        "es": "El arquitecto italiano Aristotele Fioravanti termina la catedral de la Dormición en el Kremlin para Iván III",
+        "zh": "意大利建筑师阿里斯托泰莱·菲奥拉万蒂为伊凡三世建成克里姆林宫的圣母升天大教堂"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Cathedral of the Dormition.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cathedral-dormition"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kremlin.\"",
+          "url": "https://www.worldhistory.org/Kremlin/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Moscow Kremlin",
+          "es": "Kremlin de Moscú",
+          "zh": "莫斯科克里姆林宫"
+        },
+        "lat": 55.752,
+        "lon": 37.6175
+      }
+    },
+    {
+      "id": "ugra-standoff",
+      "start": 1480,
+      "type": "conflict",
+      "title": {
+        "en": "Ivan III's army and Khan Ahmad's face each other across the Ugra River until the khan withdraws on 11 November",
+        "es": "El ejército de Iván III y el del kan Ajmat se enfrentan a ambos lados del río Ugra hasta que el kan se retira el 11 de noviembre",
+        "zh": "伊凡三世的军队与阿合马汗的军队隔乌格拉河对峙，直到11月11日可汗撤兵"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Ugra River, Battle of.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ugra-river-battle"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Golden Horde.\"",
+          "url": "https://www.worldhistory.org/Golden_Horde/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Russian tradition calls it the end of Mongol rule, but historians disagree. Some deny a battle took place, and others date the end of tribute to the 1450s or 1472.",
+        "es": "La tradición rusa lo llama el fin del dominio mongol, pero los historiadores discrepan. Algunos niegan que hubiera batalla y otros sitúan el fin del tributo en la década de 1450 o en 1472.",
+        "zh": "俄罗斯传统称之为蒙古统治的终结，但史学家有分歧。有人否认发生过战斗，也有人把贡赋的终止定在15世纪50年代或1472年。"
+      }
+    },
+    {
+      "id": "ivan-iv-crowned-tsar",
+      "start": 1547,
+      "type": "ruler",
+      "title": {
+        "en": "Ivan IV is crowned tsar in the Dormition Cathedral, taking a title that claims equal rank with emperors and khans",
+        "es": "Iván IV es coronado zar en la catedral de la Dormición y adopta un título que reclama igual rango que emperadores y kanes",
+        "zh": "伊凡四世在圣母升天大教堂加冕为沙皇，这一头衔宣示与皇帝和可汗地位平等"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Ivan IV, 'The Terrible' (Russia) (1530-1584; Ruled 1533-1584).\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ivan-iv-terrible-russia-1530-1584-ruled-1533-1584"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Cathedral of the Dormition.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/cathedral-dormition"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Moscow Kremlin",
+          "es": "Kremlin de Moscú",
+          "zh": "莫斯科克里姆林宫"
+        },
+        "lat": 55.752,
+        "lon": 37.6175
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "kalita-moneybag",
+      "text": {
+        "en": "Ivan I was nicknamed Kalita, \"Moneybag\", for the way he handled money.",
+        "es": "A Iván I lo apodaron Kalitá, \"Bolsa de dinero\", por su manejo del dinero.",
+        "zh": "伊凡一世因善于理财而得绰号“卡利塔”，意为“钱袋”。"
+      },
+      "start": 1325,
+      "end": 1340,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Ivan I.\"",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ivan-i"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
