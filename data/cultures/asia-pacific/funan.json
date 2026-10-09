@@ -19,7 +19,7 @@
   "description": {
     "en": "A trading state in the Mekong delta that linked India and China by sea. It is known mostly from Chinese accounts and from the port of Oc Eo, and it gave way to Chenla by about 550 to 650 CE.",
     "es": "Estado comercial del delta del Mekong que unió India y China por mar. Se conoce sobre todo por fuentes chinas y por el puerto de Oc Eo, y cedió ante Chenla entre los años 550 y 650 d. C. aproximadamente.",
-    "zh": "湄公河三角洲的贸易国家，以海路连接印度与中国。我们主要通过中国史籍和俄厄港口遗址了解它，约公元550至650年间被真腊取代。"
+    "zh": "湄公河三角洲的贸易国家，以海路连接印度与中国。我们主要通过中国史籍和澳盖港口遗址了解它，约公元550至650年间被真腊取代。"
   },
   "reviewed": {
     "es": false,
@@ -80,25 +80,33 @@
     },
     {
       "id": "oc-eo",
-      "start": 100,
-      "end": 500,
+      "start": 150,
       "type": "invention",
       "title": {
         "en": "The port of Oc Eo trades with India, China and the wider Indian Ocean",
         "es": "El puerto de Oc Eo comercia con la India, China y el océano Índico",
-        "zh": "俄厄港与印度、中国及印度洋各地通商"
+        "zh": "澳盖港与印度、中国及印度洋各地通商"
       },
       "sources": [
         {
-          "citation": "The Archaeologist. \"Oc Eo: the Mekong Delta's Funan Empire port.\"",
-          "url": "https://www.thearchaeologist.org/blog/c-eo-mekong-deltas-funan-empire-port"
+          "citation": "Angkor Database. \"Early China and the Indian Ocean networks.\" (Oc Eo as the main maritime link between coastal China and the Indian Ocean in the mid-third century).",
+          "url": "https://angkordatabase.asia/publications/early-china-and-the-indian-ocean-networks"
         },
         {
-          "citation": "Bad Ancient. \"Did the Romans reach Vietnam?\" (settlements dated AD 100 to 500).",
-          "url": "https://www.badancient.com/claims/romans-reach-vietnam/"
+          "citation": "Coedès, George (1947). \"Fouilles en Cochinchine: Le site de Go Oc Eo, ancien port du royaume de Fou-nan.\" Artibus Asiae 10(3), summarised at Angkor Database. (sea contacts with the Gulf of Siam, Malaysia, India, Indonesia, Iran and the Mediterranean).",
+          "url": "https://angkordatabase.asia/publications/excavations-in-cochinchina-the-site-of-go-oc-eo-former-port-of-the-funan-kingdom"
+        },
+        {
+          "citation": "Wikipedia. \"Óc Eo.\" (port in use from the 2nd century BC to the 12th century AD).",
+          "url": "https://en.wikipedia.org/wiki/%C3%93c_Eo"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia says the port was in use from the 2nd century BC to the 12th century AD. The start year here marks the earliest dated find, a Roman medallion of 152 that Coedès reports, not the port's founding.",
+        "es": "Wikipedia dice que el puerto estuvo en uso desde el siglo II a. C. hasta el siglo XII d. C. El año de inicio señala el hallazgo fechado más antiguo, un medallón romano de 152 que recoge Coedès, no la fundación del puerto.",
+        "zh": "维基百科称该港从公元前2世纪到公元12世纪一直在使用。此处的起始年份指最早有年代可考的出土物，即赛代斯（Coedès）记载的152年罗马纪念章，并非建港之年。"
+      }
     },
     {
       "id": "tribute-to-china",
@@ -143,9 +151,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Scholars date the mission to somewhere between about 243 and 252.",
-        "es": "Los estudiosos fechan la misión en algún momento entre los años 243 y 252 aproximadamente.",
-        "zh": "学者把这次出使的时间定在约243年至252年之间。"
+        "en": "chinaknowledge.de says around 250 and Angkor Database says the mid-third century. The exact year is not fixed.",
+        "es": "chinaknowledge.de dice hacia 250 y Angkor Database dice mediados del siglo III. El año exacto no está fijado.",
+        "zh": "chinaknowledge.de称约250年，Angkor Database称3世纪中叶。确切年份尚无定论。"
       }
     },
     {
@@ -182,18 +190,18 @@
       "start": 138,
       "end": 180,
       "text": {
-        "en": "Gold medallions struck for the Roman emperors Antoninus Pius and Marcus Aurelius were found at Oc Eo.",
-        "es": "En Oc Eo se hallaron medallones de oro acuñados para los emperadores romanos Antonino Pío y Marco Aurelio.",
-        "zh": "俄厄出土了为罗马皇帝安敦尼·庇护和马可·奥勒留铸造的金质纪念章。"
+        "en": "Gold medallions from the reign of Antoninus Pius, and possibly Marcus Aurelius, were found at Oc Eo.",
+        "es": "En Oc Eo se hallaron medallones de oro del reinado de Antonino Pío y posiblemente de Marco Aurelio.",
+        "zh": "澳盖出土了安敦尼·庇护时期、也可能是马可·奥勒留时期的金质纪念章。"
       },
       "sources": [
         {
-          "citation": "Bad Ancient. \"Did the Romans reach Vietnam?\"",
-          "url": "https://www.badancient.com/claims/romans-reach-vietnam/"
+          "citation": "Wikipedia. \"Óc Eo.\" (medallions of Antoninus Pius, and possibly Marcus Aurelius).",
+          "url": "https://en.wikipedia.org/wiki/%C3%93c_Eo"
         },
         {
-          "citation": "The Archaeologist. \"Oc Eo: the Mekong Delta's Funan Empire port.\"",
-          "url": "https://www.thearchaeologist.org/blog/c-eo-mekong-deltas-funan-empire-port"
+          "citation": "Coedès, George (1947). \"Fouilles en Cochinchine: Le site de Go Oc Eo, ancien port du royaume de Fou-nan.\" Artibus Asiae 10(3), summarised at Angkor Database. (a medal naming Antoninus Pius, 152 AD; a second one possibly Marcus Aurelius).",
+          "url": "https://angkordatabase.asia/publications/excavations-in-cochinchina-the-site-of-go-oc-eo-former-port-of-the-funan-kingdom"
         }
       ]
     }

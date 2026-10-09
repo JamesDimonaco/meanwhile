@@ -14,9 +14,9 @@
     "Cambodian Empire"
   ],
   "description": {
-    "en": "The Cambodian state centred on Angkor from 802 to 1431. Its kings raised Angkor Wat and the Bayon and managed water with reservoirs and canals, until a Tai army sacked the capital.",
-    "es": "Estado camboyano con centro en Angkor entre 802 y 1431. Sus reyes levantaron Angkor Wat y el Bayon y gestionaron el agua con embalses y canales, hasta que un ejército tai saqueó la capital.",
-    "zh": "公元802年至1431年以吴哥为中心的柬埔寨国家。其国王修建了吴哥窟和巴戎寺，并用水库和运河管理水源，直到泰人军队攻陷都城。"
+    "en": "The Cambodian state centred on Angkor from about 802 to 1431. Its kings raised Angkor Wat and the Bayon and managed water with reservoirs and canals. Angkor's decline was long, and the traditional end date is a Tai attack in 1431.",
+    "es": "Estado camboyano con centro en Angkor desde hacia 802 hasta 1431. Sus reyes levantaron Angkor Wat y el Bayon y gestionaron el agua con embalses y canales. El declive de Angkor fue largo, y la fecha final tradicional es un ataque tai en 1431.",
+    "zh": "约公元802年至1431年以吴哥为中心的柬埔寨国家。其国王修建了吴哥窟和巴戎寺，并用水库和运河管理水源。吴哥的衰落历时很长，传统上把终点定在1431年泰人的进攻。"
   },
   "reviewed": {
     "es": false,
@@ -37,10 +37,19 @@
         {
           "citation": "World History Encyclopedia. \"Khmer Empire.\" (802 to 1431).",
           "url": "https://www.worldhistory.org/Khmer_Empire/"
+        },
+        {
+          "citation": "Carter, A. K. et al. (2019). \"Temple occupation and the tempo of collapse at Angkor Wat, Cambodia.\" Proceedings of the National Academy of Sciences 116(25).",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589680"
         }
       ],
       "default": true,
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Britannica and World History Encyclopedia give 802 to 1431. Carter et al. (2019) take 802 from an 11th-century inscription on Jayavarman II and call 1431 the conventional end date, from Thai chronicles. They describe the decline as a longer process than a single fall.",
+        "es": "Britannica y World History Encyclopedia dan 802 a 1431. Carter et al. (2019) toman 802 de una inscripción del siglo XI sobre Jayavarman II y llaman a 1431 la fecha final convencional, tomada de crónicas tai. Describen el declive como un proceso más largo que una caída única.",
+        "zh": "大英百科全书和世界历史百科全书给出802年至1431年。卡特（Carter）等人（2019年）从一块11世纪的阇耶跋摩二世碑铭取得802年，并称1431年是源自泰国编年史的传统终点。他们认为衰落是一个比单次陷落更长的过程。"
+      }
     }
   ],
   "events": [
@@ -59,11 +68,16 @@
           "url": "https://www.britannica.com/topic/Khmer-empire"
         },
         {
-          "citation": "World History Encyclopedia. \"Khmer Empire.\"",
-          "url": "https://www.worldhistory.org/Khmer_Empire/"
+          "citation": "Carter, A. K. et al. (2019). \"Temple occupation and the tempo of collapse at Angkor Wat, Cambodia.\" Proceedings of the National Academy of Sciences 116(25). (802, from an 11th-century inscription).",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589680"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Britannica says about 802 and World History Encyclopedia says 802. Carter et al. cite an 11th-century inscription, written long after the event, for the 802 date.",
+        "es": "Britannica dice hacia 802 y World History Encyclopedia dice 802. Carter et al. citan una inscripción del siglo XI, escrita mucho después del hecho, para la fecha de 802.",
+        "zh": "大英百科全书称约802年，世界历史百科全书称802年。卡特等人引用一块11世纪的碑铭来支持802年这一日期，该碑铭写于事件发生很久之后。"
+      }
     },
     {
       "id": "angkor-wat",
@@ -85,15 +99,15 @@
           "url": "https://www.worldhistory.org/Angkor_Wat/"
         },
         {
-          "citation": "UNESCO World Heritage Centre. \"Angkor.\"",
-          "url": "https://whc.unesco.org/en/list/668"
+          "citation": "Carter, A. K. et al. (2019). \"Temple occupation and the tempo of collapse at Angkor Wat, Cambodia.\" Proceedings of the National Academy of Sciences 116(25). (built in the early 12th century under Suryavarman II).",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589680"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Britannica dates Suryavarman II's reign from 1113 and gives about 30 years for the work. World History Encyclopedia puts the start around 1122. The end date is approximate.",
-        "es": "Britannica fecha el reinado de Suryavarman II desde 1113 y da unos 30 años para la obra. World History Encyclopedia sitúa el comienzo hacia 1122. La fecha final es aproximada.",
-        "zh": "大英百科全书把苏利耶跋摩二世的统治定在1113年起，工程约持续30年；世界历史百科全书则把开工定在约1122年。竣工年份只是估计。"
+        "en": "World History Encyclopedia says work began around 1122 and took some 30 years, and dates Suryavarman II's reign to 1113-1150. Carter et al. say the construction date is unknown and place the temple in the early 12th century. The 1122 to 1150 span is approximate.",
+        "es": "World History Encyclopedia dice que las obras empezaron hacia 1122 y duraron unos 30 años, y fecha el reinado de Suryavarman II en 1113-1150. Carter et al. dicen que la fecha de construcción se desconoce y sitúan el templo a principios del siglo XII. El lapso de 1122 a 1150 es aproximado.",
+        "zh": "世界历史百科全书称工程约在1122年开始，历时约30年，并把苏利耶跋摩二世的统治定在1113年至1150年。卡特等人说建造年代不详，把这座神庙定在12世纪初。1122年至1150年这一跨度只是估计。"
       }
     },
     {
@@ -107,8 +121,8 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Khmer empire.\"",
-          "url": "https://www.britannica.com/topic/Khmer-empire"
+          "citation": "EBSCO Research Starters. \"Khmer-Cham Wars.\" (a Cham fleet took and destroyed Yasoharapura in 1177).",
+          "url": "https://ebsco.com/research-starters/history/khmer-cham-wars"
         },
         {
           "citation": "World History Encyclopedia. \"Khmer Empire.\" (looting of Angkor in 1177).",
@@ -149,21 +163,26 @@
       "start": 1431,
       "type": "collapse",
       "title": {
-        "en": "A Tai army from Ayutthaya sacks Angkor and the Khmer capital moves away",
-        "es": "Un ejército tai de Ayutthaya saquea Angkor y la capital jemer se traslada",
-        "zh": "阿瑜陀耶的泰人军队攻陷吴哥，高棉都城随之迁离"
+        "en": "Traditionally, a Tai army from Ayutthaya sacks Angkor and the Khmer court moves south",
+        "es": "Según la tradición, un ejército tai de Ayutthaya saquea Angkor y la corte jemer se traslada al sur",
+        "zh": "传统说法是，阿瑜陀耶的泰人军队攻陷吴哥，高棉朝廷南迁"
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica. \"Khmer empire.\"",
+          "citation": "Encyclopaedia Britannica. \"Khmer empire.\" (a Tai army sacked Angkor in 1431).",
           "url": "https://www.britannica.com/topic/Khmer-empire"
         },
         {
-          "citation": "World History Encyclopedia. \"Khmer Empire.\"",
-          "url": "https://www.worldhistory.org/Khmer_Empire/"
+          "citation": "Carter, A. K. et al. (2019). \"Temple occupation and the tempo of collapse at Angkor Wat, Cambodia.\" Proceedings of the National Academy of Sciences 116(25). (1431 as the conventional date, from Thai chronicles).",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6589680"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Britannica gives the 1431 sack as fact. Carter et al. say the date comes from Thai chronicles and that scholars have long questioned the picture of a sudden fall. Penny et al. (2019, cited by Carter) find a gradual decline instead.",
+        "es": "Britannica da el saqueo de 1431 como un hecho. Carter et al. dicen que la fecha procede de crónicas tai y que los especialistas llevan tiempo cuestionando la imagen de una caída repentina. Penny et al. (2019, citado por Carter) encuentran en cambio un declive gradual.",
+        "zh": "大英百科全书把1431年的陷落当作史实。卡特等人指出这一年份来自泰国编年史，学者早就质疑吴哥骤然陷落的说法。彭尼（Penny）等人（2019年，见卡特引述）发现的是一个渐进的衰落。"
+      }
     }
   ],
   "facts": [
@@ -172,9 +191,9 @@
       "start": 1100,
       "end": 1300,
       "text": {
-        "en": "The Angkor site spreads over about 400 square kilometres of temples, reservoirs, dykes and canals.",
-        "es": "El sitio de Angkor se extiende por unos 400 kilómetros cuadrados de templos, embalses, diques y canales.",
-        "zh": "吴哥遗址占地约400平方公里，分布着神庙、水库、堤坝和运河。"
+        "en": "Angkor Archaeological Park stretches over some 400 square kilometres, including forest, and holds the remains of several Khmer capitals from the 9th to the 15th century.",
+        "es": "El Parque Arqueológico de Angkor se extiende por unos 400 kilómetros cuadrados, incluida zona de bosque, y conserva los restos de varias capitales jemeres de los siglos IX al XV.",
+        "zh": "吴哥考古公园占地约400平方公里（含森林），保存着9至15世纪多座高棉都城的遗迹。"
       },
       "sources": [
         {

@@ -27,7 +27,7 @@
   "periods": [
     {
       "id": "srivijaya-period",
-      "earliestStart": 650,
+      "earliestStart": 670,
       "latestStart": 683,
       "earliestEnd": 1025,
       "latestEnd": 1377,
@@ -45,16 +45,16 @@
           "url": "https://www.ebsco.com/research-starters/history/srivijaya/"
         },
         {
-          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History. \"Srivijaya.\"",
+          "citation": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History. \"Southeast Asia, 500-1000 A.D. Chronology.\" (traditional founding date of 670).",
           "url": "https://www.metmuseum.org/toah/ht/06/sse.html"
         }
       ],
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The start rests on Yijing's visit in 671 and inscriptions of the 680s. How far Srivijaya reached is unknown. Sources date the loss of Palembang's primacy from the late 11th to the late 12th century, and the end either to the Chola raid of 1025 or to Majapahit's attack in 1377.",
-        "es": "El comienzo se apoya en la visita de Yijing en 671 y en inscripciones de la década de 680. Se ignora hasta dónde llegó Srivijaya. Las fuentes sitúan la pérdida del primado de Palembang entre finales del siglo XI y finales del XII, y el final en la incursión chola de 1025 o en el ataque de Majapahit en 1377.",
-        "zh": "起点依据义净于671年的到访和680年代的碑铭。三佛齐势力究竟到达何处尚不清楚。各种资料把巨港失去主导地位的时间定在11世纪末至12世纪末，把终结定在1025年朱罗人的袭击或1377年满者伯夷的进攻。"
+        "en": "The start rests on the Met's traditional founding date of 670, Yijing's visit in 671 and inscriptions of the 680s. How far Srivijaya reached is unknown. Sources date the loss of Palembang's primacy from the late 11th to the late 12th century, and the end either to the Chola raid of 1025 or to Majapahit's attack in 1377.",
+        "es": "El comienzo se apoya en la fecha tradicional de fundación del Met, 670, en la visita de Yijing en 671 y en inscripciones de la década de 680. Se ignora hasta dónde llegó Srivijaya. Las fuentes sitúan la pérdida del primado de Palembang entre finales del siglo XI y finales del XII, y el final en la incursión chola de 1025 o en el ataque de Majapahit en 1377.",
+        "zh": "起点依据大都会博物馆给出的传统建国年份670年、义净于671年的到访和680年代的碑铭。三佛齐势力究竟到达何处尚不清楚。各种资料把巨港失去主导地位的时间定在11世纪末至12世纪末，把终结定在1025年朱罗人的袭击或1377年满者伯夷的进攻。"
       }
     }
   ],
@@ -112,14 +112,14 @@
       "start": 1025,
       "type": "conflict",
       "title": {
-        "en": "A Chola fleet sent by Rajendra Chola I captures the king of Kadaram and raids Srivijaya's ports",
-        "es": "Una flota chola enviada por Rajendra Chola I captura al rey de Kadaram y ataca los puertos de Srivijaya",
-        "zh": "拉金德拉·朱罗一世派出的舰队俘虏了卡达拉姆国王，并袭击三佛齐的港口"
+        "en": "A Chola fleet sent by Rajendra Chola I attacks Srivijaya and, by the Tanjavur inscription's account, captures the king of Kadaram",
+        "es": "Una flota chola enviada por Rajendra Chola I ataca Srivijaya y, según la inscripción de Tanjavur, captura al rey de Kadaram",
+        "zh": "拉金德拉·朱罗一世派出的舰队进攻三佛齐，据坦贾武尔碑铭，俘虏了卡达拉姆国王"
       },
       "sources": [
         {
-          "citation": "Kulke, Hermann; Kesavapany, K. & Sakhuja, Vijay (eds.) (2009). Nagapattinam to Suvarnadwipa: Reflections on the Chola Naval Expeditions to Southeast Asia. Institute of Southeast Asian Studies. (Tanjavur inscription of 1025).",
-          "url": "https://dokumen.pub/nagapattinam-to-suvarnadwipa-reflections-on-the-chola-naval-expeditions-to-southeast-asia-9789812309389.html"
+          "citation": "Kulke, Hermann (2009). \"The Naval Expeditions of the Cholas in the Context of Asian History.\" In Nagapattinam to Suvarnadwipa: Reflections on the Chola Naval Expeditions to Southeast Asia, Institute of Southeast Asian Studies. (Tanjavur inscription of 1025).",
+          "url": "https://www.cambridge.org/core/books/nagapattinam-to-suvarnadwipa/naval-expeditions-of-the-cholas-in-the-context-of-asian-history/0D28FFD296A5575E375ACB928E294977"
         },
         {
           "citation": "EBSCO Research Starters. \"Srivijaya.\" (Rajendracola Deva I attacked in 1025).",
@@ -128,9 +128,9 @@
       ],
       "disputed": false,
       "note": {
-        "en": "Historians also discuss an earlier Chola raid around 1017 and a smaller one around 1070. Srivijaya survived and paid tribute for some years.",
-        "es": "Los historiadores también discuten una incursión chola anterior hacia 1017 y otra menor hacia 1070. Srivijaya sobrevivió y pagó tributo durante algunos años.",
-        "zh": "历史学家还讨论过约1017年一次更早的朱罗袭击和约1070年一次规模较小的远征。三佛齐幸存下来，并在数年间向朱罗纳贡。"
+        "en": "The main evidence is Rajendra Chola's Tanjavur inscription, a royal praise text. EBSCO says Srivijaya survived the attack but paid tribute to the Cholas for some years.",
+        "es": "La prueba principal es la inscripción de Tanjavur de Rajendra Chola, un texto de alabanza real. EBSCO dice que Srivijaya sobrevivió al ataque pero pagó tributo a los chola durante algunos años.",
+        "zh": "主要证据是拉金德拉·朱罗的坦贾武尔碑铭，一篇歌颂国王的文字。EBSCO称三佛齐挺过了这次进攻，但在数年间向朱罗纳贡。"
       }
     },
     {
