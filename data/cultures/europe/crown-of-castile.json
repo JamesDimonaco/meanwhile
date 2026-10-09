@@ -1,0 +1,327 @@
+{
+  "id": "crown-of-castile",
+  "region": "europe",
+  "wikidataId": "Q217196",
+  "name": {
+    "en": "Crown of Castile",
+    "es": "Corona de Castilla",
+    "zh": "卡斯蒂利亚联合王国"
+  },
+  "nativeName": {
+    "text": "Corona de Castilla",
+    "lang": "es"
+  },
+  "aliases": [
+    "Castile and León",
+    "Kingdom of Castile",
+    "Castile",
+    "Reino de Castilla",
+    "Castilla y León",
+    "卡斯蒂利亚王国",
+    "卡斯蒂利亚"
+  ],
+  "description": {
+    "en": "The kingdoms of Castile and León, joined for good under Ferdinand III in 1230. Its kings took Córdoba and Seville, Alfonso X sponsored law and song, and Isabella ruled from 1474. Under Isabella and Ferdinand and then the Habsburgs it stayed a separate crown from Aragon.",
+    "es": "Los reinos de Castilla y León, unidos de forma definitiva por Fernando III en 1230. Sus reyes tomaron Córdoba y Sevilla, Alfonso X impulsó el derecho y la poesía cantada, e Isabel reinó desde 1474. Con Isabel y Fernando y después con los Habsburgo siguió siendo una corona distinta de la de Aragón.",
+    "zh": "卡斯蒂利亚与莱昂两个王国，1230年由费尔南多三世永久合并。其国王夺取了科尔多瓦和塞维利亚，阿方索十世资助法律与歌曲的编纂，伊莎贝拉自1474年起统治。在伊莎贝拉与费尔南多以及后来的哈布斯堡王朝治下，它仍是与阿拉贡不同的王室。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "crown-of-castile",
+      "earliestStart": 1217,
+      "latestStart": 1230,
+      "earliestEnd": 1707,
+      "latestEnd": 1716,
+      "sources": [
+        {
+          "citation": "Catholic Encyclopedia, \"St. Ferdinand III\" (inherits León and unites it with Castile in 1230).",
+          "url": "https://www.catholic.com/encyclopedia/ferdinand-iii-saint"
+        },
+        {
+          "citation": "Wikidata, Crown of Castile (Q217196), inception 1230, dissolved 1715.",
+          "url": "https://www.wikidata.org/wiki/Q217196"
+        },
+        {
+          "citation": "Cervantes Virtual blog. \"Decret de Nova Planta\" (Philip V's decrees of 1707 to 1716 abolish the separate laws of the Crown of Aragon's realms).",
+          "url": "https://blog.cervantesvirtual.com/decret-de-nova-planta/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Ferdinand III ruled Castile from 1217 and joined León to it in 1230. There is no single end date. Castile and Aragon kept separate laws and institutions after 1479, even under Charles I (1516), until the Nueva Planta decrees of 1707 to 1716. Wikidata gives 1715.",
+        "es": "Fernando III reinaba en Castilla desde 1217 y le unió León en 1230. No hay una sola fecha de final. Castilla y Aragón conservaron leyes e instituciones separadas después de 1479, incluso con Carlos I (1516), hasta los decretos de Nueva Planta de 1707 a 1716. Wikidata da 1715.",
+        "zh": "费尔南多三世自1217年统治卡斯蒂利亚，1230年并入莱昂。结束年份没有定论。1479年之后，即使在查理一世（1516年）治下，卡斯蒂利亚与阿拉贡仍保留各自的法律和机构，直到1707年至1716年的新基本法令。维基数据给出的是1715年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "las-navas-de-tolosa",
+      "start": 1212,
+      "type": "conflict",
+      "title": {
+        "en": "Castile, Aragon and Navarre defeat the Almohad army at Las Navas de Tolosa, opening the way into the Guadalquivir valley",
+        "es": "Castilla, Aragón y Navarra derrotan al ejército almohade en las Navas de Tolosa y abren el camino al valle del Guadalquivir",
+        "zh": "卡斯蒂利亚、阿拉贡和纳瓦拉联军在拉斯纳瓦斯-德托洛萨击败阿尔穆瓦希德军队，打开了通往瓜达尔基维尔河谷的道路"
+      },
+      "sources": [
+        {
+          "citation": "Jaén Paraíso Interior. \"Museum of the Battle of Las Navas de Tolosa\" (16 July 1212; the three kings; the outcome).",
+          "url": "http://jaenparaisointerior.es/en/points-of-interest/museum-batalla-de-las-navas-de-tolosa"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Reconquista\" (three Spanish kings defeat the Muslims at Las Navas de Tolosa in 1212).",
+          "url": "https://www.worldhistory.org/Reconquista/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "castile-and-leon-united",
+      "start": 1230,
+      "type": "founding",
+      "title": {
+        "en": "Ferdinand III inherits León from his father and joins it to Castile for good",
+        "es": "Fernando III hereda León de su padre y lo une a Castilla de forma definitiva",
+        "zh": "费尔南多三世从父亲手中继承莱昂，并将其永久并入卡斯蒂利亚"
+      },
+      "sources": [
+        {
+          "citation": "Catholic Encyclopedia, \"St. Ferdinand III\" (unites León and Castile in 1230, not without civil strife).",
+          "url": "https://www.catholic.com/encyclopedia/ferdinand-iii-saint"
+        },
+        {
+          "citation": "Castillos y Fortalezas de Jaén. \"Fernando III the Saint\" (the Concordia de Benavente of 1230, in which the princesses renounce their claim to León).",
+          "url": "https://castillosyfortalezasdejaen.com/blog-en/fernando-iii-the-saint.html"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "seville-1248",
+      "start": 1248,
+      "type": "conflict",
+      "title": {
+        "en": "Ferdinand III takes Seville after a long siege, following the taking of Córdoba in 1236",
+        "es": "Fernando III toma Sevilla tras un largo asedio, después de la toma de Córdoba en 1236",
+        "zh": "费尔南多三世经长期围困攻占塞维利亚，此前已于1236年夺取科尔多瓦"
+      },
+      "sources": [
+        {
+          "citation": "Catholic Encyclopedia, \"St. Ferdinand III\" (Córdoba in 1236, Seville in 1248, both great mosques turned into cathedrals).",
+          "url": "https://www.catholic.com/encyclopedia/ferdinand-iii-saint"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Reconquista\" (Seville falls after a long siege in 1248).",
+          "url": "https://www.worldhistory.org/Reconquista/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Seville",
+          "es": "Sevilla",
+          "zh": "塞维利亚"
+        },
+        "lat": 37.3891,
+        "lon": -5.9845
+      }
+    },
+    {
+      "id": "alfonso-x-becomes-king",
+      "start": 1252,
+      "type": "ruler",
+      "title": {
+        "en": "Alfonso X becomes king; his court sponsors translations from Arabic, a law code and the Cantigas de Santa María",
+        "es": "Alfonso X se convierte en rey; su corte patrocina traducciones del árabe, un código de leyes y las Cantigas de Santa María",
+        "zh": "阿方索十世即位；他的宫廷资助从阿拉伯语翻译的著作、一部法典和《圣母颂歌》"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Alfonso X\" (reign 1252 to 1284; translators, the Partidas, the Cantigas).",
+          "url": "https://www.encyclopedia.com/people/history/spanish-and-portuguese-history-biographies/alfonso-x"
+        },
+        {
+          "citation": "Catholic Encyclopedia, \"St. Ferdinand III\" (Ferdinand III dies in 1252).",
+          "url": "https://www.catholic.com/encyclopedia/ferdinand-iii-saint"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "isabella-proclaimed",
+      "start": 1474,
+      "type": "ruler",
+      "title": {
+        "en": "Isabella is proclaimed queen at Segovia two days after the death of Henry IV, and a war of succession follows",
+        "es": "Isabel es proclamada reina en Segovia dos días después de la muerte de Enrique IV, y sigue una guerra de sucesión",
+        "zh": "亨利四世去世两天后，伊莎贝拉在塞哥维亚被宣布为女王，随后爆发继承战争"
+      },
+      "sources": [
+        {
+          "citation": "Galería de las Colecciones Reales. \"Isabella I of Castile\" (proclaimed at Segovia on 13 December 1474; marries Ferdinand at Valladolid in 1469).",
+          "url": "https://www.galeriadelascoleccionesreales.es/en/monarch/isabella-i-of-castile/46c42cc8-bdd9-4a79-074a-e551d5ea1ab3"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Isabella I (1451-1504)\" (Henry IV dies on 11 December 1474; Isabella is proclaimed at once).",
+          "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/isabella-i-1451-1504"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Segovia",
+          "es": "Segovia",
+          "zh": "塞哥维亚"
+        },
+        "lat": 40.9429,
+        "lon": -4.1088
+      }
+    },
+    {
+      "id": "tordesillas",
+      "start": 1494,
+      "type": "ruler",
+      "title": {
+        "en": "Castile and Aragon's monarchs and Portugal sign the Treaty of Tordesillas, drawing a line 370 leagues west of the Cape Verde islands",
+        "es": "Los monarcas de Castilla y Aragón y Portugal firman el Tratado de Tordesillas y trazan una línea a 370 leguas al oeste de las islas de Cabo Verde",
+        "zh": "卡斯蒂利亚和阿拉贡的君主与葡萄牙签订《托尔德西里亚斯条约》，在佛得角群岛以西370里格处划定分界线"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Treaty of Tordesillas\" (signed 7 June 1494; 370 leagues west of the Cape Verde islands).",
+          "url": "https://www.worldhistory.org/Treaty_of_Tordesillas/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Treaty of Tordesillas\" (7 June 1494, the dividing line, the later Zaragoza treaty of 1529).",
+          "url": "https://ebsco.com/research-starters/history/treaty-tordesillas"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "charles-i-accedes",
+      "start": 1516,
+      "type": "ruler",
+      "title": {
+        "en": "Charles I, a Habsburg, inherits the Spanish crowns on the death of Ferdinand",
+        "es": "Carlos I, un Habsburgo, hereda las coronas españolas a la muerte de Fernando",
+        "zh": "哈布斯堡家族的查理一世在费尔南多去世后继承西班牙各王冠"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Spain (Charles of Ghent inherits Spain on Ferdinand's death in 1516 and rules as Charles I).",
+          "url": "http://countrystudies.us/spain/8.htm"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Comunero Revolt\" (Charles inherits in 1516).",
+          "url": "https://www.ebsco.com/research-starters/history/comunero-revolt/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "comuneros",
+      "start": 1520,
+      "end": 1521,
+      "type": "conflict",
+      "title": {
+        "en": "Castilian towns rise against Charles I, and royalist forces defeat the comuneros at Villalar on 23 April 1521",
+        "es": "Las ciudades castellanas se alzan contra Carlos I, y las fuerzas realistas derrotan a los comuneros en Villalar el 23 de abril de 1521",
+        "zh": "卡斯蒂利亚城市起兵反对查理一世，保王军于1521年4月23日在比利亚拉尔击败公社军"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com. \"Comuneros' Revolt (1520-1521)\" (Villalar on 23 April 1521; Toledo holds out until February 1522).",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/comuneros-revolt-1520-1521"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Comunero Revolt\" (Villalar on 23 April 1521).",
+          "url": "https://www.ebsco.com/research-starters/history/comunero-revolt/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "One source dates the revolt 1520 to 1522, because Toledo held out until February 1522.",
+        "es": "Una fuente fecha la revuelta de 1520 a 1522, porque Toledo resistió hasta febrero de 1522.",
+        "zh": "有资料把这场起义定为1520年至1522年，因为托莱多坚持到了1522年2月。"
+      }
+    },
+    {
+      "id": "nueva-planta",
+      "start": 1707,
+      "end": 1716,
+      "type": "collapse",
+      "title": {
+        "en": "Philip V's Nueva Planta decrees abolish the separate laws of Valencia, Aragon, Mallorca and Catalonia, ending the legal separation of the two crowns",
+        "es": "Los decretos de Nueva Planta de Felipe V abolen las leyes propias de Valencia, Aragón, Mallorca y Cataluña y ponen fin a la separación jurídica de las dos coronas",
+        "zh": "腓力五世的新基本法令废除瓦伦西亚、阿拉贡、马略卡和加泰罗尼亚各自的法律，结束两个王室在法律上的分立"
+      },
+      "sources": [
+        {
+          "citation": "Cervantes Virtual blog. \"Decret de Nova Planta\" (Valencia and Aragon on 29 June 1707, Mallorca on 28 November 1715, Catalonia on 16 January 1716).",
+          "url": "https://blog.cervantesvirtual.com/decret-de-nova-planta/"
+        },
+        {
+          "citation": "Generalitat de Catalunya. National Day of Catalonia, \"Historical events\" (Barcelona falls on 11 September 1714; the 1716 decree abolishes Catalan institutions).",
+          "url": "https://tramits.gencat.cat/en/diada-nacional-de-catalunya/historia/efemeride/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "This is the end convention chosen here. No source opened for this file says the Crown of Castile itself ended in these years.",
+        "es": "Esta es la convención de final elegida aquí. Ninguna fuente consultada para este archivo dice que la Corona de Castilla terminara en estos años.",
+        "zh": "这是本条目采用的结束惯例。为本文件查阅的资料中，没有一份说卡斯蒂利亚王室本身在这几年终结。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "siete-partidas",
+      "text": {
+        "en": "Alfonso X had a law code, the Siete Partidas, drafted between 1256 and 1265. Local laws stayed in force at first, and it became supplementary law only in 1348.",
+        "es": "Alfonso X mandó redactar un código de leyes, las Siete Partidas, entre 1256 y 1265. Al principio siguieron vigentes los fueros locales, y solo en 1348 pasó a ser derecho supletorio.",
+        "zh": "阿方索十世下令在1256年至1265年间编写法典《七章法典》。起初地方法令仍然有效，直到1348年它才成为补充性法律。"
+      },
+      "start": 1256,
+      "end": 1265,
+      "sources": [
+        {
+          "citation": "History Rise. \"Castile's legal innovations and the development of its royal laws\" (written 1256 to 1265; local fueros stay in force; supplementary law under the Ordenamiento de Alcalá, 1348).",
+          "url": "https://historyrise.com/article/castiles-legal-innovations-and-the-development-of-its-royal-laws/"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Alfonso X\" (the Partidas, a learned work on law).",
+          "url": "https://www.encyclopedia.com/people/history/spanish-and-portuguese-history-biographies/alfonso-x"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "cantigas-de-santa-maria",
+      "text": {
+        "en": "Alfonso X commissioned the Cantigas de Santa María, 420 songs in Galician, 353 of them telling miracles of the Virgin.",
+        "es": "Alfonso X encargó las Cantigas de Santa María, 420 canciones en gallego, 353 de ellas con milagros de la Virgen.",
+        "zh": "阿方索十世下令创作《圣母颂歌》，共420首加利西亚语歌曲，其中353首讲述圣母的奇迹。"
+      },
+      "start": 1257,
+      "end": 1279,
+      "sources": [
+        {
+          "citation": "University of Oxford, Centre for the Study of the Cantigas de Santa Maria (420 poems, 353 of them miracle tales, commissioned by Alfonso).",
+          "url": "https://digital.humanities.ox.ac.uk/project/centre-study-cantigas-de-santa-maria"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Alfonso X\" (the Cantigas, 1257 to 1279).",
+          "url": "https://www.encyclopedia.com/people/history/spanish-and-portuguese-history-biographies/alfonso-x"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

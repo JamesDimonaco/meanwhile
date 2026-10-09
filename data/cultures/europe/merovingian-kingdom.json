@@ -1,0 +1,250 @@
+{
+  "id": "merovingian-kingdom",
+  "region": "europe",
+  "wikidataId": "Q146246",
+  "name": {
+    "en": "Merovingian Kingdom",
+    "es": "Reino de los francos en la época merovingia",
+    "zh": "法兰克王国"
+  },
+  "nativeName": {
+    "text": "Regnum Francorum",
+    "lang": "la"
+  },
+  "aliases": [
+    "Francia",
+    "Merovingian Francia",
+    "Merovingian dynasty",
+    "Reino merovingio",
+    "Dinastía merovingia",
+    "墨洛温王朝",
+    "Kingdom of the Franks"
+  ],
+  "description": {
+    "en": "The Frankish realm in Gaul ruled by Clovis I and his descendants. Clovis took the Salian throne in 481 and pushed the Visigoths out of most of Aquitaine in 507. The mayors of the palace held real power by 751, when Pippin III deposed the last king.",
+    "es": "El reino franco en la Galia gobernado por Clodoveo I y sus descendientes. Clodoveo subió al trono de los francos salios en 481 y expulsó a los visigodos de casi toda Aquitania en 507. Los mayordomos de palacio ya tenían el poder real cuando Pipino III depuso al último rey en 751.",
+    "zh": "克洛维一世及其后裔统治的高卢法兰克王国。克洛维于481年继位为萨利克法兰克人之王，507年把西哥特人逐出阿基坦大部。宫相掌握实权，751年丕平三世废黜了最后一位国王。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "merovingian-kingdom",
+      "earliestStart": 481,
+      "latestStart": 507,
+      "earliestEnd": 751,
+      "latestEnd": 751,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Merovingian Dynasty\" (Clovis becomes king in 481; Pepin the Short takes the throne in 751 and deposes Childeric III).",
+          "url": "https://www.worldhistory.org/Merovingian_Dynasty/"
+        },
+        {
+          "citation": "Einhard, Life of Charlemagne, opening chapters (the Merovingian line ends when Childeric III is deposed and sent to a monastery), Fordham University Internet Medieval Sourcebook.",
+          "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start is a convention. 481 is Clovis's accession as king of the Salian Franks; by 507 he had extended Frankish power into Aquitaine.",
+        "es": "El comienzo es una convención. 481 es la subida de Clodoveo al trono de los francos salios; en 507 ya había extendido el poder franco a Aquitania.",
+        "zh": "起点只是一种惯例。481年是克洛维继位为萨利克法兰克人之王；到507年，他已把法兰克势力扩展到阿基坦。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "clovis-becomes-king",
+      "start": 481,
+      "type": "founding",
+      "title": {
+        "en": "Clovis becomes king of the Salian Franks on the death of his father Childeric, aged about fifteen",
+        "es": "Clodoveo se convierte en rey de los francos salios a la muerte de su padre Childerico, con unos quince años",
+        "zh": "克洛维在父亲希尔德里克去世后继位为萨利克法兰克人之王，时年约十五岁"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Clovis I\" (becomes king in 481 at fifteen).",
+          "url": "https://www.worldhistory.org/Clovis_I/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Merovingian Dynasty\" (Clovis ascends the throne of the Salian Franks in 481).",
+          "url": "https://www.worldhistory.org/Merovingian_Dynasty/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "baptism-of-clovis",
+      "start": 496,
+      "type": "founding",
+      "title": {
+        "en": "Clovis is baptised a Catholic at Reims by Bishop Remigius, with thousands of his warriors",
+        "es": "Clodoveo es bautizado como católico en Reims por el obispo Remigio, junto con miles de sus guerreros",
+        "zh": "克洛维在兰斯由主教雷米吉乌斯施洗成为天主教徒，数千名武士同时受洗"
+      },
+      "sources": [
+        {
+          "citation": "Gregory of Tours, History of the Franks, Book II (baptism at Reims by Bishop Remigius, with more than three thousand soldiers), Fordham University Internet Medieval Sourcebook.",
+          "url": "https://sourcebooks.fordham.edu/source/gregtours1.asp"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Clovis I\" (baptism by the bishop of Reims; Gregory of Tours places it after the Alemanni victory, around 496; Roger Collins argues for about 486).",
+          "url": "https://www.worldhistory.org/Clovis_I/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Gregory of Tours places the baptism after the war with the Alemanni, traditionally dated 496. The historian Roger Collins argues for about 486.",
+        "es": "Gregorio de Tours sitúa el bautismo tras la guerra contra los alamanes, tradicionalmente fechada en 496. El historiador Roger Collins propone hacia 486.",
+        "zh": "图尔的格雷戈里把受洗放在对阿勒曼尼人的战争之后，传统上定为496年。史家罗杰·柯林斯主张约在486年。"
+      },
+      "place": {
+        "name": {
+          "en": "Reims",
+          "es": "Reims",
+          "zh": "兰斯"
+        },
+        "lat": 49.2583,
+        "lon": 4.0317
+      }
+    },
+    {
+      "id": "vouille",
+      "start": 507,
+      "type": "conflict",
+      "title": {
+        "en": "Clovis defeats the Visigothic king Alaric II at Vouillé near Poitiers and extends Frankish power into Aquitaine",
+        "es": "Clodoveo derrota al rey visigodo Alarico II en Vouillé, cerca de Poitiers, y extiende el poder franco a Aquitania",
+        "zh": "克洛维在普瓦捷附近的武耶击败西哥特国王阿拉里克二世，把法兰克势力扩展到阿基坦"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Clovis I\" (507, near Poitiers; Alaric II killed).",
+          "url": "https://www.worldhistory.org/Clovis_I/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Merovingian Dynasty\" (Clovis defeats the Visigoths in 507 and extends his influence into Aquitaine).",
+          "url": "https://www.worldhistory.org/Merovingian_Dynasty/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "partition-511",
+      "start": 511,
+      "type": "ruler",
+      "title": {
+        "en": "Clovis dies and his kingdom is divided equally among his four sons",
+        "es": "Clodoveo muere y su reino se reparte a partes iguales entre sus cuatro hijos",
+        "zh": "克洛维去世，王国由四个儿子平分"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Merovingian Dynasty\" (the kingdom is divided equally among Clovis's four sons, a precedent for later successions).",
+          "url": "https://www.worldhistory.org/Merovingian_Dynasty/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Clovis I\" (dies in November 511; some historians give 513).",
+          "url": "https://www.worldhistory.org/Clovis_I/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Some historians date Clovis's death to 513.",
+        "es": "Algunos historiadores fechan la muerte de Clodoveo en 513.",
+        "zh": "有些史家把克洛维之死定在513年。"
+      }
+    },
+    {
+      "id": "tours",
+      "start": 732,
+      "type": "conflict",
+      "title": {
+        "en": "Charles Martel, mayor of the palace, leads a Frankish army against an Umayyad force between Tours and Poitiers",
+        "es": "Carlos Martel, mayordomo de palacio, dirige un ejército franco contra una fuerza omeya entre Tours y Poitiers",
+        "zh": "宫相查理·马特率法兰克军在图尔与普瓦捷之间迎战倭马亚军队"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"The Legacy of Charles Martel & the Battle of Tours\" (early October 732; Charles holds the office of mayor of the palace, not the throne).",
+          "url": "https://www.worldhistory.org/article/1809/the-legacy-of-charles-martel--the-battle-of-tours/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Merovingian Dynasty\" (from 617 mayors of the palace hold growing power under the kings).",
+          "url": "https://www.worldhistory.org/Merovingian_Dynasty/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The exact date and place of the battle are uncertain; the sources agree only on early October 732 and a site in the Tours-Poitiers region.",
+        "es": "La fecha y el lugar exactos de la batalla son inciertos; las fuentes solo coinciden en principios de octubre de 732 y un lugar entre Tours y Poitiers.",
+        "zh": "战役的确切日期和地点不确定；史料只一致认为发生在732年10月初，地点在图尔至普瓦捷一带。"
+      }
+    },
+    {
+      "id": "pippin-deposes-childeric",
+      "start": 751,
+      "type": "collapse",
+      "title": {
+        "en": "Pippin III, mayor of the palace, deposes the last Merovingian king, Childeric III, and is made king himself",
+        "es": "Pipino III, mayordomo de palacio, depone al último rey merovingio, Childerico III, y es proclamado rey",
+        "zh": "宫相丕平三世废黜末代墨洛温国王希尔德里克三世，自己称王"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Merovingian Dynasty\" (751: Pepin the Short takes the throne and deposes Childeric III).",
+          "url": "https://www.worldhistory.org/Merovingian_Dynasty/"
+        },
+        {
+          "citation": "Einhard, Life of Charlemagne (Childeric III is deposed, shorn and put into a cloister; Pippin, with papal approval, becomes king), Fordham University Internet Medieval Sourcebook.",
+          "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "childeric-tomb",
+      "text": {
+        "en": "Clovis's father Childeric was buried at Tournai with some 300 golden bees. A mason found the grave in 1653, and thieves melted most of the treasure after breaking into the royal library in 1831.",
+        "es": "El padre de Clodoveo, Childerico, fue enterrado en Tournai con unas 300 abejas de oro. Un albañil halló la tumba en 1653 y los ladrones fundieron casi todo el tesoro tras entrar en la biblioteca real en 1831.",
+        "zh": "克洛维之父希尔德里克葬于图尔奈，随葬约三百只金蜂。1653年一名泥瓦匠发现了这座墓；1831年窃贼闯入皇家图书馆，把大部分宝物熔毁。"
+      },
+      "start": 481,
+      "end": 481,
+      "sources": [
+        {
+          "citation": "The History Blog. \"Childeric I's tomb\": found 27 May 1653 at Saint-Brice, Tournai; about 300 golden bees; signet ring reading CHILDERICI REGIS; theft from the Bibliothèque nationale on 5 November 1831.",
+          "url": "https://www.thehistoryblog.com/archives/37323"
+        },
+        {
+          "citation": "Just History Posts. \"Historical Objects: The Bees of Childeric I\" (1653 find, Chifflet's 1655 publication, 1831 theft, surviving pieces).",
+          "url": "https://justhistoryposts.com/2023/09/05/historical-objects-the-bees-of-childeric-i/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "salic-law",
+      "text": {
+        "en": "The Salic law, a Latin code of fines for offences, was first compiled in the last years of Clovis's reign by the standard account. It barred daughters from inheriting land.",
+        "es": "La ley sálica, un código latino de multas por delitos, se compiló por primera vez en los últimos años del reinado de Clodoveo, según la versión habitual. Impedía a las hijas heredar tierras.",
+        "zh": "《萨利克法典》是一部以拉丁文写成、规定各种罪行罚款的法典，按通行说法最初编成于克洛维统治末年。其中禁止女儿继承土地。"
+      },
+      "start": 507,
+      "end": 511,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, 11th ed. (1911), \"Salic Law\" (first compilation in the last years of Clovis, 507–511; fines for offences; daughters cannot inherit land), via Wikisource.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Salic_Law"
+        }
+      ],
+      "disputed": true
+    }
+  ]
+}

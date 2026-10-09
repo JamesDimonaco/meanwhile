@@ -1,0 +1,323 @@
+{
+  "id": "crown-of-aragon",
+  "region": "europe",
+  "wikidataId": "Q204920",
+  "name": {
+    "en": "Crown of Aragon",
+    "es": "Corona de Aragón",
+    "zh": "阿拉贡联合王国"
+  },
+  "aliases": [
+    "Kingdom of Aragon",
+    "Aragon",
+    "Aragón",
+    "Catalan-Aragonese Crown",
+    "Corona d'Aragó",
+    "Reino de Aragón",
+    "阿拉贡王国",
+    "阿拉贡"
+  ],
+  "description": {
+    "en": "The Kingdom of Aragon and the County of Barcelona, joined under one ruler in the 12th century, with Valencia and Mallorca added later. Its kings took Mallorca in 1229 and Valencia in 1238, held Sicily and Naples, and kept separate laws until Philip V's decrees of 1707 to 1716.",
+    "es": "El Reino de Aragón y el Condado de Barcelona, unidos bajo un mismo soberano en el siglo XII, a los que se sumaron después Valencia y Mallorca. Sus reyes tomaron Mallorca en 1229 y Valencia en 1238, tuvieron Sicilia y Nápoles y conservaron leyes propias hasta los decretos de Felipe V de 1707 a 1716.",
+    "zh": "阿拉贡王国与巴塞罗那伯国在12世纪归于同一位君主，后来又加入瓦伦西亚和马略卡。其国王1229年夺取马略卡，1238年夺取瓦伦西亚，并统治西西里和那不勒斯，直到1707年至1716年腓力五世的法令颁布前，一直保有各自的法律。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "crown-of-aragon",
+      "earliestStart": 1137,
+      "latestStart": 1162,
+      "earliestEnd": 1707,
+      "latestEnd": 1716,
+      "sources": [
+        {
+          "citation": "Personajes ilustres de las lenguas de Aragón. \"Petronila de Aragón\" (years of waiting before the 1150 wedding; she gives the kingdom to her son in 1164).",
+          "url": "https://personajesilustres.lenguasdearagon.org/petronila-de-aragon-en/"
+        },
+        {
+          "citation": "El Nacional. \"Marc Pons on the Crown of Aragon\" (Petronilla marries at Lleida in August 1150, a dynastic union, never a territorial fusion; the name \"Crown of Aragon\" becomes standard only in the 15th century).",
+          "url": "https://www.elnacional.cat/en/culture/history-marc-pons-crown-of-aragon-catalan-crown_792633_102.html"
+        },
+        {
+          "citation": "Cervantes Virtual blog. \"Decret de Nova Planta\" (Valencia and Aragon 1707, Mallorca 1715, Catalonia 1716).",
+          "url": "https://blog.cervantesvirtual.com/decret-de-nova-planta/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "There is no single start. The agreement between Aragon and Barcelona came years before the 1150 wedding (1137 is the year usually given), and 1162 is the year Wikidata uses. It was a union under one ruler, not one state. The end runs from the first Nueva Planta decree (1707) to the last (Catalonia, 1716).",
+        "es": "No hay un único comienzo. El pacto entre Aragón y Barcelona precedió en años a la boda de 1150 (1137 es el año que se suele dar), y 1162 es el año que usa Wikidata. Fue una unión bajo un mismo soberano, no un solo estado. El final va del primer decreto de Nueva Planta (1707) al último (Cataluña, 1716).",
+        "zh": "起点没有定论。阿拉贡与巴塞罗那的协议早于1150年的婚礼数年（通常给出的年份是1137年），维基数据采用1162年。这是同一位君主之下的联合，而不是单一国家。终点从第一道新基本法令（1707年）延续到最后一道（加泰罗尼亚，1716年）。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "petronilla-marries",
+      "start": 1150,
+      "type": "founding",
+      "title": {
+        "en": "Petronilla of Aragon marries Ramon Berenguer IV, Count of Barcelona, at Lleida, joining the two realms under one ruling house",
+        "es": "Petronila de Aragón se casa en Lérida con Ramón Berenguer IV, conde de Barcelona, y une los dos territorios bajo una misma casa reinante",
+        "zh": "阿拉贡的佩特罗妮拉在莱里达嫁给巴塞罗那伯爵拉蒙·贝伦格尔四世，两个领地归于同一王室"
+      },
+      "sources": [
+        {
+          "citation": "Personajesilustres de las lenguas de Aragón. \"Petronila de Aragón\" (the 1150 wedding; she gives the kingdom to her son in 1164).",
+          "url": "https://personajesilustres.lenguasdearagon.org/petronila-de-aragon-en/"
+        },
+        {
+          "citation": "El Nacional. \"Marc Pons on the Crown of Aragon\" (marriage at Lleida in August 1150, a dynastic union).",
+          "url": "https://www.elnacional.cat/en/culture/history-marc-pons-crown-of-aragon-catalan-crown_792633_102.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lleida",
+          "es": "Lérida",
+          "zh": "莱里达"
+        },
+        "lat": 41.6176,
+        "lon": 0.62
+      }
+    },
+    {
+      "id": "mallorca-1229",
+      "start": 1229,
+      "type": "conflict",
+      "title": {
+        "en": "James I takes Madina Mayurqa, today's Palma, on 31 December and holds all of Mallorca by 1232",
+        "es": "Jaime I toma Madina Mayurqa, la actual Palma, el 31 de diciembre y domina toda Mallorca en 1232",
+        "zh": "海梅一世于12月31日攻占马约尔卡城（今帕尔马），并在1232年前控制整个马略卡岛"
+      },
+      "sources": [
+        {
+          "citation": "Fascinating Spain. \"The Templars and the conquest of Mallorca by James I\" (the city falls on 31 December 1229).",
+          "url": "https://www.fascinatingspain.com/articulo/spanish-culture/templars-conquest-of-mallorca-james-i/20210223111010070431.html"
+        },
+        {
+          "citation": "Más Mallorca. \"Jaume I and the conquest of Mallorca\" (31 December 1229; the island fully held by 1232).",
+          "url": "https://www.masmallorca.es/en/our-people/jaume-i-conquest-mallorca.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Palma",
+          "es": "Palma",
+          "zh": "帕尔马"
+        },
+        "lat": 39.5696,
+        "lon": 2.6502
+      }
+    },
+    {
+      "id": "valencia-1238",
+      "start": 1238,
+      "type": "conflict",
+      "title": {
+        "en": "Valencia surrenders to James I and becomes a kingdom with its own laws and institutions",
+        "es": "Valencia se rinde a Jaime I y se convierte en un reino con leyes e instituciones propias",
+        "zh": "瓦伦西亚向海梅一世投降，成为拥有自己法律和机构的王国"
+      },
+      "sources": [
+        {
+          "citation": "Más Mallorca. \"The conquest of the Kingdom of Valencia\" (surrendered in 1238; its own laws and institutions).",
+          "url": "https://www.masmallorca.es/en/our-people/the-conquest-of-the-kingdom-of-valencia.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Reconquista\" timeline (1238).",
+          "url": "https://worldhistory.org/timeline/Reconquista"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Valencia",
+          "es": "Valencia",
+          "zh": "瓦伦西亚"
+        },
+        "lat": 39.4699,
+        "lon": -0.3763
+      }
+    },
+    {
+      "id": "sicilian-vespers",
+      "start": 1282,
+      "end": 1302,
+      "type": "conflict",
+      "title": {
+        "en": "Palermo rises against Charles of Anjou on 30 March 1282 and Peter III of Aragon lands at Trapani on 30 August; the Peace of Caltabellotta confirms Aragonese rule in Sicily in 1302",
+        "es": "Palermo se alza contra Carlos de Anjou el 30 de marzo de 1282 y Pedro III de Aragón desembarca en Trapani el 30 de agosto; la paz de Caltabellotta confirma el dominio aragonés en Sicilia en 1302",
+        "zh": "1282年3月30日巴勒莫起义反抗安茹的查理，8月30日阿拉贡的佩德罗三世在特拉帕尼登陆；1302年《卡尔塔贝洛塔和约》确认阿拉贡对西西里的统治"
+      },
+      "sources": [
+        {
+          "citation": "Historia Scripta. \"Sicilian Vespers, March 30, 1282\" (the rising at Palermo and Peter III's landing at Trapani on 30 August).",
+          "url": "https://www.historiascripta.org/the-middle-ages/sicilian-vespers-march-30-1282-the-sicilians-cut-down-the-french-angevins/"
+        },
+        {
+          "citation": "Brown University, Decameron Web. \"Frederick III\" (Frederick keeps Sicily as King of Trinacria under the 1302 Peace of Caltabellotta).",
+          "url": "https://webhelper.brown.edu/decameron/history/characters/frederick_iii.php"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Palermo",
+          "es": "Palermo",
+          "zh": "巴勒莫"
+        },
+        "lat": 38.1157,
+        "lon": 13.3615
+      }
+    },
+    {
+      "id": "compromise-of-caspe",
+      "start": 1412,
+      "type": "ruler",
+      "title": {
+        "en": "Nine delegates meet at Caspe and choose Ferdinand of Antequera, a Castilian prince, as king after Martin I dies without an heir",
+        "es": "Nueve compromisarios se reúnen en Caspe y eligen rey a Fernando de Antequera, un príncipe castellano, tras morir Martín I sin heredero",
+        "zh": "马丁一世无嗣而终后，九名代表在卡斯佩集会，推选卡斯蒂利亚王子安特克拉的费尔南多为国王"
+      },
+      "sources": [
+        {
+          "citation": "Lugares con historia. \"Compromiso de Caspe, 1412\" (nine delegates; Martin I died in 1410).",
+          "url": "https://lugaresconhistoria.com/compromiso-de-caspe-1412"
+        },
+        {
+          "citation": "Spain Then and Now. \"Catalonia in the 15th century\" (the 1412 election, called rigged).",
+          "url": "https://www.spainthenandnow.com/spanish-history/catalonia-history-15th-century"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "One source calls the election rigged. Others present it as a negotiated settlement.",
+        "es": "Una fuente califica la elección de amañada. Otras la presentan como un acuerdo negociado.",
+        "zh": "有一份资料称这次推选受到操纵，另一些则把它描述为协商达成的方案。"
+      }
+    },
+    {
+      "id": "naples-1442",
+      "start": 1442,
+      "end": 1443,
+      "type": "conflict",
+      "title": {
+        "en": "Alfonso V takes the Kingdom of Naples and moves his court there",
+        "es": "Alfonso V toma el Reino de Nápoles y traslada allí su corte",
+        "zh": "阿方索五世夺取那不勒斯王国，并把宫廷迁往那里"
+      },
+      "sources": [
+        {
+          "citation": "Memorients. \"Alfonso the Magnanimous of Aragon and the politics of the reconquest of Naples, 1420 to 1450\" (Naples taken in 1442; the court stays until 1458).",
+          "url": "https://memorients.com/articles/alfonso-the-magnanimous-of-aragon-and-the-politics-of-the-reconquest-of-naples-1420-1450"
+        },
+        {
+          "citation": "Spain Then and Now. \"Catalonia in the 15th century\" (the conquest of the kingdom in 1442 to 1443).",
+          "url": "https://www.spainthenandnow.com/spanish-history/catalonia-history-15th-century"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "One source gives 1442, another 1442 to 1443.",
+        "es": "Una fuente da 1442 y otra 1442 a 1443.",
+        "zh": "一份资料给出1442年，另一份给出1442年至1443年。"
+      },
+      "place": {
+        "name": {
+          "en": "Naples",
+          "es": "Nápoles",
+          "zh": "那不勒斯"
+        },
+        "lat": 40.8518,
+        "lon": 14.2681
+      }
+    },
+    {
+      "id": "ferdinand-ii-king",
+      "start": 1479,
+      "type": "ruler",
+      "title": {
+        "en": "Ferdinand II becomes king of Aragon; his marriage to Isabella joins two crowns, not two kingdoms, and each keeps its own laws and coinage",
+        "es": "Fernando II se convierte en rey de Aragón; su matrimonio con Isabel une dos coronas, no dos reinos, y cada una conserva sus leyes y su moneda",
+        "zh": "费尔南多二世成为阿拉贡国王；他与伊莎贝拉的婚姻联合的是两个王室而非两个王国，各自保留自己的法律和货币"
+      },
+      "sources": [
+        {
+          "citation": "Galería de las Colecciones Reales. \"Isabella I of Castile\" (Ferdinand becomes king in 1479; separate laws and currencies).",
+          "url": "https://www.galeriadelascoleccionesreales.es/en/monarch/isabella-i-of-castile/46c42cc8-bdd9-4a79-074a-e551d5ea1ab3"
+        },
+        {
+          "citation": "Encyclopedia.com. \"Isabella I (1451-1504)\" (the kingdoms stay separate under the two monarchs).",
+          "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/isabella-i-1451-1504"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "nueva-planta",
+      "start": 1707,
+      "end": 1716,
+      "type": "collapse",
+      "title": {
+        "en": "Philip V's Nueva Planta decrees abolish the separate laws of Valencia and Aragon (1707), Mallorca (1715) and Catalonia (1716), after Barcelona falls on 11 September 1714",
+        "es": "Los decretos de Nueva Planta de Felipe V abolen las leyes propias de Valencia y Aragón (1707), Mallorca (1715) y Cataluña (1716), tras la caída de Barcelona el 11 de septiembre de 1714",
+        "zh": "1714年9月11日巴塞罗那陷落后，腓力五世的新基本法令废除了瓦伦西亚和阿拉贡（1707年）、马略卡（1715年）与加泰罗尼亚（1716年）各自的法律"
+      },
+      "sources": [
+        {
+          "citation": "Cervantes Virtual blog. \"Decret de Nova Planta\" (Valencia and Aragon on 29 June 1707, Mallorca on 28 November 1715, Catalonia on 16 January 1716).",
+          "url": "https://blog.cervantesvirtual.com/decret-de-nova-planta/"
+        },
+        {
+          "citation": "Generalitat de Catalunya. National Day of Catalonia, \"Historical events\" (Barcelona falls on 11 September 1714; the 1716 decree abolishes Catalan institutions).",
+          "url": "https://tramits.gencat.cat/en/diada-nacional-de-catalunya/historia/efemeride/"
+        },
+        {
+          "citation": "Femturisme. \"Recalls the facts of 1714\" (the fall of Barcelona).",
+          "url": "https://www.femturisme.cat/en/findout/recalls-the-facts-of-1714"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Barcelona",
+          "es": "Barcelona",
+          "zh": "巴塞罗那"
+        },
+        "lat": 41.3874,
+        "lon": 2.1686
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "consolat-de-mar",
+      "text": {
+        "en": "Barcelona had a Consolat de Mar, a court for maritime trade, from 1347. Its seat, built in the late 14th century, was used until 1714.",
+        "es": "Barcelona tuvo desde 1347 un Consolat de Mar, un tribunal de comercio marítimo. Su sede, construida a finales del siglo XIV, se usó hasta 1714.",
+        "zh": "巴塞罗那自1347年起设有海事领事法庭（Consolat de Mar），负责海上贸易事务。其法庭大楼建于14世纪末，使用到1714年。"
+      },
+      "start": 1347,
+      "end": 1714,
+      "sources": [
+        {
+          "citation": "Enciclopèdia Catalana. \"Els consolats de mar i comerç\" (Barcelona 1347, Valencia 1283).",
+          "url": "https://www.enciclopedia.cat/historia.-politica-societat-i-cultura-dels-paisos-catalans/els-consolats-de-mar-i-comerc"
+        },
+        {
+          "citation": "Barcelonina. Article on the Consolat de Mar building (late 14th century; used until 1714).",
+          "url": "https://www.barcelonina.com/en/?p=232548"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

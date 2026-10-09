@@ -1,0 +1,366 @@
+{
+  "id": "kingdom-of-portugal",
+  "region": "europe",
+  "wikidataId": "Q45670",
+  "name": {
+    "en": "Kingdom of Portugal",
+    "es": "Reino de Portugal",
+    "zh": "葡萄牙王国"
+  },
+  "nativeName": {
+    "text": "Reino de Portugal",
+    "lang": "pt"
+  },
+  "aliases": [
+    "Portugal",
+    "Portuguese monarchy",
+    "Monarquia portuguesa",
+    "House of Aviz",
+    "House of Braganza",
+    "葡萄牙"
+  ],
+  "description": {
+    "en": "The kingdom Afonso Henriques proclaimed after Ourique in 1139. Its ships took Ceuta in 1415 and reached India in 1498. It was joined to the Spanish crown from 1580 to 1640 and ended with the proclamation of the republic on 5 October 1910.",
+    "es": "El reino que Afonso Henriques proclamó tras Ourique en 1139. Sus naves tomaron Ceuta en 1415 y llegaron a la India en 1498. Estuvo unido a la corona española de 1580 a 1640 y terminó con la proclamación de la república el 5 de octubre de 1910.",
+    "zh": "阿方索·恩里克斯在1139年奥里克战役后建立的王国。其船队1415年夺取休达，1498年抵达印度。1580年至1640年与西班牙王室合并，1910年10月5日共和国宣告成立后终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kingdom-of-portugal",
+      "earliestStart": 1139,
+      "latestStart": 1143,
+      "earliestEnd": 1910,
+      "latestEnd": 1910,
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Portugal, \"The Reconquest and the founding of Portugal\" (Afonso defeats a Muslim army at Ourique in 1139).",
+          "url": "https://countrystudies.us/portugal/9.htm"
+        },
+        {
+          "citation": "Library of Congress. Portugal country guide, introduction (1143 kingdom recognised; 5 October 1910 republic proclaimed).",
+          "url": "https://guides.loc.gov/portugal-country-guide/introduction"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Afonso was proclaimed king after Ourique in 1139. Castile and León recognised the kingdom at Zamora in 1143, and the pope acknowledged Afonso as king in 1179.",
+        "es": "Afonso fue proclamado rey tras Ourique en 1139. Castilla y León reconoció el reino en Zamora en 1143, y el papa reconoció a Afonso como rey en 1179.",
+        "zh": "阿方索在1139年奥里克战役后被拥立为王。卡斯蒂利亚-莱昂于1143年在萨莫拉承认该王国，教宗于1179年承认阿方索为国王。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "ourique-and-kingship",
+      "start": 1139,
+      "type": "founding",
+      "title": {
+        "en": "Afonso Henriques defeats a Muslim army at Ourique and is proclaimed King Afonso I",
+        "es": "Afonso Henriques derrota a un ejército musulmán en Ourique y es proclamado rey Afonso I",
+        "zh": "阿方索·恩里克斯在奥里克击败穆斯林军队，被拥立为国王阿方索一世"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Portugal (Afonso defeats a Muslim army at Ourique in 1139).",
+          "url": "https://countrystudies.us/portugal/9.htm"
+        },
+        {
+          "citation": "Washington and Lee University, Afonso Henriques project (25 July 1139; proclaimed king afterwards).",
+          "url": "https://afonsohenriques.academic.wlu.edu/?p=213"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give the battle as 25 or 26 July 1139. Tradition says his troops beat five Muslim leaders. The Library of Congress guide dates the recognition of the kingdom to 1143.",
+        "es": "Las fuentes dan la batalla el 25 o el 26 de julio de 1139. La tradición dice que sus tropas vencieron a cinco jefes musulmanes. La guía de la Biblioteca del Congreso fecha el reconocimiento del reino en 1143.",
+        "zh": "各种资料把这场战役定在1139年7月25日或26日。传说他的军队击败了五位穆斯林首领。美国国会图书馆的指南把王国获得承认定在1143年。"
+      }
+    },
+    {
+      "id": "recognition-zamora-and-rome",
+      "start": 1143,
+      "end": 1179,
+      "type": "ruler",
+      "title": {
+        "en": "Castile and León recognise the kingdom at Zamora in 1143, and Pope Alexander III acknowledges Afonso as king in 1179",
+        "es": "Castilla y León reconoce el reino en Zamora en 1143, y el papa Alejandro III reconoce a Afonso como rey en 1179",
+        "zh": "1143年卡斯蒂利亚-莱昂在萨莫拉承认该王国，1179年教宗亚历山大三世承认阿方索为国王"
+      },
+      "sources": [
+        {
+          "citation": "New World Encyclopedia. \"Afonso I\" (the Treaty of Zamora in 1143; the papal acknowledgement in 1179).",
+          "url": "https://www.newworldencyclopedia.org/entry/Afonso_I"
+        },
+        {
+          "citation": "Library of Congress Country Studies, Portugal (the pope acknowledges Afonso as king in 1179).",
+          "url": "https://countrystudies.us/portugal/10.htm"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "lisbon-1147",
+      "start": 1147,
+      "type": "conflict",
+      "title": {
+        "en": "Afonso takes Lisbon after a siege of about four months, helped by crusaders on their way to the Holy Land",
+        "es": "Afonso toma Lisboa tras un asedio de unos cuatro meses, con ayuda de cruzados que iban camino de Tierra Santa",
+        "zh": "阿方索在前往圣地的十字军协助下，经约四个月围攻夺取里斯本"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Portugal (Afonso captures Lisbon after a seventeen-week siege, with crusaders bound for Palestine).",
+          "url": "https://countrystudies.us/portugal/10.htm"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Visiting the ruins of Lisbon's ancient and medieval past\" (taken in 1147 with crusader help).",
+          "url": "https://www.worldhistory.org/article/1361/visiting-the-ruins-of-lisbons-ancient-and-medieval/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lisbon",
+          "es": "Lisboa",
+          "zh": "里斯本"
+        },
+        "lat": 38.7223,
+        "lon": -9.1393
+      }
+    },
+    {
+      "id": "aljubarrota",
+      "start": 1385,
+      "type": "conflict",
+      "title": {
+        "en": "The cortes declare John of Aviz king, and the Portuguese beat a Castilian army at Aljubarrota on 14 August",
+        "es": "Las cortes proclaman rey a Juan de Avís, y los portugueses derrotan a un ejército castellano en Aljubarrota el 14 de agosto",
+        "zh": "科尔特斯宣布阿维斯的若昂为国王，葡萄牙人于8月14日在阿茹巴罗塔击败卡斯蒂利亚军队"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Portugal (the 1383 to 1385 crisis; the cortes of 1385; the battle on 14 August 1385; the Aviz dynasty).",
+          "url": "https://countrystudies.us/portugal/16.htm"
+        },
+        {
+          "citation": "Museus e Monumentos de Portugal. \"Monastery of Batalha\" (built in thanks for the victory of 14 August 1385).",
+          "url": "https://museusemonumentos.pt/en/museus-e-monumentos/mosteiro-da-batalha"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Aljubarrota",
+          "es": "Aljubarrota",
+          "zh": "阿茹巴罗塔"
+        },
+        "lat": 39.5333,
+        "lon": -8.9
+      }
+    },
+    {
+      "id": "ceuta-1415",
+      "start": 1415,
+      "type": "conflict",
+      "title": {
+        "en": "John I takes Ceuta, with Prince Henry in the assault, and Portuguese overseas expansion begins",
+        "es": "Juan I toma Ceuta, con el infante Enrique en el asalto, y comienza la expansión portuguesa de ultramar",
+        "zh": "若昂一世攻占休达，恩里克王子参加了攻城，葡萄牙开始海外扩张"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Portugal (overseas expansion begins when John I seizes Ceuta in 1415).",
+          "url": "https://countrystudies.us/portugal/22.htm"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Prince Henry the Navigator\" (about 20,000 men; Henry is knighted for the capture).",
+          "url": "https://www.worldhistory.org/Prince_Henry_the_Navigator/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "da-gama-calicut",
+      "start": 1498,
+      "type": "invention",
+      "title": {
+        "en": "Vasco da Gama's fleet reaches Calicut, the first direct voyage from Portugal to India",
+        "es": "La flota de Vasco da Gama llega a Calicut, el primer viaje directo de Portugal a la India",
+        "zh": "瓦斯科·达·伽马的船队抵达卡利卡特，这是葡萄牙到印度的第一次直航"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Vasco da Gama\" (reaches Calicut in May 1498).",
+          "url": "https://www.worldhistory.org/Vasco_da_Gama/"
+        },
+        {
+          "citation": "Fordham University Internet Modern History Sourcebook. \"The voyage of Vasco da Gama, 1497 to 1499\" (reached Calicut in May 1498).",
+          "url": "https://sourcebooks.fordham.edu/mod/1497degama.asp"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Calicut",
+          "es": "Calicut",
+          "zh": "卡利卡特"
+        },
+        "lat": 11.2588,
+        "lon": 75.7804
+      }
+    },
+    {
+      "id": "iberian-union",
+      "start": 1578,
+      "end": 1580,
+      "type": "collapse",
+      "title": {
+        "en": "Sebastian is defeated and presumed killed at Alcácer Quibir in 1578; after Cardinal Henrique dies, Philip II of Spain becomes Philip I of Portugal in 1580",
+        "es": "Sebastián es derrotado y se le da por muerto en Alcazarquivir en 1578; tras la muerte del cardenal Enrique, Felipe II de España se convierte en Felipe I de Portugal en 1580",
+        "zh": "1578年塞巴斯蒂昂在阿尔卡塞尔基维尔战败，被认为已阵亡；亨利克枢机去世后，西班牙的腓力二世于1580年成为葡萄牙的腓力一世"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Portugal (Sebastian's defeat, Henrique's death, and Philip II as king in 1580).",
+          "url": "https://countrystudies.us/portugal/28.htm"
+        },
+        {
+          "citation": "History Atlas. \"Battle of Alcácer Quibir\" (4 August 1578; the end of the Aviz dynasty; a sixty-year union).",
+          "url": "https://www.historyatlas.com/topics/alcacer-quibir-battle-of/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "restoration-1640",
+      "start": 1640,
+      "type": "founding",
+      "title": {
+        "en": "A coup on 1 December 1640 arrests the Spanish governor at Lisbon, and the Duke of Braganza becomes King John IV",
+        "es": "Un golpe el 1 de diciembre de 1640 detiene al gobernador español en Lisboa, y el duque de Braganza se convierte en el rey Juan IV",
+        "zh": "1640年12月1日一场政变在里斯本逮捕了西班牙总督，布拉干萨公爵成为国王若昂四世"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Portugal (the coup of 1 December; Braganza becomes John IV).",
+          "url": "https://countrystudies.us/portugal/29.htm"
+        },
+        {
+          "citation": "Library of Congress. Portugal country guide, introduction (1 December 1640, independence re-established after sixty years of Spanish rule).",
+          "url": "https://guides.loc.gov/portugal-country-guide/introduction"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lisbon",
+          "es": "Lisboa",
+          "zh": "里斯本"
+        },
+        "lat": 38.7223,
+        "lon": -9.1393
+      }
+    },
+    {
+      "id": "lisbon-earthquake",
+      "start": 1755,
+      "type": "collapse",
+      "title": {
+        "en": "An earthquake on All Saints' Day, 1 November, followed by a tsunami, wrecks Lisbon",
+        "es": "Un terremoto el día de Todos los Santos, el 1 de noviembre, seguido de un maremoto, arrasa Lisboa",
+        "zh": "11月1日诸圣节，一场地震及随后的海啸摧毁了里斯本"
+      },
+      "sources": [
+        {
+          "citation": "U.S. Geological Survey. \"Today in earthquake history, 1 November\" (Lisbon, 1755).",
+          "url": "https://earthquake.usgs.gov/learn/today/index.php?day=1&month=11"
+        },
+        {
+          "citation": "NOAA Science On a Sphere. \"Tsunami historical series: Lisbon 1755\".",
+          "url": "https://sos.noaa.gov/catalog/datasets/tsunami-historical-series-lisbon-1755/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lisbon",
+          "es": "Lisboa",
+          "zh": "里斯本"
+        },
+        "lat": 38.7223,
+        "lon": -9.1393
+      }
+    },
+    {
+      "id": "republic-1910",
+      "start": 1910,
+      "type": "collapse",
+      "title": {
+        "en": "The republic is proclaimed on 5 October 1910 and King Manuel II leaves for Britain",
+        "es": "Se proclama la república el 5 de octubre de 1910 y el rey Manuel II parte hacia Gran Bretaña",
+        "zh": "1910年10月5日共和国宣告成立，国王曼努埃尔二世前往英国"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Portugal (provisional government on 5 October; Manuel II flees to Britain).",
+          "url": "https://countrystudies.us/portugal/40.htm"
+        },
+        {
+          "citation": "Library of Congress. Portugal country guide, introduction (5 October 1910, republic proclaimed).",
+          "url": "https://guides.loc.gov/portugal-country-guide/introduction"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lisbon",
+          "es": "Lisboa",
+          "zh": "里斯本"
+        },
+        "lat": 38.7223,
+        "lon": -9.1393
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "all-saints-1755",
+      "text": {
+        "en": "The 1755 earthquake struck on All Saints' Day, when many of Lisbon's roughly 250,000 people were in church.",
+        "es": "El terremoto de 1755 llegó el día de Todos los Santos, cuando muchos de los unos 250.000 habitantes de Lisboa estaban en la iglesia.",
+        "zh": "1755年的地震发生在诸圣节，当时里斯本约25万居民中有许多人正在教堂里。"
+      },
+      "start": 1755,
+      "end": 1755,
+      "sources": [
+        {
+          "citation": "U.S. Geological Survey. \"Today in earthquake history, 1 November\" (All Saints' Day; Lisbon's population).",
+          "url": "https://earthquake.usgs.gov/learn/today/index.php?day=1&month=11"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "batalha-monastery",
+      "text": {
+        "en": "The monastery of Batalha was built in thanks for the victory at Aljubarrota on 14 August 1385.",
+        "es": "El monasterio de Batalha se construyó en agradecimiento por la victoria de Aljubarrota del 14 de agosto de 1385.",
+        "zh": "巴塔利亚修道院是为感谢1385年8月14日阿茹巴罗塔战役的胜利而修建的。"
+      },
+      "start": 1385,
+      "end": 1385,
+      "sources": [
+        {
+          "citation": "Museus e Monumentos de Portugal. \"Monastery of Batalha\" (built in thanks for the victory of 14 August 1385).",
+          "url": "https://museusemonumentos.pt/en/museus-e-monumentos/mosteiro-da-batalha"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
