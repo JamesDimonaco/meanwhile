@@ -599,6 +599,156 @@
       "id": "khwarazmian-empire",
       "region": "middle-east",
       "label": "Khwarazmian Empire"
+    },
+    {
+      "id": "macedon",
+      "region": "europe",
+      "label": "Kingdom of Macedon"
+    },
+    {
+      "id": "scythians",
+      "region": "europe",
+      "label": "Scythians"
+    },
+    {
+      "id": "dacia",
+      "region": "europe",
+      "label": "Dacia"
+    },
+    {
+      "id": "visigothic-kingdom",
+      "region": "europe",
+      "label": "Visigothic Kingdom"
+    },
+    {
+      "id": "ostrogothic-kingdom",
+      "region": "europe",
+      "label": "Ostrogothic Kingdom"
+    },
+    {
+      "id": "lombard-kingdom",
+      "region": "europe",
+      "label": "Lombard Kingdom"
+    },
+    {
+      "id": "merovingian-kingdom",
+      "region": "europe",
+      "label": "Merovingian Kingdom"
+    },
+    {
+      "id": "al-andalus",
+      "region": "europe",
+      "label": "Al-Andalus"
+    },
+    {
+      "id": "crown-of-castile",
+      "region": "europe",
+      "label": "Crown of Castile"
+    },
+    {
+      "id": "crown-of-aragon",
+      "region": "europe",
+      "label": "Crown of Aragon"
+    },
+    {
+      "id": "kingdom-of-portugal",
+      "region": "europe",
+      "label": "Kingdom of Portugal"
+    },
+    {
+      "id": "kingdom-of-france",
+      "region": "europe",
+      "label": "Kingdom of France"
+    },
+    {
+      "id": "kingdom-of-england",
+      "region": "europe",
+      "label": "Kingdom of England"
+    },
+    {
+      "id": "kievan-rus",
+      "region": "europe",
+      "label": "Kievan Rus'"
+    },
+    {
+      "id": "grand-duchy-of-moscow",
+      "region": "europe",
+      "label": "Grand Duchy of Moscow"
+    },
+    {
+      "id": "russian-empire",
+      "region": "europe",
+      "label": "Russian Empire"
+    },
+    {
+      "id": "polish-lithuanian-commonwealth",
+      "region": "europe",
+      "label": "Polish-Lithuanian Commonwealth"
+    },
+    {
+      "id": "kingdom-of-hungary",
+      "region": "europe",
+      "label": "Kingdom of Hungary"
+    },
+    {
+      "id": "bulgarian-empire",
+      "region": "europe",
+      "label": "Bulgarian Empire"
+    },
+    {
+      "id": "republic-of-venice",
+      "region": "europe",
+      "label": "Republic of Venice"
+    },
+    {
+      "id": "hanseatic-league",
+      "region": "europe",
+      "label": "Hanseatic League"
+    },
+    {
+      "id": "kalmar-union",
+      "region": "europe",
+      "label": "Kalmar Union"
+    },
+    {
+      "id": "swedish-empire",
+      "region": "europe",
+      "label": "Swedish Empire"
+    },
+    {
+      "id": "kingdom-of-prussia",
+      "region": "europe",
+      "label": "Kingdom of Prussia"
+    },
+    {
+      "id": "habsburg-monarchy",
+      "region": "europe",
+      "label": "Habsburg Monarchy"
+    },
+    {
+      "id": "spanish-empire",
+      "region": "europe",
+      "label": "Spanish Empire"
+    },
+    {
+      "id": "portuguese-empire",
+      "region": "europe",
+      "label": "Portuguese Empire"
+    },
+    {
+      "id": "dutch-republic",
+      "region": "europe",
+      "label": "Dutch Republic"
+    },
+    {
+      "id": "british-empire",
+      "region": "europe",
+      "label": "British Empire"
+    },
+    {
+      "id": "first-french-empire",
+      "region": "europe",
+      "label": "First French Empire"
     }
   ]
 }
