@@ -1,0 +1,209 @@
+{
+  "id": "funan",
+  "region": "asia-pacific",
+  "wikidataId": "Q867782",
+  "name": {
+    "en": "Funan",
+    "es": "Reino de Funan",
+    "zh": "扶南"
+  },
+  "nativeName": {
+    "text": "扶南",
+    "lang": "zh-Hans"
+  },
+  "aliases": [
+    "Kingdom of Funan",
+    "Fu Nan",
+    "Oc Eo"
+  ],
+  "description": {
+    "en": "A trading state in the Mekong delta that linked India and China by sea. It is known mostly from Chinese accounts and from the port of Oc Eo, and it gave way to Chenla by about 550 to 650 CE.",
+    "es": "Estado comercial del delta del Mekong que unió India y China por mar. Se conoce sobre todo por fuentes chinas y por el puerto de Oc Eo, y cedió ante Chenla entre los años 550 y 650 d. C. aproximadamente.",
+    "zh": "湄公河三角洲的贸易国家，以海路连接印度与中国。我们主要通过中国史籍和澳盖港口遗址了解它，约公元550至650年间被真腊取代。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "funan-period",
+      "earliestStart": 1,
+      "latestStart": 100,
+      "earliestEnd": 550,
+      "latestEnd": 650,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Funan.\" (c. 50 to c. 550 CE; absorbed by Chenla in the 6th century).",
+          "url": "https://www.britannica.com/place/Funan"
+        },
+        {
+          "citation": "chinaknowledge.de. \"Funan 扶南.\" (1st to 7th century; taken over by Zhenla around 650).",
+          "url": "http://www.chinaknowledge.de/History/Altera/funan.html"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Funan's origins and extent are debated, and it is known mainly through Chinese records. Sources place its end between about 550 and 650.",
+        "es": "Los orígenes y la extensión de Funan son objeto de debate, y se conoce sobre todo por registros chinos. Las fuentes sitúan su final entre los años 550 y 650 aproximadamente.",
+        "zh": "扶南的起源和疆域尚有争议，主要依靠中国史籍了解。各种资料把它的终结定在约公元550年至650年之间。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 50,
+      "type": "founding",
+      "title": {
+        "en": "A kingdom known to the Chinese as Funan arises in the Mekong delta",
+        "es": "Surge en el delta del Mekong un reino que los chinos llamaron Funan",
+        "zh": "湄公河三角洲出现了中国人称为扶南的王国"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Funan.\"",
+          "url": "https://www.britannica.com/place/Funan"
+        },
+        {
+          "citation": "chinaknowledge.de. \"Funan 扶南.\"",
+          "url": "http://www.chinaknowledge.de/History/Altera/funan.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date is approximate. The founding stories come from Chinese writers, not from Funan's own records.",
+        "es": "La fecha es aproximada. Los relatos de fundación proceden de autores chinos, no de registros del propio Funan.",
+        "zh": "这一年代只是大致估计。建国传说出自中国文献，而非扶南自身的记录。"
+      }
+    },
+    {
+      "id": "oc-eo",
+      "start": 150,
+      "type": "invention",
+      "title": {
+        "en": "The port of Oc Eo trades with India, China and the wider Indian Ocean",
+        "es": "El puerto de Oc Eo comercia con la India, China y el océano Índico",
+        "zh": "澳盖港与印度、中国及印度洋各地通商"
+      },
+      "sources": [
+        {
+          "citation": "Angkor Database. \"Early China and the Indian Ocean networks.\" (Oc Eo as the main maritime link between coastal China and the Indian Ocean in the mid-third century).",
+          "url": "https://angkordatabase.asia/publications/early-china-and-the-indian-ocean-networks"
+        },
+        {
+          "citation": "Coedès, George (1947). \"Fouilles en Cochinchine: Le site de Go Oc Eo, ancien port du royaume de Fou-nan.\" Artibus Asiae 10(3), summarised at Angkor Database. (sea contacts with the Gulf of Siam, Malaysia, India, Indonesia, Iran and the Mediterranean).",
+          "url": "https://angkordatabase.asia/publications/excavations-in-cochinchina-the-site-of-go-oc-eo-former-port-of-the-funan-kingdom"
+        },
+        {
+          "citation": "Wikipedia. \"Óc Eo.\" (port in use from the 2nd century BC to the 12th century AD).",
+          "url": "https://en.wikipedia.org/wiki/%C3%93c_Eo"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia says the port was in use from the 2nd century BC to the 12th century AD. The start year here marks the earliest dated find, a Roman medallion of 152 that Coedès reports, not the port's founding.",
+        "es": "Wikipedia dice que el puerto estuvo en uso desde el siglo II a. C. hasta el siglo XII d. C. El año de inicio señala el hallazgo fechado más antiguo, un medallón romano de 152 que recoge Coedès, no la fundación del puerto.",
+        "zh": "维基百科称该港从公元前2世纪到公元12世纪一直在使用。此处的起始年份指最早有年代可考的出土物，即赛代斯（Coedès）记载的152年罗马纪念章，并非建港之年。"
+      }
+    },
+    {
+      "id": "tribute-to-china",
+      "start": 223,
+      "end": 588,
+      "type": "ruler",
+      "title": {
+        "en": "Funan's kings send tribute missions to the Chinese courts",
+        "es": "Los reyes de Funan envían misiones de tributo a las cortes chinas",
+        "zh": "扶南国王多次遣使向中国朝廷朝贡"
+      },
+      "sources": [
+        {
+          "citation": "chinaknowledge.de. \"Funan 扶南.\" (missions recorded 223 to 588).",
+          "url": "http://www.chinaknowledge.de/History/Altera/funan.html"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Funan.\" (tribute to China from the 3rd to the 6th century).",
+          "url": "https://www.britannica.com/place/Funan"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "wu-envoys",
+      "start": 250,
+      "type": "ruler",
+      "title": {
+        "en": "The Wu court sends the envoys Kang Tai and Zhu Ying to Funan",
+        "es": "La corte de Wu envía a los embajadores Kang Tai y Zhu Ying a Funan",
+        "zh": "吴国朝廷派康泰和朱应出使扶南"
+      },
+      "sources": [
+        {
+          "citation": "chinaknowledge.de. \"Funan 扶南.\" (around 250).",
+          "url": "http://www.chinaknowledge.de/History/Altera/funan.html"
+        },
+        {
+          "citation": "Angkor Database. \"Early China and the Indian Ocean networks.\" (mid-third century).",
+          "url": "https://angkordatabase.asia/publications/early-china-and-the-indian-ocean-networks"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "chinaknowledge.de says around 250 and Angkor Database says the mid-third century. The exact year is not fixed.",
+        "es": "chinaknowledge.de dice hacia 250 y Angkor Database dice mediados del siglo III. El año exacto no está fijado.",
+        "zh": "chinaknowledge.de称约250年，Angkor Database称3世纪中叶。确切年份尚无定论。"
+      }
+    },
+    {
+      "id": "absorbed-by-chenla",
+      "start": 550,
+      "end": 650,
+      "type": "collapse",
+      "title": {
+        "en": "Funan is absorbed by Chenla",
+        "es": "Funan es absorbido por Chenla",
+        "zh": "扶南被真腊吞并"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Funan.\" (incorporated into Chenla in the 6th century).",
+          "url": "https://www.britannica.com/place/Funan"
+        },
+        {
+          "citation": "chinaknowledge.de. \"Funan 扶南.\" (swallowed by Zhenla around 650).",
+          "url": "http://www.chinaknowledge.de/History/Altera/funan.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources disagree on whether this was a conquest or a gradual shift of power, and on whether it happened nearer 550 or 650.",
+        "es": "Las fuentes discrepan sobre si fue una conquista o un traspaso gradual de poder, y sobre si ocurrió más cerca del 550 o del 650.",
+        "zh": "各种资料对这是征服还是权力的逐步转移存在分歧，对发生在550年前后还是650年前后也说法不一。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "roman-medallions",
+      "start": 138,
+      "end": 180,
+      "text": {
+        "en": "Gold medallions from the reign of Antoninus Pius, and possibly Marcus Aurelius, were found at Oc Eo.",
+        "es": "En Oc Eo se hallaron medallones de oro del reinado de Antonino Pío y posiblemente de Marco Aurelio.",
+        "zh": "澳盖出土了安敦尼·庇护时期、也可能是马可·奥勒留时期的金质纪念章。"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Óc Eo.\" (medallions of Antoninus Pius, and possibly Marcus Aurelius).",
+          "url": "https://en.wikipedia.org/wiki/%C3%93c_Eo"
+        },
+        {
+          "citation": "Coedès, George (1947). \"Fouilles en Cochinchine: Le site de Go Oc Eo, ancien port du royaume de Fou-nan.\" Artibus Asiae 10(3), summarised at Angkor Database. (a medal naming Antoninus Pius, 152 AD; a second one possibly Marcus Aurelius).",
+          "url": "https://angkordatabase.asia/publications/excavations-in-cochinchina-the-site-of-go-oc-eo-former-port-of-the-funan-kingdom"
+        }
+      ]
+    }
+  ]
+}

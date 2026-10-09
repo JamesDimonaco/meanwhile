@@ -1,0 +1,290 @@
+{
+  "id": "parthian-empire",
+  "region": "middle-east",
+  "wikidataId": "Q1986139",
+  "name": {
+    "en": "Parthian Empire",
+    "es": "Imperio parto",
+    "zh": "安息帝国"
+  },
+  "aliases": [
+    "Parthia",
+    "Arsacid Empire",
+    "Arsacid dynasty",
+    "Arsacids",
+    "Ashkanian",
+    "Imperio arsácida",
+    "安息",
+    "阿萨息斯王朝"
+  ],
+  "description": {
+    "en": "Ruled by the Arsacid dynasty from about 247 BCE, Parthia took Mesopotamia from the Seleucids, made Ctesiphon its capital and fought Rome for centuries. It ended in 224 CE, when Ardashir overthrew Artabanus IV.",
+    "es": "Gobernado por la dinastía arsácida desde aproximadamente 247 a. e. c., el Imperio parto arrebató Mesopotamia a los seléucidas, hizo de Ctesifonte su capital y combatió a Roma durante siglos. Terminó en 224 e. c., cuando Ardashir derrocó a Artabano IV.",
+    "zh": "安息自约公元前247年起由阿萨息斯王朝统治，从塞琉古人手中夺取美索不达米亚，以泰西封为都城，并与罗马交战数百年。公元224年，阿尔达希尔推翻阿尔达班四世，安息终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "parthian-period",
+      "earliestStart": -246,
+      "latestStart": -237,
+      "earliestEnd": 224,
+      "latestEnd": 226,
+      "sources": [
+        {
+          "citation": "Cuneiform Digital Library Initiative, \"Parthian (247 BC - 224 AD)\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p07ffbfphs3"
+        },
+        {
+          "citation": "Livius.org, \"Arsaces I\": the chronology of the Arsacid kings is less certain than that of the Seleucids, Ptolemies or Roman emperors.",
+          "url": "https://www.livius.org/articles/person/arsaces-i/"
+        },
+        {
+          "citation": "Wikidata, \"Parthian Empire\" (Q1986139): start 247 BCE, end 224 CE.",
+          "url": "https://www.wikidata.org/wiki/Q1986139"
+        }
+      ],
+      "periodoId": "p07ffbfphs3",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The usual start, 247 BCE, is the first year of the Parthian era. Livius dates the Parni takeover of Parthia and the rise of the dynasty between 245 and 238 BCE. The end is Ardashir's victory in 224 CE; Livius has him take Ctesiphon in 226.",
+        "es": "El inicio habitual, 247 a. e. c., es el primer año de la era parta. Livius sitúa la toma de Partia por los parnos y el ascenso de la dinastía entre 245 y 238 a. e. c. El final es la victoria de Ardashir en 224 e. c.; Livius lo hace tomar Ctesifonte en 226.",
+        "zh": "通常的起点公元前247年是安息纪年的第一年。Livius 把帕尼人夺取帕提亚、王朝兴起的时间定在公元前245年至前238年之间。终点是阿尔达希尔于公元224年获胜；Livius 记他在226年攻占泰西封。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "arsaces",
+      "start": -246,
+      "type": "founding",
+      "title": {
+        "en": "Arsaces I founds the Arsacid dynasty in Parthia after the local Seleucid governor rebels",
+        "es": "Arsaces I funda la dinastía arsácida en Partia tras la rebelión del gobernador seléucida local",
+        "zh": "当地塞琉古总督叛乱后，阿萨息斯一世在帕提亚建立阿萨息斯王朝"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Parthia (Empire)\".",
+          "url": "https://www.worldhistory.org/Parthia_(Empire)/"
+        },
+        {
+          "citation": "Livius.org, \"Arsaces I\".",
+          "url": "https://www.livius.org/articles/person/arsaces-i/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "247 BCE is the conventional date. Livius places the Parni takeover of Parthia between 245 and 238 BCE.",
+        "es": "247 a. e. c. es la fecha convencional. Livius sitúa la toma de Partia por los parnos entre 245 y 238 a. e. c.",
+        "zh": "公元前247年是通行的年份。Livius 把帕尼人夺取帕提亚的时间定在公元前245年至前238年之间。"
+      }
+    },
+    {
+      "id": "babylonia",
+      "start": -140,
+      "type": "conflict",
+      "title": {
+        "en": "Mithridates I takes Babylonia from the Seleucids, then Seleucia on the Tigris",
+        "es": "Mitrídates I arrebata Babilonia a los seléucidas y después toma Seleucia del Tigris",
+        "zh": "米特里达梯一世从塞琉古人手中夺取巴比伦尼亚，随后占领底格里斯河畔的塞琉西亚"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Arsaces VI, Mithradates I the Great\".",
+          "url": "https://www.livius.org/articles/person/arsaces-vi-mithradates-i-the-great/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Parthia (Empire)\".",
+          "url": "https://www.worldhistory.org/Parthia_(Empire)/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Livius dates Babylonia to April to June 141 BCE and Seleucia to July 141 BCE. World History Encyclopedia puts Seleucia a few years earlier.",
+        "es": "Livius fecha Babilonia entre abril y junio de 141 a. e. c. y Seleucia en julio de 141 a. e. c. La World History Encyclopedia sitúa Seleucia unos años antes.",
+        "zh": "Livius 把巴比伦尼亚定在公元前141年四月至六月，塞琉西亚定在同年七月。世界历史百科全书把塞琉西亚的陷落提前了几年。"
+      },
+      "place": {
+        "name": {
+          "en": "Seleucia on the Tigris",
+          "es": "Seleucia del Tigris",
+          "zh": "底格里斯河畔的塞琉西亚"
+        },
+        "lat": 33.09,
+        "lon": 44.52
+      }
+    },
+    {
+      "id": "ctesiphon-capital",
+      "start": -57,
+      "end": -56,
+      "type": "founding",
+      "title": {
+        "en": "Ctesiphon, beside Seleucia on the Tigris, becomes the royal capital under Orodes II",
+        "es": "Ctesifonte, junto a Seleucia del Tigris, se convierte en capital real bajo Orodes II",
+        "zh": "紧邻底格里斯河畔塞琉西亚的泰西封，在奥罗德斯二世时成为王都"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Parthia (Empire)\".",
+          "url": "https://www.worldhistory.org/Parthia_(Empire)/"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Parthian\", via PeriodO: the earliest capital was Mithradatkirt (Nisa); the later capital was Ctesiphon.",
+          "url": "http://n2t.net/ark:/99152/p08m57hs35q"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Livius says Ctesiphon was founded as a new city beside Seleucia after 141 BCE. When it became the main capital is not fixed; World History Encyclopedia gives 58 to 57 BCE.",
+        "es": "Livius dice que Ctesifonte se fundó como ciudad nueva junto a Seleucia después de 141 a. e. c. No está fijado cuándo pasó a ser la capital principal; la World History Encyclopedia da 58 a 57 a. e. c.",
+        "zh": "Livius 称泰西封是公元前141年之后在塞琉西亚旁新建的城市。它何时成为主要都城并无定论；世界历史百科全书给出的是公元前58年至前57年。"
+      },
+      "place": {
+        "name": {
+          "en": "Ctesiphon",
+          "es": "Ctesifonte",
+          "zh": "泰西封"
+        },
+        "lat": 33.09,
+        "lon": 44.58
+      }
+    },
+    {
+      "id": "carrhae",
+      "start": -52,
+      "type": "conflict",
+      "title": {
+        "en": "A Parthian army under Surena defeats the Roman general Crassus near Carrhae and takes his legion standards",
+        "es": "Un ejército parto al mando de Surena derrota al general romano Craso cerca de Carras y captura los estandartes de sus legiones",
+        "zh": "苏雷纳率领的安息军队在卡莱附近击败罗马将领克拉苏，缴获其军团军旗"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Surena\".",
+          "url": "https://www.livius.org/articles/person/surena/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Parthia (Empire)\".",
+          "url": "https://www.worldhistory.org/Parthia_(Empire)/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Carrhae (Harran)",
+          "es": "Carras (Harrán)",
+          "zh": "卡莱（哈兰）"
+        },
+        "lat": 36.86,
+        "lon": 39.03
+      }
+    },
+    {
+      "id": "roman-treaty",
+      "start": -19,
+      "type": "conflict",
+      "title": {
+        "en": "Rome and Parthia agree a peace treaty under Augustus and Phraates IV",
+        "es": "Roma y Partia acuerdan un tratado de paz bajo Augusto y Fraates IV",
+        "zh": "罗马与安息在奥古斯都和弗拉特斯四世在位时缔结和约"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Parthian Empire\": Tiberius negotiated a peace treaty with Phraates in 20 BCE.",
+          "url": "https://www.livius.org/articles/misc/parthian-empire/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Parthia (Empire)\" (in 20 BCE Augustus secured a long-term peace agreement with Phraates IV).",
+          "url": "https://www.worldhistory.org/Parthia_(Empire)/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Livius credits Tiberius with negotiating the treaty on Augustus's behalf; World History Encyclopedia credits Augustus. Both date it to 20 BCE.",
+        "es": "Livius atribuye a Tiberio la negociación del tratado en nombre de Augusto; la World History Encyclopedia lo atribuye a Augusto. Ambas lo fechan en 20 a. e. c.",
+        "zh": "Livius 称提比略代表奥古斯都谈成和约；世界历史百科全书则归于奥古斯都本人。两者都把和约定在公元前20年。"
+      }
+    },
+    {
+      "id": "trajan",
+      "start": 116,
+      "type": "conflict",
+      "title": {
+        "en": "Trajan takes Ctesiphon, but Hadrian gives up the conquered Mesopotamian provinces the next year",
+        "es": "Trajano toma Ctesifonte, pero Adriano abandona al año siguiente las provincias mesopotámicas conquistadas",
+        "zh": "图拉真攻占泰西封，但次年哈德良放弃了所征服的美索不达米亚各省"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Parthian Empire\".",
+          "url": "https://www.livius.org/articles/misc/parthian-empire/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Parthia (Empire)\".",
+          "url": "https://www.worldhistory.org/Parthia_(Empire)/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Ctesiphon",
+          "es": "Ctesifonte",
+          "zh": "泰西封"
+        },
+        "lat": 33.09,
+        "lon": 44.58
+      }
+    },
+    {
+      "id": "ardashir",
+      "start": 224,
+      "type": "collapse",
+      "title": {
+        "en": "Ardashir, a Persian vassal king, defeats the last Arsacid king, Artabanus IV, ending Parthian rule",
+        "es": "Ardashir, rey vasallo persa, derrota al último rey arsácida, Artabano IV, y pone fin al dominio parto",
+        "zh": "波斯藩王阿尔达希尔击败末代阿萨息斯王阿尔达班四世，安息统治终结"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Parthia (Empire)\".",
+          "url": "https://www.worldhistory.org/Parthia_(Empire)/"
+        },
+        {
+          "citation": "Livius.org, \"Parthian Empire\": Ardashir revolted in 224 and took Ctesiphon around 226.",
+          "url": "https://www.livius.org/articles/misc/parthian-empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date Ardashir's victory to 224 CE. Livius has him take Ctesiphon in 226.",
+        "es": "Las fuentes fechan la victoria de Ardashir en 224 e. c. Livius lo hace tomar Ctesifonte en 226.",
+        "zh": "史料把阿尔达希尔的胜利定在公元224年。Livius 记他在226年攻占泰西封。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "parthian-shot",
+      "start": -246,
+      "end": 224,
+      "text": {
+        "en": "Parthian horse archers shot backward at pursuers while riding away, a move still called the Parthian shot.",
+        "es": "Los arqueros a caballo partos disparaban hacia atrás a quienes los perseguían mientras se alejaban, una maniobra que aún se llama el disparo parto.",
+        "zh": "安息骑射手在策马退走时向身后的追兵放箭，这一战术至今仍称“安息回马箭”。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Parthia (Empire)\".",
+          "url": "https://www.worldhistory.org/Parthia_(Empire)/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

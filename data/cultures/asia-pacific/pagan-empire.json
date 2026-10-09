@@ -1,0 +1,234 @@
+{
+  "id": "pagan-empire",
+  "region": "asia-pacific",
+  "wikidataId": "Q888574",
+  "name": {
+    "en": "Pagan Kingdom",
+    "es": "Reino de Pagan",
+    "zh": "蒲甘王国"
+  },
+  "aliases": [
+    "Pagan Empire",
+    "Bagan",
+    "Bagan Kingdom",
+    "Pagan dynasty",
+    "First Burmese Empire"
+  ],
+  "description": {
+    "en": "The kingdom on the Irrawaddy that first united much of present-day Myanmar. Its kings and their subjects raised thousands of Buddhist temples and stupas at Bagan before the kingdom broke apart in the late 13th century under Mongol pressure.",
+    "es": "El reino del Irrawaddy que unió por primera vez buena parte del actual Myanmar. Sus reyes y súbditos levantaron miles de templos y estupas budistas en Bagan antes de que el reino se desintegrara a finales del siglo XIII bajo la presión mongola.",
+    "zh": "伊洛瓦底江畔的王国，首次统一了今缅甸的大部分地区。国王和臣民在蒲甘建起数以千计的佛寺与佛塔，13世纪末王国在蒙古的压力下瓦解。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "pagan-period",
+      "earliestStart": 849,
+      "latestStart": 1044,
+      "earliestEnd": 1287,
+      "latestEnd": 1297,
+      "sources": [
+        {
+          "citation": "Library of Congress Subject Headings, \"Pagan period, 849-1287\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p06c6g32jqh"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Myanmar.\" (The kingdom of Pagan, 849 to c. 1300).",
+          "url": "https://www.britannica.com/place/Myanmar"
+        },
+        {
+          "citation": "Wikipedia. \"Pagan Kingdom.\" (849 to 1297).",
+          "url": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+        }
+      ],
+      "periodoId": "p06c6g32jqh",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Britannica and PeriodO start the kingdom in 849, the date of the Hmannan chronicle. Wikipedia says that date becomes 876 once the chronicle is aligned to Anawrahta's inscriptional accession in 1044, and that radiocarbon dating of the city walls gives about 980 at the earliest. The bar is solid from 1044, the first firmly attested accession. The end runs from 1287, when Narathihapate was killed, to 1297, when the Myinsaing brothers overthrew the last Pagan king (Wikipedia). Britannica says only that by 1300 Pagan was no longer the centre of power.",
+        "es": "Britannica y PeriodO sitúan el inicio del reino en 849, la fecha de la crónica Hmannan. Wikipedia dice que esa fecha pasa a ser 876 si se ajusta la crónica a la subida al trono de Anawrahta en 1044, documentada por inscripciones, y que la datación por radiocarbono de las murallas da hacia 980 como pronto. La barra es sólida desde 1044, la primera subida al trono atestiguada con firmeza. El final va de 1287, cuando murió Narathihapate, a 1297, cuando los hermanos de Myinsaing derrocaron al último rey de Pagan (Wikipedia). Britannica solo dice que hacia 1300 Pagan ya no era el centro del poder.",
+        "zh": "大英百科全书和PeriodO把王国的开端定在849年，即《琉璃宫史》的纪年。维基百科称，按阿奴律陀1044年即位（有碑铭可证）重新推算，这一年应为876年，城墙的放射性碳测年最早约为980年。时间条从1044年起为实线，那是第一个确凿可考的即位年份。终点从1287年（那罗梯诃波帝被杀）延伸到1297年（敏塞三兄弟推翻最后一位蒲甘国王，据维基百科）。大英百科全书只说到1300年蒲甘已不再是权力中心。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 849,
+      "type": "founding",
+      "title": {
+        "en": "Pagan is founded on the Irrawaddy River",
+        "es": "Se funda Pagan a orillas del río Irrawaddy",
+        "zh": "蒲甘在伊洛瓦底江畔建立"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Pagan.\" (founded c. 849 CE).",
+          "url": "https://www.britannica.com/summary/Pagan-Myanmar"
+        },
+        {
+          "citation": "Wikipedia. \"Pagan Kingdom.\" (Hmannan chronicle date of 849; radiocarbon dating of the walls).",
+          "url": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica gives c. 849. That is the Hmannan chronicle's date, which Wikipedia converts to 876 against the inscriptional date of 1044. Radiocarbon dating of the walls points to about 980 at the earliest, and Burman settlement at Pagan is dated to the mid-to-late 9th century or later.",
+        "es": "Britannica da hacia 849. Es la fecha de la crónica Hmannan, que Wikipedia convierte en 876 según la fecha epigráfica de 1044. La datación por radiocarbono de las murallas apunta hacia 980 como pronto, y el asentamiento birmano en Pagan se sitúa a mediados o finales del siglo IX, o más tarde.",
+        "zh": "大英百科全书给出约849年，这是《琉璃宫史》的纪年；维基百科按1044年的碑铭年份把它换算为876年。城墙的放射性碳测年最早约为980年，缅人在蒲甘的定居则被定在9世纪中后期或更晚。"
+      }
+    },
+    {
+      "id": "anawrahta",
+      "start": 1044,
+      "type": "ruler",
+      "title": {
+        "en": "Anawrahta takes the throne and begins to unite the lands of present-day Myanmar",
+        "es": "Anawrahta asciende al trono y comienza a unificar las tierras del actual Myanmar",
+        "zh": "阿奴律陀登上王位，开始统一今缅甸一带的土地"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Myanmar.\" (In 1044 Anawrahta came to the throne at Pagan).",
+          "url": "https://www.britannica.com/place/Myanmar"
+        },
+        {
+          "citation": "Wikipedia. \"Pagan Kingdom.\" (Anawrahta's inscriptionally verified accession date of 1044).",
+          "url": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "thaton",
+      "start": 1057,
+      "type": "conflict",
+      "title": {
+        "en": "Anawrahta takes the Mon capital of Thaton and brings about 30,000 captives to Pagan",
+        "es": "Anawrahta toma Thaton, la capital mon, y lleva unos 30 000 cautivos a Pagan",
+        "zh": "阿奴律陀攻占孟人都城直通，把约三万名俘虏带回蒲甘"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Pagan kingdom.\" (30,000 Mon captives, including Theravada monks).",
+          "url": "https://www.britannica.com/place/Pagan-kingdom"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Anawrahta.\" (conquest of Thaton in 1057).",
+          "url": "https://www.ebsco.com/research-starters/history/anawrahta/"
+        },
+        {
+          "citation": "Wikipedia. \"Pagan Kingdom.\" (mainstream scholarship on Thaton in 1057; Aung-Thwin's challenge).",
+          "url": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica and EBSCO give the 1057 conquest as fact, following the chronicle tradition. Michael Aung-Thwin argues it is a post-Pagan legend with no contemporary evidence (Wikipedia, citing his work).",
+        "es": "Britannica y EBSCO dan la conquista de 1057 como un hecho, siguiendo la tradición de las crónicas. Michael Aung-Thwin sostiene que es una leyenda posterior a Pagan, sin pruebas de la época (Wikipedia, que cita su obra).",
+        "zh": "大英百科全书和EBSCO沿袭编年史传统，把1057年的征服当作史实。迈克尔·昂-图因（Michael Aung-Thwin）认为这是蒲甘之后才出现的传说，没有当时的证据（见维基百科对其著作的引述）。"
+      }
+    },
+    {
+      "id": "ananda-temple",
+      "start": 1090,
+      "end": 1091,
+      "type": "invention",
+      "title": {
+        "en": "King Kyanzittha founds the Ananda Temple at Pagan",
+        "es": "El rey Kyanzittha funda el templo de Ananda en Pagan",
+        "zh": "国王觉苏瓦在蒲甘创建阿难陀寺"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Ananda Temple.\" (founded in 1091 under King Kyanzittha).",
+          "url": "https://www.britannica.com/place/Ananda-Temple"
+        },
+        {
+          "citation": "Wikipedia. \"Ananda Temple.\" (groundbreaking c. 1090, completed 1105).",
+          "url": "https://en.wikipedia.org/wiki/Ananda_Temple"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica gives 1091 for the founding. Wikipedia gives groundbreaking about 1090 and completion in 1105.",
+        "es": "Britannica da 1091 para la fundación. Wikipedia da el inicio de las obras hacia 1090 y la terminación en 1105.",
+        "zh": "大英百科全书给出的创建年份是1091年；维基百科给出的动工年份约为1090年，完工为1105年。"
+      }
+    },
+    {
+      "id": "ngasaunggyan",
+      "start": 1277,
+      "type": "conflict",
+      "title": {
+        "en": "A Mongol army defeats King Narathihapate's forces at the Battle of Ngasaunggyan in Yunnan",
+        "es": "Un ejército mongol derrota a las fuerzas del rey Narathihapate en la batalla de Ngasaunggyan, en Yunnan",
+        "zh": "蒙古军队在云南击败国王那罗梯诃波帝的军队"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Battle of Ngasaunggyan.\"",
+          "url": "https://www.britannica.com/event/Battle-of-Ngasaunggyan"
+        },
+        {
+          "citation": "Wikipedia. \"Pagan Kingdom.\" (first Mongol invasion, 1277 to 1287).",
+          "url": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "mongol-end",
+      "start": 1287,
+      "end": 1297,
+      "type": "collapse",
+      "title": {
+        "en": "Narathihapate is killed in 1287, the vassals revolt, and power passes from the Pagan kings to the Myinsaing brothers",
+        "es": "Narathihapate muere asesinado en 1287, los vasallos se rebelan y el poder pasa de los reyes de Pagan a los hermanos de Myinsaing",
+        "zh": "那罗梯诃波帝1287年被杀，属国纷纷反叛，权力从蒲甘国王转到敏塞三兄弟手中"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Pagan Kingdom.\" (king assassinated by his son in 1287; Mongol-installed Kyawswa from 1289; Myinsaing takeover on 17 December 1297).",
+          "url": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Myanmar.\" (by 1300 Pagan no longer was the center of power).",
+          "url": "https://www.britannica.com/place/Myanmar"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia has the king assassinated by one of his sons in 1287 and the Mongols installing his son Kyawswa in 1289, with the Myinsaing takeover on 17 December 1297. Britannica's summary says the Mongols conquered Pagan in 1287, but its Myanmar article says it is unclear that Mongol armies reached the city.",
+        "es": "Wikipedia dice que el rey fue asesinado por uno de sus hijos en 1287, que los mongoles instalaron a su hijo Kyawswa en 1289 y que los hermanos de Myinsaing tomaron el poder el 17 de diciembre de 1297. El resumen de Britannica dice que los mongoles conquistaron Pagan en 1287, pero su artículo sobre Myanmar dice que no está claro que los ejércitos mongoles llegaran a la ciudad.",
+        "zh": "维基百科称国王1287年被其一个儿子刺杀，蒙古人1289年扶植其子觉苏瓦（Kyawswa），1297年12月17日敏塞三兄弟夺权。大英百科全书的简介说蒙古人1287年征服了蒲甘，但其缅甸条目称，蒙古军队是否真的到达该城并不清楚。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "bagan-monuments",
+      "start": 1044,
+      "end": 1287,
+      "text": {
+        "en": "UNESCO records 3,595 monuments at Bagan, including stupas and temples. Britannica estimates that Pagan had 3,000 to 4,000 temples and monasteries by the end of the kingdom.",
+        "es": "La UNESCO registra 3595 monumentos en Bagan, entre ellos estupas y templos. Britannica estima que Pagan tenía entre 3000 y 4000 templos y monasterios al final del reino.",
+        "zh": "联合国教科文组织记录了蒲甘的3595处古迹，包括佛塔和寺庙。大英百科全书估计，王国末期蒲甘有3000至4000座寺庙和僧院。"
+      },
+      "sources": [
+        {
+          "citation": "UNESCO World Heritage Centre. \"Bagan.\"",
+          "url": "https://whc.unesco.org/en/list/1588"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Myanmar.\" (an estimated 3,000 to 4,000 temples and monasteries by the time of its conquest).",
+          "url": "https://www.britannica.com/place/Myanmar"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

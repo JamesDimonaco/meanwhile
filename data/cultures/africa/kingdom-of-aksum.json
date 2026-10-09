@@ -1,0 +1,307 @@
+{
+  "id": "kingdom-of-aksum",
+  "region": "africa",
+  "wikidataId": "Q139377",
+  "name": {
+    "en": "Kingdom of Aksum",
+    "es": "Reino de Axum",
+    "zh": "阿克苏姆王国"
+  },
+  "aliases": [
+    "Aksum",
+    "Axum",
+    "Aksumite",
+    "Axumite",
+    "Aksumite Empire",
+    "Kingdom of Axum",
+    "Adulis",
+    "Ezana",
+    "Kaleb",
+    "Reino de Aksum",
+    "Imperio de Axum",
+    "Imperio aksumita",
+    "阿克苏姆帝国",
+    "阿克苏姆",
+    "埃扎纳"
+  ],
+  "description": {
+    "en": "A trading kingdom in the highlands of present-day Ethiopia and Eritrea, with its port at Adulis on the Red Sea. It minted its own coins, raised carved stone stelae and made Christianity its state religion in the 4th century.",
+    "es": "Reino comercial en las tierras altas de la actual Etiopía y Eritrea, con su puerto en Adulis, en el mar Rojo. Acuñó moneda propia, erigió estelas de piedra labrada e hizo del cristianismo su religión de Estado en el siglo IV.",
+    "zh": "位于今埃塞俄比亚和厄立特里亚高地的贸易王国，红海边的阿杜利斯是它的港口。王国铸造自己的钱币，竖立雕刻石碑，并在4世纪将基督教定为国教。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "aksum",
+      "earliestStart": 1,
+      "latestStart": 100,
+      "earliestEnd": 600,
+      "latestEnd": 800,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Aksum.\"",
+          "url": "https://www.britannica.com/place/Aksum-Ethiopia"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "No PeriodO definition exists. Aksum grew out of earlier highland states and has no founding date. The World History Encyclopedia has the empire gone by the late 8th century, while the Met dates its decline from the late 6th century, so the end is a wide fuzzy edge.",
+        "es": "No existe una definición en PeriodO. Axum surgió de estados anteriores de las tierras altas y no tiene fecha de fundación. La World History Encyclopedia sitúa la desaparición del imperio a finales del siglo VIII, mientras que el Met data su declive desde finales del siglo VI, así que el final es un borde difuso y amplio.",
+        "zh": "PeriodO中没有对应的定义。阿克苏姆由此前的高地诸国发展而来，没有确切的建国年份。世界历史百科认为帝国在8世纪后期已不复存在，而大都会博物馆则把衰落定在6世纪后期，因此终点是一段较宽的模糊边缘。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "trading-kingdom",
+      "name": {
+        "en": "Trading kingdom",
+        "es": "Reino comercial",
+        "zh": "贸易王国"
+      },
+      "start": 100,
+      "end": 329,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Aksum.\"",
+          "url": "https://www.britannica.com/place/Aksum-Ethiopia"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+        }
+      ]
+    },
+    {
+      "id": "christian-empire",
+      "name": {
+        "en": "Christian empire",
+        "es": "Imperio cristiano",
+        "zh": "基督教帝国"
+      },
+      "start": 330,
+      "end": 570,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Aksum.\"",
+          "url": "https://www.britannica.com/place/Aksum-Ethiopia"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+        }
+      ]
+    },
+    {
+      "id": "decline",
+      "name": {
+        "en": "Decline",
+        "es": "Declive",
+        "zh": "衰落"
+      },
+      "start": 571,
+      "end": 800,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Aksum.\"",
+          "url": "https://www.britannica.com/place/Aksum-Ethiopia"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "periplus-names-aksum",
+      "start": 60,
+      "type": "founding",
+      "title": {
+        "en": "A Greek sea-trade handbook, the Periplus of the Erythraean Sea, describes Adulis as a port and the city of the Aksumites as the hub of the ivory trade",
+        "es": "Un manual griego de comercio marítimo, el Periplo del mar Eritreo, describe Adulis como puerto y la ciudad de los aksumitas como centro del comercio de marfil",
+        "zh": "希腊航海贸易手册《红海环航记》把阿杜利斯描述为港口，把阿克苏姆人的城市写作象牙贸易的中心"
+      },
+      "sources": [
+        {
+          "citation": "Periplus of the Erythraean Sea, section 4 (Schoff translation, 1912), Wikisource.",
+          "url": "https://en.wikisource.org/wiki/The_Periplus_of_the_Erythraean_Sea"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Adulis.\"",
+          "url": "https://www.britannica.com/place/Adulis"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates the Periplus to the 1st century CE. The text carries no date, so 60 is a rounded estimate.",
+        "es": "Britannica data el Periplo en el siglo I e. c. El texto no lleva fecha, así que 60 es una estimación redondeada.",
+        "zh": "不列颠百科全书把《红海环航记》定在公元1世纪。文本本身没有标注年份，所以60年只是一个取整的估计。"
+      }
+    },
+    {
+      "id": "aksum-begins-coinage",
+      "start": 270,
+      "type": "invention",
+      "title": {
+        "en": "Aksum begins minting its own coins, mostly gold",
+        "es": "Axum empieza a acuñar moneda propia, sobre todo de oro",
+        "zh": "阿克苏姆开始铸造自己的钱币，以金币为主"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Coin: Coins of Africa.\"",
+          "url": "https://www.britannica.com/money/coin/Coins-of-Africa"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+        },
+        {
+          "citation": "The Metropolitan Museum of Art. \"Eastern and Southern Africa, 1-500 A.D.\" Heilbrunn Timeline of Art History, key events."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica and the World History Encyclopedia say only that minting began in the 3rd century. About 270 CE is the date in the Met's Heilbrunn Timeline.",
+        "es": "Britannica y la World History Encyclopedia solo dicen que la acuñación empezó en el siglo III. Hacia 270 e. c. es la fecha de la Heilbrunn Timeline del Met.",
+        "zh": "不列颠百科全书和世界历史百科只说铸币始于3世纪。约公元270年是大都会博物馆海尔布伦年表给出的年份。"
+      }
+    },
+    {
+      "id": "ezana-converts",
+      "start": 330,
+      "type": "ruler",
+      "title": {
+        "en": "King Ezana adopts Christianity and puts the cross on his coins in place of the old symbols",
+        "es": "El rey Ezana adopta el cristianismo y pone la cruz en sus monedas en lugar de los antiguos símbolos",
+        "zh": "国王埃扎纳皈依基督教，并在钱币上以十字架取代旧有的符号"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Ezana.\"",
+          "url": "https://www.britannica.com/biography/Ezana"
+        },
+        {
+          "citation": "The Metropolitan Museum of Art. \"Eastern and Southern Africa, 1-500 A.D.\" Heilbrunn Timeline of Art History, key events."
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources disagree on the year: Britannica gives about 321, the Met's timeline 330, and the World History Encyclopedia about 350. The date here is the Met's.",
+        "es": "Las fuentes no coinciden en el año: Britannica da hacia 321, la cronología del Met 330 y la World History Encyclopedia hacia 350. La fecha aquí es la del Met.",
+        "zh": "各来源对年份说法不一：不列颠百科全书给出约321年，大都会博物馆年表为330年，世界历史百科为约350年。这里采用大都会博物馆的年份。"
+      }
+    },
+    {
+      "id": "kaleb-invades-yemen",
+      "start": 525,
+      "type": "conflict",
+      "title": {
+        "en": "King Kaleb sends an army across the Red Sea and overruns the Himyarite kingdom in Yemen",
+        "es": "El rey Kaleb envía un ejército a través del mar Rojo y se impone al reino himyarita de Yemen",
+        "zh": "国王卡勒布派军渡过红海，征服也门的希木叶尔王国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Ella-Asbeha.\"",
+          "url": "https://www.britannica.com/biography/Ella-Asbeha"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica gives 525 for the final victory, after several failed attempts. It dates the Najran massacre that prompted the campaign to about 520 to 523.",
+        "es": "Britannica da 525 para la victoria final, tras varios intentos fallidos. Data la matanza de Náyran que motivó la campaña hacia 520 a 523.",
+        "zh": "不列颠百科全书把最终的胜利定在525年，此前有过几次失败的尝试。它把引发这场战役的纳季兰屠杀定在约520至523年。"
+      }
+    },
+    {
+      "id": "stela-toppled-and-decline",
+      "start": 575,
+      "type": "collapse",
+      "title": {
+        "en": "Stela 1, the largest of Aksum's stelae at about 32 metres, is toppled as the empire declines",
+        "es": "La estela 1, la mayor de las estelas de Axum, con unos 32 metros, es derribada mientras decae el imperio",
+        "zh": "阿克苏姆最大的石碑1号碑高约32米，在帝国衰落之际被推倒"
+      },
+      "sources": [
+        {
+          "citation": "Windmuller-Luna, Kristen (2015). \"Monumental Architecture of the Aksumite Empire.\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+          "url": "https://www.metmuseum.org/essays/monumental-architecture-and-stelae-of-the-aksumite-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Met dates the toppling to the late 6th century and, citing recent analysis, says it was brought down on purpose rather than failing during raising. Older accounts blamed a collapse while it was being raised. The World History Encyclopedia gives the length as 33 metres and says only that it lies fallen and broken.",
+        "es": "El Met data el derribo a finales del siglo VI y, citando análisis recientes, dice que fue derribada a propósito y no que fallara al alzarla. Relatos anteriores culpaban a un derrumbe durante su erección. La World History Encyclopedia da 33 metros de largo y solo dice que yace caída y rota.",
+        "zh": "大都会博物馆把石碑倒塌定在6世纪后期，并引用近期研究，称它是被人故意推倒，而不是在竖立时失败。早先的说法认为是竖立过程中倒塌。世界历史百科给出的长度为33米，只说它倒下后断裂。"
+      }
+    },
+    {
+      "id": "aksum-declines",
+      "start": 600,
+      "end": 800,
+      "type": "collapse",
+      "title": {
+        "en": "Aksum declines as Muslim Arab power grows and Christian shipping leaves the Red Sea",
+        "es": "Axum decae a medida que crece el poder árabe musulmán y los barcos cristianos abandonan el mar Rojo",
+        "zh": "随着穆斯林阿拉伯势力的壮大和基督教船只退出红海，阿克苏姆走向衰落"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+        },
+        {
+          "citation": "Encyclopaedia Britannica Students. \"kingdom of Aksum.\"",
+          "url": "https://kids.britannica.com/students/article/kingdom-of-Aksum/571178"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Both sources date the decline from the 7th century. The Met's timeline says Persian invaders had already undermined Aksum by the end of the 6th century. Sources differ on when the empire ended.",
+        "es": "Ambas fuentes datan el declive a partir del siglo VII. La cronología del Met dice que los invasores persas ya habían minado a Axum a finales del siglo VI. Las fuentes difieren sobre cuándo terminó el imperio.",
+        "zh": "两个来源都把衰落定在7世纪起。大都会博物馆年表称，到6世纪末波斯入侵者已经削弱了阿克苏姆。关于帝国何时终结，各来源说法不一。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "mani-four-kingdoms",
+      "start": 216,
+      "end": 274,
+      "text": {
+        "en": "The prophet Mani, who lived in the 3rd century CE, named Aksum among the four great kingdoms of the world.",
+        "es": "El profeta Mani, que vivió en el siglo III e. c., nombró a Axum entre los cuatro grandes reinos del mundo.",
+        "zh": "3世纪的先知摩尼把阿克苏姆列为世界四大王国之一。"
+      },
+      "sources": [
+        {
+          "citation": "The British Museum. \"Historical city travel guide: Aksum, 6th century AD.\" Blog.",
+          "url": "https://www.britishmuseum.org/blog/historical-city-travel-guide-aksum-6th-century-ad"
+        }
+      ]
+    }
+  ]
+}

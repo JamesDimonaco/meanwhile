@@ -1,0 +1,283 @@
+{
+  "id": "zulu-kingdom",
+  "region": "africa",
+  "wikidataId": "Q729768",
+  "name": {
+    "en": "Zulu Kingdom",
+    "es": "Reino zulú",
+    "zh": "祖鲁王国"
+  },
+  "aliases": [
+    "Zulu Empire",
+    "Zululand",
+    "Shaka Zulu",
+    "Shaka",
+    "Zulu"
+  ],
+  "description": {
+    "en": "A Nguni kingdom in what is now KwaZulu-Natal, built by Shaka from about 1816 around a disciplined regimental army. It defeated a British column at Isandlwana in 1879, lost the war that year, and was absorbed into Natal in 1897.",
+    "es": "Un reino nguni en el actual KwaZulu-Natal, construido por Shaka desde alrededor de 1816 en torno a un ejército de regimientos disciplinado. Derrotó a una columna británica en Isandlwana en 1879, perdió la guerra ese año y fue absorbido por Natal en 1897.",
+    "zh": "恩古尼人在今夸祖鲁-纳塔尔建立的王国，约自1816年起由沙卡围绕纪律严明的团制军队建成。1879年它在伊散德尔瓦纳击败一支英军纵队，但当年战败，并于1897年并入纳塔尔。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "zulu-kingdom-period",
+      "earliestStart": 1816,
+      "latestStart": 1818,
+      "earliestEnd": 1879,
+      "latestEnd": 1897,
+      "sources": [
+        {
+          "citation": "South African History Online. \"King Shaka Zulu.\" Shaka becomes chief about 1816; Ndwandwe defeated 1818.",
+          "url": "https://sahistory.org.za/people/shaka-zulu"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Zululand.\" Shaka reigned 1816–28; kingdom divided into 13 chieftaincies in 1879; final defeat of Cetshwayo's supporters on 21 July 1883; British Colony of Zululand 1887; incorporated into Natal 1897.",
+          "url": "https://www.britannica.com/place/Zululand"
+        },
+        {
+          "citation": "South African History Online. \"The Anglo-Zulu Wars, 1879-1896.\" Zululand divided after 1879; annexed to the Crown in 1887.",
+          "url": "https://sahistory.org.za/article/anglo-zulu-wars-1879-1896"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The end is dated four ways. The bar is solid to 1879, when the British won the Anglo-Zulu War and divided the kingdom. Britannica says modern historians date the kingdom's demise to the second battle of Ulundi on 21 July 1883. The British annexed what remained of Zululand in 1887, and Zululand was incorporated into Natal in 1897, where the bar ends.",
+        "es": "El final se fecha de cuatro maneras. La barra es sólida hasta 1879, cuando los británicos ganaron la guerra anglo-zulú y dividieron el reino. Britannica dice que los historiadores modernos fechan la desaparición del reino en la segunda batalla de Ulundi, el 21 de julio de 1883. Los británicos anexaron lo que quedaba de Zululandia en 1887 y Zululandia se incorporó a Natal en 1897, donde termina la barra.",
+        "zh": "王国的终点有四种说法。条形在1879年前为实线，当年英国赢得英祖战争并分割王国。不列颠百科全书称，现代史学者把王国的覆灭定在1883年7月21日的第二次乌伦迪之战。英国于1887年吞并祖鲁兰剩余部分，1897年祖鲁兰并入纳塔尔，条形至此结束。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "shaka-takes-chiefdom",
+      "start": 1816,
+      "type": "ruler",
+      "title": {
+        "en": "Shaka, backed by the Mthethwa chief Dingiswayo, takes the Zulu chiefdom and begins absorbing its neighbours",
+        "es": "Shaka, respaldado por el jefe mthethwa Dingiswayo, se hace con la jefatura zulú y empieza a absorber a sus vecinos",
+        "zh": "沙卡在姆泰特瓦首领丁吉斯瓦约的支持下夺得祖鲁酋邦，并开始吞并邻近部落"
+      },
+      "sources": [
+        {
+          "citation": "South African History Online. \"King Shaka Zulu.\" Accession about 1816.",
+          "url": "https://sahistory.org.za/people/shaka-zulu"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Zululand.\" Shaka reigned 1816–28; Dingiswayo, reigned 1809–17, had close links with the Zulu.",
+          "url": "https://www.britannica.com/place/Zululand"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "ndwandwe-defeated",
+      "start": 1818,
+      "type": "conflict",
+      "title": {
+        "en": "Shaka's regiments defeat the Ndwandwe of Zwide, the main rival power, and the Ndwandwe state breaks up",
+        "es": "Los regimientos de Shaka derrotan a los ndwandwe de Zwide, la principal potencia rival, y el estado ndwandwe se desintegra",
+        "zh": "沙卡的团队击败主要对手兹维德的恩德万德韦人，恩德万德韦国家瓦解"
+      },
+      "sources": [
+        {
+          "citation": "South African History Online. \"King Shaka Zulu.\" Gqokli Hill first; decisive defeat on the Mhlathuze river, April 1818.",
+          "url": "https://sahistory.org.za/people/shaka-zulu"
+        },
+        {
+          "citation": "Wikipedia. \"Shaka.\" Zulu victories over the Ndwandwe.",
+          "url": "https://en.wikipedia.org/wiki/Shaka"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Accounts differ on where and when. South African History Online gives Gqokli Hill first, then a decisive battle at the Mhlathuze in April 1818, and a final rout of the Ndwandwe in 1826; Wikipedia names Gqokli Hill, a battle at the Mhlatuze and a later clash near the Pongola river around 1825.",
+        "es": "Los relatos difieren sobre dónde y cuándo. South African History Online da primero la colina de Gqokli, luego una batalla decisiva en el Mhlathuze en abril de 1818 y una derrota final de los ndwandwe en 1826; Wikipedia nombra la colina de Gqokli, una batalla en el Mhlatuze y un choque posterior cerca del río Pongola hacia 1825.",
+        "zh": "关于地点和时间说法不一。南非历史在线先称格科克利山之战，再称1818年4月在姆赫拉图泽河的决战，并称1826年恩德万德韦人最后溃败；维基百科则提到格科克利山、姆赫拉图泽河一战，以及约1825年在蓬戈拉河一带的后续冲突。"
+      }
+    },
+    {
+      "id": "mfecane",
+      "start": 1818,
+      "end": 1840,
+      "type": "conflict",
+      "title": {
+        "en": "Zulu wars set off the Mfecane, a series of wars and forced migrations across southern and central Africa",
+        "es": "Las guerras zulúes desencadenan el Mfecane, una serie de guerras y migraciones forzadas por el sur y el centro de África",
+        "zh": "祖鲁战争引发姆菲卡内，即席卷南部和中部非洲的一连串战争和被迫迁徙"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Mfecane.\" About 1821 to about 1840.",
+          "url": "https://www.britannica.com/event/Mfecane"
+        },
+        {
+          "citation": "South African History Online. \"Mfecane: Understanding a Period of Transformation in Southern Africa.\" About 1815 to 1840.",
+          "url": "https://sahistory.org.za/article/mfecane-understanding-period-transformation-southern-africa"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Dates and causes are debated: Britannica gives about 1821 to about 1840, South African History Online about 1815 to 1840. Older accounts put deaths at one to two million, which South African History Online says historians now consider exaggerated. Julian Cobbing argues that slave raiding from Delagoa Bay and the Cape frontier drove much of the violence, a claim other historians contest.",
+        "es": "Las fechas y las causas se debaten: Britannica da de hacia 1821 a hacia 1840, South African History Online de hacia 1815 a 1840. Los relatos antiguos cifraban las muertes en uno o dos millones, cifra que South African History Online dice que los historiadores consideran hoy exagerada. Julian Cobbing sostiene que las razias de esclavos desde la bahía de Delagoa y la frontera del Cabo impulsaron gran parte de la violencia, algo que otros historiadores discuten.",
+        "zh": "年代和成因都有争议：不列颠百科全书定为约1821年至约1840年，南非历史在线定为约1815年至1840年。较早的说法把死亡人数定为一百万至两百万，南非历史在线称史学界现认为这一数字被夸大。朱利安·科宾认为来自德拉戈阿湾和开普边界的掠奴是暴力的主要推手，其他学者对此有异议。"
+      }
+    },
+    {
+      "id": "shaka-killed",
+      "start": 1828,
+      "type": "ruler",
+      "title": {
+        "en": "Shaka is stabbed to death by his half-brothers Dingane and Mhlangana and his bodyguard Mbopha; Dingane takes the throne",
+        "es": "Shaka es apuñalado por sus medio hermanos Dingane y Mhlangana y por su guardaespaldas Mbopha; Dingane toma el trono",
+        "zh": "沙卡被同父异母的兄弟丁刚和姆兰加纳以及护卫姆博帕刺死，丁刚继位"
+      },
+      "sources": [
+        {
+          "citation": "South African History Online. \"King Shaka Zulu.\" 22 September 1828.",
+          "url": "https://sahistory.org.za/people/shaka-zulu"
+        },
+        {
+          "citation": "Wikipedia. \"Shaka.\" Assassinated in 1828 by Dingane, Mhlangana and Mbopha; died 24 September 1828.",
+          "url": "https://en.wikipedia.org/wiki/Shaka"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Zululand.\" Shaka assassinated in 1828 and succeeded by his half-brother Dingane (reigned 1828–40).",
+          "url": "https://www.britannica.com/place/Zululand"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The year, 1828, is not in doubt. The day is: South African History Online gives 22 September and Wikipedia gives 24 September.",
+        "es": "El año, 1828, no se discute. El día sí: South African History Online da el 22 de septiembre y Wikipedia el 24 de septiembre.",
+        "zh": "年份1828年没有争议，具体日期则不同：南非历史在线为9月22日，维基百科为9月24日。"
+      }
+    },
+    {
+      "id": "ultimatum-and-invasion",
+      "start": 1878,
+      "type": "conflict",
+      "title": {
+        "en": "Britain gives King Cetshwayo an ultimatum on 11 December to disarm within 30 days, and invades Zululand in January 1879",
+        "es": "Gran Bretaña da al rey Cetshwayo un ultimátum el 11 de diciembre para desarmarse en 30 días e invade Zululandia en enero de 1879",
+        "zh": "英国于12月11日向塞奇瓦约国王发出须在30天内解除武装的最后通牒，并在1879年1月入侵祖鲁兰"
+      },
+      "sources": [
+        {
+          "citation": "South African History Online. \"The Anglo-Zulu Wars, 1879-1896.\" Ultimatum of 11 December 1878; first attack on 12 January 1879.",
+          "url": "https://sahistory.org.za/article/anglo-zulu-wars-1879-1896"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Anglo-Zulu War.\" Ultimatum to dismantle the Zulu military system within 30 days; British troops invaded in January 1879.",
+          "url": "https://www.britannica.com/event/Anglo-Zulu-War"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Historians date the start of the war to 10, 11, 12 or 22 January 1879, depending on whether they count the ultimatum's expiry, the first attack or the battle of Isandlwana.",
+        "es": "Los historiadores fechan el inicio de la guerra el 10, 11, 12 o 22 de enero de 1879, según cuenten el vencimiento del ultimátum, el primer ataque o la batalla de Isandlwana.",
+        "zh": "史学者把战争开始定在1879年1月10日、11日、12日或22日，取决于以最后通牒到期、首次进攻还是伊散德尔瓦纳之战为准。"
+      }
+    },
+    {
+      "id": "isandlwana",
+      "start": 1879,
+      "type": "conflict",
+      "title": {
+        "en": "On 22 January the Zulu army attacks and destroys the central British column at Isandlwana",
+        "es": "El 22 de enero el ejército zulú ataca y destruye la columna británica central en Isandlwana",
+        "zh": "1月22日，祖鲁军队在伊散德尔瓦纳攻击并歼灭英军中路纵队"
+      },
+      "sources": [
+        {
+          "citation": "South African History Online. \"The Anglo-Zulu Wars, 1879-1896.\" About 1,250 British and colonial troops lost, a third of Chelmsford's men.",
+          "url": "https://sahistory.org.za/article/anglo-zulu-wars-1879-1896"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Anglo-Zulu War.\" Zulu army annihilated the central column, killing 800 British soldiers.",
+          "url": "https://www.britannica.com/event/Anglo-Zulu-War"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "British losses are counted differently. South African History Online gives about 1,250 British and colonial troops, about a third of Chelmsford's men; Britannica gives 800 British soldiers killed and says a third of his force had been left behind unlaagered.",
+        "es": "Las bajas británicas se cuentan de forma distinta. South African History Online da unos 1250 soldados británicos y coloniales, cerca de un tercio de los hombres de Chelmsford; Britannica da 800 soldados británicos muertos y dice que un tercio de su fuerza se había dejado atrás sin laager.",
+        "zh": "英军损失的统计不一。南非历史在线称约1250名英军和殖民地军人，约占切姆斯福德部队的三分之一；不列颠百科全书称800名英军士兵被杀，并说他三分之一的兵力被留在了没有设防的营地。"
+      }
+    },
+    {
+      "id": "ulundi",
+      "start": 1879,
+      "type": "collapse",
+      "title": {
+        "en": "On 4 July British forces defeat the Zulu army at Ulundi; they capture Cetshwayo in August and divide Zululand",
+        "es": "El 4 de julio las fuerzas británicas derrotan al ejército zulú en Ulundi; capturan a Cetshwayo en agosto y dividen Zululandia",
+        "zh": "7月4日，英军在乌伦迪击败祖鲁军队；8月俘获塞奇瓦约，并分割祖鲁兰"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Anglo-Zulu War.\" Ulundi 4 July 1879; Cetshwayo captured in August.",
+          "url": "https://www.britannica.com/event/Anglo-Zulu-War"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Zululand.\" British armies seized Ulundi in July, captured Cetshwayo in August and divided the kingdom into 13 chieftaincies.",
+          "url": "https://www.britannica.com/place/Zululand"
+        },
+        {
+          "citation": "South African History Online. \"The Anglo-Zulu Wars, 1879-1896.\" Battle of Ulundi in July; Cetshwayo captured in the Ngome forest in August.",
+          "url": "https://sahistory.org.za/article/anglo-zulu-wars-1879-1896"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "incorporated-into-natal",
+      "start": 1897,
+      "type": "collapse",
+      "title": {
+        "en": "Zululand, annexed by Britain in 1887 as the British Colony of Zululand, is incorporated into Natal",
+        "es": "Zululandia, anexada por Gran Bretaña en 1887 como Colonia Británica de Zululandia, se incorpora a Natal",
+        "zh": "1887年被英国吞并为英属祖鲁兰殖民地的祖鲁兰并入纳塔尔"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Zululand.\" Annexed in 1887 to form the British Colony of Zululand; incorporated into Natal in 1897.",
+          "url": "https://www.britannica.com/place/Zululand"
+        },
+        {
+          "citation": "South African History Online. \"The Anglo-Zulu Wars, 1879-1896.\" Zululand annexed to the Crown in 1887.",
+          "url": "https://sahistory.org.za/article/anglo-zulu-wars-1879-1896"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "stabbing-spear",
+      "start": 1816,
+      "end": 1828,
+      "text": {
+        "en": "Shaka introduced a short stabbing spear, the iklwa, and reorganised age-based regiments into a standing army.",
+        "es": "Shaka introdujo una lanza corta de estocada, la iklwa, y reorganizó los regimientos por edades en un ejército permanente.",
+        "zh": "沙卡引入了名为伊克尔瓦的短刺矛，并把按年龄编成的各团改组为常备军。"
+      },
+      "sources": [
+        {
+          "citation": "South African History Online. \"King Shaka Zulu.\" Short stabbing spear; regiments.",
+          "url": "https://sahistory.org.za/people/shaka-zulu"
+        },
+        {
+          "citation": "South African History Online. \"Mfecane: Understanding a Period of Transformation in Southern Africa.\" Short stabbing spear (iklwa) and reorganised age-based regiments (amabutho) into a standing army.",
+          "url": "https://sahistory.org.za/article/mfecane-understanding-period-transformation-southern-africa"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

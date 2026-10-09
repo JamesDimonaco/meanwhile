@@ -2,6 +2,8 @@ import { createTranslator } from "next-intl";
 import { describe, expect, it } from "vitest";
 import { loadMessages } from "@/i18n/messages";
 import { loadCultures, loadWars } from "@/lib/data/load";
+import { warOuter } from "@/lib/data/wars";
+import { formatYear } from "@/lib/years";
 import { datasetJsonLd, jsonLd, openGraph, pageAlternates, SITE_URL, websiteJsonLd } from "./seo";
 
 describe("openGraph", () => {
@@ -52,6 +54,7 @@ const t = createTranslator({ locale: "en", messages: await loadMessages("en"), n
 describe("datasetJsonLd", () => {
   const cultures = loadCultures();
   const wars = loadWars("en");
+  const earliest = Math.min(...cultures.flatMap((c) => c.periods.map((p) => p.earliestStart)), ...wars.map((w) => warOuter(w)[0]));
   const dataset = datasetJsonLd(
     {
       name: t("datasetName", { appName: "Who Was When" }),
@@ -67,7 +70,7 @@ describe("datasetJsonLd", () => {
     expect(dataset.description.length).toBeGreaterThanOrEqual(50);
     expect(dataset.description.length).toBeLessThanOrEqual(5000);
     expect(dataset.description).toContain(`${cultures.length} civilisations and ${wars.length} wars`);
-    expect(dataset.description).toContain("from 4100\u00a0BCE to the present");
+    expect(dataset.description).toContain(`from ${formatYear(earliest, "en")} to the present`);
   });
 
   // es/zh text falls back to English where it is missing, and the gated wars are English only.
@@ -96,9 +99,9 @@ describe("datasetJsonLd", () => {
     ]);
   });
 
-  // ISO 8601 years are astronomical like the data's, so 4100 BCE is -4099; two wars are still going on.
+  // ISO 8601 years are astronomical like the data's, so the year is used as stored; two wars are still going on.
   it("covers the earliest year in the data to an open end, as an ISO 8601 interval", () => {
-    expect(dataset.temporalCoverage).toBe("-4099/..");
+    expect(dataset.temporalCoverage).toBe(`${earliest}/..`);
   });
 
   // Google's guidelines want markup to match what the page shows, and the credits page names no author.

@@ -1,0 +1,309 @@
+{
+  "id": "kingdom-of-benin",
+  "region": "africa",
+  "wikidataId": "Q171203",
+  "name": {
+    "en": "Kingdom of Benin",
+    "es": "Reino de Benín",
+    "zh": "贝宁王国"
+  },
+  "aliases": [
+    "Benin Empire",
+    "Edo Empire",
+    "Edo kingdom",
+    "Benin City",
+    "Benin Bronzes"
+  ],
+  "description": {
+    "en": "A forest kingdom of the Edo people in what is now southern Nigeria, ruled by an oba from Benin City. Court guilds cast brass altar heads and plaques. A British force took the capital in 1897 and sent about 2,500 objects to Britain, by official figures.",
+    "es": "Un reino forestal del pueblo edo en lo que hoy es el sur de Nigeria, gobernado por un oba desde la ciudad de Benín. Los gremios de la corte fundían cabezas de altar y placas de latón. Una fuerza británica tomó la capital en 1897 y envió a Gran Bretaña unos 2500 objetos, según las cifras oficiales.",
+    "zh": "埃多人在今尼日利亚南部森林地带建立的王国，由居于贝宁城的奥巴统治。宫廷行会铸造黄铜祭坛头像和浮雕板。1897年一支英军攻占都城，按官方数字，约2500件物品被运往英国。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kingdom-of-benin-period",
+      "earliestStart": 1180,
+      "latestStart": 1300,
+      "earliestEnd": 1897,
+      "latestEnd": 1897,
+      "sources": [
+        {
+          "citation": "Wikidata, \"Benin Empire\" (Q171203): West African kingdom, 1180–1897.",
+          "url": "https://www.wikidata.org/wiki/Q171203"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Benin.\" Kingdom ruled c. 1100–1897 on its timeline; the 1897 British force ended it.",
+          "url": "https://www.worldhistory.org/Kingdom_of_Benin/"
+        },
+        {
+          "citation": "Metropolitan Museum of Art. Ivory pendant mask, Edo, Benin Kingdom. Kingdom of Benin founded around 1300 by tradition; Benin City taken by the British in 1897.",
+          "url": "https://www.metmuseum.org/art/collection/search/318622"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start rests on oral tradition and the sources disagree: Wikidata gives 1180 (the date New World Encyclopedia gives for Eweka I's accession), World History Encyclopedia dates the kingdom from about 1100 on its timeline and the 13th century in its text, and the Metropolitan Museum says about 1300. The 1897 end marks the loss of political independence: the obaship continued under colonial rule.",
+        "es": "El inicio se apoya en la tradición oral y las fuentes no coinciden: Wikidata da 1180 (la fecha que la New World Encyclopedia da para el ascenso de Eweka I), la World History Encyclopedia sitúa el reino desde hacia 1100 en su cronología y en el siglo XIII en su texto, y el Metropolitan Museum dice hacia 1300. El final en 1897 marca la pérdida de la independencia política: el cargo de oba continuó bajo el dominio colonial.",
+        "zh": "起始年代依据口述传统，各来源不一致：维基数据给出1180年（《新世界百科全书》对埃韦卡一世即位的年份），《世界历史百科全书》在时间线中把王国定在约1100年起、正文则说13世纪，大都会艺术博物馆称约1300年。1897年为政治独立的终结，奥巴一职在殖民统治下延续。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "eweka-first-oba",
+      "start": 1200,
+      "type": "founding",
+      "title": {
+        "en": "In Edo tradition Eweka, son of the Ife prince Oranmiyan, becomes the first oba of Benin",
+        "es": "En la tradición edo, Eweka, hijo del príncipe de Ife Oranmiyan, se convierte en el primer oba de Benín",
+        "zh": "按埃多传统，伊费王子奥兰米扬之子埃韦卡成为贝宁的第一位奥巴"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Benin.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Benin/"
+        },
+        {
+          "citation": "New World Encyclopedia. \"Benin Empire.\"",
+          "url": "https://www.newworldencyclopedia.org/entry/Benin_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "This is oral tradition. New World Encyclopedia gives Eweka I's reign as 1180–1246; World History Encyclopedia places the arrival of Ife craft skills in the late 13th century; the Metropolitan Museum dates the kingdom's founding to about 1300.",
+        "es": "Es tradición oral. La New World Encyclopedia sitúa el reinado de Eweka I entre 1180 y 1246; la World History Encyclopedia fecha la llegada de las técnicas artesanales de Ife a finales del siglo XIII; el Metropolitan Museum fecha la fundación del reino hacia 1300.",
+        "zh": "这是口述传统。《新世界百科全书》将埃韦卡一世在位时间记为1180年至1246年；《世界历史百科全书》把伊费工艺技术的传入定在13世纪末；大都会艺术博物馆则把王国的建立定在约1300年。"
+      },
+      "place": {
+        "name": {
+          "en": "Benin City",
+          "es": "Ciudad de Benín",
+          "zh": "贝宁城"
+        },
+        "lat": 6.335,
+        "lon": 5.6037
+      }
+    },
+    {
+      "id": "ewuare",
+      "start": 1440,
+      "type": "ruler",
+      "title": {
+        "en": "Oba Ewuare takes the throne about 1440 and is credited with enlarging the kingdom and shaping the court system and royal ritual cycle",
+        "es": "El oba Ewuare toma el trono hacia 1440 y se le atribuye haber ampliado el reino y dado forma al sistema de corte y al ciclo de rituales reales",
+        "zh": "奥巴埃武阿雷约在1440年即位，被认为扩大了疆域，并塑造了宫廷制度和王室仪式周期"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Benin.\" Ewuare reigned 1440–1473; credited with expanding the kingdom; chiefs and the eldest-son succession.",
+          "url": "https://www.worldhistory.org/Kingdom_of_Benin/"
+        },
+        {
+          "citation": "Art Institute of Chicago. \"Oba Ewuare and the Portuguese.\" Enthroned c. 1440; credited with improving Benin City, the three associations of palace chiefs and the annual cycle of royal rituals.",
+          "url": "https://archive.artic.edu/benin/oba"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Benin City",
+          "es": "Ciudad de Benín",
+          "zh": "贝宁城"
+        },
+        "lat": 6.335,
+        "lon": 5.6037
+      }
+    },
+    {
+      "id": "portuguese-contact",
+      "start": 1485,
+      "type": "invention",
+      "title": {
+        "en": "Portuguese ships reach the coast of Benin and trade ivory, pepper and cloth through the port of Ughoton",
+        "es": "Los barcos portugueses llegan a la costa de Benín y comercian marfil, pimienta y tejidos por el puerto de Ughoton",
+        "zh": "葡萄牙船只抵达贝宁海岸，经乌戈顿港交易象牙、胡椒和布匹"
+      },
+      "sources": [
+        {
+          "citation": "New World Encyclopedia. \"Benin Empire.\" First Portuguese visitors about 1485.",
+          "url": "https://www.newworldencyclopedia.org/entry/Benin_Empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Benin.\" Portuguese ships arrive about 1471; permanent presence at Ughoton from 1487.",
+          "url": "https://www.worldhistory.org/Kingdom_of_Benin/"
+        },
+        {
+          "citation": "Art Institute of Chicago. \"Oba Ewuare and the Portuguese.\" The Portuguese arrived late in Ewuare's reign.",
+          "url": "https://archive.artic.edu/benin/oba"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date first contact to about 1471 (World History Encyclopedia), about 1485 (New World Encyclopedia) or a permanent presence from 1487 (World History Encyclopedia). The Art Institute of Chicago puts it late in Ewuare's reign. Wikipedia lists enslaved people among the goods traded; World History Encyclopedia says the oba banned the sale of male slaves to the Portuguese after 1516, and the Metropolitan Museum says Benin limited itself to selling prisoners of war.",
+        "es": "Las fuentes fechan el primer contacto hacia 1471 (World History Encyclopedia), hacia 1485 (New World Encyclopedia) o una presencia permanente desde 1487 (World History Encyclopedia). El Art Institute of Chicago lo sitúa al final del reinado de Ewuare. Wikipedia cuenta a las personas esclavizadas entre los bienes comerciados; la World History Encyclopedia dice que el oba prohibió la venta de esclavos varones a los portugueses después de 1516, y el Metropolitan Museum dice que Benín se limitó a vender prisioneros de guerra.",
+        "zh": "各来源把首次接触定在约1471年（《世界历史百科全书》）、约1485年（《新世界百科全书》），或1487年起的常驻（《世界历史百科全书》）。芝加哥艺术博物馆称在埃武阿雷统治后期。维基百科把被奴役者列入贸易商品；《世界历史百科全书》称奥巴在1516年后禁止向葡萄牙人出售男性奴隶，大都会艺术博物馆则称贝宁只出售战俘。"
+      }
+    },
+    {
+      "id": "brass-plaques",
+      "start": 1500,
+      "type": "invention",
+      "title": {
+        "en": "Court brass casters, using lost-wax casting and brass brought by the Portuguese, produce plaques and altar heads for the palace",
+        "es": "Los fundidores de latón de la corte, con la técnica de la cera perdida y latón traído por los portugueses, producen placas y cabezas de altar para el palacio",
+        "zh": "宫廷黄铜铸匠用失蜡法和葡萄牙人带来的黄铜，为王宫制作浮雕板和祭坛头像"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Benin.\" Production boomed from the end of the 15th century with Portuguese brass; lost-wax casting; plaques about 45 cm.",
+          "url": "https://www.worldhistory.org/Kingdom_of_Benin/"
+        },
+        {
+          "citation": "Wikipedia. \"Benin Bronzes.\" Plaques and sculptures cast by lost-wax method for the royal palace; guild of bronze casters.",
+          "url": "https://en.wikipedia.org/wiki/Benin_Bronzes"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia dates the boom to the end of the 15th century; Wikipedia says the objects were made from the 14th century. The start year is approximate.",
+        "es": "La World History Encyclopedia fecha el auge a finales del siglo XV; Wikipedia dice que los objetos se hacían desde el siglo XIV. El año de inicio es aproximado.",
+        "zh": "《世界历史百科全书》把兴盛期定在15世纪末；维基百科称这些物品自14世纪起就有制作。起始年份为大致年份。"
+      }
+    },
+    {
+      "id": "embassy-to-portugal",
+      "start": 1514,
+      "type": "invention",
+      "title": {
+        "en": "The oba sends an embassy to Portugal, seemingly to obtain firearms, and receives missionaries",
+        "es": "El oba envía una embajada a Portugal, al parecer para obtener armas de fuego, y recibe misioneros",
+        "zh": "奥巴向葡萄牙派出使团，似乎是为了获得火器，结果得到的是传教士"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Benin.\" Embassy of 1514, seemingly to negotiate a shipment of firearms; unsuccessful.",
+          "url": "https://www.worldhistory.org/Kingdom_of_Benin/"
+        },
+        {
+          "citation": "New World Encyclopedia. \"Benin Empire.\" An ambassador sent to Lisbon in the early sixteenth century.",
+          "url": "https://www.newworldencyclopedia.org/entry/Benin_Empire"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "phillips-ambush",
+      "start": 1897,
+      "type": "conflict",
+      "title": {
+        "en": "In January a Benin force attacks a British party led by acting consul-general James Phillips near Ugbine, killing him and most of his party",
+        "es": "En enero una fuerza de Benín ataca a una comitiva británica dirigida por el cónsul general interino James Phillips cerca de Ugbine y mata a Phillips y a la mayoría de su grupo",
+        "zh": "1月，贝宁武装在乌格比讷附近袭击由英国代理总领事詹姆斯·菲利普斯率领的队伍，菲利普斯及其大部分随行人员被杀"
+      },
+      "sources": [
+        {
+          "citation": "Art Institute of Chicago. \"The British Conquest of Benin and the Oba's Return.\" Phillips's delegation ambushed by an Edo force that by all accounts acted without the oba's knowledge; almost the entire party killed.",
+          "url": "https://archive.artic.edu/benin/conquest/"
+        },
+        {
+          "citation": "Wikipedia. \"Benin Expedition of 1897.\" Attack near Ugbine village on 4 January 1897; the oba ordered his chiefs not to attack and tried to restrain the war party.",
+          "url": "https://en.wikipedia.org/wiki/Benin_Expedition_of_1897"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Art Institute of Chicago dates the ambush to 12 January; Wikipedia dates it to 4 January. Both say the attack was not ordered by the oba: the Art Institute says the force acted without his knowledge, and Wikipedia says he tried to restrain the war party. Britain treated the attack as grounds for the expedition that followed.",
+        "es": "El Art Institute of Chicago fecha la emboscada el 12 de enero; Wikipedia la fecha el 4 de enero. Ambas dicen que el oba no ordenó el ataque: el Art Institute dice que la fuerza actuó sin que él lo supiera y Wikipedia dice que intentó contener al grupo de guerra. Gran Bretaña tomó el ataque como motivo de la expedición posterior.",
+        "zh": "芝加哥艺术博物馆把这次伏击定在1月12日，维基百科定在1月4日。两者都称奥巴并未下令发动袭击：博物馆称这支武装的行动他并不知情，维基百科称他曾试图约束主战派。英国以此次袭击为后续远征的理由。"
+      }
+    },
+    {
+      "id": "punitive-expedition",
+      "start": 1897,
+      "type": "collapse",
+      "title": {
+        "en": "A British force takes Benin City on 18 February, exiles Oba Ovonramwen to Calabar and sends about 2,500 objects to Britain, by official figures",
+        "es": "Una fuerza británica toma la ciudad de Benín el 18 de febrero, destierra al oba Ovonramwen a Calabar y envía a Gran Bretaña unos 2500 objetos, según las cifras oficiales",
+        "zh": "英军2月18日攻占贝宁城，将奥巴奥沃恩拉姆文流放至卡拉巴尔，并按官方数字把约2500件物品运往英国"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. Ivory pendant mask, Edo, Benin Kingdom. British conquest of Benin City in 1897; Ovonramwen exiled to Calabar; palace plundered; some 200 objects given to the British Museum.",
+          "url": "https://www.metmuseum.org/art/collection/search/318622"
+        },
+        {
+          "citation": "Wikipedia. \"Benin Expedition of 1897.\" Capital captured 18 February; some 2,500 objects (official figures) sent to Britain, including over a thousand plaques and sculptures known as the Benin Bronzes.",
+          "url": "https://en.wikipedia.org/wiki/Benin_Expedition_of_1897"
+        },
+        {
+          "citation": "Art Institute of Chicago. \"The British Conquest of Benin and the Oba's Return.\" British force arrived in Benin City on 18 February; Ovonramwen exiled to Calabar; palace objects taken as spoils of war.",
+          "url": "https://archive.artic.edu/benin/conquest/"
+        }
+      ],
+      "disputed": true,
+      "place": {
+        "name": {
+          "en": "Benin City",
+          "es": "Ciudad de Benín",
+          "zh": "贝宁城"
+        },
+        "lat": 6.335,
+        "lon": 5.6037
+      },
+      "note": {
+        "en": "The 2,500 figure is the official count cited by Wikipedia; it counts objects sent to Britain, and other objects were sold or taken privately.",
+        "es": "La cifra de 2500 es el recuento oficial que cita Wikipedia; cuenta los objetos enviados a Gran Bretaña, y otros se vendieron o se llevaron a título privado.",
+        "zh": "2500这一数字是维基百科引用的官方统计，指运往英国的物品；另有物品被出售或被私人带走。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "brass-casters-guild",
+      "start": 1450,
+      "end": 1897,
+      "text": {
+        "en": "Benin's court artisans worked in guilds under royal patronage, each with a designated district of the capital. The brass casters' guild still sits on Igun Street.",
+        "es": "Los artesanos de la corte de Benín trabajaban en gremios bajo patronazgo real, cada uno con un barrio designado en la capital. El gremio de fundidores de latón sigue en la calle Igun.",
+        "zh": "贝宁的宫廷工匠在王室庇护下组成行会，每个行会在都城有指定的街区。黄铜铸匠行会今天仍位于伊贡街。"
+      },
+      "sources": [
+        {
+          "citation": "New World Encyclopedia. \"Benin Empire.\" The guild of artisans enjoyed royal patronage and occupied a designated district of the capital.",
+          "url": "https://www.newworldencyclopedia.org/entry/Benin_Empire"
+        },
+        {
+          "citation": "Wikipedia. \"Benin Bronzes.\" Plaques produced by the Guild of Benin Bronze Casters, now located in Igun Street.",
+          "url": "https://en.wikipedia.org/wiki/Benin_Bronzes"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "mudfish-portuguese",
+      "start": 1500,
+      "end": 1600,
+      "text": {
+        "en": "Benin artists often showed the Portuguese beside mudfish, which move between land and water. An ivory pendant mask, believed made for Oba Esigie to honour his mother Idia, has mudfish and Portuguese faces carved together.",
+        "es": "Los artistas de Benín solían representar a los portugueses junto a peces de fango, que se mueven entre la tierra y el agua. Una máscara colgante de marfil, que se cree hecha para el oba Esigie en honor de su madre Idia, lleva talladas juntas figuras de peces de fango y rostros de portugueses.",
+        "zh": "贝宁艺术家常把葡萄牙人与泥鱼并置表现，泥鱼往来于陆地和水中。一件象牙吊坠面具据信是为奥巴埃西吉纪念其母伊迪娅而制，上面把泥鱼与葡萄牙人的脸孔刻在一起。"
+      },
+      "sources": [
+        {
+          "citation": "Metropolitan Museum of Art. Ivory pendant mask, Edo, Benin Kingdom, early 16th century, made for Oba Esigie to honour Queen Mother Idia; mudfish and bearded Portuguese faces.",
+          "url": "https://www.metmuseum.org/art/collection/search/318622"
+        },
+        {
+          "citation": "Art Institute of Chicago. \"Oba Ewuare and the Portuguese.\" Portuguese frequently appear alongside mudfish, crocodiles and other beings that move between water and land.",
+          "url": "https://archive.artic.edu/benin/oba"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

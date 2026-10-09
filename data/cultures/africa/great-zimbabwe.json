@@ -1,0 +1,350 @@
+{
+  "id": "great-zimbabwe",
+  "region": "africa",
+  "wikidataId": "Q209217",
+  "name": {
+    "en": "Great Zimbabwe",
+    "es": "Gran Zimbabue",
+    "zh": "大津巴布韦"
+  },
+  "aliases": [
+    "Zimbabwe ruins",
+    "Zimbabwe tradition",
+    "Kingdom of Zimbabwe",
+    "Shona",
+    "Karanga",
+    "Masvingo",
+    "Zimbabwe Bird",
+    "Zimbabue"
+  ],
+  "description": {
+    "en": "A stone-walled capital in the hills of southern Zimbabwe, built by the ancestors of the Shona from about 1100. Its rulers traded gold and ivory through the Swahili coast for glass beads, Persian faience and Chinese porcelain. The city declined from about 1450.",
+    "es": "Una capital de muros de piedra en las colinas del sur de Zimbabue, levantada por los antepasados de los shona desde aproximadamente 1100. Sus gobernantes vendían oro y marfil a través de la costa suajili y recibían cuentas de vidrio, loza persa y porcelana china. La ciudad declinó desde aproximadamente 1450.",
+    "zh": "位于津巴布韦南部丘陵的石墙都城，由绍纳人的祖先自约1100年起修建。统治者通过斯瓦希里海岸出口黄金和象牙，换取玻璃珠、波斯彩陶和中国瓷器。这座城市自约1450年起衰落。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "occupation",
+      "earliestStart": 900,
+      "latestStart": 1100,
+      "earliestEnd": 1450,
+      "latestEnd": 1550,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Great Zimbabwe.\"",
+          "url": "https://www.worldhistory.org/Great_Zimbabwe/"
+        },
+        {
+          "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
+          "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        },
+        {
+          "citation": "The Collector. \"Great Zimbabwe: Center of a Mysterious African Civilization.\"",
+          "url": "https://www.thecollector.com/what-was-the-great-zimbabwe/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Sources disagree. World History Encyclopedia gives c. 1100 to c. 1550 and Scientific American 1100 to 1600; The Collector dates the Hill Complex from the 9th century and puts the decline in the 1450s. Radiocarbon dates for the site are still debated.",
+        "es": "Las fuentes no coinciden. World History Encyclopedia da c. 1100 a c. 1550 y Scientific American, 1100 a 1600; The Collector fecha el Complejo de la Colina desde el siglo IX y sitúa el declive en la década de 1450. Las dataciones por radiocarbono del sitio siguen en debate.",
+        "zh": "各来源说法不一。《世界历史百科全书》给出约1100年至约1550年，《科学美国人》为1100年至1600年；The Collector将山丘建筑群追溯到9世纪，并把衰落定在1450年代。该遗址的放射性碳年代仍有争论。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "settlement",
+      "start": 1100,
+      "type": "founding",
+      "title": {
+        "en": "People settle at Great Zimbabwe and begin building in stone on the hill and in the valley below",
+        "es": "La gente se asienta en Gran Zimbabue y empieza a construir en piedra en la colina y en el valle",
+        "zh": "人们在大津巴布韦定居，并开始在山丘和山谷中用石头建造"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Great Zimbabwe.\"",
+          "url": "https://www.worldhistory.org/Great_Zimbabwe/"
+        },
+        {
+          "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
+          "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia and Scientific American give c. 1100 for the start; The Collector dates the Hill Complex to the 9th to 13th centuries.",
+        "es": "World History Encyclopedia y Scientific American dan c. 1100 para el inicio; The Collector fecha el Complejo de la Colina entre los siglos IX y XIII.",
+        "zh": "《世界历史百科全书》和《科学美国人》给出的起始时间为约1100年；The Collector将山丘建筑群定在9至13世纪。"
+      },
+      "place": {
+        "name": {
+          "en": "Great Zimbabwe, near Masvingo",
+          "es": "Gran Zimbabue, cerca de Masvingo",
+          "zh": "大津巴布韦，靠近马斯温戈"
+        },
+        "lat": -20.2675,
+        "lon": 30.9338
+      }
+    },
+    {
+      "id": "great-enclosure",
+      "start": 1300,
+      "end": 1450,
+      "type": "invention",
+      "title": {
+        "en": "The Great Enclosure rises: a dry-stone wall about 250 metres around and roughly 10 metres high",
+        "es": "Se alza el Gran Recinto: un muro de piedra seca de unos 250 metros de perímetro y unos 10 metros de altura",
+        "zh": "大围场建成：一道周长约250米、高约10米的干砌石墙"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Great Zimbabwe.\"",
+          "url": "https://www.worldhistory.org/Great_Zimbabwe/"
+        },
+        {
+          "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
+          "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Great Zimbabwe Urbanism and Architecture.\"",
+          "url": "https://www.ebsco.com/research-starters/anthropology/great-zimbabwe-urbanism-and-architecture/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give the wall height as 9.7 metres (World History Encyclopedia), 32 feet (Scientific American) or 11 metres (EBSCO, Wikipedia). The Collector dates the Great Enclosure to the 13th to 15th centuries.",
+        "es": "Las fuentes dan la altura del muro como 9,7 metros (World History Encyclopedia), 32 pies (Scientific American) u 11 metros (EBSCO, Wikipedia). The Collector fecha el Gran Recinto entre los siglos XIII y XV.",
+        "zh": "各来源给出的墙高为9.7米（《世界历史百科全书》）、32英尺（《科学美国人》）或11米（EBSCO、维基百科）。The Collector将大围场定在13至15世纪。"
+      },
+      "place": {
+        "name": {
+          "en": "Great Zimbabwe, near Masvingo",
+          "es": "Gran Zimbabue, cerca de Masvingo",
+          "zh": "大津巴布韦，靠近马斯温戈"
+        },
+        "lat": -20.2675,
+        "lon": 30.9338
+      }
+    },
+    {
+      "id": "indian-ocean-trade",
+      "start": 1300,
+      "end": 1450,
+      "type": "invention",
+      "title": {
+        "en": "Gold, ivory and copper leave for the Swahili coast, through Kilwa and Sofala; Chinese porcelain and Persian faience arrive",
+        "es": "El oro, el marfil y el cobre salen hacia la costa suajili, por Kilwa y Sofala; llegan porcelana china y loza persa",
+        "zh": "黄金、象牙和铜经基尔瓦和索法拉运往斯瓦希里海岸；中国瓷器和波斯彩陶则运入"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Great Zimbabwe.\"",
+          "url": "https://www.worldhistory.org/Great_Zimbabwe/"
+        },
+        {
+          "citation": "Wikipedia. \"Great Zimbabwe.\"",
+          "url": "https://en.wikipedia.org/wiki/Great_Zimbabwe"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Great Zimbabwe, near Masvingo",
+          "es": "Gran Zimbabue, cerca de Masvingo",
+          "zh": "大津巴布韦，靠近马斯温戈"
+        },
+        "lat": -20.2675,
+        "lon": 30.9338
+      }
+    },
+    {
+      "id": "decline",
+      "start": 1450,
+      "type": "collapse",
+      "title": {
+        "en": "The city declines from about 1450, and the site is largely abandoned by about 1700",
+        "es": "La ciudad declina desde hacia 1450 y hacia 1700 el sitio está en gran parte abandonado",
+        "zh": "这座城市自约1450年起衰落，到约1700年遗址基本被废弃"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Great Zimbabwe.\"",
+          "url": "https://www.worldhistory.org/Great_Zimbabwe/"
+        },
+        {
+          "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
+          "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        },
+        {
+          "citation": "The Collector. \"Great Zimbabwe: Center of a Mysterious African Civilization.\"",
+          "url": "https://www.thecollector.com/what-was-the-great-zimbabwe/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Causes are debated. World History Encyclopedia lists rival states, exhausted gold deposits, overpopulation and drought; Scientific American lists exhausted gold, cattle damaging the land, drought and population pressure; The Collector names resource shortages and competition from northern trade networks. Wikipedia says the site was abandoned in the 16th or 17th century.",
+        "es": "Las causas se debaten. World History Encyclopedia menciona estados rivales, oro agotado, exceso de población y sequía; Scientific American, oro agotado, ganado que dañaba la tierra, sequía y presión demográfica; The Collector, escasez de recursos y competencia de las redes comerciales del norte. Wikipedia dice que el sitio se abandonó en el siglo XVI o XVII.",
+        "zh": "原因仍有争论。《世界历史百科全书》列举对手国家、金矿枯竭、人口过多和干旱；《科学美国人》列举金矿枯竭、牛群损害土地、干旱和人口压力；The Collector提到资源短缺和北方贸易网络的竞争。维基百科称遗址在16或17世纪被废弃。"
+      },
+      "place": {
+        "name": {
+          "en": "Great Zimbabwe, near Masvingo",
+          "es": "Gran Zimbabue, cerca de Masvingo",
+          "zh": "大津巴布韦，靠近马斯温戈"
+        },
+        "lat": -20.2675,
+        "lon": 30.9338
+      }
+    },
+    {
+      "id": "mauch",
+      "start": 1871,
+      "type": "invention",
+      "title": {
+        "en": "The German explorer Karl Mauch visits the ruins and credits their building to Phoenicians or Israelites",
+        "es": "El explorador alemán Karl Mauch visita las ruinas y atribuye su construcción a fenicios o israelitas",
+        "zh": "德国探险家卡尔·毛赫造访遗址，称其由腓尼基人或以色列人建造"
+      },
+      "sources": [
+        {
+          "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
+          "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        },
+        {
+          "citation": "The Collector. \"Great Zimbabwe: Center of a Mysterious African Civilization.\"",
+          "url": "https://www.thecollector.com/what-was-the-great-zimbabwe/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Great Zimbabwe, near Masvingo",
+          "es": "Gran Zimbabue, cerca de Masvingo",
+          "zh": "大津巴布韦，靠近马斯温戈"
+        },
+        "lat": -20.2675,
+        "lon": 30.9338
+      }
+    },
+    {
+      "id": "randall-maciver",
+      "start": 1905,
+      "type": "invention",
+      "title": {
+        "en": "David Randall-MacIver's excavation shows the site is medieval and African; Gertrude Caton-Thompson confirms it in 1929",
+        "es": "La excavación de David Randall-MacIver muestra que el sitio es medieval y africano; Gertrude Caton-Thompson lo confirma en 1929",
+        "zh": "戴维·兰德尔-麦克艾弗的发掘表明遗址属中世纪且出自非洲人之手；格特鲁德·卡顿-汤普森于1929年予以证实"
+      },
+      "sources": [
+        {
+          "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
+          "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        },
+        {
+          "citation": "The Collector. \"Great Zimbabwe: Center of a Mysterious African Civilization.\"",
+          "url": "https://www.thecollector.com/what-was-the-great-zimbabwe/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Great Zimbabwe, near Masvingo",
+          "es": "Gran Zimbabue, cerca de Masvingo",
+          "zh": "大津巴布韦，靠近马斯温戈"
+        },
+        "lat": -20.2675,
+        "lon": 30.9338
+      }
+    },
+    {
+      "id": "rhodesian-censorship",
+      "start": 1965,
+      "end": 1980,
+      "type": "conflict",
+      "title": {
+        "en": "Rhodesia's government censors information on Great Zimbabwe's African builders, and archaeologist Peter Garlake is forced to leave in 1970",
+        "es": "El gobierno de Rodesia censura la información sobre los constructores africanos de Gran Zimbabue y obliga al arqueólogo Peter Garlake a marcharse en 1970",
+        "zh": "罗得西亚政府审查有关大津巴布韦非洲建造者的信息，考古学家彼得·加拉克于1970年被迫离开"
+      },
+      "sources": [
+        {
+          "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
+          "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        },
+        {
+          "citation": "Wikipedia. \"Peter Garlake.\"",
+          "url": "https://en.wikipedia.org/wiki/Peter_Garlake"
+        },
+        {
+          "citation": "The Collector. \"Great Zimbabwe: Center of a Mysterious African Civilization.\"",
+          "url": "https://www.thecollector.com/what-was-the-great-zimbabwe/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Scientific American dates the censorship 1965 to 1980 and says Garlake faced imprisonment and deportation; Wikipedia says only that the government opposed his research and he was forced to leave in 1970.",
+        "es": "Scientific American fecha la censura de 1965 a 1980 y dice que Garlake sufrió encarcelamiento y deportación; Wikipedia solo dice que el gobierno se opuso a su investigación y que fue obligado a irse en 1970.",
+        "zh": "《科学美国人》把审查定在1965年至1980年，并称加拉克面临监禁和驱逐；维基百科则只说政府反对他的研究，他于1970年被迫离开。"
+      },
+      "place": {
+        "name": {
+          "en": "Great Zimbabwe, near Masvingo",
+          "es": "Gran Zimbabue, cerca de Masvingo",
+          "zh": "大津巴布韦，靠近马斯温戈"
+        },
+        "lat": -20.2675,
+        "lon": 30.9338
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "zimbabwe-bird",
+      "text": {
+        "en": "The soapstone Zimbabwe Bird, one of eight bird carvings found at the site, now appears on Zimbabwe's national flag.",
+        "es": "El Pájaro de Zimbabue, de esteatita y una de las ocho aves talladas halladas en el sitio, aparece hoy en la bandera nacional de Zimbabue.",
+        "zh": "皂石“津巴布韦鸟”是遗址中发现的八件鸟形雕刻之一，如今出现在津巴布韦国旗上。"
+      },
+      "start": 1100,
+      "end": 1450,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Great Zimbabwe.\"",
+          "url": "https://www.worldhistory.org/Great_Zimbabwe/"
+        },
+        {
+          "citation": "The Collector. \"Great Zimbabwe: Center of a Mysterious African Civilization.\"",
+          "url": "https://www.thecollector.com/what-was-the-great-zimbabwe/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "million-blocks",
+      "text": {
+        "en": "Great Zimbabwe's mortarless granite walls are estimated to hold a million blocks or more.",
+        "es": "Se calcula que los muros de granito sin argamasa de Gran Zimbabue contienen un millón de bloques o más.",
+        "zh": "据估计，大津巴布韦用花岗岩干砌而成的墙体共用了一百万块或更多石块。"
+      },
+      "start": 1100,
+      "end": 1450,
+      "sources": [
+        {
+          "citation": "Scientific American. \"Great Zimbabwe\" (January 2005).",
+          "url": "https://www.scientificamerican.com/article/great-zimbabwe-2005-01/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Great Zimbabwe Urbanism and Architecture.\"",
+          "url": "https://www.ebsco.com/research-starters/anthropology/great-zimbabwe-urbanism-and-architecture/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

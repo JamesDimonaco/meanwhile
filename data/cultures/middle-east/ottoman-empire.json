@@ -1,0 +1,418 @@
+{
+  "id": "ottoman-empire",
+  "region": "middle-east",
+  "wikidataId": "Q12560",
+  "name": {
+    "en": "Ottoman Empire",
+    "es": "Imperio otomano",
+    "zh": "奥斯曼帝国"
+  },
+  "aliases": [
+    "Ottomans",
+    "Ottoman dynasty",
+    "Osmanlı",
+    "Osmanli",
+    "Osmanlı İmparatorluğu",
+    "Ottoman Turkey",
+    "Sublime Porte",
+    "Turkish Empire",
+    "Otomano",
+    "奥斯曼土耳其",
+    "鄂图曼帝国"
+  ],
+  "description": {
+    "en": "A dynasty founded by Osman in northwest Anatolia around 1299 that took Constantinople in 1453 and ruled much of the Middle East, North Africa and southeast Europe. It lost territory from the late 1600s and ended when the sultanate was abolished in 1922.",
+    "es": "Una dinastía fundada por Osmán en el noroeste de Anatolia hacia 1299 que tomó Constantinopla en 1453 y gobernó gran parte de Oriente Medio, el norte de África y el sudeste de Europa. Perdió territorios desde finales del siglo XVII y terminó al abolirse el sultanato en 1922.",
+    "zh": "奥斯曼在约1299年于安纳托利亚西北部建立的王朝，1453年攻占君士坦丁堡，统治中东、北非和东南欧大部分地区。17世纪末起丧失领土，1922年苏丹制被废除后终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "ottoman-empire",
+      "earliestStart": 1281,
+      "latestStart": 1299,
+      "earliestEnd": 1922,
+      "latestEnd": 1924,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Ottoman dynasty\" (1281 – 1924), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hc92q"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Ottoman Empire\" (empire 1299 to 1922; caliphate only 1922 to 1924).",
+          "url": "https://www.worldhistory.org/Ottoman_Empire/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Empire, Ottoman\" (the dynasty founded by Osman I, c. 1299).",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/empire-ottoman"
+        }
+      ],
+      "periodoId": "p08m57hc92q",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Sources date the founding differently: 1281 (British Museum), about 1284 (the start of Osman's reign in the Library of Congress study) and 1299 (most references, a traditional date). The earliest Ottoman chronicles were written long afterwards. The British Museum ends the range in 1924, when the caliphate was abolished; reference works usually end the empire on 1 November 1922, when the sultanate was abolished.",
+        "es": "Las fuentes fechan la fundación de forma distinta: 1281 (Museo Británico), hacia 1284 (inicio del reinado de Osmán en el estudio de la Biblioteca del Congreso) y 1299 (la mayoría de las obras, una fecha tradicional). Las primeras crónicas otomanas se escribieron mucho después. El Museo Británico cierra el rango en 1924, cuando se abolió el califato; las obras de referencia suelen cerrar el imperio el 1 de noviembre de 1922, cuando se abolió el sultanato.",
+        "zh": "各来源对建国时间的说法不同：1281年（大英博物馆）、约1284年（美国国会图书馆研究中奥斯曼统治的起点）和1299年（多数工具书，属传统说法）。最早的奥斯曼编年史写于很久以后。大英博物馆把终点定在1924年哈里发制被废除之年；工具书通常把帝国的终点定在1922年11月1日苏丹制废除之时。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "rise",
+      "name": {
+        "en": "Rise",
+        "es": "Ascenso",
+        "zh": "崛起"
+      },
+      "start": 1299,
+      "end": 1453,
+      "sources": [
+        {
+          "citation": "Pleiades time periods, \"Ottoman Rise (AD 1300-1453)\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p03wskd2cfk"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Turkey: The Ottoman Empire\" (Osman I and the rise to the conquest of Constantinople).",
+          "url": "https://countrystudies.us/turkey/6.htm"
+        }
+      ]
+    },
+    {
+      "id": "early-empire",
+      "name": {
+        "en": "Early empire",
+        "es": "Imperio temprano",
+        "zh": "帝国早期"
+      },
+      "start": 1453,
+      "end": 1683,
+      "sources": [
+        {
+          "citation": "Pleiades time periods, \"Early Ottoman Empire (AD 1453-1683)\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p03wskdf7wk"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Ottoman Empire\"",
+          "url": "https://www.worldhistory.org/Ottoman_Empire/"
+        }
+      ]
+    },
+    {
+      "id": "late-empire",
+      "name": {
+        "en": "Late empire",
+        "es": "Imperio tardío",
+        "zh": "帝国晚期"
+      },
+      "start": 1683,
+      "end": 1922,
+      "sources": [
+        {
+          "citation": "Pleiades time periods, \"Late Ottoman Empire (AD 1683-1918)\", via PeriodO; extended here to the abolition of the sultanate in 1922.",
+          "url": "http://n2t.net/ark:/99152/p03wskdfbcg"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Turkey: Chronology of Major Kemalist Reforms\" (sultanate abolished on 1 November 1922).",
+          "url": "https://countrystudies.us/turkey/14.htm"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "osman-founding",
+      "start": 1299,
+      "type": "founding",
+      "title": {
+        "en": "Osman I, leader of a Turkish frontier band in northwest Anatolia, founds the principality that becomes the Ottoman state",
+        "es": "Osmán I, jefe de una banda turca fronteriza en el noroeste de Anatolia, funda el principado que se convertirá en el estado otomano",
+        "zh": "安纳托利亚西北部突厥边地集团的首领奥斯曼一世建立公国，后来发展为奥斯曼国家"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Osman I\": founder of the Ottoman beylik, 1299; the accounts of his life were written down posthumously.",
+          "url": "https://www.worldhistory.org/Osman_I/"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Turkey: The Ottoman Empire\" (Osman I, reigned about 1284 to 1324, founder of the Osmanli dynasty).",
+          "url": "https://countrystudies.us/turkey/6.htm"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Rise and Fall of the Ottoman Empire (Fourteenth to Seventeenth Centuries)\": Osman stops paying tribute to the Mongol overlord in 1299.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/rise-and-fall-ottoman-empire-fourteenth-seventeenth-centuries"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The year 1299 is traditional; the Library of Congress study dates Osman's reign from about 1284. Little is known of Osman himself, and the Ottoman accounts of his rise, such as the dream of a tree growing from a cleric's chest, were written down generations later.",
+        "es": "El año 1299 es tradicional; el estudio de la Biblioteca del Congreso fecha el reinado de Osmán desde hacia 1284. Se sabe poco del propio Osmán, y los relatos otomanos de su ascenso, como el sueño de un árbol que crece del pecho de un clérigo, se pusieron por escrito generaciones después.",
+        "zh": "1299年是传统说法；美国国会图书馆的研究把奥斯曼的统治起点定在约1284年。关于奥斯曼本人所知甚少，奥斯曼人对其崛起的叙述（如从教士胸中长出大树的梦）是几代人之后才写下的。"
+      }
+    },
+    {
+      "id": "ankara",
+      "start": 1402,
+      "end": 1413,
+      "type": "conflict",
+      "title": {
+        "en": "Timur defeats and captures Sultan Bayezid I at Ankara; his sons fight each other for the throne until 1413",
+        "es": "Timur derrota y captura al sultán Bayezid I en Ankara; sus hijos luchan entre sí por el trono hasta 1413",
+        "zh": "帖木儿在安卡拉击败并俘虏苏丹巴耶济德一世，其诸子为争夺王位互相交战，直到1413年"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Battle of Ankara\": Timur defeats Bayezid I on 28 July 1402; Bayezid captured.",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/battle-ankara/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Battles & Conquests of the Ottoman Empire (1299-1683)\": Bayezid captured at Ankara, followed by the Interregnum of 1402 to 1413.",
+          "url": "https://www.worldhistory.org/article/1791/battles--conquests-of-the-ottoman-empire-1299-1683/"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Turkey: The Ottoman Empire\" (Timur crushes the Ottomans near Ankara in 1402; Bayezid's four heirs compete for a decade).",
+          "url": "https://countrystudies.us/turkey/6.htm"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "constantinople",
+      "start": 1453,
+      "type": "conflict",
+      "title": {
+        "en": "Sultan Mehmed II besieges and takes Constantinople, ending the Byzantine Empire, and makes it his capital",
+        "es": "El sultán Mehmed II sitia y toma Constantinopla, poniendo fin al Imperio bizantino, y la convierte en su capital",
+        "zh": "苏丹穆罕默德二世围攻并攻占君士坦丁堡，灭亡拜占庭帝国，并定为都城"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Mehmed II\": conquers Constantinople and makes it his capital.",
+          "url": "https://www.worldhistory.org/Mehmed_II/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Siege of Constantinople (1453)\": assault opened on 6 April; final assault and capture on 29 May.",
+          "url": "https://www.ebsco.com/research-starters/history/siege-constantinople-1453"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Turkey: The Ottoman Empire\" (Mehmed II and the fifty-day siege of 1453).",
+          "url": "https://countrystudies.us/turkey/6.htm"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The siege ran from 6 April to 29 May 1453.",
+        "es": "El asedio duró del 6 de abril al 29 de mayo de 1453.",
+        "zh": "围城从1453年4月6日持续到5月29日。"
+      },
+      "place": {
+        "name": {
+          "en": "Constantinople (Istanbul)",
+          "es": "Constantinopla (Estambul)",
+          "zh": "君士坦丁堡（伊斯坦布尔）"
+        },
+        "lat": 41.0082,
+        "lon": 28.9784
+      }
+    },
+    {
+      "id": "egypt-conquest",
+      "start": 1516,
+      "end": 1517,
+      "type": "conflict",
+      "title": {
+        "en": "Selim I defeats the Mamluk Sultanate and takes Syria and Egypt",
+        "es": "Selim I derrota al sultanato mameluco y toma Siria y Egipto",
+        "zh": "塞利姆一世击败马木留克苏丹国，夺取叙利亚和埃及"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Mamluk-Ottoman Wars\": Marj Dabiq (24 August 1516), then Raydaniyah near Cairo (22 January 1517).",
+          "url": "https://www.ebsco.com/research-starters/history/mamluk-ottoman-wars"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Egypt: The Ottoman Empire\" (Selim I conquers Egypt in 1517).",
+          "url": "https://countrystudies.us/egypt/18.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Ottoman Empire\"",
+          "url": "https://www.worldhistory.org/Ottoman_Empire/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "suleiman",
+      "start": 1520,
+      "end": 1566,
+      "type": "ruler",
+      "title": {
+        "en": "Suleiman I reigns for 46 years, taking Belgrade and Rhodes, defeating Hungary at Mohács, and besieging Vienna in 1529",
+        "es": "Solimán I reina durante 46 años, toma Belgrado y Rodas, derrota a Hungría en Mohács y sitia Viena en 1529",
+        "zh": "苏莱曼一世在位46年，夺取贝尔格莱德和罗得岛，在摩哈赤击败匈牙利，1529年围攻维也纳"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Suleiman the Magnificent\": Belgrade 1521, Rhodes 1522, Mohács 1526, failed to take Vienna in 1529; died at Szigetvár.",
+          "url": "https://www.worldhistory.org/Suleiman_the_Magnificent/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Süleyman the Magnificent\": reigned 1520 to 1566; took Belgrade and Rhodes; sieged Vienna in 1529.",
+          "url": "https://www.ebsco.com/research-starters/biography/suleyman-magnificent"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Turkey: Selim I and Süleyman the Magnificent\" (Belgrade 1521, Rhodes 1522, victory at Mohács 1526).",
+          "url": "https://countrystudies.us/turkey/8.htm"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Suleiman died on the night of 6 to 7 September 1566 during the siege of Szigetvár. The 1529 siege of Vienna failed.",
+        "es": "Solimán murió en la noche del 6 al 7 de septiembre de 1566 durante el asedio de Szigetvár. El asedio de Viena de 1529 fracasó.",
+        "zh": "苏莱曼于1566年9月6日至7日夜间在围攻锡盖特堡期间去世。1529年围攻维也纳未能成功。"
+      }
+    },
+    {
+      "id": "karlowitz",
+      "start": 1699,
+      "type": "conflict",
+      "title": {
+        "en": "By the Treaty of Karlowitz the Ottomans give up most of Hungary and Transylvania to the Habsburgs, and further lands to Poland and Venice",
+        "es": "Por el Tratado de Karlowitz los otomanos ceden la mayor parte de Hungría y Transilvania a los Habsburgo, y otras tierras a Polonia y Venecia",
+        "zh": "根据《卡洛维茨条约》，奥斯曼人把匈牙利和特兰西瓦尼亚大部割让给哈布斯堡，另一些土地割让给波兰和威尼斯"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com (Columbia Encyclopedia), \"Karlowitz, Treaty of\": Hungary with Transylvania to Austria, Podolia to Poland, the Peloponnese and most of Dalmatia to Venice.",
+          "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/karlowitz-treaty"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Turkey: Köprülü Era\" (Karlowitz, the first treaty in which the Ottomans acknowledged defeat).",
+          "url": "https://countrystudies.us/turkey/9.htm"
+        },
+        {
+          "citation": "Wikipedia, \"Treaty of Karlowitz\" (signed 26 January 1699).",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Karlowitz"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Signed on 26 January 1699, after the failed siege of Vienna in 1683 and the war with the Holy League. Many historians see it as the first large Ottoman territorial loss.",
+        "es": "Firmado el 26 de enero de 1699, tras el fallido asedio de Viena de 1683 y la guerra con la Santa Liga. Muchos historiadores lo ven como la primera gran pérdida territorial otomana.",
+        "zh": "条约于1699年1月26日签订，此前有1683年围攻维也纳失败以及与神圣同盟的战争。许多史学家视之为奥斯曼首次大规模丧失领土。"
+      }
+    },
+    {
+      "id": "tanzimat",
+      "start": 1839,
+      "type": "invention",
+      "title": {
+        "en": "Sultan Abdulmejid I proclaims the Edict of Gülhane, promising all subjects security of life and property and regular taxation, and opening the Tanzimat reforms",
+        "es": "El sultán Abdulmecid I proclama el Edicto de Gülhane, que promete a todos los súbditos seguridad de vida y bienes e impuestos regulares, y abre las reformas del Tanzimat",
+        "zh": "苏丹阿卜杜勒迈吉德一世颁布《居尔哈内敕令》，向所有臣民承诺生命财产安全和规范的税制，开启坦齐马特改革"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Gülhane Imperial Edict (1839)\": proclaimed on 3 November 1839; safety of life, property and honor; just taxation.",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/gulhane-imperial-edict-1839"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Tanzimat\": the reforms began with the Edict of Gülhane in 1839.",
+          "url": "https://www.ebsco.com/research-starters/history/tanzimat/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Ottoman Empire\": Abdulmejid I and the Tanzimat, 1839 to 1876.",
+          "url": "https://www.worldhistory.org/Ottoman_Empire/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Proclaimed on 3 November 1839. The edict was a declaration of principles that opened the Tanzimat reforms, which ran to 1876.",
+        "es": "Proclamado el 3 de noviembre de 1839. El edicto fue una declaración de principios que abrió las reformas del Tanzimat, que se prolongaron hasta 1876.",
+        "zh": "敕令于1839年11月3日颁布。敕令是一份原则声明，开启了持续到1876年的坦齐马特改革。"
+      }
+    },
+    {
+      "id": "young-turks",
+      "start": 1908,
+      "type": "ruler",
+      "title": {
+        "en": "Army officers of the Committee of Union and Progress force Sultan Abdulhamid II to restore the 1876 constitution",
+        "es": "Oficiales del ejército del Comité de Unión y Progreso obligan al sultán Abdulhamid II a restablecer la constitución de 1876",
+        "zh": "统一与进步委员会的军官迫使苏丹阿卜杜勒哈米德二世恢复1876年宪法"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Young Turks Stage a Coup in the Ottoman Empire\": coup of 24 July 1908 restoring the 1876 constitution.",
+          "url": "https://www.ebsco.com/research-starters/history/young-turks-stage-coup-ottoman-empire/"
+        },
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Turkey: The Young Turks\" (army units in Macedonia revolt in July 1908 and demand constitutional government).",
+          "url": "https://countrystudies.us/turkey/11.htm"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The army revolt began in Macedonia in July 1908 and the constitution was restored on 24 July.",
+        "es": "La revuelta militar comenzó en Macedonia en julio de 1908 y la constitución fue restablecida el 24 de julio.",
+        "zh": "军队起义于1908年7月在马其顿爆发，宪法于7月24日恢复。"
+      }
+    },
+    {
+      "id": "sultanate-abolished",
+      "start": 1922,
+      "type": "collapse",
+      "title": {
+        "en": "The Grand National Assembly in Ankara abolishes the sultanate, ending the reign of Mehmed VI, the last sultan",
+        "es": "La Gran Asamblea Nacional en Ankara abole el sultanato y pone fin al reinado de Mehmed VI, el último sultán",
+        "zh": "安卡拉的大国民议会废除苏丹制，末代苏丹穆罕默德六世的统治就此终结"
+      },
+      "sources": [
+        {
+          "citation": "U.S. Library of Congress Country Studies, \"Turkey: Chronology of Major Kemalist Reforms\": sultanate abolished on 1 November 1922; caliphate abolished in 1924.",
+          "url": "https://countrystudies.us/turkey/14.htm"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Atatürk, Mustafa Kemal\": the assembly abolished the sultanate on 1 November 1922, leaving the caliphate in the Ottoman house.",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/ataturk-mustafa-kemal-1881-1938"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Ottoman Empire\": the monarchy abolished and Mehmed VI leaves the capital; Abdulmejid II caliph only, 1922 to 1924.",
+          "url": "https://www.worldhistory.org/Ottoman_Empire/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Voted on 1 November 1922. The Assembly kept the caliphate and gave the title to Abdulmejid II, who held it, with no political power, until the caliphate was abolished in 1924.",
+        "es": "Votado el 1 de noviembre de 1922. La Asamblea mantuvo el califato y dio el título a Abdulmecid II, que lo conservó, sin poder político, hasta que el califato fue abolido en 1924.",
+        "zh": "于1922年11月1日表决通过。议会保留哈里发制，并把哈里发头衔授予阿卜杜勒迈吉德二世，他在没有政治权力的情况下保有该头衔，直到1924年哈里发制被废除。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "last-sultan-leaves",
+      "start": 1922,
+      "end": 1922,
+      "text": {
+        "en": "On 17 November 1922 the last sultan, Mehmed VI, left Constantinople on the British warship HMS Malaya.",
+        "es": "El 17 de noviembre de 1922 el último sultán, Mehmed VI, salió de Constantinopla en el buque de guerra británico HMS Malaya.",
+        "zh": "1922年11月17日，末代苏丹穆罕默德六世乘英国军舰“马来亚”号离开君士坦丁堡。"
+      },
+      "sources": [
+        {
+          "citation": "New Lines Magazine, \"The Long Shadow of the Last Ottoman Sultan\" (2023): on 17 November 1922 Mehmed VI fled Istanbul and was taken to the battleship HMS Malaya.",
+          "url": "https://newlinesmag.com/essays/the-long-shadow-of-the-last-ottoman-sultan/"
+        },
+        {
+          "citation": "Wikipedia, \"Mehmed VI\" (departure on HMS Malaya).",
+          "url": "https://en.wikipedia.org/wiki/Mehmed_VI"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

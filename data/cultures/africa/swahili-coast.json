@@ -1,0 +1,367 @@
+{
+  "id": "swahili-coast",
+  "region": "africa",
+  "wikidataId": "Q2739014",
+  "name": {
+    "en": "Swahili coast",
+    "es": "Zanguebar",
+    "zh": "斯瓦希里海岸"
+  },
+  "aliases": [
+    "Swahili city-states",
+    "Swahili civilization",
+    "Waswahili",
+    "Kilwa",
+    "Mombasa",
+    "Zanzibar",
+    "Lamu",
+    "Zanguebar",
+    "Mogadishu",
+    "Kilwa Sultanate",
+    "Costa suajili"
+  ],
+  "description": {
+    "en": "A string of Muslim trading towns along the coast of Kenya and Tanzania, among them Kilwa, Mombasa and Zanzibar. They shipped East African gold and ivory across the Indian Ocean. Portuguese ships arrived in 1498, and Oman took Mombasa in 1698.",
+    "es": "Una cadena de ciudades comerciales musulmanas a lo largo de la costa de Kenia y Tanzania, entre ellas Kilwa, Mombasa y Zanzíbar. Enviaban oro y marfil de África oriental por el océano Índico. Los barcos portugueses llegaron en 1498 y Omán tomó Mombasa en 1698.",
+    "zh": "沿肯尼亚和坦桑尼亚海岸分布的一串穆斯林商业城镇，包括基尔瓦、蒙巴萨和桑给巴尔。它们把东非的黄金和象牙运过印度洋。葡萄牙船只于1498年到达，阿曼于1698年夺取蒙巴萨。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "city-states",
+      "earliestStart": 700,
+      "latestStart": 900,
+      "earliestEnd": 1505,
+      "latestEnd": 1698,
+      "sources": [
+        {
+          "citation": "PBS, Wonders of the African World. \"The Swahili Coast.\"",
+          "url": "https://www.pbs.org/wonders/Episodes/Epi2/swahi_2.htm"
+        },
+        {
+          "citation": "National Geographic Education. \"People of the Coast.\"",
+          "url": "https://education.nationalgeographic.org/resource/people-coast/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"The Portuguese in East Africa.\"",
+          "url": "https://www.worldhistory.org/article/1798/the-portuguese-in-east-africa/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The towns grew over centuries, so no start year is fixed: PBS says market towns formed between 500 and 800, and National Geographic dates permanent Muslim settlement to the 8th century. Portuguese attacks began in 1505 and Portuguese rule on the coast ended in 1698, but the towns and the Swahili language continued under Omani rule.",
+        "es": "Las ciudades crecieron durante siglos, por lo que no hay un año de inicio fijo: PBS dice que los mercados se formaron entre 500 y 800, y National Geographic data el asentamiento musulmán permanente en el siglo VIII. Los ataques portugueses empezaron en 1505 y el dominio portugués en la costa terminó en 1698, pero las ciudades y el suajili continuaron bajo el dominio omaní.",
+        "zh": "这些城镇历经数个世纪逐渐形成，没有确定的起始年份：PBS称集镇形成于500年至800年之间，《国家地理》则把穆斯林的长期定居定在8世纪。葡萄牙的进攻始于1505年，葡萄牙在海岸的统治于1698年结束，但城镇和斯瓦希里语在阿曼统治下仍延续。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "city-states",
+      "name": {
+        "en": "Independent city-states",
+        "es": "Ciudades-estado independientes",
+        "zh": "独立城邦"
+      },
+      "start": 1100,
+      "end": 1498,
+      "sources": [
+        {
+          "citation": "National Geographic Education. \"People of the Coast.\"",
+          "url": "https://education.nationalgeographic.org/resource/people-coast/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kilwa.\"",
+          "url": "https://www.worldhistory.org/Kilwa/"
+        }
+      ]
+    },
+    {
+      "id": "portuguese-contest",
+      "name": {
+        "en": "Portuguese contest",
+        "es": "Disputa con Portugal",
+        "zh": "与葡萄牙的争夺"
+      },
+      "start": 1498,
+      "end": 1698,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"The Portuguese in East Africa.\"",
+          "url": "https://www.worldhistory.org/article/1798/the-portuguese-in-east-africa/"
+        },
+        {
+          "citation": "PBS, Wonders of the African World. \"The Swahili Coast.\"",
+          "url": "https://www.pbs.org/wonders/Episodes/Epi2/swahi_2.htm"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "market-towns",
+      "start": 800,
+      "type": "founding",
+      "title": {
+        "en": "Market towns such as Shanga, Kilwa and Mombasa turn to sea trade, and Muslim traders settle on the coast",
+        "es": "Ciudades de mercado como Shanga, Kilwa y Mombasa se orientan al comercio marítimo y comerciantes musulmanes se asientan en la costa",
+        "zh": "尚加、基尔瓦和蒙巴萨等集镇转向海上贸易，穆斯林商人在海岸定居"
+      },
+      "sources": [
+        {
+          "citation": "PBS, Wonders of the African World. \"The Swahili Coast.\"",
+          "url": "https://www.pbs.org/wonders/Episodes/Epi2/swahi_2.htm"
+        },
+        {
+          "citation": "National Geographic Education. \"People of the Coast.\"",
+          "url": "https://education.nationalgeographic.org/resource/people-coast/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "PBS places the shift to sea trade between 500 and 800; National Geographic dates permanent Muslim settlement to the 8th century.",
+        "es": "PBS sitúa el giro al comercio marítimo entre 500 y 800; National Geographic data el asentamiento musulmán permanente en el siglo VIII.",
+        "zh": "PBS把转向海上贸易定在500年至800年之间；《国家地理》把穆斯林的长期定居定在8世纪。"
+      }
+    },
+    {
+      "id": "kilwa-gold",
+      "start": 1300,
+      "end": 1400,
+      "type": "invention",
+      "title": {
+        "en": "Kilwa grows rich on gold from Sofala and builds a large palace and an enlarged Great Mosque",
+        "es": "Kilwa se enriquece con el oro de Sofala y construye un gran palacio y una Gran Mezquita ampliada",
+        "zh": "基尔瓦靠索法拉的黄金致富，并修建了大型宫殿和扩建的大清真寺"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kilwa.\"",
+          "url": "https://www.worldhistory.org/Kilwa/"
+        },
+        {
+          "citation": "Wikipedia. \"Kilwa Sultanate.\"",
+          "url": "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
+        },
+        {
+          "citation": "Brown University, Joukowsky Institute, Islamic Civilizations course notes on Kilwa.",
+          "url": "https://webhelper.brown.edu/joukowsky/courses/islamiccivilizations/8553.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kilwa Kisiwani",
+          "es": "Kilwa Kisiwani",
+          "zh": "基尔瓦基西瓦尼"
+        },
+        "lat": -8.9583,
+        "lon": 39.5156
+      }
+    },
+    {
+      "id": "ibn-battuta",
+      "start": 1331,
+      "type": "invention",
+      "title": {
+        "en": "The Moroccan traveller Ibn Battuta visits Kilwa and calls it one of the most beautiful towns in the world",
+        "es": "El viajero marroquí Ibn Battuta visita Kilwa y la describe como una de las ciudades más hermosas del mundo",
+        "zh": "摩洛哥旅行家伊本·白图泰到访基尔瓦，称其为世界上最美丽的城镇之一"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kilwa.\"",
+          "url": "https://www.worldhistory.org/Kilwa/"
+        },
+        {
+          "citation": "Brown University, Joukowsky Institute, Islamic Civilizations course notes on Kilwa.",
+          "url": "https://webhelper.brown.edu/joukowsky/courses/islamiccivilizations/8553.html"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kilwa Kisiwani",
+          "es": "Kilwa Kisiwani",
+          "zh": "基尔瓦基西瓦尼"
+        },
+        "lat": -8.9583,
+        "lon": 39.5156
+      },
+      "note": {
+        "en": "Translations of Ibn Battuta's description vary; World History Encyclopedia gives \"one of the most beautiful towns in the world\".",
+        "es": "Las traducciones de la descripción de Ibn Battuta varían; World History Encyclopedia da \"una de las ciudades más hermosas del mundo\".",
+        "zh": "伊本·白图泰这段描述的译法不一；《世界历史百科全书》作“世界上最美丽的城镇之一”。"
+      }
+    },
+    {
+      "id": "da-gama",
+      "start": 1498,
+      "type": "invention",
+      "title": {
+        "en": "Vasco da Gama's ships sail up the coast, past Swahili ports full of trading vessels, on the way to India",
+        "es": "Los barcos de Vasco da Gama navegan por la costa, frente a puertos suajilis llenos de naves mercantes, rumbo a la India",
+        "zh": "瓦斯科·达·伽马的船队沿海岸北上，经过停满商船的斯瓦希里港口，驶往印度"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"The Portuguese in East Africa.\"",
+          "url": "https://www.worldhistory.org/article/1798/the-portuguese-in-east-africa/"
+        },
+        {
+          "citation": "PBS, Wonders of the African World. \"The Swahili Coast.\"",
+          "url": "https://www.pbs.org/wonders/Episodes/Epi2/swahi_2.htm"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "sack-of-kilwa",
+      "start": 1505,
+      "type": "conflict",
+      "title": {
+        "en": "A Portuguese fleet under Francisco de Almeida attacks Kilwa, drives out its king and builds a fort; it sacks Mombasa the same summer",
+        "es": "Una flota portuguesa al mando de Francisco de Almeida ataca Kilwa, expulsa a su rey y construye un fuerte; ese mismo verano saquea Mombasa",
+        "zh": "弗朗西斯科·德·阿尔梅达率领的葡萄牙舰队攻打基尔瓦，赶走其国王并修建要塞；同年夏天又洗劫蒙巴萨"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kilwa.\"",
+          "url": "https://www.worldhistory.org/Kilwa/"
+        },
+        {
+          "citation": "\"The Voyage and Acts of Dom Francisco d'Almeida\" (1505), Fordham University Internet History Sourcebooks.",
+          "url": "https://sourcebooks.web.fordham.edu/mod/1505mayr.asp"
+        },
+        {
+          "citation": "Wikipedia. \"Kilwa Sultanate.\"",
+          "url": "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kilwa Kisiwani",
+          "es": "Kilwa Kisiwani",
+          "zh": "基尔瓦基西瓦尼"
+        },
+        "lat": -8.9583,
+        "lon": 39.5156
+      }
+    },
+    {
+      "id": "fort-jesus",
+      "start": 1593,
+      "end": 1596,
+      "type": "conflict",
+      "title": {
+        "en": "The Portuguese take Mombasa and build Fort Jesus as their base on the coast",
+        "es": "Los portugueses toman Mombasa y construyen el Fuerte Jesús como base en la costa",
+        "zh": "葡萄牙人夺取蒙巴萨，并修建耶稣堡作为其在海岸的基地"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"The Portuguese in East Africa.\"",
+          "url": "https://www.worldhistory.org/article/1798/the-portuguese-in-east-africa/"
+        },
+        {
+          "citation": "Wikipedia. \"Fort Jesus.\"",
+          "url": "https://en.wikipedia.org/wiki/Fort_Jesus"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia dates the capture of Mombasa to 1593; Wikipedia gives 1593 to 1596 for building the fort.",
+        "es": "World History Encyclopedia data la toma de Mombasa en 1593; Wikipedia da de 1593 a 1596 para la construcción del fuerte.",
+        "zh": "《世界历史百科全书》把夺取蒙巴萨定在1593年；维基百科给出的要塞建造时间为1593年至1596年。"
+      },
+      "place": {
+        "name": {
+          "en": "Fort Jesus, Mombasa",
+          "es": "Fuerte Jesús, Mombasa",
+          "zh": "蒙巴萨耶稣堡"
+        },
+        "lat": -4.0622,
+        "lon": 39.6797
+      }
+    },
+    {
+      "id": "oman-takes-mombasa",
+      "start": 1698,
+      "type": "collapse",
+      "title": {
+        "en": "Omani forces capture Portuguese Mombasa, leaving Portugal with only Mozambique on the east African coast",
+        "es": "Las fuerzas omaníes capturan la Mombasa portuguesa y dejan a Portugal solo con Mozambique en la costa de África oriental",
+        "zh": "阿曼军队攻占葡属蒙巴萨，葡萄牙在东非海岸只剩下莫桑比克"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"The Portuguese in East Africa.\"",
+          "url": "https://www.worldhistory.org/article/1798/the-portuguese-in-east-africa/"
+        },
+        {
+          "citation": "PBS, Wonders of the African World. \"The Swahili Coast.\"",
+          "url": "https://www.pbs.org/wonders/Episodes/Epi2/swahi_2.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Fort Jesus, Mombasa",
+          "es": "Fuerte Jesús, Mombasa",
+          "zh": "蒙巴萨耶稣堡"
+        },
+        "lat": -4.0622,
+        "lon": 39.6797
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "husuni-kubwa",
+      "text": {
+        "en": "Kilwa's Husuni Kubwa, a coral-stone palace built in the 14th century, had more than 100 rooms and pieces of Chinese porcelain set into its plaster.",
+        "es": "Husuni Kubwa, en Kilwa, un palacio de piedra de coral construido en el siglo XIV, tenía más de 100 habitaciones y fragmentos de porcelana china incrustados en el yeso.",
+        "zh": "基尔瓦的胡苏尼·库布瓦宫是14世纪建造的珊瑚石宫殿，有一百多个房间，灰泥墙面嵌有中国瓷片。"
+      },
+      "start": 1300,
+      "end": 1400,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kilwa.\"",
+          "url": "https://www.worldhistory.org/Kilwa/"
+        },
+        {
+          "citation": "Wikipedia. \"Kilwa Kisiwani.\"",
+          "url": "https://en.wikipedia.org/wiki/Kilwa_Kisiwani"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "kilwa-coins",
+      "text": {
+        "en": "Kilwa struck its own copper coins from the 11th or 12th century.",
+        "es": "Kilwa acuñó sus propias monedas de cobre desde el siglo XI o XII.",
+        "zh": "基尔瓦自11或12世纪起铸造自己的铜币。"
+      },
+      "start": 1100,
+      "end": 1400,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Kilwa.\"",
+          "url": "https://www.worldhistory.org/Kilwa/"
+        },
+        {
+          "citation": "Wikipedia. \"Kilwa Sultanate.\"",
+          "url": "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

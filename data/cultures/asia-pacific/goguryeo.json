@@ -1,0 +1,330 @@
+{
+  "id": "goguryeo",
+  "region": "asia-pacific",
+  "wikidataId": "Q28370",
+  "name": {
+    "en": "Goguryeo",
+    "es": "Goguryeo",
+    "zh": "高句丽"
+  },
+  "nativeName": {
+    "text": "高句麗",
+    "lang": "ko"
+  },
+  "aliases": [
+    "Koguryo",
+    "Koguryŏ",
+    "Kogurye",
+    "Gaogouli",
+    "Gogureo",
+    "Goryeo (early name)",
+    "高句丽",
+    "Gwanggaeto",
+    "Gwanggaeto the Great",
+    "Three Kingdoms of Korea"
+  ],
+  "description": {
+    "en": "Goguryeo rose along the Yalu River and, under Gwanggaeto (r. 391-413) and his son Jangsu, held northern Korea and much of Manchuria. It destroyed a Sui army at the Salsu River in 612 and held off a Tang army at Ansi in 645, then fell to Tang and Silla forces in 668. Its painted tombs survive.",
+    "es": "Goguryeo surgió a orillas del río Yalu y, bajo Gwanggaeto (r. 391-413) y su hijo Jangsu, dominó el norte de Corea y buena parte de Manchuria. Destruyó a un ejército Sui en el río Salsu en 612 y resistió a un ejército Tang en Ansi en 645, y cayó ante las fuerzas Tang y Silla en 668. Se conservan sus tumbas pintadas.",
+    "zh": "高句丽兴起于鸭绿江流域，在广开土王（391—413年在位）及其子长寿王治下控制了朝鲜半岛北部和满洲大部。612年在萨水歼灭隋军，645年在安市城击退唐军，668年亡于唐朝与新罗联军。其壁画古墓留存至今。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "goguryeo-kingdom",
+      "earliestStart": -36,
+      "latestStart": 53,
+      "earliestEnd": 668,
+      "latestEnd": 668,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Koguryo Kingdom\" (37 BC – AD 668), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hxw49"
+        },
+        {
+          "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study. Library of Congress Federal Research Division, \"The Three Kingdoms Period\".",
+          "url": "http://countrystudies.us/south-korea/3.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.worldhistory.org/Goguryeo/"
+        },
+        {
+          "citation": "New World Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.newworldencyclopedia.org/entry/Goguryeo"
+        },
+        {
+          "citation": "Rising Powers Initiative, George Washington University, on the Goguryeo dispute between China and Korea.",
+          "url": "https://www.risingpowersinitiative.org/?p=16224"
+        }
+      ],
+      "periodoId": "p08m57hxw49",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The traditional founding date, from the 12th-century Samguk sagi, is 37 BCE. The Library of Congress country study says an independent centralised kingdom had formed by 53 CE, and some scholars put the origins in the 2nd century BCE on archaeological grounds. Chinese state scholarship, notably the Northeast Project from 2002, treats Goguryeo as a local regime within Chinese history; Korean scholars and the South Korean government treat it as part of Korean history. This entry records its dates and events only.",
+        "es": "La fecha tradicional de fundación, tomada del Samguk sagi del siglo XII, es 37 a. e. c. El estudio de país de la Biblioteca del Congreso afirma que hacia 53 e. c. ya existía un reino independiente y centralizado, y algunos especialistas sitúan los orígenes en el siglo II a. e. c. por motivos arqueológicos. La erudición estatal china, en particular el Proyecto del Noreste desde 2002, considera a Goguryeo un régimen local dentro de la historia china; los especialistas coreanos y el gobierno surcoreano lo consideran parte de la historia coreana. Esta entrada solo recoge sus fechas y acontecimientos.",
+        "zh": "传统建国年份出自12世纪的《三国史记》，为公元前37年。美国国会图书馆的国别研究称，公元53年时已形成独立的中央集权王国；也有学者根据考古材料把起源上推到公元前2世纪。中国官方学界，尤其是2002年起的东北工程，把高句丽视为中国历史上的地方政权；朝鲜半岛学者和韩国政府则把它视为朝鲜半岛历史的一部分。本条目只记录其年代与事件。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding-by-jumong",
+      "start": -36,
+      "type": "founding",
+      "title": {
+        "en": "According to the traditional account, Jumong founds Goguryeo",
+        "es": "Según el relato tradicional, Jumong funda Goguryeo",
+        "zh": "据传统记载，朱蒙建立高句丽"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.worldhistory.org/Goguryeo/"
+        },
+        {
+          "citation": "New World Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.newworldencyclopedia.org/entry/Goguryeo"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date comes from the Samguk sagi, a 12th-century chronicle; the Library of Congress country study dates an independent centralised kingdom to 53 CE, and some scholars place the origins in the 2nd century BCE.",
+        "es": "La fecha procede del Samguk sagi, una crónica del siglo XII; el estudio de país de la Biblioteca del Congreso sitúa un reino independiente y centralizado en 53 e. c., y algunos especialistas ubican los orígenes en el siglo II a. e. c.",
+        "zh": "该年份出自12世纪的《三国史记》；美国国会图书馆的国别研究把独立的中央集权王国定在公元53年，也有学者把起源上推到公元前2世纪。"
+      }
+    },
+    {
+      "id": "lelang-destroyed",
+      "start": 313,
+      "type": "conflict",
+      "title": {
+        "en": "Goguryeo takes Lelang, the last Chinese commandery on the Korean peninsula",
+        "es": "Goguryeo toma Lelang, la última comandancia china en la península de Corea",
+        "zh": "高句丽攻取乐浪郡，这是中原王朝在朝鲜半岛的最后一个郡"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.worldhistory.org/Goguryeo/"
+        },
+        {
+          "citation": "New World Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.newworldencyclopedia.org/entry/Goguryeo"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "buddhism-adopted",
+      "start": 372,
+      "type": "invention",
+      "title": {
+        "en": "King Sosurim adopts Buddhism, introduced by the monk Shundao",
+        "es": "El rey Sosurim adopta el budismo, introducido por el monje Shundao",
+        "zh": "小兽林王接受由僧人顺道传入的佛教"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.worldhistory.org/Goguryeo/"
+        },
+        {
+          "citation": "New World Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.newworldencyclopedia.org/entry/Goguryeo"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "gwanggaeto-stele",
+      "start": 414,
+      "type": "ruler",
+      "title": {
+        "en": "King Jangsu erects a stele for his father Gwanggaeto, listing the king's campaigns",
+        "es": "El rey Jangsu erige una estela para su padre Gwanggaeto con las campañas del rey",
+        "zh": "长寿王为其父广开土王立碑，碑文记述了这位国王的征战"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Gwanggaeto the Great\".",
+          "url": "https://www.worldhistory.org/Gwanggaeto_the_Great/"
+        },
+        {
+          "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study. Library of Congress Federal Research Division, \"The Three Kingdoms Period\".",
+          "url": "http://countrystudies.us/south-korea/3.htm"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Scholars read some lines of the inscription differently, notably those about Japan.",
+        "es": "Los especialistas interpretan de forma distinta algunas líneas de la inscripción, sobre todo las referidas a Japón.",
+        "zh": "学者对碑文部分文句的解读不同，尤其是涉及日本的部分。"
+      },
+      "place": {
+        "name": {
+          "en": "Ji'an (Gungnae)",
+          "es": "Ji'an (Gungnae)",
+          "zh": "集安（国内城）"
+        },
+        "lat": 41.1236,
+        "lon": 126.1903
+      }
+    },
+    {
+      "id": "capital-moved-to-pyongyang",
+      "start": 427,
+      "type": "ruler",
+      "title": {
+        "en": "King Jangsu moves the capital from Gungnae to Pyongyang",
+        "es": "El rey Jangsu traslada la capital de Gungnae a Pionyang",
+        "zh": "长寿王将都城从国内城迁到平壤"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.worldhistory.org/Goguryeo/"
+        },
+        {
+          "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study. Library of Congress Federal Research Division, \"The Three Kingdoms Period\".",
+          "url": "http://countrystudies.us/south-korea/3.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Pyongyang",
+          "es": "Pionyang",
+          "zh": "平壤"
+        },
+        "lat": 39.0392,
+        "lon": 125.7625
+      }
+    },
+    {
+      "id": "battle-of-salsu",
+      "start": 612,
+      "type": "conflict",
+      "title": {
+        "en": "General Eulji Mundeok floods the Salsu River and destroys the crossing Sui army",
+        "es": "El general Eulji Mundeok inunda el río Salsu y destruye al ejército Sui que lo cruzaba",
+        "zh": "乙支文德将军放水冲击萨水，歼灭正在渡河的隋军"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.worldhistory.org/Goguryeo/"
+        },
+        {
+          "citation": "War History Network, \"The Battle of Salsu, 612 CE\".",
+          "url": "https://warhistory.org/@msw/article/the-battle-of-salsu-612-ce"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "siege-of-ansi",
+      "start": 645,
+      "type": "conflict",
+      "title": {
+        "en": "A Tang army led by Emperor Taizong fails to take Ansi fortress and withdraws",
+        "es": "Un ejército Tang dirigido por el emperador Taizong no logra tomar la fortaleza de Ansi y se retira",
+        "zh": "唐太宗亲率的唐军未能攻下安市城，随后撤军"
+      },
+      "sources": [
+        {
+          "citation": "New World Encyclopedia, \"Yeon Gaesomun\".",
+          "url": "https://www.newworldencyclopedia.org/entry/Yeon_Gaesomun"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.worldhistory.org/Goguryeo/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The World History Encyclopedia dates the siege to 644; the New World Encyclopedia dates Taizong's invasion to 645, the year this entry uses. The World History Encyclopedia names the Goguryeo commander as Yang Manchun and gives a three-month siege.",
+        "es": "La World History Encyclopedia fecha el asedio en 644; la New World Encyclopedia fecha la invasión de Taizong en 645, el año que usa esta entrada. La World History Encyclopedia nombra al comandante de Goguryeo como Yang Manchun y habla de un asedio de tres meses.",
+        "zh": "《世界历史百科》把围城系于644年；《新世界百科全书》把太宗的入侵系于645年，本条目采用645年。《世界历史百科》称高句丽守将为杨万春，围城持续三个月。"
+      }
+    },
+    {
+      "id": "fall-of-goguryeo",
+      "start": 668,
+      "type": "collapse",
+      "title": {
+        "en": "Tang and Silla forces defeat Goguryeo, and King Bojang is taken to China",
+        "es": "Las fuerzas Tang y Silla derrotan a Goguryeo y el rey Bojang es llevado a China",
+        "zh": "唐军与新罗军击败高句丽，宝藏王被带往中国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.worldhistory.org/Goguryeo/"
+        },
+        {
+          "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study. Library of Congress Federal Research Division, \"The Three Kingdoms Period\".",
+          "url": "http://countrystudies.us/south-korea/3.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Pyongyang",
+          "es": "Pionyang",
+          "zh": "平壤"
+        },
+        "lat": 39.0392,
+        "lon": 125.7625
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "tomb-murals",
+      "start": 300,
+      "end": 668,
+      "text": {
+        "en": "Dozens of Goguryeo tombs carry wall paintings of dancers, warriors and mythological scenes; UNESCO listed a group near Pyongyang and Nampo in 2004.",
+        "es": "Decenas de tumbas de Goguryeo tienen pinturas murales de bailarines, guerreros y escenas mitológicas; la UNESCO inscribió un grupo cerca de Pionyang y Nampo en 2004.",
+        "zh": "数十座高句丽古墓绘有舞者、武士和神话场景的壁画；2004年联合国教科文组织将平壤和南浦附近的一组古墓列入世界遗产。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Goguryeo\".",
+          "url": "https://www.worldhistory.org/Goguryeo/"
+        },
+        {
+          "citation": "New World Encyclopedia, \"Complex of Goguryeo Tombs\".",
+          "url": "https://www.newworldencyclopedia.org/entry/Complex_of_Goguryeo_Tombs"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "gwanggaeto-name",
+      "start": 391,
+      "end": 413,
+      "text": {
+        "en": "The name of King Gwanggaeto means \"broad expander of territory\".",
+        "es": "El nombre del rey Gwanggaeto significa \"gran ampliador del territorio\".",
+        "zh": "广开土王之名意为“广阔拓展领土者”。"
+      },
+      "sources": [
+        {
+          "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study. Library of Congress Federal Research Division, \"The Three Kingdoms Period\".",
+          "url": "http://countrystudies.us/south-korea/3.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Gwanggaeto the Great\".",
+          "url": "https://www.worldhistory.org/Gwanggaeto_the_Great/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

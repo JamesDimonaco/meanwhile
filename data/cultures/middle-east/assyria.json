@@ -1,0 +1,373 @@
+{
+  "id": "assyria",
+  "region": "middle-east",
+  "wikidataId": "Q41137",
+  "name": {
+    "en": "Assyria",
+    "es": "Asiria",
+    "zh": "亚述"
+  },
+  "nativeName": {
+    "text": "Aššur",
+    "lang": "akk"
+  },
+  "aliases": [
+    "Assyrian Empire",
+    "Neo-Assyrian Empire",
+    "Old Assyrian",
+    "Middle Assyrian",
+    "Ashur",
+    "Assur",
+    "Nineveh",
+    "Nimrud",
+    "Kalhu",
+    "Ashurbanipal",
+    "Imperio asirio",
+    "亚述帝国",
+    "尼尼微"
+  ],
+  "description": {
+    "en": "Assyria began as a city-state around Ashur on the Tigris, grew into a trading power, and by the 7th century BCE ruled an empire from Egypt to the Persian Gulf. Babylonian and Median armies destroyed its capital, Nineveh, in 612 BCE.",
+    "es": "Asiria nació como una ciudad-estado en torno a Asur, a orillas del Tigris, se convirtió en una potencia comercial y en el siglo VII a. e. c. gobernaba un imperio desde Egipto hasta el golfo Pérsico. Ejércitos babilonios y medos destruyeron su capital, Nínive, en 612 a. e. c.",
+    "zh": "亚述起初是底格里斯河畔阿舒尔周围的城邦，后来成为商业强国，到公元前7世纪统治着从埃及到波斯湾的帝国。公元前612年，巴比伦和米底的军队摧毁了它的都城尼尼微。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "assyria-period",
+      "earliestStart": -2024,
+      "latestStart": -1999,
+      "earliestEnd": -611,
+      "latestEnd": -608,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Old Assyrian\" (approximately 2000 BC – 1800 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hxqkt"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Neo-Assyrian\" (930 BC – 612 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57htgkc"
+        },
+        {
+          "citation": "Wikipedia. \"Assyria.\" (Old Assyrian from c. 2025 BCE; Neo-Assyrian period to 609 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Assyria"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The bar runs from the first independent kings of Ashur (about 2000 BCE) to the fall of Nineveh in 612 BCE and the last Assyrian stand at Harran in 609 BCE, which is the fade. Dates before about 1500 BCE follow the middle chronology. The Assyrian people and culture continued after the empire fell, which is not shown.",
+        "es": "La barra va de los primeros reyes independientes de Asur (hacia 2000 a. e. c.) a la caída de Nínive en 612 a. e. c. y la última resistencia asiria en Harrán en 609 a. e. c., que es el degradado. Las fechas anteriores a 1500 a. e. c. aproximadamente siguen la cronología media. El pueblo y la cultura asirios continuaron tras la caída del imperio, algo que no se muestra.",
+        "zh": "时间条从阿舒尔最初的独立国王（约公元前2000年）延伸到公元前612年尼尼微陷落，以及公元前609年亚述在哈兰的最后抵抗（即渐变部分）。公元前1500年以前的年代大多依据中年表。帝国灭亡后亚述人及其文化仍在延续，这里没有显示。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "old-assyrian",
+      "name": {
+        "en": "Old Assyrian",
+        "es": "Paleoasirio",
+        "zh": "古亚述时期"
+      },
+      "start": -2024,
+      "end": -1362,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Old Assyrian\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hxqkt"
+        },
+        {
+          "citation": "Wikipedia. \"Assyria.\" (Old Assyrian period, c. 2025–1364 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Assyria"
+        }
+      ]
+    },
+    {
+      "id": "middle-assyrian",
+      "name": {
+        "en": "Middle Assyrian",
+        "es": "Medioasirio",
+        "zh": "中亚述时期"
+      },
+      "start": -1362,
+      "end": -910,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Middle Assyrian\" (around 1350 BC – 1050 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hg7gf"
+        },
+        {
+          "citation": "Wikipedia. \"Assyria.\" (Middle Assyrian period, c. 1363–912 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Assyria"
+        }
+      ]
+    },
+    {
+      "id": "neo-assyrian",
+      "name": {
+        "en": "Neo-Assyrian",
+        "es": "Neoasirio",
+        "zh": "新亚述时期"
+      },
+      "start": -910,
+      "end": -608,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Neo-Assyrian\" (930 BC – 612 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57htgkc"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Assyria.\" (Neo-Assyrian revival from Adad-nirari II, 912 BCE).",
+          "url": "https://www.worldhistory.org/assyria/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "kanesh-trading-colony",
+      "start": -1949,
+      "end": -1718,
+      "type": "invention",
+      "title": {
+        "en": "Assyrian merchants run a trading colony at Kanesh in Anatolia and leave over 22,000 clay tablets",
+        "es": "Mercaderes asirios mantienen una colonia comercial en Kanesh, en Anatolia, y dejan más de 22 000 tablillas de arcilla",
+        "zh": "亚述商人在安纳托利亚的卡内什经营商业殖民地，留下了两万多块泥板"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Old Assyrian period.\" (karum at Kültepe, levels II c. 1950–1836 BCE and Ib c. 1833–1719 BCE; over 22,000 tablets).",
+          "url": "https://en.wikipedia.org/wiki/Old_Assyrian_period"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Assyria.\" (Karum Kanesh among the most lucrative trade centres of the ancient Near East).",
+          "url": "https://www.worldhistory.org/assyria/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kültepe (Kanesh), Türkiye",
+          "es": "Kültepe (Kanesh), Turquía",
+          "zh": "屈尔泰佩（卡内什），土耳其"
+        },
+        "lat": 38.851,
+        "lon": 35.634
+      }
+    },
+    {
+      "id": "ashur-uballit-great-king",
+      "start": -1362,
+      "type": "founding",
+      "title": {
+        "en": "Ashur-uballit I makes Assyria independent of Mitanni and writes to the pharaoh as a great king",
+        "es": "Ashur-uballit I independiza a Asiria de Mitani y escribe al faraón como gran rey",
+        "zh": "亚述乌巴里特一世使亚述摆脱米坦尼，并以大王身份致信法老"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Middle Assyrian Empire.\" (independent territorial state under Ashur-uballit I, c. 1363 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Middle_Assyrian_Empire"
+        },
+        {
+          "citation": "Wikipedia. \"Amarna letters.\" (letter EA 15, from Ashur-uballit I).",
+          "url": "https://en.wikipedia.org/wiki/Amarna_letters"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Middle-chronology date, c. 1363 BCE.",
+        "es": "Fecha de la cronología media, c. 1363 a. e. c.",
+        "zh": "中年表年代，约公元前1363年。"
+      },
+      "place": {
+        "name": {
+          "en": "Ashur (Qalat Sherqat), Iraq",
+          "es": "Asur (Qalat Sherqat), Irak",
+          "zh": "阿舒尔（卡拉特舍尔加特），伊拉克"
+        },
+        "lat": 35.458,
+        "lon": 43.259
+      }
+    },
+    {
+      "id": "tukulti-ninurta-takes-babylon",
+      "start": -1224,
+      "type": "conflict",
+      "title": {
+        "en": "Tukulti-Ninurta I defeats the Kassite king Kashtiliash IV and takes Babylon",
+        "es": "Tukulti-Ninurta I derrota al rey casita Kashtiliash IV y toma Babilonia",
+        "zh": "图库尔蒂-尼努尔塔一世击败加喜特国王卡什提里亚什四世并攻占巴比伦"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Middle Assyrian Empire.\" (conquered Babylonia c. 1225 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Middle_Assyrian_Empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Assyria.\" (Tukulti-Ninurta I sacked Babylon).",
+          "url": "https://www.worldhistory.org/assyria/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give about 1225 BCE for the conquest and differ by a few years on his reign (c. 1243–1207 BCE).",
+        "es": "Las fuentes dan hacia 1225 a. e. c. para la conquista y difieren en unos años sobre su reinado (c. 1243–1207 a. e. c.).",
+        "zh": "各资料把这次征服定在约公元前1225年，对他在位年份（约公元前1243至1207年）的说法相差数年。"
+      },
+      "place": {
+        "name": {
+          "en": "Babylon, Iraq",
+          "es": "Babilonia, Irak",
+          "zh": "巴比伦，伊拉克"
+        },
+        "lat": 32.536,
+        "lon": 44.421
+      }
+    },
+    {
+      "id": "tiglath-pileser-iii-reforms",
+      "start": -744,
+      "type": "ruler",
+      "title": {
+        "en": "Tiglath-Pileser III takes the throne and replaces seasonal conscripts with a professional army and smaller provinces",
+        "es": "Tiglat-Pileser III toma el trono y sustituye a los reclutas estacionales por un ejército profesional y provincias más pequeñas",
+        "zh": "提格拉特帕拉萨三世登上王位，以职业军队取代季节性征召兵，并划小行省"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Tiglath-Pileser III.\" (reign 745–727 BCE; standing army; provinces divided).",
+          "url": "https://www.worldhistory.org/Tiglath-Pileser_III/"
+        },
+        {
+          "citation": "Wikipedia. \"Tiglath-Pileser III.\" (reforms and policies).",
+          "url": "https://en.wikipedia.org/wiki/Tiglath-Pileser_III"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources do not agree whether he became king in 745 or 744 BCE, or whether he seized the throne by force.",
+        "es": "Las fuentes no coinciden en si fue rey en 745 o 744 a. e. c., ni en si tomó el trono por la fuerza.",
+        "zh": "资料对他即位于公元前745年还是744年，以及是否以武力夺位，说法不一。"
+      }
+    },
+    {
+      "id": "esarhaddon-takes-memphis",
+      "start": -670,
+      "type": "conflict",
+      "title": {
+        "en": "Esarhaddon besieges and takes Memphis, the Egyptian capital, in half a day by his own account",
+        "es": "Asarhaddón sitia y toma Menfis, la capital egipcia, en medio día según su propio relato",
+        "zh": "以撒哈顿围攻并攻占埃及都城孟菲斯，据他自己的记载只用了半天"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Esarhaddon.\" (second Egyptian campaign, 671 BCE; his inscription on Memphis).",
+          "url": "https://en.wikipedia.org/wiki/Esarhaddon"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Assyria.\" (Esarhaddon conquered Egypt, taking the empire to its greatest extent).",
+          "url": "https://www.worldhistory.org/assyria/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Memphis, Egypt",
+          "es": "Menfis, Egipto",
+          "zh": "孟菲斯，埃及"
+        },
+        "lat": 29.849,
+        "lon": 31.254
+      }
+    },
+    {
+      "id": "library-of-ashurbanipal",
+      "start": -646,
+      "type": "invention",
+      "title": {
+        "en": "Ashurbanipal gathers tens of thousands of tablets, including the Epic of Gilgamesh, into a library at Nineveh",
+        "es": "Asurbanipal reúne decenas de miles de tablillas, entre ellas la Epopeya de Gilgamesh, en una biblioteca en Nínive",
+        "zh": "亚述巴尼拔在尼尼微建起图书馆，收集了数以万计的泥板，其中包括《吉尔伽美什史诗》"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Library of Ashurbanipal.\" (founded c. 647–646 BCE; over 30,000 texts recovered by Layard and Rassam, about 1850–1853).",
+          "url": "https://www.worldhistory.org/Library_of_Ashurbanipal/"
+        },
+        {
+          "citation": "Wikipedia. \"Library of Ashurbanipal.\" (more than 30,000 tablets and fragments; now mostly in the British Museum).",
+          "url": "https://en.wikipedia.org/wiki/Library_of_Ashurbanipal"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The World History Encyclopedia dates the founding to c. 647–646 BCE; the collection grew over Ashurbanipal's whole reign (about 668–627 BCE).",
+        "es": "La World History Encyclopedia data la fundación hacia 647–646 a. e. c.; la colección creció durante todo el reinado de Asurbanipal (hacia 668–627 a. e. c.).",
+        "zh": "世界历史百科把建馆定在约公元前647至646年；藏品在亚述巴尼拔整个统治期间（约公元前668至627年）不断增加。"
+      },
+      "place": {
+        "name": {
+          "en": "Nineveh, Iraq",
+          "es": "Nínive, Irak",
+          "zh": "尼尼微，伊拉克"
+        },
+        "lat": 36.359,
+        "lon": 43.153
+      }
+    },
+    {
+      "id": "fall-of-nineveh",
+      "start": -611,
+      "type": "collapse",
+      "title": {
+        "en": "Babylonian and Median armies besiege Nineveh for three months and burn it",
+        "es": "Los ejércitos babilonio y medo sitian Nínive durante tres meses y la incendian",
+        "zh": "巴比伦与米底军队围攻尼尼微三个月，并将其焚毁"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Assyria.\" (Nineveh sacked and burned in 612 BCE).",
+          "url": "https://www.worldhistory.org/assyria/"
+        },
+        {
+          "citation": "Wikipedia. \"Fall of Nineveh.\" (siege from May to August 612 BCE by Nabopolassar and Cyaxares).",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Nineveh"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Nineveh, Iraq",
+          "es": "Nínive, Irak",
+          "zh": "尼尼微，伊拉克"
+        },
+        "lat": 36.359,
+        "lon": 43.153
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "assyrian-dowry",
+      "start": -1949,
+      "end": -1362,
+      "text": {
+        "en": "In Old Assyrian marriages, the bride's dowry belonged to her, not her husband, and passed to her children.",
+        "es": "En los matrimonios paleoasirios, la dote de la novia le pertenecía a ella, no a su marido, y pasaba a sus hijos.",
+        "zh": "在古亚述时期的婚姻中，新娘的嫁妆归她本人而不是丈夫，并传给她的子女。"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Old Assyrian period.\" (records of Old Assyrian marriages).",
+          "url": "https://en.wikipedia.org/wiki/Old_Assyrian_period"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "id": "fatimid-caliphate",
+  "region": "africa",
+  "wikidataId": "Q160307",
+  "name": {
+    "en": "Fatimid Caliphate",
+    "es": "Califato fatimí",
+    "zh": "法蒂玛哈里发国"
+  },
+  "aliases": [
+    "Fatimids",
+    "Fatimid dynasty",
+    "Fatimid",
+    "Ismaili caliphate",
+    "Cairo",
+    "Al-Azhar",
+    "Al-Mu'izz",
+    "Califato fatimita",
+    "Fatimíes",
+    "Fatimitas",
+    "法蒂玛王朝",
+    "法蒂玛",
+    "开罗",
+    "爱资哈尔"
+  ],
+  "description": {
+    "en": "An Ismaili Shia caliphate that began in Tunisia in 909, conquered Egypt in 969 and ruled from Cairo, a city it founded. At its height it held Egypt, parts of North Africa, Sicily, the Hejaz and parts of Syria, until Saladin ended it in 1171.",
+    "es": "Califato chií ismailí que nació en Túnez en 909, conquistó Egipto en 969 y gobernó desde El Cairo, ciudad que fundó. En su apogeo dominó Egipto, partes del norte de África, Sicilia, el Hiyaz y parte de Siria, hasta que Saladino lo puso fin en 1171.",
+    "zh": "一个伊斯玛仪派什叶派哈里发国，909年在突尼斯建立，969年征服埃及，并从自己建造的开罗统治。鼎盛时期控制埃及、北非部分地区、西西里、汉志和叙利亚部分地区，1171年被萨拉丁终结。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "fatimid",
+      "earliestStart": 909,
+      "latestStart": 909,
+      "earliestEnd": 1171,
+      "latestEnd": 1171,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty\".",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Ashmolean Museum. \"Fatimid History: Chronology of the Fatimid Caliphs and main historical events (909-1171).\" Islamic Ceramics Online.",
+          "url": "https://islamicceramics.ashmolean.org/Fatimids/caliphs.htm"
+        }
+      ],
+      "periodoId": "p08m57hgwp5",
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "phases": [
+    {
+      "id": "ifriqiya",
+      "name": {
+        "en": "Ifriqiya",
+        "es": "Ifriquiya",
+        "zh": "伊弗里基叶"
+      },
+      "start": 909,
+      "end": 969,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty\".",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Ashmolean Museum. \"Fatimid History: Chronology of the Fatimid Caliphs and main historical events (909-1171).\" Islamic Ceramics Online.",
+          "url": "https://islamicceramics.ashmolean.org/Fatimids/caliphs.htm"
+        }
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": {
+        "en": "Egypt and Cairo",
+        "es": "Egipto y El Cairo",
+        "zh": "埃及与开罗"
+      },
+      "start": 969,
+      "end": 1171,
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty\".",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Ashmolean Museum. \"Fatimid History: Chronology of the Fatimid Caliphs and main historical events (909-1171).\" Islamic Ceramics Online.",
+          "url": "https://islamicceramics.ashmolean.org/Fatimids/caliphs.htm"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "al-mahdi-proclaimed",
+      "start": 909,
+      "type": "founding",
+      "title": {
+        "en": "Al-Mahdi proclaims himself caliph in Ifriqiya, backed by the Kutama Berbers",
+        "es": "Al-Mahdi se proclama califa en Ifriquiya, con el apoyo de los bereberes kutama",
+        "zh": "马赫迪在伊弗里基叶自立为哈里发，得到库塔马柏柏尔人的支持"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty\".",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Ashmolean Museum. \"Fatimid History: Chronology of the Fatimid Caliphs and main historical events (909-1171).\" Islamic Ceramics Online.",
+          "url": "https://islamicceramics.ashmolean.org/Fatimids/caliphs.htm"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "mahdia-founded",
+      "start": 920,
+      "type": "founding",
+      "title": {
+        "en": "Al-Mahdi founds Mahdia on the Tunisian coast and makes it the Fatimid capital in 921",
+        "es": "Al-Mahdi funda Mahdia, en la costa tunecina, y la convierte en capital fatimí en 921",
+        "zh": "马赫迪在突尼斯海岸建立马赫迪耶，并于921年将其定为法蒂玛王朝的都城"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Mahdia\".",
+          "url": "https://www.britannica.com/place/Mahdia"
+        },
+        {
+          "citation": "Ashmolean Museum. \"Fatimid History: Chronology of the Fatimid Caliphs and main historical events (909-1171).\" Islamic Ceramics Online.",
+          "url": "https://islamicceramics.ashmolean.org/Fatimids/caliphs.htm"
+        }
+      ],
+      "disputed": true,
+      "end": 921,
+      "note": {
+        "en": "Britannica's Fatimid article gives 920 for the founding. Its Mahdia article gives 912 as the most detailed date and 920 as another. Both agree al-Mahdi made it his capital in 921.",
+        "es": "El artículo de Britannica sobre los fatimíes da 920 para la fundación. Su artículo sobre Mahdia da 912 como la fecha más detallada y 920 como otra. Ambos coinciden en que al-Mahdi la hizo su capital en 921.",
+        "zh": "不列颠百科全书的法蒂玛王朝词条把建城定在920年。其马赫迪耶词条以912年为最详细的说法，另有920年的说法。两处都认为马赫迪在921年把它定为都城。"
+      }
+    },
+    {
+      "id": "conquest-of-egypt-and-cairo",
+      "start": 969,
+      "type": "conflict",
+      "title": {
+        "en": "The general Jawhar takes Egypt for the Fatimid caliph al-Mu'izz and founds Cairo beside al-Fustat; al-Mu'izz enters the city in 972 or 973",
+        "es": "El general Jawhar toma Egipto para el califa fatimí al-Muizz y funda El Cairo junto a al-Fustat; al-Muizz entra en la ciudad en 972 o 973",
+        "zh": "将军焦赫尔为法蒂玛哈里发穆伊兹攻占埃及，并在福斯塔特旁建立开罗；穆伊兹于972或973年进入该城"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty\".",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+        },
+        {
+          "citation": "Ashmolean Museum. \"Fatimid History: Chronology of the Fatimid Caliphs and main historical events (909-1171).\" Islamic Ceramics Online.",
+          "url": "https://islamicceramics.ashmolean.org/Fatimids/caliphs.htm"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica gives 972 or 973 for al-Mu'izz entering Cairo, and the Ashmolean dates Cairo becoming the capital to 973. The conquest and the founding are dated 969.",
+        "es": "Britannica da 972 o 973 para la entrada de al-Muizz en El Cairo, y el Ashmolean data en 973 que El Cairo pasó a ser la capital. La conquista y la fundación se datan en 969.",
+        "zh": "不列颠百科全书给出穆伊兹进入开罗的时间为972或973年，阿什莫林博物馆把开罗成为都城定在973年。征服和建城则定在969年。"
+      }
+    },
+    {
+      "id": "al-azhar-founded",
+      "start": 970,
+      "type": "founding",
+      "title": {
+        "en": "The mosque of al-Azhar is built in the new city of Cairo; it later becomes al-Azhar University",
+        "es": "Se construye la mezquita de al-Azhar en la nueva ciudad de El Cairo; más tarde se convierte en la Universidad de al-Azhar",
+        "zh": "爱资哈尔清真寺在新建的开罗落成；它后来发展为爱资哈尔大学"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Al-Azhar University\".",
+          "url": "https://www.britannica.com/topic/al-Azhar-University"
+        },
+        {
+          "citation": "Ashmolean Museum. \"Fatimid History: Chronology of the Fatimid Caliphs and main historical events (909-1171).\" Islamic Ceramics Online.",
+          "url": "https://islamicceramics.ashmolean.org/Fatimids/caliphs.htm"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates the founding to 970 and notes a later date of about 972. The Ashmolean dates the construction of the mosque to 972.",
+        "es": "Britannica data la fundación en 970 y señala una fecha posterior, hacia 972. El Ashmolean data la construcción de la mezquita en 972.",
+        "zh": "不列颠百科全书把创建时间定在970年，并提到较晚的说法，约972年。阿什莫林博物馆把清真寺的建造定在972年。"
+      },
+      "end": 972
+    },
+    {
+      "id": "al-hakim-vanishes",
+      "start": 1021,
+      "type": "ruler",
+      "title": {
+        "en": "Caliph al-Hakim vanishes in 1021; the Druze faith grows from teaching that he was divine",
+        "es": "El califa al-Hakim desaparece en 1021; la fe drusa nace de la enseñanza de que era divino",
+        "zh": "哈里发哈基姆于1021年失踪；德鲁兹信仰源于认为他是神的教义"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"al-Hakim.\"",
+          "url": "https://www.britannica.com/biography/al-Hakim"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Druze.\"",
+          "url": "https://www.britannica.com/topic/Druze"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "What happened to al-Hakim is unknown. Britannica says he was probably murdered, while his followers said he had gone into hiding and would return. The teaching of his divinity began during his reign.",
+        "es": "Se ignora qué le ocurrió a al-Hakim. Britannica dice que probablemente fue asesinado, mientras que sus seguidores decían que se había ocultado y volvería. La enseñanza de su divinidad comenzó durante su reinado.",
+        "zh": "哈基姆的下落不明。不列颠百科全书称他很可能被谋杀，而他的追随者说他隐匿起来，终将回归。认为他是神的教义在他在位期间就已出现。"
+      }
+    },
+    {
+      "id": "zirids-break-away",
+      "start": 1048,
+      "end": 1052,
+      "type": "collapse",
+      "title": {
+        "en": "The Zirids, the Fatimids' governors in Ifriqiya, declare independence in 1048; the Fatimids answer by sending the Banu Hilal and Banu Sulaym into the Maghrib, and the Zirids are beaten in 1052",
+        "es": "Los ziríes, gobernadores fatimíes en Ifriquiya, declaran su independencia en 1048; los fatimíes responden enviando a los Banu Hilal y los Banu Sulaym al Magreb, y los ziríes son derrotados en 1052",
+        "zh": "法蒂玛王朝在伊弗里基叶的总督齐里德人于1048年宣布独立；法蒂玛人派希拉尔部和苏莱姆部进入马格里布作为回应，齐里德人于1052年战败"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Zirid dynasty\".",
+          "url": "https://www.britannica.com/topic/Zirid-Dynasty"
+        },
+        {
+          "citation": "Encyclopaedia Britannica. \"Fatimid dynasty: Beginning of Fatimid decline\".",
+          "url": "https://www.britannica.com/topic/Fatimid-dynasty/Beginning-of-Fatimid-decline"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Britannica dates the Fatimid response to 1052 but says the nomads crossed into Cyrenaica in 1050. How far the Fatimids directed the Banu Hilal, and how much damage they did, is debated.",
+        "es": "Britannica data la respuesta fatimí en 1052 pero dice que los nómadas cruzaron a Cirenaica en 1050. Se debate hasta qué punto los fatimíes dirigieron a los Banu Hilal y cuánto daño causaron.",
+        "zh": "不列颠百科全书把法蒂玛人的回应定在1052年，但说游牧部落在1050年已进入昔兰尼加。法蒂玛人在多大程度上主导了希拉尔部，以及造成了多大破坏，学界有争论。"
+      }
+    },
+    {
+      "id": "badr-al-jamali-vizier",
+      "start": 1073,
+      "type": "ruler",
+      "title": {
+        "en": "Caliph al-Mustansir calls the general Badr al-Jamali to Cairo; he has leading generals and officials put to death and restores order",
+        "es": "El califa al-Mustansir llama a El Cairo al general Badr al-Yamali, que manda ejecutar a generales y funcionarios destacados y restablece el orden",
+        "zh": "哈里发穆斯坦绥尔召将军白德尔·贾马利入开罗；他处死主要的将领和官员，恢复了秩序"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Badr al-Jamali\".",
+          "url": "https://www.britannica.com/biography/Badr-al-Jamali"
+        },
+        {
+          "citation": "Ashmolean Museum. \"Fatimid History: Chronology of the Fatimid Caliphs and main historical events (909-1171).\" Islamic Ceramics Online.",
+          "url": "https://islamicceramics.ashmolean.org/Fatimids/caliphs.htm"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "saladin-ends-caliphate",
+      "start": 1171,
+      "type": "collapse",
+      "title": {
+        "en": "On Nur al-Din's order Saladin has the Friday prayer said in the name of the Abbasid caliph, ending the Fatimid caliphate and returning Egypt to Sunni rule",
+        "es": "Por orden de Nur al-Din, Saladino hace rezar la oración del viernes en nombre del califa abasí, con lo que termina el califato fatimí y Egipto vuelve al dominio suní",
+        "zh": "奉努尔丁之命，萨拉丁下令在主麻日礼拜中以阿拔斯哈里发的名义祈祷，法蒂玛哈里发国就此终结，埃及回到逊尼派统治之下"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Saladin\".",
+          "url": "https://www.britannica.com/biography/Saladin"
+        },
+        {
+          "citation": "Ashmolean Museum. \"Fatimid History: Chronology of the Fatimid Caliphs and main historical events (909-1171).\" Islamic Ceramics Online.",
+          "url": "https://islamicceramics.ashmolean.org/Fatimids/caliphs.htm"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "mosque-of-al-aqmar",
+      "start": 1125,
+      "end": 1125,
+      "text": {
+        "en": "The Mosque of al-Aqmar, built in Cairo in 1125, has an elaborately decorated front on the street.",
+        "es": "La mezquita de al-Aqmar, construida en El Cairo en 1125, tiene una fachada muy ornamentada sobre la calle.",
+        "zh": "1125年在开罗建成的阿克马尔清真寺，临街一面装饰繁复。"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Al-Aqmar Mosque\".",
+          "url": "https://www.britannica.com/place/Al-Aqmar-Mosque"
+        },
+        {
+          "citation": "Ashmolean Museum. \"Fatimid History: Chronology of the Fatimid Caliphs and main historical events (909-1171).\" Islamic Ceramics Online.",
+          "url": "https://islamicceramics.ashmolean.org/Fatimids/caliphs.htm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": "khwarazmian-empire",
+  "region": "middle-east",
+  "wikidataId": "Q63134381",
+  "name": {
+    "en": "Khwarazmian Empire",
+    "es": "Imperio jorezmita",
+    "zh": "花剌子模帝国"
+  },
+  "aliases": [
+    "Khwarezmian",
+    "Khwarazm",
+    "Khwarezm",
+    "Khorezm",
+    "Khorezmian",
+    "Khwarazm-Shah",
+    "Khwarazm Shahs",
+    "Anushtegin dynasty",
+    "Gurganj",
+    "Urgench",
+    "Ala ad-Din Muhammad",
+    "Muhammad II of Khwarazm",
+    "Jalal ad-Din",
+    "Tekish"
+  ],
+  "description": {
+    "en": "Turkic dynasty from Khwarazm that began as Seljuk governors in 1077 and by 1218 ruled from the Syr Darya to the Zagros Mountains. Its shah, Ala ad-Din Muhammad, lost the realm to Genghis Khan's armies in 1219-1221.",
+    "es": "Dinastía túrquica de Joresmia que empezó como gobernadores selyúcidas en 1077 y hacia 1218 gobernaba desde el Sir Daria hasta los montes Zagros. Su sah, Ala ad-Din Muhammad, perdió el reino ante los ejércitos de Gengis Kan en 1219-1221.",
+    "zh": "起源于花剌子模的突厥王朝，1077年起为塞尔柱人的总督，到1218年统治范围从锡尔河一直延伸到扎格罗斯山脉。其沙阿阿拉丁·摩诃末在1219至1221年间被成吉思汗的军队夺去了国土。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "khwarazmian-empire",
+      "earliestStart": 1077,
+      "latestStart": 1097,
+      "earliestEnd": 1221,
+      "latestEnd": 1231,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Khwarazmian dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Khwarazmian_dynasty"
+        },
+        {
+          "citation": "Wikipedia, \"Anush Tigin Gharchai.\"",
+          "url": "https://en.wikipedia.org/wiki/Anush_Tigin_Gharchai"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Jalal al-Din.\"",
+          "url": "https://www.ebsco.com/research-starters/history/jalal-al-din"
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Starts with Anushtegin Gharchai's governorship under the Seljuks in about 1077; his son Muhammad I became the first hereditary shah in 1097. The Mongols took the main cities in 1220-1221, and Jalal ad-Din, the last shah, died in 1231.",
+        "es": "Empieza con el gobierno de Anushtegin Gharchai bajo los selyúcidas hacia 1077; su hijo Muhammad I fue el primer sah hereditario en 1097. Los mongoles tomaron las ciudades principales en 1220-1221, y Jalal ad-Din, el último sah, murió en 1231.",
+        "zh": "始于约1077年阿奴什的斤·伽尔恰在塞尔柱人治下出任总督；其子摩诃末一世于1097年成为首位世袭沙阿。蒙古人在1220至1221年攻占主要城市，末代沙阿札兰丁死于1231年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "anushtegin",
+      "start": 1077,
+      "type": "founding",
+      "title": {
+        "en": "The Seljuk sultan Malik-Shah I makes Anushtegin Gharchai governor of Khwarazm",
+        "es": "El sultán selyúcida Malik Shah I nombra a Anushtegin Gharchai gobernador de Joresmia",
+        "zh": "塞尔柱苏丹马利克沙一世任命阿奴什的斤·伽尔恰为花剌子模总督"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Anush Tigin Gharchai.\"",
+          "url": "https://en.wikipedia.org/wiki/Anush_Tigin_Gharchai"
+        },
+        {
+          "citation": "Wikipedia, \"Khwarazmian dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Khwarazmian_dynasty"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The year is approximate (c. 1077).",
+        "es": "El año es aproximado (hacia 1077).",
+        "zh": "年份为大致时间（约1077年）。"
+      },
+      "place": {
+        "name": {
+          "en": "Gurganj (Urgench)",
+          "es": "Gurganch (Urgench)",
+          "zh": "古尔甘杰（玉龙杰赤）"
+        },
+        "lat": 42.3167,
+        "lon": 59.15
+      }
+    },
+    {
+      "id": "qatwan",
+      "start": 1141,
+      "type": "conflict",
+      "title": {
+        "en": "Qara Khitai defeats the Seljuk sultan at Qatwan, and Khwarazm becomes a Qara Khitai vassal",
+        "es": "Los Kara Kitai derrotan al sultán selyúcida en Qatwan, y Joresmia pasa a ser vasalla de los Kara Kitai",
+        "zh": "西辽在卡特万击败塞尔柱苏丹，花剌子模成为西辽的附庸"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Battle of Qatwan.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Qatwan"
+        },
+        {
+          "citation": "Wikipedia, \"Khwarazmian dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Khwarazmian_dynasty"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "rayy",
+      "start": 1194,
+      "type": "conflict",
+      "title": {
+        "en": "Tekish defeats and kills the last Great Seljuk sultan, Toghrul III, at Rayy",
+        "es": "Tekish derrota y mata en Rayy al último gran sultán selyúcida, Toghrul III",
+        "zh": "帖乞失在赖伊击败并杀死末代大塞尔柱苏丹托格鲁勒三世"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Ala al-Din Tekish.\"",
+          "url": "https://en.wikipedia.org/wiki/Ala_al-Din_Tekish"
+        },
+        {
+          "citation": "Wikipedia, \"Khwarazmian dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Khwarazmian_dynasty"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Rayy",
+          "es": "Rayy",
+          "zh": "赖伊"
+        },
+        "lat": 35.5944,
+        "lon": 51.4247
+      }
+    },
+    {
+      "id": "otrar",
+      "start": 1218,
+      "type": "conflict",
+      "title": {
+        "en": "The governor of Otrar seizes a Mongol merchant caravan and has its members killed, and Muhammad II executes an envoy sent by Genghis Khan",
+        "es": "El gobernador de Otrar se apodera de una caravana mercantil mongola y manda matar a sus miembros, y Muhammad II ejecuta a un enviado de Gengis Kan",
+        "zh": "讹答剌总督扣押蒙古商队并处死其成员，摩诃末二世又处死了成吉思汗派来的使者"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Otrar.\"",
+          "url": "https://en.wikipedia.org/wiki/Otrar"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol invasion of the Khwarazmian Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Khwarazmia"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Accounts of the incident differ on details such as how many died, who approved the killings and what happened to the envoys.",
+        "es": "Los relatos del incidente difieren en detalles como cuántos murieron, quién aprobó las muertes y qué ocurrió con los enviados.",
+        "zh": "各种记载在伤亡人数、谁批准了处决以及使者的遭遇等细节上并不一致。"
+      },
+      "place": {
+        "name": {
+          "en": "Otrar",
+          "es": "Otrar",
+          "zh": "讹答剌"
+        },
+        "lat": 42.85,
+        "lon": 68.3
+      }
+    },
+    {
+      "id": "mongol-invasion",
+      "start": 1219,
+      "end": 1221,
+      "type": "conflict",
+      "title": {
+        "en": "Genghis Khan's armies invade Khwarazm, and most of the empire falls to them by 1221",
+        "es": "Los ejércitos de Gengis Kan invaden Joresmia, y la mayor parte del imperio cae en sus manos hacia 1221",
+        "zh": "成吉思汗的军队入侵花剌子模，到1221年帝国大部分地区落入其手"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Khwarazmian dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Khwarazmian_dynasty"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol invasion of the Khwarazmian Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Khwarazmia"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The medieval chronicler Juvayni gave 1.2 million dead at Gurganj alone; modern historians treat such figures as greatly inflated, so none is given here.",
+        "es": "El cronista medieval Juvayni dio 1,2 millones de muertos solo en Gurganch; los historiadores modernos consideran muy exageradas esas cifras, por lo que aquí no se da ninguna.",
+        "zh": "中世纪史家志费尼称仅在古尔甘杰就有120万人死亡；现代史家认为此类数字被大幅夸大，因此此处不列数字。"
+      }
+    },
+    {
+      "id": "samarkand",
+      "start": 1220,
+      "type": "collapse",
+      "title": {
+        "en": "The Mongols take Samarkand, the shah's capital, in March 1220",
+        "es": "Los mongoles toman Samarcanda, la capital del sah, en marzo de 1220",
+        "zh": "1220年3月，蒙古军队攻占沙阿的都城撒马尔罕"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Siege of Samarkand (1220).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Samarkand_(1220)"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol invasion of the Khwarazmian Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Khwarazmia"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia's article on the siege has it lasting about a month; its article on the invasion says the city fell after a five-day siege.",
+        "es": "El artículo de Wikipedia sobre el asedio lo sitúa en cerca de un mes; su artículo sobre la invasión dice que la ciudad cayó tras un asedio de cinco días.",
+        "zh": "维基百科关于围城的条目称围攻持续约一个月；其关于这次入侵的条目则称该城在五天围攻后陷落。"
+      },
+      "place": {
+        "name": {
+          "en": "Samarkand",
+          "es": "Samarcanda",
+          "zh": "撒马尔罕"
+        },
+        "lat": 39.6542,
+        "lon": 66.9597
+      }
+    },
+    {
+      "id": "jalal-ad-din",
+      "start": 1231,
+      "type": "collapse",
+      "title": {
+        "en": "Jalal ad-Din, the last Khwarazm-Shah, is killed by Kurdish peasants after years of flight from the Mongols",
+        "es": "Jalal ad-Din, el último sah de Joresmia, muere a manos de campesinos kurdos tras años huyendo de los mongoles",
+        "zh": "末代花剌子模沙阿札兰丁在多年躲避蒙古人的追击后，被库尔德农民杀死"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Jalal al-Din.\"",
+          "url": "https://www.ebsco.com/research-starters/history/jalal-al-din"
+        },
+        {
+          "citation": "Wikipedia, \"Khwarazmian dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Khwarazmian_dynasty"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "EBSCO says the circumstances are unclear: the peasants acted either to avenge a past wrong or for gain.",
+        "es": "EBSCO dice que las circunstancias no están claras: los campesinos actuaron para vengar un agravio pasado o por lucro.",
+        "zh": "EBSCO称具体情形不明：农民或是为报旧怨，或是为了钱财。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "zagros",
+      "text": {
+        "en": "By 1218 Muhammad II's empire reached from the Syr Darya to the Zagros Mountains.",
+        "es": "Hacia 1218 el imperio de Muhammad II se extendía desde el Sir Daria hasta los montes Zagros.",
+        "zh": "到1218年，摩诃末二世的帝国从锡尔河一直延伸到扎格罗斯山脉。"
+      },
+      "start": 1218,
+      "end": 1218,
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Khwarazmian dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Khwarazmian_dynasty"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

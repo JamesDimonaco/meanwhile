@@ -1,0 +1,304 @@
+{
+  "id": "ayutthaya-kingdom",
+  "region": "asia-pacific",
+  "wikidataId": "Q841364",
+  "name": {
+    "en": "Ayutthaya Kingdom",
+    "es": "Reino de Ayutthaya",
+    "zh": "阿瑜陀耶王国"
+  },
+  "aliases": [
+    "Ayutthaya",
+    "Ayudhya",
+    "Siam",
+    "Kingdom of Siam",
+    "Ramathibodi",
+    "Naresuan",
+    "Naresuan the Great"
+  ],
+  "description": {
+    "en": "Thai kingdom on the Chao Phraya River founded around 1351. A trading port visited by Portuguese, French and other foreign envoys, it fought Burma and Cambodia, and fell to a Burmese army in 1767.",
+    "es": "Reino tailandés a orillas del río Chao Phraya fundado hacia 1351. Puerto comercial visitado por enviados portugueses, franceses y de otros países, combatió contra Birmania y Camboya, y cayó ante un ejército birmano en 1767.",
+    "zh": "泰国王国，位于湄南河畔，约1351年建立。这是一座通商港口，葡萄牙、法国等国使节都曾到访；它与缅甸、柬埔寨交战，1767年被缅甸军队攻陷。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "ayutthaya-kingdom",
+      "earliestStart": 1350,
+      "latestStart": 1351,
+      "earliestEnd": 1767,
+      "latestEnd": 1768,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Ayutthaya: Venice of the East.\"",
+          "url": "https://www.worldhistory.org/article/1548/ayutthaya-venice-of-the-east/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Ramathibodi I Creates First Thai Legal System.\"",
+          "url": "https://www.ebsco.com/research-starters/history/ramathibodi-i-creates-first-thai-legal-system"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Siamese-Burmese Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/history/siamese-burmese-wars/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Taksin.\"",
+          "url": "https://www.ebsco.com/research-starters/history/taksin"
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Sources give the founding as 1350 or 1351 and the fall as 1767 or 1768.",
+        "es": "Las fuentes dan la fundación en 1350 o 1351 y la caída en 1767 o 1768.",
+        "zh": "不同资料把建立时间记为1350年或1351年，把陷落时间记为1767年或1768年。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 1351,
+      "type": "founding",
+      "title": {
+        "en": "Ramathibodi I moves his court from Lop Buri and founds Ayutthaya as his first city",
+        "es": "Ramathibodi I traslada su corte desde Lop Buri y funda Ayutthaya como su primera ciudad",
+        "zh": "拉玛铁菩提一世将宫廷从罗斛迁出，建立阿瑜陀耶作为他的第一座都城"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Ayutthaya: Venice of the East.\"",
+          "url": "https://www.worldhistory.org/article/1548/ayutthaya-venice-of-the-east/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Ramathibodi I Creates First Thai Legal System.\"",
+          "url": "https://www.ebsco.com/research-starters/history/ramathibodi-i-creates-first-thai-legal-system"
+        },
+        {
+          "citation": "Library of Congress Country Studies, \"Thailand: The Kingdom of Ayutthaya.\"",
+          "url": "https://countrystudies.us/thailand/7.htm"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date the founding to 1350 or 1351.",
+        "es": "Las fuentes datan la fundación en 1350 o 1351.",
+        "zh": "不同资料把建城时间记为1350年或1351年。"
+      },
+      "place": {
+        "name": {
+          "en": "Ayutthaya",
+          "es": "Ayutthaya",
+          "zh": "阿瑜陀耶"
+        },
+        "lat": 14.3532,
+        "lon": 100.5689
+      }
+    },
+    {
+      "id": "portuguese",
+      "start": 1511,
+      "type": "invention",
+      "title": {
+        "en": "Portuguese envoys reach Ayutthaya after taking Malacca, the first European contact",
+        "es": "Enviados portugueses llegan a Ayutthaya tras tomar Malaca, el primer contacto europeo",
+        "zh": "葡萄牙使节在攻占马六甲后抵达阿瑜陀耶，这是欧洲人的首次接触"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Ayutthaya: Venice of the East.\"",
+          "url": "https://www.worldhistory.org/article/1548/ayutthaya-venice-of-the-east/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Bangkok's Portuguese Past.\"",
+          "url": "https://www.worldhistory.org/article/1627/bangkoks-portuguese-past/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Ayutthaya",
+          "es": "Ayutthaya",
+          "zh": "阿瑜陀耶"
+        },
+        "lat": 14.3532,
+        "lon": 100.5689
+      }
+    },
+    {
+      "id": "burmese-capture",
+      "start": 1563,
+      "end": 1569,
+      "type": "collapse",
+      "title": {
+        "en": "Burmese armies under Bayinnaung take Ayutthaya and hold the royal family hostage",
+        "es": "Los ejércitos birmanos de Bayinnaung toman Ayutthaya y retienen como rehén a la familia real",
+        "zh": "莽应龙率领缅甸军队攻占阿瑜陀耶，并扣押王室成员为人质"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Bayinnaung.\"",
+          "url": "https://www.ebsco.com/research-starters/history/bayinnaung/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Siamese-Burmese Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/history/siamese-burmese-wars/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "EBSCO's article on Bayinnaung places the capture in 1563 and a Siamese revolt put down in 1568-1569. Its article on the Siamese-Burmese Wars describes the 1568-1569 attack as the one that succeeded.",
+        "es": "El artículo de EBSCO sobre Bayinnaung sitúa la toma en 1563 y una revuelta siamesa sofocada en 1568-1569. Su artículo sobre las guerras siamesas-birmanas describe el ataque de 1568-1569 como el que tuvo éxito.",
+        "zh": "EBSCO关于莽应龙的文章将攻陷记在1563年，并提到1568至1569年镇压了暹罗叛乱；其关于暹缅战争的文章则称1568至1569年的进攻取得了成功。"
+      },
+      "place": {
+        "name": {
+          "en": "Ayutthaya",
+          "es": "Ayutthaya",
+          "zh": "阿瑜陀耶"
+        },
+        "lat": 14.3532,
+        "lon": 100.5689
+      }
+    },
+    {
+      "id": "naresuan-independence",
+      "start": 1584,
+      "type": "ruler",
+      "title": {
+        "en": "Naresuan declares Ayutthaya independent of Burma",
+        "es": "Naresuan declara a Ayutthaya independiente de Birmania",
+        "zh": "纳黎萱宣布阿瑜陀耶脱离缅甸独立"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Siamese-Cambodian Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/siamese-cambodian-wars"
+        },
+        {
+          "citation": "Wikipedia, \"Ayutthaya Kingdom.\"",
+          "url": "https://en.wikipedia.org/wiki/Ayutthaya_Kingdom"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "naresuan-campaigns",
+      "start": 1593,
+      "end": 1594,
+      "type": "conflict",
+      "title": {
+        "en": "Naresuan defeats Burma, then takes the Khmer capital Lovek in 1594",
+        "es": "Naresuan derrota a Birmania y después toma la capital jemer, Lovek, en 1594",
+        "zh": "纳黎萱击败缅甸，随后于1594年攻占高棉都城洛韦"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Khmer-Thai Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/history/khmer-thai-wars/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Siamese-Cambodian Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/military-history-and-science/siamese-cambodian-wars"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "versailles",
+      "start": 1686,
+      "type": "ruler",
+      "title": {
+        "en": "King Narai's ambassadors, led by Kosa Pan, are received by Louis XIV at Versailles",
+        "es": "Los embajadores del rey Narai, encabezados por Kosa Pan, son recibidos por Luis XIV en Versalles",
+        "zh": "那莱王的使团由戈萨潘率领，在凡尔赛宫受到路易十四接见"
+      },
+      "sources": [
+        {
+          "citation": "Château de Versailles, \"Reception of the Siamese Ambassadors, 1686.\"",
+          "url": "https://en.chateauversailles.fr/discover/history/key-dates/reception-ambassador-siam-1686"
+        },
+        {
+          "citation": "Château de Versailles, \"Visitors to Versailles: Kosa Pan.\"",
+          "url": "https://en.chateauversailles.fr/long-read/exhibition-visitors-to-versailles/kosa-pan"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Ayutthaya: Venice of the East.\"",
+          "url": "https://www.worldhistory.org/article/1548/ayutthaya-venice-of-the-east/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Versailles",
+          "es": "Versalles",
+          "zh": "凡尔赛"
+        },
+        "lat": 48.8049,
+        "lon": 2.1204
+      }
+    },
+    {
+      "id": "fall",
+      "start": 1767,
+      "type": "collapse",
+      "title": {
+        "en": "Burmese forces take Ayutthaya after a siege of more than a year and burn the city",
+        "es": "Las fuerzas birmanas toman Ayutthaya tras un asedio de más de un año y queman la ciudad",
+        "zh": "缅甸军队经过一年多的围攻攻陷阿瑜陀耶，并焚毁城市"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Ayutthaya: Venice of the East.\"",
+          "url": "https://www.worldhistory.org/article/1548/ayutthaya-venice-of-the-east/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Taksin.\"",
+          "url": "https://www.ebsco.com/research-starters/history/taksin"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Siamese-Burmese Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/history/siamese-burmese-wars/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Most sources give 1767. EBSCO's article on the Siamese-Burmese Wars says 1768. Sources also differ on the siege's length, giving 14 or 15 months.",
+        "es": "La mayoría de las fuentes dan 1767. El artículo de EBSCO sobre las guerras siamesas-birmanas dice 1768. Las fuentes también difieren en la duración del asedio: 14 o 15 meses.",
+        "zh": "多数资料记为1767年，EBSCO关于暹缅战争的文章记为1768年。各资料对围城时长的说法也不一，有14个月和15个月两种。"
+      },
+      "place": {
+        "name": {
+          "en": "Ayutthaya",
+          "es": "Ayutthaya",
+          "zh": "阿瑜陀耶"
+        },
+        "lat": 14.3532,
+        "lon": 100.5689
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "million",
+      "text": {
+        "en": "By 1700 Ayutthaya was said to hold over a million people, which would have made it one of the largest cities in the world.",
+        "es": "Hacia 1700 se decía que Ayutthaya tenía más de un millón de habitantes, lo que la habría convertido en una de las mayores ciudades del mundo.",
+        "zh": "据说到1700年，阿瑜陀耶人口超过一百万，是当时世界上最大的城市之一。"
+      },
+      "start": 1700,
+      "end": 1700,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Ayutthaya: Venice of the East.\"",
+          "url": "https://www.worldhistory.org/article/1548/ayutthaya-venice-of-the-east/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
