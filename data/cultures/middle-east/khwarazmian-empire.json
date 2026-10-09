@@ -164,8 +164,8 @@
           "url": "https://en.wikipedia.org/wiki/Otrar"
         },
         {
-          "citation": "Foreign Exchanges, \"Today in Central Asian history: the Mongols take Samarkand (1220).\"",
-          "url": "https://www.foreignexchanges.news/p/today-in-central-asian-history-the-022"
+          "citation": "Wikipedia, \"Mongol invasion of the Khwarazmian Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Khwarazmia"
         }
       ],
       "disputed": true,
@@ -200,19 +200,15 @@
           "url": "https://en.wikipedia.org/wiki/Khwarazmian_dynasty"
         },
         {
-          "citation": "EBSCO Research Starters, \"Jalal al-Din.\"",
-          "url": "https://www.ebsco.com/research-starters/history/jalal-al-din"
-        },
-        {
-          "citation": "Foreign Exchanges, \"Today in Central Asian history: the Mongols take Samarkand (1220).\"",
-          "url": "https://www.foreignexchanges.news/p/today-in-central-asian-history-the-022"
+          "citation": "Wikipedia, \"Mongol invasion of the Khwarazmian Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Khwarazmia"
         }
       ],
       "disputed": false,
       "note": {
-        "en": "Casualty figures for the invasion vary widely between medieval and modern accounts, so none is given here.",
-        "es": "Las cifras de víctimas de la invasión varían mucho entre relatos medievales y modernos, por lo que aquí no se da ninguna.",
-        "zh": "关于这次入侵的伤亡数字，中世纪与现代的记载相差很大，因此此处不列数字。"
+        "en": "The medieval chronicler Juvayni gave 1.2 million dead at Gurganj alone; modern historians treat such figures as greatly inflated, so none is given here.",
+        "es": "El cronista medieval Juvayni dio 1,2 millones de muertos solo en Gurganch; los historiadores modernos consideran muy exageradas esas cifras, por lo que aquí no se da ninguna.",
+        "zh": "中世纪史家志费尼称仅在古尔甘杰就有120万人死亡；现代史家认为此类数字被大幅夸大，因此此处不列数字。"
       }
     },
     {
@@ -220,21 +216,26 @@
       "start": 1220,
       "type": "collapse",
       "title": {
-        "en": "The Mongols take Samarkand after about a month, and Muhammad II flees",
-        "es": "Los mongoles toman Samarcanda tras cerca de un mes, y Muhammad II huye",
-        "zh": "蒙古军队约一个月后攻占撒马尔罕，摩诃末二世出逃"
+        "en": "The Mongols take Samarkand, the shah's capital, in March 1220",
+        "es": "Los mongoles toman Samarcanda, la capital del sah, en marzo de 1220",
+        "zh": "1220年3月，蒙古军队攻占沙阿的都城撒马尔罕"
       },
       "sources": [
         {
-          "citation": "Foreign Exchanges, \"Today in Central Asian history: the Mongols take Samarkand (1220).\"",
-          "url": "https://www.foreignexchanges.news/p/today-in-central-asian-history-the-022"
-        },
-        {
           "citation": "Wikipedia, \"Siege of Samarkand (1220).\"",
           "url": "https://en.wikipedia.org/wiki/Siege_of_Samarkand_(1220)"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol invasion of the Khwarazmian Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Khwarazmia"
         }
       ],
-      "disputed": false,
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia's article on the siege has it lasting about a month; its article on the invasion says the city fell after a five-day siege.",
+        "es": "El artículo de Wikipedia sobre el asedio lo sitúa en cerca de un mes; su artículo sobre la invasión dice que la ciudad cayó tras un asedio de cinco días.",
+        "zh": "维基百科关于围城的条目称围攻持续约一个月；其关于这次入侵的条目则称该城在五天围攻后陷落。"
+      },
       "place": {
         "name": {
           "en": "Samarkand",

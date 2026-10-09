@@ -77,6 +77,10 @@
         {
           "citation": "EBSCO Research Starters, \"Ramathibodi I Creates First Thai Legal System.\"",
           "url": "https://www.ebsco.com/research-starters/history/ramathibodi-i-creates-first-thai-legal-system"
+        },
+        {
+          "citation": "Library of Congress Country Studies, \"Thailand: The Kingdom of Ayutthaya.\"",
+          "url": "https://countrystudies.us/thailand/7.htm"
         }
       ],
       "disputed": true,
@@ -166,9 +170,9 @@
       "start": 1584,
       "type": "ruler",
       "title": {
-        "en": "Naresuan declares Ayutthaya independent of Burma and expels the Burmese garrison",
-        "es": "Naresuan declara a Ayutthaya independiente de Birmania y expulsa a la guarnición birmana",
-        "zh": "纳黎萱宣布阿瑜陀耶脱离缅甸独立，并驱逐缅甸驻军"
+        "en": "Naresuan declares Ayutthaya independent of Burma",
+        "es": "Naresuan declara a Ayutthaya independiente de Birmania",
+        "zh": "纳黎萱宣布阿瑜陀耶脱离缅甸独立"
       },
       "sources": [
         {
@@ -176,8 +180,8 @@
           "url": "https://www.ebsco.com/research-starters/military-history-and-science/siamese-cambodian-wars"
         },
         {
-          "citation": "EBSCO Research Starters, \"Siamese-Burmese Wars.\"",
-          "url": "https://www.ebsco.com/research-starters/history/siamese-burmese-wars/"
+          "citation": "Wikipedia, \"Ayutthaya Kingdom.\"",
+          "url": "https://en.wikipedia.org/wiki/Ayutthaya_Kingdom"
         }
       ],
       "disputed": false
@@ -219,6 +223,10 @@
           "url": "https://en.chateauversailles.fr/discover/history/key-dates/reception-ambassador-siam-1686"
         },
         {
+          "citation": "Château de Versailles, \"Visitors to Versailles: Kosa Pan.\"",
+          "url": "https://en.chateauversailles.fr/long-read/exhibition-visitors-to-versailles/kosa-pan"
+        },
+        {
           "citation": "World History Encyclopedia, \"Ayutthaya: Venice of the East.\"",
           "url": "https://www.worldhistory.org/article/1548/ayutthaya-venice-of-the-east/"
         }
@@ -239,9 +247,9 @@
       "start": 1767,
       "type": "collapse",
       "title": {
-        "en": "Burmese forces take Ayutthaya after a fifteen-month siege and burn the city",
-        "es": "Las fuerzas birmanas toman Ayutthaya tras un asedio de quince meses y queman la ciudad",
-        "zh": "缅甸军队经过十五个月的围攻攻陷阿瑜陀耶，并焚毁城市"
+        "en": "Burmese forces take Ayutthaya after a siege of more than a year and burn the city",
+        "es": "Las fuerzas birmanas toman Ayutthaya tras un asedio de más de un año y queman la ciudad",
+        "zh": "缅甸军队经过一年多的围攻攻陷阿瑜陀耶，并焚毁城市"
       },
       "sources": [
         {
@@ -259,9 +267,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Most sources give 1767. EBSCO's article on the Siamese-Burmese Wars says 1768.",
-        "es": "La mayoría de las fuentes dan 1767. El artículo de EBSCO sobre las guerras siamesas-birmanas dice 1768.",
-        "zh": "多数资料记为1767年，EBSCO关于暹缅战争的文章记为1768年。"
+        "en": "Most sources give 1767. EBSCO's article on the Siamese-Burmese Wars says 1768. Sources also differ on the siege's length, giving 14 or 15 months.",
+        "es": "La mayoría de las fuentes dan 1767. El artículo de EBSCO sobre las guerras siamesas-birmanas dice 1768. Las fuentes también difieren en la duración del asedio: 14 o 15 meses.",
+        "zh": "多数资料记为1767年，EBSCO关于暹缅战争的文章记为1768年。各资料对围城时长的说法也不一，有14个月和15个月两种。"
       },
       "place": {
         "name": {

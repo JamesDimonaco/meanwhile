@@ -58,9 +58,9 @@
       "default": true,
       "disputed": false,
       "note": {
-        "en": "Starts with Đinh Bộ Lĩnh's state of Đại Cồ Việt (968); the name Đại Việt dates from 1054. Ends when Nguyễn Ánh takes the throne as Gia Long (1802) and renames the country Việt Nam (1804). The Ming occupation of 1407-1428 falls inside the span.",
-        "es": "Empieza con el Đại Cồ Việt de Đinh Bộ Lĩnh (968); el nombre Đại Việt data de 1054. Termina cuando Nguyễn Ánh asciende al trono como Gia Long (1802) y rebautiza el país como Việt Nam (1804). La ocupación Ming de 1407-1428 queda dentro del periodo.",
-        "zh": "始于丁部领的大瞿越国（968年），大越之名始于1054年。终于阮映即位为嘉隆帝（1802年），并于1804年将国名改为越南。1407年至1428年的明朝占领期包含在内。"
+        "en": "Starts with Đinh Bộ Lĩnh's state of Đại Cồ Việt (968); the name Đại Việt dates from 1054. Ends when Nguyễn Ánh takes the throne as Gia Long (1802) and renames the country Việt Nam (1804). The Hồ dynasty's 1400-1407 rule under the name Đại Ngu and the Ming occupation that followed (1407 to 1427 or 1428, depending on the source) fall inside the span.",
+        "es": "Empieza con el Đại Cồ Việt de Đinh Bộ Lĩnh (968); el nombre Đại Việt data de 1054. Termina cuando Nguyễn Ánh asciende al trono como Gia Long (1802) y rebautiza el país como Việt Nam (1804). El gobierno de la dinastía Hồ de 1400-1407 con el nombre de Đại Ngu y la ocupación Ming posterior (de 1407 a 1427 o 1428, según la fuente) quedan dentro del periodo.",
+        "zh": "始于丁部领的大瞿越国（968年），大越之名始于1054年。终于阮映即位为嘉隆帝（1802年），并于1804年将国名改为越南。胡朝1400至1407年以Đại Ngu为国号的统治，以及随后的明朝占领（1407年至1427年或1428年，视资料而定）都包含在内。"
       }
     }
   ],
@@ -261,9 +261,9 @@
     {
       "id": "bach-dang-stakes",
       "text": {
-        "en": "Iron-tipped stakes planted in the Bạch Đằng riverbed to wreck enemy boats were used in 938 and again in 1287, and some survive in a Hanoi museum.",
-        "es": "Las estacas con punta de hierro clavadas en el lecho del río Bạch Đằng para destrozar barcos enemigos se usaron en 938 y de nuevo en 1287, y algunas se conservan en un museo de Hanói.",
-        "zh": "为击毁敌船而打在白藤江河床上的铁头木桩，在938年和1287年两次使用，其中一些保存在河内的一家博物馆中。"
+        "en": "Iron-tipped stakes planted in the Bạch Đằng riverbed to wreck enemy boats were used against a southern Han fleet in 938 and again against the Mongol fleet in the 13th century.",
+        "es": "Las estacas con punta de hierro clavadas en el lecho del río Bạch Đằng para destrozar barcos enemigos se usaron en 938 contra una flota de los Han del Sur y de nuevo contra la flota mongola en el siglo XIII.",
+        "zh": "为击毁敌船而打在白藤江河床上的铁头木桩，938年用来对付南汉舰队，13世纪又用来对付蒙古舰队。"
       },
       "start": 1287,
       "end": 1288,

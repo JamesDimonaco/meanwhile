@@ -159,9 +159,9 @@
       "end": 651,
       "type": "invention",
       "title": {
-        "en": "Samarkand's ruler Varkhuman has the audience hall at Afrasiab painted with murals of foreign envoys",
-        "es": "El gobernante de Samarcanda, Varkhuman, manda pintar la sala de audiencias de Afrasiab con murales de enviados extranjeros",
-        "zh": "撒马尔罕统治者拂呼缦命人在阿弗拉西阿卜的觐见厅绘制外国使节的壁画"
+        "en": "Murals of foreign envoys are painted in a hall at Afrasiab, with an inscription naming Samarkand's king Varkhuman",
+        "es": "Se pintan en una sala de Afrasiab murales de enviados extranjeros, con una inscripción que nombra a Varkhuman, rey de Samarcanda",
+        "zh": "阿弗拉西阿卜的一间大厅里绘制了外国使节的壁画，铭文提到撒马尔罕国王拂呼缦"
       },
       "sources": [
         {
@@ -175,9 +175,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Wikipedia dates the murals to 648-651. Albert Dien notes that scholars still debate how to read them.",
-        "es": "Wikipedia data los murales en 648-651. Albert Dien señala que los especialistas aún debaten cómo interpretarlos.",
-        "zh": "维基百科把壁画定在648至651年。艾伯特·丁（Albert Dien）指出，学者对如何解读这些壁画仍有争论。"
+        "en": "Wikipedia dates the murals to 648-651 and describes the room as part of a private house; Albert Dien calls it a large audience hall and notes that scholars still debate how to read the paintings, including who commissioned them.",
+        "es": "Wikipedia data los murales en 648-651 y describe la sala como parte de una casa privada; Albert Dien la llama una gran sala de audiencias y señala que los especialistas aún debaten cómo interpretar las pinturas, incluido quién las encargó.",
+        "zh": "维基百科把壁画定在648至651年，并称该房间属于一座民宅；艾伯特·丁（Albert Dien）称之为大型觐见厅，并指出学者对如何解读这些壁画（包括由谁出资绘制）仍有争论。"
       },
       "place": {
         "name": {

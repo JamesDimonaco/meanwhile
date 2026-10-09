@@ -58,9 +58,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "192 is the traditional start of the first Cham kingdom, called Linyi by the Chinese. One reference work puts Champa's origin in the 1st or 2nd century BCE. 1471 is the fall of Vijaya; a small Cham state survived south of Cape Varella until the Nguyễn lords annexed it, in 1832 by the commonly cited date.",
-        "es": "192 es el comienzo tradicional del primer reino cham, llamado Linyi por los chinos. Una obra de referencia sitúa el origen de Champa en el siglo I o II a. C. 1471 es la caída de Vijaya; un pequeño Estado cham sobrevivió al sur del cabo Varella hasta que los señores Nguyễn lo anexionaron, en 1832 según la fecha más citada.",
-        "zh": "192年是第一个占婆王国（中国称林邑）的传统建立年份。有一部参考著作把占婆的起源定在公元前1世纪或2世纪。1471年是毗阇耶陷落之年；此后一个小的占婆国家在华列拉角以南延续，直到被阮氏政权吞并，通行的说法是1832年。"
+        "en": "192 is the traditional start of the first Cham kingdom, called Linyi by the Chinese; some historians doubt Linyi was Cham. One reference work puts Champa's origin in the 1st or 2nd century BCE. 1471 is the fall of Vijaya; a small Cham state survived south of Cape Varella until Vietnam's Nguyễn rulers annexed it, in 1832 by the commonly cited date.",
+        "es": "192 es el comienzo tradicional del primer reino cham, llamado Linyi por los chinos; algunos historiadores dudan de que Linyi fuera cham. Una obra de referencia sitúa el origen de Champa en el siglo I o II a. C. 1471 es la caída de Vijaya; un pequeño Estado cham sobrevivió al sur del cabo Varella hasta que los gobernantes Nguyễn de Vietnam lo anexionaron, en 1832 según la fecha más citada.",
+        "zh": "192年是第一个占婆王国（中国称林邑）的传统建立年份，也有史家怀疑林邑并非占婆国家。有一部参考著作把占婆的起源定在公元前1世纪或2世纪。1471年是毗阇耶陷落之年；此后一个小的占婆国家在华列拉角以南延续，直到被越南阮氏政权吞并，通行的说法是1832年。"
       }
     }
   ],
@@ -70,9 +70,9 @@
       "start": 192,
       "type": "founding",
       "title": {
-        "en": "Rebels against Chinese rule found the first Cham kingdom, called Linyi by the Chinese and Lâm Ấp by the Vietnamese",
-        "es": "Rebeldes contra el dominio chino fundan el primer reino cham, llamado Linyi por los chinos y Lâm Ấp por los vietnamitas",
-        "zh": "反抗中国统治的起义者建立了第一个占婆王国，中国称其为林邑，越南称其为Lâm Ấp"
+        "en": "After a revolt against Chinese rule, a kingdom the Chinese call Linyi (Lâm Ấp in Vietnamese) appears, traditionally counted as the first Cham kingdom",
+        "es": "Tras una revuelta contra el dominio chino aparece un reino que los chinos llaman Linyi (Lâm Ấp en vietnamita), considerado tradicionalmente el primer reino cham",
+        "zh": "反抗中国统治的起义之后，出现了中国史书称为林邑（越南语Lâm Ấp）的王国，传统上被视为第一个占婆王国"
       },
       "sources": [
         {
@@ -82,13 +82,17 @@
         {
           "citation": "World History Encyclopedia, \"Deciphering Ancient Cham Art (interview).\"",
           "url": "https://etc.worldhistory.org/interviews/deciphering-ancient-cham-art/"
+        },
+        {
+          "citation": "Wikipedia, \"Lâm Ấp.\"",
+          "url": "https://en.wikipedia.org/wiki/L%C3%A2m_%E1%BA%A4p"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "EBSCO's article on the Champa civil wars dates Champa's origin to the 1st or 2nd century BCE.",
-        "es": "El artículo de EBSCO sobre las guerras civiles de Champa data el origen de Champa en el siglo I o II a. C.",
-        "zh": "EBSCO关于占婆内战的文章把占婆的起源定在公元前1世纪或2世纪。"
+        "en": "EBSCO's article on the Champa civil wars dates Champa's origin to the 1st or 2nd century BCE. Some historians, such as Michael Vickery, doubt that Linyi was a Cham state at all.",
+        "es": "El artículo de EBSCO sobre las guerras civiles de Champa data el origen de Champa en el siglo I o II a. C. Algunos historiadores, como Michael Vickery, dudan de que Linyi fuera un Estado cham.",
+        "zh": "EBSCO关于占婆内战的文章把占婆的起源定在公元前1世纪或2世纪。迈克尔·维克里等一些史家怀疑林邑是否为占婆国家。"
       }
     },
     {
@@ -163,8 +167,8 @@
           "url": "https://www.ebsco.com/research-starters/history/khmer-cham-wars/"
         },
         {
-          "citation": "EBSCO Research Starters, \"Jayavarman VII.\"",
-          "url": "https://www.ebsco.com/research-starters/biography/jayavarman-vii"
+          "citation": "Wikipedia, \"Khmer–Cham wars.\"",
+          "url": "https://en.wikipedia.org/wiki/Khmer%E2%80%93Cham_wars"
         }
       ],
       "disputed": false
@@ -174,9 +178,9 @@
       "start": 1471,
       "type": "collapse",
       "title": {
-        "en": "Đại Việt forces take Vijaya, the Cham capital, and annex more than a third of Champa's territory",
-        "es": "Las fuerzas de Đại Việt toman Vijaya, la capital cham, y anexionan más de un tercio del territorio de Champa",
-        "zh": "大越军队攻占占婆都城毗阇耶，并吞并占婆超过三分之一的领土"
+        "en": "Đại Việt forces take Vijaya, the Cham capital, and annex a large part of Champa's territory",
+        "es": "Las fuerzas de Đại Việt toman Vijaya, la capital cham, y anexionan gran parte del territorio de Champa",
+        "zh": "大越军队攻占占婆都城毗阇耶，并吞并占婆的大部分领土"
       },
       "sources": [
         {
@@ -188,7 +192,12 @@
           "url": "https://www.ebsco.com/research-starters/history/champa-civil-wars/"
         }
       ],
-      "disputed": false,
+      "disputed": true,
+      "note": {
+        "en": "EBSCO's article on the Champa civil wars says Đại Việt took more than a third of Champa's territory; its articles on the Battle of Vijaya and on Lê Thánh Tông say more than half.",
+        "es": "El artículo de EBSCO sobre las guerras civiles de Champa dice que Đại Việt tomó más de un tercio del territorio de Champa; sus artículos sobre la batalla de Vijaya y sobre Lê Thánh Tông dicen que más de la mitad.",
+        "zh": "EBSCO关于占婆内战的文章称大越夺取了占婆超过三分之一的领土；其关于毗阇耶之战和黎圣宗的文章则称超过一半。"
+      },
       "place": {
         "name": {
           "en": "Vijaya (Bình Định)",
@@ -205,9 +214,9 @@
       "end": 1832,
       "type": "collapse",
       "title": {
-        "en": "A small Cham state survives south of Cape Varella until the Nguyễn lords annex it",
-        "es": "Un pequeño Estado cham sobrevive al sur del cabo Varella hasta que los señores Nguyễn lo anexionan",
-        "zh": "一个小的占婆国家在华列拉角以南延续，直到被阮氏政权吞并"
+        "en": "A small Cham state survives south of Cape Varella until Vietnam's Nguyễn rulers annex it",
+        "es": "Un pequeño Estado cham sobrevive al sur del cabo Varella hasta que los gobernantes Nguyễn de Vietnam lo anexionan",
+        "zh": "一个小的占婆国家在华列拉角以南延续，直到被越南阮氏政权吞并"
       },
       "sources": [
         {
@@ -217,13 +226,17 @@
         {
           "citation": "World History Encyclopedia, \"Deciphering Ancient Cham Art (interview).\"",
           "url": "https://etc.worldhistory.org/interviews/deciphering-ancient-cham-art/"
+        },
+        {
+          "citation": "Wikipedia, \"Champa.\"",
+          "url": "https://en.wikipedia.org/wiki/Champa"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "EBSCO gives no year for the annexation. 1832 is the end date in World History Encyclopedia's interview with a Cham art historian.",
-        "es": "EBSCO no da año para la anexión. 1832 es la fecha final en la entrevista de World History Encyclopedia con una historiadora del arte cham.",
-        "zh": "EBSCO没有给出吞并的年份。1832年出自世界历史百科对一位占婆艺术史学者的访谈中给出的终点年份。"
+        "en": "EBSCO gives no year for the annexation and names the Nguyễn lords. 1832 is the end date in World History Encyclopedia's interview with a Cham art historian, and Wikipedia says Minh Mạng annexed the remnant in 1832.",
+        "es": "EBSCO no da año para la anexión y nombra a los señores Nguyễn. 1832 es la fecha final en la entrevista de World History Encyclopedia con una historiadora del arte cham, y Wikipedia dice que Minh Mạng anexionó el remanente en 1832.",
+        "zh": "EBSCO没有给出吞并的年份，并称吞并者为阮氏政权。1832年是世界历史百科对一位占婆艺术史学者的访谈中给出的终点年份，维基百科则称明命帝于1832年吞并了这个残余国家。"
       }
     }
   ],
@@ -231,13 +244,17 @@
     {
       "id": "my-son-capital",
       "text": {
-        "en": "Mỹ Sơn was the religious and political capital of the Champa kingdom for most of its existence.",
-        "es": "Mỹ Sơn fue la capital religiosa y política del reino de Champa durante la mayor parte de su existencia.",
-        "zh": "在占婆王国存在的大部分时间里，美山既是宗教中心，也是政治中心。"
+        "en": "Nearly seventy temple-towers were built at Mỹ Sơn between the 4th and 13th centuries.",
+        "es": "Entre los siglos IV y XIII se levantaron en Mỹ Sơn cerca de setenta templos-torre.",
+        "zh": "4至13世纪间，美山修建了近七十座塔庙。"
       },
       "start": 301,
       "end": 1300,
       "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Deciphering Ancient Cham Art (interview).\"",
+          "url": "https://etc.worldhistory.org/interviews/deciphering-ancient-cham-art/"
+        },
         {
           "citation": "UNESCO World Heritage Centre, My Son Sanctuary, advisory body evaluation.",
           "url": "https://whc.unesco.org/en/documents/104054"
