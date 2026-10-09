@@ -1,0 +1,381 @@
+{
+  "id": "british-empire",
+  "region": "europe",
+  "wikidataId": "Q8680",
+  "name": {
+    "en": "British Empire",
+    "es": "Imperio británico",
+    "zh": "大英帝国"
+  },
+  "aliases": [
+    "British Raj",
+    "East India Company rule",
+    "Imperio colonial británico",
+    "大英帝国殖民地",
+    "英帝国"
+  ],
+  "description": {
+    "en": "The overseas possessions of England and later the United Kingdom, from the first chartered trading companies and colonies of the early 1600s to the handover of Hong Kong in 1997. They included colonies in North America and the Caribbean, rule in India first by the East India Company and then by the Crown, and much of Africa. The empire carried more than a million enslaved Africans to its Caribbean colonies, and famines struck British-ruled India.",
+    "es": "Los dominios de ultramar de Inglaterra y después del Reino Unido, desde las primeras compañías comerciales y colonias con carta real de principios del siglo XVII hasta la entrega de Hong Kong en 1997. Incluyeron colonias en Norteamérica y el Caribe, el dominio sobre la India, primero por la Compañía de las Indias Orientales y después por la Corona, y buena parte de África. El imperio llevó a más de un millón de africanos esclavizados a sus colonias caribeñas, y hubo hambrunas en la India bajo dominio británico.",
+    "zh": "英格兰以及后来的联合王国的海外属地，始于17世纪初最早的特许贸易公司和殖民地，止于1997年香港交接。其中有北美和加勒比的殖民地、先由东印度公司后由王室统治的印度，以及非洲的大片土地。帝国把一百多万被奴役的非洲人运到加勒比殖民地，英属印度也发生过饥荒。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "british-overseas-rule",
+      "earliestStart": 1600,
+      "latestStart": 1607,
+      "earliestEnd": 1997,
+      "latestEnd": 1997,
+      "sources": [
+        {
+          "citation": "Wikidata, \"British Empire\" (Q8680): \"overseas possessions of England and later the United Kingdom (1607–1997)\".",
+          "url": "https://www.wikidata.org/wiki/Q8680"
+        },
+        {
+          "citation": "Encyclopedia.com, \"British East India Company\": the English East India Company was set up in 1600.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/east-india-company"
+        },
+        {
+          "citation": "Encyclopedia.com, \"British Empire\": Hong Kong was returned to China in 1997, leaving Britain a scattering of rocks and islands around the globe.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/british-empire"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start is dated to 1600, when the East India Company was chartered, or to 1607, when the Jamestown colony was founded, which is the start Wikidata uses. The end is dated to the Hong Kong handover in 1997; Britain still holds some overseas territories.",
+        "es": "El inicio se fecha en 1600, cuando se fundó la Compañía de las Indias Orientales, o en 1607, con la fundación de la colonia de Jamestown, que es el inicio que usa Wikidata. El final se fecha en la entrega de Hong Kong en 1997; el Reino Unido conserva aún algunos territorios de ultramar.",
+        "zh": "起点或定为1600年东印度公司成立，或定为1607年詹姆斯敦殖民地建立，后者是维基数据采用的起点。终点定为1997年香港交接；英国至今仍保有一些海外领地。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "jamestown-founded",
+      "start": 1607,
+      "type": "founding",
+      "title": {
+        "en": "The Virginia Company of London founds Jamestown, the first permanent English settlement in North America",
+        "es": "La Compañía de Virginia de Londres funda Jamestown, el primer asentamiento inglés permanente en Norteamérica",
+        "zh": "伦敦弗吉尼亚公司建立詹姆斯敦，这是英格兰在北美的第一个永久定居点"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Jamestown Colony of Virginia\": the first permanent English settlement in North America, founded in 1607 by the Virginia Company of London.",
+          "url": "https://www.worldhistory.org/Jamestown/"
+        },
+        {
+          "citation": "Encyclopedia.com, \"British Empire\": the Virginia colony was re-established in 1607 and this time survived.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/british-empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Jamestown, Virginia",
+          "es": "Jamestown, Virginia",
+          "zh": "詹姆斯敦，弗吉尼亚"
+        },
+        "lat": 37.2113,
+        "lon": -76.7788
+      }
+    },
+    {
+      "id": "battle-of-plassey",
+      "start": 1757,
+      "type": "conflict",
+      "title": {
+        "en": "East India Company forces under Robert Clive win the Battle of Plassey, and the Company begins to hold territory in India",
+        "es": "Fuerzas de la Compañía de las Indias Orientales al mando de Robert Clive ganan la batalla de Plassey, y la Compañía empieza a poseer territorio en la India",
+        "zh": "罗伯特·克莱武率领的东印度公司军队赢得普拉西战役，公司开始在印度占有领土"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"British East India Company\": Robert Clive's victory at the Battle of Plassey (1757); the company began to acquire a territorial empire in India afterwards.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/east-india-company"
+        },
+        {
+          "citation": "Encyclopedia.com, \"British Empire\": the Seven Years War saw Britain take control of much of India (1756-7).",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/british-empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Plassey (Palashi), Bengal",
+          "es": "Plassey (Palashi), Bengala",
+          "zh": "普拉西，孟加拉"
+        },
+        "lat": 23.77,
+        "lon": 88.25
+      }
+    },
+    {
+      "id": "american-declaration-of-independence",
+      "start": 1776,
+      "type": "collapse",
+      "title": {
+        "en": "The thirteen American colonies declare independence on 4 July, which ends what is often called the first British empire",
+        "es": "Las trece colonias americanas declaran su independencia el 4 de julio, lo que pone fin a lo que suele llamarse el primer imperio británico",
+        "zh": "北美十三个殖民地于7月4日宣布独立，结束了常说的第一英帝国"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State, \"The Declaration of Independence, 1776\": adopted on 4 July 1776, it severed the 13 colonies' political connections to Great Britain.",
+          "url": "https://history.state.gov/milestones/1776-1783/declaration"
+        },
+        {
+          "citation": "Encyclopedia.com, \"British Empire\": the 'first' British empire came to an end with the rebellion of the thirteen American colonies in 1776.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/british-empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Philadelphia",
+          "es": "Filadelfia",
+          "zh": "费城"
+        },
+        "lat": 39.9526,
+        "lon": -75.1652
+      }
+    },
+    {
+      "id": "slave-trade-abolished",
+      "start": 1807,
+      "type": "founding",
+      "title": {
+        "en": "Parliament passes the law that abolishes the British slave trade",
+        "es": "El Parlamento aprueba la ley que abole el comercio británico de esclavos",
+        "zh": "议会通过废除英国奴隶贸易的法律"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Abolition Movement\": after repeated defeats, the law that abolished the British slave trade passed Parliament in 1807.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/abolition-movement"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Atlantic Slave Trade\": Great Britain abolished the trade in 1807.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/atlantic-slave-trade"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The law ended the British slave trade, not slavery in the colonies, which lasted until the Slavery Abolition Act took effect.",
+        "es": "La ley puso fin al comercio británico de esclavos, no a la esclavitud en las colonias, que continuó hasta que entró en vigor la Ley de Abolición de la Esclavitud.",
+        "zh": "该法律终结的是英国的奴隶贸易，而不是殖民地的奴隶制；奴隶制持续到《废除奴隶制法案》生效。"
+      },
+      "place": {
+        "name": {
+          "en": "London",
+          "es": "Londres",
+          "zh": "伦敦"
+        },
+        "lat": 51.5074,
+        "lon": -0.1278
+      }
+    },
+    {
+      "id": "slavery-abolition-act",
+      "start": 1833,
+      "end": 1838,
+      "type": "founding",
+      "title": {
+        "en": "The Slavery Abolition Act frees the enslaved in the British colonies from 1 August 1834, and the system effectively ends in 1838",
+        "es": "La Ley de Abolición de la Esclavitud libera a los esclavizados de las colonias británicas desde el 1 de agosto de 1834, y el sistema termina de hecho en 1838",
+        "zh": "《废除奴隶制法案》规定英属殖民地的被奴役者自1834年8月1日起获得解放，该制度于1838年实际终结"
+      },
+      "sources": [
+        {
+          "citation": "legislation.gov.uk, \"Slavery Abolition Act 1833\": all slaves in the British Colonies emancipated from 1 August 1834, subject to the obligations the Act imposes.",
+          "url": "https://www.legislation.gov.uk/ukpga/Will4/3-4/73/contents"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Slavery\": the British government abolished slavery throughout its empire in 1834, effectively ending the institution in 1838.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/slavery"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The Act was passed in 1833 and took effect on 1 August 1834. Encyclopedia.com dates the effective end of the institution to 1838. The Act's obligations on the freed people lasted until then.",
+        "es": "La ley se aprobó en 1833 y entró en vigor el 1 de agosto de 1834. Encyclopedia.com fecha el fin efectivo de la institución en 1838. Las obligaciones que la ley imponía a los liberados duraron hasta entonces.",
+        "zh": "该法案于1833年通过，1834年8月1日生效。Encyclopedia.com将该制度的实际终结定在1838年。法案对获释者规定的义务持续到那时。"
+      },
+      "place": {
+        "name": {
+          "en": "London",
+          "es": "Londres",
+          "zh": "伦敦"
+        },
+        "lat": 51.5074,
+        "lon": -0.1278
+      }
+    },
+    {
+      "id": "indian-uprising-and-crown-rule",
+      "start": 1857,
+      "end": 1858,
+      "type": "conflict",
+      "title": {
+        "en": "Sepoys of the Bengal army rise against British rule in May 1857, and in 1858 the Crown takes over the East India Company's rule in India",
+        "es": "Cipayos del ejército de Bengala se alzan contra el dominio británico en mayo de 1857, y en 1858 la Corona asume el gobierno de la Compañía de las Indias Orientales en la India",
+        "zh": "1857年5月孟加拉军队的印度兵起兵反抗英国统治，1858年王室接管东印度公司在印度的统治"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Indian Mutiny\": on 10 May 1857 sepoys of the Bengal army shot their British officers and marched on Delhi; the revolt was put down and direct rule by the British Crown replaced the East India Company's administration.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/indian-mutiny"
+        },
+        {
+          "citation": "Encyclopedia.com, \"British East India Company\": the 1857 revolt led to the company's powers being transferred to the British Crown.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/east-india-company"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Names for the rising differ: the Indian Mutiny, the Sepoy Mutiny, the Indian Rebellion of 1857. Encyclopedia.com says armed resistance lasted until spring 1859.",
+        "es": "Los nombres del levantamiento varían: Motín de la India, Motín de los cipayos, Rebelión de la India de 1857. Encyclopedia.com dice que la resistencia armada duró hasta la primavera de 1859.",
+        "zh": "这场起事的名称不一：印度兵变、士兵起义、1857年印度起义。Encyclopedia.com称武装抵抗持续到1859年春。"
+      },
+      "place": {
+        "name": {
+          "en": "Delhi",
+          "es": "Delhi",
+          "zh": "德里"
+        },
+        "lat": 28.6139,
+        "lon": 77.209
+      }
+    },
+    {
+      "id": "india-and-pakistan-independent",
+      "start": 1947,
+      "type": "collapse",
+      "title": {
+        "en": "British India is divided into the self-governing dominions of Pakistan, on 14 August, and India, on 15 August",
+        "es": "La India británica se divide en los dominios autónomos de Pakistán, el 14 de agosto, y de la India, el 15 de agosto",
+        "zh": "英属印度分为两个自治领：8月14日的巴基斯坦和8月15日的印度"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Pakistan\": on 14 August 1947 British India was divided into the self-governing dominions of India and Pakistan; partition moved more than 20 million people and up to three million of them were killed.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/pakistan"
+        },
+        {
+          "citation": "Encyclopedia.com, \"India\": in mid-August 1947 British India was divided into two self-governing dominions; the partition involved some 20 million people.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/india-1"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Pakistan's date is 14 August and India's is 15 August. Deaths in the partition are contested: Encyclopedia.com gives up to three million.",
+        "es": "La fecha de Pakistán es el 14 de agosto y la de la India el 15 de agosto. Las muertes de la partición son discutidas: Encyclopedia.com da hasta tres millones.",
+        "zh": "巴基斯坦的日期是8月14日，印度是8月15日。分治造成的死亡人数有争议：Encyclopedia.com给出的数字最高为三百万。"
+      },
+      "place": {
+        "name": {
+          "en": "Delhi",
+          "es": "Delhi",
+          "zh": "德里"
+        },
+        "lat": 28.6139,
+        "lon": 77.209
+      }
+    },
+    {
+      "id": "suez-crisis",
+      "start": 1956,
+      "type": "conflict",
+      "title": {
+        "en": "Britain and France, with Israel, attack Egypt after it nationalises the Suez Canal Company, and withdraw under a UN ceasefire",
+        "es": "Reino Unido y Francia, junto con Israel, atacan Egipto tras la nacionalización de la Compañía del Canal de Suez, y se retiran bajo un alto el fuego de la ONU",
+        "zh": "埃及将苏伊士运河公司收归国有后，英国和法国联合以色列进攻埃及，并在联合国停火决议下撤军"
+      },
+      "sources": [
+        {
+          "citation": "Office of the Historian, U.S. Department of State, \"The Suez Crisis, 1956\": Egypt nationalised the Suez Canal Company on 26 July 1956; Britain and France accepted a UN ceasefire on 6 November under US pressure.",
+          "url": "https://history.state.gov/milestones/1953-1960/suez"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Suez Crisis\": in November the British and French, in league with Israel, attacked Egypt; international pressure forced the invaders to withdraw.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/suez-crisis"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "hong-kong-handover",
+      "start": 1997,
+      "type": "collapse",
+      "title": {
+        "en": "Britain hands Hong Kong over to China on 1 July, under the 1984 Sino-British Joint Declaration",
+        "es": "El Reino Unido entrega Hong Kong a China el 1 de julio, conforme a la Declaración Conjunta Sino-Británica de 1984",
+        "zh": "英国根据1984年《中英联合声明》，于7月1日将香港交给中国"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Hong Kong\": the hand-over to China in 1997 was stipulated in the Sino-British Joint Declaration of 19 December 1984.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/hong-kong"
+        },
+        {
+          "citation": "Encyclopedia.com, \"British Empire\": Britain kept a scattering of rocks and islands, but even Hong Kong was returned to China in 1997.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/british-empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Hong Kong",
+          "es": "Hong Kong",
+          "zh": "香港"
+        },
+        "lat": 22.3193,
+        "lon": 114.1694
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "caribbean-slave-trade",
+      "text": {
+        "en": "Encyclopedia.com says British Caribbean plantations, mainly on Barbados and Jamaica, received almost one and a half million enslaved Africans, 23 percent of the Atlantic trade, until Britain abolished its slave trade in 1807.",
+        "es": "Encyclopedia.com afirma que las plantaciones del Caribe británico, sobre todo en Barbados y Jamaica, recibieron casi un millón y medio de africanos esclavizados, el 23 por ciento del comercio atlántico, hasta que el Reino Unido abolió su comercio de esclavos en 1807.",
+        "zh": "Encyclopedia.com称，英属加勒比的种植园，主要在巴巴多斯和牙买加，接收了近一百五十万被奴役的非洲人，占大西洋贩奴贸易的23%，直到1807年英国废除奴隶贸易。"
+      },
+      "start": 1600,
+      "end": 1807,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Slavery\": the British Caribbean plantations (mainly Barbados and Jamaica) received almost a million and a half slaves, 23 percent of the trade.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/slavery"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Atlantic Slave Trade\": by 1713 England had a virtual monopoly on the trade north of the equator, and Great Britain abolished the trade in 1807.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/atlantic-slave-trade"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "bengal-famine-1943",
+      "text": {
+        "en": "Encyclopedia.com says severe famines struck India under British rule in the 18th and 19th centuries, and that the last major one was the Bengal famine of 1943 to 1944.",
+        "es": "Encyclopedia.com afirma que hubo hambrunas graves en la India bajo dominio británico en los siglos XVIII y XIX, y que la última de importancia fue la hambruna de Bengala de 1943 a 1944.",
+        "zh": "Encyclopedia.com称，英国统治下的印度在18和19世纪发生过严重饥荒，最后一次大饥荒是1943至1944年的孟加拉饥荒。"
+      },
+      "start": 1943,
+      "end": 1944,
+      "sources": [
+        {
+          "citation": "Encyclopedia.com, \"Famine\": severe famines occurred in India under British rule in the eighteenth and nineteenth centuries; the last major famine under British rule was the Bengal famine of 1943 to 1944.",
+          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/famine"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
