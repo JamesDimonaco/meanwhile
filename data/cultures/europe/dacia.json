@@ -32,9 +32,9 @@
     {
       "id": "dacian-kingdom",
       "earliestStart": -81,
-      "latestStart": -69,
+      "latestStart": -59,
       "earliestEnd": 106,
-      "latestEnd": 271,
+      "latestEnd": 275,
       "sources": [
         {
           "citation": "World History Encyclopedia. \"Dacia.\"",
@@ -43,14 +43,22 @@
         {
           "citation": "Strabo, Geography 7.3.11 (Perseus Digital Library).",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0198%3Abook%3D7%3Achapter%3D3%3Asection%3D11"
+        },
+        {
+          "citation": "Wikidata, \"Dacia\" (Q173082): start 60 BCE, end 106 CE.",
+          "url": "https://www.wikidata.org/wiki/Q173082"
+        },
+        {
+          "citation": "De Imperatoribus Romanis. \"Aurelian (A.D. 270-275).\"",
+          "url": "https://www.roman-emperors.sites.luc.edu/aurelian.htm"
         }
       ],
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The start follows Burebista, whose reign is dated c. 82–70 BCE at the earliest to 44 BCE. The solid bar ends with Trajan's conquest in 106 CE. The fading edge runs to about 271 CE, when the World History Encyclopedia has Rome abandoning the province.",
-        "es": "El inicio sigue a Burebista, cuyo reinado se fecha entre c. 82-70 a. e. c. y 44 a. e. c. La barra sólida termina con la conquista de Trajano en 106 e. c. El borde difuso llega hasta c. 271 e. c., cuando la World History Encyclopedia sitúa el abandono de la provincia por Roma.",
-        "zh": "起点取自布雷比斯塔，其统治最早约始于公元前82至前70年，终于公元前44年。实线到公元106年图拉真征服为止，渐隐的边缘延至约公元271年，《世界历史百科全书》称罗马于此时放弃该行省。"
+        "en": "Burebista's reign is dated from c. 82 BCE (Hitchins) or c. 80 BCE (World History Encyclopedia) to c. 61-60 BCE (Bunson, and Wikidata's 60 BCE), and ended in 44 BCE. The solid bar ends with Trajan's conquest in 106 CE. The fading edge runs to the abandonment of the province: c. 271 CE in the World History Encyclopedia, 272 in De Imperatoribus Romanis, and 271-275 in modern accounts.",
+        "es": "El reinado de Burebista se fecha desde c. 82 a. e. c. (Hitchins) o c. 80 a. e. c. (World History Encyclopedia) hasta c. 61-60 a. e. c. (Bunson, y el 60 a. e. c. de Wikidata), y terminó en 44 a. e. c. La barra sólida termina con la conquista de Trajano en 106 e. c. El borde difuso llega hasta el abandono de la provincia: c. 271 e. c. en la World History Encyclopedia, 272 en De Imperatoribus Romanis y 271-275 en los relatos modernos.",
+        "zh": "布雷比斯塔的统治起点，希钦斯定在约公元前82年，《世界历史百科全书》定在约公元前80年，邦森和维基数据则定在约公元前61至前60年（维基数据为公元前60年），终于公元前44年。实线到公元106年图拉真征服为止，渐隐的边缘延至罗马放弃行省之时：《世界历史百科全书》作约公元271年，《罗马皇帝传》作272年，现代论述作271至275年。"
       }
     }
   ],
@@ -134,13 +142,17 @@
         {
           "citation": "Strabo, Geography 7.3.11 (Perseus Digital Library).",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0198%3Abook%3D7%3Achapter%3D3%3Asection%3D11"
+        },
+        {
+          "citation": "Wikipedia. \"Burebista\" (reign dates of Hitchins and Bunson).",
+          "url": "https://en.wikipedia.org/wiki/Burebista"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Strabo says Burebista rose and built a large realm but gives no dates. The World History Encyclopedia dates his reign from c. 80 BCE, and other accounts from c. 82 BCE.",
-        "es": "Estrabón dice que Burebista ascendió y levantó un gran dominio, pero no da fechas. La World History Encyclopedia fecha su reinado desde c. 80 a. e. c., y otros relatos desde c. 82 a. e. c.",
-        "zh": "斯特拉波说布雷比斯塔崛起并建立了庞大的疆域，但未给出年代。《世界历史百科全书》把他的统治定在约公元前80年起，其他说法则从约公元前82年起。"
+        "en": "Strabo says Burebista rose and built a large realm but gives no dates. The World History Encyclopedia dates his reign from c. 80 BCE, Hitchins from 82 BCE, and Bunson from c. 61-60 BCE.",
+        "es": "Estrabón dice que Burebista ascendió y levantó un gran dominio, pero no da fechas. La World History Encyclopedia fecha su reinado desde c. 80 a. e. c., Hitchins desde 82 a. e. c. y Bunson desde c. 61-60 a. e. c.",
+        "zh": "斯特拉波说布雷比斯塔崛起并建立了庞大的疆域，但未给出年代。《世界历史百科全书》把他的统治定在约公元前80年起，希钦斯定在公元前82年起，邦森定在约公元前61至前60年起。"
       }
     },
     {
@@ -164,9 +176,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Strabo reports the revolt and says it came before the Romans could send an expedition, without a year. The year 44 BCE comes from the World History Encyclopedia.",
-        "es": "Estrabón refiere la revuelta y dice que ocurrió antes de que los romanos enviaran una expedición, sin indicar año. El año 44 a. e. c. procede de la World History Encyclopedia.",
-        "zh": "斯特拉波记载了这场叛乱，称它发生在罗马人派出远征军之前，但没有给出年份。公元前44年出自《世界历史百科全书》。"
+        "en": "Strabo reports the revolt and says it came before the Romans could send an expedition, without a year. The World History Encyclopedia gives 44 BCE, and some accounts 45 BCE.",
+        "es": "Estrabón refiere la revuelta y dice que ocurrió antes de que los romanos enviaran una expedición, sin indicar año. La World History Encyclopedia da 44 a. e. c., y algunos relatos 45 a. e. c.",
+        "zh": "斯特拉波记载了这场叛乱，称它发生在罗马人派出远征军之前，但没有给出年份。《世界历史百科全书》作公元前44年，有些记载作公元前45年。"
       }
     },
     {
@@ -174,9 +186,9 @@
       "start": 86,
       "type": "conflict",
       "title": {
-        "en": "Dacian forces under Decebalus defeat a Roman army led by Cornelius Fuscus",
-        "es": "Las fuerzas dacias de Decébalo derrotan a un ejército romano al mando de Cornelio Fusco",
-        "zh": "德凯巴鲁斯麾下的达契亚军队击败科尔内利乌斯·富斯库斯率领的罗马军队"
+        "en": "Dacian forces defeat a Roman army led by Cornelius Fuscus",
+        "es": "Las fuerzas dacias derrotan a un ejército romano al mando de Cornelio Fusco",
+        "zh": "达契亚军队击败科尔内利乌斯·富斯库斯率领的罗马军队"
       },
       "sources": [
         {

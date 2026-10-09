@@ -48,9 +48,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Origins are debated. Excavations at Tuva date Scythian settlement to the late 9th century BCE, while the British Museum dates the Scythian period from the 7th century BCE. Their power on the steppe faded from the 3rd to the 2nd century BCE, and a Crimean kingdom lasted until the 3rd century CE.",
-        "es": "Los orígenes son objeto de debate. Las excavaciones en Tuvá datan el asentamiento escita a fines del siglo IX a. e. c., mientras que el Museo Británico fecha el periodo escita desde el siglo VII a. e. c. Su poder en la estepa decayó entre los siglos III y II a. e. c., y un reino en Crimea duró hasta el siglo III e. c.",
-        "zh": "其起源尚有争议。图瓦的发掘把斯基泰人的定居定在公元前9世纪晚期，而大英博物馆把斯基泰时期定在公元前7世纪起。他们在草原上的势力在公元前3至前2世纪衰落，克里米亚的一个王国延续到公元3世纪。"
+        "en": "Origins are debated. Excavations at Tuva date Scythian settlement to the late 9th century BCE, while the British Museum dates the Scythian period from the 7th century BCE. Their power on the steppe faded from the 3rd to the 2nd century BCE, and a Crimean kingdom lasted until the 3rd century CE. The World History Encyclopedia has the Scythians vanish from the record in the 4th century CE.",
+        "es": "Los orígenes son objeto de debate. Las excavaciones en Tuvá datan el asentamiento escita a fines del siglo IX a. e. c., mientras que el Museo Británico fecha el periodo escita desde el siglo VII a. e. c. Su poder en la estepa decayó entre los siglos III y II a. e. c., y un reino en Crimea duró hasta el siglo III e. c. La World History Encyclopedia hace desaparecer a los escitas de las fuentes en el siglo IV e. c.",
+        "zh": "其起源尚有争议。图瓦的发掘把斯基泰人的定居定在公元前9世纪晚期，而大英博物馆把斯基泰时期定在公元前7世纪起。他们在草原上的势力在公元前3至前2世纪衰落，克里米亚的一个王国延续到公元3世纪。《世界历史百科全书》称斯基泰人在公元4世纪从史料中消失。"
       }
     }
   ],
@@ -70,15 +70,15 @@
           "url": "http://n2t.net/ark:/99152/p08m57hvx6p"
         },
         {
-          "citation": "World History Encyclopedia. \"Scythians.\"",
-          "url": "https://www.worldhistory.org/Scythians/"
+          "citation": "Encyclopedia of Ukraine. \"Scythians.\"",
+          "url": "https://www.encyclopediaofukraine.com/pages%5CS%5CC%5CScythians.htm"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Herodotus and most modern scholars have the Scythians arrive from Asia. Dates for the move range from the late 9th century BCE to the 7th century BCE.",
-        "es": "Heródoto y la mayoría de los estudiosos actuales hacen llegar a los escitas desde Asia. Las fechas de la migración van del final del siglo IX al siglo VII a. e. c.",
-        "zh": "希罗多德和多数现代学者认为斯基泰人从亚洲迁来。迁徙年代从公元前9世纪晚期到公元前7世纪不等。"
+        "en": "Herodotus and most modern scholars have the Scythians arrive from Asia. Dates for the move range from the late 9th century BCE (Tuva) through the late 8th century BCE (Encyclopedia of Ukraine) to the 7th century BCE (British Museum).",
+        "es": "Heródoto y la mayoría de los estudiosos actuales hacen llegar a los escitas desde Asia. Las fechas de la migración van desde fines del siglo IX a. e. c. (Tuvá), pasando por fines del siglo VIII a. e. c. (Encyclopedia of Ukraine), hasta el siglo VII a. e. c. (Museo Británico).",
+        "zh": "希罗多德和多数现代学者认为斯基泰人从亚洲迁来。迁徙年代从公元前9世纪晚期（图瓦），经公元前8世纪晚期（《乌克兰百科全书》），到公元前7世纪（大英博物馆）不等。"
       }
     },
     {
@@ -97,8 +97,8 @@
           "url": "https://www.encyclopediaofukraine.com/pages%5CS%5CC%5CScythians.htm"
         },
         {
-          "citation": "Herodotus, Histories 4.127 (Perseus Digital Library).",
-          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+4.127"
+          "citation": "Herodotus, Histories 4.120-142 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+4.120"
         }
       ],
       "disputed": true,
@@ -121,6 +121,10 @@
         {
           "citation": "World History Encyclopedia. \"Scythians.\"",
           "url": "https://www.worldhistory.org/Scythians/"
+        },
+        {
+          "citation": "Encyclopedia of Ukraine. \"Scythians.\"",
+          "url": "https://www.encyclopediaofukraine.com/pages%5CS%5CC%5CScythians.htm"
         },
         {
           "citation": "Strabo, Geography 7.3.18 (Perseus Digital Library).",

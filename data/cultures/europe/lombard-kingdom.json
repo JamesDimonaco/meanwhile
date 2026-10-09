@@ -43,6 +43,10 @@
           "url": "https://www.worldhistory.org/Lombards/"
         },
         {
+          "citation": "Wikidata, \"Kingdom of the Lombards\" (Q854415): start 568, end 774.",
+          "url": "https://www.wikidata.org/wiki/Q854415"
+        },
+        {
           "citation": "Einhard, Life of Charlemagne, ch. 6 (Fordham Internet History Sourcebooks).",
           "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
         }
@@ -67,15 +71,15 @@
           "url": "https://www.worldhistory.org/Lombards/"
         },
         {
-          "citation": "World History Encyclopedia. \"Alboin.\"",
-          "url": "https://www.worldhistory.org/Alboin/"
+          "citation": "Wikipedia. \"Alboin.\"",
+          "url": "https://en.wikipedia.org/wiki/Alboin"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources agree on the alliance and the year but differ on details of the campaign.",
-        "es": "Las fuentes coinciden en la alianza y el año, pero difieren en los detalles de la campaña.",
-        "zh": "各来源在联盟和年份上一致，但在战役细节上有分歧。"
+        "en": "Sources agree on the alliance with the Avars and the year 567, but differ on who killed the Gepid king Cunimund.",
+        "es": "Las fuentes coinciden en la alianza con los ávaros y en el año 567, pero difieren sobre quién mató al rey gépido Cunimundo.",
+        "zh": "各来源在与阿瓦尔人的联盟和567年这一年份上一致，但对格皮德国王库尼蒙德是被谁杀死的看法不一。"
       }
     },
     {
@@ -93,8 +97,8 @@
           "url": "https://www.worldhistory.org/Lombards/"
         },
         {
-          "citation": "Gregory of Tours, History of the Franks 4.41 (Fordham Internet History Sourcebooks).",
-          "url": "https://sourcebooks.fordham.edu/basis/gregory-hist.asp"
+          "citation": "Wikipedia. \"Alboin.\"",
+          "url": "https://en.wikipedia.org/wiki/Alboin"
         }
       ],
       "disputed": false
@@ -104,9 +108,9 @@
       "start": 572,
       "type": "ruler",
       "title": {
-        "en": "Alboin is killed in a plot led by his wife Rosamund",
-        "es": "Alboíno muere en una conjura encabezada por su esposa Rosamunda",
-        "zh": "阿尔博因死于妻子罗莎蒙德主谋的阴谋"
+        "en": "Alboin is assassinated at Verona in a plot involving his wife Rosamund and his foster brother Helmichis",
+        "es": "Alboíno es asesinado en Verona en una conjura en la que participan su esposa Rosamunda y su hermano de leche Helmichis",
+        "zh": "阿尔博因在维罗纳被刺杀，参与阴谋的有妻子罗莎蒙德和义兄赫尔米奇斯"
       },
       "sources": [
         {
@@ -114,20 +118,20 @@
           "url": "https://www.worldhistory.org/Alboin/"
         },
         {
-          "citation": "Gregory of Tours, History of the Franks 4.41 (Fordham Internet History Sourcebooks).",
-          "url": "https://sourcebooks.fordham.edu/basis/gregory-hist.asp"
+          "citation": "Wikipedia. \"Alboin.\"",
+          "url": "https://en.wikipedia.org/wiki/Alboin"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Gregory of Tours says Rosamund hated Alboin and waited for a chance to avenge her father. Accounts of the plot differ in their details.",
-        "es": "Gregorio de Tours dice que Rosamunda odiaba a Alboíno y esperaba una ocasión para vengar a su padre. Los relatos de la conjura difieren en los detalles.",
-        "zh": "图尔的格雷戈里说罗莎蒙德憎恨阿尔博因，一直等待机会为父报仇。各种记载在阴谋的细节上不尽相同。"
+        "en": "The World History Encyclopedia, following Paul the Deacon, says Rosamund set the plot in motion to avenge her father. Wikipedia names Helmichis as its organiser, with Rosamund's support, and notes an account that has the Byzantines instigating it. Wikipedia dates the killing to 28 June 572.",
+        "es": "La World History Encyclopedia, siguiendo a Pablo el Diácono, dice que Rosamunda puso en marcha la conjura para vengar a su padre. Wikipedia nombra a Helmichis como su organizador, con el apoyo de Rosamunda, y menciona un relato que atribuye la instigación a los bizantinos. Wikipedia fecha el asesinato el 28 de junio de 572.",
+        "zh": "《世界历史百科全书》依据执事保罗，称罗莎蒙德为替父报仇发动了这场阴谋。维基百科称赫尔米奇斯是组织者，罗莎蒙德予以支持，并提到一种说法认为拜占庭人是幕后推手。维基百科把刺杀定在572年6月28日。"
       }
     },
     {
       "id": "pepin-besieges-pavia",
-      "start": 754,
+      "start": 755,
       "type": "conflict",
       "title": {
         "en": "Pepin III of the Franks besieges King Aistulf in Pavia",
@@ -140,11 +144,16 @@
           "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
         },
         {
-          "citation": "World History Encyclopedia. \"Charlemagne.\"",
-          "url": "https://www.worldhistory.org/Charlemagne/"
+          "citation": "Wikipedia. \"Donation of Pepin.\"",
+          "url": "https://en.wikipedia.org/wiki/Donation_of_Pepin"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "Einhard's translator brackets 754 beside the war. Wikipedia dates Pepin's first invasion and his siege of Pavia to 755, and a second campaign to 756.",
+        "es": "El traductor de Eginardo anota 754 junto a la guerra. Wikipedia fecha la primera invasión de Pipino y su sitio de Pavía en 755, y una segunda campaña en 756.",
+        "zh": "艾因哈德译本的编者在这场战争旁标注了754年。维基百科把丕平的第一次入侵和围攻帕维亚定在755年，第二次出征定在756年。"
+      }
     },
     {
       "id": "charlemagne-takes-pavia",
@@ -170,12 +179,12 @@
           "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
         },
         {
-          "citation": "World History Encyclopedia. \"Lombards.\"",
-          "url": "https://www.worldhistory.org/Lombards/"
+          "citation": "Wikipedia. \"Siege of Pavia (773–774).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Pavia_(773%E2%80%93774)"
         },
         {
-          "citation": "World History Encyclopedia. \"Charlemagne.\"",
-          "url": "https://www.worldhistory.org/Charlemagne/"
+          "citation": "World History Encyclopedia. \"Lombards.\"",
+          "url": "https://www.worldhistory.org/Lombards/"
         }
       ],
       "disputed": false
@@ -197,8 +206,8 @@
           "url": "https://www.worldhistory.org/Alboin/"
         },
         {
-          "citation": "World History Encyclopedia. \"Lombards.\"",
-          "url": "https://www.worldhistory.org/Lombards/"
+          "citation": "Wikipedia. \"Alboin.\"",
+          "url": "https://en.wikipedia.org/wiki/Alboin"
         }
       ],
       "disputed": true

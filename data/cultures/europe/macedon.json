@@ -42,21 +42,25 @@
         {
           "citation": "Livy, History of Rome 45.29 (Perseus Digital Library).",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Liv.+45.29"
+        },
+        {
+          "citation": "Wikidata, \"Macedonia\" (Q83958): start 808 BCE, end 167 BCE.",
+          "url": "https://www.wikidata.org/wiki/Q83958"
         }
       ],
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The earliest kings are semi-legendary. Ancient tradition dates the first Argead king to 808 BCE, while the World History Encyclopedia places Caranus in the early 7th century BCE. The end runs from Rome's victory at Pydna (168 BCE) to the formal provincial settlement (c. 146 BCE).",
-        "es": "Los primeros reyes son semilegendarios. La tradición antigua sitúa al primer rey argéada en 808 a. e. c., mientras que la World History Encyclopedia ubica a Carano a principios del siglo VII a. e. c. El final va de la victoria romana en Pidna (168 a. e. c.) al arreglo provincial formal (hacia 146 a. e. c.).",
-        "zh": "早期国王带有半传说色彩。古代传统把第一位阿吉德王定在公元前808年，而《世界历史百科全书》把卡拉努斯置于公元前7世纪初。终点介于罗马在皮德纳获胜（公元前168年）与正式设省（约公元前146年）之间。"
+        "en": "The earliest kings are semi-legendary. Wikidata gives 808 BCE for the start, Smith's dictionary puts Caranus about the middle of the 8th century BCE, and the World History Encyclopedia places him in the 7th century BCE. Herodotus names Perdiccas I as the first king. The end runs from Rome's victory at Pydna (168 BCE) to the formal provincial settlement (c. 146 BCE).",
+        "es": "Los primeros reyes son semilegendarios. Wikidata da 808 a. e. c. para el inicio, el diccionario de Smith sitúa a Carano hacia mediados del siglo VIII a. e. c. y la World History Encyclopedia lo ubica en el siglo VII a. e. c. Heródoto nombra a Pérdicas I como primer rey. El final va de la victoria romana en Pidna (168 a. e. c.) al arreglo provincial formal (hacia 146 a. e. c.).",
+        "zh": "早期国王带有半传说色彩。维基数据把起点定在公元前808年，史密斯词典把卡拉努斯置于公元前8世纪中叶，《世界历史百科全书》则置于公元前7世纪。希罗多德称第一位国王是佩尔迪卡斯一世。终点介于罗马在皮德纳获胜（公元前168年）与正式设省（约公元前146年）之间。"
       }
     }
   ],
   "events": [
     {
       "id": "founding",
-      "start": -807,
+      "start": -749,
       "type": "founding",
       "title": {
         "en": "Tradition credits Caranus with founding the Argead kingdom of Macedon",
@@ -75,9 +79,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "The ancient accounts differ on who founded the kingdom and when, and no contemporary record survives. The World History Encyclopedia dates Caranus to the early 7th century BCE.",
-        "es": "Los relatos antiguos difieren sobre quién fundó el reino y cuándo, y no se conserva ningún registro de la época. La World History Encyclopedia fecha a Carano a principios del siglo VII a. e. c.",
-        "zh": "古代记载对建国者和年代说法不一，且没有当时的记录留存。《世界历史百科全书》把卡拉努斯定在公元前7世纪初。"
+        "en": "The ancient accounts differ on who founded the kingdom and when, and no contemporary record survives. Herodotus names Perdiccas I as the first king. Smith's dictionary puts Caranus about the middle of the 8th century BCE, and the World History Encyclopedia in the 7th century BCE.",
+        "es": "Los relatos antiguos difieren sobre quién fundó el reino y cuándo, y no se conserva ningún registro de la época. Heródoto nombra a Pérdicas I como primer rey. El diccionario de Smith sitúa a Carano hacia mediados del siglo VIII a. e. c., y la World History Encyclopedia en el siglo VII a. e. c.",
+        "zh": "古代记载对建国者和年代说法不一，且没有当时的记录留存。希罗多德称第一位国王是佩尔迪卡斯一世。史密斯词典把卡拉努斯置于公元前8世纪中叶，《世界历史百科全书》则置于公元前7世纪。"
       }
     },
     {
@@ -85,8 +89,8 @@
       "start": -358,
       "type": "ruler",
       "title": {
-        "en": "Philip II takes the throne from his infant nephew and rebuilds the Macedonian army",
-        "es": "Filipo II toma el trono de su sobrino, aún un niño, y reconstruye el ejército macedonio",
+        "en": "Philip II takes the throne from his young nephew and rebuilds the Macedonian army",
+        "es": "Filipo II toma el trono de su joven sobrino y reconstruye el ejército macedonio",
         "zh": "腓力二世从年幼的侄子手中夺得王位，并重建马其顿军队"
       },
       "sources": [
@@ -196,9 +200,9 @@
       "start": -322,
       "type": "ruler",
       "title": {
-        "en": "Alexander dies at Babylon and his generals begin to divide his conquests",
-        "es": "Alejandro muere en Babilonia y sus generales comienzan a repartirse sus conquistas",
-        "zh": "亚历山大在巴比伦去世，部将开始瓜分他的征服地"
+        "en": "Alexander dies at Babylon, and his empire is later divided among his generals",
+        "es": "Alejandro muere en Babilonia, y su imperio se reparte después entre sus generales",
+        "zh": "亚历山大在巴比伦去世，其帝国后来被部将瓜分"
       },
       "sources": [
         {
@@ -226,9 +230,9 @@
       "start": -167,
       "type": "conflict",
       "title": {
-        "en": "Rome defeats King Perseus at Pydna and splits Macedon into four districts",
-        "es": "Roma derrota al rey Perseo en Pidna y divide Macedonia en cuatro distritos",
-        "zh": "罗马在皮德纳击败珀尔修斯国王，并把马其顿分为四个区"
+        "en": "Rome defeats King Perseus at Pydna and the next year splits Macedon into four districts",
+        "es": "Roma derrota al rey Perseo en Pidna y al año siguiente divide Macedonia en cuatro distritos",
+        "zh": "罗马在皮德纳击败珀尔修斯国王，次年把马其顿分为四个区"
       },
       "sources": [
         {
@@ -236,11 +240,16 @@
           "url": "https://www.worldhistory.org/Battle_of_Pydna/"
         },
         {
+          "citation": "Plutarch, Life of Aemilius Paulus 22 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Aem.+22"
+        },
+        {
           "citation": "Livy, History of Rome 45.29 (Perseus Digital Library).",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Liv.+45.29"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "end": -166
     },
     {
       "id": "roman-province",

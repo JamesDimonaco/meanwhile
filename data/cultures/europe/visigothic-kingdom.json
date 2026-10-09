@@ -44,14 +44,18 @@
         {
           "citation": "Spain Then and Now. \"The Visigoths and the Quest for Unity.\"",
           "url": "https://www.spainthenandnow.com/spanish-history/visigoths-and-unity"
+        },
+        {
+          "citation": "Wikidata, \"Visigothic Kingdom\" (Q126936): start 418, end 720.",
+          "url": "https://www.wikidata.org/wiki/Q126936"
         }
       ],
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The British Museum starts the Gothic realm in 414 and the World History Encyclopedia in 418, the year of the settlement in Aquitaine. Most sources end it in 711 with the Arab and Berber invasion. The World History Encyclopedia gives 418–721.",
-        "es": "El Museo Británico inicia el reino godo en 414 y la World History Encyclopedia en 418, el año del asentamiento en Aquitania. La mayoría de las fuentes lo terminan en 711 con la invasión árabe y bereber. La World History Encyclopedia da 418-721.",
-        "zh": "大英博物馆把哥特王国的起点定在414年，《世界历史百科全书》定在418年，即在阿基坦定居的那一年。多数来源把终点定在711年阿拉伯和柏柏尔人入侵之时。《世界历史百科全书》给出的是418至721年。"
+        "en": "The British Museum starts the Gothic realm in 414 and the World History Encyclopedia in 418, the year of the settlement in Aquitaine. Most accounts end it with the Arab and Berber invasion of 711. The last Gothic king in Septimania, Ardo, held out until about 720, which is where Wikidata ends the kingdom, and the World History Encyclopedia gives 721.",
+        "es": "El Museo Británico inicia el reino godo en 414 y la World History Encyclopedia en 418, el año del asentamiento en Aquitania. La mayoría de los relatos lo terminan con la invasión árabe y bereber de 711. El último rey godo en la Septimania, Ardo, resistió hasta c. 720, donde Wikidata sitúa el fin del reino, y la World History Encyclopedia da 721.",
+        "zh": "大英博物馆把哥特王国的起点定在414年，《世界历史百科全书》定在418年，即在阿基坦定居的那一年。多数记载把终点定在711年阿拉伯和柏柏尔人入侵之时。塞普提曼尼亚的最后一位哥特国王阿尔多坚持到约720年，维基数据以此为王国终点，《世界历史百科全书》则给出721年。"
       }
     }
   ],
@@ -182,8 +186,8 @@
       },
       "sources": [
         {
-          "citation": "Gregory of Tours, History of the Franks 9.15 (Fordham Internet History Sourcebooks).",
-          "url": "https://sourcebooks.fordham.edu/basis/gregory-hist.asp"
+          "citation": "Wikipedia. \"Reccared I.\"",
+          "url": "https://en.wikipedia.org/wiki/Reccared_I"
         },
         {
           "citation": "Spain Then and Now. \"The Visigoths and the Quest for Unity.\"",
@@ -192,9 +196,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Reccared acted within a year of taking the throne in 586, under the guidance of Bishop Leander of Seville. The Third Council of Toledo ratified the conversion in 589, and sources differ on which year to give.",
-        "es": "Recaredo actuó dentro del año siguiente a su llegada al trono en 586, guiado por el obispo Leandro de Sevilla. El III Concilio de Toledo ratificó la conversión en 589, y las fuentes difieren sobre qué año indicar.",
-        "zh": "雷卡雷德在586年即位后一年内采取行动，受塞维利亚主教莱安德指引。589年第三次托莱多会议确认了这次改宗，各来源对取哪一年看法不一。"
+        "en": "Reccared gave up Arianism in 587, within a year of taking the throne in 586, under the guidance of Bishop Leander of Seville. The Third Council of Toledo ratified the conversion in May 589, and sources differ on which year to give.",
+        "es": "Recaredo abandonó el arrianismo en 587, dentro del año siguiente a su llegada al trono en 586, guiado por el obispo Leandro de Sevilla. El III Concilio de Toledo ratificó la conversión en mayo de 589, y las fuentes difieren sobre qué año indicar.",
+        "zh": "雷卡雷德在586年即位后一年内，即587年放弃阿里乌派，受塞维利亚主教莱安德指引。589年5月第三次托莱多会议确认了这次改宗，各来源对取哪一年看法不一。"
       }
     },
     {
@@ -214,13 +218,17 @@
         {
           "citation": "World History Encyclopedia. \"Visigoths.\"",
           "url": "https://www.worldhistory.org/Visigoths/"
+        },
+        {
+          "citation": "Wikipedia. \"Visigothic Code.\"",
+          "url": "https://en.wikipedia.org/wiki/Visigothic_Code"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Spain Then and Now dates the code to 654, under King Reccesuinth. The World History Encyclopedia places it in 642–643, under Chindasuinth.",
-        "es": "Spain Then and Now fecha el código en 654, bajo el rey Recesvinto. La World History Encyclopedia lo sitúa en 642-643, bajo Chindasvinto.",
-        "zh": "Spain Then and Now 把法典定在654年，国王雷塞斯温特在位时。《世界历史百科全书》则定在642至643年，钦达斯温特在位时。"
+        "en": "Spain Then and Now and Wikipedia date the published code to 654, under King Reccesuinth, who enlarged a collection begun by his father Chindasuinth in 642–643. The World History Encyclopedia places the code itself in 642–643.",
+        "es": "Spain Then and Now y Wikipedia fechan el código publicado en 654, bajo el rey Recesvinto, que amplió una compilación iniciada por su padre Chindasvinto en 642-643. La World History Encyclopedia sitúa el código mismo en 642-643.",
+        "zh": "Spain Then and Now 和维基百科把颁布的法典定在654年，国王雷塞斯温特在位时，他扩充了其父钦达斯温特在642至643年开始编订的法律集。《世界历史百科全书》则把法典本身定在642至643年。"
       }
     },
     {
