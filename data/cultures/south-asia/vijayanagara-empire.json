@@ -55,9 +55,9 @@
       "start": 1336,
       "type": "founding",
       "title": {
-        "en": "Harihara I and his brother Bukka Raya I found Vijayanagara on the Tungabhadra river in or about 1336",
-        "es": "Harihara I y su hermano Bukka Raya I fundan Vijayanagara a orillas del río Tungabhadra en 1336 o hacia esa fecha",
-        "zh": "哈里哈拉一世与其兄弟布卡·拉亚一世约在1336年于东加巴德拉河畔建立毗奢耶那伽罗"
+        "en": "Harihara I and his brother Bukka I found Vijayanagara on the Tungabhadra river in or about 1336",
+        "es": "Harihara I y su hermano Bukka I fundan Vijayanagara a orillas del río Tungabhadra en 1336 o hacia esa fecha",
+        "zh": "哈里哈拉一世与其兄弟布卡一世约在1336年于栋格珀德拉河畔建立毗奢耶那伽罗"
       },
       "sources": [
         {
@@ -65,8 +65,8 @@
           "url": "https://www.gutenberg.org/ebooks/3310"
         },
         {
-          "citation": "Wikipedia (English). \"Vijayanagara Empire.\"",
-          "url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+          "citation": "Encyclopaedia Britannica, 11th ed. (1911). \"Vijayanagar.\" Wikisource transcription.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Vijayanagar"
         }
       ],
       "disputed": true,
@@ -91,9 +91,9 @@
       "end": 1529,
       "type": "ruler",
       "title": {
-        "en": "Krishnadevaraya takes the throne; his reign, to about 1529, is when the empire reaches its greatest extent",
-        "es": "Krishnadevaraya asciende al trono; su reinado, hasta cerca de 1529, es cuando el imperio alcanza su mayor extensión",
-        "zh": "克里希纳提婆罗耶登上王位；他在位至约1529年，帝国在此期间达到最大疆域"
+        "en": "Krishnadevaraya takes the throne; his reign, to about 1529, is the empire's height",
+        "es": "Krishna Deva Raya asciende al trono; su reinado, hasta cerca de 1529, es el apogeo del imperio",
+        "zh": "克里希那德瓦拉亚登上王位；他在位至约1529年，是帝国的鼎盛期"
       },
       "sources": [
         {
@@ -118,8 +118,8 @@
       "type": "conflict",
       "title": {
         "en": "Krishnadevaraya besieges Raichur and beats the Bijapur army sent to relieve it, taking the fortress",
-        "es": "Krishnadevaraya sitia Raichur y derrota al ejército de Bijapur enviado en su auxilio, y toma la fortaleza",
-        "zh": "克里希纳提婆罗耶围攻赖久尔，击败前来解围的比贾布尔军队，夺取该要塞"
+        "es": "Krishna Deva Raya sitia Raichur y derrota al ejército de Bijapur enviado en su auxilio, y toma la fortaleza",
+        "zh": "克里希那德瓦拉亚围攻赖久尔，击败前来解围的比贾布尔军队，夺取该要塞"
       },
       "sources": [
         {
@@ -185,6 +185,10 @@
         {
           "citation": "Wikipedia (English). \"Vijayanagara Empire.\"",
           "url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, 11th ed. (1911). \"Vijayanagar.\" Wikisource transcription.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Vijayanagar"
         }
       ],
       "disputed": false,
@@ -215,6 +219,10 @@
         {
           "citation": "British Museum collection thesaurus, \"Vijayanagara,\" via PeriodO.",
           "url": "http://n2t.net/ark:/99152/p08m57hn92h"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, 11th ed. (1911). \"Vijayanagar.\" Wikisource transcription.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Vijayanagar"
         }
       ],
       "disputed": true,
