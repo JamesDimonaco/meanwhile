@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import subsetFont from "subset-font";
+import { UN_MEMBERS } from "../src/lib/data/countries";
+import { countryName, NATIONS } from "../src/lib/data/nations";
 import { woff2CodePoints } from "./woff2-cmap";
 
 /**
@@ -11,7 +13,8 @@ import { woff2CodePoints } from "./woff2-cmap";
  *   characters in messages/zh/** and in culture names, which nearly every page
  *   shows. Its @font-face keeps a broad unicode-range, so it is the fallback;
  * - public/fonts/noto-sans-sc-culture.woff2 (under 350KB): the rest of
- *   data/cultures/** and data/borders/**;
+ *   data/cultures/** and data/borders/**, plus the zh names of every country
+ *   page and the culture pages' native names, which come from Intl rather than data;
  * - public/fonts/noto-sans-sc-wars.woff2 (under 100KB): what data/wars/** and
  *   data/succession.json add.
  * The culture and wars faces get their own unicode-range in src/app/globals.css
@@ -70,12 +73,13 @@ function mainStrings(): string[] {
   }
   for (const culture of readJsonFilesRecursive(path.join(ROOT, "data/cultures"))) {
     collectStrings((culture as { name: unknown }).name, strings);
+    collectStrings((culture as { nativeName?: { text: unknown } }).nativeName?.text, strings);
   }
   return strings;
 }
 
 function cultureStrings(): string[] {
-  const strings: string[] = [];
+  const strings: string[] = Object.keys({ ...UN_MEMBERS, ...NATIONS }).map((code) => countryName(code, "zh"));
   for (const dir of ["data/cultures", "data/borders"]) {
     for (const doc of readJsonFilesRecursive(path.join(ROOT, dir))) collectStrings(doc, strings);
   }

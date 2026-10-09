@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
+import { UN_MEMBERS } from "../src/lib/data/countries";
+import { countryName, NATIONS } from "../src/lib/data/nations";
 import { woff2CodePoints } from "./woff2-cmap";
 
 const ROOT = process.cwd();
@@ -40,9 +42,12 @@ function jsonStrings(dir: string, pick: (doc: Record<string, unknown>) => unknow
   return texts;
 }
 
-/** Every Han character a page can draw from messages/zh and data/**. */
+// Country pages and flag links draw these from Intl, not from any data file.
+const countryNamesZh = Object.keys({ ...UN_MEMBERS, ...NATIONS }).map((code) => countryName(code, "zh"));
+
+/** Every Han character a page can draw from messages/zh, data/** and the country names. */
 function shownHan(): Set<string> {
-  return hanIn([...jsonStrings("messages/zh"), ...jsonStrings("data")]);
+  return hanIn([...jsonStrings("messages/zh"), ...jsonStrings("data"), ...countryNamesZh]);
 }
 
 // Noto Sans SC has no glyph for these, so no subset can carry them; they show in the system font.
@@ -58,7 +63,7 @@ describe("the Chinese web font", () => {
   const faces = [main, culture, wars];
 
   // A character no subset has is drawn in whatever CJK font the system has, mid-sentence beside Noto (else run pnpm subset-cjk-font).
-  it("covers every Han character in messages/zh and data with one of its subsets", () => {
+  it("covers every Han character in messages/zh, data and country names with one of its subsets", () => {
     const missing = [...shownHan()].filter((ch) => {
       const cp = ch.codePointAt(0)!;
       return !main.has(cp) && !(culture.has(cp) && cultureRange.has(cp)) && !(wars.has(cp) && warsRange.has(cp)) && !NOT_IN_NOTO_SANS_SC.has(ch);
@@ -68,7 +73,7 @@ describe("the Chinese web font", () => {
 
   // Every page loads the main face, so what the zh UI text and culture names draw must not make a page fetch a second one.
   it("keeps the characters of messages/zh and culture names in the main subset", () => {
-    const common = hanIn([...jsonStrings("messages/zh"), ...jsonStrings("data/cultures", (doc) => doc.name)]);
+    const common = hanIn([...jsonStrings("messages/zh"), ...jsonStrings("data/cultures", (doc) => [doc.name, (doc.nativeName as { text?: unknown } | undefined)?.text])]);
     const missing = [...common].filter((ch) => !main.has(ch.codePointAt(0)!) && !NOT_IN_NOTO_SANS_SC.has(ch));
     expect(missing.join("")).toBe("");
   });
