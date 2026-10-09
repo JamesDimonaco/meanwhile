@@ -111,15 +111,19 @@
           "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Venice"
         },
         {
+          "citation": "Teresa Fava Thomas. \"Arsenale: The Shipyard and Arsenal of Venice.\" World History Encyclopedia, 2025.",
+          "url": "https://www.worldhistory.org/article/2776/arsenale/"
+        },
+        {
           "citation": "Encyclopaedia Britannica. \"Venice: Economy.\"",
           "url": "https://www.britannica.com/place/Venice/Economy"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Only the 1911 Britannica gives a founding date (about 1104, under Doge Ordelaffo Falier); the foundation date is approximate.",
-        "es": "Solo la Britannica de 1911 da una fecha de fundación (hacia 1104, bajo el dogo Ordelaffo Falier); la fecha es aproximada.",
-        "zh": "只有1911年版《大英百科全书》给出了创立时间（约1104年，总督奥尔德拉福·法列罗在位时），该年份只是大致时间。"
+        "en": "The 1911 Britannica and the World History Encyclopedia both give about 1104, under Doge Ordelaffo Falier. Wikipedia says there is no evidence for so precise a date and that a shipyard may have existed earlier, so the date is approximate.",
+        "es": "La Britannica de 1911 y la World History Encyclopedia dan ambas hacia 1104, bajo el dogo Ordelaffo Falier. Wikipedia señala que no hay pruebas de una fecha tan precisa y que quizá existía un astillero antes, así que la fecha es aproximada.",
+        "zh": "1911年版《大英百科全书》和《世界历史百科全书》都给出约1104年，总督奥尔德拉福·法列罗在位时。维基百科指出没有证据支持如此精确的年份，更早可能已有造船厂，所以该年份只是大致时间。"
       },
       "place": {
         "name": {
@@ -176,8 +180,8 @@
           "url": "https://www.britannica.com/event/Battle-of-Lepanto"
         },
         {
-          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Venice.\" Via Wikisource.",
-          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Venice"
+          "citation": "Wikipedia. \"Ottoman–Venetian War (1570–1573).\"",
+          "url": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Venetian_War_(1570%E2%80%931573)"
         }
       ],
       "disputed": false,
@@ -196,9 +200,9 @@
       "start": 1571,
       "type": "conflict",
       "title": {
-        "en": "A Holy League fleet with 105 Venetian galleys defeats the Ottoman fleet off Lepanto on 7 October",
-        "es": "Una flota de la Santa Liga con 105 galeras venecianas derrota a la flota otomana frente a Lepanto el 7 de octubre",
-        "zh": "10月7日，神圣同盟舰队（含105艘威尼斯桨帆船）在勒班陀外海击败奥斯曼舰队"
+        "en": "A Holy League fleet with over 100 Venetian galleys defeats the Ottoman fleet off Lepanto on 7 October",
+        "es": "Una flota de la Santa Liga con más de 100 galeras venecianas derrota a la flota otomana frente a Lepanto el 7 de octubre",
+        "zh": "10月7日，神圣同盟舰队（含逾百艘威尼斯桨帆船）在勒班陀外海击败奥斯曼舰队"
       },
       "sources": [
         {
@@ -206,8 +210,8 @@
           "url": "https://www.britannica.com/event/Battle-of-Lepanto"
         },
         {
-          "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Venice.\" Via Wikisource.",
-          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Venice"
+          "citation": "Encyclopedia.com. \"Lepanto, Battle of.\"",
+          "url": "https://encyclopedia.com/history/modern-europe/wars-and-battles/battle-lepanto"
         }
       ],
       "disputed": false,
@@ -258,14 +262,18 @@
       "start": 1569,
       "end": 1571,
       "text": {
-        "en": "A fire hit the Arsenal in 1569, and the next year Venice still sent to sea the fleet that fought at Lepanto.",
-        "es": "Un incendio afectó al Arsenal en 1569 y, al año siguiente, Venecia aún lanzó al mar la flota que combatió en Lepanto.",
-        "zh": "1569年兵工厂遭遇大火，次年威尼斯仍然派出了参加勒班陀海战的舰队。"
+        "en": "The Arsenal's gunpowder store exploded in 1569, and the next year Venice still sent to sea the fleet that fought at Lepanto.",
+        "es": "El polvorín del Arsenal explotó en 1569 y, al año siguiente, Venecia aún lanzó al mar la flota que combatió en Lepanto.",
+        "zh": "1569年兵工厂的火药库爆炸，次年威尼斯仍然派出了参加勒班陀海战的舰队。"
       },
       "sources": [
         {
           "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Venice.\" Via Wikisource.",
           "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Venice"
+        },
+        {
+          "citation": "van Gelder, M. & de Vivo, F. (2023). \"Papering Over Protest: Contentious Politics and Archival Suppression in Early Modern Venice.\" Past & Present 258(1).",
+          "url": "https://academic.oup.com/past/article/258/1/44/6532405"
         }
       ],
       "disputed": false

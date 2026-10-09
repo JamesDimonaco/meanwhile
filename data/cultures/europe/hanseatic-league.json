@@ -161,11 +161,11 @@
           "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Bergen.\"",
-          "url": "https://www.britannica.com/place/Bergen-Norway"
+          "citation": "Wikipedia. \"Bryggen.\"",
+          "url": "https://en.wikipedia.org/wiki/Bryggen"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "place": {
         "name": {
           "en": "Bergen",
@@ -174,6 +174,11 @@
         },
         "lat": 60.3913,
         "lon": 5.3221
+      },
+      "note": {
+        "en": "The 1911 Britannica gives 1343 for the Hanseatic merchants' special privileges at Bergen. Wikipedia says German merchants held trading rights in Norway from 1294 and puts the formal Kontor around 1350; other accounts say 1366.",
+        "es": "La Britannica de 1911 da 1343 para los privilegios especiales de los mercaderes hanseáticos en Bergen. Wikipedia indica que los mercaderes alemanes tenían derechos comerciales en Noruega desde 1294 y sitúa el Kontor formal hacia 1350; otros relatos dicen 1366.",
+        "zh": "1911年版《大英百科全书》把汉萨商人在卑尔根的特别特权定在1343年。维基百科称德意志商人自1294年起在挪威享有贸易权，并把正式商站定在约1350年；另有说法是1366年。"
       }
     },
     {
@@ -234,14 +239,18 @@
       "start": 1252,
       "end": 1669,
       "text": {
-        "en": "The league ran four main trading posts abroad, at Bruges, Bergen, London and Novgorod, and their rules needed the home towns' approval.",
-        "es": "La liga mantuvo cuatro factorías principales en el extranjero, en Brujas, Bergen, Londres y Nóvgorod, y sus normas necesitaban la aprobación de las ciudades de origen.",
-        "zh": "同盟在海外设有四处主要商站，分别在布鲁日、卑尔根、伦敦和诺夫哥罗德，它们的章程须经本土城市批准。"
+        "en": "The league ran four main trading posts abroad, at Bruges, Bergen, London and Novgorod.",
+        "es": "La liga mantuvo cuatro factorías principales en el extranjero, en Brujas, Bergen, Londres y Nóvgorod.",
+        "zh": "同盟在海外设有四处主要商站，分别在布鲁日、卑尔根、伦敦和诺夫哥罗德。"
       },
       "sources": [
         {
           "citation": "Encyclopaedia Britannica (11th ed., 1911). \"Hanseatic League.\" Via Wikisource.",
           "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
+        },
+        {
+          "citation": "Wikipedia. \"Hanseatic League.\"",
+          "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
         }
       ],
       "disputed": false
