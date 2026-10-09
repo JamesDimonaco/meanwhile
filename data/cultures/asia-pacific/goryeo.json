@@ -14,9 +14,9 @@
     "高麗"
   ],
   "description": {
-    "en": "The dynasty that ruled Korea from Kaesong after Wang Geon took power in 918. The name Korea comes from it. It carved the Tripitaka Koreana, printed with movable metal type, and became a vassal of the Mongol Yuan before Yi Seong-gye ended it in 1392.",
-    "es": "La dinastía que gobernó Corea desde Kaesong tras la toma del poder de Wang Geon en 918. De ella viene el nombre de Corea. Grabó la Tripitaka Koreana, imprimió con tipos móviles de metal y fue vasalla de los Yuan mongoles hasta que Yi Seong-gye la derrocó en 1392.",
-    "zh": "918年王建掌权后，以开京为都城统治朝鲜半岛的王朝，“Korea”之名即源于它。高丽刻成《高丽大藏经》，用金属活字印书，13世纪成为蒙古元朝的附庸，1392年被李成桂推翻。"
+    "en": "The dynasty that ruled Korea from Kaesong after Wang Geon took power in 918. The name Korea comes from it. It carved the Tripitaka Koreana, printed with movable metal type, and became a vassal of the Mongol Yuan before Yi Seong-gye took the throne and ended it in 1392.",
+    "es": "La dinastía que gobernó Corea desde Kaesong tras la toma del poder de Wang Geon en 918. De ella viene el nombre de Corea. Grabó la Tripitaka Koreana, imprimió con tipos móviles de metal y fue vasalla de los Yuan mongoles hasta que Yi Seong-gye tomó el trono y puso fin a la dinastía en 1392.",
+    "zh": "918年王建掌权后，以开京为都城统治朝鲜半岛的王朝，“Korea”之名即源于它。高丽刻成《高丽大藏经》，用金属活字印书，13世纪成为蒙古元朝的附庸，1392年李成桂登上王位，王朝终结。"
   },
   "reviewed": {
     "es": false,
@@ -31,12 +31,16 @@
       "latestEnd": 1392,
       "sources": [
         {
-          "citation": "British Museum collection thesaurus, \"Goryeo\" (AD 918 – AD 1392), via PeriodO.",
+          "citation": "British Museum collection thesaurus, \"Koryo Dynasty\" (AD 918 – AD 1392), via PeriodO.",
           "url": "http://n2t.net/ark:/99152/p08m57h8h3w"
         },
         {
-          "citation": "Encyclopaedia Britannica, \"Goryeo dynasty\".",
-          "url": "https://www.britannica.com/topic/Goryeo-dynasty"
+          "citation": "Wikipedia, \"Goryeo\".",
+          "url": "https://en.wikipedia.org/wiki/Goryeo"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Goryeo.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Goryeo/"
         }
       ],
       "periodoId": "p08m57h8h3w",
@@ -56,8 +60,8 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Goryeo dynasty\".",
-          "url": "https://www.britannica.com/topic/Goryeo-dynasty"
+          "citation": "Wikipedia, \"Goryeo\".",
+          "url": "https://en.wikipedia.org/wiki/Goryeo"
         },
         {
           "citation": "Cartwright, Mark. \"Goryeo.\" World History Encyclopedia.",
@@ -117,15 +121,15 @@
       },
       "sources": [
         {
-          "citation": "UNESCO World Heritage Centre, \"Haeinsa Temple Janggyeong Panjeon, the Depositories for the Tripitaka Koreana Woodblocks\".",
-          "url": "https://whc.unesco.org/en/list/737"
+          "citation": "Wikipedia, \"Tripitaka Koreana\".",
+          "url": "https://en.wikipedia.org/wiki/Tripitaka_Koreana"
         },
         {
           "citation": "Wikipedia, \"Mongol invasions of Korea\".",
           "url": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Korea"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "place": {
         "name": {
           "en": "Haeinsa",
@@ -134,6 +138,11 @@
         },
         "lat": 35.8,
         "lon": 128.1
+      },
+      "note": {
+        "en": "Wikipedia's article on the Tripitaka Koreana gives 1237–1249 for the carving; its article on the Mongol invasions says the blocks were ordered in 1237 and finished in 1248. The block count is about 81,000 (81,352 in the first article).",
+        "es": "El artículo de Wikipedia sobre la Tripitaka Koreana da 1237–1249 para el grabado; su artículo sobre las invasiones mongolas dice que las tablillas se encargaron en 1237 y se terminaron en 1248. Son unas 81.000 tablillas (81.352 en el primer artículo).",
+        "zh": "维基百科的《高丽大藏经》条目把雕刻时间记为1237–1249年；其蒙古入侵高丽条目则称木板1237年下令雕造，1248年完成。木板数约为8.1万块（前一条目记为81352块）。"
       }
     },
     {
@@ -157,9 +166,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "World History Encyclopedia puts the peace in 1258, Wikipedia gives 1259 for the end of the main fighting, and the last campaign ended with a treaty in 1270. The vassalage lasted about 80 years.",
-        "es": "World History Encyclopedia sitúa la paz en 1258, Wikipedia da 1259 para el fin de los combates principales, y la última campaña terminó con un tratado en 1270. El vasallaje duró unos 80 años.",
-        "zh": "World History Encyclopedia把议和定在1258年，维基百科以1259年为主要战事的结束，最后一次战役则以1270年的条约告终。附庸关系持续了约80年。"
+        "en": "World History Encyclopedia puts the peace in 1258. Wikipedia's article on the Mongol invasions gives spring 1259 for the final agreement, and says Goryeo was a Yuan vassal for about 80 years, until Yuan power weakened in the 1350s.",
+        "es": "World History Encyclopedia sitúa la paz en 1258. El artículo de Wikipedia sobre las invasiones mongolas da la primavera de 1259 para el acuerdo final y dice que Goryeo fue vasalla de los Yuan unos 80 años, hasta que el poder Yuan se debilitó en la década de 1350.",
+        "zh": "World History Encyclopedia把议和定在1258年。维基百科的蒙古入侵高丽条目把最终协议定在1259年春，并称高丽做了约80年元朝的附庸，直到14世纪50年代元朝势力衰落。"
       }
     },
     {
@@ -197,14 +206,14 @@
       "start": 1392,
       "type": "collapse",
       "title": {
-        "en": "General Yi Seong-gye overthrows the Goryeo king and founds Joseon",
-        "es": "El general Yi Seong-gye derroca al rey de Goryeo y funda Joseon",
-        "zh": "李成桂将军推翻高丽王，建立朝鲜"
+        "en": "General Yi Seong-gye takes the throne and founds Joseon",
+        "es": "El general Yi Seong-gye toma el trono y funda Joseon",
+        "zh": "李成桂将军登上王位，建立朝鲜"
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Goryeo dynasty\".",
-          "url": "https://www.britannica.com/topic/Goryeo-dynasty"
+          "citation": "Wikipedia, \"Goryeo\".",
+          "url": "https://en.wikipedia.org/wiki/Goryeo"
         },
         {
           "citation": "Cartwright, Mark. \"Goryeo.\" World History Encyclopedia.",
@@ -235,8 +244,8 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Goryeo dynasty\".",
-          "url": "https://www.britannica.com/topic/Goryeo-dynasty"
+          "citation": "Wikipedia, \"Goryeo\".",
+          "url": "https://en.wikipedia.org/wiki/Goryeo"
         },
         {
           "citation": "Cartwright, Mark. \"Goryeo.\" World History Encyclopedia.",

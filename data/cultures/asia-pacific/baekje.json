@@ -34,8 +34,8 @@
           "url": "http://n2t.net/ark:/99152/p08m57h222w"
         },
         {
-          "citation": "Encyclopaedia Britannica, \"Baekje\".",
-          "url": "https://www.britannica.com/place/Baekje"
+          "citation": "Wikipedia, \"Baekje\".",
+          "url": "https://en.wikipedia.org/wiki/Baekje"
         },
         {
           "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
@@ -46,9 +46,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Tradition dates the founding to 18 BCE, a date historians consider unlikely to be accurate. Britannica's first reliably dated king is Goi (234–286), so the solid bar starts there. The capital fell in 660; PeriodO ends the kingdom in 663, when the last rebels were crushed.",
-        "es": "La tradición fecha la fundación en 18 a. e. c., una fecha que los historiadores consideran poco probable. El primer rey con fechas fiables en Britannica es Goi (234–286), así que la barra sólida empieza ahí. La capital cayó en 660; PeriodO sitúa el fin del reino en 663, cuando se aplastó a los últimos rebeldes.",
-        "zh": "传统上把建国定在公元前18年，史学家认为这一年份不太可信。《大英百科全书》中年代可靠的第一位国王是古尔王（234–286年），所以实线从这里开始。都城在660年陷落，PeriodO把王国的终点定在663年，即最后的复国军被镇压之时。"
+        "en": "Tradition dates the founding to 18 BCE, from the Samguk sagi. World History Encyclopedia says that date is unlikely to be accurate and that modern historians credit Goi (234–286) with establishing Baekje as a centralised state, so the solid bar starts there; that start is our choice. The capital fell in 660; PeriodO ends the kingdom in 663, when World History Encyclopedia says the last rebels were crushed.",
+        "es": "La tradición fecha la fundación en 18 a. e. c., según el Samguk sagi. World History Encyclopedia dice que esa fecha es poco probable y que los historiadores modernos atribuyen a Goi (234–286) el establecimiento de Baekje como Estado centralizado, así que la barra sólida empieza ahí; ese inicio es decisión nuestra. La capital cayó en 660; PeriodO sitúa el fin del reino en 663, cuando según World History Encyclopedia se aplastó a los últimos rebeldes.",
+        "zh": "传统上据《三国史记》把建国定在公元前18年。World History Encyclopedia认为这一年份不太可信，并称现代史学家把百济确立为中央集权国家归功于古尔王（234–286年），所以实线从这里开始；这一起点是我们的取舍。都城在660年陷落，PeriodO把王国的终点定在663年，World History Encyclopedia称最后的复国军在这一年被镇压。"
       }
     }
   ],
@@ -64,8 +64,8 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Baekje\".",
-          "url": "https://www.britannica.com/place/Baekje"
+          "citation": "Wikipedia, \"Baekje\".",
+          "url": "https://en.wikipedia.org/wiki/Baekje"
         },
         {
           "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
@@ -74,9 +74,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "18 BCE is the date in the Samguk sagi, a chronicle written centuries later. World History Encyclopedia calls it unlikely to be accurate.",
-        "es": "18 a. e. c. es la fecha del Samguk sagi, una crónica escrita siglos después. World History Encyclopedia la considera poco probable.",
-        "zh": "公元前18年出自数百年后写成的《三国史记》。World History Encyclopedia认为这一年份不太可信。"
+        "en": "18 BCE is the date in the Samguk sagi, a chronicle of the 12th century CE. World History Encyclopedia calls it unlikely to be accurate.",
+        "es": "18 a. e. c. es la fecha del Samguk sagi, una crónica del siglo XII e. c. World History Encyclopedia la considera poco probable.",
+        "zh": "公元前18年出自公元12世纪的《三国史记》。World History Encyclopedia认为这一年份不太可信。"
       }
     },
     {
@@ -94,8 +94,8 @@
           "url": "https://www.worldhistory.org/Baekje/"
         },
         {
-          "citation": "UNESCO World Heritage Centre, \"Baekje Historic Areas\" (Gongju, Buyeo, Iksan).",
-          "url": "https://whc.unesco.org/en/list/1477"
+          "citation": "Wikipedia, \"Baekje\".",
+          "url": "https://en.wikipedia.org/wiki/Baekje"
         }
       ],
       "disputed": false,
@@ -137,6 +137,11 @@
         },
         "lat": 36.46,
         "lon": 127.11
+      },
+      "note": {
+        "en": "World History Encyclopedia dates the tomb to 525. The epitaph found inside records the king's death on 7 May 523 (Korea JoongAng Daily).",
+        "es": "World History Encyclopedia fecha la tumba en 525. El epitafio hallado dentro registra la muerte del rey el 7 de mayo de 523 (Korea JoongAng Daily).",
+        "zh": "World History Encyclopedia把这座墓定在525年。墓中发现的志石记载国王于523年5月7日去世（Korea JoongAng Daily）。"
       }
     },
     {
@@ -154,8 +159,8 @@
           "url": "https://www.worldhistory.org/Baekje/"
         },
         {
-          "citation": "UNESCO World Heritage Centre, \"Baekje Historic Areas\" (Gongju, Buyeo, Iksan).",
-          "url": "https://whc.unesco.org/en/list/1477"
+          "citation": "Wikipedia, \"Baekje\".",
+          "url": "https://en.wikipedia.org/wiki/Baekje"
         }
       ],
       "disputed": false,
@@ -184,15 +189,15 @@
           "url": "https://www.ebsco.com/research-starters/history/buddhism-arrives-japan/"
         },
         {
-          "citation": "National Museum of Asian Art (Smithsonian), \"The Beginnings of Buddhism in Japan\".",
-          "url": "https://asia.si.edu/whats-on/exhibitions/the-beginnings-of-buddhism-in-japan/"
+          "citation": "Wikipedia, \"Buddhism in Japan\".",
+          "url": "https://en.wikipedia.org/wiki/Buddhism_in_Japan"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The Nihon shoki gives 552. Many scholars prefer 538, which EBSCO calls widely regarded as likelier.",
-        "es": "El Nihon shoki da 552. Muchos estudiosos prefieren 538, que EBSCO considera más probable según la opinión general.",
-        "zh": "《日本书纪》记为552年。许多学者倾向于538年，EBSCO称这一年份被普遍认为更可能。"
+        "en": "The Nihon shoki gives 552. EBSCO says 538 is widely regarded as the likelier year, while Wikipedia says both dates are thought to be unreliable.",
+        "es": "El Nihon shoki da 552. EBSCO dice que 538 se considera en general el año más probable, mientras que Wikipedia dice que se cree que ambas fechas no son fiables.",
+        "zh": "《日本书纪》记为552年。EBSCO称538年被普遍认为更可能，维基百科则称这两个年份都被认为不可靠。"
       }
     },
     {
@@ -206,12 +211,12 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Baekje\".",
-          "url": "https://www.britannica.com/place/Baekje"
-        },
-        {
           "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
           "url": "https://www.worldhistory.org/Baekje/"
+        },
+        {
+          "citation": "Wikipedia, \"Baekje\".",
+          "url": "https://en.wikipedia.org/wiki/Baekje"
         }
       ],
       "disputed": false,
@@ -232,9 +237,9 @@
       "start": 501,
       "end": 523,
       "text": {
-        "en": "King Muryeong's brick tomb at Gongju stayed sealed for almost 1,450 years. A worker laying drainage found it in July 1971, with both coffins and the grave goods still inside.",
-        "es": "La tumba de ladrillo del rey Muryeong en Gongju permaneció sellada casi 1450 años. Un obrero que instalaba un drenaje la encontró en julio de 1971, con los dos ataúdes y el ajuar todavía dentro.",
-        "zh": "公州武宁王的砖室墓封闭了近1450年。1971年7月，一名施工排水的工人发现了它，两具棺木和随葬品都还在里面。"
+        "en": "King Muryeong's brick tomb at Gongju stayed sealed for more than 1,400 years. A worker laying drainage found it in July 1971, with both coffins and the grave goods still inside.",
+        "es": "La tumba de ladrillo del rey Muryeong en Gongju permaneció sellada más de 1400 años. Un obrero que instalaba un drenaje la encontró en julio de 1971, con los dos ataúdes y el ajuar todavía dentro.",
+        "zh": "公州武宁王的砖室墓封闭了1400多年。1971年7月，一名施工排水的工人发现了它，两具棺木和随葬品都还在里面。"
       },
       "sources": [
         {
@@ -242,8 +247,8 @@
           "url": "https://www.koreajoongangdaily.com/lifestyle/entire-contents-of-king-muryeongs-tomb-on-display-for-first-time/10102640"
         },
         {
-          "citation": "Cartwright, Mark. \"Baekje.\" World History Encyclopedia.",
-          "url": "https://www.worldhistory.org/Baekje/"
+          "citation": "Wikipedia, \"Tomb of King Muryeong\".",
+          "url": "https://en.wikipedia.org/wiki/Tomb_of_King_Muryeong"
         }
       ]
     }
