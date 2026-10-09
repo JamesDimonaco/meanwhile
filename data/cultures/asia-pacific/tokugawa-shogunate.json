@@ -54,7 +54,7 @@
       ],
       "periodoId": "p08m57hwrbs",
       "default": true,
-      "disputed": false,
+      "disputed": true,
       "note": {
         "en": "Chronologies start in 1600 (Sekigahara) or 1603 (Ieyasu named shogun) and end in 1867 (the last shogun resigns) or 1868 (the new government abolishes the shogunate).",
         "es": "Las cronologías comienzan en 1600 (Sekigahara) o 1603 (Ieyasu nombrado shogun) y terminan en 1867 (dimite el último shogun) o 1868 (el nuevo gobierno abole el shogunato).",
@@ -128,9 +128,9 @@
       "start": 1615,
       "type": "conflict",
       "title": {
-        "en": "Tokugawa forces destroy Osaka Castle, the last Toyotomi stronghold",
-        "es": "Las fuerzas Tokugawa destruyen el castillo de Osaka, el último bastión de los Toyotomi",
-        "zh": "德川军攻陷并毁掉大阪城，这是丰臣氏的最后据点"
+        "en": "Tokugawa forces take Osaka Castle, the last Toyotomi stronghold, and Toyotomi Hideyori dies",
+        "es": "Las fuerzas Tokugawa toman el castillo de Osaka, el último bastión de los Toyotomi, y muere Toyotomi Hideyori",
+        "zh": "德川军攻陷大阪城，这是丰臣氏的最后据点，丰臣秀赖随之身亡"
       },
       "sources": [
         {
@@ -194,9 +194,9 @@
       "end": 1641,
       "type": "ruler",
       "title": {
-        "en": "Edicts bar Japanese from travelling abroad and confine foreign trade to Nagasaki, with the Dutch at Dejima",
-        "es": "Unos edictos prohíben a los japoneses viajar al extranjero y limitan el comercio exterior a Nagasaki, con los holandeses en Dejima",
-        "zh": "多道法令禁止日本人出国，并把对外贸易限于长崎，荷兰人被限定在出岛"
+        "en": "Edicts bar Japanese from travelling abroad and, by 1641, confine foreign contact to Nagasaki, with the Dutch restricted to Dejima",
+        "es": "Unos edictos prohíben a los japoneses viajar al extranjero y, hacia 1641, limitan el contacto exterior a Nagasaki, con los holandeses confinados en Dejima",
+        "zh": "多道法令禁止日本人出国，到1641年把对外往来限于长崎，荷兰人被限定在出岛"
       },
       "sources": [
         {
@@ -210,9 +210,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Trade also continued with Korea and the Ryukyu Islands, so historians debate how closed Japan was.",
-        "es": "El comercio también continuó con Corea y las islas Ryukyu, por lo que los historiadores debaten cuán cerrado estuvo Japón.",
-        "zh": "日本仍与朝鲜和琉球通商，因此史家对其封闭程度存在争论。"
+        "en": "Sources date the seclusion policy differently: 1624 (EBSCO), 1635 for the travel ban and 1641 for the Nagasaki limit (Japan: A Country Study), and 1639 for the expulsion of most foreigners (US State Department). This entry spans 1635 to 1641. Limited trade with Korea and the Ryukyu Islands continued, and the Chinese also traded at Nagasaki.",
+        "es": "Las fuentes fechan la política de aislamiento de formas distintas: 1624 (EBSCO), 1635 para la prohibición de viajar y 1641 para el límite de Nagasaki (Japan: A Country Study), y 1639 para la expulsión de la mayoría de los extranjeros (Departamento de Estado de EE. UU.). Esta entrada abarca de 1635 a 1641. Continuó un comercio limitado con Corea y las islas Ryukyu, y los chinos también comerciaban en Nagasaki.",
+        "zh": "史料对锁国政策的断代不同：1624年（EBSCO）；禁止出国为1635年、限定长崎为1641年（《日本：国别研究》）；驱逐大部分外国人为1639年（美国国务院）。本条目涵盖1635年至1641年。日本仍与朝鲜和琉球有限通商，中国商人也在长崎贸易。"
       },
       "place": {
         "name": {
