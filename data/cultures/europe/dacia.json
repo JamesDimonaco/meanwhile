@@ -1,0 +1,286 @@
+{
+  "id": "dacia",
+  "region": "europe",
+  "wikidataId": "Q173082",
+  "name": {
+    "en": "Dacia",
+    "es": "Dacia",
+    "zh": "达契亚"
+  },
+  "nativeName": {
+    "text": "Dacia",
+    "lang": "la"
+  },
+  "aliases": [
+    "Dacians",
+    "Getae",
+    "Geto-Dacians",
+    "Roman Dacia",
+    "Dacios",
+    "达契亚人"
+  ],
+  "description": {
+    "en": "A kingdom of the Carpathian region, in present-day Romania. Burebista united the Dacian tribes in the 1st century BCE, and Decebalus fought Rome until Trajan's second war of 105–106 CE turned the land into a Roman province.",
+    "es": "Reino de la región de los Cárpatos, en la actual Rumanía. Burebista unió a las tribus dacias en el siglo I a. e. c., y Decébalo combatió a Roma hasta que la segunda guerra de Trajano, en 105-106 e. c., convirtió el territorio en provincia romana.",
+    "zh": "喀尔巴阡地区的王国，位于今罗马尼亚。公元前1世纪布雷比斯塔统一了达契亚各部落，德凯巴鲁斯与罗马对抗，直到图拉真在公元105至106年的第二次战争把这片土地变成罗马行省。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "dacian-kingdom",
+      "earliestStart": -81,
+      "latestStart": -69,
+      "earliestEnd": 106,
+      "latestEnd": 271,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Dacia.\"",
+          "url": "https://www.worldhistory.org/Dacia/"
+        },
+        {
+          "citation": "Strabo, Geography 7.3.11 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0198%3Abook%3D7%3Achapter%3D3%3Asection%3D11"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start follows Burebista, whose reign is dated c. 82–70 BCE at the earliest to 44 BCE. The solid bar ends with Trajan's conquest in 106 CE. The fading edge runs to about 271 CE, when the World History Encyclopedia has Rome abandoning the province.",
+        "es": "El inicio sigue a Burebista, cuyo reinado se fecha entre c. 82-70 a. e. c. y 44 a. e. c. La barra sólida termina con la conquista de Trajano en 106 e. c. El borde difuso llega hasta c. 271 e. c., cuando la World History Encyclopedia sitúa el abandono de la provincia por Roma.",
+        "zh": "起点取自布雷比斯塔，其统治最早约始于公元前82至前70年，终于公元前44年。实线到公元106年图拉真征服为止，渐隐的边缘延至约公元271年，《世界历史百科全书》称罗马于此时放弃该行省。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "burebista",
+      "name": {
+        "en": "Burebista's kingdom",
+        "es": "Reino de Burebista",
+        "zh": "布雷比斯塔的王国"
+      },
+      "start": -79,
+      "end": -43,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Dacia.\"",
+          "url": "https://www.worldhistory.org/Dacia/"
+        },
+        {
+          "citation": "Strabo, Geography 7.3.11 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0198%3Abook%3D7%3Achapter%3D3%3Asection%3D11"
+        }
+      ]
+    },
+    {
+      "id": "decebalus",
+      "name": {
+        "en": "Decebalus and the Roman wars",
+        "es": "Decébalo y las guerras con Roma",
+        "zh": "德凯巴鲁斯与罗马战争"
+      },
+      "start": 87,
+      "end": 106,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Decebalus.\"",
+          "url": "https://www.worldhistory.org/Decebalus/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Dacia.\"",
+          "url": "https://www.worldhistory.org/Dacia/"
+        }
+      ]
+    },
+    {
+      "id": "roman-province",
+      "name": {
+        "en": "Roman province",
+        "es": "Provincia romana",
+        "zh": "罗马行省"
+      },
+      "start": 106,
+      "end": 271,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Dacia.\"",
+          "url": "https://www.worldhistory.org/Dacia/"
+        },
+        {
+          "citation": "Cassius Dio, Roman History 68 (LacusCurtius).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/68*.html"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "burebista-unites-dacians",
+      "start": -79,
+      "type": "ruler",
+      "title": {
+        "en": "Burebista unites the Dacian tribes into one kingdom",
+        "es": "Burebista une a las tribus dacias en un solo reino",
+        "zh": "布雷比斯塔把达契亚各部落统一为一个王国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Dacia.\"",
+          "url": "https://www.worldhistory.org/Dacia/"
+        },
+        {
+          "citation": "Strabo, Geography 7.3.11 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0198%3Abook%3D7%3Achapter%3D3%3Asection%3D11"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Strabo says Burebista rose and built a large realm but gives no dates. The World History Encyclopedia dates his reign from c. 80 BCE, and other accounts from c. 82 BCE.",
+        "es": "Estrabón dice que Burebista ascendió y levantó un gran dominio, pero no da fechas. La World History Encyclopedia fecha su reinado desde c. 80 a. e. c., y otros relatos desde c. 82 a. e. c.",
+        "zh": "斯特拉波说布雷比斯塔崛起并建立了庞大的疆域，但未给出年代。《世界历史百科全书》把他的统治定在约公元前80年起，其他说法则从约公元前82年起。"
+      }
+    },
+    {
+      "id": "burebista-deposed",
+      "start": -43,
+      "type": "collapse",
+      "title": {
+        "en": "Burebista is deposed in a revolt and his realm splits into parts",
+        "es": "Burebista es depuesto en una revuelta y su dominio se divide en partes",
+        "zh": "布雷比斯塔在叛乱中被推翻，王国分裂为数部"
+      },
+      "sources": [
+        {
+          "citation": "Strabo, Geography 7.3.11 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0198%3Abook%3D7%3Achapter%3D3%3Asection%3D11"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Dacia.\"",
+          "url": "https://www.worldhistory.org/Dacia/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Strabo reports the revolt and says it came before the Romans could send an expedition, without a year. The year 44 BCE comes from the World History Encyclopedia.",
+        "es": "Estrabón refiere la revuelta y dice que ocurrió antes de que los romanos enviaran una expedición, sin indicar año. El año 44 a. e. c. procede de la World History Encyclopedia.",
+        "zh": "斯特拉波记载了这场叛乱，称它发生在罗马人派出远征军之前，但没有给出年份。公元前44年出自《世界历史百科全书》。"
+      }
+    },
+    {
+      "id": "fuscus-defeated",
+      "start": 86,
+      "type": "conflict",
+      "title": {
+        "en": "Dacian forces under Decebalus defeat a Roman army led by Cornelius Fuscus",
+        "es": "Las fuerzas dacias de Decébalo derrotan a un ejército romano al mando de Cornelio Fusco",
+        "zh": "德凯巴鲁斯麾下的达契亚军队击败科尔内利乌斯·富斯库斯率领的罗马军队"
+      },
+      "sources": [
+        {
+          "citation": "Suetonius, Life of Domitian 6 (LacusCurtius).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Domitian*.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Decebalus.\"",
+          "url": "https://www.worldhistory.org/Decebalus/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "first-dacian-war",
+      "start": 101,
+      "end": 102,
+      "type": "conflict",
+      "title": {
+        "en": "Trajan's first war against Decebalus ends with Dacia bound by a treaty to Rome",
+        "es": "La primera guerra de Trajano contra Decébalo termina con Dacia vinculada a Roma por un tratado",
+        "zh": "图拉真对德凯巴鲁斯的第一次战争以达契亚与罗马订约告终"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Dacia.\"",
+          "url": "https://www.worldhistory.org/Dacia/"
+        },
+        {
+          "citation": "Cassius Dio, Roman History 68 (LacusCurtius).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/68*.html"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "decebalus-dies",
+      "start": 106,
+      "type": "collapse",
+      "title": {
+        "en": "Trajan's second war ends with the capital taken and Decebalus's suicide",
+        "es": "La segunda guerra de Trajano termina con la captura de la capital y el suicidio de Decébalo",
+        "zh": "图拉真第二次战争以都城陷落和德凯巴鲁斯自杀告终"
+      },
+      "place": {
+        "name": {
+          "en": "Sarmizegetusa Regia",
+          "es": "Sarmizegetusa Regia",
+          "zh": "萨尔米泽杰图萨雷吉亚"
+        },
+        "lat": 45.6228,
+        "lon": 23.3092
+      },
+      "sources": [
+        {
+          "citation": "Cassius Dio, Roman History 68.14 (LacusCurtius).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/68*.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Decebalus.\"",
+          "url": "https://www.worldhistory.org/Decebalus/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "province-founded",
+      "start": 106,
+      "type": "founding",
+      "title": {
+        "en": "Rome organises the conquered land as the province of Dacia",
+        "es": "Roma organiza el territorio conquistado como la provincia de Dacia",
+        "zh": "罗马把征服的土地设为达契亚行省"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Dacia.\"",
+          "url": "https://www.worldhistory.org/Dacia/"
+        },
+        {
+          "citation": "Cassius Dio, Roman History 68 (LacusCurtius).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/68*.html"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "sargetia-treasure",
+      "start": 106,
+      "end": 106,
+      "text": {
+        "en": "Cassius Dio says Decebalus hid his treasure under the bed of the river Sargetia, after prisoners diverted the water to dig a hollow and then covered it over again.",
+        "es": "Dion Casio dice que Decébalo ocultó su tesoro bajo el lecho del río Sargetia, después de que unos prisioneros desviaran el agua para cavar un hueco y volvieran a cubrirlo.",
+        "zh": "卡西乌斯·狄奥说，德凯巴鲁斯先让俘虏改道河水、在河床下挖出空洞，把财宝藏进去，再让河水回流覆盖。"
+      },
+      "sources": [
+        {
+          "citation": "Cassius Dio, Roman History 68.14 (LacusCurtius).",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/68*.html"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "lombard-kingdom",
+  "region": "europe",
+  "wikidataId": "Q854415",
+  "name": {
+    "en": "Lombard Kingdom",
+    "es": "Reino lombardo",
+    "zh": "伦巴第王国"
+  },
+  "nativeName": {
+    "text": "Regnum Langobardorum",
+    "lang": "la"
+  },
+  "aliases": [
+    "Kingdom of the Lombards",
+    "Lombards",
+    "Langobards",
+    "Longobards",
+    "Regnum Italiae",
+    "Lombardos",
+    "伦巴第人",
+    "伦巴底"
+  ],
+  "description": {
+    "en": "A Germanic kingdom in northern and central Italy, founded when Alboin led the Lombards across the Alps in 568. Pavia was its capital. Charlemagne took Pavia in 774 and added the kingdom to the Frankish realm.",
+    "es": "Reino germánico del norte y centro de Italia, fundado cuando Alboíno condujo a los lombardos a través de los Alpes en 568. Su capital fue Pavía. Carlomagno tomó Pavía en 774 y sumó el reino al dominio franco.",
+    "zh": "意大利北部和中部的日耳曼王国，568年阿尔博因率伦巴第人翻越阿尔卑斯山后建立，以帕维亚为都。774年查理曼攻取帕维亚，把这个王国并入法兰克王国。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "lombard-kingdom",
+      "earliestStart": 568,
+      "latestStart": 568,
+      "earliestEnd": 774,
+      "latestEnd": 774,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Lombards.\"",
+          "url": "https://www.worldhistory.org/Lombards/"
+        },
+        {
+          "citation": "Einhard, Life of Charlemagne, ch. 6 (Fordham Internet History Sourcebooks).",
+          "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
+        }
+      ],
+      "default": true,
+      "disputed": false
+    }
+  ],
+  "events": [
+    {
+      "id": "gepids-destroyed",
+      "start": 567,
+      "type": "conflict",
+      "title": {
+        "en": "The Lombards and the Avars destroy the Gepid kingdom",
+        "es": "Los lombardos y los ávaros destruyen el reino de los gépidos",
+        "zh": "伦巴第人和阿瓦尔人灭掉格皮德王国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Lombards.\"",
+          "url": "https://www.worldhistory.org/Lombards/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Alboin.\"",
+          "url": "https://www.worldhistory.org/Alboin/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources agree on the alliance and the year but differ on details of the campaign.",
+        "es": "Las fuentes coinciden en la alianza y el año, pero difieren en los detalles de la campaña.",
+        "zh": "各来源在联盟和年份上一致，但在战役细节上有分歧。"
+      }
+    },
+    {
+      "id": "invasion-of-italy",
+      "start": 568,
+      "type": "founding",
+      "title": {
+        "en": "Alboin leads the Lombards into Italy and founds their kingdom",
+        "es": "Alboíno conduce a los lombardos a Italia y funda su reino",
+        "zh": "阿尔博因率伦巴第人进入意大利并建立王国"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Lombards.\"",
+          "url": "https://www.worldhistory.org/Lombards/"
+        },
+        {
+          "citation": "Gregory of Tours, History of the Franks 4.41 (Fordham Internet History Sourcebooks).",
+          "url": "https://sourcebooks.fordham.edu/basis/gregory-hist.asp"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "alboin-killed",
+      "start": 572,
+      "type": "ruler",
+      "title": {
+        "en": "Alboin is killed in a plot led by his wife Rosamund",
+        "es": "Alboíno muere en una conjura encabezada por su esposa Rosamunda",
+        "zh": "阿尔博因死于妻子罗莎蒙德主谋的阴谋"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Alboin.\"",
+          "url": "https://www.worldhistory.org/Alboin/"
+        },
+        {
+          "citation": "Gregory of Tours, History of the Franks 4.41 (Fordham Internet History Sourcebooks).",
+          "url": "https://sourcebooks.fordham.edu/basis/gregory-hist.asp"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Gregory of Tours says Rosamund hated Alboin and waited for a chance to avenge her father. Accounts of the plot differ in their details.",
+        "es": "Gregorio de Tours dice que Rosamunda odiaba a Alboíno y esperaba una ocasión para vengar a su padre. Los relatos de la conjura difieren en los detalles.",
+        "zh": "图尔的格雷戈里说罗莎蒙德憎恨阿尔博因，一直等待机会为父报仇。各种记载在阴谋的细节上不尽相同。"
+      }
+    },
+    {
+      "id": "pepin-besieges-pavia",
+      "start": 754,
+      "type": "conflict",
+      "title": {
+        "en": "Pepin III of the Franks besieges King Aistulf in Pavia",
+        "es": "Pipino III de los francos sitia al rey Astolfo en Pavía",
+        "zh": "法兰克的丕平三世在帕维亚围攻国王艾斯图尔夫"
+      },
+      "sources": [
+        {
+          "citation": "Einhard, Life of Charlemagne, ch. 6 (Fordham Internet History Sourcebooks).",
+          "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Charlemagne.\"",
+          "url": "https://www.worldhistory.org/Charlemagne/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "charlemagne-takes-pavia",
+      "start": 774,
+      "type": "collapse",
+      "title": {
+        "en": "Charlemagne takes Pavia and defeats King Desiderius, ending the Lombard kingdom",
+        "es": "Carlomagno toma Pavía y derrota al rey Desiderio, y el reino lombardo termina",
+        "zh": "查理曼攻取帕维亚，击败国王德西迪里乌斯，伦巴第王国覆灭"
+      },
+      "place": {
+        "name": {
+          "en": "Pavia",
+          "es": "Pavía",
+          "zh": "帕维亚"
+        },
+        "lat": 45.1847,
+        "lon": 9.1582
+      },
+      "sources": [
+        {
+          "citation": "Einhard, Life of Charlemagne, ch. 6 (Fordham Internet History Sourcebooks).",
+          "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Lombards.\"",
+          "url": "https://www.worldhistory.org/Lombards/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Charlemagne.\"",
+          "url": "https://www.worldhistory.org/Charlemagne/"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "alboin-skull-cup",
+      "start": 567,
+      "end": 572,
+      "text": {
+        "en": "Paul the Deacon, writing later, says Alboin had a drinking cup made from the skull of the Gepid king Cunimund.",
+        "es": "Pablo el Diácono, que escribió tiempo después, dice que Alboíno hizo fabricar una copa con el cráneo del rey gépido Cunimundo.",
+        "zh": "后世的执事保罗说，阿尔博因用格皮德国王库尼蒙德的头骨做了一只酒杯。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Alboin.\"",
+          "url": "https://www.worldhistory.org/Alboin/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Lombards.\"",
+          "url": "https://www.worldhistory.org/Lombards/"
+        }
+      ],
+      "disputed": true
+    }
+  ]
+}

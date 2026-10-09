@@ -1,0 +1,296 @@
+{
+  "id": "macedon",
+  "region": "europe",
+  "wikidataId": "Q83958",
+  "name": {
+    "en": "Kingdom of Macedon",
+    "es": "Reino de Macedonia",
+    "zh": "马其顿王国"
+  },
+  "aliases": [
+    "Macedonia",
+    "Macedonian kingdom",
+    "Argead kingdom",
+    "Argead dynasty",
+    "马其顿"
+  ],
+  "description": {
+    "en": "A kingdom on the northern edge of the Greek world, ruled by the Argead dynasty. Under Philip II and his son Alexander III it defeated the southern Greek cities and conquered the Persian Empire, before Rome ended the monarchy in 168 BCE.",
+    "es": "Reino en el extremo norte del mundo griego, gobernado por la dinastía argéada. Con Filipo II y su hijo Alejandro III derrotó a las ciudades griegas del sur y conquistó el Imperio persa, hasta que Roma puso fin a la monarquía en 168 a. e. c.",
+    "zh": "位于希腊世界北缘的王国，由阿吉德王朝统治。在腓力二世及其子亚历山大三世治下，它击败了南部的希腊城邦并征服了波斯帝国，公元前168年罗马终结了其君主制。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kingdom",
+      "earliestStart": -807,
+      "latestStart": -649,
+      "earliestEnd": -167,
+      "latestEnd": -145,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Macedonian Empire.\"",
+          "url": "https://www.worldhistory.org/Macedonian_Empire/"
+        },
+        {
+          "citation": "Smith, William (ed.) (1867). Dictionary of Greek and Roman Biography and Mythology, \"Caranus.\"",
+          "url": "https://fgh.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/C.caranus_1"
+        },
+        {
+          "citation": "Livy, History of Rome 45.29 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Liv.+45.29"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The earliest kings are semi-legendary. Ancient tradition dates the first Argead king to 808 BCE, while the World History Encyclopedia places Caranus in the early 7th century BCE. The end runs from Rome's victory at Pydna (168 BCE) to the formal provincial settlement (c. 146 BCE).",
+        "es": "Los primeros reyes son semilegendarios. La tradición antigua sitúa al primer rey argéada en 808 a. e. c., mientras que la World History Encyclopedia ubica a Carano a principios del siglo VII a. e. c. El final va de la victoria romana en Pidna (168 a. e. c.) al arreglo provincial formal (hacia 146 a. e. c.).",
+        "zh": "早期国王带有半传说色彩。古代传统把第一位阿吉德王定在公元前808年，而《世界历史百科全书》把卡拉努斯置于公元前7世纪初。终点介于罗马在皮德纳获胜（公元前168年）与正式设省（约公元前146年）之间。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": -807,
+      "type": "founding",
+      "title": {
+        "en": "Tradition credits Caranus with founding the Argead kingdom of Macedon",
+        "es": "La tradición atribuye a Carano la fundación del reino argéada de Macedonia",
+        "zh": "传统认为卡拉努斯建立了阿吉德王朝的马其顿王国"
+      },
+      "sources": [
+        {
+          "citation": "Smith, William (ed.) (1867). Dictionary of Greek and Roman Biography and Mythology, \"Caranus.\"",
+          "url": "https://fgh.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/C.caranus_1"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Macedonian Empire.\"",
+          "url": "https://www.worldhistory.org/Macedonian_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The ancient accounts differ on who founded the kingdom and when, and no contemporary record survives. The World History Encyclopedia dates Caranus to the early 7th century BCE.",
+        "es": "Los relatos antiguos difieren sobre quién fundó el reino y cuándo, y no se conserva ningún registro de la época. La World History Encyclopedia fecha a Carano a principios del siglo VII a. e. c.",
+        "zh": "古代记载对建国者和年代说法不一，且没有当时的记录留存。《世界历史百科全书》把卡拉努斯定在公元前7世纪初。"
+      }
+    },
+    {
+      "id": "philip-takes-throne",
+      "start": -358,
+      "type": "ruler",
+      "title": {
+        "en": "Philip II takes the throne from his infant nephew and rebuilds the Macedonian army",
+        "es": "Filipo II toma el trono de su sobrino, aún un niño, y reconstruye el ejército macedonio",
+        "zh": "腓力二世从年幼的侄子手中夺得王位，并重建马其顿军队"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Philip II of Macedon.\"",
+          "url": "https://www.worldhistory.org/Philip_II_of_Macedon/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Macedonian Empire.\"",
+          "url": "https://www.worldhistory.org/Macedonian_Empire/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Pella",
+          "es": "Pela",
+          "zh": "佩拉"
+        },
+        "lat": 40.7612,
+        "lon": 22.523
+      }
+    },
+    {
+      "id": "chaeronea",
+      "start": -337,
+      "type": "conflict",
+      "title": {
+        "en": "Philip II and Alexander defeat the armies of Athens and Thebes at Chaeronea",
+        "es": "Filipo II y Alejandro derrotan a los ejércitos de Atenas y Tebas en Queronea",
+        "zh": "腓力二世与亚历山大在喀罗尼亚击败雅典和底比斯的军队"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Battle of Chaeronea.\"",
+          "url": "https://www.worldhistory.org/Battle_of_Chaeronea/"
+        },
+        {
+          "citation": "Plutarch, Life of Alexander 9 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Alex.+9"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Chaeronea",
+          "es": "Queronea",
+          "zh": "喀罗尼亚"
+        },
+        "lat": 38.49,
+        "lon": 22.85
+      }
+    },
+    {
+      "id": "philip-killed",
+      "start": -335,
+      "type": "ruler",
+      "title": {
+        "en": "Philip II is killed at Aigai and his son Alexander III becomes king",
+        "es": "Filipo II muere asesinado en Egas y su hijo Alejandro III se convierte en rey",
+        "zh": "腓力二世在埃盖被杀，其子亚历山大三世继位"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Philip II of Macedon.\"",
+          "url": "https://www.worldhistory.org/Philip_II_of_Macedon/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Alexander the Great.\"",
+          "url": "https://www.worldhistory.org/Alexander_the_Great/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Aigai (Vergina)",
+          "es": "Egas (Vergina)",
+          "zh": "埃盖（韦尔吉纳）"
+        },
+        "lat": 40.4881,
+        "lon": 22.3197
+      }
+    },
+    {
+      "id": "granicus",
+      "start": -333,
+      "type": "conflict",
+      "title": {
+        "en": "Alexander crosses into Asia and defeats the Persian generals at the Granicus river",
+        "es": "Alejandro cruza a Asia y derrota a los generales persas en el río Gránico",
+        "zh": "亚历山大渡海进入亚洲，在格拉尼卡斯河击败波斯将领的军队"
+      },
+      "sources": [
+        {
+          "citation": "Plutarch, Life of Alexander 16 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Alex.+16"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Alexander the Great.\"",
+          "url": "https://www.worldhistory.org/Alexander_the_Great/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "alexander-dies",
+      "start": -322,
+      "type": "ruler",
+      "title": {
+        "en": "Alexander dies at Babylon and his generals begin to divide his conquests",
+        "es": "Alejandro muere en Babilonia y sus generales comienzan a repartirse sus conquistas",
+        "zh": "亚历山大在巴比伦去世，部将开始瓜分他的征服地"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Alexander the Great.\"",
+          "url": "https://www.worldhistory.org/Alexander_the_Great/"
+        },
+        {
+          "citation": "Plutarch, Life of Alexander 75 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Alex.+75"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Babylon",
+          "es": "Babilonia",
+          "zh": "巴比伦"
+        },
+        "lat": 32.5355,
+        "lon": 44.4275
+      }
+    },
+    {
+      "id": "pydna",
+      "start": -167,
+      "type": "conflict",
+      "title": {
+        "en": "Rome defeats King Perseus at Pydna and splits Macedon into four districts",
+        "es": "Roma derrota al rey Perseo en Pidna y divide Macedonia en cuatro distritos",
+        "zh": "罗马在皮德纳击败珀尔修斯国王，并把马其顿分为四个区"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Battle of Pydna.\"",
+          "url": "https://www.worldhistory.org/Battle_of_Pydna/"
+        },
+        {
+          "citation": "Livy, History of Rome 45.29 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Liv.+45.29"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "roman-province",
+      "start": -147,
+      "end": -145,
+      "type": "collapse",
+      "title": {
+        "en": "Rome defeats the pretender Andriscus and makes Macedon a province",
+        "es": "Roma derrota al pretendiente Andrisco y convierte Macedonia en provincia",
+        "zh": "罗马击败僭称王位的安德里斯库斯，并把马其顿设为行省"
+      },
+      "sources": [
+        {
+          "citation": "Smith, William (ed.) (1867). Dictionary of Greek and Roman Biography and Mythology, \"Q. Caecilius Metellus Macedonicus.\"",
+          "url": "https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/M.metellus_6"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Macedonian Empire.\"",
+          "url": "https://www.worldhistory.org/Macedonian_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources place the defeat of Andriscus in 148 BCE and the formal provincial arrangement between 148 and 146 BCE.",
+        "es": "Las fuentes sitúan la derrota de Andrisco en 148 a. e. c. y el arreglo provincial formal entre 148 y 146 a. e. c.",
+        "zh": "史料把安德里斯库斯的失败定在公元前148年，正式设省则在公元前148年至前146年之间。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "alexander-at-chaeronea",
+      "start": -337,
+      "end": -337,
+      "text": {
+        "en": "At Chaeronea, 18-year-old Alexander led the Companion Cavalry against the Theban right, and Plutarch says he was the first to break the Sacred Band.",
+        "es": "En Queronea, Alejandro, de 18 años, dirigió a la caballería de los compañeros contra la derecha tebana, y Plutarco dice que fue el primero en romper el Batallón Sagrado.",
+        "zh": "在喀罗尼亚，18岁的亚历山大率领伙友骑兵对阵底比斯军右翼，普鲁塔克说他是第一个冲破神圣军团阵列的人。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Battle of Chaeronea.\"",
+          "url": "https://www.worldhistory.org/Battle_of_Chaeronea/"
+        },
+        {
+          "citation": "Plutarch, Life of Alexander 9 (Perseus Digital Library).",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Alex.+9"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}
