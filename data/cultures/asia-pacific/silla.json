@@ -36,12 +36,12 @@
           "url": "http://n2t.net/ark:/99152/p08m57h9dkh"
         },
         {
-          "citation": "British Museum collection thesaurus, \"Unified Silla\" (AD 668 – AD 935), via PeriodO.",
+          "citation": "British Museum collection thesaurus, \"Unified Silla Dynasty\" (AD 668 – AD 935), via PeriodO.",
           "url": "http://n2t.net/ark:/99152/p08m57hktmp"
         },
         {
-          "citation": "Encyclopaedia Britannica, \"Silla\".",
-          "url": "https://www.britannica.com/place/Silla"
+          "citation": "Wikipedia, \"Silla\".",
+          "url": "https://en.wikipedia.org/wiki/Silla"
         },
         {
           "citation": "Cartwright, Mark. \"Silla.\" World History Encyclopedia.",
@@ -52,9 +52,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Tradition dates the founding to 57 BCE, which World History Encyclopedia calls unlikely to be accurate. Britannica's first reliably dated king is Naemul (356–402), so the solid bar starts there. PeriodO splits the span into Silla (to 668) and Unified Silla (668–935); both are one culture here.",
-        "es": "La tradición fecha la fundación en 57 a. e. c., algo que World History Encyclopedia considera poco probable. El primer rey con fechas fiables en Britannica es Naemul (356–402), así que la barra sólida empieza ahí. PeriodO divide el lapso en Silla (hasta 668) y Silla Unificado (668–935); aquí son una sola cultura.",
-        "zh": "传统上把建国定在公元前57年，World History Encyclopedia认为这一年份不太可信。《大英百科全书》中年代可靠的第一位国王是奈勿王（356–402年），所以实线从这里开始。PeriodO把这段时间分为新罗（至668年）和统一新罗（668–935年），这里合为一个文化。"
+        "en": "Tradition dates the founding to 57 BCE. World History Encyclopedia calls that date unlikely to be accurate, and Wikipedia notes that the founding account is not attested in Silla's own inscriptions. The solid bar starts with Naemul (356–402), whom Wikipedia credits with establishing hereditary kingship; that start is our choice, not a date the sources give. PeriodO splits the span into Silla (to 668) and Unified Silla (668–935); both are one culture here.",
+        "es": "La tradición fecha la fundación en 57 a. e. c. World History Encyclopedia considera esa fecha poco probable, y Wikipedia señala que el relato de la fundación no aparece en las inscripciones de la propia Silla. La barra sólida empieza con Naemul (356–402), a quien Wikipedia atribuye el establecimiento de la monarquía hereditaria; ese inicio es decisión nuestra, no una fecha que den las fuentes. PeriodO divide el lapso en Silla (hasta 668) y Silla Unificado (668–935); aquí son una sola cultura.",
+        "zh": "传统上把建国定在公元前57年。World History Encyclopedia认为这一年份不太可信，维基百科指出建国的说法并未见于新罗自己的碑文。实线从奈勿王（356–402年）开始，维基百科称他确立了王位世袭；这一起点是我们自己的取舍，并非资料给出的年份。PeriodO把这段时间分为新罗（至668年）和统一新罗（668–935年），这里合为一个文化。"
       }
     }
   ],
@@ -104,8 +104,8 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Silla\".",
-          "url": "https://www.britannica.com/place/Silla"
+          "citation": "Wikipedia, \"Silla\".",
+          "url": "https://en.wikipedia.org/wiki/Silla"
         },
         {
           "citation": "Cartwright, Mark. \"Silla.\" World History Encyclopedia.",
@@ -114,9 +114,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "57 BCE is the traditional date. World History Encyclopedia calls it unlikely to be accurate.",
-        "es": "57 a. e. c. es la fecha tradicional. World History Encyclopedia la considera poco probable.",
-        "zh": "公元前57年是传统说法。World History Encyclopedia认为这一年份不太可信。"
+        "en": "57 BCE is the traditional date. World History Encyclopedia calls it unlikely to be accurate, and Wikipedia notes that Silla's own inscriptions name an obscure founding king, Seonghan, instead of Hyeokgeose.",
+        "es": "57 a. e. c. es la fecha tradicional. World History Encyclopedia la considera poco probable, y Wikipedia señala que las inscripciones de la propia Silla nombran como rey fundador a un oscuro Seonghan, no a Hyeokgeose.",
+        "zh": "公元前57年是传统说法。World History Encyclopedia认为这一年份不太可信，维基百科指出新罗自己的碑文记载的建国之君是不太知名的星汉，而不是赫居世。"
       },
       "place": {
         "name": {
@@ -143,8 +143,8 @@
           "url": "https://www.worldhistory.org/Silla/"
         },
         {
-          "citation": "Encyclopaedia Britannica, \"Silla\".",
-          "url": "https://www.britannica.com/place/Silla"
+          "citation": "Wikipedia, \"Silla\".",
+          "url": "https://en.wikipedia.org/wiki/Silla"
         }
       ],
       "disputed": false,
@@ -169,24 +169,29 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Silla\".",
-          "url": "https://www.britannica.com/place/Silla"
+          "citation": "Wikipedia, \"Silla\".",
+          "url": "https://en.wikipedia.org/wiki/Silla"
         },
         {
           "citation": "Cartwright, Mark. \"Unified Silla Kingdom.\" World History Encyclopedia.",
           "url": "https://www.worldhistory.org/Unified_Silla_Kingdom/"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "note": {
+        "en": "After 668 Tang kept the former Goguryeo lands to the north. Silla ruled most of the peninsula south of the Taedong River once the Silla–Tang war ended in 676.",
+        "es": "Después de 668 Tang conservó las antiguas tierras de Goguryeo al norte. Silla gobernó la mayor parte de la península al sur del río Taedong cuando terminó la guerra Silla–Tang en 676.",
+        "zh": "668年之后，唐朝保有原高句丽北部的土地。676年新罗与唐的战争结束后，新罗统治大同江以南的半岛大部分地区。"
+      }
     },
     {
       "id": "gibolpo",
       "start": 676,
       "type": "conflict",
       "title": {
-        "en": "Silla beats Tang forces at Gibolpo and keeps the peninsula",
-        "es": "Silla vence a las fuerzas Tang en Gibolpo y conserva la península",
-        "zh": "新罗在伎伐浦击败唐军，保住半岛"
+        "en": "Silla defeats Tang forces at the naval battle of Gibolpo",
+        "es": "Silla derrota a las fuerzas Tang en la batalla naval de Gibolpo",
+        "zh": "新罗在伎伐浦海战中击败唐军"
       },
       "sources": [
         {
@@ -194,16 +199,21 @@
           "url": "https://www.worldhistory.org/Unified_Silla_Kingdom/"
         },
         {
-          "citation": "Encyclopaedia Britannica, \"Silla\".",
-          "url": "https://www.britannica.com/place/Silla"
+          "citation": "Wikipedia, \"Silla–Tang War\".",
+          "url": "https://en.wikipedia.org/wiki/Silla%E2%80%93Tang_War"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "note": {
+        "en": "Wikipedia says the details of the battle are unknown beyond the generals' names and that it was fought at sea. The Tang protectorate seat moved east in early 676, ending Tang control south of the Taedong River.",
+        "es": "Wikipedia dice que se desconocen los detalles de la batalla, salvo los nombres de los generales y que fue naval. La sede del protectorado Tang se trasladó al este a principios de 676, con lo que terminó el control Tang al sur del río Taedong.",
+        "zh": "维基百科称，除将领姓名和这是一场海战外，战役细节不详。唐朝的都护府在676年初东迁，唐朝对大同江以南的控制就此结束。"
+      }
     },
     {
       "id": "seokguram",
       "start": 751,
-      "end": 774,
+      "end": 790,
       "type": "invention",
       "title": {
         "en": "Seokguram grotto and Bulguksa temple are built near Gyeongju",
@@ -212,8 +222,8 @@
       },
       "sources": [
         {
-          "citation": "UNESCO World Heritage Centre, \"Seokguram Grotto and Bulguksa Temple\".",
-          "url": "https://whc.unesco.org/en/list/736"
+          "citation": "Wikipedia, \"Seokguram\".",
+          "url": "https://en.wikipedia.org/wiki/Seokguram"
         },
         {
           "citation": "Cartwright, Mark. \"Unified Silla Kingdom.\" World History Encyclopedia.",
@@ -221,6 +231,11 @@
         }
       ],
       "disputed": false,
+      "note": {
+        "en": "Work on both began in 751. World History Encyclopedia gives 774 for the end of Seokguram and 790 for Bulguksa.",
+        "es": "Las obras de ambos empezaron en 751. World History Encyclopedia da 774 como fin de Seokguram y 790 como fin de Bulguksa.",
+        "zh": "两处工程都始于751年。World History Encyclopedia记石窟庵止于774年，佛国寺止于790年。"
+      },
       "place": {
         "name": {
           "en": "Seokguram, Gyeongju",
@@ -246,8 +261,8 @@
           "url": "https://www.worldhistory.org/Unified_Silla_Kingdom/"
         },
         {
-          "citation": "Encyclopaedia Britannica, \"Goryeo dynasty\".",
-          "url": "https://www.britannica.com/topic/Goryeo-dynasty"
+          "citation": "Wikipedia, \"Silla\".",
+          "url": "https://en.wikipedia.org/wiki/Silla"
         }
       ],
       "disputed": false,
@@ -264,22 +279,6 @@
   ],
   "facts": [
     {
-      "id": "gold-crown",
-      "start": 500,
-      "end": 500,
-      "text": {
-        "en": "A Silla gold crown from about 500 CE, found in the great tomb at Hwangnamdong in Gyeongju, stands only 27.5 cm tall. It is now in the Gyeongju National Museum.",
-        "es": "Una corona de oro de Silla de hacia 500 e. c., hallada en la gran tumba de Hwangnamdong, en Gyeongju, mide solo 27,5 cm de alto. Hoy está en el Museo Nacional de Gyeongju.",
-        "zh": "庆州皇南洞大墓出土的新罗金冠，约制于公元500年，只有27.5厘米高，现藏庆州国立博物馆。"
-      },
-      "sources": [
-        {
-          "citation": "Encyclopaedia Britannica, \"Silla\".",
-          "url": "https://www.britannica.com/place/Silla"
-        }
-      ]
-    },
-    {
       "id": "bone-rank-system",
       "start": 520,
       "end": 520,
@@ -294,8 +293,8 @@
           "url": "https://www.worldhistory.org/Silla/"
         },
         {
-          "citation": "Encyclopaedia Britannica, \"Silla\".",
-          "url": "https://www.britannica.com/place/Silla"
+          "citation": "Wikipedia, \"Silla\".",
+          "url": "https://en.wikipedia.org/wiki/Silla"
         }
       ]
     }

@@ -39,8 +39,8 @@
           "url": "http://n2t.net/ark:/99152/p08m57hh3s9"
         },
         {
-          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
-          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+          "citation": "Wikipedia, \"Joseon\".",
+          "url": "https://en.wikipedia.org/wiki/Joseon"
         },
         {
           "citation": "Cartwright, Mark. \"Early Joseon Period.\" World History Encyclopedia.",
@@ -51,9 +51,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "Most references end the dynasty in 1910, when Japan annexed Korea. In 1897 King Gojong renamed the state the Korean Empire and took the title of emperor, and World History Encyclopedia ends its Joseon account there. The solid bar stops at 1897.",
-        "es": "La mayoría de las obras terminan la dinastía en 1910, cuando Japón anexó Corea. En 1897 el rey Gojong rebautizó el Estado como Imperio coreano y tomó el título de emperador, y World History Encyclopedia termina ahí su relato de Joseon. La barra sólida se detiene en 1897.",
-        "zh": "多数资料把王朝的终点定在1910年，即日本吞并朝鲜之时。1897年高宗把国号改为大韩帝国并称帝，World History Encyclopedia对朝鲜王朝的叙述止于这一年。实线止于1897年。"
+        "en": "Most references end the dynasty in 1910, when Japan annexed Korea. On 13 October 1897 King Gojong took the title of emperor and renamed the state the Korean Empire. The solid bar stops at 1897, and the Korean Empire is shown as its own phase to 1910.",
+        "es": "La mayoría de las obras terminan la dinastía en 1910, cuando Japón anexó Corea. El 13 de octubre de 1897 el rey Gojong tomó el título de emperador y rebautizó el Estado como Imperio coreano. La barra sólida se detiene en 1897, y el Imperio coreano aparece como fase propia hasta 1910.",
+        "zh": "多数资料把王朝的终点定在1910年，即日本吞并朝鲜之时。1897年10月13日，高宗称帝，把国号改为大韩帝国。实线止于1897年，大韩帝国作为单独的阶段延续到1910年。"
       }
     }
   ],
@@ -69,8 +69,8 @@
       "end": 1897,
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Gojong\".",
-          "url": "https://www.britannica.com/biography/Gojong"
+          "citation": "Wikipedia, \"Joseon\".",
+          "url": "https://en.wikipedia.org/wiki/Joseon"
         }
       ]
     },
@@ -85,8 +85,8 @@
       "end": 1910,
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Gojong\".",
-          "url": "https://www.britannica.com/biography/Gojong"
+          "citation": "Wikipedia, \"Korean Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Korean_Empire"
         }
       ]
     }
@@ -97,18 +97,18 @@
       "start": 1392,
       "type": "founding",
       "title": {
-        "en": "Yi Seong-gye founds Joseon and moves the capital from Kaesong to Hanyang (Seoul)",
-        "es": "Yi Seong-gye funda Joseon y traslada la capital de Kaesong a Hanyang (Seúl)",
-        "zh": "李成桂建立朝鲜，把都城从开城迁往汉阳（首尔）"
+        "en": "Yi Seong-gye takes the throne and founds Joseon",
+        "es": "Yi Seong-gye toma el trono y funda Joseon",
+        "zh": "李成桂登上王位，建立朝鲜"
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
-          "url": "https://www.britannica.com/topic/Joseon-dynasty"
-        },
-        {
           "citation": "Cartwright, Mark. \"Early Joseon Period.\" World History Encyclopedia.",
           "url": "https://www.worldhistory.org/Early_Joseon_Period/"
+        },
+        {
+          "citation": "Wikipedia, \"Joseon\".",
+          "url": "https://en.wikipedia.org/wiki/Joseon"
         }
       ],
       "disputed": false,
@@ -127,9 +127,9 @@
       "start": 1443,
       "type": "invention",
       "title": {
-        "en": "King Sejong's scholars complete the Hangul alphabet",
-        "es": "Los letrados del rey Sejong completan el alfabeto hangul",
-        "zh": "世宗的学者们完成谚文字母"
+        "en": "King Sejong completes the Hangul alphabet",
+        "es": "El rey Sejong completa el alfabeto hangul",
+        "zh": "世宗大王完成谚文字母"
       },
       "sources": [
         {
@@ -137,15 +137,15 @@
           "url": "https://www.worldhistory.org/Sejong_the_Great/"
         },
         {
-          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
-          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+          "citation": "Wikipedia, \"Hangul\".",
+          "url": "https://en.wikipedia.org/wiki/Hangul"
         }
       ],
       "disputed": false,
       "note": {
-        "en": "The alphabet was finished in 1443 and published in 1446 as the Hunminjeongeum.",
-        "es": "El alfabeto se terminó en 1443 y se publicó en 1446 como Hunminjeongeum.",
-        "zh": "字母于1443年完成，1446年以《训民正音》之名公布。"
+        "en": "The alphabet was finished in the 12th lunar month of 1443 (30 December 1443 to 28 January 1444) and promulgated in 1446 as the Hunminjeongeum. World History Encyclopedia credits Sejong with creating it himself. Wikipedia says most scholars think he was closely involved, but it is unknown how the work went.",
+        "es": "El alfabeto se terminó en el mes lunar 12 de 1443 (del 30 de diciembre de 1443 al 28 de enero de 1444) y se promulgó en 1446 como Hunminjeongeum. World History Encyclopedia atribuye a Sejong su creación personal. Wikipedia dice que la mayoría de los estudiosos cree que participó de cerca, pero se desconoce cómo fue el trabajo.",
+        "zh": "字母于1443年农历十二月（公历1443年12月30日至1444年1月28日）完成，1446年以《训民正音》之名颁布。World History Encyclopedia称字母由世宗亲自创制。维基百科称多数学者认为他深度参与，但具体过程不详。"
       }
     },
     {
@@ -160,8 +160,8 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
-          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+          "citation": "Wikipedia, \"Japanese invasions of Korea (1592–1598)\".",
+          "url": "https://en.wikipedia.org/wiki/Japanese_invasions_of_Korea_(1592%E2%80%931598)"
         },
         {
           "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study, \"The Choson Dynasty\". Library of Congress.",
@@ -184,18 +184,18 @@
       "start": 1598,
       "type": "conflict",
       "title": {
-        "en": "Admiral Yi Sun-sin is killed at Noryang, the last major battle of the Imjin War",
-        "es": "El almirante Yi Sun-sin muere en Noryang, la última gran batalla de la guerra Imjin",
-        "zh": "李舜臣将军在露梁海战中阵亡，这是壬辰战争的最后一场大战"
+        "en": "Admiral Yi Sun-sin is killed at Noryang, the last major naval battle of the Imjin War",
+        "es": "El almirante Yi Sun-sin muere en Noryang, la última gran batalla naval de la guerra Imjin",
+        "zh": "李舜臣将军在露梁海战中阵亡，这是壬辰战争最后一场大规模海战"
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Yi Sun-shin\".",
-          "url": "https://www.britannica.com/biography/Yi-Sun-shin"
-        },
-        {
           "citation": "Wikipedia, \"Yi Sun-sin\".",
           "url": "https://en.wikipedia.org/wiki/Yi_Sun-sin"
+        },
+        {
+          "citation": "Wikipedia, \"Japanese invasions of Korea (1592–1598)\".",
+          "url": "https://en.wikipedia.org/wiki/Japanese_invasions_of_Korea_(1592%E2%80%931598)"
         }
       ],
       "disputed": false
@@ -211,8 +211,8 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
-          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+          "citation": "Wikipedia, \"Joseon\".",
+          "url": "https://en.wikipedia.org/wiki/Joseon"
         },
         {
           "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study, \"The Choson Dynasty\". Library of Congress.",
@@ -232,8 +232,8 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Gojong\".",
-          "url": "https://www.britannica.com/biography/Gojong"
+          "citation": "Wikipedia, \"Gojong of Korea\".",
+          "url": "https://en.wikipedia.org/wiki/Gojong_of_Korea"
         },
         {
           "citation": "Wikipedia, \"Korean Empire\".",
@@ -249,6 +249,11 @@
         },
         "lat": 37.57,
         "lon": 126.98
+      },
+      "note": {
+        "en": "Gojong was proclaimed emperor on 13 October 1897.",
+        "es": "Gojong fue proclamado emperador el 13 de octubre de 1897.",
+        "zh": "高宗于1897年10月13日称帝。"
       }
     },
     {
@@ -262,8 +267,8 @@
       },
       "sources": [
         {
-          "citation": "Encyclopaedia Britannica, \"Joseon dynasty\".",
-          "url": "https://www.britannica.com/topic/Joseon-dynasty"
+          "citation": "Savada, Andrea Matles & Shaw, William (eds.) (1990). South Korea: A Country Study, \"The Choson Dynasty\". Library of Congress.",
+          "url": "https://countrystudies.us/south-korea/5.htm"
         },
         {
           "citation": "Office of the Historian, Foreign Relations of the United States, 1910, document 705.",
