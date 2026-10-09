@@ -57,9 +57,9 @@
       "default": true,
       "disputed": true,
       "note": {
-        "en": "The start is a convention. 843 is the Treaty of Verdun, which created the western Frankish realm, but sources call that realm West Francia. 987 is Hugh Capet and the first Capetian king, the date used for the Kingdom of France. The bar is solid from 987.",
-        "es": "El comienzo es una convención. 843 es el Tratado de Verdún, que creó el reino franco occidental, pero las fuentes llaman a ese reino Francia Occidental. 987 es Hugo Capeto y el primer rey capeto, la fecha que se usa para el Reino de Francia. La barra es sólida desde 987.",
-        "zh": "起点只是一种惯例。843年的《凡尔登条约》创立了西部法兰克王国，但史料称其为西法兰克王国。987年是于格·卡佩，即第一位卡佩国王，通常用作法兰西王国的起点。色条自987年起为实线。"
+        "en": "The start is a convention. 843 is the Treaty of Verdun, which created the western Frankish realm, but sources call that realm West Francia. 987 is Hugh Capet and the first Capetian king, the date used for the Kingdom of France. The bar is solid from 987. It ends with the first republic in 1792 (Wikidata uses 1791, the constitutional monarchy); the Bourbon monarchy that returned in 1814 is not covered.",
+        "es": "El comienzo es una convención. 843 es el Tratado de Verdún, que creó el reino franco occidental, pero las fuentes llaman a ese reino Francia Occidental. 987 es Hugo Capeto y el primer rey capeto, la fecha que se usa para el Reino de Francia. La barra es sólida desde 987. Termina con la primera república en 1792 (Wikidata usa 1791, la monarquía constitucional); la monarquía borbónica que volvió en 1814 no se cubre.",
+        "zh": "起点只是一种惯例。843年的《凡尔登条约》创立了西部法兰克王国，但史料称其为西法兰克王国。987年是于格·卡佩，即第一位卡佩国王，通常用作法兰西王国的起点。色条自987年起为实线。终点是1792年的第一共和国（维基数据采用1791年，即君主立宪制）；1814年复辟的波旁王朝不在此范围内。"
       }
     }
   ],
@@ -69,14 +69,18 @@
       "start": 987,
       "type": "founding",
       "title": {
-        "en": "Hugh Capet is elected and crowned at Noyon on 3 July, the first Capetian king",
-        "es": "Hugo Capeto es elegido y coronado en Noyon el 3 de julio, primer rey capeto",
-        "zh": "于格·卡佩于7月3日在努瓦永当选并加冕，成为第一位卡佩国王"
+        "en": "Hugh Capet is elected king and crowned at Noyon in 987, the first Capetian king",
+        "es": "Hugo Capeto es elegido rey y coronado en Noyon en 987, primer rey capeto",
+        "zh": "987年于格·卡佩当选国王并在努瓦永加冕，成为第一位卡佩国王"
       },
       "sources": [
         {
-          "citation": "New World Encyclopedia. \"Hugh Capet\" (elected and crowned at Noyon on 3 July 987).",
+          "citation": "New World Encyclopedia. \"Hugh Capet\" (elected and crowned at Noyon in 987, which it dates to 3 July).",
           "url": "https://www.newworldencyclopedia.org/entry/Hugh_Capet"
+        },
+        {
+          "citation": "Wikipedia. \"Hugh Capet\" (elected at Senlis; crowned at Noyon on 1 June 987 and again on 3 July).",
+          "url": "https://en.wikipedia.org/wiki/Hugh_Capet"
         },
         {
           "citation": "World History Encyclopedia. \"Kingdom of West Francia\" (Hugh Capet establishes the Kingdom of France in 987).",
@@ -85,9 +89,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Some reckon the realm from the Treaty of Verdun in 843, when it was West Francia.",
-        "es": "Algunos cuentan el reino desde el Tratado de Verdún de 843, cuando era la Francia Occidental.",
-        "zh": "也有人从843年《凡尔登条约》算起，当时它叫西法兰克王国。"
+        "en": "Sources disagree on the day of the crowning: 3 July or 1 June. The election was at Senlis in May. Some also reckon the realm from the Treaty of Verdun in 843, when it was West Francia.",
+        "es": "Las fuentes no coinciden en el día de la coronación: 3 de julio o 1 de junio. La elección fue en Senlis, en mayo. Algunos cuentan además el reino desde el Tratado de Verdún de 843, cuando era la Francia Occidental.",
+        "zh": "各种资料对加冕日期说法不一：7月3日或6月1日。选举于5月在桑利斯举行。也有人从843年《凡尔登条约》算起，当时它叫西法兰克王国。"
       },
       "place": {
         "name": {
@@ -114,8 +118,8 @@
           "url": "https://www.historyofwar.org/articles/battles_bouvines.html"
         },
         {
-          "citation": "Medieval Chronicles. \"Battle of Bouvines\" (27 July 1214; a decisive French victory).",
-          "url": "https://www.medievalchronicles.com/medieval-battles-wars/battle-of-bouvines/"
+          "citation": "Wikipedia. \"Battle of Bouvines\" (27 July 1214; Philip II's army beats a larger allied army led by Otto IV).",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Bouvines"
         }
       ],
       "disputed": false,
@@ -166,11 +170,16 @@
           "url": "https://www.worldhistory.org/Hundred_Years'_War/"
         },
         {
-          "citation": "World History Encyclopedia. \"Causes of the Hundred Years' War\" (1337 to 1453).",
-          "url": "https://www.worldhistory.org/article/1517/causes-of-the-hundred-years-war/"
+          "citation": "Wikipedia. \"Hundred Years' War\" (1337 to 1453; Philip VI moves on Gascony in 1337, Edward III claims the throne; Castillon ends it with no peace treaty).",
+          "url": "https://en.wikipedia.org/wiki/Hundred_Years%27_War"
         }
       ],
-      "disputed": false
+      "disputed": true,
+      "note": {
+        "en": "1453 is a convention: no peace treaty was signed, and England held Calais until 1558.",
+        "es": "1453 es una convención: no se firmó ningún tratado de paz, e Inglaterra conservó Calais hasta 1558.",
+        "zh": "1453年只是一种惯例：双方没有签订和约，英格兰直到1558年仍占有加来。"
+      }
     },
     {
       "id": "joan-of-arc",
@@ -267,9 +276,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "The palace's own site gives 6 May 1682. The World History Encyclopedia gives March 1682.",
-        "es": "El sitio oficial del palacio da el 6 de mayo de 1682. La World History Encyclopedia da marzo de 1682.",
-        "zh": "凡尔赛宫官方网站给出的是1682年5月6日，世界历史百科给出的是1682年3月。"
+        "en": "The palace's own site gives 6 May 1682, and says the move had been under way since 1677. The World History Encyclopedia gives March 1682.",
+        "es": "El sitio oficial del palacio da el 6 de mayo de 1682, y señala que el traslado se preparaba desde 1677. La World History Encyclopedia da marzo de 1682.",
+        "zh": "凡尔赛宫官方网站给出的是1682年5月6日，并说迁移自1677年起就在进行。世界历史百科给出的是1682年3月。"
       },
       "place": {
         "name": {

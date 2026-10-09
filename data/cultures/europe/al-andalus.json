@@ -77,9 +77,9 @@
       ],
       "disputed": true,
       "note": {
-        "en": "Sources agree on 711 for the crossing and the battle but differ on details. Musa ibn Nusayr arrived the next year, 712, and the conquest of the peninsula took several years.",
-        "es": "Las fuentes coinciden en 711 para el desembarco y la batalla, pero difieren en los detalles. Musa ibn Nusayr llegó al año siguiente, 712, y la conquista de la península llevó varios años.",
-        "zh": "各种史料都把渡海和战役定在711年，但细节有出入。穆萨·伊本·努赛尔次年（712年）抵达，征服整个半岛又用了数年。"
+        "en": "Sources agree on 711 for the crossing and the battle, but the day (traditionally mid-July) and the exact site are uncertain; the medieval Arabic account names a different place from the Guadalete. Musa ibn Nusayr arrived the next year, 712, and the conquest of the peninsula took several years.",
+        "es": "Las fuentes coinciden en 711 para el desembarco y la batalla, pero el día (tradicionalmente mediados de julio) y el lugar exacto son inciertos; el relato árabe medieval nombra un lugar distinto del Guadalete. Musa ibn Nusayr llegó al año siguiente, 712, y la conquista de la península llevó varios años.",
+        "zh": "各种史料都把渡海和战役定在711年，但具体日期（传统上为7月中旬）和确切地点并不确定；中世纪阿拉伯文记载所称的地点与瓜达莱特河不同。穆萨·伊本·努赛尔次年（712年）抵达，征服整个半岛又用了数年。"
       }
     },
     {
@@ -133,6 +133,10 @@
         {
           "citation": "World History Encyclopedia. \"Abd al-Rahman I\" (the mosque is begun in the mid 780s).",
           "url": "https://www.worldhistory.org/Abd_al-Rahman_I/"
+        },
+        {
+          "citation": "Wikipedia. \"Mosque-Cathedral of Córdoba\" (earliest parts built under Abd al-Rahman I in 784-786; the Christian half of the site bought in 785).",
+          "url": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba"
         }
       ],
       "disputed": true,
@@ -203,7 +207,7 @@
       "disputed": true,
       "note": {
         "en": "The break-up was gradual, from about 1008. 1031 is the year the caliphate was formally abolished.",
-        "es": "La fragmentación fue gradual, desde hacia el año 1008. 1031 es el año en que se abolió formalmente el califato.",
+        "es": "La fragmentación fue gradual, desde alrededor de 1008. 1031 es el año en que se abolió formalmente el califato.",
         "zh": "分裂是逐步发生的，约从1008年开始。1031年是哈里发国被正式废除的年份。"
       }
     },
@@ -265,15 +269,15 @@
           "url": "https://nazariviajes.com/languages/english/alhambra-granada/alhambra-granada-historical-background-in-depth.aspx?lang=eng"
         },
         {
-          "citation": "Love Granada. \"History of the Alhambra\" (Muhammad I moves his court to the Sabika hill and starts building; the palaces are completed under Muhammad V).",
-          "url": "https://www.lovegranada.com/alhambra/history/"
+          "citation": "Encyclopaedia Britannica. \"Alhambra\" (built from 1238 to 1358 under Ibn al-Ahmar, founder of the Nasrid dynasty, and his successors).",
+          "url": "https://www.britannica.com/topic/Alhambra-fortress-Granada-Spain"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "One source dates the start to 1237, the other to 1238. The best-known palaces were built in the 14th century.",
-        "es": "Una fuente fecha el inicio en 1237 y la otra en 1238. Los palacios más conocidos se construyeron en el siglo XIV.",
-        "zh": "一份资料把动工定在1237年，另一份定在1238年。最著名的宫殿建于14世纪。"
+        "en": "Some accounts date the start to 1237 and others to 1238; Britannica and the Nasrid chronicle quoted by Nazari Viajes give 1238. The best-known palaces were built in the 14th century.",
+        "es": "Algunos relatos fechan el inicio en 1237 y otros en 1238; la Britannica y la crónica nazarí que cita Nazari Viajes dan 1238. Los palacios más conocidos se construyeron en el siglo XIV.",
+        "zh": "有的记述把动工定在1237年，有的定在1238年；大英百科全书和Nazari Viajes所引的纳斯尔王朝编年史都作1238年。最著名的宫殿建于14世纪。"
       },
       "place": {
         "name": {

@@ -170,12 +170,12 @@
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia. \"The Legacy of Charles Martel & the Battle of Tours\" (early October 732; Charles holds the office of mayor of the palace, not the throne).",
+          "citation": "World History Encyclopedia. \"The Legacy of Charles Martel & the Battle of Tours\" (the battle fought over about a week in early October 732, between Tours and Poitiers, against an Umayyad army).",
           "url": "https://www.worldhistory.org/article/1809/the-legacy-of-charles-martel--the-battle-of-tours/"
         },
         {
-          "citation": "World History Encyclopedia. \"Merovingian Dynasty\" (from 617 mayors of the palace hold growing power under the kings).",
-          "url": "https://www.worldhistory.org/Merovingian_Dynasty/"
+          "citation": "Encyclopaedia Britannica. \"Battle of Tours\" (Charles Martel, mayor of the palace and de facto ruler of the Frankish kingdoms, defeats Muslim forces from Spain in October 732 between Tours and Poitiers).",
+          "url": "https://www.britannica.com/event/Battle-of-Tours"
         }
       ],
       "disputed": true,
@@ -223,8 +223,8 @@
           "url": "https://www.thehistoryblog.com/archives/37323"
         },
         {
-          "citation": "Just History Posts. \"Historical Objects: The Bees of Childeric I\" (1653 find, Chifflet's 1655 publication, 1831 theft, surviving pieces).",
-          "url": "https://justhistoryposts.com/2023/09/05/historical-objects-the-bees-of-childeric-i/"
+          "citation": "Eason, James. \"A Note on Childeric's Bees\", University of Chicago Penelope (a mason finds the tomb at Saint-Brice, Tournai, on 27 May 1653; 300 gold bees; the 1831 thieves melt the larger gold pieces).",
+          "url": "https://penelope.uchicago.edu/hydrionoframes/bees.html"
         }
       ],
       "disputed": false
@@ -242,6 +242,10 @@
         {
           "citation": "Encyclopaedia Britannica, 11th ed. (1911), \"Salic Law\" (first compilation in the last years of Clovis, 507–511; fines for offences; daughters cannot inherit land), via Wikisource.",
           "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Salic_Law"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Salic Law\" (Latin code issued between 507 and 511 under Clovis I; fines scaled to the offence; a clause gives no share of Salic land to women).",
+          "url": "https://www.ebsco.com/research-starters/law/salic-law"
         }
       ],
       "disputed": true
