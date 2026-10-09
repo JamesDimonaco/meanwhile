@@ -71,8 +71,8 @@
       "end": 329,
       "sources": [
         {
-          "citation": "Phillipson, David W. \"Aksum.\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
-          "url": "https://www.metmuseum.org/toah/hd/aksu_1/hd_aksu_1.htm"
+          "citation": "Encyclopaedia Britannica. \"Aksum.\"",
+          "url": "https://www.britannica.com/place/Aksum-Ethiopia"
         },
         {
           "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
@@ -91,8 +91,8 @@
       "end": 570,
       "sources": [
         {
-          "citation": "Phillipson, David W. \"Aksum.\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
-          "url": "https://www.metmuseum.org/toah/hd/aksu_1/hd_aksu_1.htm"
+          "citation": "Encyclopaedia Britannica. \"Aksum.\"",
+          "url": "https://www.britannica.com/place/Aksum-Ethiopia"
         },
         {
           "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
@@ -111,8 +111,8 @@
       "end": 800,
       "sources": [
         {
-          "citation": "Phillipson, David W. \"Aksum.\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
-          "url": "https://www.metmuseum.org/toah/hd/aksu_1/hd_aksu_1.htm"
+          "citation": "Encyclopaedia Britannica. \"Aksum.\"",
+          "url": "https://www.britannica.com/place/Aksum-Ethiopia"
         },
         {
           "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
@@ -127,24 +127,25 @@
       "start": 60,
       "type": "founding",
       "title": {
-        "en": "A Greek sea-trade handbook, the Periplus of the Erythraean Sea, names Adulis and Aksum as ports and markets for ivory under King Zoskales",
-        "es": "Un manual griego de comercio marítimo, el Periplo del mar Eritreo, nombra a Adulis y Axum como puerto y mercado de marfil bajo el rey Zoscales",
-        "zh": "一部希腊航海贸易手册《红海环航记》提到阿杜利斯和阿克苏姆是象牙的港口和市场，当时的国王是佐斯卡勒斯"
+        "en": "A Greek sea-trade handbook, the Periplus of the Erythraean Sea, describes Adulis as a port and the city of the Aksumites as the hub of the ivory trade",
+        "es": "Un manual griego de comercio marítimo, el Periplo del mar Eritreo, describe Adulis como puerto y la ciudad de los aksumitas como centro del comercio de marfil",
+        "zh": "希腊航海贸易手册《红海环航记》把阿杜利斯描述为港口，把阿克苏姆人的城市写作象牙贸易的中心"
       },
       "sources": [
         {
-          "citation": "Casson, Lionel (1989). The Periplus Maris Erythraei. Princeton University Press."
+          "citation": "Periplus of the Erythraean Sea, section 4 (Schoff translation, 1912), Wikisource.",
+          "url": "https://en.wikisource.org/wiki/The_Periplus_of_the_Erythraean_Sea"
         },
         {
-          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
-          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+          "citation": "Encyclopaedia Britannica. \"Adulis.\"",
+          "url": "https://www.britannica.com/place/Adulis"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The Periplus is dated between the 1st and 3rd centuries CE. Many scholars give about 60 CE.",
-        "es": "El Periplo se data entre los siglos I y III e. c. Muchos especialistas dan hacia 60 e. c.",
-        "zh": "《红海环航记》的成书年代在公元1至3世纪之间，许多学者采用约公元60年。"
+        "en": "Britannica dates the Periplus to the 1st century CE. The text carries no date, so 60 is a rounded estimate.",
+        "es": "Britannica data el Periplo en el siglo I e. c. El texto no lleva fecha, así que 60 es una estimación redondeada.",
+        "zh": "不列颠百科全书把《红海环航记》定在公元1世纪。文本本身没有标注年份，所以60年只是一个取整的估计。"
       }
     },
     {
@@ -152,24 +153,28 @@
       "start": 270,
       "type": "invention",
       "title": {
-        "en": "Aksum begins minting its own coins in gold, silver and bronze",
-        "es": "Axum empieza a acuñar moneda propia en oro, plata y bronce",
-        "zh": "阿克苏姆开始铸造自己的金、银、铜币"
+        "en": "Aksum begins minting its own coins, mostly gold",
+        "es": "Axum empieza a acuñar moneda propia, sobre todo de oro",
+        "zh": "阿克苏姆开始铸造自己的钱币，以金币为主"
       },
       "sources": [
         {
-          "citation": "Phillipson, David W. \"Aksum.\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
-          "url": "https://www.metmuseum.org/toah/hd/aksu_1/hd_aksu_1.htm"
+          "citation": "Encyclopaedia Britannica. \"Coin: Coins of Africa.\"",
+          "url": "https://www.britannica.com/money/coin/Coins-of-Africa"
         },
         {
-          "citation": "Munro-Hay, Stuart (1991). Aksum: An African Civilisation of Late Antiquity. Edinburgh University Press."
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
+        },
+        {
+          "citation": "The Metropolitan Museum of Art. \"Eastern and Southern Africa, 1-500 A.D.\" Heilbrunn Timeline of Art History, key events."
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The Met says only that coinage began in the 3rd century; about 270 CE, under King Endubis, is the common estimate.",
-        "es": "El Met solo dice que la acuñación empezó en el siglo III; hacia 270 e. c., con el rey Endubis, es la estimación habitual.",
-        "zh": "大都会博物馆只说铸币始于3世纪；约公元270年、国王恩杜比斯在位时是常见的估计。"
+        "en": "Britannica and the World History Encyclopedia say only that minting began in the 3rd century. About 270 CE is the date in the Met's Heilbrunn Timeline.",
+        "es": "Britannica y la World History Encyclopedia solo dicen que la acuñación empezó en el siglo III. Hacia 270 e. c. es la fecha de la Heilbrunn Timeline del Met.",
+        "zh": "不列颠百科全书和世界历史百科只说铸币始于3世纪。约公元270年是大都会博物馆海尔布伦年表给出的年份。"
       }
     },
     {
@@ -183,30 +188,32 @@
       },
       "sources": [
         {
-          "citation": "Phillipson, David W. \"Aksum.\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
-          "url": "https://www.metmuseum.org/toah/hd/aksu_1/hd_aksu_1.htm"
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Aksum.\"",
-          "url": "https://www.britannica.com/place/Aksum-Ethiopia"
+          "citation": "Encyclopaedia Britannica. \"Ezana.\"",
+          "url": "https://www.britannica.com/biography/Ezana"
+        },
+        {
+          "citation": "The Metropolitan Museum of Art. \"Eastern and Southern Africa, 1-500 A.D.\" Heilbrunn Timeline of Art History, key events."
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The date is approximate: the Met gives about 330 CE, and sources vary by a few years.",
-        "es": "La fecha es aproximada: el Met da hacia 330 e. c., y las fuentes varían unos años.",
-        "zh": "年份是大致的：大都会博物馆给出约公元330年，各来源相差几年。"
+        "en": "Sources disagree on the year: Britannica gives about 321, the Met's timeline 330, and the World History Encyclopedia about 350. The date here is the Met's.",
+        "es": "Las fuentes no coinciden en el año: Britannica da hacia 321, la cronología del Met 330 y la World History Encyclopedia hacia 350. La fecha aquí es la del Met.",
+        "zh": "各来源对年份说法不一：不列颠百科全书给出约321年，大都会博物馆年表为330年，世界历史百科为约350年。这里采用大都会博物馆的年份。"
       }
     },
     {
       "id": "kaleb-invades-yemen",
       "start": 525,
-      "end": 570,
       "type": "conflict",
       "title": {
-        "en": "King Kaleb sends an army across the Red Sea into Yemen; Aksum keeps a viceroy there until about 570",
-        "es": "El rey Kaleb envía un ejército a través del mar Rojo hasta Yemen; Axum mantiene allí un virrey hasta hacia 570",
-        "zh": "国王卡勒布派军渡过红海进入也门；阿克苏姆在那里设总督，直到约570年"
+        "en": "King Kaleb sends an army across the Red Sea and overruns the Himyarite kingdom in Yemen",
+        "es": "El rey Kaleb envía un ejército a través del mar Rojo y se impone al reino himyarita de Yemen",
+        "zh": "国王卡勒布派军渡过红海，征服也门的希木叶尔王国"
       },
       "sources": [
         {
@@ -214,14 +221,15 @@
           "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
         },
         {
-          "citation": "Munro-Hay, Stuart (1991). Aksum: An African Civilisation of Late Antiquity. Edinburgh University Press."
+          "citation": "Encyclopaedia Britannica. \"Ella-Asbeha.\"",
+          "url": "https://www.britannica.com/biography/Ella-Asbeha"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The invasion is dated to about 525 CE; some accounts give 520 or 530.",
-        "es": "La invasión se data hacia 525 e. c.; algunos relatos dan 520 o 530.",
-        "zh": "入侵时间定在约公元525年；有的记载是520年或530年。"
+        "en": "Britannica gives 525 for the final victory, after several failed attempts. It dates the Najran massacre that prompted the campaign to about 520 to 523.",
+        "es": "Britannica da 525 para la victoria final, tras varios intentos fallidos. Data la matanza de Náyran que motivó la campaña hacia 520 a 523.",
+        "zh": "不列颠百科全书把最终的胜利定在525年，此前有过几次失败的尝试。它把引发这场战役的纳季兰屠杀定在约520至523年。"
       }
     },
     {
@@ -229,36 +237,36 @@
       "start": 575,
       "type": "collapse",
       "title": {
-        "en": "Stela 1, 32 metres high and the largest obelisk of the ancient world, is toppled as Aksum's power declines",
-        "es": "La estela 1, de 32 metros y el mayor obelisco del mundo antiguo, es derribada mientras decae el poder de Axum",
-        "zh": "高32米、堪称古代世界最大方尖碑的1号石碑在阿克苏姆国势衰落之际被推倒"
+        "en": "Stela 1, the largest of Aksum's stelae at about 32 metres, is toppled as the empire declines",
+        "es": "La estela 1, la mayor de las estelas de Axum, con unos 32 metros, es derribada mientras decae el imperio",
+        "zh": "阿克苏姆最大的石碑1号碑高约32米，在帝国衰落之际被推倒"
       },
       "sources": [
         {
-          "citation": "Windmuller-Luna, Kristen (2015). \"Monumental Architecture of Aksum.\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
-          "url": "https://www.metmuseum.org/toah/hd/aksu_3/hd_aksu_3.htm"
+          "citation": "Windmuller-Luna, Kristen (2015). \"Monumental Architecture of the Aksumite Empire.\" Heilbrunn Timeline of Art History, The Metropolitan Museum of Art.",
+          "url": "https://www.metmuseum.org/essays/monumental-architecture-and-stelae-of-the-aksumite-empire"
         },
         {
-          "citation": "The British Museum. \"Historical city travel guide: Aksum, 6th century AD.\" Blog.",
-          "url": "https://www.britishmuseum.org/blog/historical-city-travel-guide-aksum-6th-century-ad"
+          "citation": "World History Encyclopedia. \"Kingdom of Axum.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "The Met places the toppling in the late 6th century. Whether it fell by accident during raising, or was pulled down on purpose, is argued.",
-        "es": "El Met sitúa el derribo a finales del siglo VI. Se discute si cayó por accidente al ser alzada o si la derribaron a propósito.",
-        "zh": "大都会博物馆把石碑倒塌定在6世纪后期。它是在竖立时意外倒下，还是被人故意推倒，学界有争论。"
+        "en": "The Met dates the toppling to the late 6th century and, citing recent analysis, says it was brought down on purpose rather than failing during raising. Older accounts blamed a collapse while it was being raised. The World History Encyclopedia gives the length as 33 metres and says only that it lies fallen and broken.",
+        "es": "El Met data el derribo a finales del siglo VI y, citando análisis recientes, dice que fue derribada a propósito y no que fallara al alzarla. Relatos anteriores culpaban a un derrumbe durante su erección. La World History Encyclopedia da 33 metros de largo y solo dice que yace caída y rota.",
+        "zh": "大都会博物馆把石碑倒塌定在6世纪后期，并引用近期研究，称它是被人故意推倒，而不是在竖立时失败。早先的说法认为是竖立过程中倒塌。世界历史百科给出的长度为33米，只说它倒下后断裂。"
       }
     },
     {
-      "id": "aksumite-empire-ends",
-      "start": 700,
+      "id": "aksum-declines",
+      "start": 600,
       "end": 800,
       "type": "collapse",
       "title": {
-        "en": "The Aksumite empire has ceased to exist",
-        "es": "El imperio aksumita ha dejado de existir",
-        "zh": "阿克苏姆帝国已不复存在"
+        "en": "Aksum declines as Muslim Arab power grows and Christian shipping leaves the Red Sea",
+        "es": "Axum decae a medida que crece el poder árabe musulmán y los barcos cristianos abandonan el mar Rojo",
+        "zh": "随着穆斯林阿拉伯势力的壮大和基督教船只退出红海，阿克苏姆走向衰落"
       },
       "sources": [
         {
@@ -266,15 +274,15 @@
           "url": "https://www.worldhistory.org/Kingdom_of_Axum/"
         },
         {
-          "citation": "Encyclopaedia Britannica. \"Aksum.\"",
-          "url": "https://www.britannica.com/place/Aksum-Ethiopia"
+          "citation": "Encyclopaedia Britannica Students. \"kingdom of Aksum.\"",
+          "url": "https://kids.britannica.com/students/article/kingdom-of-Aksum/571178"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Sources differ on how and when the empire ended. The World History Encyclopedia puts it before the end of the 8th century.",
-        "es": "Las fuentes difieren sobre cómo y cuándo terminó el imperio. La World History Encyclopedia lo sitúa antes de finales del siglo VIII.",
-        "zh": "关于帝国如何、何时终结，各来源说法不一。世界历史百科把它定在8世纪末之前。"
+        "en": "Both sources date the decline from the 7th century. The Met's timeline says Persian invaders had already undermined Aksum by the end of the 6th century. Sources differ on when the empire ended.",
+        "es": "Ambas fuentes datan el declive a partir del siglo VII. La cronología del Met dice que los invasores persas ya habían minado a Axum a finales del siglo VI. Las fuentes difieren sobre cuándo terminó el imperio.",
+        "zh": "两个来源都把衰落定在7世纪起。大都会博物馆年表称，到6世纪末波斯入侵者已经削弱了阿克苏姆。关于帝国何时终结，各来源说法不一。"
       }
     }
   ],
