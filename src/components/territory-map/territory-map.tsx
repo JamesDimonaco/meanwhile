@@ -66,6 +66,10 @@ const LAND: Record<Region | "world", string> = {
   "south-america": "/geo/land-americas.json",
   mesoamerica: "/geo/land-americas.json",
   africa: "/geo/land-europe.json",
+  "middle-east": "/geo/land-world.json",
+  "south-asia": "/geo/land-world.json",
+  "asia-pacific": "/geo/land-world.json",
+  "north-america": "/geo/land-americas.json",
   world: "/geo/land-world.json",
 };
 
@@ -257,7 +261,7 @@ function MapSvg({
           </span>
         )}
         {/* Full citations and the changes made are on the credits page. */}
-        <Link href="/credits" className="underline-offset-2 hover:underline">
+        <Link prefetch={false} href="/credits" className="underline-offset-2 hover:underline">
           {borders ? t("credit") : t("landCredit")}
         </Link>
       </figcaption>

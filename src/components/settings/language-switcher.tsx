@@ -50,6 +50,7 @@ function LanguageLinks({ search, gaps }: { search: string; gaps: Gaps }) {
         <span key={locale} className="flex items-center gap-1">
           {i > 0 && <span aria-hidden className="text-muted-foreground">·</span>}
           <Link
+            prefetch={false}
             href={only && !only.includes(locale) ? "/wars" : `${pathname}${search}`}
             locale={locale}
             lang={HTML_LANG[locale]}

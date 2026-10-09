@@ -1,19 +1,27 @@
 import fs from "node:fs";
 import path from "node:path";
 import subsetFont from "subset-font";
+import { UN_MEMBERS } from "../src/lib/data/countries";
+import { countryName, NATIONS } from "../src/lib/data/nations";
 import { woff2CodePoints } from "./woff2-cmap";
 
 /**
- * Builds two subsets of Noto Sans SC, so no page sends a glyph nobody reads
- * (the full font is many megabytes):
- * - public/fonts/noto-sans-sc-subset.woff2: the Han characters in
- *   messages/zh/**, data/cultures/** and data/borders/**, under 300KB;
- * - public/fonts/noto-sans-sc-wars.woff2: the ones data/wars/** and
- *   data/succession.json add, and its @font-face unicode-range in
- *   src/app/globals.css, so only a page that shows one of them fetches it.
+ * Builds three subsets of Noto Sans SC, so no page sends a glyph nobody reads
+ * (the full font is many megabytes). A character goes in the first face that
+ * wants it, so no character is in two files:
+ * - public/fonts/noto-sans-sc-subset.woff2 (main, under 150KB): the Han
+ *   characters in messages/zh/** and in culture names, which nearly every page
+ *   shows. Its @font-face keeps a broad unicode-range, so it is the fallback;
+ * - public/fonts/noto-sans-sc-culture.woff2 (under 350KB): the rest of
+ *   data/cultures/** and data/borders/**, plus the zh names of every country
+ *   page and the culture pages' native names, which come from Intl rather than data;
+ * - public/fonts/noto-sans-sc-wars.woff2 (under 100KB): what data/wars/** and
+ *   data/succession.json add.
+ * The culture and wars faces get their own unicode-range in src/app/globals.css
+ * (written here), so a page fetches one only if it shows a character in it.
  *
  * Run again (`pnpm subset-cjk-font`) whenever new zh content lands, then
- * commit both fonts and globals.css.
+ * commit the fonts and globals.css.
  *
  * The source font itself is not committed (it's 8MB+): this script fetches
  * it once into .font-cache/, a gitignored directory, and reuses it after that.
@@ -24,10 +32,8 @@ const CACHE_DIR = path.join(ROOT, ".font-cache");
 const SOURCE_PATH = path.join(CACHE_DIR, "NotoSansSC-Regular.otf");
 const SOURCE_URL =
   "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/18_NotoSansSC.zip";
-const OUT_PATH = path.join(ROOT, "public/fonts/noto-sans-sc-subset.woff2");
-const WARS_OUT_PATH = path.join(ROOT, "public/fonts/noto-sans-sc-wars.woff2");
+const FONTS_DIR = path.join(ROOT, "public/fonts");
 const CSS_PATH = path.join(ROOT, "src/app/globals.css");
-const SIZE_BUDGET_BYTES = 300 * 1024;
 
 // A few characters worth keeping even before any data uses them: the era
 // labels (years.ts) and common CJK punctuation, so early pages never show
@@ -65,11 +71,17 @@ function mainStrings(): string[] {
   for (const file of fs.readdirSync(path.join(ROOT, "messages/zh"))) {
     strings.push(fs.readFileSync(path.join(ROOT, "messages/zh", file), "utf8"));
   }
-  for (const doc of readJsonFilesRecursive(path.join(ROOT, "data/cultures"))) {
-    collectStrings(doc, strings);
+  for (const culture of readJsonFilesRecursive(path.join(ROOT, "data/cultures"))) {
+    collectStrings((culture as { name: unknown }).name, strings);
+    collectStrings((culture as { nativeName?: { text: unknown } }).nativeName?.text, strings);
   }
-  for (const doc of readJsonFilesRecursive(path.join(ROOT, "data/borders"))) {
-    collectStrings(doc, strings);
+  return strings;
+}
+
+function cultureStrings(): string[] {
+  const strings: string[] = Object.keys({ ...UN_MEMBERS, ...NATIONS }).map((code) => countryName(code, "zh"));
+  for (const dir of ["data/cultures", "data/borders"]) {
+    for (const doc of readJsonFilesRecursive(path.join(ROOT, dir))) collectStrings(doc, strings);
   }
   return strings;
 }
@@ -114,10 +126,10 @@ function unicodeRange(codePoints: Iterable<number>): string {
   return parts.join(", ");
 }
 
-function writeWarsUnicodeRange(range: string): void {
+function writeUnicodeRange(file: string, range: string): void {
   const css = fs.readFileSync(CSS_PATH, "utf8");
-  const face = /(@font-face \{[^}]*\/fonts\/noto-sans-sc-wars\.woff2"[^}]*unicode-range: )[^;]+;/;
-  if (!face.test(css)) throw new Error(`No @font-face for noto-sans-sc-wars.woff2 with a unicode-range in ${CSS_PATH}`);
+  const face = new RegExp(`(@font-face \\{[^}]*/fonts/${file}"[^}]*unicode-range: )[^;]+;`);
+  if (!face.test(css)) throw new Error(`No @font-face for ${file} with a unicode-range in ${CSS_PATH}`);
   fs.writeFileSync(CSS_PATH, css.replace(face, (_, head: string) => `${head}${range};`));
 }
 
@@ -138,34 +150,38 @@ async function ensureSourceFont(): Promise<Buffer> {
   return fs.readFileSync(SOURCE_PATH);
 }
 
-async function main() {
-  const mainChars = collectHanCharacters(mainStrings());
-  const text = [...mainChars].sort().join("");
-  console.log(`Subsetting to ${text.length} unique Han/CJK-punctuation characters.`);
-
-  const source = await ensureSourceFont();
-  const subset = await subsetFont(source, text, { targetFormat: "woff2", noHinting: true });
-
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  fs.writeFileSync(OUT_PATH, subset);
-
-  const kb = (subset.length / 1024).toFixed(1);
-  console.log(`Wrote ${path.relative(ROOT, OUT_PATH)} (${kb}KB).`);
-  if (subset.length > SIZE_BUDGET_BYTES) {
-    console.error(`Over the ${SIZE_BUDGET_BYTES / 1024}KB budget — check what pulled in new characters.`);
+/** Subsets `chars` into `file`; the faces other than main also get their unicode-range written to globals.css. */
+async function writeFace(
+  source: Buffer,
+  file: string,
+  chars: string[],
+  budgetKb: number,
+  writeRange: boolean,
+): Promise<void> {
+  const subset = await subsetFont(source, chars.sort().join(""), { targetFormat: "woff2", noHinting: true });
+  fs.mkdirSync(FONTS_DIR, { recursive: true });
+  fs.writeFileSync(path.join(FONTS_DIR, file), subset);
+  const codePoints = woff2CodePoints(subset);
+  if (writeRange) writeUnicodeRange(file, unicodeRange(codePoints));
+  console.log(`Wrote public/fonts/${file} (${codePoints.size} characters, ${(subset.length / 1024).toFixed(1)}KB of ${budgetKb}KB).`);
+  if (subset.length > budgetKb * 1024) {
+    console.error(`${file} is over its ${budgetKb}KB budget: check what pulled in new characters.`);
     process.exit(1);
   }
-
-  const warsText = [...collectHanCharacters(warStrings())].filter((ch) => !mainChars.has(ch)).sort().join("");
-  const wars = await subsetFont(source, warsText, { targetFormat: "woff2", noHinting: true });
-  fs.writeFileSync(WARS_OUT_PATH, wars);
-  const warsCodePoints = woff2CodePoints(wars);
-  writeWarsUnicodeRange(unicodeRange(warsCodePoints));
-  console.log(
-    `Wrote ${path.relative(ROOT, WARS_OUT_PATH)} (${warsCodePoints.size} characters, ${(wars.length / 1024).toFixed(1)}KB) and its unicode-range.`,
-  );
-  const absent = [...warsText].filter((ch) => !warsCodePoints.has(ch.codePointAt(0)!));
+  const absent = chars.filter((ch) => !codePoints.has(ch.codePointAt(0)!));
   if (absent.length > 0) console.warn(`Not in Noto Sans SC, so shown in the system font: ${absent.join("")}`);
+}
+
+async function main() {
+  const source = await ensureSourceFont();
+  const mainChars = collectHanCharacters(mainStrings());
+  const cultureChars = [...collectHanCharacters(cultureStrings())].filter((ch) => !mainChars.has(ch));
+  const taken = new Set([...mainChars, ...cultureChars]);
+  const warChars = [...collectHanCharacters(warStrings())].filter((ch) => !taken.has(ch));
+
+  await writeFace(source, "noto-sans-sc-subset.woff2", [...mainChars], 150, false);
+  await writeFace(source, "noto-sans-sc-culture.woff2", cultureChars, 350, true);
+  await writeFace(source, "noto-sans-sc-wars.woff2", warChars, 100, true);
 }
 
 main().catch((err: unknown) => {

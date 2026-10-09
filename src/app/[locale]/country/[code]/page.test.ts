@@ -26,17 +26,17 @@ describe("country pages", () => {
     }
   });
 
-  // South Korea's only war is the Korean War, behind the review gate in es and zh.
+  // Argentina's only war is the Falklands War, behind the review gate in es and zh.
   it("exist only in English for a country whose only entries are gated wars", () => {
-    expect(codes("en")).toContain("kr");
-    expect(codes("es")).not.toContain("kr");
-    expect(codes("zh")).not.toContain("kr");
+    expect(codes("en")).toContain("ar");
+    expect(codes("es")).not.toContain("ar");
+    expect(codes("zh")).not.toContain("ar");
   });
 
   it("titles the page with the country's name and keeps hreflang to the languages it exists in", async () => {
-    const meta = await generateMetadata({ params: Promise.resolve({ locale: "en", code: "kr" }), searchParams: Promise.resolve({}) });
-    expect(meta.title).toEqual({ absolute: expect.stringMatching(/^title\{"country":"South Korea","cultures":0,"wars":[1-9]\d*\}$/) });
-    expect(meta.description).toMatch(/^metaDescription\{"country":"South Korea","cultures":0,"wars":[1-9]\d*,"name":"Korean War"\}$/);
+    const meta = await generateMetadata({ params: Promise.resolve({ locale: "en", code: "ar" }), searchParams: Promise.resolve({}) });
+    expect(meta.title).toEqual({ absolute: expect.stringMatching(/^title\{"country":"Argentina","cultures":0,"wars":[1-9]\d*\}$/) });
+    expect(meta.description).toMatch(/^metaDescription\{"country":"Argentina","cultures":0,"wars":[1-9]\d*,"name":"Falklands War"\}$/);
     expect(Object.keys(meta.alternates?.languages ?? {})).toEqual(["en", "x-default"]);
     expect(meta.openGraph?.images).toEqual([expect.objectContaining({ url: "/en/opengraph-image/" })]);
   });
@@ -109,7 +109,7 @@ describe("the title and meta description", () => {
     );
   });
 
-  // Ukraine, Vietnam and South Korea list wars only; Bolivia a civilisation only.
+  // Ukraine, Vietnam and Argentina list wars only; Bolivia a civilisation only.
   // Stems, so a singular ("The war", "La civilización") counts too.
   const words = { en: ["civilisation", "war"], es: ["civiliza", "guerra"], zh: ["文明", "战争"] };
 

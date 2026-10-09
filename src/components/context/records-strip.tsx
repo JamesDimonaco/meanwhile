@@ -27,7 +27,7 @@ export async function RecordsStrip({
           return (
             <li key={kind} className="flex flex-wrap items-baseline gap-x-1.5 gap-y-1">
               <span className="text-muted-foreground">{t(kind)}</span>
-              <Link href={`/c/${holder.id}`} className="font-medium underline-offset-2 hover:underline">
+              <Link prefetch={false} href={`/c/${holder.id}`} className="font-medium underline-offset-2 hover:underline">
                 {localize(holder.name, locale)}
               </Link>
               <span className="text-muted-foreground">

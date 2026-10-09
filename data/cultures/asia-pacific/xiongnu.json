@@ -1,0 +1,269 @@
+{
+  "id": "xiongnu",
+  "region": "asia-pacific",
+  "wikidataId": "Q188836",
+  "name": {
+    "en": "Xiongnu",
+    "es": "Xiongnu",
+    "zh": "匈奴"
+  },
+  "aliases": [
+    "Hsiung-nu",
+    "Hunnu",
+    "Xiongnu confederation",
+    "Confederación xiongnu",
+    "Huns of Asia"
+  ],
+  "description": {
+    "en": "A confederation of steppe peoples under a ruler called the chanyu, built by Modu from about 209 BCE on the Mongolian plateau. It was the Han dynasty's chief rival until it split in two in the 1st century CE and the northern half broke apart.",
+    "es": "Confederación de pueblos de la estepa bajo un gobernante llamado chanyu, que Modu formó hacia 209 a. e. c. en la meseta de Mongolia. Fue el principal rival de la dinastía Han hasta que se dividió en dos en el siglo I e. c. y la mitad norte se desintegró.",
+    "zh": "由冒顿约在公元前209年于蒙古高原建立的草原部族联盟，首领称单于。它是汉朝的主要对手，直到公元1世纪分裂为南北两部，北匈奴随后瓦解。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "xiongnu-confederation",
+      "earliestStart": -208,
+      "latestStart": -199,
+      "earliestEnd": 91,
+      "latestEnd": 91,
+      "sources": [
+        {
+          "citation": "Silk Road Seattle, University of Washington, \"The Xiongnu\" essay.",
+          "url": "https://depts.washington.edu/silkroad/exhibit/xiongnu/essay.html"
+        },
+        {
+          "citation": "Wikipedia, \"Xiongnu\".",
+          "url": "https://en.wikipedia.org/wiki/Xiongnu"
+        },
+        {
+          "citation": "Max Planck Society, \"Ancient DNA reveals the multiethnic structure of Mongolia's first nomadic empire\" (2023).",
+          "url": "https://www.mpg.de/20098860/multiethnic-structure-of-mongolia-s-first-nomadic-empire"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The Xiongnu left no writing, and nearly all written sources are Chinese. Their ethnic and linguistic identity is debated: a Max Planck study of elite burials found a multiethnic population that came together around 200 BCE. The northern Xiongnu were driven from the Ordos by 91 CE, which ends the bar. The southern Xiongnu stayed inside China, and Wikipedia says the remaining Xiongnu were gradually absorbed from the 2nd century CE, with no firm end date.",
+        "es": "Los xiongnu no dejaron escritura, y casi todas las fuentes escritas son chinas. Su identidad étnica y lingüística es objeto de debate: un estudio del Instituto Max Planck sobre tumbas de élite halló una población multiétnica que se reunió hacia 200 a. e. c. Los xiongnu del norte fueron expulsados de Ordos hacia 91 e. c., lo que cierra la barra. Los xiongnu del sur permanecieron dentro de China, y Wikipedia dice que los xiongnu restantes fueron absorbidos poco a poco desde el siglo II e. c., sin una fecha de fin firme.",
+        "zh": "匈奴没有留下文字，几乎所有文字记载都出自中原。他们的族属和语言仍有争论：马克斯·普朗克学会对精英墓葬的研究发现，其人口是多族群的，约在公元前200年前后汇聚。北匈奴在公元91年前后被逐出鄂尔多斯，实线止于此。南匈奴留在中原境内，维基百科称剩余的匈奴人从公元2世纪起逐渐被同化，没有确切的终结年份。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "modu-becomes-chanyu",
+      "start": -208,
+      "type": "ruler",
+      "title": {
+        "en": "Modu kills his father Touman and becomes chanyu",
+        "es": "Modu mata a su padre Touman y se convierte en chanyu",
+        "zh": "冒顿杀父头曼，自立为单于"
+      },
+      "sources": [
+        {
+          "citation": "Silk Road Seattle, University of Washington, \"The Xiongnu\" essay.",
+          "url": "https://depts.washington.edu/silkroad/exhibit/xiongnu/essay.html"
+        },
+        {
+          "citation": "Sima Qian, Shiji, juan 110 (Account of the Xiongnu).",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7110"
+        },
+        {
+          "citation": "Wikipedia, \"Xiongnu\".",
+          "url": "https://en.wikipedia.org/wiki/Xiongnu"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The Shiji gives no year. Wikipedia gives 209 BCE.",
+        "es": "El Shiji no da el año. Wikipedia da 209 a. e. c.",
+        "zh": "《史记》没有记载年份。维基百科记为公元前209年。"
+      }
+    },
+    {
+      "id": "baideng",
+      "start": -199,
+      "type": "conflict",
+      "title": {
+        "en": "Xiongnu cavalry surround Emperor Gaozu of Han at Baideng for seven days",
+        "es": "La caballería xiongnu rodea al emperador Gaozu de Han en Baideng durante siete días",
+        "zh": "匈奴骑兵在白登围困汉高祖七日"
+      },
+      "sources": [
+        {
+          "citation": "Sima Qian, Shiji, juan 110 (Account of the Xiongnu).",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7110"
+        },
+        {
+          "citation": "Silk Road Seattle, University of Washington, \"The Xiongnu\" essay.",
+          "url": "https://depts.washington.edu/silkroad/exhibit/xiongnu/essay.html"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Shiji gives no year. Wikipedia dates the siege to 200 BCE; the University of Washington essay says 201 BCE.",
+        "es": "El Shiji no da el año. Wikipedia fecha el asedio en 200 a. e. c.; el ensayo de la Universidad de Washington dice 201 a. e. c.",
+        "zh": "《史记》没有记载年份。维基百科把此围定在公元前200年，华盛顿大学的文章则说是公元前201年。"
+      }
+    },
+    {
+      "id": "heqin-agreement",
+      "start": -197,
+      "type": "ruler",
+      "title": {
+        "en": "Han and Xiongnu agree a marriage alliance, with a Han princess and yearly gifts",
+        "es": "Han y xiongnu acuerdan una alianza matrimonial, con una princesa Han y regalos anuales",
+        "zh": "汉与匈奴订立和亲之约，嫁公主并岁岁赠送礼物"
+      },
+      "sources": [
+        {
+          "citation": "Sima Qian, Shiji, juan 110 (Account of the Xiongnu).",
+          "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7110"
+        },
+        {
+          "citation": "Wikipedia, \"Xiongnu\".",
+          "url": "https://en.wikipedia.org/wiki/Xiongnu"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Shiji gives no year. Wikipedia dates the agreement to 198 BCE.",
+        "es": "El Shiji no da el año. Wikipedia fecha el acuerdo en 198 a. e. c.",
+        "zh": "《史记》没有记载年份。维基百科把此约定在公元前198年。"
+      }
+    },
+    {
+      "id": "wei-qing-and-huo-qubing",
+      "start": -118,
+      "type": "conflict",
+      "title": {
+        "en": "Han armies under Wei Qing and Huo Qubing defeat the Xiongnu north of the Gobi",
+        "es": "Los ejércitos Han de Wei Qing y Huo Qubing derrotan a los xiongnu al norte del Gobi",
+        "zh": "卫青、霍去病率汉军在漠北击败匈奴"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Han Wudi\".",
+          "url": "https://www.ebsco.com/research-starters/history/han-wudi/"
+        },
+        {
+          "citation": "Ban Gu, Hanshu, juan 55 (Biographies of Wei Qing and Huo Qubing).",
+          "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7055"
+        },
+        {
+          "citation": "Wikipedia, \"Xiongnu\".",
+          "url": "https://en.wikipedia.org/wiki/Xiongnu"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "huhanye-submits",
+      "start": -50,
+      "type": "collapse",
+      "title": {
+        "en": "Huhanye submits to Han as the Xiongnu empire splits in civil war",
+        "es": "Huhanye se somete a Han mientras el imperio xiongnu se divide en una guerra civil",
+        "zh": "匈奴帝国陷入内战分裂，呼韩邪归附汉朝"
+      },
+      "sources": [
+        {
+          "citation": "Ban Gu, Hanshu, juan 94 part 2 (Account of the Xiongnu).",
+          "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7094%E4%B8%8B"
+        },
+        {
+          "citation": "Wikipedia, \"Huhanye\".",
+          "url": "https://en.wikipedia.org/wiki/Huhanye"
+        },
+        {
+          "citation": "Wikipedia, \"Xiongnu\".",
+          "url": "https://en.wikipedia.org/wiki/Xiongnu"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia's Xiongnu article gives 60–53 BCE for the civil war and 51 BCE for Huhanye's submission to Han. The Hanshu describes the steps (the move south, the hostage son, the visit to the Han court) without a BCE year, and the exact year of each step varies between accounts.",
+        "es": "El artículo de Wikipedia sobre los xiongnu da 60–53 a. e. c. para la guerra civil y 51 a. e. c. para la sumisión de Huhanye a Han. El Hanshu describe los pasos (el traslado al sur, el hijo rehén, la visita a la corte Han) sin año a. e. c., y el año exacto de cada paso varía según los relatos.",
+        "zh": "维基百科的匈奴条目把内战定在公元前60至前53年，把呼韩邪归附汉朝定在公元前51年。《汉书》记述了各个步骤（南迁、遣子入侍、朝见汉廷），但没有公元前纪年，各家对每一步的确切年份说法不一。"
+      }
+    },
+    {
+      "id": "split-north-south",
+      "start": 48,
+      "type": "collapse",
+      "title": {
+        "en": "Bi leads the southern Xiongnu to submit to Han, and the Xiongnu divide into north and south",
+        "es": "Bi lleva a los xiongnu del sur a someterse a Han, y los xiongnu se dividen en norte y sur",
+        "zh": "比率南部匈奴归附汉朝，匈奴分为南北两部"
+      },
+      "sources": [
+        {
+          "citation": "Fan Ye, Hou Hanshu, juan 89 (Account of the Southern Xiongnu).",
+          "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B789"
+        },
+        {
+          "citation": "Silk Road Seattle, University of Washington, \"The Xiongnu\" essay.",
+          "url": "https://depts.washington.edu/silkroad/exhibit/xiongnu/essay.html"
+        },
+        {
+          "citation": "Wikipedia, \"Xiongnu\".",
+          "url": "https://en.wikipedia.org/wiki/Xiongnu"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The Hou Hanshu records Bi's approach to Han in the 24th year of Jianwu, which is 48 CE. The University of Washington essay gives 47. The Hou Hanshu blames drought, locusts and famine, and a succession dispute.",
+        "es": "El Hou Hanshu registra el acercamiento de Bi a Han en el año 24 de Jianwu, es decir, 48 e. c. El ensayo de la Universidad de Washington da 47. El Hou Hanshu atribuye la crisis a la sequía, las langostas, el hambre y una disputa sucesoria.",
+        "zh": "《后汉书》记载比在建武二十四年（公元48年）向汉求内附，华盛顿大学的文章则作47年。《后汉书》把原因归于旱灾、蝗灾、饥荒和继位之争。"
+      }
+    },
+    {
+      "id": "northern-xiongnu-defeated",
+      "start": 89,
+      "end": 91,
+      "type": "conflict",
+      "title": {
+        "en": "Han and southern Xiongnu armies defeat the northern Xiongnu, whose chanyu flees",
+        "es": "Los ejércitos Han y xiongnu del sur derrotan a los xiongnu del norte, cuyo chanyu huye",
+        "zh": "汉军与南匈奴联军击败北匈奴，北单于出逃"
+      },
+      "sources": [
+        {
+          "citation": "Fan Ye, Hou Hanshu, juan 89 (Account of the Southern Xiongnu).",
+          "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B789"
+        },
+        {
+          "citation": "Silk Road Seattle, University of Washington, \"The Xiongnu\" essay.",
+          "url": "https://depts.washington.edu/silkroad/exhibit/xiongnu/essay.html"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "noyon-uul-tombs",
+      "start": -8,
+      "end": 4,
+      "text": {
+        "en": "Elite Xiongnu graves at Noyon uul in Mongolia were nested wooden chambers hung with textiles. Water in the graves preserved clothing and other organic material. Chinese lacquer cups found inside carry dates between 9 BCE and 4 CE.",
+        "es": "Las tumbas de élite xiongnu de Noyon uul, en Mongolia, eran cámaras de madera encajadas y cubiertas de tejidos. El agua en las tumbas conservó la ropa y otros materiales orgánicos. Las copas chinas de laca halladas dentro llevan fechas entre 9 a. e. c. y 4 e. c.",
+        "zh": "蒙古诺颜山的匈奴贵族墓是套叠的木椁室，挂着织物。墓中的积水保存了衣物和其他有机物。墓里出土的中国漆杯，标明的年份在公元前9年至公元4年之间。"
+      },
+      "sources": [
+        {
+          "citation": "Silk Road Seattle, University of Washington, \"Xiongnu Archaeology\".",
+          "url": "http://depts.washington.edu/silkroad/archaeology/mongolia/xiongnu/xiongnuarchhist/xiongnuarchhist.html"
+        },
+        {
+          "citation": "Wikipedia, \"Noin-Ula kurgans\".",
+          "url": "https://en.wikipedia.org/wiki/Noin-Ula_kurgans"
+        }
+      ]
+    }
+  ]
+}

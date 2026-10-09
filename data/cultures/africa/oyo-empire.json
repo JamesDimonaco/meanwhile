@@ -1,0 +1,279 @@
+{
+  "id": "oyo-empire",
+  "region": "africa",
+  "wikidataId": "Q849623",
+  "name": {
+    "en": "Oyo Empire",
+    "es": "Imperio oyo",
+    "zh": "奥约帝国"
+  },
+  "aliases": [
+    "Oyo",
+    "Old Oyo",
+    "Oyo-Ile",
+    "Alaafin of Oyo",
+    "Yoruba empire"
+  ],
+  "description": {
+    "en": "A Yoruba state in the savannah of what is now southwest Nigeria, ruled by an alaafin from Oyo-Ile. Its cavalry won it control of trade routes to the coast. Civil strife and the loss of Ilorin broke it apart in the early 1800s.",
+    "es": "Un estado yoruba en la sabana del actual suroeste de Nigeria, gobernado por un alaafin desde Oyo-Ile. Su caballería le dio el control de las rutas comerciales hacia la costa. Las luchas internas y la pérdida de Ilorin lo deshicieron a comienzos del siglo XIX.",
+    "zh": "约鲁巴人在今尼日利亚西南部稀树草原上建立的国家，由居于奥约老城的阿拉芬统治。骑兵使其掌控通往海岸的商路。内乱和伊洛林的丧失使它在19世纪初瓦解。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "oyo-empire-period",
+      "earliestStart": 1300,
+      "latestStart": 1400,
+      "earliestEnd": 1835,
+      "latestEnd": 1840,
+      "sources": [
+        {
+          "citation": "BlackPast. \"Kingdom of Oyo (ca. 1500-1837).\" Founded in the 1300s; the kingdom had collapsed by 1837.",
+          "url": "https://www.blackpast.org/global-african-history/oyo/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" Flourished from the 17th to the 19th century; broken into small rival states by the mid-19th century.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Oyo Empire.\" Founding regarded as 1300, estimated by backtracking the chronology; Oyo-Ile destroyed in 1835; infobox gives c. 1836.",
+          "url": "https://en.wikipedia.org/wiki/Oyo_Empire"
+        },
+        {
+          "citation": "Barnes, S. T. and Ben-Amos, P. \"Benin, Oyo, and Dahomey.\" Expedition 25(2), Penn Museum, 1983. Foundation variously set in the 10th to early 15th centuries, the 13th favoured; important as an empire from the early 17th century.",
+          "url": "https://www.penn.museum/sites/expedition/benin-oyo-and-dahomey/"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Founding dates come from Yoruba tradition and are not fixed: BlackPast says the 1300s, Wikipedia says 1300 by backtracking, and Penn Museum's Expedition says anywhere from the 10th to the early 15th century, with the 13th favoured. The bar fades from 1300 to 1400 at the start. For the end, Wikipedia dates the destruction of Old Oyo to 1835 (infobox c. 1836) and BlackPast says the kingdom had collapsed by 1837; the title of alaafin continued at a new capital.",
+        "es": "Las fechas de fundación proceden de la tradición yoruba y no están fijadas: BlackPast dice el siglo XIV, Wikipedia dice 1300 por cálculo retrospectivo y la revista Expedition del Penn Museum dice entre el siglo X y principios del XV, con preferencia por el XIII. La barra se difumina de 1300 a 1400 al inicio. Para el final, Wikipedia fecha la destrucción de Oyo-Ile en 1835 (ficha: hacia 1836) y BlackPast dice que el reino se había hundido hacia 1837; el título de alaafin continuó en una nueva capital.",
+        "zh": "建国年代来自约鲁巴传统，并无定论：BlackPast 称在14世纪，维基百科以回推方式定为1300年，宾夕法尼亚大学博物馆的《Expedition》杂志则称在10世纪至15世纪初之间，以13世纪最常见。起始处从1300年到1400年渐变。关于终点，维基百科把奥约老城被毁定在1835年（信息框为约1836年），BlackPast 称王国在1837年前已崩溃；阿拉芬的称号在新都继续沿用。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 1300,
+      "type": "founding",
+      "title": {
+        "en": "Yoruba tradition names a descendant of Oduduwa of Ife as Oyo's first alaafin",
+        "es": "La tradición yoruba nombra a un descendiente de Oduduwa de Ife como el primer alaafin de Oyo",
+        "zh": "约鲁巴传统称伊费的奥杜杜瓦的一位后裔是奥约的第一位阿拉芬"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica. \"Oyo empire.\" By tradition Oyo derived from Oduduwa, whose son became the first alaafin.",
+          "url": "https://www.britannica.com/place/Oyo-empire"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" In oral tradition the founder of Oyo was Oranmiyan, son of Oduduwa of Ife.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        },
+        {
+          "citation": "Barnes, S. T. and Ben-Amos, P. \"Benin, Oyo, and Dahomey.\" Expedition 25(2), Penn Museum, 1983. Foundation set variously between the 10th and early 15th centuries.",
+          "url": "https://www.penn.museum/sites/expedition/benin-oyo-and-dahomey/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "This is oral tradition. Britannica names a son of Oduduwa; World History Encyclopedia and BlackPast name Oranmiyan. Penn Museum's Expedition sets the foundation anywhere from the 10th to the early 15th century.",
+        "es": "Es tradición oral. Britannica nombra a un hijo de Oduduwa; la World History Encyclopedia y BlackPast nombran a Oranmiyan. La revista Expedition del Penn Museum sitúa la fundación entre el siglo X y principios del XV.",
+        "zh": "这是口述传统。《大英百科全书》称是奥杜杜瓦之子；《世界历史百科全书》和 BlackPast 称是奥兰米扬。宾夕法尼亚大学博物馆的《Expedition》杂志把建国定在10世纪至15世纪初之间。"
+      }
+    },
+    {
+      "id": "nupe-conquest",
+      "start": 1535,
+      "type": "conflict",
+      "title": {
+        "en": "Nupe forces take Old Oyo and the ruling line withdraws into exile",
+        "es": "Las fuerzas nupe toman Oyo-Ile y la dinastía gobernante se refugia en el exilio",
+        "zh": "努佩军队攻占奥约老城，王室退入流亡"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" The Nupe conquered Old Oyo around 1535 and held it until the Oyo kings regained it around 1610.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Oyo Empire.\" Sometime around 1535 the Nupe occupied Oyo and the ruling dynasty took refuge in Borgu.",
+          "url": "https://en.wikipedia.org/wiki/Oyo_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Both sources give about 1535 and neither is firm. BlackPast frames the period differently: it says Oyo had conquered Borgu and Nupe by 1550.",
+        "es": "Ambas fuentes dan hacia 1535 y ninguna es firme. BlackPast presenta el periodo de otro modo: dice que Oyo había conquistado Borgu y Nupe hacia 1550.",
+        "zh": "两个来源都给出约1535年，均不确凿。BlackPast 的说法不同：称奥约在1550年前已征服博尔古和努佩。"
+      }
+    },
+    {
+      "id": "cavalry",
+      "start": 1600,
+      "type": "invention",
+      "title": {
+        "en": "Oyo builds its army around cavalry and archers, with imported horses, and grows into an empire",
+        "es": "Oyo organiza su ejército en torno a la caballería y los arqueros, con caballos importados, y se convierte en un imperio",
+        "zh": "奥约以骑兵和弓箭手为核心组建军队，使用进口马匹，并发展为帝国"
+      },
+      "sources": [
+        {
+          "citation": "BlackPast. \"Kingdom of Oyo (ca. 1500-1837).\" After Nupe attacks Oyo reorganised its cavalry and infantry in the sixteenth century; the cavalry became the foundation of the army; horses came from Europe and North Africa.",
+          "url": "https://www.blackpast.org/global-african-history/oyo/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" Formidable cavalry units; cavalry and archers; horses imported from the north.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        },
+        {
+          "citation": "Barnes, S. T. and Ben-Amos, P. \"Benin, Oyo, and Dahomey.\" Expedition 25(2), Penn Museum, 1983. Oyo's military drives rested on mounted cavalry and iron weapons; horses were imported at high cost.",
+          "url": "https://www.penn.museum/sites/expedition/benin-oyo-and-dahomey/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date is approximate. BlackPast says the cavalry was reorganised in the sixteenth century; Penn Museum's Expedition says Oyo became important as an empire early in the 17th century. BlackPast says horses came from Europe and North Africa; World History Encyclopedia says from the north.",
+        "es": "La fecha es aproximada. BlackPast dice que la caballería se reorganizó en el siglo XVI; la revista Expedition del Penn Museum dice que Oyo cobró importancia como imperio a principios del siglo XVII. BlackPast dice que los caballos venían de Europa y del norte de África; la World History Encyclopedia dice que del norte.",
+        "zh": "年份为大致年份。BlackPast 称骑兵在16世纪重组；宾夕法尼亚大学博物馆的《Expedition》杂志称奥约在17世纪初才成为重要的帝国。BlackPast 称马匹来自欧洲和北非；《世界历史百科全书》称来自北方。"
+      }
+    },
+    {
+      "id": "dahomey",
+      "start": 1726,
+      "end": 1748,
+      "type": "conflict",
+      "title": {
+        "en": "Oyo campaigns against Dahomey, makes it pay tribute and, by 1748, subjugates it",
+        "es": "Oyo hace campañas contra Dahomey, le impone un tributo y, hacia 1748, la somete",
+        "zh": "奥约出兵达荷美，迫使其纳贡，并在1748年前后将其征服"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" War between 1726 and 1730; Dahomey accepts Oyo's authority.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Oyo Empire.\" Oyo invaded Dahomey in 1728; Dahomey forced to pay tribute; 11 invasions before Dahomey was subjugated in 1748.",
+          "url": "https://en.wikipedia.org/wiki/Oyo_Empire"
+        },
+        {
+          "citation": "Barnes, S. T. and Ben-Amos, P. \"Benin, Oyo, and Dahomey.\" Expedition 25(2), Penn Museum, 1983. Dahomey a long-time tribute-paying state to Oyo, which threw off Oyo's yoke in 1818.",
+          "url": "https://www.penn.museum/sites/expedition/benin-oyo-and-dahomey/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia gives a war from 1726 to 1730; Wikipedia gives a major invasion in 1728 and final subjugation in 1748. Penn Museum's Expedition says Dahomey threw off Oyo's rule in 1818.",
+        "es": "La World History Encyclopedia da una guerra de 1726 a 1730; Wikipedia da una invasión importante en 1728 y la sumisión definitiva en 1748. La revista Expedition del Penn Museum dice que Dahomey se libró del dominio de Oyo en 1818.",
+        "zh": "《世界历史百科全书》记为1726至1730年的一场战争；维基百科记为1728年的一次大规模入侵和1748年的最终征服。宾夕法尼亚大学博物馆的《Expedition》杂志称达荷美在1818年摆脱了奥约的统治。"
+      }
+    },
+    {
+      "id": "fulani-and-ilorin",
+      "start": 1820,
+      "type": "conflict",
+      "title": {
+        "en": "Ilorin, Oyo's northern province, breaks away and becomes an emirate of the Sokoto Caliphate; Oyo starts to break up",
+        "es": "Ilorin, la provincia septentrional de Oyo, se separa y se convierte en un emirato del Califato de Sokoto; Oyo comienza a fragmentarse",
+        "zh": "奥约的北部省份伊洛林脱离奥约，成为索科托哈里发国的一个酋长国；奥约开始分裂"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" In the 1820s the Fulani conquered Ilorin, which became an emirate of the Sokoto Caliphate; the loss set off the breakup into smaller states.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        },
+        {
+          "citation": "Wikipedia. \"Oyo Empire.\" Afonja seceded Ilorin in 1817 with help from Oyo Muslims; after Afonja was killed, Ilorin became part of the Sokoto Caliphate in 1823.",
+          "url": "https://en.wikipedia.org/wiki/Oyo_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia puts the Fulani conquest of Ilorin in the 1820s. Wikipedia dates the secession to 1817 and Ilorin's entry into the Sokoto Caliphate to 1823.",
+        "es": "La World History Encyclopedia sitúa la conquista fulani de Ilorin en la década de 1820. Wikipedia fecha la secesión en 1817 y la entrada de Ilorin en el Califato de Sokoto en 1823.",
+        "zh": "《世界历史百科全书》把富拉尼人征服伊洛林放在1820年代。维基百科把脱离奥约定在1817年，把伊洛林并入索科托哈里发国定在1823年。"
+      }
+    },
+    {
+      "id": "old-oyo-destroyed",
+      "start": 1835,
+      "type": "collapse",
+      "title": {
+        "en": "Ilorin forces destroy Old Oyo, and the royal court later founds a new capital to the south",
+        "es": "Las fuerzas de Ilorin destruyen Oyo-Ile y la corte real funda después una nueva capital al sur",
+        "zh": "伊洛林军队摧毁奥约老城，王室随后在南方建立新都"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Oyo Empire.\" Ilorin eventually destroyed the capital Oyo-Ile in 1835; the capital was moved south to Ago d'Oyo.",
+          "url": "https://en.wikipedia.org/wiki/Oyo_Empire"
+        },
+        {
+          "citation": "BlackPast. \"Kingdom of Oyo (ca. 1500-1837).\" By 1837 the kingdom of Oyo had collapsed.",
+          "url": "https://www.blackpast.org/global-african-history/oyo/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" The empire had disintegrated into small rival chiefdoms by the mid-19th century.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Only Wikipedia gives 1835 for the destruction (its infobox says c. 1836). BlackPast says the kingdom had collapsed by 1837 and World History Encyclopedia says by the mid-19th century.",
+        "es": "Solo Wikipedia da 1835 para la destrucción (su ficha dice hacia 1836). BlackPast dice que el reino se había hundido hacia 1837 y la World History Encyclopedia dice que a mediados del siglo XIX.",
+        "zh": "只有维基百科给出1835年这一毁城年份（其信息框为约1836年）。BlackPast 称王国在1837年前已崩溃，《世界历史百科全书》称在19世纪中叶。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "slave-coast",
+      "start": 1700,
+      "end": 1800,
+      "text": {
+        "en": "Oyo helped move enslaved people from the interior to coastal ports, and many of its own officials and soldiers were of slave origin.",
+        "es": "Oyo ayudó a trasladar a personas esclavizadas del interior a los puertos de la costa, y muchos de sus propios funcionarios y soldados eran de origen esclavo.",
+        "zh": "奥约参与把被奴役者从内陆转运到沿海港口，其官员和士兵中有许多本身出身奴隶。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" Oyo organised the movement of slaves from the interior to the coast; many officials in the administration and military were of slave origin.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        },
+        {
+          "citation": "BlackPast. \"Kingdom of Oyo (ca. 1500-1837).\" Oyo traded mainly in slaves, and its wealth from the slave trade led to civil wars over the throne.",
+          "url": "https://www.blackpast.org/global-african-history/oyo/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "cavalry-limits",
+      "start": 1600,
+      "end": 1800,
+      "text": {
+        "en": "Oyo's horsemen ruled the savannah but could not fight well in the forests of the Ijesha and Ekiti, where trees and tsetse flies stopped them.",
+        "es": "Los jinetes de Oyo dominaban la sabana, pero no podían combatir bien en los bosques de los ijesha y los ekiti, donde los árboles y la mosca tse-tsé los detenían.",
+        "zh": "奥约骑兵称雄稀树草原，但在伊杰萨人和埃基蒂人的森林里难以作战，树木和采采蝇阻住了他们。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Oyo Empire.\" The Ijesha lived in forests where cavalry could not be used effectively and the tsetse fly was present; the same for the Ekiti.",
+          "url": "https://www.worldhistory.org/Oyo_Empire/"
+        },
+        {
+          "citation": "Barnes, S. T. and Ben-Amos, P. \"Benin, Oyo, and Dahomey.\" Expedition 25(2), Penn Museum, 1983. At the forest edge cavalry was limited by the rainy season and tsetse-borne disease.",
+          "url": "https://www.penn.museum/sites/expedition/benin-oyo-and-dahomey/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

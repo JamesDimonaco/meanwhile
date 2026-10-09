@@ -75,6 +75,7 @@ export function CountryList({
               {shownWars.map((w) => (
                 <li key={w.id}>
                   <Link
+                    prefetch={false}
                     href={`/war/${w.id}`}
                     className="flex flex-col gap-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted"
                   >
@@ -99,6 +100,7 @@ export function CountryList({
                 {shownCountries.map((c) => (
                   <li key={c.code}>
                     <Link
+                      prefetch={false}
                       href={`/country/${c.code.toLowerCase()}`}
                       className="flex min-w-0 items-center gap-2 rounded-lg border border-border px-4 py-3 hover:bg-muted"
                     >

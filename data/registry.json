@@ -234,6 +234,371 @@
       "id": "egypt",
       "region": "africa",
       "label": "Ancient Egypt: one culture, phases early-dynastic / old-kingdom / first-intermediate / middle-kingdom / second-intermediate / new-kingdom / third-intermediate / late-period / ptolemaic"
+    },
+    {
+      "id": "sumer",
+      "region": "middle-east",
+      "label": "Sumer"
+    },
+    {
+      "id": "akkadian-empire",
+      "region": "middle-east",
+      "label": "Akkadian Empire"
+    },
+    {
+      "id": "babylonia",
+      "region": "middle-east",
+      "label": "Babylonia"
+    },
+    {
+      "id": "assyria",
+      "region": "middle-east",
+      "label": "Assyria"
+    },
+    {
+      "id": "hittites",
+      "region": "middle-east",
+      "label": "Hittites"
+    },
+    {
+      "id": "elam",
+      "region": "middle-east",
+      "label": "Elam"
+    },
+    {
+      "id": "phoenicia",
+      "region": "middle-east",
+      "label": "Phoenicia"
+    },
+    {
+      "id": "israel-and-judah",
+      "region": "middle-east",
+      "label": "Israel and Judah"
+    },
+    {
+      "id": "achaemenid-empire",
+      "region": "middle-east",
+      "label": "Achaemenid Empire"
+    },
+    {
+      "id": "seleucid-empire",
+      "region": "middle-east",
+      "label": "Seleucid Empire"
+    },
+    {
+      "id": "parthian-empire",
+      "region": "middle-east",
+      "label": "Parthian Empire"
+    },
+    {
+      "id": "sasanian-empire",
+      "region": "middle-east",
+      "label": "Sasanian Empire"
+    },
+    {
+      "id": "nabataeans",
+      "region": "middle-east",
+      "label": "Nabataeans"
+    },
+    {
+      "id": "umayyad-caliphate",
+      "region": "middle-east",
+      "label": "Umayyad Caliphate"
+    },
+    {
+      "id": "abbasid-caliphate",
+      "region": "middle-east",
+      "label": "Abbasid Caliphate"
+    },
+    {
+      "id": "seljuk-empire",
+      "region": "middle-east",
+      "label": "Seljuk Empire"
+    },
+    {
+      "id": "mamluk-sultanate",
+      "region": "middle-east",
+      "label": "Mamluk Sultanate"
+    },
+    {
+      "id": "ottoman-empire",
+      "region": "middle-east",
+      "label": "Ottoman Empire"
+    },
+    {
+      "id": "safavid-empire",
+      "region": "middle-east",
+      "label": "Safavid Empire"
+    },
+    {
+      "id": "timurid-empire",
+      "region": "middle-east",
+      "label": "Timurid Empire"
+    },
+    {
+      "id": "indus-valley",
+      "region": "south-asia",
+      "label": "Indus Valley civilisation"
+    },
+    {
+      "id": "mauryan-empire",
+      "region": "south-asia",
+      "label": "Mauryan Empire"
+    },
+    {
+      "id": "kushan-empire",
+      "region": "south-asia",
+      "label": "Kushan Empire"
+    },
+    {
+      "id": "gupta-empire",
+      "region": "south-asia",
+      "label": "Gupta Empire"
+    },
+    {
+      "id": "pala-empire",
+      "region": "south-asia",
+      "label": "Pala Empire"
+    },
+    {
+      "id": "chola-dynasty",
+      "region": "south-asia",
+      "label": "Chola dynasty"
+    },
+    {
+      "id": "anuradhapura-kingdom",
+      "region": "south-asia",
+      "label": "Anuradhapura Kingdom"
+    },
+    {
+      "id": "delhi-sultanate",
+      "region": "south-asia",
+      "label": "Delhi Sultanate"
+    },
+    {
+      "id": "vijayanagara-empire",
+      "region": "south-asia",
+      "label": "Vijayanagara Empire"
+    },
+    {
+      "id": "mughal-empire",
+      "region": "south-asia",
+      "label": "Mughal Empire"
+    },
+    {
+      "id": "maratha-empire",
+      "region": "south-asia",
+      "label": "Maratha Empire"
+    },
+    {
+      "id": "sikh-empire",
+      "region": "south-asia",
+      "label": "Sikh Empire"
+    },
+    {
+      "id": "kingdom-of-kush",
+      "region": "africa",
+      "label": "Kingdom of Kush"
+    },
+    {
+      "id": "carthage",
+      "region": "africa",
+      "label": "Carthage"
+    },
+    {
+      "id": "kingdom-of-aksum",
+      "region": "africa",
+      "label": "Kingdom of Aksum"
+    },
+    {
+      "id": "ghana-empire",
+      "region": "africa",
+      "label": "Ghana Empire"
+    },
+    {
+      "id": "mali-empire",
+      "region": "africa",
+      "label": "Mali Empire"
+    },
+    {
+      "id": "songhai-empire",
+      "region": "africa",
+      "label": "Songhai Empire"
+    },
+    {
+      "id": "kanem-bornu",
+      "region": "africa",
+      "label": "Kanem–Bornu Empire"
+    },
+    {
+      "id": "great-zimbabwe",
+      "region": "africa",
+      "label": "Great Zimbabwe"
+    },
+    {
+      "id": "swahili-coast",
+      "region": "africa",
+      "label": "Swahili city-states"
+    },
+    {
+      "id": "kingdom-of-kongo",
+      "region": "africa",
+      "label": "Kingdom of Kongo"
+    },
+    {
+      "id": "kingdom-of-benin",
+      "region": "africa",
+      "label": "Kingdom of Benin"
+    },
+    {
+      "id": "oyo-empire",
+      "region": "africa",
+      "label": "Oyo Empire"
+    },
+    {
+      "id": "ashanti-empire",
+      "region": "africa",
+      "label": "Ashanti Empire"
+    },
+    {
+      "id": "zulu-kingdom",
+      "region": "africa",
+      "label": "Zulu Kingdom"
+    },
+    {
+      "id": "fatimid-caliphate",
+      "region": "africa",
+      "label": "Fatimid Caliphate"
+    },
+    {
+      "id": "ethiopian-empire",
+      "region": "africa",
+      "label": "Ethiopian Empire"
+    },
+    {
+      "id": "jomon",
+      "region": "asia-pacific",
+      "label": "Jōmon period"
+    },
+    {
+      "id": "yayoi",
+      "region": "asia-pacific",
+      "label": "Yayoi period"
+    },
+    {
+      "id": "yamato-kofun",
+      "region": "asia-pacific",
+      "label": "Kofun period and Yamato state"
+    },
+    {
+      "id": "heian-japan",
+      "region": "asia-pacific",
+      "label": "Heian period"
+    },
+    {
+      "id": "kamakura-shogunate",
+      "region": "asia-pacific",
+      "label": "Kamakura shogunate"
+    },
+    {
+      "id": "ashikaga-shogunate",
+      "region": "asia-pacific",
+      "label": "Ashikaga shogunate (Muromachi period)"
+    },
+    {
+      "id": "tokugawa-shogunate",
+      "region": "asia-pacific",
+      "label": "Tokugawa shogunate (Edo period)"
+    },
+    {
+      "id": "goguryeo",
+      "region": "asia-pacific",
+      "label": "Goguryeo"
+    },
+    {
+      "id": "baekje",
+      "region": "asia-pacific",
+      "label": "Baekje"
+    },
+    {
+      "id": "silla",
+      "region": "asia-pacific",
+      "label": "Silla"
+    },
+    {
+      "id": "goryeo",
+      "region": "asia-pacific",
+      "label": "Goryeo"
+    },
+    {
+      "id": "joseon",
+      "region": "asia-pacific",
+      "label": "Joseon"
+    },
+    {
+      "id": "xiongnu",
+      "region": "asia-pacific",
+      "label": "Xiongnu"
+    },
+    {
+      "id": "mongol-empire",
+      "region": "asia-pacific",
+      "label": "Mongol Empire"
+    },
+    {
+      "id": "funan",
+      "region": "asia-pacific",
+      "label": "Funan"
+    },
+    {
+      "id": "khmer-empire",
+      "region": "asia-pacific",
+      "label": "Khmer Empire"
+    },
+    {
+      "id": "srivijaya",
+      "region": "asia-pacific",
+      "label": "Srivijaya"
+    },
+    {
+      "id": "majapahit",
+      "region": "asia-pacific",
+      "label": "Majapahit"
+    },
+    {
+      "id": "pagan-empire",
+      "region": "asia-pacific",
+      "label": "Pagan Kingdom"
+    },
+    {
+      "id": "dai-viet",
+      "region": "asia-pacific",
+      "label": "Đại Việt"
+    },
+    {
+      "id": "ayutthaya-kingdom",
+      "region": "asia-pacific",
+      "label": "Ayutthaya Kingdom"
+    },
+    {
+      "id": "champa",
+      "region": "asia-pacific",
+      "label": "Champa"
+    },
+    {
+      "id": "lan-xang",
+      "region": "asia-pacific",
+      "label": "Lan Xang"
+    },
+    {
+      "id": "sogdiana",
+      "region": "middle-east",
+      "label": "Sogdiana"
+    },
+    {
+      "id": "khwarazmian-empire",
+      "region": "middle-east",
+      "label": "Khwarazmian Empire"
     }
   ]
 }

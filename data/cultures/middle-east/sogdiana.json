@@ -1,0 +1,270 @@
+{
+  "id": "sogdiana",
+  "region": "middle-east",
+  "wikidataId": "Q486244",
+  "name": {
+    "en": "Sogdia",
+    "es": "Sogdiano",
+    "zh": "粟特"
+  },
+  "aliases": [
+    "Sogdiana",
+    "Sogdians",
+    "Sogdian city-states",
+    "Sughd",
+    "Samarkand",
+    "Marakanda",
+    "Afrasiab",
+    "Pendzhikent",
+    "Panjakent",
+    "粟特人"
+  ],
+  "description": {
+    "en": "Iranian-speaking city-states around Samarkand and Bukhara, between the Amu Darya and Syr Darya. Sogdian merchants carried goods and their language along the Silk Road until Arab armies took the region in 706-712.",
+    "es": "Ciudades-Estado de habla irania en torno a Samarcanda y Bujará, entre el Amu Daria y el Sir Daria. Los mercaderes sogdianos llevaron mercancías y su lengua por la Ruta de la Seda hasta que los ejércitos árabes tomaron la región en 706-712.",
+    "zh": "讲伊朗语的城邦群，位于阿姆河与锡尔河之间，以撒马尔罕和布哈拉为中心。粟特商人沿丝绸之路运送货物、传播语言，直到706至712年阿拉伯军队占领该地区。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "sogdiana",
+      "earliestStart": -599,
+      "latestStart": -520,
+      "earliestEnd": 712,
+      "latestEnd": 900,
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Sogdiana.\"",
+          "url": "https://www.ebsco.com/research-starters/history/sogdiana"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Sogdiana.\"",
+          "url": "https://www.worldhistory.org/sogdiana/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Sogdians Dominate Central Asian Trade.\"",
+          "url": "https://www.ebsco.com/research-starters/history/sogdians-dominate-central-asian-trade"
+        },
+        {
+          "citation": "Dien, Albert E., \"The Glories of Sogdiana.\" Silk Road Foundation.",
+          "url": "http://www.silkroadfoundation.org/artl/sogdian.shtml"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Samarkand's ruins show settlement from the early first millennium BCE, and Persian control began under Cyrus and Darius I (546-521 BCE onward); the start is a loose edge. The Arab takeover ran from 706 to 712. Sogdian influence faded after about 750, and cities such as Pendzhikent and Varaksha were abandoned in the 9th century.",
+        "es": "Las ruinas de Samarcanda muestran poblamiento desde principios del primer milenio a. C., y el control persa empezó con Ciro y Darío I (desde 546-521 a. C.); el inicio es un límite impreciso. La toma árabe se extendió de 706 a 712. La influencia sogdiana decayó tras 750 aproximadamente, y ciudades como Pendzhikent y Varaksha fueron abandonadas en el siglo IX.",
+        "zh": "撒马尔罕的遗址显示，该地自公元前一千纪初就有人居住，波斯的统治始于居鲁士和大流士一世时期（约公元前546至前521年起）；起点只是一个宽松的界线。阿拉伯人的占领从706年持续到712年。约750年以后粟特的影响逐渐减弱，片吉肯特、瓦拉赫沙等城市在9世纪被废弃。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "achaemenid",
+      "start": -545,
+      "end": -520,
+      "type": "conflict",
+      "title": {
+        "en": "Sogdiana passes under Achaemenid Persian rule and becomes a satrapy",
+        "es": "Sogdiana pasa al dominio persa aqueménida y se convierte en satrapía",
+        "zh": "粟特落入波斯阿契美尼德王朝统治，成为一个总督辖区"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Sogdiana.\"",
+          "url": "https://www.worldhistory.org/sogdiana/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Sogdiana.\"",
+          "url": "https://www.ebsco.com/research-starters/history/sogdiana"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "World History Encyclopedia dates Persian control to Cyrus, between 546 and 539 BCE. EBSCO lists Sogdiana as a satrapy of Darius I, who reigned from 521 BCE.",
+        "es": "World History Encyclopedia data el control persa con Ciro, entre 546 y 539 a. C. EBSCO describe Sogdiana como satrapía de Darío I, que reinó desde 521 a. C.",
+        "zh": "世界历史百科把波斯的控制定在居鲁士时期，即公元前546至前539年之间。EBSCO则称粟特是大流士一世（公元前521年起在位）的一个总督辖区。"
+      }
+    },
+    {
+      "id": "alexander",
+      "start": -328,
+      "end": -326,
+      "type": "conflict",
+      "title": {
+        "en": "Alexander the Great conquers Bactria and Sogdiana after hard fighting",
+        "es": "Alejandro Magno conquista Bactriana y Sogdiana tras duros combates",
+        "zh": "亚历山大大帝经过激战征服大夏和粟特"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Alexander the Great.\"",
+          "url": "https://www.worldhistory.org/Alexander_the_Great/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Sogdiana.\"",
+          "url": "https://www.ebsco.com/research-starters/history/sogdiana"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The campaign ran from early 329 to May 327 BCE in World History Encyclopedia and ended in 328/7 BCE in EBSCO's account.",
+        "es": "La campaña se extendió de principios de 329 a mayo de 327 a. C. según World History Encyclopedia y terminó en 328/7 a. C. según EBSCO.",
+        "zh": "世界历史百科把这场战役记为公元前329年初至前327年5月，EBSCO则记为在公元前328/327年结束。"
+      },
+      "place": {
+        "name": {
+          "en": "Marakanda (Afrasiab, Samarkand)",
+          "es": "Marakanda (Afrasiab, Samarcanda)",
+          "zh": "马拉坎达（阿弗拉西阿卜，撒马尔罕）"
+        },
+        "lat": 39.67,
+        "lon": 66.99
+      }
+    },
+    {
+      "id": "silk-road-trade",
+      "start": 501,
+      "end": 800,
+      "type": "invention",
+      "title": {
+        "en": "Sogdian merchants dominate Central Asian trade, and Sogdian becomes the common language along the Silk Road",
+        "es": "Los mercaderes sogdianos dominan el comercio centroasiático y el sogdiano se convierte en lengua común a lo largo de la Ruta de la Seda",
+        "zh": "粟特商人垄断中亚贸易，粟特语成为丝绸之路沿线的通用语言"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Sogdians Dominate Central Asian Trade.\"",
+          "url": "https://www.ebsco.com/research-starters/history/sogdians-dominate-central-asian-trade"
+        },
+        {
+          "citation": "Dien, Albert E., \"The Glories of Sogdiana.\" Silk Road Foundation.",
+          "url": "http://www.silkroadfoundation.org/artl/sogdian.shtml"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The dates are the 6th through 8th centuries, the peak period EBSCO gives.",
+        "es": "Las fechas abarcan del siglo VI al VIII, el periodo de apogeo que indica EBSCO.",
+        "zh": "起止年份为6世纪至8世纪，即EBSCO给出的鼎盛时期。"
+      }
+    },
+    {
+      "id": "afrasiab-murals",
+      "start": 648,
+      "end": 651,
+      "type": "invention",
+      "title": {
+        "en": "Murals of foreign envoys are painted in a hall at Afrasiab, with an inscription naming Samarkand's king Varkhuman",
+        "es": "Se pintan en una sala de Afrasiab murales de enviados extranjeros, con una inscripción que nombra a Varkhuman, rey de Samarcanda",
+        "zh": "阿弗拉西阿卜的一间大厅里绘制了外国使节的壁画，铭文提到撒马尔罕国王拂呼缦"
+      },
+      "sources": [
+        {
+          "citation": "Dien, Albert E., \"The Glories of Sogdiana.\" Silk Road Foundation.",
+          "url": "http://www.silkroadfoundation.org/artl/sogdian.shtml"
+        },
+        {
+          "citation": "Wikipedia, \"Afrasiab painting.\"",
+          "url": "https://en.wikipedia.org/wiki/Afrasiab_painting"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia dates the murals to 648-651 and describes the room as part of a private house; Albert Dien calls it a large audience hall and notes that scholars still debate how to read the paintings, including who commissioned them.",
+        "es": "Wikipedia data los murales en 648-651 y describe la sala como parte de una casa privada; Albert Dien la llama una gran sala de audiencias y señala que los especialistas aún debaten cómo interpretar las pinturas, incluido quién las encargó.",
+        "zh": "维基百科把壁画定在648至651年，并称该房间属于一座民宅；艾伯特·丁（Albert Dien）称之为大型觐见厅，并指出学者对如何解读这些壁画（包括由谁出资绘制）仍有争论。"
+      },
+      "place": {
+        "name": {
+          "en": "Afrasiab, Samarkand",
+          "es": "Afrasiab, Samarcanda",
+          "zh": "阿弗拉西阿卜，撒马尔罕"
+        },
+        "lat": 39.67,
+        "lon": 66.99
+      }
+    },
+    {
+      "id": "tang-protectorate",
+      "start": 650,
+      "end": 675,
+      "type": "ruler",
+      "title": {
+        "en": "Tang China makes Samarkand a governor-generalship and names its king, Varkhuman, governor-general",
+        "es": "La China Tang convierte Samarcanda en gobernación general y nombra gobernador general a su rey, Varkhuman",
+        "zh": "唐朝在撒马尔罕设立都督府，并任命其国王拂呼缦为都督"
+      },
+      "sources": [
+        {
+          "citation": "Dien, Albert E., \"The Glories of Sogdiana.\" Silk Road Foundation.",
+          "url": "http://www.silkroadfoundation.org/artl/sogdian.shtml"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Sogdians Dominate Central Asian Trade.\"",
+          "url": "https://www.ebsco.com/research-starters/history/sogdians-dominate-central-asian-trade"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "Dien says the governor-generalship was set up \"sometime after 650\". EBSCO dates the Chinese protectorate to 650-675.",
+        "es": "Dien dice que la gobernación general se creó \"algún tiempo después de 650\". EBSCO data el protectorado chino en 650-675.",
+        "zh": "丁（Dien）称都督府设于“650年之后的某个时候”。EBSCO把中国的保护期定在650至675年。"
+      }
+    },
+    {
+      "id": "arab-conquest",
+      "start": 706,
+      "end": 712,
+      "type": "conflict",
+      "title": {
+        "en": "Umayyad armies take over Sogdiana, and conversion to Islam spreads after about 750",
+        "es": "Los ejércitos omeyas se hacen con Sogdiana, y la conversión al islam se extiende desde hacia 750",
+        "zh": "倭马亚王朝军队占领粟特，约750年以后伊斯兰教的皈依逐渐普及"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Sogdians Dominate Central Asian Trade.\"",
+          "url": "https://www.ebsco.com/research-starters/history/sogdians-dominate-central-asian-trade"
+        },
+        {
+          "citation": "Dien, Albert E., \"The Glories of Sogdiana.\" Silk Road Foundation.",
+          "url": "http://www.silkroadfoundation.org/artl/sogdian.shtml"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Samarkand",
+          "es": "Samarcanda",
+          "zh": "撒马尔罕"
+        },
+        "lat": 39.6542,
+        "lon": 66.9597
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "pendzhikent-murals",
+      "text": {
+        "en": "At Pendzhikent, excavated houses show that about a third of them had painted murals and carved wood.",
+        "es": "En Pendzhikent, las casas excavadas muestran que alrededor de un tercio tenía murales pintados y madera tallada.",
+        "zh": "在片吉肯特，发掘出的房屋显示，约三分之一的住宅装饰有壁画和木雕。"
+      },
+      "start": 401,
+      "end": 720,
+      "sources": [
+        {
+          "citation": "Dien, Albert E., \"The Glories of Sogdiana.\" Silk Road Foundation.",
+          "url": "http://www.silkroadfoundation.org/artl/sogdian.shtml"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

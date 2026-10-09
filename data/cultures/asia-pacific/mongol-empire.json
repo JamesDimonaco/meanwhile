@@ -1,0 +1,360 @@
+{
+  "id": "mongol-empire",
+  "region": "asia-pacific",
+  "wikidataId": "Q12557",
+  "name": {
+    "en": "Mongol Empire",
+    "es": "Imperio mongol",
+    "zh": "蒙古帝国"
+  },
+  "aliases": [
+    "Mongols",
+    "Genghis Khan's empire",
+    "Imperio de Gengis Kan",
+    "Golden Horde",
+    "Ilkhanate",
+    "成吉思汗帝国"
+  ],
+  "description": {
+    "en": "Founded by Genghis Khan in 1206, the empire spread from Mongolia across Asia into eastern Europe, taking Beijing, Samarkand, Kyiv and Baghdad. From 1260 it broke into separate khanates, and Mongol rule in China ended in 1368.",
+    "es": "Fundado por Gengis Kan en 1206, el imperio se extendió desde Mongolia por Asia hasta Europa oriental y tomó Pekín, Samarcanda, Kiev y Bagdad. Desde 1260 se fue dividiendo en kanatos separados, y el dominio mongol en China terminó en 1368.",
+    "zh": "成吉思汗1206年建立，帝国从蒙古高原扩展到整个亚洲和东欧，攻占了北京、撒马尔罕、基辅和巴格达。1260年起分裂为若干汗国，1368年蒙古人在中国的统治结束。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "mongol-empire",
+      "earliestStart": 1206,
+      "latestStart": 1206,
+      "earliestEnd": 1368,
+      "latestEnd": 1370,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Mongol Empire\" (AD 1206 – AD 1370), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hdh7z"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_Empire"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "periodoId": "p08m57hdh7z",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia and World History Encyclopedia end the empire in 1368, when Mongol rule in China ended. PeriodO ends it in 1370. The break-up was gradual: World History Encyclopedia says the khanates were fully autonomous from 1260, while Wikipedia dates a civil war between Kublai and Ariq Böke to 1260–64 and says the empire was four separate khanates by Kublai's death in 1294. The end date depends on which successor state is counted.",
+        "es": "Wikipedia y World History Encyclopedia terminan el imperio en 1368, cuando acabó el dominio mongol en China. PeriodO lo termina en 1370. La disolución fue gradual: World History Encyclopedia dice que los kanatos fueron plenamente autónomos desde 1260, mientras que Wikipedia fecha una guerra civil entre Kublai y Ariq Böke en 1260–64 y dice que el imperio eran cuatro kanatos separados a la muerte de Kublai en 1294. La fecha final depende de qué Estado sucesor se cuente.",
+        "zh": "维基百科和World History Encyclopedia把帝国的终点定在1368年，即蒙古人在中国的统治结束之时。PeriodO定为1370年。解体是逐步发生的：World History Encyclopedia称各汗国从1260年起完全自治，维基百科则把忽必烈与阿里不哥的内战定在1260至1264年，并称1294年忽必烈去世时帝国已成为四个独立的汗国。终点取决于计入哪个继承国。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "unified-empire",
+      "name": {
+        "en": "Unified empire",
+        "es": "Imperio unido",
+        "zh": "统一帝国"
+      },
+      "start": 1206,
+      "end": 1260,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ]
+    },
+    {
+      "id": "four-khanates",
+      "name": {
+        "en": "Four khanates",
+        "es": "Cuatro kanatos",
+        "zh": "四大汗国"
+      },
+      "start": 1260,
+      "end": 1368,
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_Empire"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "genghis-khan-proclaimed",
+      "start": 1206,
+      "type": "founding",
+      "title": {
+        "en": "A kurultai of tribal leaders proclaims Genghis Khan ruler of the Mongols",
+        "es": "Un kurultai de jefes tribales proclama a Gengis Kan gobernante de los mongoles",
+        "zh": "各部首领的忽里勒台大会拥立成吉思汗为蒙古大汗"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Mongol Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_Empire"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "fall-of-zhongdu",
+      "start": 1215,
+      "type": "conflict",
+      "title": {
+        "en": "The Mongols take Zhongdu (Beijing) from the Jin dynasty",
+        "es": "Los mongoles toman Zhongdu (Pekín) a la dinastía Jin",
+        "zh": "蒙古人从金朝手中夺取中都（北京）"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Siege of Zhongdu\".",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Zhongdu"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Genghis Khan.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Genghis_Khan/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Beijing",
+          "es": "Pekín",
+          "zh": "北京"
+        },
+        "lat": 39.9,
+        "lon": 116.4
+      }
+    },
+    {
+      "id": "khwarazm-campaign",
+      "start": 1219,
+      "end": 1221,
+      "type": "conflict",
+      "title": {
+        "en": "The Mongols attack the Khwarazmian empire and take Bukhara, Samarkand and Urgench",
+        "es": "Los mongoles atacan el imperio joresmio y toman Bujará, Samarcanda y Urgench",
+        "zh": "蒙古进攻花剌子模，攻占布哈拉、撒马尔罕和玉龙杰赤"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Mongol invasion of Khwarazmia\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Khwarazmia"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia dates the invasion to 1219–1221, after the Khwarazmshah had Mongol merchants executed at Otrar; Samarkand fell in 1220 and Urgench (Gurganj) in 1221. World History Encyclopedia has the attack beginning in 1218. Khwarazmian resistance under Jalal al-Din lasted until 1231.",
+        "es": "Wikipedia fecha la invasión en 1219–1221, tras la ejecución de mercaderes mongoles por orden del sah joresmio en Otrar; Samarcanda cayó en 1220 y Urgench (Gurganj) en 1221. World History Encyclopedia sitúa el inicio del ataque en 1218. La resistencia joresmia bajo Jalal al-Din duró hasta 1231.",
+        "zh": "维基百科把这场入侵定在1219至1221年，起因是花剌子模沙在讹答剌处死蒙古商人；撒马尔罕1220年陷落，玉龙杰赤（Gurganj）1221年陷落。World History Encyclopedia则说进攻始于1218年。花剌子模在札兰丁领导下的抵抗持续到1231年。"
+      },
+      "place": {
+        "name": {
+          "en": "Samarkand",
+          "es": "Samarcanda",
+          "zh": "撒马尔罕"
+        },
+        "lat": 39.65,
+        "lon": 66.96
+      }
+    },
+    {
+      "id": "sack-of-kyiv",
+      "start": 1240,
+      "type": "conflict",
+      "title": {
+        "en": "Batu's army takes and sacks Kyiv",
+        "es": "El ejército de Batu toma y saquea Kiev",
+        "zh": "拔都的大军攻占并洗劫基辅"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopedia of Ukraine, \"Tatars\".",
+          "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CT%5CA%5CTatars.htm"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The Encyclopedia of Ukraine dates the fall of the city to 6 December 1240.",
+        "es": "La Encyclopedia of Ukraine fecha la caída de la ciudad el 6 de diciembre de 1240.",
+        "zh": "《乌克兰百科全书》把该城陷落定在1240年12月6日。"
+      },
+      "place": {
+        "name": {
+          "en": "Kyiv",
+          "es": "Kiev",
+          "zh": "基辅"
+        },
+        "lat": 50.45,
+        "lon": 30.52
+      }
+    },
+    {
+      "id": "sack-of-baghdad",
+      "start": 1258,
+      "type": "conflict",
+      "title": {
+        "en": "Hülegü's army takes Baghdad, and the last Abbasid caliph of Baghdad is executed",
+        "es": "El ejército de Hülegü toma Bagdad, y el último califa abasí de Bagdad es ejecutado",
+        "zh": "旭烈兀的大军攻占巴格达，巴格达的末代阿拔斯哈里发被处死"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Siege of Baghdad (1258)\".",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "disputed": true,
+      "place": {
+        "name": {
+          "en": "Baghdad",
+          "es": "Bagdad",
+          "zh": "巴格达"
+        },
+        "lat": 33.31,
+        "lon": 44.37
+      },
+      "note": {
+        "en": "The siege ran from late January to 10 February 1258, and Wikipedia says the caliph al-Musta'sim was executed on 20 February. The Abbasid line continued in Cairo under the Mamluks. Death tolls are contested: Wikipedia lists Hülegü's own claim of about 200,000, Muslim chroniclers' figures of 800,000 to 2,000,000, and calls the highest count obviously inflated.",
+        "es": "El asedio duró desde finales de enero hasta el 10 de febrero de 1258, y Wikipedia dice que el califa al-Musta'sim fue ejecutado el 20 de febrero. La línea abasí continuó en El Cairo bajo los mamelucos. Las cifras de muertos son discutidas: Wikipedia recoge la afirmación del propio Hülegü, unos 200 000, las cifras de cronistas musulmanes, de 800 000 a 2 000 000, y califica la más alta de claramente inflada.",
+        "zh": "围城从1月下旬持续到1258年2月10日，维基百科称哈里发穆斯台绥木于2月20日被处死。阿拔斯家族的一支此后在开罗的马穆鲁克治下延续。死亡人数存在争议：维基百科列出旭烈兀自称的约20万人、穆斯林史家所记的80万至200万人，并称最高的数字明显夸大。"
+      }
+    },
+    {
+      "id": "ain-jalut",
+      "start": 1260,
+      "type": "conflict",
+      "title": {
+        "en": "A Mamluk army defeats the Mongols at Ain Jalut",
+        "es": "Un ejército mameluco derrota a los mongoles en Ain Yalut",
+        "zh": "马穆鲁克军队在艾因·扎鲁特击败蒙古人"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Battle of Ain Jalut\".",
+          "url": "https://www.ebsco.com/research-starters/history/battle-ain-jalut/"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_Empire"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "EBSCO dates the battle to 3 September 1260.",
+        "es": "EBSCO fecha la batalla el 3 de septiembre de 1260.",
+        "zh": "EBSCO把这场战役定在1260年9月3日。"
+      },
+      "place": {
+        "name": {
+          "en": "Ain Jalut",
+          "es": "Ain Yalut",
+          "zh": "艾因·扎鲁特"
+        },
+        "lat": 32.55,
+        "lon": 35.38
+      }
+    },
+    {
+      "id": "kublai-khan-succeeds",
+      "start": 1260,
+      "type": "ruler",
+      "title": {
+        "en": "Kublai and his brother Ariq Böke fight a civil war for the throne, and the khanates begin to part",
+        "es": "Kublai y su hermano Ariq Böke libran una guerra civil por el trono, y los kanatos empiezan a separarse",
+        "zh": "忽必烈与其弟阿里不哥为汗位爆发内战，各汗国开始分离"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_Empire"
+        }
+      ],
+      "disputed": true,
+      "end": 1264,
+      "note": {
+        "en": "Wikipedia dates the Toluid Civil War between Kublai and Ariq Böke to 1260–64. World History Encyclopedia says the four khanates were fully autonomous from 1260, while Wikipedia says the empire was four separate khanates by 1294.",
+        "es": "Wikipedia fecha la guerra civil tolúida entre Kublai y Ariq Böke en 1260–64. World History Encyclopedia dice que los cuatro kanatos fueron plenamente autónomos desde 1260, mientras que Wikipedia dice que el imperio eran cuatro kanatos separados en 1294.",
+        "zh": "维基百科把忽必烈与阿里不哥之间的拖雷系内战定在1260至1264年。World History Encyclopedia称四大汗国从1260年起完全自治，维基百科则称到1294年帝国已成为四个独立的汗国。"
+      }
+    },
+    {
+      "id": "end-of-yuan-rule",
+      "start": 1368,
+      "type": "collapse",
+      "title": {
+        "en": "The Yuan dynasty loses control of China to the Ming, and Mongol rule there ends",
+        "es": "La dinastía Yuan pierde el control de China ante los Ming, y termina el dominio mongol allí",
+        "zh": "元朝在中国失势，明朝取而代之，蒙古人在中国的统治结束"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Mongol Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_Empire"
+        },
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "karakorum-and-yam",
+      "start": 1235,
+      "end": 1235,
+      "text": {
+        "en": "In 1235 the Mongols chose Karakorum in Mongolia as their capital. The Yam relay network was expanded, wells along trade routes were protected, and travelling merchants got military protection.",
+        "es": "En 1235 los mongoles eligieron Karakórum, en Mongolia, como capital. Se amplió la red de postas Yam, se protegieron los pozos de las rutas comerciales y los mercaderes viajeros recibieron protección militar.",
+        "zh": "1235年，蒙古人选定蒙古的哈拉和林为都城。驿站网络得到扩展，商路沿线的水井受到保护，过往商人获得军队保护。"
+      },
+      "sources": [
+        {
+          "citation": "Cartwright, Mark. \"Mongol Empire.\" World History Encyclopedia.",
+          "url": "https://www.worldhistory.org/Mongol_Empire/"
+        },
+        {
+          "citation": "Wikipedia, \"Mongol Empire\".",
+          "url": "https://en.wikipedia.org/wiki/Mongol_Empire"
+        }
+      ]
+    }
+  ]
+}

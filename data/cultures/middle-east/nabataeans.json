@@ -1,0 +1,325 @@
+{
+  "id": "nabataeans",
+  "region": "middle-east",
+  "wikidataId": "Q220594",
+  "name": {
+    "en": "Nabataeans",
+    "es": "Nabateos",
+    "zh": "纳巴泰人"
+  },
+  "aliases": [
+    "Nabataean kingdom",
+    "Nabatean",
+    "Nabatea",
+    "Petra",
+    "Hegra",
+    "Mada'in Salih",
+    "Reino nabateo",
+    "纳巴泰王国",
+    "佩特拉"
+  ],
+  "description": {
+    "en": "Arab traders who controlled incense and spice routes across what is now Jordan and the Negev from Petra, a capital cut into sandstone cliffs. They stored water in hidden cisterns, wrote in a script derived from Aramaic, and lost their kingdom to Rome in 106 CE.",
+    "es": "Comerciantes árabes que controlaron las rutas del incienso y las especias por la actual Jordania y el Néguev desde Petra, una capital tallada en acantilados de arenisca. Almacenaban agua en cisternas ocultas, escribían con una escritura derivada del arameo y perdieron su reino ante Roma en 106 e. c.",
+    "zh": "阿拉伯商人，以开凿于砂岩峭壁中的都城佩特拉为中心，控制着穿越今约旦和内盖夫的香料与乳香商路。他们把水储存在隐蔽的蓄水池里，使用源自阿拉姆文的文字，公元106年王国被罗马吞并。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "nabatean-period",
+      "earliestStart": -311,
+      "latestStart": -167,
+      "earliestEnd": 105,
+      "latestEnd": 106,
+      "sources": [
+        {
+          "citation": "Brown University Petra Great Temple excavations (2017), Volume III, via PeriodO: \"Nabatean period\" (312 BC – AD 106).",
+          "url": "http://n2t.net/ark:/99152/p06m4n4rbmq"
+        },
+        {
+          "citation": "The New Encyclopedia of Archaeological Excavations in the Holy Land (1993), vol. 4, via PeriodO: \"Nabatean kingdom\" (168 BCE – 106 CE).",
+          "url": "http://n2t.net/ark:/99152/p0dkm292wdr"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Kingdom of Nabatea\" (a Greek expedition against the Nabataeans in 312 BCE; kingdom dated from 168 BCE, the first known king, to annexation by Rome under Trajan in 106 CE).",
+          "url": "https://www.worldhistory.org/Kingdom_of_Nabatea/"
+        }
+      ],
+      "periodoId": "p06m4n4rbmq",
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "The bar starts at the first certain written mention of the Nabataeans (312 BCE) and turns solid at 168 BCE, the date of the oldest known Nabataean inscription, which names a king.",
+        "es": "La barra comienza con la primera mención escrita segura de los nabateos (312 a. e. c.) y se vuelve sólida en 168 a. e. c., fecha de la inscripción nabatea más antigua conocida, que nombra a un rey.",
+        "zh": "这条横栏从纳巴泰人的首次确凿文字记载（公元前312年）开始，到公元前168年变为实线，这是已知最古老的纳巴泰铭文的年代，铭文提到了一位国王。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "early",
+      "name": {
+        "en": "Early Nabataean",
+        "es": "Nabateo temprano",
+        "zh": "早期"
+      },
+      "start": -167,
+      "end": -84,
+      "sources": [
+        {
+          "citation": "Erickson-Gini, Tali (2010). Nabataean Settlement and Self-Organized Economy in the Central Negev, via PeriodO: \"Early Nabataean\" (ca. 168 – 85 BCE).",
+          "url": "http://n2t.net/ark:/99152/p0fzbh63k67"
+        }
+      ]
+    },
+    {
+      "id": "middle",
+      "name": {
+        "en": "Middle Nabataean",
+        "es": "Nabateo medio",
+        "zh": "中期"
+      },
+      "start": -84,
+      "end": 70,
+      "sources": [
+        {
+          "citation": "Erickson-Gini, Tali (2010). Nabataean Settlement and Self-Organized Economy in the Central Negev, via PeriodO: \"Middle Nabataean\" (85 BCE – 70 CE).",
+          "url": "http://n2t.net/ark:/99152/p0fzbh6s7s4"
+        }
+      ]
+    },
+    {
+      "id": "late",
+      "name": {
+        "en": "Late Nabataean",
+        "es": "Nabateo tardío",
+        "zh": "晚期"
+      },
+      "start": 70,
+      "end": 106,
+      "sources": [
+        {
+          "citation": "Erickson-Gini, Tali (2010). Nabataean Settlement and Self-Organized Economy in the Central Negev, via PeriodO: \"Late Nabataean\" (70 – 106 CE).",
+          "url": "http://n2t.net/ark:/99152/p0fzbh6ck34"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "antigonus-attack",
+      "start": -311,
+      "type": "conflict",
+      "title": {
+        "en": "Antigonus I sends troops against the Nabataeans at a rock refuge, the first certain mention of them in writing",
+        "es": "Antígono I envía tropas contra los nabateos en un refugio rocoso, la primera mención escrita segura de ellos",
+        "zh": "安提柯一世派兵攻打纳巴泰人的岩石避难所，这是他们最早的确凿文字记载"
+      },
+      "sources": [
+        {
+          "citation": "Livius.org, \"Diodorus on the Nabataeans\" (Diodorus 19.94–100, drawing on Hieronymus of Cardia).",
+          "url": "https://www.livius.org/sources/content/diodorus/diodorus-on-the-nabataeans/"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Kingdom of Nabatea\" (a Greek expedition against the Nabataeans in 312 BCE; kingdom dated from 168 BCE, the first known king, to annexation by Rome under Trajan in 106 CE).",
+          "url": "https://www.worldhistory.org/Kingdom_of_Nabatea/"
+        },
+        {
+          "citation": "Wikipedia, \"Nabataeans\" (first mention 312/311 BC).",
+          "url": "https://en.wikipedia.org/wiki/Nabataeans"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Diodorus describes an attack on 'a certain rock'. Some scholars identify it with Petra, others with Sela (Es-Sela).",
+        "es": "Diodoro describe un ataque a 'cierta roca'. Algunos especialistas la identifican con Petra, otros con Sela (Es-Sela).",
+        "zh": "狄奥多罗斯描述了对“一块岩石”的进攻。有学者认为这块岩石是佩特拉，也有人认为是塞拉（埃斯-塞拉）。"
+      }
+    },
+    {
+      "id": "aretas-i",
+      "start": -167,
+      "type": "ruler",
+      "title": {
+        "en": "Aretas I becomes the first Nabataean king named in surviving sources, in an inscription at Halutza and in 2 Maccabees",
+        "es": "Aretas I es el primer rey nabateo nombrado en las fuentes conservadas, en una inscripción de Halutza y en 2 Macabeos",
+        "zh": "阿雷塔斯一世成为现存资料中最早被提及的纳巴泰国王，见于哈卢扎的铭文和《玛加伯下》"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Aretas I\" (oldest Nabataean inscription, 168 BC, at Halutza; 2 Maccabees 5:8).",
+          "url": "https://en.wikipedia.org/wiki/Aretas_I"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Kingdom of Nabatea\" (a Greek expedition against the Nabataeans in 312 BCE; kingdom dated from 168 BCE, the first known king, to annexation by Rome under Trajan in 106 CE).",
+          "url": "https://www.worldhistory.org/Kingdom_of_Nabatea/"
+        },
+        {
+          "citation": "Nabataea.net, \"History of Nabataea\".",
+          "url": "https://nabataea.net/explore/history/history/"
+        },
+        {
+          "citation": "The New Encyclopedia of Archaeological Excavations in the Holy Land (1993), vol. 4, via PeriodO: \"Nabatean kingdom\" begins 168 BCE.",
+          "url": "http://n2t.net/ark:/99152/p0dkm292wdr"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give 169 or 168 BCE.",
+        "es": "Las fuentes dan 169 o 168 a. e. c.",
+        "zh": "各资料给出的年份为公元前169年或168年。"
+      }
+    },
+    {
+      "id": "aretas-iii-damascus",
+      "start": -84,
+      "type": "conflict",
+      "title": {
+        "en": "Aretas III becomes ruler of Damascus as Seleucid power fails there, and has coins struck with his name in Greek",
+        "es": "Aretas III pasa a gobernar Damasco cuando el poder seléucida se desmorona allí, y manda acuñar monedas con su nombre en griego",
+        "zh": "阿雷塔斯三世在塞琉古势力衰落之际成为大马士革的统治者，并铸造以希腊文刻其名的钱币"
+      },
+      "sources": [
+        {
+          "citation": "Nabataea.net, \"History of Nabataea\" (in 85 BC Aretas III occupied Damascus at the request of its citizens; coins with his image and his name in Greek).",
+          "url": "https://nabataea.net/explore/history/history/"
+        },
+        {
+          "citation": "Wikipedia, \"Aretas III\" (reigned 87–62 BCE; Damascus around 85 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Aretas_III"
+        },
+        {
+          "citation": "Wikipedia, \"Nabataeans\" (lord of Damascus and Coele-Syria, 85 BC).",
+          "url": "https://en.wikipedia.org/wiki/Nabataeans"
+        }
+      ],
+      "disputed": true,
+      "place": {
+        "name": {
+          "en": "Damascus",
+          "es": "Damasco",
+          "zh": "大马士革"
+        },
+        "lat": 33.5138,
+        "lon": 36.2765
+      },
+      "note": {
+        "en": "Accounts differ on how he gained Damascus: some say he occupied it at its citizens' request, others that he took it from the weakening Seleucids. The year, about 85 BCE, is not in dispute.",
+        "es": "Los relatos difieren sobre cómo obtuvo Damasco: unos dicen que la ocupó a petición de sus ciudadanos, otros que se la arrebató a unos seléucidas cada vez más débiles. El año, hacia 85 a. e. c., no se discute.",
+        "zh": "关于他如何获得大马士革，说法不一：有的说他应该城居民之请而占领，有的说他从日渐衰弱的塞琉古人手中夺取了该城。年份约为公元前85年，这一点没有争议。"
+      }
+    },
+    {
+      "id": "treasury",
+      "start": 1,
+      "type": "invention",
+      "title": {
+        "en": "The Treasury (Al-Khazneh) is carved into the cliff at Petra, probably for King Aretas IV",
+        "es": "El Tesoro (Al-Khazneh) se talla en el acantilado de Petra, probablemente para el rey Aretas IV",
+        "zh": "卡兹尼神殿（宝库）在佩特拉的峭壁上凿成，很可能是为阿雷塔斯四世国王所建"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia, \"Al-Khazneh\" (mausoleum and crypt, early 1st century AD, reign of Aretas IV).",
+          "url": "https://en.wikipedia.org/wiki/Al-Khazneh"
+        },
+        {
+          "citation": "University of St Andrews news, \"St Andrews researchers discover hidden tomb at Petra\" (tomb walls dated mid 1st century BC to early 2nd century AD).",
+          "url": "https://news.st-andrews.ac.uk/archive/st-andrews-researchers-make-historic-discovery-underneath-one-of-the-seven-wonders-of-the-world/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The facade has no dated inscription. It is usually placed in the late 1st century BCE or early 1st century CE and attributed to Aretas IV. Sediment analysis of a tomb beneath it gives a range from the mid 1st century BCE to the early 2nd century CE.",
+        "es": "La fachada no tiene inscripción fechada. Suele situarse a finales del siglo I a. e. c. o a comienzos del siglo I e. c. y atribuirse a Aretas IV. El análisis de sedimentos de una tumba bajo ella da un margen que va de mediados del siglo I a. e. c. a comienzos del siglo II e. c.",
+        "zh": "这座立面上没有纪年铭文。通常认为它建于公元前1世纪末或公元1世纪初，属于阿雷塔斯四世。对其下一座墓室的沉积物检测给出的年代范围是公元前1世纪中叶至公元2世纪初。"
+      },
+      "place": {
+        "name": {
+          "en": "Petra",
+          "es": "Petra",
+          "zh": "佩特拉"
+        },
+        "lat": 30.3216,
+        "lon": 35.4513
+      }
+    },
+    {
+      "id": "roman-annexation",
+      "start": 106,
+      "type": "collapse",
+      "title": {
+        "en": "Rome annexes the Nabataean kingdom under Trajan and makes it the province of Arabia",
+        "es": "Roma anexiona el reino nabateo bajo Trajano y lo convierte en la provincia de Arabia",
+        "zh": "罗马在图拉真治下吞并纳巴泰王国，将其改为阿拉伯行省"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Kingdom of Nabatea\" (a Greek expedition against the Nabataeans in 312 BCE; kingdom dated from 168 BCE, the first known king, to annexation by Rome under Trajan in 106 CE).",
+          "url": "https://www.worldhistory.org/Kingdom_of_Nabatea/"
+        },
+        {
+          "citation": "Nabataea.net, \"History of Nabataea\".",
+          "url": "https://nabataea.net/explore/history/history/"
+        },
+        {
+          "citation": "The New Encyclopedia of Archaeological Excavations in the Holy Land (1993), vol. 4, via PeriodO: \"Nabatean kingdom\" ends 106 CE.",
+          "url": "http://n2t.net/ark:/99152/p0dkm292wdr"
+        },
+        {
+          "citation": "Wikipedia, \"Arabia Petraea\" (annexation in 106 AD; Rabbel II died in 105).",
+          "url": "https://en.wikipedia.org/wiki/Arabia_Petraea"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Rabbel II died in early 105 CE. Sources date the annexation to 105 or 106 CE.",
+        "es": "Rabel II murió a comienzos de 105 e. c. Las fuentes datan la anexión en 105 o 106 e. c.",
+        "zh": "拉贝尔二世于公元105年初去世。各资料将吞并定在公元105年或106年。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "hidden-cisterns",
+      "text": {
+        "en": "A Greek account of events in 312 BCE says the Nabataeans banned planting grain or building houses, and hid stucco-lined water cisterns in the desert.",
+        "es": "Un relato griego de hechos del 312 a. e. c. dice que los nabateos prohibían sembrar cereales y construir casas, y escondían en el desierto cisternas de agua revestidas de estuco.",
+        "zh": "一份记述公元前312年事件的希腊史料称，纳巴泰人禁止种植谷物和建造房屋，并在沙漠中隐藏涂有灰泥的蓄水池。"
+      },
+      "start": -311,
+      "end": -167,
+      "sources": [
+        {
+          "citation": "Livius.org, \"Diodorus on the Nabataeans\" (Diodorus 19.94–100).",
+          "url": "https://www.livius.org/sources/content/diodorus/diodorus-on-the-nabataeans/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "script-to-arabic",
+      "text": {
+        "en": "The Nabataean script, in use from the 2nd century BCE, developed into a cursive form from which the Arabic alphabet grew.",
+        "es": "La escritura nabatea, en uso desde el siglo II a. e. c., desarrolló una forma cursiva de la que surgió el alfabeto árabe.",
+        "zh": "纳巴泰文字自公元前2世纪起使用，后来发展出一种草书体，阿拉伯字母即由此而来。"
+      },
+      "start": -199,
+      "end": 106,
+      "sources": [
+        {
+          "citation": "Omniglot, \"Nabataean\" (script developed from Aramaic in the 2nd century BC; the Arabic script grew from cursive Nabataean).",
+          "url": "https://www.omniglot.com/writing/nabataean.htm"
+        },
+        {
+          "citation": "Wikipedia, \"Nabataean alphabet\".",
+          "url": "https://en.wikipedia.org/wiki/Nabataean_alphabet"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

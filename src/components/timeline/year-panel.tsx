@@ -57,7 +57,7 @@ export function YearPanel({
             .filter((e) => e.id !== selected?.culture.id)
             .map(({ id, name, href, span, certain, color }) => (
               <li key={id} className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5 text-sm">
-                <Link href={href} className="inline-flex min-w-0 items-baseline gap-1.5 underline-offset-2 hover:underline">
+                <Link prefetch={false} href={href} className="inline-flex min-w-0 items-baseline gap-1.5 underline-offset-2 hover:underline">
                   <span aria-hidden className="inline-block size-2 shrink-0 rounded-full" style={{ backgroundColor: color }} />
                   {name}
                 </Link>

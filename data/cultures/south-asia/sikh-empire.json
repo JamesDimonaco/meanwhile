@@ -1,0 +1,301 @@
+{
+  "id": "sikh-empire",
+  "region": "south-asia",
+  "wikidataId": "Q83572",
+  "name": {
+    "en": "Sikh Empire",
+    "es": "Imperio sij",
+    "zh": "锡克帝国"
+  },
+  "aliases": [
+    "Sikh Raj",
+    "Sarkar-i-Khalsa",
+    "Lahore Durbar",
+    "Kingdom of Lahore"
+  ],
+  "description": {
+    "en": "A Punjabi state built by Ranjit Singh, who took Lahore in 1799 and was crowned in 1801. It held the Punjab, Multan, Kashmir and Peshawar until two wars with the East India Company ended in annexation in 1849.",
+    "es": "Estado punyabí construido por Ranjit Singh, que tomó Lahore en 1799 y fue coronado en 1801. Dominó el Punyab, Multán, Cachemira y Peshawar hasta que dos guerras con la Compañía de las Indias Orientales terminaron en su anexión en 1849.",
+    "zh": "由兰季德·辛格建立的旁遮普国家，他于1799年攻占拉合尔，1801年加冕。该国控制旁遮普、木尔坦、克什米尔和白沙瓦，直到两次对东印度公司的战争后于1849年被吞并。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "sikh-empire-period",
+      "earliestStart": 1799,
+      "latestStart": 1801,
+      "earliestEnd": 1849,
+      "latestEnd": 1849,
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Sikh Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Sikh_Empire"
+        },
+        {
+          "citation": "\"Ranjit Singh.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/people/history/south-asian-history-biographies/ranjit-singh"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The start is 1799, when Ranjit Singh took Lahore, or 1801, when he was crowned maharaja.",
+        "es": "El inicio es 1799, cuando Ranjit Singh tomó Lahore, o 1801, cuando fue coronado maharajá.",
+        "zh": "起点为1799年（兰季德·辛格攻占拉合尔）或1801年（他加冕为大君）。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "lahore-1799",
+      "start": 1799,
+      "type": "founding",
+      "title": {
+        "en": "Ranjit Singh takes Lahore, which becomes his capital",
+        "es": "Ranjit Singh toma Lahore, que se convierte en su capital",
+        "zh": "兰季德·辛格攻占拉合尔，此地成为其都城"
+      },
+      "sources": [
+        {
+          "citation": "\"Ranjit Singh.\" Encyclopedia.com.",
+          "url": "https://www.encyclopedia.com/people/history/south-asian-history-biographies/ranjit-singh"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, 11th ed. (1911). \"Ranjit Singh.\" Wikisource transcription.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ranjit_Singh"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lahore",
+          "es": "Lahore",
+          "zh": "拉合尔"
+        },
+        "lat": 31.582,
+        "lon": 74.3294
+      }
+    },
+    {
+      "id": "coronation-1801",
+      "start": 1801,
+      "type": "ruler",
+      "title": {
+        "en": "Ranjit Singh is crowned maharaja at Lahore on 12 April by Sahib Singh Bedi, a descendant of Guru Nanak",
+        "es": "Ranjit Singh es coronado maharajá en Lahore el 12 de abril por Sahib Singh Bedi, descendiente del gurú Nanak",
+        "zh": "兰季德·辛格于4月12日在拉合尔由那纳克上师的后裔萨希卜·辛格·贝迪加冕为大君"
+      },
+      "sources": [
+        {
+          "citation": "\"Today in Sikh history: 12th April.\" AllAboutSikhs.",
+          "url": "https://www.allaboutsikhs.com/today-in-sikh-history-12th-april/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Ranjit Singh.\"",
+          "url": "https://en.wikipedia.org/wiki/Ranjit_Singh"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lahore",
+          "es": "Lahore",
+          "zh": "拉合尔"
+        },
+        "lat": 31.582,
+        "lon": 74.3294
+      }
+    },
+    {
+      "id": "multan-1818",
+      "start": 1818,
+      "type": "conflict",
+      "title": {
+        "en": "Sikh forces take Multan on 2 June 1818 after a siege of about four months",
+        "es": "Las fuerzas sijs toman Multán el 2 de junio de 1818 tras un asedio de unos cuatro meses",
+        "zh": "锡克军队经约四个月围攻，于1818年6月2日攻占木尔坦"
+      },
+      "sources": [
+        {
+          "citation": "\"Divan Chand, Misr.\" The Sikh Encyclopedia.",
+          "url": "https://www.thesikhencyclopedia.com/divan-chand-misr/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Siege of Multan (1818).\"",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Multan_(1818)"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Multan",
+          "es": "Multán",
+          "zh": "木尔坦"
+        },
+        "lat": 30.1575,
+        "lon": 71.5249
+      }
+    },
+    {
+      "id": "kashmir-1819",
+      "start": 1819,
+      "type": "conflict",
+      "title": {
+        "en": "Sikh forces defeat the Afghans at Shopian and annex Kashmir",
+        "es": "Las fuerzas sijs derrotan a los afganos en Shopian y anexionan Cachemira",
+        "zh": "锡克军队在绍皮安击败阿富汗人，吞并克什米尔"
+      },
+      "sources": [
+        {
+          "citation": "\"Divan Chand, Misr.\" The Sikh Encyclopedia.",
+          "url": "https://www.thesikhencyclopedia.com/divan-chand-misr/"
+        },
+        {
+          "citation": "Wikipedia (English). \"Battle of Shopian.\"",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Shopian"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "peshawar-1834",
+      "start": 1834,
+      "type": "conflict",
+      "title": {
+        "en": "Sikh forces annex Peshawar, which had paid tribute to Ranjit Singh since 1823",
+        "es": "Las fuerzas sijs anexionan Peshawar, que pagaba tributo a Ranjit Singh desde 1823",
+        "zh": "锡克军队吞并白沙瓦，该地自1823年起向兰季德·辛格纳贡"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Sikh Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Sikh_Empire"
+        },
+        {
+          "citation": "Encyclopaedia Britannica, 11th ed. (1911). \"Ranjit Singh.\" Wikisource transcription.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ranjit_Singh"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The year depends on what counts as taking Peshawar: Sikh control began with tribute from its Afghan rulers (Britannica dates this to 1823), and direct annexation is dated 1834.",
+        "es": "El año depende de lo que se considere tomar Peshawar: el control sij empezó con el tributo de sus gobernantes afganos (Britannica lo sitúa en 1823), y la anexión directa se fecha en 1834.",
+        "zh": "年份取决于如何界定占领白沙瓦：锡克的控制始于其阿富汗统治者的纳贡（不列颠百科作1823年），直接吞并则定在1834年。"
+      },
+      "place": {
+        "name": {
+          "en": "Peshawar",
+          "es": "Peshawar",
+          "zh": "白沙瓦"
+        },
+        "lat": 34.0151,
+        "lon": 71.5249
+      }
+    },
+    {
+      "id": "ranjit-death",
+      "start": 1839,
+      "type": "ruler",
+      "title": {
+        "en": "Ranjit Singh dies at Lahore on 27 June; a run of short-lived rulers follows",
+        "es": "Ranjit Singh muere en Lahore el 27 de junio; le sigue una serie de gobernantes de breve reinado",
+        "zh": "兰季德·辛格于6月27日在拉合尔去世；此后君主更迭频繁，在位都很短暂"
+      },
+      "sources": [
+        {
+          "citation": "Encyclopaedia Britannica, 11th ed. (1911). \"Ranjit Singh.\" Wikisource transcription.",
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ranjit_Singh"
+        },
+        {
+          "citation": "Wikipedia (English). \"Ranjit Singh.\"",
+          "url": "https://en.wikipedia.org/wiki/Ranjit_Singh"
+        },
+        {
+          "citation": "Wikipedia (English). \"Sikh Empire.\"",
+          "url": "https://en.wikipedia.org/wiki/Sikh_Empire"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Lahore",
+          "es": "Lahore",
+          "zh": "拉合尔"
+        },
+        "lat": 31.582,
+        "lon": 74.3294
+      }
+    },
+    {
+      "id": "lahore-1846",
+      "start": 1846,
+      "type": "conflict",
+      "title": {
+        "en": "After defeat at Sobraon the Lahore court signs the Treaty of Lahore on 9 March and gives up the Jullundur Doab and agrees to pay an indemnity",
+        "es": "Tras la derrota de Sobraon, la corte de Lahore firma el Tratado de Lahore el 9 de marzo cede el Doab de Jullundur y acepta pagar una indemnización",
+        "zh": "索布拉翁战败后，拉合尔朝廷于3月9日签订《拉合尔条约》，割让朱伦杜尔河间地并同意支付赔款"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Battle of Sobraon.\"",
+          "url": "https://www.worldhistory.org/article/2136/battle-of-sobraon/"
+        },
+        {
+          "citation": "Wikipedia (English). \"First Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/First_Anglo-Sikh_War"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "annexation-1849",
+      "start": 1849,
+      "type": "collapse",
+      "title": {
+        "en": "The East India Company annexes the Punjab on 29 March 1849 after the Second Anglo-Sikh War and deposes the maharaja Duleep Singh",
+        "es": "La Compañía de las Indias Orientales anexiona el Punyab el 29 de marzo de 1849 tras la segunda guerra anglo-sij y depone al maharajá Duleep Singh",
+        "zh": "第二次英国—锡克战争后，东印度公司于1849年3月29日吞并旁遮普，废黜大君杜利普·辛格"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Battle of Chillianwala.\"",
+          "url": "https://www.worldhistory.org/article/2140/battle-of-chillianwala/"
+        },
+        {
+          "citation": "\"Proclamation (1849).\" Encyclopaedia of Sikhism, Punjabi University.",
+          "url": "https://eos.learnpunjabi.org/PROCLAMATION%20(1849).html"
+        },
+        {
+          "citation": "Wikipedia (English). \"Second Anglo-Sikh War.\"",
+          "url": "https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "koh-i-noor",
+      "start": 1813,
+      "end": 1849,
+      "text": {
+        "en": "Ranjit Singh got the Koh-i-Noor diamond from the exiled Afghan ruler Shah Shuja in 1813. The 1849 treaty of annexation required Duleep Singh to surrender it to Queen Victoria.",
+        "es": "Ranjit Singh obtuvo el diamante Koh-i-Noor del gobernante afgano exiliado Shah Shuja en 1813. El tratado de anexión de 1849 obligó a Duleep Singh a entregarlo a la reina Victoria.",
+        "zh": "1813年，兰季德·辛格从流亡的阿富汗统治者舒亚·沙阿·杜拉尼手中得到光之山钻石。1849年的吞并条约要求杜利普·辛格将其交给维多利亚女王。"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia (English). \"Koh-i-Noor.\"",
+          "url": "https://en.wikipedia.org/wiki/Koh-i-Noor"
+        },
+        {
+          "citation": "\"Koh-i-Nur (Mountain of Light).\" Encyclopaedia of Sikhism, Punjabi University.",
+          "url": "https://eos.learnpunjabi.org/KOH-I-NUR%20(MOUNTAIN%20OF%20LIGHT).html"
+        }
+      ]
+    }
+  ]
+}

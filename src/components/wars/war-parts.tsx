@@ -29,7 +29,7 @@ function MemberName({ member, cultureNames, linkCultures, here }: SideProps & { 
   if (member.kind === "culture") {
     const name = cultureNames[member.id] ?? member.id;
     return linkCultures ? (
-      <Link href={`/c/${member.id}`} className="underline underline-offset-2">
+      <Link prefetch={false} href={`/c/${member.id}`} className="underline underline-offset-2">
         {name}
       </Link>
     ) : (
@@ -115,7 +115,7 @@ export function WarRow({
   return (
     <article className="flex flex-col gap-1.5 rounded-lg border border-border px-4 py-3">
       {header}
-      <Link href={`/war/${war.id}`} className="font-medium underline-offset-2 hover:underline">
+      <Link prefetch={false} href={`/war/${war.id}`} className="font-medium underline-offset-2 hover:underline">
         {localize(war.name, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">

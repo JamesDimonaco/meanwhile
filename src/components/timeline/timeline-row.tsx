@@ -16,6 +16,10 @@ export const REGION_COLOR: Record<Region, string> = {
   mesoamerica: "var(--chart-3)",
   europe: "var(--chart-4)",
   africa: "var(--chart-5)",
+  "middle-east": "var(--chart-6)",
+  "south-asia": "var(--chart-7)",
+  "asia-pacific": "var(--chart-8)",
+  "north-america": "var(--chart-9)",
 };
 
 /** Wars on a country's timeline: apart from every region colour (globals.test.ts). */
@@ -70,6 +74,7 @@ export function RowLabel({
 }) {
   return (
     <Link
+      prefetch={false}
       href={href}
       title={name}
       className="absolute inset-x-0 flex items-center gap-1 text-xs hover:underline"

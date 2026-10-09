@@ -122,6 +122,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                 )}
                 {phase.reading.year && (
                   <Link
+                    prefetch={false}
                     href={{ pathname: "/timeline", query: { year: String(timelineYear(phase.reading.year)) } }}
                     onClick={close}
                     className="flex flex-col gap-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted"
@@ -134,6 +135,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                 )}
                 {phase.reading.text && (
                   <Link
+                    prefetch={false}
                     href={{ pathname: "/", query: { q: phase.reading.text } }}
                     onClick={close}
                     className="rounded-lg border border-border px-3 py-2.5 font-medium hover:bg-muted"

@@ -100,7 +100,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
     name: localize(w.name, locale),
     label: (chunks: ReactNode) => <span className="text-muted-foreground">{chunks}</span>,
     link: (chunks: ReactNode) => (
-      <Link href={`/war/${w.id}`} className="underline underline-offset-2">
+      <Link prefetch={false} href={`/war/${w.id}`} className="underline underline-offset-2">
         {chunks}
       </Link>
     ),
@@ -109,7 +109,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
   return (
     <article className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-4">
       <header className="flex flex-col gap-3">
-        <Link href="/wars" className="self-start text-sm text-muted-foreground underline-offset-2 hover:underline">
+        <Link prefetch={false} href="/wars" className="self-start text-sm text-muted-foreground underline-offset-2 hover:underline">
           {tCommon("nav.wars")}
         </Link>
         <h1 className="text-2xl font-semibold tracking-tight">{localize(war.name, locale)}</h1>
@@ -135,6 +135,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
         </p>
         <WarBar war={war} />
         <Link
+          prefetch={false}
           href={{ pathname: "/timeline", query: { year: String(span.start) } }}
           className="self-start text-sm underline underline-offset-2"
         >
@@ -215,7 +216,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
           <ul className="flex flex-col gap-1.5">
             {linked.map((c) => (
               <li key={c.id}>
-                <Link href={`/c/${c.id}`} className="inline-flex items-center gap-1.5 underline underline-offset-2">
+                <Link prefetch={false} href={`/c/${c.id}`} className="inline-flex items-center gap-1.5 underline underline-offset-2">
                   {localize(c.name, locale)}
                   <HeartlandFlags cultureId={c.id} />
                 </Link>

@@ -1,0 +1,393 @@
+{
+  "id": "ethiopian-empire",
+  "region": "africa",
+  "wikidataId": "Q207521",
+  "name": {
+    "en": "Ethiopian Empire",
+    "es": "Imperio etíope",
+    "zh": "埃塞俄比亚帝国"
+  },
+  "aliases": [
+    "Ethiopia",
+    "Abyssinia",
+    "Kingdom of Abyssinia",
+    "Solomonic dynasty",
+    "Solomonid dynasty",
+    "Haile Selassie",
+    "Menelik II",
+    "Lalibela",
+    "Adwa",
+    "Gondar",
+    "Etiopía"
+  ],
+  "description": {
+    "en": "A Christian kingdom and empire in the Ethiopian highlands, ruled from 1270 by emperors who claimed descent from Solomon. It survived a sixteenth-century invasion, a century of rule by regional lords and the Italian attack at Adwa in 1896. A military coup deposed Haile Selassie in 1974.",
+    "es": "Un reino e imperio cristiano en las tierras altas de Etiopía, gobernado desde 1270 por emperadores que decían descender de Salomón. Sobrevivió a una invasión en el siglo XVI, a un siglo de dominio de señores regionales y al ataque italiano en Adua en 1896. Un golpe militar depuso a Haile Selassie en 1974.",
+    "zh": "埃塞俄比亚高原上的基督教王国和帝国，自1270年起由自称所罗门后裔的皇帝统治。它挺过了16世纪的入侵、长达一个世纪的地方诸侯割据，以及1896年意大利在阿杜瓦的进攻。1974年，军事政变推翻了海尔·塞拉西。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "solomonic",
+      "label": {
+        "en": "Solomonic dynasty",
+        "es": "Dinastía salomónica",
+        "zh": "所罗门王朝"
+      },
+      "earliestStart": 1260,
+      "latestStart": 1270,
+      "earliestEnd": 1974,
+      "latestEnd": 1974,
+      "sources": [
+        {
+          "citation": "Wikidata, Q207521 \"Ethiopian Empire\" (1270-1974).",
+          "url": "https://www.wikidata.org/wiki/Q207521"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Solomonic Descent in Ethiopian History.\"",
+          "url": "https://www.worldhistory.org/article/1875/solomonic-descent-in-ethiopian-history/"
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Yekuno Amlak began to gain power in the 1260s and overthrew the last Zagwe king in about 1270. The Derg deposed Haile Selassie on 12 September 1974 and proclaimed the end of the dynasty that November; it formally abolished the monarchy on 27 March 1975.",
+        "es": "Yekuno Amlak empezó a ganar poder en la década de 1260 y derrocó al último rey zagwe hacia 1270. El Derg depuso a Haile Selassie el 12 de septiembre de 1974 y proclamó el fin de la dinastía en noviembre; abolió formalmente la monarquía el 27 de marzo de 1975.",
+        "zh": "耶库诺·阿姆拉克在1260年代开始掌握权力，约1270年推翻了最后一位扎格维国王。1974年9月12日，德格废黜海尔·塞拉西，并于当年11月宣布王朝终结；1975年3月27日正式废除君主制。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "solomonic-kingdom",
+      "name": {
+        "en": "Solomonic kingdom",
+        "es": "Reino salomónico",
+        "zh": "所罗门王国"
+      },
+      "start": 1270,
+      "end": 1769,
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Ethiopia: \"The 'Restoration' of the 'Solomonic' Line.\"",
+          "url": "https://countrystudies.us/ethiopia/8.htm"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Abyssinia.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Abyssinia/"
+        }
+      ]
+    },
+    {
+      "id": "zemene-mesafint",
+      "name": {
+        "en": "Era of the Princes",
+        "es": "Era de los Príncipes",
+        "zh": "诸侯时代"
+      },
+      "start": 1769,
+      "end": 1855,
+      "sources": [
+        {
+          "citation": "Africa Defense Forum. \"Ethiopia's First Modern Ruler: Tewodros II\" (2015).",
+          "url": "https://adf-magazine.com/2015/09/ethiopias-first-modern-ruler-tewodros-ii/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Tewodros II.\"",
+          "url": "https://www.ebsco.com/research-starters/biography/tewodros-ii/"
+        }
+      ]
+    },
+    {
+      "id": "modern-empire",
+      "name": {
+        "en": "Modern empire",
+        "es": "Imperio moderno",
+        "zh": "近代帝国"
+      },
+      "start": 1855,
+      "end": 1974,
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Tewodros II.\"",
+          "url": "https://www.ebsco.com/research-starters/biography/tewodros-ii/"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Solomonic Descent in Ethiopian History.\"",
+          "url": "https://www.worldhistory.org/article/1875/solomonic-descent-in-ethiopian-history/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "lalibela",
+      "start": 1100,
+      "end": 1250,
+      "type": "invention",
+      "title": {
+        "en": "Rock-cut churches are carved out of the living rock at Lalibela under the Zagwe king Lalibela",
+        "es": "Se tallan iglesias en la roca viva de Lalibela bajo el rey zagwe Lalibela",
+        "zh": "扎格维国王拉利贝拉在拉利贝拉的整块岩石中开凿岩石教堂"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Rock-Hewn Churches, Lalibela.\"",
+          "url": "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Abyssinia.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Abyssinia/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "These churches predate the Solomonic dynasty and were kept in use by it. Wikipedia gives the 7th to 13th centuries and traditionally dates them to the reign of the Zagwe king Lalibela (about 1181-1221), noting the carving probably took longer; World History Encyclopedia gives the 11th and 12th centuries. The range shown covers the main readings.",
+        "es": "Estas iglesias son anteriores a la dinastía salomónica, que las mantuvo en uso. Wikipedia da los siglos VII a XIII y las fecha por tradición en el reinado del rey zagwe Lalibela (hacia 1181-1221), y señala que la talla probablemente llevó más tiempo; World History Encyclopedia da los siglos XI y XII. El intervalo mostrado cubre las lecturas principales.",
+        "zh": "这些教堂早于所罗门王朝，并在该王朝治下继续使用。维基百科给出7至13世纪，并按传统把它们归于扎格维国王拉利贝拉在位期间（约1181至1221年），同时指出开凿可能耗时更长；《世界历史百科全书》给出11至12世纪。所示区间涵盖主要说法。"
+      },
+      "place": {
+        "name": {
+          "en": "Lalibela",
+          "es": "Lalibela",
+          "zh": "拉利贝拉"
+        },
+        "lat": 12.0317,
+        "lon": 39.0475
+      }
+    },
+    {
+      "id": "yekuno-amlak",
+      "start": 1270,
+      "type": "founding",
+      "title": {
+        "en": "Yekuno Amlak drives out the last Zagwe king and founds the Solomonic dynasty, claiming descent from Solomon and the Queen of Sheba",
+        "es": "Yekuno Amlak expulsa al último rey zagwe y funda la dinastía salomónica, que dice descender de Salomón y la reina de Saba",
+        "zh": "耶库诺·阿姆拉克赶走最后一位扎格维国王，建立所罗门王朝，并自称是所罗门与示巴女王的后裔"
+      },
+      "sources": [
+        {
+          "citation": "Library of Congress Country Studies, Ethiopia: \"The 'Restoration' of the 'Solomonic' Line.\"",
+          "url": "https://countrystudies.us/ethiopia/8.htm"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Solomonic Descent in Ethiopian History.\"",
+          "url": "https://www.worldhistory.org/article/1875/solomonic-descent-in-ethiopian-history/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources say about 1270. The Solomonic descent is a legitimising claim; the Kebra Nagast, which sets it out, was written decades later (World History Encyclopedia).",
+        "es": "Las fuentes dicen hacia 1270. La ascendencia salomónica es una pretensión legitimadora; el Kebra Nagast, que la expone, se escribió décadas después (World History Encyclopedia).",
+        "zh": "来源称约在1270年。所罗门世系是一种用以确立正统的说法；阐述这一说法的《国王荣耀》成书于数十年之后（《世界历史百科全书》）。"
+      }
+    },
+    {
+      "id": "adal-war",
+      "start": 1529,
+      "end": 1543,
+      "type": "conflict",
+      "title": {
+        "en": "Imam Ahmad of Adal overruns much of the highlands until a Portuguese-backed Ethiopian army defeats him at Wayna Daga in 1543",
+        "es": "El imán Ahmad de Adal invade gran parte de las tierras altas hasta que un ejército etíope con apoyo portugués lo derrota en Wayna Daga en 1543",
+        "zh": "阿达尔的伊玛目艾哈迈德席卷了高原大部分地区，直到1543年在瓦伊纳达加被葡萄牙支持的埃塞俄比亚军队击败"
+      },
+      "sources": [
+        {
+          "citation": "New World Encyclopedia. \"Ahmad ibn Ibrihim al-Ghazi.\"",
+          "url": "https://www.newworldencyclopedia.org/entry/Ahmad_ibn_Ibrihim_al-Ghazi"
+        },
+        {
+          "citation": "Encyclopaedia Universalis. \"Ahmed ibn Ibrahim al-Ghazi, dit Gragne.\"",
+          "url": "https://www.universalis.fr/encyclopedie/ahmed-ibn-ibrahim-al-ghazi-gragne/"
+        },
+        {
+          "citation": "Wikipedia. \"Ethiopian–Adal War.\"",
+          "url": "https://en.wikipedia.org/wiki/Ethiopian%E2%80%93Adal_War"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "A Portuguese force of about 400 musketeers under Cristóvão da Gama landed at Massawa in February 1541. Ahmad was killed on 21 February 1543.",
+        "es": "Una fuerza portuguesa de unos 400 mosqueteros al mando de Cristóvão da Gama desembarcó en Massawa en febrero de 1541. Ahmad murió el 21 de febrero de 1543.",
+        "zh": "克里斯托旺·达·伽马率领约400名火枪手的葡萄牙部队于1541年2月在马萨瓦登陆。艾哈迈德于1543年2月21日阵亡。"
+      }
+    },
+    {
+      "id": "gondar",
+      "start": 1636,
+      "type": "founding",
+      "title": {
+        "en": "Emperor Fasilides settles at Gondar and makes it a permanent capital",
+        "es": "El emperador Fasilides se instala en Gondar y la convierte en capital permanente",
+        "zh": "法西利达斯皇帝定居贡德尔，并使其成为固定的都城"
+      },
+      "sources": [
+        {
+          "citation": "Zamani Project. \"Fasil Ghebbi, Gondar.\"",
+          "url": "https://www.zamaniproject.org/site-ethiopia-gondar-fasil-ghebbi.html"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kingdom of Abyssinia.\"",
+          "url": "https://www.worldhistory.org/Kingdom_of_Abyssinia/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Gondar",
+          "es": "Gondar",
+          "zh": "贡德尔"
+        },
+        "lat": 12.6,
+        "lon": 37.4667
+      }
+    },
+    {
+      "id": "era-of-princes",
+      "start": 1769,
+      "end": 1855,
+      "type": "collapse",
+      "title": {
+        "en": "The central government is abolished and the country splits into small kingdoms under regional lords",
+        "es": "Se abole el gobierno central y el país se divide en pequeños reinos bajo señores regionales",
+        "zh": "中央政府被取消，国家分裂为由地方诸侯统治的若干小王国"
+      },
+      "sources": [
+        {
+          "citation": "Africa Defense Forum. \"Ethiopia's First Modern Ruler: Tewodros II\" (2015).",
+          "url": "https://adf-magazine.com/2015/09/ethiopias-first-modern-ruler-tewodros-ii/"
+        },
+        {
+          "citation": "EBSCO Research Starters. \"Tewodros II.\"",
+          "url": "https://www.ebsco.com/research-starters/biography/tewodros-ii/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "tewodros",
+      "start": 1855,
+      "type": "ruler",
+      "title": {
+        "en": "Tewodros II defeats the last rival lord, is crowned emperor and sets out to reunify the country",
+        "es": "Tewodros II derrota al último señor rival, es coronado emperador y se propone reunificar el país",
+        "zh": "特沃德罗斯二世击败最后一位对手诸侯，加冕为皇帝，着手统一全国"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters. \"Tewodros II.\"",
+          "url": "https://www.ebsco.com/research-starters/biography/tewodros-ii/"
+        },
+        {
+          "citation": "Africa Defense Forum. \"Ethiopia's First Modern Ruler: Tewodros II\" (2015).",
+          "url": "https://adf-magazine.com/2015/09/ethiopias-first-modern-ruler-tewodros-ii/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "adwa",
+      "start": 1896,
+      "type": "conflict",
+      "title": {
+        "en": "Menelik II's army defeats an invading Italian army at Adwa, and Ethiopia stays independent",
+        "es": "El ejército de Menelik II derrota a un ejército italiano invasor en Adua y Etiopía sigue siendo independiente",
+        "zh": "孟尼利克二世的军队在阿杜瓦击败入侵的意大利军队，埃塞俄比亚保持独立"
+      },
+      "sources": [
+        {
+          "citation": "South African History Online. \"Remembering the Battle of Adwa.\"",
+          "url": "https://sahistory.org.za/article/remembering-battle-adwa"
+        },
+        {
+          "citation": "New World Encyclopedia. \"First Italo-Ethiopian War.\"",
+          "url": "https://www.newworldencyclopedia.org/entry/First_Italo%E2%80%93Ethiopian_War"
+        }
+      ],
+      "disputed": false,
+      "note": {
+        "en": "The battle was fought on 1 March 1896. It followed a dispute over Article 17 of the 1889 Treaty of Wuchale: the Italian text made Ethiopia a protectorate, the Amharic text did not.",
+        "es": "La batalla se libró el 1 de marzo de 1896. Siguió a una disputa sobre el artículo 17 del Tratado de Wuchale de 1889: el texto italiano convertía a Etiopía en protectorado y el amhárico no.",
+        "zh": "战役发生于1896年3月1日，起因是对1889年《乌查莱条约》第17条的争议：意大利文本使埃塞俄比亚成为被保护国，阿姆哈拉语文本则不然。"
+      },
+      "place": {
+        "name": {
+          "en": "Adwa",
+          "es": "Adua",
+          "zh": "阿杜瓦"
+        },
+        "lat": 14.1667,
+        "lon": 38.9
+      }
+    },
+    {
+      "id": "derg",
+      "start": 1974,
+      "type": "collapse",
+      "title": {
+        "en": "The Derg deposes Emperor Haile Selassie on 12 September and later proclaims the end of the Solomonic dynasty",
+        "es": "El Derg depone al emperador Haile Selassie el 12 de septiembre y más tarde proclama el fin de la dinastía salomónica",
+        "zh": "德格于9月12日废黜皇帝海尔·塞拉西，随后宣布所罗门王朝终结"
+      },
+      "sources": [
+        {
+          "citation": "Ethiopian Royal Hats. \"Part V: Overthrow and the Royal House Today\" (2021).",
+          "url": "https://royalhats.net/2021/08/12/ethiopian-royal-hats-part-v-overthrow-and-the-royal-house-today/"
+        },
+        {
+          "citation": "Wikipedia. \"1974 Ethiopian coup d'état.\"",
+          "url": "https://en.wikipedia.org/wiki/1974_Ethiopian_coup_d%27%C3%A9tat"
+        }
+      ],
+      "disputed": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "jerusalem-names",
+      "text": {
+        "en": "Lalibela's churches were laid out as a symbolic Jerusalem: a river called the Jordan runs between the two groups, and one church is named Golgotha.",
+        "es": "Las iglesias de Lalibela se trazaron como una Jerusalén simbólica: un río llamado Jordán separa los dos grupos y una iglesia se llama Gólgota.",
+        "zh": "拉利贝拉的教堂群按象征性的耶路撒冷布局：一条名为约旦的河从两组教堂之间流过，其中一座教堂名为各各他。"
+      },
+      "start": 1150,
+      "end": 1250,
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Rock-Hewn Churches, Lalibela.\"",
+          "url": "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela"
+        },
+        {
+          "citation": "Zamani Project. \"Lalibela Rock-Hewn Churches.\"",
+          "url": "https://www.zamaniproject.org/site-ethiopia-lalibela-rock-hewn-churches.html"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "solomon-claim",
+      "text": {
+        "en": "Ethiopia's emperors traced their line to Menelik I, said to be the son of Solomon and the Queen of Sheba, and the 1955 constitution declared that the emperor descended from him without interruption.",
+        "es": "Los emperadores de Etiopía hacían remontar su linaje a Menelik I, hijo, según la tradición, de Salomón y la reina de Saba, y la Constitución de 1955 declaró que el emperador descendía de él sin interrupción.",
+        "zh": "埃塞俄比亚的皇帝把世系追溯到孟尼利克一世，传说他是所罗门与示巴女王之子；1955年宪法宣布皇帝一脉相承，源自孟尼利克一世。"
+      },
+      "start": 1270,
+      "end": 1974,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Solomonic Descent in Ethiopian History.\"",
+          "url": "https://www.worldhistory.org/article/1875/solomonic-descent-in-ethiopian-history/"
+        },
+        {
+          "citation": "Wikipedia. \"Solomonic dynasty.\"",
+          "url": "https://en.wikipedia.org/wiki/Solomonic_dynasty"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

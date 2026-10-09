@@ -1,0 +1,240 @@
+{
+  "id": "lan-xang",
+  "region": "asia-pacific",
+  "wikidataId": "Q853477",
+  "name": {
+    "en": "Lan Xang",
+    "es": "Lan Xang",
+    "zh": "澜沧王国"
+  },
+  "aliases": [
+    "Lane Xang",
+    "Lan Chang",
+    "Lanxang",
+    "Kingdom of a Million Elephants",
+    "Fa Ngum",
+    "Setthathirat",
+    "Luang Prabang",
+    "Vientiane",
+    "澜沧",
+    "瀾滄王國"
+  ],
+  "description": {
+    "en": "Lao kingdom founded by Fa Ngum in 1353, first at Luang Prabang and from the 16th century at Vientiane. It faced Burmese invasions in the 16th century, peaked under Souligna Vongsa, then divided into rival kingdoms after 1694.",
+    "es": "Reino lao fundado por Fa Ngum en 1353, primero en Luang Prabang y desde el siglo XVI en Vientián. Sufrió invasiones birmanas en el siglo XVI, alcanzó su apogeo con Souligna Vongsa y se dividió en reinos rivales tras 1694.",
+    "zh": "老挝王国，1353年由法昂建立，起初以琅勃拉邦为都，16世纪起迁都万象。16世纪曾遭缅甸入侵，在苏里亚旺萨时期达到鼎盛，1694年后分裂为相互敌对的王国。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "lan-xang",
+      "earliestStart": 1350,
+      "latestStart": 1353,
+      "earliestEnd": 1694,
+      "latestEnd": 1707,
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Lao Literature.\"",
+          "url": "https://www.ebsco.com/research-starters/literature-and-writing/lao-literature"
+        },
+        {
+          "citation": "Wikipedia, \"Fa Ngum.\"",
+          "url": "https://en.wikipedia.org/wiki/Fa_Ngum"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Vientiane, Laos.\"",
+          "url": "https://www.ebsco.com/research-starters/geography-and-cartography/vientiane-laos/"
+        },
+        {
+          "citation": "Wikipedia, \"Lan Xang.\"",
+          "url": "https://en.wikipedia.org/wiki/Lan_Xang"
+        }
+      ],
+      "default": true,
+      "disputed": false,
+      "note": {
+        "en": "Fa Ngum began conquering Lao principalities in 1350 and took power in 1353. The kingdom split into warring states after Souligna Vongsa died in 1694; Luang Prabang and Vientiane stood apart by 1707.",
+        "es": "Fa Ngum empezó a conquistar principados lao en 1350 y tomó el poder en 1353. El reino se dividió en Estados enfrentados tras la muerte de Souligna Vongsa en 1694; Luang Prabang y Vientián quedaron separados hacia 1707.",
+        "zh": "法昂于1350年开始征服老挝各公国，1353年夺取政权。1694年苏里亚旺萨去世后，王国分裂为互相交战的几个国家；到1707年，琅勃拉邦和万象已各自独立。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "start": 1353,
+      "type": "founding",
+      "title": {
+        "en": "Fa Ngum takes power at Muang Sua with Khmer backing and founds Lan Xang, \"land of a million elephants\"",
+        "es": "Fa Ngum toma el poder en Muang Sua con apoyo jemer y funda Lan Xang, \"tierra de un millón de elefantes\"",
+        "zh": "法昂在高棉支持下于孟苏亚夺取政权，建立澜沧，意为“百万大象之国”"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Lao Literature.\"",
+          "url": "https://www.ebsco.com/research-starters/literature-and-writing/lao-literature"
+        },
+        {
+          "citation": "Wikipedia, \"Fa Ngum.\"",
+          "url": "https://en.wikipedia.org/wiki/Fa_Ngum"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "EBSCO dates the start of Fa Ngum's conquests to 1350 and his takeover from his grandfather to 1353.",
+        "es": "EBSCO data el inicio de las conquistas de Fa Ngum en 1350 y su toma del poder frente a su abuelo en 1353.",
+        "zh": "EBSCO把法昂开始征服的时间定在1350年，把他从祖父手中夺权的时间定在1353年。"
+      },
+      "place": {
+        "name": {
+          "en": "Muang Sua (Luang Prabang)",
+          "es": "Muang Sua (Luang Prabang)",
+          "zh": "孟苏亚（琅勃拉邦）"
+        },
+        "lat": 19.8856,
+        "lon": 102.1347
+      }
+    },
+    {
+      "id": "vientiane",
+      "start": 1560,
+      "end": 1563,
+      "type": "founding",
+      "title": {
+        "en": "King Setthathirat moves the capital from Luang Prabang to Vientiane",
+        "es": "El rey Setthathirat traslada la capital de Luang Prabang a Vientián",
+        "zh": "塞塔提拉国王将都城从琅勃拉邦迁往万象"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Vientiane, Laos.\"",
+          "url": "https://www.ebsco.com/research-starters/geography-and-cartography/vientiane-laos/"
+        },
+        {
+          "citation": "Wikipedia, \"Lan Xang.\"",
+          "url": "https://en.wikipedia.org/wiki/Lan_Xang"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia gives 1560 for the move; EBSCO's article on Vientiane gives 1563.",
+        "es": "Wikipedia da 1560 para el traslado; el artículo de EBSCO sobre Vientián da 1563.",
+        "zh": "维基百科记迁都为1560年，EBSCO关于万象的文章记为1563年。"
+      },
+      "place": {
+        "name": {
+          "en": "Vientiane",
+          "es": "Vientián",
+          "zh": "万象"
+        },
+        "lat": 17.9757,
+        "lon": 102.6331
+      }
+    },
+    {
+      "id": "burmese-vientiane",
+      "start": 1565,
+      "type": "conflict",
+      "title": {
+        "en": "Burmese forces under Bayinnaung take Vientiane in 1565 but fail to hold Laos, which they conquer in 1575",
+        "es": "Las fuerzas birmanas de Bayinnaung toman Vientián en 1565 pero no logran conservar Laos, que conquistan en 1575",
+        "zh": "莽应龙率领的缅甸军队于1565年攻占万象，但未能守住老挝，直到1575年才完成征服"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Burmese-Laotian Wars.\"",
+          "url": "https://www.ebsco.com/research-starters/history/burmese-laotian-wars"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Bayinnaung.\"",
+          "url": "https://www.ebsco.com/research-starters/history/bayinnaung/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Vientiane",
+          "es": "Vientián",
+          "zh": "万象"
+        },
+        "lat": 17.9757,
+        "lon": 102.6331
+      }
+    },
+    {
+      "id": "souligna-vongsa",
+      "start": 1637,
+      "end": 1694,
+      "type": "ruler",
+      "title": {
+        "en": "Souligna Vongsa rules Lan Xang at its height, until his death in 1694",
+        "es": "Souligna Vongsa gobierna Lan Xang en su apogeo, hasta su muerte en 1694",
+        "zh": "苏里亚旺萨统治澜沧的鼎盛时期，直至1694年去世"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Vientiane, Laos.\"",
+          "url": "https://www.ebsco.com/research-starters/geography-and-cartography/vientiane-laos/"
+        },
+        {
+          "citation": "Wikipedia, \"Lan Xang.\"",
+          "url": "https://en.wikipedia.org/wiki/Lan_Xang"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "split",
+      "start": 1694,
+      "end": 1707,
+      "type": "collapse",
+      "title": {
+        "en": "After Souligna Vongsa's death Lan Xang breaks into rival kingdoms at Luang Prabang, Vientiane and Champasak",
+        "es": "Tras la muerte de Souligna Vongsa, Lan Xang se parte en reinos rivales en Luang Prabang, Vientián y Champasak",
+        "zh": "苏里亚旺萨去世后，澜沧分裂为琅勃拉邦、万象和占巴塞三个相互敌对的王国"
+      },
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Vientiane, Laos.\"",
+          "url": "https://www.ebsco.com/research-starters/geography-and-cartography/vientiane-laos/"
+        },
+        {
+          "citation": "EBSCO Research Starters, \"Lao Literature.\"",
+          "url": "https://www.ebsco.com/research-starters/literature-and-writing/lao-literature"
+        },
+        {
+          "citation": "Wikipedia, \"Lan Xang.\"",
+          "url": "https://en.wikipedia.org/wiki/Lan_Xang"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "EBSCO says the kingdom split into warring states after 1694. Wikipedia dates Luang Prabang and Vientiane to 1707 and Champasak to 1713.",
+        "es": "EBSCO dice que el reino se dividió en Estados enfrentados tras 1694. Wikipedia data Luang Prabang y Vientián en 1707 y Champasak en 1713.",
+        "zh": "EBSCO称1694年后王国分裂为互相交战的几个国家。维基百科把琅勃拉邦和万象的分立记为1707年，占巴塞记为1713年。"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "million-elephants",
+      "text": {
+        "en": "Lan Xang means \"land of a million elephants\".",
+        "es": "Lan Xang significa \"tierra de un millón de elefantes\".",
+        "zh": "澜沧意为“百万大象之国”。"
+      },
+      "start": 1353,
+      "end": 1707,
+      "sources": [
+        {
+          "citation": "EBSCO Research Starters, \"Lao Literature.\"",
+          "url": "https://www.ebsco.com/research-starters/literature-and-writing/lao-literature"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

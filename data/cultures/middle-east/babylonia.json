@@ -1,0 +1,442 @@
+{
+  "id": "babylonia",
+  "region": "middle-east",
+  "wikidataId": "Q47690",
+  "name": {
+    "en": "Babylonia",
+    "es": "Babilonia",
+    "zh": "巴比伦尼亚"
+  },
+  "aliases": [
+    "Babylon",
+    "Babylonian Empire",
+    "Old Babylonian",
+    "First Dynasty of Babylon",
+    "Kassite Babylonia",
+    "Neo-Babylonian Empire",
+    "Chaldean",
+    "Chaldea",
+    "Hammurabi",
+    "Nebuchadnezzar",
+    "Karduniash",
+    "Imperio babilónico",
+    "巴比伦",
+    "新巴比伦"
+  ],
+  "description": {
+    "en": "Babylonia was the Akkadian-speaking kingdom centred on the city of Babylon in southern Mesopotamia. It is known for Hammurabi's law code, four centuries of Kassite rule, and Nebuchadnezzar II's rebuilt capital, until Persia took Babylon in 539 BCE.",
+    "es": "Babilonia fue el reino de habla acadia centrado en la ciudad de Babilonia, en el sur de Mesopotamia. Se le conoce por el código de leyes de Hammurabi, cuatro siglos de dominio casita y la capital reconstruida por Nabucodonosor II, hasta que Persia tomó Babilonia en 539 a. e. c.",
+    "zh": "巴比伦尼亚是以美索不达米亚南部的巴比伦城为中心、说阿卡德语的王国。它以汉谟拉比法典、长达四个世纪的加喜特统治和尼布甲尼撒二世重建的都城闻名，直到公元前539年波斯攻占巴比伦。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "babylonia-period",
+      "earliestStart": -1999,
+      "latestStart": -1893,
+      "earliestEnd": -538,
+      "latestEnd": -538,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Old Babylonian\" (approximately 2000 BC – 1600 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h2xz4"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Neo-Babylonian Dynasty\" (626 BC – 539 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h3sk2"
+        },
+        {
+          "citation": "Wikipedia. \"Babylonia.\" (Amorite state of Babylon from c. 1894 BCE; Persian conquest in 539 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Babylonia"
+        }
+      ],
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The bar runs from the first Amorite king of Babylon (c. 1894 BCE, middle chronology; the British Museum dates the Old Babylonian culture from about 2000 BCE, which is the fade) to the Persian capture of Babylon in 539 BCE. Early dates could shift by decades under other chronologies. Babylon's culture continued under Persian and later rulers, which is not shown.",
+        "es": "La barra va del primer rey amorreo de Babilonia (c. 1894 a. e. c., cronología media; el Museo Británico fecha la cultura paleobabilónica desde hacia 2000 a. e. c., que es el degradado) a la captura persa de Babilonia en 539 a. e. c. Las fechas antiguas podrían variar décadas con otras cronologías. La cultura de Babilonia continuó bajo dominio persa y posterior, algo que no se muestra.",
+        "zh": "时间条从巴比伦第一位阿摩利国王（约公元前1894年，中年表）延伸到公元前539年波斯攻占巴比伦；大英博物馆把古巴比伦文化的起点定在约公元前2000年，这是渐变部分。采用其他年表，早期年代可能相差数十年。巴比伦文化在波斯及后世统治下仍在延续，这里没有显示。"
+      }
+    }
+  ],
+  "phases": [
+    {
+      "id": "old-babylonian",
+      "name": {
+        "en": "Old Babylonian",
+        "es": "Paleobabilónico",
+        "zh": "古巴比伦时期"
+      },
+      "start": -1893,
+      "end": -1594,
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Babylonia.\" (First Babylonian dynasty, 1894–1595 BCE, middle chronology).",
+          "url": "https://en.wikipedia.org/wiki/Babylonia"
+        },
+        {
+          "citation": "British Museum collection thesaurus, \"Old Babylonian\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h2xz4"
+        }
+      ]
+    },
+    {
+      "id": "kassite",
+      "name": {
+        "en": "Kassite",
+        "es": "Casita",
+        "zh": "加喜特时期"
+      },
+      "start": -1594,
+      "end": -1154,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Kassite\" (1600 BC – 1155 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57hbdv4"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kassite.\" (Kassites held power in Babylon from 1595 to 1155 BCE).",
+          "url": "https://www.worldhistory.org/Kassite/"
+        }
+      ]
+    },
+    {
+      "id": "post-kassite",
+      "name": {
+        "en": "Post-Kassite",
+        "es": "Poscasita",
+        "zh": "后加喜特时期"
+      },
+      "start": -1154,
+      "end": -625,
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Babylon.\" (the city passed to the Neo-Assyrian Empire before Nabopolassar founded the Neo-Babylonian Empire in 626 BCE).",
+          "url": "https://www.worldhistory.org/Babylon/"
+        },
+        {
+          "citation": "Wikipedia. \"Babylonia.\" (Babylonia after the Kassites: later dynasties, Chaldean tribes and Assyrian overlordship).",
+          "url": "https://en.wikipedia.org/wiki/Babylonia"
+        }
+      ]
+    },
+    {
+      "id": "neo-babylonian",
+      "name": {
+        "en": "Neo-Babylonian",
+        "es": "Neobabilónico",
+        "zh": "新巴比伦时期"
+      },
+      "start": -625,
+      "end": -538,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Neo-Babylonian Dynasty\" (626 BC – 539 BC), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h3sk2"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Nebuchadnezzar II.\"",
+          "url": "https://www.worldhistory.org/Nebuchadnezzar_II/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hammurabi-takes-larsa",
+      "start": -1762,
+      "type": "conflict",
+      "title": {
+        "en": "Hammurabi of Babylon defeats Rim-Sin and takes Larsa, bringing most of southern Mesopotamia under Babylon",
+        "es": "Hammurabi de Babilonia derrota a Rim-Sin y toma Larsa, con lo que casi todo el sur de Mesopotamia queda bajo Babilonia",
+        "zh": "巴比伦的汉谟拉比击败里姆辛并攻取拉尔萨，美索不达米亚南部大部分地区归于巴比伦"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Hammurabi.\" (Rim-Sin of Larsa reigned 1822–1763 BCE; Hammurabi annexed his kingdom).",
+          "url": "https://en.wikipedia.org/wiki/Hammurabi"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Hammurabi.\" (Hammurabi took Uruk and Isin in 1787 BCE and ruled all Mesopotamia from Babylon by 1755 BCE; no year given for Larsa).",
+          "url": "https://www.worldhistory.org/Hammurabi/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia's Hammurabi article gives 1763 BCE for the fall of Larsa, though one passage says 1764. World History Encyclopedia names no year for Larsa and dates his rule over all Mesopotamia to 1755 BCE. The year shown is 1763 BCE.",
+        "es": "El artículo de Wikipedia sobre Hammurabi da 1763 a. e. c. para la caída de Larsa, aunque un pasaje dice 1764. La World History Encyclopedia no da año para Larsa y fecha su dominio sobre toda Mesopotamia en 1755 a. e. c. El año indicado es 1763 a. e. c.",
+        "zh": "维基百科的汉谟拉比条目给出拉尔萨陷落于公元前1763年，但其中一处写作公元前1764年。世界历史百科没有给出拉尔萨的年份，只把他统治整个美索不达米亚定在公元前1755年。这里采用公元前1763年。"
+      },
+      "place": {
+        "name": {
+          "en": "Larsa, Iraq",
+          "es": "Larsa, Irak",
+          "zh": "拉尔萨，伊拉克"
+        },
+        "lat": 31.236,
+        "lon": 45.855
+      }
+    },
+    {
+      "id": "code-of-hammurabi",
+      "start": -1791,
+      "end": -1749,
+      "type": "invention",
+      "title": {
+        "en": "Hammurabi has his laws inscribed on a stone stele topped by a relief of the sun god Shamash",
+        "es": "Hammurabi manda inscribir sus leyes en una estela de piedra coronada por un relieve del dios sol Shamash",
+        "zh": "汉谟拉比下令把法律刻在石碑上，碑顶浮雕为太阳神沙马什"
+      },
+      "sources": [
+        {
+          "citation": "Louvre Museum collections. \"Code de Hammurabi.\" (made under Hammurabi, c. 1792–1750 BCE; found at Susa in 1901–1902).",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010174436"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Code of Hammurabi.\" (282 laws inscribed in stone; found at Susa in 1901).",
+          "url": "https://www.worldhistory.org/Code_of_Hammurabi/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date the stele only to Hammurabi's reign (World History Encyclopedia suggests c. 1772 BCE), so the bar covers the whole reign.",
+        "es": "Las fuentes datan la estela solo en el reinado de Hammurabi (la World History Encyclopedia propone c. 1772 a. e. c.), por lo que la barra abarca todo el reinado.",
+        "zh": "资料只把石碑定在汉谟拉比在位期间（世界历史百科建议约为公元前1772年），因此时间条涵盖其整个统治时期。"
+      }
+    },
+    {
+      "id": "hittites-sack-babylon",
+      "start": -1594,
+      "type": "collapse",
+      "title": {
+        "en": "A Hittite army sacks Babylon, ending Hammurabi's dynasty",
+        "es": "Un ejército hitita saquea Babilonia y pone fin a la dinastía de Hammurabi",
+        "zh": "赫梯军队洗劫巴比伦，汉谟拉比王朝终结"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Babylon.\" (the city was sacked by the Hittites in 1595 BCE, then taken by the Kassites).",
+          "url": "https://www.worldhistory.org/Babylon/"
+        },
+        {
+          "citation": "Wikipedia. \"Babylonia.\" (Hittite attack under Mursili I; 1595 BCE in the middle chronology).",
+          "url": "https://en.wikipedia.org/wiki/Babylonia"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Middle-chronology date. The short chronology gives 1531 BCE.",
+        "es": "Fecha de la cronología media. La cronología corta da 1531 a. e. c.",
+        "zh": "此为中年表年代；短年表为公元前1531年。"
+      },
+      "place": {
+        "name": {
+          "en": "Babylon, Iraq",
+          "es": "Babilonia, Irak",
+          "zh": "巴比伦，伊拉克"
+        },
+        "lat": 32.536,
+        "lon": 44.421
+      }
+    },
+    {
+      "id": "amarna-letters",
+      "start": -1374,
+      "end": -1332,
+      "type": "ruler",
+      "title": {
+        "en": "Kassite kings of Babylon trade letters, brides and gifts with the pharaohs of Egypt",
+        "es": "Los reyes casitas de Babilonia intercambian cartas, novias y regalos con los faraones de Egipto",
+        "zh": "巴比伦的加喜特国王与埃及法老互通书信、联姻并交换礼物"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Middle Babylonian period.\" (Amarna letters between Egypt and Kassite kings Kadashman-Enlil I, 1375–1360 BCE, and Burnaburiash II, 1359–1333 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Middle_Babylonian_period"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Kassite.\" (the Amarna letters include correspondence from the Kassite kings of Babylon to the pharaohs of the mid-14th century BCE).",
+          "url": "https://www.worldhistory.org/Kassite/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "elam-ends-kassite-rule",
+      "start": -1154,
+      "type": "collapse",
+      "title": {
+        "en": "Elamites under Shutruk-Nahhunte's dynasty take Babylon and end Kassite rule",
+        "es": "Los elamitas de la dinastía de Shutruk-Nahhunte toman Babilonia y ponen fin al dominio casita",
+        "zh": "舒特鲁克-纳洪特王朝的埃兰人攻占巴比伦，加喜特统治终结"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Elam.\" (Shutrukid kings sack Babylon in the 12th century BCE).",
+          "url": "https://www.worldhistory.org/Elam/"
+        },
+        {
+          "citation": "Wikipedia. \"Kassites.\" (dynasty ends 1155 BCE; Elamites of the Shutrukid dynasty conquer Babylonia).",
+          "url": "https://en.wikipedia.org/wiki/Kassites"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Shutruk-Nahhunte invaded Babylonia in about 1158 BCE; the Kassite dynasty is dated to end in 1155 BCE (short-chronology references differ).",
+        "es": "Shutruk-Nahhunte invadió Babilonia hacia 1158 a. e. c.; se data el fin de la dinastía casita en 1155 a. e. c. (las referencias de cronología corta difieren).",
+        "zh": "舒特鲁克-纳洪特约在公元前1158年入侵巴比伦尼亚；加喜特王朝的终点定在公元前1155年（采用短年表的资料有差异）。"
+      },
+      "place": {
+        "name": {
+          "en": "Babylon, Iraq",
+          "es": "Babilonia, Irak",
+          "zh": "巴比伦，伊拉克"
+        },
+        "lat": 32.536,
+        "lon": 44.421
+      }
+    },
+    {
+      "id": "nebuchadnezzar-takes-jerusalem",
+      "start": -596,
+      "type": "conflict",
+      "title": {
+        "en": "Nebuchadnezzar II besieges Jerusalem, which surrenders, and deports King Jehoiachin to Babylon",
+        "es": "Nabucodonosor II sitia Jerusalén, que se rinde, y deporta al rey Joaquín a Babilonia",
+        "zh": "尼布甲尼撒二世围攻耶路撒冷，城池投降，他把约雅斤王掳往巴比伦"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Siege of Jerusalem (597 BC).\" (surrender in March 597 BCE, dated from the Babylonian Chronicles).",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(597_BC)"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Nebuchadnezzar II.\" (Jerusalem captured 597 BCE).",
+          "url": "https://www.worldhistory.org/Nebuchadnezzar_II/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Jerusalem",
+          "es": "Jerusalén",
+          "zh": "耶路撒冷"
+        },
+        "lat": 31.778,
+        "lon": 35.235
+      }
+    },
+    {
+      "id": "ishtar-gate",
+      "start": -574,
+      "type": "invention",
+      "title": {
+        "en": "Nebuchadnezzar II has the Ishtar Gate built at Babylon, faced with blue glazed brick and animal reliefs",
+        "es": "Nabucodonosor II manda construir en Babilonia la Puerta de Istar, revestida de ladrillo vidriado azul y relieves de animales",
+        "zh": "尼布甲尼撒二世在巴比伦修建伊什塔尔门，门面贴蓝色釉砖并饰有动物浮雕"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Ishtar Gate.\" (built around 575 BCE; excavated by Robert Koldewey, 1902–1914).",
+          "url": "https://worldhistory.org/Ishtar_Gate"
+        },
+        {
+          "citation": "Wikipedia. \"Ishtar Gate.\" (constructed c. 569 BCE; reconstructed at the Pergamon Museum, Berlin).",
+          "url": "https://en.wikipedia.org/wiki/Ishtar_Gate"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources date the gate to about 575 or about 569 BCE. The year shown is 575 BCE.",
+        "es": "Las fuentes datan la puerta hacia 575 o hacia 569 a. e. c. El año indicado es 575 a. e. c.",
+        "zh": "各资料把城门定在约公元前575年或约公元前569年。这里采用公元前575年。"
+      },
+      "place": {
+        "name": {
+          "en": "Babylon, Iraq",
+          "es": "Babilonia, Irak",
+          "zh": "巴比伦，伊拉克"
+        },
+        "lat": 32.536,
+        "lon": 44.421
+      }
+    },
+    {
+      "id": "cyrus-takes-babylon",
+      "start": -538,
+      "type": "collapse",
+      "title": {
+        "en": "Persian forces under Cyrus enter Babylon, ending the Neo-Babylonian Empire",
+        "es": "Las fuerzas persas de Ciro entran en Babilonia y ponen fin al Imperio neobabilónico",
+        "zh": "居鲁士率领的波斯军队进入巴比伦，新巴比伦帝国灭亡"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Babylon.\" (in 539 BCE the Neo-Babylonian Empire fell to the Persians under Cyrus the Great).",
+          "url": "https://www.worldhistory.org/Babylon/"
+        },
+        {
+          "citation": "Wikipedia. \"Fall of Babylon.\" (Persian forces entered the city on 12 October 539 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_Babylon"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Babylon, Iraq",
+          "es": "Babilonia, Irak",
+          "zh": "巴比伦，伊拉克"
+        },
+        "lat": 32.536,
+        "lon": 44.421
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "hammurabi-stele-loot",
+      "start": -1791,
+      "end": -1749,
+      "text": {
+        "en": "Hammurabi's law stele was carried off to Susa as loot about 600 years later, and French archaeologists dug it up there in 1901.",
+        "es": "La estela de leyes de Hammurabi fue llevada como botín a Susa unos 600 años después, y arqueólogos franceses la desenterraron allí en 1901.",
+        "zh": "汉谟拉比的法律石碑约600年后被当作战利品运到苏萨，1901年法国考古学家在那里将它挖了出来。"
+      },
+      "sources": [
+        {
+          "citation": "Louvre Museum collections. \"Code de Hammurabi.\"",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010174436"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Elam.\" (Shutruk-Nakhunte brought the stele to Susa).",
+          "url": "https://www.worldhistory.org/Elam/"
+        }
+      ],
+      "disputed": false
+    },
+    {
+      "id": "ishtar-gate-animals",
+      "start": -574,
+      "end": -538,
+      "text": {
+        "en": "The Ishtar Gate carried rows of lions, bulls and dragons, one for each of the gods Ishtar, Adad and Marduk.",
+        "es": "La Puerta de Istar llevaba hileras de leones, toros y dragones, uno para cada uno de los dioses Istar, Adad y Marduk.",
+        "zh": "伊什塔尔门上排列着狮子、公牛和龙，分别象征伊什塔尔、阿达德和马尔杜克三位神。"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Ishtar Gate.\"",
+          "url": "https://worldhistory.org/Ishtar_Gate"
+        },
+        {
+          "citation": "Wikipedia. \"Ishtar Gate.\"",
+          "url": "https://en.wikipedia.org/wiki/Ishtar_Gate"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

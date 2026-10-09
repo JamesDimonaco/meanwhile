@@ -1,0 +1,303 @@
+{
+  "id": "kamakura-shogunate",
+  "region": "asia-pacific",
+  "wikidataId": "Q736839",
+  "name": {
+    "en": "Kamakura shogunate",
+    "es": "Shogunato Kamakura",
+    "zh": "镰仓幕府"
+  },
+  "nativeName": {
+    "text": "鎌倉幕府",
+    "lang": "ja"
+  },
+  "aliases": [
+    "Kamakura bakufu",
+    "Kamakura period",
+    "Kamakura jidai",
+    "Minamoto no Yoritomo",
+    "Hojo regency",
+    "Hōjō",
+    "镰仓时代",
+    "Kamakura-bakufu"
+  ],
+  "description": {
+    "en": "After defeating the Taira, Minamoto no Yoritomo set up a military government at Kamakura while the emperor stayed in Kyoto. Hōjō regents ran it after Yoritomo's death in 1199. It faced two Mongol invasions, in 1274 and 1281, and fell in 1333 when rebels took Kamakura.",
+    "es": "Tras vencer a los Taira, Minamoto no Yoritomo estableció un gobierno militar en Kamakura mientras el emperador seguía en Kioto. Los regentes Hōjō lo dirigieron tras la muerte de Yoritomo en 1199. Afrontó dos invasiones mongolas, en 1274 y 1281, y cayó en 1333 cuando los rebeldes tomaron Kamakura.",
+    "zh": "源赖朝击败平氏后，在镰仓建立武家政权，天皇仍留在京都。1199年源赖朝去世后，由北条氏摄政执掌政务。幕府先后面对1274年和1281年两次蒙古入侵，并在1333年镰仓被叛军攻陷时灭亡。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "kamakura-shogunate",
+      "earliestStart": 1180,
+      "latestStart": 1192,
+      "earliestEnd": 1333,
+      "latestEnd": 1333,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Kamakura Period\" (AD 1185 – AD 1333), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h78dj"
+        },
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Kamakura and Muromachi Periods\".",
+          "url": "http://countrystudies.us/japan/11.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Kamakura Period\".",
+          "url": "https://www.worldhistory.org/Kamakura_Period/"
+        },
+        {
+          "citation": "Nippon.com, \"Historical Landmarks of the Kamakura Lords\".",
+          "url": "https://www.nippon.com/en/japan-topics/c10901/"
+        }
+      ],
+      "periodoId": "p08m57h78dj",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "Sources date the start differently: 1180, when Yoritomo set up his own government at Kamakura (the view of the historian Hongō Kazuto); 1185, when the Taira fell at Dan-no-ura (the period start in the British Museum and Library of Congress dates); and 1192, when the court named him shogun (the traditional date). The bar is solid from 1192.",
+        "es": "Las fuentes fechan el inicio de formas distintas: 1180, cuando Yoritomo estableció su propio gobierno en Kamakura (la postura del historiador Hongō Kazuto); 1185, cuando los Taira cayeron en Dan-no-ura (el inicio del período según el Museo Británico y la Biblioteca del Congreso); y 1192, cuando la corte lo nombró shogun (la fecha tradicional). La barra es sólida desde 1192.",
+        "zh": "史料对起点的断代不同：1180年，源赖朝在镰仓建立自己的政权（历史学者本乡和人的看法）；1185年，平氏在坛之浦覆灭（大英博物馆与美国国会图书馆采用的时代起点）；1192年，朝廷任命他为征夷大将军（传统说法）。条形图自1192年起为实线。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "dan-no-ura",
+      "start": 1185,
+      "type": "conflict",
+      "title": {
+        "en": "Minamoto forces defeat the Taira at Dan-no-ura, ending the Genpei War",
+        "es": "Las fuerzas Minamoto derrotan a los Taira en Dan-no-ura y ponen fin a la guerra Genpei",
+        "zh": "源氏军队在坛之浦击败平氏，源平合战就此结束"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia, \"Kamakura Period\".",
+          "url": "https://www.worldhistory.org/Kamakura_Period/"
+        },
+        {
+          "citation": "Nippon.com, \"Historical Landmarks of the Kamakura Lords\".",
+          "url": "https://www.nippon.com/en/japan-topics/c10901/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Dan-no-ura, Shimonoseki Strait",
+          "es": "Dan-no-ura, estrecho de Shimonoseki",
+          "zh": "坛之浦，下关海峡"
+        },
+        "lat": 33.9597,
+        "lon": 130.9467
+      }
+    },
+    {
+      "id": "yoritomo-shogun",
+      "start": 1192,
+      "type": "founding",
+      "title": {
+        "en": "The court names Minamoto no Yoritomo seii taishōgun, the title that gives the shogunate its name",
+        "es": "La corte nombra a Minamoto no Yoritomo seii taishōgun, el título que da nombre al shogunato",
+        "zh": "朝廷任命源赖朝为征夷大将军，幕府之名由此而来"
+      },
+      "sources": [
+        {
+          "citation": "Kamakura City Net (Kamakura Citizens' Net), \"The Kamakura Period\".",
+          "url": "https://www.kcn-net.org/e_kama_history/history/history2.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Minamoto no Yoritomo\".",
+          "url": "https://www.worldhistory.org/Minamoto_no_Yoritomo/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kamakura",
+          "es": "Kamakura",
+          "zh": "镰仓"
+        },
+        "lat": 35.3192,
+        "lon": 139.5467
+      }
+    },
+    {
+      "id": "jokyu-disturbance",
+      "start": 1221,
+      "type": "conflict",
+      "title": {
+        "en": "Retired Emperor Go-Toba rises against the Hōjō regent and loses within a month; the shogunate's hold on the Kyoto court grows",
+        "es": "El emperador retirado Go-Toba se alza contra el regente Hōjō y pierde en un mes; el control del shogunato sobre la corte de Kioto se afianza",
+        "zh": "后鸟羽上皇起兵对抗北条执权，一个月内失败；幕府对京都朝廷的控制随之加强"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Kamakura and Muromachi Periods\".",
+          "url": "http://countrystudies.us/japan/11.htm"
+        },
+        {
+          "citation": "Kamakura City Net (Kamakura Citizens' Net), \"The Kamakura Period\".",
+          "url": "https://www.kcn-net.org/e_kama_history/history/history2.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kyoto",
+          "es": "Kioto",
+          "zh": "京都"
+        },
+        "lat": 35.0116,
+        "lon": 135.7681
+      }
+    },
+    {
+      "id": "joei-code",
+      "start": 1232,
+      "type": "invention",
+      "title": {
+        "en": "The Hōjō regents issue the Jōei Code, Japan's first military law code",
+        "es": "Los regentes Hōjō promulgan el Código Jōei, el primer código legal militar de Japón",
+        "zh": "北条氏摄政颁布《御成败式目》，这是日本第一部武家法典"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Kamakura and Muromachi Periods\".",
+          "url": "http://countrystudies.us/japan/11.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Kamakura Period\".",
+          "url": "https://www.worldhistory.org/Kamakura_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kamakura",
+          "es": "Kamakura",
+          "zh": "镰仓"
+        },
+        "lat": 35.3192,
+        "lon": 139.5467
+      }
+    },
+    {
+      "id": "first-mongol-invasion",
+      "start": 1274,
+      "type": "conflict",
+      "title": {
+        "en": "A Mongol, Chinese and Korean force lands at Hakata in northern Kyushu, then withdraws",
+        "es": "Una fuerza mongola, china y coreana desembarca en Hakata, en el norte de Kyushu, y luego se retira",
+        "zh": "蒙古、汉人与高丽联军在九州北部博多登陆，随后撤离"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Mongol Invasions\".",
+          "url": "http://countrystudies.us/japan/13.htm"
+        },
+        {
+          "citation": "Kamakura City Net (Kamakura Citizens' Net), \"The Kamakura Period\".",
+          "url": "https://www.kcn-net.org/e_kama_history/history/history2.htm"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Hakata Bay",
+          "es": "Bahía de Hakata",
+          "zh": "博多湾"
+        },
+        "lat": 33.63,
+        "lon": 130.33
+      }
+    },
+    {
+      "id": "second-mongol-invasion",
+      "start": 1281,
+      "type": "conflict",
+      "title": {
+        "en": "A second, much larger Mongol fleet fights in northern Kyushu until a typhoon wrecks it",
+        "es": "Una segunda flota mongola, mucho mayor, combate en el norte de Kyushu hasta que un tifón la destruye",
+        "zh": "规模大得多的第二支蒙古舰队在九州北部作战，直到台风将其摧毁"
+      },
+      "sources": [
+        {
+          "citation": "Dolan, Ronald E. & Worden, Robert L. (eds.). Japan: A Country Study. Library of Congress Federal Research Division, \"Mongol Invasions\".",
+          "url": "http://countrystudies.us/japan/13.htm"
+        },
+        {
+          "citation": "War History Network, \"The Warrior State: The Kamakura Period (1185-1333)\".",
+          "url": "https://warhistory.org/es/article/the-warrior-state-the-kamakura-period-1185-1333"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Hakata Bay",
+          "es": "Bahía de Hakata",
+          "zh": "博多湾"
+        },
+        "lat": 33.63,
+        "lon": 130.33
+      }
+    },
+    {
+      "id": "fall-of-kamakura",
+      "start": 1333,
+      "type": "collapse",
+      "title": {
+        "en": "Nitta Yoshisada's army takes Kamakura and the Hōjō regime falls",
+        "es": "El ejército de Nitta Yoshisada toma Kamakura y cae el régimen Hōjō",
+        "zh": "新田义贞的军队攻陷镰仓，北条政权覆灭"
+      },
+      "sources": [
+        {
+          "citation": "Kamakura City Net (Kamakura Citizens' Net), \"The Kamakura Period\".",
+          "url": "https://www.kcn-net.org/e_kama_history/history/history2.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Kamakura Period\".",
+          "url": "https://www.worldhistory.org/Kamakura_Period/"
+        }
+      ],
+      "disputed": false,
+      "place": {
+        "name": {
+          "en": "Kamakura",
+          "es": "Kamakura",
+          "zh": "镰仓"
+        },
+        "lat": 35.3192,
+        "lon": 139.5467
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "great-buddha",
+      "start": 1252,
+      "end": 1333,
+      "text": {
+        "en": "The bronze Great Buddha of Kamakura, begun in 1252, stands about 11 metres tall, and an earthquake destroyed its hall in 1498, so it has sat in the open air since.",
+        "es": "El Gran Buda de bronce de Kamakura, iniciado en 1252, mide unos 11 metros, y un terremoto destruyó su pabellón en 1498, por lo que desde entonces está al aire libre.",
+        "zh": "镰仓大佛为青铜铸像，始建于1252年，高约11米，供奉它的殿堂在1498年毁于地震，此后大佛一直露天而坐。"
+      },
+      "sources": [
+        {
+          "citation": "Kōtoku-in, \"The Great Buddha and the Teachings of Kotoku-in\".",
+          "url": "https://kotoku-in.jp/en/about.html"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Kamakura Period\".",
+          "url": "https://www.worldhistory.org/Kamakura_Period/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

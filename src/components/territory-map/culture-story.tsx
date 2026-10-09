@@ -188,7 +188,7 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
             <ul className="flex flex-col gap-1">
               {world.map(({ culture, certain }) => (
                 <li key={culture.id}>
-                  <Link href={`/c/${culture.id}`} className="underline underline-offset-2">
+                  <Link prefetch={false} href={`/c/${culture.id}`} className="underline underline-offset-2">
                     {localize(culture.name, locale)}
                   </Link>
                   {culture.nativeName && <span lang={culture.nativeName.lang}> ({culture.nativeName.text})</span>}
@@ -205,6 +205,7 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
           )}
           <SourceList sources={event.sources} />
           <Link
+            prefetch={false}
             href={{ pathname: "/timeline", query: { year: String(event.start) } }}
             className="underline underline-offset-2"
           >

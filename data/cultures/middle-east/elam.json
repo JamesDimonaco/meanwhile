@@ -1,0 +1,296 @@
+{
+  "id": "elam",
+  "region": "middle-east",
+  "wikidataId": "Q128904",
+  "name": {
+    "en": "Elam",
+    "es": "Elam",
+    "zh": "埃兰"
+  },
+  "nativeName": {
+    "text": "Haltamti",
+    "lang": "elx"
+  },
+  "aliases": [
+    "Elamites",
+    "Susiana",
+    "Susa",
+    "Proto-Elamite",
+    "Old Elamite",
+    "Middle Elamite",
+    "Neo-Elamite",
+    "Shimashki",
+    "Awan",
+    "Chogha Zanbil",
+    "elamitas",
+    "埃兰人",
+    "苏萨"
+  ],
+  "description": {
+    "en": "Elam was a civilization in what is now south-western Iran, centred on Susa. It had its own writing, repeatedly raided Mesopotamian kingdoms, and carried Hammurabi's law stele home as loot. Assyria sacked Susa about 647 BCE.",
+    "es": "Elam fue una civilización del actual suroeste de Irán, con capital en Susa. Tuvo su propia escritura, atacó repetidamente a los reinos mesopotámicos y se llevó como botín la estela de leyes de Hammurabi. Asiria saqueó Susa hacia 647 a. e. c.",
+    "zh": "埃兰是位于今伊朗西南部、以苏萨为中心的文明。它有自己的文字，多次袭击美索不达米亚王国，并把汉谟拉比的法律石碑当作战利品运回国内。约公元前647年，亚述洗劫了苏萨。"
+  },
+  "reviewed": {
+    "es": false,
+    "zh": false
+  },
+  "periods": [
+    {
+      "id": "elam-period",
+      "earliestStart": -3199,
+      "latestStart": -2999,
+      "earliestEnd": -646,
+      "latestEnd": -538,
+      "sources": [
+        {
+          "citation": "British Museum collection thesaurus, \"Elamite\" (circa 3000 BC – 539 BC, south-western Iran), via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p08m57h6mf7"
+        },
+        {
+          "citation": "Pleiades, \"Elamite Western Iran (3200-540 BC)\", via PeriodO.",
+          "url": "http://n2t.net/ark:/99152/p03wskddbqj"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Elam.\"",
+          "url": "https://www.worldhistory.org/Elam/"
+        }
+      ],
+      "periodoId": "p08m57h6mf7",
+      "default": true,
+      "disputed": true,
+      "note": {
+        "en": "The bar follows the British Museum's span for Elamite culture (about 3000 to 539 BCE). The fade at the end separates the Assyrian sack of Susa (about 647 BCE), which broke Elamite power although Elamite cities and culture continued, from its absorption into Cyrus's Persian empire in 539 BCE. Dates before about 1500 BCE follow the middle chronology.",
+        "es": "La barra sigue el marco del Museo Británico para la cultura elamita (de hacia 3000 a 539 a. e. c.). El degradado final separa el saqueo asirio de Susa (hacia 647 a. e. c.), que quebró el poder elamita aunque las ciudades y la cultura elamitas continuaron, de su absorción en el imperio persa de Ciro en 539 a. e. c. Las fechas anteriores a 1500 a. e. c. aproximadamente siguen la cronología media.",
+        "zh": "时间条依据大英博物馆对埃兰文化的断代（约公元前3000年至539年）。末端的渐变部分区分两件事：亚述洗劫苏萨（约公元前647年）打垮了埃兰的势力（但埃兰的城市和文化仍在延续），而它并入居鲁士的波斯帝国是在公元前539年。公元前1500年以前的年代大多依据中年表。"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "proto-elamite-writing",
+      "start": -3099,
+      "end": -2699,
+      "type": "invention",
+      "title": {
+        "en": "Scribes at Susa and across Iran write accounts in Proto-Elamite, a script still not fully read",
+        "es": "Escribas de Susa y de todo Irán anotan cuentas en protoelamita, una escritura que aún no se lee por completo",
+        "zh": "苏萨及伊朗各地的书吏用原始埃兰文记账，这种文字至今尚未完全释读"
+      },
+      "sources": [
+        {
+          "citation": "Wikipedia. \"Proto-Elamite.\" (Susa III, c. 3100–2700 BCE; script not completely deciphered).",
+          "url": "https://en.wikipedia.org/wiki/Proto-Elamite"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Elam.\" (Proto-Elamite period, c. 3200–2700 BCE).",
+          "url": "https://www.worldhistory.org/Elam/"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The two sources start the period at 3100 and 3200 BCE. The script has not been fully deciphered, so its contents are known only in part.",
+        "es": "Las dos fuentes sitúan el inicio del periodo en 3100 y 3200 a. e. c. La escritura no está completamente descifrada, de modo que su contenido solo se conoce en parte.",
+        "zh": "两种资料把该时期的起点分别定在公元前3100年和3200年。这种文字尚未完全释读，其内容只能部分了解。"
+      },
+      "place": {
+        "name": {
+          "en": "Susa, Iran",
+          "es": "Susa, Irán",
+          "zh": "苏萨，伊朗"
+        },
+        "lat": 32.19,
+        "lon": 48.258
+      }
+    },
+    {
+      "id": "sargon-attacks-elam",
+      "start": -2299,
+      "type": "conflict",
+      "title": {
+        "en": "Sargon of Akkad conquers Awan and takes Susa, bringing Elam under Akkadian rule",
+        "es": "Sargón de Acad conquista Awan y toma Susa, con lo que Elam pasa a dominio acadio",
+        "zh": "阿卡德的萨尔贡攻占阿万和苏萨，埃兰归于阿卡德统治"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Elam.\" (Sargon of Akkad conquered Awan under its king Luh-Ishan, around 2300 BCE, and took Susa).",
+          "url": "https://www.worldhistory.org/Elam/"
+        },
+        {
+          "citation": "Wikipedia. \"Akkadian Empire.\" (Sargon claimed to have defeated Elam, notably in a year name).",
+          "url": "https://en.wikipedia.org/wiki/Akkadian_Empire"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The date is approximate. The claim comes from Sargon's own inscriptions and year names.",
+        "es": "La fecha es aproximada. La afirmación procede de las propias inscripciones y nombres de año de Sargón.",
+        "zh": "年代为大致估计。这一说法出自萨尔贡自己的铭文和纪年名。"
+      }
+    },
+    {
+      "id": "elam-takes-ur",
+      "start": -2003,
+      "type": "conflict",
+      "title": {
+        "en": "Elamites sack Ur and take its king, Ibbi-Sin, prisoner",
+        "es": "Los elamitas saquean Ur y capturan a su rey, Ibbi-Sin",
+        "zh": "埃兰人洗劫乌尔，俘虏了国王伊比辛"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Elam.\" (Shimashki dynasty sacks Ur and takes Ibbi-Sin prisoner, c. 2004 BCE).",
+          "url": "https://www.worldhistory.org/Elam/"
+        },
+        {
+          "citation": "Wikipedia. \"Ibbi-Sin.\" (Elam, under Kindattu, strikes into Ur and captures the king).",
+          "url": "https://en.wikipedia.org/wiki/Ibbi-Sin"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Middle-chronology date of c. 2004 BCE; other chronologies place it decades later.",
+        "es": "Fecha de la cronología media, c. 2004 a. e. c.; otras cronologías la sitúan décadas después.",
+        "zh": "中年表年代，约公元前2004年；其他年表则将其推后数十年。"
+      },
+      "place": {
+        "name": {
+          "en": "Ur, Iraq",
+          "es": "Ur, Irak",
+          "zh": "乌尔，伊拉克"
+        },
+        "lat": 30.963,
+        "lon": 46.103
+      }
+    },
+    {
+      "id": "chogha-zanbil",
+      "start": -1249,
+      "type": "founding",
+      "title": {
+        "en": "Untash-Napirisha builds Dur Untash, with a ziggurat at Chogha Zanbil for the god Inshushinak",
+        "es": "Untash-Napirisha construye Dur Untash, con un zigurat en Chogha Zanbil para el dios Inshushinak",
+        "zh": "温塔什-纳皮里沙修建敦温塔什城，在乔加·赞比尔为神因舒希纳克建造塔庙"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Elam.\" (Untash-Napirisha, r. c. 1275–1240 BCE, built Chogha Zanbil).",
+          "url": "https://www.worldhistory.org/Elam/"
+        },
+        {
+          "citation": "Wikipedia. \"Chogha Zanbil.\" (built about 1250 BCE; UNESCO World Heritage Site since 1979).",
+          "url": "https://en.wikipedia.org/wiki/Chogha_Zanbil"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Wikipedia notes the construction date is unclear because the dating of Elamite kings is uncertain. The year shown is about 1250 BCE.",
+        "es": "Wikipedia señala que la fecha de construcción no es clara porque la datación de los reyes elamitas es incierta. El año indicado es hacia 1250 a. e. c.",
+        "zh": "维基百科指出，由于埃兰诸王的年代不确定，修建年代并不清楚。这里采用约公元前1250年。"
+      },
+      "place": {
+        "name": {
+          "en": "Chogha Zanbil, Iran",
+          "es": "Chogha Zanbil, Irán",
+          "zh": "乔加·赞比尔，伊朗"
+        },
+        "lat": 32.009,
+        "lon": 48.521
+      }
+    },
+    {
+      "id": "shutruk-nahhunte-raid",
+      "start": -1157,
+      "type": "conflict",
+      "title": {
+        "en": "Shutruk-Nahhunte raids Babylonia and carries the stelae of Hammurabi and Naram-Sin back to Susa",
+        "es": "Shutruk-Nahhunte ataca Babilonia y lleva a Susa las estelas de Hammurabi y Naram-Sin",
+        "zh": "舒特鲁克-纳洪特袭击巴比伦尼亚，把汉谟拉比和纳拉姆辛的石碑运回苏萨"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Elam.\" (Shutruk-Nakhunte sacked Babylon and brought the Hammurabi and Naram-Sin stelae to Susa).",
+          "url": "https://www.worldhistory.org/Elam/"
+        },
+        {
+          "citation": "Wikipedia. \"Shutruk-Nakhunte.\" (invaded Kassite Babylonia in 1158 BCE; his inscription on the Naram-Sin stele).",
+          "url": "https://en.wikipedia.org/wiki/Shutruk-Nakhunte"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "The raid is dated to about 1158 BCE; sources give his reign as about 1184 to 1155 BCE, and the Kassite dynasty is dated to end in 1155 BCE.",
+        "es": "El ataque se data hacia 1158 a. e. c.; las fuentes dan su reinado entre 1184 y 1155 a. e. c. aproximadamente, y se data el fin de la dinastía casita en 1155 a. e. c.",
+        "zh": "这次袭击定在约公元前1158年；资料给出他的在位年份约为公元前1184至1155年，加喜特王朝的终点定在公元前1155年。"
+      },
+      "place": {
+        "name": {
+          "en": "Babylon, Iraq",
+          "es": "Babilonia, Irak",
+          "zh": "巴比伦，伊拉克"
+        },
+        "lat": 32.536,
+        "lon": 44.421
+      }
+    },
+    {
+      "id": "assyria-sacks-susa",
+      "start": -646,
+      "type": "collapse",
+      "title": {
+        "en": "Ashurbanipal of Assyria sacks Susa, the Elamite capital, ending the long wars between Assyria and Elam",
+        "es": "Asurbanipal de Asiria saquea Susa, la capital elamita, y pone fin a las largas guerras entre Asiria y Elam",
+        "zh": "亚述的亚述巴尼拔洗劫埃兰都城苏萨，亚述与埃兰之间的长期战争就此结束"
+      },
+      "sources": [
+        {
+          "citation": "World History Encyclopedia. \"Elam.\" (Ashurbanipal's inscription claims he destroyed the cities of Elam c. 647–646 BCE, though Elamite cities and culture continued afterwards; Elam stayed part of the Persian empire after 539 BCE).",
+          "url": "https://www.worldhistory.org/Elam/"
+        },
+        {
+          "citation": "Wikipedia. \"Siege of Susa.\" (Ashurbanipal levelled the city in 647 BCE).",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Susa"
+        }
+      ],
+      "disputed": true,
+      "note": {
+        "en": "Sources give 647 and about 646 BCE for the sack. The year shown is 647 BCE.",
+        "es": "Las fuentes dan 647 y hacia 646 a. e. c. para el saqueo. El año indicado es 647 a. e. c.",
+        "zh": "各资料把洗劫定在公元前647年和约公元前646年。这里采用公元前647年。"
+      },
+      "place": {
+        "name": {
+          "en": "Susa, Iran",
+          "es": "Susa, Irán",
+          "zh": "苏萨，伊朗"
+        },
+        "lat": 32.19,
+        "lon": 48.258
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "stele-carried-to-susa",
+      "start": -1157,
+      "end": -1157,
+      "text": {
+        "en": "The Code of Hammurabi stele in the Louvre was dug up at Susa, where an Elamite king had taken it as loot about 1158 BCE.",
+        "es": "La estela del Código de Hammurabi que está en el Louvre fue desenterrada en Susa, adonde un rey elamita la había llevado como botín hacia 1158 a. e. c.",
+        "zh": "卢浮宫收藏的汉谟拉比法典石碑出土于苏萨，约公元前1158年一位埃兰国王把它当作战利品带到了那里。"
+      },
+      "sources": [
+        {
+          "citation": "Louvre Museum collections. \"Code de Hammurabi.\" (excavated at Susa in 1901–1902 by Jacques de Morgan).",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010174436"
+        },
+        {
+          "citation": "World History Encyclopedia. \"Elam.\" (Shutruk-Nakhunte brought the stele to Susa).",
+          "url": "https://www.worldhistory.org/Elam/"
+        }
+      ],
+      "disputed": false
+    }
+  ]
+}

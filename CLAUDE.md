@@ -52,6 +52,17 @@ src/components/<area>/               see Ownership
 src/components/ui/                   shadcn components (base-nova, RTL-aware)
 ```
 
+## Regions
+
+Nine, fixed in `REGIONS` (`src/lib/data/regions.ts`), each with a colour (`--chart-1`..`--chart-9`, `REGION_COLOR`) that `globals.test.ts` holds to 3:1 on the background and apart from every other region and the war red, also under protanopia and deuteranopia. A tenth region means finding another colour that passes. A culture's region is where its heartland is, not where its empire reached:
+
+- `middle-east`: Mesopotamia, Anatolia, the Levant, Arabia, Persia and the Caucasus, plus Central Asia (label "Middle East & Central Asia").
+- `south-asia`: the Indian subcontinent and Sri Lanka.
+- `asia-pacific`: Japan, Korea, Mongolia and the steppe, Southeast Asia, Oceania (label "East Asia & Pacific"). China stays its own region.
+- `north-america`: North America and the Caribbean (Mexico's Mesoamerican cultures stay in `mesoamerica`).
+- `africa` covers all of the continent (Egypt, Nubia, the Maghreb, sub-Saharan Africa).
+- `europe` includes Byzantium and Russia. Georgia and Armenia go in `middle-east`.
+
 ## Years
 
 - Stored as signed integers, **astronomical numbering**: 1 CE = 1, 1 BCE = 0, 2 BCE = -1, 1200 BCE = -1199. Convert only on display, via `src/lib/years.ts`. There is no year zero on screen.
@@ -65,7 +76,7 @@ JSON, validated by zod in `src/lib/data/schema.ts` (the source of truth for fiel
 
 - **LocalizedText** `{ en, es?, zh? }`: English required; missing es/zh falls back to English (validation warns). `reviewed: { es, zh }` on each culture is `false` until a native speaker checks that language (machine-translated until then).
 - **Source** `{ citation, url? }`. Every period, phase, event, fact and borders file has `sources: Source[]`. Events need at least 2 independent sources. Write facts in your own words; never copy source wording.
-- **Culture**: `id` (kebab-case, in the registry), `region` (`china | south-america | mesoamerica | europe | africa`), `wikidataId` (`Q…`), `name`, `nativeName? { text, lang }` (BCP 47 lang, e.g. `zh-Hans`, `qu`), `aliases[]` (search-only terms: pinyin, other spellings), `description`, `reviewed`, `periods[]`, `phases[]`, `events[]` (at least 5), `facts[]` (at least 1).
+- **Culture**: `id` (kebab-case, in the registry), `region` (`china | south-america | mesoamerica | europe | africa | middle-east | south-asia | asia-pacific | north-america`, see Regions), `wikidataId` (`Q…`), `name`, `nativeName? { text, lang }` (BCP 47 lang, e.g. `zh-Hans`, `qu`), `aliases[]` (search-only terms: pinyin, other spellings), `description`, `reviewed`, `periods[]`, `phases[]`, `events[]` (at least 5), `facts[]` (at least 1).
 - **Period**: `id`, `label?`, `earliestStart`, `latestStart`, `earliestEnd`, `latestEnd`, `sources`, `periodoId?` (e.g. `p08m57h9sf6`), `default` (exactly one per culture), `disputed`, `note?`. The bar is solid from `latestStart` to `earliestEnd` and fades across the outer edges. Prefer a PeriodO definition from a major museum or standard reference (https://data.perio.do/d.json).
 - **Phase** (segments of one bar): `id`, `name`, `start`, `end`, `sources`, ordered by start. Rome is one culture `rome` with phases kingdom / republic / empire / eastern; Maya is one culture `maya` with phases preclassic / classic / postclassic.
 - **Event**: `id`, `start`, `end?`, `type` (`founding | ruler | invention | conflict | collapse`), `title`, `sources` (2+), `disputed`, `note?`, `place? { name, lat, lon, pleiadesId? }` (required for every event of a culture with a borders file: the map pins it).
@@ -219,7 +230,7 @@ These follow the decisions above where they reach; James may change them at revi
 - Numbers and years through `Intl` / `src/lib/years.ts`. Show native names beside translated ones with the `lang` attribute set.
 - Logical CSS only: `ms-/me-/ps-/pe-/start-/end-/text-start/border-s/rounded-s`. Lint rejects left/right Tailwind classes.
 - Nothing from Google: no Google Fonts (lint blocks `next/font/google`), maps, analytics or CDNs. Self-host every asset; the build fails on Google hosts in the built output. Subset any CJK font.
-- Hosting: Next on Vercel, function region `iad1` (`vercel.json`; Anthropic doesn't serve mainland China or Hong Kong, so never `hkg1`). Every page and the `geo/` and manifest route handlers are prerendered (`generateStaticParams`, `force-static`); check the build's route table keeps them `○`/`●`. The only server code is `POST /api/scan`. No middleware, cookies, rewrites or server actions; `redirects()` in `next.config.ts` holds the one redirect, old `/<locale>/wars/<code>/` links to `/<locale>/country/<code>/`. Browser APIs only in effects or `useSyncExternalStore`; wrap every `localStorage` call in try/catch.
+- Hosting: Next on Vercel, function region `iad1` (`vercel.json`; Anthropic doesn't serve mainland China or Hong Kong, so never `hkg1`). Every page and the `geo/` and manifest route handlers are prerendered (`generateStaticParams`, `force-static`); check the build's route table keeps them `○`/`●`. The only server code is `POST /api/scan`. No middleware, cookies, rewrites or server actions; `redirects()` in `next.config.ts` holds the one redirect, old `/<locale>/wars/<code>/` links to `/<locale>/country/<code>/`. `headers()` there sets cache headers: the Inter fonts a year (immutable), everything else static (the CJK font subsets `/fonts/noto-sans-sc-*`, which `pnpm subset-cjk-font` rewrites under the same names, plus `/flags`, `/geo`, `/icons`) a day. The zh font is three faces: main (`messages/zh` and culture names, every zh page), culture (the rest of the culture and borders data) and wars; the last two carry a script-written `unicode-range`, so a page fetches them only when it shows one of their characters. Every `Link` that sits in a list or on every page sets `prefetch={false}`: Next prefetches the full page of a static route when a link scrolls into view, so a footer or language-switcher link costs every visitor on every page view (the language switcher alone fetched the page in all three languages). Only the header title and the footer's Timeline and Wars links keep the default. Browser APIs only in effects or `useSyncExternalStore`; wrap every `localStorage` call in try/catch.
 - Locale choice is stored under `LOCALE_STORAGE_KEY` (`src/i18n/locales.ts`); the root page reads it before browser languages.
 
 ## Domain, deploys and workflow

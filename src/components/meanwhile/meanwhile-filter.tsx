@@ -66,6 +66,7 @@ export function MeanwhileFilter({
             return (
               <li key={id} className="relative">
                 <Link
+                  prefetch={false}
                   href={`/c/${id}`}
                   aria-label={tMeanwhile("reanchor", { name: card.name })}
                   className="flex h-full min-w-0 flex-col gap-1.5 rounded-xl border border-border bg-card p-4 transition-colors hover:bg-muted"
@@ -94,6 +95,7 @@ export function MeanwhileFilter({
                 {/* A sibling of the card link, not inside it: links can't nest. */}
                 {anchor && (
                   <Link
+                    prefetch={false}
                     href={compareHref([anchor.id, id])}
                     aria-label={tCompare("compareCardLabel", { a: anchor.name, b: card.name })}
                     className="absolute end-3 top-3 inline-flex items-center gap-1 rounded-full border border-border bg-background px-2.5 py-1 text-xs font-medium after:absolute after:-inset-1.5 hover:bg-muted"
