@@ -148,5 +148,19 @@
   "portuguese-empire": ["PT"],
   "dutch-republic": ["NL"],
   "british-empire": ["GB"],
-  "first-french-empire": ["FR"]
+  "first-french-empire": ["FR"],
+  "ancestral-puebloans": ["US"],
+  "mississippian-culture": ["US"],
+  "hopewell-tradition": ["US"],
+  "haudenosaunee-confederacy": ["US", "CA"],
+  "taino": ["DO", "HT"],
+  "comanche-empire": ["US"],
+  "purepecha-empire": ["MX"],
+  "viceroyalty-of-new-spain": ["MX"],
+  "tairona": ["CO"],
+  "mapuche": ["CL"],
+  "marajoara": ["BR"],
+  "chachapoya": ["PE"],
+  "viceroyalty-of-peru": ["PE"],
+  "empire-of-brazil": ["BR"]
 }

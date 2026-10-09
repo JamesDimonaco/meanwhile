@@ -749,6 +749,76 @@
       "id": "first-french-empire",
       "region": "europe",
       "label": "First French Empire"
+    },
+    {
+      "id": "ancestral-puebloans",
+      "region": "north-america",
+      "label": "Ancestral Puebloans"
+    },
+    {
+      "id": "mississippian-culture",
+      "region": "north-america",
+      "label": "Mississippian culture"
+    },
+    {
+      "id": "hopewell-tradition",
+      "region": "north-america",
+      "label": "Hopewell tradition"
+    },
+    {
+      "id": "haudenosaunee-confederacy",
+      "region": "north-america",
+      "label": "Haudenosaunee Confederacy"
+    },
+    {
+      "id": "taino",
+      "region": "north-america",
+      "label": "Taíno"
+    },
+    {
+      "id": "comanche-empire",
+      "region": "north-america",
+      "label": "Comanche Empire"
+    },
+    {
+      "id": "purepecha-empire",
+      "region": "mesoamerica",
+      "label": "Purépecha Empire"
+    },
+    {
+      "id": "viceroyalty-of-new-spain",
+      "region": "mesoamerica",
+      "label": "Viceroyalty of New Spain"
+    },
+    {
+      "id": "tairona",
+      "region": "south-america",
+      "label": "Tairona"
+    },
+    {
+      "id": "mapuche",
+      "region": "south-america",
+      "label": "Mapuche"
+    },
+    {
+      "id": "marajoara",
+      "region": "south-america",
+      "label": "Marajoara culture"
+    },
+    {
+      "id": "chachapoya",
+      "region": "south-america",
+      "label": "Chachapoya"
+    },
+    {
+      "id": "viceroyalty-of-peru",
+      "region": "south-america",
+      "label": "Viceroyalty of Peru"
+    },
+    {
+      "id": "empire-of-brazil",
+      "region": "south-america",
+      "label": "Empire of Brazil"
     }
   ]
 }
