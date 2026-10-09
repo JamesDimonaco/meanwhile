@@ -75,8 +75,8 @@
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-revolt-1568-1648"
         },
         {
-          "citation": "Encyclopedia.com, \"Dutch Republic\": the office of stadtholder was kept after the abjuration of the king in whose name William of Orange had held it.",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-republic"
+          "citation": "Britannica, \"Act of Abjuration\": in 1581 the States General declared that Philip had forfeited his sovereignty over the provinces by persistent tyranny.",
+          "url": "https://www.britannica.com/topic/Act-of-Abjuration"
         }
       ],
       "disputed": false
@@ -113,7 +113,7 @@
       },
       "sources": [
         {
-          "citation": "Encyclopedia.com, \"Dutch Republic\": after the Spanish crown went bankrupt in 1607, the Twelve Years' Truce of 1609 confirmed the independence of the northern provinces.",
+          "citation": "Encyclopedia.com, \"Dutch Republic\": the independence of the northern provinces was confirmed in a Twelve Years' Truce in 1609.",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-republic"
         },
         {
@@ -193,9 +193,9 @@
       "start": 1787,
       "type": "conflict",
       "title": {
-        "en": "British and Prussian intervention ends the Patriot Revolution and restores the Orangist regime",
-        "es": "La intervención británica y prusiana pone fin a la Revolución Patriota y restablece el régimen orangista",
-        "zh": "英国和普鲁士的干预结束爱国者革命，恢复奥兰治派政权"
+        "en": "A Prussian army enters the Republic, with British diplomatic backing, ends the Patriot Revolution and restores the Orangist regime",
+        "es": "Un ejército prusiano entra en la República, con respaldo diplomático británico, pone fin a la Revolución Patriota y restablece el régimen orangista",
+        "zh": "普鲁士军队在英国的外交支持下进入共和国，结束爱国者革命，恢复奥兰治派政权"
       },
       "sources": [
         {
@@ -203,11 +203,16 @@
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/patriot-revolution"
         },
         {
-          "citation": "Encyclopedia.com, \"Dutch Republic\": William V was saved from defeat by the Patriots in the fall of 1787 by his brother-in-law, Frederick William II of Prussia.",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-republic"
+          "citation": "Britannica, \"Patriot Movement\": Prussia sent an army into the United Provinces after Princess Wilhelmina was held at the provincial border, swept away the Holland and Utrecht militias and restored the stadtholder; Wilhelmina had arranged the crisis with the English ambassador.",
+          "url": "https://www.britannica.com/topic/Patriot-Movement-Dutch-political-movement"
         }
       ],
-      "disputed": false
+      "disputed": false,
+      "note": {
+        "en": "Encyclopedia.com calls the intervention British and Prussian and military. Britannica describes Prussian troops, with Britain acting through its ambassador, so the title names British backing as diplomatic.",
+        "es": "Encyclopedia.com habla de una intervención militar británica y prusiana. Britannica describe tropas prusianas, con Gran Bretaña actuando a través de su embajador, por lo que el título habla de respaldo diplomático británico.",
+        "zh": "Encyclopedia.com称这是英国和普鲁士的军事干预。大英百科全书则描述为普鲁士军队行动，英国通过其大使施加影响，因此标题将英国的支持表述为外交支持。"
+      }
     },
     {
       "id": "batavian-revolution",
@@ -224,15 +229,15 @@
           "url": "https://www.worldhistory.org/French_Revolutionary_Wars/"
         },
         {
-          "citation": "Encyclopedia.com, \"Dutch Republic\": the Batavian Republic, newly created under the revolution of 1795, needed a unified government in place of the old federal republic.",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-republic"
+          "citation": "Rijksmuseum, \"Batavian Republic\": the Patriots enlisted French help; in January 1795 William V was forced to flee to England and the Batavian Republic was founded soon afterwards.",
+          "url": "https://www.rijksmuseum.nl/en/collection/node/Batavian-Republic--95fc6c7312c04ee4a38083f2a4626258"
         }
       ],
       "disputed": false,
       "note": {
-        "en": "The Patriots who returned from exile in the winter of 1794-1795 took part in the change of government, which Encyclopedia.com calls a Batavian Revolution under French sponsorship.",
-        "es": "Los patriotas que volvieron del exilio en el invierno de 1794-1795 participaron en el cambio de gobierno, que Encyclopedia.com llama Revolución Bátava bajo patrocinio francés.",
-        "zh": "1794至1795年冬天从流亡中返回的爱国者参与了政权更迭，Encyclopedia.com称之为法国支持下的巴达维亚革命。"
+        "en": "Dutch Patriots asked for French help and took part in the change of government, which the Rijksmuseum describes as a sister state to revolutionary France.",
+        "es": "Los patriotas neerlandeses pidieron la ayuda francesa y participaron en el cambio de gobierno, que el Rijksmuseum describe como un estado hermano de la Francia revolucionaria.",
+        "zh": "荷兰爱国者请求法国援助并参与了政权更迭，国立博物馆（Rijksmuseum）称新政权是革命法国的姊妹国家。"
       }
     }
   ],
@@ -252,8 +257,8 @@
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-west-india-company"
         },
         {
-          "citation": "Encyclopedia.com, \"Dutch Republic\": Dutch trading posts in the Atlantic forwarded African slaves to French and English sugar islands and Spanish colonies, and Dutch planters in Surinam bought slaves.",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dutch-republic"
+          "citation": "Britannica, \"Dutch West India Company\": the labour needs of Brazilian plantations made it imperative for the company to buy slaves in Africa, and it seized Portuguese bases on the West African coast to do so.",
+          "url": "https://www.britannica.com/topic/Dutch-West-India-Company"
         }
       ],
       "disputed": false

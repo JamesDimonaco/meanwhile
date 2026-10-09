@@ -170,8 +170,8 @@
           "url": "https://www.geschichtewiki.wien.gv.at/Erste_T%C3%BCrkenbelagerung_(1529)"
         },
         {
-          "citation": "City of Vienna, \"The Turkish Sieges\".",
-          "url": "https://www.wien.gv.at/english/history/overview/turks.html"
+          "citation": "Die Welt der Habsburger, \"The first Turkish siege of Vienna, 1529\": Suleiman's army besieged the city for three weeks in the autumn of 1529.",
+          "url": "https://www.habsburger.net/en/events/first-turkish-siege-vienna-1529"
         }
       ],
       "disputed": false,
@@ -200,8 +200,8 @@
           "url": "https://www.geschichtewiki.wien.gv.at/index.php?title=Zweite_T%C3%BCrkenbelagerung_%281683%29"
         },
         {
-          "citation": "Wien Museum Online Sammlung, \"Die Entsatzschlacht bei Wien am 12. September 1683\".",
-          "url": "https://sammlung.wienmuseum.at/en/object/56637-die-entsatzschlacht-bei-wien-am-12-september-1683/"
+          "citation": "Encyclopaedia Britannica, \"Battle of Kahlenberg\": a relief force under John III Sobieski defeated the Ottoman army on 12 September 1683.",
+          "url": "https://www.britannica.com/topic/Battle-of-Kahlenberg"
         }
       ],
       "disputed": false,
@@ -230,8 +230,8 @@
           "url": "https://www.worldhistory.org/Maria_Theresa/"
         },
         {
-          "citation": "Die Welt der Habsburger, \"Maria Theresa\".",
-          "url": "https://www.habsburger.net/en/persons/habsburg-emperor/maria-theresa"
+          "citation": "Encyclopaedia Britannica, \"Germany: The contest between Prussia and Austria\": Frederick II invaded Silesia in December 1740, after Charles VI's death.",
+          "url": "https://www.britannica.com/place/Germany/The-contest-between-Prussia-and-Austria"
         }
       ],
       "disputed": false,
@@ -250,9 +250,9 @@
       "start": 1781,
       "type": "ruler",
       "title": {
-        "en": "Joseph II issues an edict of toleration for Protestants and Orthodox subjects and a patent easing serfdom in Bohemia and Austria",
-        "es": "José II promulga un edicto de tolerancia para sus súbditos protestantes y ortodoxos y una patente que alivia la servidumbre en Bohemia y Austria",
-        "zh": "约瑟夫二世颁布针对新教徒和东正教徒的宽容敕令，以及减轻波希米亚和奥地利农奴制的诏书"
+        "en": "Joseph II issues an edict of toleration for Protestants and Orthodox subjects and a patent easing serfdom in Bohemia",
+        "es": "José II promulga un edicto de tolerancia para sus súbditos protestantes y ortodoxos y una patente que alivia la servidumbre en Bohemia",
+        "zh": "约瑟夫二世颁布针对新教徒和东正教徒的宽容敕令，以及减轻波希米亚农奴制的诏书"
       },
       "sources": [
         {
@@ -316,18 +316,14 @@
       "end": 1815,
       "type": "founding",
       "title": {
-        "en": "Delegates meet at the Congress of Vienna, hosted by Francis I, to redraw Europe after Napoleon",
-        "es": "Los delegados se reúnen en el Congreso de Viena, anfitrionado por Francisco I, para rehacer el mapa de Europa tras Napoleón",
-        "zh": "各国代表在弗朗茨一世主办的维也纳会议上聚首，在拿破仑之后重划欧洲版图"
+        "en": "Delegates meet at the Congress of Vienna, with Metternich as chairman, to redraw Europe after Napoleon",
+        "es": "Los delegados se reúnen en el Congreso de Viena, con Metternich como presidente, para rehacer el mapa de Europa tras Napoleón",
+        "zh": "各国代表在维也纳会议上聚首，由梅特涅主持，在拿破仑之后重划欧洲版图"
       },
       "sources": [
         {
           "citation": "Encyclopedia.com, \"Congress of Vienna\": met September 1814 to June 1815; Metternich secured Lombardy and Venetia for Austria.",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/congress-vienna"
-        },
-        {
-          "citation": "Encyclopedia.com, \"Francis I (Austria)\": Francis ended the French wars as host of the Vienna Congress.",
-          "url": "https://www.encyclopedia.com/people/history/austria-and-hungary-history-biographies/francis-i-france"
         },
         {
           "citation": "Die Welt der Habsburger, \"The new ordering of Europe in 1814/15\".",

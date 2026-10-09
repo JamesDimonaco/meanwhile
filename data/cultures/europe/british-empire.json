@@ -95,12 +95,12 @@
       },
       "sources": [
         {
-          "citation": "Encyclopedia.com, \"British East India Company\": Robert Clive's victory at the Battle of Plassey (1757); the company began to acquire a territorial empire in India afterwards.",
+          "citation": "Encyclopedia.com, \"British East India Company\": Robert Clive defeated the challenge of the French company and captured Bengal in 1757.",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/east-india-company"
         },
         {
-          "citation": "Encyclopedia.com, \"British Empire\": the Seven Years War saw Britain take control of much of India (1756-7).",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/british-empire"
+          "citation": "World History Encyclopedia, \"Battle of Plassey\": on 23 June 1757 Robert Clive's East India Company army defeated a larger force of the Nawab of Bengal; the victory brought the Company wealth and began its territorial expansion.",
+          "url": "https://www.worldhistory.org/Battle_of_Plassey/"
         }
       ],
       "disputed": false,
@@ -119,9 +119,9 @@
       "start": 1776,
       "type": "collapse",
       "title": {
-        "en": "The thirteen American colonies declare independence on 4 July, which ends what is often called the first British empire",
-        "es": "Las trece colonias americanas declaran su independencia el 4 de julio, lo que pone fin a lo que suele llamarse el primer imperio británico",
-        "zh": "北美十三个殖民地于7月4日宣布独立，结束了常说的第一英帝国"
+        "en": "The thirteen American colonies declare independence on 4 July; Britain loses them by the end of the war, which curtails what is often called the first British empire",
+        "es": "Las trece colonias americanas declaran su independencia el 4 de julio; el Reino Unido las pierde al terminar la guerra, lo que recorta lo que suele llamarse el primer imperio británico",
+        "zh": "北美十三个殖民地于7月4日宣布独立；英国在战争结束时失去这些殖民地，常说的第一英帝国就此缩小"
       },
       "sources": [
         {
@@ -129,7 +129,7 @@
           "url": "https://history.state.gov/milestones/1776-1783/declaration"
         },
         {
-          "citation": "Encyclopedia.com, \"British Empire\": the 'first' British empire came to an end with the rebellion of the thirteen American colonies in 1776.",
+          "citation": "Encyclopedia.com, \"British Empire\": the 'First Empire' was curtailed by the loss of 13 colonies at the end of the American Revolution (1775-81).",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/british-empire"
         }
       ],
@@ -237,9 +237,9 @@
       ],
       "disputed": false,
       "note": {
-        "en": "Names for the rising differ: the Indian Mutiny, the Sepoy Mutiny, the Indian Rebellion of 1857. Encyclopedia.com says armed resistance lasted until spring 1859.",
-        "es": "Los nombres del levantamiento varían: Motín de la India, Motín de los cipayos, Rebelión de la India de 1857. Encyclopedia.com dice que la resistencia armada duró hasta la primavera de 1859.",
-        "zh": "这场起事的名称不一：印度兵变、士兵起义、1857年印度起义。Encyclopedia.com称武装抵抗持续到1859年春。"
+        "en": "Encyclopedia.com calls the rising the Indian Mutiny and notes that in India it is known as the first war of independence. It says armed resistance lasted until spring 1859.",
+        "es": "Encyclopedia.com llama al levantamiento Motín de la India y señala que en la India se conoce como la primera guerra de independencia. Dice que la resistencia armada duró hasta la primavera de 1859.",
+        "zh": "Encyclopedia.com称这场起事为印度兵变，并指出在印度它被称为第一次独立战争。该文称武装抵抗持续到1859年春。"
       },
       "place": {
         "name": {
@@ -256,25 +256,25 @@
       "start": 1947,
       "type": "collapse",
       "title": {
-        "en": "British India is divided into the self-governing dominions of Pakistan, on 14 August, and India, on 15 August",
-        "es": "La India británica se divide en los dominios autónomos de Pakistán, el 14 de agosto, y de la India, el 15 de agosto",
-        "zh": "英属印度分为两个自治领：8月14日的巴基斯坦和8月15日的印度"
+        "en": "British India is divided into the two self-governing dominions of India and Pakistan in mid-August",
+        "es": "La India británica se divide en los dos dominios autónomos de la India y Pakistán a mediados de agosto",
+        "zh": "英属印度于8月中旬分为印度和巴基斯坦两个自治领"
       },
       "sources": [
         {
-          "citation": "Encyclopedia.com, \"Pakistan\": on 14 August 1947 British India was divided into the self-governing dominions of India and Pakistan; partition moved more than 20 million people and up to three million of them were killed.",
+          "citation": "Encyclopedia.com, \"Pakistan\": on 14 August 1947 British India was divided into the two self-governing dominions of India and Pakistan; more than 20 million people moved, and up to three million of them were killed.",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/pakistan"
         },
         {
-          "citation": "Encyclopedia.com, \"India\": in mid-August 1947 British India was divided into two self-governing dominions; the partition involved some 20 million people.",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/india-1"
+          "citation": "Indian Independence Act 1947, section 1 (legislation.gov.uk): as from 15 August 1947 two independent Dominions were set up in India, India and Pakistan.",
+          "url": "https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/section/1"
         }
       ],
-      "disputed": false,
+      "disputed": true,
       "note": {
-        "en": "Pakistan's date is 14 August and India's is 15 August. Deaths in the partition are contested: Encyclopedia.com gives up to three million.",
-        "es": "La fecha de Pakistán es el 14 de agosto y la de la India el 15 de agosto. Las muertes de la partición son discutidas: Encyclopedia.com da hasta tres millones.",
-        "zh": "巴基斯坦的日期是8月14日，印度是8月15日。分治造成的死亡人数有争议：Encyclopedia.com给出的数字最高为三百万。"
+        "en": "The Indian Independence Act names 15 August 1947 as the day both dominions were set up. The Encyclopedia.com article on Pakistan dates the division to 14 August. Deaths in the partition are contested: that article says up to three million were killed, among more than 20 million who moved.",
+        "es": "La Ley de Independencia de la India fija el 15 de agosto de 1947 como el día en que se crearon ambos dominios. El artículo de Encyclopedia.com sobre Pakistán fecha la división el 14 de agosto. Las muertes de la partición son discutidas: ese artículo dice que murieron hasta tres millones de personas, entre más de 20 millones que se desplazaron.",
+        "zh": "《印度独立法》规定1947年8月15日为两个自治领成立之日。Encyclopedia.com关于巴基斯坦的条目把分治定在8月14日。分治造成的死亡人数有争议：该条目称，在两千多万迁徙者中，最多有三百万人死亡。"
       },
       "place": {
         "name": {
@@ -291,9 +291,9 @@
       "start": 1956,
       "type": "conflict",
       "title": {
-        "en": "Britain and France, with Israel, attack Egypt after it nationalises the Suez Canal Company, and withdraw under a UN ceasefire",
-        "es": "Reino Unido y Francia, junto con Israel, atacan Egipto tras la nacionalización de la Compañía del Canal de Suez, y se retiran bajo un alto el fuego de la ONU",
-        "zh": "埃及将苏伊士运河公司收归国有后，英国和法国联合以色列进攻埃及，并在联合国停火决议下撤军"
+        "en": "Britain and France, with Israel, attack Egypt after it nationalises the Suez Canal Company, and accept a UN ceasefire on 6 November",
+        "es": "Reino Unido y Francia, junto con Israel, atacan Egipto tras la nacionalización de la Compañía del Canal de Suez, y aceptan un alto el fuego de la ONU el 6 de noviembre",
+        "zh": "埃及将苏伊士运河公司收归国有后，英国和法国联合以色列进攻埃及，并于11月6日接受联合国停火"
       },
       "sources": [
         {
@@ -301,7 +301,7 @@
           "url": "https://history.state.gov/milestones/1953-1960/suez"
         },
         {
-          "citation": "Encyclopedia.com, \"Suez Crisis\": in November the British and French, in league with Israel, attacked Egypt; international pressure forced the invaders to withdraw.",
+          "citation": "Encyclopedia.com, \"Suez Crisis\": Israel attacked Sinai on 29 October, British and French planes began bombing Egyptian bases on 31 October, and the United States sponsored a UN ceasefire resolution that left Britain and France isolated.",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/suez-crisis"
         }
       ],
@@ -342,11 +342,11 @@
     {
       "id": "caribbean-slave-trade",
       "text": {
-        "en": "Encyclopedia.com says British Caribbean plantations, mainly on Barbados and Jamaica, received almost one and a half million enslaved Africans, 23 percent of the Atlantic trade, until Britain abolished its slave trade in 1807.",
-        "es": "Encyclopedia.com afirma que las plantaciones del Caribe británico, sobre todo en Barbados y Jamaica, recibieron casi un millón y medio de africanos esclavizados, el 23 por ciento del comercio atlántico, hasta que el Reino Unido abolió su comercio de esclavos en 1807.",
-        "zh": "Encyclopedia.com称，英属加勒比的种植园，主要在巴巴多斯和牙买加，接收了近一百五十万被奴役的非洲人，占大西洋贩奴贸易的23%，直到1807年英国废除奴隶贸易。"
+        "en": "Encyclopedia.com says British Caribbean plantations, mainly on Barbados and Jamaica, received almost one and a half million enslaved Africans, 23 percent of the Atlantic trade.",
+        "es": "Encyclopedia.com afirma que las plantaciones del Caribe británico, sobre todo en Barbados y Jamaica, recibieron casi un millón y medio de africanos esclavizados, el 23 por ciento del comercio atlántico.",
+        "zh": "Encyclopedia.com称，英属加勒比的种植园，主要在巴巴多斯和牙买加，接收了近一百五十万被奴役的非洲人，占大西洋贩奴贸易的23%。"
       },
-      "start": 1600,
+      "start": 1640,
       "end": 1807,
       "sources": [
         {
@@ -354,7 +354,11 @@
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/slavery"
         },
         {
-          "citation": "Encyclopedia.com, \"Atlantic Slave Trade\": by 1713 England had a virtual monopoly on the trade north of the equator, and Great Britain abolished the trade in 1807.",
+          "citation": "Britannica, \"History of Barbados\": Barbados became a sugar island in the 1640s, and the Royal African Company and other traders brought increasing numbers of enslaved Africans there.",
+          "url": "https://www.britannica.com/topic/history-of-Barbados"
+        },
+        {
+          "citation": "Encyclopedia.com, \"Atlantic Slave Trade\": Great Britain abolished the trade in 1807.",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/atlantic-slave-trade"
         }
       ],
@@ -373,6 +377,10 @@
         {
           "citation": "Encyclopedia.com, \"Famine\": severe famines occurred in India under British rule in the eighteenth and nineteenth centuries; the last major famine under British rule was the Bengal famine of 1943 to 1944.",
           "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/famine"
+        },
+        {
+          "citation": "Britannica, \"Famine\" (entitlement failure): the Bengal famine of 1943 killed some three million people; British wartime stockpiling and exports of food made it worse.",
+          "url": "https://www.britannica.com/science/famine/Entitlement-failure"
         }
       ],
       "disputed": false

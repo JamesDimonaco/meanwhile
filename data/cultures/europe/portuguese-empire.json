@@ -98,25 +98,29 @@
       "start": 1440,
       "type": "founding",
       "title": {
-        "en": "Portuguese ships begin carrying enslaved Africans from West Africa to Portugal; the first large shipments to Brazil follow from about 1526",
-        "es": "Los barcos portugueses empiezan a llevar africanos esclavizados desde África occidental a Portugal; los primeros grandes envíos a Brasil llegan hacia 1526",
-        "zh": "葡萄牙船只开始把被奴役的非洲人从西非运往葡萄牙；大规模运往巴西的船运约从1526年开始"
+        "en": "Portuguese expeditions begin seizing Africans on the West African coast and taking them to Portugal as slaves",
+        "es": "Las expediciones portuguesas empiezan a capturar africanos en la costa de África occidental y a llevarlos a Portugal como esclavos",
+        "zh": "葡萄牙远征队开始在西非海岸掳掠非洲人，并把他们作为奴隶运往葡萄牙"
       },
       "sources": [
         {
-          "citation": "World History Encyclopedia, \"Transatlantic Slave Trade: The Shame of Nations\": Portugal began exporting slaves from Africa to Europe in 1440; the first large-scale transport to Brazil is dated to 1526.",
+          "citation": "World History Encyclopedia, \"Transatlantic Slave Trade: The Shame of Nations\": Portugal began exporting slaves from Africa to Europe in 1440.",
           "url": "https://www.worldhistory.org/Transatlantic_Slave_Trade/"
         },
         {
-          "citation": "Encyclopedia.com, \"Atlantic Slave Trade\": the Portuguese started the African slave trade in the early fifteenth century and bought slaves from African coastal rulers.",
-          "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/atlantic-slave-trade"
+          "citation": "Library of Congress Country Studies, \"Portugal - Early Voyages\": the voyages of the 1440s returned African slaves to Portugal.",
+          "url": "https://countrystudies.us/portugal/22.htm"
+        },
+        {
+          "citation": "World History Encyclopedia, \"Prince Henry the Navigator\": 1444 saw the first Portuguese expedition to take slaves from Africa, after a raid on Arguin Island.",
+          "url": "https://www.worldhistory.org/Prince_Henry_the_Navigator/"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "World History Encyclopedia gives 1440 for the start. Encyclopedia.com says only \"the early fifteenth century\".",
-        "es": "World History Encyclopedia da 1440 para el inicio. Encyclopedia.com dice solo \"a principios del siglo XV\".",
-        "zh": "世界历史百科全书把开端定在1440年，而Encyclopedia.com只说“15世纪初”。"
+        "en": "The sources date the start to 1440, to the 1440s, and to 1444, the first large raid, on Arguin Island.",
+        "es": "Las fuentes fechan el inicio en 1440, en la década de 1440 y en 1444, la primera gran incursión, en la isla de Arguin.",
+        "zh": "各种资料把开端定在1440年、1440年代，以及1444年（在阿尔金岛的第一次大规模袭击）。"
       }
     },
     {
@@ -134,7 +138,7 @@
           "url": "https://www.worldhistory.org/Vasco_da_Gama/"
         },
         {
-          "citation": "Internet History Sourcebooks (Fordham University), \"Vasco da Gama\": reached Calicut on 20 May 1498.",
+          "citation": "Internet History Sourcebooks (Fordham University), \"Vasco da Gama\": on 20 May 1498 the fleet anchored two leagues from Calicut.",
           "url": "https://sourcebooks.fordham.edu/mod/1497degama.asp"
         }
       ],
@@ -230,19 +234,19 @@
       },
       "sources": [
         {
-          "citation": "Encyclopedia.com, \"Macao\": founded in 1557 by Portuguese traders seeking a permanent commercial settlement; Portugal leased the peninsula from China from 1670.",
+          "citation": "Encyclopedia.com, \"Macao\": settled in the mid-sixteenth century by the Portuguese as a trading post for commerce between Lisbon and Nagasaki; Portugal leased the peninsula from China from 1670, and China never ratified the 1862 Treaty of Tianjin.",
           "url": "https://www.encyclopedia.com/places/asia/chinese-political-geography/macao"
         },
         {
-          "citation": "World History Encyclopedia, \"Portuguese Macao\": in 1557 the Ming dynasty grants the Portuguese a trading base, according to one version.",
+          "citation": "World History Encyclopedia, \"Portuguese Macao\": between 1555 and 1557, according to one version, the Chinese authorities gave the Portuguese the right to a trading centre.",
           "url": "https://www.worldhistory.org/Portuguese_Macao/"
         }
       ],
       "disputed": true,
       "note": {
-        "en": "Accounts differ on the terms. One version says the Chinese authorities granted a trading base. Another says Portugal leased the peninsula from 1670, and that China never ratified the 1862 Treaty of Tianjin that made Macau a Portuguese colony.",
-        "es": "Los relatos difieren sobre las condiciones. Una versión dice que las autoridades chinas concedieron una base comercial. Otra dice que Portugal arrendó la península desde 1670 y que China nunca ratificó el Tratado de Tianjin de 1862, que hacía de Macao una colonia portuguesa.",
-        "zh": "各种记述对条件说法不一。一种说法是中国官府给予一处贸易据点；另一种说法是葡萄牙自1670年起租借该半岛，而中国从未批准1862年使澳门成为葡萄牙殖民地的《天津条约》。"
+        "en": "The date and terms vary between accounts. 1557 is the usual date, but one version places it between 1555 and 1557 and says the Chinese authorities granted a trading base. Another says Portugal leased the peninsula from 1670, and that China never ratified the 1862 Treaty of Tianjin that made Macau a Portuguese colony.",
+        "es": "La fecha y las condiciones varían según los relatos. 1557 es la fecha habitual, pero una versión la sitúa entre 1555 y 1557 y dice que las autoridades chinas concedieron una base comercial. Otra dice que Portugal arrendó la península desde 1670 y que China nunca ratificó el Tratado de Tianjin de 1862, que hacía de Macao una colonia portuguesa.",
+        "zh": "各种记述在时间和条件上说法不一。1557年是通常采用的年份，但有一种说法把它定在1555至1557年之间，并称中国官府给予一处贸易据点；另一种说法是葡萄牙自1670年起租借该半岛，而中国从未批准1862年使澳门成为葡萄牙殖民地的《天津条约》。"
       },
       "place": {
         "name": {
@@ -276,12 +280,12 @@
       "disputed": false,
       "place": {
         "name": {
-          "en": "Rio de Janeiro",
-          "es": "Río de Janeiro",
-          "zh": "里约热内卢"
+          "en": "Ipiranga, São Paulo",
+          "es": "Ipiranga, São Paulo",
+          "zh": "伊皮兰加，圣保罗"
         },
-        "lat": -22.9068,
-        "lon": -43.1729
+        "lat": -23.5855,
+        "lon": -46.6097
       }
     },
     {
