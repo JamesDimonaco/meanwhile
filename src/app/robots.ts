@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { LOCALES } from "@/i18n/locales";
 import { absoluteUrl } from "@/lib/seo";
 
 // Built once per deploy: nothing here changes between requests.
@@ -19,11 +20,13 @@ const AI_TRAINING_CRAWLERS = [
 
 // Nothing on the site is private: no accounts, no admin routes. Every other
 // crawler gets one rule (Baidu and Bing read the same directives as Google).
+// It skips compare: the page reads ?ids= in the browser, so every pair of
+// cultures is a new URL to a crawler and a cache miss, with nothing to index.
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       { userAgent: AI_TRAINING_CRAWLERS, disallow: "/" },
-      { userAgent: "*", allow: "/" },
+      { userAgent: "*", allow: "/", disallow: LOCALES.map((l) => `/${l}/compare/`) },
     ],
     sitemap: absoluteUrl("/sitemap.xml"),
   };
