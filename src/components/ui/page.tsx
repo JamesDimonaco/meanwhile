@@ -101,7 +101,8 @@ export const DISCLOSURE_CHEVRON = "mt-1 size-4 shrink-0 text-muted-foreground tr
 
 /**
  * A 44px-tall hit area under a finger for a small control that sits on its own (a date, a "Disputed" flag, a
- * before/after link), without making the control look any bigger. Not for links inside a sentence.
+ * "N active" on a timeline), without making the control look any bigger. Not for links inside a sentence. The
+ * area reaches 10px above and below: give a link on the line next to it `relative z-10` so the link wins there.
  */
 export const TOUCH_AREA = "relative pointer-coarse:after:absolute pointer-coarse:after:inset-x-0 pointer-coarse:after:-inset-y-2.5";
 
@@ -159,12 +160,18 @@ export const INPUT =
  */
 export function keepResultsAboveKeyboard(input: HTMLElement) {
   if (!window.matchMedia("(pointer: coarse)").matches) return;
-  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  (input.closest("label") ?? input).scrollIntoView({ block: "start", behavior: reduce ? "auto" : "smooth" });
+  (input.closest("label") ?? input).scrollIntoView({ block: "start", behavior: scrollBehavior() });
 }
+
+/** For scrolling the page from code: smooth, unless the visitor asked their device for less motion. */
+export const scrollBehavior = (): ScrollBehavior =>
+  window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
 
 /** A label above its control: the search boxes and every row of filter chips. */
 export const FIELD_LABEL = "text-sm font-medium text-foreground";
+
+/** A link that stands on a line of its own: add to TEXT_LINK. 36px tall with a mouse, 44px under a finger. */
+export const TALL_LINK = "inline-flex min-h-9 items-center self-start font-medium pointer-coarse:min-h-11";
 
 /** An inline text link. */
 export const TEXT_LINK =

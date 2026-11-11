@@ -105,7 +105,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
                 <span className="text-sm text-muted-foreground">
                   <RegionDot region={c.region} /> {tCommon(`regions.${c.region}`)}
                   {" · "}
-                  <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} plain />
+                  <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} />
                 </span>
               </Link>
             ),

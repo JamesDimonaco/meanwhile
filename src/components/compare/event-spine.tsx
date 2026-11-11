@@ -149,7 +149,7 @@ function EventCard({
     >
       {/* The date is text, and the title's button covers the whole card (after:inset-0). */}
       <div className="flex flex-wrap items-center gap-1 text-sm text-muted-foreground">
-        <YearRangeText start={event.start} end={event.end ?? event.start} plain />
+        <YearRangeText start={event.start} end={event.end ?? event.start} />
         {/* No note here: tapping the card opens it, and the note shows inside. */}
         {event.disputed && <DisputedBadge />}
       </div>

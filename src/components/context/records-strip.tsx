@@ -30,7 +30,7 @@ export async function RecordsStrip({
             <li key={kind} className="flex flex-col gap-0.5">
               <span className="flex flex-wrap items-baseline gap-x-1.5">
                 <span className="text-muted-foreground">{t(kind)}</span>
-                <Link prefetch={false} href={`/c/${holder.id}`} className={cn(TEXT_LINK, "font-medium")}>
+                <Link prefetch={false} href={`/c/${holder.id}`} className={cn(TEXT_LINK, "relative z-10 font-medium")}>
                   {localize(holder.name, locale)}
                 </Link>
               </span>
@@ -42,7 +42,7 @@ export async function RecordsStrip({
                 ) : (
                   t.rich("began", {
                     // The midpoint only ranks; showing it would invent a date no source gives (Qing: 1636 or 1644, never 1640).
-                    year: () => <YearRangeText start={holder.period.earliestStart} end={holder.period.latestStart} />,
+                    year: () => <YearRangeText start={holder.period.earliestStart} end={holder.period.latestStart} explain />,
                   })
                 )}
               </span>

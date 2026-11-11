@@ -54,9 +54,9 @@ function EventItem({
             <span className="flex flex-col gap-1">
               <span className="text-sm text-muted-foreground">
                 {event.end === undefined || event.end === event.start ? (
-                  <YearText year={event.start} plain />
+                  <YearText year={event.start} />
                 ) : (
-                  <YearRangeText start={event.start} end={event.end} plain />
+                  <YearRangeText start={event.start} end={event.end} />
                 )}
               </span>
               <span className={cn(CARD_TITLE, "flex flex-wrap items-center gap-1.5")}>
@@ -96,7 +96,7 @@ export function EventDetail({ event, world }: { event: CultureEvent; world: Even
 
       <div>
         <SectionHeading as="h3" size="sub">
-          {t.rich("alsoHappening", { year: () => <YearText year={event.start} /> })}
+          {t.rich("alsoHappening", { year: () => <YearText year={event.start} explain /> })}
         </SectionHeading>
         {world.length === 0 ? (
           <p className="mt-1 text-muted-foreground">—</p>

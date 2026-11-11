@@ -103,7 +103,7 @@ export function SearchBox({
                     <ResultLink
                       href={{ pathname: "/timeline", query: { year: String(hit.year) } }}
                       kind={t("kind", { kind: "year" })}
-                      details={<YearText year={hit.year} plain />}
+                      details={<YearText year={hit.year} />}
                     >
                       <span className={CARD_TITLE}>{t("seeOnTimeline")}</span>
                     </ResultLink>
@@ -122,7 +122,7 @@ export function SearchBox({
                         <>
                           <RegionDot region={hit.entry.region} /> {tCommon(`regions.${hit.entry.region}`)}
                           {" · "}
-                          <YearRangeText start={hit.entry.period.latestStart} end={hit.entry.period.earliestEnd} plain />
+                          <YearRangeText start={hit.entry.period.latestStart} end={hit.entry.period.earliestEnd} />
                         </>
                       }
                     >
@@ -136,7 +136,7 @@ export function SearchBox({
                       )}
                     </ResultLink>
                   ) : (
-                    <ResultLink href={`/war/${hit.entry.id}`} kind={t("kind", { kind: "war" })} details={<WarDates span={hit.entry.span} plain />}>
+                    <ResultLink href={`/war/${hit.entry.id}`} kind={t("kind", { kind: "war" })} details={<WarDates span={hit.entry.span} />}>
                       <span className={CARD_TITLE}>{hit.entry.name}</span>
                     </ResultLink>
                   )}

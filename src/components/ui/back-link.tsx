@@ -1,6 +1,8 @@
 import type { ComponentProps, ReactNode } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { cn } from "@/lib/utils";
+import { TALL_LINK } from "./page";
 
 // Apart from page.tsx, which has no imports of its own to resolve: this one needs the router.
 
@@ -10,7 +12,10 @@ export function BackLink({ href, children }: { href: ComponentProps<typeof Link>
     <Link
       prefetch={false}
       href={href}
-      className="-ms-1 inline-flex min-h-9 items-center gap-1.5 self-start rounded-md px-1 text-sm font-medium text-muted-foreground underline-offset-4 hover:text-foreground hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none pointer-coarse:min-h-11"
+      className={cn(
+        TALL_LINK,
+        "-ms-1 gap-1.5 rounded-md px-1 text-sm text-muted-foreground underline-offset-4 hover:text-foreground hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none",
+      )}
     >
       <ArrowLeft aria-hidden className="size-4 shrink-0 rtl:rotate-180" />
       {children}

@@ -24,7 +24,7 @@ import type { War } from "@/lib/data/war-schema";
 import { countriesToday, isShownIn, warSpan } from "@/lib/data/wars";
 import { openGraph, pageAlternates } from "@/lib/seo";
 import { BackLink } from "@/components/ui/back-link";
-import { Page, PageTitle, Section, TEXT_LINK } from "@/components/ui/page";
+import { Page, PageTitle, Section, TALL_LINK, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 
 export const dynamic = "force-static";
@@ -123,13 +123,13 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
           </ul>
         )}
         <p className="text-sm text-muted-foreground">
-          <WarDates span={span} />
+          <WarDates span={span} explain />
         </p>
         <WarBar war={war} />
         <Link
           prefetch={false}
           href={{ pathname: "/timeline", query: { year: String(span.start) } }}
-          className={cn(TEXT_LINK, "inline-flex min-h-9 items-center self-start text-sm font-medium pointer-coarse:min-h-11")}
+          className={cn(TEXT_LINK, TALL_LINK, "text-sm")}
         >
           {tMap("onTimeline")}
         </Link>
@@ -208,7 +208,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
           <ul className="flex flex-col">
             {linked.map((c) => (
               <li key={c.id}>
-                <Link prefetch={false} href={`/c/${c.id}`} className={cn(TEXT_LINK, "inline-flex min-h-9 items-center gap-1.5 font-medium pointer-coarse:min-h-11")}>
+                <Link prefetch={false} href={`/c/${c.id}`} className={cn(TEXT_LINK, TALL_LINK, "gap-1.5")}>
                   {localize(c.name, locale)}
                   <HeartlandFlags cultureId={c.id} />
                 </Link>
@@ -219,7 +219,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
       )}
 
       {candidates.length > 0 && (
-        <Section title={tMap.rich("elsewhere", { year: () => <YearText year={span.start} /> })}>
+        <Section title={tMap.rich("elsewhere", { year: () => <YearText year={span.start} explain /> })}>
           <MeanwhileCards
             anchor={null}
             candidates={candidates}

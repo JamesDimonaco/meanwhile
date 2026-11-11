@@ -48,6 +48,5 @@
   "after": "<label>Began after this one:</label> <link>{name}</link>",
   "cultures": "Cultures it ended or changed",
   "cultureWars": "Wars",
-  "noMatchHint": "Try a country or a war, like Mexico, Vietnam or Opium War.",
-  "noneInContinents": "No countries on the continents you picked."
+  "noMatchHint": "Try a country or a war, like Mexico, Vietnam or Opium War."
 }

@@ -57,14 +57,14 @@ export function OverlapChart({ cultures, overlap }: { cultures: CompareCulture[]
         return t.rich(all ? "overlapAll" : "overlap", {
           count: overlap.years,
           nowrap,
-          range: () => <YearRangeText start={overlap.start} end={overlap.end} />,
+          range: () => <YearRangeText start={overlap.start} end={overlap.end} explain />,
         });
       case "touching":
-        return t.rich(all ? "touchingAll" : "touching", { year: () => <YearText year={overlap.year} /> });
+        return t.rich(all ? "touchingAll" : "touching", { year: () => <YearText year={overlap.year} explain /> });
       case "uncertain":
         return t.rich(all ? "uncertainAll" : "uncertain", {
           nowrap,
-          range: () => <YearRangeText start={overlap.start} end={overlap.end} />,
+          range: () => <YearRangeText start={overlap.start} end={overlap.end} explain />,
         });
       case "gap":
         return all ? t("gapAll") : t("gap", { count: overlap.years });
@@ -88,7 +88,7 @@ export function OverlapChart({ cultures, overlap }: { cultures: CompareCulture[]
             <span aria-hidden className={`size-2.5 shrink-0 rounded-full ${SLOTS[i].bg}`} />
             <span className={`font-semibold ${SLOTS[i].text}`}>{localize(c.name, locale)}</span>
             <span className="text-muted-foreground">
-              <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} />
+              <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} explain />
             </span>
             {c.period.disputed && <DisputedBadge note={c.period.note && localize(c.period.note, locale)} />}
           </li>

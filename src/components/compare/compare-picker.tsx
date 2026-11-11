@@ -32,7 +32,6 @@ export function ComparePicker({
 }) {
   const t = useTranslations("compare");
   const tCommon = useTranslations("common");
-  const tHome = useTranslations("home");
   const locale = useLocale();
   const { eraStyle } = useSettings();
   const [query, setQuery] = useState("");
@@ -75,8 +74,8 @@ export function ComparePicker({
       </label>
 
       {/* Only the "nothing found" box is announced: a live region round the list would read all of it on every key. */}
-      <div aria-live="polite">
-        {trimmed && results.length === 0 && <EmptyState title={t("noResults", { query: trimmed })}>{tHome("noResultsHint")}</EmptyState>}
+      <div aria-live="polite" className="empty:hidden">
+        {trimmed && results.length === 0 && <EmptyState title={t("noResults", { query: trimmed })}>{t("noResultsHint")}</EmptyState>}
       </div>
       {!trimmed && results.length > 0 && (
         <SectionHeading size="sub">{anchor ? t("sameTime") : t("suggestions")}</SectionHeading>

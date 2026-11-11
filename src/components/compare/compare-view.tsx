@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { LoaderCircle, X } from "lucide-react";
 import { BackLink } from "@/components/ui/back-link";
-import { ErrorNote, Note, PageIntro, PageTitle, TEXT_LINK } from "@/components/ui/page";
+import { ErrorNote, Note, PageIntro, PageTitle, TALL_LINK, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { EventDetail } from "@/components/culture/culture-events";
 import type { SearchEntry } from "@/components/search/search-index";
@@ -53,8 +53,6 @@ function useWide(): boolean {
   );
 }
 
-const SHEET_LINK = "inline-flex min-h-9 items-center self-start font-medium pointer-coarse:min-h-11";
-
 type Loaded = { key: string; cultures: CompareCulture[] } | { key: string; failed: true };
 type Selected = { side: number; event: CompareEvent };
 
@@ -72,7 +70,10 @@ export function CompareView({ entries, suggested }: { entries: SearchEntry[]; su
 
   const ids = parseCompareIds(searchParams.get("ids"), new Set(byId.keys()));
   // A shared link can name a culture that was renamed or never existed: say so instead of quietly dropping it.
-  const unknown = (searchParams.get("ids") ?? "").split(",").filter((id) => id && !byId.has(id)).length;
+  const unknown = (searchParams.get("ids") ?? "")
+    .split(",")
+    .map((id) => id.trim())
+    .filter((id) => id && !byId.has(id)).length;
   const starters = useMemo(() => suggested.flatMap((id) => byId.get(id) ?? []), [suggested, byId]);
   const max = wide ? MAX_WIDE : MAX_NARROW;
   const shown = ids.slice(0, max);
@@ -222,7 +223,7 @@ function EventSheet({
             <span className="text-muted-foreground">· {tCulture(`eventTypes.${event.type}`)}</span>
           </p>
           <p className="text-sm text-muted-foreground">
-            <YearRangeText start={event.start} end={event.end ?? event.start} />
+            <YearRangeText start={event.start} end={event.end ?? event.start} explain />
           </p>
         </div>
         <Button variant="ghost" size="icon" onClick={onClose} aria-label={t("close")}>
@@ -233,13 +234,13 @@ function EventSheet({
       <div className="flex flex-col gap-3 text-sm">
         <EventDetail event={event} world={world} />
         <div className="flex flex-col border-t border-border pt-2">
-          <Link prefetch={false} href={`/c/${culture.id}`} className={cn(TEXT_LINK, SHEET_LINK)}>
+          <Link prefetch={false} href={`/c/${culture.id}`} className={cn(TEXT_LINK, TALL_LINK)}>
             {t("aboutCulture", { name })}
           </Link>
           <Link
             prefetch={false}
             href={{ pathname: "/timeline", query: { year: String(event.start) } }}
-            className={cn(TEXT_LINK, SHEET_LINK)}
+            className={cn(TEXT_LINK, TALL_LINK)}
           >
             {t("onTimeline")}
           </Link>

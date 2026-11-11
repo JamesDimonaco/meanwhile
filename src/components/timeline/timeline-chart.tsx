@@ -227,7 +227,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
       <div className="sticky top-0 z-10 -mx-4 flex items-center justify-between gap-3 border-b border-border bg-background px-4 py-2">
         <div className="flex min-w-0 flex-col">
           <output className="text-lg font-semibold tabular-nums">
-            <YearText year={year} />
+            <YearText year={year} explain />
           </output>
           {summary}
         </div>

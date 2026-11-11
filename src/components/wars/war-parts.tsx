@@ -15,11 +15,11 @@ import { cn } from "@/lib/utils";
 export type CultureNames = Record<string, string>;
 
 /** "1519–1521 CE", or "2022 – ongoing, as of 30 September 2026". */
-export function WarDates({ span: { start, end, asOf }, plain = false }: { span: WarSpan; plain?: boolean }) {
+export function WarDates({ span: { start, end, asOf }, explain = false }: { span: WarSpan; explain?: boolean }) {
   const t = useTranslations("wars");
   const locale = useLocale();
-  if (end !== null || asOf === null) return <YearRangeText start={start} end={end ?? start} plain={plain} />;
-  return <span>{t.rich("ongoing", { start: () => <YearText year={start} plain={plain} />, date: formatIsoDate(asOf, locale) })}</span>;
+  if (end !== null || asOf === null) return <YearRangeText start={start} end={end ?? start} explain={explain} />;
+  return <span>{t.rich("ongoing", { start: () => <YearText year={start} explain={explain} />, date: formatIsoDate(asOf, locale) })}</span>;
 }
 
 type SideProps = { cultureNames: CultureNames; linkCultures: boolean; here?: string };
@@ -121,7 +121,7 @@ export function WarRow({
         {localize(war.name, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">
-        <WarDates span={warSpan(war)} plain />
+        <WarDates span={warSpan(war)} />
       </span>
       <SideList sides={war.sides} cultureNames={cultureNames} here={here} />
       <p className="text-sm leading-relaxed text-foreground">{localize(war.outcome, locale)}</p>

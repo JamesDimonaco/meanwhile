@@ -111,7 +111,6 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           prefetch={false}
           href={compareHref([culture.id])}
           className={buttonVariants({ variant: "outline", className: "self-start" })}
-          data-icon-start
         >
           <Columns2 aria-hidden />
           {tCompare("compareWith")}
@@ -161,7 +160,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
                 >
                   <span className="font-medium">{localize(c.name, locale)}</span>
                   <span className="text-muted-foreground">
-                    <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} plain />
+                    <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} />
                   </span>
                 </Link>
               </li>

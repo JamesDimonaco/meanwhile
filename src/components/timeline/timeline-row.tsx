@@ -53,23 +53,21 @@ export function RegionHeaderLabel({ region, y, height }: { region: Region; y: nu
 
 /**
  * Frozen name column: one row's name, row-aligned with its bar, linking to
- * its page, after an optional prefix (a flag). `twoLines` wraps a long name
- * onto a second line in rows tall enough for it, since a cut-off name can
- * read the same as another ("Second Anglo-M..." twice) and touch has no tooltip.
+ * its page, after an optional prefix (a flag). A long name wraps onto a second
+ * line, since a cut-off name can read the same as another ("Second Anglo-M..."
+ * twice) and touch has no tooltip.
  */
 export function RowLabel({
   href,
   name,
   y,
   height,
-  twoLines = false,
   children,
 }: {
   href: string;
   name: string;
   y: number;
   height: number;
-  twoLines?: boolean;
   children?: ReactNode;
 }) {
   return (
@@ -84,7 +82,7 @@ export function RowLabel({
     >
       {children}
       {/* Up to two 14px lines: the column is narrow on a phone. */}
-      <span className={twoLines ? "line-clamp-2 leading-4" : "truncate"}>{name}</span>
+      <span className="line-clamp-2 leading-4">{name}</span>
     </Link>
   );
 }
@@ -123,7 +121,7 @@ export function TimelineLegend({ events = false }: { events?: boolean }) {
 /** One flag only: the column is too narrow for three. */
 export function CultureLabel({ culture, y, height }: { culture: TimelineCulture; y: number; height: number }) {
   return (
-    <RowLabel href={`/c/${culture.id}`} name={culture.name} y={y} height={height} twoLines>
+    <RowLabel href={`/c/${culture.id}`} name={culture.name} y={y} height={height}>
       <HeartlandFlags cultureId={culture.id} max={1} />
     </RowLabel>
   );

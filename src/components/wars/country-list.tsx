@@ -85,7 +85,7 @@ export function CountryList({
                   >
                     <span className={CARD_TITLE}>{w.name}</span>
                     <span className="text-sm text-muted-foreground">
-                      <WarDates span={w.span} plain />
+                      <WarDates span={w.span} />
                     </span>
                   </Link>
                 </li>
@@ -95,7 +95,7 @@ export function CountryList({
         )}
 
         {shownCountries.length === 0 && shownWars.length === 0 ? (
-          <EmptyState title={q ? t("noMatch", { query: q }) : t("noneInContinents")}>{q ? t("noMatchHint") : null}</EmptyState>
+          <EmptyState title={t("noMatch", { query: q })}>{t("noMatchHint")}</EmptyState>
         ) : (
           shownCountries.length > 0 && (
             <section className="flex flex-col gap-2">

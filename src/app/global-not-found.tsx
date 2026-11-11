@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DEFAULT_LOCALE, HTML_LANG, LOCALES } from "@/i18n/locales";
+import { DEFAULT_LOCALE, HTML_LANG, LOCALE_STORAGE_KEY, LOCALES } from "@/i18n/locales";
 import { loadMessages } from "@/i18n/messages";
 import { buttonVariants } from "@/components/ui/button";
 import { PageIntro, PageTitle } from "@/components/ui/page";
@@ -11,9 +11,15 @@ import "./globals.css";
 // it carries all three and a script shows the one the URL asks for
 // (/zh/c/nope/ -> zh). Without JavaScript all three show, English first.
 
-export const metadata: Metadata = { title: "Page not found", robots: { index: false, follow: false } };
+// The title before the script runs is English's, from the same messages as the page; the script then sets the
+// shown language's.
+export async function generateMetadata(): Promise<Metadata> {
+  const { common } = await loadMessages(DEFAULT_LOCALE);
+  return { title: `${common.notFound.title} · ${common.appName}`, robots: { index: false, follow: false } };
+}
 
-const SHOW_URL_LANGUAGE = `(function(){var want=location.pathname.split("/")[1],blocks=document.querySelectorAll("[data-not-found]"),found=null,i;for(i=0;i<blocks.length;i++)if(blocks[i].getAttribute("data-not-found")===want)found=blocks[i];if(!found)found=blocks[0];for(i=0;i<blocks.length;i++)blocks[i].hidden=blocks[i]!==found;document.documentElement.lang=found.lang;document.title=found.getAttribute("data-title")})()`;
+// The language is the URL's first segment, or failing that the one the language switcher last stored, as "/" does.
+const SHOW_URL_LANGUAGE = `(function(){var want=location.pathname.split("/")[1],known=${JSON.stringify(LOCALES)};if(known.indexOf(want)<0){try{want=localStorage.getItem(${JSON.stringify(LOCALE_STORAGE_KEY)})}catch(e){}}var blocks=document.querySelectorAll("[data-not-found]"),found=null,i;for(i=0;i<blocks.length;i++)if(blocks[i].getAttribute("data-not-found")===want)found=blocks[i];if(!found)found=blocks[0];for(i=0;i<blocks.length;i++)blocks[i].hidden=blocks[i]!==found;document.documentElement.lang=found.lang;document.title=found.getAttribute("data-title")})()`;
 
 const NAV_LINK =
   "inline-flex min-h-11 items-center rounded-md px-3 text-sm font-medium underline underline-offset-4 focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none";

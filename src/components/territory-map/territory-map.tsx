@@ -221,8 +221,8 @@ function MapSvg({
         {borders && (
           <span className="text-sm text-foreground">
             {snapshot
-              ? t.rich("bordersAround", { year: () => <YearText year={snapshot.year} plain /> })
-              : t.rich("beforeBorders", { year: () => <YearText year={borders.snapshots[0].year} plain /> })}
+              ? t.rich("bordersAround", { year: () => <YearText year={snapshot.year} /> })
+              : t.rich("beforeBorders", { year: () => <YearText year={borders.snapshots[0].year} /> })}
           </span>
         )}
         {nameSelf && selves.length > 0 && (

@@ -11,20 +11,21 @@ vi.mock("@/components/explainer/explainer-provider", () => ({
 vi.mock("./use-settings", () => ({ useSettings: () => ({ eraStyle: "ce", showYearsAgo: false }) }));
 
 describe("dates", () => {
-  it("are buttons that open the explainer when they stand alone", () => {
-    expect(renderToStaticMarkup(createElement(YearText, { year: -1199 }))).toMatch(/<button[^>]*>1200[\s\u00a0]BCE<\/button>/);
-    expect(renderToStaticMarkup(createElement(YearRangeText, { start: 1, end: 100 }))).toContain("<button");
+  it("are buttons that open the explainer where a page asks for it", () => {
+    expect(renderToStaticMarkup(createElement(YearText, { year: -1199, explain: true }))).toMatch(/<button[^>]*>1200[\s\u00a0]BCE<\/button>/);
+    expect(renderToStaticMarkup(createElement(YearRangeText, { start: 1, end: 100, explain: true }))).toContain("<button");
   });
 
-  // A button inside a link or a <summary> is invalid, and steals the tap meant for the card.
-  it("are plain text inside a link, a summary or another button", () => {
-    const year = renderToStaticMarkup(createElement(YearText, { year: -1199, plain: true }));
-    const range = renderToStaticMarkup(createElement(YearRangeText, { start: 1, end: 100, plain: true }));
+  // A button inside a link or a <summary> is invalid, and steals the tap meant for the card: so text is
+  // what a call site gets when it says nothing.
+  it("are plain text by default", () => {
+    const year = renderToStaticMarkup(createElement(YearText, { year: -1199 }));
+    const range = renderToStaticMarkup(createElement(YearRangeText, { start: 1, end: 100 }));
     expect(year).toMatch(/1200[\s\u00a0]BCE/);
     expect(year + range).not.toContain("<button");
   });
 
   it("are at least 24px tall as buttons", () => {
-    expect(renderToStaticMarkup(createElement(YearText, { year: 5 }))).toMatch(/class="[^"]*\bmin-h-6\b/);
+    expect(renderToStaticMarkup(createElement(YearText, { year: 5, explain: true }))).toMatch(/class="[^"]*\bmin-h-6\b/);
   });
 });

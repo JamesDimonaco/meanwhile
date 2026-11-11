@@ -70,7 +70,7 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
               {t(row.group)}
             </RowHeader>
           ) : (
-            <RowLabel href={itemHref(row.item)} name={row.item.name} y={top} height={row.height} twoLines />
+            <RowLabel href={itemHref(row.item)} name={row.item.name} y={top} height={row.height} />
           )
         }
         bars={(row, xScale) => <BarRow bar={row.item} y={row.y} height={row.height} xScale={xScale} />}

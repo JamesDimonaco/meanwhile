@@ -10,7 +10,7 @@ import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { ActiveCulture } from "@/lib/data/queries";
 import type { CultureEvent, EventType } from "@/lib/data/schema";
-import { CARD_TITLE, DISCLOSURE_CHEVRON, Pill, SectionHeading, TEXT_LINK } from "@/components/ui/page";
+import { CARD_TITLE, DISCLOSURE_CHEVRON, Pill, SectionHeading, TALL_LINK, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { MapFrame } from "./map-frame";
 
@@ -202,7 +202,7 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
           <span className="flex min-w-0 flex-col gap-1">
             <span className="flex flex-col gap-1">
               <span className="text-sm text-muted-foreground">
-                {event.end === undefined ? <YearText year={event.start} plain /> : <YearRangeText start={event.start} end={event.end} plain />}
+                {event.end === undefined ? <YearText year={event.start} /> : <YearRangeText start={event.start} end={event.end} />}
               </span>
               <span className={cn(CARD_TITLE, "flex flex-wrap items-center gap-1.5")}>
                 {localize(event.title, locale)}
@@ -224,7 +224,7 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
         <div id={panelId} className="flex flex-col gap-4 border-t border-border p-4 text-sm">
           <div className="flex flex-col gap-1.5">
             <SectionHeading as="h3" size="sub">
-              {t.rich("elsewhere", { year: () => <YearText year={event.start} plain /> })}
+              {t.rich("elsewhere", { year: () => <YearText year={event.start} /> })}
             </SectionHeading>
             {world.length > 0 ? (
               <ul className="flex flex-col gap-1.5">
@@ -250,7 +250,7 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
           <Link
             prefetch={false}
             href={{ pathname: "/timeline", query: { year: String(event.start) } }}
-            className={cn(TEXT_LINK, "inline-flex min-h-9 items-center self-start font-medium pointer-coarse:min-h-11")}
+            className={cn(TEXT_LINK, TALL_LINK)}
           >
             {t("onTimeline")}
           </Link>

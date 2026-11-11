@@ -6,15 +6,11 @@ import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
 import { YearText } from "@/components/settings/year-text";
 import { WarDates } from "@/components/wars/war-parts";
 import { Button } from "@/components/ui/button";
-import { Card, TOUCH_AREA } from "@/components/ui/page";
+import { Card, scrollBehavior, TOUCH_AREA } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 
 /** The year panel's anchor: the pinned year bar links to it. One timeline per page. */
 export const PANEL_ID = "active-this-year";
-
-/** Smooth, unless the visitor asked their device for less motion. */
-export const scrollBehavior = (): ScrollBehavior =>
-  window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
 
 /** "43 active this year: see the list", in the pinned bar: the list itself sits below every row. */
 export function ActiveCount({ count }: { count: number }) {
@@ -69,7 +65,7 @@ export function YearPanel({
           <div>
             <p className="font-medium">{selected.event.title}</p>
             <p className="text-sm text-muted-foreground">
-              {t(`eventTypes.${selected.event.type}`)} · <YearText year={selected.event.start} />
+              {t(`eventTypes.${selected.event.type}`)} · <YearText year={selected.event.start} explain />
               {selected.event.disputed && <> · {tCommon("disputed")}</>}
             </p>
           </div>
@@ -78,7 +74,7 @@ export function YearPanel({
           </Button>
         </div>
       )}
-      <p className="text-base font-semibold">{t.rich(selected ? "alsoHappening" : "activeIn", { year: () => <YearText year={year} /> })}</p>
+      <p className="text-base font-semibold">{t.rich(selected ? "alsoHappening" : "activeIn", { year: () => <YearText year={year} explain /> })}</p>
       {entries.length === 0 ? (
         (empty ?? <p className="text-sm text-muted-foreground">{t("noneActive")}</p>)
       ) : (
@@ -92,7 +88,7 @@ export function YearPanel({
                   {name}
                 </Link>
                 <span className="text-muted-foreground">
-                  <WarDates span={span} plain />
+                  <WarDates span={span} />
                   {!certain && " ~"}
                 </span>
               </li>

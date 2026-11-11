@@ -73,7 +73,7 @@ export function CountryItemCard({
         {name(item, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">
-        <YearRangeText start={bounds.latestStart} end={bounds.earliestEnd} plain />
+        <YearRangeText start={bounds.latestStart} end={bounds.earliestEnd} />
       </span>
       {sameTime}
     </article>

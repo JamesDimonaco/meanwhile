@@ -79,8 +79,8 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
     setPhase({ kind: "noMatch", reading });
   }
 
-  // Another photo can't help when the service is down, the limit is reached or there is no signal.
-  const canRetry = phase.kind !== "problem" || phase.problem === "badImage" || phase.problem === "failed";
+  // Another photo can't help when the service is down or the limit is reached. No signal can come back in a moment.
+  const canRetry = phase.kind !== "problem" || (phase.problem !== "unavailable" && phase.problem !== "rateLimited");
   const busy = opening || phase.kind === "preparing" || phase.kind === "reading";
   const status = opening ? t("opening") : phase.kind === "preparing" ? t("preparing") : t("reading");
 
@@ -134,7 +134,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                   >
                     <span className={CARD_TITLE}>{t("seeOnTimeline")}</span>
                     <span className="text-muted-foreground">
-                      <YearRangeText start={phase.reading.year.start} end={phase.reading.year.end} plain />
+                      <YearRangeText start={phase.reading.year.start} end={phase.reading.year.end} />
                     </span>
                   </Link>
                 )}

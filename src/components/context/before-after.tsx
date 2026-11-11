@@ -26,7 +26,7 @@ export async function BeforeAfter({ lines, locale }: { lines: BeforeAfterLine[];
         {side === "after" && <span aria-hidden="true">→</span>}
       </Link>{" "}
       <span className="text-muted-foreground">
-        <YearRangeText start={ref.period.latestStart} end={ref.period.earliestEnd} plain />
+        <YearRangeText start={ref.period.latestStart} end={ref.period.earliestEnd} />
       </span>
     </span>
   );

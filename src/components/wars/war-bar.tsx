@@ -73,7 +73,7 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
                 <span className="flex flex-wrap items-baseline gap-x-2">
                   <span className="font-medium">{localize(phase.name, locale)}</span>
                   <span className="text-muted-foreground">
-                    <YearRangeText start={phase.start} end={phase.end} plain />
+                    <YearRangeText start={phase.start} end={phase.end} />
                   </span>
                 </span>
               </li>

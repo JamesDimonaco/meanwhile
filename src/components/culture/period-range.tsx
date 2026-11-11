@@ -16,7 +16,7 @@ export function PeriodRange({ period, locale }: { period: Period; locale: Locale
   return (
     <div className="flex flex-col gap-2">
       <div className="flex flex-wrap items-center gap-2">
-        <YearRangeText start={period.latestStart} end={period.earliestEnd} />
+        <YearRangeText start={period.latestStart} end={period.earliestEnd} explain />
         {period.disputed && <DisputedBadge note={period.note && localize(period.note, locale)} />}
       </div>
       <div className="flex h-1.5 w-full overflow-hidden rounded-full bg-muted" aria-hidden="true">

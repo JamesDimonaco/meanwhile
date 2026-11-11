@@ -47,12 +47,13 @@ export function ChipGroup({ label, children }: { label: string; children: ReactN
     more.start || more.end
       ? `linear-gradient(${more.rtl ? "to left" : "to right"}, ${more.start ? "transparent, black 2.5rem" : "black"}, ${more.end ? "black calc(100% - 3rem), transparent" : "black"})`
       : undefined;
+  const touched = useRef(false);
   // A saved choice can be a chip that starts off-screen on a phone: bring it into the row's view, so
-  // it is plain that a filter is on. Only when the choice changes (typing in the search box re-renders
-  // this too) and only when the chip is hidden, so a tap on a visible chip moves nothing.
+  // it is plain that a filter is on. Only until the visitor touches the row: after that every change is a
+  // chip they tapped, which is already in view, and the row must not jump to another pressed chip.
   useEffect(() => {
     const el = row.current;
-    if (!el) return;
+    if (!el || touched.current) return;
     const chips = [...el.querySelectorAll<HTMLElement>("[aria-pressed]")];
     const signature = chips.map((chip) => chip.getAttribute("aria-pressed")).join();
     if (signature === lastPressed.current) return;
@@ -81,6 +82,8 @@ export function ChipGroup({ label, children }: { label: string; children: ReactN
       <div
         ref={row}
         onScroll={fadeEdges}
+        onPointerDown={() => (touched.current = true)}
+        onKeyDown={() => (touched.current = true)}
         // The row fades at whichever edge has more chips beyond it.
         style={{ maskImage: fade, WebkitMaskImage: fade }}
         className="flex gap-2 max-sm:-mx-4 max-sm:overflow-x-auto max-sm:px-4 max-sm:py-1 max-sm:[scrollbar-width:none] sm:flex-wrap max-sm:[&::-webkit-scrollbar]:hidden"

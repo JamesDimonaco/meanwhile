@@ -90,7 +90,7 @@ export function MeanwhileFilter({
                   <span className="text-sm text-muted-foreground">
                     <RegionDot region={card.region} /> {t(`regions.${card.region}`)}
                     {" · "}
-                    <YearRangeText start={card.period.latestStart} end={card.period.earliestEnd} plain />
+                    <YearRangeText start={card.period.latestStart} end={card.period.earliestEnd} />
                   </span>
                   {badge && (
                     <Pill className="self-start">{tContext("badge", { kind: badge, disputed: String(card.period.disputed) })}</Pill>
