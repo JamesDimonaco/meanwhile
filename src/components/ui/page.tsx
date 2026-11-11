@@ -153,6 +153,16 @@ export function Note({ className, ...props }: ComponentProps<"p">) {
 export const INPUT =
   "h-12 w-full rounded-lg border border-input bg-background px-4 text-base placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none";
 
+/**
+ * For a search box's onFocus. Under a finger, the keyboard takes the lower half of the screen: bring the
+ * box's label to the top, so the chips and the first results under it stay in view while typing.
+ */
+export function keepResultsAboveKeyboard(input: HTMLElement) {
+  if (!window.matchMedia("(pointer: coarse)").matches) return;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  (input.closest("label") ?? input).scrollIntoView({ block: "start", behavior: reduce ? "auto" : "smooth" });
+}
+
 /** A label above its control: the search boxes and every row of filter chips. */
 export const FIELD_LABEL = "text-sm font-medium text-foreground";
 

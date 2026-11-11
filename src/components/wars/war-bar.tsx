@@ -38,7 +38,7 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
     return [...at, Math.max(middle, (at.at(-1) ?? -MIN_NUMBER_GAP) + MIN_NUMBER_GAP)];
   }, []);
   // Pushed past the bar's end, the run is pulled back from the last number, keeping the gaps.
-  for (let i = numberAt.length - 1, limit = 99; i >= 0; i--, limit -= MIN_NUMBER_GAP) numberAt[i] = Math.min(numberAt[i], limit);
+  for (let i = numberAt.length - 1, limit = 99; i >= 0; i--, limit -= MIN_NUMBER_GAP) numberAt[i] = Math.max(0, Math.min(numberAt[i], limit));
 
   return (
     <div className="flex flex-col gap-2">

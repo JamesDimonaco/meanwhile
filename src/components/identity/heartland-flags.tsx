@@ -26,12 +26,14 @@ export function CountryFlag({ code }: { code: string }) {
  * line of its own. One order everywhere: name, flags, then any native name.
  */
 export function NameWithFlags({ name, cultureId }: { name: string; cultureId: string }) {
-  const cut = name.includes(" ") ? name.lastIndexOf(" ") + 1 : Math.max(0, name.length - 2);
+  // By character, not UTF-16 unit: a rare Han character is two units, and half of one is not a letter.
+  const chars = Array.from(name);
+  const cut = name.includes(" ") ? chars.lastIndexOf(" ") + 1 : Math.max(0, chars.length - 2);
   return (
     <>
-      {name.slice(0, cut)}
+      {chars.slice(0, cut).join("")}
       <span className="whitespace-nowrap">
-        {name.slice(cut)}
+        {chars.slice(cut).join("")}
         {HEARTLAND[cultureId] && "\u00a0"}
         <HeartlandFlags cultureId={cultureId} />
       </span>

@@ -3,7 +3,7 @@
 import { useId, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Chip, ChipGroup } from "@/components/filters/region-chips";
-import { CARD_LINK, CARD_TITLE, EmptyState, FIELD_LABEL, INPUT, SectionHeading } from "@/components/ui/page";
+import { CARD_LINK, CARD_TITLE, EmptyState, FIELD_LABEL, INPUT, keepResultsAboveKeyboard, SectionHeading } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { CountryFlag } from "@/components/identity/heartland-flags";
 import { search, searchIndex, type WarSearchEntry } from "@/components/search/search-index";
@@ -45,13 +45,14 @@ export function CountryList({
 
   return (
     <div className="flex flex-col gap-4">
-      <label className="flex flex-col gap-1.5" htmlFor={`${id}-input`}>
+      <label className="flex scroll-mt-3 flex-col gap-1.5" htmlFor={`${id}-input`}>
         <span className={FIELD_LABEL}>{t("searchLabel")}</span>
         <input
           id={`${id}-input`}
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          onFocus={(e) => keepResultsAboveKeyboard(e.currentTarget)}
           placeholder={t("searchPlaceholder")}
           autoComplete="off"
           enterKeyHint="search"

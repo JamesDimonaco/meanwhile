@@ -139,7 +139,7 @@ export function NoneInRegions({
   // never shows two boxes with the same button.
   if (message === "hiddenByFilter") {
     return (
-      <p role="status" className="flex flex-wrap items-center gap-x-2 text-sm text-muted-foreground">
+      <p className="flex flex-wrap items-center gap-x-2 text-sm text-muted-foreground">
         {t(message)}
         <button
           type="button"

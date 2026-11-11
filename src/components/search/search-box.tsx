@@ -21,7 +21,7 @@ import { CountryFlag, NameWithFlags } from "@/components/identity/heartland-flag
 import { RegionDot } from "@/components/identity/region-dot";
 import { WarDates } from "@/components/wars/war-parts";
 import { SEARCH_INPUT_ID } from "./search-id";
-import { CARD_LINK, CARD_TITLE, EmptyState, FIELD_LABEL, INPUT, Pill } from "@/components/ui/page";
+import { CARD_LINK, CARD_TITLE, EmptyState, FIELD_LABEL, INPUT, keepResultsAboveKeyboard, Pill } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 
 const MAX_RESULTS = 10;
@@ -72,13 +72,14 @@ export function SearchBox({
 
   return (
     <div className="flex flex-col gap-4">
-      <label className="flex flex-col gap-1.5" htmlFor={SEARCH_INPUT_ID}>
+      <label className="flex scroll-mt-3 flex-col gap-1.5" htmlFor={SEARCH_INPUT_ID}>
         <span className={FIELD_LABEL}>{t("searchLabel")}</span>
         <input
           id={SEARCH_INPUT_ID}
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          onFocus={(e) => keepResultsAboveKeyboard(e.currentTarget)}
           placeholder={t("searchPlaceholder")}
           autoComplete="off"
           enterKeyHint="search"
