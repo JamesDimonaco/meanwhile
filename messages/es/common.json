@@ -8,7 +8,11 @@
     "credits": "Fuentes y créditos"
   },
   "language": "Idioma",
-  "languageShort": { "en": "EN", "es": "ES", "zh": "中文" },
+  "languageShort": {
+    "en": "EN",
+    "es": "ES",
+    "zh": "中文"
+  },
   "explainerTrigger": "¿Qué significan a. e. c. y e. c.?",
   "disputed": "En discusión",
   "machineTranslated": "Traducción automática, aún no revisada por un hablante nativo.",
@@ -34,5 +38,7 @@
   "allRegions": "Todas",
   "showAllRegions": "Mostrar todas las regiones",
   "noneInRegions": "No hay nada aquí en las regiones elegidas.",
-  "hiddenByFilter": "Algunos resultados están fuera de las regiones elegidas."
+  "hiddenByFilter": "Algunos resultados están fuera de las regiones elegidas.",
+  "close": "Cerrar",
+  "skipToContent": "Saltar al contenido"
 }

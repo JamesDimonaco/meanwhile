@@ -4,6 +4,8 @@ import { JoinedList } from "@/components/joined-list";
 import { Link } from "@/i18n/navigation";
 import { isListableCountry } from "@/lib/data/countries";
 import { countryName } from "@/lib/data/nations";
+import { TEXT_LINK } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 
 // Apart from HeartlandFlags, which client components on every page use, so
 // the UN member table stays out of their shared chunk.
@@ -24,7 +26,7 @@ export function CountryLink({ code, here }: { code: string; here?: string }) {
   );
   if (!isListableCountry(code) || code === here) return <span className="inline-flex items-center gap-1">{content}</span>;
   return (
-    <Link prefetch={false} href={`/country/${code.toLowerCase()}`} className="inline-flex items-center gap-1 underline underline-offset-2">
+    <Link prefetch={false} href={`/country/${code.toLowerCase()}`} className={cn(TEXT_LINK, "inline-flex items-center gap-1")}>
       {content}
     </Link>
   );

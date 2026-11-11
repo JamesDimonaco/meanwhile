@@ -7,6 +7,8 @@ import type { Locale } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { itemBounds, itemId, type CountryItem } from "@/lib/data/country";
 import { localize } from "@/lib/data/localize";
+import { Card, TEXT_LINK } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 import { itemHref } from "./item-href";
 
 const href = (item: CountryItem) => itemHref({ kind: item.kind, id: itemId(item) });
@@ -34,19 +36,19 @@ export function CountryItemCard({
   const color = item.kind === "culture" ? REGION_COLOR[item.culture.region] : WAR_COLOR;
 
   const kind = (
-    <p className="flex items-center gap-1.5 text-xs text-muted-foreground">
+    <p className="flex items-center gap-1.5 text-xs font-medium text-muted-foreground">
       <span aria-hidden className="inline-block size-2 shrink-0 rounded-full" style={{ backgroundColor: color }} />
       {t("kind", { kind: item.kind })}
     </p>
   );
   const sameTime = overlaps.length > 0 && (
-    <p className="text-sm">
+    <p className="text-sm leading-relaxed">
       {t.rich("sameTime", {
         label: (chunks) => <span className="text-muted-foreground">{chunks}</span>,
         items: () => (
           <JoinedList
             items={overlaps.map((other) => (
-              <Link prefetch={false} key={itemId(other)} href={href(other)} className="underline underline-offset-2">
+              <Link prefetch={false} key={itemId(other)} href={href(other)} className={TEXT_LINK}>
                 {name(other, locale)}
               </Link>
             ))}
@@ -65,15 +67,15 @@ export function CountryItemCard({
   }
   const bounds = itemBounds(item);
   return (
-    <article className="flex flex-col gap-1.5 rounded-lg border border-border px-4 py-3">
+    <Card as="article" className="flex flex-col gap-2">
       {kind}
-      <Link prefetch={false} href={href(item)} className="font-medium underline-offset-2 hover:underline">
+      <Link prefetch={false} href={href(item)} className={cn(TEXT_LINK, "self-start text-base font-semibold")}>
         {name(item, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">
-        <YearRangeText start={bounds.latestStart} end={bounds.earliestEnd} />
+        <YearRangeText start={bounds.latestStart} end={bounds.earliestEnd} plain />
       </span>
       {sameTime}
-    </article>
+    </Card>
   );
 }

@@ -20,6 +20,8 @@ import { useRegionFilter } from "@/components/filters/use-region-filter";
 import { CountryFlag, HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { WarDates } from "@/components/wars/war-parts";
+import { CARD_LINK, EmptyState, FIELD_LABEL, INPUT, Pill } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 
 const MAX_RESULTS = 10;
 
@@ -28,9 +30,9 @@ const hitKey = (hit: SearchHit) => (hit.type === "year" ? "year" : hit.type === 
 /** One result: what it is on the first line beside its kind, details under it. */
 function ResultLink({ href, kind, children, details }: { href: Parameters<typeof Link>[0]["href"]; kind: string; children: ReactNode; details?: ReactNode }) {
   return (
-    <Link prefetch={false} href={href} className="grid grid-cols-[1fr_auto] items-start gap-x-2 gap-y-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted">
+    <Link prefetch={false} href={href} className={cn(CARD_LINK, "grid grid-cols-[1fr_auto] items-start gap-x-2 gap-y-1")}>
       <span className="flex min-w-0 flex-wrap items-center gap-x-1.5">{children}</span>
-      <span className="mt-0.5 rounded-full border border-border px-1.5 text-xs text-muted-foreground">{kind}</span>
+      <Pill tone="outline">{kind}</Pill>
       {details && <span className="col-span-2 text-sm text-muted-foreground">{details}</span>}
     </Link>
   );
@@ -65,40 +67,35 @@ export function SearchBox({
   const trimmed = query.trim();
 
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-4">
       <label className="flex flex-col gap-1.5" htmlFor={`${listId}-input`}>
-        <span className="text-sm font-medium text-muted-foreground">{t("searchLabel")}</span>
+        <span className={FIELD_LABEL}>{t("searchLabel")}</span>
         <input
           id={`${listId}-input`}
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder={t("searchPlaceholder")}
-          role="combobox"
-          aria-expanded={trimmed.length > 0}
-          aria-controls={listId}
           autoComplete="off"
-          className="rounded-lg border border-border bg-background px-4 py-3 text-base focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+          enterKeyHint="search"
+          className={INPUT}
         />
       </label>
 
       {trimmed && (
         <div aria-live="polite" className="flex flex-col gap-2">
           {results.length === 0 ? (
-            <div className="flex flex-col gap-1 px-1 text-sm text-muted-foreground">
-              <p>{t("noResults", { query: trimmed })}</p>
-              {/* With matches hidden by the region chips, the line under the results says so instead. */}
-              {!hiddenMatches && <p>{t("noResultsHint")}</p>}
-            </div>
+            // With matches hidden by the region chips, the box under this one says so instead.
+            !hiddenMatches && <EmptyState title={t("noResults", { query: trimmed })}>{t("noResultsHint")}</EmptyState>
           ) : (
-            <ul id={listId} aria-label={t("resultsLabel")} className="flex flex-col gap-1.5">
+            <ul aria-label={t("resultsLabel")} className="flex flex-col gap-2">
               {results.map((hit) => (
                 <li key={hitKey(hit)}>
                   {hit.type === "year" ? (
                     <ResultLink
                       href={{ pathname: "/timeline", query: { year: String(hit.year) } }}
                       kind={t("kind", { kind: "year" })}
-                      details={<YearText year={hit.year} />}
+                      details={<YearText year={hit.year} plain />}
                     >
                       <span className="font-medium">{t("seeOnTimeline")}</span>
                     </ResultLink>
@@ -115,7 +112,7 @@ export function SearchBox({
                         <>
                           <RegionDot region={hit.entry.region} /> {tCommon(`regions.${hit.entry.region}`)}
                           {" · "}
-                          <YearRangeText start={hit.entry.period.latestStart} end={hit.entry.period.earliestEnd} />
+                          <YearRangeText start={hit.entry.period.latestStart} end={hit.entry.period.earliestEnd} plain />
                         </>
                       }
                     >
@@ -131,7 +128,7 @@ export function SearchBox({
                       </span>
                     </ResultLink>
                   ) : (
-                    <ResultLink href={`/war/${hit.entry.id}`} kind={t("kind", { kind: "war" })} details={<WarDates span={hit.entry.span} />}>
+                    <ResultLink href={`/war/${hit.entry.id}`} kind={t("kind", { kind: "war" })} details={<WarDates span={hit.entry.span} plain />}>
                       <span className="font-medium">{hit.entry.name}</span>
                     </ResultLink>
                   )}

@@ -4,6 +4,7 @@ import { localize } from "@/lib/data/localize";
 import type { Casualty, Side } from "@/lib/data/war-schema";
 import { casualtyGroups } from "@/lib/data/wars";
 import { formatIsoDate } from "@/lib/years";
+import { Card, SectionHeading } from "@/components/ui/page";
 
 export function Casualties({ casualties, sides }: { casualties: readonly Casualty[]; sides: readonly Side[] }) {
   const t = useTranslations("wars");
@@ -19,12 +20,12 @@ export function Casualties({ casualties, sides }: { casualties: readonly Casualt
       <p className="text-sm text-muted-foreground">{t("casualtiesIntro")}</p>
       {casualtyGroups(casualties).map((figures) => (
         <section key={`${figures[0].scope}|${figures[0].side}|${figures[0].who?.en}`} className="flex flex-col gap-2">
-          <h3 className="text-sm font-medium">
+          <SectionHeading as="h3" size="sub">
             {t(`scope.${figures[0].scope}`)} · {counted(figures[0])}
-          </h3>
-          <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+          </SectionHeading>
+          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {figures.map((c, i) => (
-              <li key={i} className="flex flex-col gap-1.5 rounded-lg border border-border p-3 text-sm">
+              <Card as="li" key={i} className="flex flex-col gap-2 text-sm">
                 <span className="text-lg font-semibold tabular-nums">
                   {c.low === c.high ? t("single", { count: c.low }) : t("range", { low: c.low, high: c.high })}
                 </span>
@@ -36,8 +37,8 @@ export function Casualties({ casualties, sides }: { casualties: readonly Casualt
                   </span>
                 )}
                 {c.note && <p className="text-muted-foreground">{localize(c.note, locale)}</p>}
-                <SourceList sources={c.sources} />
-              </li>
+                <SourceList sources={c.sources} as="h4" />
+              </Card>
             ))}
           </ul>
         </section>

@@ -104,3 +104,13 @@ describe("timeline bar colours (one per region, and wars)", () => {
     }
   });
 });
+
+describe("grey text (--muted-foreground)", () => {
+  const tokens = rootTokens();
+  const grey = linearRgb(tokens["muted-foreground"]);
+
+  // Grey labels sit on the page and on grey pills and hovered rows (--muted): AA for small text on both.
+  it.each(["background", "muted"])("reaches 4.5:1 on --%s", (surface) => {
+    expect(contrast(grey, linearRgb(tokens[surface]))).toBeGreaterThanOrEqual(4.5);
+  });
+});

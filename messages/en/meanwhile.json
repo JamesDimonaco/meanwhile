@@ -2,5 +2,6 @@
   "heading": "Meanwhile…",
   "anchorLabel": "You are looking at",
   "reanchor": "See what was happening during {name}",
-  "alsoAlive": "Also alive at the same time"
+  "alsoAlive": "Also alive at the same time",
+  "alsoAliveCount": "{count, plural, one {# other civilisation} other {# other civilisations}}"
 }

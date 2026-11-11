@@ -23,6 +23,9 @@ import { activeAt, meanwhileAtYear } from "@/lib/data/queries";
 import type { War } from "@/lib/data/war-schema";
 import { countriesToday, isShownIn, warSpan } from "@/lib/data/wars";
 import { openGraph, pageAlternates } from "@/lib/seo";
+import { BackLink } from "@/components/ui/back-link";
+import { Page, PageTitle, Section, TEXT_LINK } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -59,15 +62,6 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/war/[id]
   };
 }
 
-function Section({ title, children }: { title: string; children: ReactNode }) {
-  return (
-    <section className="flex flex-col gap-3">
-      <h2 className="text-lg font-semibold tracking-tight">{title}</h2>
-      {children}
-    </section>
-  );
-}
-
 /** One war: names, dates, sides, account, phases, map and events, leaders, deaths, links back into the rest of the site. */
 export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]">) {
   const locale = await pageLocale(params);
@@ -100,19 +94,17 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
     name: localize(w.name, locale),
     label: (chunks: ReactNode) => <span className="text-muted-foreground">{chunks}</span>,
     link: (chunks: ReactNode) => (
-      <Link prefetch={false} href={`/war/${w.id}`} className="underline underline-offset-2">
+      <Link prefetch={false} href={`/war/${w.id}`} className={cn(TEXT_LINK, "font-medium")}>
         {chunks}
       </Link>
     ),
   });
 
   return (
-    <article className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-4">
+    <Page as="article">
       <header className="flex flex-col gap-3">
-        <Link prefetch={false} href="/wars" className="self-start text-sm text-muted-foreground underline-offset-2 hover:underline">
-          {tCommon("nav.wars")}
-        </Link>
-        <h1 className="text-2xl font-semibold tracking-tight">{localize(war.name, locale)}</h1>
+        <BackLink href="/wars">{tCommon("nav.wars")}</BackLink>
+        <PageTitle>{localize(war.name, locale)}</PageTitle>
         {war.altNames.length > 0 && (
           <ul className="flex flex-col gap-0.5 text-sm text-muted-foreground">
             {war.altNames.map((a) => (
@@ -137,12 +129,12 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
         <Link
           prefetch={false}
           href={{ pathname: "/timeline", query: { year: String(span.start) } }}
-          className="self-start text-sm underline underline-offset-2"
+          className={cn(TEXT_LINK, "inline-flex min-h-9 items-center self-start text-sm font-medium pointer-coarse:min-h-11")}
         >
           {tMap("onTimeline")}
         </Link>
         {locale !== "en" && !war.reviewed[locale] && (
-          <p className="text-xs text-muted-foreground">{tCommon("machineTranslated")}</p>
+          <p className="text-sm text-muted-foreground">{tCommon("machineTranslated")}</p>
         )}
       </header>
 
@@ -159,10 +151,10 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
 
       <Section title={t("account")}>
         <p className="text-base leading-relaxed">{localize(war.description, locale)}</p>
-        <p className="text-sm">
+        <p className="text-base leading-relaxed">
           {t.rich("outcome", {
             outcome: localize(war.outcome, locale),
-            label: (chunks) => <span className="font-medium">{chunks}</span>,
+            label: (chunks) => <span className="font-semibold">{chunks}</span>,
           })}
         </p>
       </Section>
@@ -203,7 +195,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
       )}
 
       {(before || after.length > 0) && (
-        <nav className="flex flex-col gap-2 text-sm">
+        <nav className="flex flex-col gap-2 text-base">
           {before && <p>{t.rich("before", followLink(before))}</p>}
           {after.map((w) => (
             <p key={w.id}>{t.rich("after", followLink(w))}</p>
@@ -213,10 +205,10 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
 
       {linked.length > 0 && (
         <Section title={t("cultures")}>
-          <ul className="flex flex-col gap-1.5">
+          <ul className="flex flex-col">
             {linked.map((c) => (
               <li key={c.id}>
-                <Link prefetch={false} href={`/c/${c.id}`} className="inline-flex items-center gap-1.5 underline underline-offset-2">
+                <Link prefetch={false} href={`/c/${c.id}`} className={cn(TEXT_LINK, "inline-flex min-h-9 items-center gap-1.5 font-medium pointer-coarse:min-h-11")}>
                   {localize(c.name, locale)}
                   <HeartlandFlags cultureId={c.id} />
                 </Link>
@@ -227,10 +219,7 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
       )}
 
       {candidates.length > 0 && (
-        <section className="flex flex-col gap-3">
-          <h2 className="text-lg font-semibold tracking-tight">
-            {tMap.rich("elsewhere", { year: () => <YearText year={span.start} /> })}
-          </h2>
+        <Section title={tMap.rich("elsewhere", { year: () => <YearText year={span.start} /> })}>
           <MeanwhileCards
             anchor={null}
             candidates={candidates}
@@ -239,10 +228,10 @@ export default async function WarPage({ params }: PageProps<"/[locale]/war/[id]"
             regions={regionsIn(cultures)}
             locale={locale}
           />
-        </section>
+        </Section>
       )}
 
-      <SourceList sources={war.sources} />
-    </article>
+      <SourceList sources={war.sources} as="h2" />
+    </Page>
   );
 }

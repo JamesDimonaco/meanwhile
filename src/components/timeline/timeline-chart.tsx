@@ -265,7 +265,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
               ))}
               <FadeGradients id="tl-fade-war" color={WAR_COLOR} />
             </defs>
-            <g className="fill-muted-foreground text-[10px]">
+            <g className="fill-muted-foreground text-xs">
               {ticks.map((tick) => (
                 <text key={tick} x={xScale(tick)} y={AXIS_SPACE / 2} dy="0.35em" textAnchor={tickAnchor(xScale(tick), chartWidth)}>
                   {formatYear(tick, locale, eraStyle)}

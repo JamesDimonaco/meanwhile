@@ -99,7 +99,7 @@ export function EventSpine({
                   >
                     <span aria-hidden className="absolute inset-x-3 top-[17px] border-t-2 border-dotted border-foreground/50" />
                     <span className="absolute inset-x-0 -top-5 flex justify-center">
-                      <span className="rounded-full bg-foreground px-2 py-px text-[0.6875rem] font-medium text-background">
+                      <span className="rounded-full bg-foreground px-2 py-px text-xs font-medium text-background">
                         {t("meanwhile")}
                       </span>
                     </span>

@@ -3,6 +3,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { DisputedBadge } from "@/components/culture/disputed-badge";
 import { YearRangeText } from "@/components/settings/year-text";
 import { FadeGradients, PeriodBar } from "@/components/timeline/timeline-row";
+import { SectionHeading } from "@/components/ui/page";
 import { localize } from "@/lib/data/localize";
 import type { War } from "@/lib/data/war-schema";
 import { warOuter } from "@/lib/data/wars";
@@ -43,15 +44,15 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
         <PeriodBar period={period} phases={phases} xScale={xScale} height={HEIGHT} color="var(--primary)" fadeId="war-fade" />
       </svg>
       {war.phases.length > 0 && (
-        <section className="flex flex-col gap-1">
-          <h2 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">{t("phases")}</h2>
-          <ol className="flex flex-col gap-1 text-sm">
+        <section className="flex flex-col gap-1.5">
+          <SectionHeading size="sub">{t("phases")}</SectionHeading>
+          <ol className="flex flex-col gap-1.5 text-sm">
             {war.phases.map((phase, i) => (
               <li key={phase.id} className="flex flex-wrap items-baseline gap-x-2">
                 <span className="text-muted-foreground tabular-nums">{i + 1}.</span>
                 <span className="font-medium">{localize(phase.name, locale)}</span>
                 <span className="text-muted-foreground">
-                  <YearRangeText start={phase.start} end={phase.end} />
+                  <YearRangeText start={phase.start} end={phase.end} plain />
                 </span>
               </li>
             ))}

@@ -10,6 +10,8 @@ import { Link, useRouter } from "@/i18n/navigation";
 import { timelineYear, type ScanResponse, type ScanResult } from "@/lib/scan/result";
 import { downscaleToJpeg } from "./downscale";
 import { scanPhoto, type Problem } from "./scan-photo";
+import { CARD_LINK, ErrorNote } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 
 type Phase =
   | { kind: "idle" }
@@ -89,8 +91,8 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
         </Button>
       ) : (
         <div className="flex flex-col gap-2">
-          <Button type="button" size="lg" className="h-12 w-full gap-2 text-base" onClick={() => input.current?.click()}>
-            <Camera className="size-5" />
+          <Button type="button" size="lg" className="h-12 w-full" onClick={() => input.current?.click()}>
+            <Camera />
             {t("button")}
           </Button>
           <p className="text-center text-sm text-muted-foreground">{t("hint")}</p>
@@ -110,7 +112,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
               </p>
             )}
 
-            {!opening && phase.kind === "problem" && <p role="alert">{t(phase.problem)}</p>}
+            {!opening && phase.kind === "problem" && <ErrorNote>{t(phase.problem)}</ErrorNote>}
 
             {!opening && phase.kind === "noMatch" && (
               <div className="flex flex-col gap-3">
@@ -125,11 +127,11 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                     prefetch={false}
                     href={{ pathname: "/timeline", query: { year: String(timelineYear(phase.reading.year)) } }}
                     onClick={close}
-                    className="flex flex-col gap-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted"
+                    className={cn(CARD_LINK, "flex flex-col gap-0.5")}
                   >
                     <span className="font-medium">{t("seeOnTimeline")}</span>
                     <span className="text-muted-foreground">
-                      <YearRangeText start={phase.reading.year.start} end={phase.reading.year.end} />
+                      <YearRangeText start={phase.reading.year.start} end={phase.reading.year.end} plain />
                     </span>
                   </Link>
                 )}
@@ -138,7 +140,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                     prefetch={false}
                     href={{ pathname: "/", query: { q: phase.reading.text } }}
                     onClick={close}
-                    className="rounded-lg border border-border px-3 py-2.5 font-medium hover:bg-muted"
+                    className={cn(CARD_LINK, "font-medium")}
                   >
                     {t("searchWith")}
                   </Link>
@@ -157,7 +159,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
               </>
             )}
 
-            <p className="text-xs text-muted-foreground">{t("privacy")}</p>
+            <p className="text-sm text-muted-foreground">{t("privacy")}</p>
           </DialogDescription>
         </DialogContent>
       </Dialog>

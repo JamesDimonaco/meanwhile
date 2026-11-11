@@ -17,10 +17,6 @@ function useFirstBCEAutoOpen(year: number) {
   }, [year, open]);
 }
 
-/**
- * Dates sit inside card and search-result links: tapping the date opens the
- * explainer without also following the link.
- */
 function openFromDate(e: MouseEvent<HTMLButtonElement>, open: (year: number) => void, year: number) {
   e.preventDefault();
   e.stopPropagation();
@@ -40,8 +36,16 @@ function YearsAgo({ year }: { year: number }) {
   );
 }
 
-/** A tappable year: opens the CE/BCE explainer for this date, with the years-ago toggle applied. */
-export function YearText({ year }: { year: number }) {
+const DATE_BUTTON =
+  "inline-flex min-h-6 items-center whitespace-nowrap rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50";
+
+/**
+ * A year. Standing alone it is a button that opens the CE/BCE explainer for
+ * this date. Pass `plain` wherever it sits inside a link, a <summary> or
+ * another button: a button there is invalid HTML and takes the tap meant for
+ * the card, so the date is text and the explainer stays one tap away in the header.
+ */
+export function YearText({ year, plain = false }: { year: number; plain?: boolean }) {
   const locale = useLocale();
   const { eraStyle, showYearsAgo } = useSettings();
   const { open } = useExplainer();
@@ -52,21 +56,21 @@ export function YearText({ year }: { year: number }) {
     // onto its own line rather than force the whole thing past a narrow card's edge.
     <span className="inline-flex flex-wrap items-baseline gap-x-1">
       <time className="whitespace-nowrap">
-        <button
-          type="button"
-          onClick={(e) => openFromDate(e, open, year)}
-          className="rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
-        >
-          {formatYear(year, locale, eraStyle)}
-        </button>
+        {plain ? (
+          formatYear(year, locale, eraStyle)
+        ) : (
+          <button type="button" onClick={(e) => openFromDate(e, open, year)} className={DATE_BUTTON}>
+            {formatYear(year, locale, eraStyle)}
+          </button>
+        )}
       </time>
       {showYearsAgo && <YearsAgo year={year} />}
     </span>
   );
 }
 
-/** A tappable year range: opens the explainer for the range's start year. */
-export function YearRangeText({ start, end }: { start: number; end: number }) {
+/** A year range: as a button it opens the explainer for the range's start year. `plain` as on YearText. */
+export function YearRangeText({ start, end, plain = false }: { start: number; end: number; plain?: boolean }) {
   const locale = useLocale();
   const { eraStyle, showYearsAgo } = useSettings();
   const { open } = useExplainer();
@@ -75,13 +79,13 @@ export function YearRangeText({ start, end }: { start: number; end: number }) {
   return (
     // Same wrap point as YearText: keep the range itself intact, let years-ago fall to its own line.
     <span className="inline-flex flex-wrap items-baseline gap-x-1">
-      <button
-        type="button"
-        onClick={(e) => openFromDate(e, open, start)}
-        className="whitespace-nowrap rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
-      >
-        {formatYearRange(start, end, locale, eraStyle)}
-      </button>
+      {plain ? (
+        <span className="whitespace-nowrap">{formatYearRange(start, end, locale, eraStyle)}</span>
+      ) : (
+        <button type="button" onClick={(e) => openFromDate(e, open, start)} className={DATE_BUTTON}>
+          {formatYearRange(start, end, locale, eraStyle)}
+        </button>
+      )}
       {showYearsAgo && <YearsAgo year={start} />}
     </span>
   );

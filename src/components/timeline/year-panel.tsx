@@ -5,6 +5,8 @@ import type { WarSpan } from "@/lib/data/wars";
 import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
 import { YearText } from "@/components/settings/year-text";
 import { WarDates } from "@/components/wars/war-parts";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/page";
 
 export type SelectedEvent = { culture: TimelineCulture; event: TimelineEvent };
 
@@ -33,9 +35,9 @@ export function YearPanel({
   const tCommon = useTranslations("common");
 
   return (
-    <div className="flex flex-col gap-2 rounded-lg border border-border p-3">
+    <Card className="flex flex-col gap-3">
       {selected && (
-        <div className="flex items-start justify-between gap-2 border-b border-border pb-2">
+        <div className="flex items-start justify-between gap-2 border-b border-border pb-3">
           <div>
             <p className="font-medium">{selected.event.title}</p>
             <p className="text-sm text-muted-foreground">
@@ -43,33 +45,33 @@ export function YearPanel({
               {selected.event.disputed && <> · {tCommon("disputed")}</>}
             </p>
           </div>
-          <button type="button" onClick={onClose} className="text-sm text-muted-foreground hover:text-foreground">
+          <Button type="button" variant="outline" size="sm" onClick={onClose}>
             {t("close")}
-          </button>
+          </Button>
         </div>
       )}
-      <p className="text-sm font-medium">{t.rich(selected ? "alsoHappening" : "activeIn", { year: () => <YearText year={year} /> })}</p>
+      <p className="text-base font-semibold">{t.rich(selected ? "alsoHappening" : "activeIn", { year: () => <YearText year={year} /> })}</p>
       {entries.length === 0 ? (
         (empty ?? <p className="text-sm text-muted-foreground">{t("noneActive")}</p>)
       ) : (
-        <ul className="flex flex-col gap-1">
+        <ul className="flex flex-col">
           {entries
             .filter((e) => e.id !== selected?.culture.id)
             .map(({ id, name, href, span, certain, color }) => (
-              <li key={id} className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5 text-sm">
-                <Link prefetch={false} href={href} className="inline-flex min-w-0 items-baseline gap-1.5 underline-offset-2 hover:underline">
+              <li key={id} className="flex flex-wrap items-center justify-between gap-x-3 border-t border-border/60 py-1 text-sm first:border-t-0">
+                <Link prefetch={false} href={href} className="inline-flex min-h-9 min-w-0 items-center gap-2 rounded-sm font-medium underline underline-offset-2 hover:decoration-2 focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none pointer-coarse:min-h-11">
                   <span aria-hidden className="inline-block size-2 shrink-0 rounded-full" style={{ backgroundColor: color }} />
                   {name}
                 </Link>
                 <span className="text-muted-foreground">
-                  <WarDates span={span} />
+                  <WarDates span={span} plain />
                   {!certain && " ~"}
                 </span>
               </li>
             ))}
         </ul>
       )}
-    </div>
+    </Card>
   );
 }
 

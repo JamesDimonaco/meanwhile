@@ -2,9 +2,9 @@
 
 import { useId, useState } from "react";
 import { useTranslations } from "next-intl";
+import { pillClass } from "@/components/ui/page";
 
-const PILL =
-  "inline-flex items-center rounded-full bg-amber-500/15 px-2 py-0.5 text-xs font-medium text-amber-700 dark:text-amber-400";
+const PILL = pillClass("warning");
 
 /**
  * Small "disputed" flag: uncertainty shown, not hidden. Given a note, the
@@ -28,7 +28,7 @@ export function DisputedBadge({ note }: { note?: string }) {
       >
         {t("disputed")}
       </button>
-      <p id={noteId} hidden={!open} className="basis-full text-sm text-muted-foreground italic">
+      <p id={noteId} hidden={!open} className="basis-full text-sm text-muted-foreground">
         {note}
       </p>
     </>

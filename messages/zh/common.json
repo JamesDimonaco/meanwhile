@@ -8,7 +8,11 @@
     "credits": "资料来源与致谢"
   },
   "language": "语言",
-  "languageShort": { "en": "EN", "es": "ES", "zh": "中文" },
+  "languageShort": {
+    "en": "EN",
+    "es": "ES",
+    "zh": "中文"
+  },
   "explainerTrigger": "“公元前”和“公元”是什么意思？",
   "disputed": "有争议",
   "machineTranslated": "机器翻译，尚未经母语者审校。",
@@ -34,5 +38,7 @@
   "allRegions": "全部",
   "showAllRegions": "显示所有地区",
   "noneInRegions": "所选地区在这里没有内容。",
-  "hiddenByFilter": "部分结果不在所选地区内。"
+  "hiddenByFilter": "部分结果不在所选地区内。",
+  "close": "关闭",
+  "skipToContent": "跳到正文"
 }

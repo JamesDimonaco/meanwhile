@@ -1,9 +1,11 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { useId, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import type { Region } from "@/lib/data/schema";
 import { RegionDot } from "@/components/identity/region-dot";
+import { Button } from "@/components/ui/button";
+import { EmptyState, FIELD_LABEL } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { toggleRegion } from "./region-filter";
 import { saveRegionFilter, useRegionFilter } from "./use-region-filter";
@@ -16,14 +18,27 @@ export function Chip({ pressed, onClick, children }: { pressed: boolean; onClick
       aria-pressed={pressed}
       onClick={onClick}
       className={cn(
-        "inline-flex h-8 items-center gap-1.5 rounded-full border px-3 text-xs font-medium whitespace-nowrap transition-colors focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none",
+        "inline-flex h-9 items-center gap-1.5 rounded-full border px-3.5 text-sm font-medium whitespace-nowrap transition-colors focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none pointer-coarse:h-11",
         pressed
           ? "border-foreground bg-foreground text-background"
-          : "border-border text-muted-foreground hover:bg-muted hover:text-foreground",
+          : "border-border text-foreground hover:bg-muted",
       )}
     >
       {children}
     </button>
+  );
+}
+
+/** A labelled row of filter chips: the one filter pattern, on every list. */
+export function ChipGroup({ label, children }: { label: string; children: ReactNode }) {
+  const id = useId();
+  return (
+    <div role="group" aria-labelledby={id} className="flex flex-col gap-2">
+      <span id={id} className={FIELD_LABEL}>
+        {label}
+      </span>
+      <div className="flex flex-wrap gap-2">{children}</div>
+    </div>
   );
 }
 
@@ -39,7 +54,7 @@ export function RegionChips({
 }) {
   const t = useTranslations("common");
   return (
-    <div role="group" aria-label={t("regionFilter")} className="flex flex-wrap gap-1.5">
+    <ChipGroup label={t("regionFilter")}>
       <Chip pressed={selection.length === 0} onClick={() => onChange([])}>
         {t("allRegions")}
       </Chip>
@@ -53,7 +68,7 @@ export function RegionChips({
           {t(`regions.${region}`)}
         </Chip>
       ))}
-    </div>
+    </ChipGroup>
   );
 }
 
@@ -72,15 +87,13 @@ export function NoneInRegions({
 }) {
   const t = useTranslations("common");
   return (
-    <p className="px-1 text-sm text-muted-foreground">
-      {t(message)}{" "}
-      <button
-        type="button"
-        onClick={onShowAll}
-        className="font-medium text-foreground underline underline-offset-2"
-      >
-        {t("showAllRegions")}
-      </button>
-    </p>
+    <EmptyState
+      title={t(message)}
+      action={
+        <Button type="button" variant="outline" size="sm" onClick={onShowAll}>
+          {t("showAllRegions")}
+        </Button>
+      }
+    />
   );
 }

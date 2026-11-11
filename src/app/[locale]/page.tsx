@@ -19,6 +19,8 @@ import { regionsIn } from "@/components/filters/region-filter";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { ENGLISH_APP_NAME } from "@/i18n/app-name";
+import { CARD_LINK, Page, PageTitle, SectionHeading } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 import { jsonLd, openGraph, pageAlternates, websiteJsonLd } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
@@ -55,17 +57,17 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const appName = tCommon("appName");
 
   return (
-    <div className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-6">
+    <Page className="pt-6">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteJsonLd()) }} />
       <header className="flex flex-col gap-1 text-center">
-        <h1 className="text-2xl font-semibold tracking-tight">{appName}</h1>
+        <PageTitle>{appName}</PageTitle>
         {/* A language that names the site its own way (zh 同时代) shows the English name too, so it matches the domain. */}
         {appName !== ENGLISH_APP_NAME && (
           <p lang="en" className="text-sm text-muted-foreground">
             {ENGLISH_APP_NAME}
           </p>
         )}
-        <p className="text-sm text-muted-foreground">{tCommon("tagline")}</p>
+        <p className="text-base text-muted-foreground">{tCommon("tagline")}</p>
       </header>
 
       <ScanButton variant="home" />
@@ -76,10 +78,10 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       </Suspense>
 
       <section className="flex flex-col gap-3">
-        <h2 className="text-sm font-medium text-muted-foreground">{t("popular")}</h2>
+        <SectionHeading>{t("popular")}</SectionHeading>
         <RegionFilteredList
           available={regions}
-          className="grid grid-cols-1 gap-2.5 sm:grid-cols-2"
+          className="grid grid-cols-1 gap-3 sm:grid-cols-2"
           items={popular.map((c) => ({
             id: c.id,
             region: c.region,
@@ -87,7 +89,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
               <Link
                 prefetch={false}
                 href={`/c/${c.id}`}
-                className="flex min-w-0 flex-col gap-0.5 rounded-lg border border-border px-4 py-3 hover:bg-muted"
+                className={cn(CARD_LINK, "flex h-full min-w-0 flex-col gap-1")}
               >
                 <span className="flex flex-wrap items-center gap-x-1.5">
                   <span className="font-medium">{localize(c.name, locale)}</span>
@@ -101,7 +103,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
                 <span className="text-sm text-muted-foreground">
                   <RegionDot region={c.region} /> {tCommon(`regions.${c.region}`)}
                   {" · "}
-                  <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} />
+                  <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} plain />
                 </span>
               </Link>
             ),
@@ -110,6 +112,6 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       </section>
 
       <RecordsStrip holders={records} locale={locale} />
-    </div>
+    </Page>
   );
 }

@@ -15,6 +15,9 @@ import { loadCultures, loadHeartland, loadWars } from "@/lib/data/load";
 import { localize } from "@/lib/data/localize";
 import { countryName, isNation, UNION } from "@/lib/data/nations";
 import { openGraph, pageAlternates } from "@/lib/seo";
+import { BackLink } from "@/components/ui/back-link";
+import { Page, PAGE_WIDTH, PageIntro, PageTitle, SectionHeading, TEXT_LINK } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -70,20 +73,18 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
   const nations = upper === UNION ? countryCodes(loadHeartland(), loadWars(locale)).filter(isNation) : [];
 
   return (
-    <section className="mx-auto flex w-full max-w-3xl flex-col gap-6 pt-4">
-      <header className="flex flex-col gap-2">
-        <Link prefetch={false} href="/wars" className="self-start text-sm text-muted-foreground underline-offset-2 hover:underline">
-          {tWars("allCountries")}
-        </Link>
-        <h1 className="flex items-center gap-2 text-2xl font-semibold tracking-tight">
+    <Page as="section" width="wide">
+      <header className={cn("flex flex-col gap-2", PAGE_WIDTH.reading)}>
+        <BackLink href="/wars">{tWars("allCountries")}</BackLink>
+        <PageTitle className="flex items-center gap-2">
           <CountryFlag code={upper} />
           {country}
-        </h1>
+        </PageTitle>
         {isNation(upper) && (
           <p className="text-sm">
             {t.rich("partOf", {
               link: (chunks) => (
-                <Link prefetch={false} href={`/country/${UNION.toLowerCase()}`} className="inline-flex items-center gap-1 underline underline-offset-2">
+                <Link prefetch={false} href={`/country/${UNION.toLowerCase()}`} className={cn(TEXT_LINK, "inline-flex items-center gap-1")}>
                   <CountryFlag code={UNION} />
                   {chunks}
                 </Link>
@@ -97,17 +98,17 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
           </p>
         )}
         <p className="font-medium">{t("summary", listed)}</p>
-        <p className="text-sm text-muted-foreground">{t("intro", { country, ...listed })}</p>
+        <PageIntro>{t("intro", { country, ...listed })}</PageIntro>
       </header>
 
       <section className="flex flex-col gap-3">
-        <h2 className="text-lg font-semibold tracking-tight">{t("timeline")}</h2>
+        <SectionHeading>{t("timeline")}</SectionHeading>
         <CountryTimeline bars={items.map((item) => toTimelineBar(item, locale))} opening={openingView(items)} />
       </section>
 
       <section className="flex flex-col gap-3">
-        <h2 className="text-lg font-semibold tracking-tight">{t("list")}</h2>
-        <ol className="flex flex-col gap-3">
+        <SectionHeading>{t("list")}</SectionHeading>
+        <ol className={cn("flex flex-col gap-3", PAGE_WIDTH.reading)}>
           {items.map((item) => (
             <li key={itemId(item)}>
               <CountryItemCard item={item} overlaps={overlaps.get(itemId(item)) ?? []} cultureNames={cultureNames} country={upper} />
@@ -115,6 +116,6 @@ export default async function CountryPage({ params }: PageProps<"/[locale]/count
           ))}
         </ol>
       </section>
-    </section>
+    </Page>
   );
 }
