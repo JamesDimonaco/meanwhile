@@ -11,7 +11,7 @@ import { Link, useRouter } from "@/i18n/navigation";
 import { timelineYear, type ScanResponse, type ScanResult } from "@/lib/scan/result";
 import { downscaleToJpeg } from "./downscale";
 import { scanPhoto, type Problem } from "./scan-photo";
-import { CARD_LINK, ErrorNote } from "@/components/ui/page";
+import { CARD_LINK, CARD_TITLE, ErrorNote } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 
 type Phase =
@@ -79,6 +79,8 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
     setPhase({ kind: "noMatch", reading });
   }
 
+  // Another photo can't help when the service is down, the limit is reached or there is no signal.
+  const canRetry = phase.kind !== "problem" || phase.problem === "badImage" || phase.problem === "failed";
   const busy = opening || phase.kind === "preparing" || phase.kind === "reading";
   const status = opening ? t("opening") : phase.kind === "preparing" ? t("preparing") : t("reading");
 
@@ -128,9 +130,9 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                     prefetch={false}
                     href={{ pathname: "/timeline", query: { year: String(timelineYear(phase.reading.year)) } }}
                     onClick={close}
-                    className={cn(CARD_LINK, "flex flex-col gap-0.5")}
+                    className={cn(CARD_LINK, "flex flex-col gap-0.5 no-underline")}
                   >
-                    <span className="font-medium">{t("seeOnTimeline")}</span>
+                    <span className={CARD_TITLE}>{t("seeOnTimeline")}</span>
                     <span className="text-muted-foreground">
                       <YearRangeText start={phase.reading.year.start} end={phase.reading.year.end} plain />
                     </span>
@@ -141,7 +143,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                     prefetch={false}
                     href={{ pathname: "/", query: { q: phase.reading.text } }}
                     onClick={close}
-                    className={cn(CARD_LINK, "font-medium")}
+                    className={cn(CARD_LINK, CARD_TITLE, "no-underline")}
                   >
                     {t("searchWith")}
                   </Link>
@@ -153,20 +155,20 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
               // Every problem has the same way out: the search box does what a scan would have.
               <Link
                 prefetch={false}
-                href="/"
+                href={{ pathname: "/", hash: SEARCH_INPUT_ID }}
                 onClick={() => {
                   close();
                   // Already on the home page: the link goes nowhere, so put the cursor in the box.
                   requestAnimationFrame(() => document.getElementById(SEARCH_INPUT_ID)?.focus());
                 }}
-                className={buttonVariants({ variant: "default" })}
+                className={buttonVariants({ variant: "default", className: "no-underline" })}
               >
                 <Search aria-hidden />
                 {t("searchInstead")}
               </Link>
             )}
 
-            {!busy && (
+            {!busy && canRetry && (
               <>
                 {/* Its own input: the page behind an open dialog is inert. */}
                 <PhotoInput ref={againInput} onPhoto={scan} />

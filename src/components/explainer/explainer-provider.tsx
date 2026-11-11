@@ -9,6 +9,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+import { SectionHeading } from "@/components/ui/page";
 import { Switch } from "@/components/ui/switch";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { updateSettings, useSettings } from "@/components/settings/use-settings";
@@ -80,24 +81,24 @@ export function ExplainerProvider({ children }: { children: ReactNode }) {
             <p>{t("intro")}</p>
             <p className="text-muted-foreground">{t("why")}</p>
             <section>
-              <h3 className="font-medium text-foreground">{t("countingTitle")}</h3>
+              <SectionHeading as="h3" size="sub">{t("countingTitle")}</SectionHeading>
               <p className="text-muted-foreground">{t("counting")}</p>
             </section>
             <section>
-              <h3 className="font-medium text-foreground">{t("noZeroTitle")}</h3>
+              <SectionHeading as="h3" size="sub">{t("noZeroTitle")}</SectionHeading>
               <p className="text-muted-foreground">{t("noZero")}</p>
             </section>
             {year !== null && howLongAgo !== null && (
               <section>
-                <h3 className="font-medium text-foreground">{t("howLongTitle")}</h3>
+                <SectionHeading as="h3" size="sub">{t("howLongTitle")}</SectionHeading>
                 <p className="text-muted-foreground">
                   {t("howLong", { year: formatYear(year, locale, settings.eraStyle), count: howLongAgo })}
                 </p>
               </section>
             )}
 
-            <div className="flex flex-col gap-4 rounded-lg border border-border p-3">
-              <label className="flex items-center justify-between gap-3">
+            <div className="flex flex-col gap-4 rounded-xl border border-border p-4">
+              <label className="flex min-h-11 items-center justify-between gap-3">
                 <span>{tCommon("showYearsAgo")}</span>
                 <Switch
                   checked={settings.showYearsAgo}
@@ -105,19 +106,19 @@ export function ExplainerProvider({ children }: { children: ReactNode }) {
                 />
               </label>
               <fieldset className="flex flex-col gap-2">
-                <legend className="mb-1 px-0">{tCommon("eraStyle")}</legend>
+                <legend className="mb-1 px-0 font-semibold">{tCommon("eraStyle")}</legend>
                 <RadioGroup
                   value={settings.eraStyle}
                   onValueChange={(next) => {
                     if (isEraStyle(next)) updateSettings({ eraStyle: next });
                   }}
-                  className="gap-2"
+                  className="gap-0"
                 >
-                  <label className="flex items-center gap-2">
+                  <label className="flex min-h-11 items-center gap-2">
                     <RadioGroupItem value="ce" />
                     {tCommon("eraStyleCe")}
                   </label>
-                  <label className="flex items-center gap-2">
+                  <label className="flex min-h-11 items-center gap-2">
                     <RadioGroupItem value="ad" />
                     {tCommon("eraStyleAd")}
                   </label>

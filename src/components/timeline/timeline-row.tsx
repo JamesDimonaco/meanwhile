@@ -25,7 +25,7 @@ export const REGION_COLOR: Record<Region, string> = {
 /** Wars on a country's timeline: apart from every region colour (globals.test.ts). */
 export const WAR_COLOR = "var(--war)";
 
-const BAR_INSET = 4;
+const BAR_INSET = 7;
 /** Event dots are small to keep bars readable; the hit area is finger-sized. */
 const MARKER_HIT_RADIUS = 11;
 
@@ -81,7 +81,8 @@ export function RowLabel({
       style={{ top: y, height }}
     >
       {children}
-      <span className={twoLines ? "line-clamp-2 text-xs leading-[1.2] sm:text-sm sm:leading-4" : "truncate"}>{name}</span>
+      {/* Two lines of 13px on a phone, where the column is narrow; one line of 14px where it is wide. */}
+      <span className={twoLines ? "line-clamp-2 text-[0.8125rem] leading-[0.9375rem] sm:text-sm sm:leading-4" : "truncate"}>{name}</span>
     </Link>
   );
 }
@@ -120,7 +121,7 @@ export function TimelineLegend({ events = false }: { events?: boolean }) {
 /** One flag only: the column is too narrow for three. */
 export function CultureLabel({ culture, y, height }: { culture: TimelineCulture; y: number; height: number }) {
   return (
-    <RowLabel href={`/c/${culture.id}`} name={culture.name} y={y} height={height}>
+    <RowLabel href={`/c/${culture.id}`} name={culture.name} y={y} height={height} twoLines>
       <HeartlandFlags cultureId={culture.id} max={1} />
     </RowLabel>
   );

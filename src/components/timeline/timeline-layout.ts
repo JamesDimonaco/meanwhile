@@ -70,8 +70,8 @@ export function toTimelineBar(item: CountryItem, locale: Locale): TimelineBar {
 }
 
 export const HEADER_ROW_HEIGHT = 24;
-/** Each row's name is a link: never under the 24px WCAG 2.2 asks of a target, with room for 14px text. */
-export const CULTURE_ROW_HEIGHT = 28;
+/** Each row's name is a link: well over the 24px WCAG 2.2 asks of a target, with room for a name on two lines. */
+export const CULTURE_ROW_HEIGHT = 32;
 /** A fingertip tall: a country's row names are links, and a tap on a bar moves the year line into it. */
 export const BAR_ROW_HEIGHT = 32;
 

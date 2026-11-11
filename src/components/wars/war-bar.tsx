@@ -1,9 +1,9 @@
+import { useId } from "react";
 import { scaleLinear } from "d3-scale";
 import { useLocale, useTranslations } from "next-intl";
 import { DisputedBadge } from "@/components/culture/disputed-badge";
 import { YearRangeText } from "@/components/settings/year-text";
 import { FadeGradients, PeriodBar } from "@/components/timeline/timeline-row";
-import { SectionHeading } from "@/components/ui/page";
 import { localize } from "@/lib/data/localize";
 import type { War } from "@/lib/data/war-schema";
 import { warOuter } from "@/lib/data/wars";
@@ -29,6 +29,7 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
   const phases = war.phases.map((p) => ({ ...p, end: p.end + 1 }));
   const xScale = scaleLinear().domain([from, to + 1]).range([0, WIDTH]);
   const note = dated.note && localize(dated.note, locale);
+  const phasesId = useId();
 
   return (
     <div className="flex flex-col gap-2">
@@ -45,8 +46,22 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
       </svg>
       {war.phases.length > 0 && (
         <section className="flex flex-col gap-1.5">
-          <SectionHeading size="sub">{t("phases")}</SectionHeading>
-          <ol className="flex flex-col gap-1.5 text-sm">
+          {/* Each phase's number under its stretch of the bar, matching the list below. */}
+          <div aria-hidden className="relative -mt-1 h-4 text-xs font-medium text-muted-foreground tabular-nums">
+            {phases.map((phase, i) => (
+              <span
+                key={phase.id}
+                className="absolute -translate-x-1/2"
+                style={{ insetInlineStart: `${(xScale((phase.start + phase.end) / 2) / WIDTH) * 100}%` }}
+              >
+                {i + 1}
+              </span>
+            ))}
+          </div>
+          <p id={phasesId} className="text-sm leading-snug font-semibold">
+            {t("phases")}
+          </p>
+          <ol aria-labelledby={phasesId} className="flex flex-col gap-1.5 text-sm">
             {war.phases.map((phase, i) => (
               <li key={phase.id} className="flex flex-wrap items-baseline gap-x-2">
                 <span className="text-muted-foreground tabular-nums">{i + 1}.</span>

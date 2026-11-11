@@ -115,7 +115,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
           onYear={moveYear}
           query={query}
           controls={<RegionChips available={available} selection={regions} onChange={changeRegions} />}
-          summary={<ActiveCount count={active.length} href={`#${PANEL_ID}`} />}
+          summary={<ActiveCount count={active.length} />}
           legend={<TimelineLegend events />}
           label={(row, top) =>
             row.kind === "header" ? (
@@ -136,7 +136,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
           )}
         />
 
-        <div ref={panelRef} id={PANEL_ID} className="scroll-mt-20">
+        <div ref={panelRef} id={PANEL_ID} tabIndex={-1} className="scroll-mt-24 rounded-xl focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none">
           <YearPanel
             year={year}
             entries={active.map(({ culture, certain }) => ({

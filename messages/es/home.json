@@ -8,5 +8,12 @@
   "seeOnTimeline": "Ver este año en la cronología",
   "resultsLabel": "Resultados de la búsqueda",
   "noResultsHint": "Prueba con una civilización, una guerra, un país o un año, como inca, guerra del Opio, México o 1200 a. e. c.",
-  "kind": "{kind, select, year {Año} country {País} culture {Civilización} other {Guerra}}"
+  "kind": "{kind, select, year {Año} country {País} culture {Civilización} other {Guerra}}",
+  "browse": "Otras formas de explorar",
+  "browseTimeline": "Cronología mundial",
+  "browseTimelineHint": "Todas las civilizaciones en un solo gráfico. Elige un año y mira quién existía.",
+  "browseWars": "Guerras por país",
+  "browseWarsHint": "Elige un país para ver las guerras libradas en su territorio o por sus pueblos.",
+  "browseCompare": "Comparar dos civilizaciones",
+  "browseCompareHint": "Mira cuándo coincidieron y qué pasaba en ambas."
 }

@@ -74,10 +74,10 @@ export function ComparePicker({
         />
       </label>
 
-      <div aria-live="polite" className="flex flex-col gap-3">
-      {trimmed && results.length === 0 && (
-        <EmptyState title={t("noResults", { query: trimmed })}>{tHome("noResultsHint")}</EmptyState>
-      )}
+      {/* Only the "nothing found" box is announced: a live region round the list would read all of it on every key. */}
+      <div aria-live="polite">
+        {trimmed && results.length === 0 && <EmptyState title={t("noResults", { query: trimmed })}>{tHome("noResultsHint")}</EmptyState>}
+      </div>
       {!trimmed && results.length > 0 && (
         <SectionHeading size="sub">{anchor ? t("sameTime") : t("suggestions")}</SectionHeading>
       )}
@@ -109,7 +109,6 @@ export function ComparePicker({
           ))}
         </ul>
       )}
-      </div>
     </div>
   );
 }

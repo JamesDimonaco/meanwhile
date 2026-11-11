@@ -20,5 +20,5 @@
   "legendEvent": "A key event: tap it",
   "legendUncertain": "Faded ends: dates uncertain",
   "legendDisputed": "Dashed outline: dates disputed",
-  "legendPhases": "Lighter stretches: phases of one civilisation"
+  "legendPhases": "Lighter and darker stretches: phases"
 }

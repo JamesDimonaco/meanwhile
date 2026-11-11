@@ -1,6 +1,6 @@
 "use client";
 
-import { useId, type ReactNode } from "react";
+import { useEffect, useId, useRef, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import type { Region } from "@/lib/data/schema";
 import { RegionDot } from "@/components/identity/region-dot";
@@ -21,7 +21,7 @@ export function Chip({ pressed, onClick, children }: { pressed: boolean; onClick
         "inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full border px-3.5 text-sm font-medium whitespace-nowrap transition-colors focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none pointer-coarse:h-11",
         pressed
           ? "border-foreground bg-foreground text-background"
-          : "border-border text-foreground hover:bg-muted",
+          : "border-foreground/25 text-foreground hover:bg-muted",
       )}
     >
       {children}
@@ -32,14 +32,34 @@ export function Chip({ pressed, onClick, children }: { pressed: boolean; onClick
 /** A labelled row of filter chips: the one filter pattern, on every list. */
 export function ChipGroup({ label, children }: { label: string; children: ReactNode }) {
   const id = useId();
+  const row = useRef<HTMLDivElement>(null);
+  const lastPressed = useRef("");
+  // A saved choice can be a chip that starts off-screen on a phone: bring it into the row's view, so
+  // it is plain that a filter is on. Only when the choice changes (typing in the search box re-renders
+  // this too) and only when the chip is hidden, so a tap on a visible chip moves nothing.
+  useEffect(() => {
+    const el = row.current;
+    if (!el) return;
+    const chips = [...el.querySelectorAll<HTMLElement>("[aria-pressed]")];
+    const signature = chips.map((chip) => chip.getAttribute("aria-pressed")).join();
+    if (signature === lastPressed.current) return;
+    lastPressed.current = signature;
+    const pressed = chips.find((chip) => chip.getAttribute("aria-pressed") === "true");
+    if (!pressed) return;
+    const start = pressed.offsetLeft - el.offsetLeft;
+    if (start < el.scrollLeft || start + pressed.offsetWidth > el.scrollLeft + el.clientWidth) el.scrollLeft = start - 16;
+  });
   return (
     <div role="group" aria-labelledby={id} className="flex flex-col gap-2">
       <span id={id} className={FIELD_LABEL}>
         {label}
       </span>
       {/* Phones: one row that scrolls sideways to the screen's edges (the cut-off chip shows there is more),
-          so nine regions cost one row, not four. Wider screens wrap. */}
-      <div className="flex gap-2 max-sm:-mx-4 max-sm:snap-x max-sm:overflow-x-auto max-sm:scroll-px-4 max-sm:px-4 max-sm:py-1 max-sm:[scrollbar-width:none] sm:flex-wrap max-sm:[&::-webkit-scrollbar]:hidden max-sm:[&>*]:snap-start">
+          so nine regions cost one row, not four; the row fades out at the edge it scrolls from. Wider screens wrap. */}
+      <div
+        ref={row}
+        className="flex gap-2 max-sm:-mx-4 max-sm:overflow-x-auto max-sm:py-1 max-sm:ps-4 max-sm:pe-14 max-sm:[mask-image:linear-gradient(to_right,black_calc(100%-3.5rem),transparent)] max-sm:[scrollbar-width:none] sm:flex-wrap max-sm:[&::-webkit-scrollbar]:hidden"
+      >
         {children}
       </div>
     </div>

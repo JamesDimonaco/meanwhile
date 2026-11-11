@@ -6,22 +6,29 @@ import type { TimelineCulture, TimelineEvent } from "./timeline-layout";
 import { YearText } from "@/components/settings/year-text";
 import { WarDates } from "@/components/wars/war-parts";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/page";
+import { Card, TOUCH_AREA } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 
 /** The year panel's anchor: the pinned year bar links to it. One timeline per page. */
 export const PANEL_ID = "active-this-year";
 
 /** "43 active this year: see the list", in the pinned bar: the list itself sits below every row. */
-export function ActiveCount({ count, href }: { count: number; href: string }) {
+export function ActiveCount({ count }: { count: number }) {
   const t = useTranslations("timeline");
   if (count === 0) return <span className="text-sm text-muted-foreground">{t("activeCount", { count })}</span>;
   return (
-    <a
-      href={href}
-      className="inline-flex min-h-6 items-center rounded-sm text-sm underline underline-offset-2 hover:decoration-2 focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+    // A button, not a #link: the address keeps only ?year=, so a shared link opens on the chart, not the list.
+    <button
+      type="button"
+      onClick={() => {
+        const panel = document.getElementById(PANEL_ID);
+        panel?.scrollIntoView({ behavior: "smooth", block: "start" });
+        panel?.focus({ preventScroll: true });
+      }}
+      className={cn(TOUCH_AREA, "inline-flex min-h-6 items-center self-start rounded-sm text-start text-sm underline underline-offset-2 hover:decoration-2 focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none")}
     >
       {t("activeCount", { count })}
-    </a>
+    </button>
   );
 }
 

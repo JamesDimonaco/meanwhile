@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { BeforeAfter } from "@/components/context/before-after";
-import { ChevronDown, Columns2 } from "lucide-react";
+import { Columns2 } from "lucide-react";
 import { BackLink } from "@/components/ui/back-link";
-import { Page, PageTitle, Section, SectionHeading } from "@/components/ui/page";
+import { Disclosure, Page, PageTitle, Section, SectionHeading } from "@/components/ui/page";
 import { compareHref } from "@/components/compare/compare-href";
 import { CultureEvents } from "@/components/culture/culture-events";
 import { PeriodRange } from "@/components/culture/period-range";
@@ -102,7 +102,6 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           <HeartlandLinks cultureId={culture.id} />
         </p>
         <PeriodRange period={period} locale={locale} />
-        <BeforeAfter lines={beforeAfter} locale={locale} />
         {records.length > 0 && (
           <p className="text-sm text-muted-foreground">
             {records.map((kind) => tContext("holds", { kind, disputed: String(period.disputed), appName: tCommon("appName") })).join(" ")}
@@ -138,18 +137,21 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
         <p className="text-base leading-relaxed">{localize(culture.description, locale)}</p>
       </Section>
 
+      {/* Below the moment (the cards), not above it: Rome's runs to five places. */}
+      <BeforeAfter lines={beforeAfter} locale={locale} />
+
       {alive.length > 0 && (
         // Unfiltered: the region chips narrow the cards above, but this is the full list, rendered on the
         // server. Closed until asked for: Rome's runs past a hundred names, ahead of its key events.
-        <details className="group rounded-xl border border-border bg-card">
-          <summary className="flex cursor-pointer list-none items-center justify-between gap-3 rounded-xl p-4 hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none group-open:rounded-b-none [&::-webkit-details-marker]:hidden">
+        <Disclosure
+          summary={
             <span className="flex flex-col gap-0.5">
               <span className="text-sm leading-snug font-semibold">{t("alsoAlive")}</span>
               <span className="text-sm text-muted-foreground">{t("alsoAliveCount", { count: alive.length })}</span>
             </span>
-            <ChevronDown aria-hidden className="size-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
-          </summary>
-          <ul className="grid grid-cols-1 gap-x-2 border-t border-border p-2 text-sm sm:grid-cols-2">
+          }
+        >
+          <ul className="grid grid-cols-1 gap-x-2 p-2 text-sm sm:grid-cols-2">
             {alive.map((c) => (
               <li key={c.id}>
                 <Link
@@ -165,7 +167,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
               </li>
             ))}
           </ul>
-        </details>
+        </Disclosure>
       )}
 
       <section className="flex flex-col gap-3">

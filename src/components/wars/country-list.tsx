@@ -54,6 +54,7 @@ export function CountryList({
           onChange={(e) => setQuery(e.target.value)}
           placeholder={t("searchPlaceholder")}
           autoComplete="off"
+          enterKeyHint="search"
           className={INPUT}
         />
       </label>

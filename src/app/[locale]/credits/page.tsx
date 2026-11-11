@@ -4,7 +4,7 @@ import { pageLocale } from "@/i18n/page-locale";
 import { hasTerritoryMap, loadBorders, loadCultures, loadSuccession, loadWars } from "@/lib/data/load";
 import type { Locale } from "@/i18n/locales";
 import type { Source } from "@/lib/data/schema";
-import { Card, CARD_TITLE, Page, PageIntro, PageTitle, Pill, SectionHeading, TEXT_LINK } from "@/components/ui/page";
+import { Card, CARD_TITLE, Disclosure, Page, PageIntro, PageTitle, Pill, SectionHeading, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { datasetJsonLd, jsonLd, openGraph, pageAlternates } from "@/lib/seo";
 
@@ -114,9 +114,8 @@ export default async function CreditsPage({ params }: PageProps<"/[locale]/credi
 
       <p className="text-sm text-muted-foreground">{t("neverUsed")}</p>
 
-      <details className="rounded-xl border border-border bg-card p-4">
-        <summary className="cursor-pointer rounded-md font-semibold focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none">{t("worksCited", { count: works.length })}</summary>
-        <ul className="mt-3 flex flex-col gap-2 text-sm text-muted-foreground">
+      <Disclosure summary={<span className={CARD_TITLE}>{t("worksCited", { count: works.length })}</span>}>
+        <ul className="flex flex-col gap-2 p-4 text-sm text-muted-foreground">
           {works.map((source) => (
             <li key={source.citation}>
               {source.url ? (
@@ -129,7 +128,7 @@ export default async function CreditsPage({ params }: PageProps<"/[locale]/credi
             </li>
           ))}
         </ul>
-      </details>
+      </Disclosure>
     </Page>
   );
 }

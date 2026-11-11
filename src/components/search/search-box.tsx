@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
@@ -65,6 +65,10 @@ export function SearchBox({
   const results = hits.filter(inRegions).slice(0, MAX_RESULTS);
   const hiddenMatches = hits.some((hit) => !inRegions(hit));
   const trimmed = query.trim();
+  // "Search instead" on a failed scan links here as /#site-search from any page.
+  useEffect(() => {
+    if (window.location.hash === `#${SEARCH_INPUT_ID}`) document.getElementById(SEARCH_INPUT_ID)?.focus();
+  }, []);
 
   return (
     <div className="flex flex-col gap-4">
@@ -77,6 +81,7 @@ export function SearchBox({
           onChange={(e) => setQuery(e.target.value)}
           placeholder={t("searchPlaceholder")}
           autoComplete="off"
+          enterKeyHint="search"
           className={INPUT}
         />
       </label>

@@ -1,19 +1,19 @@
 "use client";
 
-import { ChevronDown, Crown, Flag, Lightbulb, Skull, Swords, type LucideIcon } from "lucide-react";
+import { Crown, Flag, Lightbulb, Skull, Swords, type LucideIcon } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { CultureRef, EventWorld } from "@/lib/data/queries";
 import type { Culture, CultureEvent, EventType, Source } from "@/lib/data/schema";
 import { YearText } from "@/components/settings/year-text";
-import { SectionHeading, TEXT_LINK } from "@/components/ui/page";
+import { CARD_TITLE, Disclosure, SectionHeading, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { DisputedBadge } from "./disputed-badge";
 
 export type CultureEventsProps = { culture: Culture; eventWorld: EventWorld };
 
-const EVENT_ICONS: Record<EventType, LucideIcon> = {
+export const EVENT_ICONS: Record<EventType, LucideIcon> = {
   founding: Flag,
   ruler: Crown,
   invention: Lightbulb,
@@ -47,11 +47,11 @@ function EventItem({
 
   return (
     <li>
-      <details className="group rounded-xl border border-border bg-card">
-        <summary className="flex cursor-pointer list-none items-start justify-between gap-3 rounded-xl p-4 hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none group-open:rounded-b-none [&::-webkit-details-marker]:hidden">
+      <Disclosure
+        summary={
           <span className="flex items-start gap-2.5">
             <Icon aria-hidden className="mt-0.5 size-4 shrink-0 text-muted-foreground" />
-            <span className="flex flex-col gap-0.5">
+            <span className="flex flex-col gap-1">
               <span className="text-sm text-muted-foreground">
                 <YearText year={event.start} plain />
                 {event.end !== undefined && event.end !== event.start && (
@@ -61,23 +61,19 @@ function EventItem({
                   </>
                 )}
               </span>
-              <span className="flex flex-wrap items-center gap-1.5 font-medium">
+              <span className={cn(CARD_TITLE, "flex flex-wrap items-center gap-1.5")}>
                 {localize(event.title, locale)}
                 {/* No note here: tapping the row opens it, and the note shows inside. */}
                 {event.disputed && <DisputedBadge />}
               </span>
             </span>
           </span>
-          <ChevronDown
-            aria-hidden
-            className="mt-1 size-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
-          />
-        </summary>
-
-        <div className="flex flex-col gap-4 border-t border-border p-4 text-sm">
+        }
+      >
+        <div className="flex flex-col gap-4 p-4 text-sm">
           <EventDetail event={event} world={world} />
         </div>
-      </details>
+      </Disclosure>
     </li>
   );
 }

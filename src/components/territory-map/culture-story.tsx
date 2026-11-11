@@ -1,16 +1,16 @@
 "use client";
 
-import { MapPin } from "lucide-react";
+import { ChevronDown, MapPin } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { SourceList, type CultureEventsProps } from "@/components/culture/culture-events";
+import { EVENT_ICONS, SourceList, type CultureEventsProps } from "@/components/culture/culture-events";
 import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { ActiveCulture } from "@/lib/data/queries";
-import type { CultureEvent } from "@/lib/data/schema";
-import { CARD_TITLE, Pill, SectionHeading, TEXT_LINK } from "@/components/ui/page";
+import type { CultureEvent, EventType } from "@/lib/data/schema";
+import { CARD_TITLE, DISCLOSURE_CHEVRON, Pill, SectionHeading, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { MapFrame } from "./map-frame";
 
@@ -23,7 +23,10 @@ const TerritoryMap = dynamic(() => import("./territory-map").then((m) => m.Terri
 });
 
 /** What the story reads from an event: culture and war events both fit. */
-export type StoryEvent = Pick<CultureEvent, "id" | "start" | "end" | "title" | "sources" | "disputed" | "note" | "place">;
+export type StoryEvent = Pick<CultureEvent, "id" | "start" | "end" | "title" | "sources" | "disputed" | "note" | "place"> & {
+  /** A culture's events say what kind they are (and get its icon); a war's don't. */
+  type?: EventType;
+};
 
 /**
  * The events timeline paired with a sticky territory map: as the events
@@ -112,8 +115,8 @@ export function EventStory({ events: unsorted, eventWorld, id, hasBorders, allPi
   return (
     <section className="flex flex-col gap-4 [overflow-anchor:none]">
       <div ref={mapSlot} className="sticky top-0 z-10 -mx-4 bg-background px-4 py-2">
-        {/* Narrower on a phone, so the sticky map leaves more than half the screen for the events under it. */}
-        <div className="mx-auto max-sm:max-w-[19rem]">
+        {/* Narrower than the column, so the pinned map leaves more than half the screen for the events under it. */}
+        <div className="mx-auto max-w-[19rem] sm:max-w-md">
         {mapWanted ? (
           <TerritoryMap
             id={id}
@@ -160,57 +163,70 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
   const tc = useTranslations("common");
   const locale = useLocale();
   const panelId = `event-${event.id}-world`;
-
+  const Icon = event.type && EVENT_ICONS[event.type];
   return (
+    // The same card as a culture page's plain event list (CultureEvents); the red edge marks the event the map shows.
     <li
       data-event-id={event.id}
-      className={`rounded-xl border border-s-4 bg-card transition-colors ${active ? "border-border border-s-red-700" : "border-border border-s-border"}`}
+      className={cn("rounded-xl border border-s-4 border-border bg-card transition-colors", active && "border-s-red-700")}
     >
-      {/* The date sits outside the toggle: it is its own button (the explainer). */}
-      <p className="px-4 pt-3 text-sm text-muted-foreground">
-        {event.end === undefined ? <YearText year={event.start} /> : <YearRangeText start={event.start} end={event.end} />}
-      </p>
       <button
         type="button"
         onClick={onToggle}
         aria-expanded={open}
         aria-controls={panelId}
-        className="flex w-full flex-col items-start gap-1 rounded-b-xl px-4 pt-0.5 pb-4 text-start hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
-      >
-        <span className={CARD_TITLE}>{localize(event.title, locale)}</span>
-        {event.place && (
-          <span className="flex items-center gap-1 text-sm text-muted-foreground">
-            <MapPin aria-hidden className="size-3.5" />
-            {localize(event.place.name, locale)}
-          </span>
+        className={cn(
+          "flex w-full items-start justify-between gap-3 rounded-xl p-4 text-start hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none",
+          open && "rounded-b-none",
         )}
-        {event.disputed && <Pill tone="warning">{tc("disputed")}</Pill>}
-        {event.note && <span className="text-sm text-muted-foreground">{localize(event.note, locale)}</span>}
+      >
+        <span className="flex min-w-0 items-start gap-2.5">
+          {Icon && <Icon aria-hidden className="mt-0.5 size-4 shrink-0 text-muted-foreground" />}
+          <span className="flex min-w-0 flex-col gap-1">
+            <span className="text-sm text-muted-foreground">
+              {event.end === undefined ? <YearText year={event.start} plain /> : <YearRangeText start={event.start} end={event.end} plain />}
+            </span>
+            <span className={cn(CARD_TITLE, "flex flex-wrap items-center gap-1.5")}>
+              {localize(event.title, locale)}
+              {event.disputed && <Pill tone="warning">{tc("disputed")}</Pill>}
+            </span>
+            {event.place && (
+              <span className="flex items-center gap-1 text-sm text-muted-foreground">
+                <MapPin aria-hidden className="size-3.5 shrink-0" />
+                {localize(event.place.name, locale)}
+              </span>
+            )}
+            {event.note && <span className="text-sm text-muted-foreground">{localize(event.note, locale)}</span>}
+          </span>
+        </span>
+        <ChevronDown aria-hidden className={cn(DISCLOSURE_CHEVRON, open && "rotate-180")} />
       </button>
       {open && (
-        <div id={panelId} className="flex flex-col gap-3 border-t border-border p-4 text-sm">
-          <SectionHeading as="h3" size="sub">
-            {t.rich("elsewhere", { year: () => <YearText year={event.start} plain /> })}
-          </SectionHeading>
-          {world.length > 0 ? (
-            <ul className="flex flex-col gap-1.5">
-              {world.map(({ culture, certain }) => (
-                <li key={culture.id}>
-                  <Link prefetch={false} href={`/c/${culture.id}`} className={cn(TEXT_LINK, "inline-flex min-h-6 items-center font-medium")}>
-                    {localize(culture.name, locale)}
-                  </Link>
-                  {culture.nativeName && <span lang={culture.nativeName.lang}> ({culture.nativeName.text})</span>}
-                  <span className="text-muted-foreground">
-                    {" "}
-                    · {tc(`regions.${culture.region}`)}
-                    {!certain && ` · ${t("fuzzyDates")}`}
-                  </span>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p className="text-muted-foreground">{t("nothingElsewhere")}</p>
-          )}
+        <div id={panelId} className="flex flex-col gap-4 border-t border-border p-4 text-sm">
+          <div className="flex flex-col gap-1.5">
+            <SectionHeading as="h3" size="sub">
+              {t.rich("elsewhere", { year: () => <YearText year={event.start} plain /> })}
+            </SectionHeading>
+            {world.length > 0 ? (
+              <ul className="flex flex-col gap-1.5">
+                {world.map(({ culture, certain }) => (
+                  <li key={culture.id}>
+                    <Link prefetch={false} href={`/c/${culture.id}`} className={cn(TEXT_LINK, "font-medium")}>
+                      {localize(culture.name, locale)}
+                    </Link>
+                    {culture.nativeName && <span lang={culture.nativeName.lang}> ({culture.nativeName.text})</span>}
+                    <span className="text-muted-foreground">
+                      {" "}
+                      · {tc(`regions.${culture.region}`)}
+                      {!certain && ` · ${t("fuzzyDates")}`}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-muted-foreground">{t("nothingElsewhere")}</p>
+            )}
+          </div>
           <SourceList sources={event.sources} />
           <Link
             prefetch={false}

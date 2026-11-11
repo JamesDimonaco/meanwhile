@@ -1,4 +1,5 @@
 import type { ComponentProps, ReactNode } from "react";
+import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 // The parts every page is built from, so a title, a section heading, a card,
@@ -67,6 +68,31 @@ export function Card({ as = "div", className, ...props }: ComponentProps<"div"> 
   const Tag = as as "div";
   return <Tag className={cn(CARD, className)} {...props} />;
 }
+
+/**
+ * A box that is closed until tapped: one border, one chevron. The culture page's "Also alive" list, each key
+ * event and the credits' works cited all use it.
+ */
+export function Disclosure({ summary, children, className }: { summary: ReactNode; children: ReactNode; className?: string }) {
+  return (
+    <details className={cn("group rounded-xl border border-border bg-card", className)}>
+      <summary className="flex cursor-pointer list-none items-start justify-between gap-3 rounded-xl p-4 hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none group-open:rounded-b-none [&::-webkit-details-marker]:hidden">
+        <span className="min-w-0 flex-1">{summary}</span>
+        <ChevronDown aria-hidden className={DISCLOSURE_CHEVRON} />
+      </summary>
+      <div className="border-t border-border">{children}</div>
+    </details>
+  );
+}
+
+/** The chevron of anything that opens in place; add `rotate-180` (or group-open) when it is open. */
+export const DISCLOSURE_CHEVRON = "mt-1 size-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180";
+
+/**
+ * A 44px-tall hit area under a finger for a small control that sits on its own (a date, a "Disputed" flag, a
+ * before/after link), without making the control look any bigger. Not for links inside a sentence.
+ */
+export const TOUCH_AREA = "relative pointer-coarse:after:absolute pointer-coarse:after:inset-x-0 pointer-coarse:after:-inset-y-2.5";
 
 const PILL = {
   neutral: "bg-muted text-muted-foreground",

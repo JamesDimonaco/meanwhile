@@ -2,7 +2,7 @@
 
 import { useId, useState } from "react";
 import { useTranslations } from "next-intl";
-import { pillClass } from "@/components/ui/page";
+import { pillClass, TOUCH_AREA } from "@/components/ui/page";
 
 const PILL = pillClass("warning");
 
@@ -24,7 +24,7 @@ export function DisputedBadge({ note }: { note?: string }) {
         aria-expanded={open}
         aria-controls={noteId}
         onClick={() => setOpen((o) => !o)}
-        className={`${PILL} cursor-pointer underline decoration-dotted underline-offset-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50`}
+        className={`${PILL} ${TOUCH_AREA} cursor-pointer underline decoration-dotted underline-offset-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50`}
       >
         {t("disputed")}
       </button>

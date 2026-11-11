@@ -4,7 +4,7 @@ import type { Locale } from "@/i18n/locales";
 import { localize } from "@/lib/data/localize";
 import type { CultureRef, SuccessionGroup } from "@/lib/data/queries";
 import { YearRangeText } from "@/components/settings/year-text";
-import { SectionHeading, TEXT_LINK } from "@/components/ui/page";
+import { SectionHeading, TEXT_LINK, TOUCH_AREA } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 
 export type BeforeAfterLine = Omit<SuccessionGroup, "before" | "after"> & {
@@ -20,7 +20,7 @@ export async function BeforeAfter({ lines, locale }: { lines: BeforeAfterLine[];
   const item = (ref: CultureRef, side: "before" | "after") => (
     <span key={`${side}-${ref.id}`}>
       <span className="sr-only">{t(side === "before" ? "cameBefore" : "cameAfter")} </span>
-      <Link prefetch={false} href={`/c/${ref.id}`} className={cn(TEXT_LINK, "font-medium")}>
+      <Link prefetch={false} href={`/c/${ref.id}`} className={cn(TEXT_LINK, TOUCH_AREA, "inline-flex min-h-6 items-center font-medium")}>
         {side === "before" && <span aria-hidden="true">← </span>}
         {localize(ref.name, locale)}
         {side === "after" && <span aria-hidden="true"> →</span>}
@@ -32,12 +32,12 @@ export async function BeforeAfter({ lines, locale }: { lines: BeforeAfterLine[];
   );
 
   return (
-    <section className="flex flex-col gap-1.5">
-      <SectionHeading size="sub">{t("beforeAfter")}</SectionHeading>
-      <ul className="flex flex-col gap-2.5 text-sm">
+    <section className="flex flex-col gap-3">
+      <SectionHeading>{t("beforeAfter")}</SectionHeading>
+      <ul className="flex flex-col gap-4 text-sm">
         {lines.map((line) => {
           return (
-            <li key={line.place.en} className="flex flex-col gap-0.5">
+            <li key={line.place.en} className="flex flex-col gap-1">
               <p className="flex flex-wrap items-baseline gap-x-3 gap-y-1.5">
                 <span className="text-muted-foreground">{t("inPlace", { place: line.place[locale] })}</span>
                 {line.before.map((r) => item(r, "before"))}

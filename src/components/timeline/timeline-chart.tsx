@@ -28,7 +28,7 @@ const TICK_SPACING = 120;
 /** A touch that moves less than this is a tap on the chart, not a scroll. */
 const TAP_SLOP = 8;
 /** The chart's width on a 360px phone, for a fitted chart's prerendered zoom before it can measure itself. */
-const PHONE_CHART_WIDTH = 192;
+const PHONE_CHART_WIDTH = 192; // 360 - 2 x 16 page padding - 128 (NAME_COL's w-32) - 8 gap: change them together
 
 /**
  * Runs as the prerendered HTML is parsed, before the app's JS loads (seconds

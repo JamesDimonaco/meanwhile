@@ -37,7 +37,7 @@ function YearsAgo({ year }: { year: number }) {
 }
 
 const DATE_BUTTON =
-  "inline-flex min-h-6 items-center whitespace-nowrap rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50";
+  "relative inline-flex min-h-6 items-center pointer-coarse:after:absolute pointer-coarse:after:inset-x-0 pointer-coarse:after:-inset-y-2.5 whitespace-nowrap rounded underline decoration-dotted decoration-from-font underline-offset-2 hover:decoration-solid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50";
 
 /**
  * A year. Standing alone it is a button that opens the CE/BCE explainer for

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ChartGantt, Columns2, Swords } from "lucide-react";
 import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
@@ -109,6 +110,30 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             ),
           }))}
         />
+      </section>
+
+      {/* The timeline, the wars and compare are otherwise only in the footer, three screens down on a phone. */}
+      <section className="flex flex-col gap-3">
+        <SectionHeading>{t("browse")}</SectionHeading>
+        <ul className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+          {(
+            [
+              { href: "/timeline", icon: ChartGantt, title: t("browseTimeline"), hint: t("browseTimelineHint") },
+              { href: "/wars", icon: Swords, title: t("browseWars"), hint: t("browseWarsHint") },
+              { href: "/compare", icon: Columns2, title: t("browseCompare"), hint: t("browseCompareHint") },
+            ] as const
+          ).map(({ href, icon: Icon, title, hint }) => (
+            <li key={href}>
+              <Link prefetch={false} href={href} className={cn(CARD_LINK, "flex h-full flex-col gap-1")}>
+                <span className={cn(CARD_TITLE, "flex items-center gap-2")}>
+                  <Icon aria-hidden className="size-4 shrink-0 text-muted-foreground" />
+                  {title}
+                </span>
+                <span className="text-sm text-muted-foreground">{hint}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <RecordsStrip holders={records} locale={locale} />

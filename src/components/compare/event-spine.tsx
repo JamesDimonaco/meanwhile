@@ -147,11 +147,11 @@ function EventCard({
       // 12px padding, not the 16px of other cards: two of these share a phone's width with the spine between them.
       className={`relative z-[1] flex flex-col gap-1 self-start rounded-xl border border-border bg-card p-3 transition-colors hover:bg-muted has-[button:focus-visible]:ring-3 has-[button:focus-visible]:ring-ring/50 ${towardSpine === "end" ? SLOTS[side].edgeEnd : SLOTS[side].edgeStart}`}
     >
-      {/* A div: the disputed note is a paragraph. The date is text and the title's button covers the whole
-          card (after:inset-0); the disputed flag sits above it, since it is a button of its own. */}
-      <div className="flex flex-wrap items-center gap-1 text-xs text-muted-foreground [&>button]:relative [&>button]:z-10">
+      {/* The date is text, and the title's button covers the whole card (after:inset-0). */}
+      <div className="flex flex-wrap items-center gap-1 text-xs text-muted-foreground">
         <YearRangeText start={event.start} end={event.end ?? event.start} plain />
-        {event.disputed && <DisputedBadge note={event.note && localize(event.note, locale)} />}
+        {/* No note here: tapping the card opens it, and the note shows inside. */}
+        {event.disputed && <DisputedBadge />}
       </div>
       <button
         type="button"

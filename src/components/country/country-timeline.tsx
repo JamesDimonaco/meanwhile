@@ -75,10 +75,10 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
         }
         bars={(row, xScale) => <BarRow bar={row.item} y={row.y} height={row.height} xScale={xScale} />}
         snap={(bar, year, xScale) => snapToBar(year, bar.period, xScale)}
-        summary={<ActiveCount count={activeBars(bars, year).length} href={`#${PANEL_ID}`} />}
+        summary={<ActiveCount count={activeBars(bars, year).length} />}
         legend={<TimelineLegend />}
       />
-      <div id={PANEL_ID} className="scroll-mt-20">
+      <div id={PANEL_ID} tabIndex={-1} className="scroll-mt-24 rounded-xl focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none">
       <YearPanel
         year={year}
         entries={activeBars(bars, year).map(({ bar, certain }) => ({
