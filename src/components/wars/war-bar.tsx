@@ -35,8 +35,10 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
   // Each number under the middle of its phase, pushed along when two short phases would print on top of each other.
   const numberAt = phases.reduce<number[]>((at, phase) => {
     const middle = (xScale((phase.start + phase.end) / 2) / WIDTH) * 100;
-    return [...at, Math.min(98, Math.max(middle, (at.at(-1) ?? -MIN_NUMBER_GAP) + MIN_NUMBER_GAP))];
+    return [...at, Math.max(middle, (at.at(-1) ?? -MIN_NUMBER_GAP) + MIN_NUMBER_GAP)];
   }, []);
+  // Pushed past the bar's end, the run is pulled back from the last number, keeping the gaps.
+  for (let i = numberAt.length - 1, limit = 99; i >= 0; i--, limit -= MIN_NUMBER_GAP) numberAt[i] = Math.min(numberAt[i], limit);
 
   return (
     <div className="flex flex-col gap-2">
@@ -66,11 +68,13 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
           </p>
           <ol aria-labelledby={phasesId} className="flex flex-col gap-1.5 text-sm">
             {war.phases.map((phase, i) => (
-              <li key={phase.id} className="flex flex-wrap items-baseline gap-x-2">
+              <li key={phase.id} className="grid grid-cols-[auto_1fr] items-baseline gap-x-2">
                 <span className="text-muted-foreground tabular-nums">{i + 1}.</span>
-                <span className="font-medium">{localize(phase.name, locale)}</span>
-                <span className="text-muted-foreground">
-                  <YearRangeText start={phase.start} end={phase.end} plain />
+                <span className="flex flex-wrap items-baseline gap-x-2">
+                  <span className="font-medium">{localize(phase.name, locale)}</span>
+                  <span className="text-muted-foreground">
+                    <YearRangeText start={phase.start} end={phase.end} plain />
+                  </span>
                 </span>
               </li>
             ))}

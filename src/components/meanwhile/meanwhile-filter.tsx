@@ -11,7 +11,7 @@ import type { NativeName, Region } from "@/lib/data/schema";
 import { NoneInRegions, StoredRegionChips } from "@/components/filters/region-chips";
 import { includesRegion } from "@/components/filters/region-filter";
 import { useRegionFilter } from "@/components/filters/use-region-filter";
-import { HeartlandFlags } from "@/components/identity/heartland-flags";
+import { NameWithFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { YearRangeText } from "@/components/settings/year-text";
 import { CARD, CARD_TITLE, Pill } from "@/components/ui/page";
@@ -73,19 +73,14 @@ export function MeanwhileFilter({
                 className={cn(CARD, "relative flex min-w-0 flex-col gap-1.5 transition-colors hover:bg-muted has-[a:focus-visible]:ring-3 has-[a:focus-visible]:ring-ring/50")}
               >
                   <span className={`flex flex-wrap items-baseline gap-x-1.5 ${anchor ? "pe-24" : ""}`}>
-                    <span>
                     <Link
                       prefetch={false}
                       href={`/c/${id}`}
                       aria-label={tMeanwhile("reanchor", { name: card.name })}
                       className={cn(CARD_TITLE, "after:absolute after:inset-0 after:rounded-xl focus-visible:outline-none")}
                     >
-                      {card.name}
+                      <NameWithFlags name={card.name} cultureId={id} />
                     </Link>
-                    {/* A no-break space, so the flag wraps with the name's last word, never alone. */}
-                    {"\u00a0"}
-                    <HeartlandFlags cultureId={id} />
-                    </span>
                     {card.nativeName && (
                       <span lang={card.nativeName.lang} className="text-muted-foreground">
                         {card.nativeName.text}

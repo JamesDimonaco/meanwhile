@@ -17,7 +17,7 @@ import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { NoneInRegions, StoredRegionChips } from "@/components/filters/region-chips";
 import { includesRegion } from "@/components/filters/region-filter";
 import { useRegionFilter } from "@/components/filters/use-region-filter";
-import { CountryFlag, HeartlandFlags } from "@/components/identity/heartland-flags";
+import { CountryFlag, NameWithFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { WarDates } from "@/components/wars/war-parts";
 import { SEARCH_INPUT_ID } from "./search-id";
@@ -32,7 +32,7 @@ const hitKey = (hit: SearchHit) => (hit.type === "year" ? "year" : hit.type === 
 function ResultLink({ href, kind, children, details }: { href: Parameters<typeof Link>[0]["href"]; kind: string; children: ReactNode; details?: ReactNode }) {
   return (
     <Link prefetch={false} href={href} className={cn(CARD_LINK, "grid grid-cols-[1fr_auto] items-start gap-x-2 gap-y-1")}>
-      <span className="flex min-w-0 flex-wrap items-center gap-x-1.5">{children}</span>
+      <span className="flex min-w-0 flex-wrap items-baseline gap-x-1.5">{children}</span>
       <Pill tone="outline">{kind}</Pill>
       {details && <span className="col-span-2 text-sm text-muted-foreground">{details}</span>}
     </Link>
@@ -86,6 +86,9 @@ export function SearchBox({
         />
       </label>
 
+      {/* Above the results, as on the wars page: one row on a phone, so the first results still clear the keyboard. */}
+      <StoredRegionChips available={regions} />
+
       {trimmed && (
         <div aria-live="polite" className="flex flex-col gap-2">
           {results.length === 0 ? (
@@ -105,8 +108,10 @@ export function SearchBox({
                     </ResultLink>
                   ) : hit.type === "country" ? (
                     <ResultLink href={`/country/${hit.entry.code.toLowerCase()}`} kind={t("kind", { kind: "country" })}>
-                      <CountryFlag code={hit.entry.code} />
-                      <span className={CARD_TITLE}>{hit.entry.name}</span>
+                      <span className={cn(CARD_TITLE, "inline-flex items-center gap-1.5")}>
+                        <CountryFlag code={hit.entry.code} />
+                        {hit.entry.name}
+                      </span>
                     </ResultLink>
                   ) : hit.type === "culture" ? (
                     <ResultLink
@@ -120,16 +125,14 @@ export function SearchBox({
                         </>
                       }
                     >
-                      <span className={CARD_TITLE}>{localize(hit.entry.name, locale)}</span>
-                      {/* One flex item, so a wrapping row never leaves the flag on a line of its own. */}
-                      <span className="inline-flex min-w-0 items-center gap-x-1.5">
-                        {hit.entry.nativeName && (
-                          <span lang={hit.entry.nativeName.lang} className="text-muted-foreground">
-                            {hit.entry.nativeName.text}
-                          </span>
-                        )}
-                        <HeartlandFlags cultureId={hit.entry.id} />
+                      <span className={CARD_TITLE}>
+                        <NameWithFlags name={localize(hit.entry.name, locale)} cultureId={hit.entry.id} />
                       </span>
+                      {hit.entry.nativeName && (
+                        <span lang={hit.entry.nativeName.lang} className="text-muted-foreground">
+                          {hit.entry.nativeName.text}
+                        </span>
+                      )}
                     </ResultLink>
                   ) : (
                     <ResultLink href={`/war/${hit.entry.id}`} kind={t("kind", { kind: "war" })} details={<WarDates span={hit.entry.span} plain />}>
@@ -143,9 +146,6 @@ export function SearchBox({
           {hiddenMatches && <NoneInRegions message="hiddenByFilter" />}
         </div>
       )}
-
-      {/* Below the results, so a phone keyboard leaves the first results in view while typing. */}
-      <StoredRegionChips available={regions} />
     </div>
   );
 }

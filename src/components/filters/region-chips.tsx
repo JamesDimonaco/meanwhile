@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import type { Region } from "@/lib/data/schema";
 import { RegionDot } from "@/components/identity/region-dot";
 import { Button } from "@/components/ui/button";
-import { EmptyState, FIELD_LABEL, Note, TEXT_LINK, TOUCH_AREA } from "@/components/ui/page";
+import { EmptyState, FIELD_LABEL, TEXT_LINK, TOUCH_AREA } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { toggleRegion } from "./region-filter";
 import { saveRegionFilter, useRegionFilter } from "./use-region-filter";
@@ -34,18 +34,18 @@ export function ChipGroup({ label, children }: { label: string; children: ReactN
   const id = useId();
   const row = useRef<HTMLDivElement>(null);
   const lastPressed = useRef("");
-  const [more, setMore] = useState({ start: false, end: false });
+  const [more, setMore] = useState({ start: false, end: false, rtl: false });
   const fadeEdges = () => {
     const el = row.current;
     if (!el) return;
     // scrollLeft runs negative in a right-to-left row.
     const scrolled = Math.abs(el.scrollLeft);
-    const next = { start: scrolled > 4, end: scrolled + el.clientWidth < el.scrollWidth - 4 };
-    setMore((now) => (now.start === next.start && now.end === next.end ? now : next));
+    const next = { start: scrolled > 4, end: scrolled + el.clientWidth < el.scrollWidth - 4, rtl: getComputedStyle(el).direction === "rtl" };
+    setMore((now) => (now.start === next.start && now.end === next.end && now.rtl === next.rtl ? now : next));
   };
   const fade =
     more.start || more.end
-      ? `linear-gradient(to right, ${more.start ? "transparent, black 2.5rem" : "black"}, ${more.end ? "black calc(100% - 3rem), transparent" : "black"})`
+      ? `linear-gradient(${more.rtl ? "to left" : "to right"}, ${more.start ? "transparent, black 2.5rem" : "black"}, ${more.end ? "black calc(100% - 3rem), transparent" : "black"})`
       : undefined;
   // A saved choice can be a chip that starts off-screen on a phone: bring it into the row's view, so
   // it is plain that a filter is on. Only when the choice changes (typing in the search box re-renders
@@ -62,11 +62,14 @@ export function ChipGroup({ label, children }: { label: string; children: ReactN
     const start = pressed.offsetLeft - el.offsetLeft;
     if (start < el.scrollLeft || start + pressed.offsetWidth > el.scrollLeft + el.clientWidth) el.scrollLeft = start - 16;
   });
-  // Which edges fade depends on the row's width, which a phone turned sideways changes.
+  // Which edges fade depends on the row's width and its chips' (a phone turned sideways, a font arriving late).
   useEffect(() => {
-    fadeEdges();
-    window.addEventListener("resize", fadeEdges);
-    return () => window.removeEventListener("resize", fadeEdges);
+    const el = row.current;
+    if (!el) return;
+    const observer = new ResizeObserver(fadeEdges);
+    observer.observe(el);
+    for (const chip of el.children) observer.observe(chip);
+    return () => observer.disconnect();
   }, []);
   return (
     <div role="group" aria-labelledby={id} className="flex flex-col gap-2">
@@ -132,20 +135,20 @@ export function NoneInRegions({
   onShowAll?: () => void;
 }) {
   const t = useTranslations("common");
-  // "Some matches are hidden" sits under results or beside another empty list: a quiet note, so a page
-  // never shows two empty boxes with the same button.
+  // "Some matches are hidden" sits under results or beside another empty list: a plain line, so a page
+  // never shows two boxes with the same button.
   if (message === "hiddenByFilter") {
     return (
-      <Note className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
+      <p role="status" className="flex flex-wrap items-center gap-x-2 text-sm text-muted-foreground">
         {t(message)}
         <button
           type="button"
           onClick={onShowAll}
-          className={cn(TEXT_LINK, TOUCH_AREA, "inline-flex min-h-6 items-center font-medium")}
+          className={cn(TEXT_LINK, TOUCH_AREA, "inline-flex min-h-6 items-center font-medium text-foreground")}
         >
           {t("showAllRegions")}
         </button>
-      </Note>
+      </p>
     );
   }
   return (

@@ -31,7 +31,7 @@ function MemberName({ member, cultureNames, linkCultures, here }: SideProps & { 
   if (member.kind === "culture") {
     const name = cultureNames[member.id] ?? member.id;
     return linkCultures ? (
-      <Link prefetch={false} href={`/c/${member.id}`} className={TEXT_LINK}>
+      <Link prefetch={false} href={`/c/${member.id}`} className={cn(TEXT_LINK, "text-foreground")}>
         {name}
       </Link>
     ) : (

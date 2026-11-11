@@ -11,7 +11,7 @@ import { useYearParam } from "@/components/timeline/use-year-param";
 import { itemHref } from "./item-href";
 import { ActiveCount, PANEL_ID, YearPanel } from "@/components/timeline/year-panel";
 
-const BAR_INSET = 10;
+const BAR_INSET = 12;
 
 const barColor = (bar: TimelineBar) => (bar.region ? REGION_COLOR[bar.region] : WAR_COLOR);
 

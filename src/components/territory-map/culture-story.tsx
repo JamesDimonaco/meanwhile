@@ -16,6 +16,8 @@ import { MapFrame } from "./map-frame";
 
 /** How far under the pinned map an event's top may slide before the next event takes over the map. */
 const TOP_TOLERANCE = 16;
+/** How much of an opened event must still show below the map for it to keep the map. */
+const OPEN_KEEPS_MAP = 96;
 
 const TerritoryMap = dynamic(() => import("./territory-map").then((m) => m.TerritoryMap), {
   ssr: false,
@@ -55,6 +57,11 @@ export function EventStory({ events: unsorted, eventWorld, id, hasBorders, allPi
   const [activeId, setActiveId] = useState(events[0].id);
   const [openId, setOpenId] = useState<string | null>(null);
   const [mapWanted, setMapWanted] = useState(false);
+  // For the scroll handler, which is set up once.
+  const openRef = useRef<string | null>(null);
+  useEffect(() => {
+    openRef.current = openId;
+  }, [openId]);
   const mapSlot = useRef<HTMLDivElement>(null);
   const list = useRef<HTMLOListElement>(null);
 
@@ -93,6 +100,13 @@ export function EventStory({ events: unsorted, eventWorld, id, hasBorders, allPi
           id = item.dataset.eventId;
           break;
         }
+      }
+      // An opened event keeps the map for as long as a good part of it is still below the map: its panel can
+      // be taller than the screen, and the reader is still in it after its top has gone.
+      const opened = openRef.current && list.current?.querySelector<HTMLElement>(`[data-event-id="${CSS.escape(openRef.current)}"]`);
+      if (opened) {
+        const box = opened.getBoundingClientRect();
+        if (box.top < line && box.bottom > line + OPEN_KEEPS_MAP) id = openRef.current ?? id;
       }
       // At the foot of the page the last events can't scroll up to the map.
       const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;

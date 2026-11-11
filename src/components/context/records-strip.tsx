@@ -23,15 +23,19 @@ export async function RecordsStrip({
   return (
     <section className="flex flex-col gap-3">
       <SectionHeading>{t("records")}</SectionHeading>
-      <ul className="flex flex-col gap-2 text-sm">
+      <ul className="flex flex-col gap-3 text-sm">
         {holders.map(({ kind, holder }) => {
           const span = likelySpan(holder.period);
           return (
-            <li key={kind} className="flex flex-wrap items-baseline gap-x-1.5 gap-y-1">
-              <span className="text-muted-foreground">{t(kind)}</span>
-              <Link prefetch={false} href={`/c/${holder.id}`} className={cn(TEXT_LINK, "font-medium")}>
-                {localize(holder.name, locale)}
-              </Link>
+            <li key={kind} className="flex flex-col gap-0.5">
+              <span className="flex flex-wrap items-baseline gap-x-1.5">
+                <span className="text-muted-foreground">{t(kind)}</span>
+                <Link prefetch={false} href={`/c/${holder.id}`} className={cn(TEXT_LINK, "font-medium")}>
+                  {localize(holder.name, locale)}
+                </Link>
+              </span>
+              {/* The "Disputed" flag always sits beside the figure it qualifies, never alone on a line. */}
+              <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
               <span className="text-muted-foreground">
                 {kind === "longest" ? (
                   t("lasted", { count: roundYearsAgo(Math.round(span.duration)) })
@@ -45,6 +49,7 @@ export async function RecordsStrip({
               {holder.period.disputed && (
                 <DisputedBadge note={holder.period.note && localize(holder.period.note, locale)} />
               )}
+              </span>
             </li>
           );
         })}

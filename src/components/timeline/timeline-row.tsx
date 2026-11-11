@@ -25,7 +25,7 @@ export const REGION_COLOR: Record<Region, string> = {
 /** Wars on a country's timeline: apart from every region colour (globals.test.ts). */
 export const WAR_COLOR = "var(--war)";
 
-const BAR_INSET = 9;
+const BAR_INSET = 11;
 /** Event dots are small to keep bars readable; the hit area is finger-sized. */
 const MARKER_HIT_RADIUS = 11;
 
@@ -33,7 +33,7 @@ const MARKER_HIT_RADIUS = 11;
 export function RowHeader({ y, height, children }: { y: number; height: number; children: ReactNode }) {
   return (
     <p
-      className="absolute inset-x-0 flex items-center gap-1.5 text-xs font-semibold text-muted-foreground"
+      className="absolute inset-x-0 flex items-end gap-1.5 pb-1.5 text-xs font-semibold text-muted-foreground"
       style={{ top: y, height }}
     >
       {children}
@@ -78,12 +78,13 @@ export function RowLabel({
       href={href}
       title={name}
       // The hairline above each name (and across the chart, in TimelineChart) keeps a wrapped name with its own bar.
-      className="absolute inset-x-0 flex items-center gap-1.5 rounded-sm border-t border-border/70 text-sm underline-offset-2 hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+      // It reaches across the gap to the chart (-me-2), and has square corners, so the two lines meet.
+      className="absolute start-0 -end-2 flex items-center gap-1.5 border-t border-border/70 pe-2 text-sm underline-offset-2 hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
       style={{ top: y, height }}
     >
       {children}
-      {/* Two lines of 13px on a phone, where the column is narrow; one line of 14px where it is wide. */}
-      <span className={twoLines ? "line-clamp-2 text-[0.8125rem] leading-[0.9375rem] sm:text-sm sm:leading-4" : "truncate"}>{name}</span>
+      {/* Up to two 14px lines: the column is narrow on a phone. */}
+      <span className={twoLines ? "line-clamp-2 leading-4" : "truncate"}>{name}</span>
     </Link>
   );
 }

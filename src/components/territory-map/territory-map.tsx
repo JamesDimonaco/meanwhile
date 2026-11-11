@@ -8,6 +8,7 @@ import { YearText } from "@/components/settings/year-text";
 import { localize } from "@/lib/data/localize";
 import type { Borders, Geometry, Place } from "@/lib/data/schema";
 import { forD3, MAP_HEIGHT, MAP_WIDTH, mapExtent, mapProjection, snapshotAt } from "@/lib/map/geo";
+import { Button } from "@/components/ui/button";
 import { MapFrame } from "./map-frame";
 
 type GeoData = { land: Geometry; borders: Borders | null };
@@ -87,6 +88,7 @@ type Props = {
 export function TerritoryMap({ id, hasBorders, year, pin, pins = NO_PINS, nameSelf = false }: Props) {
   const t = useTranslations("map");
   const [data, setData] = useState<GeoData | "error" | null>(null);
+  const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
     let live = true;
@@ -97,9 +99,27 @@ export function TerritoryMap({ id, hasBorders, year, pin, pins = NO_PINS, nameSe
     return () => {
       live = false;
     };
-  }, [id, hasBorders]);
+  }, [id, hasBorders, attempt]);
 
-  if (data === "error") return <MapFrame problem>{t("unavailable")}</MapFrame>;
+  if (data === "error") {
+    return (
+      <MapFrame problem>
+        <span className="flex flex-col items-center gap-3">
+          {t("unavailable")}
+          <Button
+            type="button"
+            variant="outline"
+            onClick={() => {
+              setData(null);
+              setAttempt((n) => n + 1);
+            }}
+          >
+            {t("retry")}
+          </Button>
+        </span>
+      </MapFrame>
+    );
+  }
   if (!data) return <MapFrame />;
   return <MapSvg land={data.land} borders={data.borders} year={year} pin={pin} pins={pins} nameSelf={nameSelf} />;
 }
@@ -214,7 +234,9 @@ function MapSvg({
         {rivals.length > 0 && (
           <span className="flex items-baseline gap-1.5">
             <span aria-hidden className="size-2.5 shrink-0 rounded-full bg-muted-foreground/50" />
-            <span className="line-clamp-2 sm:line-clamp-1">{t("rivals", { names: names(rivals) })}</span>
+            <span className="line-clamp-2" title={t("rivals", { names: names(rivals) })}>
+              {t("rivals", { names: names(rivals) })}
+            </span>
           </span>
         )}
         {/* Full citations and the changes made are on the credits page. */}
