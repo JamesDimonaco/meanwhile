@@ -284,6 +284,11 @@ export function TimelineChart<T extends { id: string }, G extends string>({
                 </text>
               ))}
             </g>
+            <g stroke="var(--border)" strokeOpacity={0.7}>
+              {rows.map((row) =>
+                row.kind === "item" ? <line key={rowKey(row)} x1={0} x2={chartWidth} y1={row.y + TOP_SPACE} y2={row.y + TOP_SPACE} /> : null,
+              )}
+            </g>
             <g stroke="var(--border)">
               {ticks.map((tick) => (
                 <line key={tick} x1={xScale(tick)} x2={xScale(tick)} y1={TOP_SPACE} y2={svgHeight} />

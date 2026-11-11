@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useId, useRef, type ReactNode } from "react";
+import { useEffect, useId, useRef, useState, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import type { Region } from "@/lib/data/schema";
 import { RegionDot } from "@/components/identity/region-dot";
 import { Button } from "@/components/ui/button";
-import { EmptyState, FIELD_LABEL } from "@/components/ui/page";
+import { EmptyState, FIELD_LABEL, Note, TEXT_LINK, TOUCH_AREA } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { toggleRegion } from "./region-filter";
 import { saveRegionFilter, useRegionFilter } from "./use-region-filter";
@@ -34,6 +34,19 @@ export function ChipGroup({ label, children }: { label: string; children: ReactN
   const id = useId();
   const row = useRef<HTMLDivElement>(null);
   const lastPressed = useRef("");
+  const [more, setMore] = useState({ start: false, end: false });
+  const fadeEdges = () => {
+    const el = row.current;
+    if (!el) return;
+    // scrollLeft runs negative in a right-to-left row.
+    const scrolled = Math.abs(el.scrollLeft);
+    const next = { start: scrolled > 4, end: scrolled + el.clientWidth < el.scrollWidth - 4 };
+    setMore((now) => (now.start === next.start && now.end === next.end ? now : next));
+  };
+  const fade =
+    more.start || more.end
+      ? `linear-gradient(to right, ${more.start ? "transparent, black 2.5rem" : "black"}, ${more.end ? "black calc(100% - 3rem), transparent" : "black"})`
+      : undefined;
   // A saved choice can be a chip that starts off-screen on a phone: bring it into the row's view, so
   // it is plain that a filter is on. Only when the choice changes (typing in the search box re-renders
   // this too) and only when the chip is hidden, so a tap on a visible chip moves nothing.
@@ -49,16 +62,25 @@ export function ChipGroup({ label, children }: { label: string; children: ReactN
     const start = pressed.offsetLeft - el.offsetLeft;
     if (start < el.scrollLeft || start + pressed.offsetWidth > el.scrollLeft + el.clientWidth) el.scrollLeft = start - 16;
   });
+  // Which edges fade depends on the row's width, which a phone turned sideways changes.
+  useEffect(() => {
+    fadeEdges();
+    window.addEventListener("resize", fadeEdges);
+    return () => window.removeEventListener("resize", fadeEdges);
+  }, []);
   return (
     <div role="group" aria-labelledby={id} className="flex flex-col gap-2">
       <span id={id} className={FIELD_LABEL}>
         {label}
       </span>
       {/* Phones: one row that scrolls sideways to the screen's edges (the cut-off chip shows there is more),
-          so nine regions cost one row, not four; the row fades out at the edge it scrolls from. Wider screens wrap. */}
+          so nine regions cost one row, not four. Wider screens wrap. */}
       <div
         ref={row}
-        className="flex gap-2 max-sm:-mx-4 max-sm:overflow-x-auto max-sm:py-1 max-sm:ps-4 max-sm:pe-14 max-sm:[mask-image:linear-gradient(to_right,black_calc(100%-3.5rem),transparent)] max-sm:[scrollbar-width:none] sm:flex-wrap max-sm:[&::-webkit-scrollbar]:hidden"
+        onScroll={fadeEdges}
+        // The row fades at whichever edge has more chips beyond it.
+        style={{ maskImage: fade, WebkitMaskImage: fade }}
+        className="flex gap-2 max-sm:-mx-4 max-sm:overflow-x-auto max-sm:px-4 max-sm:py-1 max-sm:[scrollbar-width:none] sm:flex-wrap max-sm:[&::-webkit-scrollbar]:hidden"
       >
         {children}
       </div>
@@ -110,6 +132,22 @@ export function NoneInRegions({
   onShowAll?: () => void;
 }) {
   const t = useTranslations("common");
+  // "Some matches are hidden" sits under results or beside another empty list: a quiet note, so a page
+  // never shows two empty boxes with the same button.
+  if (message === "hiddenByFilter") {
+    return (
+      <Note className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
+        {t(message)}
+        <button
+          type="button"
+          onClick={onShowAll}
+          className={cn(TEXT_LINK, TOUCH_AREA, "inline-flex min-h-6 items-center font-medium")}
+        >
+          {t("showAllRegions")}
+        </button>
+      </Note>
+    );
+  }
   return (
     <EmptyState
       title={t(message)}

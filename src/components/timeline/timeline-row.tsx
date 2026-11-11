@@ -25,7 +25,7 @@ export const REGION_COLOR: Record<Region, string> = {
 /** Wars on a country's timeline: apart from every region colour (globals.test.ts). */
 export const WAR_COLOR = "var(--war)";
 
-const BAR_INSET = 7;
+const BAR_INSET = 9;
 /** Event dots are small to keep bars readable; the hit area is finger-sized. */
 const MARKER_HIT_RADIUS = 11;
 
@@ -77,7 +77,8 @@ export function RowLabel({
       prefetch={false}
       href={href}
       title={name}
-      className="absolute inset-x-0 flex items-center gap-1.5 rounded-sm text-sm underline-offset-2 hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+      // The hairline above each name (and across the chart, in TimelineChart) keeps a wrapped name with its own bar.
+      className="absolute inset-x-0 flex items-center gap-1.5 rounded-sm border-t border-border/70 text-sm underline-offset-2 hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
       style={{ top: y, height }}
     >
       {children}

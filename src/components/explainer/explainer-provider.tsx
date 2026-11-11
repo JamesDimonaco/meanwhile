@@ -101,6 +101,8 @@ export function ExplainerProvider({ children }: { children: ReactNode }) {
               <label className="flex min-h-11 items-center justify-between gap-3">
                 <span>{tCommon("showYearsAgo")}</span>
                 <Switch
+                  // Off must still read as a switch: 3:1 against the dialog.
+                  className="data-unchecked:bg-foreground/45"
                   checked={settings.showYearsAgo}
                   onCheckedChange={(checked) => updateSettings({ showYearsAgo: checked })}
                 />
@@ -115,11 +117,11 @@ export function ExplainerProvider({ children }: { children: ReactNode }) {
                   className="gap-0"
                 >
                   <label className="flex min-h-11 items-center gap-2">
-                    <RadioGroupItem value="ce" />
+                    <RadioGroupItem value="ce" className="border-foreground/60" />
                     {tCommon("eraStyleCe")}
                   </label>
                   <label className="flex min-h-11 items-center gap-2">
-                    <RadioGroupItem value="ad" />
+                    <RadioGroupItem value="ad" className="border-foreground/60" />
                     {tCommon("eraStyleAd")}
                   </label>
                 </RadioGroup>

@@ -63,6 +63,17 @@ export const CARD_LINK = cn(
 /** A card's name: the same size and weight whether or not it is the link. */
 export const CARD_TITLE = "text-base leading-snug font-semibold";
 
+/**
+ * A card with one main link and other links inside it (a war's countries, what overlapped): the main link
+ * (`CARD_MAIN_LINK`) is stretched over the card and the others sit above it, so the card looks and taps like the
+ * all-link cards without nesting links.
+ */
+export const CARD_WITH_LINKS = cn(
+  CARD,
+  "relative transition-colors hover:bg-muted has-[[data-card-link]:focus-visible]:ring-3 has-[[data-card-link]:focus-visible]:ring-ring/50 [&_a:not([data-card-link])]:relative [&_a:not([data-card-link])]:z-10 [&_button]:relative [&_button]:z-10",
+);
+export const CARD_MAIN_LINK = cn(CARD_TITLE, "self-start after:absolute after:inset-0 after:rounded-xl focus-visible:outline-none");
+
 export function Card({ as = "div", className, ...props }: ComponentProps<"div"> & { as?: "div" | "article" | "li" | "section" }) {
   // One prop type for every tag: none of them takes anything a div doesn't.
   const Tag = as as "div";

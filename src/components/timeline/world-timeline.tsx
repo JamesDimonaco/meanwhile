@@ -11,7 +11,7 @@ import { layoutRows, type TimelineCulture, type TimelineEvent } from "./timeline
 import { activeCultures, clampYear, computeYearDomain } from "./timeline-math";
 import { CultureLabel, CultureRow, REGION_COLOR, RegionHeaderLabel, TimelineLegend } from "./timeline-row";
 import { useYearParam } from "./use-year-param";
-import { ActiveCount, PANEL_ID, YearPanel, type SelectedEvent } from "./year-panel";
+import { ActiveCount, PANEL_ID, YearPanel, scrollBehavior, type SelectedEvent } from "./year-panel";
 
 /** Where the year line starts without ?year=: 1 CE has most regions alive at once. */
 const DEFAULT_YEAR = 1;
@@ -100,7 +100,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
 
   // The panel sits below every row; on a phone that's a screen or more away.
   useEffect(() => {
-    if (selected) panelRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (selected) panelRef.current?.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
   }, [selected]);
 
   return (

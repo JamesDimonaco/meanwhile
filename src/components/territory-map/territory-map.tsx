@@ -214,7 +214,7 @@ function MapSvg({
         {rivals.length > 0 && (
           <span className="flex items-baseline gap-1.5">
             <span aria-hidden className="size-2.5 shrink-0 rounded-full bg-muted-foreground/50" />
-            <span className="line-clamp-2">{t("rivals", { names: names(rivals) })}</span>
+            <span className="line-clamp-2 sm:line-clamp-1">{t("rivals", { names: names(rivals) })}</span>
           </span>
         )}
         {/* Full citations and the changes made are on the credits page. */}

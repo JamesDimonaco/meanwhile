@@ -39,7 +39,7 @@ export function HeartlandFlags({ cultureId, max }: { cultureId: string; max?: nu
   const countries = new Intl.ListFormat(locale, { type: "conjunction" }).format(codes.map((c) => countryName(c, locale)));
   const label = t("heartlandToday", { countries });
   return (
-    <span role="img" aria-label={label} title={label} className="inline-flex shrink-0 items-center gap-0.5">
+    <span role="img" aria-label={label} title={label} className="inline-flex shrink-0 items-center gap-0.5 align-[-0.05em]">
       {flags(codes, max).map((code) => (
         <CountryFlag key={code} code={code} />
       ))}

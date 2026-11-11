@@ -6,7 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { CultureRef, EventWorld } from "@/lib/data/queries";
 import type { Culture, CultureEvent, EventType, Source } from "@/lib/data/schema";
-import { YearText } from "@/components/settings/year-text";
+import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { CARD_TITLE, Disclosure, SectionHeading, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { DisputedBadge } from "./disputed-badge";
@@ -53,12 +53,10 @@ function EventItem({
             <Icon aria-hidden className="mt-0.5 size-4 shrink-0 text-muted-foreground" />
             <span className="flex flex-col gap-1">
               <span className="text-sm text-muted-foreground">
-                <YearText year={event.start} plain />
-                {event.end !== undefined && event.end !== event.start && (
-                  <>
-                    {" – "}
-                    <YearText year={event.end} plain />
-                  </>
+                {event.end === undefined || event.end === event.start ? (
+                  <YearText year={event.start} plain />
+                ) : (
+                  <YearRangeText start={event.start} end={event.end} plain />
                 )}
               </span>
               <span className={cn(CARD_TITLE, "flex flex-wrap items-center gap-1.5")}>

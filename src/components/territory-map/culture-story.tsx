@@ -14,8 +14,8 @@ import { CARD_TITLE, DISCLOSURE_CHEVRON, Pill, SectionHeading, TEXT_LINK } from 
 import { cn } from "@/lib/utils";
 import { MapFrame } from "./map-frame";
 
-/** How far below the sticky map an event's top must pass to take over the map. */
-const LINE_BELOW_MAP = 48;
+/** How far under the pinned map an event's top may slide before the next event takes over the map. */
+const TOP_TOLERANCE = 16;
 
 const TerritoryMap = dynamic(() => import("./territory-map").then((m) => m.TerritoryMap), {
   ssr: false,
@@ -76,22 +76,25 @@ export function EventStory({ events: unsorted, eventWorld, id, hasBorders, allPi
     return () => observer.disconnect();
   }, []);
 
-  // The event in view is the last one whose top has passed a line below the
-  // sticky map. Driven by scroll, not IntersectionObserver, so a tapped event
-  // opening its panel doesn't shift the next one across the line and steal the map.
+  // The event in view is the first one whose top is still clear of the pinned map, so the card the map
+  // describes always shows its date and title; once a card's top slides under the map, the next takes over.
+  // Driven by scroll, not IntersectionObserver, so a tapped event opening its panel doesn't hand the map on.
   useEffect(() => {
     const items = list.current?.querySelectorAll<HTMLElement>("[data-event-id]");
     if (!items) return;
     let frame = 0;
     const update = () => {
       frame = 0;
-      const line = (mapSlot.current?.getBoundingClientRect().bottom ?? 0) + LINE_BELOW_MAP;
-      let id = items[0].dataset.eventId;
+      const line = (mapSlot.current?.getBoundingClientRect().bottom ?? 0) - TOP_TOLERANCE;
+      // Past the last card's top there is nothing below to take over: the last one keeps the map.
+      let id = items[items.length - 1].dataset.eventId;
       for (const item of items) {
-        if (item.getBoundingClientRect().top > line) break;
-        id = item.dataset.eventId;
+        if (item.getBoundingClientRect().top >= line) {
+          id = item.dataset.eventId;
+          break;
+        }
       }
-      // At the foot of the page the last events can't scroll up to the line.
+      // At the foot of the page the last events can't scroll up to the map.
       const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
       if (atBottom) id = items[items.length - 1].dataset.eventId;
       if (id) setActiveId(id);
@@ -183,12 +186,14 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
         <span className="flex min-w-0 items-start gap-2.5">
           {Icon && <Icon aria-hidden className="mt-0.5 size-4 shrink-0 text-muted-foreground" />}
           <span className="flex min-w-0 flex-col gap-1">
-            <span className="text-sm text-muted-foreground">
-              {event.end === undefined ? <YearText year={event.start} plain /> : <YearRangeText start={event.start} end={event.end} plain />}
-            </span>
-            <span className={cn(CARD_TITLE, "flex flex-wrap items-center gap-1.5")}>
-              {localize(event.title, locale)}
-              {event.disputed && <Pill tone="warning">{tc("disputed")}</Pill>}
+            <span className="flex flex-col gap-1">
+              <span className="text-sm text-muted-foreground">
+                {event.end === undefined ? <YearText year={event.start} plain /> : <YearRangeText start={event.start} end={event.end} plain />}
+              </span>
+              <span className={cn(CARD_TITLE, "flex flex-wrap items-center gap-1.5")}>
+                {localize(event.title, locale)}
+                {event.disputed && <Pill tone="warning">{tc("disputed")}</Pill>}
+              </span>
             </span>
             {event.place && (
               <span className="flex items-center gap-1 text-sm text-muted-foreground">

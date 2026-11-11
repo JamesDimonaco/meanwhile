@@ -12,6 +12,10 @@ import { cn } from "@/lib/utils";
 /** The year panel's anchor: the pinned year bar links to it. One timeline per page. */
 export const PANEL_ID = "active-this-year";
 
+/** Smooth, unless the visitor asked their device for less motion. */
+export const scrollBehavior = (): ScrollBehavior =>
+  window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+
 /** "43 active this year: see the list", in the pinned bar: the list itself sits below every row. */
 export function ActiveCount({ count }: { count: number }) {
   const t = useTranslations("timeline");
@@ -22,7 +26,7 @@ export function ActiveCount({ count }: { count: number }) {
       type="button"
       onClick={() => {
         const panel = document.getElementById(PANEL_ID);
-        panel?.scrollIntoView({ behavior: "smooth", block: "start" });
+        panel?.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
         panel?.focus({ preventScroll: true });
       }}
       className={cn(TOUCH_AREA, "inline-flex min-h-6 items-center self-start rounded-sm text-start text-sm underline underline-offset-2 hover:decoration-2 focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none")}

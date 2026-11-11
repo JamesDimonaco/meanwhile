@@ -151,6 +151,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
               </div>
             )}
 
+            <div className="flex flex-col gap-2 empty:hidden">
             {!opening && phase.kind === "problem" && (
               // Every problem has the same way out: the search box does what a scan would have.
               <Link
@@ -161,7 +162,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                   // Already on the home page: the link goes nowhere, so put the cursor in the box.
                   requestAnimationFrame(() => document.getElementById(SEARCH_INPUT_ID)?.focus());
                 }}
-                className={buttonVariants({ variant: "default", className: "no-underline" })}
+                className={buttonVariants({ variant: "default" })}
               >
                 <Search aria-hidden />
                 {t("searchInstead")}
@@ -178,6 +179,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                 </Button>
               </>
             )}
+            </div>
 
             <p className="text-sm text-muted-foreground">{t("privacy")}</p>
           </DialogDescription>

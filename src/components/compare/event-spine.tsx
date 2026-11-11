@@ -148,7 +148,7 @@ function EventCard({
       className={`relative z-[1] flex flex-col gap-1 self-start rounded-xl border border-border bg-card p-3 transition-colors hover:bg-muted has-[button:focus-visible]:ring-3 has-[button:focus-visible]:ring-ring/50 ${towardSpine === "end" ? SLOTS[side].edgeEnd : SLOTS[side].edgeStart}`}
     >
       {/* The date is text, and the title's button covers the whole card (after:inset-0). */}
-      <div className="flex flex-wrap items-center gap-1 text-xs text-muted-foreground">
+      <div className="flex flex-wrap items-center gap-1 text-sm text-muted-foreground">
         <YearRangeText start={event.start} end={event.end ?? event.start} plain />
         {/* No note here: tapping the card opens it, and the note shows inside. */}
         {event.disputed && <DisputedBadge />}

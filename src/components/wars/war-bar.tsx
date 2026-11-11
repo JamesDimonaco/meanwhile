@@ -10,6 +10,8 @@ import { warOuter } from "@/lib/data/wars";
 
 const WIDTH = 1000;
 const HEIGHT = 12;
+/** Percent of the bar's width two phase numbers keep between them. */
+const MIN_NUMBER_GAP = 5;
 
 /** The war's dates as one bar, fading across uncertain edges, cut into its phases the way Rome's are. */
 export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"> }) {
@@ -30,6 +32,11 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
   const xScale = scaleLinear().domain([from, to + 1]).range([0, WIDTH]);
   const note = dated.note && localize(dated.note, locale);
   const phasesId = useId();
+  // Each number under the middle of its phase, pushed along when two short phases would print on top of each other.
+  const numberAt = phases.reduce<number[]>((at, phase) => {
+    const middle = (xScale((phase.start + phase.end) / 2) / WIDTH) * 100;
+    return [...at, Math.min(98, Math.max(middle, (at.at(-1) ?? -MIN_NUMBER_GAP) + MIN_NUMBER_GAP))];
+  }, []);
 
   return (
     <div className="flex flex-col gap-2">
@@ -49,11 +56,7 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
           {/* Each phase's number under its stretch of the bar, matching the list below. */}
           <div aria-hidden className="relative -mt-1 h-4 text-xs font-medium text-muted-foreground tabular-nums">
             {phases.map((phase, i) => (
-              <span
-                key={phase.id}
-                className="absolute -translate-x-1/2"
-                style={{ insetInlineStart: `${(xScale((phase.start + phase.end) / 2) / WIDTH) * 100}%` }}
-              >
+              <span key={phase.id} className="absolute -translate-x-1/2" style={{ insetInlineStart: `${numberAt[i]}%` }}>
                 {i + 1}
               </span>
             ))}

@@ -72,7 +72,8 @@ export function MeanwhileFilter({
                 key={id}
                 className={cn(CARD, "relative flex min-w-0 flex-col gap-1.5 transition-colors hover:bg-muted has-[a:focus-visible]:ring-3 has-[a:focus-visible]:ring-ring/50")}
               >
-                  <span className={`flex flex-wrap items-center gap-x-1.5 ${anchor ? "pe-24" : ""}`}>
+                  <span className={`flex flex-wrap items-baseline gap-x-1.5 ${anchor ? "pe-24" : ""}`}>
+                    <span>
                     <Link
                       prefetch={false}
                       href={`/c/${id}`}
@@ -81,12 +82,15 @@ export function MeanwhileFilter({
                     >
                       {card.name}
                     </Link>
+                    {/* A no-break space, so the flag wraps with the name's last word, never alone. */}
+                    {"\u00a0"}
+                    <HeartlandFlags cultureId={id} />
+                    </span>
                     {card.nativeName && (
                       <span lang={card.nativeName.lang} className="text-muted-foreground">
                         {card.nativeName.text}
                       </span>
                     )}
-                    <HeartlandFlags cultureId={id} />
                   </span>
                   <span className="text-sm text-muted-foreground">
                     <RegionDot region={card.region} /> {t(`regions.${card.region}`)}

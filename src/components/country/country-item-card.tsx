@@ -7,7 +7,7 @@ import type { Locale } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { itemBounds, itemId, type CountryItem } from "@/lib/data/country";
 import { localize } from "@/lib/data/localize";
-import { Card, CARD_TITLE, TEXT_LINK } from "@/components/ui/page";
+import { CARD_MAIN_LINK, CARD_WITH_LINKS, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { itemHref } from "./item-href";
 
@@ -67,15 +67,15 @@ export function CountryItemCard({
   }
   const bounds = itemBounds(item);
   return (
-    <Card as="article" className="flex flex-col gap-2">
+    <article className={cn(CARD_WITH_LINKS, "flex flex-col gap-2")}>
       {kind}
-      <Link prefetch={false} href={href(item)} className={cn(TEXT_LINK, CARD_TITLE, "self-start")}>
+      <Link prefetch={false} href={href(item)} data-card-link className={CARD_MAIN_LINK}>
         {name(item, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">
         <YearRangeText start={bounds.latestStart} end={bounds.earliestEnd} plain />
       </span>
       {sameTime}
-    </Card>
+    </article>
   );
 }

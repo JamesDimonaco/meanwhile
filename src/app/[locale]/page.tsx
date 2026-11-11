@@ -92,14 +92,18 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
                 href={`/c/${c.id}`}
                 className={cn(CARD_LINK, "flex h-full min-w-0 flex-col gap-1")}
               >
-                <span className="flex flex-wrap items-center gap-x-1.5">
-                  <span className={CARD_TITLE}>{localize(c.name, locale)}</span>
+                <span className="flex flex-wrap items-baseline gap-x-1.5">
+                  {/* A no-break space, so the flag wraps with the name's last word, never alone. */}
+                  <span className={CARD_TITLE}>
+                    {localize(c.name, locale)}
+                    {"\u00a0"}
+                    <HeartlandFlags cultureId={c.id} />
+                  </span>
                   {c.nativeName && (
                     <span lang={c.nativeName.lang} className="text-muted-foreground">
                       {c.nativeName.text}
                     </span>
                   )}
-                  <HeartlandFlags cultureId={c.id} />
                 </span>
                 <span className="text-sm text-muted-foreground">
                   <RegionDot region={c.region} /> {tCommon(`regions.${c.region}`)}

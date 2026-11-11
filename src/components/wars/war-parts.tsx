@@ -8,7 +8,7 @@ import { localize } from "@/lib/data/localize";
 import type { Side, SideMember, War } from "@/lib/data/war-schema";
 import { warSpan, type WarSpan } from "@/lib/data/wars";
 import { formatIsoDate } from "@/lib/years";
-import { Card, CARD_TITLE, TEXT_LINK } from "@/components/ui/page";
+import { CARD_MAIN_LINK, CARD_WITH_LINKS, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 
 /** Culture id -> its name in the page's language, for culture members. */
@@ -115,9 +115,9 @@ export function WarRow({
 }) {
   const locale = useLocale();
   return (
-    <Card as="article" className="flex flex-col gap-2">
+    <article className={cn(CARD_WITH_LINKS, "flex flex-col gap-2")}>
       {header}
-      <Link prefetch={false} href={`/war/${war.id}`} className={cn(TEXT_LINK, CARD_TITLE, "self-start")}>
+      <Link prefetch={false} href={`/war/${war.id}`} data-card-link className={CARD_MAIN_LINK}>
         {localize(war.name, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">
@@ -126,6 +126,6 @@ export function WarRow({
       <SideList sides={war.sides} cultureNames={cultureNames} here={here} />
       <p className="text-sm leading-relaxed text-foreground">{localize(war.outcome, locale)}</p>
       {children}
-    </Card>
+    </article>
   );
 }
