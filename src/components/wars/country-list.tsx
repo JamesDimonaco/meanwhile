@@ -95,7 +95,8 @@ export function CountryList({
         )}
 
         {shownCountries.length === 0 && shownWars.length === 0 ? (
-          <EmptyState title={t("noMatch", { query: q })}>{t("noMatchHint")}</EmptyState>
+          // Without a query nothing can be empty: the chips only offer continents that have a country.
+          q ? <EmptyState title={t("noMatch", { query: q })}>{t("noMatchHint")}</EmptyState> : null
         ) : (
           shownCountries.length > 0 && (
             <section className="flex flex-col gap-2">

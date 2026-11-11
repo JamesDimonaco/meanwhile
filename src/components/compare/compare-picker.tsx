@@ -74,7 +74,9 @@ export function ComparePicker({
       </label>
 
       {/* Only the "nothing found" box is announced: a live region round the list would read all of it on every key. */}
-      <div aria-live="polite" className="empty:hidden">
+      {/* Always in the page, so a screen reader is already listening when the box arrives; the negative
+          margin takes back the column's gap while it is empty. */}
+      <div aria-live="polite" className="empty:-mt-4">
         {trimmed && results.length === 0 && <EmptyState title={t("noResults", { query: trimmed })}>{t("noResultsHint")}</EmptyState>}
       </div>
       {!trimmed && results.length > 0 && (
