@@ -15,5 +15,6 @@
   "noMatch": "No match in {appName} yet. This is what the placard says:",
   "searchWith": "Search with this text",
   "seeOnTimeline": "See this date on the timeline",
-  "again": "Scan another"
+  "again": "Scan another",
+  "searchInstead": "Search instead"
 }

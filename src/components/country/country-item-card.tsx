@@ -7,7 +7,7 @@ import type { Locale } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 import { itemBounds, itemId, type CountryItem } from "@/lib/data/country";
 import { localize } from "@/lib/data/localize";
-import { Card, TEXT_LINK } from "@/components/ui/page";
+import { Card, CARD_TITLE, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { itemHref } from "./item-href";
 
@@ -69,7 +69,7 @@ export function CountryItemCard({
   return (
     <Card as="article" className="flex flex-col gap-2">
       {kind}
-      <Link prefetch={false} href={href(item)} className={cn(TEXT_LINK, "self-start text-base font-semibold")}>
+      <Link prefetch={false} href={href(item)} className={cn(TEXT_LINK, CARD_TITLE, "self-start")}>
         {name(item, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">

@@ -40,5 +40,11 @@
   "noneInRegions": "No hay nada aquí en las regiones elegidas.",
   "hiddenByFilter": "Algunos resultados están fuera de las regiones elegidas.",
   "close": "Cerrar",
-  "skipToContent": "Saltar al contenido"
+  "skipToContent": "Saltar al contenido",
+  "siteNav": "Sitio",
+  "notFound": {
+    "title": "Esta página no existe",
+    "body": "Puede que el enlace sea antiguo o esté mal escrito. Busca una civilización, una guerra, un país o un año.",
+    "home": "Ir a la búsqueda"
+  }
 }

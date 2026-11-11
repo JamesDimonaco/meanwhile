@@ -7,6 +7,7 @@ import { YearRangeText } from "@/components/settings/year-text";
 import { localize } from "@/lib/data/localize";
 import type { CompareCulture, CompareEvent } from "./compare-data";
 import { PAIR_WINDOW, buildSpine, isPaired, type Overlap } from "./compare-math";
+import { SectionHeading } from "@/components/ui/page";
 import { SLOTS } from "./slots";
 
 /** A jump this long between neighbouring rows gets a "N years later" marker on the spine. */
@@ -48,8 +49,8 @@ export function EventSpine({
         : null;
 
   return (
-    <section className="flex flex-col gap-2">
-      <h2 className="text-lg font-semibold tracking-tight">{t("yearByYear")}</h2>
+    <section className="flex flex-col gap-3">
+      <SectionHeading>{t("yearByYear")}</SectionHeading>
       <p className="text-sm text-muted-foreground">{t("tapHint", { years: PAIR_WINDOW })}</p>
 
       <div style={grid} className="sticky top-0 z-10 -mx-4 bg-background/95 px-4 py-2 backdrop-blur">
@@ -143,17 +144,19 @@ function EventCard({
   return (
     <div
       style={{ gridColumn: column, gridRow: 1 }}
-      className={`relative z-[1] self-start rounded-lg border border-border bg-card ${towardSpine === "end" ? SLOTS[side].edgeEnd : SLOTS[side].edgeStart}`}
+      // 12px padding, not the 16px of other cards: two of these share a phone's width with the spine between them.
+      className={`relative z-[1] flex flex-col gap-1 self-start rounded-xl border border-border bg-card p-3 transition-colors hover:bg-muted has-[button:focus-visible]:ring-3 has-[button:focus-visible]:ring-ring/50 ${towardSpine === "end" ? SLOTS[side].edgeEnd : SLOTS[side].edgeStart}`}
     >
-      {/* The date is its own button (the era explainer), so it sits outside the card's button. */}
-      <p className="flex flex-wrap items-center gap-1 px-2.5 pt-2 text-xs text-muted-foreground">
-        <YearRangeText start={event.start} end={event.end ?? event.start} />
+      {/* A div: the disputed note is a paragraph. The date is text and the title's button covers the whole
+          card (after:inset-0); the disputed flag sits above it, since it is a button of its own. */}
+      <div className="flex flex-wrap items-center gap-1 text-xs text-muted-foreground [&>button]:relative [&>button]:z-10">
+        <YearRangeText start={event.start} end={event.end ?? event.start} plain />
         {event.disputed && <DisputedBadge note={event.note && localize(event.note, locale)} />}
-      </p>
+      </div>
       <button
         type="button"
         onClick={onSelect}
-        className="block w-full rounded-b-lg px-2.5 pt-0.5 pb-2 text-start text-sm leading-snug font-medium hover:bg-muted/60 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none"
+        className="text-start text-sm leading-snug font-semibold after:absolute after:inset-0 after:rounded-xl focus-visible:outline-none"
       >
         {localize(event.title, locale)}
       </button>

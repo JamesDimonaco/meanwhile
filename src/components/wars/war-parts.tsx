@@ -8,7 +8,7 @@ import { localize } from "@/lib/data/localize";
 import type { Side, SideMember, War } from "@/lib/data/war-schema";
 import { warSpan, type WarSpan } from "@/lib/data/wars";
 import { formatIsoDate } from "@/lib/years";
-import { Card, TEXT_LINK } from "@/components/ui/page";
+import { Card, CARD_TITLE, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 
 /** Culture id -> its name in the page's language, for culture members. */
@@ -87,7 +87,7 @@ export function SideList({
     <div className="flex flex-col gap-1 text-sm text-muted-foreground">
       {sides.map((side, i) => (
         <div key={side.id} className="flex flex-col gap-1">
-          {i > 0 && <span className="text-sm italic">{t("against")}</span>}
+          {i > 0 && <span className="text-sm">{t("against")}</span>}
           <SideLine side={side} cultureNames={cultureNames} linkCultures={linkCultures} here={here} />
         </div>
       ))}
@@ -117,7 +117,7 @@ export function WarRow({
   return (
     <Card as="article" className="flex flex-col gap-2">
       {header}
-      <Link prefetch={false} href={`/war/${war.id}`} className={cn(TEXT_LINK, "self-start text-base font-semibold")}>
+      <Link prefetch={false} href={`/war/${war.id}`} className={cn(TEXT_LINK, CARD_TITLE, "self-start")}>
         {localize(war.name, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">

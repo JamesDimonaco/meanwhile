@@ -33,7 +33,7 @@ const MARKER_HIT_RADIUS = 11;
 export function RowHeader({ y, height, children }: { y: number; height: number; children: ReactNode }) {
   return (
     <p
-      className="absolute inset-x-0 flex items-center gap-1.5 text-xs font-medium text-muted-foreground"
+      className="absolute inset-x-0 flex items-center gap-1.5 text-xs font-semibold text-muted-foreground"
       style={{ top: y, height }}
     >
       {children}
@@ -77,12 +77,43 @@ export function RowLabel({
       prefetch={false}
       href={href}
       title={name}
-      className="absolute inset-x-0 flex items-center gap-1 text-xs hover:underline"
+      className="absolute inset-x-0 flex items-center gap-1.5 rounded-sm text-sm underline-offset-2 hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
       style={{ top: y, height }}
     >
       {children}
-      <span className={twoLines ? "line-clamp-2 leading-tight" : "truncate"}>{name}</span>
+      <span className={twoLines ? "line-clamp-2 text-xs leading-[1.2] sm:text-sm sm:leading-4" : "truncate"}>{name}</span>
     </Link>
+  );
+}
+
+/** What the marks on a timeline mean. `events`: the world timeline also draws a dot per key event. */
+export function TimelineLegend({ events = false }: { events?: boolean }) {
+  const t = useTranslations("timeline");
+  const item = "inline-flex items-center gap-1.5";
+  return (
+    <ul aria-label={t("legend")} className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
+      {events && (
+        <li className={item}>
+          <span aria-hidden className="size-2 rounded-full bg-foreground" />
+          {t("legendEvent")}
+        </li>
+      )}
+      <li className={item}>
+        <span aria-hidden className="h-2 w-6 rounded-sm bg-gradient-to-r from-foreground/0 via-foreground/60 to-foreground/0" />
+        {t("legendUncertain")}
+      </li>
+      <li className={item}>
+        <span aria-hidden className="h-2 w-6 rounded-sm border border-dashed border-amber-700" />
+        {t("legendDisputed")}
+      </li>
+      <li className={item}>
+        <span aria-hidden className="flex h-2 w-6 gap-px">
+          <span className="grow rounded-s-sm bg-foreground/60" />
+          <span className="grow rounded-e-sm bg-foreground/35" />
+        </span>
+        {t("legendPhases")}
+      </li>
+    </ul>
   );
 }
 
@@ -199,7 +230,7 @@ export function PeriodBar({
           y={0}
           width={Math.max(0, xScale(period.latestEnd) - xScale(period.earliestStart))}
           height={height}
-          className="fill-none stroke-amber-600 dark:stroke-amber-400"
+          className="fill-none stroke-amber-700"
           strokeDasharray="3 2"
           rx={2}
         />

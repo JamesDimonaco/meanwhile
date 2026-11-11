@@ -28,5 +28,8 @@
   "compareWith": "与……对比",
   "compareCard": "对比",
   "compareCardLabel": "将{a}与{b}对比",
-  "thirdHidden": "{name}已隐藏：第三个文明需要更宽的屏幕"
+  "thirdHidden": "{name}已隐藏：第三个文明需要更宽的屏幕",
+  "intro": "把两个文明并排比较：各自存在于何时、重叠了多久，以及两边逐年发生了什么。",
+  "unknown": "此链接中有 {count} 个文明无法识别，已略过。",
+  "suggestions": "或者从这些开始"
 }

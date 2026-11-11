@@ -19,7 +19,7 @@ import { regionsIn } from "@/components/filters/region-filter";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { ENGLISH_APP_NAME } from "@/i18n/app-name";
-import { CARD_LINK, Page, PageTitle, SectionHeading } from "@/components/ui/page";
+import { CARD_LINK, CARD_TITLE, Page, PageTitle, SectionHeading } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { jsonLd, openGraph, pageAlternates, websiteJsonLd } from "@/lib/seo";
 
@@ -92,7 +92,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
                 className={cn(CARD_LINK, "flex h-full min-w-0 flex-col gap-1")}
               >
                 <span className="flex flex-wrap items-center gap-x-1.5">
-                  <span className="font-medium">{localize(c.name, locale)}</span>
+                  <span className={CARD_TITLE}>{localize(c.name, locale)}</span>
                   {c.nativeName && (
                     <span lang={c.nativeName.lang} className="text-muted-foreground">
                       {c.nativeName.text}

@@ -4,7 +4,8 @@ import { getTranslations } from "next-intl/server";
 import { CompareView } from "@/components/compare/compare-view";
 import { toSearchEntry } from "@/components/search/search-index";
 import { pageLocale } from "@/i18n/page-locale";
-import { loadCultures } from "@/lib/data/load";
+import { loadCultures, loadPopular } from "@/lib/data/load";
+import { Page } from "@/components/ui/page";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/compare">): Promise<Metadata> {
   const locale = await pageLocale(params);
@@ -17,11 +18,11 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/compare"
 export default async function ComparePage({ params }: PageProps<"/[locale]/compare">) {
   await pageLocale(params);
   return (
-    <div className="mx-auto w-full max-w-4xl pt-4">
+    <Page width="wide" className="gap-0">
       {/* useSearchParams needs a Suspense boundary in a prerendered page. */}
       <Suspense>
-        <CompareView entries={loadCultures().map(toSearchEntry)} />
+        <CompareView entries={loadCultures().map(toSearchEntry)} suggested={loadPopular().map((c) => c.id)} />
       </Suspense>
-    </div>
+    </Page>
   );
 }

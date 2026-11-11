@@ -3,7 +3,7 @@
 import { useId, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Chip, ChipGroup } from "@/components/filters/region-chips";
-import { CARD_LINK, EmptyState, FIELD_LABEL, INPUT, SectionHeading } from "@/components/ui/page";
+import { CARD_LINK, CARD_TITLE, EmptyState, FIELD_LABEL, INPUT, SectionHeading } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { CountryFlag } from "@/components/identity/heartland-flags";
 import { search, searchIndex, type WarSearchEntry } from "@/components/search/search-index";
@@ -54,7 +54,6 @@ export function CountryList({
           onChange={(e) => setQuery(e.target.value)}
           placeholder={t("searchPlaceholder")}
           autoComplete="off"
-          enterKeyHint="search"
           className={INPUT}
         />
       </label>
@@ -82,7 +81,7 @@ export function CountryList({
                     href={`/war/${w.id}`}
                     className={cn(CARD_LINK, "flex flex-col gap-1")}
                   >
-                    <span className="font-medium">{w.name}</span>
+                    <span className={CARD_TITLE}>{w.name}</span>
                     <span className="text-sm text-muted-foreground">
                       <WarDates span={w.span} plain />
                     </span>
@@ -108,7 +107,7 @@ export function CountryList({
                       className={cn(CARD_LINK, "flex min-w-0 items-center gap-2")}
                     >
                       <CountryFlag code={c.code} />
-                      <span className="min-w-0 flex-1 truncate font-medium">{c.name}</span>
+                      <span className={cn(CARD_TITLE, "min-w-0 flex-1 truncate")}>{c.name}</span>
                       <span className="shrink-0 text-sm text-muted-foreground">{t("warCount", { count: c.count })}</span>
                     </Link>
                   </li>

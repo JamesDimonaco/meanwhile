@@ -14,5 +14,11 @@
     "invention": "Invención",
     "conflict": "Conflicto",
     "collapse": "Caída"
-  }
+  },
+  "activeCount": "{count, plural, =0 {Nada activo este año} one {# activa este año: ver la lista} other {# activas este año: ver la lista}}",
+  "legend": "Cómo leerlo",
+  "legendEvent": "Un hecho clave: tócalo",
+  "legendUncertain": "Extremos difuminados: fechas inciertas",
+  "legendDisputed": "Contorno discontinuo: fechas en disputa",
+  "legendPhases": "Tramos más claros: fases de una misma civilización"
 }

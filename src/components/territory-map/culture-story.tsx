@@ -10,6 +10,8 @@ import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import type { ActiveCulture } from "@/lib/data/queries";
 import type { CultureEvent } from "@/lib/data/schema";
+import { CARD_TITLE, Pill, SectionHeading, TEXT_LINK } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 import { MapFrame } from "./map-frame";
 
 /** How far below the sticky map an event's top must pass to take over the map. */
@@ -109,7 +111,9 @@ export function EventStory({ events: unsorted, eventWorld, id, hasBorders, allPi
   // events and flipping the map back and forth between two of them.
   return (
     <section className="flex flex-col gap-4 [overflow-anchor:none]">
-      <div ref={mapSlot} className="sticky top-0 z-10 bg-background py-2">
+      <div ref={mapSlot} className="sticky top-0 z-10 -mx-4 bg-background px-4 py-2">
+        {/* Narrower on a phone, so the sticky map leaves more than half the screen for the events under it. */}
+        <div className="mx-auto max-sm:max-w-[19rem]">
         {mapWanted ? (
           <TerritoryMap
             id={id}
@@ -122,6 +126,7 @@ export function EventStory({ events: unsorted, eventWorld, id, hasBorders, allPi
         ) : (
           <MapFrame />
         )}
+        </div>
       </div>
       <ol ref={list} className="flex flex-col gap-2 pb-[30vh]">
         {events.map((event) => (
@@ -159,10 +164,10 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
   return (
     <li
       data-event-id={event.id}
-      className={`rounded-lg border-s-4 bg-card transition-colors ${active ? "border-red-700 dark:border-red-400" : "border-transparent"}`}
+      className={`rounded-xl border border-s-4 bg-card transition-colors ${active ? "border-border border-s-red-700" : "border-border border-s-border"}`}
     >
       {/* The date sits outside the toggle: it is its own button (the explainer). */}
-      <p className="px-3 pt-3 text-sm text-muted-foreground">
+      <p className="px-4 pt-3 text-sm text-muted-foreground">
         {event.end === undefined ? <YearText year={event.start} /> : <YearRangeText start={event.start} end={event.end} />}
       </p>
       <button
@@ -170,26 +175,28 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
         onClick={onToggle}
         aria-expanded={open}
         aria-controls={panelId}
-        className="flex w-full flex-col items-start gap-0.5 px-3 pt-0.5 pb-3 text-start"
+        className="flex w-full flex-col items-start gap-1 rounded-b-xl px-4 pt-0.5 pb-4 text-start hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
       >
-        <span className="font-medium">{localize(event.title, locale)}</span>
+        <span className={CARD_TITLE}>{localize(event.title, locale)}</span>
         {event.place && (
           <span className="flex items-center gap-1 text-sm text-muted-foreground">
             <MapPin aria-hidden className="size-3.5" />
             {localize(event.place.name, locale)}
           </span>
         )}
-        {event.disputed && <span className="text-sm font-medium">{tc("disputed")}</span>}
+        {event.disputed && <Pill tone="warning">{tc("disputed")}</Pill>}
         {event.note && <span className="text-sm text-muted-foreground">{localize(event.note, locale)}</span>}
       </button>
       {open && (
-        <div id={panelId} className="flex flex-col gap-2 px-3 pb-3 text-sm">
-          <p className="font-medium">{t.rich("elsewhere", { year: () => <YearText year={event.start} /> })}</p>
+        <div id={panelId} className="flex flex-col gap-3 border-t border-border p-4 text-sm">
+          <SectionHeading as="h3" size="sub">
+            {t.rich("elsewhere", { year: () => <YearText year={event.start} plain /> })}
+          </SectionHeading>
           {world.length > 0 ? (
-            <ul className="flex flex-col gap-1">
+            <ul className="flex flex-col gap-1.5">
               {world.map(({ culture, certain }) => (
                 <li key={culture.id}>
-                  <Link prefetch={false} href={`/c/${culture.id}`} className="underline underline-offset-2">
+                  <Link prefetch={false} href={`/c/${culture.id}`} className={cn(TEXT_LINK, "inline-flex min-h-6 items-center font-medium")}>
                     {localize(culture.name, locale)}
                   </Link>
                   {culture.nativeName && <span lang={culture.nativeName.lang}> ({culture.nativeName.text})</span>}
@@ -208,7 +215,7 @@ function EventItem({ event, world, active, open, onToggle }: EventItemProps) {
           <Link
             prefetch={false}
             href={{ pathname: "/timeline", query: { year: String(event.start) } }}
-            className="underline underline-offset-2"
+            className={cn(TEXT_LINK, "inline-flex min-h-9 items-center self-start font-medium pointer-coarse:min-h-11")}
           >
             {t("onTimeline")}
           </Link>

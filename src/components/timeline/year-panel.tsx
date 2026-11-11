@@ -8,6 +8,23 @@ import { WarDates } from "@/components/wars/war-parts";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/page";
 
+/** The year panel's anchor: the pinned year bar links to it. One timeline per page. */
+export const PANEL_ID = "active-this-year";
+
+/** "43 active this year: see the list", in the pinned bar: the list itself sits below every row. */
+export function ActiveCount({ count, href }: { count: number; href: string }) {
+  const t = useTranslations("timeline");
+  if (count === 0) return <span className="text-sm text-muted-foreground">{t("activeCount", { count })}</span>;
+  return (
+    <a
+      href={href}
+      className="inline-flex min-h-6 items-center rounded-sm text-sm underline underline-offset-2 hover:decoration-2 focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+    >
+      {t("activeCount", { count })}
+    </a>
+  );
+}
+
 export type SelectedEvent = { culture: TimelineCulture; event: TimelineEvent };
 
 /** One thing alive at the year line: a culture, or a war on a country's page. */

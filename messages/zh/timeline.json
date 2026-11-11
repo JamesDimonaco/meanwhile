@@ -14,5 +14,11 @@
     "invention": "发明",
     "conflict": "冲突",
     "collapse": "衰亡"
-  }
+  },
+  "activeCount": "{count, plural, =0 {这一年没有记录} other {这一年有 # 个：查看列表}}",
+  "legend": "图例",
+  "legendEvent": "重要事件：点按查看",
+  "legendUncertain": "两端渐隐：年代不确定",
+  "legendDisputed": "虚线边框：年代有争议",
+  "legendPhases": "较浅的区段：同一文明的不同阶段"
 }

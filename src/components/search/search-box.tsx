@@ -1,6 +1,6 @@
 "use client";
 
-import { useId, useMemo, useState, type ReactNode } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
@@ -20,7 +20,8 @@ import { useRegionFilter } from "@/components/filters/use-region-filter";
 import { CountryFlag, HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { WarDates } from "@/components/wars/war-parts";
-import { CARD_LINK, EmptyState, FIELD_LABEL, INPUT, Pill } from "@/components/ui/page";
+import { SEARCH_INPUT_ID } from "./search-id";
+import { CARD_LINK, CARD_TITLE, EmptyState, FIELD_LABEL, INPUT, Pill } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 
 const MAX_RESULTS = 10;
@@ -55,7 +56,6 @@ export function SearchBox({
   const tCommon = useTranslations("common");
   const locale = useLocale();
   const [query, setQuery] = useState(initialQuery);
-  const listId = useId();
   const selection = useRegionFilter(regions);
 
   const index = useMemo(() => searchIndex({ locale, countries, cultures: entries, wars, allCountryPages: true }), [locale, countries, entries, wars]);
@@ -68,16 +68,15 @@ export function SearchBox({
 
   return (
     <div className="flex flex-col gap-4">
-      <label className="flex flex-col gap-1.5" htmlFor={`${listId}-input`}>
+      <label className="flex flex-col gap-1.5" htmlFor={SEARCH_INPUT_ID}>
         <span className={FIELD_LABEL}>{t("searchLabel")}</span>
         <input
-          id={`${listId}-input`}
+          id={SEARCH_INPUT_ID}
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder={t("searchPlaceholder")}
           autoComplete="off"
-          enterKeyHint="search"
           className={INPUT}
         />
       </label>
@@ -97,12 +96,12 @@ export function SearchBox({
                       kind={t("kind", { kind: "year" })}
                       details={<YearText year={hit.year} plain />}
                     >
-                      <span className="font-medium">{t("seeOnTimeline")}</span>
+                      <span className={CARD_TITLE}>{t("seeOnTimeline")}</span>
                     </ResultLink>
                   ) : hit.type === "country" ? (
                     <ResultLink href={`/country/${hit.entry.code.toLowerCase()}`} kind={t("kind", { kind: "country" })}>
                       <CountryFlag code={hit.entry.code} />
-                      <span className="font-medium">{hit.entry.name}</span>
+                      <span className={CARD_TITLE}>{hit.entry.name}</span>
                     </ResultLink>
                   ) : hit.type === "culture" ? (
                     <ResultLink
@@ -116,7 +115,7 @@ export function SearchBox({
                         </>
                       }
                     >
-                      <span className="font-medium">{localize(hit.entry.name, locale)}</span>
+                      <span className={CARD_TITLE}>{localize(hit.entry.name, locale)}</span>
                       {/* One flex item, so a wrapping row never leaves the flag on a line of its own. */}
                       <span className="inline-flex min-w-0 items-center gap-x-1.5">
                         {hit.entry.nativeName && (
@@ -129,7 +128,7 @@ export function SearchBox({
                     </ResultLink>
                   ) : (
                     <ResultLink href={`/war/${hit.entry.id}`} kind={t("kind", { kind: "war" })} details={<WarDates span={hit.entry.span} plain />}>
-                      <span className="font-medium">{hit.entry.name}</span>
+                      <span className={CARD_TITLE}>{hit.entry.name}</span>
                     </ResultLink>
                   )}
                 </li>

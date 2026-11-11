@@ -14,7 +14,7 @@ import { useRegionFilter } from "@/components/filters/use-region-filter";
 import { HeartlandFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { YearRangeText } from "@/components/settings/year-text";
-import { CARD, Pill } from "@/components/ui/page";
+import { CARD, CARD_TITLE, Pill } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 
 /** What one card shows, already in the page's language. */
@@ -77,7 +77,7 @@ export function MeanwhileFilter({
                       prefetch={false}
                       href={`/c/${id}`}
                       aria-label={tMeanwhile("reanchor", { name: card.name })}
-                      className="font-medium text-foreground after:absolute after:inset-0 after:rounded-xl focus-visible:outline-none"
+                      className={cn(CARD_TITLE, "after:absolute after:inset-0 after:rounded-xl focus-visible:outline-none")}
                     >
                       {card.name}
                     </Link>

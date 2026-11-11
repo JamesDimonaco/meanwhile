@@ -28,5 +28,8 @@
   "compareWith": "Comparar con…",
   "compareCard": "Comparar",
   "compareCardLabel": "Comparar {a} con {b}",
-  "thirdHidden": "{name} está oculta: una tercera cultura necesita una pantalla más ancha"
+  "thirdHidden": "{name} está oculta: una tercera cultura necesita una pantalla más ancha",
+  "intro": "Pon dos civilizaciones lado a lado: cuándo existió cada una, cuánto coincidieron y qué pasaba en ambas, año por año.",
+  "unknown": "{count, plural, one {No se reconoció una cultura de este enlace, así que se omitió.} other {No se reconocieron # culturas de este enlace, así que se omitieron.}}",
+  "suggestions": "O empieza por una de estas"
 }

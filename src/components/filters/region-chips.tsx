@@ -18,7 +18,7 @@ export function Chip({ pressed, onClick, children }: { pressed: boolean; onClick
       aria-pressed={pressed}
       onClick={onClick}
       className={cn(
-        "inline-flex h-9 items-center gap-1.5 rounded-full border px-3.5 text-sm font-medium whitespace-nowrap transition-colors focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none pointer-coarse:h-11",
+        "inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full border px-3.5 text-sm font-medium whitespace-nowrap transition-colors focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none pointer-coarse:h-11",
         pressed
           ? "border-foreground bg-foreground text-background"
           : "border-border text-foreground hover:bg-muted",
@@ -37,7 +37,11 @@ export function ChipGroup({ label, children }: { label: string; children: ReactN
       <span id={id} className={FIELD_LABEL}>
         {label}
       </span>
-      <div className="flex flex-wrap gap-2">{children}</div>
+      {/* Phones: one row that scrolls sideways to the screen's edges (the cut-off chip shows there is more),
+          so nine regions cost one row, not four. Wider screens wrap. */}
+      <div className="flex gap-2 max-sm:-mx-4 max-sm:snap-x max-sm:overflow-x-auto max-sm:scroll-px-4 max-sm:px-4 max-sm:py-1 max-sm:[scrollbar-width:none] sm:flex-wrap max-sm:[&::-webkit-scrollbar]:hidden max-sm:[&>*]:snap-start">
+        {children}
+      </div>
     </div>
   );
 }

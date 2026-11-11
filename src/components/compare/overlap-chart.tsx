@@ -16,8 +16,8 @@ import { SLOTS } from "./slots";
 
 const BAR_HEIGHT = 12;
 const ROW_GAP = 8;
-const AXIS_HEIGHT = 18;
-const LABEL_FONT_PX = 10;
+const AXIS_HEIGHT = 22;
+const LABEL_FONT_PX = 12;
 /** Keeps the earliest and latest edges off the chart's sides. */
 const DOMAIN_PADDING = 0.03;
 
@@ -82,7 +82,7 @@ export function OverlapChart({ cultures, overlap }: { cultures: CompareCulture[]
     <section className="flex flex-col gap-3">
       <p className="text-lg leading-snug font-semibold">{sentence}</p>
 
-      <ul className="flex flex-col gap-1 text-sm">
+      <ul className="flex flex-col gap-1.5 text-sm">
         {cultures.map((c, i) => (
           <li key={c.id} className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
             <span aria-hidden className={`size-2.5 shrink-0 rounded-full ${SLOTS[i].bg}`} />

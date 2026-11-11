@@ -5,6 +5,9 @@ import { LOCALES } from "./src/i18n/locales";
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
+  // The 404 for a URL no page matches (src/app/global-not-found.tsx). The app has two root layouts, so there is
+  // no single layout an ordinary not-found page could render in.
+  experimental: { globalNotFound: true },
   // Kept from the static-export days: every URL ends in a slash.
   trailingSlash: true,
   // The scan route reads the culture files at request time (files.ts); named

@@ -59,6 +59,9 @@ export const CARD_LINK = cn(
   "transition-colors hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none",
 );
 
+/** A card's name: the same size and weight whether or not it is the link. */
+export const CARD_TITLE = "text-base leading-snug font-semibold";
+
 export function Card({ as = "div", className, ...props }: ComponentProps<"div"> & { as?: "div" | "article" | "li" | "section" }) {
   // One prop type for every tag: none of them takes anything a div doesn't.
   const Tag = as as "div";
@@ -102,6 +105,11 @@ export function ErrorNote({ className, ...props }: ComponentProps<"p">) {
       {...props}
     />
   );
+}
+
+/** Something the visitor should know that isn't their mistake: a link that was trimmed, a page still loading. */
+export function Note({ className, ...props }: ComponentProps<"p">) {
+  return <p role="status" className={cn("rounded-lg border border-border bg-muted px-3 py-2.5 text-sm text-foreground", className)} {...props} />;
 }
 
 /** The one text field. */

@@ -26,7 +26,7 @@ export function CountryLink({ code, here }: { code: string; here?: string }) {
   );
   if (!isListableCountry(code) || code === here) return <span className="inline-flex items-center gap-1">{content}</span>;
   return (
-    <Link prefetch={false} href={`/country/${code.toLowerCase()}`} className={cn(TEXT_LINK, "inline-flex items-center gap-1")}>
+    <Link prefetch={false} href={`/country/${code.toLowerCase()}`} className={cn(TEXT_LINK, "inline-flex min-h-6 items-center gap-1")}>
       {content}
     </Link>
   );

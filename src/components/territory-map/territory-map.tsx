@@ -99,8 +99,8 @@ export function TerritoryMap({ id, hasBorders, year, pin, pins = NO_PINS, nameSe
     };
   }, [id, hasBorders]);
 
-  if (data === "error") return <MapFrame>{t("unavailable")}</MapFrame>;
-  if (!data) return <MapFrame>{t("loading")}</MapFrame>;
+  if (data === "error") return <MapFrame problem>{t("unavailable")}</MapFrame>;
+  if (!data) return <MapFrame />;
   return <MapSvg land={data.land} borders={data.borders} year={year} pin={pin} pins={pins} nameSelf={nameSelf} />;
 }
 
@@ -158,7 +158,7 @@ function MapSvg({
     <figure className="flex flex-col gap-1">
       <svg
         viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`}
-        className="w-full rounded-lg bg-muted"
+        className="w-full rounded-xl bg-muted"
         role="img"
         aria-label={t("title")}
       >
@@ -197,28 +197,28 @@ function MapSvg({
           </g>
         )}
       </svg>
-      <figcaption className="flex flex-col gap-0.5 text-xs text-muted-foreground">
+      <figcaption className="flex flex-col gap-0.5 text-sm text-muted-foreground">
         {borders && (
           <span className="text-sm text-foreground">
             {snapshot
-              ? t.rich("bordersAround", { year: () => <YearText year={snapshot.year} /> })
-              : t.rich("beforeBorders", { year: () => <YearText year={borders.snapshots[0].year} /> })}
+              ? t.rich("bordersAround", { year: () => <YearText year={snapshot.year} plain /> })
+              : t.rich("beforeBorders", { year: () => <YearText year={borders.snapshots[0].year} plain /> })}
           </span>
         )}
         {nameSelf && selves.length > 0 && (
           <span className="flex items-center gap-1.5">
-            <span aria-hidden className="size-2.5 rounded-full bg-red-700/60 dark:bg-red-400/60" />
+            <span aria-hidden className="size-2.5 shrink-0 rounded-full bg-red-700/60" />
             {names(selves)}
           </span>
         )}
         {rivals.length > 0 && (
-          <span className="flex items-center gap-1.5">
-            <span aria-hidden className="size-2.5 rounded-full bg-muted-foreground/50" />
+          <span className="flex items-baseline gap-1.5">
+            <span aria-hidden className="size-2.5 shrink-0 rounded-full bg-muted-foreground/50" />
             {t("rivals", { names: names(rivals) })}
           </span>
         )}
         {/* Full citations and the changes made are on the credits page. */}
-        <Link prefetch={false} href="/credits" className="underline-offset-2 hover:underline">
+        <Link prefetch={false} href="/credits" className="self-start text-xs underline underline-offset-2">
           {borders ? t("credit") : t("landCredit")}
         </Link>
       </figcaption>

@@ -1,9 +1,10 @@
 "use client";
 
 import { useRef, useState, useTransition, type Ref } from "react";
-import { Camera, LoaderCircle } from "lucide-react";
+import { Camera, LoaderCircle, Search } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { SEARCH_INPUT_ID } from "@/components/search/search-id";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { YearRangeText } from "@/components/settings/year-text";
 import { Link, useRouter } from "@/i18n/navigation";
@@ -86,7 +87,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
       <PhotoInput ref={input} onPhoto={scan} />
 
       {variant === "header" ? (
-        <Button type="button" variant="ghost" size="icon-sm" onClick={() => input.current?.click()} aria-label={t("buttonShort")}>
+        <Button type="button" variant="ghost" size="icon" onClick={() => input.current?.click()} aria-label={t("buttonShort")}>
           <Camera />
         </Button>
       ) : (
@@ -146,6 +147,23 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                   </Link>
                 )}
               </div>
+            )}
+
+            {!opening && phase.kind === "problem" && (
+              // Every problem has the same way out: the search box does what a scan would have.
+              <Link
+                prefetch={false}
+                href="/"
+                onClick={() => {
+                  close();
+                  // Already on the home page: the link goes nowhere, so put the cursor in the box.
+                  requestAnimationFrame(() => document.getElementById(SEARCH_INPUT_ID)?.focus());
+                }}
+                className={buttonVariants({ variant: "default" })}
+              >
+                <Search aria-hidden />
+                {t("searchInstead")}
+              </Link>
             )}
 
             {!busy && (

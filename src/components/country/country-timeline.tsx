@@ -6,10 +6,10 @@ import type { ScaleLinear } from "d3-scale";
 import { TimelineChart } from "@/components/timeline/timeline-chart";
 import { layoutCountryRows, type TimelineBar } from "@/components/timeline/timeline-layout";
 import { MIN_BAR_WIDTH, activeBars, atLeast, computeYearDomain, padDomain, snapToBar } from "@/components/timeline/timeline-math";
-import { PeriodBar, REGION_COLOR, RowHeader, RowLabel, WAR_COLOR } from "@/components/timeline/timeline-row";
+import { PeriodBar, REGION_COLOR, RowHeader, RowLabel, TimelineLegend, WAR_COLOR } from "@/components/timeline/timeline-row";
 import { useYearParam } from "@/components/timeline/use-year-param";
 import { itemHref } from "./item-href";
-import { YearPanel } from "@/components/timeline/year-panel";
+import { ActiveCount, PANEL_ID, YearPanel } from "@/components/timeline/year-panel";
 
 const BAR_INSET = 8;
 
@@ -75,7 +75,10 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
         }
         bars={(row, xScale) => <BarRow bar={row.item} y={row.y} height={row.height} xScale={xScale} />}
         snap={(bar, year, xScale) => snapToBar(year, bar.period, xScale)}
+        summary={<ActiveCount count={activeBars(bars, year).length} href={`#${PANEL_ID}`} />}
+        legend={<TimelineLegend />}
       />
+      <div id={PANEL_ID} className="scroll-mt-20">
       <YearPanel
         year={year}
         entries={activeBars(bars, year).map(({ bar, certain }) => ({
@@ -87,6 +90,7 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
           color: barColor(bar),
         }))}
       />
+      </div>
     </div>
   );
 }

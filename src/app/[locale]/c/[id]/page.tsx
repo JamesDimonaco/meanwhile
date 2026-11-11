@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { BeforeAfter } from "@/components/context/before-after";
 import { ChevronDown, Columns2 } from "lucide-react";
 import { BackLink } from "@/components/ui/back-link";
-import { Page, PageTitle, SectionHeading } from "@/components/ui/page";
+import { Page, PageTitle, Section, SectionHeading } from "@/components/ui/page";
 import { compareHref } from "@/components/compare/compare-href";
 import { CultureEvents } from "@/components/culture/culture-events";
 import { PeriodRange } from "@/components/culture/period-range";
@@ -134,7 +134,9 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
         />
       </section>
 
-      <p className="text-base leading-relaxed">{localize(culture.description, locale)}</p>
+      <Section title={tCulture("about")}>
+        <p className="text-base leading-relaxed">{localize(culture.description, locale)}</p>
+      </Section>
 
       {alive.length > 0 && (
         // Unfiltered: the region chips narrow the cards above, but this is the full list, rendered on the
@@ -142,7 +144,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
         <details className="group rounded-xl border border-border bg-card">
           <summary className="flex cursor-pointer list-none items-center justify-between gap-3 rounded-xl p-4 hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none group-open:rounded-b-none [&::-webkit-details-marker]:hidden">
             <span className="flex flex-col gap-0.5">
-              <SectionHeading size="sub">{t("alsoAlive")}</SectionHeading>
+              <span className="text-sm leading-snug font-semibold">{t("alsoAlive")}</span>
               <span className="text-sm text-muted-foreground">{t("alsoAliveCount", { count: alive.length })}</span>
             </span>
             <ChevronDown aria-hidden className="size-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />

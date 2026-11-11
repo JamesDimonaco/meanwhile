@@ -74,7 +74,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             </header>
             <main id="main" tabIndex={-1} className="flex-1 px-4 pb-12 focus:outline-none">{children}</main>
             <footer className="border-t border-border px-2 py-2 text-sm">
-              <nav aria-label={t("appName")} className="flex flex-wrap justify-center gap-x-2">
+              <nav aria-label={t("siteNav")} className="flex flex-wrap justify-center gap-x-2">
                 <Link href="/" prefetch={false} className={FOOTER_LINK}>
                   {t("nav.home")}
                 </Link>

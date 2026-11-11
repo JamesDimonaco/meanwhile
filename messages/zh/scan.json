@@ -15,5 +15,6 @@
   "noMatch": "“{appName}”中暂无匹配内容。说明牌上的文字是：",
   "searchWith": "用这段文字搜索",
   "seeOnTimeline": "在时间线上查看这个年代",
-  "again": "再扫一张"
+  "again": "再扫一张",
+  "searchInstead": "改用搜索"
 }

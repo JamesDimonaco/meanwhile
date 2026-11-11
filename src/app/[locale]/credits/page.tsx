@@ -4,7 +4,7 @@ import { pageLocale } from "@/i18n/page-locale";
 import { hasTerritoryMap, loadBorders, loadCultures, loadSuccession, loadWars } from "@/lib/data/load";
 import type { Locale } from "@/i18n/locales";
 import type { Source } from "@/lib/data/schema";
-import { Card, Page, PageIntro, PageTitle, Pill, SectionHeading, TEXT_LINK } from "@/components/ui/page";
+import { Card, CARD_TITLE, Page, PageIntro, PageTitle, Pill, SectionHeading, TEXT_LINK } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { datasetJsonLd, jsonLd, openGraph, pageAlternates } from "@/lib/seo";
 
@@ -93,7 +93,7 @@ export default async function CreditsPage({ params }: PageProps<"/[locale]/credi
         {SOURCE_KEYS.map((key) => (
           <Card as="li" key={key} className="flex flex-col gap-2">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <SectionHeading size="sub" className="text-base">
+              <SectionHeading className={CARD_TITLE}>
                 {t(`sources.${key}.name`)}
               </SectionHeading>
               <Pill>{t(`sources.${key}.licence`)}</Pill>
