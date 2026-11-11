@@ -2,7 +2,9 @@
 
 import { useId, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { Chip } from "@/components/filters/region-chips";
+import { Chip, ChipGroup } from "@/components/filters/region-chips";
+import { CARD_LINK, CARD_TITLE, EmptyState, FIELD_LABEL, INPUT, keepResultsAboveKeyboard, SectionHeading } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 import { CountryFlag } from "@/components/identity/heartland-flags";
 import { search, searchIndex, type WarSearchEntry } from "@/components/search/search-index";
 import { Link } from "@/i18n/navigation";
@@ -43,20 +45,22 @@ export function CountryList({
 
   return (
     <div className="flex flex-col gap-4">
-      <label className="flex flex-col gap-1.5" htmlFor={`${id}-input`}>
-        <span className="text-sm font-medium text-muted-foreground">{t("searchLabel")}</span>
+      <label className="flex scroll-mt-3 flex-col gap-1.5" htmlFor={`${id}-input`}>
+        <span className={FIELD_LABEL}>{t("searchLabel")}</span>
         <input
           id={`${id}-input`}
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          onFocus={(e) => keepResultsAboveKeyboard(e.currentTarget)}
           placeholder={t("searchPlaceholder")}
           autoComplete="off"
-          className="rounded-lg border border-border bg-background px-4 py-3 text-base focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+          enterKeyHint="search"
+          className={INPUT}
         />
       </label>
 
-      <div role="group" aria-label={t("continentFilter")} className="flex flex-wrap gap-1.5">
+      <ChipGroup label={t("continentFilter")}>
         <Chip pressed={picked.length === 0} onClick={() => setPicked([])}>
           {t("allContinents")}
         </Chip>
@@ -65,21 +69,21 @@ export function CountryList({
             {t(`continents.${c}`)}
           </Chip>
         ))}
-      </div>
+      </ChipGroup>
 
       <div aria-live="polite" className="flex flex-col gap-4">
         {shownWars.length > 0 && (
           <section className="flex flex-col gap-2">
-            <h2 className="text-sm font-medium text-muted-foreground">{t("matchingWars")}</h2>
-            <ul className="flex flex-col gap-1.5">
+            <SectionHeading>{t("matchingWars")}</SectionHeading>
+            <ul className="flex flex-col gap-2">
               {shownWars.map((w) => (
                 <li key={w.id}>
                   <Link
                     prefetch={false}
                     href={`/war/${w.id}`}
-                    className="flex flex-col gap-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted"
+                    className={cn(CARD_LINK, "flex flex-col gap-1")}
                   >
-                    <span className="font-medium">{w.name}</span>
+                    <span className={CARD_TITLE}>{w.name}</span>
                     <span className="text-sm text-muted-foreground">
                       <WarDates span={w.span} />
                     </span>
@@ -91,21 +95,22 @@ export function CountryList({
         )}
 
         {shownCountries.length === 0 && shownWars.length === 0 ? (
-          <p className="px-1 text-sm text-muted-foreground">{t("noMatch", { query: q })}</p>
+          // Without a query nothing can be empty: the chips only offer continents that have a country.
+          q ? <EmptyState title={t("noMatch", { query: q })}>{t("noMatchHint")}</EmptyState> : null
         ) : (
           shownCountries.length > 0 && (
             <section className="flex flex-col gap-2">
-              {q && <h2 className="text-sm font-medium text-muted-foreground">{t("countries")}</h2>}
-              <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+              {q && <SectionHeading>{t("countries")}</SectionHeading>}
+              <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 {shownCountries.map((c) => (
                   <li key={c.code}>
                     <Link
                       prefetch={false}
                       href={`/country/${c.code.toLowerCase()}`}
-                      className="flex min-w-0 items-center gap-2 rounded-lg border border-border px-4 py-3 hover:bg-muted"
+                      className={cn(CARD_LINK, "flex min-w-0 items-center gap-2")}
                     >
                       <CountryFlag code={c.code} />
-                      <span className="min-w-0 flex-1 truncate font-medium">{c.name}</span>
+                      <span className={cn(CARD_TITLE, "min-w-0 flex-1 truncate")}>{c.name}</span>
                       <span className="shrink-0 text-sm text-muted-foreground">{t("warCount", { count: c.count })}</span>
                     </Link>
                   </li>

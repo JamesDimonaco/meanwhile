@@ -9,9 +9,10 @@ import type { Region } from "@/lib/data/schema";
 import { TimelineChart, usePrerendered } from "./timeline-chart";
 import { layoutRows, type TimelineCulture, type TimelineEvent } from "./timeline-layout";
 import { activeCultures, clampYear, computeYearDomain } from "./timeline-math";
-import { CultureLabel, CultureRow, REGION_COLOR, RegionHeaderLabel } from "./timeline-row";
+import { CultureLabel, CultureRow, REGION_COLOR, RegionHeaderLabel, TimelineLegend } from "./timeline-row";
 import { useYearParam } from "./use-year-param";
-import { YearPanel, type SelectedEvent } from "./year-panel";
+import { scrollBehavior } from "@/components/ui/page";
+import { ActiveCount, PANEL_ID, YearPanel, type SelectedEvent } from "./year-panel";
 
 /** Where the year line starts without ?year=: 1 CE has most regions alive at once. */
 const DEFAULT_YEAR = 1;
@@ -100,7 +101,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
 
   // The panel sits below every row; on a phone that's a screen or more away.
   useEffect(() => {
-    if (selected) panelRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (selected) panelRef.current?.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
   }, [selected]);
 
   return (
@@ -115,6 +116,8 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
           onYear={moveYear}
           query={query}
           controls={<RegionChips available={available} selection={regions} onChange={changeRegions} />}
+          summary={hiddenByFilter ? null : <ActiveCount count={active.filter((a) => a.culture.id !== selected?.culture.id).length} />}
+          legend={<TimelineLegend events />}
           label={(row, top) =>
             row.kind === "header" ? (
               <RegionHeaderLabel region={row.group} y={top} height={row.height} />
@@ -134,7 +137,7 @@ export function WorldTimeline({ cultures }: { cultures: TimelineCulture[] }) {
           )}
         />
 
-        <div ref={panelRef} className="scroll-mt-20">
+        <div ref={panelRef} id={PANEL_ID} tabIndex={-1} className="scroll-mt-24 rounded-xl focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none">
           <YearPanel
             year={year}
             entries={active.map(({ culture, certain }) => ({

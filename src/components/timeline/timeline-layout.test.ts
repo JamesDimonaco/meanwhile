@@ -142,6 +142,13 @@ describe("layoutCountryRows", () => {
   // Every row is a tap target that opens a page: smaller than a fingertip and taps land on the wrong row.
   it("gives each bar a finger-sized row", () => {
     expect(BAR_ROW_HEIGHT).toBeGreaterThanOrEqual(32);
+    // Each world-timeline row is a link: 24px is the smallest target WCAG 2.2 allows.
+    expect(CULTURE_ROW_HEIGHT).toBeGreaterThanOrEqual(24);
+    // A name can take two 16px lines on a phone (RowLabel): rows leave air round them, on both timelines.
+    expect(CULTURE_ROW_HEIGHT).toBeGreaterThanOrEqual(40);
+    // A group header keeps clear of the two-line name above it.
+    expect(HEADER_ROW_HEIGHT).toBeGreaterThanOrEqual(32);
+    expect(BAR_ROW_HEIGHT).toBe(CULTURE_ROW_HEIGHT);
   });
 });
 

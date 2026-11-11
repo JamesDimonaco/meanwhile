@@ -15,5 +15,6 @@
   "noMatch": "Todavía no hay coincidencias en {appName}. Esto es lo que dice la cartela:",
   "searchWith": "Buscar con este texto",
   "seeOnTimeline": "Ver esta fecha en la línea de tiempo",
-  "again": "Escanear otra"
+  "again": "Escanear otra",
+  "searchInstead": "Buscar en su lugar"
 }

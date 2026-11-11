@@ -8,7 +8,11 @@
     "credits": "Sources and credits"
   },
   "language": "Language",
-  "languageShort": { "en": "EN", "es": "ES", "zh": "中文" },
+  "languageShort": {
+    "en": "EN",
+    "es": "ES",
+    "zh": "中文"
+  },
   "explainerTrigger": "What do BCE and CE mean?",
   "disputed": "Disputed",
   "machineTranslated": "Machine-translated, not yet checked by a native speaker.",
@@ -34,5 +38,13 @@
   "allRegions": "All",
   "showAllRegions": "Show all regions",
   "noneInRegions": "Nothing here in the regions you picked.",
-  "hiddenByFilter": "Some matches are outside the regions you picked."
+  "hiddenByFilter": "Some matches are outside the regions you picked.",
+  "close": "Close",
+  "skipToContent": "Skip to content",
+  "siteNav": "Site",
+  "notFound": {
+    "title": "This page isn't here",
+    "body": "The link may be old or mistyped. Search for a civilisation, a war, a country or a year instead.",
+    "home": "Go to search"
+  }
 }

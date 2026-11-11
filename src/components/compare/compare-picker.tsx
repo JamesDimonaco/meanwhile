@@ -7,6 +7,8 @@ import { search, searchIndex, type SearchEntry } from "@/components/search/searc
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
 import { formatYearRange } from "@/lib/years";
+import { CARD_LINK, CARD_TITLE, EmptyState, FIELD_LABEL, INPUT, SectionHeading } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 import { compareHref } from "./compare-href";
 
 const MAX_SUGGESTIONS = 8;
@@ -20,10 +22,13 @@ export function ComparePicker({
   entries,
   selected,
   label,
+  starters,
 }: {
   entries: SearchEntry[];
   selected: SearchEntry[];
   label: string;
+  /** Shown before anything is picked or typed, so the page is never just an empty box. */
+  starters: SearchEntry[];
 }) {
   const t = useTranslations("compare");
   const tCommon = useTranslations("common");
@@ -42,7 +47,7 @@ export function ComparePicker({
         .flatMap((r) => (r.type === "culture" && open(r.entry) ? [r.entry] : []))
         .slice(0, MAX_SUGGESTIONS);
     }
-    if (!anchor) return [];
+    if (!anchor) return starters;
     const years = (e: SearchEntry) =>
       Math.min(anchor.period.earliestEnd, e.period.earliestEnd) -
       Math.max(anchor.period.latestStart, e.period.latestStart) +
@@ -51,12 +56,12 @@ export function ComparePicker({
       .filter((e) => open(e) && years(e) > 0)
       .sort((a, b) => years(b) - years(a) || a.id.localeCompare(b.id))
       .slice(0, MAX_SUGGESTIONS);
-  }, [trimmed, entries, index, selected, anchor]);
+  }, [trimmed, entries, index, selected, anchor, starters]);
 
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-4">
       <label htmlFor={inputId} className="flex flex-col gap-1.5">
-        <span className="font-medium">{label}</span>
+        <span className={FIELD_LABEL}>{label}</span>
         <input
           id={inputId}
           type="search"
@@ -64,27 +69,30 @@ export function ComparePicker({
           onChange={(e) => setQuery(e.target.value)}
           placeholder={t("searchPlaceholder")}
           autoComplete="off"
-          className="rounded-lg border border-border bg-background px-4 py-3 text-base focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+          className={INPUT}
         />
       </label>
 
-      {trimmed && results.length === 0 && (
-        <p className="px-1 text-sm text-muted-foreground">{t("noResults", { query: trimmed })}</p>
-      )}
+      {/* Only the "nothing found" box is announced: a live region round the list would read all of it on every key. */}
+      {/* Always in the page, so a screen reader is already listening when the box arrives; the negative
+          margin takes back the column's gap while it is empty. */}
+      <div aria-live="polite" className="empty:-mt-4">
+        {trimmed && results.length === 0 && <EmptyState title={t("noResults", { query: trimmed })}>{t("noResultsHint")}</EmptyState>}
+      </div>
       {!trimmed && results.length > 0 && (
-        <h2 className="text-sm font-medium text-muted-foreground">{t("sameTime")}</h2>
+        <SectionHeading size="sub">{anchor ? t("sameTime") : t("suggestions")}</SectionHeading>
       )}
       {results.length > 0 && (
-        <ul aria-live="polite" className="grid grid-cols-1 gap-1.5 sm:grid-cols-2">
+        <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           {results.map((entry) => (
             <li key={entry.id}>
               <Link
                 prefetch={false}
                 href={compareHref([...selected.map((e) => e.id), entry.id])}
-                className="flex flex-col gap-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted"
+                className={cn(CARD_LINK, "flex h-full flex-col gap-1")}
               >
-                <span className="flex items-baseline gap-1.5">
-                  <span className="font-medium">{localize(entry.name, locale)}</span>
+                <span className="flex flex-wrap items-baseline gap-x-1.5">
+                  <span className={CARD_TITLE}>{localize(entry.name, locale)}</span>
                   {entry.nativeName && (
                     <span lang={entry.nativeName.lang} className="text-muted-foreground">
                       {entry.nativeName.text}

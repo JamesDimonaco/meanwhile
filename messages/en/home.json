@@ -8,5 +8,12 @@
   "seeOnTimeline": "See this year on the timeline",
   "resultsLabel": "Search results",
   "noResultsHint": "Try a civilisation, a war, a country or a year, like Inca, Opium War, Mexico or 1200 BCE.",
-  "kind": "{kind, select, year {Year} country {Country} culture {Civilisation} other {War}}"
+  "kind": "{kind, select, year {Year} country {Country} culture {Civilisation} other {War}}",
+  "browse": "More ways in",
+  "browseTimeline": "World timeline",
+  "browseTimelineHint": "Every civilisation on one chart. Pick a year and see who was around.",
+  "browseWars": "Wars by country",
+  "browseWarsHint": "Pick a country to see the wars fought on its land or by its peoples.",
+  "browseCompare": "Compare two civilisations",
+  "browseCompareHint": "See when they overlapped and what was happening in both."
 }

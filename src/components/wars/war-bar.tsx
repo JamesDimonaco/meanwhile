@@ -1,3 +1,4 @@
+import { useId } from "react";
 import { scaleLinear } from "d3-scale";
 import { useLocale, useTranslations } from "next-intl";
 import { DisputedBadge } from "@/components/culture/disputed-badge";
@@ -9,6 +10,8 @@ import { warOuter } from "@/lib/data/wars";
 
 const WIDTH = 1000;
 const HEIGHT = 12;
+/** Percent of the bar's width two phase numbers keep between them. */
+const MIN_NUMBER_GAP = 5;
 
 /** The war's dates as one bar, fading across uncertain edges, cut into its phases the way Rome's are. */
 export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"> }) {
@@ -28,6 +31,14 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
   const phases = war.phases.map((p) => ({ ...p, end: p.end + 1 }));
   const xScale = scaleLinear().domain([from, to + 1]).range([0, WIDTH]);
   const note = dated.note && localize(dated.note, locale);
+  const phasesId = useId();
+  // Each number under the middle of its phase, pushed along when two short phases would print on top of each other.
+  const numberAt = phases.reduce<number[]>((at, phase) => {
+    const middle = (xScale((phase.start + phase.end) / 2) / WIDTH) * 100;
+    return [...at, Math.max(middle, (at.at(-1) ?? -MIN_NUMBER_GAP) + MIN_NUMBER_GAP)];
+  }, []);
+  // Pushed past the bar's end, the run is pulled back from the last number, keeping the gaps.
+  for (let i = numberAt.length - 1, limit = 99; i >= 0; i--, limit -= MIN_NUMBER_GAP) numberAt[i] = Math.max(0, Math.min(numberAt[i], limit));
 
   return (
     <div className="flex flex-col gap-2">
@@ -43,15 +54,27 @@ export function WarBar({ war }: { war: Pick<War, "period" | "ongoing" | "phases"
         <PeriodBar period={period} phases={phases} xScale={xScale} height={HEIGHT} color="var(--primary)" fadeId="war-fade" />
       </svg>
       {war.phases.length > 0 && (
-        <section className="flex flex-col gap-1">
-          <h2 className="text-xs font-medium tracking-wide text-muted-foreground uppercase">{t("phases")}</h2>
-          <ol className="flex flex-col gap-1 text-sm">
+        <section className="flex flex-col gap-1.5">
+          {/* Each phase's number under its stretch of the bar, matching the list below. */}
+          <div aria-hidden className="relative -mt-1 h-4 text-xs font-medium text-muted-foreground tabular-nums">
+            {phases.map((phase, i) => (
+              <span key={phase.id} className="absolute -translate-x-1/2" style={{ insetInlineStart: `${numberAt[i]}%` }}>
+                {i + 1}
+              </span>
+            ))}
+          </div>
+          <p id={phasesId} className="text-sm leading-snug font-semibold">
+            {t("phases")}
+          </p>
+          <ol aria-labelledby={phasesId} className="flex flex-col gap-1.5 text-sm">
             {war.phases.map((phase, i) => (
-              <li key={phase.id} className="flex flex-wrap items-baseline gap-x-2">
+              <li key={phase.id} className="grid grid-cols-[auto_1fr] items-baseline gap-x-2">
                 <span className="text-muted-foreground tabular-nums">{i + 1}.</span>
-                <span className="font-medium">{localize(phase.name, locale)}</span>
-                <span className="text-muted-foreground">
-                  <YearRangeText start={phase.start} end={phase.end} />
+                <span className="flex flex-wrap items-baseline gap-x-2">
+                  <span className="font-medium">{localize(phase.name, locale)}</span>
+                  <span className="text-muted-foreground">
+                    <YearRangeText start={phase.start} end={phase.end} />
+                  </span>
                 </span>
               </li>
             ))}

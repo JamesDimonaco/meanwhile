@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
+import { cn } from "@/lib/utils";
 import { HTML_LANG, LOCALES, LOCALE_STORAGE_KEY, type Locale } from "@/i18n/locales";
 
 function remember(locale: Locale) {
@@ -45,10 +46,10 @@ function LanguageLinks({ search, gaps }: { search: string; gaps: Gaps }) {
   const pathname = usePathname();
   const only = gaps[pathname.replace(/\/$/, "")];
   return (
-    <nav aria-label={t("language")} className="flex items-center gap-1 text-sm">
+    <nav aria-label={t("language")} className="flex items-center text-sm">
       {LOCALES.map((locale, i) => (
-        <span key={locale} className="flex items-center gap-1">
-          {i > 0 && <span aria-hidden className="text-muted-foreground">·</span>}
+        <span key={locale} className="flex items-center">
+          {i > 0 && <span aria-hidden className="text-muted-foreground max-sm:hidden">·</span>}
           <Link
             prefetch={false}
             href={only && !only.includes(locale) ? "/wars" : `${pathname}${search}`}
@@ -56,11 +57,11 @@ function LanguageLinks({ search, gaps }: { search: string; gaps: Gaps }) {
             lang={HTML_LANG[locale]}
             aria-current={locale === current ? "true" : undefined}
             onClick={() => remember(locale)}
-            className={
-              locale === current
-                ? "rounded-md px-1.5 py-1 font-medium text-foreground"
-                : "rounded-md px-1.5 py-1 text-muted-foreground hover:text-foreground"
-            }
+            className={cn(
+              "inline-flex min-h-9 min-w-9 items-center justify-center rounded-md px-2 underline-offset-4 focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none pointer-coarse:min-h-11 pointer-coarse:min-w-11",
+              // The language you are reading is marked by weight and an underline, not by colour alone.
+              locale === current ? "font-semibold text-foreground underline" : "text-muted-foreground hover:text-foreground",
+            )}
           >
             <LanguageName locale={locale} short={t(`languageShort.${locale}`)} />
           </Link>

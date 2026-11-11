@@ -8,16 +8,18 @@ import { localize } from "@/lib/data/localize";
 import type { Side, SideMember, War } from "@/lib/data/war-schema";
 import { warSpan, type WarSpan } from "@/lib/data/wars";
 import { formatIsoDate } from "@/lib/years";
+import { CARD_MAIN_LINK, CARD_WITH_LINKS, TEXT_LINK } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 
 /** Culture id -> its name in the page's language, for culture members. */
 export type CultureNames = Record<string, string>;
 
 /** "1519–1521 CE", or "2022 – ongoing, as of 30 September 2026". */
-export function WarDates({ span: { start, end, asOf } }: { span: WarSpan }) {
+export function WarDates({ span: { start, end, asOf }, explain = false }: { span: WarSpan; explain?: boolean }) {
   const t = useTranslations("wars");
   const locale = useLocale();
-  if (end !== null || asOf === null) return <YearRangeText start={start} end={end ?? start} />;
-  return <span>{t.rich("ongoing", { start: () => <YearText year={start} />, date: formatIsoDate(asOf, locale) })}</span>;
+  if (end !== null || asOf === null) return <YearRangeText start={start} end={end ?? start} explain={explain} />;
+  return <span>{t.rich("ongoing", { start: () => <YearText year={start} explain={explain} />, date: formatIsoDate(asOf, locale) })}</span>;
 }
 
 type SideProps = { cultureNames: CultureNames; linkCultures: boolean; here?: string };
@@ -29,7 +31,7 @@ function MemberName({ member, cultureNames, linkCultures, here }: SideProps & { 
   if (member.kind === "culture") {
     const name = cultureNames[member.id] ?? member.id;
     return linkCultures ? (
-      <Link prefetch={false} href={`/c/${member.id}`} className="underline underline-offset-2">
+      <Link prefetch={false} href={`/c/${member.id}`} className={cn(TEXT_LINK, "text-foreground")}>
         {name}
       </Link>
     ) : (
@@ -82,10 +84,10 @@ export function SideList({
 }) {
   const t = useTranslations("wars");
   return (
-    <div className="flex flex-col gap-0.5 text-sm text-muted-foreground">
+    <div className="flex flex-col gap-1 text-sm text-muted-foreground">
       {sides.map((side, i) => (
-        <div key={side.id} className="flex flex-col gap-0.5">
-          {i > 0 && <span className="text-xs">{t("against")}</span>}
+        <div key={side.id} className="flex flex-col gap-1">
+          {i > 0 && <span className="text-sm">{t("against")}</span>}
           <SideLine side={side} cultureNames={cultureNames} linkCultures={linkCultures} here={here} />
         </div>
       ))}
@@ -113,16 +115,16 @@ export function WarRow({
 }) {
   const locale = useLocale();
   return (
-    <article className="flex flex-col gap-1.5 rounded-lg border border-border px-4 py-3">
+    <article className={cn(CARD_WITH_LINKS, "flex flex-col gap-2")}>
       {header}
-      <Link prefetch={false} href={`/war/${war.id}`} className="font-medium underline-offset-2 hover:underline">
+      <Link prefetch={false} href={`/war/${war.id}`} data-card-link className={CARD_MAIN_LINK}>
         {localize(war.name, locale)}
       </Link>
       <span className="text-sm text-muted-foreground">
         <WarDates span={warSpan(war)} />
       </span>
       <SideList sides={war.sides} cultureNames={cultureNames} here={here} />
-      <p className="text-sm">{localize(war.outcome, locale)}</p>
+      <p className="text-sm leading-relaxed text-foreground">{localize(war.outcome, locale)}</p>
       {children}
     </article>
   );

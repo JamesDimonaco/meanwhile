@@ -18,6 +18,9 @@ import "../globals.css";
 
 export const dynamicParams = false;
 
+const FOOTER_LINK =
+  "inline-flex min-h-11 items-center rounded-md px-3 font-medium underline-offset-4 hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none";
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -50,27 +53,41 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
         <Analytics />
         <NextIntlClientProvider>
           <ExplainerProvider>
-            <header className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1 px-4 py-3">
-              <Link href="/" className="font-semibold">
+            <a
+              href="#main"
+              className="sr-only focus-visible:not-sr-only focus-visible:absolute focus-visible:start-3 focus-visible:top-3 focus-visible:z-50 focus-visible:rounded-lg focus-visible:bg-primary focus-visible:px-4 focus-visible:py-3 focus-visible:text-sm focus-visible:font-medium focus-visible:text-primary-foreground"
+            >
+              {t("skipToContent")}
+            </a>
+            <header className="flex flex-wrap items-center justify-between gap-x-2 gap-y-1 px-3 py-1.5 sm:px-4">
+              <Link
+                href="/"
+                className="inline-flex min-h-11 items-center rounded-md px-1 font-semibold focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+              >
                 {t("appName")}
               </Link>
-              <div className="ms-auto flex items-center gap-2 whitespace-nowrap">
+              <div className="ms-auto flex items-center whitespace-nowrap sm:gap-1">
                 <ScanButton variant="header" />
                 <ExplainerTrigger />
                 <LanguageSwitcher gaps={gapsOnPagesIn(loadLocaleGaps(), locale)} />
               </div>
             </header>
-            <main className="flex-1 px-4 pb-8">{children}</main>
-            <footer className="flex flex-wrap justify-center gap-x-6 gap-y-2 border-t border-border px-4 py-4 text-sm">
-              <Link href="/timeline" className="underline-offset-2 hover:underline">
-                {t("nav.timeline")}
-              </Link>
-              <Link href="/wars" className="underline-offset-2 hover:underline">
-                {t("nav.wars")}
-              </Link>
-              <Link href="/credits" prefetch={false} className="underline-offset-2 hover:underline">
-                {t("nav.credits")}
-              </Link>
+            <main id="main" tabIndex={-1} className="flex-1 px-4 pb-12 focus:outline-none">{children}</main>
+            <footer className="border-t border-border px-2 py-2 text-sm">
+              <nav aria-label={t("siteNav")} className="flex flex-wrap justify-center gap-x-2">
+                <Link href="/" prefetch={false} className={FOOTER_LINK}>
+                  {t("nav.home")}
+                </Link>
+                <Link href="/timeline" className={FOOTER_LINK}>
+                  {t("nav.timeline")}
+                </Link>
+                <Link href="/wars" className={FOOTER_LINK}>
+                  {t("nav.wars")}
+                </Link>
+                <Link href="/credits" prefetch={false} className={FOOTER_LINK}>
+                  {t("nav.credits")}
+                </Link>
+              </nav>
             </footer>
           </ExplainerProvider>
         </NextIntlClientProvider>

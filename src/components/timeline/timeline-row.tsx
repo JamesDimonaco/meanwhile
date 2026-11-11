@@ -25,7 +25,7 @@ export const REGION_COLOR: Record<Region, string> = {
 /** Wars on a country's timeline: apart from every region colour (globals.test.ts). */
 export const WAR_COLOR = "var(--war)";
 
-const BAR_INSET = 4;
+const BAR_INSET = 11;
 /** Event dots are small to keep bars readable; the hit area is finger-sized. */
 const MARKER_HIT_RADIUS = 11;
 
@@ -33,7 +33,7 @@ const MARKER_HIT_RADIUS = 11;
 export function RowHeader({ y, height, children }: { y: number; height: number; children: ReactNode }) {
   return (
     <p
-      className="absolute inset-x-0 flex items-center gap-1.5 text-xs font-medium text-muted-foreground"
+      className="absolute inset-x-0 flex items-end gap-1.5 pb-1.5 text-xs font-semibold text-muted-foreground"
       style={{ top: y, height }}
     >
       {children}
@@ -53,23 +53,21 @@ export function RegionHeaderLabel({ region, y, height }: { region: Region; y: nu
 
 /**
  * Frozen name column: one row's name, row-aligned with its bar, linking to
- * its page, after an optional prefix (a flag). `twoLines` wraps a long name
- * onto a second line in rows tall enough for it, since a cut-off name can
- * read the same as another ("Second Anglo-M..." twice) and touch has no tooltip.
+ * its page, after an optional prefix (a flag). A long name wraps onto a second
+ * line, since a cut-off name can read the same as another ("Second Anglo-M..."
+ * twice) and touch has no tooltip.
  */
 export function RowLabel({
   href,
   name,
   y,
   height,
-  twoLines = false,
   children,
 }: {
   href: string;
   name: string;
   y: number;
   height: number;
-  twoLines?: boolean;
   children?: ReactNode;
 }) {
   return (
@@ -77,12 +75,46 @@ export function RowLabel({
       prefetch={false}
       href={href}
       title={name}
-      className="absolute inset-x-0 flex items-center gap-1 text-xs hover:underline"
+      // The hairline above each name (and across the chart, in TimelineChart) keeps a wrapped name with its own bar.
+      // It reaches across the gap to the chart (-me-2), and has square corners, so the two lines meet.
+      className="absolute start-0 -end-2 flex items-center gap-1.5 border-t border-border/70 pe-2 text-sm underline-offset-2 hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
       style={{ top: y, height }}
     >
       {children}
-      <span className={twoLines ? "line-clamp-2 leading-tight" : "truncate"}>{name}</span>
+      {/* Up to two 14px lines: the column is narrow on a phone. */}
+      <span className="line-clamp-2 leading-4">{name}</span>
     </Link>
+  );
+}
+
+/** What the marks on a timeline mean. `events`: the world timeline also draws a dot per key event. */
+export function TimelineLegend({ events = false }: { events?: boolean }) {
+  const t = useTranslations("timeline");
+  const item = "inline-flex items-center gap-1.5";
+  return (
+    <ul aria-label={t("legend")} className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
+      {events && (
+        <li className={item}>
+          <span aria-hidden className="size-2 rounded-full bg-foreground" />
+          {t("legendEvent")}
+        </li>
+      )}
+      <li className={item}>
+        <span aria-hidden className="h-2 w-6 rounded-sm bg-gradient-to-r from-foreground/0 via-foreground/60 to-foreground/0" />
+        {t("legendUncertain")}
+      </li>
+      <li className={item}>
+        <span aria-hidden className="h-2 w-6 rounded-sm border border-dashed border-amber-700" />
+        {t("legendDisputed")}
+      </li>
+      <li className={item}>
+        <span aria-hidden className="flex h-2 w-6 gap-px">
+          <span className="grow rounded-s-sm bg-foreground/60" />
+          <span className="grow rounded-e-sm bg-foreground/35" />
+        </span>
+        {t("legendPhases")}
+      </li>
+    </ul>
   );
 }
 
@@ -199,7 +231,7 @@ export function PeriodBar({
           y={0}
           width={Math.max(0, xScale(period.latestEnd) - xScale(period.earliestStart))}
           height={height}
-          className="fill-none stroke-amber-600 dark:stroke-amber-400"
+          className="fill-none stroke-amber-700"
           strokeDasharray="3 2"
           rx={2}
         />

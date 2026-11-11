@@ -6,12 +6,12 @@ import type { ScaleLinear } from "d3-scale";
 import { TimelineChart } from "@/components/timeline/timeline-chart";
 import { layoutCountryRows, type TimelineBar } from "@/components/timeline/timeline-layout";
 import { MIN_BAR_WIDTH, activeBars, atLeast, computeYearDomain, padDomain, snapToBar } from "@/components/timeline/timeline-math";
-import { PeriodBar, REGION_COLOR, RowHeader, RowLabel, WAR_COLOR } from "@/components/timeline/timeline-row";
+import { PeriodBar, REGION_COLOR, RowHeader, RowLabel, TimelineLegend, WAR_COLOR } from "@/components/timeline/timeline-row";
 import { useYearParam } from "@/components/timeline/use-year-param";
 import { itemHref } from "./item-href";
-import { YearPanel } from "@/components/timeline/year-panel";
+import { ActiveCount, PANEL_ID, YearPanel } from "@/components/timeline/year-panel";
 
-const BAR_INSET = 8;
+const BAR_INSET = 12;
 
 const barColor = (bar: TimelineBar) => (bar.region ? REGION_COLOR[bar.region] : WAR_COLOR);
 
@@ -70,12 +70,15 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
               {t(row.group)}
             </RowHeader>
           ) : (
-            <RowLabel href={itemHref(row.item)} name={row.item.name} y={top} height={row.height} twoLines />
+            <RowLabel href={itemHref(row.item)} name={row.item.name} y={top} height={row.height} />
           )
         }
         bars={(row, xScale) => <BarRow bar={row.item} y={row.y} height={row.height} xScale={xScale} />}
         snap={(bar, year, xScale) => snapToBar(year, bar.period, xScale)}
+        summary={<ActiveCount count={activeBars(bars, year).length} />}
+        legend={<TimelineLegend />}
       />
+      <div id={PANEL_ID} tabIndex={-1} className="scroll-mt-24 rounded-xl focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none">
       <YearPanel
         year={year}
         entries={activeBars(bars, year).map(({ bar, certain }) => ({
@@ -87,6 +90,7 @@ export function CountryTimeline({ bars, opening }: { bars: TimelineBar[]; openin
           color: barColor(bar),
         }))}
       />
+      </div>
     </div>
   );
 }

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { BeforeAfter } from "@/components/context/before-after";
 import { Columns2 } from "lucide-react";
+import { BackLink } from "@/components/ui/back-link";
+import { Disclosure, Page, PageTitle, Section, SectionHeading } from "@/components/ui/page";
 import { compareHref } from "@/components/compare/compare-href";
 import { CultureEvents } from "@/components/culture/culture-events";
 import { PeriodRange } from "@/components/culture/period-range";
@@ -80,17 +82,18 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
   const cultureNames = Object.fromEntries(cultures.map((c) => [c.id, localize(c.name, locale)]));
 
   return (
-    <article className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-4">
+    <Page as="article">
       <header className="flex flex-col gap-3">
+        <BackLink href="/">{tCommon("nav.home")}</BackLink>
         <p className="text-sm text-muted-foreground">{t("anchorLabel")}</p>
-        <h1 className="flex flex-wrap items-baseline gap-2 text-2xl font-semibold tracking-tight">
+        <PageTitle className="-mt-2 flex flex-wrap items-baseline gap-x-2">
           {localize(culture.name, locale)}
           {culture.nativeName && (
             <span lang={culture.nativeName.lang} className="text-lg font-normal text-muted-foreground">
               {culture.nativeName.text}
             </span>
           )}
-        </h1>
+        </PageTitle>
         <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted-foreground">
           <span className="inline-flex items-center gap-1.5">
             <RegionDot region={culture.region} />
@@ -99,9 +102,8 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           <HeartlandLinks cultureId={culture.id} />
         </p>
         <PeriodRange period={period} locale={locale} />
-        <BeforeAfter lines={beforeAfter} locale={locale} />
         {records.length > 0 && (
-          <p className="text-xs text-muted-foreground">
+          <p className="text-sm text-muted-foreground">
             {records.map((kind) => tContext("holds", { kind, disputed: String(period.disputed), appName: tCommon("appName") })).join(" ")}
           </p>
         )}
@@ -114,12 +116,12 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           {tCompare("compareWith")}
         </Link>
         {isMachineTranslated(culture, locale) && (
-          <p className="text-xs text-muted-foreground">{tCommon("machineTranslated")}</p>
+          <p className="text-sm text-muted-foreground">{tCommon("machineTranslated")}</p>
         )}
       </header>
 
       <section className="flex flex-col gap-3">
-        <h2 className="text-lg font-semibold tracking-tight">{t("heading")}</h2>
+        <SectionHeading>{t("heading")}</SectionHeading>
         <MeanwhileCards
           anchor={culture}
           candidates={candidates}
@@ -130,29 +132,45 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
         />
       </section>
 
-      <p className="text-base leading-relaxed">{localize(culture.description, locale)}</p>
+      <Section title={tCulture("about")}>
+        <p className="text-base leading-relaxed">{localize(culture.description, locale)}</p>
+      </Section>
+
+      {/* Below the moment (the cards), not above it: Rome's runs to five places. */}
+      <BeforeAfter lines={beforeAfter} locale={locale} />
 
       {alive.length > 0 && (
-        // Unfiltered: the region chips narrow the cards above, but this is the full list, rendered on the server.
-        <section className="flex flex-col gap-2">
-          <h2 className="text-sm font-medium text-muted-foreground">{t("alsoAlive")}</h2>
-          <ul className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+        // Unfiltered: the region chips narrow the cards above, but this is the full list, rendered on the
+        // server. Closed until asked for: Rome's runs past a hundred names, ahead of its key events.
+        <Disclosure
+          summary={
+            <span className="flex flex-col gap-0.5">
+              <span className="text-sm leading-snug font-semibold">{t("alsoAlive")}</span>
+              <span className="text-sm text-muted-foreground">{t("alsoAliveCount", { count: alive.length })}</span>
+            </span>
+          }
+        >
+          <ul className="grid grid-cols-1 gap-x-2 p-2 text-sm sm:grid-cols-2">
             {alive.map((c) => (
               <li key={c.id}>
-                <Link prefetch={false} href={`/c/${c.id}`} className="underline underline-offset-2">
-                  {localize(c.name, locale)}
-                </Link>{" "}
-                <span className="text-muted-foreground">
-                  <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} />
-                </span>
+                <Link
+                  prefetch={false}
+                  href={`/c/${c.id}`}
+                  className="flex min-h-11 flex-col justify-center rounded-lg px-2 py-1.5 hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+                >
+                  <span className="font-medium">{localize(c.name, locale)}</span>
+                  <span className="text-muted-foreground">
+                    <YearRangeText start={c.period.latestStart} end={c.period.earliestEnd} />
+                  </span>
+                </Link>
               </li>
             ))}
           </ul>
-        </section>
+        </Disclosure>
       )}
 
       <section className="flex flex-col gap-3">
-        <h2 className="text-lg font-semibold tracking-tight">{tCulture("keyEvents")}</h2>
+        <SectionHeading>{tCulture("keyEvents")}</SectionHeading>
         {hasTerritoryMap(culture.id) ? (
           <CultureStory culture={culture} eventWorld={world} />
         ) : (
@@ -162,7 +180,7 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
 
       {wars.length > 0 && (
         <section className="flex flex-col gap-3">
-          <h2 className="text-lg font-semibold tracking-tight">{tWars("cultureWars")}</h2>
+          <SectionHeading>{tWars("cultureWars")}</SectionHeading>
           <ol className="flex flex-col gap-3">
             {wars.map((war) => (
               <li key={war.id}>
@@ -172,6 +190,6 @@ export default async function CulturePage({ params }: PageProps<"/[locale]/c/[id
           </ol>
         </section>
       )}
-    </article>
+    </Page>
   );
 }

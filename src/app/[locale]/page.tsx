@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ChartGantt, Columns2, Swords } from "lucide-react";
 import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
 import { pageLocale } from "@/i18n/page-locale";
@@ -16,9 +17,11 @@ import { defaultPeriod } from "@/lib/data/queries";
 import { RECORD_KINDS, recordHolder } from "@/lib/data/records";
 import { RegionFilteredList } from "@/components/filters/region-filtered-list";
 import { regionsIn } from "@/components/filters/region-filter";
-import { HeartlandFlags } from "@/components/identity/heartland-flags";
+import { NameWithFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { ENGLISH_APP_NAME } from "@/i18n/app-name";
+import { CARD_LINK, CARD_TITLE, Page, PageTitle, SectionHeading } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 import { jsonLd, openGraph, pageAlternates, websiteJsonLd } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
@@ -55,17 +58,17 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const appName = tCommon("appName");
 
   return (
-    <div className="mx-auto flex w-full max-w-xl flex-col gap-8 pt-6">
+    <Page className="pt-6">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteJsonLd()) }} />
       <header className="flex flex-col gap-1 text-center">
-        <h1 className="text-2xl font-semibold tracking-tight">{appName}</h1>
+        <PageTitle>{appName}</PageTitle>
         {/* A language that names the site its own way (zh 同时代) shows the English name too, so it matches the domain. */}
         {appName !== ENGLISH_APP_NAME && (
           <p lang="en" className="text-sm text-muted-foreground">
             {ENGLISH_APP_NAME}
           </p>
         )}
-        <p className="text-sm text-muted-foreground">{tCommon("tagline")}</p>
+        <p className="text-base text-muted-foreground">{tCommon("tagline")}</p>
       </header>
 
       <ScanButton variant="home" />
@@ -76,10 +79,10 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       </Suspense>
 
       <section className="flex flex-col gap-3">
-        <h2 className="text-sm font-medium text-muted-foreground">{t("popular")}</h2>
+        <SectionHeading>{t("popular")}</SectionHeading>
         <RegionFilteredList
           available={regions}
-          className="grid grid-cols-1 gap-2.5 sm:grid-cols-2"
+          className="grid grid-cols-1 gap-3 sm:grid-cols-2"
           items={popular.map((c) => ({
             id: c.id,
             region: c.region,
@@ -87,16 +90,17 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
               <Link
                 prefetch={false}
                 href={`/c/${c.id}`}
-                className="flex min-w-0 flex-col gap-0.5 rounded-lg border border-border px-4 py-3 hover:bg-muted"
+                className={cn(CARD_LINK, "flex h-full min-w-0 flex-col gap-1")}
               >
-                <span className="flex flex-wrap items-center gap-x-1.5">
-                  <span className="font-medium">{localize(c.name, locale)}</span>
+                <span className="flex flex-wrap items-baseline gap-x-1.5">
+                  <span className={CARD_TITLE}>
+                    <NameWithFlags name={localize(c.name, locale)} cultureId={c.id} />
+                  </span>
                   {c.nativeName && (
                     <span lang={c.nativeName.lang} className="text-muted-foreground">
                       {c.nativeName.text}
                     </span>
                   )}
-                  <HeartlandFlags cultureId={c.id} />
                 </span>
                 <span className="text-sm text-muted-foreground">
                   <RegionDot region={c.region} /> {tCommon(`regions.${c.region}`)}
@@ -109,7 +113,31 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         />
       </section>
 
+      {/* The timeline, the wars and compare are otherwise only in the footer, three screens down on a phone. */}
+      <section className="flex flex-col gap-3">
+        <SectionHeading>{t("browse")}</SectionHeading>
+        <ul className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+          {(
+            [
+              { href: "/timeline", icon: ChartGantt, title: t("browseTimeline"), hint: t("browseTimelineHint") },
+              { href: "/wars", icon: Swords, title: t("browseWars"), hint: t("browseWarsHint") },
+              { href: "/compare", icon: Columns2, title: t("browseCompare"), hint: t("browseCompareHint") },
+            ] as const
+          ).map(({ href, icon: Icon, title, hint }) => (
+            <li key={href}>
+              <Link prefetch={false} href={href} className={cn(CARD_LINK, "flex h-full flex-col gap-1")}>
+                <span className={cn(CARD_TITLE, "flex items-center gap-2")}>
+                  <Icon aria-hidden className="size-4 shrink-0 text-muted-foreground" />
+                  {title}
+                </span>
+                <span className="text-sm text-muted-foreground">{hint}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
       <RecordsStrip holders={records} locale={locale} />
-    </div>
+    </Page>
   );
 }

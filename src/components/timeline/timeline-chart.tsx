@@ -15,7 +15,8 @@ import { QueryReader } from "./query-reader";
 import { FadeGradients, REGION_COLOR, WAR_COLOR } from "./timeline-row";
 import type { YearQuery } from "./use-year-param";
 
-const NAME_COL_WIDTH = 112;
+/** The frozen name column: 128px on a phone, 224px from 640px up, where most names fit in full. */
+const NAME_COL = "w-32 sm:w-56";
 const AXIS_SPACE = 16;
 /** Room for the axis labels, then the draggable year-line handle, above the rows. */
 const TOP_SPACE = AXIS_SPACE + 16;
@@ -27,7 +28,7 @@ const TICK_SPACING = 120;
 /** A touch that moves less than this is a tap on the chart, not a scroll. */
 const TAP_SLOP = 8;
 /** The chart's width on a 360px phone, for a fitted chart's prerendered zoom before it can measure itself. */
-const PHONE_CHART_WIDTH = 208;
+const PHONE_CHART_WIDTH = 192; // 360 - 2 x 16 page padding - 128 (NAME_COL's w-32) - 8 gap: change them together
 
 /**
  * Runs as the prerendered HTML is parsed, before the app's JS loads (seconds
@@ -67,6 +68,8 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   bars,
   snap,
   controls,
+  summary,
+  legend,
 }: {
   rows: TimelineRow<T, G>[];
   totalHeight: number;
@@ -82,6 +85,10 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   snap?: (item: T, year: number, xScale: ScaleLinear<number, number>) => number;
   /** Between the year bar and the chart (the world timeline's region chips). */
   controls?: ReactNode;
+  /** Under the year in the pinned bar: how many are alive that year, linking to the list below the chart. */
+  summary?: ReactNode;
+  /** What the marks mean, under the hint. */
+  legend?: ReactNode;
 }) {
   const locale = useLocale();
   const { eraStyle } = useSettings();
@@ -217,18 +224,18 @@ export function TimelineChart<T extends { id: string }, G extends string>({
   return (
     <>
       <QueryReader onQuery={query.read} />
-      <div className="sticky top-0 z-10 -mx-4 flex items-center justify-between gap-2 bg-background px-4 py-2">
-        <div className="flex flex-col">
+      <div className="sticky top-0 z-10 -mx-4 flex items-center justify-between gap-3 border-b border-border bg-background px-4 py-2">
+        <div className="flex min-w-0 flex-col">
           <output className="text-lg font-semibold tabular-nums">
-            <YearText year={year} />
+            <YearText year={year} explain />
           </output>
-          <p className="text-xs text-muted-foreground">{t("yearLine")}</p>
+          {summary}
         </div>
-        <div className="flex gap-1">
+        <div className="flex shrink-0 gap-2">
           <Button
             type="button"
             variant="outline"
-            size="icon-sm"
+            size="icon"
             aria-label={t("zoomOut")}
             disabled={pxPerYear <= minZoom}
             onClick={() => setPxPerYear((z) => clampZoom(z / ZOOM_FACTOR, minZoom))}
@@ -238,7 +245,7 @@ export function TimelineChart<T extends { id: string }, G extends string>({
           <Button
             type="button"
             variant="outline"
-            size="icon-sm"
+            size="icon"
             aria-label={t("zoomIn")}
             disabled={pxPerYear >= MAX_PX_PER_YEAR}
             onClick={() => setPxPerYear((z) => clampZoom(z * ZOOM_FACTOR, minZoom))}
@@ -250,8 +257,13 @@ export function TimelineChart<T extends { id: string }, G extends string>({
 
       {controls}
 
+      <div className="flex flex-col gap-2">
+        <p className="text-sm text-muted-foreground">{t("yearLine")}</p>
+        {legend}
+      </div>
+
       <div className="flex gap-2">
-        <div className="relative shrink-0" style={{ width: NAME_COL_WIDTH, height: svgHeight }}>
+        <div className={`relative shrink-0 ${NAME_COL}`} style={{ height: svgHeight }}>
           {rows.map((row) => (
             <Fragment key={rowKey(row)}>{label(row, row.y + TOP_SPACE)}</Fragment>
           ))}
@@ -265,12 +277,17 @@ export function TimelineChart<T extends { id: string }, G extends string>({
               ))}
               <FadeGradients id="tl-fade-war" color={WAR_COLOR} />
             </defs>
-            <g className="fill-muted-foreground text-[10px]">
+            <g className="fill-muted-foreground text-xs">
               {ticks.map((tick) => (
                 <text key={tick} x={xScale(tick)} y={AXIS_SPACE / 2} dy="0.35em" textAnchor={tickAnchor(xScale(tick), chartWidth)}>
                   {formatYear(tick, locale, eraStyle)}
                 </text>
               ))}
+            </g>
+            <g stroke="var(--border)" strokeOpacity={0.7}>
+              {rows.map((row) =>
+                row.kind === "item" ? <line key={rowKey(row)} x1={0} x2={chartWidth} y1={row.y + TOP_SPACE} y2={row.y + TOP_SPACE} /> : null,
+              )}
             </g>
             <g stroke="var(--border)">
               {ticks.map((tick) => (

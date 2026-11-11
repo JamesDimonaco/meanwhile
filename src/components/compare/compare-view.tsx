@@ -3,7 +3,10 @@
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { useSearchParams } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
-import { X } from "lucide-react";
+import { LoaderCircle, X } from "lucide-react";
+import { BackLink } from "@/components/ui/back-link";
+import { ErrorNote, Note, PageIntro, PageTitle, TALL_LINK, TEXT_LINK } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 import { EventDetail } from "@/components/culture/culture-events";
 import type { SearchEntry } from "@/components/search/search-index";
 import { YearRangeText } from "@/components/settings/year-text";
@@ -57,14 +60,21 @@ type Selected = { side: number; event: CompareEvent };
  * ?ids=a,b(,c) is read on the client so one static page serves every pair,
  * and the link can be shared. Only the shown cultures' data is fetched.
  */
-export function CompareView({ entries }: { entries: SearchEntry[] }) {
+export function CompareView({ entries, suggested }: { entries: SearchEntry[]; suggested: string[] }) {
   const t = useTranslations("compare");
+  const tCommon = useTranslations("common");
   const locale = useLocale();
   const searchParams = useSearchParams();
   const wide = useWide();
   const byId = useMemo(() => new Map(entries.map((e) => [e.id, e])), [entries]);
 
   const ids = parseCompareIds(searchParams.get("ids"), new Set(byId.keys()));
+  // A shared link can name a culture that was renamed or never existed: say so instead of quietly dropping it.
+  const unknown = (searchParams.get("ids") ?? "")
+    .split(",")
+    .map((id) => id.trim())
+    .filter((id) => id && !byId.has(id)).length;
+  const starters = useMemo(() => suggested.flatMap((id) => byId.get(id) ?? []), [suggested, byId]);
   const max = wide ? MAX_WIDE : MAX_NARROW;
   const shown = ids.slice(0, max);
   const hidden = ids.slice(max);
@@ -101,23 +111,26 @@ export function CompareView({ entries }: { entries: SearchEntry[] }) {
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-col gap-3">
-        <h1 className="text-2xl font-semibold tracking-tight">{t("title")}</h1>
+        <BackLink href="/">{tCommon("nav.home")}</BackLink>
+        <PageTitle>{t("title")}</PageTitle>
+        {selected.length < 2 && <PageIntro>{t("intro")}</PageIntro>}
+        {unknown > 0 && <Note>{t("unknown", { count: unknown })}</Note>}
         {selected.length > 0 && (
           <ul className="flex flex-wrap gap-2">
             {selected.map((entry, i) => (
               <li
                 key={entry.id}
-                className="flex items-center gap-1 rounded-full border border-border bg-card py-0.5 ps-3 pe-0.5 text-sm"
+                className="flex min-h-9 items-center gap-1 rounded-full border border-border bg-card ps-3 pe-1 text-sm pointer-coarse:min-h-11"
               >
                 <span aria-hidden className={`size-2.5 rounded-full ${SLOTS[i].bg}`} />
-                <Link prefetch={false} href={`/c/${entry.id}`} className="ms-1 font-medium underline-offset-2 hover:underline">
+                <Link prefetch={false} href={`/c/${entry.id}`} className={cn(TEXT_LINK, "ms-1 inline-flex min-h-6 items-center font-medium")}>
                   {localize(entry.name, locale)}
                 </Link>
                 <Link
                   prefetch={false}
                   href={compareHref(ids.filter((id) => id !== entry.id))}
                   aria-label={t("remove", { name: localize(entry.name, locale) })}
-                  className="relative flex size-7 items-center justify-center rounded-full text-muted-foreground after:absolute after:-inset-1 hover:bg-muted hover:text-foreground"
+                  className="flex size-8 items-center justify-center rounded-full text-muted-foreground hover:bg-muted hover:text-foreground focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none pointer-coarse:size-10"
                 >
                   <X aria-hidden className="size-4" />
                 </Link>
@@ -126,19 +139,17 @@ export function CompareView({ entries }: { entries: SearchEntry[] }) {
           </ul>
         )}
         {hidden.map((id) => (
-          <p key={id} className="text-sm text-muted-foreground">
-            {t("thirdHidden", { name: localize(byId.get(id)?.name ?? { en: id }, locale) })}
-          </p>
+          <Note key={id}>{t("thirdHidden", { name: localize(byId.get(id)?.name ?? { en: id }, locale) })}</Note>
         ))}
       </header>
 
       {selected.length < 2 ? (
-        <ComparePicker key={shown.join(",")} entries={entries} selected={selected} label={pickerLabel} />
+        <ComparePicker key={shown.join(",")} entries={entries} selected={selected} label={pickerLabel} starters={starters} />
       ) : (
         wide &&
         selected.length < MAX_WIDE &&
         (adding ? (
-          <ComparePicker key={shown.join(",")} entries={entries} selected={selected} label={pickerLabel} />
+          <ComparePicker key={shown.join(",")} entries={entries} selected={selected} label={pickerLabel} starters={starters} />
         ) : (
           <Button variant="outline" className="self-start" onClick={() => setAdding(true)}>
             {t("pickThird")}
@@ -146,13 +157,16 @@ export function CompareView({ entries }: { entries: SearchEntry[] }) {
         ))
       )}
 
-      {key && !current && <p className="text-sm text-muted-foreground">{t("loading")}</p>}
+      {key && !current && (
+        <p role="status" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <LoaderCircle aria-hidden className="size-4 animate-spin" />
+          {t("loading")}
+        </p>
+      )}
       {current && "failed" in current && (
-        <div className="flex flex-col items-start gap-2">
-          <p className="text-sm">{t("loadError")}</p>
-          <Button variant="outline" onClick={() => setAttempt((n) => n + 1)}>
-            {t("retry")}
-          </Button>
+        <div className="flex flex-col items-start gap-3">
+          <ErrorNote>{t("loadError")}</ErrorNote>
+          <Button onClick={() => setAttempt((n) => n + 1)}>{t("retry")}</Button>
         </div>
       )}
       {cultures && overlap && (
@@ -209,24 +223,24 @@ function EventSheet({
             <span className="text-muted-foreground">· {tCulture(`eventTypes.${event.type}`)}</span>
           </p>
           <p className="text-sm text-muted-foreground">
-            <YearRangeText start={event.start} end={event.end ?? event.start} />
+            <YearRangeText start={event.start} end={event.end ?? event.start} explain />
           </p>
         </div>
-        <Button variant="ghost" size="icon-sm" onClick={onClose} aria-label={t("close")}>
+        <Button variant="ghost" size="icon" onClick={onClose} aria-label={t("close")}>
           <X aria-hidden />
         </Button>
       </div>
-      <DialogTitle className="text-base leading-snug font-semibold">{localize(event.title, locale)}</DialogTitle>
+      <DialogTitle className="pe-0">{localize(event.title, locale)}</DialogTitle>
       <div className="flex flex-col gap-3 text-sm">
         <EventDetail event={event} world={world} />
-        <div className="flex flex-col gap-1.5 border-t border-border pt-3">
-          <Link prefetch={false} href={`/c/${culture.id}`} className="underline underline-offset-2">
+        <div className="flex flex-col border-t border-border pt-2">
+          <Link prefetch={false} href={`/c/${culture.id}`} className={cn(TEXT_LINK, TALL_LINK)}>
             {t("aboutCulture", { name })}
           </Link>
           <Link
             prefetch={false}
             href={{ pathname: "/timeline", query: { year: String(event.start) } }}
-            className="underline underline-offset-2"
+            className={cn(TEXT_LINK, TALL_LINK)}
           >
             {t("onTimeline")}
           </Link>

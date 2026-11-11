@@ -20,6 +20,27 @@ export function CountryFlag({ code }: { code: string }) {
   );
 }
 
+/**
+ * A culture's name with its heartland flags after it. The flags share a no-wrap span with the name's last
+ * word (its last two characters where the name has no spaces, as in Chinese), so a flag never wraps onto a
+ * line of its own. One order everywhere: name, flags, then any native name.
+ */
+export function NameWithFlags({ name, cultureId }: { name: string; cultureId: string }) {
+  // By character, not UTF-16 unit: a rare Han character is two units, and half of one is not a letter.
+  const chars = Array.from(name);
+  const cut = name.includes(" ") ? chars.lastIndexOf(" ") + 1 : Math.max(0, chars.length - 2);
+  return (
+    <>
+      {chars.slice(0, cut).join("")}
+      <span className="whitespace-nowrap">
+        {chars.slice(cut).join("")}
+        {HEARTLAND[cultureId] && "\u00a0"}
+        <HeartlandFlags cultureId={cultureId} />
+      </span>
+    </>
+  );
+}
+
 /** Trimmed below the number of UK nations listed, the Union Flag stands for them all, not the first one alone. */
 const flags = (codes: readonly string[], max?: number) =>
   max !== undefined && codes.length > max && codes.every(isNation) ? [UNION] : codes.slice(0, max);
@@ -39,7 +60,7 @@ export function HeartlandFlags({ cultureId, max }: { cultureId: string; max?: nu
   const countries = new Intl.ListFormat(locale, { type: "conjunction" }).format(codes.map((c) => countryName(c, locale)));
   const label = t("heartlandToday", { countries });
   return (
-    <span role="img" aria-label={label} title={label} className="inline-flex shrink-0 items-center gap-0.5">
+    <span role="img" aria-label={label} title={label} className="inline-flex shrink-0 items-center gap-0.5 align-[-0.05em]">
       {flags(codes, max).map((code) => (
         <CountryFlag key={code} code={code} />
       ))}

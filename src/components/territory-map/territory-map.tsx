@@ -8,6 +8,7 @@ import { YearText } from "@/components/settings/year-text";
 import { localize } from "@/lib/data/localize";
 import type { Borders, Geometry, Place } from "@/lib/data/schema";
 import { forD3, MAP_HEIGHT, MAP_WIDTH, mapExtent, mapProjection, snapshotAt } from "@/lib/map/geo";
+import { Button } from "@/components/ui/button";
 import { MapFrame } from "./map-frame";
 
 type GeoData = { land: Geometry; borders: Borders | null };
@@ -87,6 +88,7 @@ type Props = {
 export function TerritoryMap({ id, hasBorders, year, pin, pins = NO_PINS, nameSelf = false }: Props) {
   const t = useTranslations("map");
   const [data, setData] = useState<GeoData | "error" | null>(null);
+  const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
     let live = true;
@@ -97,10 +99,28 @@ export function TerritoryMap({ id, hasBorders, year, pin, pins = NO_PINS, nameSe
     return () => {
       live = false;
     };
-  }, [id, hasBorders]);
+  }, [id, hasBorders, attempt]);
 
-  if (data === "error") return <MapFrame>{t("unavailable")}</MapFrame>;
-  if (!data) return <MapFrame>{t("loading")}</MapFrame>;
+  if (data === "error") {
+    return (
+      <MapFrame problem>
+        <span className="flex flex-col items-center gap-3">
+          {t("unavailable")}
+          <Button
+            type="button"
+            variant="outline"
+            onClick={() => {
+              setData(null);
+              setAttempt((n) => n + 1);
+            }}
+          >
+            {t("retry")}
+          </Button>
+        </span>
+      </MapFrame>
+    );
+  }
+  if (!data) return <MapFrame />;
   return <MapSvg land={data.land} borders={data.borders} year={year} pin={pin} pins={pins} nameSelf={nameSelf} />;
 }
 
@@ -158,7 +178,7 @@ function MapSvg({
     <figure className="flex flex-col gap-1">
       <svg
         viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`}
-        className="w-full rounded-lg bg-muted"
+        className="w-full rounded-xl bg-muted"
         role="img"
         aria-label={t("title")}
       >
@@ -197,7 +217,7 @@ function MapSvg({
           </g>
         )}
       </svg>
-      <figcaption className="flex flex-col gap-0.5 text-xs text-muted-foreground">
+      <figcaption className="flex flex-col gap-0.5 text-sm text-muted-foreground">
         {borders && (
           <span className="text-sm text-foreground">
             {snapshot
@@ -207,18 +227,20 @@ function MapSvg({
         )}
         {nameSelf && selves.length > 0 && (
           <span className="flex items-center gap-1.5">
-            <span aria-hidden className="size-2.5 rounded-full bg-red-700/60 dark:bg-red-400/60" />
+            <span aria-hidden className="size-2.5 shrink-0 rounded-full bg-red-700/60" />
             {names(selves)}
           </span>
         )}
         {rivals.length > 0 && (
-          <span className="flex items-center gap-1.5">
-            <span aria-hidden className="size-2.5 rounded-full bg-muted-foreground/50" />
-            {t("rivals", { names: names(rivals) })}
+          <span className="flex items-baseline gap-1.5">
+            <span aria-hidden className="size-2.5 shrink-0 rounded-full bg-muted-foreground/50" />
+            <span className="line-clamp-2" title={t("rivals", { names: names(rivals) })}>
+              {t("rivals", { names: names(rivals) })}
+            </span>
           </span>
         )}
         {/* Full citations and the changes made are on the credits page. */}
-        <Link prefetch={false} href="/credits" className="underline-offset-2 hover:underline">
+        <Link prefetch={false} href="/credits" className="self-start text-xs underline underline-offset-2">
           {borders ? t("credit") : t("landCredit")}
         </Link>
       </figcaption>

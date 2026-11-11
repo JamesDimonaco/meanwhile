@@ -11,9 +11,11 @@ import type { NativeName, Region } from "@/lib/data/schema";
 import { NoneInRegions, StoredRegionChips } from "@/components/filters/region-chips";
 import { includesRegion } from "@/components/filters/region-filter";
 import { useRegionFilter } from "@/components/filters/use-region-filter";
-import { HeartlandFlags } from "@/components/identity/heartland-flags";
+import { NameWithFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { YearRangeText } from "@/components/settings/year-text";
+import { CARD, CARD_TITLE, Pill } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 
 /** What one card shows, already in the page's language. */
 export type MeanwhileCardData = {
@@ -54,7 +56,7 @@ export function MeanwhileFilter({
   const badges = useMemo(() => cardBadges(picked.map((id) => cards[id])), [picked, cards]);
 
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-4">
       <StoredRegionChips available={regions} />
       {picked.length === 0 ? (
         <NoneInRegions message="noneInRegions" />
@@ -64,21 +66,26 @@ export function MeanwhileFilter({
             const card = cards[id];
             const badge = badges[id];
             return (
-              <li key={id} className="relative">
-                <Link
-                  prefetch={false}
-                  href={`/c/${id}`}
-                  aria-label={tMeanwhile("reanchor", { name: card.name })}
-                  className="flex h-full min-w-0 flex-col gap-1.5 rounded-xl border border-border bg-card p-4 transition-colors hover:bg-muted"
-                >
-                  <span className={`flex flex-wrap items-center gap-x-1.5 ${anchor ? "pe-24" : ""}`}>
-                    <span className="font-medium text-foreground">{card.name}</span>
+              // The card's link is its name, stretched over the whole card (after:inset-0), so the
+              // name is what a screen reader hears and the card stays one tap target.
+              <li
+                key={id}
+                className={cn(CARD, "relative flex min-w-0 flex-col gap-1.5 transition-colors hover:bg-muted has-[a:focus-visible]:ring-3 has-[a:focus-visible]:ring-ring/50")}
+              >
+                  <span className={`flex flex-wrap items-baseline gap-x-1.5 ${anchor ? "pe-24" : ""}`}>
+                    <Link
+                      prefetch={false}
+                      href={`/c/${id}`}
+                      aria-label={tMeanwhile("reanchor", { name: card.name })}
+                      className={cn(CARD_TITLE, "after:absolute after:inset-0 after:rounded-xl focus-visible:outline-none")}
+                    >
+                      <NameWithFlags name={card.name} cultureId={id} />
+                    </Link>
                     {card.nativeName && (
                       <span lang={card.nativeName.lang} className="text-muted-foreground">
                         {card.nativeName.text}
                       </span>
                     )}
-                    <HeartlandFlags cultureId={id} />
                   </span>
                   <span className="text-sm text-muted-foreground">
                     <RegionDot region={card.region} /> {t(`regions.${card.region}`)}
@@ -86,19 +93,16 @@ export function MeanwhileFilter({
                     <YearRangeText start={card.period.latestStart} end={card.period.earliestEnd} />
                   </span>
                   {badge && (
-                    <span className="self-start rounded-full bg-muted px-2 py-0.5 text-xs text-muted-foreground">
-                      {tContext("badge", { kind: badge, disputed: String(card.period.disputed) })}
-                    </span>
+                    <Pill className="self-start">{tContext("badge", { kind: badge, disputed: String(card.period.disputed) })}</Pill>
                   )}
-                  {card.fact && <p className="mt-1 text-sm text-foreground/90">{card.fact}</p>}
-                </Link>
-                {/* A sibling of the card link, not inside it: links can't nest. */}
+                  {card.fact && <p className="mt-1 text-sm leading-relaxed">{card.fact}</p>}
+                {/* Above the stretched card link, with its own 44px hit area. */}
                 {anchor && (
                   <Link
                     prefetch={false}
                     href={compareHref([anchor.id, id])}
                     aria-label={tCompare("compareCardLabel", { a: anchor.name, b: card.name })}
-                    className="absolute end-3 top-3 inline-flex items-center gap-1 rounded-full border border-border bg-background px-2.5 py-1 text-xs font-medium after:absolute after:-inset-1.5 hover:bg-muted"
+                    className="absolute end-3 top-3 inline-flex min-h-7 items-center gap-1 rounded-full border border-border bg-background px-2.5 text-xs font-medium after:absolute after:-inset-2 hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
                   >
                     <Columns2 aria-hidden className="size-3.5" />
                     {tCompare("compareCard")}

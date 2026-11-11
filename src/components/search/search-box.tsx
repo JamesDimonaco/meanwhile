@@ -1,6 +1,6 @@
 "use client";
 
-import { useId, useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/lib/data/localize";
@@ -17,9 +17,12 @@ import { YearRangeText, YearText } from "@/components/settings/year-text";
 import { NoneInRegions, StoredRegionChips } from "@/components/filters/region-chips";
 import { includesRegion } from "@/components/filters/region-filter";
 import { useRegionFilter } from "@/components/filters/use-region-filter";
-import { CountryFlag, HeartlandFlags } from "@/components/identity/heartland-flags";
+import { CountryFlag, NameWithFlags } from "@/components/identity/heartland-flags";
 import { RegionDot } from "@/components/identity/region-dot";
 import { WarDates } from "@/components/wars/war-parts";
+import { SEARCH_INPUT_ID } from "./search-id";
+import { CARD_LINK, CARD_TITLE, EmptyState, FIELD_LABEL, INPUT, keepResultsAboveKeyboard, Pill } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 
 const MAX_RESULTS = 10;
 
@@ -28,9 +31,9 @@ const hitKey = (hit: SearchHit) => (hit.type === "year" ? "year" : hit.type === 
 /** One result: what it is on the first line beside its kind, details under it. */
 function ResultLink({ href, kind, children, details }: { href: Parameters<typeof Link>[0]["href"]; kind: string; children: ReactNode; details?: ReactNode }) {
   return (
-    <Link prefetch={false} href={href} className="grid grid-cols-[1fr_auto] items-start gap-x-2 gap-y-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted">
-      <span className="flex min-w-0 flex-wrap items-center gap-x-1.5">{children}</span>
-      <span className="mt-0.5 rounded-full border border-border px-1.5 text-xs text-muted-foreground">{kind}</span>
+    <Link prefetch={false} href={href} className={cn(CARD_LINK, "grid grid-cols-[1fr_auto] items-start gap-x-2 gap-y-1")}>
+      <span className="flex min-w-0 flex-wrap items-baseline gap-x-1.5">{children}</span>
+      <Pill tone="outline">{kind}</Pill>
       {details && <span className="col-span-2 text-sm text-muted-foreground">{details}</span>}
     </Link>
   );
@@ -53,7 +56,6 @@ export function SearchBox({
   const tCommon = useTranslations("common");
   const locale = useLocale();
   const [query, setQuery] = useState(initialQuery);
-  const listId = useId();
   const selection = useRegionFilter(regions);
 
   const index = useMemo(() => searchIndex({ locale, countries, cultures: entries, wars, allCountryPages: true }), [locale, countries, entries, wars]);
@@ -63,35 +65,38 @@ export function SearchBox({
   const results = hits.filter(inRegions).slice(0, MAX_RESULTS);
   const hiddenMatches = hits.some((hit) => !inRegions(hit));
   const trimmed = query.trim();
+  // "Search instead" on a failed scan links here as /#site-search from any page.
+  useEffect(() => {
+    if (window.location.hash === `#${SEARCH_INPUT_ID}`) document.getElementById(SEARCH_INPUT_ID)?.focus();
+  }, []);
 
   return (
-    <div className="flex flex-col gap-3">
-      <label className="flex flex-col gap-1.5" htmlFor={`${listId}-input`}>
-        <span className="text-sm font-medium text-muted-foreground">{t("searchLabel")}</span>
+    <div className="flex flex-col gap-4">
+      <label className="flex scroll-mt-3 flex-col gap-1.5" htmlFor={SEARCH_INPUT_ID}>
+        <span className={FIELD_LABEL}>{t("searchLabel")}</span>
         <input
-          id={`${listId}-input`}
+          id={SEARCH_INPUT_ID}
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          onFocus={(e) => keepResultsAboveKeyboard(e.currentTarget)}
           placeholder={t("searchPlaceholder")}
-          role="combobox"
-          aria-expanded={trimmed.length > 0}
-          aria-controls={listId}
           autoComplete="off"
-          className="rounded-lg border border-border bg-background px-4 py-3 text-base focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+          enterKeyHint="search"
+          className={INPUT}
         />
       </label>
+
+      {/* Above the results, as on the wars page: one row on a phone, so the first results still clear the keyboard. */}
+      <StoredRegionChips available={regions} />
 
       {trimmed && (
         <div aria-live="polite" className="flex flex-col gap-2">
           {results.length === 0 ? (
-            <div className="flex flex-col gap-1 px-1 text-sm text-muted-foreground">
-              <p>{t("noResults", { query: trimmed })}</p>
-              {/* With matches hidden by the region chips, the line under the results says so instead. */}
-              {!hiddenMatches && <p>{t("noResultsHint")}</p>}
-            </div>
+            // With matches hidden by the region chips, the box under this one says so instead.
+            !hiddenMatches && <EmptyState title={t("noResults", { query: trimmed })}>{t("noResultsHint")}</EmptyState>
           ) : (
-            <ul id={listId} aria-label={t("resultsLabel")} className="flex flex-col gap-1.5">
+            <ul aria-label={t("resultsLabel")} className="flex flex-col gap-2">
               {results.map((hit) => (
                 <li key={hitKey(hit)}>
                   {hit.type === "year" ? (
@@ -100,12 +105,14 @@ export function SearchBox({
                       kind={t("kind", { kind: "year" })}
                       details={<YearText year={hit.year} />}
                     >
-                      <span className="font-medium">{t("seeOnTimeline")}</span>
+                      <span className={CARD_TITLE}>{t("seeOnTimeline")}</span>
                     </ResultLink>
                   ) : hit.type === "country" ? (
                     <ResultLink href={`/country/${hit.entry.code.toLowerCase()}`} kind={t("kind", { kind: "country" })}>
-                      <CountryFlag code={hit.entry.code} />
-                      <span className="font-medium">{hit.entry.name}</span>
+                      <span className={cn(CARD_TITLE, "inline-flex items-center gap-1.5")}>
+                        <CountryFlag code={hit.entry.code} />
+                        {hit.entry.name}
+                      </span>
                     </ResultLink>
                   ) : hit.type === "culture" ? (
                     <ResultLink
@@ -119,20 +126,18 @@ export function SearchBox({
                         </>
                       }
                     >
-                      <span className="font-medium">{localize(hit.entry.name, locale)}</span>
-                      {/* One flex item, so a wrapping row never leaves the flag on a line of its own. */}
-                      <span className="inline-flex min-w-0 items-center gap-x-1.5">
-                        {hit.entry.nativeName && (
-                          <span lang={hit.entry.nativeName.lang} className="text-muted-foreground">
-                            {hit.entry.nativeName.text}
-                          </span>
-                        )}
-                        <HeartlandFlags cultureId={hit.entry.id} />
+                      <span className={CARD_TITLE}>
+                        <NameWithFlags name={localize(hit.entry.name, locale)} cultureId={hit.entry.id} />
                       </span>
+                      {hit.entry.nativeName && (
+                        <span lang={hit.entry.nativeName.lang} className="text-muted-foreground">
+                          {hit.entry.nativeName.text}
+                        </span>
+                      )}
                     </ResultLink>
                   ) : (
                     <ResultLink href={`/war/${hit.entry.id}`} kind={t("kind", { kind: "war" })} details={<WarDates span={hit.entry.span} />}>
-                      <span className="font-medium">{hit.entry.name}</span>
+                      <span className={CARD_TITLE}>{hit.entry.name}</span>
                     </ResultLink>
                   )}
                 </li>
@@ -142,9 +147,6 @@ export function SearchBox({
           {hiddenMatches && <NoneInRegions message="hiddenByFilter" />}
         </div>
       )}
-
-      {/* Below the results, so a phone keyboard leaves the first results in view while typing. */}
-      <StoredRegionChips available={regions} />
     </div>
   );
 }

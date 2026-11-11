@@ -2,5 +2,6 @@
   "heading": "Mientras tanto…",
   "anchorLabel": "Estás viendo",
   "reanchor": "Ver qué pasaba durante {name}",
-  "alsoAlive": "También existían al mismo tiempo"
+  "alsoAlive": "También existían al mismo tiempo",
+  "alsoAliveCount": "{count, plural, one {# civilización más} other {# civilizaciones más}}"
 }

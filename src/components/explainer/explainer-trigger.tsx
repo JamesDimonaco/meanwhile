@@ -10,7 +10,7 @@ export function ExplainerTrigger() {
   const t = useTranslations("common");
   const { open } = useExplainer();
   return (
-    <Button type="button" variant="ghost" size="icon-sm" onClick={() => open()} aria-label={t("explainerTrigger")}>
+    <Button type="button" variant="ghost" size="icon" onClick={() => open()} aria-label={t("explainerTrigger")}>
       <CircleHelp />
     </Button>
   );

@@ -8,5 +8,12 @@
   "seeOnTimeline": "在时间线上查看这一年",
   "resultsLabel": "搜索结果",
   "noResultsHint": "试试文明、战争、国家或年份，例如印加、鸦片战争、墨西哥或公元前1200年。",
-  "kind": "{kind, select, year {年份} country {国家} culture {文明} other {战争}}"
+  "kind": "{kind, select, year {年份} country {国家} culture {文明} other {战争}}",
+  "browse": "其他入口",
+  "browseTimeline": "世界时间线",
+  "browseTimelineHint": "所有文明在同一张图上。选一个年份，看看当时有谁。",
+  "browseWars": "按国家查看战争",
+  "browseWarsHint": "选择一个国家，查看在其土地上或由其人民进行的战争。",
+  "browseCompare": "比较两个文明",
+  "browseCompareHint": "看看它们何时并存，以及两边各自发生了什么。"
 }

@@ -28,5 +28,9 @@
   "compareWith": "Compare with…",
   "compareCard": "Compare",
   "compareCardLabel": "Compare {a} with {b}",
-  "thirdHidden": "{name} is hidden: a third culture needs a wider screen"
+  "thirdHidden": "{name} is hidden: a third culture needs a wider screen",
+  "intro": "Put two civilisations side by side: when each lived, how long they overlapped, and what was happening in both, year by year.",
+  "unknown": "{count, plural, one {One culture in this link wasn't recognised, so it was left out.} other {# cultures in this link weren't recognised, so they were left out.}}",
+  "suggestions": "Or start from one of these",
+  "noResultsHint": "Try a civilisation or dynasty, like Han, Inca or Maya."
 }

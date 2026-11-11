@@ -5,6 +5,7 @@ import { toTimelineCulture } from "@/components/timeline/timeline-layout";
 import { WorldTimeline } from "@/components/timeline/world-timeline";
 import { loadCultures } from "@/lib/data/load";
 import { openGraph, pageAlternates } from "@/lib/seo";
+import { PageTitle } from "@/components/ui/page";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/timeline">): Promise<Metadata> {
   const locale = await pageLocale(params);
@@ -26,8 +27,8 @@ export default async function TimelinePage({ params }: PageProps<"/[locale]/time
   const t = await getTranslations("timeline");
   const cultures = loadCultures().map((c) => toTimelineCulture(c, locale));
   return (
-    <section className="flex flex-col gap-4">
-      <h1 className="text-2xl font-semibold">{t("title")}</h1>
+    <section className="flex flex-col gap-4 pt-2">
+      <PageTitle>{t("title")}</PageTitle>
       <WorldTimeline cultures={cultures} />
     </section>
   );

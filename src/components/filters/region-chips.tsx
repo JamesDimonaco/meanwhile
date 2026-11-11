@@ -1,9 +1,11 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { useEffect, useId, useRef, useState, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import type { Region } from "@/lib/data/schema";
 import { RegionDot } from "@/components/identity/region-dot";
+import { Button } from "@/components/ui/button";
+import { EmptyState, FIELD_LABEL, TEXT_LINK, TOUCH_AREA } from "@/components/ui/page";
 import { cn } from "@/lib/utils";
 import { toggleRegion } from "./region-filter";
 import { saveRegionFilter, useRegionFilter } from "./use-region-filter";
@@ -16,14 +18,79 @@ export function Chip({ pressed, onClick, children }: { pressed: boolean; onClick
       aria-pressed={pressed}
       onClick={onClick}
       className={cn(
-        "inline-flex h-8 items-center gap-1.5 rounded-full border px-3 text-xs font-medium whitespace-nowrap transition-colors focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none",
+        "inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full border px-3.5 text-sm font-medium whitespace-nowrap transition-colors focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none pointer-coarse:h-11",
         pressed
           ? "border-foreground bg-foreground text-background"
-          : "border-border text-muted-foreground hover:bg-muted hover:text-foreground",
+          : "border-foreground/25 text-foreground hover:bg-muted",
       )}
     >
       {children}
     </button>
+  );
+}
+
+/** A labelled row of filter chips: the one filter pattern, on every list. */
+export function ChipGroup({ label, children }: { label: string; children: ReactNode }) {
+  const id = useId();
+  const row = useRef<HTMLDivElement>(null);
+  const lastPressed = useRef("");
+  const [more, setMore] = useState({ start: false, end: false, rtl: false });
+  const fadeEdges = () => {
+    const el = row.current;
+    if (!el) return;
+    // scrollLeft runs negative in a right-to-left row.
+    const scrolled = Math.abs(el.scrollLeft);
+    const next = { start: scrolled > 4, end: scrolled + el.clientWidth < el.scrollWidth - 4, rtl: getComputedStyle(el).direction === "rtl" };
+    setMore((now) => (now.start === next.start && now.end === next.end && now.rtl === next.rtl ? now : next));
+  };
+  const fade =
+    more.start || more.end
+      ? `linear-gradient(${more.rtl ? "to left" : "to right"}, ${more.start ? "transparent, black 2.5rem" : "black"}, ${more.end ? "black calc(100% - 3rem), transparent" : "black"})`
+      : undefined;
+  const touched = useRef(false);
+  // A saved choice can be a chip that starts off-screen on a phone: bring it into the row's view, so
+  // it is plain that a filter is on. Only until the visitor touches the row: after that every change is a
+  // chip they tapped, which is already in view, and the row must not jump to another pressed chip.
+  useEffect(() => {
+    const el = row.current;
+    if (!el || touched.current) return;
+    const chips = [...el.querySelectorAll<HTMLElement>("[aria-pressed]")];
+    const signature = chips.map((chip) => chip.getAttribute("aria-pressed")).join();
+    if (signature === lastPressed.current) return;
+    lastPressed.current = signature;
+    const pressed = chips.find((chip) => chip.getAttribute("aria-pressed") === "true");
+    if (!pressed) return;
+    const start = pressed.offsetLeft - el.offsetLeft;
+    if (start < el.scrollLeft || start + pressed.offsetWidth > el.scrollLeft + el.clientWidth) el.scrollLeft = start - 16;
+  });
+  // Which edges fade depends on the row's width and its chips' (a phone turned sideways, a font arriving late).
+  useEffect(() => {
+    const el = row.current;
+    if (!el) return;
+    const observer = new ResizeObserver(fadeEdges);
+    observer.observe(el);
+    for (const chip of el.children) observer.observe(chip);
+    return () => observer.disconnect();
+  }, []);
+  return (
+    <div role="group" aria-labelledby={id} className="flex flex-col gap-2">
+      <span id={id} className={FIELD_LABEL}>
+        {label}
+      </span>
+      {/* Phones: one row that scrolls sideways to the screen's edges (the cut-off chip shows there is more),
+          so nine regions cost one row, not four. Wider screens wrap. */}
+      <div
+        ref={row}
+        onScroll={fadeEdges}
+        onPointerDown={() => (touched.current = true)}
+        onKeyDown={() => (touched.current = true)}
+        // The row fades at whichever edge has more chips beyond it.
+        style={{ maskImage: fade, WebkitMaskImage: fade }}
+        className="flex gap-2 max-sm:-mx-4 max-sm:overflow-x-auto max-sm:px-4 max-sm:py-1 max-sm:[scrollbar-width:none] sm:flex-wrap max-sm:[&::-webkit-scrollbar]:hidden"
+      >
+        {children}
+      </div>
+    </div>
   );
 }
 
@@ -39,7 +106,7 @@ export function RegionChips({
 }) {
   const t = useTranslations("common");
   return (
-    <div role="group" aria-label={t("regionFilter")} className="flex flex-wrap gap-1.5">
+    <ChipGroup label={t("regionFilter")}>
       <Chip pressed={selection.length === 0} onClick={() => onChange([])}>
         {t("allRegions")}
       </Chip>
@@ -53,7 +120,7 @@ export function RegionChips({
           {t(`regions.${region}`)}
         </Chip>
       ))}
-    </div>
+    </ChipGroup>
   );
 }
 
@@ -71,16 +138,30 @@ export function NoneInRegions({
   onShowAll?: () => void;
 }) {
   const t = useTranslations("common");
+  // "Some matches are hidden" sits under results or beside another empty list: a plain line, so a page
+  // never shows two boxes with the same button.
+  if (message === "hiddenByFilter") {
+    return (
+      <p className="flex flex-wrap items-center gap-x-2 text-sm text-muted-foreground">
+        {t(message)}
+        <button
+          type="button"
+          onClick={onShowAll}
+          className={cn(TEXT_LINK, TOUCH_AREA, "inline-flex min-h-6 items-center font-medium text-foreground")}
+        >
+          {t("showAllRegions")}
+        </button>
+      </p>
+    );
+  }
   return (
-    <p className="px-1 text-sm text-muted-foreground">
-      {t(message)}{" "}
-      <button
-        type="button"
-        onClick={onShowAll}
-        className="font-medium text-foreground underline underline-offset-2"
-      >
-        {t("showAllRegions")}
-      </button>
-    </p>
+    <EmptyState
+      title={t(message)}
+      action={
+        <Button type="button" variant="outline" size="sm" onClick={onShowAll}>
+          {t("showAllRegions")}
+        </Button>
+      }
+    />
   );
 }

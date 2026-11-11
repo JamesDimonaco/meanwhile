@@ -2,9 +2,9 @@
 
 import { useId, useState } from "react";
 import { useTranslations } from "next-intl";
+import { pillClass, TOUCH_AREA } from "@/components/ui/page";
 
-const PILL =
-  "inline-flex items-center rounded-full bg-amber-500/15 px-2 py-0.5 text-xs font-medium text-amber-700 dark:text-amber-400";
+const PILL = pillClass("warning");
 
 /**
  * Small "disputed" flag: uncertainty shown, not hidden. Given a note, the
@@ -24,11 +24,11 @@ export function DisputedBadge({ note }: { note?: string }) {
         aria-expanded={open}
         aria-controls={noteId}
         onClick={() => setOpen((o) => !o)}
-        className={`${PILL} cursor-pointer underline decoration-dotted underline-offset-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50`}
+        className={`${PILL} ${TOUCH_AREA} cursor-pointer underline decoration-dotted underline-offset-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50`}
       >
         {t("disputed")}
       </button>
-      <p id={noteId} hidden={!open} className="basis-full text-sm text-muted-foreground italic">
+      <p id={noteId} hidden={!open} className="basis-full text-sm text-muted-foreground">
         {note}
       </p>
     </>

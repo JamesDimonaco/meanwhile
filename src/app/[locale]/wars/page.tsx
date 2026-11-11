@@ -7,6 +7,7 @@ import { CONTINENTS } from "@/lib/data/countries";
 import { loadWars } from "@/lib/data/load";
 import { countryIndex } from "@/lib/data/wars";
 import { pageAlternates } from "@/lib/seo";
+import { Page, PageIntro, PageTitle } from "@/components/ui/page";
 
 export const dynamic = "force-static";
 
@@ -24,16 +25,16 @@ export default async function WarsPage({ params }: PageProps<"/[locale]/wars">) 
   const countries = countryIndex(wars, locale);
 
   return (
-    <section className="mx-auto flex w-full max-w-xl flex-col gap-6 pt-4">
+    <Page as="section" className="gap-6">
       <header className="flex flex-col gap-2">
-        <h1 className="text-2xl font-semibold tracking-tight">{t("title")}</h1>
-        <p className="text-sm text-muted-foreground">{t("intro")}</p>
+        <PageTitle>{t("title")}</PageTitle>
+        <PageIntro>{t("intro")}</PageIntro>
       </header>
       <CountryList
         countries={countries}
         continents={CONTINENTS.filter((c) => countries.some((country) => country.continent === c))}
         wars={warSearchEntries(wars, locale)}
       />
-    </section>
+    </Page>
   );
 }

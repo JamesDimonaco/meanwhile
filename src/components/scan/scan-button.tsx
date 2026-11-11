@@ -1,15 +1,18 @@
 "use client";
 
 import { useRef, useState, useTransition, type Ref } from "react";
-import { Camera, LoaderCircle } from "lucide-react";
+import { Camera, LoaderCircle, Search } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { SEARCH_INPUT_ID } from "@/components/search/search-id";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { YearRangeText } from "@/components/settings/year-text";
 import { Link, useRouter } from "@/i18n/navigation";
 import { timelineYear, type ScanResponse, type ScanResult } from "@/lib/scan/result";
 import { downscaleToJpeg } from "./downscale";
 import { scanPhoto, type Problem } from "./scan-photo";
+import { CARD_LINK, CARD_TITLE, ErrorNote } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 
 type Phase =
   | { kind: "idle" }
@@ -76,6 +79,8 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
     setPhase({ kind: "noMatch", reading });
   }
 
+  // Another photo can't help when the service is down or the limit is reached. No signal can come back in a moment.
+  const canRetry = phase.kind !== "problem" || (phase.problem !== "unavailable" && phase.problem !== "rateLimited");
   const busy = opening || phase.kind === "preparing" || phase.kind === "reading";
   const status = opening ? t("opening") : phase.kind === "preparing" ? t("preparing") : t("reading");
 
@@ -84,13 +89,13 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
       <PhotoInput ref={input} onPhoto={scan} />
 
       {variant === "header" ? (
-        <Button type="button" variant="ghost" size="icon-sm" onClick={() => input.current?.click()} aria-label={t("buttonShort")}>
+        <Button type="button" variant="ghost" size="icon" onClick={() => input.current?.click()} aria-label={t("buttonShort")}>
           <Camera />
         </Button>
       ) : (
         <div className="flex flex-col gap-2">
-          <Button type="button" size="lg" className="h-12 w-full gap-2 text-base" onClick={() => input.current?.click()}>
-            <Camera className="size-5" />
+          <Button type="button" size="lg" className="h-12 w-full" onClick={() => input.current?.click()}>
+            <Camera />
             {t("button")}
           </Button>
           <p className="text-center text-sm text-muted-foreground">{t("hint")}</p>
@@ -110,7 +115,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
               </p>
             )}
 
-            {!opening && phase.kind === "problem" && <p role="alert">{t(phase.problem)}</p>}
+            {!opening && phase.kind === "problem" && <ErrorNote>{t(phase.problem)}</ErrorNote>}
 
             {!opening && phase.kind === "noMatch" && (
               <div className="flex flex-col gap-3">
@@ -125,9 +130,9 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                     prefetch={false}
                     href={{ pathname: "/timeline", query: { year: String(timelineYear(phase.reading.year)) } }}
                     onClick={close}
-                    className="flex flex-col gap-0.5 rounded-lg border border-border px-3 py-2.5 hover:bg-muted"
+                    className={cn(CARD_LINK, "flex flex-col gap-0.5 no-underline")}
                   >
-                    <span className="font-medium">{t("seeOnTimeline")}</span>
+                    <span className={CARD_TITLE}>{t("seeOnTimeline")}</span>
                     <span className="text-muted-foreground">
                       <YearRangeText start={phase.reading.year.start} end={phase.reading.year.end} />
                     </span>
@@ -138,7 +143,7 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                     prefetch={false}
                     href={{ pathname: "/", query: { q: phase.reading.text } }}
                     onClick={close}
-                    className="rounded-lg border border-border px-3 py-2.5 font-medium hover:bg-muted"
+                    className={cn(CARD_LINK, CARD_TITLE, "no-underline")}
                   >
                     {t("searchWith")}
                   </Link>
@@ -146,7 +151,25 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
               </div>
             )}
 
-            {!busy && (
+            <div className="flex flex-col gap-2 empty:hidden">
+            {!opening && phase.kind === "problem" && (
+              // Every problem has the same way out: the search box does what a scan would have.
+              <Link
+                prefetch={false}
+                href={{ pathname: "/", hash: SEARCH_INPUT_ID }}
+                onClick={() => {
+                  close();
+                  // Already on the home page: the link goes nowhere, so put the cursor in the box.
+                  requestAnimationFrame(() => document.getElementById(SEARCH_INPUT_ID)?.focus());
+                }}
+                className={buttonVariants({ variant: "default" })}
+              >
+                <Search aria-hidden />
+                {t("searchInstead")}
+              </Link>
+            )}
+
+            {!busy && canRetry && (
               <>
                 {/* Its own input: the page behind an open dialog is inert. */}
                 <PhotoInput ref={againInput} onPhoto={scan} />
@@ -156,8 +179,9 @@ export function ScanButton({ variant }: { variant: "header" | "home" }) {
                 </Button>
               </>
             )}
+            </div>
 
-            <p className="text-xs text-muted-foreground">{t("privacy")}</p>
+            <p className="text-sm text-muted-foreground">{t("privacy")}</p>
           </DialogDescription>
         </DialogContent>
       </Dialog>

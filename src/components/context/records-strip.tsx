@@ -6,6 +6,8 @@ import type { LocalizedText, Period } from "@/lib/data/schema";
 import { likelySpan, type RecordKind } from "@/lib/data/records";
 import { roundYearsAgo } from "@/lib/years";
 import { YearRangeText } from "@/components/settings/year-text";
+import { SectionHeading, TEXT_LINK } from "@/components/ui/page";
+import { cn } from "@/lib/utils";
 import { DisputedBadge } from "@/components/culture/disputed-badge";
 
 /** Home: the all-time oldest, newest and longest-lasting cultures, with their numbers. */
@@ -20,29 +22,34 @@ export async function RecordsStrip({
 
   return (
     <section className="flex flex-col gap-3">
-      <h2 className="text-sm font-medium text-muted-foreground">{t("records")}</h2>
-      <ul className="flex flex-col gap-2 text-sm">
+      <SectionHeading>{t("records")}</SectionHeading>
+      <ul className="flex flex-col gap-3 text-sm">
         {holders.map(({ kind, holder }) => {
           const span = likelySpan(holder.period);
           return (
-            <li key={kind} className="flex flex-wrap items-baseline gap-x-1.5 gap-y-1">
-              <span className="text-muted-foreground">{t(kind)}</span>
-              <Link prefetch={false} href={`/c/${holder.id}`} className="font-medium underline-offset-2 hover:underline">
-                {localize(holder.name, locale)}
-              </Link>
+            <li key={kind} className="flex flex-col gap-0.5">
+              <span className="flex flex-wrap items-baseline gap-x-1.5">
+                <span className="text-muted-foreground">{t(kind)}</span>
+                <Link prefetch={false} href={`/c/${holder.id}`} className={cn(TEXT_LINK, "relative z-10 font-medium")}>
+                  {localize(holder.name, locale)}
+                </Link>
+              </span>
+              {/* The "Disputed" flag always sits beside the figure it qualifies, never alone on a line. */}
+              <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
               <span className="text-muted-foreground">
                 {kind === "longest" ? (
                   t("lasted", { count: roundYearsAgo(Math.round(span.duration)) })
                 ) : (
                   t.rich("began", {
                     // The midpoint only ranks; showing it would invent a date no source gives (Qing: 1636 or 1644, never 1640).
-                    year: () => <YearRangeText start={holder.period.earliestStart} end={holder.period.latestStart} />,
+                    year: () => <YearRangeText start={holder.period.earliestStart} end={holder.period.latestStart} explain />,
                   })
                 )}
               </span>
               {holder.period.disputed && (
                 <DisputedBadge note={holder.period.note && localize(holder.period.note, locale)} />
               )}
+              </span>
             </li>
           );
         })}

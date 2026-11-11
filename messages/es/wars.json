@@ -47,5 +47,6 @@
   "before": "<label>Empezó antes que esta:</label> <link>{name}</link>",
   "after": "<label>Empezó después de esta:</label> <link>{name}</link>",
   "cultures": "Culturas a las que puso fin o transformó",
-  "cultureWars": "Guerras"
+  "cultureWars": "Guerras",
+  "noMatchHint": "Prueba con un país o una guerra, como México, Vietnam o Guerra del Opio."
 }
